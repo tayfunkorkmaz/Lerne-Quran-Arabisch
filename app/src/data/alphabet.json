@@ -1,0 +1,1343 @@
+{
+  "meta": {
+    "sources": [
+      {
+        "label": "Ryding, Reference Grammar of Modern Standard Arabic — Phonology & Script",
+        "url": "https://archive.org/details/07AReferenceGrammarOfModernStandardArabic"
+      },
+      {
+        "label": "Wright's Grammar Vol I — Alphabet",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      }
+    ]
+  },
+  "letters": [
+    {
+      "id": 1,
+      "name": "Alif",
+      "transliteration": "ā / ʾ",
+      "sound": "Stimmritzenverschluss (Glottalstopp) oder Langvokal ā",
+      "articulationPoint": "Kehlkopf (Glottis)",
+      "articulationDetail": "Alif ist ein Sonderfall: Als Hamza-Träger ist es ein Stimmritzenverschluss (wie das deutsche Knack-a in 'Auge'). Als Langvokal-Marker verlängert es den Vokal a.",
+      "forms": {
+        "isolated": "ا",
+        "initial": "ا",
+        "medial": "ـا",
+        "final": "ـا"
+      },
+      "connectable": false,
+      "group": "Alif-Gruppe",
+      "ipa": "ʔ",
+      "exampleWord": "اللَّه",
+      "exampleTransliteration": "allāh",
+      "exampleMeaning": "Gott",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": 2,
+      "name": "Bāʾ",
+      "transliteration": "b",
+      "sound": "Stimmhafter bilabialer Plosiv — wie deutsches B",
+      "articulationPoint": "Lippen (beide Lippen)",
+      "articulationDetail": "Beide Lippen berühren sich kurz und lösen sich dann. Identisch mit dem deutschen B.",
+      "forms": {
+        "isolated": "ب",
+        "initial": "بـ",
+        "medial": "ـبـ",
+        "final": "ـب"
+      },
+      "connectable": true,
+      "group": "Bāʾ-Gruppe",
+      "ipa": "b",
+      "exampleWord": "بِسْمِ",
+      "exampleTransliteration": "bism",
+      "exampleMeaning": "im Namen",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": 3,
+      "name": "Tāʾ",
+      "transliteration": "t",
+      "sound": "Stimmloser alveolarer Plosiv — wie deutsches T",
+      "articulationPoint": "Zungenspitze am Zahndamm (alveolar)",
+      "articulationDetail": "Die Zungenspitze berührt den Zahndamm hinter den oberen Schneidezähnen. Wie deutsches T, aber NICHT emphatisch — im Gegensatz zu Ṭāʾ (ط).",
+      "forms": {
+        "isolated": "ت",
+        "initial": "تـ",
+        "medial": "ـتـ",
+        "final": "ـت"
+      },
+      "connectable": true,
+      "group": "Bāʾ-Gruppe",
+      "ipa": "t",
+      "exampleWord": "تَبَّتْ",
+      "exampleTransliteration": "tabbat",
+      "exampleMeaning": "zugrunde gehen",
+      "exampleLocation": "111:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+    },
+    {
+      "id": 4,
+      "name": "Thāʾ",
+      "transliteration": "th",
+      "sound": "Stimmloser interdentaler Frikativ — wie englisches TH in 'think'",
+      "articulationPoint": "Zungenspitze zwischen den Zähnen (interdental)",
+      "articulationDetail": "Die Zungenspitze liegt leicht zwischen den oberen und unteren Schneidezähnen. Luft strömt darüber. Wie englisches TH in 'think' oder 'three'.",
+      "forms": {
+        "isolated": "ث",
+        "initial": "ثـ",
+        "medial": "ـثـ",
+        "final": "ـث"
+      },
+      "connectable": true,
+      "group": "Bāʾ-Gruppe",
+      "ipa": "θ",
+      "exampleWord": "ثُلُث",
+      "exampleTransliteration": "thuluth",
+      "exampleMeaning": "ein Drittel",
+      "exampleLocation": "4:11",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=11"
+    },
+    {
+      "id": 5,
+      "name": "Jīm",
+      "transliteration": "j",
+      "sound": "Stimmhafter postalveolarer Affrikat — wie englisches J in 'jungle'",
+      "articulationPoint": "Zungenblatt hinter dem Zahndamm (postalveolar)",
+      "articulationDetail": "Das Zungenblatt nähert sich der Zone direkt hinter dem Zahndamm. Der Laut beginnt als Plosiv und löst sich zu einem Frikativ auf — wie das englische J in 'jungle' oder das deutsche Dsch. Historisch: Im klassischen Arabisch war Jīm wahrscheinlich ein stimmhafter palataler Plosiv [ɟ]. Die heutige Aussprache als Affrikat [dʒ] ist eine spätere Entwicklung.",
+      "forms": {
+        "isolated": "ج",
+        "initial": "جـ",
+        "medial": "ـجـ",
+        "final": "ـج"
+      },
+      "connectable": true,
+      "group": "Jīm-Gruppe",
+      "ipa": "dʒ",
+      "exampleWord": "جَنَّات",
+      "exampleTransliteration": "jannāt",
+      "exampleMeaning": "Gärten",
+      "exampleLocation": "2:25",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": 6,
+      "name": "Ḥāʾ",
+      "transliteration": "ḥ",
+      "sound": "Stimmloser pharyngaler Frikativ — kein deutsches Äquivalent",
+      "articulationPoint": "Rachen (Pharynx)",
+      "articulationDetail": "Der Rachen wird verengt, Luft strömt durch die enge Stelle. Klingt wie ein sehr tiefes, gehauchtes H aus dem Rachen. NICHT verwechseln mit ه (normales H) oder خ (Kh).",
+      "forms": {
+        "isolated": "ح",
+        "initial": "حـ",
+        "medial": "ـحـ",
+        "final": "ـح"
+      },
+      "connectable": true,
+      "group": "Jīm-Gruppe",
+      "ipa": "ħ",
+      "exampleWord": "الرَّحْمَٰنِ",
+      "exampleTransliteration": "al-raḥmān",
+      "exampleMeaning": "der Barmherzige (Muster faʿlān — Fülle einer Eigenschaft)",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": 7,
+      "name": "Khāʾ",
+      "transliteration": "kh",
+      "sound": "Stimmloser uvularer Frikativ /χ/ — annähernd wie deutsches CH in 'Bach'",
+      "articulationPoint": "Zäpfchen (uvular)",
+      "articulationDetail": "Der hintere Zungenrücken nähert sich dem Zäpfchen. Luft strömt mit Reibung durch. Ähnlich dem deutschen CH in 'Bach' oder 'Kuchen', aber etwas weiter hinten.",
+      "forms": {
+        "isolated": "خ",
+        "initial": "خـ",
+        "medial": "ـخـ",
+        "final": "ـخ"
+      },
+      "connectable": true,
+      "group": "Jīm-Gruppe",
+      "ipa": "χ",
+      "exampleWord": "خَلَقَ",
+      "exampleTransliteration": "khalaqa",
+      "exampleMeaning": "er erschuf",
+      "exampleLocation": "96:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "id": 8,
+      "name": "Dāl",
+      "transliteration": "d",
+      "sound": "Stimmhafter alveolarer Plosiv — wie deutsches D",
+      "articulationPoint": "Zungenspitze am Zahndamm (alveolar)",
+      "articulationDetail": "Die Zungenspitze berührt den Zahndamm. Wie deutsches D. NICHT emphatisch — im Gegensatz zu Ḍād (ض).",
+      "forms": {
+        "isolated": "د",
+        "initial": "د",
+        "medial": "ـد",
+        "final": "ـد"
+      },
+      "connectable": false,
+      "group": "Dāl-Gruppe",
+      "ipa": "d",
+      "exampleWord": "الدِّينِ",
+      "exampleTransliteration": "al-dīn",
+      "exampleMeaning": "die Vergeltung",
+      "exampleLocation": "1:4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": 9,
+      "name": "Dhāl",
+      "transliteration": "dh",
+      "sound": "Stimmhafter interdentaler Frikativ — wie englisches TH in 'this'",
+      "articulationPoint": "Zungenspitze zwischen den Zähnen (interdental)",
+      "articulationDetail": "Wie Thāʾ (ث), aber stimmhaft. Zungenspitze zwischen den Zähnen, aber die Stimmbänder vibrieren. Wie englisches TH in 'this' oder 'the'.",
+      "forms": {
+        "isolated": "ذ",
+        "initial": "ذ",
+        "medial": "ـذ",
+        "final": "ـذ"
+      },
+      "connectable": false,
+      "group": "Dāl-Gruppe",
+      "ipa": "ð",
+      "exampleWord": "الَّذِينَ",
+      "exampleTransliteration": "alladhīna",
+      "exampleMeaning": "diejenigen die",
+      "exampleLocation": "1:7",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": 10,
+      "name": "Rāʾ",
+      "transliteration": "r",
+      "sound": "Stimmhafter alveolarer Vibrant — gerolltes R",
+      "articulationPoint": "Zungenspitze am Zahndamm (alveolar)",
+      "articulationDetail": "Die Zungenspitze vibriert am Zahndamm. Ein gerolltes R wie im Spanischen oder Italienischen, NICHT das deutsche Rachen-R.",
+      "forms": {
+        "isolated": "ر",
+        "initial": "ر",
+        "medial": "ـر",
+        "final": "ـر"
+      },
+      "connectable": false,
+      "group": "Rāʾ-Gruppe",
+      "ipa": "r",
+      "exampleWord": "رَبِّ",
+      "exampleTransliteration": "rabb",
+      "exampleMeaning": "Herr / Erhalter",
+      "exampleLocation": "1:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": 11,
+      "name": "Zāy",
+      "transliteration": "z",
+      "sound": "Stimmhafter alveolarer Frikativ — wie deutsches S in 'Sonne'",
+      "articulationPoint": "Zungenspitze nahe dem Zahndamm (alveolar)",
+      "articulationDetail": "Die Zungenspitze nähert sich dem Zahndamm, Luft strömt mit Reibung durch. Wie das stimmhafte S am Wortanfang im Deutschen ('Sonne', 'See').",
+      "forms": {
+        "isolated": "ز",
+        "initial": "ز",
+        "medial": "ـز",
+        "final": "ـز"
+      },
+      "connectable": false,
+      "group": "Rāʾ-Gruppe",
+      "ipa": "z",
+      "exampleWord": "زُيِّنَ",
+      "exampleTransliteration": "zuyyina",
+      "exampleMeaning": "es wurde ausgeschmückt (Form II Passiv)",
+      "exampleLocation": "3:14",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=14"
+    },
+    {
+      "id": 12,
+      "name": "Sīn",
+      "transliteration": "s",
+      "sound": "Stimmloser alveolarer Frikativ — wie deutsches ß/SS",
+      "articulationPoint": "Zungenspitze nahe dem Zahndamm (alveolar)",
+      "articulationDetail": "Wie Zāy, aber stimmlos. Wie das scharfe S im Deutschen ('Wasser', 'Straße'). NICHT emphatisch — im Gegensatz zu Ṣād (ص).",
+      "forms": {
+        "isolated": "س",
+        "initial": "سـ",
+        "medial": "ـسـ",
+        "final": "ـس"
+      },
+      "connectable": true,
+      "group": "Sīn-Gruppe",
+      "ipa": "s",
+      "exampleWord": "بِسْمِ",
+      "exampleTransliteration": "bism",
+      "exampleMeaning": "im Namen",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": 13,
+      "name": "Shīn",
+      "transliteration": "sh",
+      "sound": "Stimmloser postalveolarer Frikativ — wie deutsches SCH",
+      "articulationPoint": "Vorderer Zungenrücken am harten Gaumen (postalveolar)",
+      "articulationDetail": "Die Zunge hebt sich zum vorderen harten Gaumen. Identisch mit dem deutschen SCH in 'Schule'.",
+      "forms": {
+        "isolated": "ش",
+        "initial": "شـ",
+        "medial": "ـشـ",
+        "final": "ـش"
+      },
+      "connectable": true,
+      "group": "Sīn-Gruppe",
+      "ipa": "ʃ",
+      "exampleWord": "شَمْس",
+      "exampleTransliteration": "shams",
+      "exampleMeaning": "Sonne",
+      "exampleLocation": "91:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+    },
+    {
+      "id": 14,
+      "name": "Ṣād",
+      "transliteration": "ṣ",
+      "sound": "Emphatisches S — kein deutsches Äquivalent",
+      "articulationPoint": "Zungenspitze am Zahndamm + Zungenrücken zum Gaumen (pharyngalisiert)",
+      "articulationDetail": "Wie Sīn (س), aber die Zunge ist gleichzeitig nach hinten gewölbt (pharyngalisiert). Der Klang wird dumpfer und schwerer. Bedeutungsunterschied: سَلَبَ (salaba = rauben) vs. صَلَبَ (ṣalaba = kreuzigen).",
+      "forms": {
+        "isolated": "ص",
+        "initial": "صـ",
+        "medial": "ـصـ",
+        "final": "ـص"
+      },
+      "connectable": true,
+      "group": "Ṣād-Gruppe",
+      "ipa": "sˤ",
+      "exampleWord": "الصِّرَاطِ",
+      "exampleTransliteration": "al-ṣirāṭ",
+      "exampleMeaning": "der Weg",
+      "exampleLocation": "1:6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "id": 15,
+      "name": "Ḍād",
+      "transliteration": "ḍ",
+      "sound": "Emphatisches D — kein deutsches Äquivalent",
+      "articulationPoint": "Zungenrand am Seitenzahn + Zungenrücken zum Gaumen (pharyngalisiert)",
+      "articulationDetail": "Historisch rekonstruierte Artikulation: der seitliche Zungenrand berührt die oberen Backenzähne, während die Zunge pharyngalisiert ist — ein lateraler emphatischer Laut. In der modernen Standardaussprache wird Ḍād als pharyngalisierter stimmhafter Plosiv /dˤ/ realisiert, also wie ein emphatisches Dāl. Arabisch heißt 'Sprache des Ḍād' (لغة الضاد) — historisch war dieser Laut extrem selten. Außerhalb des Arabischen fand er sich nur in einigen südarabischen Sprachen (z.B. Mehri).",
+      "forms": {
+        "isolated": "ض",
+        "initial": "ضـ",
+        "medial": "ـضـ",
+        "final": "ـض"
+      },
+      "connectable": true,
+      "group": "Ṣād-Gruppe",
+      "ipa": "dˤ",
+      "exampleWord": "الضَّالِّينَ",
+      "exampleTransliteration": "al-ḍāllīn",
+      "exampleMeaning": "die Abirrenden",
+      "exampleLocation": "1:7",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": 16,
+      "name": "Ṭāʾ",
+      "transliteration": "ṭ",
+      "sound": "Emphatisches T — kein deutsches Äquivalent",
+      "articulationPoint": "Zungenspitze am Zahndamm + Zungenrücken zum Gaumen (pharyngalisiert)",
+      "articulationDetail": "Wie Tāʾ (ت), aber pharyngalisiert. Der Klang ist dumpfer und schwerer. Bedeutungsunterschied: تِين (tīn = Feige) vs. طِين (ṭīn = Lehm).",
+      "forms": {
+        "isolated": "ط",
+        "initial": "طـ",
+        "medial": "ـطـ",
+        "final": "ـط"
+      },
+      "connectable": true,
+      "group": "Ṭāʾ-Gruppe",
+      "ipa": "tˤ",
+      "exampleWord": "طِين",
+      "exampleTransliteration": "ṭīn",
+      "exampleMeaning": "Lehm, Ton",
+      "exampleLocation": "6:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=2"
+    },
+    {
+      "id": 17,
+      "name": "Ẓāʾ",
+      "transliteration": "ẓ",
+      "sound": "Emphatisches DH — kein deutsches Äquivalent",
+      "articulationPoint": "Zungenspitze zwischen den Zähnen + Zungenrücken zum Gaumen (pharyngalisiert)",
+      "articulationDetail": "Wie Dhāl (ذ), aber pharyngalisiert. Zungenspitze zwischen den Zähnen, Zunge nach hinten gewölbt. Bedeutungsunterschied: ذَلَّ (dhalla = gedemütigt sein / sich erniedrigen) vs. ظَلَّ (ẓalla = bleiben / verweilen, tagsüber).",
+      "forms": {
+        "isolated": "ظ",
+        "initial": "ظـ",
+        "medial": "ـظـ",
+        "final": "ـظ"
+      },
+      "connectable": true,
+      "group": "Ṭāʾ-Gruppe",
+      "ipa": "ðˤ",
+      "exampleWord": "ظُلْم",
+      "exampleTransliteration": "ẓulm",
+      "exampleMeaning": "Unrecht",
+      "exampleLocation": "2:35",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "id": 18,
+      "name": "ʿAyn",
+      "transliteration": "ʿ",
+      "sound": "Stimmhafter pharyngaler Frikativ — kein deutsches Äquivalent",
+      "articulationPoint": "Rachen (Pharynx)",
+      "articulationDetail": "Der Rachen wird verengt, und die Stimmbänder vibrieren gleichzeitig. Klingt wie ein gepresstes, tiefes Stöhnen aus dem Rachen. Einer der schwierigsten Laute für Nicht-Araber. NICHT verwechseln mit Hamza (ء).",
+      "forms": {
+        "isolated": "ع",
+        "initial": "عـ",
+        "medial": "ـعـ",
+        "final": "ـع"
+      },
+      "connectable": true,
+      "group": "ʿAyn-Gruppe",
+      "ipa": "ʕ",
+      "exampleWord": "نَعْبُدُ",
+      "exampleTransliteration": "naʿbudu",
+      "exampleMeaning": "wir dienen",
+      "exampleLocation": "1:5",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": 19,
+      "name": "Ghayn",
+      "transliteration": "gh",
+      "sound": "Stimmhafter uvularer Frikativ /ɣ/ — wie französisches R in 'Paris'",
+      "articulationPoint": "Zäpfchen (uvular)",
+      "articulationDetail": "Der hintere Zungenrücken nähert sich dem Zäpfchen, Luft strömt mit Reibung durch, und die Stimmbänder vibrieren. Ähnlich dem französischen R. NICHT verwechseln mit Khāʾ (خ) — Ghayn ist stimmhaft, Khāʾ ist stimmlos.",
+      "forms": {
+        "isolated": "غ",
+        "initial": "غـ",
+        "medial": "ـغـ",
+        "final": "ـغ"
+      },
+      "connectable": true,
+      "group": "ʿAyn-Gruppe",
+      "ipa": "ɣ",
+      "exampleWord": "الْمَغْضُوبِ",
+      "exampleTransliteration": "al-maghḍūb",
+      "exampleMeaning": "Objekt des Zorns",
+      "exampleLocation": "1:7",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": 20,
+      "name": "Fāʾ",
+      "transliteration": "f",
+      "sound": "Stimmloser labiodentaler Frikativ — wie deutsches F",
+      "articulationPoint": "Unterlippe an oberen Schneidezähnen (labiodental)",
+      "articulationDetail": "Die Unterlippe berührt die oberen Schneidezähne leicht. Identisch mit dem deutschen F.",
+      "forms": {
+        "isolated": "ف",
+        "initial": "فـ",
+        "medial": "ـفـ",
+        "final": "ـف"
+      },
+      "connectable": true,
+      "group": "Fāʾ-Gruppe",
+      "ipa": "f",
+      "exampleWord": "فَلَقِ",
+      "exampleTransliteration": "falaq",
+      "exampleMeaning": "Morgengrauen / Spalten",
+      "exampleLocation": "113:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+    },
+    {
+      "id": 21,
+      "name": "Qāf",
+      "transliteration": "q",
+      "sound": "Stimmloser uvularer Plosiv — kein deutsches Äquivalent",
+      "articulationPoint": "Hinterer Zungenrücken am Zäpfchen (uvular)",
+      "articulationDetail": "Der hinterste Teil des Zungenrückens berührt das Zäpfchen. Ein K das viel weiter hinten im Mund entsteht. NICHT verwechseln mit Kāf (ك). Bedeutungsunterschied: قَلْب (qalb = Herz) vs. كَلْب (kalb = Hund).",
+      "forms": {
+        "isolated": "ق",
+        "initial": "قـ",
+        "medial": "ـقـ",
+        "final": "ـق"
+      },
+      "connectable": true,
+      "group": "Qāf-Gruppe",
+      "ipa": "q",
+      "exampleWord": "الْمُسْتَقِيمَ",
+      "exampleTransliteration": "al-mustaqīm",
+      "exampleMeaning": "der gerade (Weg)",
+      "exampleLocation": "1:6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "id": 22,
+      "name": "Kāf",
+      "transliteration": "k",
+      "sound": "Stimmloser velarer Plosiv — wie deutsches K",
+      "articulationPoint": "Hinterer Zungenrücken am weichen Gaumen (velar)",
+      "articulationDetail": "Der hintere Zungenrücken berührt den weichen Gaumen. Wie deutsches K. Weiter vorne im Mund als Qāf (ق).",
+      "forms": {
+        "isolated": "ك",
+        "initial": "كـ",
+        "medial": "ـكـ",
+        "final": "ـك"
+      },
+      "connectable": true,
+      "group": "Kāf-Gruppe",
+      "ipa": "k",
+      "exampleWord": "مَٰلِكِ",
+      "exampleTransliteration": "māliki",
+      "exampleMeaning": "Besitzer",
+      "exampleLocation": "1:4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": 23,
+      "name": "Lām",
+      "transliteration": "l",
+      "sound": "Stimmhafter alveolarer Lateral — wie deutsches L",
+      "articulationPoint": "Zungenspitze am Zahndamm (alveolar)",
+      "articulationDetail": "Die Zungenspitze berührt den Zahndamm, Luft strömt seitlich an der Zunge vorbei. Wie deutsches L. Bei 'Allāh' wird das Lām mit dunklerer Klangfarbe gesprochen.",
+      "forms": {
+        "isolated": "ل",
+        "initial": "لـ",
+        "medial": "ـلـ",
+        "final": "ـل"
+      },
+      "connectable": true,
+      "group": "Lām-Gruppe",
+      "ipa": "l",
+      "exampleWord": "اللَّهِ",
+      "exampleTransliteration": "allāhi",
+      "exampleMeaning": "Gott",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": 24,
+      "name": "Mīm",
+      "transliteration": "m",
+      "sound": "Stimmhafter bilabialer Nasal — wie deutsches M",
+      "articulationPoint": "Lippen (beide Lippen, nasal)",
+      "articulationDetail": "Beide Lippen schließen sich, Luft strömt durch die Nase. Identisch mit dem deutschen M.",
+      "forms": {
+        "isolated": "م",
+        "initial": "مـ",
+        "medial": "ـمـ",
+        "final": "ـم"
+      },
+      "connectable": true,
+      "group": "Mīm-Gruppe",
+      "ipa": "m",
+      "exampleWord": "مَٰلِكِ",
+      "exampleTransliteration": "māliki",
+      "exampleMeaning": "Besitzer",
+      "exampleLocation": "1:4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": 25,
+      "name": "Nūn",
+      "transliteration": "n",
+      "sound": "Stimmhafter alveolarer Nasal — wie deutsches N",
+      "articulationPoint": "Zungenspitze am Zahndamm (alveolar, nasal)",
+      "articulationDetail": "Die Zungenspitze berührt den Zahndamm, Luft strömt durch die Nase. Identisch mit dem deutschen N.",
+      "forms": {
+        "isolated": "ن",
+        "initial": "نـ",
+        "medial": "ـنـ",
+        "final": "ـن"
+      },
+      "connectable": true,
+      "group": "Nūn-Gruppe",
+      "ipa": "n",
+      "exampleWord": "نَعْبُدُ",
+      "exampleTransliteration": "naʿbudu",
+      "exampleMeaning": "wir dienen",
+      "exampleLocation": "1:5",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": 26,
+      "name": "Hāʾ",
+      "transliteration": "h",
+      "sound": "Stimmloser glottaler Frikativ — wie deutsches H",
+      "articulationPoint": "Kehlkopf (Glottis)",
+      "articulationDetail": "Luft strömt durch die leicht geöffnete Stimmritze. Wie deutsches H in 'Haus'. NICHT verwechseln mit Ḥāʾ (ح) — Hāʾ kommt aus dem Kehlkopf, Ḥāʾ aus dem Rachen.",
+      "forms": {
+        "isolated": "ه",
+        "initial": "هـ",
+        "medial": "ـهـ",
+        "final": "ـه"
+      },
+      "connectable": true,
+      "group": "Hāʾ-Gruppe",
+      "ipa": "h",
+      "exampleWord": "اهْدِنَا",
+      "exampleTransliteration": "ihdinā",
+      "exampleMeaning": "leite uns",
+      "exampleLocation": "1:6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "id": 27,
+      "name": "Wāw",
+      "transliteration": "w / ū",
+      "sound": "Stimmhafter labio-velarer Approximant oder Langvokal ū",
+      "articulationPoint": "Lippen + hinterer Gaumen (labio-velar)",
+      "articulationDetail": "Die Lippen werden gerundet. Als Konsonant wie englisches W. Als Langvokal wie langes U. Auch als Konjunktion 'und' (و) sehr häufig.",
+      "forms": {
+        "isolated": "و",
+        "initial": "و",
+        "medial": "ـو",
+        "final": "ـو"
+      },
+      "connectable": false,
+      "group": "Wāw-Gruppe",
+      "ipa": "w",
+      "exampleWord": "وَإِيَّاكَ",
+      "exampleTransliteration": "wa-iyyāka",
+      "exampleMeaning": "und dich",
+      "exampleLocation": "1:5",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": 28,
+      "name": "Yāʾ",
+      "transliteration": "y / ī",
+      "sound": "Stimmhafter palataler Approximant oder Langvokal ī",
+      "articulationPoint": "Vorderer Zungenrücken am harten Gaumen (palatal)",
+      "articulationDetail": "Der vordere Zungenrücken hebt sich zum harten Gaumen. Als Konsonant wie deutsches J in 'ja'. Als Langvokal wie langes I.",
+      "forms": {
+        "isolated": "ي",
+        "initial": "يـ",
+        "medial": "ـيـ",
+        "final": "ـي"
+      },
+      "connectable": true,
+      "group": "Yāʾ-Gruppe",
+      "ipa": "j",
+      "exampleWord": "يَوْمِ",
+      "exampleTransliteration": "yawm",
+      "exampleMeaning": "Tag",
+      "exampleLocation": "1:4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    }
+  ],
+  "tashkil": [
+    {
+      "id": "fatha",
+      "name": "Fatḥa",
+      "symbol": "َ",
+      "example": "بَ",
+      "sound": "kurzes a",
+      "position": "über dem Buchstaben",
+      "description": "Ein kleiner Schrägstrich über dem Buchstaben. Zeigt den kurzen Vokal 'a' an.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "damma",
+      "name": "Damma",
+      "symbol": "ُ",
+      "example": "بُ",
+      "sound": "kurzes u",
+      "position": "über dem Buchstaben",
+      "description": "Ein kleines Wāw-ähnliches Zeichen über dem Buchstaben. Zeigt den kurzen Vokal 'u' an.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "kasra",
+      "name": "Kasra",
+      "symbol": "ِ",
+      "example": "بِ",
+      "sound": "kurzes i",
+      "position": "unter dem Buchstaben",
+      "description": "Ein kleiner Schrägstrich unter dem Buchstaben. Zeigt den kurzen Vokal 'i' an.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "sukun",
+      "name": "Sukūn",
+      "symbol": "ْ",
+      "example": "بْ",
+      "sound": "kein Vokal",
+      "position": "über dem Buchstaben",
+      "description": "Ein kleiner Kreis über dem Buchstaben. Zeigt an, dass auf diesen Konsonanten KEIN Vokal folgt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "shadda",
+      "name": "Shadda",
+      "symbol": "ّ",
+      "example": "بّ",
+      "sound": "Verdopplung des Konsonanten",
+      "position": "über dem Buchstaben",
+      "description": "Ein kleines W-förmiges Zeichen über dem Buchstaben. Zeigt an, dass der Konsonant verdoppelt (geminiert) wird. Die Verdopplung verändert die Bedeutung und ist grammatisch relevant — Details dazu werden in der Morphologie-Stufe behandelt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "madda",
+      "name": "Madda",
+      "symbol": "ٓ",
+      "example": "آ",
+      "sound": "langes ā mit vorangehendem Hamza (ʾā)",
+      "position": "über dem Alif",
+      "description": "Eine Wellenlinie (~) über dem Alif. Zeigt an, dass ein Hamza mit folgendem langem ā vorliegt. آ steht für أَا (Hamza + Fatha + Alif). Häufig im Quran: آيَة (Zeichen), آمَنَ (glauben), قُرْآن (Quran). Die Madda ist eine Schreibkonvention — sie vereinfacht die Darstellung von Hamza + Langvokal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "id": "tanwin_fatha",
+      "name": "Tanwīn Fatḥa",
+      "symbol": "ً",
+      "example": "بً",
+      "sound": "-an",
+      "position": "über dem Buchstaben (zwei Fathas)",
+      "description": "Zwei Fatḥas übereinander. Zeigt die Nunation '-an' an. Markiert unbestimmte Nomen im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "tanwin_damma",
+      "name": "Tanwīn Damma",
+      "symbol": "ٌ",
+      "example": "بٌ",
+      "sound": "-un",
+      "position": "über dem Buchstaben (zwei Dammas)",
+      "description": "Zwei Dammas übereinander. Zeigt die Nunation '-un' an. Markiert unbestimmte Nomen im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "tanwin_kasra",
+      "name": "Tanwīn Kasra",
+      "symbol": "ٍ",
+      "example": "بٍ",
+      "sound": "-in",
+      "position": "unter dem Buchstaben (zwei Kasras)",
+      "description": "Zwei Kasras untereinander. Zeigt die Nunation '-in' an. Markiert unbestimmte Nomen im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "alif_khanjariyya",
+      "name": "Alif Khanjariyya (ألف خنجرية)",
+      "symbol": "ٰ",
+      "example": "هٰذَا",
+      "sound": "langes ā (historisches Alif)",
+      "position": "über dem Buchstaben",
+      "description": "Eine kleine aufrechte Alif über dem Buchstaben. Zeigt einen langen /aa/-Vokal an, der im Rasm nicht als volles Alif geschrieben wird. Die Khanjariyya wurde später als Lesehilfe ergänzt. Häufige Quran-Wörter mit Alif Khanjariyya: هٰذَا (hadha — dieser), رَحْمٰن (Rahman), لٰكِن (lakin — aber), إِلٰه (ilah), ذٰلِك (dhalika — jener), سُبْحٰن (subhan). In der Simple-Clean-Textdarstellung wird die Alif Khanjariyya oft als reguläres Alif geschrieben oder weggelassen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  ],
+  "tashkilCombinations": [
+    {
+      "id": "shadda_fatha",
+      "combination": "Shadda + Fatha",
+      "symbol": "بَّ",
+      "description": "Der Konsonant wird verdoppelt und trägt den Vokal 'a'. Häufigste Kombination im Quran.",
+      "example": "رَبَّ",
+      "exampleMeaning": "Herr (Akkusativ)",
+      "exampleLocation": "1:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "shadda_kasra",
+      "combination": "Shadda + Kasra",
+      "symbol": "بِّ",
+      "description": "Der Konsonant wird verdoppelt und trägt den Vokal 'i'.",
+      "example": "رَبِّ",
+      "exampleMeaning": "Herr (Genitiv)",
+      "exampleLocation": "1:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "shadda_damma",
+      "combination": "Shadda + Damma",
+      "symbol": "بُّ",
+      "description": "Der Konsonant wird verdoppelt und trägt den Vokal 'u'.",
+      "example": "رَبُّ",
+      "exampleMeaning": "Herr (Nominativ)",
+      "exampleLocation": "1:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "shadda_tanwin_fatha",
+      "combination": "Shadda + Tanwin Fatha",
+      "symbol": "بًّ",
+      "description": "Der Konsonant wird verdoppelt, unbestimmter Akkusativ mit -an.",
+      "example": "حَقًّا",
+      "exampleMeaning": "wahrhaftig (adverbialer Akkusativ)",
+      "exampleLocation": "10:53",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=53"
+    },
+    {
+      "id": "shadda_tanwin_damma",
+      "combination": "Shadda + Tanwin Damma",
+      "symbol": "بٌّ",
+      "description": "Der Konsonant wird verdoppelt, unbestimmter Nominativ mit -un.",
+      "example": "حَقٌّ",
+      "exampleMeaning": "eine Wahrheit (unbestimmter Nominativ)",
+      "exampleLocation": "2:26",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "shadda_tanwin_kasra",
+      "combination": "Shadda + Tanwin Kasra",
+      "symbol": "بٍّ",
+      "description": "Der Konsonant wird verdoppelt, unbestimmter Genitiv mit -in.",
+      "example": "حَقٍّ",
+      "exampleMeaning": "einer Wahrheit (unbestimmter Genitiv)",
+      "exampleLocation": "2:42",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=42"
+    }
+  ],
+  "longVowels": [
+    {
+      "id": "aa",
+      "name": "Langes ā",
+      "carrier": "ا (Alif)",
+      "shortVowel": "Fatha (ـَ)",
+      "description": "Fatha auf einem Konsonanten + Alif danach ergibt langes ā. Im Rasm ist das Alif als separater Buchstabe sichtbar.",
+      "example": "كَاتِب",
+      "exampleTransliteration": "kātib",
+      "exampleMeaning": "Schreibender",
+      "exampleLocation": "2:282",
+      "rasmNote": "Im Rasm immer als separates Alif geschrieben — AUSSER bei Alif Khanjariyya (z.B. رحمن statt رحمان).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "uu",
+      "name": "Langes ū",
+      "carrier": "و (Waw)",
+      "shortVowel": "Damma (ـُ)",
+      "description": "Damma auf einem Konsonanten + Waw danach ergibt langes ū. Im Rasm ist das Waw als separater Buchstabe sichtbar.",
+      "example": "يَقُولُ",
+      "exampleTransliteration": "yaqūlu",
+      "exampleMeaning": "er sagt",
+      "exampleLocation": "2:8",
+      "rasmNote": "Das Waw ist im Konsonantentext sichtbar, aber ob es Langvokal oder Konsonant ist, ergibt sich aus dem Kontext.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "ii",
+      "name": "Langes ī",
+      "carrier": "ي (Ya)",
+      "shortVowel": "Kasra (ـِ)",
+      "description": "Kasra auf einem Konsonanten + Ya danach ergibt langes ī. Im Rasm ist das Ya als separater Buchstabe sichtbar.",
+      "example": "كَرِيم",
+      "exampleTransliteration": "karīm",
+      "exampleMeaning": "edel/großzügig",
+      "exampleLocation": "44:49",
+      "rasmNote": "Im Konsonantentext: Ya kann Langvokal ī ODER Konsonant y sein. Nur die grammatische Analyse klärt die Funktion.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=49"
+    },
+    {
+      "id": "aw",
+      "name": "Diphthong aw",
+      "carrier": "و (Waw)",
+      "shortVowel": "Fatha (ـَ) + Waw mit Sukun",
+      "description": "Fatha auf einem Konsonanten + Waw mit Sukun ergibt den Diphthong aw (wie deutsch 'au').",
+      "example": "يَوْم",
+      "exampleTransliteration": "yawm",
+      "exampleMeaning": "Tag",
+      "exampleLocation": "1:4",
+      "rasmNote": "Im Rasm identisch mit langem ū — nur die Vokalisierung unterscheidet يَوْم (yawm, Diphthong) von يُوم (theoretisch yūm).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": "ay",
+      "name": "Diphthong ay",
+      "carrier": "ي (Ya)",
+      "shortVowel": "Fatha (ـَ) + Ya mit Sukun",
+      "description": "Fatha auf einem Konsonanten + Ya mit Sukun ergibt den Diphthong ay (wie deutsch 'ei').",
+      "example": "غَيْر",
+      "exampleTransliteration": "ghayr",
+      "exampleMeaning": "anders als / nicht",
+      "exampleLocation": "1:7",
+      "rasmNote": "Im Rasm identisch mit langem ī — nur die Vokalisierung unterscheidet غَيْر (ghayr, Diphthong) von غِير (theoretisch ghīr).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    }
+  ],
+  "tanwinAlifRules": {
+    "title": "Tanwin Fatha und die Alif-Regel",
+    "explanation": "Tanwin Fatha (ـًا) erfordert in der Regel eine Alif NACH dem Buchstaben: كِتَابًا (kitāban). Diese Alif ist rein orthographisch — sie wird NICHT gesprochen. Sie erscheint NUR bei Tanwin Fatha, NICHT bei Tanwin Damma oder Kasra.",
+    "rules": [
+      {
+        "rule": "Regulär: Tanwin Fatha + Alif",
+        "example": "كِتَابًا",
+        "description": "Die Standardschreibung: Tanwin Fatha steht auf dem letzten Buchstaben, Alif folgt danach."
+      },
+      {
+        "rule": "Nach Ta Marbuta: KEINE Alif",
+        "example": "رَحْمَةً",
+        "description": "Nach ة (Ta Marbuta) wird KEINE zusätzliche Alif geschrieben. Die Ta Marbuta selbst trägt den Tanwin."
+      },
+      {
+        "rule": "Nach Alif Maqsura: KEINE Alif",
+        "example": "هُدًى",
+        "description": "Nach ى (Alif Maqsura) wird KEINE zusätzliche Alif geschrieben. Maqsura endet bereits auf einem Vokalträger."
+      },
+      {
+        "rule": "Nach langem Alif: KEINE zusätzliche Alif",
+        "example": "عَصًا",
+        "description": "Wenn das Wort bereits auf Alif endet, wird keine zweite Alif hinzugefügt."
+      },
+      {
+        "rule": "Nach Hamza auf der Zeile: Alif folgt",
+        "example": "شَيْئًا",
+        "description": "Nach Hamza auf der Zeile (ء) folgt die reguläre Tanwin-Alif."
+      }
+    ]
+  },
+  "prefixOrthography": {
+    "title": "Präfix-Orthographie — Angehängte Partikeln erkennen",
+    "explanation": "Im Arabischen werden bestimmte Partikeln graphisch direkt an das folgende Wort angehängt. Sie sind im Konsonantentext Teil des Wortbilds, müssen aber morphologisch getrennt werden.",
+    "prefixes": [
+      {
+        "prefix": "بِ",
+        "name": "Ba (Präposition)",
+        "function": "mit/durch/in",
+        "example": "بِسْمِ",
+        "analysis": "بِ + اسم (im Namen)",
+        "quranRef": "1:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+      },
+      {
+        "prefix": "لِ",
+        "name": "Lam (Präposition)",
+        "function": "für/zu/gehörend",
+        "example": "لِلَّهِ",
+        "analysis": "لِ + الله (für Gott / Gottes)",
+        "quranRef": "1:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      },
+      {
+        "prefix": "وَ",
+        "name": "Waw (Konjunktion)",
+        "function": "und",
+        "example": "وَالْعَصْرِ",
+        "analysis": "وَ + الْعَصْرِ (und die Zeit)",
+        "quranRef": "103:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+      },
+      {
+        "prefix": "فَ",
+        "name": "Fa (Konjunktion)",
+        "function": "dann/und so",
+        "example": "فَصَلِّ",
+        "analysis": "فَ + صَلِّ (so bete)",
+        "quranRef": "108:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=2"
+      },
+      {
+        "prefix": "كَ",
+        "name": "Kaf (Präposition)",
+        "function": "wie/gleich",
+        "example": "كَمَثَلِ",
+        "analysis": "كَ + مَثَل (wie ein Gleichnis)",
+        "quranRef": "2:17",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+      },
+      {
+        "prefix": "سَ",
+        "name": "Sin (Futurpartikel)",
+        "function": "wird (nahe Zukunft)",
+        "example": "سَيَقُولُ",
+        "analysis": "سَ + يَقُولُ (er wird sagen)",
+        "quranRef": "2:142",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=142"
+      },
+      {
+        "prefix": "الْ",
+        "name": "Al (Definitartikel)",
+        "function": "der/die/das",
+        "example": "الْكِتَابُ",
+        "analysis": "الْ + كِتَاب (das Buch)",
+        "quranRef": "2:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+      }
+    ]
+  },
+  "ligatures": [
+    {
+      "id": "lam_alif",
+      "letters": "ل + ا",
+      "result": "لا",
+      "description": "Lam gefolgt von Alif verschmilzt zu einer einzigen Zeichenform. Trotzdem sind es ZWEI Buchstaben. Häufig im Quran: لا (nicht), definiter Artikel (اَلْ + Wort).",
+      "exampleWord": "لا",
+      "exampleMeaning": "nicht/nein",
+      "exampleLocation": "2:2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "lam_alif_hamza_above",
+      "letters": "ل + أ",
+      "result": "لأ",
+      "description": "Lam + Alif mit Hamza darüber. Die Ligatur bleibt erhalten, Hamza wird über der verschmolzenen Form geschrieben.",
+      "exampleWord": "لأنتم",
+      "exampleMeaning": "sicherlich ihr",
+      "exampleLocation": "3:151",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=151"
+    },
+    {
+      "id": "lam_alif_hamza_below",
+      "letters": "ل + إ",
+      "result": "لإ",
+      "description": "Lam + Alif mit Hamza darunter. Selbe Verschmelzung, Hamza unter der Form.",
+      "exampleWord": "لإيلف",
+      "exampleMeaning": "für die Vertrautheit",
+      "exampleLocation": "106:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=1"
+    },
+    {
+      "id": "allah_ligature",
+      "letters": "ا + ل + ل + ه",
+      "result": "الله",
+      "description": "Das Wort الله (Allah) hat in vielen Schriftarten eine spezielle Ligaturform, bei der Alif-Lam-Lam-Ha zu einem einzigen Schriftbild verschmelzen. Die Shadda über dem zweiten Lam und die Alif Khanjariyya (oder Fatha) sind dabei integriert. Morphologisch: Artikel ال + إله (Gott) mit Assimilation.",
+      "exampleLocation": "1:1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  ],
+  "minimalPairs": [
+    {
+      "letter1": "س",
+      "letter1Name": "Sīn",
+      "letter1Sound": "s",
+      "letter2": "ص",
+      "letter2Name": "Ṣād",
+      "letter2Sound": "ṣ (emphatisch)",
+      "example1Word": "سَلَبَ",
+      "example1Consonantal": "سلب",
+      "example1Meaning": "rauben",
+      "example2Word": "صَلَبَ",
+      "example2Consonantal": "صلب",
+      "example2Meaning": "kreuzigen",
+      "explanation": "Sīn ist ein normales S. Ṣād wird mit zurückgezogener Zunge gesprochen — der Klang ist dumpfer, schwerer. Im Konsonantentext klar unterscheidbar durch die Buchstabenform."
+    },
+    {
+      "letter1": "ت",
+      "letter1Name": "Tāʾ",
+      "letter1Sound": "t",
+      "letter2": "ط",
+      "letter2Name": "Ṭāʾ",
+      "letter2Sound": "ṭ (emphatisch)",
+      "example1Word": "تِين",
+      "example1Consonantal": "تين",
+      "example1Meaning": "Feige",
+      "example2Word": "طِين",
+      "example2Consonantal": "طين",
+      "example2Meaning": "Lehm",
+      "explanation": "Tāʾ ist ein normales T. Ṭāʾ wird mit pharyngalisierter Zunge gesprochen — dumpfer, schwerer Klang."
+    },
+    {
+      "letter1": "د",
+      "letter1Name": "Dāl",
+      "letter1Sound": "d",
+      "letter2": "ض",
+      "letter2Name": "Ḍād",
+      "letter2Sound": "ḍ (emphatisch)",
+      "example1Word": "دَلَّ",
+      "example1Consonantal": "دل",
+      "example1Meaning": "zeigen / hinweisen",
+      "example2Word": "ضَلَّ",
+      "example2Consonantal": "ضل",
+      "example2Meaning": "abirren",
+      "explanation": "Dāl ist ein normales D. Ḍād ist der einzigartigste arabische Laut — emphatisch (pharyngalisiert). Historisch mit seitlicher Zungenartikulation, in moderner Standardaussprache als pharyngalisierter Plosiv /dˤ/ realisiert. Arabisch heißt 'Sprache des Ḍād'."
+    },
+    {
+      "letter1": "ذ",
+      "letter1Name": "Dhāl",
+      "letter1Sound": "dh",
+      "letter2": "ظ",
+      "letter2Name": "Ẓāʾ",
+      "letter2Sound": "ẓ (emphatisch)",
+      "example1Word": "ذَلَّ",
+      "example1Consonantal": "ذل",
+      "example1Meaning": "gedemütigt sein / sich erniedrigen",
+      "example2Word": "ظَلَّ",
+      "example2Consonantal": "ظل",
+      "example2Meaning": "bleiben / verweilen (tagsüber)",
+      "explanation": "Dhāl ist ein stimmhaftes TH (wie englisch 'this'). Ẓāʾ ist die emphatische Version davon — dumpfer, schwerer."
+    },
+    {
+      "letter1": "ع",
+      "letter1Name": "ʿAyn",
+      "letter1Sound": "ʿ (pharyngal)",
+      "letter2": "ء",
+      "letter2Name": "Hamza",
+      "letter2Sound": "ʾ (glottal)",
+      "example1Word": "عَلِمَ",
+      "example1Consonantal": "علم",
+      "example1Meaning": "wissen",
+      "example2Word": "أَلِمَ",
+      "example2Consonantal": "الم",
+      "example2Meaning": "Schmerz empfinden",
+      "explanation": "ʿAyn kommt tief aus dem Rachen (pharyngal). Hamza ist ein Stimmritzenverschluss (glottal). Beide haben kein deutsches Äquivalent, aber sie sind grundverschieden."
+    },
+    {
+      "letter1": "ح",
+      "letter1Name": "Ḥāʾ",
+      "letter1Sound": "ḥ (pharyngal)",
+      "letter2": "ه",
+      "letter2Name": "Hāʾ",
+      "letter2Sound": "h (glottal)",
+      "example1Word": "حَمْد",
+      "example1Consonantal": "حمد",
+      "example1Meaning": "Lobpreis",
+      "example2Word": "هَمَدَ",
+      "example2Consonantal": "همد",
+      "example2Meaning": "erlöschen",
+      "explanation": "Ḥāʾ kommt aus dem Rachen — ein tiefes, gepresstes H. Hāʾ kommt aus dem Kehlkopf — wie deutsches H in 'Haus'. Verwechslung ändert die Bedeutung komplett."
+    },
+    {
+      "letter1": "غ",
+      "letter1Name": "Ghayn",
+      "letter1Sound": "gh (uvular, stimmhaft)",
+      "letter2": "خ",
+      "letter2Name": "Khāʾ",
+      "letter2Sound": "kh (uvular, stimmlos)",
+      "example1Word": "غَفَرَ",
+      "example1Consonantal": "غفر",
+      "example1Meaning": "vergeben",
+      "example2Word": "خَفَرَ",
+      "example2Consonantal": "خفر",
+      "example2Meaning": "schützen / bewachen",
+      "explanation": "Beide entstehen am Zäpfchen (uvular). Ghayn ist stimmhaft (Stimmbänder vibrieren). Khāʾ ist stimmlos. Der Unterschied ist wie zwischen deutschem S (stimmhaft) und ß (stimmlos)."
+    },
+    {
+      "letter1": "ق",
+      "letter1Name": "Qāf",
+      "letter1Sound": "q (uvular)",
+      "letter2": "ك",
+      "letter2Name": "Kāf",
+      "letter2Sound": "k (velar)",
+      "example1Word": "قَلْب",
+      "example1Consonantal": "قلب",
+      "example1Meaning": "Herz",
+      "example2Word": "كَلْب",
+      "example2Consonantal": "كلب",
+      "example2Meaning": "Hund",
+      "explanation": "Qāf entsteht weit hinten am Zäpfchen (uvular). Kāf entsteht weiter vorne am weichen Gaumen (velar). Verwechslung ändert 'Herz' zu 'Hund'."
+    }
+  ],
+  "hurufMuqattaat": [
+    {
+      "surah": 2,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 3,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 7,
+      "letters": "المص",
+      "spelled": "Alif-Lām-Mīm-Ṣād"
+    },
+    {
+      "surah": 10,
+      "letters": "الر",
+      "spelled": "Alif-Lām-Rāʾ"
+    },
+    {
+      "surah": 11,
+      "letters": "الر",
+      "spelled": "Alif-Lām-Rāʾ"
+    },
+    {
+      "surah": 12,
+      "letters": "الر",
+      "spelled": "Alif-Lām-Rāʾ"
+    },
+    {
+      "surah": 13,
+      "letters": "المر",
+      "spelled": "Alif-Lām-Mīm-Rāʾ"
+    },
+    {
+      "surah": 14,
+      "letters": "الر",
+      "spelled": "Alif-Lām-Rāʾ"
+    },
+    {
+      "surah": 15,
+      "letters": "الر",
+      "spelled": "Alif-Lām-Rāʾ"
+    },
+    {
+      "surah": 19,
+      "letters": "كهيعص",
+      "spelled": "Kāf-Hāʾ-Yāʾ-ʿAyn-Ṣād"
+    },
+    {
+      "surah": 20,
+      "letters": "طه",
+      "spelled": "Ṭā-Hāʾ"
+    },
+    {
+      "surah": 26,
+      "letters": "طسم",
+      "spelled": "Ṭā-Sīn-Mīm"
+    },
+    {
+      "surah": 27,
+      "letters": "طس",
+      "spelled": "Ṭā-Sīn"
+    },
+    {
+      "surah": 28,
+      "letters": "طسم",
+      "spelled": "Ṭā-Sīn-Mīm"
+    },
+    {
+      "surah": 29,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 30,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 31,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 32,
+      "letters": "الم",
+      "spelled": "Alif-Lām-Mīm"
+    },
+    {
+      "surah": 36,
+      "letters": "يس",
+      "spelled": "Yā-Sīn"
+    },
+    {
+      "surah": 38,
+      "letters": "ص",
+      "spelled": "Ṣād"
+    },
+    {
+      "surah": 40,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 41,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 42,
+      "letters": "حم عسق",
+      "spelled": "Ḥā-Mīm / ʿAyn-Sīn-Qāf"
+    },
+    {
+      "surah": 43,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 44,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 45,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 46,
+      "letters": "حم",
+      "spelled": "Ḥā-Mīm"
+    },
+    {
+      "surah": 50,
+      "letters": "ق",
+      "spelled": "Qāf"
+    },
+    {
+      "surah": 68,
+      "letters": "ن",
+      "spelled": "Nūn"
+    }
+  ],
+  "sunLetters": [
+    "ت",
+    "ث",
+    "د",
+    "ذ",
+    "ر",
+    "ز",
+    "س",
+    "ش",
+    "ص",
+    "ض",
+    "ط",
+    "ظ",
+    "ل",
+    "ن"
+  ],
+  "moonLetters": [
+    "ا",
+    "ب",
+    "ج",
+    "ح",
+    "خ",
+    "ع",
+    "غ",
+    "ف",
+    "ق",
+    "ك",
+    "م",
+    "ه",
+    "و",
+    "ي"
+  ],
+  "surah1": {
+    "verses": [
+      {
+        "number": 1,
+        "text": "بسم الله الرحمن الرحيم",
+        "transliteration": "bismi llāhi r-raḥmāni r-raḥīm"
+      },
+      {
+        "number": 2,
+        "text": "الحمد لله رب العالمين",
+        "transliteration": "al-ḥamdu li-llāhi rabbi l-ʿālamīn"
+      },
+      {
+        "number": 3,
+        "text": "الرحمن الرحيم",
+        "transliteration": "ar-raḥmāni r-raḥīm"
+      },
+      {
+        "number": 4,
+        "text": "مالك يوم الدين",
+        "transliteration": "maliki yawmi d-dīn"
+      },
+      {
+        "number": 5,
+        "text": "اياك نعبد واياك نستعين",
+        "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīn"
+      },
+      {
+        "number": 6,
+        "text": "اهدنا الصرط المستقيم",
+        "transliteration": "ihdinā ṣ-ṣirāṭa l-mustaqīm"
+      },
+      {
+        "number": 7,
+        "text": "صرط الذين انعمت عليهم غير المغضوب عليهم ولا الضالين",
+        "transliteration": "ṣirāṭa lladhīna anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim wa-lā ḍ-ḍāllīn"
+      }
+    ]
+  }
+}

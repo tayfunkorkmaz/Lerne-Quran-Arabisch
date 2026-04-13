@@ -1,0 +1,2194 @@
+[
+  {
+    "id": "3.1",
+    "title": "Das Kasussystem",
+    "description": "Die drei Kasus des Arabischen — Nominativ, Akkusativ und Genitiv — bestimmen die Funktion jedes Nomens im Satz. Ohne Kasusverständnis ist kein einziger Quran-Vers korrekt analysierbar.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Die drei Kasus im Überblick",
+          "content": "Das Arabische kennt drei Kasus (Fälle), die durch kurze Endvokale angezeigt werden. Diese Endvokale heißen im Arabischen Iʿrāb (إِعْرَاب) — sie zeigen die grammatische Funktion eines Wortes im Satz an. Die drei Kasus sind:\n\n1. Nominativ (Rafʿ / رَفْع) — Endung ـُ (Ḍamma) bzw. ـٌ (Tanwīn): Das Wort ist Subjekt, Prädikat eines Nominalsatzes, oder Subjekt von كَانَ.\n\n2. Akkusativ (Naṣb / نَصْب) — Endung ـَ (Fatḥa) bzw. ـً (Tanwīn): Das Wort ist Objekt, Prädikat von كَانَ, Ism von إِنَّ und ihren Schwestern, Zustandsangabe (Ḥāl), Spezifikation (Tamyīz), absoluter Akkusativ (Mafʿūl muṭlaq) oder Akkusativ des Grundes.\n\n3. Genitiv (Jarr / جَرّ) — Endung ـِ (Kasra) bzw. ـٍ (Tanwīn): Das Wort steht nach einer Präposition oder ist zweites Glied einer Iḍāfa (Genitivverbindung).\n\nDiese Kasus-Endungen sind der Schlüssel zur Satzanalyse. Im modernen Arabisch werden sie oft nicht ausgesprochen, aber im Quran sind sie vollständig markiert und tragen entscheidende Bedeutung.",
+          "arabicExamples": [
+            {
+              "arabic": "جَاءَ الرَّجُلُ",
+              "transliteration": "jāʾa r-rajulu",
+              "meaning": "Der Mann kam (Nominativ — Subjekt)"
+            },
+            {
+              "arabic": "رَأَيْتُ الرَّجُلَ",
+              "transliteration": "raʾaytu r-rajula",
+              "meaning": "Ich sah den Mann (Akkusativ — Objekt)"
+            },
+            {
+              "arabic": "مَرَرْتُ بِالرَّجُلِ",
+              "transliteration": "marartu bi-r-rajuli",
+              "meaning": "Ich ging am Mann vorbei (Genitiv — nach Präposition)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Satz: بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (Im Namen Gottes, des Barmherzigen, des Erbarmers)",
+            "بِسْمِ — بِ ist eine Präposition, also steht اِسْم im Genitiv → اِسْمِ (Kasra)",
+            "اللَّهِ — zweites Glied der Iḍāfa (اسم الله), also ebenfalls Genitiv → اللَّهِ (Kasra)",
+            "الرَّحْمَنِ — Adjektiv/Attribut zu اللَّه, folgt dem Kasus des Bezugswortes → Genitiv (Kasra)",
+            "الرَّحِيمِ — weiteres Adjektiv, ebenfalls Genitiv → الرَّحِيمِ (Kasra)",
+            "Ergebnis: Alle vier Nomen stehen im Genitiv — die Präposition بِ regiert den Kasus, und alle weiteren Wörter folgen durch Iḍāfa oder Kongruenz."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Dasselbe Wort in drei Kasus",
+          "items": [
+            {
+              "arabic": "اللَّهُ أَكْبَرُ",
+              "transliteration": "Allāhu akbaru",
+              "meaning": "Gott ist am größten",
+              "note": "Nominativ — Subjekt des Nominalsatzes (Ḍamma)"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ عَلِيمٌ",
+              "transliteration": "inna Allāha ʿalīmun",
+              "meaning": "Wahrlich, Gott ist allwissend",
+              "note": "Akkusativ — Ism von إِنَّ und ihren Schwestern (Fatḥa)"
+            },
+            {
+              "arabic": "بِسْمِ اللَّهِ",
+              "transliteration": "bismi llāhi",
+              "meaning": "Im Namen Gottes",
+              "note": "Genitiv — zweites Glied der Iḍāfa (Kasra)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Akkusativ-Funktionen im Detail",
+          "content": "Der Akkusativ (Naṣb) hat im Arabischen besonders viele Funktionen. Die wichtigsten für den Quran sind:\n\n1. Direktes Objekt (Mafʿūl bihi): خَلَقَ اللَّهُ السَّمَاوَاتِ — Gott erschuf die Himmel.\n2. Prädikat von كَانَ und ihren Schwestern: كَانَ اللَّهُ عَلِيمًا — Gott war/ist allwissend.\n3. Ism von إِنَّ und ihren Schwestern: إِنَّ اللَّهَ غَفُورٌ — Wahrlich, Gott ist vergebend.\n4. Zustandsakkusativ (Ḥāl): جَاءُوا بَاكِينَ — Sie kamen weinend.\n5. Spezifikationsakkusativ (Tamyīz): ازْدَادُوا إِيمَانًا — Sie nahmen zu an Glauben.\n6. Absoluter Akkusativ (Mafʿūl muṭlaq): فَصَلِّ لِرَبِّكَ صَلَاةً — Wende dich deinem Herrn in Zuwendung zu. [Konstruiertes Beispiel zur Veranschaulichung des Mafʿul Mutlaq. Der tatsächliche Verstext von 108:2 lautet: فَصَلِّ لِرَبِّكَ وَانْحَرْ.]\n7. Akkusativ des Grundes: يَجْعَلُونَ أَصَابِعَهُمْ فِي آذَانِهِم مِّنَ الصَّوَاعِقِ حَذَرَ الْمَوْتِ — aus Furcht vor dem Tod.",
+          "arabicExamples": [
+            {
+              "arabic": "خَلَقَ اللَّهُ السَّمَاوَاتِ",
+              "transliteration": "khalaqa llāhu s-samāwāti",
+              "meaning": "Gott erschuf die Himmel (Objekt im Akkusativ)"
+            },
+            {
+              "arabic": "كَانَ اللَّهُ عَلِيمًا",
+              "transliteration": "kāna llāhu ʿalīman",
+              "meaning": "Gott war/ist allwissend (Prädikat von kāna im Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "1:2",
+              "word": "ٱلْحَمْدُ لِلَّهِ",
+              "analysis": "الْحَمْدُ steht im Nominativ (Ḍamma) — es ist das Mubtadaʼ (Subjekt) des Nominalsatzes. لِلَّهِ steht im Genitiv (Kasra) — nach der Präposition لِ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "location": "2:255",
+              "word": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ",
+              "analysis": "اللَّهُ steht im Nominativ als Mubtadaʼ. إِلَٰهَ steht im Akkusativ als Prädikatsname von لَا (Negationspartikel لَا النافية للجنس).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+            },
+            {
+              "location": "4:11",
+              "word": "يُوصِيكُمُ ٱللَّهُ",
+              "analysis": "اللَّهُ ist Subjekt (Fāʿil) im Nominativ. كُمْ (euch) ist Objektpronomen im Akkusativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=11"
+            },
+            {
+              "location": "112:1",
+              "word": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+              "analysis": "Analyse 1 (Standard): هُوَ ist ضمير الشأن (Pronomen der Angelegenheit). Der Satz اللَّهُ أَحَدٌ ist als Ganzes sein Khabar. Analyse 2 (in der Forschung umstritten): هُوَ = Mubtadaʾ, اللَّهُ = Badal zu هُوَ, أَحَدٌ = Khabar. Diese Analyse ist problematisch, da Badal zu einem Damir normalerweise eine Apposition zum Referenten erfordert, der hier im unmittelbaren Kontext fehlt.",
+              "note": "Die Analyse von هُوَ (Damir ash-Sha'n vs. Verweis) ist ein fortgeschrittenes Thema. Beide Analysen sind grammatisch vertretbar.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Kasus zeigt an, dass ein Wort das Subjekt eines Nominalsatzes ist?",
+          "options": [
+            "Akkusativ (Naṣb)",
+            "Nominativ (Rafʿ)",
+            "Genitiv (Jarr)",
+            "Jussiv (Jazm)"
+          ],
+          "answer": "Nominativ (Rafʿ)",
+          "explanation": "Das Subjekt eines Nominalsatzes (Mubtadaʼ) steht immer im Nominativ (Rafʿ), angezeigt durch Ḍamma (ـُ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "case_determination",
+          "prompt": "Bestimme den Kasus von اللَّهَ in: إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+          "word": "اللَّهَ",
+          "answer": "Akkusativ (Naṣb)",
+          "hint": "Achte auf die Endung -a (Fatḥa). Warum steht das Subjekt hier im Akkusativ?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Endung zeigt den Genitiv (Jarr) bei bestimmten Nomen an?",
+          "word": "الرَّجُلِ",
+          "answer": "Kasra (ـِ)",
+          "hint": "Schau auf den letzten kurzen Vokal des Wortes.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Funktion dem richtigen Kasus zu:",
+          "pairs": [
+            {
+              "left": "Subjekt des Nominalsatzes",
+              "right": "Nominativ (Rafʿ)"
+            },
+            {
+              "left": "Direktes Objekt",
+              "right": "Akkusativ (Naṣb)"
+            },
+            {
+              "left": "Nach Präpositionen",
+              "right": "Genitiv (Jarr)"
+            },
+            {
+              "left": "Prädikat von كَانَ",
+              "right": "Akkusativ (Naṣb)"
+            },
+            {
+              "left": "Zweites Glied der Iḍāfa",
+              "right": "Genitiv (Jarr)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht السَّمَاوَاتِ in خَلَقَ اللَّهُ السَّمَاوَاتِ im Akkusativ?",
+          "options": [
+            "Weil es Subjekt ist",
+            "Weil es direktes Objekt des Verbs خَلَقَ ist",
+            "Weil es nach einer Präposition steht",
+            "Weil es Attribut ist"
+          ],
+          "answer": "Weil es direktes Objekt des Verbs خَلَقَ ist",
+          "explanation": "السَّمَاوَاتِ ist das direkte Objekt (Mafʿūl bihi) von خَلَقَ. Das Kasra hier täuscht — es ist ein gesunder femininer Plural (جَمْع مُؤَنَّث سَالِم). Dieser Pluraltyp zeigt Kasra sowohl im Genitiv als auch im Akkusativ — das ist sein reguläres Flexionsverhalten, keine Diptotie.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Kasus jedes Nomens in: الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "word": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "answer": "الْحَمْدُ = Nominativ (Mubtadaʼ), لِلَّهِ = Genitiv (nach Präposition لِ), رَبِّ = Genitiv (Attribut/Badal zu اللَّه), الْعَالَمِينَ = Genitiv (zweites Glied der Iḍāfa)",
+          "hint": "Bestimme zuerst das Mubtadaʼ, dann identifiziere die Präposition und die Genitivkette.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-30",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.17",
+      "3.3",
+      "3.5",
+      "3.4"
+    ]
+  },
+  {
+    "id": "3.2",
+    "title": "Satztypen",
+    "description": "Arabisch kennt zwei grundlegende Satztypen: den Nominalsatz (Jumla ismiyya) und den Verbalsatz (Jumla fiʿliyya). Diese Unterscheidung bestimmt die gesamte Satzstruktur.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Der Nominalsatz (الجُمْلَة الاِسْمِيَّة)",
+          "content": "Ein Nominalsatz beginnt mit einem Nomen oder Pronomen. Er besteht aus zwei Teilen:\n\n1. Mubtadaʼ (مُبْتَدَأ) — das Subjekt, immer im Nominativ (Rafʿ)\n2. Khabar (خَبَر) — das Prädikat, ebenfalls im Nominativ (Rafʿ)\n\nDer Nominalsatz drückt einen Zustand oder eine allgemeingültige Aussage aus — er ist tempusneutral. Er enthält kein Kopulaverb ('sein') — im Arabischen ist das 'ist' im Präsens nicht vorhanden.\n\nDas Khabar kann verschiedene Formen annehmen:\n- Ein einzelnes Nomen/Adjektiv: اللَّهُ أَكْبَرُ (Gott ist am größten)\n- Ein Präpositionalausdruck: الْحَمْدُ لِلَّهِ (Das Lob gehört Gott)\n- Ein ganzer Satz: اللَّهُ يَعْلَمُ (Gott weiß — der Verbalsatz ist Khabar)\n\nWichtig: Im Quran wird häufig das Mubtadaʼ durch ein Pronomen wieder aufgenommen (Pronomen der Rückkehr / ضَمِير عَائِد).",
+          "arabicExamples": [
+            {
+              "arabic": "اللَّهُ سَمِيعٌ عَلِيمٌ",
+              "transliteration": "Allāhu samīʿun ʿalīmun",
+              "meaning": "Gott ist hörend, wissend (Mubtadaʼ + zwei Khabar)"
+            },
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "transliteration": "al-ḥamdu li-llāhi",
+              "meaning": "Das Lob gehört Gott (Khabar ist Präpositionalausdruck)"
+            },
+            {
+              "arabic": "ذَٰلِكَ الْكِتَابُ",
+              "transliteration": "dhālika l-kitābu",
+              "meaning": "Jenes (ist) das Buch (Demonstrativpronomen als Mubtadaʼ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Der Verbalsatz (الجُمْلَة الفِعْلِيَّة)",
+          "content": "Ein Verbalsatz beginnt mit einem Verb. Die typische Reihenfolge ist:\n\nVerb + Fāʿil (Subjekt, Nominativ) + Mafʿūl bihi (Objekt, Akkusativ)\n\nDer Verbalsatz drückt ein Ereignis oder eine Handlung aus — etwas, das zu einem bestimmten Zeitpunkt geschieht oder geschah.\n\nWichtige Regeln:\n- Wenn das Verb vor dem Subjekt steht, bleibt es immer im Singular, auch wenn das Subjekt Plural ist: جَاءَ الرِّجَالُ (Die Männer kamen — Verb im Singular!)\n- Das Subjekt (Fāʿil) kann als Pronomen im Verb verborgen sein: خَلَقَ = er erschuf (das 'er' steckt in der Verbform)\n- Im Quran folgen Verbalsätze oft auf Partikeln wie قَدْ, لَمْ, سَوْفَ usw.",
+          "arabicExamples": [
+            {
+              "arabic": "خَلَقَ اللَّهُ السَّمَاوَاتِ",
+              "transliteration": "khalaqa llāhu s-samāwāti",
+              "meaning": "Gott erschuf die Himmel (Verb + Subjekt + Objekt)"
+            },
+            {
+              "arabic": "قَالَ رَبُّكَ",
+              "transliteration": "qāla rabbuka",
+              "meaning": "Dein Herr sprach (Verb + Subjekt)"
+            },
+            {
+              "arabic": "يَعْلَمُ مَا فِي السَّمَاوَاتِ",
+              "transliteration": "yaʿlamu mā fī s-samāwāti",
+              "meaning": "Er weiß, was in den Himmeln ist (verborgenes Subjekt)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ (24:35)",
+            "Schritt 1: Das erste Wort ist اللَّهُ — ein Nomen. Also ist dies ein Nominalsatz.",
+            "Schritt 2: اللَّهُ = Mubtadaʼ (Subjekt), steht im Nominativ (Ḍamma).",
+            "Schritt 3: نُورُ = Khabar (Prädikat), steht ebenfalls im Nominativ (Ḍamma).",
+            "Schritt 4: نُورُ السَّمَاوَاتِ ist eine Iḍāfa: 'Licht der Himmel'.",
+            "Schritt 5: وَالْأَرْضِ ist durch وَ angereiht, ebenfalls Genitiv (Teil der Iḍāfa).",
+            "Ergebnis: 'Gott (ist das) Licht der Himmel und der Erde.' — Tempusneutraler Nominalsatz, kein Verb nötig."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Nominalsatz vs. Verbalsatz — Bedeutungsunterschied",
+          "items": [
+            {
+              "arabic": "اللَّهُ يَعْلَمُ",
+              "transliteration": "Allāhu yaʿlamu",
+              "meaning": "Gott weiß (betont: GOTT ist es, der weiß)",
+              "note": "Nominalsatz — das vorangestellte Nomen betont das Subjekt"
+            },
+            {
+              "arabic": "يَعْلَمُ اللَّهُ",
+              "transliteration": "yaʿlamu llāhu",
+              "meaning": "Gott weiß (betont die Handlung des Wissens)",
+              "note": "Verbalsatz — die Handlung steht im Vordergrund"
+            },
+            {
+              "arabic": "اللَّهُ خَالِقُ كُلِّ شَيْءٍ",
+              "transliteration": "Allāhu khāliqu kulli shayʾin",
+              "meaning": "Gott ist Schöpfer aller Dinge",
+              "note": "Nominalsatz — tempusneutrale, allgemeingültige Aussage"
+            },
+            {
+              "arabic": "خَلَقَ اللَّهُ السَّمَاوَاتِ وَالْأَرْضَ",
+              "transliteration": "khalaqa llāhu s-samāwāti wa-l-arḍa",
+              "meaning": "Gott erschuf die Himmel und die Erde",
+              "note": "Verbalsatz — konkretes historisches Ereignis"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:2",
+              "word": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ",
+              "analysis": "Nominalsatz: ذَٰلِكَ = Mubtadaʼ (Demonstrativpronomen), الْكِتَابُ = Khabar oder Badal. لَا رَيْبَ فِيهِ = zweiter Nominalsatz (kein Zweifel darin).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "location": "1:2",
+              "word": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "analysis": "Nominalsatz: الْحَمْدُ = Mubtadaʼ (Nom.), لِلَّهِ = Khabar (Präpositionalausdruck). رَبِّ الْعَالَمِينَ = Attribut im Genitiv.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "location": "36:82",
+              "word": "إِنَّمَآ أَمْرُهُٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُ كُن فَيَكُونُ",
+              "analysis": "Nominalsatz mit إِنَّمَا: أَمْرُهُ = Mubtadaʼ. أَن يَقُولَ = Khabar. Verbalsätze als eingebettete Nebensätze.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=82"
+            },
+            {
+              "location": "7:54",
+              "word": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ",
+              "analysis": "Verbalsatz: خَلَقَ = Verb (Perfekt), Subjekt verborgen (هُوَ = Er/Gott), السَّمَاوَاتِ = Objekt (Akk.), فِي سِتَّةِ أَيَّامٍ = Präpositionalausdruck.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Satztyp beginnt mit einem Nomen oder Pronomen?",
+          "options": [
+            "Verbalsatz (Jumla fiʿliyya)",
+            "Nominalsatz (Jumla ismiyya)",
+            "Bedingungssatz (Jumla sharṭiyya)",
+            "Schwursatz (Jumla qasamiyya)"
+          ],
+          "answer": "Nominalsatz (Jumla ismiyya)",
+          "explanation": "Der Nominalsatz (الجُمْلَة الاِسْمِيَّة) beginnt definitionsgemäß mit einem Nomen oder Pronomen und ist tempusneutral — er drückt einen Zustand ohne Zeitmarkierung aus.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme den Satztyp: خَلَقَ اللَّهُ الْإِنسَانَ",
+          "word": "خَلَقَ اللَّهُ الْإِنسَانَ",
+          "answer": "Verbalsatz (Jumla fiʿliyya)",
+          "hint": "Mit welchem Wort beginnt der Satz — Nomen oder Verb?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Khabar eines einfachen Nominalsatzes?",
+          "options": [
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)",
+            "Nominativ (Rafʿ)",
+            "Je nach Kontext unterschiedlich"
+          ],
+          "answer": "Nominativ (Rafʿ)",
+          "explanation": "Sowohl Mubtadaʼ als auch Khabar stehen im Nominativ (Rafʿ). Das ändert sich erst, wenn Partikeln wie إِنَّ oder كَانَ eingreifen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme Mubtadaʼ und Khabar in: اللَّهُ أَكْبَرُ",
+          "word": "اللَّهُ أَكْبَرُ",
+          "answer": "Mubtadaʼ: اللَّهُ, Khabar: أَكْبَرُ",
+          "hint": "Das erste Nomen ist das Subjekt, das zweite ist das Prädikat.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jeden Satz dem richtigen Satztyp zu:",
+          "pairs": [
+            {
+              "left": "اللَّهُ سَمِيعٌ عَلِيمٌ",
+              "right": "Nominalsatz"
+            },
+            {
+              "left": "خَلَقَ اللَّهُ السَّمَاوَاتِ",
+              "right": "Verbalsatz"
+            },
+            {
+              "left": "الْحَمْدُ لِلَّهِ",
+              "right": "Nominalsatz"
+            },
+            {
+              "left": "قَالَ رَبُّكَ لِلْمَلَائِكَةِ",
+              "right": "Verbalsatz"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Satz vollständig: قَالَ اللَّهُ الْحَقَّ — Bestimme Satztyp, Subjekt, Objekt und deren Kasus.",
+          "word": "قَالَ اللَّهُ الْحَقَّ",
+          "answer": "Verbalsatz. قَالَ = Verb (Perfekt). اللَّهُ = Fāʿil/Subjekt im Nominativ (Ḍamma). الْحَقَّ = Mafʿūl bihi/Objekt im Akkusativ (Fatḥa). Bedeutung: Gott sprach die Wahrheit.",
+          "hint": "Der Satz beginnt mit einem Verb — welcher Satztyp ist das?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §81-100",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.23",
+      "3.39"
+    ]
+  },
+  {
+    "id": "3.3",
+    "title": "Genitivkonstruktion (Iḍāfa)",
+    "description": "Die Iḍāfa (إِضَافَة) verbindet zwei Nomen, wobei das zweite das erste näher bestimmt. Sie ist eine der häufigsten Konstruktionen im Quran und unentbehrlich für das Verständnis.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Grundprinzip der Iḍāfa",
+          "content": "Die Iḍāfa (إِضَافَة, wörtlich: 'Hinzufügung') ist eine Genitivverbindung aus zwei oder mehr Nomen. Das erste Nomen heißt Muḍāf (مُضَاف), das zweite Muḍāf ilayhi (مُضَاف إِلَيْه).\n\nRegeln:\n1. Das erste Nomen (Muḍāf) verliert sein Tanwīn und seinen Artikel. Es erhält den Kasus, den die Satzfunktion verlangt (Nom., Akk. oder Gen.).\n2. Das zweite Nomen (Muḍāf ilayhi) steht IMMER im Genitiv (Jarr).\n3. Die Iḍāfa drückt Besitz, Zugehörigkeit, Beschreibung oder Spezifizierung aus.\n4. Zwischen Muḍāf und Muḍāf ilayhi darf KEIN anderes Wort stehen.\n\nDie Iḍāfa entspricht im Deutschen dem Genitiv ('das Buch Gottes'), einer 'von'-Konstruktion ('das Buch von Gott') oder einem Kompositum ('Gottesbuch').\n\nBestimmtheit: Eine Iḍāfa ist bestimmt, wenn das letzte Glied bestimmt ist. كِتَابُ اللَّهِ ist bestimmt (das Buch Gottes), obwohl كِتَاب keinen Artikel hat.",
+          "arabicExamples": [
+            {
+              "arabic": "كِتَابُ اللَّهِ",
+              "transliteration": "kitābu llāhi",
+              "meaning": "Das Buch Gottes (Muḍāf + Muḍāf ilayhi)"
+            },
+            {
+              "arabic": "رَسُولُ اللَّهِ",
+              "transliteration": "rasūlu llāhi",
+              "meaning": "Der Gesandte Gottes"
+            },
+            {
+              "arabic": "بَيْتُ اللَّهِ",
+              "transliteration": "baytu llāhi",
+              "meaning": "Das Haus Gottes"
+            },
+            {
+              "arabic": "عِبَادُ الرَّحْمَنِ",
+              "transliteration": "ʿibādu r-raḥmāni",
+              "meaning": "Die Diener des Barmherzigen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Ketten-Iḍāfa",
+          "content": "Die Iḍāfa kann kettenförmig erweitert werden. Jedes mittlere Glied ist gleichzeitig Muḍāf ilayhi (zum vorherigen) und Muḍāf (zum nächsten). Alle mittleren und letzten Glieder stehen im Genitiv.\n\nBeispiel: بَابُ بَيْتِ اللَّهِ = die Tür des Hauses Gottes\n- بَابُ = Muḍāf (Kasus je nach Satzfunktion)\n- بَيْتِ = Muḍāf ilayhi zu بَاب (Genitiv) und gleichzeitig Muḍāf zu اللَّه\n- اللَّهِ = letztes Muḍāf ilayhi (Genitiv)\n\nIm Quran kommen häufig Ketten mit zwei oder drei Gliedern vor. Längere Ketten sind selten, aber möglich.",
+          "arabicExamples": [
+            {
+              "arabic": "بَابُ بَيْتِ اللَّهِ",
+              "transliteration": "bābu bayti llāhi",
+              "meaning": "Die Tür des Hauses Gottes (3-gliedrige Iḍāfa)"
+            },
+            {
+              "arabic": "أَصْحَابُ الْيَمِينِ",
+              "transliteration": "aṣḥābu l-yamīni",
+              "meaning": "Die Gefährten der Rechten"
+            },
+            {
+              "arabic": "سُنَّةُ اللَّهِ",
+              "transliteration": "sunnatu llāhi",
+              "meaning": "Die Lebensweise/Gewohnheit Gottes"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Ausdruck: رَبِّ الْعَالَمِينَ (1:2)",
+            "Schritt 1: Zwei Nomen hintereinander — das ist eine Iḍāfa.",
+            "Schritt 2: رَبِّ = Muḍāf. Es hat kein Tanwīn und keinen Artikel.",
+            "Schritt 3: الْعَالَمِينَ = Muḍāf ilayhi. Es steht im Genitiv.",
+            "Schritt 4: الْعَالَمِينَ ist ein gesunder Maskulinplural. Der Genitiv wird bei diesen Pluralen durch die Endung ـِينَ angezeigt (statt ـُونَ für Nominativ).",
+            "Schritt 5: رَبِّ steht hier im Genitiv (Kasra), weil es Attribut/Badal zu اللَّهِ ist (das ebenfalls im Genitiv steht nach لِ).",
+            "Ergebnis: 'Herr der Welten' — رَبّ ist durch die Iḍāfa bestimmt, obwohl es keinen Artikel hat."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Iḍāfa vs. Adjektivische Beschreibung",
+          "items": [
+            {
+              "arabic": "كِتَابُ اللَّهِ",
+              "transliteration": "kitābu llāhi",
+              "meaning": "Das Buch Gottes",
+              "note": "Iḍāfa — Muḍāf hat KEINEN Artikel, Muḍāf ilayhi im Genitiv"
+            },
+            {
+              "arabic": "الْكِتَابُ الْكَرِيمُ",
+              "transliteration": "al-kitābu l-karīmu",
+              "meaning": "Das edle Buch",
+              "note": "Adjektivische Beschreibung — BEIDE haben Artikel und stimmen in Kasus überein"
+            },
+            {
+              "arabic": "كِتَابٌ كَرِيمٌ",
+              "transliteration": "kitābun karīmun",
+              "meaning": "Ein edles Buch",
+              "note": "Adjektiv bei unbestimmtem Nomen — BEIDE haben Tanwīn"
+            },
+            {
+              "arabic": "كِتَابُ اللَّهِ الْكَرِيمُ",
+              "transliteration": "kitābu llāhi l-karīmu",
+              "meaning": "Das edle Buch Gottes",
+              "note": "Iḍāfa + Adjektiv: Das Adjektiv kommt NACH der Iḍāfa und hat Artikel"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "1:2",
+              "word": "رَبِّ ٱلْعَٰلَمِينَ",
+              "analysis": "Iḍāfa: رَبّ (Herr) + الْعَالَمِين (die Welten). Genitiv, da Attribut zu اللَّهِ. Bedeutung: Herr der Welten.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "location": "1:4",
+              "word": "يَوْمِ ٱلدِّينِ",
+              "analysis": "Iḍāfa: يَوْم (Tag) + الدِّين (das Gericht/die Religion). Im Genitiv wegen مَالِكِ davor. Bedeutung: Tag des Gerichts.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+            },
+            {
+              "location": "2:101",
+              "word": "كِتَٰبَ ٱللَّهِ",
+              "analysis": "Iḍāfa: كِتَاب (Buch) + ٱللَّه. Im Akkusativ als Objekt von نَبَذَ. Bedeutung: das Buch Gottes (warfen sie hinter ihren Rücken). Klassische Iḍāfa-Konstruktion ohne Präposition.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=101"
+            },
+            {
+              "location": "9:36",
+              "word": "كِتَٰبِ ٱللَّهِ",
+              "analysis": "Iḍāfa: كِتَاب (Buch) + اللَّه (Gott). Im Genitiv nach der Präposition فِي. Bedeutung: Im Buch Gottes.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=36"
+            },
+            {
+              "location": "25:63",
+              "word": "وَعِبَادُ ٱلرَّحْمَٰنِ",
+              "analysis": "Iḍāfa: عِبَاد (Diener) + الرَّحْمَن (der Barmherzige). Im Nominativ als Mubtadaʼ. Bedeutung: Die Diener des Barmherzigen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=63"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das zweite Glied (Muḍāf ilayhi) einer Iḍāfa IMMER?",
+          "options": [
+            "Nominativ (Rafʿ)",
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)",
+            "Hängt von der Satzfunktion ab"
+          ],
+          "answer": "Genitiv (Jarr)",
+          "explanation": "Das Muḍāf ilayhi steht ausnahmslos im Genitiv (Jarr). Das ist die Grundregel der Iḍāfa.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere Muḍāf und Muḍāf ilayhi in: رَسُولُ اللَّهِ",
+          "word": "رَسُولُ اللَّهِ",
+          "answer": "Muḍāf: رَسُولُ, Muḍāf ilayhi: اللَّهِ",
+          "hint": "Das erste Nomen ist das Muḍāf, das zweite (im Genitiv) ist das Muḍāf ilayhi.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum hat كِتَابُ in كِتَابُ اللَّهِ keinen Artikel?",
+          "options": [
+            "Es ist unbestimmt",
+            "Das Muḍāf verliert in der Iḍāfa seinen Artikel und sein Tanwīn",
+            "Es ist ein Eigenname",
+            "Es ist ein Fehler im Text"
+          ],
+          "answer": "Das Muḍāf verliert in der Iḍāfa seinen Artikel und sein Tanwīn",
+          "explanation": "In einer Iḍāfa darf das erste Nomen (Muḍāf) weder Artikel noch Tanwīn tragen. Es wird trotzdem als bestimmt betrachtet, wenn das Muḍāf ilayhi bestimmt ist.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Vervollständige die Iḍāfa: بَابُ _____ (die Tür der Moschee). Das Wort für Moschee ist مَسْجِد. In welchem Kasus muss es stehen?",
+          "answer": "الْمَسْجِدِ",
+          "hint": "Das Muḍāf ilayhi steht immer im Genitiv. Wie lautet die Genitivform von المسجد?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Iḍāfa ihrer Bedeutung zu:",
+          "pairs": [
+            {
+              "left": "كِتَابُ اللَّهِ",
+              "right": "Das Buch Gottes"
+            },
+            {
+              "left": "يَوْمُ الْقِيَامَةِ",
+              "right": "Der Tag der Auferstehung"
+            },
+            {
+              "left": "رَبُّ الْعَالَمِينَ",
+              "right": "Herr der Welten"
+            },
+            {
+              "left": "أَهْلُ الْكِتَابِ",
+              "right": "Die Leute des Buches"
+            },
+            {
+              "left": "سَبِيلُ اللَّهِ",
+              "right": "Der Weg Gottes"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere alle Iḍāfa-Verbindungen in: مَالِكِ يَوْمِ الدِّينِ (1:4)",
+          "word": "مَالِكِ يَوْمِ الدِّينِ",
+          "answer": "Doppelte Iḍāfa-Kette: مَالِكِ (Besitzer/Herrscher) ist Muḍāf zu يَوْمِ, und يَوْمِ (Tag) ist Muḍāf zu الدِّينِ (des Gerichts). Alle drei stehen im Genitiv: مَالِكِ weil es Attribut zu اللَّهِ ist, يَوْمِ und الدِّينِ als Muḍāf ilayhi.",
+          "hint": "Zähle die Nomen und prüfe, ob sie eine Kette bilden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §91-100",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.27",
+      "3.1"
+    ]
+  },
+  {
+    "id": "3.4",
+    "title": "Kāna und ihre Schwestern",
+    "description": "Die Verben كَانَ, أَصْبَحَ, أَمْسَى, ظَلَّ, بَاتَ, صَارَ, لَيْسَ, مَا زَالَ, مَا بَرِحَ, مَا فَتِئَ, مَا انْفَكَّ und مَا دَامَ treten in einen Nominalsatz ein und setzen das Prädikat in den Akkusativ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Wie كَانَ den Nominalsatz verändert",
+          "content": "Im einfachen Nominalsatz stehen Mubtadaʼ und Khabar beide im Nominativ:\nاللَّهُ عَلِيمٌ — Gott ist allwissend.\n\nWenn كَانَ (oder eine ihrer 'Schwestern') eintritt, passiert Folgendes:\n- Das Mubtadaʼ wird zum 'Ism von kāna' (اسم كان) und bleibt im Nominativ.\n- Das Khabar wird zum 'Khabar von kāna' (خبر كان) und wechselt in den Akkusativ.\n\nكَانَ اللَّهُ عَلِيمًا — Gott war/ist allwissend.\n\nWichtig: كَانَ ist grammatisch ein Verb im Perfekt. Ob der perfektive Aspekt Vergangenheit, Zustandsbeschreibung oder zeitlose Gültigkeit ausdrückt, ergibt sich aus dem jeweiligen syntaktischen Kontext — nicht aus einer Sonderbedeutung des Verbs. وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا kann daher je nach Kontext 'Und Gott war/ist allwissend, allweise' bedeuten.",
+          "arabicExamples": [
+            {
+              "arabic": "كَانَ اللَّهُ عَلِيمًا",
+              "transliteration": "kāna llāhu ʿalīman",
+              "meaning": "Gott war/ist allwissend (Ism=Nom., Khabar=Akk.)"
+            },
+            {
+              "arabic": "كَانَ اللَّهُ غَفُورًا رَّحِيمًا",
+              "transliteration": "kāna llāhu ghafūran raḥīman",
+              "meaning": "Gott war/ist vergebend, barmherzig"
+            },
+            {
+              "arabic": "كُنتُمْ خَيْرَ أُمَّةٍ",
+              "transliteration": "kuntum khayra ummatin",
+              "meaning": "Ihr wart/seid die beste Gemeinschaft"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die Schwestern von كَانَ",
+          "content": "Neben كَانَ gibt es weitere Verben, die genauso funktionieren — sie alle setzen das Khabar in den Akkusativ:\n\n1. كَانَ (kāna) — war / ist (andauernder Zustand)\n2. أَصْبَحَ (aṣbaḥa) — wurde am Morgen / wurde zu\n3. أَمْسَى (amsā) — wurde am Abend / befand sich abends\n4. ظَلَّ (ẓalla) — blieb / verbrachte den Tag\n5. بَاتَ (bāta) — verbrachte die Nacht / wurde (über Nacht)\n6. صَارَ (ṣāra) — wurde zu / verwandelte sich in\n7. لَيْسَ (laysa) — ist nicht (Negation im Nominalsatz)\n8. مَا زَالَ (mā zāla) — hört nicht auf / ist immer noch\n9. مَا بَرِحَ (mā bariḥa) — hört nicht auf / ist weiterhin\n10. مَا فَتِئَ (mā fatiʾa) — hört nicht auf / lässt nicht ab\n11. مَا انْفَكَّ (mā infakka) — löst sich nicht / hört nicht auf\n12. مَا دَامَ (mā dāma) — solange\n\nDie ersten sechs (كَانَ bis صَارَ) drücken verschiedene Zeitaspekte des Werdens/Seins aus. لَيْسَ negiert den Nominalsatz. Die مَا-Gruppe (مَا زَالَ, مَا بَرِحَ, مَا فَتِئَ, مَا انْفَكَّ) drückt Fortdaur aus: 'hört nicht auf zu sein'. مَا دَامَ setzt eine zeitliche Bedingung: 'solange'.\n\nBesonders wichtig ist لَيْسَ — es ist die Standardnegation für Nominalsätze im Arabischen: لَيْسَ اللَّهُ بِظَلَّامٍ = Gott ist kein Ungerechter.",
+          "arabicExamples": [
+            {
+              "arabic": "لَيْسَ كَمِثْلِهِ شَيْءٌ",
+              "transliteration": "laysa ka-mithlihi shayʾun",
+              "meaning": "Nichts ist Ihm gleich (لَيْسَ negiert den Nominalsatz)"
+            },
+            {
+              "arabic": "أَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَارِغًا",
+              "transliteration": "aṣbaḥa fuʾādu ummi mūsā fārighan",
+              "meaning": "Das Herz der Mutter Musas wurde leer (28:10)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=10"
+            },
+            {
+              "arabic": "لَا يَزَالُونَ مُخْتَلِفِينَ",
+              "transliteration": "lā yazālūna mukhtalifīna",
+              "meaning": "Sie hören nicht auf, verschieden zu sein (11:118)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=118"
+            },
+            {
+              "arabic": "صَارَ وَجْهُهُ مُسْوَدًّا",
+              "transliteration": "ṣāra wajhuhu muswaddan",
+              "meaning": "Sein Gesicht wurde schwarz/finster — صَارَ drückt Verwandlung aus (vgl. 16:58)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=58"
+            },
+            {
+              "arabic": "بَاتَ الرَّجُلُ حَزِينًا",
+              "transliteration": "bāta r-rajulu ḥazīnan",
+              "meaning": "Der Mann verbrachte die Nacht traurig — بَاتَ drückt einen Nachtzustand aus"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا (4:17)",
+            "Schritt 1: كَانَ ist eine Schwester-von-kāna. Sie tritt in einen Nominalsatz ein.",
+            "Schritt 2: Der ursprüngliche Nominalsatz wäre: اللَّهُ عَلِيمٌ حَكِيمٌ (Gott ist allwissend, allweise).",
+            "Schritt 3: كَانَ tritt ein → das Mubtadaʼ (اللَّهُ) wird zum Ism von kāna und bleibt im Nominativ.",
+            "Schritt 4: Das Khabar wechselt in den Akkusativ: عَلِيمٌ → عَلِيمًا, حَكِيمٌ → حَكِيمًا.",
+            "Schritt 5: وَ ist eine einfache Konjunktion (und).",
+            "Ergebnis: 'Und Gott ist allwissend, allweise.' — كَانَ steht im perfektiven Aspekt; die zeitliche Referenz ergibt sich aus dem syntaktischen Kontext."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Mit und ohne كَانَ — Kasusvergleich",
+          "items": [
+            {
+              "arabic": "اللَّهُ عَلِيمٌ",
+              "transliteration": "Allāhu ʿalīmun",
+              "meaning": "Gott ist allwissend",
+              "note": "Nominalsatz: Mubtadaʼ (Nom.) + Khabar (Nom.)"
+            },
+            {
+              "arabic": "كَانَ اللَّهُ عَلِيمًا",
+              "transliteration": "kāna llāhu ʿalīman",
+              "meaning": "Gott ist/war allwissend",
+              "note": "Mit كَانَ: Ism (Nom.) + Khabar (Akk.)"
+            },
+            {
+              "arabic": "اللَّهُ غَفُورٌ",
+              "transliteration": "Allāhu ghafūrun",
+              "meaning": "Gott ist vergebend",
+              "note": "Nominalsatz: beide Nominativ"
+            },
+            {
+              "arabic": "لَيْسَ اللَّهُ بِظَالِمٍ",
+              "transliteration": "laysa llāhu bi-ẓālimin",
+              "meaning": "Gott ist nicht ungerecht",
+              "note": "Mit لَيْسَ: Ism (Nom.) + Khabar mit بِ (Gen.) — بِ ist hier zur Verstärkung"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "4:170",
+              "word": "وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+              "analysis": "كَانَ + Ism اللَّهُ (Nom.) + Khabar عَلِيمًا حَكِيمًا (Akk.). Andauernder Zustand, nicht abgeschlossene Vergangenheit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=170"
+            },
+            {
+              "location": "42:11",
+              "word": "لَيْسَ كَمِثْلِهِ شَىْءٌ",
+              "analysis": "لَيْسَ negiert: شَيْءٌ (Ism, Nom.) + كَمِثْلِهِ (Khabar, mit Präposition). Bedeutung: Nichts ist Ihm gleich.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=11"
+            },
+            {
+              "location": "28:10",
+              "word": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَٰرِغًا",
+              "analysis": "أَصْبَحَ + Ism فُؤَادُ أُمِّ مُوسَىٰ (Nom.) + Khabar فَارِغًا (Akk.). Bedeutung: Das Herz der Mutter Musas wurde leer.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=10"
+            },
+            {
+              "location": "3:110",
+              "word": "كُنتُمْ خَيْرَ أُمَّةٍ",
+              "analysis": "كُنتُمْ = كَانَ + Pronomen 'ihr' als Ism. خَيْرَ أُمَّةٍ = Khabar im Akkusativ (Iḍāfa). Bedeutung: Ihr seid die beste Gemeinschaft.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was passiert mit dem Khabar, wenn كَانَ in einen Nominalsatz eintritt?",
+          "options": [
+            "Es bleibt im Nominativ",
+            "Es wechselt in den Akkusativ",
+            "Es wechselt in den Genitiv",
+            "Es fällt weg"
+          ],
+          "answer": "Es wechselt in den Akkusativ",
+          "explanation": "كَانَ und ihre Schwestern setzen das Khabar in den Akkusativ (Naṣb), während das Ism (= ehemaliges Mubtadaʼ) im Nominativ bleibt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere das Ism und das Khabar von كَانَ in: كَانَ اللَّهُ غَفُورًا رَّحِيمًا",
+          "word": "كَانَ اللَّهُ غَفُورًا رَّحِيمًا",
+          "answer": "Ism von kāna: اللَّهُ (Nominativ), Khabar von kāna: غَفُورًا رَّحِيمًا (Akkusativ)",
+          "hint": "Das Wort mit Ḍamma ist das Ism, die Wörter mit Fatḥa/Tanwīn-Fatḥa sind das Khabar.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Schwester von كَانَ wird zur Negation des Nominalsatzes verwendet?",
+          "options": [
+            "أَصْبَحَ",
+            "ظَلَّ",
+            "لَيْسَ",
+            "مَا دَامَ"
+          ],
+          "answer": "لَيْسَ",
+          "explanation": "لَيْسَ (ist nicht) negiert den Nominalsatz. Das Ism bleibt im Nominativ, das Khabar geht in den Akkusativ (oder mit بِ in den Genitiv).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Setze das Khabar in den richtigen Kasus: كَانَ الرَّجُلُ _____ (صَالِح — rechtschaffen). Welche Endung bekommt صالح?",
+          "answer": "صَالِحًا",
+          "hint": "Das Khabar von كَانَ steht im Akkusativ. Wie lautet die Akkusativendung mit Tanwīn?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Schwester von كَانَ ihrer Bedeutung zu:",
+          "pairs": [
+            {
+              "left": "كَانَ",
+              "right": "war / ist (andauernder Zustand)"
+            },
+            {
+              "left": "أَصْبَحَ",
+              "right": "wurde (am Morgen) / wurde zu"
+            },
+            {
+              "left": "أَمْسَى",
+              "right": "wurde am Abend / befand sich abends"
+            },
+            {
+              "left": "ظَلَّ",
+              "right": "blieb / verbrachte den Tag als"
+            },
+            {
+              "left": "بَاتَ",
+              "right": "verbrachte die Nacht / wurde (über Nacht)"
+            },
+            {
+              "left": "صَارَ",
+              "right": "wurde zu / verwandelte sich in"
+            },
+            {
+              "left": "لَيْسَ",
+              "right": "ist nicht"
+            },
+            {
+              "left": "مَا زَالَ",
+              "right": "ist immer noch / hört nicht auf"
+            },
+            {
+              "left": "مَا بَرِحَ",
+              "right": "hört nicht auf / ist weiterhin"
+            },
+            {
+              "left": "مَا دَامَ",
+              "right": "solange"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: لَيْسَ كَمِثْلِهِ شَيْءٌ (42:11) — Bestimme Ism und Khabar von لَيْسَ und erkläre den Kasus.",
+          "word": "لَيْسَ كَمِثْلِهِ شَيْءٌ",
+          "answer": "لَيْسَ = Negationsverb (Schwester von kāna). شَيْءٌ = Ism von لَيْسَ im Nominativ (nachgestellt). كَمِثْلِهِ = Khabar von لَيْسَ (Präpositionalausdruck, vorangestellt). Bedeutung: Nichts ist Ihm gleich / Nichts ist wie Seinesgleichen.",
+          "hint": "Bei لَيْسَ kann das Khabar vor dem Ism stehen. Welches Wort hat die Nominativ-Endung?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=11"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §101-110",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.5",
+      "3.20"
+    ]
+  },
+  {
+    "id": "3.5",
+    "title": "Inna und ihre Schwestern",
+    "description": "Die Partikeln إِنَّ, أَنَّ, كَأَنَّ, لَكِنَّ, لَعَلَّ und لَيْتَ treten in den Nominalsatz ein und setzen — genau umgekehrt zu كَانَ — das Subjekt in den Akkusativ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Wie إِنَّ den Nominalsatz verändert",
+          "content": "Im einfachen Nominalsatz stehen Mubtadaʼ und Khabar beide im Nominativ:\nاللَّهُ عَلِيمٌ — Gott ist allwissend.\n\nWenn إِنَّ (oder eine ihrer 'Schwestern') eintritt, passiert das GEGENTEIL von كَانَ:\n- Das Mubtadaʼ wird zum 'Ism von inna' (اسم إنّ) und wechselt in den AKKUSATIV.\n- Das Khabar wird zum 'Khabar von inna' (خبر إنّ) und BLEIBT im Nominativ.\n\nإِنَّ اللَّهَ عَلِيمٌ — Wahrlich, Gott ist allwissend.\n\nVergleich mit كَانَ:\n- كَانَ: Ism bleibt Nominativ, Khabar wird Akkusativ\n- إِنَّ: Ism wird Akkusativ, Khabar bleibt Nominativ\n\nDie Wirkung ist also genau umgekehrt! Dies ist eine der häufigsten Fehlerquellen für Lernende.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ اللَّهَ عَلِيمٌ",
+              "transliteration": "inna llāha ʿalīmun",
+              "meaning": "Wahrlich, Gott ist allwissend (Ism=Akk., Khabar=Nom.)"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+              "transliteration": "inna llāha ghafūrun raḥīmun",
+              "meaning": "Wahrlich, Gott ist vergebend, barmherzig"
+            },
+            {
+              "arabic": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+              "transliteration": "inna ṣ-ṣalāta kānat ʿalā l-muʾminīna kitāban mawqūtan",
+              "meaning": "Wahrlich, die Zuwendung/Hinwendung (الصَّلَاة) ist den Vertrauenden zu bestimmten Zeiten vorgeschrieben"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die Schwestern von إِنَّ",
+          "content": "Alle sechs Schwestern setzen das Ism in den Akkusativ und belassen das Khabar im Nominativ:\n\n1. إِنَّ (inna) — Wahrlich / Gewiss (Bekräftigung) — am häufigsten im Quran\n2. أَنَّ (anna) — Dass (Subjunktion) — leitet Nebensätze ein\n3. كَأَنَّ (kaʾanna) — Als ob (Vergleich)\n4. لَكِنَّ (lākinna) — Aber / Jedoch (Einschränkung)\n5. لَعَلَّ (laʿalla) — Vielleicht / Auf dass (Hoffnung)\n6. لَيْتَ (layta) — Wenn doch nur (Wunsch)\n\nإِنَّ ist die mit Abstand häufigste dieser Partikeln im Quran. Sie leitet unzählige Verse ein und verleiht der Aussage Nachdruck.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
+              "transliteration": "inna llāha samīʿun baṣīrun",
+              "meaning": "Wahrlich, Gott ist allhörend, allsehend"
+            },
+            {
+              "arabic": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
+              "transliteration": "kaʾannahum ḥumurun mustanfiratun",
+              "meaning": "Als ob sie aufgescheuchte Wildesel wären"
+            },
+            {
+              "arabic": "لَعَلَّكُمْ تَتَّقُونَ",
+              "transliteration": "laʿallakum tattaqūna",
+              "meaning": "Auf dass ihr achtsam werdet"
+            },
+            {
+              "arabic": "يَا لَيْتَنِي كُنتُ تُرَابًا",
+              "transliteration": "yā laytanī kuntu turāban",
+              "meaning": "O, wäre ich doch Staub gewesen!"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ (2:173)",
+            "Schritt 1: إِنَّ ist eine Bekräftigungspartikel (Schwester von inna).",
+            "Schritt 2: Ohne إِنَّ wäre der Satz: اللَّهُ غَفُورٌ رَّحِيمٌ — reiner Nominalsatz, alles Nominativ.",
+            "Schritt 3: إِنَّ tritt ein → das Mubtadaʼ (اللَّهُ) wird Ism von inna und wechselt in den Akkusativ: اللَّهَ (Fatḥa).",
+            "Schritt 4: Das Khabar (غَفُورٌ رَّحِيمٌ) bleibt im Nominativ (Tanwīn-Ḍamma).",
+            "Schritt 5: Beachte: Bei كَانَ wäre es genau umgekehrt — كَانَ اللَّهُ غَفُورًا رَّحِيمًا.",
+            "Ergebnis: 'Wahrlich, Gott ist vergebend, barmherzig.' — إِنَّ verleiht der Aussage Nachdruck."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "إِنَّ vs. كَانَ — Der umgekehrte Effekt",
+          "items": [
+            {
+              "arabic": "اللَّهُ عَلِيمٌ",
+              "transliteration": "Allāhu ʿalīmun",
+              "meaning": "Gott ist allwissend",
+              "note": "Nominalsatz: beide Nominativ"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ عَلِيمٌ",
+              "transliteration": "inna llāha ʿalīmun",
+              "meaning": "Wahrlich, Gott ist allwissend",
+              "note": "إِنَّ: Ism → Akkusativ, Khabar bleibt Nominativ"
+            },
+            {
+              "arabic": "كَانَ اللَّهُ عَلِيمًا",
+              "transliteration": "kāna llāhu ʿalīman",
+              "meaning": "Gott ist/war allwissend",
+              "note": "كَانَ: Ism bleibt Nominativ, Khabar → Akkusativ"
+            },
+            {
+              "arabic": "لَيْسَ اللَّهُ بِغَافِلٍ",
+              "transliteration": "laysa llāhu bi-ghāfilin",
+              "meaning": "Gott ist nicht achtlos",
+              "note": "لَيْسَ: wie كَانَ — Ism Nominativ, Khabar Akkusativ/Genitiv mit بِ"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:37",
+              "word": "إِنَّهُ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+              "analysis": "إِنَّ + Pronomen هُ als Ism (Akk.). هُوَ ضمير فصل (Trennpronomen). التَّوَّابُ الرَّحِيمُ = Khabar (Nom.). Bedeutung: Wahrlich, Er ist der Reuannehmer, der Barmherzige.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+            },
+            {
+              "location": "2:156",
+              "word": "إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
+              "analysis": "إِنَّا = إِنَّ + نَا (wir, Ism im Akk.). لِلَّهِ = Khabar (Präpositionalausdruck). رَاجِعُونَ = Khabar des zweiten إِنَّ (Nom.). Bedeutung: Wahrlich, wir gehören Gott, und zu Ihm kehren wir zurück.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=156"
+            },
+            {
+              "location": "49:13",
+              "word": "إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ",
+              "analysis": "إِنَّ + أَكْرَمَكُمْ = Ism (Akk., Elativ + Pronomen). عِندَ اللَّهِ = Adverb. أَتْقَاكُمْ = Khabar (Nom.). Bedeutung: Wahrlich, der Edelste von euch bei Gott ist der Achtsamste.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+            },
+            {
+              "location": "74:50-51",
+              "word": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ فَرَّتْ مِن قَسْوَرَةٍ",
+              "analysis": "كَأَنَّ + هُمْ (Ism, Akk.). حُمُرٌ مُّسْتَنفِرَةٌ = Khabar (Nom.). Bedeutung: Als ob sie aufgescheuchte Wildesel wären, die vor einem Löwen flohen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=50"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was passiert mit dem Mubtadaʼ, wenn إِنَّ in einen Nominalsatz eintritt?",
+          "options": [
+            "Es bleibt im Nominativ",
+            "Es wechselt in den Akkusativ",
+            "Es wechselt in den Genitiv",
+            "Es fällt weg"
+          ],
+          "answer": "Es wechselt in den Akkusativ",
+          "explanation": "إِنَّ und ihre Schwestern setzen das Mubtadaʼ (jetzt 'Ism von inna') in den Akkusativ, während das Khabar im Nominativ bleibt — genau umgekehrt zu كَانَ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "case_determination",
+          "prompt": "Bestimme den Kasus von اللَّهَ und عَلِيمٌ in: إِنَّ اللَّهَ عَلِيمٌ",
+          "word": "إِنَّ اللَّهَ عَلِيمٌ",
+          "answer": "اللَّهَ = Akkusativ (Ism von inna), عَلِيمٌ = Nominativ (Khabar von inna)",
+          "hint": "إِنَّ wirkt auf das Subjekt — was passiert mit dem Kasus?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Schwester von إِنَّ ihrer Funktion zu:",
+          "pairs": [
+            {
+              "left": "إِنَّ",
+              "right": "Bekräftigung (wahrlich)"
+            },
+            {
+              "left": "أَنَّ",
+              "right": "Subjunktion (dass)"
+            },
+            {
+              "left": "كَأَنَّ",
+              "right": "Vergleich (als ob)"
+            },
+            {
+              "left": "لَكِنَّ",
+              "right": "Einschränkung (aber/jedoch)"
+            },
+            {
+              "left": "لَعَلَّ",
+              "right": "Hoffnung (auf dass/vielleicht)"
+            },
+            {
+              "left": "لَيْتَ",
+              "right": "Wunsch (wenn doch nur)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Unterschied besteht zwischen der Wirkung von إِنَّ und كَانَ auf den Nominalsatz?",
+          "options": [
+            "Beide setzen das Khabar in den Akkusativ",
+            "إِنَّ setzt das Ism in den Akkusativ, كَانَ setzt das Khabar in den Akkusativ",
+            "Beide setzen das Ism in den Akkusativ",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": "إِنَّ setzt das Ism in den Akkusativ, كَانَ setzt das Khabar in den Akkusativ",
+          "explanation": "Die Wirkung ist genau umgekehrt: Bei إِنَّ wird das Subjekt Akkusativ, bei كَانَ wird das Prädikat Akkusativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Setze das Ism von إِنَّ in den richtigen Kasus: إِنَّ _____ سَمِيعٌ بَصِيرٌ (اللَّه). Welche Endung bekommt اللَّه?",
+          "answer": "اللَّهَ",
+          "hint": "Das Ism von إِنَّ steht im Akkusativ. Wie lautet die Fatḥa-Endung von اللَّه?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ (2:156)",
+          "word": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+          "answer": "Zwei Nominalsätze mit إِنَّ. Erster: إِنَّ + نَا (wir, Ism im Akk.) + لِلَّهِ (Khabar, Präpositionalausdruck). Zweiter: إِنَّ + نَا (wir, Ism im Akk.) + إِلَيْهِ رَاجِعُونَ (Khabar, رَاجِعُونَ im Nom.). Bedeutung: Wahrlich, wir gehören Gott, und zu Ihm kehren wir zurück.",
+          "hint": "إِنَّا ist die Kurzform von إِنَّ + نَا. Identifiziere in jedem Teilsatz Ism und Khabar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=156"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §111-120",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.4",
+      "4.5"
+    ]
+  },
+  {
+    "id": "3.6",
+    "title": "Konditionalsätze",
+    "description": "Bedingungssätze sind im Quran allgegenwärtig. Die Partikeln إِنْ, إِذَا, لَوْ und لَوْلَا bestimmen, ob eine Bedingung als hypothetisch, temporal-lokalisiert, irreal oder konditional-negativ dargestellt wird.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Die vier Bedingungspartikeln",
+          "content": "Arabische Konditionalsätze bestehen aus zwei Teilen:\n1. Bedingung (Sharṭ / شَرْط) — der 'wenn'-Teil\n2. Antwort (Jawāb ash-sharṭ / جَوَاب الشَّرْط) — der 'dann'-Teil\n\nDie Partikel bestimmt die Art der Bedingung:\n\n1. إِنْ (in) — Ungewisse Bedingung: Die Erfüllung ist offen/ungewiss. Beide Verben stehen im Jussiv (مَجْزُوم).\n   إِنْ تَتَّقُوا اللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا — Wenn ihr Gott fürchtet, wird Er euch Unterscheidung geben.\n\n2. إِذَا (idhā) — Temporal-lokalisierte Bedingung (Temporalkonditionalsatz): Die Bedingung wird zeitlich verortet, im Gegensatz zu إِنْ (rein hypothetisch). Die Bedingung steht im Perfekt, die Antwort ist flexibler.\n   إِذَا جَاءَ نَصْرُ اللَّهِ — Wenn die Hilfe Gottes kommt (zeitlich verortet).\n\n3. لَوْ (law) — Irreale Bedingung: Die Bedingung ist nicht erfüllt (Gegenteil der Realität). Beide Verben stehen im Perfekt. Oft mit لَ in der Antwort.\n   لَوْ شَاءَ اللَّهُ لَهَدَاكُمْ — Hätte Gott gewollt, hätte Er euch geleitet.\n\n4. لَوْلَا (lawlā) — 'Gäbe es nicht / Wenn nicht': Drückt aus, dass etwas nur wegen eines bestimmten Umstands nicht eintritt.\n   لَوْلَا أَنتُمْ لَكُنَّا مُؤْمِنِينَ — Wäret ihr nicht gewesen, wären wir Vertrauende geworden.",
+          "arabicExamples": [
+            {
+              "arabic": "إِن تَتُوبُوا إِلَى اللَّهِ",
+              "transliteration": "in tatūbū ilā llāhi",
+              "meaning": "Wenn ihr zu Gott umkehrt (ungewiss — Jussiv)"
+            },
+            {
+              "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ",
+              "transliteration": "idhā jāʾa naṣru llāhi",
+              "meaning": "Wenn die Hilfe Gottes kommt (temporal-lokalisiert — Perfekt)"
+            },
+            {
+              "arabic": "لَوْ شَاءَ رَبُّكَ",
+              "transliteration": "law shāʾa rabbuka",
+              "meaning": "Hätte dein Herr gewollt (irreal — Perfekt)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "إِنْ und der Jussiv",
+          "content": "Die Partikel إِنْ ist besonders wichtig, weil sie beide Verben im Konditionalsatz in den Jussiv (Jazm / جَزْم) setzt. Der Jussiv ist ein spezieller Modus des Imperfektverbs, erkennbar an:\n\n- Wegfall der Endung ـُ bei gesunden Verben: يَفْعَلُ → يَفْعَلْ\n- Wegfall des Nūn bei den fünf Sonderformen: يَفْعَلُونَ → يَفْعَلُوا\n- Wegfall des schwachen Endbuchstaben bei defektiven Verben: يَمْشِي → يَمْشِ\n\nBeispiel: إِن تُطِيعُوا اللَّهَ يَغْفِرْ لَكُمْ — Wenn ihr Gott gehorcht, vergibt Er euch.\n- تُطِيعُوا: Jussiv (Wegfall des Nūn von تُطِيعُونَ)\n- يَغْفِرْ: Jussiv (Wegfall des Ḍamma von يَغْفِرُ)",
+          "arabicExamples": [
+            {
+              "arabic": "إِن يَشَأْ يُذْهِبْكُمْ",
+              "transliteration": "in yashaʾ yudhhibkum",
+              "meaning": "Wenn Er will, lässt Er euch vergehen (beide Jussiv)"
+            },
+            {
+              "arabic": "وَإِن تَعُودُوا نَعُدْ",
+              "transliteration": "wa-in taʿūdū naʿud",
+              "meaning": "Und wenn ihr zurückkehrt, kehren Wir zurück (beide Jussiv)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ (110:1)",
+            "Schritt 1: إِذَا = Bedingungspartikel für temporal-lokalisierte Bedingung (Temporalkonditionalsatz) — die Bedingung wird zeitlich verortet, im Gegensatz zu إِنْ (rein hypothetisch).",
+            "Schritt 2: جَاءَ = Verb im Perfekt (wie bei إِذَا üblich).",
+            "Schritt 3: نَصْرُ اللَّهِ = Subjekt (Fāʿil) im Nominativ + Iḍāfa. 'Die Hilfe Gottes'.",
+            "Schritt 4: وَالْفَتْحُ = durch وَ angereiht, ebenfalls Nominativ (Subjekt). 'Und der Sieg'.",
+            "Schritt 5: Die Antwort auf die Bedingung folgt in Vers 2-3: فَسَبِّحْ...",
+            "Ergebnis: 'Wenn die Hilfe Gottes kommt und der Sieg (dann preise...)'. إِذَا verortet die Bedingung zeitlich — es handelt sich um einen Temporalkonditionalsatz."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Vergleich der vier Bedingungspartikeln",
+          "items": [
+            {
+              "arabic": "إِنْ تَسْتَغْفِرُوا يَغْفِرْ لَكُمْ",
+              "transliteration": "in tastaghfirū yaghfir lakum",
+              "meaning": "Wenn ihr um Vergebung bittet, vergibt Er euch",
+              "note": "إِنْ — ungewiss, beide Verben Jussiv"
+            },
+            {
+              "arabic": "إِذَا جَاءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ",
+              "transliteration": "idhā jāʾa ajaluhum lā yastaʾkhirūna",
+              "meaning": "Wenn ihre Frist kommt, können sie sie nicht aufschieben",
+              "note": "إِذَا — temporal-lokalisiert, Bedingung im Perfekt"
+            },
+            {
+              "arabic": "لَوْ أَنزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ",
+              "transliteration": "law anzalnā hādhā l-qurʾāna ʿalā jabalin",
+              "meaning": "Hätten Wir diesen Quran auf einen Berg herabgesandt",
+              "note": "لَوْ — irreal, Perfekt + Perfekt"
+            },
+            {
+              "arabic": "لَوْلَا أَنتُمْ لَكُنَّا مُؤْمِنِينَ",
+              "transliteration": "lawlā antum lakunnā muʾminīna",
+              "meaning": "Wäret ihr nicht, wären wir Vertrauende",
+              "note": "لَوْلَا — konditional: gäbe es nicht"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Weitere Bedingungspartikeln",
+          "content": "Neben den vier Hauptpartikeln (إِنْ, إِذَا, لَوْ, لَوْلَا) gibt es im Quran weitere wichtige Bedingungswörter, die Konditionalsätze einleiten. Viele davon setzen — wie إِنْ — das Verb in den Jussiv:\n\n1. مَنْ (man) — wer auch immer (konditionaler Relativsatz). Leitet eine allgemeingültige Bedingung ein, die für jede Person gilt.\n   مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ — Wer Böses tut, wird dafür bestraft.\n\n2. مَا (mā) — was auch immer (konditional). Bezieht sich auf Sachen oder Sachverhalte.\n   مَا يَفْتَحِ اللَّهُ لِلنَّاسِ مِن رَحْمَةٍ فَلَا مُمْسِكَ لَهَا — Was auch immer Gott den Menschen an Barmherzigkeit öffnet, es gibt keinen, der es zurückhält.\n\n3. مَهْمَا (mahmā) — was auch immer (betont). Drückt eine noch stärkere Verallgemeinerung aus als مَا.\n   مَهْمَا تَأْتِنَا بِهِ مِنْ آيَةٍ — Was auch immer du uns an Zeichen bringst...\n\n4. أَيْنَمَا (aynamā) — wo auch immer. Drückt eine örtliche Bedingung aus.\n   أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ — Wo auch immer ihr seid, der Tod wird euch erreichen.\n\n5. كُلَّمَا (kullamā) — jedes Mal wenn. Drückt Wiederholung aus. Steht mit Perfekt in der Bedingung.\n   كُلَّمَا أَوْقَدُوا نَارًا لِلْحَرْبِ أَطْفَأَهَا اللَّهُ — Jedes Mal wenn sie ein Feuer für den Krieg entfachten, löschte Gott es.",
+          "arabicExamples": [
+            {
+              "arabic": "مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ",
+              "transliteration": "man yaʿmal sūʾan yujza bihi",
+              "meaning": "Wer Böses tut, wird dafür bestraft (4:123) — مَنْ + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+            },
+            {
+              "arabic": "مَهْمَا تَأْتِنَا بِهِ مِنْ آيَةٍ",
+              "transliteration": "mahmā taʾtinā bihi min āyatin",
+              "meaning": "Was auch immer du uns an Zeichen bringst (7:132) — مَهْمَا + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+            },
+            {
+              "arabic": "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ",
+              "transliteration": "aynamā takūnū yudrik-kumu l-mawtu",
+              "meaning": "Wo auch immer ihr seid, der Tod erreicht euch (4:78) — أَيْنَمَا + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+            },
+            {
+              "arabic": "كُلَّمَا أَوْقَدُوا نَارًا لِلْحَرْبِ أَطْفَأَهَا اللَّهُ",
+              "transliteration": "kullamā awqadū nāran li-l-ḥarbi aṭfaʾahā llāhu",
+              "meaning": "Jedes Mal wenn sie ein Kriegsfeur entfachten, löschte Gott es (5:64) — كُلَّمَا + Perfekt",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=64"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "8:29",
+              "word": "إِن تَتَّقُوا ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا",
+              "analysis": "إِنْ + Jussiv تَتَّقُوا (Bedingung) + Jussiv يَجْعَلْ (Antwort). Ungewisse Bedingung. Bedeutung: Wenn ihr Gott fürchtet, gibt Er euch Unterscheidungskraft.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=29"
+            },
+            {
+              "location": "110:1",
+              "word": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+              "analysis": "إِذَا + Perfekt جَاءَ. Temporal-lokalisierte Bedingung — die Bedingung wird zeitlich verortet. Antwort in V.2: فَسَبِّحْ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+            },
+            {
+              "location": "59:21",
+              "word": "لَوْ أَنزَلْنَا هَٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍ",
+              "analysis": "لَوْ + Perfekt أَنزَلْنَا. Irreale Bedingung — es geschah nicht. Antwort: لَّرَأَيْتَهُ خَاشِعًا (du hättest ihn demütig gesehen).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=21"
+            },
+            {
+              "location": "2:253",
+              "word": "وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلُوا",
+              "analysis": "لَوْ + Perfekt شَاءَ. Antwort: مَا اقْتَتَلُوا (negiertes Perfekt). Bedeutung: Hätte Gott gewollt, hätten sie nicht gekämpft.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+            },
+            {
+              "location": "4:123",
+              "word": "مَن يَعْمَلْ سُوٓءًا يُجْزَ بِهِ",
+              "analysis": "مَنْ als konditionales Relativpronomen + Jussiv يَعْمَلْ (Bedingung) + Jussiv يُجْزَ (Antwort). Allgemeingültige Bedingung: Wer auch immer Böses tut, wird dafür bestraft.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+            },
+            {
+              "location": "35:2",
+              "word": "مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا",
+              "analysis": "مَا als konditionales Pronomen. Bedingung: 'Was auch immer Gott den Menschen an Barmherzigkeit öffnet'. Antwort mit فَ: 'es gibt keinen, der es zurückhält'. Der Konditionalsatz beschreibt eine Handlung ohne einschränkende Bedingung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=2"
+            },
+            {
+              "location": "5:64",
+              "word": "كُلَّمَآ أَوْقَدُوا نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ",
+              "analysis": "كُلَّمَا + Perfekt أَوْقَدُوا (wiederholte Bedingung) + Perfekt أَطْفَأَهَا (wiederholte Antwort). Bedeutung: Jedes Mal wenn sie ein Kriegsfeur entfachten, löschte Gott es.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=64"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Bedingungspartikel setzt beide Verben in den Jussiv?",
+          "options": [
+            "إِذَا",
+            "لَوْ",
+            "إِنْ",
+            "لَوْلَا"
+          ],
+          "answer": "إِنْ",
+          "explanation": "Nur إِنْ (ungewisse Bedingung) setzt beide Verben — Bedingung und Antwort — in den Jussiv (Jazm). Die anderen Partikeln verwenden Perfekt oder andere Formen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Art von Bedingung drückt لَوْ aus?",
+          "word": "لَوْ",
+          "answer": "Irreale Bedingung (etwas, das nicht eingetreten ist / Gegenteil der Realität)",
+          "hint": "لَوْ drückt aus, was hätte sein können, aber nicht war.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Tempus steht die Bedingung (Sharṭ) bei إِذَا?",
+          "options": [
+            "Imperfekt (Muḍāriʿ)",
+            "Perfekt (Māḍī)",
+            "Jussiv (Majzūm)",
+            "Imperativ (Amr)"
+          ],
+          "answer": "Perfekt (Māḍī)",
+          "explanation": "Bei إِذَا steht die Bedingung im Perfekt (Māḍī), obwohl die Bedeutung oft futurisch ist. إِذَا drückt eine temporal-lokalisierte Bedingung aus (Temporalkonditionalsatz).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Partikel ihrer Bedingungsart zu:",
+          "pairs": [
+            {
+              "left": "إِنْ",
+              "right": "Ungewisse Bedingung"
+            },
+            {
+              "left": "إِذَا",
+              "right": "Temporal-lokalisierte Bedingung"
+            },
+            {
+              "left": "لَوْ",
+              "right": "Irreale Bedingung"
+            },
+            {
+              "left": "لَوْلَا",
+              "right": "Gäbe es nicht / Wenn nicht"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Konditionalsatz: إِن تَتَّقُوا اللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا (8:29)",
+          "word": "إِن تَتَّقُوا اللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا",
+          "answer": "إِنْ = Bedingungspartikel (ungewiss). تَتَّقُوا = Bedingungsverb im Jussiv (Wegfall des Nūn von تَتَّقُونَ). اللَّهَ = Objekt (Akk.). يَجْعَلْ = Antwortverb im Jussiv (Wegfall des Ḍamma). لَّكُمْ = Präposition + Pronomen. فُرْقَانًا = Objekt (Akk.). Bedeutung: Wenn ihr Gott fürchtet, gibt Er euch Unterscheidungskraft.",
+          "hint": "Identifiziere zuerst die Partikel, dann Bedingung und Antwort mit ihren Verben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=29"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die passende Bedingungspartikel: _____ جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ (110:1). Die Bedingung ist zeitlich verortet.",
+          "answer": "إِذَا",
+          "hint": "Welche Partikel drückt eine temporal-lokalisierte Bedingung aus (Temporalkonditionalsatz)?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §185-200",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "4.10",
+      "3.8"
+    ]
+  },
+  {
+    "id": "3.7",
+    "title": "Relativsätze",
+    "description": "Relativsätze sind im Quran extrem häufig. Bei bestimmten Bezugswörtern steht ein Relativpronomen (الَّذِي), bei unbestimmten fällt es weg — der Satz wird direkt angeschlossen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Relativsätze mit Relativpronomen (صِلَة الْمَوْصُول)",
+          "content": "Wenn das Bezugswort (das Nomen, auf das sich der Relativsatz bezieht) bestimmt ist (mit Artikel oder Eigenname), wird ein Relativpronomen verwendet:\n\nDie Relativpronomen (الأَسْمَاء الْمَوْصُولَة):\n- الَّذِي (alladhī) — der (Mask. Sg.)\n- الَّتِي (allatī) — die (Fem. Sg.)\n- الَّذِينَ (alladhīna) — die (Mask. Pl.)\n- اللَّاتِي / اللَّائِي (allātī / allāʾī) — die (Fem. Pl.)\n- اللَّذَانِ (alladhāni) — die beiden (Mask. Dual)\n- اللَّتَانِ (allatāni) — die beiden (Fem. Dual)\n\nDer Relativsatz selbst heißt صِلَة (Ṣila). Er muss ein Rückbezugspronomen (عَائِد / ʿāʾid) enthalten, das auf das Bezugswort zurückverweist.\n\nBeispiel: الَّذِينَ آمَنُوا = diejenigen, die geglaubt haben. Das وا in آمَنُوا ist das Rückbezugspronomen (sie = die, die geglaubt haben).",
+          "arabicExamples": [
+            {
+              "arabic": "الَّذِينَ آمَنُوا",
+              "transliteration": "alladhīna āmanū",
+              "meaning": "diejenigen, die geglaubt haben (Mask. Pl.)"
+            },
+            {
+              "arabic": "الَّذِي خَلَقَكُمْ",
+              "transliteration": "alladhī khalaqakum",
+              "meaning": "Der (Gott), der euch erschuf (Mask. Sg.)"
+            },
+            {
+              "arabic": "الَّتِي أُوتِيَتْ",
+              "transliteration": "allatī ūtiyat",
+              "meaning": "die (fem.), die gegeben wurde"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Relativsätze ohne Relativpronomen",
+          "content": "Wenn das Bezugswort UNbestimmt ist (mit Tanwīn), wird KEIN Relativpronomen verwendet. Der Relativsatz wird direkt an das Bezugswort angeschlossen.\n\nVergleich:\n- Bestimmt: الْكِتَابُ الَّذِي أَنزَلْنَاهُ = das Buch, das Wir herabsandten\n- Unbestimmt: كِتَابٌ أَنزَلْنَاهُ = ein Buch, das Wir herabsandten\n\nBeim unbestimmten Bezugswort fällt الَّذِي weg, aber der Relativsatz bleibt derselbe — inklusive des Rückbezugspronomens (هُ in أَنزَلْنَاهُ).\n\nDiese Konstruktion ist im Quran sehr häufig und für Lernende oft verwirrend, weil der Relativsatz 'unsichtbar' eingeleitet wird.",
+          "arabicExamples": [
+            {
+              "arabic": "كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ",
+              "transliteration": "kitābun anzalnāhu ilayka",
+              "meaning": "Ein Buch, das Wir dir herabsandten (ohne Relativpronomen!)"
+            },
+            {
+              "arabic": "رَسُولٌ يَتْلُو عَلَيْكُمْ",
+              "transliteration": "rasūlun yatlū ʿalaykum",
+              "meaning": "Ein Gesandter, der euch vorträgt (ohne Relativpronomen!)"
+            },
+            {
+              "arabic": "هَدْيًا بَالِغَ الْكَعْبَةِ",
+              "transliteration": "hadyan bāligha l-kaʿbati",
+              "meaning": "Ein Opfertier, das die Kaaba erreicht"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ (2:3)",
+            "Schritt 1: الَّذِينَ = Relativpronomen (Mask. Pl.) — 'diejenigen, die'.",
+            "Schritt 2: يُؤْمِنُونَ = Verb im Imperfekt (sie glauben). Das وا/ون ist gleichzeitig Subjektpronomen und Rückbezugspronomen.",
+            "Schritt 3: بِالْغَيْبِ = Präposition بِ + Nomen im Genitiv. 'An das Verborgene.'",
+            "Schritt 4: Das Bezugswort steht im vorherigen Vers: لِّلْمُتَّقِينَ (für die sich Hütenden) — bestimmt durch den Artikel.",
+            "Schritt 5: الَّذِينَ bezieht sich auf الْمُتَّقِينَ und leitet einen beschreibenden Relativsatz ein.",
+            "Ergebnis: '...die an das Verborgene glauben' — Relativsatz mit Pronomen, weil das Bezugswort bestimmt ist."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Mit vs. ohne Relativpronomen",
+          "items": [
+            {
+              "arabic": "الْكِتَابُ الَّذِي أُنزِلَ",
+              "transliteration": "al-kitābu lladhī unzila",
+              "meaning": "Das Buch, das herabgesandt wurde",
+              "note": "Bestimmtes Bezugswort → MIT Relativpronomen الَّذِي"
+            },
+            {
+              "arabic": "كِتَابٌ أُنزِلَ",
+              "transliteration": "kitābun unzila",
+              "meaning": "Ein Buch, das herabgesandt wurde",
+              "note": "Unbestimmtes Bezugswort → OHNE Relativpronomen"
+            },
+            {
+              "arabic": "الرَّسُولُ الَّذِي أُرْسِلَ",
+              "transliteration": "ar-rasūlu lladhī ursila",
+              "meaning": "Der Gesandte, der gesandt wurde",
+              "note": "Bestimmt → MIT Relativpronomen"
+            },
+            {
+              "arabic": "رَسُولٌ أُرْسِلَ",
+              "transliteration": "rasūlun ursila",
+              "meaning": "Ein Gesandter, der gesandt wurde",
+              "note": "Unbestimmt → OHNE Relativpronomen"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:3",
+              "word": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ",
+              "analysis": "Relativsatz mit Pronomen (الَّذِينَ). Bezugswort ist bestimmt (الْمُتَّقِينَ in 2:2). Bedeutung: diejenigen, die an das Verborgene glauben.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+            },
+            {
+              "location": "14:1",
+              "word": "كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ",
+              "analysis": "Relativsatz OHNE Pronomen. كِتَابٌ ist unbestimmt (Tanwīn). أَنزَلْنَاهُ enthält das Rückbezugspronomen هُ. Bedeutung: Ein Buch, das Wir dir herabsandten.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=1"
+            },
+            {
+              "location": "2:257",
+              "word": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا",
+              "analysis": "Relativpronomen الَّذِينَ als Muḍāf ilayhi in der Iḍāfa. Bedeutung: Gott ist der Schutzherr derer, die geglaubt haben.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+            },
+            {
+              "location": "65:2-3",
+              "word": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ",
+              "analysis": "مَن als Relativpronomen ('wer'). Verbunden mit Jussiv-Verben (Konditionalsatz). Bedeutung: Wer Gott fürchtet, dem schafft Er einen Ausweg und versorgt ihn.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=2"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Wann wird im Arabischen ein Relativpronomen (الَّذِي usw.) verwendet?",
+          "options": [
+            "Immer",
+            "Nur bei unbestimmten Bezugswörtern",
+            "Nur bei bestimmten Bezugswörtern",
+            "Nie — Arabisch hat keine Relativpronomen"
+          ],
+          "answer": "Nur bei bestimmten Bezugswörtern",
+          "explanation": "Das Relativpronomen steht nur, wenn das Bezugswort bestimmt ist (mit Artikel oder Eigenname). Bei unbestimmten Bezugswörtern wird der Relativsatz direkt angeschlossen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere das Relativpronomen und das Rückbezugspronomen in: الْكِتَابُ الَّذِي أَنزَلْنَاهُ",
+          "word": "الْكِتَابُ الَّذِي أَنزَلْنَاهُ",
+          "answer": "Relativpronomen: الَّذِي, Rückbezugspronomen: هُ (in أَنزَلْنَاهُ)",
+          "hint": "Das Rückbezugspronomen verweist zurück auf das Bezugswort — welches Suffix bezieht sich auf الْكِتَاب?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jedes Relativpronomen seiner Beschreibung zu:",
+          "pairs": [
+            {
+              "left": "الَّذِي",
+              "right": "Maskulin Singular"
+            },
+            {
+              "left": "الَّتِي",
+              "right": "Feminin Singular"
+            },
+            {
+              "left": "الَّذِينَ",
+              "right": "Maskulin Plural"
+            },
+            {
+              "left": "اللَّتَانِ",
+              "right": "Feminin Dual"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht in كِتَابٌ أَنزَلْنَاهُ kein Relativpronomen?",
+          "options": [
+            "Weil es ein Fehler ist",
+            "Weil كِتَابٌ unbestimmt ist (Tanwīn)",
+            "Weil أَنزَلْنَا ein Perfektverb ist",
+            "Weil es sich um einen Hauptsatz handelt"
+          ],
+          "answer": "Weil كِتَابٌ unbestimmt ist (Tanwīn)",
+          "explanation": "Bei unbestimmten Bezugswörtern fällt das Relativpronomen weg. Der Relativsatz wird direkt angeschlossen. Das Rückbezugspronomen هُ bleibt aber erhalten.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze das passende Relativpronomen: الْمُؤْمِنَاتُ _____ هَاجَرْنَ (die gläubigen Frauen, die ausgewandert sind)",
+          "answer": "اللَّاتِي",
+          "hint": "الْمُؤْمِنَاتُ ist Feminin Plural und bestimmt. Welches Relativpronomen passt?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Relativsatz in: رَبَّنَا الَّذِي أَعْطَىٰ كُلَّ شَيْءٍ خَلْقَهُ ثُمَّ هَدَىٰ (20:50)",
+          "word": "رَبَّنَا الَّذِي أَعْطَىٰ كُلَّ شَيْءٍ خَلْقَهُ ثُمَّ هَدَىٰ",
+          "answer": "رَبَّنَا = Bezugswort (bestimmt durch Pronomen نَا). الَّذِي = Relativpronomen (Mask. Sg.). أَعْطَىٰ = Verb des Relativsatzes (Perfekt, verborgenes Subjekt هُوَ). كُلَّ شَيْءٍ = erstes Objekt (Akk. + Iḍāfa). خَلْقَهُ = zweites Objekt (Akk.). ثُمَّ هَدَىٰ = 'dann leitete Er recht'. Bedeutung: Unser Herr, der jedem Ding seine Schöpfung gab und dann rechtleitete.",
+          "hint": "أَعْطَىٰ hat zwei Objekte. Identifiziere beide.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=50"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-170",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.19",
+      "3.40"
+    ]
+  },
+  {
+    "id": "3.8",
+    "title": "Schwur-Konstruktionen",
+    "description": "Der Schwur (Qasam) ist ein typisches Stilmittel des Quran — erkennbar an وَ + Nomen im Genitiv. Die Antwort auf den Schwur folgt oft verzögert.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Aufbau einer Schwur-Konstruktion",
+          "content": "Die arabische Schwur-Konstruktion (القَسَم / al-Qasam) besteht aus zwei Teilen:\n\n1. Der Schwur selbst (القَسَم): Eine Schwurpartikel + Nomen im Genitiv\n2. Die Antwort auf den Schwur (جَوَاب القَسَم): Die eigentliche Aussage, die bekräftigt wird\n\nDie Schwurpartikeln:\n- وَ (wa) — Die häufigste im Quran. وَالْفَجْرِ = 'Beim Morgengrauen!'\n- بِ (bi) — Etwas seltener, aber auch im Quran: بِاللَّهِ = 'Bei Gott!'\n- تَ (ta) — Selten, nur mit اللَّه: تَاللَّهِ = 'Bei Gott!'\n\nNach der Schwurpartikel steht das Nomen IMMER im Genitiv (Jarr).\n\nDie Antwort auf den Schwur wird oft eingeleitet durch:\n- إِنَّ (Bekräftigung): وَالْعَصْرِ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ\n- لَ (Bekräftigungs-Lām): وَالشَّمْسِ وَضُحَاهَا ... قَدْ أَفْلَحَ مَن زَكَّاهَا\n\nIm Quran finden sich Schwurkonstruktionen mit verschiedenen Nomina im Genitiv: der Sonne, dem Morgen, der Nacht, den Sternen, dem Feigenbaum und der Olive.",
+          "arabicExamples": [
+            {
+              "arabic": "وَالْفَجْرِ",
+              "transliteration": "wa-l-fajri",
+              "meaning": "Beim Morgengrauen! (وَ + Genitiv)"
+            },
+            {
+              "arabic": "وَالشَّمْسِ وَضُحَاهَا",
+              "transliteration": "wa-sh-shamsi wa-ḍuḥāhā",
+              "meaning": "Bei der Sonne und ihrem Vormittagslicht!"
+            },
+            {
+              "arabic": "وَالْعَصْرِ",
+              "transliteration": "wa-l-ʿaṣri",
+              "meaning": "Bei der Zeit!"
+            },
+            {
+              "arabic": "وَالتِّينِ وَالزَّيْتُونِ",
+              "transliteration": "wa-t-tīni wa-z-zaytūni",
+              "meaning": "Beim Feigenbaum und beim Ölbaum!"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die Antwort auf den Schwur (Jawāb al-Qasam)",
+          "content": "Die Antwort auf den Schwur ist die eigentliche Aussage, die durch den Schwur bekräftigt werden soll. Sie kann direkt nach dem Schwur folgen oder erst nach mehreren Schwur-Objekten.\n\nIn Sure 91 (ash-Shams) beispielsweise werden elf Schwur-Objekte aufgezählt, bevor die Antwort in Vers 9 kommt: قَدْ أَفْلَحَ مَن زَكَّاهَا — 'Wohl dem, der es (das Selbst) rein hält!'\n\nHäufige Muster der Antwort:\n1. إِنَّ + Satz: وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ — 'Bei der Zeit! Wahrlich, der Mensch ist in Verlust.'\n2. لَ + Verb: وَالطُّورِ ... إِنَّ عَذَابَ رَبِّكَ لَوَاقِعٌ — 'Beim Berg! ... Die Strafe deines Herrn wird sich gewiss ereignen.'\n3. Manchmal ist die Antwort grammatisch umstritten oder implizit, z.B. in Sure 89, wo der Jawab debattiert wird.",
+          "arabicExamples": [
+            {
+              "arabic": "وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+              "transliteration": "wa-l-ʿaṣri, inna l-insāna la-fī khusrin",
+              "meaning": "Bei der Zeit! Wahrlich, der Mensch ist in Verlust."
+            },
+            {
+              "arabic": "وَالضُّحَىٰ ، وَاللَّيْلِ إِذَا سَجَىٰ ، مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+              "transliteration": "wa-ḍ-ḍuḥā, wa-l-layli idhā sajā, mā waddaʿaka rabbuka wa-mā qalā",
+              "meaning": "Beim Vormittag! Bei der Nacht, wenn sie still wird! Dein Herr hat dich nicht verlassen und nicht gehasst."
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Sure 103: وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+            "Schritt 1: وَ = Schwurpartikel.",
+            "Schritt 2: الْعَصْرِ = Schwur-Objekt im Genitiv (Kasra). 'Bei der Zeit!'",
+            "Schritt 3: إِنَّ = leitet die Antwort auf den Schwur ein (Bekräftigung).",
+            "Schritt 4: الْإِنسَانَ = Ism von إِنَّ im Akkusativ (Fatḥa). 'Den Menschen.'",
+            "Schritt 5: لَفِي خُسْرٍ = لَ ist Bekräftigungs-Lām, فِي خُسْرٍ = Khabar (Präpositionalausdruck). 'In Verlust.'",
+            "Ergebnis: 'Bei der Zeit! Wahrlich, der Mensch ist in Verlust.' — Ein vollständiger Schwursatz: Schwur + Antwort."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Verschiedene Schwur-Suren im Vergleich",
+          "items": [
+            {
+              "arabic": "وَالْفَجْرِ وَلَيَالٍ عَشْرٍ",
+              "transliteration": "wa-l-fajri wa-layālin ʿashrin",
+              "meaning": "Beim Morgengrauen und zehn Nächten!",
+              "note": "Sure 89 — Schwur bei Zeitphänomenen, Antwort verzögert"
+            },
+            {
+              "arabic": "وَالشَّمْسِ وَضُحَاهَا",
+              "transliteration": "wa-sh-shamsi wa-ḍuḥāhā",
+              "meaning": "Bei der Sonne und ihrem Vormittagslicht!",
+              "note": "Sure 91 — Schwur bei Himmelskörpern, elf Schwurobjekte"
+            },
+            {
+              "arabic": "وَالتِّينِ وَالزَّيْتُونِ",
+              "transliteration": "wa-t-tīni wa-z-zaytūni",
+              "meaning": "Beim Feigenbaum und beim Ölbaum!",
+              "note": "Sure 95 — Schwur bei Pflanzen und Orten"
+            },
+            {
+              "arabic": "وَالْعَصْرِ",
+              "transliteration": "wa-l-ʿaṣri",
+              "meaning": "Bei der Zeit!",
+              "note": "Sure 103 — Kürzester Schwur, Antwort folgt sofort"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "103:1-2",
+              "word": "وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+              "analysis": "وَ = Schwurpartikel. الْعَصْرِ = Genitiv. إِنَّ الْإِنسَانَ لَفِي خُسْرٍ = Jawāb al-Qasam (Antwort). Bedeutung: Bei der Zeit! Wahrlich, der Mensch ist in Verlust.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            },
+            {
+              "location": "91:1-9",
+              "word": "وَالشَّمْسِ وَضُحَاهَا ... قَدْ أَفْلَحَ مَن زَكَّاهَا",
+              "analysis": "Elf Schwurobjekte (V.1-7), alle im Genitiv. Die Antwort kommt erst in V.9: قَدْ أَفْلَحَ مَن زَكَّاهَا (Wohl dem, der sie rein hält).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "location": "93:1-3",
+              "word": "وَالضُّحَىٰ وَاللَّيْلِ إِذَا سَجَىٰ مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+              "analysis": "Zwei Schwurobjekte: الضُّحَىٰ und اللَّيْل (beide Gen.). Antwort: مَا وَدَّعَكَ رَبُّكَ — Dein Herr hat dich nicht verlassen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+            },
+            {
+              "location": "95:1-4",
+              "word": "وَالتِّينِ وَالزَّيْتُونِ وَطُورِ سِينِينَ وَهَٰذَا الْبَلَدِ الْأَمِينِ لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+              "analysis": "Vier Schwurobjekte (alle Gen.). Antwort mit لَقَدْ: 'Wir haben den Menschen in bester Form erschaffen.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Nomen nach einer Schwurpartikel (وَ, بِ, تَ)?",
+          "options": [
+            "Nominativ (Rafʿ)",
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)",
+            "Jussiv (Jazm)"
+          ],
+          "answer": "Genitiv (Jarr)",
+          "explanation": "Nach einer Schwurpartikel steht das Nomen immer im Genitiv (Jarr). وَالْفَجْرِ — الْفَجْرِ hat Kasra.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere den Schwur und die Antwort in: وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+          "word": "وَالْعَصْرِ ، إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+          "answer": "Schwur: وَالْعَصْرِ (Bei der Zeit). Antwort: إِنَّ الْإِنسَانَ لَفِي خُسْرٍ (Wahrlich, der Mensch ist in Verlust).",
+          "hint": "Die Antwort beginnt oft mit إِنَّ oder لَ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche ist die häufigste Schwurpartikel im Quran?",
+          "options": [
+            "بِ",
+            "تَ",
+            "وَ",
+            "لَ"
+          ],
+          "answer": "وَ",
+          "explanation": "وَ ist die bei weitem häufigste Schwurpartikel im Quran. Sie leitet zahlreiche Suren ein (89, 91, 93, 95, 100, 103 u.v.m.).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Schwur-Sure ihrem Schwurobjekt zu:",
+          "pairs": [
+            {
+              "left": "وَالْفَجْرِ (89:1)",
+              "right": "Das Morgengrauen",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+            },
+            {
+              "left": "وَالشَّمْسِ (91:1)",
+              "right": "Die Sonne",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "left": "وَالضُّحَىٰ (93:1)",
+              "right": "Der Vormittag",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+            },
+            {
+              "left": "وَالتِّينِ (95:1)",
+              "right": "Der Feigenbaum",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+            },
+            {
+              "left": "وَالْعَصْرِ (103:1)",
+              "right": "Die Zeit",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "In Sure 91 werden elf Schwurobjekte aufgezählt. Die Antwort kommt erst in Vers 9: قَدْ أَفْلَحَ مَن _____. (Wohl dem, der sie rein hält). Ergänze das fehlende Verb.",
+          "answer": "زَكَّاهَا",
+          "hint": "Das Verb bedeutet 'rein halten/läutern' und hat ein feminines Objektpronomen (bezieht sich auf النَّفْس).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Schwur-Konstruktion in 95:1-4: وَالتِّينِ وَالزَّيْتُونِ وَطُورِ سِينِينَ وَهَٰذَا الْبَلَدِ الْأَمِينِ لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+          "word": "وَالتِّينِ وَالزَّيْتُونِ وَطُورِ سِينِينَ وَهَٰذَا الْبَلَدِ الْأَمِينِ",
+          "answer": "Vier Schwurobjekte, alle im Genitiv: التِّينِ (Feigenbaum), الزَّيْتُونِ (Ölbaum), طُورِ سِينِينَ (Berg Sinai, Iḍāfa), هَٰذَا الْبَلَدِ الْأَمِينِ (diese sichere Stadt, Demonstrativ + Nomen + Adjektiv). Antwort: لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ (Wir haben den Menschen in bester Form erschaffen). لَ = Bekräftigungs-Lām.",
+          "hint": "Zähle die Schwurobjekte und identifiziere, wo die Antwort beginnt (Hinweis: لَقَدْ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §201-210",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.25",
+      "4.13"
+    ]
+  },
+  {
+    "id": "3.9",
+    "title": "Zustandsakkusativ (Ḥāl)",
+    "description": "Der Ḥāl beschreibt den Zustand, in dem sich das Subjekt oder Objekt während der Handlung befindet. Er steht immer im Akkusativ und ist ein unbestimmtes Adjektiv oder Partizip.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist der Ḥāl?",
+          "content": "Der Ḥāl (الحَال) — wörtlich: 'Zustand' — ist eine Zustandsangabe im Akkusativ. Er beschreibt, in welchem Zustand sich das Subjekt oder Objekt befindet, WÄHREND die Handlung stattfindet.\n\nWichtige Merkmale:\n1. Der Ḥāl steht IMMER im Akkusativ (Naṣb).\n2. Er ist IMMER unbestimmt (mit Tanwīn), NICHT mit Artikel.\n3. Er bezieht sich auf ein bestimmtes Nomen (Ṣāḥib al-Ḥāl / صَاحِب الحَال), das bestimmt sein muss.\n4. Er beantwortet die Frage: 'In welchem Zustand?' / 'Wie?'\n\nDer Ḥāl kann sein:\n- Ein einzelnes Adjektiv/Partizip: جَاءُوا بَاكِينَ (sie kamen weinend)\n- Ein Satz (Ḥāl-Satz): جَاءَ وَهُوَ يَبْكِي (er kam, während er weinte)\n\nUnterschied zum Adjektiv: Ein Adjektiv (Naʿt) stimmt mit dem Bezugswort in Bestimmtheit und Kasus überein. Der Ḥāl ist IMMER unbestimmt und IMMER Akkusativ, egal welchen Kasus sein Bezugswort hat.",
+          "arabicExamples": [
+            {
+              "arabic": "خَلَقَ الْإِنسَانَ ضَعِيفًا",
+              "transliteration": "khalaqa l-insāna ḍaʿīfan",
+              "meaning": "Er erschuf den Menschen schwach-seiend (Ḥāl beschreibt den Zustand bei Erschaffung)"
+            },
+            {
+              "arabic": "فَخَرَجَ مِنْهَا خَائِفًا",
+              "transliteration": "fa-kharaja minhā khāʾifan",
+              "meaning": "Er ging aus ihr heraus fürchtend (Ḥāl beschreibt Zustand beim Weggehen)"
+            },
+            {
+              "arabic": "وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا",
+              "transliteration": "wa-arsalnāka li-n-nāsi rasūlan",
+              "meaning": "Und Wir sandten dich zu den Menschen als Gesandten (Ḥāl)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Ḥāl als Satz",
+          "content": "Der Ḥāl kann auch ein ganzer Satz sein — ein sogenannter Ḥāl-Satz (جُمْلَة حَالِيَّة). Dieser wird oft durch وَ eingeleitet (Wāw al-Ḥāl / واو الحال).\n\nDieses وَ hat KEINE konjunktionale Bedeutung ('und'), sondern bedeutet 'während / wobei / indem'.\n\nBeispiele:\n- جَاءُوا وَهُمْ يَبْكُونَ = Sie kamen, während sie weinten.\n- وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ = Sie kamen zu ihrem Vater am Abend weinend. (12:16)\n\nIm Quran ist der Ḥāl-Satz sehr häufig. Er gibt oft den Hintergrund oder die Begleitumstände einer Handlung an.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ",
+              "transliteration": "lā taqrabū ṣ-ṣalāta wa-antum sukārā",
+              "meaning": "Nähert euch der Zuwendung nicht, während ihr betrunken seid (Ḥāl-Satz mit وَ)"
+            },
+            {
+              "arabic": "خَرَجُوا مِن دِيَارِهِمْ وَهُمْ أُلُوفٌ حَذَرَ الْمَوْتِ",
+              "transliteration": "kharajū min diyārihim wa-hum ulūfun ḥadhara l-mawti",
+              "meaning": "Sie zogen aus ihren Häusern aus, während sie Tausende waren, aus Furcht vor dem Tod"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: خُلِقَ الْإِنسَانُ ضَعِيفًا (4:28)",
+            "Schritt 1: خُلِقَ = Verb im Passiv (er wurde erschaffen).",
+            "Schritt 2: الْإِنسَانُ = Stellvertreter-Subjekt (Nāʾib al-Fāʿil) im Nominativ.",
+            "Schritt 3: ضَعِيفًا = Akkusativ, unbestimmt (Tanwīn). Es ist kein Objekt (das Verb ist passiv!).",
+            "Schritt 4: ضَعِيفًا ist ein Ḥāl — es beschreibt den Zustand des Menschen zum Zeitpunkt der Erschaffung.",
+            "Schritt 5: Bezugswort (Ṣāḥib al-Ḥāl): الْإِنسَانُ — bestimmt (mit Artikel).",
+            "Ergebnis: 'Der Mensch wurde schwach-seiend erschaffen.' — ضَعِيفًا ist nicht Adjektiv (das wäre ضَعِيفٌ mit Nominativ!), sondern Ḥāl."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Ḥāl vs. Adjektiv (Naʿt) — Der entscheidende Unterschied",
+          "items": [
+            {
+              "arabic": "جَاءَ الرَّجُلُ الضَّعِيفُ",
+              "transliteration": "jāʾa r-rajulu ḍ-ḍaʿīfu",
+              "meaning": "Der schwache Mann kam",
+              "note": "Adjektiv (Naʿt): stimmt überein in Kasus (Nom.), Bestimmtheit (Artikel) und Genus"
+            },
+            {
+              "arabic": "جَاءَ الرَّجُلُ ضَعِيفًا",
+              "transliteration": "jāʾa r-rajulu ḍaʿīfan",
+              "meaning": "Der Mann kam schwach-seiend",
+              "note": "Ḥāl: Akkusativ, unbestimmt — beschreibt den Zustand WÄHREND des Kommens"
+            },
+            {
+              "arabic": "رَأَيْتُ الرَّجُلَ الضَّعِيفَ",
+              "transliteration": "raʾaytu r-rajula ḍ-ḍaʿīfa",
+              "meaning": "Ich sah den schwachen Mann",
+              "note": "Adjektiv: beide Akkusativ, beide bestimmt"
+            },
+            {
+              "arabic": "رَأَيْتُ الرَّجُلَ ضَعِيفًا",
+              "transliteration": "raʾaytu r-rajula ḍaʿīfan",
+              "meaning": "Ich sah den Mann schwach-seiend",
+              "note": "Ḥāl: Akkusativ, unbestimmt — Zustand beim Sehen"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "4:28",
+              "word": "وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًا",
+              "analysis": "ضَعِيفًا = Ḥāl (Akk., unbestimmt). Bezugswort: الْإِنسَانُ. Bedeutung: Der Mensch wurde schwach(-seiend) erschaffen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+            },
+            {
+              "location": "28:21",
+              "word": "فَخَرَجَ مِنْهَا خَآئِفًا يَتَرَقَّبُ",
+              "analysis": "Zwei Ḥāl-Angaben: خَائِفًا (fürchtend, einzelnes Wort) und يَتَرَقَّبُ (sich umschaund, Ḥāl-Satz). Bezugswort: verborgenes Pronomen 'er' (Musa).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=21"
+            },
+            {
+              "location": "4:102",
+              "word": "وَلْيَأْخُذُوٓا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ",
+              "analysis": "Der Vers enthält mehrere Befehlssätze (وَلْيَأْخُذُوا, فَلْيَكُونُوا, وَلْتَأْتِ, فَلْيُصَلُّوا) mit Zustandsbeschreibungen. حِذْرَهُمْ وَأَسْلِحَتَهُمْ sind Objekte von وَلْيَأْخُذُوا. Der Vers illustriert verschachtelte Imperativketten im militärischen Kontext.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=102"
+            },
+            {
+              "location": "12:16",
+              "word": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً يَبْكُونَ",
+              "analysis": "يَبْكُونَ = Ḥāl-Satz (Verbalsatz als Zustandsangabe). عِشَاءً = Zeitangabe im Akkusativ. Bedeutung: Sie kamen zu ihrem Vater am Abend, weinend.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht der Ḥāl IMMER?",
+          "options": [
+            "Nominativ (Rafʿ)",
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)",
+            "Er folgt dem Kasus des Bezugswortes"
+          ],
+          "answer": "Akkusativ (Naṣb)",
+          "explanation": "Der Ḥāl steht ausnahmslos im Akkusativ (Naṣb), unabhängig vom Kasus seines Bezugswortes. Zudem ist er immer unbestimmt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere den Ḥāl in: خَلَقَ الْإِنسَانَ ضَعِيفًا",
+          "word": "خَلَقَ الْإِنسَانَ ضَعِيفًا",
+          "answer": "ضَعِيفًا (schwach-seiend) — Ḥāl im Akkusativ, beschreibt den Zustand des Menschen bei der Erschaffung",
+          "hint": "Welches Wort ist unbestimmt und steht im Akkusativ, obwohl es kein direktes Objekt ist?",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was unterscheidet den Ḥāl vom Adjektiv (Naʿt)?",
+          "options": [
+            "Nichts — sie sind identisch",
+            "Der Ḥāl ist immer unbestimmt und im Akkusativ; das Adjektiv stimmt mit dem Bezugswort überein",
+            "Der Ḥāl steht vor dem Bezugswort",
+            "Der Ḥāl ist immer bestimmt"
+          ],
+          "answer": "Der Ḥāl ist immer unbestimmt und im Akkusativ; das Adjektiv stimmt mit dem Bezugswort überein",
+          "explanation": "Das Adjektiv folgt dem Bezugswort in Kasus, Genus, Numerus und Bestimmtheit. Der Ḥāl hingegen ist IMMER unbestimmt und IMMER im Akkusativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze den Ḥāl: فَخَرَجَ مِنْهَا _____ (خَائِف — fürchtend). In welcher Form muss خَائِف stehen?",
+          "answer": "خَائِفًا",
+          "hint": "Der Ḥāl steht im Akkusativ mit Tanwīn (unbestimmt).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne zu: Ist das unterstrichene Wort ein Ḥāl oder ein Adjektiv (Naʿt)?",
+          "pairs": [
+            {
+              "left": "جَاءَ الرَّجُلُ ضَعِيفًا",
+              "right": "Ḥāl (Akk., unbestimmt)"
+            },
+            {
+              "left": "جَاءَ الرَّجُلُ الضَّعِيفُ",
+              "right": "Adjektiv (Nom., bestimmt)"
+            },
+            {
+              "left": "خَرَجَ خَائِفًا",
+              "right": "Ḥāl (Akk., unbestimmt)"
+            },
+            {
+              "left": "الرَّجُلُ الْخَائِفُ خَرَجَ",
+              "right": "Adjektiv (Nom., bestimmt)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Ḥāl in: وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ (12:16)",
+          "word": "وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
+          "answer": "جَاءُوا = Verb (Perfekt, sie kamen). أَبَاهُمْ = Objekt (Akk., eines der fünf besonderen Nomen). عِشَاءً = Zeitangabe im Akkusativ (am Abend). يَبْكُونَ = Ḥāl-Satz (Verbalsatz als Zustandsangabe: 'weinend'). Bezugswort des Ḥāl: das Subjekt-Pronomen in جَاءُوا (sie). Bedeutung: Sie kamen zu ihrem Vater am Abend, weinend.",
+          "hint": "يَبْكُونَ ist ein ganzer Verbalsatz, der als Ḥāl fungiert. Auf wen bezieht er sich?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §121-130",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.15",
+      "3.27"
+    ]
+  },
+  {
+    "id": "3.10",
+    "title": "Spezifikationsakkusativ (Tamyīz)",
+    "description": "Der Tamyīz präzisiert eine allgemeine oder mehrdeutige Aussage. Er steht im Akkusativ und beantwortet die Frage: 'In welcher Hinsicht?' oder 'In Form von was?'",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist der Tamyīz?",
+          "content": "Der Tamyīz (تَمْيِيز, wörtlich: 'Unterscheidung/Spezifikation') ist ein Nomen im Akkusativ, das eine vorhergehende allgemeine oder mehrdeutige Aussage näher bestimmt und präzisiert.\n\nWichtige Merkmale:\n1. Der Tamyīz steht IMMER im Akkusativ (Naṣb).\n2. Er ist IMMER unbestimmt (mit Tanwīn).\n3. Er beantwortet die Frage: 'In welcher Hinsicht?' oder 'In Form von was?'\n\nEs gibt zwei Arten:\n\n1. Tamyīz al-Mufrad (تمييز المفرد) — Spezifikation eines einzelnen Wortes:\n   - Nach Maß/Gewicht/Zahl: عِشْرُونَ كِتَابًا = zwanzig Bücher (كِتَابًا spezifiziert die Zahl)\n   - Nach Mengenangaben: كَمْ كِتَابًا = wie viele Bücher?\n\n2. Tamyīz al-Jumla (تمييز الجملة) — Spezifikation eines ganzen Satzes:\n   - وَفَجَّرْنَا الْأَرْضَ عُيُونًا = Wir spalteten die Erde [in Form von] Quellen\n   - ازْدَادُوا إِيمَانًا = Sie nahmen zu [an] Glauben\n\nDer Tamyīz ist im Quran besonders bei Zahlen, Vergleichen und Steigerungen häufig.",
+          "arabicExamples": [
+            {
+              "arabic": "وَفَجَّرْنَا الْأَرْضَ عُيُونًا",
+              "transliteration": "wa-fajjarnā l-arḍa ʿuyūnan",
+              "meaning": "Wir spalteten die Erde [in Form von] Quellen (Tamyīz)"
+            },
+            {
+              "arabic": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا",
+              "transliteration": "wa-shtaʿala r-raʾsu shayban",
+              "meaning": "Und das Haupt entflammte [an] grauem Haar (Tamyīz)"
+            },
+            {
+              "arabic": "أَنَا أَكْثَرُ مِنكَ مَالًا",
+              "transliteration": "anā aktharu minka mālan",
+              "meaning": "Ich habe mehr als du [an] Besitz (Tamyīz nach Elativ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Tamyīz vs. Ḥāl — Der Unterschied",
+          "content": "Tamyīz und Ḥāl stehen beide im Akkusativ und sind beide unbestimmt. Sie sind leicht zu verwechseln. Der entscheidende Unterschied:\n\n- Ḥāl beschreibt den ZUSTAND des Subjekts/Objekts WÄHREND der Handlung.\n  خَلَقَ الْإِنسَانَ ضَعِيفًا = Er erschuf den Menschen schwach-seiend. (Wie war der Mensch? → schwach)\n\n- Tamyīz präzisiert die ART oder den BEREICH einer allgemeinen Aussage.\n  وَاشْتَعَلَ الرَّأْسُ شَيْبًا = Das Haupt entflammte an grauem Haar. (In welcher Hinsicht? → graues Haar)\n\nFaustregel:\n- Ḥāl: 'In welchem Zustand?' → beschreibt eine Person/Sache\n- Tamyīz: 'In welcher Hinsicht?' → präzisiert eine Aussage oder Menge",
+          "arabicExamples": [
+            {
+              "arabic": "ضَعِيفًا",
+              "transliteration": "ḍaʿīfan",
+              "meaning": "schwach-seiend (Ḥāl — Zustand des Menschen)"
+            },
+            {
+              "arabic": "شَيْبًا",
+              "transliteration": "shayban",
+              "meaning": "an grauem Haar (Tamyīz — Art des Entflammens)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَفَجَّرْنَا الْأَرْضَ عُيُونًا (54:12)",
+            "Schritt 1: فَجَّرْنَا = Verb (Perfekt, Wir spalteten/ließen hervorbrechen).",
+            "Schritt 2: الْأَرْضَ = Objekt im Akkusativ (die Erde).",
+            "Schritt 3: عُيُونًا = Akkusativ, unbestimmt. Es ist kein zweites Objekt (فَجَّرَ hat nur ein Objekt).",
+            "Schritt 4: عُيُونًا ist Tamyīz — es spezifiziert, in welcher Form die Erde gespalten wurde: in Form von Quellen.",
+            "Schritt 5: Man kann umformulieren: فَجَّرْنَا عُيُونَ الْأَرْضِ — Wir ließen die Quellen der Erde hervorbrechen. Der Tamyīz ist quasi ein 'aufgelöstes' Muḍāf.",
+            "Ergebnis: 'Wir spalteten die Erde [in Form von] Quellen.' — عُيُونًا präzisiert die allgemeine Aussage 'die Erde spalten'."
+          ]
+        },
+        {
+          "type": "comparison",
+          "title": "Verschiedene Tamyīz-Typen im Quran",
+          "items": [
+            {
+              "arabic": "وَفَجَّرْنَا الْأَرْضَ عُيُونًا",
+              "transliteration": "wa-fajjarnā l-arḍa ʿuyūnan",
+              "meaning": "Wir spalteten die Erde [in Form von] Quellen",
+              "note": "Tamyīz al-Jumla — spezifiziert die Art der Spaltung"
+            },
+            {
+              "arabic": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا",
+              "transliteration": "wa-shtaʿala r-raʾsu shayban",
+              "meaning": "Das Haupt entflammte an grauem Haar",
+              "note": "Tamyīz al-Jumla — spezifiziert den Bereich des Entflammens"
+            },
+            {
+              "arabic": "إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+              "transliteration": "innī raʾaytu aḥada ʿashara kawkaban",
+              "meaning": "Ich sah elf Sterne",
+              "note": "Tamyīz al-Mufrad — spezifiziert die Zahl elf"
+            },
+            {
+              "arabic": "أَنَا أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
+              "transliteration": "anā aktharu minka mālan wa-aʿazzu nafaran",
+              "meaning": "Ich besitze mehr Reichtum und mächtigeres Gefolge",
+              "note": "Tamyīz nach Elativ — spezifiziert den Bereich des Mehr-Seins"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "54:12",
+              "word": "وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًا",
+              "analysis": "عُيُونًا = Tamyīz (Akk., unbestimmt). Spezifiziert die Art der Spaltung. Bedeutung: Wir ließen die Erde in Form von Quellen aufbrechen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=12"
+            },
+            {
+              "location": "19:4",
+              "word": "وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا",
+              "analysis": "شَيْبًا = Tamyīz. Das Haupt 'entflammte' — aber in welcher Hinsicht? An grauem Haar. Bildhafte Sprache: Das Weiß der Haare breitet sich wie Feuer aus.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=4"
+            },
+            {
+              "location": "12:4",
+              "word": "إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+              "analysis": "كَوْكَبًا = Tamyīz nach Zahlwort (11). Im Arabischen steht der Tamyīz nach Zahlen 11-99 im Singular Akkusativ. Bedeutung: Ich sah elf Sterne.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+            },
+            {
+              "location": "18:34",
+              "word": "أَنَا أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
+              "analysis": "Zwei Tamyīz-Angaben nach Elativen: مَالًا (an Besitz) nach أَكْثَرُ (mehr), نَفَرًا (an Gefolge) nach أَعَزُّ (mächtiger). Bedeutung: Ich bin reicher als du an Besitz und mächtiger an Gefolge.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=34"
+            },
+            {
+              "location": "9:25",
+              "word": "إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ",
+              "analysis": "Kein Tamyīz hier, aber verwandtes Konzept: كَثْرَة (Vielzahl) als Nomen. Zum Vergleich: ازْدَادُوا إِيمَانًا hätte إِيمَانًا als Tamyīz (sie nahmen zu [an] Glauben).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=25"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Funktion des Tamyīz?",
+          "options": [
+            "Er beschreibt den Zustand des Subjekts",
+            "Er präzisiert eine allgemeine oder mehrdeutige Aussage",
+            "Er negiert den Satz",
+            "Er verbindet zwei Sätze"
+          ],
+          "answer": "Er präzisiert eine allgemeine oder mehrdeutige Aussage",
+          "explanation": "Der Tamyīz (Spezifikationsakkusativ) beantwortet die Frage 'In welcher Hinsicht?' und macht eine allgemeine Aussage konkreter.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n315"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere den Tamyīz in: وَاشْتَعَلَ الرَّأْسُ شَيْبًا (19:4)",
+          "word": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا",
+          "answer": "شَيْبًا (an grauem Haar) — Tamyīz im Akkusativ, spezifiziert den Bereich des 'Entflammens'",
+          "hint": "Welches Wort ist unbestimmt, im Akkusativ, und beantwortet die Frage 'in welcher Hinsicht entflammte das Haupt?'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was unterscheidet den Tamyīz vom Ḥāl?",
+          "options": [
+            "Tamyīz steht im Genitiv, Ḥāl im Akkusativ",
+            "Tamyīz ist bestimmt, Ḥāl unbestimmt",
+            "Tamyīz präzisiert den Bereich/die Art, Ḥāl beschreibt den Zustand",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": "Tamyīz präzisiert den Bereich/die Art, Ḥāl beschreibt den Zustand",
+          "explanation": "Beide stehen im Akkusativ und sind unbestimmt. Aber der Ḥāl beschreibt den Zustand einer Person/Sache (Wie?), während der Tamyīz den Bereich oder die Art einer Aussage präzisiert (In welcher Hinsicht?).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n315"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze den Tamyīz: إِنِّي رَأَيْتُ أَحَدَ عَشَرَ _____ (كَوْكَب — Stern). In welcher Form muss das Wort stehen?",
+          "answer": "كَوْكَبًا",
+          "hint": "Nach Zahlen 11-99 steht der Tamyīz im Singular Akkusativ mit Tanwīn.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n315"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jeden Akkusativ seiner Funktion zu (Ḥāl oder Tamyīz):",
+          "pairs": [
+            {
+              "left": "خَلَقَ الْإِنسَانَ ضَعِيفًا",
+              "right": "Ḥāl (Zustand bei Erschaffung)"
+            },
+            {
+              "left": "وَاشْتَعَلَ الرَّأْسُ شَيْبًا",
+              "right": "Tamyīz (Bereich des Entflammens)"
+            },
+            {
+              "left": "فَخَرَجَ مِنْهَا خَائِفًا",
+              "right": "Ḥāl (Zustand beim Herausgehen)"
+            },
+            {
+              "left": "وَفَجَّرْنَا الْأَرْضَ عُيُونًا",
+              "right": "Tamyīz (Art der Spaltung)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n315"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Tamyīz in: أَنَا أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا (18:34)",
+          "word": "أَنَا أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
+          "answer": "Zwei Tamyīz-Angaben nach Elativen (Steigerungsformen): مَالًا = Tamyīz nach أَكْثَرُ (mehr), spezifiziert: 'mehr an Besitz'. نَفَرًا = Tamyīz nach أَعَزُّ (mächtiger), spezifiziert: 'mächtiger an Gefolge'. Beide Tamyīz stehen im Akkusativ Singular mit Tanwīn. Gesamtbedeutung: Ich bin reicher als du an Besitz und mächtiger an Gefolge.",
+          "hint": "Nach einem Elativ (أَفْعَل) steht oft ein Tamyīz, der angibt, in welchem Bereich jemand 'mehr' oder 'stärker' ist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=34"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §131-135",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.12",
+      "2.18"
+    ]
+  }
+]

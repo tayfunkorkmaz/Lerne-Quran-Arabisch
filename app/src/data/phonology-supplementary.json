@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "title": "Phonologie — Ergänzende Lektionen",
+    "description": "Ergänzende Lektionen zu Silbenstruktur und Phonotaktik des klassischen Arabisch.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Ryding, Reference Grammar of Modern Standard Arabic",
+        "url": "https://archive.org/details/AReferenceGrammarOfModernStandardArabic"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "1.15",
+      "title": "Silbenstruktur des Arabischen",
+      "description": "Die fünf Silbentypen des klassischen Arabisch und ihre Relevanz für Morphologie und Konjugation.",
+      "note": "Wiederholung und Vertiefung von Lektion 1.7 (Silbenstruktur in phonologie-lesson.json). Diese Lektion erweitert die dort eingeführten Grundlagen um Anwendungsbeispiele (Imperativbildung, Shadda, Qurananalyse).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Warum Silbenstruktur?",
+            "content": "Die Silbenstruktur bestimmt, wie arabische Wörter aufgebaut sind und warum bestimmte Formen so aussehen, wie sie aussehen. Viele scheinbar unregelmäßige Phänomene — Hamzat al-Wasl, Vokalwegfall in der Pause, Imperativbildung — werden durch eine einzige Regel erklärbar: Arabisch vermeidet bestimmte Konsonantenfolgen."
+          },
+          {
+            "type": "explanation",
+            "title": "Die fünf Silbentypen",
+            "content": "Das klassische Arabisch kennt fünf Silbentypen. Jede Silbe beginnt IMMER mit genau einem Konsonanten (C), gefolgt von einem Vokal (V = Kurzvokal, VV = Langvokal):\n\n1. CV (kurz offen): Konsonant + Kurzvokal. Beispiel: كَ (ka) in كَتَبَ (ka-ta-ba).\n2. CVV (lang offen): Konsonant + Langvokal. Beispiel: كَا (kaa) in كَاتِب (kaa-tib).\n3. CVC (kurz geschlossen): Konsonant + Kurzvokal + Konsonant. Beispiel: كَتْ (kat) in كَتَبْتُ (ka-tab-tu).\n4. CVVC (lang geschlossen): Konsonant + Langvokal + Konsonant. Beispiel: بَاب (baab) — nur am Wortende oder vor Pause.\n5. CVCC (überschwer): Konsonant + Kurzvokal + zwei Konsonanten. Beispiel: كَتَبْتْ (ka-tabt) — nur am absoluten Wortende in der Pausalform.\n\nDie Typen 4 und 5 treten nur am Wortende auf. Innerhalb eines Wortes sind nur CV, CVV und CVC möglich."
+          },
+          {
+            "type": "explanation",
+            "title": "Die Kernregel: Kein Sukun-Sukun-Cluster",
+            "content": "Die wichtigste Regel der arabischen Silbenstruktur lautet:\n\nZwei aufeinanderfolgende Konsonanten ohne Vokal dazwischen (Sukun + Sukun) sind innerhalb eines Wortes NICHT zulässig.\n\nDiese Regel erklärt zahlreiche Phänomene:\n\n1. Hamzat al-Wasl: Der Imperativ von كَتَبَ wäre theoretisch *كْتُبْ (ktub) — aber ein Wort kann nicht mit zwei Konsonanten ohne Vokal beginnen. Deshalb wird ein Hilfsvokal (Hamzat al-Wasl) eingefügt: اُكْتُبْ (uktub).\n\n2. Formen VII-X: اِنْفَعَلَ, اِفْتَعَلَ, اِسْتَفْعَلَ — alle brauchen Hamzat al-Wasl am Anfang, weil die Wurzelform mit einem Konsonantencluster beginnt.\n\n3. Pausalform: Am Satzende fällt der Kasusvokal weg (كِتَابًا → كِتَابْ). Das ist möglich, weil am absoluten Wortende CVVC und CVCC erlaubt sind."
+          },
+          {
+            "type": "explanation",
+            "title": "Silbenstruktur und Shadda",
+            "content": "Ein Konsonant mit Shadda (Verdoppelung) zählt als ZWEI Konsonanten: einmal als Silbenschluss der vorherigen Silbe, einmal als Silbenanfang der nächsten.\n\nBeispiel: رَبِّ (1:2) = rab-bi — das verdoppelte Ba schließt die erste Silbe (CVC: rab) und eröffnet die zweite (CV: bi).\n\nWeiteres Beispiel: إِنَّ (2:6) = in-na — das verdoppelte Nun schließt die erste Silbe und eröffnet die zweite.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+          },
+          {
+            "type": "explanation",
+            "title": "Silbenstruktur und Imperativbildung",
+            "content": "Der Imperativ wird vom Jussiv (Imperfekt mit Sukun) abgeleitet, indem das Präfix entfernt wird:\n\nيَكْتُبْ (Jussiv) → *كْتُبْ → Cluster! → اُكْتُبْ (Imperativ mit Hamzat al-Wasl und Damma)\nيَجْلِسْ (Jussiv) → *جْلِسْ → Cluster! → اِجْلِسْ (Imperativ mit Hamzat al-Wasl und Kasra)\nيَفْتَحْ (Jussiv) → *فْتَحْ → Cluster! → اِفْتَحْ (Imperativ mit Hamzat al-Wasl und Kasra)\n\nDer Vokal des Hamzat al-Wasl folgt einer Regel: Damma wenn der Stammvokal Damma ist, sonst Kasra."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Silbenanalyse an Quranbeispielen",
+            "examples": [
+              {
+                "ref": "1:2",
+                "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+                "explanation": "al-ham-du lil-laa-hi rab-bil-'aa-la-mii-na — Silben: CVC-CVC-CV CVC-CVV-CV CVC-CVC-CVV-CV-CVV-CV. Beachte: الْ = CVC (al), حَمْ = CVC (ham), رَبِّ = CVC+CV (rab-bi, Shadda!).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+              },
+              {
+                "ref": "96:1",
+                "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+                "explanation": "iq-ra' bis-mi rab-bi-kal-la-dhii kha-la-qa — Das Wort اقْرَأْ beginnt mit Hamzat al-Wasl (i-), weil *قْرَأْ einen verbotenen Cluster hätte.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+              },
+              {
+                "ref": "2:183",
+                "arabic": "كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ",
+                "explanation": "ku-ti-ba 'a-lay-ku-mus-si-yaa-mu — Silben: CV-CV-CV CV-CVC-CV-CVC-CV-CVV-CV. Beachte: كُتِبَ = drei offene Silben (CV-CV-CV), الصِّ = mit Shadda: CVC-CV.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+              },
+              {
+                "ref": "1:1",
+                "arabic": "بِسْمِ ٱللَّهِ",
+                "explanation": "bis-mil-laa-hi — Silben: CVC-CVC-CVV-CV. بِسْ = CVC (bis), مِ = beginnt neue Silbe die mit dem Lam von الله verschmilzt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Welche Silbentypen sind INNERHALB eines arabischen Wortes (nicht am Wortende) zulässig?",
+            "options": [
+              "Nur CV und CVC",
+              "CV, CVV und CVC",
+              "Alle fünf Typen",
+              "Nur CV"
+            ],
+            "correct": 1,
+            "explanation": "Innerhalb eines Wortes sind nur CV (kurz offen), CVV (lang offen) und CVC (kurz geschlossen) zulässig. CVVC und CVCC treten nur am Wortende auf."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Warum beginnt der Imperativ اُكْتُبْ mit einem Hamzat al-Wasl?",
+            "options": [
+              "Weil alle Imperative mit Hamza beginnen",
+              "Weil ohne den Hilfsvokal ein verbotener Konsonantencluster (كْتُ) am Wortanfang entstünde",
+              "Weil der Imperativ immer länger ist als der Jussiv",
+              "Weil das Verb schwach ist"
+            ],
+            "correct": 1,
+            "explanation": "Ohne Hamzat al-Wasl würde das Wort mit *كْتُبْ beginnen — zwei Konsonanten ohne Vokal. Arabisch erlaubt keinen solchen Cluster am Wortanfang, deshalb wird der Hilfsvokal اُ eingefügt."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Wie viele Silben hat das Wort كَتَبَ (kataba)?",
+            "options": [
+              "Zwei Silben: ka-taba",
+              "Drei Silben: ka-ta-ba",
+              "Eine Silbe: kataba",
+              "Vier Silben: k-a-t-aba"
+            ],
+            "correct": 1,
+            "explanation": "كَتَبَ besteht aus drei offenen Silben vom Typ CV: ka-ta-ba. Jede Silbe hat genau einen Konsonanten gefolgt von einem Kurzvokal."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Ein Konsonant mit Shadda (z.B. بّ) zählt silbenstrukturell als:",
+            "options": [
+              "Ein einzelner Konsonant",
+              "Zwei Konsonanten: einer schließt die vorherige Silbe, einer eröffnet die nächste",
+              "Ein Langvokal",
+              "Zwei Silben"
+            ],
+            "correct": 1,
+            "explanation": "Shadda markiert Gemination: Der Konsonant wird doppelt gesprochen. Er schließt die vorherige Silbe (CVC) und eröffnet die nächste. Beispiel: رَبِّ = rab-bi."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Welcher Vokal erhält das Hamzat al-Wasl im Imperativ von يَكْتُبُ?",
+            "options": [
+              "Fatha (a), weil Fatha der Standardvokal ist",
+              "Kasra (i), weil der Stammvokal kein Damma ist",
+              "Damma (u), weil der Stammvokal des Verbs Damma ist",
+              "Sukun, weil kein Vokal nötig ist"
+            ],
+            "correct": 2,
+            "explanation": "Wenn der Stammvokal des Imperfekts Damma ist (يَكْتُبُ — Damma auf dem zweiten Radikal), bekommt das Hamzat al-Wasl ebenfalls Damma: اُكْتُبْ. Bei allen anderen Stammvokalen erhält es Kasra."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.26",
+      "title": "Der Energetikus (Emphase-Nun / نُون التَّوْكِيد)",
+      "description": "Die emphatische Verbform des Arabischen — gebildet durch ein Emphase-Nun am Imperfekt. Im Quran häufig nach Schwurpartikeln.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist der Energetikus?",
+            "content": "Der Energetikus ist eine emphatische Verbform, die durch Anfügen eines Emphase-Nun (نُون التَّوْكِيد) an das Imperfekt gebildet wird. Er drückt nachdrückliche Bekräftigung aus: 'er wird GEWISS tun', 'er tut WAHRLICH'.\n\nEs gibt zwei Formen:\n\n1. Schwere Form (نُون التَّوْكِيد الثَّقِيلَة): Das Suffix -anna (نَّ — Nun mit Schadda und Fatha). Beispiel: لَيَفْعَلَنَّ (er wird gewiss tun).\n\n2. Leichte Form (نُون التَّوْكِيد الْخَفِيفَة): Das Suffix -an (نْ — einzelnes Nun mit Sukun). Beispiel: لَيَفْعَلَنْ (er wird gewiss tun). Diese Form ist seltener und wird in der Schrift manchmal mit Alif al-Wiqaya geschrieben: لَيَفْعَلًا."
+          },
+          {
+            "type": "explanation",
+            "title": "Syntaktischer Kontext",
+            "content": "Der Energetikus tritt in bestimmten syntaktischen Umgebungen auf:\n\n1. Nach Schwurpartikeln + لَ: وَاللَّهِ لَأَفْعَلَنَّ (bei Gott, ich werde gewiss tun). Die Kombination Schwur + لَ + Energetikus ist die häufigste Verwendung im Quran.\n\n2. Nach لَا im Prohibitiv: لَا تَحْسَبَنَّ (glaube ja nicht!) — verstärkt das Verbot.\n\n3. In Bedingungskontexten nach لَ: Wenn ein Schwur den Bedingungssatz einleitet.\n\nWICHTIG: Das Verb steht im Energetikus in einem besonderen Zustand — es wird auf Fatha fixiert (مَبْنِيّ عَلَى الْفَتْح). Die regulären Modus-Endungen (Indikativ -u, Subjunktiv -a, Jussiv Sukun) gelten nicht mehr."
+          },
+          {
+            "type": "explanation",
+            "title": "Morphologische Bildung",
+            "content": "Die schwere Form (Schadda-Nun) wird wie folgt gebildet:\n\nBei den regulären Personen (3ms, 3fs, 2ms, 1s, 1p): Das Emphase-Nun tritt direkt an den letzten Radikal, der Fatha trägt.\n- يَفْعَلُ → يَفْعَلَنَّ\n- تَفْعَلُ → تَفْعَلَنَّ\n- أَفْعَلُ → أَفْعَلَنَّ\n- نَفْعَلُ → نَفْعَلَنَّ\n\nBei den Fünf Verben (3mp, 2mp, 2fs, 3md, 3fd): Das Modus-Nun fällt weg:\n- 3mp/2mp: Das Waw fällt vor dem Emphase-Nun wegen des Zusammentreffens zweier ruhender Konsonanten (iltiqāʾ as-sākinayn): يَفْعَلُونَ → يَفْعَلُنَّ / تَفْعَلُونَ → تَفْعَلُنَّ. Anmerkung: Sībawayhi diskutiert auch eine Variante mit Waw-Erhalt (يَفْعَلُونَّ), die jedoch nicht die Standardform darstellt.\n- 2fs: Ya fällt weg: تَفْعَلِينَ → تَفْعَلِنَّ (das Ya der 2fs-Endung fällt aus, das Modus-Nun fällt, Emphase-Nun tritt an)\n- 3md/3fd: Alif bleibt erhalten: يَفْعَلَانِ → يَفْعَلَانِّ\n\nBei 3fp und 2fp: Das Emphase-Nun wird mit einer Brücke angeschlossen:\n- يَفْعَلْنَ → يَفْعَلْنَانِّ"
+          },
+          {
+            "type": "explanation",
+            "title": "Konjugationstabelle (Schwere Form)",
+            "content": "Schwere Form (-anna) des Energetikus:\n\n3ms: يَفْعَلَنَّ | 3fs: تَفْعَلَنَّ\n3md: يَفْعَلَانِّ | 3fd: تَفْعَلَانِّ\n3mp: يَفْعَلُنَّ | 3fp: يَفْعَلْنَانِّ\n2ms: تَفْعَلَنَّ | 2fs: تَفْعَلِنَّ\n2md: تَفْعَلَانِّ | 2mp: تَفْعَلُنَّ | 2fp: تَفْعَلْنَانِّ\n1s: أَفْعَلَنَّ | 1p: نَفْعَلَنَّ\n\nDie leichte Form (-an) folgt demselben Schema, aber mit einfachem Nun (Sukun) statt Schadda-Nun. Sie ist nur für die regulären Personen (ohne Fünf-Verben) üblich."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "21:57",
+                "arabic": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم",
+                "explanation": "Schwur (تَاللَّهِ) + لَ + Energetikus: لَأَكِيدَنَّ = ich werde GEWISS euren Götzenbildern etwas antun. Form I von ك-ي-د, 1. Person Singular Energetikus.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+              },
+              {
+                "ref": "12:32",
+                "arabic": "وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ",
+                "explanation": "Zwei Energetikus-Formen: لَيُسْجَنَنَّ (schwere Form — er wird GEWISS eingesperrt werden, Passiv Form I) und لَيَكُونًا (leichte Form — er wird GEWISS sein, geschrieben mit Alif al-Wiqaya als لَيَكُونًا).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=32"
+              },
+              {
+                "ref": "3:186",
+                "arabic": "لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ",
+                "explanation": "لَتُبْلَوُنَّ = ihr werdet GEWISS geprüft werden. 2. Person Plural maskulin Energetikus. Das Modus-Nun ist weggefallen: تُبْلَوُونَ → تُبْلَوُنَّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=186"
+              },
+              {
+                "ref": "96:15",
+                "arabic": "لَنَسْفَعًا بِٱلنَّاصِيَةِ",
+                "explanation": "لَنَسْفَعًا = wir werden GEWISS an der Stirnlocke ziehen. Leichte Form des Energetikus (Nun mit Sukun), geschrieben mit Alif al-Wiqaya: نَسْفَعًا statt نَسْفَعَنْ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=15"
+              },
+              {
+                "ref": "14:7",
+                "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ",
+                "explanation": "Schwur-Kontext: لَأَزِيدَنَّكُمْ = ich werde euch GEWISS vermehren. Form I von ز-ي-د, 1. Person Singular Energetikus mit Pronominalsuffix -kum.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=7"
+              },
+              {
+                "ref": "7:16-17",
+                "arabic": "لَأَقْعُدَنَّ لَهُمْ صِرَاطَكَ الْمُسْتَقِيمَ ثُمَّ لَآتِيَنَّهُم",
+                "explanation": "Zwei Energetikus-Formen nach Schwur: لَأَقْعُدَنَّ (ich werde GEWISS lauern) und لَآتِيَنَّهُم (ich werde GEWISS zu ihnen kommen). Beide im Kontext eines Schwurs.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=16"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "question": "Was drückt der Energetikus aus?",
+            "options": [
+              "Vergangenheit",
+              "Nachdrückliche Bekräftigung: 'gewiss', 'wahrlich'",
+              "Verneinung",
+              "Wunsch"
+            ],
+            "correct": 1,
+            "explanation": "Der Energetikus ist eine emphatische Verbform, die nachdrückliche Bekräftigung ausdrückt. Er tritt typisch nach Schwurpartikeln auf."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Welche zwei Formen des Emphase-Nun gibt es?",
+            "options": [
+              "Maskulin und Feminin",
+              "Schwere Form (-anna, نَّ) und leichte Form (-an, نْ)",
+              "Aktiv und Passiv",
+              "Perfekt und Imperfekt"
+            ],
+            "correct": 1,
+            "explanation": "Die schwere Form hat ein Nun mit Schadda und Fatha (نَّ = -anna), die leichte Form ein einzelnes Nun mit Sukun (نْ = -an)."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Was geschieht mit dem Modus-Nun der Fünf Verben (z.B. يَفْعَلُونَ) im Energetikus?",
+            "options": [
+              "Es bleibt erhalten",
+              "Es verdoppelt sich",
+              "Es fällt weg, und das Emphase-Nun tritt an seine Stelle",
+              "Es wird zu Tanwin"
+            ],
+            "correct": 2,
+            "explanation": "Bei den Fünf Verben fällt das Modus-Nun weg, und das Waw fällt wegen des Zusammentreffens zweier ruhender Konsonanten (iltiqāʾ as-sākinayn): يَفْعَلُونَ → يَفْعَلُنَّ. Sībawayhi diskutiert auch eine Variante mit Waw-Erhalt (يَفْعَلُونَّ)."
+          },
+          {
+            "type": "multiple_choice",
+            "question": "In لَيُسْجَنَنَّ (12:32) — welche Verbform liegt vor?",
+            "options": [
+              "Form I Aktiv Imperfekt",
+              "Form I Passiv Imperfekt mit schwerem Emphase-Nun",
+              "Form IV Aktiv Perfekt",
+              "Form VII Imperfekt"
+            ],
+            "correct": 1,
+            "explanation": "لَيُسْجَنَنَّ ist Passiv (yu-) von س-ج-ن (einsperren), Form I, Imperfekt, mit der schweren Form des Emphase-Nun (-anna). Bedeutung: er wird GEWISS eingesperrt werden.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=32"
+          },
+          {
+            "type": "multiple_choice",
+            "question": "Warum wird die leichte Form des Energetikus in 96:15 (لَنَسْفَعًا) mit Alif geschrieben?",
+            "options": [
+              "Weil es ein anderes Wort ist",
+              "Weil das Alif al-Wiqaya (Schutz-Alif) nach finalem Nun mit Sukun geschrieben wird, um es vom regulären Tanwin zu unterscheiden",
+              "Weil es ein Fehler im Mushaf ist",
+              "Weil alle Energetikus-Formen mit Alif enden"
+            ],
+            "correct": 1,
+            "explanation": "Das Alif nach dem leichten Emphase-Nun heißt Alif al-Wiqaya — es wird geschrieben, um das Emphase-Nun (نْ) optisch vom Tanwin zu unterscheiden. Es wird nicht ausgesprochen.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=15"
+          }
+        ]
+      }
+    }
+  ]
+}

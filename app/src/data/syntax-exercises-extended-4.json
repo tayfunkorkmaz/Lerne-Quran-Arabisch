@@ -1,0 +1,2238 @@
+{
+  "meta": {
+    "title": "Erweiterte Syntax-Übungen (Fortgeschritten) — Teil 4",
+    "description": "50 strukturierte Übungen zu seltenen syntaktischen Phänomenen: Exklamativsätze (Taʿajjub), Ism al-Fi'l, Tanazu' al-I'rab und Ishtighal.",
+    "language": "de",
+    "totalExercises": 50,
+    "categories": [
+      "taʿajjub",
+      "ism_fi'l",
+      "tanazu'",
+      "ishtighal"
+    ],
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "syn_301",
+      "type": "parse",
+      "category": "taʿajjub",
+      "verse": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
+      "surah": 2,
+      "ayah": 175,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175",
+      "words": [
+        {
+          "word": "فَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Anknüpfende Konjunktion. Analyse als Fa al-fa'sihiyya (impliziert eine elidierte Bedingung) oder als einfache Fa al-'atf (koordinierend, leitet die Konsequenz des vorhergehenden Kontexts ein). Beide Analysen sind grammatisch vertretbar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "word": "مَا",
+          "role": "Taʿajjub-Partikel",
+          "case": "—",
+          "explanation": "ما التعجبية — leitet den Exklamativsatz ein. Keine Rektion, keine Flexion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "word": "أَصْبَرَ",
+          "role": "Fi'l at-taʿajjub",
+          "case": "—",
+          "explanation": "Verb der Exklamativform أَفْعَلَ — drückt Staunen aus. Muster: ما أَفْعَلَ + Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "word": "هُمْ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen als Objekt des Exklamativverbs — 'wie geduldig sie sind!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "word": "عَلَى ٱلنَّارِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "Präpositionalphrase: 'gegenüber dem Feuer' — Komplement des Exklamativverbs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        }
+      ]
+    },
+    {
+      "id": "syn_302",
+      "type": "parse",
+      "category": "taʿajjub",
+      "verse": "قُتِلَ الْإِنْسَانُ مَا أَكْفَرَهُ",
+      "surah": 80,
+      "ayah": 17,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17",
+      "words": [
+        {
+          "word": "قُتِلَ",
+          "role": "Fi'l (Passiv)",
+          "case": "—",
+          "explanation": "Passivform — wörtlich 'er wurde getötet'. Hier als Fluch-/Verwünschungsformel verwendet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "word": "الْإِنْسَانُ",
+          "role": "Naʿib al-Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "Stellvertreter des Subjekts im Passivsatz — 'der Mensch'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "word": "مَا",
+          "role": "Taʿajjub-Partikel",
+          "case": "—",
+          "explanation": "ما التعجبية — leitet den Exklamativ ein: 'Wie ...!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "word": "أَكْفَرَ",
+          "role": "Fi'l at-taʿajjub",
+          "case": "—",
+          "explanation": "Exklamativform أَفْعَلَ von der Wurzel ك-ف-ر — 'wie undankbar/ablehnend!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "word": "هُ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf الإنسان zurück: 'wie undankbar er ist!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        }
+      ]
+    },
+    {
+      "id": "syn_303",
+      "type": "parse",
+      "category": "taʿajjub",
+      "verse": "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا",
+      "surah": 19,
+      "ayah": 38,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38",
+      "words": [
+        {
+          "word": "أَسْمِعْ",
+          "role": "Fi'l at-taʿajjub (2. Form)",
+          "case": "—",
+          "explanation": "Exklamativform أَفْعِلْ بِهِ — die zweite Taʿajjub-Formel. Äußerlich ein Imperativ, semantisch Exklamation: 'Wie hörend!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        },
+        {
+          "word": "بِهِمْ",
+          "role": "Faʿil (formal)",
+          "case": "Genitiv (formal) / Nominativ (syntaktisch)",
+          "explanation": "In der Formel أَفْعِلْ بِهِ ist das Ba zaʿid (überflüssig) — بِهِمْ ist formal Genitiv durch die Präposition, syntaktisch aber Faʿil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        },
+        {
+          "word": "وَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Kopulatives Waw — verbindet die beiden parallelen Exklamative.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        },
+        {
+          "word": "أَبْصِرْ",
+          "role": "Fi'l at-taʿajjub (2. Form)",
+          "case": "—",
+          "explanation": "Zweiter Exklamativ: 'Wie sehend!' — parallel zu أَسْمِعْ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        },
+        {
+          "word": "يَوْمَ يَأْتُونَنَا",
+          "role": "Ẓarf (Zeitadverbial)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "Zeitangabe im Akkusativ: 'am Tag, an dem sie zu uns kommen'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        }
+      ]
+    },
+    {
+      "id": "syn_304",
+      "type": "parse",
+      "category": "taʿajjub",
+      "verse": "كَيْفَ تَكْفُرُونَ بِاللَّهِ وَكُنْتُمْ أَمْوَاتًا فَأَحْيَاكُمْ",
+      "surah": 2,
+      "ayah": 28,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28",
+      "words": [
+        {
+          "word": "كَيْفَ",
+          "role": "Ism Istifham / Taʿajjub",
+          "case": "—",
+          "explanation": "Fragepronomen das hier emphatisch-exklamativ verwendet wird: 'Wie könnt ihr nur ...!' — Ausdruck des Staunens über das Verhalten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        },
+        {
+          "word": "تَكْفُرُونَ",
+          "role": "Fi'l Mudari' (Khabar)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "Verb im Indikativ — das Fragewort كيف verändert den Modus nicht. 'ihr leugnet/seid undankbar'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        },
+        {
+          "word": "بِاللَّهِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "Präpositionalphrase: 'gegenüber Gott' — Komplement des Verbs كفر بـ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        },
+        {
+          "word": "وَكُنتُمْ أَمْوَٰتًا",
+          "role": "Halsatz",
+          "case": "—",
+          "explanation": "Zustandssatz mit كان: 'während ihr tot wart' — beschreibt den früheren Zustand. أَمْوَاتًا ist Khabar von كان im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        },
+        {
+          "word": "فَأَحْيَاكُمْ",
+          "role": "Fi'l + Mafʿul bihi",
+          "case": "—",
+          "explanation": "'dann machte er euch lebendig' — Fa al-'atf knüpft die Folgehandlung an.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        }
+      ]
+    },
+    {
+      "id": "syn_305",
+      "type": "parse",
+      "category": "negation",
+      "verse": "فَمَا أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَا أَبْصَارُهُمْ وَلَا أَفْئِدَتُهُمْ مِنْ شَيْءٍ",
+      "surah": 46,
+      "ayah": 26,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26",
+      "words": [
+        {
+          "word": "فَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Fa al-fa'sihiyya — leitet die Konsequenz ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        },
+        {
+          "word": "مَا",
+          "role": "Negationspartikel (ما النافية)",
+          "case": "—",
+          "explanation": "ما النافية (Negationspartikel): 'ihr Gehör nützte ihnen nichts'. Die Struktur beweist Negation, nicht Taʿajjub: سمعهم steht im Nominativ als Faʿil — bei ما التعجبية (Exklamativ) müsste das Objekt im Akkusativ stehen (Muster: ما أَفْعَلَهُ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        },
+        {
+          "word": "أَغْنَىٰ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "Verb im Perfekt: 'nützte / machte unabhängig'. Form IV von غ-ن-ي.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        },
+        {
+          "word": "عَنْهُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'für sie / von ihnen weg' — Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        },
+        {
+          "word": "سَمْعُهُمْ وَلَآ أَبْصَٰرُهُمْ وَلَآ أَفْـِٔدَتُهُم",
+          "role": "Faʿil (dreifach koordiniert)",
+          "case": "Nominativ (Raf')",
+          "explanation": "Drei koordinierte Subjekte im Nominativ: 'ihr Gehör, ihre Blicke und ihre Herzen' — keines davon nützte ihnen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        },
+        {
+          "word": "مِّن شَىْءٍ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'in irgendetwas' — مِنْ ist Präposition mit partitiv-verstärkender Funktion. شَيْءٍ steht im Genitiv, weil es von مِنْ regiert wird (Jarr wa-Majrur).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=26"
+        }
+      ]
+    },
+    {
+      "id": "syn_306",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ",
+      "surah": 23,
+      "ayah": 36,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36",
+      "words": [
+        {
+          "word": "هَيْهَاتَ",
+          "role": "Ism Fi'l Madi",
+          "case": "—",
+          "explanation": "Ism al-Fi'l — ein Nomen das die Funktion eines Verbs übernimmt. هَيْهَاتَ = بَعُدَ (es ist fern/unmöglich). Es ist unveränderlich (mabniyy) und regiert wie ein Verb.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "word": "هَيْهَاتَ",
+          "role": "Tawkid (Verstärkung)",
+          "case": "—",
+          "explanation": "Wiederholung zur Verstärkung — 'Fern, fern!' Sprachliche Verdopplung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "word": "لِ",
+          "role": "Präposition",
+          "case": "—",
+          "explanation": "Lam al-jarr — führt das Komplement ein: 'fern von dem, was...'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "word": "مَا",
+          "role": "Ism Mawsul",
+          "case": "Genitiv (durch لِ)",
+          "explanation": "Relativpronomen: 'das, was' — leitet den Relativsatz ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "word": "تُوعَدُونَ",
+          "role": "Sila (Relativsatz)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "Verb im Passiv-Indikativ: 'euch versprochen/angedroht wird' — bildet den Relativsatz (Sila) zu ما.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        }
+      ]
+    },
+    {
+      "id": "syn_307",
+      "type": "parse",
+      "category": "interrogative",
+      "verse": "وَقَالُوا لِجُلُودِهِمْ لِمَ شَهِدْتُمْ عَلَيْنَا",
+      "surah": 41,
+      "ayah": 21,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21"
+        },
+        {
+          "word": "قَالُوا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "Verb im Perfekt 3.m.Pl. — 'sie sagten'. Das Waw al-Jamaʿa ist Faʿil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21"
+        },
+        {
+          "word": "لِجُلُودِهِمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'zu ihren Häuten' — Adressat der Rede.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21"
+        },
+        {
+          "word": "لِمَ",
+          "role": "Fragewort",
+          "case": "—",
+          "explanation": "لِ + مَا (verkürzt zu لِمَ) — 'warum/wofür'. Das Alif von ما fällt nach Präpositionen aus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21"
+        },
+        {
+          "word": "شَهِدتُّمْ عَلَيْنَا",
+          "role": "Fi'l + Faʿil + Jarr wa-Majrur",
+          "case": "—",
+          "explanation": "'ihr habt gegen uns bezeugt' — شهد على = gegen jemanden aussagen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=21"
+        }
+      ]
+    },
+    {
+      "id": "syn_308",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "قَالَ أُفٍّ لَكُمْ وَلِمَا تَعْبُدُونَ مِنْ دُونِ اللَّهِ",
+      "surah": 21,
+      "ayah": 67,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67",
+      "words": [
+        {
+          "word": "قَالَ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "Verb im Perfekt: 'er sagte'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67"
+        },
+        {
+          "word": "أُفٍّ",
+          "role": "Ism Fi'l Mudari'",
+          "case": "—",
+          "explanation": "Ism al-Fi'l — ein Nomen mit Verbfunktion. أُفٍّ = أَتَضَجَّرُ (ich bin angewidert/genervt). Unveränderlich, drückt Abscheu aus. Der Faʿil ist implizit (das sprechende Ich).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67"
+        },
+        {
+          "word": "لَكُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'euch' — Adressat des Ausrufs der Abscheu.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67"
+        },
+        {
+          "word": "وَلِمَا تَعْبُدُونَ",
+          "role": "Ma'tuf (koordiniert)",
+          "case": "Genitiv",
+          "explanation": "'und dem, was ihr anbetet' — koordiniert mit لَكُمْ durch وَ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67"
+        },
+        {
+          "word": "مِن دُونِ ٱللَّهِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'außer Gott / an Gottes Statt' — Präpositionalkomplement.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=67"
+        }
+      ]
+    },
+    {
+      "id": "syn_309",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "قُلْ هَلُمَّ شُهَدَاءَكُمُ الَّذِينَ يَشْهَدُونَ أَنَّ اللَّهَ حَرَّمَ هَٰذَا",
+      "surah": 6,
+      "ayah": 150,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150",
+      "words": [
+        {
+          "word": "قُلْ",
+          "role": "Fi'l Amr",
+          "case": "—",
+          "explanation": "Imperativ: 'Sag!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150"
+        },
+        {
+          "word": "هَلُمَّ",
+          "role": "Ism Fi'l Amr",
+          "case": "—",
+          "explanation": "Ism al-Fi'l mit Imperativbedeutung = أَحْضِرُوا / تَعَالَوْا (bringt her! / kommt!). Im Hidschazischen unveränderlich für alle Personen und Numeri. Der Faʿil ist implizit (ihr).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150"
+        },
+        {
+          "word": "شُهَدَاءَ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'eure Zeugen' — Akkusativobjekt von هَلُمَّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150"
+        },
+        {
+          "word": "كُمُ",
+          "role": "Mudaf ilayhi",
+          "case": "Genitiv",
+          "explanation": "Possessivsuffix: 'eure' — Genitiv in der Iḍāfa-Konstruktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150"
+        },
+        {
+          "word": "ٱلَّذِينَ يَشْهَدُونَ أَنَّ ٱللَّهَ حَرَّمَ هَٰذَا",
+          "role": "Sifa (Attributsatz)",
+          "case": "—",
+          "explanation": "Relativsatz als Attribut zu شُهَدَاءَكُمُ: 'die bezeugen, dass Gott dies verboten hat'. أَنَّ اللَّهَ حَرَّمَ هَٰذَا ist Masdar muawwal als Mafʿul bihi von يَشْهَدُونَ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=150"
+        }
+      ]
+    },
+    {
+      "id": "syn_310",
+      "type": "parse",
+      "category": "nun_tawkid",
+      "verse": "وَلَا يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ لِأَنْفُسِهِمْ",
+      "surah": 3,
+      "ayah": 178,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178",
+      "words": [
+        {
+          "word": "وَلَا",
+          "role": "Waw + Nahiy",
+          "case": "—",
+          "explanation": "Waw al-'atf + لا الناهية — Verbotspartikel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178"
+        },
+        {
+          "word": "يَحْسَبَنَّ",
+          "role": "Fi'l Mudari' + Nun at-tawkid",
+          "case": "Dschazm (durch لا الناهية) + Nun at-tawkid",
+          "explanation": "Verb im apokopierten Modus (Dschazm durch لا الناهية), verstärkt durch das schwere Nun der Bekräftigung. 'Sie sollen keineswegs meinen.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178"
+        },
+        {
+          "word": "ٱلَّذِينَ كَفَرُوٓا",
+          "role": "Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "Relativpronomen + Relativsatz als Subjekt: 'diejenigen die geleugnet haben'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178"
+        },
+        {
+          "word": "أَنَّمَا نُمْلِى لَهُمْ",
+          "role": "Masdar muawwal (Mafʿul bihi 1)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "Masdar muawwal: 'dass wir ihnen Aufschub gewähren' — erstes Objekt von يَحْسَبَنَّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178"
+        },
+        {
+          "word": "خَيْرٌ لِّأَنفُسِهِمْ",
+          "role": "Mafʿul bihi 2",
+          "case": "Nominativ (als Khabar von أَنَّ)",
+          "explanation": "'gut für sie selbst' — zweites Objekt. Innerhalb der أَنَّ-Konstruktion Khabar im Nominativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=178"
+        }
+      ]
+    },
+    {
+      "id": "syn_311",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا يَسْتَغْفِرْ لَكُمْ رَسُولُ اللَّهِ",
+      "surah": 63,
+      "ayah": 5,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5",
+      "words": [
+        {
+          "word": "وَإِذَا",
+          "role": "Ẓarf + Shart",
+          "case": "—",
+          "explanation": "Temporal-konditionales Adverb: 'und wenn'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "قِيلَ",
+          "role": "Fi'l Madi (Passiv)",
+          "case": "—",
+          "explanation": "Passivform: 'gesagt wurde'. Der Inhalt des Gesagten ist der Nachsatz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "لَهُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'zu ihnen' — Adressat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "تَعَالَوْا",
+          "role": "Fi'l Amr",
+          "case": "—",
+          "explanation": "'Kommt!' — Imperativ. Hier konkurrieren zwei Operatoren um die Rektion über رَسُولُ: das passive قِيلَ (das Naʿib al-Faʿil benötigt) und يَسْتَغْفِرْ (das Faʿil benötigt). Dies ist ein Fall von Tanazu'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "يَسْتَغْفِرْ",
+          "role": "Fi'l Mudari' (Dschazm)",
+          "case": "Dschazm (Apokopat)",
+          "explanation": "Verb im apokopierten Modus — Jawab des Bedingungssatzes oder Zweckangabe: 'damit der Gesandte Gottes für euch um Vergebung bittet'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "لَكُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'für euch' — Nutzniesser.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        },
+        {
+          "word": "رَسُولُ ٱللَّهِ",
+          "role": "Faʿil von يَسْتَغْفِرْ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'der Gesandte Gottes' — Faʿil. Hier hat das zweite Verb (يَسْتَغْفِرْ) die Rektion über das Nomen gewonnen (Tanazu': das nähere Verb regiert).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=5"
+        }
+      ]
+    },
+    {
+      "id": "syn_312",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "surah": 18,
+      "ayah": 96,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96",
+      "words": [
+        {
+          "word": "آتُونِي",
+          "role": "Fi'l Amr + Faʿil + Mafʿul bihi",
+          "case": "—",
+          "explanation": "'Bringt mir!' — Imperativ mit Waw al-Jamaʿa als Faʿil und Nun al-wiqaya + Ya als Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96"
+        },
+        {
+          "word": "أُفْرِغْ",
+          "role": "Fi'l Mudari' (Dschazm)",
+          "case": "Dschazm (Apokopat)",
+          "explanation": "Verb im apokopierten Modus — Jawab at-talab (Antwort auf den Imperativ): 'damit ich darauf gieße'. Der Faʿil ist implizit (ich).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96"
+        },
+        {
+          "word": "عَلَيْهِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'darauf' — Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96"
+        },
+        {
+          "word": "قِطْرًا",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'geschmolzenes Kupfer' — Akkusativobjekt von أُفْرِغْ. Hier liegt kein klassischer Tanazu' vor, aber die Satzverkettung zeigt, wie der Imperativ die Dschazm-Rektion im Folgesatz auslöst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96"
+        }
+      ]
+    },
+    {
+      "id": "syn_313",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ",
+      "surah": 2,
+      "ayah": 20,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20",
+      "words": [
+        {
+          "word": "يَكَادُ",
+          "role": "Fi'l Mudari' (Muqaraba)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "Verb der Annäherung (من افعال المقاربة): 'beinahe'. Es regiert ein Ism (Nominativ) und ein Khabar (Verbalsatz).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "الْبَرْقُ",
+          "role": "Ism von يَكَادُ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'der Blitz' — Ism der Annäherungsverben, im Nominativ. Gleichzeitig ist الْبَرْقُ auch Faʿil von يَخْطَفُ — beide Verben beanspruchen dasselbe Nomen (Tanazu').",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "يَخْطَفُ",
+          "role": "Khabar von يَكَادُ (Verbalsatz)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "Verb im Indikativ — Khabar des Annäherungsverbs. Steht ohne أَنْ (bei كاد typisch).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "أَبْصَارَ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'ihre Blicke/Augen' — Akkusativobjekt von يَخْطَفُ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "هُمْ",
+          "role": "Mudaf ilayhi",
+          "case": "Genitiv",
+          "explanation": "Possessivsuffix: 'ihre'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        }
+      ]
+    },
+    {
+      "id": "syn_314",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "وَلَوْ شَاءَ اللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَارِهِمْ",
+      "surah": 2,
+      "ayah": 20,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20",
+      "words": [
+        {
+          "word": "وَلَوْ",
+          "role": "Waw + Shart (irreal)",
+          "case": "—",
+          "explanation": "'Und wenn' — لَوْ leitet eine irreale Bedingung ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "شَاءَ",
+          "role": "Fi'l Madi (Shart)",
+          "case": "—",
+          "explanation": "Verb im Perfekt — Bedingungssatz: 'er hätte gewollt'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "اللَّهُ",
+          "role": "Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "Subjekt von شَاءَ. Hier gibt es einen syntaktischen Wettbewerb: اللَّهُ ist Faʿil von شَاءَ, aber semantisch auch Agens von لَذَهَبَ. Beide Verben 'beanspruchen' das Nomen — ein Tanazu'-Fall, bei dem das erste Verb die Rektion gewinnt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "لَذَهَبَ",
+          "role": "Jawab ash-Shart",
+          "case": "—",
+          "explanation": "Lam at-tawkid + Verb im Perfekt — Nachsatz der irrealen Bedingung: 'dann hätte er weggenommen'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        },
+        {
+          "word": "بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ",
+          "role": "Jarr wa-Majrur (koordiniert)",
+          "case": "Genitiv",
+          "explanation": "'ihr Gehör und ihre Blicke' — Komplement von ذَهَبَ بِـ (wegnehmen).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+        }
+      ]
+    },
+    {
+      "id": "syn_315",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "تَكَادُ السَّمَاوَاتُ يَتَفَطَّرْنَ مِنْهُ",
+      "surah": 19,
+      "ayah": 90,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=90",
+      "words": [
+        {
+          "word": "تَكَادُ",
+          "role": "Fi'l Mudari' (Muqaraba)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "Verb der Annäherung im femininen Singular (wegen السَّمَاوَاتُ als gebrochener Plural). 'beinahe'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=90"
+        },
+        {
+          "word": "السَّمَاوَاتُ",
+          "role": "Ism von تَكَادُ / Faʿil von يَتَفَطَّرْنَ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'die Himmel' — wird von zwei Verben gleichzeitig beansprucht: als Ism von تَكَادُ und als Faʿil von يَتَفَطَّرْنَ (Tanazu'). Steht im Nominativ — beide Funktionen verlangen denselben Kasus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=90"
+        },
+        {
+          "word": "يَتَفَطَّرْنَ",
+          "role": "Khabar von تَكَادُ (Verbalsatz)",
+          "case": "—",
+          "explanation": "'sie zerbersten beinahe' — femininer Plural. Khabar des Annäherungsverbs. Das Nun ist Nun an-niswa (Faʿil).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=90"
+        },
+        {
+          "word": "مِنْهُ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'davon / deswegen' — kausale Präpositionalphrase.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=90"
+        }
+      ]
+    },
+    {
+      "id": "syn_316",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ",
+      "surah": 36,
+      "ayah": 39,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw — knüpft an den vorhergehenden Satz an.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "word": "الْقَمَرَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'den Mond' — vorangestelltes Akkusativobjekt (Ishtighal). Das folgende Verb قَدَّرْنَاهُ ist durch das Pronomen ه bereits 'beschäftigt' (مشتغل). Der Akkusativ von الْقَمَرَ erklärt sich durch die Rektion des folgenden Verbs, die über das resumptive Pronomen ه vermittelt wird. Dies ist der klassische Ishtighal-Fall: das vorangestellte Nomen steht im Akkusativ, weil es koreferentiell mit dem Pronomen-Objekt des folgenden Verbs ist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "word": "قَدَّرْنَا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'wir bestimmten/masssen zu' — Verb im Perfekt, 1. Person Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "word": "هُ",
+          "role": "Mafʿul bihi (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf الْقَمَرَ zurück. Dieses Pronomen 'beschäftigt' das Verb und macht den Ishtighal-Fall aus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "word": "مَنَازِلَ",
+          "role": "Mafʿul bihi thani / Hal / Ẓarf",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'Stationen/Mondphasen' — zweites Objekt oder adverbiale Bestimmung im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        }
+      ]
+    },
+    {
+      "id": "syn_317",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالظَّالِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًا",
+      "surah": 76,
+      "ayah": 31,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        },
+        {
+          "word": "الظَّالِمِينَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'die Ungerechten' — vorangestelltes Akkusativobjekt (maskuliner gesunder Plural, Akkusativ = -iin). Das folgende Verb ist durch das Pronomen هُمْ in لَهُمْ beschäftigt — klassischer Ishtighal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        },
+        {
+          "word": "أَعَدَّ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "'er bereitete vor' — Verb im Perfekt. Der Faʿil ist implizit (Gott).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        },
+        {
+          "word": "لَهُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'für sie' — das Pronomen هُمْ verweist auf الظَّالِمِينَ zurück und beschäftigt das Verb (Ishtighal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        },
+        {
+          "word": "عَذَابًا أَلِيمًا",
+          "role": "Mafʿul bihi + Sifa",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'eine schmerzhafte Strafe' — Akkusativobjekt von أَعَدَّ, mit Adjektivattribut im Akkusativ (Kongruenz in Kasus, Genus, Numerus, Determiniertheit).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        }
+      ]
+    },
+    {
+      "id": "syn_318",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "surah": 94,
+      "ayah": 1,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1",
+      "words": [
+        {
+          "word": "أَ",
+          "role": "Hamzat al-Istifham",
+          "case": "—",
+          "explanation": "Sprachliche Frage — erwartet eine bejahende Antwort: 'Haben wir nicht...? (Doch!)'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        },
+        {
+          "word": "لَمْ",
+          "role": "Dschazm-Partikel",
+          "case": "—",
+          "explanation": "Negationspartikel für die Vergangenheit — versetzt das Verb in den Dschazm (Apokopat).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        },
+        {
+          "word": "نَشْرَحْ",
+          "role": "Fi'l Mudari' (Madschzum)",
+          "case": "Dschazm (Apokopat)",
+          "explanation": "'wir weiteten' — Verb im apokopierten Modus durch لَمْ. Der Faʿil ist implizit (wir).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        },
+        {
+          "word": "لَكَ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'für dich' — Nutzniesser-Komplement. Das Pronomen كَ verweist auf den Angesprochenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        },
+        {
+          "word": "صَدْرَكَ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'deine Brust' — Akkusativobjekt von نَشْرَحْ. Hier liegt kein Ishtighal vor, da das Verb صَدْرَكَ direkt regiert (ohne beschäftigendes Pronomen). Zum Vergleich: Ein Ishtighal-Fall wäre: صَدْرَكَ أَلَمْ نَشْرَحْهُ لَكَ (mit Pronomen هُ im Verb).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        }
+      ]
+    },
+    {
+      "id": "syn_319",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَكُلَّ إِنْسَانٍ أَلْزَمْنَاهُ طَائِرَهُ فِي عُنُقِهِ",
+      "surah": 17,
+      "ayah": 13,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-isti'naf",
+          "case": "—",
+          "explanation": "Waw des Neubeginns.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        },
+        {
+          "word": "وَكُلَّ إِنسَٰنٍ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'jeden Menschen' — vorangestelltes Akkusativobjekt (Ishtighal). كُلَّ im Akkusativ, weil es koreferentiell mit dem Suffix-Pronomen هُ des folgenden Verbs أَلْزَمْنَاهُ ist. Das Verb ist durch das Suffix 'beschäftigt' — der Akkusativ des vorangestellten Nomens erklärt sich durch die vermittelte Rektion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        },
+        {
+          "word": "أَلْزَمْنَا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'wir banden an / wir hefteten an' — Verb im Perfekt, 1. Person Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        },
+        {
+          "word": "هُ",
+          "role": "Mafʿul bihi awwal (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf كُلَّ إِنْسَانٍ zurück. Beschäftigt das Verb (Ishtighal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        },
+        {
+          "word": "طَائِرَهُ",
+          "role": "Mafʿul bihi thani",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'sein Vorzeichen / sein Schicksal' — zweites Akkusativobjekt von أَلْزَمْنَا.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        },
+        {
+          "word": "فِى عُنُقِهِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'an seinem Hals' — Ortsangabe. عُنُقِ im Genitiv durch فِي.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=13"
+        }
+      ]
+    },
+    {
+      "id": "syn_320",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالسَّمَاءَ بَنَيْنَاهَا بِأَيْدٍ وَإِنَّا لَمُوسِعُونَ",
+      "surah": 51,
+      "ayah": 47,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        },
+        {
+          "word": "السَّمَاءَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'den Himmel' — vorangestelltes Akkusativobjekt (Ishtighal). Das folgende Verb بَنَيْنَاهَا ist durch das Suffix هَا beschäftigt. Der Akkusativ von السَّمَاءَ erklärt sich durch die Koreferenz mit dem Pronomen-Objekt des folgenden Verbs — die Rektion wird über das resumptive Pronomen vermittelt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        },
+        {
+          "word": "بَنَيْنَا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'wir bauten/errichteten' — Verb im Perfekt, 1. Person Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        },
+        {
+          "word": "هَا",
+          "role": "Mafʿul bihi (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen (feminin Singular) — verweist auf السَّمَاءَ zurück. Beschäftigt das Verb (Ishtighal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        },
+        {
+          "word": "بِأَيْدٍ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'mit Kraft/Stärke' — instrumentale Präpositionalphrase. أَيْد = Stärke (nicht Plural von يَد).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        },
+        {
+          "word": "وَإِنَّا لَمُوسِعُونَ",
+          "role": "Inna-Satz (Nominalsatz)",
+          "case": "—",
+          "explanation": "'und wahrlich, wir sind Erweiterer/Ausdehner' — إِنَّ + Suffix نَا (Ism, Akkusativ) + لَ (Lam al-ibtida') + مُوسِعُونَ (Khabar, Nominativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=47"
+        }
+      ]
+    },
+    {
+      "id": "syn_321",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "وَيْلٌ لِكُلِّ هُمَزَةٍ لُمَزَةٍ",
+      "surah": 104,
+      "ayah": 1,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1",
+      "words": [
+        {
+          "word": "وَيْلٌ",
+          "role": "Ism Fi'l / Mubtada'",
+          "case": "Nominativ (Raf')",
+          "explanation": "وَيْلٌ funktioniert wie ein Ism al-Fi'l mit der Bedeutung 'Wehe!' oder als Mubtada' (Subjekt eines Nominalsatzes): 'Verderben/Wehe'. Als Nomen im Nominativ steht es am Satzanfang.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+        },
+        {
+          "word": "لِكُلِّ",
+          "role": "Jarr wa-Majrur (Khabar oder Komplement)",
+          "case": "Genitiv",
+          "explanation": "'für jeden' — Präpositionalobjekt. Wenn وَيْلٌ als Mubtada' analysiert wird, ist لِكُلِّ der Khabar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+        },
+        {
+          "word": "هُمَزَةٍ",
+          "role": "Mudaf ilayhi",
+          "case": "Genitiv",
+          "explanation": "'Lästerer' — Muster فُعَلَة als Intensivform. Im Genitiv als Teil der Iḍāfa mit كُلِّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+        },
+        {
+          "word": "لُمَزَةٍ",
+          "role": "Sifa / Badal",
+          "case": "Genitiv",
+          "explanation": "'Schmähender' — Attribut oder Apposition zu هُمَزَةٍ, kongruent im Genitiv.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+        }
+      ]
+    },
+    {
+      "id": "syn_322",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "مَهْ",
+      "surah": 0,
+      "ayah": 0,
+      "nonQuranic": true,
+      "note": "Nicht-koranisches Beispiel. مَهْ ist ein klassisches Paradigma für Ism Fi'l Amr, das im Quran nicht vorkommt, aber zum grammatischen System gehört.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n293",
+      "words": [
+        {
+          "word": "مَهْ",
+          "role": "Ism Fi'l Amr",
+          "case": "—",
+          "explanation": "Ism al-Fi'l mit Imperativbedeutung = اكْفُفْ (hör auf! / genug!). Unveränderlich (mabniyy 'ala s-sukun). Der Faʿil ist implizit (du). Klassisches Paradigma der arabischen Grammatik (vgl. Wright II, §136), kommt im Quran nicht vor.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n293"
+        }
+      ]
+    },
+    {
+      "id": "syn_323",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "عَلَيْكُمْ أَنْفُسَكُمْ لَا يَضُرُّكُمْ مَنْ ضَلَّ إِذَا اهْتَدَيْتُمْ",
+      "surah": 5,
+      "ayah": 105,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105",
+      "words": [
+        {
+          "word": "عَلَيْكُمْ",
+          "role": "Ism Fi'l Amr",
+          "case": "—",
+          "explanation": "Ism al-Fi'l mit Imperativbedeutung = اِلْزَمُوا (haltet fest an! / kümmert euch um!). Die Präposition عَلَى mit Suffix funktioniert als unveränderliches Ism Fi'l. Regiert das folgende Nomen im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105"
+        },
+        {
+          "word": "أَنْفُسَكُمْ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'euch selbst / eure Selbste' — Akkusativobjekt von عَلَيْكُمْ als Ism Fi'l. 'Kümmert euch um euch selbst!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105"
+        },
+        {
+          "word": "لَا يَضُرُّكُم",
+          "role": "Fi'l Mudari' + Mafʿul bihi",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'es schadet euch nicht' — Hauptsatz als Konsequenz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105"
+        },
+        {
+          "word": "مَّن ضَلَّ",
+          "role": "Faʿil",
+          "case": "Nominativ",
+          "explanation": "'wer abgeirrt ist' — Relativpronomen + Relativsatz als Subjekt von يَضُرُّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105"
+        },
+        {
+          "word": "إِذَا ٱهْتَدَيْتُمْ",
+          "role": "Ẓarf (Bedingung)",
+          "case": "—",
+          "explanation": "'wenn ihr geleitet seid' — temporale Bedingung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=105"
+        }
+      ]
+    },
+    {
+      "id": "syn_324",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "هَاؤُمُ اقْرَءُوا كِتَابِيَهْ",
+      "surah": 69,
+      "ayah": 19,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=19",
+      "words": [
+        {
+          "word": "هَاؤُمُ",
+          "role": "Ism Fi'l Amr",
+          "case": "—",
+          "explanation": "Ism al-Fi'l mit Imperativbedeutung = خُذُوا (nehmt! / da, bitte!). Unveränderlich. Wird hier mit der Plural-Endung verwendet: هَاؤُمُ für die Anrede an Mehrere.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=19"
+        },
+        {
+          "word": "اقْرَءُوا",
+          "role": "Fi'l Amr",
+          "case": "—",
+          "explanation": "'lest!' — Imperativ 2. Person maskulin Plural. Zweiter Befehl nach der Aufforderung zur Übernahme.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=19"
+        },
+        {
+          "word": "كِتَابِيَهْ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'mein Buch!' — Akkusativobjekt von اقْرَءُوا. Das Ha am Ende ist ein Pausen-Ha (ha as-sakt), nicht Teil des Wortes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=19"
+        }
+      ]
+    },
+    {
+      "id": "syn_325",
+      "type": "parse",
+      "category": "ism_fi'l",
+      "verse": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَىٰ مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ",
+      "surah": 4,
+      "ayah": 61,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61",
+      "words": [
+        {
+          "word": "وَإِذَا",
+          "role": "Ẓarf + Shart",
+          "case": "—",
+          "explanation": "Temporal-konditionales Adverb: 'und wenn'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        },
+        {
+          "word": "قِيلَ",
+          "role": "Fi'l Madi (Passiv)",
+          "case": "—",
+          "explanation": "'gesagt wurde' — Passivform.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        },
+        {
+          "word": "لَهُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'zu ihnen' — Adressat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        },
+        {
+          "word": "تَعَالَوْا",
+          "role": "Ism Fi'l Amr",
+          "case": "—",
+          "explanation": "Ism al-Fi'l mit Imperativbedeutung = أَقْبِلُوا (kommt!). Äußerlich sieht es wie ein Verb aus, ist aber morphologisch irregulär — es lässt sich als Ism Fi'l klassifizieren, da es keine reguläre Verbform von ع-ل-و darstellt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        },
+        {
+          "word": "إِلَىٰ مَآ أَنزَلَ ٱللَّهُ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'zu dem, was Gott herabgesandt hat' — Zielangabe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        },
+        {
+          "word": "وَإِلَى ٱلرَّسُولِ",
+          "role": "Ma'tuf",
+          "case": "Genitiv",
+          "explanation": "'und zum Gesandten' — koordiniert mit dem ersten Ziel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=61"
+        }
+      ]
+    },
+    {
+      "id": "syn_326",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالْأَنْعَامَ خَلَقَهَا لَكُمْ فِيهَا دِفْءٌ وَمَنَافِعُ",
+      "surah": 16,
+      "ayah": 5,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5"
+        },
+        {
+          "word": "الْأَنْعَامَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'das Vieh' — vorangestelltes Akkusativobjekt (Ishtighal). Das folgende Verb خَلَقَهَا ist durch das Suffix هَا beschäftigt. Der Akkusativ von الْأَنْعَامَ erklärt sich durch die Koreferenz mit dem Pronomen-Objekt — die Rektion wird über das resumptive Pronomen vermittelt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5"
+        },
+        {
+          "word": "خَلَقَ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "'er erschuf' — Verb im Perfekt. Der Faʿil ist implizit (Gott).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5"
+        },
+        {
+          "word": "هَا",
+          "role": "Mafʿul bihi (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf الْأَنْعَامَ zurück. Beschäftigt das Verb (Ishtighal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5"
+        },
+        {
+          "word": "لَكُمْ فِيهَا دِفْءٌ وَمَنَٰفِعُ",
+          "role": "Nominalsatz (Hal oder Isti'naf)",
+          "case": "—",
+          "explanation": "'für euch gibt es darin Wärme und Nutzen' — Nominalsatz. دِفْءٌ ist Mubtada' (nachgestellt), لَكُمْ فِيهَا ist Khabar (vorangestellt).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=5"
+        }
+      ]
+    },
+    {
+      "id": "syn_327",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ",
+      "surah": 54,
+      "ayah": 49,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49",
+      "words": [
+        {
+          "word": "إِنَّا",
+          "role": "Inna + Ism",
+          "case": "Akkusativ (Suffix)",
+          "explanation": "إِنَّ + نَا (angehängtes Pronomen als Ism von إِنَّ): 'wahrlich, wir'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        },
+        {
+          "word": "كُلَّ شَىْءٍ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'jedes Ding' — vorangestelltes Akkusativobjekt. Das folgende Verb خَلَقْنَاهُ ist durch هُ beschäftigt — Ishtighal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        },
+        {
+          "word": "خَلَقْنَا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'wir erschufen' — Verb im Perfekt, 1. Person Plural. Khabar von إِنَّ (Verbalsatz).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        },
+        {
+          "word": "هُ",
+          "role": "Mafʿul bihi (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf كُلَّ شَيْءٍ zurück. Beschäftigt das Verb.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        },
+        {
+          "word": "بِقَدَرٍ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'nach Maß/Bestimmung' — instrumentale oder modale Präpositionalphrase.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        }
+      ]
+    },
+    {
+      "id": "syn_328",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ مُسَخَّرَاتٍ بِأَمْرِهِ",
+      "surah": 7,
+      "ayah": 54,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+        },
+        {
+          "word": "وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'die Sonne, den Mond und die Sterne' — drei koordinierte vorangestellte Akkusativobjekte. Das Partizip مُسَخَّرَاتٍ bezieht sich auf sie zurück — eine Variante des Ishtighal, bei der nicht ein Pronomen, sondern ein Hal-Ausdruck die 'Beschäftigung' übernimmt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+        },
+        {
+          "word": "مُسَخَّرَاتٍ",
+          "role": "Hal",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'dienstbar gemacht' — Zustandsakkusativ (Hal). Passivpartizip Form II feminin Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+        },
+        {
+          "word": "بِأَمْرِهِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'durch Seinen Befehl' — instrumentale Präpositionalphrase.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+        }
+      ]
+    },
+    {
+      "id": "syn_329",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَالْأَرْضَ بَعْدَ ذَٰلِكَ دَحَاهَا",
+      "surah": 79,
+      "ayah": 30,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30"
+        },
+        {
+          "word": "الْأَرْضَ",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'die Erde' — vorangestelltes Akkusativobjekt. Das folgende Verb دَحَاهَا ist durch هَا beschäftigt — Ishtighal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30"
+        },
+        {
+          "word": "بَعْدَ ذَٰلِكَ",
+          "role": "Ẓarf",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'danach' — Zeitadverbial im Akkusativ. ذَٰلِكَ ist Mudaf ilayhi im Genitiv.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30"
+        },
+        {
+          "word": "دَحَا",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "'er breitete aus / ebnete' — Verb im Perfekt, defektive Wurzel د-ح-و. Der Faʿil ist implizit (Gott).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30"
+        },
+        {
+          "word": "هَا",
+          "role": "Mafʿul bihi (Pronomen)",
+          "case": "Akkusativ",
+          "explanation": "Suffix-Pronomen — verweist auf الْأَرْضَ zurück. Beschäftigt das Verb (Ishtighal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=30"
+        }
+      ]
+    },
+    {
+      "id": "syn_330",
+      "type": "parse",
+      "category": "ishtighal",
+      "verse": "وَنُوحًا هَدَيْنَا مِنْ قَبْلُ",
+      "surah": 6,
+      "ayah": 84,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=84",
+      "words": [
+        {
+          "word": "وَ",
+          "role": "Waw al-'atf",
+          "case": "—",
+          "explanation": "Kopulatives Waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=84"
+        },
+        {
+          "word": "نُوحًا",
+          "role": "Mafʿul bihi (muqaddam / Ishtighal)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'Noah' — vorangestelltes Akkusativobjekt. Das folgende Verb هَدَيْنَا hat kein Suffix das zurückverweist — technisch gesehen ist dies kein reiner Ishtighal, sondern einfache Voranstellung (Taqdim) des Objekts. Der Akkusativ wird direkt durch هَدَيْنَا regiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=84"
+        },
+        {
+          "word": "هَدَيْنَا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'wir leiteten recht' — Verb im Perfekt, 1. Person Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=84"
+        },
+        {
+          "word": "مِن قَبْلُ",
+          "role": "Jarr wa-Majrur",
+          "case": "Damma (mabniyy)",
+          "explanation": "'zuvor' — قَبْلُ ist hier mabniyy 'ala d-damm (unveränderlich auf Damma), weil das Mudaf ilayhi weggelassen wurde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=84"
+        }
+      ]
+    },
+    {
+      "id": "syn_331",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "وَلَا يَحْزُنْكَ قَوْلُهُمْ إِنَّ الْعِزَّةَ لِلَّهِ جَمِيعًا",
+      "surah": 10,
+      "ayah": 65,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=65",
+      "words": [
+        {
+          "word": "وَلَا",
+          "role": "Waw + Nahiy",
+          "case": "—",
+          "explanation": "Waw al-'atf + لا الناهية — Verbotspartikel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=65"
+        },
+        {
+          "word": "يَحْزُنْكَ",
+          "role": "Fi'l Mudari' (Madschzum) + Mafʿul bihi",
+          "case": "Dschazm",
+          "explanation": "'es soll dich nicht betrüben' — Verb im Jussiv durch لا الناهية. Das Suffix كَ ist Mafʿul bihi (Akkusativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=65"
+        },
+        {
+          "word": "قَوْلُهُمْ",
+          "role": "Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "'ihre Rede' — Faʿil. Hier beanspruchen يَحْزُنْ (das قَوْلُهُمْ als Faʿil nimmt) und der Inhalt des Folgenden beide dasselbe Subjekt — ein Tanazu'-ähnlicher Fall.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=65"
+        },
+        {
+          "word": "إِنَّ ٱلْعِزَّةَ لِلَّهِ جَمِيعًا",
+          "role": "Isti'naf (Neubeginn)",
+          "case": "—",
+          "explanation": "'wahrlich, die Macht gehört Gott ganz' — ein neuer Satz (kein Ma'mul von قَوْلُهُمْ). الْعِزَّةَ ist Ism von إِنَّ (Akkusativ), لِلَّهِ ist Khabar. جَمِيعًا ist Hal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=65"
+        }
+      ]
+    },
+    {
+      "id": "syn_332",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنْكُمْ",
+      "surah": 4,
+      "ayah": 28,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28",
+      "words": [
+        {
+          "word": "يُرِيدُ",
+          "role": "Fi'l Mudari' (Iraada)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'er will' — Verb des Wollens. Regiert einen Masdar muawwal als Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        },
+        {
+          "word": "اللَّهُ",
+          "role": "Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "'Gott' — Subjekt. اللَّهُ wird hier von يُرِيدُ als Faʿil beansprucht und ist gleichzeitig implizites Subjekt von يُخَفِّفَ — beide Verben teilen dasselbe Agens (Tanazu').",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        },
+        {
+          "word": "أَنْ",
+          "role": "Masdariyya",
+          "case": "—",
+          "explanation": "Masdar-Partikel — versetzt das folgende Verb in den Subjunktiv und bildet ein Masdar muawwal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        },
+        {
+          "word": "يُخَفِّفَ",
+          "role": "Fi'l Mudari' (Mansub)",
+          "case": "Nasb (Subjunktiv)",
+          "explanation": "'dass er erleichtert' — Verb im Subjunktiv durch أَنْ. Form II von خ-ف-ف.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        },
+        {
+          "word": "عَنْكُمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'für euch / von euch' — Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        }
+      ]
+    },
+    {
+      "id": "syn_333",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ",
+      "surah": 2,
+      "ayah": 109,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109",
+      "words": [
+        {
+          "word": "وَدَّ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "'er wünschte' — Verb im Perfekt. Regiert den Folgesatz als Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        },
+        {
+          "word": "كَثِيرٌ",
+          "role": "Faʿil",
+          "case": "Nominativ (Raf')",
+          "explanation": "'viele' — Subjekt von وَدَّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        },
+        {
+          "word": "مِّنْ أَهْلِ ٱلْكِتَٰبِ",
+          "role": "Jarr wa-Majrur (Sifa / Tamyiz)",
+          "case": "Genitiv",
+          "explanation": "'von den Leuten der Schrift' — Spezifizierung von كَثِيرٌ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        },
+        {
+          "word": "لَوْ",
+          "role": "Masdariyya (hier: Wunsch-لو)",
+          "case": "—",
+          "explanation": "لَوْ als Masdariyya — 'dass'. Nicht die konditionelle Bedeutung, sondern nach Verben des Wünschens: 'sie wünschen, dass...'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        },
+        {
+          "word": "يَرُدُّونَكُمْ",
+          "role": "Fi'l + Faʿil + Mafʿul bihi",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'sie euch zurückbringen' — Verb im Indikativ (لو اendert den Modus nicht). Die Waw al-Jamaʿa ist Faʿil, كُمْ ist Mafʿul bihi. Das implizite Subjekt (sie) ist dasselbe wie das von وَدَّ implizierte Agens — ein Fall wo كَثِيرٌ als Faʿil von وَدَّ und gleichzeitig als Agens von يَرُدُّونَ fungiert (Tanazu').",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        }
+      ]
+    },
+    {
+      "id": "syn_334",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "يَكَادُ زَيْتُهَا يُضِيءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ",
+      "surah": 24,
+      "ayah": 35,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35",
+      "words": [
+        {
+          "word": "يَكَادُ",
+          "role": "Fi'l Mudari' (Muqaraba)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'beinahe' — Verb der Annäherung. Regiert Ism (Nominativ) und Khabar (Verbalsatz).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "word": "زَيْتُهَا",
+          "role": "Ism von يَكَادُ / Faʿil von يُضِيءُ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'ihr Öl' — wird von beiden Verben beansprucht: als Ism von يَكَادُ und als Faʿil von يُضِيءُ. Klassischer Tanazu'-Fall: beide Funktionen verlangen den Nominativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "word": "يُضِيءُ",
+          "role": "Khabar von يَكَادُ (Verbalsatz)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'leuchtet' — Form IV von ض-و-ء. Khabar des Annäherungsverbs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "word": "وَلَوْ لَمْ تَمْسَسْهُ نَارٌ",
+          "role": "Shart (irreal)",
+          "case": "—",
+          "explanation": "'selbst wenn kein Feuer es berührt hätte' — irrealer Bedingungssatz. نَارٌ ist Faʿil von تَمْسَسْ (Nominativ). هُ ist Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        }
+      ]
+    },
+    {
+      "id": "syn_335",
+      "type": "parse",
+      "category": "tanazu'",
+      "verse": "كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِنْهُمْ",
+      "surah": 9,
+      "ayah": 117,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=117",
+      "words": [
+        {
+          "word": "كَادَ",
+          "role": "Fi'l Madi (Muqaraba)",
+          "case": "—",
+          "explanation": "'beinahe' — Annäherungsverb im Perfekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=117"
+        },
+        {
+          "word": "يَزِيغُ",
+          "role": "Khabar von كَادَ (Verbalsatz)",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'abweicht' — Verb im Indikativ. Khabar des Annäherungsverbs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=117"
+        },
+        {
+          "word": "قُلُوبُ",
+          "role": "Ism von كَادَ / Faʿil von يَزِيغُ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'Herzen' — Tanazu': sowohl Ism von كَادَ als auch Faʿil von يَزِيغُ. Beide Funktionen verlangen den Nominativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=117"
+        },
+        {
+          "word": "فَرِيقٍ مِّنْهُمْ",
+          "role": "Mudaf ilayhi + Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'einer Gruppe von ihnen' — فَرِيقٍ im Genitiv als Mudaf ilayhi zu قُلُوبُ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=117"
+        }
+      ]
+    },
+    {
+      "id": "syn_336",
+      "type": "parse",
+      "category": "ta'liq_jarr",
+      "verse": "وَلَقَدْ هَمَّتْ بِهِ وَهَمَّ بِهَا لَوْلَا أَنْ رَأَىٰ بُرْهَانَ رَبِّهِ",
+      "surah": 12,
+      "ayah": 24,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24",
+      "words": [
+        {
+          "word": "وَلَقَدْ",
+          "role": "Waw + Lam + Qad",
+          "case": "—",
+          "explanation": "Waw al-isti'naf + Lam al-qasam + Qad (Vergangenheitsbestätigung): 'und tatsächlich'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        },
+        {
+          "word": "هَمَّتْ",
+          "role": "Fi'l Madi",
+          "case": "—",
+          "explanation": "'sie beabsichtigte / war geneigt' — Verb im Perfekt, feminin.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        },
+        {
+          "word": "بِهِ",
+          "role": "Jarr wa-Majrur (hängendes Komplement)",
+          "case": "Genitiv",
+          "explanation": "'ihn betreffend / zu ihm hin' — Präpositionalobjekt. Die Präposition بِ ist hier semantisch offen ('hinsichtlich'), was die Phrase zu einem 'hängenden' Komplement macht — der genaue Inhalt wird nicht spezifiziert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        },
+        {
+          "word": "وَهَمَّ بِهَا",
+          "role": "Ma'tuf",
+          "case": "—",
+          "explanation": "'und er war geneigt zu ihr' — parallele Konstruktion. بِهَا ist ebenfalls ein hängendes Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        },
+        {
+          "word": "لَوْلَآ أَن رَّءَا بُرْهَٰنَ رَبِّهِ",
+          "role": "Shart (irreal)",
+          "case": "—",
+          "explanation": "'wäre es nicht, dass er den Beweis seines Herrn sah' — لَوْلَا als Verhinderungspartikel. أَنْ رَأَى bildet ein Masdar muawwal als Mubtada'. Der Khabar ist implizit. بُرْهَانَ ist Mafʿul bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        }
+      ]
+    },
+    {
+      "id": "syn_337",
+      "type": "parse",
+      "category": "ta'liq_jarr",
+      "verse": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنْتَ لَهُمْ",
+      "surah": 3,
+      "ayah": 159,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159",
+      "words": [
+        {
+          "word": "فَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Fa al-fa'sihiyya — erläuternde Konjunktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "word": "بِمَا",
+          "role": "Ba + Ma (zaʿida)",
+          "case": "—",
+          "explanation": "Präposition بِ + مَا (überflüssig/verstärkend). Die مَا hier hat keine eigenständige Funktion — sie verstärkt die Konstruktion. Dies ist ein Fall von 'hängender Präposition': die Ba mit dem folgenden Nomen bildet eine freie Präpositionalphrase.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "word": "رَحْمَةٍ",
+          "role": "Majrur (durch Bi)",
+          "case": "Genitiv",
+          "explanation": "'Barmherzigkeit' — im Genitiv durch die Präposition بِ. Trotz der dazwischenstehenden مَا wird die Genitivrektion aufrechterhalten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "word": "مِّنَ ٱللَّهِ",
+          "role": "Jarr wa-Majrur (Sifa)",
+          "case": "Genitiv",
+          "explanation": "'von Gott' — Attribut zu رَحْمَةٍ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "word": "لِنتَ لَهُمْ",
+          "role": "Fi'l + Faʿil + Jarr wa-Majrur",
+          "case": "—",
+          "explanation": "'du warst sanft zu ihnen' — Verb im Perfekt 2ms. لَهُمْ ist Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        }
+      ]
+    },
+    {
+      "id": "syn_338",
+      "type": "parse",
+      "category": "ta'liq_jarr",
+      "verse": "فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ لَعَنَّاهُمْ",
+      "surah": 5,
+      "ayah": 13,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13",
+      "words": [
+        {
+          "word": "فَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Fa al-fa'sihiyya.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13"
+        },
+        {
+          "word": "بِمَا",
+          "role": "Ba + Ma (zaʿida)",
+          "case": "—",
+          "explanation": "Präposition بِ + مَا (verstärkend). مَا ist zaʿida (überflüssig), lässt die Genitivrektion der Präposition intakt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13"
+        },
+        {
+          "word": "نَقْضِهِمْ",
+          "role": "Majrur + Mudaf ilayhi",
+          "case": "Genitiv",
+          "explanation": "'ihrem Brechen' — Masdar im Genitiv durch بِ. هِمْ ist Mudaf ilayhi (Genitiv).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13"
+        },
+        {
+          "word": "مِيثَاقَهُمْ",
+          "role": "Mafʿul bihi des Masdars",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'ihren Bund' — Akkusativobjekt des Masdars نَقْض. Das Masdar regiert wie ein Verb.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13"
+        },
+        {
+          "word": "لَعَنَّاهُمْ",
+          "role": "Jawab / Hauptsatz",
+          "case": "—",
+          "explanation": "'verfluchten wir sie' — Verb im Perfekt + Suffix. Die gesamte بِمَا-Phrase ist kausal: 'wegen ihres Brechens ihres Bundes'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=13"
+        }
+      ]
+    },
+    {
+      "id": "syn_339",
+      "type": "parse",
+      "category": "ta'liq_jarr",
+      "verse": "عَمَّ يَتَسَاءَلُونَ",
+      "surah": 78,
+      "ayah": 1,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1",
+      "words": [
+        {
+          "word": "عَمَّ",
+          "role": "Präposition + Fragepronomen",
+          "case": "—",
+          "explanation": "'worüber' — عَنْ + مَا (zusammengezogen zu عَمَّ). Das Alif von مَا fällt aus, wenn مَا nach einer Präposition steht und als Istifham (Frage) fungiert. Die Präposition ist 'hängend' im Sinne, dass der Fragekontext die normale Rektionszuordnung aufbricht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+        },
+        {
+          "word": "يَتَسَاءَلُونَ",
+          "role": "Fi'l Mudari' + Faʿil",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'befragen sie sich gegenseitig' — Form VI von س-أ-ل (reziprok). Die Waw al-Jamaʿa ist Faʿil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+        }
+      ]
+    },
+    {
+      "id": "syn_340",
+      "type": "parse",
+      "category": "ta'liq_jarr",
+      "verse": "فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللَّهِ مِنْ قَبْلُ",
+      "surah": 2,
+      "ayah": 91,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91",
+      "words": [
+        {
+          "word": "فَ",
+          "role": "Konjunktion",
+          "case": "—",
+          "explanation": "Fa al-fa'sihiyya.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+        },
+        {
+          "word": "لِمَ",
+          "role": "Präposition + Fragepronomen",
+          "case": "—",
+          "explanation": "'warum' — لِ + مَا (verkürzt zu لِمَ). Das Alif von مَا ist weggefallen, weil مَا interrogativ nach einer Präposition steht. Hängende Präposition: لِ wird durch das Fragepronomen von der normalen Rektion getrennt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+        },
+        {
+          "word": "تَقْتُلُونَ",
+          "role": "Fi'l Mudari' + Faʿil",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'tötet ihr' — Verb im Indikativ. Waw al-Jamaʿa ist Faʿil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+        },
+        {
+          "word": "أَنبِيَآءَ ٱللَّهِ",
+          "role": "Mafʿul bihi + Mudaf ilayhi",
+          "case": "Akkusativ + Genitiv",
+          "explanation": "'Gottes Verkünder' — Akkusativobjekt. اللَّهِ ist Mudaf ilayhi (Genitiv).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+        },
+        {
+          "word": "مِن قَبْلُ",
+          "role": "Jarr wa-Majrur",
+          "case": "Mabniyy",
+          "explanation": "'zuvor' — قَبْلُ ist mabniyy 'ala d-damm wegen des ausgelassenen Mudaf ilayhi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+        }
+      ]
+    },
+    {
+      "id": "syn_341",
+      "type": "parse",
+      "category": "qat'",
+      "verse": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
+      "surah": 2,
+      "ayah": 82,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=82",
+      "words": [
+        {
+          "word": "وَٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ",
+          "role": "Mubtada' (Relativsatz)",
+          "case": "Nominativ",
+          "explanation": "'und diejenigen, die glaubten und gute Werke taten' — Mubtada'. Der Relativsatz ist Sifa des Ism al-Mawsul.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=82"
+        },
+        {
+          "word": "أُولَٰئِكَ",
+          "role": "Mubtada' thani (Trennung / Qat')",
+          "case": "Nominativ",
+          "explanation": "'jene' — zweites Mubtada'. Hier liegt Qat' (Trennung) vor: Anstatt direkt den Khabar auf الَّذِينَ folgen zu lassen, wird durch أُولَٰئِكَ eine Trennung eingefügt, die die Aussage verstärkt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=82"
+        },
+        {
+          "word": "أَصْحَٰبُ ٱلْجَنَّةِ",
+          "role": "Khabar von أُولَٰئِكَ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'die Gefährten des Gartens' — Khabar. Die Iḍāfa أَصْحَابُ الْجَنَّةِ bildet eine enge Genitivverbindung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=82"
+        },
+        {
+          "word": "هُمْ فِيهَا خَٰلِدُونَ",
+          "role": "Jumlat al-Hal / Khabar thani",
+          "case": "—",
+          "explanation": "'sie sind darin ewig' — Nominalsatz als Zustandssatz oder zweiter Khabar. هُمْ ist Mubtada', خَالِدُونَ ist Khabar, فِيهَا ist Jarr wa-Majrur.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=82"
+        }
+      ]
+    },
+    {
+      "id": "syn_342",
+      "type": "parse",
+      "category": "qat'",
+      "verse": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+      "surah": 2,
+      "ayah": 2,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2",
+      "words": [
+        {
+          "word": "ذَٰلِكَ",
+          "role": "Mubtada'",
+          "case": "Nominativ",
+          "explanation": "'jenes' — Demonstrativpronomen als Mubtada'. Die Fernverweisung (ذا + لِ + كَ) verstärkt die Trennung vom vorhergehenden Text.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "الْكِتَابُ",
+          "role": "Khabar / Badal / Sifa",
+          "case": "Nominativ (Raf')",
+          "explanation": "'das Buch' — kann als Khabar (Prädikat), Badal (Apposition) oder Sifa (Attribut) zu ذَٰلِكَ analysiert werden. Bei der Analyse als Khabar wäre der Satz hier komplett — ein Qat' (Abtrennung) vom Folgenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "لَا رَيْبَ",
+          "role": "La li-nafy al-jins + Ism",
+          "case": "Fatha (mabniyy)",
+          "explanation": "'kein Zweifel' — لَا zur Negation des gesamten Genus. رَيْبَ ist Ism von لَا, unveränderlich auf Fatha gebaut.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "فِيهِ",
+          "role": "Khabar von لَا",
+          "case": "—",
+          "explanation": "'darin' — Khabar von لَا. Der gesamte Satz لَا رَيْبَ فِيهِ kann als Hal (Zustandssatz), als zweiter Khabar oder als Qat'-Satz analysiert werden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "هُدًى لِّلْمُتَّقِينَ",
+          "role": "Khabar thani / Hal",
+          "case": "Nominativ oder Akkusativ",
+          "explanation": "'eine Führung für die sich Hütenden' — kann als weiterer Khabar (Nominativ) oder als Hal (Akkusativ) des Buches gelesen werden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        }
+      ]
+    },
+    {
+      "id": "syn_343",
+      "type": "parse",
+      "category": "qat'",
+      "verse": "وَمِنَ النَّاسِ مَنْ يَقُولُ آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الْآخِرِ وَمَا هُمْ بِمُؤْمِنِينَ",
+      "surah": 2,
+      "ayah": 8,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8",
+      "words": [
+        {
+          "word": "وَمِنَ ٱلنَّاسِ",
+          "role": "Khabar muqaddam",
+          "case": "Genitiv",
+          "explanation": "'und unter den Menschen' — vorangestellter Khabar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        },
+        {
+          "word": "مَن يَقُولُ",
+          "role": "Mubtada' (Relativsatz)",
+          "case": "Nominativ",
+          "explanation": "'wer sagt' — Relativpronomen + Relativsatz als Mubtada'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        },
+        {
+          "word": "ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ",
+          "role": "Maqul al-Qawl",
+          "case": "—",
+          "explanation": "'wir glauben an Gott und an den Letzten Tag' — Inhalt der Rede (Maqul al-Qawl).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        },
+        {
+          "word": "وَمَا هُم بِمُؤْمِنِينَ",
+          "role": "Qat' (Trennung)",
+          "case": "—",
+          "explanation": "'aber sie sind keine Vertrauenden' — Qat' (strukturelle Trennung/Abbruch). Anstatt den vorhergehenden Anspruch weiterzuführen, bricht der Text ab und widerlegt ihn direkt. مَا ist Negation (hijazisch mit Khabar im Genitiv durch Ba zaʿida). هُمْ ist Ism von مَا. بِمُؤْمِنِينَ ist Khabar mit zaʿidem Ba.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        }
+      ]
+    },
+    {
+      "id": "syn_344",
+      "type": "parse",
+      "category": "qat'",
+      "verse": "هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَانِ",
+      "surah": 3,
+      "ayah": 167,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167",
+      "words": [
+        {
+          "word": "هُمْ",
+          "role": "Mubtada'",
+          "case": "Nominativ",
+          "explanation": "'sie' — Pronomen als Mubtada'. Qat': Das Pronomen reißt die Aussage von der vorherigen Beschreibung ab und fokussiert auf den neuen Sachverhalt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167"
+        },
+        {
+          "word": "لِلْكُفْرِ",
+          "role": "Jarr wa-Majrur (Tamyiz-artig)",
+          "case": "Genitiv",
+          "explanation": "'dem Unglauben (gegenüber)' — Präpositionalkomplement des Komparativs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167"
+        },
+        {
+          "word": "يَوْمَئِذٍ",
+          "role": "Ẓarf",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'an jenem Tag' — Zeitadverbial. إِذٍ ist Mudaf ilayhi mit Tanwin al-'iwad.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167"
+        },
+        {
+          "word": "أَقْرَبُ",
+          "role": "Khabar",
+          "case": "Nominativ (Raf')",
+          "explanation": "'näher' — Elativ/Komparativ als Khabar von هُمْ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167"
+        },
+        {
+          "word": "مِنْهُمْ لِلْإِيمَٰنِ",
+          "role": "Jarr wa-Majrur (Vergleich)",
+          "case": "Genitiv",
+          "explanation": "'als sie dem Glauben' — Vergleichsphrase mit مِنْ und zweites Komplement mit لِ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=167"
+        }
+      ]
+    },
+    {
+      "id": "syn_345",
+      "type": "parse",
+      "category": "qat'",
+      "verse": "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+      "surah": 2,
+      "ayah": 6,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6",
+      "words": [
+        {
+          "word": "إِنَّ",
+          "role": "Partikel (Tawkid)",
+          "case": "—",
+          "explanation": "Bestätigungspartikel — setzt das folgende Nomen in den Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "word": "ٱلَّذِينَ كَفَرُوا",
+          "role": "Ism von إِنَّ",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'diejenigen, die ungläbig waren' — Ism von إِنَّ. Der Relativsatz ist Sila.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "word": "سَوَآءٌ عَلَيْهِمْ",
+          "role": "Khabar von إِنَّ",
+          "case": "Nominativ (Raf')",
+          "explanation": "'gleich ist es ihnen' — Khabar. سَوَاءٌ als Prädikat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "word": "ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ",
+          "role": "Faʿil von سَوَاءٌ (Masdar muawwal)",
+          "case": "Nominativ",
+          "explanation": "'ob du sie warnst oder nicht warnst' — disjunktive Frage als Faʿil (was gleich ist). أَ ... أَمْ ist die verbundene Disjunktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "word": "لَا يُؤْمِنُونَ",
+          "role": "Qat' (Abbruch / Neubeginn)",
+          "case": "—",
+          "explanation": "'sie glauben nicht' — Qat': Nach der Feststellung der Gleichgültigkeit bricht der Text ab und fügt eine neue, abschließende Aussage hinzu. Dieser Satz ist kein grammatisches Komplement des Vorhergehenden, sondern ein struktureller Abbruch — ein neuer Nominalsatz als Bestätigung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        }
+      ]
+    },
+    {
+      "id": "syn_346",
+      "type": "parse",
+      "category": "iltifat",
+      "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "surah": 1,
+      "ayah": 5,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5",
+      "words": [
+        {
+          "word": "إِيَّاكَ",
+          "role": "Mafʿul bihi (muqaddam)",
+          "case": "Akkusativ",
+          "explanation": "Vorangestelltes Akkusativobjekt (Taqdīm/muqaddam): Objekt in markierter Anfangsposition. إِيَّا ist das abgetrennte Akkusativpronomen, كَ das Suffix der 2. Person. ILTIFAT: Wechsel von der 3. Person (الْحَمْدُ لِلَّهِ — 'Gott', 3. Person) zur 2. Person ('Dir') — ein Personenwechsel innerhalb derselben Sure.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "word": "نَعْبُدُ",
+          "role": "Fi'l Mudari' + Faʿil",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'wir beten an' — Verb im Indikativ, 1. Person Plural. Der Wechsel von der 3. Person (Sprechen über Gott) zur 2. Person (direkte Anrede) ist der Iltifat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "word": "وَإِيَّاكَ نَسْتَعِينُ",
+          "role": "Ma'tuf (parallele Struktur)",
+          "case": "—",
+          "explanation": "'und Dich bitten wir um Hilfe' — identische Struktur. Form X von ع-و-ن: Hilfe erbitten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        }
+      ]
+    },
+    {
+      "id": "syn_347",
+      "type": "parse",
+      "category": "iltifat",
+      "verse": "حَتَّىٰ إِذَا كُنْتُمْ فِي الْفُلْكِ وَجَرَيْنَ بِهِمْ بِرِيحٍ طَيِّبَةٍ",
+      "surah": 10,
+      "ayah": 22,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22",
+      "words": [
+        {
+          "word": "حَتَّىٰٓ إِذَا",
+          "role": "Ghaya + Shart",
+          "case": "—",
+          "explanation": "'bis wenn' — temporale Grenzpartikel + Bedingung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "word": "كُنْتُمْ",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'ihr wart' — 2. Person Plural. Direkte Anrede.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "word": "فِى ٱلْفُلْكِ",
+          "role": "Khabar von كُنْتُمْ",
+          "case": "Genitiv",
+          "explanation": "'auf dem Schiff' — Präpositionaler Khabar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "word": "وَجَرَيْنَ",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'und sie (die Schiffe) fuhren' — ILTIFAT: Wechsel von der 2. Person (كُنْتُمْ — 'ihr') zur 3. Person (جَرَيْنَ — 'sie'). Der Personenwechsel geschieht abrupt innerhalb desselben Satzes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "word": "بِهِمْ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'mit ihnen' — ILTIFAT fortgesetzt: statt بِكُمْ ('mit euch', 2. Person) steht بِهِمْ ('mit ihnen', 3. Person). Der Wechsel ist vollständig.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "word": "بِرِيحٍ طَيِّبَةٍ",
+          "role": "Jarr wa-Majrur + Sifa",
+          "case": "Genitiv",
+          "explanation": "'mit einem guten Wind' — instrumentale Präposition. طَيِّبَةٍ kongruiert in Genitiv, feminin Singular.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        }
+      ]
+    },
+    {
+      "id": "syn_348",
+      "type": "parse",
+      "category": "iltifat",
+      "verse": "وَاللَّهُ الَّذِي أَرْسَلَ الرِّيَاحَ فَتُثِيرُ سَحَابًا",
+      "surah": 35,
+      "ayah": 9,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9",
+      "words": [
+        {
+          "word": "وَاللَّهُ",
+          "role": "Mubtada'",
+          "case": "Nominativ (Raf')",
+          "explanation": "'und Gott' — Mubtada'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        },
+        {
+          "word": "الَّذِي",
+          "role": "Khabar / Sifa",
+          "case": "Nominativ",
+          "explanation": "'der' — Relativpronomen, kann als Khabar oder als Sifa zu اللَّهُ analysiert werden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        },
+        {
+          "word": "أَرْسَلَ",
+          "role": "Fi'l Madi (Sila)",
+          "case": "—",
+          "explanation": "'sandte' — Verb im Perfekt (Vergangenheit). Sila des Relativpronomens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        },
+        {
+          "word": "الرِّيَاحَ",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'die Winde' — Akkusativobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        },
+        {
+          "word": "فَتُثِيرُ",
+          "role": "Fi'l Mudari'",
+          "case": "Raf' (Indikativ)",
+          "explanation": "'und sie wirbeln auf' — ILTIFAT im Tempus (nicht in der Person): Wechsel vom Perfekt (أَرْسَلَ — Vergangenheit) zum Imperfekt (تُثِيرُ — Gegenwart/Wiederholung). Dieser Tempuswechsel erzeugt Lebendigkeit: die vergangene Handlung wird als wiederkehrend dargestellt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        },
+        {
+          "word": "سَحَابًا",
+          "role": "Mafʿul bihi",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'Wolken' — Akkusativobjekt von تُثِيرُ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        }
+      ]
+    },
+    {
+      "id": "syn_349",
+      "type": "parse",
+      "category": "iltifat",
+      "verse": "وَلَوْ تَرَىٰ إِذْ وُقِفُوا عَلَى النَّارِ فَقَالُوا يَا لَيْتَنَا نُرَدُّ",
+      "surah": 6,
+      "ayah": 27,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27",
+      "words": [
+        {
+          "word": "وَلَوْ تَرَىٰٓ",
+          "role": "Shart (irreal)",
+          "case": "—",
+          "explanation": "'und wenn du sähest' — irreale Bedingung, 2. Person Singular. Direkte Anrede an den Adressaten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27"
+        },
+        {
+          "word": "إِذْ وُقِفُوا",
+          "role": "Ẓarf + Fi'l (Passiv)",
+          "case": "—",
+          "explanation": "'als sie zum Stehen gebracht wurden' — ILTIFAT: Wechsel von der 2. Person (تَرَىٰ) zur 3. Person (وُقِفُوا — 'sie'). Der Angesprochene soll sich die Situation anderer vorstellen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27"
+        },
+        {
+          "word": "عَلَى ٱلنَّارِ",
+          "role": "Jarr wa-Majrur",
+          "case": "Genitiv",
+          "explanation": "'vor dem Feuer' — Präpositionalobjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27"
+        },
+        {
+          "word": "فَقَالُوا",
+          "role": "Fi'l + Faʿil",
+          "case": "—",
+          "explanation": "'und sie sagten' — weiter in der 3. Person.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27"
+        },
+        {
+          "word": "يَٰلَيْتَنَا نُرَدُّ",
+          "role": "Tamanni (Wunsch)",
+          "case": "—",
+          "explanation": "'Ach, würden wir doch zurückgebracht!' — ILTIFAT: Wechsel zur 1. Person Plural (نَا / نُرَدُّ). In drei Versen: 2. Person → 3. Person → 1. Person.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=27"
+        }
+      ]
+    },
+    {
+      "id": "syn_350",
+      "type": "parse",
+      "category": "iltifat",
+      "verse": "قُلْ أَفَغَيْرَ اللَّهِ تَأْمُرُونِّي أَعْبُدُ أَيُّهَا الْجَاهِلُونَ وَلَقَدْ أُوحِيَ إِلَيْكَ وَإِلَى الَّذِينَ مِنْ قَبْلِكَ",
+      "surah": 39,
+      "ayah": 64,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64",
+      "words": [
+        {
+          "word": "قُلْ",
+          "role": "Fi'l Amr",
+          "case": "—",
+          "explanation": "'Sag!' — Imperativ. Befehl zur Rede in der 1. Person.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64"
+        },
+        {
+          "word": "أَفَغَيْرَ ٱللَّهِ",
+          "role": "Mafʿul bihi (muqaddam)",
+          "case": "Akkusativ (Nasb)",
+          "explanation": "'etwa anderes als Gott' — vorangestelltes Akkusativobjekt, Frage ohne Antworterwartung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64"
+        },
+        {
+          "word": "تَأْمُرُوٓنِّىٓ أَعْبُدُ",
+          "role": "Fi'l + Fi'l",
+          "case": "Raf'",
+          "explanation": "'befehlt ihr mir anzubeten' — 2. Person Plural + 1. Person Singular. Zwei verschachtelte Verben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64"
+        },
+        {
+          "word": "أَيُّهَا ٱلْجَٰهِلُونَ",
+          "role": "Munada (Vokativ)",
+          "case": "—",
+          "explanation": "'ihr Unwissenden!' — Vokativ. Anrede in der 2. Person.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64"
+        },
+        {
+          "word": "وَلَقَدْ أُوحِيَ إِلَيْكَ",
+          "role": "Qat' + Iltifat",
+          "case": "—",
+          "explanation": "'und es wurde dir offenbart' — ILTIFAT: Der Sprecher (1. Person in أَعْبُدُ) wird plötzlich in der 2. Person angesprochen (إِلَيْكَ). Der Wechsel geschieht innerhalb derselben Rede: der Befehlsempfänger wird selbst zum Adressaten der Aussage des Textsprechers.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=64"
+        }
+      ]
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+}

@@ -1,0 +1,1225 @@
+{
+  "meta": {
+    "title": "Seltene und anspruchsvolle syntaktische Phänomene",
+    "description": "Sprachwissenschaftliche Systematik selten besprochener Konstruktionen im Qurantext.",
+    "approach": "Jedes Phänomen mit Definition, 3–5 Vers-Belegen, Analyse und Übungen. Rein deskriptiv-grammatisch, ohne normative Tradition.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Wright's Arabic Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Reckendorf — Arabische Syntax",
+        "url": "https://archive.org/details/arabischesyntax00recku"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "SR1",
+      "title": "Iltifāt — Grammatischer Personen- und Numerus-Wechsel",
+      "description": "Unvermittelter Wechsel der grammatischen Person oder des Numerus innerhalb einer zusammenhängenden Passage.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist Iltifāt?",
+            "content": "Iltifāt bezeichnet den abrupten Wechsel einer grammatischen Kategorie (Person, Numerus, Tempus, Adressat) innerhalb eines kohärenten Textabschnitts, ohne dass syntaktisch eine neue Äußerungsinstanz markiert wäre.\n\nTypen:\n1. Personen-Wechsel: 3. Person → 2. Person, 1. Person → 3. Person usw.\n2. Numerus-Wechsel: Singular → Plural (oder umgekehrt) bei gleichem Referenten\n3. Tempus-Wechsel: Perfekt → Imperfekt innerhalb einer Erzählung\n4. Sprecher-/Hörer-Wechsel: Wechsel des Adressaten ohne expliziten Marker\n\nFunktion (rein textlinguistisch): Fokussierung, Perspektivwechsel, Hervorhebung — ohne dass ein Agens im Text gewechselt hätte."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Iltifāt im Quran",
+            "examples": [
+              {
+                "ref": "1:4",
+                "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+                "explanation": "Wechsel 3. Person → 2. Person. In 1:2–4 wird über Allah in der 3. Person gesprochen (رب، الرحمن، مالك). In 1:5 Wechsel zur direkten Anrede (إياك — 2. Person Sg. mask.). Syntaktisch: abrupter Referenzwechsel ohne Vokativ-Marker.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+              },
+              {
+                "ref": "10:22",
+                "arabic": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ",
+                "explanation": "Wechsel 2. Person Pl. → 3. Person Pl. innerhalb eines Satzes: كنتم (ihr wart) → بهم (mit ihnen). Derselbe Referent, aber der Erzähler distanziert sich sprachlich und betrachtet die Angesprochenen als abwesende Dritte.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+              },
+              {
+                "ref": "27:61",
+                "arabic": "أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًا وَجَعَلَ خِلَٰلَهَآ أَنْهَٰرًا",
+                "explanation": "In der Serie أَمَّن … (27:60–64) wechselt die Struktur zwischen göttlichem Ich und 3. Person. In 27:63 Wechsel zu نَزَّلْنَا (wir sandten herab — 1. Person Pl. majestatis) nach vorangehender 3. Person (جَعَلَ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=61"
+              },
+              {
+                "ref": "30:28",
+                "arabic": "ضَرَبَ لَكُم مَّثَلًا مِّنْ أَنفُسِكُمْ ۖ",
+                "explanation": "Wechsel 3. Person Sg. → 1. Person Pl. innerhalb eines Satzes: ضرب (er setzte ein Gleichnis) → رزقناكم (womit wir euch versorgten). Subjekt bleibt dasselbe, nur die grammatische Person des Verbs wechselt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=28"
+              },
+              {
+                "ref": "35:9",
+                "arabic": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ",
+                "explanation": "Doppelter Wechsel: أرسل (3. Sg. Perfekt) → تثير (3. Sg. Imperfekt Fem.) → سقناه (1. Pl. Perfekt). Drei Referenz- und Tempus-Ebenen in einem Satz, ohne syntaktische Markierung des Wechsels.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Syntaktische Beobachtung",
+            "content": "Iltifāt ist keine Fehlkonstruktion, sondern systematisch. Beobachtbare Muster:\n\n- Der Wechsel erfolgt oft an Satzgrenzen (Waw-Verknüpfung), aber auch intra-satzlich (wie 30:28, 35:9).\n- Pronomen und Verb-Endungen geben die Person eindeutig an; es gibt keine Ambiguität über den Referenten.\n- Bei Numerus-Wechseln (Sg.→Pl.) betrifft der Pl. regelmäßig die göttliche Referenz (نحن/-نا) — kein Personenwechsel, sondern stilistisch-majestätischer Plural.\n- Bei Personen-Wechseln (3.→2.) tritt der Adressat in den Fokus (Vokativ-Effekt ohne Vokativ-Partikel)."
+          },
+          {
+            "type": "classification",
+            "title": "Typologie",
+            "content": "Nach Richtung:\n\n| Von → Zu | Funktion |\n|---------|----------|\n| 3. Pers. → 2. Pers. | Direkte Anrede, Involvierung (1:4→1:5) |\n| 2. Pers. → 3. Pers. | Distanzierung, generalisierende Betrachtung (10:22) |\n| 3. Pers. → 1. Pl. | Göttliche Selbst-Referenz, Autoritätsmarker (30:28) |\n| Perfekt → Imperfekt | Vergegenwärtigung einer Vergangenheit (35:9: فتثير) |"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies 1:1–7 durch. Markiere alle Stellen mit Personenwechsel. Wie viele Wechsel zählst du insgesamt?",
+          "hint": "Beachte die Pronomen und Verb-Endungen. 1:2–4 vs. 1:5 vs. 1:6–7.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 10:22 steht كنتم (2. Pl.) und unmittelbar danach بهم (3. Pl.). Ist das ein syntaktischer Bruch oder reguläre Konstruktion? Begründe anhand der Referenzketten.",
+          "hint": "Prüfe, ob der Referent wechselt oder nur die grammatische Person.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche 35:9 und 30:28. Beide Verse enthalten Wechsel von 3. Sg. zu 1. Pl. Welcher Vers enthält zusätzlich einen Tempus-Wechsel?",
+          "hint": "Prüfe die Verbformen: Perfekt (أرسل/ضرب) vs. Imperfekt (تثير).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welcher Personenwechsel findet zwischen 1:4 und 1:5 statt?",
+            "options": [
+              "1. Person → 2. Person",
+              "3. Person → 2. Person",
+              "2. Person → 3. Person",
+              "Kein Wechsel"
+            ],
+            "correct": 1,
+            "explanation": "1:2–4 spricht über Allah in der 3. Person (رب، الرحمن، مالك). In 1:5 wechselt die Konstruktion zur direkten Anrede (إياك — 2. Person Singular).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+          },
+          {
+            "question": "In 30:28 wechselt die Person von ضَرَبَ zu رَزَقْنَٰكُمْ. Welcher Typ Wechsel liegt vor?",
+            "options": [
+              "Singular → Dual",
+              "3. Person Singular → 1. Person Plural",
+              "Perfekt → Imperfekt",
+              "Aktiv → Passiv"
+            ],
+            "correct": 1,
+            "explanation": "ضرب ist 3. Person Sg. Perfekt. رزقناكم ist 1. Person Pl. Perfekt (majestätischer Plural). Der Numerus und die Person wechseln, das Tempus bleibt Perfekt.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=28"
+          },
+          {
+            "question": "Iltifāt ist sprachwissenschaftlich zu beschreiben als:",
+            "options": [
+              "Grammatikfehler in der Überlieferung",
+              "Systematischer Wechsel einer grammatischen Kategorie ohne Referenzwechsel",
+              "Stilistische Umformulierung ohne Funktion",
+              "Wechsel des Sprechers"
+            ],
+            "correct": 1,
+            "explanation": "Iltifāt ist ein systematischer grammatischer Wechsel (Person, Numerus, Tempus) bei gleichbleibendem Referenten. Weder Fehler noch Sprecherwechsel.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": "SR2",
+      "title": "Ḥāl muʾakkida vs. mubayyina",
+      "description": "Bestätigender versus erklärender Ḥāl (Zustandsakkusativ).",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Zwei Funktionen des Ḥāl",
+            "content": "Der Ḥāl (Zustandsakkusativ) steht im Akkusativ und beschreibt den Zustand eines Referenten (meist Subjekt oder Objekt) zum Zeitpunkt der Handlung.\n\nZwei funktionale Typen:\n\n1. Ḥāl mubayyina (erklärend): Fügt neue Information hinzu. Ohne den Ḥāl wäre der Satz semantisch unvollständig oder trüge andere Bedeutung.\n   - Beispiel: جاء زيدٌ راكبًا — Zaid kam reitend. Die Art des Kommens ist neu.\n\n2. Ḥāl muʾakkida (bestätigend): Fügt keine neue Information hinzu, sondern verstärkt eine im Hauptverb oder Subjekt bereits enthaltene Bedeutung.\n   - Beispiel: Ein Akkusativ, der eine logisch bereits gegebene Eigenschaft ausdrückt.\n\nDer Unterschied ist syntaktisch (beide im Akk.), aber informationstheoretisch klar: mubayyina = +Information, muʾakkida = Bestätigung."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Ḥāl-Typen im Quran",
+            "examples": [
+              {
+                "ref": "4:79",
+                "arabic": "وَأَرْسَلْنَٰكَ لِلنَّاسِ رَسُولًا ۚ",
+                "explanation": "رسولًا ist Ḥāl mubayyina zu der Person des Akkusativ-Suffixes in أرسلنا-ك. Der Zustand des Gesandt-Seins wird erklärend hinzugefügt: 'Wir sandten dich zu den Menschen (und zwar) als Gesandten.' Alternativ als Mafʿūl muṭlaq mit Bedeutungsnähe zum Wurzel-Masdar analysierbar. شهيدًا ebenfalls Ḥāl.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=79"
+              },
+              {
+                "ref": "19:33",
+                "arabic": "وَٱلسَّلَٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا",
+                "explanation": "حيًّا ist Ḥāl muʾakkida zum Passiv أُبعَث (ich werde auferweckt). Die Auferweckung impliziert bereits das Lebendig-Sein; حيًّا fügt keine neue Information hinzu, sondern bestätigt den im Verb enthaltenen Zustand.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=33"
+              },
+              {
+                "ref": "16:78",
+                "arabic": "وَٱللَّهُ أَخْرَجَكُم مِّن بُطُونِ أُمَّهَٰتِكُمْ لَا تَعْلَمُونَ شَيْـًٔا",
+                "explanation": "لا تعلمون شيئًا ist Ḥāl-Satz (jumla ḥāliyya) zum Objekt-Suffix -كم. Mubayyina: Der Zustand des Nicht-Wissens ist neue Information.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=78"
+              },
+              {
+                "ref": "7:138",
+                "arabic": "فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰٓ أَصْنَامٍ لَّهُمْ",
+                "explanation": "يعكفون ist Ḥāl-Satz (Jumla Ḥāliyya mubayyina) zu قومٍ. Er beschreibt den Zustand des Volkes zum Zeitpunkt des Begegnens.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=138"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Erkennungskriterium",
+            "content": "Prüffrage: Wird durch den Ḥāl neue Information gegeben oder eine bereits implizite Eigenschaft bestätigt?\n\n- 'Er wird auferweckt lebendig' (19:33) — 'lebendig' ist bereits in 'Auferweckung' enthalten → muʾakkida.\n- 'Er kam reitend' — 'reitend' ist nicht in 'kommen' enthalten → mubayyina.\n\nFormale Gemeinsamkeit: Beide Ḥāl-Typen stehen im Akkusativ (oder als Jumla Ḥāliyya mit Waw / ohne Waw). Die Unterscheidung ist semantisch-pragmatisch, nicht morphologisch."
+          },
+          {
+            "type": "comparison",
+            "title": "Ḥāl vs. Naʿt",
+            "content": "Wichtige Abgrenzung:\n\n- Naʿt (Adjektivattribut): kongruent mit dem Bezugswort in Kasus, Genus, Numerus, Determiniertheit. Beschreibt eine dauerhafte Eigenschaft.\n- Ḥāl: steht im Akkusativ (unabhängig vom Kasus des Bezugsworts), indeterminiert. Beschreibt einen temporären Zustand.\n\nBeispiel: جاء زيدٌ الراكبُ (der reitende Zaid kam) = Naʿt. جاء زيدٌ راكبًا (Zaid kam reitend) = Ḥāl."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "Bestimme für 19:33 (حيًّا): Ḥāl muʾakkida oder mubayyina? Begründe.",
+          "hint": "Prüfe: Ist 'lebendig' neue Information oder im Verb 'auferwecken' bereits enthalten?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=33"
+        },
+        {
+          "type": "identification",
+          "prompt": "Suche in 4:79 alle Akkusative und klassifiziere sie (Mafʿūl bih, Ḥāl, Mafʿūl muṭlaq, Tamyīz).",
+          "hint": "رسولًا und شهيدًا sind beide im Akkusativ. Prüfe Bezug und Funktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=79"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 7:138 — ist يعكفون ein Naʿt-Satz oder ein Ḥāl-Satz zu قومٍ? Begründe anhand der Determiniertheit.",
+          "hint": "قوم ist indeterminiert. Naʿt-Sätze beziehen sich typisch auf indeterminierte Substantive, Ḥāl-Sätze auf determinierte — aber die Grenze ist fließend.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=138"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welches Kennzeichen hat ein Ḥāl im Unterschied zum Naʿt?",
+            "options": [
+              "Ḥāl ist immer determiniert",
+              "Ḥāl steht im Akkusativ, indeterminiert, und beschreibt einen Zustand",
+              "Ḥāl kongruiert in Kasus mit dem Bezugswort",
+              "Ḥāl steht immer am Satzende"
+            ],
+            "correct": 1,
+            "explanation": "Der Ḥāl steht im Akkusativ unabhängig vom Kasus des Bezugsworts, ist typisch indeterminiert und beschreibt einen temporären Zustand. Naʿt kongruiert hingegen vollständig.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=33"
+          },
+          {
+            "question": "In 19:33 (وَيَوْمَ أُبْعَثُ حَيًّا) ist حيًّا:",
+            "options": [
+              "Mafʿūl bih",
+              "Tamyīz",
+              "Ḥāl muʾakkida",
+              "Naʿt"
+            ],
+            "correct": 2,
+            "explanation": "حيًّا ist Ḥāl muʾakkida zum Passiv أبعث — die Lebendigkeit ist im Konzept der Auferweckung bereits enthalten.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=33"
+          },
+          {
+            "question": "Ḥāl mubayyina bedeutet:",
+            "options": [
+              "Der Ḥāl bestätigt eine bereits implizite Eigenschaft",
+              "Der Ḥāl steht im Nominativ",
+              "Der Ḥāl fügt neue Information hinzu, die nicht im Verb/Nomen enthalten ist",
+              "Der Ḥāl ist ein Adjektiv"
+            ],
+            "correct": 2,
+            "explanation": "Mubayyina = 'erklärend'. Der Ḥāl bringt neue, zuvor nicht implizite Information über den Zustand.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=79"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=33"
+    },
+    {
+      "id": "SR3",
+      "title": "Taʿajjub — Exklamativ-Konstruktionen",
+      "description": "Die beiden klassischen Muster مَا أَفْعَلَهُ und أَفْعِلْ بِهِ.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Zwei feste Muster",
+            "content": "Das Arabische hat zwei morphosyntaktisch fixierte Exklamativ-Konstruktionen:\n\n1. مَا أَفْعَلَهُ! — 'Wie X er ist!'\n   - مَا: unveränderlich (nicht Interrogativum, sondern Exklamativ-مَا)\n   - أَفْعَلَ: im Akkusativ-Stamm (formal wie Elativ, funktional Verb)\n   - -هُ: Akkusativ-Suffix für den Referenten\n\n2. أَفْعِلْ بِهِ! — 'Wie X er ist!' (formal Imperativ)\n   - أَفْعِلْ: formal Imperativ, aber nicht-imperativisch verwendet\n   - بِ-ه: der Referent steht im Genitiv (nach der Präposition)\n\nBeide Muster drücken Staunen/Intensität einer Eigenschaft aus. Sie sind nur mit dreiradikalen, steigerungsfähigen Verben bildbar (keine Verneinung, kein Passiv, kein Adjektiv-Verb wie فَرِحَ)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Taʿajjub im Quran",
+            "examples": [
+              {
+                "ref": "2:175",
+                "arabic": "فَمَآ أَصْبَرَهُمْ عَلَى ٱلنَّارِ",
+                "explanation": "Klassisches مَا أَفْعَلَهُ-Muster. 'Wie ausdauernd sie sind gegenüber dem Feuer!' ما = Exklamativ, أصبر = Form IV (formal Elativ-Stamm, hier als Ausrufverb), -هم = Akk.-Suffix Pl. mask., على النار = Präpositional-Ergänzung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+              },
+              {
+                "ref": "18:26",
+                "arabic": "أَبْصِرْ بِهِ وَأَسْمِعْ",
+                "explanation": "Doppelte أَفْعِلْ بِهِ-Konstruktion. أبصر به = 'Wie (klar) sieht er!' / 'Wie scharfsichtig ist Er!' وأسمع = 'und wie (gut) hört er!' Beide Imperative sind morphologisch 2. Sg. mask., funktional aber Exklamativ. Der Referent steht in بِ-ه (Genitiv).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+              },
+              {
+                "ref": "19:38",
+                "arabic": "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا",
+                "explanation": "أسمع بهم وأبصر = 'Wie (gut) sie hören und sehen werden am Tag, da sie zu uns kommen.' Dieselbe أَفْعِلْ بِ-Struktur, hier pluralisch (بهم).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+              },
+              {
+                "ref": "2:165",
+                "arabic": "وَلَوْ يَرَى ٱلَّذِينَ ظَلَمُوٓا إِذْ يَرَوْنَ ٱلْعَذَابَ أَنَّ ٱلْقُوَّةَ لِلَّهِ جَمِيعًا",
+                "explanation": "Kein klassisches Taʿajjub-Muster, aber exklamative Struktur mit لو + Imperfekt (was für ein Sehen!). Illustrativer Randfall.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=165"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Morphologische Beschränkungen",
+            "content": "Beide Muster sind produktiv nur mit:\n- dreiradikalen Verben\n- die eine graduierbare Eigenschaft ausdrücken (صبر، علم، بصر، سمع، كبر، حسن)\n- Aktiv, nicht Passiv\n- Nicht verneint\n\nNicht möglich: *ما أقتلَه (kein graduierbarer Zustand), *ما أكونَه (Hilfsverb), *ما أفقدَه (Passiv-ähnlich).\n\nDie formale Identität von أَفْعَلَ (Exklamativ) und أَفْعَلُ (Elativ) ist historisch wohl nicht zufällig, bleibt aber synchron-syntaktisch ein Homograph."
+          },
+          {
+            "type": "comparison",
+            "title": "مَا أَفْعَلَهُ vs. أَفْعِلْ بِهِ",
+            "content": "| Merkmal | مَا أَفْعَلَهُ | أَفْعِلْ بِهِ |\n|---------|-----------------|-----------------|\n| Form | Satzmuster mit مَا | formal Imperativ |\n| Referent | Akk.-Suffix -ه | Genitiv nach بِ |\n| Beispiel | مَا أَصْبَرَهُمْ | أَبْصِرْ بِهِ |\n| Bedeutung | Wie ausdauernd sie sind! | Wie scharf er sieht! |\n\nSyntaktisch sind beide Muster erstarrt — sie erlauben keine freie Flexion, sondern funktionieren als geschlossene Exklamativ-Schemata."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "In 2:175 analysiere: Was ist die Funktion von ما? Welcher Kasus ist -هم in أصبرهم?",
+          "hint": "ما ist weder Relativ noch Interrogativ, sondern exklamativ. -هم ist Akkusativ-Suffix.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "type": "transformation",
+          "prompt": "Wandle مَا أَصْبَرَهُمْ in das parallele Muster أَفْعِلْ بِ um. Wie lautet die Form?",
+          "hint": "Der Verbstamm bleibt (أصبر). Referent wechselt zur Präpositionalgruppe mit بِ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 18:26 sind أبصر und أسمع formal Imperative. Warum werden sie hier nicht als Befehle übersetzt?",
+          "hint": "Prüfe den Kontext: Wer spricht? An wen wäre der Befehl gerichtet? Das أَفْعِلْ بِ-Muster ist erstarrt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche Funktion hat ما in فَمَا أَصْبَرَهُمْ (2:175)?",
+            "options": [
+              "Negation",
+              "Interrogativum",
+              "Relativpronomen",
+              "Exklamativ-Partikel im Taʿajjub-Muster"
+            ],
+            "correct": 3,
+            "explanation": "ما ist hier fixer Bestandteil des مَا أَفْعَلَهُ-Musters — Exklamativ, nicht Negation, Frage oder Relativum.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+          },
+          {
+            "question": "In welchem Kasus steht der Referent in أَفْعِلْ بِهِ?",
+            "options": [
+              "Nominativ",
+              "Akkusativ",
+              "Genitiv (nach der Präposition بِ)",
+              "Kasus-neutral"
+            ],
+            "correct": 2,
+            "explanation": "Die Präposition بِ regiert den Genitiv. Der Referent des Staunens steht als Genitiv-Suffix nach بِ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+          },
+          {
+            "question": "Warum ist *ما أكونَه syntaktisch nicht möglich?",
+            "options": [
+              "كان ist zu selten",
+              "Das Taʿajjub-Muster erfordert ein Verb mit graduierbarer Bedeutung; كان als Hilfsverb drückt keine steigerbare Eigenschaft aus",
+              "كان ist nicht dreiradikal",
+              "Die Form existiert, wird aber vermieden"
+            ],
+            "correct": 1,
+            "explanation": "Das Taʿajjub-Muster ist auf Verben mit graduierbarer Eigenschaft beschränkt. Hilfsverben und Bedeutungen ohne Skalar sind ausgeschlossen.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+    },
+    {
+      "id": "SR4",
+      "title": "Qad — Taḥqīq vs. Taqlīl",
+      "description": "Die Partikel قَدْ hat je nach Tempus unterschiedliche aspektuelle Funktion.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Zwei Funktionen von قَدْ",
+            "content": "قَدْ ist eine verbale Vorpartikel mit zwei distinkten Funktionen, abhängig vom folgenden Tempus:\n\n1. قَدْ + Perfekt = Taḥqīq (Bestätigung/Vollzug)\n   - Bedeutung: 'wirklich, tatsächlich, schon' — betont, dass die Handlung vollzogen ist.\n   - Beispiel: قَدْ أَفْلَحَ 'wahrhaftig, er hat Erfolg.'\n\n2. قَدْ + Imperfekt = Taqlīl (Seltenheit) oder Taktīr (Häufigkeit), kontextabhängig\n   - Taqlīl-Lesart: 'manchmal, bisweilen' — die Handlung tritt selten ein.\n   - Taktīr-Lesart: 'oft' — kontextuell.\n   - Beispiel: قَدْ يَعْلَمُ — 'manchmal weiß er' / 'er weiß durchaus'.\n\nDiese aspektuelle Zweideutigkeit im Imperfekt wird kontextuell aufgelöst. Mit Perfekt ist die Lesart eindeutig bestätigend."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Qad-Varianten im Quran",
+            "examples": [
+              {
+                "ref": "23:1",
+                "arabic": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+                "explanation": "قد + Perfekt (أفلح) = Taḥqīq. 'Wahrhaftig, die Gläubigen haben Erfolg.' Bestätigend, vollzogener Aspekt. Typisches Surah-Einleitungsmuster.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+              },
+              {
+                "ref": "33:18",
+                "arabic": "قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ",
+                "explanation": "قد + Imperfekt (يعلم). Kontextuell als Taqlīl oder als betonendes Taḥqīq lesbar. Hier Bedeutung: 'Allah kennt sehr wohl die Behinderer unter euch.' Der Imperfekt drückt anhaltende Erkenntnis aus.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=18"
+              },
+              {
+                "ref": "24:64",
+                "arabic": "قَدْ يَعْلَمُ مَآ أَنتُمْ عَلَيْهِ",
+                "explanation": "Dieselbe Struktur wie 4:66. قد + Imperfekt يعلم — 'Er weiß wahrlich / durchaus'. Kontextuell bestätigend zu lesen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=64"
+              },
+              {
+                "ref": "2:60",
+                "arabic": "قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ",
+                "explanation": "قد + Perfekt (علم) = Taḥqīq. 'Jede Gruppe wusste bereits ihre Trinkstelle.' Eindeutig vollzogen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+              },
+              {
+                "ref": "12:51",
+                "arabic": "قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُ عَن نَّفْسِهِ وَإِنَّهُ لَمِنَ ٱلصَّٰدِقِينَ",
+                "explanation": "Anderer Bestätigungsmarker: لَـ + نَ in إِنَّهُ + لَـ. Zeigt, dass قَدْ nur einer von mehreren Bestätigungsmarkern ist.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=51"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Kontextuelle Disambiguierung",
+            "content": "Bei قَدْ + Imperfekt entscheidet der Kontext:\n\n- Taqlīl: wenn der Inhalt als seltene/gelegentliche Handlung plausibel ist.\n- Taḥqīq (betonend): wenn der Inhalt als feste Eigenschaft des Subjekts logisch vorausgesetzt ist.\n\nIn Belegen mit göttlichem Subjekt (wie 4:66 يعلم الله) ist die Taqlīl-Lesart ('manchmal weiß Er') semantisch ausgeschlossen — denn Allwissenheit ist konstant. Also Taḥqīq-Lesart.\n\nBei menschlichem Subjekt (ein Gelehrter, ein Normaler Mensch) bleibt die Taqlīl-Lesart möglich."
+          },
+          {
+            "type": "comparison",
+            "title": "Qad vs. andere Bestätigungs-Marker",
+            "content": "Weitere Marker in ähnlicher Funktion:\n\n- إِنَّ: starke Bestätigung des Nominalsatzes\n- لَـ (Lām al-tawkīd): Bestätigungs-Lām am Verb oder am Nomen nach إنَّ\n- قَدْ: Bestätigung des verbalen Aspekts\n\nKombinationen wie وَلَقَدْ (= وَ + لَ + قَدْ) sind dichte Bestätigungs-Ketten:\n- Beispiel: وَلَقَدْ كَرَّمْنَا بَنِىٓ ءَادَمَ (17:70) — dreifache Bestätigung."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "Klassifiziere قد in 23:1 und 4:66: Taḥqīq oder Taqlīl?",
+          "hint": "Schau auf das Tempus des folgenden Verbs. Perfekt → Taḥqīq. Imperfekt → Kontext prüfen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 4:66 (قد يعلم الله). Ist Taqlīl ('manchmal weiß Allah') semantisch möglich? Begründe.",
+          "hint": "Prüfe die semantische Kompatibilität mit göttlichem Wissen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=66"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche قد in 23:1 (Perfekt) und 4:66 (Imperfekt). Welcher aspektuelle Unterschied liegt vor?",
+          "hint": "Perfekt = abgeschlossen. Imperfekt = andauernd/wiederholt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=66"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ (23:1) — welche Funktion hat قد hier?",
+            "options": [
+              "Taqlīl (Seltenheit)",
+              "Taḥqīq (Bestätigung, vollzogener Aspekt)",
+              "Negation",
+              "Frage"
+            ],
+            "correct": 1,
+            "explanation": "قد + Perfekt = Taḥqīq. Die Partikel bestätigt den vollzogenen Aspekt: 'Wahrhaftig, die Gläubigen haben Erfolg.'",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+          },
+          {
+            "question": "Bei قَدْ + Imperfekt-Verb — was entscheidet zwischen Taqlīl und Taḥqīq?",
+            "options": [
+              "Der Genus des Subjekts",
+              "Die Vokalisation von قد",
+              "Der semantische Kontext",
+              "Die Position im Vers"
+            ],
+            "correct": 2,
+            "explanation": "قد + Imperfekt ist aspektuell zweideutig. Nur der semantische Kontext entscheidet zwischen 'manchmal' (Taqlīl) und 'gewiss, durchaus' (Taḥqīq).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=66"
+          },
+          {
+            "question": "Was bedeutet die Verbindung وَلَقَدْ?",
+            "options": [
+              "Eine einfache Konjunktion",
+              "Mehrfache Bestätigungs-Kette: wa + la + qad",
+              "Eine Verneinung",
+              "Eine Fragepartikel"
+            ],
+            "correct": 1,
+            "explanation": "وَلَقَدْ kombiniert die Konjunktion و, das Bestätigungs-Lām لَـ und die Partikel قد zu einer dichten Bestätigungs-Sequenz.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=70"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+    },
+    {
+      "id": "SR5",
+      "title": "إِذَا — fujāʾiyya vs. šarṭiyya vs. ẓarfiyya",
+      "description": "Drei funktional distinkte إِذَا-Typen im Quran.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Drei Typen von إِذَا",
+            "content": "إِذَا ist mehrfach funktional:\n\n1. إِذَا ẓarfiyya (adverbiell-temporal): 'wenn/als' — leitet einen Zeitsatz ein. Konjunktional, subordinierend. Verlangt typisch Perfekt-Verb.\n   - Beispiel: إِذَا جَآءَ — 'als er kam'\n\n2. إِذَا šarṭiyya (konditional): 'wenn, sofern' — leitet einen Bedingungssatz ein. Syntaktisch markiert durch Zweigliedrigkeit (Vordersatz + Apodosis mit oder ohne فـ).\n   - Beispiel: إِذَا جَآءَ … فَـ… — 'wenn er kommt, dann …'\n\n3. إِذَا fujāʾiyya (Überraschungs-إذا): 'plötzlich, da auf einmal' — drückt unerwartete Realisierung aus. Syntaktisch: steht typisch nach فَـ, wird von einem Nominalsatz gefolgt (nicht Verbalsatz).\n   - Beispiel: فَإِذَا أَنتُم بَشَرٌ تَنتَشِرُونَ — 'und plötzlich seid ihr Menschen, die sich ausbreiten.'\n\nFormal identisch, distinkt nur durch Syntax und Semantik des Folgenden."
+          },
+          {
+            "type": "quranExamples",
+            "title": "إِذَا-Typen im Quran",
+            "examples": [
+              {
+                "ref": "2:49",
+                "arabic": "وَإِذْ نَجَّيْنَٰكُم مِّنْ ءَالِ فِرْعَوْنَ",
+                "explanation": "Strenggenommen إِذْ (nicht إِذَا), aber verwandter ẓarfiyya-Typ. Narrativ-initial, leitet Vergangenheitserzählung ein. إِذْ = temporaladverbial für die Vergangenheit, إِذَا tendenziell für Zukunft/Bedingung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+              },
+              {
+                "ref": "30:20",
+                "arabic": "وَمِنْ ءَايَٰتِهِٓ أَنْ خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَآ أَنتُم بَشَرٌ تَنتَشِرُونَ",
+                "explanation": "إِذَا fujāʾiyya. Nach ثم überraschend: 'und da auf einmal seid ihr Menschen, die sich ausbreiten'. Kennzeichen: ثُمَّ إِذَا + Nominalsatz (أنتم بشر). Kein Verb nach إِذَا — deshalb fujāʾiyya, nicht šarṭiyya.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=20"
+              },
+              {
+                "ref": "2:196",
+                "arabic": "فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ",
+                "explanation": "إِذَا šarṭiyya. Kennzeichen: Verbal-Protasis (أمنتم) + ف-markierte Apodosis (فمن تمتع…). 'Sobald/wenn ihr sicher seid, dann…'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+              },
+              {
+                "ref": "7:201",
+                "arabic": "إِنَّ ٱلَّذِينَ ٱتَّقَوْا إِذَا مَسَّهُمْ طَٰٓئِفٌ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا",
+                "explanation": "إِذَا šarṭiyya: Verbal-Protasis (مسهم) + Verbal-Apodosis (تذكروا). 'Wenn ein Anflug vom Satan sie berührt, gedenken sie.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=201"
+              },
+              {
+                "ref": "21:97",
+                "arabic": "وَٱقْتَرَبَ ٱلْوَعْدُ ٱلْحَقُّ فَإِذَا هِىَ شَٰخِصَةٌ أَبْصَٰرُ ٱلَّذِينَ كَفَرُوا",
+                "explanation": "إِذَا fujāʾiyya. Kennzeichen: فَإِذَا + Nominalsatz (هي شاخصة أبصار…). 'Und plötzlich starren die Augen derer die leugnen.' Keine Bedingung, sondern Überraschungsrealisierung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=97"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Diagnostik",
+            "content": "Praktische Unterscheidung:\n\n- Folgt ein Nominalsatz (Pronomen/Substantiv als Mubtadaʾ, kein Verb)? → fujāʾiyya.\n- Folgt ein Verbalsatz + Apodosis mit ف oder ohne? → šarṭiyya.\n- Folgt ein Verb-Erzählsatz ohne Apodosis, rein zeitlich? → ẓarfiyya.\n\nMerkregel: إِذَا fujāʾiyya tritt fast immer nach ف oder ثُمَّ auf und hat einen Nominalsatz als Anschluss."
+          },
+          {
+            "type": "comparison",
+            "title": "إِذَا vs. إِذْ",
+            "content": "| Partikel | Typischer Temporalbezug | Typische Verb-Form |\n|----------|-------------------------|---------------------|\n| إِذْ | Vergangenheit | Perfekt |\n| إِذَا | Zukunft / Gegenwart / Bedingung / Überraschung | Perfekt (šarṭ / ẓarf); Nominalsatz (fujāʾiyya) |\n\nإِذْ und إِذَا sind historisch verwandt, synchron distinkt in Distribution und Tempusbezug."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "Bestimme den إِذَا-Typ in 30:20 (ثُمَّ إِذَآ أَنتُم بَشَرٌ). Begründe anhand des Folgesatzes.",
+          "hint": "أنتم ist Pronomen → Nominalsatz. Also nicht šarṭiyya.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=20"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 2:196 (فَإِذَآ أَمِنتُمْ) — welche Apodosis gehört dazu? Markiere sie im Text.",
+          "hint": "Suche das ف + Imperativ oder Verbalsatz nach dem Bedingungssatz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+        },
+        {
+          "type": "identification",
+          "prompt": "Finde im Quran einen weiteren Beleg für إِذَا fujāʾiyya (außer 30:20 und 21:97). Tipp: Surah 7 (Geschichte Mose) enthält mehrere.",
+          "hint": "7:107 (فَأَلْقَىٰ عَصَاهُ فَإِذَا هِىَ ثُعْبَانٌ مُّبِينٌ) ist ein klares Beispiel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=107"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welches syntaktische Kennzeichen hat إِذَا fujāʾiyya typischerweise?",
+            "options": [
+              "Folgt ein Verbalsatz mit Perfekt",
+              "Steht nach فَـ oder ثُمَّ und wird von einem Nominalsatz gefolgt",
+              "Steht am Versanfang",
+              "Wird von إِنَّ eingeleitet"
+            ],
+            "correct": 1,
+            "explanation": "إِذَا fujāʾiyya steht typisch nach فَـ/ثُمَّ und wird von einem Nominalsatz gefolgt (nicht Verb). Das unterscheidet sie von der šarṭiyya.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=20"
+          },
+          {
+            "question": "In 2:196 (فَإِذَآ أَمِنتُمْ) liegt vor:",
+            "options": [
+              "إِذَا fujāʾiyya",
+              "إِذَا šarṭiyya",
+              "إِذَا ẓarfiyya",
+              "إِذْ narrativ"
+            ],
+            "correct": 1,
+            "explanation": "أمنتم ist Verbalsatz (Perfekt), danach folgt Apodosis. Klassische šarṭiyya-Konstruktion.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+          },
+          {
+            "question": "Welcher Unterschied zwischen إِذَا und إِذْ ist syntaktisch zentral?",
+            "options": [
+              "إِذَا regiert Akkusativ, إِذْ nicht",
+              "إِذْ bezieht sich auf Vergangenheit, إِذَا auf Gegenwart/Zukunft/Bedingung/Überraschung",
+              "إِذَا ist Pronomen, إِذْ ist Partikel",
+              "Kein Unterschied"
+            ],
+            "correct": 1,
+            "explanation": "إِذْ ist temporal auf die Vergangenheit spezialisiert (typisch mit Perfekt), إِذَا umfasst Gegenwart, Zukunft, Bedingung und Überraschung.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=20"
+    },
+    {
+      "id": "SR6",
+      "title": "Nominale Exklamativkonstruktion mit مَا + Akkusativ",
+      "description": "Die Konstruktion مَا أَفْعَلَهُ als nominaler Exklamativ mit Akkusativ-Referent.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Struktur",
+            "content": "Das Muster مَا أَفْعَلَ + Akk.-Referent wird traditionell als Exklamativ analysiert. Syntaktische Zerlegung (klassische Grammatiker):\n\n- مَا: Exklamativ-Nomen, Mubtadaʾ im Nominativ (= 'Welch ein Ding!')\n- أَفْعَلَ: Verb im Perfekt-Akkusativ-Stamm, Khabar des Mubtadaʾ\n- -هُ / Akk. Objekt: syntaktisches Objekt von أَفْعَلَ\n\nSemantisch: 'Welch-ein-Ding hat-ihn-so-gemacht!' — rhetorischer Ausdruck der Intensität.\n\nAlternative Analyse: مَا als nakira mawṣūfa ('ein etwas, das…'). Beide Analysen kommen zum selben syntaktischen Resultat: Akkusativ für den Referenten."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Muster im Quran",
+            "examples": [
+              {
+                "ref": "80:17",
+                "arabic": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُ",
+                "explanation": "Paradebeispiel. 'Der Mensch sei vernichtet — wie undankbar er ist!' ما = exklamativ Mubtadaʾ, أكفر = Akk.-Perfekt-Stamm Khabar, -ه = Akk.-Suffix Obj. Die Konstruktion steht nach قُتِلَ ٱلْإِنسَٰنُ als eigenständige exklamative Aussage.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+              },
+              {
+                "ref": "2:175",
+                "arabic": "فَمَآ أَصْبَرَهُمْ عَلَى ٱلنَّارِ",
+                "explanation": "Dasselbe Muster: ما أصبرهم + على النار (Präpositional-Ergänzung zum Verb). 'Wie ausdauernd sie gegenüber dem Feuer sind!'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+              },
+              {
+                "ref": "19:38",
+                "arabic": "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا",
+                "explanation": "Zum Vergleich: Dies ist das andere Exklamativ-Muster (أَفْعِلْ بِهِ), nicht مَا أَفْعَلَ. Referent hier im Genitiv nach بِ, nicht Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+              },
+              {
+                "ref": "18:26",
+                "arabic": "أَبْصِرْ بِهِ وَأَسْمِعْ",
+                "explanation": "Ebenfalls das parallele أَفْعِلْ بِ-Muster. Kontrast zum مَا أَفْعَلَهُ-Typ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Morphologische Notiz",
+            "content": "Die Verb-Form أَفْعَلَ sieht aus wie:\n\n- Elativ-Adjektiv (أَفْعَلُ = 'größer/stärker')\n- Perfekt Form IV (أَفْعَلَ = 'er bewirkte X')\n\nIm Taʿajjub-Muster ist sie syntaktisch ein Verb (Perfekt mit Akk.-Objekt), hat aber Akkusativ-Endung -a (wie in أَكْفَرَهُ = أَكْفَرَ + هُ). Die Akkusativ-Endung ist fixiert, unabhängig von der Position im Satz. Das zeigt den erstarrten Charakter des Musters."
+          },
+          {
+            "type": "classification",
+            "title": "Zwei Exklamativ-Familien",
+            "content": "| Muster | Beispiel | Referent-Kasus |\n|--------|---------|----------------|\n| مَا أَفْعَلَهُ | مَا أَكْفَرَهُ (80:17) | Akkusativ |\n| أَفْعِلْ بِهِ | أَبْصِرْ بِهِ (18:26) | Genitiv (nach بِ) |\n\nBeide drücken Staunen/Intensität aus. Sie sind austauschbar in der semantischen Funktion, nicht in der Syntax."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "In 80:17 (مَآ أَكْفَرَهُۥ) identifiziere alle drei Komponenten: (1) ما, (2) أكفر, (3) -ه. Welche Funktion hat jede?",
+          "hint": "ما = Mubtadaʾ (Nom.), أكفر = Khabar-Verb (Akk.-Stamm), -ه = Objekt (Akk.-Suffix).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "type": "transformation",
+          "prompt": "Wandle 2:175 (مَآ أَصْبَرَهُمْ) in das parallele أَفْعِلْ-Muster um.",
+          "hint": "Der Stamm bleibt صبر. Referent wechselt von Akk. zu بِ + Genitiv.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Warum ist die Akkusativ-Endung in أَكْفَرَهُ fixiert? Kann das Muster im Nominativ oder Genitiv stehen?",
+          "hint": "Erstarrtes Muster — die Flexion ist semantisch nicht frei.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "In مَآ أَكْفَرَهُۥ (80:17) ist ما syntaktisch:",
+            "options": [
+              "Negation",
+              "Relativpronomen",
+              "Exklamativ-Mubtadaʾ im Nominativ",
+              "Fragewort"
+            ],
+            "correct": 2,
+            "explanation": "ما ist im Exklamativ-Muster ein Mubtadaʾ im Nominativ, dem das Verb أكفر als Khabar folgt.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+          },
+          {
+            "question": "Das Suffix -ه in أَكْفَرَهُ steht im:",
+            "options": [
+              "Nominativ",
+              "Akkusativ (als direktes Objekt des Verbs)",
+              "Genitiv",
+              "Kasus-neutral"
+            ],
+            "correct": 1,
+            "explanation": "-ه ist Akkusativ-Pronominal-Suffix als direktes Objekt des Verbs أكفر im Taʿajjub-Muster.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+          },
+          {
+            "question": "Welche der folgenden Konstruktionen ist KEIN مَا أَفْعَلَهُ-Muster?",
+            "options": [
+              "مَا أَكْفَرَهُ",
+              "مَا أَصْبَرَهُم",
+              "أَبْصِرْ بِهِ",
+              "Alle drei sind es"
+            ],
+            "correct": 2,
+            "explanation": "أَبْصِرْ بِهِ ist das parallele, aber distinkte أَفْعِلْ بِهِ-Muster (Referent im Genitiv, nicht Akkusativ).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+    },
+    {
+      "id": "SR7",
+      "title": "كَانَ + Partizip/Imperfekt — Periphrastische Verbformen",
+      "description": "Aspektuelle Periphrasen mit كَانَ zur Kodierung von Durativität und Habitualität.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Aspekt-Periphrasen",
+            "content": "كَانَ als Hilfsverb kodiert zusammen mit einer nominalen/verbalen Ergänzung Aspekt-Kategorien, die das einfache Perfekt nicht ausdrückt:\n\n1. كَانَ + Imperfekt = durative/habituelle Vergangenheit\n   - 'er pflegte zu tun' / 'er war dabei zu tun'\n   - كَانَ يَفْعَلُ\n\n2. كَانَ + aktives Partizip = zustands-resultative Vergangenheit\n   - 'er war [im Zustand] handelnd'\n   - كَانَ فَاعِلًا\n\n3. كَانَ + Perfekt + قَدْ = Plusquamperfekt\n   - 'er hatte bereits getan'\n   - كَانَ قَدْ فَعَلَ\n\nStrukturell: كَانَ steht im Perfekt (oder Imperfekt für Gegenwarts-Durativ); die Ergänzung bestimmt den Aspekt. Das Subjekt wird im Nominativ beim كان markiert, die Ergänzung im Akkusativ (bei Partizip/Adjektiv) oder kongruent (bei Verb)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Periphrasen im Quran",
+            "examples": [
+              {
+                "ref": "2:10",
+                "arabic": "وَلَهُمْ عَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْذِبُونَ",
+                "explanation": "كانوا يكذبون = 'sie pflegten zu lügen' / 'sie waren dabei zu lügen'. Habituelle/durative Vergangenheit. كانوا (Perfekt 3. Pl. mask.) + يكذبون (Imperfekt 3. Pl. mask.). Beide kongruent in Person/Numerus.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+              },
+              {
+                "ref": "2:61",
+                "arabic": "ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ",
+                "explanation": "كانوا يكفرون = 'sie pflegten zu leugnen'. Habituelle Vergangenheit — das Leugnen ist als wiederholtes/anhaltendes Verhalten dargestellt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+              },
+              {
+                "ref": "19:32",
+                "arabic": "وَلَمْ يَجْعَلْنِى جَبَّارًا شَقِيًّا",
+                "explanation": "Zum Vergleich: einfaches Perfekt (مَا جَعَلَ) — hier kein كان. Zeigt, dass nicht alles Vergangene mit كان markiert wird.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=32"
+              },
+              {
+                "ref": "19:31",
+                "arabic": "وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا",
+                "explanation": "حيًّا ist Akkusativ-Prädikativ zu دُمْتُ — verwandte Periphrase (مَا دَامَ + حَال) 'solange ich lebend bin'. دَامَ gehört wie كان zur Gruppe der 'Schwestern von كان' mit Prädikat-im-Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=31"
+              },
+              {
+                "ref": "20:121",
+                "arabic": "وَعَصَىٰٓ ءَادَمُ رَبَّهُ فَغَوَىٰ",
+                "explanation": "Einfaches Perfekt (nicht periphrastisch) — kontrastiert mit der Periphrase. Zeigt: Die Wahl كان + Imperfekt vs. einfaches Perfekt ist aspektuell motiviert.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=121"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "كان und seine Schwestern",
+            "content": "كان gehört zu einer Gruppe von Verben, die ein Subjekt im Nominativ und ein Prädikat im Akkusativ regieren:\n\n- كَانَ, صَارَ, أَصْبَحَ, أَمْسَىٰ, أَضْحَىٰ, ظَلَّ, بَاتَ, لَيْسَ, مَا زَالَ, مَا بَرِحَ, مَا فَتِئَ, مَا دَامَ\n\nBeispiel: كَانَ زَيْدٌ قَائِمًا — 'Zaid war stehend.' زيد = Ism كان (Nom.), قائمًا = Khabar كان (Akk.).\n\nIm periphrastischen Gebrauch mit Verb-Ergänzung (كان + Imperfekt) bleibt das Subjekt (Ism كان) im Nominativ; das Verb-Prädikat steht als kongruenter Verbalsatz."
+          },
+          {
+            "type": "classification",
+            "title": "Aspektuelle Werte",
+            "content": "| Konstruktion | Aspekt | Beispiel |\n|--------------|--------|----------|\n| Einfaches Perfekt (فَعَلَ) | Abgeschlossen | عَصَىٰ (20:121) |\n| كَانَ + Imperfekt | Durativ/Habituell vergangen | كَانُوا يَكْذِبُونَ (2:10) |\n| كَانَ + aktives Partizip | Zustandsresultativ vergangen | كُنتُ بَاغِيًا |\n| كَانَ قَدْ + Perfekt | Plusquamperfekt | (selten im Quran) |\n| Einfaches Imperfekt | Andauernd/Zukünftig | يَعْلَمُ |\n\nDie Periphrasen erweitern das aspektuelle Repertoire über das binäre Perfekt/Imperfekt hinaus."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "In 2:10 analysiere كَانُوا۟ يَكْذِبُونَ morphologisch: Was ist Person/Numerus von كانوا? Was von يكذبون?",
+          "hint": "Beide kongruent in 3. Pl. mask. Die Person-Markierung steht in -وا (كانوا) und يَـ-ـون (يكذبون).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+        },
+        {
+          "type": "transformation",
+          "prompt": "Wandle das einfache Perfekt كَذَبُوا in die Periphrase كَانُوا يَكْذِبُونَ um. Welcher aspektuelle Unterschied ergibt sich?",
+          "hint": "Einfaches Perfekt = punktuell abgeschlossen. Periphrase = habituell/durativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+        },
+        {
+          "type": "comparison",
+          "prompt": "In 20:121 (عَصَىٰ) steht einfaches Perfekt, in 2:10 (كَانُوا يَكْذِبُونَ) Periphrase. Warum wohl die unterschiedliche Wahl?",
+          "hint": "20:121 beschreibt einen einzelnen Akt. 2:10 beschreibt ein Muster.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=121"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "كَانُوا۟ يَكْذِبُونَ (2:10) drückt aus:",
+            "options": [
+              "Zukunft",
+              "Punktueller abgeschlossener Akt",
+              "Durative/habituelle Vergangenheit",
+              "Befehl"
+            ],
+            "correct": 2,
+            "explanation": "كَانَ + Imperfekt ist die klassische Periphrase für durative oder habituelle Vergangenheit: 'sie pflegten zu lügen' / 'sie waren dabei zu lügen'.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+          },
+          {
+            "question": "Welches Wort ist KEIN Mitglied der Gruppe 'Schwestern von كان'?",
+            "options": [
+              "صار",
+              "أصبح",
+              "ما زال",
+              "إن"
+            ],
+            "correct": 3,
+            "explanation": "إن gehört zur Gruppe 'Schwestern von إنَّ' (Ism im Akk., Khabar im Nom.) — nicht zu den 'Schwestern von كان' (Ism im Nom., Khabar im Akk.).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+          },
+          {
+            "question": "Wie lautet der Kasus von كُنتُ بَاغِيًا?",
+            "options": [
+              "كنت Nom., باغيًا Nom.",
+              "كنت (Verb, kein Kasus für Subj.-Suffix), باغيًا Akk. (Khabar كان)",
+              "كنت Gen., باغيًا Akk.",
+              "Beide Nom."
+            ],
+            "correct": 1,
+            "explanation": "كنت enthält das Subjekt-Pronomen -تُ (kein sichtbarer Kasusausdruck beim Pronominalsuffix). باغيًا ist Khabar كان im Akkusativ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=32"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "id": "SR8",
+      "title": "Mafʿūl muṭlaq — Sub-Kategorien",
+      "description": "Bestätigender, Typ-angebender, Zahl-angebender und Ersatz-Masdar im absoluten Objekt.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Vier Funktionen des Mafʿūl muṭlaq",
+            "content": "Der Mafʿūl muṭlaq (absolutes Objekt, innerer Akkusativ) ist ein Masdar im Akkusativ, der das Hauptverb modifiziert. Er hat vier syntaktisch distinkte Sub-Kategorien:\n\n1. Taʾkīd (Bestätigung): Der Masdar ist etymologisch identisch mit dem Verb und betont den Vollzug.\n   - ضَرَبَهُ ضَرْبًا — 'er schlug ihn gewiss/wahrhaftig.'\n\n2. Bayān al-nawʿ (Typ-Angabe): Der Masdar wird durch ein Adjektiv oder eine Iḍāfa näher bestimmt; er gibt die Art der Handlung an.\n   - ضَرَبَهُ ضَرْبًا شَدِيدًا — 'er schlug ihn einen heftigen Schlag.'\n\n3. Bayān al-ʿadad (Zahl-Angabe): Der Masdar hat ein Zahlwort oder eine Einheitsform (المرَّة).\n   - ضَرَبَهُ ضَرْبَتَيْنِ — 'er schlug ihn zweimal.'\n\n4. Ersatz-Masdar (nāʾib al-maṣdar): Ein anderes Wort tritt an die Stelle des etymologischen Masdars — ein Synonym oder funktional äquivalentes Nomen.\n   - ضَرَبَهُ سَوْطًا — 'er schlug ihn [mit] einer Peitsche' (wo سَوْط nicht der Masdar von ضَرَبَ ist)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Sub-Kategorien im Quran",
+            "examples": [
+              {
+                "ref": "4:164",
+                "arabic": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+                "explanation": "تَكْلِيمًا = Mafʿūl muṭlaq Taʾkīd. Masdar von كَلَّمَ (Form II) im Akkusativ, ohne weitere Bestimmung. Betont den realen Vollzug des Sprechens: 'Allah sprach mit Musa, wahrhaftig ein Sprechen.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+              },
+              {
+                "ref": "33:23",
+                "arabic": "وَمَا بَدَّلُوا تَبْدِيلًا",
+                "explanation": "تَبْدِيلًا = Mafʿūl muṭlaq Taʾkīd. Masdar von بَدَّلَ (Form II). Verstärkt den negierten Vollzug: 'sie haben in keiner Weise gewechselt.' Negiertes Taʾkīd verstärkt die Negation.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=23"
+              },
+              {
+                "ref": "17:4",
+                "arabic": "وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا",
+                "explanation": "عُلُوًّا كَبِيرًا = Mafʿūl muṭlaq Bayān al-nawʿ. Der Masdar علوًّا wird durch das Adjektiv كبيرًا näher bestimmt: 'ihr werdet euch gewiss erheben, eine große Erhebung.' Typ-Angabe.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=4"
+              },
+              {
+                "ref": "73:8",
+                "arabic": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
+                "explanation": "تَبْتِيلًا = Mafʿūl muṭlaq Taʾkīd zu تَبَتَّلْ. Masdar der Form V, Akkusativ, bestätigend: 'weihe dich ihm, eine (wahre) Weihung.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=8"
+              },
+              {
+                "ref": "89:21",
+                "arabic": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+                "explanation": "دَكًّا دَكًّا = Mafʿūl muṭlaq mit Wiederholung (Taktīr). 'wenn die Erde zermalmt wird, ein Zermalmen über Zermalmen' — Iteration als Nachschub-Typ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=21"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Diagnostik der Sub-Typen",
+            "content": "Prüfschritte:\n\n1. Ist der Masdar etymologisch aus der Verbwurzel? → Ja, weiter bei 2; Nein → Ersatz-Masdar.\n2. Hat der Masdar ein nachfolgendes Adjektiv oder eine Iḍāfa? → Ja → Bayān al-nawʿ.\n3. Hat der Masdar ein Zahlwort oder Einheitsform? → Ja → Bayān al-ʿadad.\n4. Keine weitere Bestimmung? → Taʾkīd.\n\nFür 4:164 (تكليمًا nach كلم): Wurzel k-l-m, keine Bestimmung → Taʾkīd.\nFür 17:4 (علوًّا كبيرًا nach علا): Wurzel ʿ-l-w, Adjektiv كبيرًا → Bayān al-nawʿ."
+          },
+          {
+            "type": "comparison",
+            "title": "Mafʿūl muṭlaq vs. andere Akkusative",
+            "content": "Abgrenzung:\n\n- Mafʿūl bih (direktes Objekt): Empfänger der Handlung (ضَرَبَ زَيْدًا — 'er schlug Zaid').\n- Mafʿūl muṭlaq (innerer Akk.): Modifikator der Handlung selbst (ضَرَبَ ضَرْبًا — 'er schlug wahrhaftig').\n- Mafʿūl liʾajlihi (Zweck-Akk.): Grund/Zweck (قَامَ احْتِرَامًا — 'er stand aus Respekt').\n- Mafʿūl maʿahu (Begleit-Akk.): Begleitung (سِرْتُ وَٱلنَّهْرَ — 'ich ging mit dem Fluss').\n\nDer Mafʿūl muṭlaq ist identifizierbar an der Etymologie (Wurzelgleichheit mit Verb) oder an dem charakteristischen Kontext (Intensivierung/Quantifizierung)."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "Klassifiziere den Mafʿūl muṭlaq in 4:164, 17:4, 33:23, 89:21 je nach Sub-Typ.",
+          "hint": "Prüfe: Adjektiv? Zahl? Iteration? Keines?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=4"
+        },
+        {
+          "type": "identification",
+          "prompt": "In 33:23 (وَمَا بَدَّلُوا۟ تَبْدِيلًا) — wie wirkt das Taʾkīd im Kontext der Negation?",
+          "hint": "Negiertes Taʾkīd verstärkt die Negation: 'sie haben in keiner Weise/überhaupt nicht gewechselt'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=23"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 89:21 (دَكًّا دَكًّا) wiederholt sich der Masdar. Welche Sub-Kategorie und welche Funktion hat die Wiederholung?",
+          "hint": "Wiederholung drückt Iteration/Intensivierung aus — entweder als Bayān-al-nawʿ-Variante oder eigenständiger Iterations-Typ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=21"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "تَكْلِيمًا in 4:164 ist welcher Sub-Typ des Mafʿūl muṭlaq?",
+            "options": [
+              "Taʾkīd (Bestätigung)",
+              "Bayān al-nawʿ (Typ-Angabe)",
+              "Bayān al-ʿadad (Zahl-Angabe)",
+              "Ersatz-Masdar"
+            ],
+            "correct": 0,
+            "explanation": "Reiner Masdar von كَلَّمَ ohne weitere Bestimmung (kein Adjektiv, keine Zahl). Taʾkīd.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+          },
+          {
+            "question": "In عُلُوًّا كَبِيرًا (17:4) macht كبيرًا aus dem Mafʿūl muṭlaq einen:",
+            "options": [
+              "Taʾkīd",
+              "Bayān al-nawʿ (Typ-Angabe durch Adjektiv)",
+              "Bayān al-ʿadad",
+              "Mafʿūl bih"
+            ],
+            "correct": 1,
+            "explanation": "Das Adjektiv كبيرًا spezifiziert die Art der Erhebung. Damit wird aus bloßem Taʾkīd eine Typ-Angabe.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=4"
+          },
+          {
+            "question": "Welcher Sub-Typ liegt vor, wenn ein Zahlwort den Masdar begleitet, z.B. ضَرَبَهُ ضَرْبَتَيْنِ?",
+            "options": [
+              "Taʾkīd",
+              "Bayān al-nawʿ",
+              "Bayān al-ʿadad (Zahl-Angabe)",
+              "Ersatz-Masdar"
+            ],
+            "correct": 2,
+            "explanation": "Die Zahl-Form ضَرْبَتَيْنِ (zwei Schläge) macht den Mafʿūl muṭlaq zu Bayān al-ʿadad.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=23"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+    },
+    {
+      "id": "SR9",
+      "title": "Zusammengesetzte Partikeln — فَلَمَّا, وَإِذْ, أَلَا, كَأَيِّن",
+      "description": "Diskurs-strukturierende Partikel-Komposita.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Vier Diskurs-Partikeln",
+            "content": "Das Arabische hat eine Reihe zusammengesetzter Partikeln mit spezifischer textlinguistischer Funktion:\n\n1. فَلَمَّا (fa-lammā): Sequentiell-temporal, 'und als…' — leitet Erzählsequenz ein.\n   - فَـ (Konnektiv) + لَمَّا (temporal-konjunktional)\n\n2. وَإِذْ (wa-idh): Narrativ-initial, 'und [damals] als…' — leitet neue Erinnerungs-/Erzähleinheit ein.\n   - وَ (Konnektiv) + إِذْ (Temporaladverb Vergangenheit)\n\n3. أَلَا (alā): Aufmerksamkeits-/Mahnmarker, 'hört!' / 'fürwahr!' — signalisiert Textsalienz.\n   - Erstarrtes أَ (Fragepartikel) + لَا — funktional unanalysierbar synchron.\n\n4. كَأَيِّن (kaʾayyin): Quantifizierer 'wie viele…!'\n   - كَـ (Vergleichspartikel) + أَيّ (Frage-/Relativpronomen) + ـن (Tanwīn oder Erweiterung)\n   - Regiert den folgenden Genitiv mit مِنْ."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Diskurs-Partikeln im Quran",
+            "examples": [
+              {
+                "ref": "7:143",
+                "arabic": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا",
+                "explanation": "فَلَمَّا + Verb (Perfekt) = sequentielle Erzählung. 'Und als sein Herr sich dem Berg offenbarte, machte er ihn zu Staub.' Protasis/Apodosis-Struktur typisch.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+              },
+              {
+                "ref": "2:30",
+                "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً",
+                "explanation": "وَإِذْ + Verb (Perfekt) = narrativ-initial. 'Und [damals] als dein Herr zu den Engeln sprach…' Typischer Quran-Erzähleinstieg.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+              },
+              {
+                "ref": "2:12",
+                "arabic": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ",
+                "explanation": "أَلَا + Nominalsatz = Aufmerksamkeits-/Mahnmarker. 'Wahrlich, sie sind es, die Unheil stiften…'. أَلَا leitet die Aussage als salient ein.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+              },
+              {
+                "ref": "3:146",
+                "arabic": "وَكَأَيِّن مِّن نَّبِىٍّ قَٰتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ",
+                "explanation": "كَأَيِّن + مِنْ + Genitiv = Quantifizierer. 'Wie viele Propheten gab es, an deren Seite zahlreiche Gottergebene kämpften!' Der Genitiv steht nach مِنْ, da كَأَيِّن selbst kein direkter Regens ist.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+              },
+              {
+                "ref": "22:45",
+                "arabic": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ",
+                "explanation": "Zweites Beispiel für كَأَيِّن. 'Wie viele Städte haben wir vernichtet, während sie ungerecht waren!' Dieselbe Quantifizierer-Struktur.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=45"
+              },
+              {
+                "ref": "7:19",
+                "arabic": "وَيَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ",
+                "explanation": "Kein Diskurspartikel, aber typischer وَإِذ-Rahmen im Kontext (2:35 nutzt وَقُلْنَا يَا آدَمُ — paralleler Einstieg). Zeigt die parallele Funktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=19"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Funktionale Ebenen",
+            "content": "Diese Partikeln operieren auf der Diskurs-Ebene:\n\n- فَلَمَّا: innerhalb einer Erzählung, verkettet Ereignisse.\n- وَإِذْ: zwischen Erzähleinheiten, öffnet eine neue.\n- أَلَا: meta-pragmatisch, markiert Textsalienz.\n- كَأَيِّن: quantifiziert exklamativ.\n\nSie sind morphologisch komplex, aber synchron erstarrt — ihre Bedeutung ist nicht immer direkt aus den Bestandteilen ableitbar (insbesondere أَلَا und كَأَيِّن).\n\nكَأَيِّن ist morphologisch der interessanteste Fall: die orthographische Form كأيّن zeigt Nūn-Schreibung, die auf frühere Tanwīn-Form hinweist. Synchron ist sie unanalysierbar eingefroren."
+          },
+          {
+            "type": "classification",
+            "title": "Syntaktische Distribution",
+            "content": "| Partikel | Folgt typisch | Funktion |\n|----------|---------------|----------|\n| فَلَمَّا | Verb Perfekt | Sequentielle Temporal |\n| وَإِذْ | Verb Perfekt | Narrativ-initial |\n| أَلَا | Nominalsatz oder إِنَّ + Nominalsatz | Aufmerksamkeit |\n| كَأَيِّن | مِنْ + Genitiv, dann Verb/Satz | Exklamativ-Quantifizierer |"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Suche in Surah 7 drei Beispiele für فَلَمَّا. Welche Erzählschritte markieren sie?",
+          "hint": "7:143 (Mose am Berg), 7:148 (goldenes Kalb), 7:155. Jeder Sprung in der Erzählung wird markiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Wie unterscheiden sich فَلَمَّا und وَإِذْ in ihrer diskursiven Funktion? Vergleiche 7:143 und 2:30.",
+          "hint": "فَلَمَّا innerhalb laufender Erzählung, وَإِذْ öffnet neue Erzählung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "type": "identification",
+          "prompt": "In 3:146 (كَأَيِّن مِّن نَّبِىٍّ) — warum steht نبيٍّ im Genitiv?",
+          "hint": "Prüfe: Wer regiert den Genitiv? Nicht كأيّن direkt, sondern die Präposition مِنْ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche Diskurs-Funktion hat وَإِذْ (z.B. 2:30)?",
+            "options": [
+              "Aufmerksamkeitsmarker",
+              "Narrativ-initial, öffnet eine Erzähleinheit",
+              "Exklamativ-Quantifizierer",
+              "Sequentielle Verkettung innerhalb einer Erzählung"
+            ],
+            "correct": 1,
+            "explanation": "وَإِذْ markiert den Beginn einer neuen Erzähl-/Erinnerungseinheit. Häufig bei Einführung von Propheten- oder Schöpfungsepisoden.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+          },
+          {
+            "question": "Welche Konstruktion folgt typisch auf كَأَيِّن?",
+            "options": [
+              "Direkt ein Nominativ",
+              "Ein Akkusativ",
+              "مِنْ + Genitiv",
+              "لَـ + Genitiv"
+            ],
+            "correct": 2,
+            "explanation": "كَأَيِّن wird regelhaft mit مِنْ + Genitiv verbunden: كَأَيِّن مِنْ نَبِىٍّ, كَأَيِّن مِنْ قَرْيَةٍ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+          },
+          {
+            "question": "أَلَا في أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ (2:12) hat welche Funktion?",
+            "options": [
+              "Negation",
+              "Frage",
+              "Aufmerksamkeits-/Salienz-Marker",
+              "Verneinung der folgenden Aussage"
+            ],
+            "correct": 2,
+            "explanation": "أَلَا ist hier ein fixer Aufmerksamkeitsmarker ('fürwahr, hört!'), nicht analytisch aus أ + لا zusammensetzbar. Folgt typisch إِنَّ + Nominalsatz.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "SR10",
+      "title": "Ishtighāl — Vorangestelltes Objekt mit Pronominal-Anaphora",
+      "description": "Ein Nomen steht im Vorfeld, während das Verb im Hauptsatz ein pronominales Suffix trägt, das auf dieses Nomen referiert.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Struktur des Ishtighāl",
+            "content": "Ishtighāl ('Beschäftigung des Verbs') bezeichnet eine Topikalisierungs-Konstruktion, bei der:\n\n1. Ein Nomen X im Vorfeld steht (typisch im Akkusativ oder Nominativ).\n2. Das folgende Verb ein pronominales Suffix trägt, das auf X zurückverweist.\n3. Das Verb ist syntaktisch 'beschäftigt' mit dem Pronomen und kann nicht noch einmal X direkt regieren — daher die Topikalisierung.\n\nBeispiel (nicht-quranisch): زَيْدًا ضَرَبْتُهُ — 'Zaid, ich schlug ihn.' زيدًا steht im Akk. (vorangestelltes Objekt), ضربتُه enthält -ه als Anapher.\n\nMögliche Kasus des vorangestellten Nomens:\n- Akkusativ: wenn ein Virtual-Verb (يَفْسِّرُهُ) den Akkusativ lizenziert.\n- Nominativ: bei Mubtadaʾ-Analyse (Topik-Satz)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Ishtighāl im Quran",
+            "examples": [
+              {
+                "ref": "2:6",
+                "arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+                "explanation": "الذين كفروا im Akkusativ (nach إنَّ) als Topik. Das Prädikat سواءٌ عليهم und die folgenden Verben tragen alle Pronomina, die auf die Topik-Gruppe zurückverweisen (-هم in عليهم, تنذرهم, يؤمنون[Endung]). Strukturelles Ishtighāl-Muster.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+              },
+              {
+                "ref": "91:13",
+                "arabic": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
+                "explanation": "نَاقَةَ اللَّهِ im Akkusativ, vorangestellt. Analyse: Virtual-Verb wie احْذَرُوا (hütet euch vor!) oder ذَرُوا (lasst!) wird syntaktisch vorausgesetzt; der folgende Satz enthält die Realisierung mit Pronomen-Anapher implizit. Klassisches Ishtighāl.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=13"
+              },
+              {
+                "ref": "24:2",
+                "arabic": "ٱلزَّانِيَةُ وَٱلزَّانِى فَٱجْلِدُوا كُلَّ وَٰحِدٍ مِّنْهُمَا مِائَةَ جَلْدَةٍ",
+                "explanation": "الزانيةُ والزاني im Nominativ, vorangestellt. Darauf folgt ف + Imperativ fajlidū mit Anapher منهما. Typisches Ishtighāl mit Nominativ-Topik. Alternative Analyse als Mubtadaʾ + Khabar-Satz möglich.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=2"
+              },
+              {
+                "ref": "5:38",
+                "arabic": "وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا أَيْدِيَهُمَا",
+                "explanation": "Parallele Struktur zu 24:2. السارق والسارقةُ im Nominativ vorangestellt, ف + Imperativ faqṭaʿū mit Anapher أيديهما. Nominativ-Ishtighāl.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=38"
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "title": "Akkusativ vs. Nominativ",
+            "content": "Die Wahl zwischen Akk. und Nom. beim vorangestellten Nomen ist nicht frei:\n\n- Akkusativ: wenn ein kontextuell implizites oder explizites Verb den Akk. lizenziert (Virtual-Verb-Analyse).\n- Nominativ: wenn die Konstruktion als Mubtadaʾ + Khabar (Topikalisierung ohne Virtual-Verb) analysiert wird.\n\nDie klassische Grammatik kennt Regeln wann welcher Kasus 'besser' ist (arjaḥ) — etwa dass nach إِذَا der Akk. bevorzugt ist, nach dem Versanfang der Nom. Im Quran beobachtbar:\n\n- 2:6: Akk. (weil إنّ)\n- 24:2, 5:38: Nom. (Versanfang-Topik)\n- 91:13: Akk. (implizites Warn-Verb)"
+          },
+          {
+            "type": "comparison",
+            "title": "Ishtighāl vs. freie Topikalisierung",
+            "content": "Ishtighāl im engeren Sinne erfordert die pronominale Anapher im Verb. Ohne Anapher ist es bloße Mubtadaʾ-Konstruktion oder Vorfeld-Markierung.\n\n| Konstruktion | Beispiel | Merkmal |\n|--------------|---------|---------|\n| Ishtighāl (Akk.) | زَيْدًا ضَرَبْتُهُ | Akk.-Topik + Verb mit Pronomen |\n| Ishtighāl (Nom.) | زَيْدٌ ضَرَبْتُهُ | Nom.-Topik + Verb mit Pronomen |\n| Bloße Topikalisierung | زَيْدٌ قَامَ | Nom.-Topik ohne Anapher im Verb |\n| Normalsatz | قَامَ زَيْدٌ | Verb-Subjekt-Ordnung |\n\nSyntaktisch ist Ishtighāl ein Fall von Nicht-kanonischer Wortstellung mit kompensierender pronominaler Spur."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "In 24:2 (الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا…) — wo ist die pronominale Anapher, die das Ishtighāl markiert?",
+          "hint": "Suche das Pronomen im folgenden Satz, das auf die Vorangestellten zurückverweist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=2"
+        },
+        {
+          "type": "analysis",
+          "prompt": "In 91:13 (نَاقَةَ اللَّهِ وَسُقْيَاهَا) steht ناقة im Akkusativ. Welches Virtual-Verb wird angenommen? Begründe.",
+          "hint": "Kontext ist eine Warnung. Virtual-Verben wie احذروا oder ذروا passen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=13"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche 24:2 (Nom.-Topik) und 91:13 (Akk.-Topik). Was bestimmt die Kasuswahl?",
+          "hint": "Akk.-Wahl hängt mit implizitem Verb zusammen. Nom.-Wahl mit Mubtadaʾ-Analyse.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=13"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist das definierende Merkmal einer Ishtighāl-Konstruktion?",
+            "options": [
+              "Ein Verb ohne Objekt",
+              "Ein vorangestelltes Nomen und ein nachfolgendes Verb mit pronominalem Suffix, das auf das Nomen zurückverweist",
+              "Zwei Verben nacheinander",
+              "Eine Negation"
+            ],
+            "correct": 1,
+            "explanation": "Ishtighāl ist gekennzeichnet durch Topik-Nomen im Vorfeld + anaphorisches Pronomen im folgenden Verb.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=2"
+          },
+          {
+            "question": "In 5:38 (وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا) — was ist die Anapher?",
+            "options": [
+              "ف in فاقطعوا",
+              "Das Plural-Suffix -وا in اقطعوا",
+              "Das Dual-Pronomen -هما in أيديهما",
+              "Die Endung -ة in السارقة"
+            ],
+            "correct": 2,
+            "explanation": "Das Dual-Suffix -هما verweist anaphorisch zurück auf das duale Vorfeld السارق والسارقة. Das ist die Ishtighāl-Anapher.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=38"
+          },
+          {
+            "question": "Warum steht نَاقَةَ in 91:13 im Akkusativ?",
+            "options": [
+              "Weil es Subjekt des Satzes ist",
+              "Weil ein Virtual-Verb (z.B. احذروا) den Akk. lizenziert — Ishtighāl-Analyse",
+              "Weil Nominativ-Singular-Feminina immer Akk. sind",
+              "Zufällige Wahl"
+            ],
+            "correct": 1,
+            "explanation": "Die klassische Analyse nimmt ein implizites Warn-Verb (احذروا / ذَروا) an, das den Akkusativ lizenziert. Das ist der Akkusativ-Typ des Ishtighāl.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=13"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Mafʿul Mutlaq — Absolutes Objekt (المفعول المطلق)",
+    "description": "Das absolute Objekt ist ein Masdar, der ein Verb derselben Wurzel begleitet und entweder die Handlung bekräftigt (توكيد) oder ihre Art und Weise präzisiert (نوع). Im Quran ist es ein stilistisch kraftvolles Mittel der Betonung.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "MUT1",
+      "title": "Mafʿul Mutlaq zur Betonung (توكيد)",
+      "description": "Der häufigste Typ: ein Masdar aus derselben Wurzel wie das Verb, der die Handlung bekräftigt und intensiviert.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n47",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist der Mafʿul Mutlaq?",
+            "content": "Das absolute Objekt (مفعول مطلق — wörtl.: 'ungebundenes/absolutes Objekt') ist ein Masdar, der von einem Verb derselben Wurzel abhängt. Er steht im Akkusativ.\n\nZwei Funktionen:\n1. BETONUNG (توكيد): Der Masdar wiederholt die Verbalhandlung ohne neue Information — er intensiviert nur.\n   Struktur: Verb + Masdar (gleiche Wurzel, Akkusativ)\n   كَلَّمَ تَكْلِيمًا — 'er sprach — wirklich gesprochen'\n   \n2. TYPENANGABE (نوع): Der Masdar gibt an, von welcher Art die Handlung war. Oft mit einem Attribut.\n   قَامَ قِيَامًا حَسَنًا — 'er stand auf — ein schönes Aufstehen'\n\nDer Mafʿul Mutlaq antwortet auf die Frage 'Wie sehr?' (Betonung) oder 'Wie?' (Typenangabe)."
+          },
+          {
+            "type": "explanation",
+            "title": "Masdar aus gleicher Wurzel — Erkennung",
+            "content": "Das wichtigste Erkennungsmerkmal: Der Mafʿul Mutlaq hat dieselbe Wurzel wie das begleitende Verb.\n\nكَلَّمَ (II, k-l-m) + تَكْلِيمًا (Masdar Form II, Akkusativ) ✓\nصَرَفَ (I) + صَرْفًا ✓\nسَبَّحَ (II) + تَسْبِيحًا ✓\n\nManchmal wird der eigentliche Masdar durch ein Synonym ersetzt (Masdar al-naw'):\nقَعَدَ جُلُوسًا — 'er sass — ein Sitzen' (جُلُوسٌ ist Masdar von جَلَسَ, bedeutet dasselbe)\n\nSolche Synonym-Masdar-Substitutionen kommen im Quran vor.\n\nACHTUNG: Nicht jeder Masdar im Akkusativ ist ein Mafʿul Mutlaq. Der Masdar kann auch Mafʿul bihi, Mafʿul li-Ajlihi oder Subjekt sein. Entscheidend: gleiche Wurzel + Verb im selben Satz."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "4:164",
+                "arabic": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+                "explanation": "تَكْلِيمًا = Mafʿul Mutlaq zur Betonung. Masdar Form II von ك-ل-م. Akkusativ Tanwin. 'Gott sprach zu Musa — wirkliches Sprechen.' Der Mafʿul Mutlaq bekräftigt die Handlung des Sprechens.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+              },
+              {
+                "ref": "73:8",
+                "arabic": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
+                "explanation": "تَبْتِيلًا = Mafʿul Mutlaq zur Betonung. Das Verb تَبَتَّلْ ist Form V von ب-ت-ل, der verwendete Masdar تَبْتِيلًا ist jedoch der Masdar von Form II — eine bekannte Masdar-Substitution (Masdar naw'i). 'Wende dich ihm vollständig zu — eine vollständige Zuwendung.' Intensiviert das Ausmaß der geforderten Hingabe.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=8"
+              },
+              {
+                "ref": "33:56",
+                "arabic": "إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُ يُصَلُّونَ عَلَى ٱلنَّبِىِّ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا",
+                "explanation": "تَسْلِيمًا = Mafʿul Mutlaq zur Betonung. Masdar Form II von س-ل-م. 'Und grüßend grüßt ihn.' Die Intensivierung durch den Mafʿul Mutlaq unterstreicht den vollständigen, ernsthaften Charakter des Grüßens.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+              },
+              {
+                "ref": "17:106",
+                "arabic": "لِتَقْرَأَهُ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍ",
+                "explanation": "قُرْآنًا hier ist Mafʿul bihi von فَرَقْنَاهُ, kein Mafʿul Mutlaq — denn es ist nicht von derselben Wurzel wie das Verb فَرَقَ. Zeigt: nicht jeder Akkusativ eines Masdar ist Mafʿul Mutlaq.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=106"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "question": "دَمَّرْنَاهَا تَدْمِيرًا (17:16) — Was ist تَدْمِيرًا?",
+          "answer": "Mafʿul Mutlaq zur Betonung. Masdar Form II von د-م-ر. Akkusativ. 'Wir zerstörten sie — eine vollständige Zerstörung.' Die Betonung durch den Mafʿul Mutlaq drückt Totalität aus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=16"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist das Kernmerkmal, das einen Mafʿul Mutlaq von anderen Akkusativen unterscheidet?",
+            "options": [
+              "Er steht immer am Satzanfang",
+              "Er ist stets definit (mit Artikel)",
+              "Er hat dieselbe Wurzel wie das begleitende Verb",
+              "Er hat ein Pronominalsuffix"
+            ],
+            "correct": 2,
+            "explanation": "Das Kernmerkmal des Mafʿul Mutlaq ist die Wurzelidentität mit dem begleitenden Verb. كَلَّمَ + تَكْلِيمًا, سَبَّحَ + تَسْبِيحًا. Ohne diese Wurzelidentität liegt ein anderer Akkusativ vor.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n44"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MUT2",
+      "title": "Mafʿul Mutlaq als Typenangabe und als Verb-Ersatz",
+      "description": "Der Mafʿul Mutlaq kann auch die Art der Handlung präzisieren oder das Verb selbst ersetzen.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n47",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Typenangabe durch Mafʿul Mutlaq",
+            "content": "Wenn der Mafʿul Mutlaq die Art der Handlung angibt (nicht nur bekräftigt), trägt er ein Attribut:\n\nقَامَ قِيَامًا سَرِيعًا — 'er stand auf schnell' (das Aufstehen war schnell)\nضَرَبَهُ ضَرْبًا شَدِيدًا — 'er schlug ihn hart'\n\nIm Quran: تَسْلِيمًا allein = Betonung. Mit Attribut gäbs Typenangabe. In der Praxis: viele Mafʿul Mutlaq im Quran sind reine Betonungsformen (ohne Attribut).\n\nMafʿul Mutlaq als Verb-Ersatz (بديل الفعل):\nDer Masdar kann auch allein stehen — ohne dazugehöriges Verb — um einen Befehl oder eine Feststellung auszudrücken:\nصَبْرًا = 'Geduld!' (ohne Verb, imperativisch)\nشُكْرًا = 'Dank!' (Ausruf)\n\nIm Quran: فَضَرْبَ الرِّقَابِ (47:4) — 'also: Köpfe abschlagen!' Hier ist فَضَرْبَ ein Mafʿul Mutlaq, der das Verb ersetzt.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "47:4",
+                "arabic": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا فَضَرْبَ ٱلرِّقَابِ",
+                "explanation": "فَضَرْبَ الرِّقَابِ = Mafʿul Mutlaq als Verb-Ersatz (Befehl). ضَرْبَ ist Masdar Form I von ض-ر-ب (schlagen), Akkusativ. الرِّقَابِ = Genitiv (Hals-Substantiv, Iḍāfa). Der Masdar im Akkusativ hat hier imperativen Charakter (Verb-Ersatz-Funktion des Masdar). 'Also: die Nacken (ab)!' Der Mafʿul Mutlaq ersetzt hier den Imperativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+              },
+              {
+                "ref": "2:83",
+                "arabic": "وَقُولُوا لِلنَّاسِ حُسْنًا",
+                "explanation": "حُسْنًا — dies ist KEIN klassischer Mafʿul Mutlaq (andere Wurzel als قَالَ). Es ist ein Mafʿul bihi (Objekt von قُولُوا: 'sagt... Gutes'). Oder es ist ein Hal. Zeigt: Analyse erfordert Prüfung der Wurzelidentität.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "سُبْحَانَ اللَّهِ — Was ist سُبْحَانَ grammatisch?",
+          "answer": "Mafʿul Mutlaq als Verb-Ersatz (Ausruf). Masdar von سَبَحَ (Form I). Nicht zu verwechseln mit dem Form-II-Masdar تَسْبِيح von سَبَّحَ. Akkusativ. اللَّهِ = Genitiv (Iḍāfa: 'Gottes Preis'). Der Masdar steht autonom im Akkusativ mit exklamatorischem Charakter. 'Gottes Preis!' / 'Gepriesen sei Gott!' — eine feststehende formelhafte Wendung.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n44"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist der Unterschied zwischen Mafʿul Mutlaq zur Betonung und zur Typenangabe?",
+            "options": [
+              "Betonung steht im Nominativ, Typenangabe im Akkusativ",
+              "Betonung hat kein Attribut — Typenangabe hat ein beschreibendes Attribut",
+              "Betonung steht vor dem Verb, Typenangabe danach",
+              "Es gibt keinen Unterschied"
+            ],
+            "correct": 1,
+            "explanation": "Beim Mafʿul Mutlaq zur Betonung steht der Masdar allein: ضَرَبَ ضَرْبًا. Beim Mafʿul Mutlaq zur Typenangabe folgt ein Attribut: ضَرَبَ ضَرْبًا شَدِيدًا ('er schlug einen harten Schlag').",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n44"
+          }
+        ]
+      }
+    }
+  ]
+}

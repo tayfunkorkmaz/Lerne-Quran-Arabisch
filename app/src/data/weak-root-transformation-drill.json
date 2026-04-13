@@ -1,0 +1,931 @@
+{
+  "meta": {
+    "title": "Schwache-Wurzel-Transformations-Drill",
+    "description": "Wie و und ي in verschiedenen Formen mutieren, verschmelzen oder verschwinden.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "transformations": [
+    {
+      "id": "hollow_waw",
+      "title": "Hohle Wurzeln mit Waw (فَعَلَ wo ع = و)",
+      "root": "ق-و-ل",
+      "meaning": "sagen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "قَالَ",
+          "note": "Waw → langes Alif (Fatha + و → ā)"
+        },
+        {
+          "form": "Perfekt 3fs",
+          "expected": "قَالَتْ",
+          "note": "Waw → Alif, Ta Marbuta Suffix"
+        },
+        {
+          "form": "Perfekt 3mp",
+          "expected": "قَالُوا",
+          "note": "Waw → Alif, Waw al-Jamaʿa + Schutz-Alif"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَقُولُ",
+          "note": "Waw bleibt als langer Vokal ū"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "قُلْ",
+          "note": "Waw komplett weggefallen! Nur 2 sichtbare Buchstaben"
+        },
+        {
+          "form": "Passiv Perfekt",
+          "expected": "قِيلَ",
+          "note": "Waw → Ya (Passiv-Transformation: u-i → ī)"
+        },
+        {
+          "form": "Aktiv-Partizip",
+          "expected": "قَائِل",
+          "note": "Waw → Hamza auf Ya-Sitz (قَاوِل → قَائِل)"
+        },
+        {
+          "form": "Masdar",
+          "expected": "قَوْل",
+          "note": "Waw bleibt als Konsonant im Masdar"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "112:1",
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "form": "Imperativ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "ref": "2:30",
+          "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ",
+          "form": "Perfekt 3ms",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "ref": "2:8",
+          "arabic": "يَقُولُ ءَامَنَّا بِٱللَّهِ",
+          "form": "Imperfekt 3ms",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "hollow_ya",
+      "title": "Hohle Wurzeln mit Ya (فَعَلَ wo ع = ي)",
+      "root": "س-ي-ر",
+      "meaning": "gehen/wandern",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "سَارَ",
+          "note": "Ya → langes Alif"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَسِيرُ",
+          "note": "Ya bleibt als langer Vokal ī"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "سِرْ",
+          "note": "Ya verschwunden, nur 2 Buchstaben"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "34:18",
+          "arabic": "سِيرُوا فِيهَا لَيَالِىَ وَأَيَّامًا",
+          "form": "Imperativ 2mp",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=18"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "defective_waw",
+      "title": "Defektive Wurzeln mit Waw (فَعَلَ wo ل = و)",
+      "root": "د-ع-و",
+      "meaning": "rufen/einladen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "دَعَا",
+          "note": "Waw → Alif Maqsura/Alif Tawila"
+        },
+        {
+          "form": "Perfekt 3mp",
+          "expected": "دَعَوْا",
+          "note": "Waw erscheint wieder vor Waw al-Jamaʿa"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَدْعُو",
+          "note": "Waw bleibt sichtbar als letzter Radikal"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "اُدْعُ",
+          "note": "Waw fällt am Wortende weg"
+        },
+        {
+          "form": "Aktiv-Partizip",
+          "expected": "دَاعٍ",
+          "note": "Waw → Ya, mit Tanwin Kasra (Triptot)"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "2:186",
+          "arabic": "إِذَا دَعَانِ",
+          "form": "Perfekt 3ms + Suffix",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+        },
+        {
+          "ref": "40:60",
+          "arabic": "ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ",
+          "form": "Imperativ 2mp",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=60"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "defective_ya",
+      "title": "Defektive Wurzeln mit Ya (فَعَلَ wo ل = ي)",
+      "root": "ه-د-ي",
+      "meaning": "leiten, den Weg zeigen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "هَدَى",
+          "note": "Ya → Alif Maqsura (ى)"
+        },
+        {
+          "form": "Perfekt 3fs",
+          "expected": "هَدَتْ",
+          "note": "Ya fällt vor Ta-Suffix weg"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَهْدِي",
+          "note": "Ya bleibt als letzter Radikal"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "اِهْدِ",
+          "note": "Ya fällt am Ende weg"
+        },
+        {
+          "form": "Masdar",
+          "expected": "هُدًى",
+          "note": "Alif Maqsura + Tanwin Fatha"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "1:6",
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "form": "Imperativ + Suffix",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "ref": "2:2",
+          "arabic": "هُدًى لِّلْمُتَّقِينَ",
+          "form": "Masdar",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "assimilated_waw",
+      "title": "Assimilierte Wurzeln (فَعَلَ wo ف = و)",
+      "root": "و-ع-د",
+      "meaning": "versprechen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "وَعَدَ",
+          "note": "Waw bleibt im Perfekt erhalten"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَعِدُ",
+          "note": "Waw VERSCHWINDET komplett im Imperfekt!"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "عِدْ",
+          "note": "Waw verschwunden, nur 2 Buchstaben"
+        },
+        {
+          "form": "Masdar",
+          "expected": "وَعْد",
+          "note": "Waw bleibt im Masdar"
+        },
+        {
+          "form": "Form IV",
+          "expected": "أَوْعَدَ",
+          "note": "Waw bleibt in abgeleiteten Formen"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "9:68",
+          "arabic": "وَعَدَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْكُفَّارَ نَارَ جَهَنَّمَ",
+          "form": "Perfekt Form I — Waw bleibt im Perfekt",
+          "note": "Im Imperfekt hingegen fällt das Waw weg: يَعِدُ statt *يَوْعِدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=68"
+        },
+        {
+          "ref": "20:58",
+          "arabic": "فَٱجْعَلْ بَيْنَنَا وَبَيْنَكَ مَوْعِدًا",
+          "form": "Ism Zaman/Makan",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=58"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "geminate",
+      "title": "Verdoppelte Wurzeln (فَعَلَ wo ع = ل, mediae geminatae)",
+      "root": "م-د-د",
+      "meaning": "ausstrecken/ausdehnen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "مَدَّ",
+          "note": "Der 2. und 3. Radikal verschmelzen zu einem verdoppelten Konsonanten: م-د-د → مَدَّ (Idgham)"
+        },
+        {
+          "form": "Perfekt 3fs",
+          "expected": "مَدَّتْ",
+          "note": "Verdopplung bleibt vor konsonantischem Suffix"
+        },
+        {
+          "form": "Perfekt 3mp",
+          "expected": "مَدُّوا",
+          "note": "Verdopplung bleibt, Damma vor Waw al-Jamaʿa"
+        },
+        {
+          "form": "Perfekt 1s",
+          "expected": "مَدَدْتُ",
+          "note": "Vor konsonantischem Suffix TRENNT sich die Verdopplung wieder: م-د-د-ت"
+        },
+        {
+          "form": "Perfekt 3fp",
+          "expected": "مَدَدْنَ",
+          "note": "Trennung vor konsonantischem Pronominalsuffix: م-د-د-ن"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَمُدُّ",
+          "note": "Verdopplung im Imperfekt, Damma als Stammvokal"
+        },
+        {
+          "form": "Imperfekt 3ms (Jazm)",
+          "expected": "يَمُدَّ / يَمْدُدْ",
+          "note": "Bei Jazm zwei Möglichkeiten: Verdopplung mit Fatha ODER Trennung mit Sukun"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "مُدَّ",
+          "note": "Verdopplung bleibt, kein Hamzat al-Wasl nötig"
+        },
+        {
+          "form": "Aktiv-Partizip",
+          "expected": "مَادّ",
+          "note": "Reguläres Partizip-Muster, Verdopplung bleibt"
+        },
+        {
+          "form": "Passiv-Partizip",
+          "expected": "مَمْدُود",
+          "note": "Trennung im Passiv-Partizip: die Radikale erscheinen getrennt"
+        },
+        {
+          "form": "Masdar",
+          "expected": "مَدّ",
+          "note": "Masdar gleicht der Perfektform 3ms"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "71:12",
+          "arabic": "وَيُمْدِدْكُم بِأَمْوَٰلٍ وَبَنِينَ",
+          "form": "Imperfekt (Jazm) — Form IV, Trennung bei Jazm",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=12"
+        },
+        {
+          "ref": "31:27",
+          "arabic": "وَٱلْبَحْرُ يَمُدُّهُ مِن بَعْدِهِ سَبْعَةُ أَبْحُرٍ",
+          "form": "Imperfekt 3ms",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=27"
+        },
+        {
+          "ref": "13:3",
+          "arabic": "وَهُوَ ٱلَّذِى مَدَّ ٱلْأَرْضَ",
+          "form": "Perfekt 3ms",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=3"
+        }
+      ],
+      "additionalRoots": [
+        {
+          "root": "ر-د-د",
+          "meaning": "zurückgeben/abweisen",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "رَدَّ"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَرُدُّ"
+            },
+            {
+              "form": "Perfekt 1s",
+              "expected": "رَدَدْتُ"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "رُدَّ"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:109",
+            "arabic": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم",
+            "form": "Imperfekt 3mp",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+          }
+        },
+        {
+          "root": "ض-ل-ل",
+          "meaning": "abirren/sich verirren",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "ضَلَّ"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَضِلُّ"
+            },
+            {
+              "form": "Aktiv-Partizip",
+              "expected": "ضَالّ"
+            },
+            {
+              "form": "Masdar",
+              "expected": "ضَلَال"
+            }
+          ],
+          "quranExample": {
+            "ref": "1:7",
+            "arabic": "وَلَا ٱلضَّآلِّينَ",
+            "form": "Aktiv-Partizip (Plural)",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+          }
+        },
+        {
+          "root": "ح-ق-ق",
+          "meaning": "wahr sein/Recht haben",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "حَقَّ"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَحِقُّ"
+            },
+            {
+              "form": "Masdar",
+              "expected": "حَقّ"
+            }
+          ],
+          "quranExample": {
+            "ref": "36:7",
+            "arabic": "لَقَدْ حَقَّ ٱلْقَوْلُ عَلَىٰٓ أَكْثَرِهِمْ",
+            "form": "Perfekt 3ms",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=7"
+          }
+        },
+        {
+          "root": "م-س-س",
+          "meaning": "berühren",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "مَسَّ"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَمَسُّ"
+            },
+            {
+              "form": "Perfekt 3fs",
+              "expected": "مَسَّتْ"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:275",
+            "arabic": "كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ",
+            "form": "Masdar",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+          }
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "doubly_weak",
+      "title": "Doppelt schwache Wurzeln (zwei schwache Radikale)",
+      "root": "و-ق-ي",
+      "meaning": "schützen/behüten",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "وَقَى",
+          "note": "Waw (1. Radikal) bleibt im Perfekt, Ya (3. Radikal) → Alif Maqsura"
+        },
+        {
+          "form": "Perfekt 3mp",
+          "expected": "وَقَوْا",
+          "note": "Ya → Waw vor Waw al-Jamaʿa"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَقِي",
+          "note": "Waw (1. Radikal) fällt weg (wie bei assimilierten Wurzeln), Ya bleibt"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "قِ",
+          "note": "Nur EIN sichtbarer Buchstabe! Waw fällt weg, Ya fällt weg"
+        },
+        {
+          "form": "Aktiv-Partizip",
+          "expected": "وَاقٍ",
+          "note": "Waw bleibt, Ya → Kasra + Tanwin"
+        },
+        {
+          "form": "Form VIII (Perfekt)",
+          "expected": "اتَّقَى",
+          "note": "Waw assimiliert zu Ta (و + ت → تّ), Ya → Alif Maqsura"
+        },
+        {
+          "form": "Form VIII (Imperfekt)",
+          "expected": "يَتَّقِي",
+          "note": "Doppel-Ta bleibt, Ya als letzter Radikal"
+        },
+        {
+          "form": "Form VIII (Partizip)",
+          "expected": "مُتَّقٍ",
+          "note": "Mim + doppeltes Ta, Ya fällt mit Tanwin-Kasra"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "3:28",
+          "arabic": "إِلَّآ أَن تَتَّقُوا مِنْهُمْ",
+          "form": "Form VIII Imperfekt 2mp",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=28"
+        },
+        {
+          "ref": "2:2",
+          "arabic": "هُدًى لِّلْمُتَّقِينَ",
+          "form": "Form VIII Partizip (Plural)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "ref": "76:11",
+          "arabic": "ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ",
+          "form": "Perfekt 3ms + Suffix",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=11"
+        }
+      ],
+      "additionalRoots": [
+        {
+          "root": "و-ف-ي",
+          "meaning": "erfüllen/voll geben",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "وَفَى"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَفِي"
+            },
+            {
+              "form": "Form II (Perfekt)",
+              "expected": "وَفَّى"
+            },
+            {
+              "form": "Form IV (Perfekt)",
+              "expected": "أَوْفَى"
+            },
+            {
+              "form": "Form IV (Imperfekt)",
+              "expected": "يُوفِي"
+            }
+          ],
+          "quranExample": {
+            "ref": "53:37",
+            "arabic": "وَإِبْرَٰهِيمَ ٱلَّذِى وَفَّىٰٓ",
+            "form": "Form II Perfekt 3ms",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=37"
+          }
+        },
+        {
+          "root": "ر-ء-ي",
+          "meaning": "sehen",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "رَأَى",
+              "note": "Hamza (2. Radikal) auf Alif-Sitz, Ya → Alif Maqsura"
+            },
+            {
+              "form": "Perfekt 3mp",
+              "expected": "رَأَوْا",
+              "note": "Ya → Waw vor Waw al-Jamaʿa"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَرَى",
+              "note": "Hamza fällt komplett weg! يَرْأَيُ → يَرَى"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "رَ",
+              "note": "Nur EIN Buchstabe! Hamza und Ya beide weg"
+            },
+            {
+              "form": "Form IV (Perfekt)",
+              "expected": "أَرَى",
+              "note": "Zeigen — Hamza fällt weg in Form IV"
+            },
+            {
+              "form": "Form IV (Imperfekt)",
+              "expected": "يُرِي",
+              "note": "Doppelt reduziert"
+            }
+          ],
+          "quranExample": {
+            "ref": "53:13",
+            "arabic": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ",
+            "form": "Perfekt 3ms + Suffix",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=13"
+          }
+        },
+        {
+          "root": "و-ل-ي",
+          "meaning": "nahe sein/verwalten",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "وَلِيَ"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَلِي",
+              "note": "Waw fällt im Imperfekt weg"
+            },
+            {
+              "form": "Form II (Perfekt)",
+              "expected": "وَلَّى",
+              "note": "Waw bleibt, Ya → Alif Maqsura"
+            },
+            {
+              "form": "Form V (Perfekt)",
+              "expected": "تَوَلَّى",
+              "note": "Waw als Infix, Ya → Alif Maqsura"
+            },
+            {
+              "form": "Aktiv-Partizip",
+              "expected": "وَالٍ",
+              "note": "Ya → Tanwin-Kasra"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:115",
+            "arabic": "فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ ٱللَّهِ",
+            "form": "Form II Imperfekt 2mp",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=115"
+          }
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    },
+    {
+      "id": "hamzated",
+      "title": "Hamzierte Wurzeln (Wurzeln mit Hamza als Radikal)",
+      "root": "ء-م-ر",
+      "meaning": "befehlen/anordnen",
+      "forms": [
+        {
+          "form": "Perfekt 3ms",
+          "expected": "أَمَرَ",
+          "note": "Hamza als 1. Radikal steht auf Alif-Sitz mit Fatha"
+        },
+        {
+          "form": "Imperfekt 3ms",
+          "expected": "يَأْمُرُ",
+          "note": "Hamza auf Alif-Sitz nach Sukun-Position"
+        },
+        {
+          "form": "Imperativ 2ms",
+          "expected": "مُرْ",
+          "note": "Hamza fällt im Imperativ weg! Aus اُؤْمُرْ wird مُرْ durch doppelte Kürzung"
+        },
+        {
+          "form": "Aktiv-Partizip",
+          "expected": "آمِر",
+          "note": "Zwei Hamza verschmelzen: أَاْمِر → آمِر (Madda)"
+        },
+        {
+          "form": "Passiv-Partizip",
+          "expected": "مَأْمُور",
+          "note": "Hamza auf Alif-Sitz nach Sukun"
+        },
+        {
+          "form": "Masdar",
+          "expected": "أَمْر",
+          "note": "Hamza bleibt auf Alif-Sitz"
+        },
+        {
+          "form": "Form IV (Perfekt)",
+          "expected": "آمَرَ",
+          "note": "Hamza al-Wasl + Hamza der Wurzel → Madda: أَأْمَرَ → آمَرَ"
+        }
+      ],
+      "quranExamples": [
+        {
+          "ref": "7:28",
+          "arabic": "قُلْ إِنَّ ٱللَّهَ لَا يَأْمُرُ بِٱلْفَحْشَآءِ",
+          "form": "Imperfekt 3ms",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=28"
+        },
+        {
+          "ref": "11:87",
+          "arabic": "تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ",
+          "form": "Imperfekt 3fs",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=87"
+        },
+        {
+          "ref": "96:1",
+          "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+          "form": "Imperativ (Wurzel ق-ر-أ)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+        }
+      ],
+      "additionalRoots": [
+        {
+          "root": "ق-ر-أ",
+          "meaning": "lesen/rezitieren",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "قَرَأَ",
+              "note": "Hamza als 3. Radikal auf Alif-Sitz (nach Fatha)"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَقْرَأُ",
+              "note": "Hamza auf Alif-Sitz am Wortende"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "اقْرَأْ",
+              "note": "Hamzat al-Wasl + Hamza am Ende (Sukun)"
+            },
+            {
+              "form": "Aktiv-Partizip",
+              "expected": "قَارِئ",
+              "note": "Hamza am Ende nach Kasra → Ya-Sitz"
+            },
+            {
+              "form": "Masdar",
+              "expected": "قِرَاءَة",
+              "note": "Hamza auf nabira (alleinstehend oder auf Alif) nach langem Vokal"
+            }
+          ],
+          "quranExample": {
+            "ref": "17:106",
+            "arabic": "وَقُرْءَانًا فَرَقْنَٰهُ لِتَقْرَأَهُ عَلَى ٱلنَّاسِ",
+            "form": "Imperfekt 2ms + Suffix",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=106"
+          }
+        },
+        {
+          "root": "س-ء-ل",
+          "meaning": "fragen/bitten",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "سَأَلَ",
+              "note": "Hamza als 2. Radikal auf Alif-Sitz"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَسْأَلُ",
+              "note": "Hamza nach Sukun auf Alif-Sitz"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "اسْأَلْ / سَلْ",
+              "note": "Zwei Formen: mit Hamza (regulär) oder ohne (Kürzung, häufiger im Quran)"
+            },
+            {
+              "form": "Masdar",
+              "expected": "سُؤَال",
+              "note": "Hamza auf Waw-Sitz nach Damma"
+            },
+            {
+              "form": "Passiv Perfekt",
+              "expected": "سُئِلَ",
+              "note": "Hamza auf Ya-Sitz nach Damma + Kasra"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:108",
+            "arabic": "أَمْ تُرِيدُونَ أَن تَسْـَٔلُوا رَسُولَكُمْ",
+            "form": "Imperfekt 2mp",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+          }
+        },
+        {
+          "root": "ء-خ-ذ",
+          "meaning": "nehmen/ergreifen",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "أَخَذَ",
+              "note": "Hamza als 1. Radikal auf Alif"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَأْخُذُ",
+              "note": "Hamza auf Alif-Sitz"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "خُذْ",
+              "note": "Hamza fällt im Imperativ komplett weg (wie bei أَمَرَ)"
+            },
+            {
+              "form": "Form VIII (Perfekt)",
+              "expected": "اتَّخَذَ",
+              "note": "Hamza → assimiliert zum Ta: ائتخذ → اتّخذ"
+            },
+            {
+              "form": "Masdar",
+              "expected": "أَخْذ",
+              "note": "Hamza bleibt"
+            }
+          ],
+          "quranExample": {
+            "ref": "7:145",
+            "arabic": "فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا بِأَحْسَنِهَا",
+            "form": "Imperativ + Imperfekt",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=145"
+          }
+        },
+        {
+          "root": "ء-ك-ل",
+          "meaning": "essen",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "أَكَلَ",
+              "note": "Hamza als 1. Radikal auf Alif"
+            },
+            {
+              "form": "Imperfekt 3ms",
+              "expected": "يَأْكُلُ",
+              "note": "Hamza auf Alif-Sitz nach Sukun"
+            },
+            {
+              "form": "Imperativ 2ms",
+              "expected": "كُلْ",
+              "note": "Hamza fällt weg! (wie bei أَمَرَ und أَخَذَ)"
+            },
+            {
+              "form": "Masdar",
+              "expected": "أَكْل",
+              "note": "Hamza bleibt"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:35",
+            "arabic": "وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا",
+            "form": "Imperativ Dual",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+          }
+        },
+        {
+          "root": "ء-م-ن",
+          "meaning": "sicher sein/glauben",
+          "keyForms": [
+            {
+              "form": "Perfekt 3ms",
+              "expected": "أَمِنَ",
+              "note": "Hamza auf Alif-Sitz"
+            },
+            {
+              "form": "Form IV (Perfekt)",
+              "expected": "آمَنَ",
+              "note": "Zwei Hamzas verschmelzen zu Madda: أَأْمَنَ → آمَنَ"
+            },
+            {
+              "form": "Form IV (Imperfekt)",
+              "expected": "يُؤْمِنُ",
+              "note": "Hamza auf Waw-Sitz nach Damma"
+            },
+            {
+              "form": "Form IV (Partizip)",
+              "expected": "مُؤْمِن",
+              "note": "Hamza auf Waw-Sitz nach Damma"
+            },
+            {
+              "form": "Form IV (Masdar)",
+              "expected": "إِيمَان",
+              "note": "Hamza → Ya durch Lautregel: إِئْمَان → إِيمَان"
+            }
+          ],
+          "quranExample": {
+            "ref": "2:3",
+            "arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ",
+            "form": "Form IV Imperfekt 3mp",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+          }
+        }
+      ],
+      "hamzaSeatRules": [
+        {
+          "rule": "Nach Fatha",
+          "seat": "Alif-Sitz (أَ)",
+          "example": "سَأَلَ"
+        },
+        {
+          "rule": "Nach Damma",
+          "seat": "Waw-Sitz (ؤُ)",
+          "example": "يُؤْمِنُ"
+        },
+        {
+          "rule": "Nach Kasra",
+          "seat": "Ya-Sitz (ئِ)",
+          "example": "سُئِلَ"
+        },
+        {
+          "rule": "Nach Sukun",
+          "seat": "Alif-Sitz (أْ)",
+          "example": "يَأْمُرُ"
+        },
+        {
+          "rule": "Nach langem Alif",
+          "seat": "Alleinstehend (ء)",
+          "example": "قِرَاءَة"
+        },
+        {
+          "rule": "Am Wortende nach Fatha",
+          "seat": "Alif-Sitz (أَ)",
+          "example": "قَرَأَ"
+        },
+        {
+          "rule": "Am Wortende nach Sukun",
+          "seat": "Alleinstehend (ءْ)",
+          "example": "اقْرَأْ"
+        },
+        {
+          "rule": "Zwei Hamzas am Wortanfang",
+          "seat": "Madda (آ)",
+          "example": "آمَنَ von أَأْمَنَ"
+        }
+      ],
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n130"
+    }
+  ]
+}

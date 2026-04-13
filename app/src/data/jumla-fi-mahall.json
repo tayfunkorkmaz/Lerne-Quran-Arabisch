@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "title": "Jumla fi Mahall — Satz in Kasusposition (الجملة في موضع)",
+    "description": "Im Arabischen können ganze Sätze die syntaktische Position eines Nomens einnehmen. Obwohl der Satz intern seinen eigenen Regeln folgt, wird er von aussen wie ein Nomen behandelt — mit einer virtuellen Kasuszuweisung. Dies ist entscheidend für das Verstehen komplexer Quranstrukturen.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar (3rd ed.)",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "JFM1",
+      "title": "Das Konzept 'fi mahall' — virtuelle Kasusposition",
+      "description": "Wie arabische Grammatik Sätze als Nomen behandelt und warum diese Unterscheidung für die Textanalyse wichtig ist.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was bedeutet 'fi mahall'?",
+            "content": "في موضع / في محل bedeutet 'an der Stelle von' oder 'in der Position von'. Die arabische Grammatik erkennt an, dass ganze Sätze bestimmte syntaktische Positionen einnehmen können, die normalerweise für Nomina reserviert sind.\n\nDer Satz selbst flektiert nicht (ein Satz hat kein Kasusende), aber er befindet sich 'in der Kasusposition' des Nominativs, Akkusativs oder Genitivs.\n\nWarum wichtig?\n- Es erklärt, warum bestimmte Sätze nach Verben oder Nomina stehen können, ohne formal zu flektieren\n- Es erklärt, warum relative und attributive Sätze keine Kasusmorphologie zeigen\n- Es ist die Grundlage für das Verstehen von Hal-Sätzen, Relativsätzen und indirekter Rede im Quran\n\nVier Hauptpositionen, in denen Sätze stehen:\n1. في محل رفع (Nominativ-Position): als Subjekt, als Khabar\n2. في محل نصب (Akkusativ-Position): als Objekt, als Hal\n3. في محل جر (Genitiv-Position): nach Präposition, als Iḍāfa-Glied\n4. Kein محل (ohne virtuelle Kasusposition): Relativsätze nach definiten Nomina, parenthetische Sätze"
+          },
+          {
+            "type": "explanation",
+            "title": "Sätze في محل رفع (Nominativ-Position)",
+            "content": "Ein Satz nimmt eine Nominativ-Position ein, wenn er an der Stelle eines Subjekts oder Prädikats steht.\n\nALS MUBTADA': أَنْ تَصُومُوا خَيْرٌ لَّكُمْ (2:184)\nDer Masdar-Satz أَنْ تَصُومُوا steht في محل رفع مبتدأ. خَيْرٌ ist Khabar.\n\nALS KHABAR: هُوَ يَقُولُ الْحَقَّ\nDer Verbalsatz يَقُولُ الْحَقَّ steht في محل رفع خبر (Khabar des Nominalsatzes). هُوَ ist Mubtada.\n\nALS KHABAR NACH INNA: إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَيَجْعَلُ لَهُمُ الرَّحْمَٰنُ وُدًّا\nDer Hauptsatz سَيَجْعَلُ... steht في محل رفع خبر inna. Khabar inna steht im Nominativ (nicht Akkusativ), weil إِنَّ nur das Ism (Subjekt) in den Akkusativ setzt, das Khabar (Prädikat) aber im Nominativ belässt.\n\nALS FA'IL-ERSATZ (nach dem Passiv): قِيلَ ادْخُلُوا الْجَنَّةَ\nDer Imperativsatz ادْخُلُوا الْجَنَّةَ steht في محل رفع فاعل (oder نائب الفاعل nach قِيلَ).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+          },
+          {
+            "type": "explanation",
+            "title": "Sätze في محل نصب (Akkusativ-Position)",
+            "content": "Am häufigsten: Sätze als direkte Objekte und als Hal-Sätze.\n\nALS MAF'UL BIHI: يَعْلَمُ أَنَّهُمْ كَاذِبُونَ\nDer أَنَّ-Satz steht في محل نصب مفعول به.\n\nALS HAL: جَاءَ وَهُوَ يَبْكِي\nDer Nominalsatz وَهُوَ يَبْكِي steht في محل نصب حال. Obwohl هُوَ Nominativ ist (Mubtada) und يَبْكِي Khabar, nimmt die ganze Phrase Akkusativ-Position ein."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:184",
+                "arabic": "وَأَن تَصُومُوا خَيْرٌ لَّكُمْ",
+                "explanation": "أَنْ تَصُومُوا = في محل رفع مبتدأ. Der Masdar-Satz ('dass ihr fastet') nimmt Subjektposition ein. خَيْرٌ = Khabar (Nominativ, stimmt mit dem virtuellen Nominativ des Mubtada überein).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+              },
+              {
+                "ref": "2:77",
+                "arabic": "أَوَلَا يَعْلَمُونَ أَنَّ ٱللَّهَ يَعْلَمُ",
+                "explanation": "أَنَّ اللَّهَ يَعْلَمُ = في محل نصب مفعول به. Der أَنَّ-Satz steht als direktes Objekt von يَعْلَمُونَ. Er nimmt virtuell Akkusativ-Position ein, obwohl اللَّهَ darin Ism anna (Akkusativ) und يَعْلَمُ Khabar ist.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=77"
+              },
+              {
+                "ref": "3:39",
+                "arabic": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ",
+                "explanation": "وَهُوَ قَائِمٌ يُصَلِّي = في محل نصب حال. Der ganze Nominalsatz nimmt Hal-Akkusativ-Position ein. Intern: هُوَ = Mubtada (Nominativ), قَائِمٌ = Khabar (Nominativ). Aber extern: die Phrase ist 'in Akkusativ-Position'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+              },
+              {
+                "ref": "2:2",
+                "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+                "explanation": "لَا رَيْبَ فِيهِ = in mahall raf' (Khabar oder attributiver Satz nach ذَٰلِكَ الْكِتَابُ). Der Negativsatz nimmt Prädikatposition ein. هُدًى = zusätzlicher Khabar oder Hal (umstritten). Zeigt: auch einfache Verneinungssätze können Prädikatfunktion haben.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "قَالَ إِنِّي عَبْدُ اللَّهِ (19:30) — In welcher Position steht إِنِّي عَبْدُ اللَّهِ?",
+          "answer": "في محل نصب مفعول به (Objekt von قَالَ). Der ganze إِنَّ-Satz ist das Zitat, das 'Isa sagte — er nimmt Akkusativ-Position als indirektes Objekt ein. Intern: عَبْدُ اللَّهِ ist Khabar (Nominativ), den der Ism-inna (erwartet im Akkusativ) begleitet: إِنِّي = إِنَّ + Pronomen (Akkusativ = ي).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=30"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was bedeutet es, wenn ein Satz في محل نصب حال steht?",
+            "options": [
+              "Jedes Wort im Satz steht im Akkusativ",
+              "Der Satz als Ganzes nimmt eine Hal-Akkusativ-Position ein, obwohl seine internen Elemente ihre eigenen Kasus behalten",
+              "Der Satz muss mit Fatha enden",
+              "Der Satz steht nach einer Präposition"
+            ],
+            "correct": 1,
+            "explanation": "في محل نصب حال bedeutet: Die gesamte Phrase nimmt virtuelle Akkusativ-Position (als Hal) ein. Intern folgt der Satz seinen eigenen Regeln — ein Nominalsatz hat Nominative Kasus für Mubtada und Khabar. Aber nach aussen hin ist die ganze Phrase ein Hal.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n325"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+    },
+    {
+      "id": "JFM2",
+      "title": "Sätze ohne Kasusposition — Relativsätze und Parenthesen",
+      "description": "Nicht jeder Satz nach einem Nomen hat eine Kasusposition. Relativsätze nach definiten Nomina und parenthetische Einschübe haben kein 'mahall'.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Sätze ohne محل",
+            "content": "Bestimmte Sätze haben keine virtuelle Kasusposition (لا محل له من الاعراب):\n\n1. RELATIVSATZ NACH DEFINITEM NOMEN: الَّذِينَ يُؤْمِنُونَ\nDer Relativsatz يُؤْمِنُونَ nach dem Relativpronomen الَّذِينَ hat kein eigenes محل — er ist die 'Silah' (Verbindung) des Relativpronomens. Die grammatische Funktion trägt das Relativpronomen.\n\n2. RELATIVSATZ NACH INDEFINITEM NOMEN (= Sifa-Satz): رَجُلٌ يَعْلَمُ\nEin Satz, der ein indefinites Nomen modifiziert, steht في محل des Kasus seines Bezugsnomens (als Sifa/Attribut). Hier hat er ein محل.\n\n3. PARENTHESE (اعتراض): Eingeschobene Sätze ohne syntaktische Bindung\n4. HAUPTSAETZE ('Jumla Istinafiyya'): Ein neuer Hauptsatz nach einem anderen Hauptsatz — keine Kasusposition.\n\nDie Unterscheidung definit/indefinit beim modifizierten Nomen ist der Schlüssel:\n- الرَّجُلُ الَّذِي يَعْلَمُ: الَّذِي nimmt die syntaktische Position als Attribut ein, hat Kasusposition\n- رَجُلٌ يَعْلَمُ: Der Satz يَعْلَمُ selbst ist Sifa (Attribut) في محل رفع Sifa (weil رَجُلٌ im Nominativ steht)"
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "1:7",
+                "arabic": "ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+                "explanation": "الَّذِينَ = Relativpronomen (في محل جر — Iḍāfa-Genitiv nach صِرَاطَ). Der Relativsatz أَنْعَمْتَ عَلَيْهِمْ hat لا محل له — er ist die Silah des Relativpronomens. Die Kasusposition trägt الَّذِينَ, nicht der Satz selbst.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+              },
+              {
+                "ref": "2:3",
+                "arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ",
+                "explanation": "الَّذِينَ = Relativpronomen في محل رفع مبتدأ (oder andere Position je nach Analyse). يُؤْمِنُونَ = Silah-Satz (لا محل له). Die gesamte Phrase الَّذِينَ يُؤْمِنُونَ nimmt Mubtada-Position ein; der Relativsatz selbst hat kein eigenes محل.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+              },
+              {
+                "ref": "2:285",
+                "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِ",
+                "explanation": "بِمَا أُنزِلَ = بِ + مَا (Relativpronomen) + Relativsatz أُنزِلَ. مَا steht في محل جر (nach بِ). Der Relativsatz أُنزِلَ إِلَيْهِ لا محل له — er ist Silah des مَا.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "distinction",
+          "question": "Was ist der Unterschied zwischen الَّذِينَ يُؤْمِنُونَ und رَجُلٌ يُؤْمِنُ in Bezug auf das محل des Satzes?",
+          "answer": "الَّذِينَ يُؤْمِنُونَ: يُؤْمِنُونَ ist Silah (لا محل له — kein محل). Das Relativpronomen الَّذِينَ trägt die grammatische Position. رَجُلٌ يُؤْمِنُ: يُؤْمِنُ ist Sifa eines indefiniten Nomens — في محل رفع صفة لـ رَجُل (weil رَجُلٌ im Nominativ steht). Der Satz hat hier ein محل als Attribut.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n325"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Warum hat der Relativsatz nach einem definiten Nomen (Silah) kein محل?",
+            "options": [
+              "Weil er im Genitiv steht",
+              "Weil er die grammatische Position des Relativpronomens erklärt — das Pronomen trägt die Position, der Satz nur die Bedeutung",
+              "Weil er immer im Akkusativ steht",
+              "Weil Relativsätze generell keine Grammatikfunktion haben"
+            ],
+            "correct": 1,
+            "explanation": "Das Relativpronomen (الَّذِي, الَّذِينَ, مَا, مَنْ) nimmt die grammatische Position (Subjekt, Objekt etc.) ein. Der Relativsatz danach ist seine 'Silah' — er erklärt, WEN das Pronomen meint. Daher hat der Satz selbst kein eigenes محل.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n325"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": "JFM3",
+      "title": "Sätze in Jarr-Position (fi mahall jarr)",
+      "description": "Ganze Sätze können eine Genitiv-Position einnehmen — typischerweise nach Präpositionen oder als Mudaf ilayh nach Zuruf. Der Satz steht dann في محل جر.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Wann steht ein Satz في محل جر?",
+            "content": "Im Arabischen können bestimmte Wörter einen ganzen Satz als Komplement im Genitiv regieren. Der Satz steht dann في محل جر (in Genitiv-Position), obwohl er intern seinen eigenen syntaktischen Regeln folgt.\n\nDies geschieht vor allem in drei Kontexten:\n\n1. PRÄPOSITION + RELATIVPARTIKEL + SATZ: بِمَا كَانُوا يَكْذِبُونَ — die Präposition بِ regiert مَا, und der Relativsatz كَانُوا يَكْذِبُونَ ist die Silah. مَا steht في محل جر nach بِ.\n\n2. ZARF ALS MUDAF + SATZ ALS MUDAF ILAYH: حَيْثُ خَرَجَ — das Ẓarf حَيْثُ ist Mudaf, der Satz خَرَجَ steht في محل جر als Mudaf ilayh. Wenn zusätzlich eine Präposition vorsteht (مِنْ حَيْثُ خَرَجَ), steht حَيْثُ في محل جر nach مِنْ, und der Satz خَرَجَ steht في محل جر als Mudaf ilayh von حَيْثُ.\n\n3. SIFA-SATZ NACH INDEFINITEM NOMEN IM GENITIV: أُمَّةً مِّنَ النَّاسِ يَسْقُونَ — wenn das Bezugsnomen im Genitiv steht, nimmt der beschreibende Satz في محل جر als Sifa ein.\n\nDer Satz selbst zeigt keine Genitiv-Morphologie (Sätze flektieren nicht), aber er nimmt virtuell die Genitiv-Position ein."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:189",
+                "arabic": "وَأْتُوا ٱلْبُيُوتَ مِنْ",
+                "explanation": "Kontext des Verses: وَلَيْسَ الْبِرُّ بِأَن تَأْتُوا الْبُيُوتَ مِن ظُهُورِهَا — und später: مِنْ حَيْثُ خَرَجَ (vgl. 2:149-150 für die volle Phrase مِنْ حَيْثُ خَرَجْتَ). حَيْثُ = Ẓarf (Mudaf), مبني auf Damma. Der Satz خَرَجَ/خَرَجْتَ steht في محل جر als Mudaf ilayh von حَيْثُ. Die Präposition مِنْ regiert حَيْثُ, und حَيْثُ regiert seinerseits den Satz im Genitiv.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=149"
+              },
+              {
+                "ref": "28:23",
+                "arabic": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ",
+                "explanation": "يَسْقُونَ = Verbalsatz nach dem indefiniten Nomen أُمَّةً. Syntaktisch steht يَسْقُونَ في محل نصب — entweder als Hal (Zustandssatz zu أُمَّةً) oder als Sifa (Attributsatz). Da أُمَّةً im Akkusativ steht (Mafʿul bihi von وَجَدَ), nimmt der beschreibende Satz في محل نصب ein. 'Er fand dort eine Gruppe von Menschen, die tränkten.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=23"
+              },
+              {
+                "ref": "2:10",
+                "arabic": "وَلَهُمْ عَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْذِبُونَ",
+                "explanation": "بِمَا كَانُوا يَكْذِبُونَ — بِ = Präposition. مَا = Relativpronomen في محل جر nach بِ. Der Satz كَانُوا يَكْذِبُونَ ist Silah (لا محل له). Die gesamte Phrase steht als Jarr wa-Majrur. 'Wegen dessen, dass sie zu lügen pflegten.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+              },
+              {
+                "ref": "83:6",
+                "arabic": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ",
+                "explanation": "يَوْمَ = Ẓarf (Mudaf im Akkusativ). يَقُومُ النَّاسُ = Satz في محل جر als Mudaf ilayh. Der Verbalsatz nimmt die Genitiv-Position als zweites Glied der Iḍāfa-Konstruktion ein. 'Am Tag, da die Menschen vor dem Herrn der Welten stehen.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=6"
+              },
+              {
+                "ref": "14:42",
+                "arabic": "وَلَا تَحْسَبَنَّ ٱللَّهَ غَٰفِلًا عَمَّا يَعْمَلُ",
+                "explanation": "عَمَّا يَعْمَلُ — عَنْ + مَا (Relativpronomen في محل جر). Der Satz يَعْمَلُ الظَّالِمُونَ ist Silah von مَا (لا محل له). Die gesamte Phrase: 'von dem, was die Ungerechten tun.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=42"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "مِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ (2:149) — In welcher Position steht der Satz خَرَجْتَ?",
+          "answer": "خَرَجْتَ steht في محل جر als Mudaf ilayh von حَيْثُ. حَيْثُ ist ein Ẓarf (Ortsadverb), das als Mudaf fungiert und den folgenden Satz im Genitiv regiert. Die Präposition مِنْ regiert حَيْثُ selbst. Struktur: مِنْ + حَيْثُ (في محل جر nach مِنْ) + خَرَجْتَ (في محل جر als Mudaf ilayh).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=149"
+        },
+        {
+          "type": "analysis",
+          "question": "فَبِمَا رَحْمَةٍ مِّنَ اللَّهِ لِنتَ لَهُمْ (3:159) — Welche Funktion hat بِمَا hier?",
+          "answer": "بِ = Präposition. مَا hier ist verstärkendes مَا (keine Relativpartikel). رَحْمَةٍ steht im Genitiv nach بِ (مَا ist eingeschoben). Die Phrase بِمَا رَحْمَةٍ steht als Jarr wa-Majrur: 'durch eine Barmherzigkeit von Gott bist du sanft zu ihnen gewesen.' Hier regiert مَا keinen Satz — es ist ein einfacher Jarr wa-Majrur mit eingeschobenem verstärkendem مَا.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "type": "analysis",
+          "question": "يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ (83:6) — Warum steht يَقُومُ النَّاسُ في محل جر?",
+          "answer": "يَوْمَ ist ein Ẓarf az-Zaman (Zeitadverb), das hier als Mudaf fungiert. Der Verbalsatz يَقُومُ النَّاسُ ist Mudaf ilayh und steht daher في محل جر. Die Iḍāfa-Konstruktion ist: يَوْمَ (Mudaf) + يَقُومُ النَّاسُ (Mudaf ilayh في محل جر). Das Ẓarf selbst steht im Akkusativ als Mafʿul fihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=6"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "In بِمَا كَانُوا يَكْذِبُونَ — was steht في محل جر?",
+            "options": [
+              "Der ganze Satz كَانُوا يَكْذِبُونَ",
+              "Das Relativpronomen مَا (der Relativsatz ist Silah ohne محل)",
+              "Nur das Verb كَانُوا",
+              "Nur يَكْذِبُونَ"
+            ],
+            "correct": 1,
+            "explanation": "مَا als Relativpronomen steht في محل جر nach der Präposition بِ. Der Relativsatz كَانُوا يَكْذِبُونَ ist die Silah und hat لا محل له. Die grammatische Position (Genitiv) trägt das Pronomen مَا.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+          },
+          {
+            "question": "In مِنْ حَيْثُ خَرَجْتَ — welches Element regiert den Satz خَرَجْتَ im Genitiv?",
+            "options": [
+              "Die Präposition مِنْ regiert خَرَجْتَ direkt",
+              "حَيْثُ als Mudaf regiert خَرَجْتَ als Mudaf ilayh في محل جر",
+              "خَرَجْتَ hat kein محل, weil Verben nicht im Genitiv stehen können",
+              "خَرَجْتَ steht في محل نصب als Mafʿul bihi"
+            ],
+            "correct": 1,
+            "explanation": "حَيْثُ ist ein Ẓarf, das als Mudaf fungiert. Der folgende Satz خَرَجْتَ ist Mudaf ilayh und steht في محل جر. Die Präposition مِنْ regiert حَيْثُ, nicht den Satz direkt. Es liegt eine zweistufige Rektion vor: مِنْ → حَيْثُ → خَرَجْتَ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=149"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=149"
+    },
+    {
+      "id": "JFM4",
+      "title": "Zitierte Rede (Maqul al-Qawl) — الجملة المقولة",
+      "description": "Nach Verben des Sagens (قَالَ, نَادَى, أَوْحَى etc.) steht die zitierte Rede als ganzer Satz in Akkusativ-Position (في محل نصب مفعول به).",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Das Konzept der zitierten Rede",
+            "content": "Im Arabischen wird direkte Rede nach Verben des Sagens als Mafʿul bihi (direktes Objekt) behandelt. Der gesamte zitierte Satz steht في محل نصب مقول القول (in Akkusativ-Position als 'Gesagtes').\n\nDie Struktur ist:\nقَالَ / قَالُوا / قُلْ + zitierter Satz في محل نصب\n\nDer zitierte Satz kann jeder Satztyp sein:\n- Nominalsatz: قَالُوا إِنَّا مَعَكُمْ\n- Verbalsatz: قَالُوا آمَنَّا\n- Imperativ: قَالَ ادْخُلُوا\n- Vokativ: قَالُوا يَا مُوسَى\n\nIntern folgt der zitierte Satz seinen eigenen grammatischen Regeln. Extern nimmt er als Ganzes Akkusativ-Position ein.\n\nDieses Muster ist im Quran extrem häufig — قَالَ/قَالُوا ist eines der frequentesten Verben."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:14",
+                "arabic": "وَإِذَا لَقُوا ٱلَّذِينَ ءَامَنُوا قَالُوٓا ءَامَنَّا وَإِذَا خَلَوْا إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا إِنَّا مَعَكُمْ",
+                "explanation": "Zwei zitierte Reden: (1) آمَنَّا = في محل نصب مقول القول nach dem ersten قَالُوا — Verbalsatz als Objekt. (2) إِنَّا مَعَكُمْ = في محل نصب مقول القول nach dem zweiten قَالُوا — إِنَّ-Satz als Objekt. Intern folgen beide Sätze ihren eigenen Regeln.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+              },
+              {
+                "ref": "2:30",
+                "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً قَالُوٓا أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا",
+                "explanation": "Zwei Zitate: (1) إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً = في محل نصب مقول القول nach قَالَ رَبُّكَ. (2) أَتَجْعَلُ فِيهَا = في محل نصب nach قَالُوا. Das Zitat kann auch eine Frage sein — der Fragesatz nimmt dennoch Akkusativ-Position als Objekt ein.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+              },
+              {
+                "ref": "7:12",
+                "arabic": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ قَالَ أَنَا خَيْرٌ مِّنْهُ",
+                "explanation": "قَالَ أَنَا خَيْرٌ مِنْهُ — Der Nominalsatz أَنَا خَيْرٌ مِنْهُ steht في محل نصب مقول القول. Intern: أَنَا = Mubtada (Nominativ), خَيْرٌ = Khabar (Nominativ). Extern: Die gesamte Phrase ist Objekt von قَالَ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+              },
+              {
+                "ref": "12:4",
+                "arabic": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+                "explanation": "يَا أَبَتِ إِنِّي رَأَيْتُ = في محل نصب مقول القول. Das Zitat beginnt mit einem Vokativ (يَا أَبَتِ) gefolgt von einem إِنَّ-Satz. Der gesamte Komplex (Vokativ + Aussage) ist das Objekt von قَالَ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ (3:36) — Analysiere die syntaktische Position der zitierten Rede.",
+          "answer": "قَالَتْ = Verb (3. Person fem. Sing. Perfekt). رَبِّ إِنِّي وَضَعْتُهَا أُنثَى = zitierte Rede في محل نصب مقول القول. Intern: رَبِّ = Vokativ (Munada), إِنِّي وَضَعْتُهَا أُنثَى = إِنَّ-Satz (إِنَّ + Pronomen-ي als Ism, وَضَعْتُهَا أُنثَى als Khabar-Satz). أُنثَى = Hal (Akkusativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=36"
+        },
+        {
+          "type": "analysis",
+          "question": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً (2:30) — Was ist das Mafʿul bihi von قَالَ?",
+          "answer": "Das Mafʿul bihi von قَالَ ist der gesamte إِنَّ-Satz: إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً — في محل نصب مقول القول. Intern: إِنَّ + ي (Ism inna, Akkusativ-Pronomen), جَاعِلٌ = Khabar (Nominativ), فِي الْأَرْضِ = Jarr wa-Majrur (mutaʿalliq bi-جَاعِلٌ), خَلِيفَةً = Mafʿul bihi von جَاعِلٌ (Akkusativ). Der ganze Satz ist das, was der Herr zu den Engeln 'sagte'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "type": "analysis",
+          "question": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ (7:12) — Bestimme die syntaktische Position von مَا مَنَعَكَ أَلَّا تَسْجُدَ.",
+          "answer": "Der gesamte Fragesatz مَا مَنَعَكَ أَلَّا تَسْجُدَ steht في محل نصب مقول القول als Objekt von قَالَ. Intern: مَا = Fragewort (في محل رفع مبتدأ oder في محل نصب مفعول به je nach Analyse), مَنَعَكَ = Verb + Objektpronomen. Dass das Zitat eine Frage ist, ändert nichts an seiner externen Position als Mafʿul bihi — auch Fragesätze können في محل نصب stehen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Nach قَالُوا steht ein zitierter Satz. Welche Position nimmt dieser Satz ein?",
+            "options": [
+              "في محل رفع فاعل (Subjekt)",
+              "في محل نصب مفعول به / مقول القول (Objekt / Gesagtes)",
+              "في محل جر (Genitiv nach Präposition)",
+              "لا محل له (keine Position)"
+            ],
+            "correct": 1,
+            "explanation": "Der zitierte Satz nach Verben des Sagens steht في محل نصب als Mafʿul bihi (direktes Objekt) bzw. Maqul al-Qawl (das Gesagte). Dies gilt unabhängig davon, ob das Zitat ein Nominalsatz, Verbalsatz, Imperativ oder Fragesatz ist.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+          },
+          {
+            "question": "In قَالَ أَنَا خَيْرٌ مِنْهُ (7:12) — wie verhält sich der interne Kasus des Satzes zu seiner externen Position?",
+            "options": [
+              "أَنَا und خَيْرٌ stehen im Akkusativ, weil der Satz Mafʿul bihi ist",
+              "أَنَا (Mubtada, Nominativ) und خَيْرٌ (Khabar, Nominativ) behalten ihre internen Kasus, aber der Satz als Ganzes steht في محل نصب",
+              "Der Satz hat keinen externen Kasus, weil er ein Nominalsatz ist",
+              "Nur أَنَا steht im Akkusativ als Mafʿul bihi"
+            ],
+            "correct": 1,
+            "explanation": "Intern folgt der Satz seinen eigenen Regeln: أَنَا = Mubtada (Nominativ), خَيْرٌ = Khabar (Nominativ). Extern nimmt der gesamte Nominalsatz في محل نصب ein als Maqul al-Qawl (Objekt von قَالَ). Der interne Kasus und die externe Position sind zwei verschiedene Ebenen.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    }
+  ]
+}

@@ -1,0 +1,1584 @@
+{
+  "meta": {
+    "title": "Gebrochene Plurale — Übungsdaten",
+    "description": "Systematische Darstellung der gebrochenen Pluralmuster des klassischen Arabisch mit koranischen Belegen und Übungen. Rein sprachwissenschaftlich.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar (3rd ed.)",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "id": "af3ul",
+      "singularPattern": "فَعْل",
+      "pluralPattern": "أَفْعُل",
+      "frequency": "hoch",
+      "description": "Eines der häufigsten Muster für Nomina mit kurzem Vokal nach dem ersten Radikal.",
+      "examples": [
+        {
+          "singular": "نَفْس",
+          "plural": "أَنْفُس",
+          "meaning": "Selbst / Selbste",
+          "quranicLocation": "2:48",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+        },
+        {
+          "singular": "بَطْن",
+          "plural": "بُطُون",
+          "meaning": "Bauch / Bäuche",
+          "quranicLocation": "37:66",
+          "note": "بُطُون folgt dem Muster فُعُول, nicht أَفْعُل. Hier als Kontrastbeispiel zum Singularmuster فَعْل aufgeführt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=66"
+        },
+        {
+          "singular": "وَجْه",
+          "plural": "أَوْجُه",
+          "meaning": "Gesicht / Gesichter",
+          "quranicLocation": "3:106",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+        },
+        {
+          "singular": "عَيْن",
+          "plural": "أَعْيُن",
+          "meaning": "Auge / Augen",
+          "quranicLocation": "5:45",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=45"
+        }
+      ]
+    },
+    {
+      "id": "fu3uul",
+      "singularPattern": "فَعْل",
+      "pluralPattern": "فُعُول",
+      "frequency": "hoch",
+      "description": "Sehr produktives Muster, besonders für einsilbige Nomina.",
+      "examples": [
+        {
+          "singular": "قَلْب",
+          "plural": "قُلُوب",
+          "meaning": "Herz / Herzen",
+          "quranicLocation": "2:7",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+        },
+        {
+          "singular": "بَيْت",
+          "plural": "بُيُوت",
+          "meaning": "Haus / Häuser",
+          "quranicLocation": "2:189",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+        },
+        {
+          "singular": "ذَنْب",
+          "plural": "ذُنُوب",
+          "meaning": "Verfehlung / Verfehlungen (ذَنْب — wörtl. Verfehlung/Vergehen, konventionell 'Sünde')",
+          "quranicLocation": "3:16",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=16"
+        },
+        {
+          "singular": "حَرْب",
+          "plural": "حُرُوب",
+          "meaning": "Krieg / Kriege",
+          "quranicLocation": "5:64",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=64"
+        }
+      ]
+    },
+    {
+      "id": "fu3al",
+      "singularPattern": "فُعْلَة",
+      "pluralPattern": "فُعَل",
+      "frequency": "hoch",
+      "description": "Typisch für feminine Nomina mit Damma und Ta-marbuta.",
+      "examples": [
+        {
+          "singular": "غُرْفَة",
+          "plural": "غُرَف",
+          "meaning": "Raum / Räume",
+          "quranicLocation": "34:37",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=37"
+        },
+        {
+          "singular": "ظُلْمَة",
+          "plural": "ظُلَم",
+          "meaning": "Finsternis / Finsternisse",
+          "quranicLocation": "2:257",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+        },
+        {
+          "singular": "حُجَّة",
+          "plural": "حُجَج",
+          "meaning": "Argument / Argumente",
+          "note": "Die Singularform حُجَّة folgt dem Muster فُعَّة (mit Gemination), nicht فُعْلَة. Der Plural حُجَج folgt dem Muster فُعَل.",
+          "quranicLocation": "2:150",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+        },
+        {
+          "singular": "سُوَرة",
+          "plural": "سُوَر",
+          "meaning": "Sura / Suren",
+          "quranicLocation": "2:23",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+        }
+      ]
+    },
+    {
+      "id": "fu3ul",
+      "singularPattern": "verschiedene (فِعَال، فَعُول، فَعِيل u.a.)",
+      "pluralPattern": "فُعُل",
+      "frequency": "hoch",
+      "description": "Häufig bei zweisilbigen Nomina mit langem Vokal. Dieses Pluralmuster nimmt Singulare verschiedener Muster auf.",
+      "examples": [
+        {
+          "singular": "كِتَاب",
+          "plural": "كُتُب",
+          "meaning": "Buch / Bücher",
+          "quranicLocation": "2:213",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=213"
+        },
+        {
+          "singular": "رَسُول",
+          "plural": "رُسُل",
+          "meaning": "Gesandter / Gesandte",
+          "quranicLocation": "2:253",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+        },
+        {
+          "singular": "سَبِيل",
+          "plural": "سُبُل",
+          "meaning": "Weg / Wege",
+          "quranicLocation": "6:153",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=153"
+        }
+      ]
+    },
+    {
+      "id": "fi3aal",
+      "singularPattern": "فَعَل",
+      "pluralPattern": "فِعَال",
+      "frequency": "hoch",
+      "description": "Produktives Muster für Nomina mit zwei kurzen Vokalen.",
+      "examples": [
+        {
+          "singular": "جَبَل",
+          "plural": "جِبَال",
+          "meaning": "Berg / Berge",
+          "quranicLocation": "78:7",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=7"
+        },
+        {
+          "singular": "رَجُل",
+          "plural": "رِجَال",
+          "meaning": "Mann / Männer",
+          "quranicLocation": "4:34",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=34"
+        },
+        {
+          "singular": "جَمَل",
+          "plural": "جِمَال",
+          "meaning": "Kamel / Kamele",
+          "quranicLocation": "7:40",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=40"
+        },
+        {
+          "singular": "ثَمَر",
+          "plural": "ثِمَار",
+          "meaning": "Frucht / Früchte",
+          "quranicLocation": "2:22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        }
+      ]
+    },
+    {
+      "id": "af3aal",
+      "singularPattern": "فَعَل / فِعْل",
+      "pluralPattern": "أَفْعَال",
+      "frequency": "hoch",
+      "description": "Sehr produktives Muster, oft bei Masdar-Formen und kurzen Nomina.",
+      "examples": [
+        {
+          "singular": "عَمَل",
+          "plural": "أَعْمَال",
+          "meaning": "Tat / Taten",
+          "quranicLocation": "2:139",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=139"
+        },
+        {
+          "singular": "فِعْل",
+          "plural": "أَفْعَال",
+          "meaning": "Handlung / Handlungen",
+          "quranicLocation": "21:73",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=73"
+        },
+        {
+          "singular": "مَال",
+          "plural": "أَمْوَال",
+          "meaning": "Vermögen / Vermögen (Pl.)",
+          "quranicLocation": "2:188",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=188"
+        },
+        {
+          "singular": "حَال",
+          "plural": "أَحْوَال",
+          "meaning": "Zustand / Zustände",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hwl"
+        }
+      ]
+    },
+    {
+      "id": "fu33aal",
+      "singularPattern": "فَاعِل",
+      "pluralPattern": "فُعَّال",
+      "frequency": "mittel",
+      "description": "Typisch für Partizipien (Handelnde) als Pluralform.",
+      "examples": [
+        {
+          "singular": "كَافِر",
+          "plural": "كُفَّار",
+          "meaning": "Ablehnender / Ablehnende",
+          "quranicLocation": "2:19",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+        },
+        {
+          "singular": "تَاجِر",
+          "plural": "تُجَّار",
+          "meaning": "Händler / Händler (Pl.)",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=tjr"
+        },
+        {
+          "singular": "سَاحِر",
+          "plural": "سُحَّار",
+          "meaning": "Zauberer / Zauberer (Pl.)",
+          "quranicLocation": "26:38",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=38"
+        },
+        {
+          "singular": "حَاجّ",
+          "plural": "حُجَّاج",
+          "meaning": "Pilger / Pilger (Pl.)",
+          "quranicLocation": "9:19",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=19"
+        }
+      ]
+    },
+    {
+      "id": "fu3alaa",
+      "singularPattern": "فَعِيل",
+      "pluralPattern": "فُعَلَاء",
+      "frequency": "mittel",
+      "description": "Für Partizipien (فَاعِل) und Adjektive (فَعِيل) rationaler Wesen.",
+      "examples": [
+        {
+          "singular": "عَالِم",
+          "singularPattern": "فَاعِل",
+          "plural": "عُلَمَاء",
+          "meaning": "Wissender / Gelehrte",
+          "quranicLocation": "35:28",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+        },
+        {
+          "singular": "شَرِيك",
+          "plural": "شُرَكَاء",
+          "meaning": "Partner / Partner (Pl.)",
+          "quranicLocation": "6:22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=22"
+        },
+        {
+          "singular": "أَمِير",
+          "plural": "أُمَرَاء",
+          "meaning": "Befehlshaber / Befehlshaber (Pl.)",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Amr"
+        },
+        {
+          "singular": "حَكِيم",
+          "plural": "حُكَمَاء",
+          "meaning": "weise / Weise",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hkm"
+        }
+      ]
+    },
+    {
+      "id": "fu3alaa_2",
+      "singularPattern": "فَاعِل / فَعِيل",
+      "pluralPattern": "فُعَلَاء",
+      "frequency": "mittel",
+      "description": "Variante für Partizipien, die Zustands-Adjektive ausdrücken.",
+      "examples": [
+        {
+          "singular": "شَاهِد",
+          "plural": "شُهَدَاء",
+          "meaning": "Zeuge / Zeugen",
+          "quranicLocation": "2:23",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+        },
+        {
+          "singular": "ضَعِيف",
+          "plural": "ضُعَفَاء",
+          "meaning": "schwach / Schwache",
+          "quranicLocation": "14:21",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=21"
+        },
+        {
+          "singular": "بَخِيل",
+          "plural": "بُخَلَاء",
+          "meaning": "geizig / Geizige",
+          "quranicLocation": "57:24",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=24"
+        }
+      ]
+    },
+    {
+      "id": "fu3laan",
+      "singularPattern": "فَعِيل / فَاعِل",
+      "pluralPattern": "فِعْلَان",
+      "frequency": "mittel",
+      "description": "Typisch für junge Wesen und körperliche Zustands-Adjektive.",
+      "examples": [
+        {
+          "singular": "غُلَام",
+          "plural": "غِلْمَان",
+          "meaning": "Junge / Jungen",
+          "quranicLocation": "52:24",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=24"
+        },
+        {
+          "singular": "جَار",
+          "plural": "جِيرَان",
+          "meaning": "Nachbar / Nachbarn",
+          "quranicLocation": "4:36",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=36"
+        },
+        {
+          "singular": "فَتًى",
+          "plural": "فِتْيَة",
+          "meaning": "junger Mann / junge Männer",
+          "quranicLocation": "18:13",
+          "note": "Sonderfall: فِتْيَة ist kein regulärer فِعْلَان-Plural, sondern eine irreguläre Bildung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=13"
+        }
+      ]
+    },
+    {
+      "id": "mafaa3il",
+      "singularPattern": "مَفْعَل / مِفْعَال",
+      "pluralPattern": "مَفَاعِل",
+      "frequency": "hoch",
+      "description": "Standard-Plural für vierradikalige Nomina und Nomina mit Präfix م.",
+      "examples": [
+        {
+          "singular": "مَسْجِد",
+          "plural": "مَسَاجِد",
+          "meaning": "Ort der Niederwerfung / Orte der Niederwerfung",
+          "quranicLocation": "2:187",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+        },
+        {
+          "singular": "مَدِينَة",
+          "plural": "مَدَائِن",
+          "meaning": "Stadt / Städte",
+          "quranicLocation": "7:111",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=111"
+        },
+        {
+          "singular": "مِفْتَاح",
+          "plural": "مَفَاتِيح",
+          "meaning": "Schlüssel / Schlüssel (Pl.)",
+          "quranicLocation": "6:59",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+        },
+        {
+          "singular": "مَلَك",
+          "plural": "مَلَائِكَة",
+          "meaning": "Engel / Engel (Pl.)",
+          "quranicLocation": "2:30",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        }
+      ]
+    },
+    {
+      "id": "fa3aa2il",
+      "singularPattern": "فَعِيلَة",
+      "pluralPattern": "فَعَائِل",
+      "frequency": "mittel",
+      "description": "Regulär für feminine Nomina des Musters fa3iila.",
+      "examples": [
+        {
+          "singular": "قَبِيلَة",
+          "plural": "قَبَائِل",
+          "meaning": "Stamm / Stämme",
+          "quranicLocation": "49:13",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+        },
+        {
+          "singular": "رِسَالَة",
+          "plural": "رَسَائِل",
+          "meaning": "Botschaft / Botschaften",
+          "quranicLocation": "7:79",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=79"
+        },
+        {
+          "singular": "فَضِيلَة",
+          "plural": "فَضَائِل",
+          "meaning": "Vorzug / Vorzüge",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=fDl"
+        },
+        {
+          "singular": "صَحِيفَة",
+          "plural": "صُحُف",
+          "meaning": "Blatt / Blätter",
+          "quranicLocation": "87:19",
+          "note": "Anerkannte Ausnahme: Der Plural صُحُف folgt dem Muster فُعُل statt dem erwarteten فَعَائِل (صَحَائِف). Beide Pluralformen sind belegt, der Quran verwendet ausschließlich صُحُف.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=19"
+        }
+      ]
+    },
+    {
+      "id": "fi3la",
+      "singularPattern": "فَعْل / فِعْل",
+      "pluralPattern": "فِعَل",
+      "frequency": "mittel",
+      "description": "Mehrere kurze Nomina bilden diesen kompakten Plural.",
+      "examples": [
+        {
+          "singular": "قِطْعَة",
+          "plural": "قِطَع",
+          "meaning": "Stück / Stücke",
+          "quranicLocation": "13:4",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=4"
+        },
+        {
+          "singular": "حِيلَة",
+          "plural": "حِيَل",
+          "meaning": "List / Listen",
+          "quranicLocation": "4:98",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=98"
+        },
+        {
+          "singular": "نِعْمَة",
+          "plural": "نِعَم",
+          "meaning": "Gabe / Gaben",
+          "quranicLocation": "16:18",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=18"
+        }
+      ]
+    },
+    {
+      "id": "fu3ala",
+      "singularPattern": "فَاعِل",
+      "pluralPattern": "فُعَلَة",
+      "frequency": "mittel",
+      "description": "Typisch für Partizipien, die Berufe oder Handelnde bezeichnen.",
+      "examples": [
+        {
+          "singular": "كَاتِب",
+          "plural": "كَتَبَة",
+          "meaning": "Schreiber / Schreiber (Pl.)",
+          "quranicLocation": "80:15",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=15"
+        },
+        {
+          "singular": "كَاذِب",
+          "plural": "كَذَبَة",
+          "meaning": "Lügner / Lügner (Pl.)",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=k*b"
+        },
+        {
+          "singular": "سَاحِر",
+          "plural": "سَحَرَة",
+          "meaning": "Zauberer / Zauberer (Pl.)",
+          "quranicLocation": "7:113",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=113"
+        },
+        {
+          "singular": "قَاضٍ",
+          "plural": "قُضَاة",
+          "meaning": "Richter / Richter (Pl.)",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qDy"
+        }
+      ]
+    },
+    {
+      "id": "a_fi3laa",
+      "singularPattern": "فَعِيل (Adj.)",
+      "pluralPattern": "أَفْعِلَاء",
+      "frequency": "niedrig",
+      "description": "Für bestimmte Adjektive, besonders Körper- und Geisteszustände.",
+      "examples": [
+        {
+          "singular": "قَوِيّ",
+          "plural": "أَقْوِيَاء",
+          "meaning": "stark / Starke",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qwy"
+        },
+        {
+          "singular": "غَنِيّ",
+          "plural": "أَغْنِيَاء",
+          "meaning": "reich / Reiche",
+          "quranicLocation": "4:135",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=135"
+        },
+        {
+          "singular": "نَبِيّ",
+          "plural": "أَنْبِيَاء",
+          "meaning": "Nabi / Anbiya' (Verkünder)",
+          "quranicLocation": "2:61",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+        }
+      ]
+    },
+    {
+      "id": "fi3aal_2",
+      "singularPattern": "فَعَال",
+      "pluralPattern": "أَفْعِلَة",
+      "frequency": "mittel",
+      "description": "Für bestimmte drei- und vierkonsonantige Nomina.",
+      "examples": [
+        {
+          "singular": "لِسَان",
+          "plural": "أَلْسِنَة",
+          "meaning": "Zunge / Zungen",
+          "quranicLocation": "16:116",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=116"
+        },
+        {
+          "singular": "طَعَام",
+          "plural": "أَطْعِمَة",
+          "meaning": "Speise / Speisen",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=TEm"
+        },
+        {
+          "singular": "جَوَاب",
+          "plural": "أَجْوِبَة",
+          "meaning": "Antwort / Antworten",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=jwb"
+        },
+        {
+          "singular": "زَمَان",
+          "plural": "أَزْمِنَة",
+          "meaning": "Zeit / Zeiten",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=zmn"
+        }
+      ]
+    },
+    {
+      "id": "fu3aal",
+      "singularPattern": "أَفْعَل (Elativ)",
+      "pluralPattern": "فُعَل",
+      "frequency": "niedrig",
+      "description": "Pluralmuster für feminine Elativformen (فُعْلَى). كُبْرَى und عُظْمَى sind feminine Formen des Elativs (أَكْبَر / أَعْظَم), deren Plural فُعَل lautet.",
+      "examples": [
+        {
+          "singular": "كُبْرَى (f. von أَكْبَر)",
+          "plural": "كُبَر",
+          "meaning": "größte / größte (Pl.)",
+          "quranicLocation": "74:35",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=35"
+        },
+        {
+          "singular": "عُظْمَى (f. von أَعْظَم)",
+          "plural": "عُظَم",
+          "meaning": "größte (f.) / größte (Pl.)",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=EZm"
+        }
+      ]
+    },
+    {
+      "id": "fu3uul_2",
+      "singularPattern": "فَعِيل",
+      "pluralPattern": "فُعُول",
+      "frequency": "mittel",
+      "description": "Variation für einige fa3iil-Adjektive.",
+      "examples": [
+        {
+          "singular": "شَهِيد",
+          "plural": "شُهُود",
+          "meaning": "Zeuge / Zeugen",
+          "quranicLocation": "85:7",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=7"
+        },
+        {
+          "singular": "عَدُوّ",
+          "plural": "عُدُوّ",
+          "meaning": "Feind / Feinde (Kollektiv)",
+          "note": "عَدُوّ wird als Kollektivform verwendet (2:36); der Standardplural ist أَعْدَاء (افْعِلَاء).",
+          "quranicLocation": "2:36",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+        },
+        {
+          "singular": "جُنْد",
+          "plural": "جُنُود",
+          "meaning": "Heer / Heere",
+          "quranicLocation": "36:75",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=75"
+        }
+      ]
+    },
+    {
+      "id": "fawaa3il",
+      "singularPattern": "فَاعِلَة",
+      "pluralPattern": "فَوَاعِل",
+      "frequency": "mittel",
+      "description": "Standard-Plural für feminine aktive Partizipien.",
+      "examples": [
+        {
+          "singular": "كَاتِبَة",
+          "plural": "كَوَاتِب",
+          "meaning": "Schreiberin / Schreiberinnen",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ktb"
+        },
+        {
+          "singular": "فَاحِشَة",
+          "plural": "فَوَاحِش",
+          "meaning": "Abscheulichkeit / Abscheulichkeiten",
+          "quranicLocation": "4:15",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+        },
+        {
+          "singular": "كَارِثَة",
+          "plural": "كَوَارِث",
+          "meaning": "Katastrophe / Katastrophen",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=krv"
+        },
+        {
+          "singular": "قَارِعَة",
+          "plural": "قَوَارِع",
+          "meaning": "Katastrophe / Katastrophen",
+          "quranicLocation": "101:1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=101&verse=1"
+        }
+      ]
+    },
+    {
+      "id": "fa3aalii",
+      "singularPattern": "فُعْلُوس / فِعْلَال",
+      "pluralPattern": "فَعَالِيل",
+      "frequency": "niedrig",
+      "description": "Für Nomina mit vier oder fünf Konsonanten.",
+      "examples": [
+        {
+          "singular": "قِنْدِيل",
+          "plural": "قَنَادِيل",
+          "meaning": "Lampe / Lampen",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qndl"
+        },
+        {
+          "singular": "مِسْكِين",
+          "plural": "مَسَاكِين",
+          "meaning": "Armer / Arme",
+          "quranicLocation": "2:83",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+        },
+        {
+          "singular": "سُلْطَان",
+          "plural": "سَلَاطِين",
+          "meaning": "Autorität / Autoritäten",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=slT"
+        },
+        {
+          "singular": "شَيْطَان",
+          "plural": "شَيَاطِين",
+          "meaning": "Teufel / Teufel (Pl.)",
+          "quranicLocation": "2:14",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+        }
+      ]
+    },
+    {
+      "id": "mafaa3iil",
+      "singularPattern": "مِفْعَال / مِفْعِيل",
+      "pluralPattern": "مَفَاعِيل",
+      "frequency": "hoch",
+      "description": "Erweitertes Pluralmuster für viersilbige Nomen mit langem Vokal — Orts-, Instrument- und Eigenschaftsnomen.",
+      "examples": [
+        {
+          "singular": "مِفْتَاح",
+          "plural": "مَفَاتِيح",
+          "meaning": "Schlüssel / Schlüssel (Pl.)",
+          "quranicLocation": "6:59",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+        },
+        {
+          "singular": "مِصْبَاح",
+          "plural": "مَصَابِيح",
+          "meaning": "Lampe / Lampen",
+          "quranicLocation": "41:12",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=12"
+        },
+        {
+          "singular": "مَنْدِيل",
+          "plural": "مَنَادِيل",
+          "meaning": "Tuch / Tücher",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ndl"
+        }
+      ]
+    },
+    {
+      "id": "af3ila",
+      "singularPattern": "فِعَال / فَعَال",
+      "pluralPattern": "أَفْعِلَة",
+      "frequency": "mittel",
+      "description": "Für Nomina mit langem zweiten Vokal und bestimmte Abstrakta.",
+      "examples": [
+        {
+          "singular": "لِسَان",
+          "plural": "أَلْسِنَة",
+          "meaning": "Zunge / Zungen",
+          "quranicLocation": "30:22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=22"
+        },
+        {
+          "singular": "إِلَه",
+          "plural": "آلِهَة",
+          "meaning": "Gottheit / Gottheiten",
+          "quranicLocation": "21:22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=22"
+        },
+        {
+          "singular": "إِمَام",
+          "plural": "أَئِمَّة",
+          "meaning": "Führer / Führer (Pl.)",
+          "quranicLocation": "9:12",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=12"
+        }
+      ]
+    },
+    {
+      "id": "fu33al",
+      "singularPattern": "فَاعِل",
+      "pluralPattern": "فُعَّل",
+      "frequency": "mittel",
+      "description": "Alternativplural für aktive Partizipien — Handelnde Personen.",
+      "examples": [
+        {
+          "singular": "رَاكِع",
+          "plural": "رُكَّع",
+          "meaning": "Verneigender / Verneigende",
+          "quranicLocation": "2:125",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "singular": "سَاجِد",
+          "plural": "سُجَّد",
+          "meaning": "Niederwerfender / Niederwerfende",
+          "quranicLocation": "48:29",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=29"
+        },
+        {
+          "singular": "شَاهِد",
+          "plural": "شُهَّد",
+          "meaning": "Zeuge / Zeugen",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=$hd"
+        }
+      ]
+    },
+    {
+      "id": "fa3laa",
+      "singularPattern": "فَعِيل",
+      "pluralPattern": "فَعْلَى",
+      "frequency": "niedrig",
+      "description": "Kollektivform für Adjektive des Zustands — besonders bei körperlichen und seelischen Zuständen.",
+      "examples": [
+        {
+          "singular": "مَرِيض",
+          "plural": "مَرْضَى",
+          "meaning": "Kranker / Kranke",
+          "quranicLocation": "4:43",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+        },
+        {
+          "singular": "قَتِيل",
+          "plural": "قَتْلَى",
+          "meaning": "Getöteter / Getötete",
+          "quranicLocation": "3:169",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=169"
+        },
+        {
+          "singular": "أَسِير",
+          "plural": "أَسْرَى",
+          "meaning": "Gefangener / Gefangene",
+          "quranicLocation": "8:67",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=67"
+        },
+        {
+          "singular": "جَرِيح",
+          "plural": "جَرْحَى",
+          "meaning": "Verwundeter / Verwundete",
+          "quranicLocation": "—",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=jrH"
+        }
+      ]
+    },
+    {
+      "id": "fi3laan",
+      "singularPattern": "فُعْل / فُعَال",
+      "pluralPattern": "فِعْلَان",
+      "frequency": "niedrig",
+      "description": "Sondermuster für einige Nomina — besonders Bezeichnungen für junge Menschen und Nachbarn.",
+      "examples": [
+        {
+          "singular": "غُلَام",
+          "plural": "غِلْمَان",
+          "meaning": "Junge / Jungen",
+          "quranicLocation": "52:24",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=24"
+        },
+        {
+          "singular": "جَار",
+          "plural": "جِيرَان",
+          "meaning": "Nachbar / Nachbarn",
+          "quranicLocation": "4:36",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=36"
+        }
+      ]
+    }
+  ],
+  "assignmentRules": [
+    {
+      "id": "rule_1",
+      "singularPattern": "فَعْل (einsilbig, maskulin)",
+      "typicalPlurals": [
+        "أَفْعُل (Paukal, 3-10)",
+        "فُعُول (Vielzahl)",
+        "أَفْعَال"
+      ],
+      "examples": [
+        {
+          "singular": "نَفْس → أَنْفُس",
+          "note": "أَفْعُل für Paukal (2:48)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+        },
+        {
+          "singular": "قَلْب → قُلُوب",
+          "note": "فُعُول für Vielzahl (2:7)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+        },
+        {
+          "singular": "يَوْم → أَيَّام",
+          "note": "أَفْعَال mit Assimilation (2:184)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+        }
+      ],
+      "heuristic": "Einsilbige maskuline Nomen auf فَعْل nehmen meist أَفْعُل (Paukalplural) oder فُعُول (Vielzahlplural)."
+    },
+    {
+      "id": "rule_2",
+      "singularPattern": "فِعَال / فَعِيل / فَعُول (zweisilbig mit Langvokal)",
+      "typicalPlurals": [
+        "فُعُل",
+        "فُعَلَاء (Personen)"
+      ],
+      "examples": [
+        {
+          "singular": "كِتَاب → كُتُب",
+          "note": "فُعُل (2:213)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=213"
+        },
+        {
+          "singular": "رَسُول → رُسُل",
+          "note": "فُعُل (2:253)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+        },
+        {
+          "singular": "شَرِيك → شُرَكَاء",
+          "note": "فُعَلَاء bei Personen (6:22)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=22"
+        }
+      ],
+      "heuristic": "Zweisilbige Nomen mit Langvokal nehmen häufig فُعُل. Personenbezeichnungen auf فَعِيل nehmen فُعَلَاء."
+    },
+    {
+      "id": "rule_3",
+      "singularPattern": "فَاعِل (aktives Partizip)",
+      "typicalPlurals": [
+        "فُعَّال (mask.)",
+        "فَوَاعِل (fem. فَاعِلَة)"
+      ],
+      "examples": [
+        {
+          "singular": "كَافِر → كُفَّار",
+          "note": "فُعَّال (3:131)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=131"
+        },
+        {
+          "singular": "عَالِم → عُلَمَاء",
+          "note": "فُعَلَاء Sonderform (35:28)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+        },
+        {
+          "singular": "فَاحِشَة → فَوَاحِش",
+          "note": "فَوَاعِل (6:151)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+        }
+      ],
+      "heuristic": "Maskuline Partizipien auf فَاعِل nehmen فُعَّال oder أَفْعَال. Feminine auf فَاعِلَة nehmen فَوَاعِل."
+    },
+    {
+      "id": "rule_4",
+      "singularPattern": "فُعْلَة (feminin mit Damma)",
+      "typicalPlurals": [
+        "فُعَل"
+      ],
+      "examples": [
+        {
+          "singular": "غُرْفَة → غُرَف",
+          "note": "Regelmäßig (34:37)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=37"
+        },
+        {
+          "singular": "ظُلْمَة → ظُلَم",
+          "note": "Regelmäßig (2:257)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+        },
+        {
+          "singular": "حُجَّة → حُجَج",
+          "note": "Regelmäßig (2:150)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+        }
+      ],
+      "heuristic": "Feminine Nomen auf فُعْلَة nehmen fast immer فُعَل. Sehr regelmäßig."
+    },
+    {
+      "id": "rule_5",
+      "singularPattern": "فَعِيلَة / فَعَالَة (fem. zweisilbig)",
+      "typicalPlurals": [
+        "فَعَائِل"
+      ],
+      "examples": [
+        {
+          "singular": "قَبِيلَة → قَبَائِل",
+          "note": "Regelmäßig (49:13)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+        },
+        {
+          "singular": "رِسَالَة → رَسَائِل",
+          "note": "Regelmäßig (7:79)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=79"
+        },
+        {
+          "singular": "فَضِيلَة → فَضَائِل",
+          "note": "Regelmäßig",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=fDl"
+        }
+      ],
+      "heuristic": "Feminine Nomen auf فَعِيلَة und فَعَالَة nehmen fast immer فَعَائِل. Hochgradig vorhersagbar."
+    },
+    {
+      "id": "rule_6",
+      "singularPattern": "أَفْعَل / فَعْلَاء (Farben/Defekte)",
+      "typicalPlurals": [
+        "فُعْل"
+      ],
+      "examples": [
+        {
+          "singular": "أَحْمَر / حَمْرَاء → حُمْر",
+          "note": "فُعْل (nicht im Quran belegt)",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hmr"
+        },
+        {
+          "singular": "أَعْمَى / عَمْيَاء → عُمْي",
+          "note": "فُعْل (2:18)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+        }
+      ],
+      "heuristic": "Farb-/Defektadjektive auf أَفْعَل/فَعْلَاء nehmen فُعْل."
+    },
+    {
+      "id": "rule_7",
+      "singularPattern": "مَفْعِل / مَفْعَل (Orts-/Instrumentennomen)",
+      "typicalPlurals": [
+        "مَفَاعِل",
+        "مَفَاعِيل (vierradikalig)"
+      ],
+      "examples": [
+        {
+          "singular": "مَسْجِد → مَسَاجِد",
+          "note": "مَفَاعِل (2:114)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=114"
+        },
+        {
+          "singular": "مَفْتَاح → مَفَاتِيح",
+          "note": "مَفَاعِيل (6:59)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+        },
+        {
+          "singular": "مَدْرَسَة → مَدَارِس",
+          "note": "Verlust des Ta-marbuta",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=drs"
+        }
+      ],
+      "heuristic": "Nomen mit مَـ-Präfix nehmen مَفَاعِل (dreiradikalig) oder مَفَاعِيل (vierradikalig). Hochgradig vorhersagbar."
+    },
+    {
+      "id": "rule_8",
+      "singularPattern": "فَعْلَان (Adjektive auf -an)",
+      "typicalPlurals": [
+        "فَعَالَى",
+        "فِعَال"
+      ],
+      "examples": [
+        {
+          "singular": "سَكْرَان → سَكَارَى",
+          "note": "فَعَالَى (22:2)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=2"
+        },
+        {
+          "singular": "كَسْلَان → كُسَالَى",
+          "note": "فُعَالَى",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ksl"
+        }
+      ],
+      "heuristic": "Adjektive auf فَعْلَان/فَعْلَى nehmen فَعَالَى oder فُعَالَى."
+    },
+    {
+      "id": "rule_9",
+      "singularPattern": "فِعْل / فُعْل (einsilbig mit Kasra/Damma)",
+      "typicalPlurals": [
+        "أَفْعَال",
+        "فُعُول"
+      ],
+      "examples": [
+        {
+          "singular": "حِزْب → أَحْزَاب",
+          "note": "أَفْعَال (33:20)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=20"
+        },
+        {
+          "singular": "جُنْد → جُنُود",
+          "note": "فُعُول (36:75)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=75"
+        },
+        {
+          "singular": "عِلْم → عُلُوم",
+          "note": "فُعُول",
+          "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Elm"
+        }
+      ],
+      "heuristic": "Einsilbige Nomen mit Kasra oder Damma nehmen أَفْعَال oder فُعُول."
+    },
+    {
+      "id": "rule_10",
+      "singularPattern": "فَعَل (zweisilbig mit zwei Fatha)",
+      "typicalPlurals": [
+        "أَفْعَال",
+        "فِعَال"
+      ],
+      "examples": [
+        {
+          "singular": "جَبَل → جِبَال",
+          "note": "فِعَال (7:74)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=74"
+        },
+        {
+          "singular": "ثَمَر → ثِمَار",
+          "note": "فِعَال (2:22)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        },
+        {
+          "singular": "سَبَب → أَسْبَاب",
+          "note": "أَفْعَال (38:10)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=10"
+        }
+      ],
+      "heuristic": "Nomen auf فَعَل nehmen häufig فِعَال oder أَفْعَال."
+    }
+  ],
+  "assignmentExercises": [
+    {
+      "type": "predict_plural_pattern",
+      "given": "نَهْر (Fluss, Muster فَعْل)",
+      "options": [
+        "أَنْهُر (أَفْعُل)",
+        "نُهُور (فُعُول)",
+        "نِهَار (فِعَال)",
+        "أَنْهَار (أَفْعَال)"
+      ],
+      "correct": 3,
+      "explanation": "نَهْر → أَنْهَار (أَفْعَال). Einsilbige Nomen auf فَعْل nehmen häufig أَفْعَال. Quranbeleg: 2:25.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "صَاحِب (Begleiter, Muster فَاعِل)",
+      "options": [
+        "صُحَّاب (فُعَّال)",
+        "أَصْحَاب (أَفْعَال)",
+        "صَوَاحِب (فَوَاعِل)",
+        "صُحُب (فُعُل)"
+      ],
+      "correct": 1,
+      "explanation": "صَاحِب → أَصْحَاب (أَفْعَال, Sonderform). Quranbeleg: 18:9.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=9"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "مَلِك (König, Muster فَعِل)",
+      "options": [
+        "مُلُوك (فُعُول)",
+        "أَمْلَاك (أَفْعَال)",
+        "مَوَالِك (فَوَاعِل)",
+        "مُلَّاك (فُعَّال)"
+      ],
+      "correct": 0,
+      "explanation": "مَلِك → مُلُوك (فُعُول). Quranbeleg: 54:37.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=37"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "شَيْطَان (Satan, Muster فَعْلَان)",
+      "options": [
+        "شَيَاطِين (فَعَالِيل)",
+        "شُيْطَان (فُعْلَان)",
+        "شَيَاطِن (فَعَالِل)",
+        "أَشْيَاط (أَفْعَال)"
+      ],
+      "correct": 0,
+      "explanation": "شَيْطَان → شَيَاطِين (فَعَالِيل). Nomen auf فَعْلَان nehmen فَعَالِيل. Quranbeleg: 2:14.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "حَدِيقَة (Garten, Muster فَعِيلَة)",
+      "options": [
+        "حَدَائِق (فَعَائِل)",
+        "حُدُق (فُعُل)",
+        "حِدَاق (فِعَال)",
+        "حَدِيقَات (gesund)"
+      ],
+      "correct": 0,
+      "explanation": "حَدِيقَة → حَدَائِق (فَعَائِل). Feminine Nomen auf فَعِيلَة nehmen fast immer فَعَائِل. Quranbeleg: 80:30.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=30"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "مَنْزِل (Aufenthaltsort, Muster مَفْعِل)",
+      "options": [
+        "مَنَازِل (مَفَاعِل)",
+        "مُنْزُل (فُعْلُل)",
+        "مَنْزِلَات (gesund)",
+        "نُزُل (فُعُل)"
+      ],
+      "correct": 0,
+      "explanation": "مَنْزِل → مَنَازِل (مَفَاعِل). Nomen mit مَـ-Präfix nehmen fast immer مَفَاعِل. Quranbeleg: 10:5.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=5"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "عَظِيم (gewaltig, Muster فَعِيل)",
+      "options": [
+        "عِظَام (فِعَال)",
+        "عُظَمَاء (فُعَلَاء)",
+        "أَعْظَام (أَفْعَال)",
+        "عَظَائِم (فَعَائِل)"
+      ],
+      "correct": 0,
+      "explanation": "عَظِيم → عِظَام (فِعَال). Adjektive auf فَعِيل nehmen häufig فِعَال. Quranbeleg: 3:4.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=4"
+    },
+    {
+      "type": "predict_plural_pattern",
+      "given": "خَلِيفَة (Statthalter, Muster فَعِيلَة)",
+      "options": [
+        "خَلَائِف (فَعَائِل)",
+        "خُلَفَاء (فُعَلَاء)",
+        "beide möglich",
+        "خِلَاف (فِعَال)"
+      ],
+      "correct": 2,
+      "explanation": "خَلِيفَة hat ZWEI quranische Plurale: خَلَائِف (35:39) nach Regel فَعِيلَة→فَعَائِل, UND خُلَفَاء (7:69) als Personenbezeichnung. Beide sind korrekt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=39"
+    }
+  ],
+  "drillExercises": [
+    {
+      "type": "singular_to_plural",
+      "given": "نَفْس",
+      "expected": "أَنْفُس",
+      "pattern": "أَفْعُل",
+      "hint": "Muster: فَعْل → أَفْعُل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "قَلْب",
+      "expected": "قُلُوب",
+      "pattern": "فُعُول",
+      "hint": "Muster: فَعْل → فُعُول",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "جَبَل",
+      "expected": "جِبَال",
+      "pattern": "فِعَال",
+      "hint": "Muster: فَعَل → فِعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=7"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "عَمَل",
+      "expected": "أَعْمَال",
+      "pattern": "أَفْعَال",
+      "hint": "Muster: فَعَل → أَفْعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=139"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "كَافِر",
+      "expected": "كُفَّار",
+      "pattern": "فُعَّال",
+      "hint": "Muster: فَاعِل → فُعَّال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "مَسْجِد",
+      "expected": "مَسَاجِد",
+      "pattern": "مَفَاعِل",
+      "hint": "Muster: مَفْعِل → مَفَاعِل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "قَبِيلَة",
+      "expected": "قَبَائِل",
+      "pattern": "فَعَائِل",
+      "hint": "Muster: فَعِيلَة → فَعَائِل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "بَيْت",
+      "expected": "بُيُوت",
+      "pattern": "فُعُول",
+      "hint": "Muster: فَعْل → فُعُول",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "غُرْفَة",
+      "expected": "غُرَف",
+      "pattern": "فُعَل",
+      "hint": "Muster: فُعْلَة → فُعَل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=37"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "كِتَاب",
+      "expected": "كُتُب",
+      "pattern": "فُعُل",
+      "hint": "Muster: فِعَال → فُعُل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=213"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "عَالِم",
+      "expected": "عُلَمَاء",
+      "pattern": "فُعَلَاء",
+      "hint": "Muster: فَاعِل → فُعَلَاء (rationale Wesen)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "مِسْكِين",
+      "expected": "مَسَاكِين",
+      "pattern": "مَفَاعِيل",
+      "hint": "Muster: مِفْعِيل → مَفَاعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "رَجُل",
+      "expected": "رِجَال",
+      "pattern": "فِعَال",
+      "hint": "Muster: فَعُل → فِعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=34"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "نِعْمَة",
+      "expected": "نِعَم",
+      "pattern": "فِعَل",
+      "hint": "Muster: فِعْلَة → فِعَل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=18"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "شَيْطَان",
+      "expected": "شَيَاطِين",
+      "pattern": "فَعَالِيل",
+      "hint": "Muster: فَعْلَان → فَعَالِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "نَبِيّ",
+      "expected": "أَنْبِيَاء",
+      "pattern": "أَفْعِلَاء",
+      "hint": "Muster: فَعِيل → أَفْعِلَاء",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "غُلَام",
+      "expected": "غِلْمَان",
+      "pattern": "فِعْلَان",
+      "hint": "Muster: فُعَال → فِعْلَان",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=24"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "ذَنْب",
+      "expected": "ذُنُوب",
+      "pattern": "فُعُول",
+      "hint": "Muster: فَعْل → فُعُول",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=16"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "مَال",
+      "expected": "أَمْوَال",
+      "pattern": "أَفْعَال",
+      "hint": "Muster: فَعْل (mit langem Vokal) → أَفْعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=188"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "سَبِيل",
+      "expected": "سُبُل",
+      "pattern": "فُعُل",
+      "hint": "Muster: فَعِيل → فُعُل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=153"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "كُتُب",
+      "expected": "كِتَاب",
+      "pattern": "فُعُل",
+      "hint": "Muster: فُعُل ← فِعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=213"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "قُلُوب",
+      "expected": "قَلْب",
+      "pattern": "فُعُول",
+      "hint": "Muster: فُعُول ← فَعْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "أَعْمَال",
+      "expected": "عَمَل",
+      "pattern": "أَفْعَال",
+      "hint": "Muster: أَفْعَال ← فَعَل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=139"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "جِبَال",
+      "expected": "جَبَل",
+      "pattern": "فِعَال",
+      "hint": "Muster: فِعَال ← فَعَل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=7"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "رِجَال",
+      "expected": "رَجُل",
+      "pattern": "فِعَال",
+      "hint": "Muster: فِعَال ← فَعُل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=34"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "أَنْفُس",
+      "expected": "نَفْس",
+      "pattern": "أَفْعُل",
+      "hint": "Muster: أَفْعُل ← فَعْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "كُفَّار",
+      "expected": "كَافِر",
+      "pattern": "فُعَّال",
+      "hint": "Muster: فُعَّال ← فَاعِل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "مَسَاجِد",
+      "expected": "مَسْجِد",
+      "pattern": "مَفَاعِل",
+      "hint": "Muster: مَفَاعِل ← مَفْعِل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "بُيُوت",
+      "expected": "بَيْت",
+      "pattern": "فُعُول",
+      "hint": "Muster: فُعُول ← فَعْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "ذُنُوب",
+      "expected": "ذَنْب",
+      "pattern": "فُعُول",
+      "hint": "Muster: فُعُول ← فَعْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=16"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "قَبَائِل",
+      "expected": "قَبِيلَة",
+      "pattern": "فَعَائِل",
+      "hint": "Muster: فَعَائِل ← فَعِيلَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "رُسُل",
+      "expected": "رَسُول",
+      "pattern": "فُعُل",
+      "hint": "Muster: فُعُل ← فَعُول",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "أَمْوَال",
+      "expected": "مَال",
+      "pattern": "أَفْعَال",
+      "hint": "Muster: أَفْعَال ← فَعْل (mit langem Vokal)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=188"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "عُلَمَاء",
+      "expected": "عَالِم",
+      "pattern": "فُعَلَاء",
+      "hint": "Muster: فُعَلَاء ← فَاعِل / فَعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "شَيَاطِين",
+      "expected": "شَيْطَان",
+      "pattern": "فَعَالِيل",
+      "hint": "Muster: فَعَالِيل ← فَعْلَان",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "أَنْبِيَاء",
+      "expected": "نَبِيّ",
+      "pattern": "أَفْعِلَاء",
+      "hint": "Muster: أَفْعِلَاء ← فَعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "غُرَف",
+      "expected": "غُرْفَة",
+      "pattern": "فُعَل",
+      "hint": "Muster: فُعَل ← فُعْلَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=37"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "سُبُل",
+      "expected": "سَبِيل",
+      "pattern": "فُعُل",
+      "hint": "Muster: فُعُل ← فَعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=153"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "مَسَاكِين",
+      "expected": "مِسْكِين",
+      "pattern": "مَفَاعِيل",
+      "hint": "Muster: مَفَاعِيل ← مِفْعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "شُرَكَاء",
+      "expected": "شَرِيك",
+      "pattern": "فُعَلَاء",
+      "hint": "Muster: فُعَلَاء ← فَعِيل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=22"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "فَاحِشَة",
+      "expected": "فَوَاحِش",
+      "pattern": "فَوَاعِل",
+      "hint": "Muster: فَاعِلَة → فَوَاعِل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "لِسَان",
+      "expected": "أَلْسِنَة",
+      "pattern": "أَفْعِلَة",
+      "hint": "Muster: فِعَال → أَفْعِلَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=22"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "ثَمَر",
+      "expected": "ثِمَار",
+      "pattern": "فِعَال",
+      "hint": "Muster: فَعَل → فِعَال",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "فَوَاحِش",
+      "expected": "فَاحِشَة",
+      "pattern": "فَوَاعِل",
+      "hint": "Muster: فَوَاعِل ← فَاعِلَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+    },
+    {
+      "type": "singular_to_plural",
+      "given": "عَيْن",
+      "expected": "أَعْيُن",
+      "pattern": "أَفْعُل",
+      "hint": "Muster: فَعْل → أَفْعُل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=45"
+    },
+    {
+      "type": "plural_to_singular",
+      "given": "جُنُود",
+      "expected": "جُنْد",
+      "pattern": "فُعُول",
+      "hint": "Muster: فُعُول ← فُعْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=75"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "title": "Kasusableitung — Syntaktische Funktionen und Kasus",
+    "description": "Bestimmung der syntaktischen Rolle und des daraus abgeleiteten Kasus quranischer Wörter.",
+    "totalExercises": 50,
+    "sources": [
+      {
+        "title": "Wright's Arabic Grammar, Vol. II (Syntax)",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "verse": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "ref": "1:2",
+      "word": "ٱلْحَمْدُ",
+      "role": "Mubtada (Thema)",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Mubtada steht immer im Nominativ. ٱلْحَمْدُ trägt Damma als Kasuszeichen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "verse": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "ref": "1:2",
+      "word": "لِلَّهِ",
+      "role": "Khabar (Jarr wa-Majrur)",
+      "expectedCase": "Genitiv (Majrur — Kasra)",
+      "explanation": "Nach der Präposition لِ steht das Nomen im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "verse": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "ref": "1:2",
+      "word": "رَبِّ",
+      "role": "Badal (Apposition)",
+      "expectedCase": "Genitiv (Majrur — Kasra)",
+      "explanation": "Badal kongruiert im Kasus mit seinem Bezugswort. Da لِلَّهِ im Genitiv steht, steht auch رَبِّ im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "verse": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "ref": "1:2",
+      "word": "ٱلْعَٰلَمِينَ",
+      "role": "Mudaf ilayhi",
+      "expectedCase": "Genitiv (Majrur — ya/Kasra)",
+      "explanation": "Zweites Glied der Iḍāfa steht im Genitiv. Gesunder mask. Plural: -ينَ = Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "verse": "إِيَّاكَ نَعْبُدُ",
+      "ref": "1:5",
+      "word": "إِيَّاكَ",
+      "role": "Mafʿul bihi (vorangestelltes Objekt)",
+      "expectedCase": "Akkusativ (Mansub)",
+      "explanation": "Direktes Objekt steht im Akkusativ. Emphatische Objektform des Pronomens 2ms.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "verse": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ",
+      "ref": "1:6",
+      "word": "ٱلصِّرَاطَ",
+      "role": "Mafʿul bihi",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Direktes Objekt von ٱهْدِ. Fatha als Kasuszeichen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "verse": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ",
+      "ref": "1:6",
+      "word": "ٱلْمُسْتَقِيمَ",
+      "role": "Sifa/Na't (Attribut)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Attribut zu ٱلصِّرَاطَ. Kongruenz in Kasus, Genus, Numerus, Definitheit.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "verse": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ",
+      "ref": "2:7",
+      "word": "ٱللَّهُ",
+      "role": "Faʿil (Subjekt)",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Subjekt des Verbs steht im Nominativ. Damma als Kasuszeichen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "verse": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ",
+      "ref": "2:7",
+      "word": "قُلُوبِهِمْ",
+      "role": "Majrur (nach Präposition)",
+      "expectedCase": "Genitiv (Majrur — Kasra)",
+      "explanation": "Nach عَلَىٰ steht das Nomen im Genitiv. Kasra + Possessivsuffix.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "verse": "وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ref": "2:7",
+      "word": "عَذَابٌ",
+      "role": "Mubtada muʿakhkhar (nachgestelltes Thema)",
+      "expectedCase": "Nominativ (Marfu' — Damma + Tanwin)",
+      "explanation": "Nachgestelltes Mubtada. Nominativ mit Tanwin (indefinit).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "verse": "وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "ref": "2:7",
+      "word": "عَظِيمٌ",
+      "role": "Sifa (Attribut)",
+      "expectedCase": "Nominativ (Marfu' — Damma + Tanwin)",
+      "explanation": "Sifa kongruiert: mask., Sg., indefinit, Nominativ wie عَذَابٌ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "verse": "إِنَّ ٱلَّذِينَ كَفَرُوا",
+      "ref": "2:6",
+      "word": "ٱلَّذِينَ",
+      "role": "Ism inna",
+      "expectedCase": "Akkusativ (Mansub)",
+      "explanation": "Ism von إِنَّ steht im Akkusativ. الَّذِينَ ist unveränderlich, syntaktisch Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "verse": "ذَٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ",
+      "ref": "2:2",
+      "word": "ٱلْكِتَابُ",
+      "role": "Khabar oder Badal",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Als Khabar/Badal zu ذَٰلِكَ (Mubtada) steht es im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "verse": "ذَٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ",
+      "ref": "2:2",
+      "word": "رَيْبَ",
+      "role": "Ism la an-nafiya lil-jins",
+      "expectedCase": "Akkusativ (Mansub — Fatha ohne Tanwin)",
+      "explanation": "Nach لَا النَّافِيَة لِلْجِنْس steht das Ism im Akkusativ ohne Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "verse": "هُدًى لِلْمُتَّقِينَ",
+      "ref": "2:2",
+      "word": "هُدًى",
+      "role": "Hal oder Khabar",
+      "expectedCase": "Nominativ (Marfu')",
+      "explanation": "Als weiteres Khabar zum Mubtada, syntaktisch Nominativ. Wichtig: Bei Nomen auf Alif maqsura (Ismu l-maqsur) erscheint Tanwin-Fatha (ً) in ALLEN drei Kasus — Nominativ, Akkusativ und Genitiv. Das Tanwin-Fatha markiert hier also nicht den Akkusativ, sondern ist die unveränderliche Tanwin-Form des Ismu l-maqsur.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "verse": "هُدًى لِلْمُتَّقِينَ",
+      "ref": "2:2",
+      "word": "لِلْمُتَّقِينَ",
+      "role": "Majrur",
+      "expectedCase": "Genitiv (Majrur — ya)",
+      "explanation": "Nach لِ im Genitiv. Gesunder mask. Plural: -ينَ = Genitiv/Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "verse": "يُؤْمِنُونَ بِٱلْغَيْبِ",
+      "ref": "2:3",
+      "word": "بِٱلْغَيْبِ",
+      "role": "Majrur",
+      "expectedCase": "Genitiv (Majrur — Kasra)",
+      "explanation": "Nach Präposition بِ steht das Nomen im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "verse": "وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+      "ref": "2:3",
+      "word": "مِمَّا",
+      "role": "Majrur (vorangestellt)",
+      "expectedCase": "Genitiv (Majrur)",
+      "explanation": "مِنْ + مَا: Präposition مِنْ regiert Genitiv. Das vorangestellte Jarr wa-Majrur ist Mafʿul muqaddam.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "verse": "كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ",
+      "ref": "3:110",
+      "word": "خَيْرَ",
+      "role": "Khabar kana",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Khabar von كَانَ steht im Akkusativ. Fatha (Elativ, invariabel).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+    },
+    {
+      "verse": "كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ",
+      "ref": "3:110",
+      "word": "أُمَّةٍ",
+      "role": "Mudaf ilayhi",
+      "expectedCase": "Genitiv (Majrur — Kasra + Tanwin)",
+      "explanation": "Zweites Glied der Iḍāfa خَيْرَ أُمَّةٍ. Genitiv mit Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+    },
+    {
+      "verse": "إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "ref": "2:220",
+      "word": "ٱللَّهَ",
+      "role": "Ism inna",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Ism von إِنَّ steht im Akkusativ. Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=220"
+    },
+    {
+      "verse": "إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "ref": "2:220",
+      "word": "عَزِيزٌ",
+      "role": "Khabar inna",
+      "expectedCase": "Nominativ (Marfu' — Damma + Tanwin)",
+      "explanation": "Khabar von إِنَّ steht im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=220"
+    },
+    {
+      "verse": "وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "ref": "4:17",
+      "word": "ٱللَّهُ",
+      "role": "Ism kana",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Ism von كَانَ bleibt im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+    },
+    {
+      "verse": "وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "ref": "4:17",
+      "word": "عَلِيمًا",
+      "role": "Khabar kana",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Khabar von كَانَ steht im Akkusativ. Tanwin-Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+    },
+    {
+      "verse": "ٱللَّهُ لَا إِلَٰهَ إِلَّا هُوَ",
+      "ref": "2:255",
+      "word": "ٱللَّهُ",
+      "role": "Mubtada",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Thema des Nominalsatzes. Damma.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "verse": "ٱللَّهُ لَا إِلَٰهَ إِلَّا هُوَ",
+      "ref": "2:255",
+      "word": "إِلَٰهَ",
+      "role": "Ism la (generische Negation)",
+      "expectedCase": "Akkusativ (Mansub — Fatha ohne Tanwin)",
+      "explanation": "Ism von لَا النافية للجنس. Mabni auf Fatha ohne Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "verse": "يَا أَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبَّكُمُ",
+      "ref": "2:21",
+      "word": "أَيُّهَا",
+      "role": "Munada (Angerufener)",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Munada mabni ala d-Damm. Indeklinabel, syntaktisch Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "verse": "يَا أَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبَّكُمُ",
+      "ref": "2:21",
+      "word": "رَبَّكُمُ",
+      "role": "Mafʿul bihi",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Direktes Objekt von ٱعْبُدُوا. Fatha + Possessivsuffix.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "verse": "وَلَقَدْ زَيَّنَّا ٱلسَّمَاءَ ٱلدُّنْيَا بِمَصَابِيحَ",
+      "ref": "67:5",
+      "word": "ٱلسَّمَاءَ",
+      "role": "Mafʿul bihi",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Direktes Objekt von زَيَّنَّا. Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+    },
+    {
+      "verse": "وَلَقَدْ زَيَّنَّا ٱلسَّمَاءَ ٱلدُّنْيَا بِمَصَابِيحَ",
+      "ref": "67:5",
+      "word": "بِمَصَابِيحَ",
+      "role": "Majrur",
+      "expectedCase": "Genitiv (Majrur — Fatha statt Kasra!)",
+      "explanation": "Nach بِ im Genitiv. مَصَابِيح ist diptotisch (gebrochener Plural مَفَاعِيل) — Fatha statt Kasra im Genitiv!",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+    },
+    {
+      "verse": "وَأَرْسَلْنَا ٱلرِّيَاحَ لَوَاقِحَ",
+      "ref": "15:22",
+      "word": "لَوَاقِحَ",
+      "role": "Hal (Zustandsakkusativ)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Hal beschreibt den Zustand des Objekts. Akkusativ. Diptotisch (gebrochener Plural فَوَاعِل).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=22"
+    },
+    {
+      "verse": "خَلَقَ ٱلسَّمَاوَاتِ وَٱلْأَرْضَ بِٱلْحَقِّ",
+      "ref": "16:3",
+      "word": "ٱلسَّمَاوَاتِ",
+      "role": "Mafʿul bihi",
+      "expectedCase": "Akkusativ (Mansub — Kasra!)",
+      "explanation": "Gesunder fem. Plural im Akkusativ: -اتِ mit Kasra (Sonderregel: fem. Plural hat Kasra im Akkusativ UND Genitiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=3"
+    },
+    {
+      "verse": "وَٱللَّهُ يُحِبُّ ٱلصَّابِرِينَ",
+      "ref": "3:146",
+      "word": "ٱلصَّابِرِينَ",
+      "role": "Mafʿul bihi",
+      "expectedCase": "Akkusativ (Mansub — ya)",
+      "explanation": "Gesunder mask. Plural: -ينَ = Akkusativ (und Genitiv). Nominativ wäre -ونَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "verse": "فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا",
+      "ref": "2:60",
+      "word": "عَيْنًا",
+      "role": "Tamyiz (Spezifikationsakkusativ)",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Tamyiz nach Zahlwort steht im Akkusativ. Indefinit mit Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "verse": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ",
+      "ref": "21:107",
+      "word": "رَحْمَةً",
+      "role": "Hal oder Mafʿul li-ajlihi",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Als Hal (Zustand) oder Mafʿul li-ajlihi (Grund) im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=107"
+    },
+    {
+      "verse": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+      "ref": "4:164",
+      "word": "تَكْلِيمًا",
+      "role": "Mafʿul mutlaq (absoluter Akkusativ)",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Mafʿul mutlaq verstärkt das Verb. Masdar Form II im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+    },
+    {
+      "verse": "فَسُبْحَانَ ٱللَّهِ حِينَ تُمْسُونَ",
+      "ref": "30:17",
+      "word": "سُبْحَانَ",
+      "role": "Mafʿul mutlaq",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Masdar im Akkusativ mit exklamatorischem Charakter (Verb-Ersatz-Funktion des Masdar). Stets im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=17"
+    },
+    {
+      "verse": "فَسُبْحَانَ ٱللَّهِ حِينَ تُمْسُونَ",
+      "ref": "30:17",
+      "word": "حِينَ",
+      "role": "Ẓarf (Zeitadverbial)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Ẓarf az-zaman (Zeitangabe) steht im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=17"
+    },
+    {
+      "verse": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ",
+      "ref": "2:183",
+      "word": "ٱلصِّيَامُ",
+      "role": "Naʿib al-Faʿil (Stellvertreter-Subjekt)",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Bei passivem Verb wird das ursprüngliche Objekt zum Naʿib al-Faʿil und steht im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "verse": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا فِي ٱلْأَرْضِ",
+      "ref": "2:11",
+      "word": "ٱلْأَرْضِ",
+      "role": "Majrur",
+      "expectedCase": "Genitiv (Majrur — Kasra)",
+      "explanation": "Nach Präposition فِي im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "verse": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ",
+      "ref": "17:12",
+      "word": "ءَايَتَيْنِ",
+      "role": "Mafʿul bihi thani (zweites Objekt)",
+      "expectedCase": "Akkusativ (Mansub — ya + Nun)",
+      "explanation": "جَعَلَ nimmt zwei Objekte. Das zweite (ءَايَتَيْنِ) steht im Akkusativ. Dual: -يْنِ = Akk/Gen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=12"
+    },
+    {
+      "verse": "وَجَاءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+      "ref": "89:22",
+      "word": "صَفًّا",
+      "role": "Hal",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Hal (Zustandsakkusativ) beschreibt die Art des Kommens.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+    },
+    {
+      "verse": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "ref": "112:1",
+      "word": "أَحَدٌ",
+      "role": "Khabar",
+      "expectedCase": "Nominativ (Marfu' — Damma + Tanwin)",
+      "explanation": "Prädikat im Nominalsatz. Nominativ mit Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "verse": "ٱللَّهُ ٱلصَّمَدُ",
+      "ref": "112:2",
+      "word": "ٱلصَّمَدُ",
+      "role": "Khabar",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Prädikat zu ٱللَّهُ. Definit, Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=2"
+    },
+    {
+      "verse": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَاءَ كُلَّهَا",
+      "ref": "2:31",
+      "word": "ءَادَمَ",
+      "role": "Mafʿul bihi awwal (erstes Objekt)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "عَلَّمَ (Form II) nimmt zwei Objekte. Erstes Objekt ءَادَمَ im Akkusativ. Diptotisch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "verse": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَاءَ كُلَّهَا",
+      "ref": "2:31",
+      "word": "ٱلْأَسْمَاءَ",
+      "role": "Mafʿul bihi thani (zweites Objekt)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Zweites Objekt von عَلَّمَ. Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "verse": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَاءَ كُلَّهَا",
+      "ref": "2:31",
+      "word": "كُلَّهَا",
+      "role": "Tawkid (Bekräftigung)",
+      "expectedCase": "Akkusativ (Mansub — Fatha)",
+      "explanation": "Tawkid kongruiert im Kasus mit seinem Bezugswort ٱلْأَسْمَاءَ (Akkusativ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "verse": "ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ",
+      "ref": "20:5",
+      "word": "ٱلرَّحْمَٰنُ",
+      "role": "Mubtada",
+      "expectedCase": "Nominativ (Marfu' — Damma)",
+      "explanation": "Thema des Nominalsatzes.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=5"
+    },
+    {
+      "verse": "صِبْغَةَ ٱللَّهِ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةً",
+      "ref": "2:138",
+      "word": "صِبْغَةً",
+      "role": "Tamyiz",
+      "expectedCase": "Akkusativ (Mansub — Fatha + Tanwin)",
+      "explanation": "Tamyiz (Spezifikation) nach dem Elativ أَحْسَنُ. Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=138"
+    },
+    {
+      "verse": "وَلَا تَقُولُوا ثَلَاثَةٌ",
+      "ref": "4:171",
+      "word": "ثَلَاثَةٌ",
+      "role": "Khabar (ausgelassenes Mubtada)",
+      "expectedCase": "Nominativ (Marfu' — Damma + Tanwin)",
+      "explanation": "Khabar eines kontextuell erschließbaren Mubtada. Nominativ.",
+      "note": "Minimaler syntaktisch notwendiger Taqdir: Das Mubtada ist aus dem Kontext zu erschließen (nicht interpretativ ergänzt).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=171"
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "meta": {
+    "title": "Rasm-Dekodierung",
+    "description": "Vom punktlosen Konsonantenskelett alle möglichen Lesungen ableiten, dann den Kontext zur Disambiguierung nutzen.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "rasm": "ٮحٮ",
+      "possibleReadings": [
+        "بحث",
+        "نحت",
+        "نحب",
+        "تحب",
+        "بحب",
+        "تحت",
+        "نحن"
+      ],
+      "correctReading": "بحث",
+      "context": {
+        "ref": "18:97",
+        "arabic": "فَمَا ٱسْطَٰعُوٓا أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا لَهُ نَقْبًا",
+        "hint": "Suche nach einem Verb der Wurzel ب-ح-ث das 'suchen/forschen' bedeutet",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=97"
+      },
+      "rootInfo": "ب-ح-ث: suchen, forschen"
+    },
+    {
+      "rasm": "كٮٮ",
+      "possibleReadings": [
+        "كتب",
+        "كتن",
+        "كنب",
+        "كبت",
+        "كبن",
+        "كنت"
+      ],
+      "correctReading": "كتب",
+      "context": {
+        "ref": "2:2",
+        "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ",
+        "hint": "Das bekannteste Nomen der Wurzel ك-ت-ب",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+      },
+      "rootInfo": "ك-ت-ب: schreiben"
+    },
+    {
+      "rasm": "حلٯ",
+      "possibleReadings": [
+        "خلق",
+        "حلق",
+        "جلق"
+      ],
+      "correctReading": "خلق",
+      "context": {
+        "ref": "96:1",
+        "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+        "hint": "Verb der Wurzel خ-ل-ق — erschaffen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+      },
+      "rootInfo": "خ-ل-ق: erschaffen"
+    },
+    {
+      "rasm": "علم",
+      "possibleReadings": [
+        "علم",
+        "غلم"
+      ],
+      "correctReading": "علم",
+      "context": {
+        "ref": "96:5",
+        "arabic": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+        "hint": "Verb der Wurzel ع-ل-م — wissen/lehren",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=5"
+      },
+      "rootInfo": "ع-ل-م: wissen, lehren"
+    },
+    {
+      "rasm": "ڡٮح",
+      "possibleReadings": [
+        "فتح",
+        "فتج",
+        "فتخ",
+        "فنح",
+        "فنج",
+        "فنخ"
+      ],
+      "correctReading": "فتح",
+      "context": {
+        "ref": "110:1",
+        "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+        "hint": "Nomen der Wurzel ف-ت-ح — Öffnung/Sieg",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+      },
+      "rootInfo": "ف-ت-ح: öffnen, Sieg"
+    },
+    {
+      "rasm": "ٮصر",
+      "possibleReadings": [
+        "بصر",
+        "نصر",
+        "بضر",
+        "نضر"
+      ],
+      "correctReading": "نصر",
+      "context": {
+        "ref": "110:1",
+        "arabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+        "hint": "Nomen der Wurzel ن-ص-ر — Hilfe/Sieg",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+      },
+      "rootInfo": "ن-ص-ر: helfen, zum Sieg verhelfen"
+    },
+    {
+      "rasm": "سمع",
+      "possibleReadings": [
+        "سمع",
+        "سمغ",
+        "شمع",
+        "شمغ"
+      ],
+      "correctReading": "سمع",
+      "context": {
+        "ref": "2:256",
+        "arabic": "وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+        "hint": "Adjektiv der Wurzel س-م-ع — hörend",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+      },
+      "rootInfo": "س-م-ع: hören"
+    },
+    {
+      "rasm": "حسٮ",
+      "possibleReadings": [
+        "حسب",
+        "حسن",
+        "حست",
+        "جسب",
+        "جسن",
+        "خسب",
+        "خسن"
+      ],
+      "correctReading": "حسب",
+      "context": {
+        "ref": "9:129",
+        "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ",
+        "hint": "Nomen der Wurzel ح-س-ب — genügend",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=129"
+      },
+      "rootInfo": "ح-س-ب: genügen, rechnen"
+    },
+    {
+      "rasm": "دحر",
+      "possibleReadings": [
+        "دخر",
+        "ذخر",
+        "دحر",
+        "ذحر"
+      ],
+      "correctReading": "دخر",
+      "context": {
+        "ref": "16:48",
+        "arabic": "أَوَلَمْ يَرَوْا إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا ظِلَٰلُهُ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+        "hint": "Wurzel د-خ-ر: sich erniedrigen/unterwerfen — vgl. 27:87",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=48"
+      },
+      "rootInfo": "د-خ-ر: sich demütig unterwerfen"
+    },
+    {
+      "rasm": "صٮر",
+      "possibleReadings": [
+        "صبر",
+        "صنر",
+        "صتر",
+        "ضبر",
+        "ضنر",
+        "ضتر"
+      ],
+      "correctReading": "صبر",
+      "context": {
+        "ref": "2:153",
+        "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱسْتَعِينُوا بِٱلصَّبْرِ وَٱلصَّلَوٰةِ",
+        "hint": "Nomen der Wurzel ص-ب-ر — Geduld",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153"
+      },
+      "rootInfo": "ص-ب-ر: geduldig sein"
+    },
+    {
+      "rasm": "ٯلٮ",
+      "possibleReadings": [
+        "قلب",
+        "قلت",
+        "قلن",
+        "قلث"
+      ],
+      "correctReading": "قلب",
+      "context": {
+        "ref": "26:89",
+        "arabic": "إِلَّا مَنْ أَتَى ٱللَّهَ بِقَلْبٍ سَلِيمٍ",
+        "hint": "Nomen der Wurzel ق-ل-ب — Herz",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=89"
+      },
+      "rootInfo": "ق-ل-ب: Herz; umkehren"
+    },
+    {
+      "rasm": "حٮل",
+      "possibleReadings": [
+        "جبل",
+        "حبل",
+        "خبل",
+        "جنل",
+        "حنل",
+        "خنل",
+        "جتل",
+        "حتل",
+        "ختل"
+      ],
+      "correctReading": "جبل",
+      "context": {
+        "ref": "7:143",
+        "arabic": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا",
+        "hint": "Nomen der Wurzel ج-ب-ل — Berg",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+      },
+      "rootInfo": "ج-ب-ل: Berg"
+    },
+    {
+      "rasm": "ٮحر",
+      "possibleReadings": [
+        "بحر",
+        "نحر",
+        "تحر",
+        "ثحر"
+      ],
+      "correctReading": "بحر",
+      "context": {
+        "ref": "18:109",
+        "arabic": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا",
+        "hint": "Nomen der Wurzel ب-ح-ر — Meer",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=109"
+      },
+      "rootInfo": "ب-ح-ر: Meer"
+    },
+    {
+      "rasm": "حمد",
+      "possibleReadings": [
+        "حمد",
+        "حمذ",
+        "جمد",
+        "جمذ",
+        "خمد",
+        "خمذ"
+      ],
+      "correctReading": "حمد",
+      "context": {
+        "ref": "1:2",
+        "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+        "hint": "Nomen der Wurzel ح-م-د — Lob/Preis",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      },
+      "rootInfo": "ح-م-د: loben, preisen"
+    },
+    {
+      "rasm": "ٮعد",
+      "possibleReadings": [
+        "بعد",
+        "نعد",
+        "تعد",
+        "ثعد",
+        "بغد",
+        "نغد",
+        "تغد"
+      ],
+      "correctReading": "بعد",
+      "context": {
+        "ref": "2:27",
+        "arabic": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِن بَعْدِ",
+        "hint": "Präposition der Wurzel ب-ع-د — nach/fern",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+      },
+      "rootInfo": "ب-ع-د: fern sein, nach"
+    },
+    {
+      "rasm": "سلم",
+      "possibleReadings": [
+        "سلم",
+        "شلم",
+        "سلغ",
+        "شلغ"
+      ],
+      "correctReading": "سلم",
+      "context": {
+        "ref": "10:25",
+        "arabic": "وَٱللَّهُ يَدْعُوٓا إِلَىٰ دَارِ ٱلسَّلَٰمِ",
+        "hint": "Nomen der Wurzel س-ل-م — Frieden/Unversehrtheit",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=25"
+      },
+      "rootInfo": "س-ل-م: unversehrt sein, Frieden"
+    },
+    {
+      "rasm": "ٮدر",
+      "possibleReadings": [
+        "بدر",
+        "ندر",
+        "تدر",
+        "ثدر",
+        "بذر",
+        "نذر",
+        "تذر",
+        "ثذر"
+      ],
+      "correctReading": "نذر",
+      "context": {
+        "ref": "54:17",
+        "arabic": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+        "hint": "Verb der Wurzel ن-ذ-ر — warnen (vgl. 11:25, 46:21)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=17"
+      },
+      "rootInfo": "ن-ذ-ر: warnen"
+    },
+    {
+      "rasm": "رحم",
+      "possibleReadings": [
+        "رحم",
+        "رجم",
+        "رخم",
+        "زحم",
+        "زجم",
+        "زخم"
+      ],
+      "correctReading": "رحم",
+      "context": {
+        "ref": "1:3",
+        "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "hint": "Wurzel ر-ح-م — Barmherzigkeit",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+      },
+      "rootInfo": "ر-ح-م: barmherzig sein"
+    },
+    {
+      "rasm": "عٮد",
+      "possibleReadings": [
+        "عبد",
+        "عند",
+        "عتد",
+        "عثد",
+        "غبد",
+        "غند",
+        "غتد"
+      ],
+      "correctReading": "عبد",
+      "context": {
+        "ref": "1:5",
+        "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+        "hint": "Verb der Wurzel ع-ب-د — dienen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+      },
+      "rootInfo": "ع-ب-د: dienen"
+    },
+    {
+      "rasm": "حكم",
+      "possibleReadings": [
+        "حكم",
+        "جكم",
+        "خكم"
+      ],
+      "correctReading": "حكم",
+      "context": {
+        "ref": "5:44",
+        "arabic": "وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ",
+        "hint": "Verb der Wurzel ح-ك-م — urteilen/herrschen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=44"
+      },
+      "rootInfo": "ح-ك-م: urteilen, Urteil fällen"
+    },
+    {
+      "rasm": "ٮلع",
+      "possibleReadings": [
+        "بلع",
+        "تلع",
+        "نلع",
+        "ثلع",
+        "بلغ",
+        "تلغ",
+        "نلغ"
+      ],
+      "correctReading": "بلغ",
+      "context": {
+        "ref": "18:60",
+        "arabic": "لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ",
+        "hint": "Verb der Wurzel ب-ل-غ — erreichen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=60"
+      },
+      "rootInfo": "ب-ل-غ: erreichen, gelangen"
+    },
+    {
+      "rasm": "حمل",
+      "possibleReadings": [
+        "حمل",
+        "جمل",
+        "خمل"
+      ],
+      "correctReading": "حمل",
+      "context": {
+        "ref": "29:12",
+        "arabic": "وَلْنَحْمِلْ خَطَٰيَٰكُمْ",
+        "hint": "Verb der Wurzel ح-م-ل — tragen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=12"
+      },
+      "rootInfo": "ح-م-ل: tragen, beladen"
+    },
+    {
+      "rasm": "ٮرك",
+      "possibleReadings": [
+        "برك",
+        "ترك",
+        "نرك",
+        "ثرك"
+      ],
+      "correctReading": "ترك",
+      "context": {
+        "ref": "75:36",
+        "arabic": "أَيَحْسَبُ ٱلْإِنسَٰنُ أَن يُتْرَكَ سُدًى",
+        "hint": "Verb der Wurzel ت-ر-ك — verlassen/zurücklassen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=36"
+      },
+      "rootInfo": "ت-ر-ك: verlassen, lassen"
+    },
+    {
+      "rasm": "دعو",
+      "possibleReadings": [
+        "دعو",
+        "ذعو"
+      ],
+      "correctReading": "دعو",
+      "context": {
+        "ref": "40:60",
+        "arabic": "وَقَالَ رَبُّكُمُ ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ",
+        "hint": "Verb der Wurzel د-ع-و — rufen/bitten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=60"
+      },
+      "rootInfo": "د-ع-و: rufen, anrufen"
+    },
+    {
+      "rasm": "طلم",
+      "possibleReadings": [
+        "طلم",
+        "ظلم"
+      ],
+      "correctReading": "ظلم",
+      "context": {
+        "ref": "4:40",
+        "arabic": "إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ",
+        "hint": "Verb der Wurzel ظ-ل-م — Unrecht tun",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=40"
+      },
+      "rootInfo": "ظ-ل-م: Unrecht tun, verdunkeln"
+    },
+    {
+      "rasm": "حسد",
+      "possibleReadings": [
+        "حسد",
+        "جسد",
+        "خسد",
+        "حسذ",
+        "جسذ",
+        "خسذ"
+      ],
+      "correctReading": "حسد",
+      "context": {
+        "ref": "113:5",
+        "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "hint": "Verb der Wurzel ح-س-د — neiden/beneiden",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5"
+      },
+      "rootInfo": "ح-س-د: neiden, beneiden"
+    },
+    {
+      "rasm": "كدٮ",
+      "possibleReadings": [
+        "كذب",
+        "كذن",
+        "كذت",
+        "كدب",
+        "كدن",
+        "كدت"
+      ],
+      "correctReading": "كذب",
+      "context": {
+        "ref": "39:32",
+        "arabic": "فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى ٱللَّهِ",
+        "hint": "Verb der Wurzel ك-ذ-ب — lügen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=32"
+      },
+      "rootInfo": "ك-ذ-ب: lügen, als Lüge bezeichnen"
+    },
+    {
+      "rasm": "ٮسم",
+      "possibleReadings": [
+        "بسم",
+        "نسم",
+        "تسم",
+        "بشم",
+        "نشم"
+      ],
+      "correctReading": "بسم",
+      "context": {
+        "ref": "1:1",
+        "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+        "hint": "Präposition + Nomen der Wurzel س-م-و — Name",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+      },
+      "rootInfo": "س-م-و: Name, erhöhen"
+    },
+    {
+      "rasm": "ملك",
+      "possibleReadings": [
+        "ملك",
+        "ملک"
+      ],
+      "correctReading": "ملك",
+      "context": {
+        "ref": "1:4",
+        "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+        "hint": "Wurzel م-ل-ك — herrschen/besitzen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+      },
+      "rootInfo": "م-ل-ك: herrschen, besitzen, König"
+    },
+    {
+      "rasm": "هدى",
+      "possibleReadings": [
+        "هدى",
+        "هذى",
+        "هدا"
+      ],
+      "correctReading": "هدى",
+      "context": {
+        "ref": "2:2",
+        "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+        "hint": "Masdar der Wurzel ه-د-ي — Führung",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+      },
+      "rootInfo": "ه-د-ي: leiten, den Weg zeigen"
+    },
+    {
+      "rasm": "حٯ",
+      "possibleReadings": [
+        "حق",
+        "جق",
+        "خق"
+      ],
+      "correctReading": "حق",
+      "context": {
+        "ref": "2:26",
+        "arabic": "أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ",
+        "hint": "Nomen der Wurzel ح-ق-ق — Wahrheit/Recht",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+      },
+      "rootInfo": "ح-ق-ق: wahr sein, Wahrheit"
+    },
+    {
+      "rasm": "دحل",
+      "possibleReadings": [
+        "دخل",
+        "ذخل",
+        "دجل",
+        "ذجل"
+      ],
+      "correctReading": "دخل",
+      "context": {
+        "ref": "2:111",
+        "arabic": "قُلْ هَاتُوا بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+        "hint": "Wurzel د-خ-ل — eintreten (vgl. 4:124, 110:2)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=111"
+      },
+      "rootInfo": "د-خ-ل: eintreten, hereinkommen"
+    },
+    {
+      "rasm": "ٯمر",
+      "possibleReadings": [
+        "قمر",
+        "فمر"
+      ],
+      "correctReading": "قمر",
+      "context": {
+        "ref": "54:1",
+        "arabic": "ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ",
+        "hint": "Nomen — der Mond",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=1"
+      },
+      "rootInfo": "ق-م-ر: Mond"
+    },
+    {
+      "rasm": "ارص",
+      "possibleReadings": [
+        "ارض",
+        "ارص"
+      ],
+      "correctReading": "ارض",
+      "context": {
+        "ref": "2:22",
+        "arabic": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا",
+        "hint": "Nomen — die Erde",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "rootInfo": "ا-ر-ض: Erde, Land"
+    },
+    {
+      "rasm": "ٮعٮ",
+      "possibleReadings": [
+        "بعث",
+        "نعث",
+        "تعث",
+        "بعب",
+        "نعب",
+        "بغث",
+        "نغث"
+      ],
+      "correctReading": "بعث",
+      "context": {
+        "ref": "2:56",
+        "arabic": "ثُمَّ بَعَثْنَٰكُم مِّن بَعْدِ مَوْتِكُمْ",
+        "hint": "Verb der Wurzel ب-ع-ث — erwecken/entsenden",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=56"
+      },
+      "rootInfo": "ب-ع-ث: erwecken, entsenden"
+    },
+    {
+      "rasm": "حرم",
+      "possibleReadings": [
+        "حرم",
+        "جرم",
+        "خرم"
+      ],
+      "correctReading": "حرم",
+      "context": {
+        "ref": "2:194",
+        "arabic": "ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ",
+        "hint": "Adjektiv der Wurzel ح-ر-م — verboten/eingeschränkt",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=194"
+      },
+      "rootInfo": "ح-ر-م: verboten, eingeschränkt, unverletzlich"
+    },
+    {
+      "rasm": "ٮدل",
+      "possibleReadings": [
+        "بدل",
+        "ندل",
+        "تدل",
+        "ثدل",
+        "بذل",
+        "نذل",
+        "تذل"
+      ],
+      "correctReading": "بدل",
+      "context": {
+        "ref": "2:211",
+        "arabic": "وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ",
+        "hint": "Verb der Wurzel ب-د-ل — ändern/austauschen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=211"
+      },
+      "rootInfo": "ب-د-ل: ändern, umtauschen"
+    },
+    {
+      "rasm": "سحر",
+      "possibleReadings": [
+        "سحر",
+        "شحر",
+        "سخر",
+        "شخر",
+        "سجر",
+        "شجر"
+      ],
+      "correctReading": "سحر",
+      "context": {
+        "ref": "2:102",
+        "arabic": "وَٱتَّبَعُوا مَا تَتْلُوا ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ",
+        "hint": "Nomen — Zauberei/Magie. Kontextunterscheidung: شجر würde Baum bedeuten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+      },
+      "rootInfo": "س-ح-ر: verzaubern, Magie"
+    },
+    {
+      "rasm": "ٮحس",
+      "possibleReadings": [
+        "بخس",
+        "نخس",
+        "تخس",
+        "بحس",
+        "نحس",
+        "بجس",
+        "نجس"
+      ],
+      "correctReading": "بخس",
+      "context": {
+        "ref": "72:13",
+        "arabic": "فَلَا يَخَافُ بَخْسًا وَلَا رَهَقًا",
+        "hint": "Nomen der Wurzel ب-خ-س — Unrecht/Verkürzung",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=13"
+      },
+      "rootInfo": "ب-خ-س: verkürzen, Unrecht tun"
+    },
+    {
+      "rasm": "ٮرح",
+      "possibleReadings": [
+        "برح",
+        "نرح",
+        "ترح",
+        "برج",
+        "نرج",
+        "ترج"
+      ],
+      "correctReading": "برح",
+      "context": {
+        "ref": "12:85",
+        "arabic": "تَٱللَّهِ تَفْتَؤُا تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا",
+        "hint": "Wurzel ب-ر-ح — aufhören (vgl. 18:60: لَا أَبْرَحُ)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=85"
+      },
+      "rootInfo": "ب-ر-ح: aufhören, weggehen"
+    },
+    {
+      "rasm": "حکم",
+      "possibleReadings": [
+        "حكم",
+        "جكم",
+        "خكم"
+      ],
+      "correctReading": "حكم",
+      "context": {
+        "ref": "4:58",
+        "arabic": "وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا بِٱلْعَدْلِ",
+        "hint": "Verb der Wurzel ح-ك-م — urteilen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=58"
+      },
+      "rootInfo": "ح-ك-م: urteilen, weise sein"
+    },
+    {
+      "rasm": "ٮصل",
+      "possibleReadings": [
+        "بصل",
+        "نصل",
+        "تصل",
+        "بضل",
+        "نضل",
+        "تضل"
+      ],
+      "correctReading": "نصل",
+      "context": {
+        "ref": "36:64",
+        "arabic": "ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+        "hint": "Wurzel ص-ل-ي — brennen/rösten; oder ن-ص-ل — lösen. Kontext entscheidend: vgl. 4:30",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=64"
+      },
+      "rootInfo": "Mehrdeutig: ص-ل-ي (brennen) vs. ن-ص-ل (lösen/entfernen)",
+      "note": "Achtung: Das Wort im Vers beginnt mit Alif (اصلوها), nicht mit einem Buchstaben der Ba-Gruppe. Die Übung zeigt den Stamm صلو ohne Präfix."
+    },
+    {
+      "rasm": "ڡطر",
+      "possibleReadings": [
+        "فطر",
+        "فتر"
+      ],
+      "correctReading": "فطر",
+      "context": {
+        "ref": "6:79",
+        "arabic": "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ",
+        "hint": "Verb der Wurzel ف-ط-ر — erschaffen/spalten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=79"
+      },
+      "rootInfo": "ف-ط-ر: spalten, erschaffen (die erste Erschaffung)"
+    },
+    {
+      "rasm": "شکر",
+      "possibleReadings": [
+        "شكر",
+        "سكر",
+        "شکر"
+      ],
+      "correctReading": "شكر",
+      "context": {
+        "ref": "2:52",
+        "arabic": "لَعَلَّكُمْ تَشْكُرُونَ",
+        "hint": "Verb der Wurzel ش-ك-ر — danken. Kontrast: س-ك-ر würde betrunken sein bedeuten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=52"
+      },
+      "rootInfo": "ش-ك-ر: danken, dankbar sein"
+    },
+    {
+      "rasm": "ٮلو",
+      "possibleReadings": [
+        "بلو",
+        "تلو",
+        "نلو",
+        "ثلو"
+      ],
+      "correctReading": "تلو",
+      "context": {
+        "ref": "2:102",
+        "arabic": "وَٱتَّبَعُوا مَا تَتْلُوا ٱلشَّيَٰطِينُ",
+        "hint": "Verb der Wurzel ت-ل-و — vortragen/rezitieren (vgl. 2:121, 3:101)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+      },
+      "rootInfo": "ت-ل-و: vortragen, rezitieren, folgen"
+    },
+    {
+      "rasm": "ٮکر",
+      "possibleReadings": [
+        "بكر",
+        "نكر",
+        "تكر",
+        "ثكر"
+      ],
+      "correctReading": "نكر",
+      "context": {
+        "ref": "22:44",
+        "arabic": "فَكَيْفَ كَانَ نَكِيرِ",
+        "hint": "Nomen der Wurzel ن-ك-ر — verleugnen, missbilligen",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=44"
+      },
+      "rootInfo": "ن-ك-ر: verleugnen, das Verwerfliche"
+    },
+    {
+      "rasm": "حدٮد",
+      "possibleReadings": [
+        "حديد",
+        "جديد",
+        "خديد",
+        "حدين",
+        "جدين"
+      ],
+      "correctReading": "حديد",
+      "context": {
+        "ref": "57:25",
+        "arabic": "وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ",
+        "hint": "Nomen — Eisen (Sure 57 heißt Al-Hadid)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=25"
+      },
+      "rootInfo": "ح-د-د: Eisen, scharf sein, begrenzen"
+    },
+    {
+      "rasm": "حلٮ",
+      "possibleReadings": [
+        "حلب",
+        "حلن",
+        "حلت",
+        "جلب",
+        "جلن",
+        "خلب",
+        "خلن"
+      ],
+      "correctReading": "جلب",
+      "context": {
+        "ref": "17:64",
+        "arabic": "وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ",
+        "hint": "Verb der Wurzel ج-ل-ب — anstürzen/aufbieten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=64"
+      },
+      "rootInfo": "ج-ل-ب: herbeibringen, zusammentreiben"
+    },
+    {
+      "rasm": "سمو",
+      "possibleReadings": [
+        "سمو",
+        "شمو"
+      ],
+      "correctReading": "سمو",
+      "context": {
+        "ref": "55:6",
+        "arabic": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ",
+        "hint": "Wurzel س-م-و — hoch sein (vgl. سماء, اسم). Kontrast: شجر würde Baum bedeuten",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=6"
+      },
+      "rootInfo": "س-م-و: hoch sein, Name, Himmel"
+    },
+    {
+      "rasm": "ٮعل",
+      "possibleReadings": [
+        "بعل",
+        "نعل",
+        "تعل",
+        "ثعل",
+        "بغل",
+        "نغل",
+        "تغل"
+      ],
+      "correctReading": "نعل",
+      "context": {
+        "ref": "20:12",
+        "arabic": "فَٱخْلَعْ نَعْلَيْكَ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+        "hint": "Nomen — Sandale/Schuh (Dual: نَعْلَيْكَ)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=12"
+      },
+      "rootInfo": "ن-ع-ل: Sandale, Schuh"
+    },
+    {
+      "rasm": "ٮطل",
+      "possibleReadings": [
+        "بطل",
+        "نطل",
+        "تطل",
+        "بظل",
+        "نظل"
+      ],
+      "correctReading": "بطل",
+      "context": {
+        "ref": "2:42",
+        "arabic": "وَلَا تَلْبِسُوا ٱلْحَقَّ",
+        "hint": "Nomen der Wurzel ب-ط-ل — nichtig/falsch",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=42"
+      },
+      "rootInfo": "ب-ط-ل: nichtig sein, das Falsche"
+    }
+  ]
+}

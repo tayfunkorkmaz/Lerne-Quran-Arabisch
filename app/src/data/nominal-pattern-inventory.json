@@ -1,0 +1,2316 @@
+{
+  "meta": {
+    "title": "Nominalmuster im quranischen Arabisch (أَوْزَان الْأَسْمَاء)",
+    "description": "Systematisches Inventar aller Nominalbildungsmuster des quranischen Arabisch — organisiert nach arabischen Awzan mit Funktion, Quranbeispielen und Häufigkeit. Rein sprachwissenschaftlich: der Text und die Morphologie.",
+    "totalCategories": 10,
+    "note": "Jedes Muster (وَزْن) wird mit der فعل-Schablone dargestellt: ف = 1. Radikal, ع = 2. Radikal, ل = 3. Radikal. Die Vokale und Zusatzbuchstaben des Musters zeigen die Bildungsregel.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "basic_nouns",
+      "title": "Grundmuster der Nominalbildung (Form I)",
+      "description": "Die häufigsten Nominalbildungsmuster aus der Grundform (Form I). Diese Muster bilden die Mehrheit aller Nomen im Quran.",
+      "patterns": [
+        {
+          "pattern": "فَعْل",
+          "transliteration": "faʿl",
+          "function": "Handlungsnomen, abstrakte Konzepte. Das häufigste Grundmuster.",
+          "examples": [
+            {
+              "vocalized": "حَمْد",
+              "root": "ح-م-د",
+              "meaning": "Lob, Preis",
+              "ref": "1:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "vocalized": "نَصْر",
+              "root": "ن-ص-ر",
+              "meaning": "Hilfe, Sieg",
+              "ref": "110:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+            },
+            {
+              "vocalized": "ذَنْب",
+              "root": "ذ-ن-ب",
+              "meaning": "Schuld, Verfehlung",
+              "ref": "3:16",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=16"
+            },
+            {
+              "vocalized": "قَوْل",
+              "root": "ق-و-ل",
+              "meaning": "Rede, Wort",
+              "ref": "2:235",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=235"
+            },
+            {
+              "vocalized": "أَمْر",
+              "root": "ء-م-ر",
+              "meaning": "Sache, Befehl, Angelegenheit",
+              "ref": "2:210",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=210"
+            }
+          ],
+          "frequencyNote": "Sehr häufig — hunderte Belege"
+        },
+        {
+          "pattern": "فِعْل",
+          "transliteration": "fiʿl",
+          "function": "Nomen für Zustände, Eigenschaften und abstrakte Konzepte. Kasra unter dem 1. Radikal.",
+          "examples": [
+            {
+              "vocalized": "عِلْم",
+              "root": "ع-ل-م",
+              "meaning": "Wissen",
+              "ref": "2:120",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=120"
+            },
+            {
+              "vocalized": "حِلْم",
+              "root": "ح-ل-م",
+              "meaning": "Nachsicht, Sanftmut",
+              "ref": "9:114",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=114"
+            },
+            {
+              "vocalized": "ذِكْر",
+              "root": "ذ-ك-ر",
+              "meaning": "Erinnerung, Ermahnung",
+              "ref": "21:10",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=10"
+            },
+            {
+              "vocalized": "سِلْم",
+              "root": "س-ل-م",
+              "meaning": "Friede",
+              "ref": "2:208",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=208"
+            },
+            {
+              "vocalized": "جِنّ",
+              "root": "ج-ن-ن",
+              "meaning": "Dschinn (verborgene Wesen)",
+              "ref": "72:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=1"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "فُعْل",
+          "transliteration": "fuʿl",
+          "function": "Nomen für Resultate, Zustände. Damma unter dem 1. Radikal.",
+          "examples": [
+            {
+              "vocalized": "حُكْم",
+              "root": "ح-ك-م",
+              "meaning": "Urteil, Weisheit",
+              "ref": "6:62",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=62"
+            },
+            {
+              "vocalized": "شُكْر",
+              "root": "ش-ك-ر",
+              "meaning": "Dank",
+              "ref": "2:52",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=52"
+            },
+            {
+              "vocalized": "كُفْر",
+              "root": "ك-ف-ر",
+              "meaning": "Undankbarkeit, Leugnung",
+              "ref": "2:108",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+            },
+            {
+              "vocalized": "عُذْر",
+              "root": "ع-ذ-ر",
+              "meaning": "Entschuldigung",
+              "ref": "7:164",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=164"
+            },
+            {
+              "vocalized": "مُلْك",
+              "root": "م-ل-ك",
+              "meaning": "Königreich, Herrschaft",
+              "ref": "2:247",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=247"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "فَعَل",
+          "transliteration": "faʿal",
+          "function": "Nomen für Handlungen, Resultate und konkrete Dinge. Beide Silben offen mit Fatha.",
+          "examples": [
+            {
+              "vocalized": "عَمَل",
+              "root": "ع-م-ل",
+              "meaning": "Tat, Handlung",
+              "ref": "2:167",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=167"
+            },
+            {
+              "vocalized": "سَبَب",
+              "root": "س-ب-ب",
+              "meaning": "Mittel, Ursache",
+              "ref": "18:84",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=84"
+            },
+            {
+              "vocalized": "مَثَل",
+              "root": "م-ث-ل",
+              "meaning": "Gleichnis, Beispiel",
+              "ref": "2:17",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+            },
+            {
+              "vocalized": "أَجَل",
+              "root": "ء-ج-ل",
+              "meaning": "Frist, Termin",
+              "ref": "6:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=2"
+            },
+            {
+              "vocalized": "فَرَح",
+              "root": "ف-ر-ح",
+              "meaning": "Freude",
+              "ref": "30:36",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=36"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "فَعْلَة",
+          "transliteration": "faʿla",
+          "function": "Einmalhandlung (Ism al-Marra) oder feminines Nomen. Ta Marbuta am Ende.",
+          "examples": [
+            {
+              "vocalized": "رَحْمَة",
+              "root": "ر-ح-م",
+              "meaning": "Barmherzigkeit",
+              "ref": "2:157",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=157"
+            },
+            {
+              "vocalized": "حَسَنَة",
+              "root": "ح-س-ن",
+              "meaning": "gute Tat",
+              "ref": "2:201",
+              "note": "Eigentliches Muster: فَعَلَة (mit zwei Fathas). Steht hier unter فَعْلَة nur der Übersicht halber, da beide Muster Ta Marbuta tragen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=201"
+            },
+            {
+              "vocalized": "سَيِّئَة",
+              "root": "س-و-ا",
+              "meaning": "schlechte Tat",
+              "ref": "2:81",
+              "note": "Eigentliches Muster ist فَيْعِلَة (aus hohler Wurzel س-و-أ, das Waw wird zu Ya und verdoppelt sich)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=81"
+            },
+            {
+              "vocalized": "شَجَرَة",
+              "root": "ش-ج-ر",
+              "meaning": "Baum",
+              "ref": "2:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فِعْلَة",
+          "transliteration": "fiʿla",
+          "function": "Nomen für Art und Weise (Ism al-Hay'a) oder allgemeines feminines Nomen.",
+          "examples": [
+            {
+              "vocalized": "نِعْمَة",
+              "root": "ن-ع-م",
+              "meaning": "Wohltat, Gunst",
+              "ref": "2:231",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=231"
+            },
+            {
+              "vocalized": "قِبْلَة",
+              "root": "ق-ب-ل",
+              "meaning": "Zuwendungsrichtung",
+              "ref": "2:142",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=142"
+            },
+            {
+              "vocalized": "فِطْرَة",
+              "root": "ف-ط-ر",
+              "meaning": "natürliche Anlage",
+              "ref": "30:30",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=30"
+            },
+            {
+              "vocalized": "قِطْعَة",
+              "root": "ق-ط-ع",
+              "meaning": "Stück",
+              "ref": "13:4",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=4"
+            },
+            {
+              "vocalized": "فِتْنَة",
+              "root": "ف-ت-ن",
+              "meaning": "Prüfung, Versuchung",
+              "ref": "2:191",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=191"
+            },
+            {
+              "vocalized": "سِدْرَة",
+              "root": "س-د-ر",
+              "meaning": "Lotusbaum",
+              "ref": "53:14",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=14"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "فُعْلَة",
+          "transliteration": "fuʿla",
+          "function": "Feminines Nomen mit Damma, oft für Gruppen oder abstrakte Konzepte.",
+          "examples": [
+            {
+              "vocalized": "غُرْفَة",
+              "root": "غ-ر-ف",
+              "meaning": "Gemach, Obergeschoss",
+              "ref": "25:75",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=75"
+            },
+            {
+              "vocalized": "أُمَّة",
+              "root": "ء-م-م",
+              "meaning": "Gemeinschaft, Volk",
+              "ref": "2:128",
+              "note": "Eigentliches Muster: فُعَّة (mit Shadda auf dem mittleren Radikal). Der 2. und 3. Radikal sind identisch (م-م), daher Idgham. Hier unter فُعْلَة nur der Übersicht halber.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=128"
+            },
+            {
+              "vocalized": "حُجَّة",
+              "root": "ح-ج-ج",
+              "meaning": "Beweis, Argument",
+              "ref": "2:150",
+              "note": "Eigentliches Muster: فُعَّة (mit Shadda auf dem mittleren Radikal). Identischer 2. und 3. Radikal (ج-ج).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+            },
+            {
+              "vocalized": "سُنَّة",
+              "root": "س-ن-ن",
+              "meaning": "Verfahrensweise, Brauch",
+              "ref": "3:137",
+              "note": "Eigentliches Muster: فُعَّة (mit Shadda auf dem mittleren Radikal). Identischer 2. und 3. Radikal (ن-ن).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=137"
+            },
+            {
+              "vocalized": "قُوَّة",
+              "root": "ق-و-ي",
+              "meaning": "Kraft, Stärke",
+              "ref": "2:165",
+              "note": "Eigentliches Muster: فُعَّة (mit Shadda auf dem mittleren Radikal). Hohle Wurzel ق-و-ي mit Idgham.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=165"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "فِعَال",
+          "transliteration": "fiʿāl",
+          "function": "Abstrakte Handlungsnomen, Masdar-Variante für Form I, auch Pluralmuster.",
+          "examples": [
+            {
+              "vocalized": "كِتَاب",
+              "root": "ك-ت-ب",
+              "meaning": "Buch, Schrift",
+              "ref": "2:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "vocalized": "حِسَاب",
+              "root": "ح-س-ب",
+              "meaning": "Abrechnung",
+              "ref": "2:202",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=202"
+            },
+            {
+              "vocalized": "جِهَاد",
+              "root": "ج-ه-د",
+              "meaning": "Anstrengung",
+              "ref": "9:24",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=24"
+            },
+            {
+              "vocalized": "صِرَاط",
+              "root": "ص-ر-ط",
+              "meaning": "Weg, Pfad",
+              "ref": "1:6",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+            },
+            {
+              "vocalized": "عِبَاد",
+              "root": "ع-ب-د",
+              "meaning": "Diener (Plural)",
+              "ref": "2:90",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فَعَال",
+          "transliteration": "faʿāl",
+          "function": "Abstrakte Nomen, oft für Zustände und Resultate.",
+          "examples": [
+            {
+              "vocalized": "سَلَام",
+              "root": "س-ل-م",
+              "meaning": "Friede, Gruß",
+              "ref": "6:54",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=54"
+            },
+            {
+              "vocalized": "كَلَام",
+              "root": "ك-ل-م",
+              "meaning": "Rede, Worte",
+              "ref": "2:75",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=75"
+            },
+            {
+              "vocalized": "عَذَاب",
+              "root": "ع-ذ-ب",
+              "meaning": "Strafe, Qual",
+              "ref": "2:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "vocalized": "ثَوَاب",
+              "root": "ث-و-ب",
+              "meaning": "Belohnung",
+              "ref": "3:148",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=148"
+            },
+            {
+              "vocalized": "مَتَاع",
+              "root": "م-ت-ع",
+              "meaning": "Nutzen, Genuss",
+              "ref": "2:36",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فُعُول",
+          "transliteration": "fuʿūl",
+          "function": "Masdar-Variante für Form I, auch häufiges Pluralmuster.",
+          "examples": [
+            {
+              "vocalized": "دُخُول",
+              "root": "د-خ-ل",
+              "meaning": "Eintreten",
+              "ref": "110:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=2"
+            },
+            {
+              "vocalized": "خُرُوج",
+              "root": "خ-ر-ج",
+              "meaning": "Herausgehen",
+              "ref": "50:11",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=11"
+            },
+            {
+              "vocalized": "قُلُوب",
+              "root": "ق-ل-ب",
+              "meaning": "Herzen (Plural)",
+              "ref": "2:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "vocalized": "عُيُون",
+              "root": "ع-ي-ن",
+              "meaning": "Augen/Quellen (Plural)",
+              "ref": "26:134",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=134"
+            },
+            {
+              "vocalized": "بُيُوت",
+              "root": "ب-ي-ت",
+              "meaning": "Häuser (Plural)",
+              "ref": "2:189",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فُعْلَان",
+          "transliteration": "fuʿlān",
+          "function": "Abstrakte Nomen, oft für Autorität, Macht oder Zustände.",
+          "examples": [
+            {
+              "vocalized": "سُلْطَان",
+              "root": "س-ل-ط",
+              "meaning": "Vollmacht, Beweis",
+              "ref": "4:91",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=91"
+            },
+            {
+              "vocalized": "بُنْيَان",
+              "root": "ب-ن-ي",
+              "meaning": "Bauwerk, Gebäude",
+              "ref": "9:109",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=109"
+            },
+            {
+              "vocalized": "قُرْآن",
+              "root": "ق-ر-ا",
+              "meaning": "Lesung, Rezitation",
+              "ref": "2:185",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+            },
+            {
+              "vocalized": "بُهْتَان",
+              "root": "ب-ه-ت",
+              "meaning": "Verleumdung",
+              "ref": "4:20",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=20"
+            },
+            {
+              "vocalized": "كُفْرَان",
+              "root": "ك-ف-ر",
+              "meaning": "Undankbarkeit",
+              "ref": "14:22",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=22"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فَعِيل",
+          "transliteration": "faʿīl",
+          "function": "Intensivadjektiv, eines der häufigsten Adjektivmuster. Drückt beständige Eigenschaft aus.",
+          "examples": [
+            {
+              "vocalized": "رَحِيم",
+              "root": "ر-ح-م",
+              "meaning": "barmherzig",
+              "ref": "1:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+            },
+            {
+              "vocalized": "عَظِيم",
+              "root": "ع-ظ-م",
+              "meaning": "gewaltig",
+              "ref": "2:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "vocalized": "عَلِيم",
+              "root": "ع-ل-م",
+              "meaning": "viel wissend, intensiv wissend",
+              "ref": "2:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+            },
+            {
+              "vocalized": "حَكِيم",
+              "root": "ح-ك-م",
+              "meaning": "weise",
+              "ref": "2:32",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+            },
+            {
+              "vocalized": "كَرِيم",
+              "root": "ك-ر-م",
+              "meaning": "edel, großzügig",
+              "ref": "27:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=29"
+            }
+          ],
+          "frequencyNote": "Extrem häufig — eines der häufigsten Muster überhaupt"
+        },
+        {
+          "pattern": "فَعُول",
+          "transliteration": "faʿūl",
+          "function": "Intensivadjektiv, stärker als فَعِيل. Drückt habituelle/intensive Eigenschaft aus.",
+          "examples": [
+            {
+              "vocalized": "غَفُور",
+              "root": "غ-ف-ر",
+              "meaning": "viel vergebend",
+              "ref": "2:173",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=173"
+            },
+            {
+              "vocalized": "شَكُور",
+              "root": "ش-ك-ر",
+              "meaning": "viel dankend",
+              "ref": "35:30",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=30"
+            },
+            {
+              "vocalized": "صَبُور",
+              "root": "ص-ب-ر",
+              "meaning": "sehr geduldig",
+              "ref": "—",
+              "note": "صَبُور (faʿuul) ist im Quran nicht direkt belegt. Bei 14:5 steht صَبَّار (fa''aal-Muster). Beide sind Intensivformen der Wurzel ص-ب-ر."
+            },
+            {
+              "vocalized": "كَفُور",
+              "root": "ك-ف-ر",
+              "meaning": "sehr undankbar",
+              "ref": "17:27",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=27"
+            },
+            {
+              "vocalized": "رَسُول",
+              "root": "ر-س-ل",
+              "meaning": "Gesandter (einer der gesandt wird)",
+              "ref": "2:87",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فَعَّال",
+          "transliteration": "faʿʿāl",
+          "function": "Maximal-Intensivadjektiv, drückt höchste Intensität oder habituelle Handlung aus. Shadda über dem 2. Radikal.",
+          "examples": [
+            {
+              "vocalized": "غَفَّار",
+              "root": "غ-ف-ر",
+              "meaning": "unaufhörlich vergebend",
+              "ref": "20:82",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=82"
+            },
+            {
+              "vocalized": "تَوَّاب",
+              "root": "ت-و-ب",
+              "meaning": "immerfort vergebend",
+              "ref": "2:37",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+            },
+            {
+              "vocalized": "فَعَّال",
+              "root": "ف-ع-ل",
+              "meaning": "ständig handelnd",
+              "ref": "11:107",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=107"
+            },
+            {
+              "vocalized": "قَهَّار",
+              "root": "ق-ه-ر",
+              "meaning": "allbezwingend",
+              "ref": "13:16",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=16"
+            },
+            {
+              "vocalized": "وَهَّاب",
+              "root": "و-ه-ب",
+              "meaning": "unaufhörlich gebend",
+              "ref": "3:8",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=8"
+            }
+          ],
+          "frequencyNote": "Mittel — typisch für Intensitätsattribute"
+        },
+        {
+          "pattern": "فَعْلَان",
+          "transliteration": "faʿlān",
+          "function": "Zustandsadjektiv, drückt vorübergehenden körperlichen oder emotionalen Zustand aus. Diptotisch.",
+          "examples": [
+            {
+              "vocalized": "غَضْبَان",
+              "root": "غ-ض-ب",
+              "meaning": "zornig",
+              "ref": "7:150",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=150"
+            },
+            {
+              "vocalized": "عَطْشَان",
+              "root": "ع-ط-ش",
+              "meaning": "durstig (implizit im Sprachsystem)"
+            },
+            {
+              "vocalized": "سَكْرَان",
+              "root": "س-ك-ر",
+              "meaning": "berauscht",
+              "ref": "4:43",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+            },
+            {
+              "vocalized": "كَسْلَان",
+              "root": "ك-س-ل",
+              "meaning": "träge (implizit im Sprachsystem)"
+            }
+          ],
+          "frequencyNote": "Selten im Quran, wichtig im Sprachsystem"
+        },
+        {
+          "pattern": "فَعِل",
+          "transliteration": "faʿil",
+          "function": "Adjektiv für vorübergehende Zustände. Kasra unter dem 2. Radikal.",
+          "examples": [
+            {
+              "vocalized": "فَرِح",
+              "root": "ف-ر-ح",
+              "meaning": "froh",
+              "ref": "30:36",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=36"
+            },
+            {
+              "vocalized": "حَذِر",
+              "root": "ح-ذ-ر",
+              "meaning": "vorsichtig",
+              "ref": "2:19",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+            },
+            {
+              "vocalized": "أَشِر",
+              "root": "ء-ش-ر",
+              "meaning": "übermütig",
+              "ref": "54:26",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=26"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "فَعُل",
+          "transliteration": "faʿul",
+          "function": "Nomen mit Damma unter dem 2. Radikal. Typisch für Personenbezeichnungen.",
+          "examples": [
+            {
+              "vocalized": "رَجُل",
+              "root": "ر-ج-ل",
+              "meaning": "Mann",
+              "ref": "2:282",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+            },
+            {
+              "vocalized": "عَضُد",
+              "root": "ع-ض-د",
+              "meaning": "Oberarm, Stütze",
+              "ref": "18:51",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=51"
+            }
+          ],
+          "frequencyNote": "Selten — wenige Grundformen, aber رَجُل ist hochfrequent"
+        }
+      ]
+    },
+    {
+      "id": "active_participles",
+      "title": "Aktivpartizipien (اسم الفاعل)",
+      "description": "Das Aktivpartizip bezeichnet den Ausführenden einer Handlung. Jede Verbform (I-X) hat ein eigenes Muster.",
+      "patterns": [
+        {
+          "pattern": "فَاعِل",
+          "transliteration": "fāʿil",
+          "function": "Aktivpartizip der Grundform (I). Bezeichnet den Handelnden. Das wichtigste Partizipmuster.",
+          "formation": "Alif nach dem 1. Radikal + Kasra unter dem 2. Radikal",
+          "examples": [
+            {
+              "vocalized": "كَاتِب",
+              "root": "ك-ت-ب",
+              "meaning": "Schreibender",
+              "ref": "2:282",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+            },
+            {
+              "vocalized": "عَالِم",
+              "root": "ع-ل-م",
+              "meaning": "Wissender",
+              "ref": "6:73",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=73"
+            },
+            {
+              "vocalized": "صَادِق",
+              "root": "ص-د-ق",
+              "meaning": "Wahrhaftiger",
+              "ref": "9:119",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=119"
+            },
+            {
+              "vocalized": "خَالِق",
+              "root": "خ-ل-ق",
+              "meaning": "Schöpfer",
+              "ref": "59:24",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=24"
+            },
+            {
+              "vocalized": "كَافِر",
+              "root": "ك-ف-ر",
+              "meaning": "Leugnender",
+              "ref": "2:19",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+            },
+            {
+              "vocalized": "ظَالِم",
+              "root": "ظ-ل-م",
+              "meaning": "Unrecht-Tuender",
+              "ref": "2:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+            }
+          ],
+          "frequencyNote": "Extrem häufig — tausende Belege"
+        },
+        {
+          "pattern": "مُفَعِّل",
+          "transliteration": "mufaʿʿil",
+          "function": "Aktivpartizip Form II. Präfix مُـ + Shadda über dem 2. Radikal + Kasra.",
+          "formation": "مُـ + C1 + C2 (mit Shadda) + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُعَلِّم",
+              "root": "ع-ل-م",
+              "meaning": "Lehrender"
+            },
+            {
+              "vocalized": "مُنَزِّل",
+              "root": "ن-ز-ل",
+              "meaning": "Herabsendender",
+              "ref": "6:99",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=99"
+            },
+            {
+              "vocalized": "مُبَشِّر",
+              "root": "ب-ش-ر",
+              "meaning": "Frohbotschafter",
+              "ref": "33:45",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=45"
+            },
+            {
+              "vocalized": "مُصَدِّق",
+              "root": "ص-د-ق",
+              "meaning": "Bestätigender",
+              "ref": "3:39",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+            },
+            {
+              "vocalized": "مُذَكِّر",
+              "root": "ذ-ك-ر",
+              "meaning": "Erinnernder",
+              "ref": "88:21",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=21"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "مُفَاعِل",
+          "transliteration": "mufāʿil",
+          "function": "Aktivpartizip Form III. Präfix مُـ + Alif nach dem 1. Radikal.",
+          "formation": "مُـ + C1 + Alif + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُنَافِق",
+              "root": "ن-ف-ق",
+              "meaning": "Heuchler",
+              "ref": "9:67",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=67"
+            },
+            {
+              "vocalized": "مُجَاهِد",
+              "root": "ج-ه-د",
+              "meaning": "sich Anstrengender",
+              "ref": "4:95",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=95"
+            },
+            {
+              "vocalized": "مُقَاتِل",
+              "root": "ق-ت-ل",
+              "meaning": "Kämpfender",
+              "ref": "3:146",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُفْعِل",
+          "transliteration": "mufʿil",
+          "function": "Aktivpartizip Form IV. Präfix مُـ + Sukun über dem 1. Radikal + Kasra unter dem 2.",
+          "formation": "مُـ + C1 (Sukun) + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُؤْمِن",
+              "root": "ء-م-ن",
+              "meaning": "Glaubender",
+              "ref": "2:8",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+            },
+            {
+              "vocalized": "مُسْلِم",
+              "root": "س-ل-م",
+              "meaning": "Sich-Ergebender",
+              "ref": "2:128",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=128"
+            },
+            {
+              "vocalized": "مُحْسِن",
+              "root": "ح-س-ن",
+              "meaning": "Gutes-Tuender",
+              "ref": "2:195",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=195"
+            },
+            {
+              "vocalized": "مُشْرِك",
+              "root": "ش-ر-ك",
+              "meaning": "Beigesellender",
+              "ref": "2:105",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=105"
+            },
+            {
+              "vocalized": "مُنْذِر",
+              "root": "ن-ذ-ر",
+              "meaning": "Warner",
+              "ref": "38:4",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=4"
+            }
+          ],
+          "frequencyNote": "Sehr häufig — die häufigsten Form-IV-Partizipien im Quran"
+        },
+        {
+          "pattern": "مُتَفَعِّل",
+          "transliteration": "mutafaʿʿil",
+          "function": "Aktivpartizip Form V. Präfix مُتَـ + Shadda über dem 2. Radikal + Kasra.",
+          "formation": "مُـ + تَ + C1 + C2 (mit Shadda) + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُتَوَكِّل",
+              "root": "و-ك-ل",
+              "meaning": "Sich-Anvertrauender",
+              "ref": "3:159",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "vocalized": "مُتَّقٍ",
+              "root": "و-ق-ي",
+              "meaning": "sich Hütender",
+              "ref": "2:2",
+              "note": "Gehört zu Form VIII (اتَّقَى, Muster مُفْتَعِل), nicht Form V. Hier nur als Querverweis wegen der äußeren Ähnlichkeit mit مُتَفَعِّل — die korrekte Einordnung steht unter مُفْتَعِل (Form VIII).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "vocalized": "مُتَكَبِّر",
+              "root": "ك-ب-ر",
+              "meaning": "Hochmütiger / der Erhabene",
+              "ref": "59:23",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=23"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُتَفَاعِل",
+          "transliteration": "mutafāʿil",
+          "function": "Aktivpartizip Form VI. Präfix مُتَـ + Alif nach dem 1. Radikal.",
+          "formation": "مُـ + تَ + C1 + Alif + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُتَشَابِه",
+              "root": "ش-ب-ه",
+              "meaning": "einander ähnlich, mehrdeutig",
+              "ref": "3:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "مُنْفَعِل",
+          "transliteration": "munfaʿil",
+          "function": "Aktivpartizip Form VII. Präfix مُنْـ.",
+          "formation": "مُـ + نْ + C1 + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُنْقَلِب",
+              "root": "ق-ل-ب",
+              "meaning": "Sich-Umwendender",
+              "ref": "3:144",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=144"
+            },
+            {
+              "vocalized": "مُنْفَطِر",
+              "root": "ف-ط-ر",
+              "meaning": "Sich-Spaltender",
+              "ref": "73:18",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=18"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "مُفْتَعِل",
+          "transliteration": "muftaʿil",
+          "function": "Aktivpartizip Form VIII. Infix ـتَـ nach dem 1. Radikal.",
+          "formation": "مُـ + C1 + تَ + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُخْتَلِف",
+              "root": "خ-ل-ف",
+              "meaning": "Verschieden-Seiender",
+              "ref": "35:27",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=27"
+            },
+            {
+              "vocalized": "مُعْتَدٍ",
+              "root": "ع-د-و",
+              "meaning": "Übertreter",
+              "ref": "2:190",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=190"
+            },
+            {
+              "vocalized": "مُهْتَدٍ",
+              "root": "ه-د-ي",
+              "meaning": "Rechtgeleiteter",
+              "ref": "7:178",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=178"
+            },
+            {
+              "vocalized": "مُتَّقٍ",
+              "root": "و-ق-ي",
+              "meaning": "sich Hütender",
+              "ref": "2:2",
+              "note": "Von اتَّقَى (Form VIII). Das تاء der Form VIII assimiliert sich mit dem و der Wurzel.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُسْتَفْعِل",
+          "transliteration": "mustafʿil",
+          "function": "Aktivpartizip Form X. Präfix مُسْتَـ. Die längste reguläre Partizipform.",
+          "formation": "مُـ + سْتَ + C1 + C2 + Kasra + C3",
+          "examples": [
+            {
+              "vocalized": "مُسْتَقِيم",
+              "root": "ق-و-م",
+              "meaning": "gerade, aufrecht",
+              "ref": "1:6",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+            },
+            {
+              "vocalized": "مُسْتَكْبِر",
+              "root": "ك-ب-ر",
+              "meaning": "Sich-für-groß-Haltender",
+              "ref": "40:56",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=56"
+            },
+            {
+              "vocalized": "مُسْتَغْفِر",
+              "root": "غ-ف-ر",
+              "meaning": "um-Vergebung-Bittender",
+              "ref": "3:17",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=17"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        }
+      ]
+    },
+    {
+      "id": "passive_participles",
+      "title": "Passivpartizipien (اسم المفعول)",
+      "description": "Das Passivpartizip bezeichnet das Objekt/Ergebnis einer Handlung. Jede Verbform hat ein eigenes Muster.",
+      "patterns": [
+        {
+          "pattern": "مَفْعُول",
+          "transliteration": "mafʿūl",
+          "function": "Passivpartizip der Grundform (I). Präfix مَـ + Waw nach dem 2. Radikal.",
+          "formation": "مَـ + C1 + C2 + ُول + C3",
+          "examples": [
+            {
+              "vocalized": "مَعْلُوم",
+              "root": "ع-ل-م",
+              "meaning": "bekannt",
+              "ref": "15:4",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=4"
+            },
+            {
+              "vocalized": "مَكْتُوب",
+              "root": "ك-ت-ب",
+              "meaning": "geschrieben, vorgeschrieben",
+              "ref": "2:183",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+            },
+            {
+              "vocalized": "مَرْزُوق",
+              "root": "ر-ز-ق",
+              "meaning": "versorgt",
+              "ref": "3:169",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=169"
+            },
+            {
+              "vocalized": "مَسْجُون",
+              "root": "س-ج-ن",
+              "meaning": "eingesperrt (implizit)"
+            },
+            {
+              "vocalized": "مَوْعُود",
+              "root": "و-ع-د",
+              "meaning": "versprochen",
+              "ref": "11:65",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=65"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "مُفَعَّل",
+          "transliteration": "mufaʿʿal",
+          "function": "Passivpartizip Form II. Präfix مُـ + Shadda über dem 2. Radikal + Fatha.",
+          "formation": "مُـ + C1 + C2 (Shadda + Fatha) + C3",
+          "examples": [
+            {
+              "vocalized": "مُحَمَّد",
+              "root": "ح-م-د",
+              "meaning": "vielfach Gelobter (Eigenname)",
+              "ref": "3:144",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=144"
+            },
+            {
+              "vocalized": "مُقَدَّس",
+              "root": "ق-د-س",
+              "meaning": "geheiligt",
+              "ref": "5:21",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=21"
+            },
+            {
+              "vocalized": "مُنَزَّل",
+              "root": "ن-ز-ل",
+              "meaning": "herabgesandt",
+              "ref": "6:114",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=114"
+            },
+            {
+              "vocalized": "مُسَوَّم",
+              "root": "س-و-م",
+              "meaning": "gekennzeichnet",
+              "ref": "3:14",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=14"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "مُفَاعَل",
+          "transliteration": "mufāʿal",
+          "function": "Passivpartizip Form III. Präfix مُـ + Alif nach dem 1. Radikal + Fatha unter dem 2.",
+          "formation": "مُـ + C1 + Alif + C2 (Fatha) + C3",
+          "examples": [
+            {
+              "vocalized": "مُبَارَك",
+              "root": "ب-ر-ك",
+              "meaning": "gesegnet",
+              "ref": "3:96",
+              "note": "Von بَارَكَ (Form III, فَاعَلَ). Passivpartizip ist مُفَاعَل, nicht مُفَعَّل (Form II).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=96"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُفْعَل",
+          "transliteration": "mufʿal",
+          "function": "Passivpartizip Form IV. Präfix مُـ + Sukun über dem 1. Radikal + Fatha unter dem 2.",
+          "formation": "مُـ + C1 (Sukun) + C2 (Fatha) + C3",
+          "examples": [
+            {
+              "vocalized": "مُرْسَل",
+              "root": "ر-س-ل",
+              "meaning": "entsandt",
+              "ref": "36:52",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=52"
+            },
+            {
+              "vocalized": "مُنْزَل",
+              "root": "ن-ز-ل",
+              "meaning": "herabgesandt",
+              "ref": "47:20",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=20"
+            },
+            {
+              "vocalized": "مُخْلَص",
+              "root": "خ-ل-ص",
+              "meaning": "lauter gemacht, auserlesen",
+              "ref": "38:46",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=46"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُسْتَفْعَل",
+          "transliteration": "mustafʿal",
+          "function": "Passivpartizip Form X. Präfix مُسْتَـ + Fatha unter dem 2. Radikal.",
+          "formation": "مُـ + سْتَ + C1 + C2 (Fatha) + C3",
+          "examples": [
+            {
+              "vocalized": "مُسْتَضْعَف",
+              "root": "ض-ع-ف",
+              "meaning": "unterdrückt, für-schwach-gehalten",
+              "ref": "4:97",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=97"
+            },
+            {
+              "vocalized": "مُسْتَقَرّ",
+              "root": "ق-ر-ر",
+              "meaning": "Ruheplatz, feststehend",
+              "ref": "6:98",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=98"
+            }
+          ],
+          "frequencyNote": "Selten"
+        }
+      ]
+    },
+    {
+      "id": "verbal_nouns",
+      "title": "Verbalsubstantive / Masdar (المصدر)",
+      "description": "Jede Verbform hat ein eigenes Masdar-Muster. Form I hat viele verschiedene Muster (im Lexikon nachzuschlagen), die abgeleiteten Formen (II-X) haben jeweils ein festes Muster.",
+      "patterns": [
+        {
+          "pattern": "تَفْعِيل",
+          "transliteration": "tafʿīl",
+          "function": "Masdar der Form II. Präfix تَـ + Kasra unter dem 2. Radikal + Ya.",
+          "verbForm": "II",
+          "examples": [
+            {
+              "vocalized": "تَنْزِيل",
+              "root": "ن-ز-ل",
+              "meaning": "Herabsendung",
+              "ref": "26:192",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=192"
+            },
+            {
+              "vocalized": "تَعْلِيم",
+              "root": "ع-ل-م",
+              "meaning": "Unterrichtung"
+            },
+            {
+              "vocalized": "تَصْدِيق",
+              "root": "ص-د-ق",
+              "meaning": "Bestätigung",
+              "ref": "10:37",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=37"
+            },
+            {
+              "vocalized": "تَسْبِيح",
+              "root": "س-ب-ح",
+              "meaning": "Lobpreisung",
+              "ref": "21:87",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=87"
+            },
+            {
+              "vocalized": "تَكْذِيب",
+              "root": "ك-ذ-ب",
+              "meaning": "für-Lüge-Erklärung",
+              "ref": "40:5",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=5"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "تَفْعِلَة",
+          "transliteration": "tafʿila",
+          "function": "Alternative Masdar-Form II für Verben mit schwachem 3. Radikal.",
+          "verbForm": "II",
+          "examples": [
+            {
+              "vocalized": "تَوْبَة",
+              "root": "ت-و-ب",
+              "meaning": "Reue, Umkehr",
+              "ref": "9:104",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=104"
+            },
+            {
+              "vocalized": "تَزْكِيَة",
+              "root": "ز-ك-و",
+              "meaning": "Reinigung, Läuterung",
+              "ref": "2:129",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+            },
+            {
+              "vocalized": "تَسْمِيَة",
+              "root": "س-م-و",
+              "meaning": "Benennung"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مُفَاعَلَة / فِعَال",
+          "transliteration": "mufāʿala / fiʿāl",
+          "function": "Masdar der Form III. Zwei gängige Muster. مُفَاعَلَة für konkretere, فِعَال für abstraktere Bedeutung.",
+          "verbForm": "III",
+          "examples": [
+            {
+              "vocalized": "مُقَاتَلَة",
+              "root": "ق-ت-ل",
+              "meaning": "Kämpfen"
+            },
+            {
+              "vocalized": "جِهَاد",
+              "root": "ج-ه-د",
+              "meaning": "Anstrengung",
+              "ref": "9:24",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=24"
+            },
+            {
+              "vocalized": "قِتَال",
+              "root": "ق-ت-ل",
+              "meaning": "Kampf",
+              "ref": "2:216",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+            },
+            {
+              "vocalized": "نِفَاق",
+              "root": "ن-ف-ق",
+              "meaning": "Heuchelei",
+              "ref": "9:77",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=77"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        },
+        {
+          "pattern": "إِفْعَال",
+          "transliteration": "ifʿāl",
+          "function": "Masdar der Form IV. Präfix إِ + Sukun über dem 1. Radikal.",
+          "verbForm": "IV",
+          "examples": [
+            {
+              "vocalized": "إِسْلَام",
+              "root": "س-ل-م",
+              "meaning": "Ergebung, Hingabe",
+              "ref": "3:19",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=19"
+            },
+            {
+              "vocalized": "إِيمَان",
+              "root": "ء-م-ن",
+              "meaning": "Glaube, Vertrauen",
+              "ref": "2:93",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=93"
+            },
+            {
+              "vocalized": "إِحْسَان",
+              "root": "ح-س-ن",
+              "meaning": "gutes Tun",
+              "ref": "16:90",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=90"
+            },
+            {
+              "vocalized": "إِنْزَال",
+              "root": "ن-ز-ل",
+              "meaning": "Herabsendung",
+              "ref": "2:22",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+            },
+            {
+              "vocalized": "إِنْفَاق",
+              "root": "ن-ف-ق",
+              "meaning": "Ausgeben (von Vermögen)",
+              "ref": "2:3",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "تَفَعُّل",
+          "transliteration": "tafaʿʿul",
+          "function": "Masdar der Form V. Präfix تَـ + Shadda über dem 2. Radikal.",
+          "verbForm": "V",
+          "examples": [
+            {
+              "vocalized": "تَوَكُّل",
+              "root": "و-ك-ل",
+              "meaning": "Sich-Anvertrauen, Vertrauen",
+              "ref": "3:159",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "vocalized": "تَقَدُّم",
+              "root": "ق-د-م",
+              "meaning": "Voranschreiten"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "تَفَاعُل",
+          "transliteration": "tafāʿul",
+          "function": "Masdar der Form VI. Präfix تَـ + Alif nach dem 1. Radikal.",
+          "verbForm": "VI",
+          "examples": [
+            {
+              "vocalized": "تَوَاصٍ",
+              "root": "و-ص-ي",
+              "meaning": "gegenseitiges Ermahnen",
+              "ref": "103:3",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "اِنْفِعَال",
+          "transliteration": "infiʿāl",
+          "function": "Masdar der Form VII. Präfix اِنْـ.",
+          "verbForm": "VII",
+          "examples": [
+            {
+              "vocalized": "اِنْقِلَاب",
+              "root": "ق-ل-ب",
+              "meaning": "Umkehrung, Umwendung",
+              "ref": "3:144",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=144"
+            },
+            {
+              "vocalized": "اِنْفِطَار",
+              "root": "ف-ط-ر",
+              "meaning": "Sich-Spalten",
+              "ref": "82:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=1"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "اِفْتِعَال",
+          "transliteration": "iftiʿāl",
+          "function": "Masdar der Form VIII. Infix ـتِـ nach dem 1. Radikal.",
+          "verbForm": "VIII",
+          "examples": [
+            {
+              "vocalized": "اِفْتِرَاء",
+              "root": "ف-ر-ي",
+              "meaning": "Erdichtung, Verleumdung",
+              "ref": "6:21",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=21"
+            },
+            {
+              "vocalized": "اِخْتِلَاف",
+              "root": "خ-ل-ف",
+              "meaning": "Verschiedenheit, Streit",
+              "ref": "2:164",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=164"
+            },
+            {
+              "vocalized": "اِبْتِلَاء",
+              "root": "ب-ل-و",
+              "meaning": "Prüfung",
+              "ref": "2:124",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "اِسْتِفْعَال",
+          "transliteration": "istifʿāl",
+          "function": "Masdar der Form X. Präfix اِسْتِـ.",
+          "verbForm": "X",
+          "examples": [
+            {
+              "vocalized": "اِسْتِكْبَار",
+              "root": "ك-ب-ر",
+              "meaning": "Hochmut, Sich-für-groß-Halten",
+              "ref": "40:56",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=56"
+            },
+            {
+              "vocalized": "اِسْتِغْفَار",
+              "root": "غ-ف-ر",
+              "meaning": "Bitte-um-Vergebung",
+              "ref": "4:106",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=106"
+            },
+            {
+              "vocalized": "اِسْتِقَامَة",
+              "root": "ق-و-م",
+              "meaning": "Aufrichtigkeit, Geradheit",
+              "ref": "41:6",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=6"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        }
+      ]
+    },
+    {
+      "id": "place_time_nouns",
+      "title": "Orts- und Zeitnomen (اسم المكان / اسم الزمان)",
+      "description": "Nomen die den Ort oder die Zeit einer Handlung bezeichnen. Gebildet mit dem Präfix مَـ.",
+      "patterns": [
+        {
+          "pattern": "مَفْعَل",
+          "transliteration": "mafʿal",
+          "function": "Ort oder Zeit der Handlung. Mit Fatha unter dem 2. Radikal — bei Verben mit Fatha/Damma im Imperfekt.",
+          "examples": [
+            {
+              "vocalized": "مَسْكَن",
+              "root": "س-ك-ن",
+              "meaning": "Wohnstätte",
+              "ref": "34:15",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=15"
+            },
+            {
+              "vocalized": "مَطْلَع",
+              "root": "ط-ل-ع",
+              "meaning": "Aufgangsort",
+              "ref": "18:90",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=90"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مَفْعِل",
+          "transliteration": "mafʿil",
+          "function": "Ort oder Zeit der Handlung. Mit Kasra unter dem 2. Radikal — bei Verben mit Kasra im Imperfekt.",
+          "examples": [
+            {
+              "vocalized": "مَسْجِد",
+              "root": "س-ج-د",
+              "meaning": "Ort der Niederwerfung",
+              "ref": "2:114",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=114"
+            },
+            {
+              "vocalized": "مَغْرِب",
+              "root": "غ-ر-ب",
+              "meaning": "Ort des Untergangs, Westen",
+              "ref": "2:115",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=115"
+            },
+            {
+              "vocalized": "مَشْرِق",
+              "root": "ش-ر-ق",
+              "meaning": "Ort des Aufgangs, Osten",
+              "ref": "2:115",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=115"
+            },
+            {
+              "vocalized": "مَوْعِد",
+              "root": "و-ع-د",
+              "meaning": "Zeitpunkt / Ort des Versprechens",
+              "ref": "20:58",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=58"
+            },
+            {
+              "vocalized": "مَوْلِد",
+              "root": "و-ل-د",
+              "meaning": "Geburtsort"
+            },
+            {
+              "vocalized": "مَنْزِل",
+              "root": "ن-ز-ل",
+              "meaning": "Halteplatz, Station",
+              "ref": "10:5",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=5"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مَفْعَلَة",
+          "transliteration": "mafʿala",
+          "function": "Ort der Handlung, feminine Form. Oft für Orte mit vielen Objekten der Handlung.",
+          "examples": [
+            {
+              "vocalized": "مَدْرَسَة",
+              "root": "د-ر-س",
+              "meaning": "Ort des Studiums (im Sprachsystem)"
+            },
+            {
+              "vocalized": "مَقْبَرَة",
+              "root": "ق-ب-ر",
+              "meaning": "Grabestätte",
+              "ref": "102:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=2"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        }
+      ]
+    },
+    {
+      "id": "instrument_nouns",
+      "title": "Instrumentennomen (اسم الآلة)",
+      "description": "Nomen die das Werkzeug oder Mittel einer Handlung bezeichnen. Gebildet mit dem Präfix مِـ (Kasra).",
+      "patterns": [
+        {
+          "pattern": "مِفْعَل",
+          "transliteration": "mifʿal",
+          "function": "Werkzeug / Instrument der Handlung. Präfix مِـ (mit Kasra).",
+          "examples": [
+            {
+              "vocalized": "مِنْبَر",
+              "root": "ن-ب-ر",
+              "meaning": "Kanzel (im Sprachsystem)"
+            },
+            {
+              "vocalized": "مِحْرَاب",
+              "root": "ح-ر-ب",
+              "meaning": "Mihrab (Nische/Heiligtum)",
+              "ref": "3:37",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        },
+        {
+          "pattern": "مِفْعَال",
+          "transliteration": "mifʿāl",
+          "function": "Werkzeug / Instrument. Präfix مِـ + Alif vor dem 3. Radikal.",
+          "examples": [
+            {
+              "vocalized": "مِفْتَاح",
+              "root": "ف-ت-ح",
+              "meaning": "Schlüssel",
+              "ref": "6:59",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+            },
+            {
+              "vocalized": "مِيزَان",
+              "root": "و-ز-ن",
+              "meaning": "Waage",
+              "ref": "55:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=7"
+            },
+            {
+              "vocalized": "مِصْبَاح",
+              "root": "ص-ب-ح",
+              "meaning": "Lampe",
+              "ref": "24:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+            },
+            {
+              "vocalized": "مِنْهَاج",
+              "root": "ن-ه-ج",
+              "meaning": "Methode, Weg",
+              "ref": "5:48",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=48"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مِفْعَلَة",
+          "transliteration": "mifʿala",
+          "function": "Werkzeug / Instrument, feminine Form.",
+          "examples": [
+            {
+              "vocalized": "مِشْكَاة",
+              "root": "ش-ك-و",
+              "meaning": "Nische (für Licht)",
+              "ref": "24:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        }
+      ]
+    },
+    {
+      "id": "elative_colors",
+      "title": "Elativ und Farbmuster (أَفْعَل / فُعْلَى)",
+      "description": "Das Muster أَفْعَل dient als Komparativ/Superlativ (Elativ) und als Farb-/Defektmuster. Es ist diptotisch.",
+      "patterns": [
+        {
+          "pattern": "أَفْعَل",
+          "transliteration": "afʿal",
+          "function": "Elativ (Komparativ/Superlativ) ODER Farb-/Defektadjektiv. Diptotisch (kein Tanwin, kein Kasra).",
+          "examples": [
+            {
+              "vocalized": "أَكْبَر",
+              "root": "ك-ب-ر",
+              "meaning": "größer / am größten",
+              "ref": "4:153",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=153"
+            },
+            {
+              "vocalized": "أَعْلَم",
+              "root": "ع-ل-م",
+              "meaning": "wissender / am meisten wissend",
+              "ref": "6:117",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=117"
+            },
+            {
+              "vocalized": "أَحْسَن",
+              "root": "ح-س-ن",
+              "meaning": "besser / am besten",
+              "ref": "12:3",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=3"
+            },
+            {
+              "vocalized": "أَحْمَر",
+              "root": "ح-م-ر",
+              "meaning": "rot",
+              "ref": "35:27",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=27"
+            },
+            {
+              "vocalized": "أَعْمَى",
+              "root": "ع-م-ي",
+              "meaning": "blind",
+              "ref": "17:72",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=72"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فُعْلَى",
+          "transliteration": "fuʿlā",
+          "function": "Femininum des Elativs. Auch diptotisch.",
+          "examples": [
+            {
+              "vocalized": "كُبْرَى",
+              "root": "ك-ب-ر",
+              "meaning": "die größte",
+              "ref": "74:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=35"
+            },
+            {
+              "vocalized": "أُولَى",
+              "root": "و-ل-ي",
+              "meaning": "die erste / nähere",
+              "ref": "53:50",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=50"
+            },
+            {
+              "vocalized": "أُخْرَى",
+              "root": "ء-خ-ر",
+              "meaning": "die andere",
+              "ref": "2:282",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+            },
+            {
+              "vocalized": "حُسْنَى",
+              "root": "ح-س-ن",
+              "meaning": "die beste / schönste",
+              "ref": "4:95",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=95"
+            },
+            {
+              "vocalized": "دُنْيَا",
+              "root": "د-ن-و",
+              "meaning": "die nähere (= diesseits)",
+              "ref": "2:85",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        }
+      ]
+    },
+    {
+      "id": "broken_plurals",
+      "title": "Gebrochene Pluralmuster (جمع التكسير)",
+      "description": "Arabisch bildet Plurale häufig durch innere Umformung statt durch Endungen. Diese 'gebrochenen' Plurale haben eigene Muster.",
+      "patterns": [
+        {
+          "pattern": "أَفْعَال",
+          "transliteration": "afʿāl",
+          "function": "Einer der häufigsten gebrochenen Plurale. Präfix أَ + Alif vor dem 3. Radikal. Typisch für فَعْل-Singulare.",
+          "examples": [
+            {
+              "vocalized": "أَعْمَال",
+              "root": "ع-م-ل",
+              "meaning": "Taten (Sg. عَمَل)",
+              "ref": "2:167",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=167"
+            },
+            {
+              "vocalized": "أَمْوَال",
+              "root": "م-و-ل",
+              "meaning": "Vermögen (Sg. مَال)",
+              "ref": "2:155",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=155"
+            },
+            {
+              "vocalized": "أَنْهَار",
+              "root": "ن-ه-ر",
+              "meaning": "Flüsse (Sg. نَهْر)",
+              "ref": "2:25",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+            },
+            {
+              "vocalized": "أَقْوَال",
+              "root": "ق-و-ل",
+              "meaning": "Worte (Sg. قَوْل)"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فُعُول",
+          "transliteration": "fuʿūl",
+          "function": "Häufiger gebrochener Plural. Typisch für فَعْل-Singulare. Auch als Masdar verwendet.",
+          "examples": [
+            {
+              "vocalized": "قُلُوب",
+              "root": "ق-ل-ب",
+              "meaning": "Herzen (Sg. قَلْب)",
+              "ref": "2:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "vocalized": "عُيُون",
+              "root": "ع-ي-ن",
+              "meaning": "Augen/Quellen (Sg. عَيْن)",
+              "ref": "26:134",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=134"
+            },
+            {
+              "vocalized": "بُيُوت",
+              "root": "ب-ي-ت",
+              "meaning": "Häuser (Sg. بَيْت)",
+              "ref": "2:189",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            },
+            {
+              "vocalized": "جُنُود",
+              "root": "ج-ن-د",
+              "meaning": "Heerscharen (Sg. جُنْد)",
+              "ref": "36:75",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=75"
+            },
+            {
+              "vocalized": "شُهُود",
+              "root": "ش-ه-د",
+              "meaning": "Zeugen (Sg. شَاهِد)",
+              "ref": "85:7",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=7"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فِعَال",
+          "transliteration": "fiʿāl",
+          "function": "Gebrochener Plural. Typisch für فَعْل- und فَعْلَة-Singulare.",
+          "examples": [
+            {
+              "vocalized": "جِبَال",
+              "root": "ج-ب-ل",
+              "meaning": "Berge (Sg. جَبَل)",
+              "ref": "13:3",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=3"
+            },
+            {
+              "vocalized": "رِجَال",
+              "root": "ر-ج-ل",
+              "meaning": "Männer (Sg. رَجُل)",
+              "ref": "2:282",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+            },
+            {
+              "vocalized": "دِيَار",
+              "root": "د-و-ر",
+              "meaning": "Heimstätten (Sg. دَار)",
+              "ref": "2:84",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=84"
+            },
+            {
+              "vocalized": "نِسَاء",
+              "root": "ن-س-و",
+              "meaning": "Frauen",
+              "ref": "2:222",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=222"
+            },
+            {
+              "vocalized": "كُتُب",
+              "root": "ك-ت-ب",
+              "meaning": "Bücher (Sg. كِتَاب)",
+              "ref": "2:285",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+            }
+          ],
+          "frequencyNote": "Sehr häufig"
+        },
+        {
+          "pattern": "فُعَّال",
+          "transliteration": "fuʿʿāl",
+          "function": "Gebrochener Plural für فَاعِل-Singulare. Shadda über dem 2. Radikal.",
+          "examples": [
+            {
+              "vocalized": "كُفَّار",
+              "root": "ك-ف-ر",
+              "meaning": "Leugnende (Sg. كَافِر)",
+              "ref": "2:191",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=191"
+            },
+            {
+              "vocalized": "تُجَّار",
+              "root": "ت-ج-ر",
+              "meaning": "Händler (Sg. تَاجِر)",
+              "ref": "4:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=29"
+            },
+            {
+              "vocalized": "سُجَّد",
+              "root": "س-ج-د",
+              "meaning": "Sich-Niederwerfende (Sg. سَاجِد)",
+              "ref": "48:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=29"
+            },
+            {
+              "vocalized": "رُكَّع",
+              "root": "ر-ك-ع",
+              "meaning": "Sich-Verneigende (Sg. رَاكِع)",
+              "ref": "48:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=29"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فَوَاعِل",
+          "transliteration": "fawāʿil",
+          "function": "Gebrochener Plural für feminine فَاعِلَة-Singulare und einige maskuline Formen.",
+          "examples": [
+            {
+              "vocalized": "فَوَاكِه",
+              "root": "ف-ك-ه",
+              "meaning": "Früchte (Sg. فَاكِهَة)",
+              "ref": "36:57",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=57"
+            },
+            {
+              "vocalized": "خَوَاتِم",
+              "root": "خ-ت-م",
+              "meaning": "Siegel/Enden"
+            },
+            {
+              "vocalized": "كَوَاكِب",
+              "root": "ك-و-ك-ب",
+              "meaning": "Sterne (Sg. كَوْكَب)",
+              "ref": "6:76",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=76"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مَفَاعِل",
+          "transliteration": "mafāʿil",
+          "function": "Gebrochener Plural für مَفْعَل/مَفْعِل-Singulare (Orts-/Zeitnomen).",
+          "examples": [
+            {
+              "vocalized": "مَسَاجِد",
+              "root": "س-ج-د",
+              "meaning": "Niederwerfungsstätten (Sg. مَسْجِد)",
+              "ref": "2:187",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+            },
+            {
+              "vocalized": "مَنَازِل",
+              "root": "ن-ز-ل",
+              "meaning": "Stationen (Sg. مَنْزِل)",
+              "ref": "10:5",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=5"
+            },
+            {
+              "vocalized": "مَشَارِق",
+              "root": "ش-ر-ق",
+              "meaning": "Aufgangsorte (Sg. مَشْرِق)",
+              "ref": "37:5",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=5"
+            },
+            {
+              "vocalized": "مَغَارِب",
+              "root": "غ-ر-ب",
+              "meaning": "Untergangsorte (Sg. مَغْرِب)",
+              "ref": "70:40",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=40"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "مَفَاعِيل",
+          "transliteration": "mafāʿīl",
+          "function": "Gebrochener Plural für مِفْعَال-Singulare (Instrumentennomen) und vierbuchstabige Nomen.",
+          "examples": [
+            {
+              "vocalized": "مَفَاتِيح",
+              "root": "ف-ت-ح",
+              "meaning": "Schlüssel (Sg. مِفْتَاح)",
+              "ref": "6:59",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+            },
+            {
+              "vocalized": "مَصَابِيح",
+              "root": "ص-ب-ح",
+              "meaning": "Lampen (Sg. مِصْبَاح)",
+              "ref": "41:12",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=12"
+            },
+            {
+              "vocalized": "مَسَاكِين",
+              "root": "س-ك-ن",
+              "meaning": "Bedürftige (Sg. مِسْكِين)",
+              "ref": "2:83",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فَعَائِل",
+          "transliteration": "faʿāʾil",
+          "function": "Gebrochener Plural für فَعِيلَة-Singulare.",
+          "examples": [
+            {
+              "vocalized": "رَسَائِل",
+              "root": "ر-س-ل",
+              "meaning": "Botschaften (Sg. رِسَالَة)",
+              "ref": "7:62",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=62"
+            },
+            {
+              "vocalized": "صَحَائِف",
+              "root": "ص-ح-ف",
+              "meaning": "Blätter (Sg. صَحِيفَة)",
+              "ref": "87:18",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=18"
+            },
+            {
+              "vocalized": "قَبَائِل",
+              "root": "ق-ب-ل",
+              "meaning": "Stämme (Sg. قَبِيلَة)",
+              "ref": "49:13",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "أَفْعِلَة",
+          "transliteration": "afʿila",
+          "function": "Gebrochener Plural für einige فِعَال- und فَعِيل-Singulare.",
+          "examples": [
+            {
+              "vocalized": "أَلْسِنَة",
+              "root": "ل-س-ن",
+              "meaning": "Zungen (Sg. لِسَان)",
+              "ref": "16:116",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=116"
+            },
+            {
+              "vocalized": "أَئِمَّة",
+              "root": "ء-م-م",
+              "meaning": "Anführer (Sg. إِمَام)",
+              "ref": "9:12",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=12"
+            },
+            {
+              "vocalized": "أَنْعَام",
+              "root": "ن-ع-م",
+              "meaning": "Vieh",
+              "ref": "6:136",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=136"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "أَفْعِلَاء",
+          "transliteration": "afʿilāʾ",
+          "function": "Gebrochener Plural für فَعِيل-Singulare (oft Personenbezeichnungen).",
+          "examples": [
+            {
+              "vocalized": "أَنْبِيَاء",
+              "root": "ن-ب-ا",
+              "meaning": "Verkünder (Sg. نَبِيّ, konventionell 'Propheten')",
+              "ref": "2:61",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+            },
+            {
+              "vocalized": "أَوْلِيَاء",
+              "root": "و-ل-ي",
+              "meaning": "Verbündete, Nahestehende (Sg. وَلِيّ)",
+              "ref": "2:257",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+            },
+            {
+              "vocalized": "أَقْرِبَاء",
+              "root": "ق-ر-ب",
+              "meaning": "Verwandte (Sg. قَرِيب)"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فُعَلَاء",
+          "transliteration": "fuʿalāʾ",
+          "function": "Gebrochener Plural für فَعِيل-Singulare.",
+          "examples": [
+            {
+              "vocalized": "عُلَمَاء",
+              "root": "ع-ل-م",
+              "meaning": "Wissende (Sg. عَلِيم)",
+              "ref": "26:197",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=197"
+            },
+            {
+              "vocalized": "شُهَدَاء",
+              "root": "ش-ه-د",
+              "meaning": "Zeugen (Sg. شَهِيد)",
+              "ref": "2:23",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+            },
+            {
+              "vocalized": "شُرَكَاء",
+              "root": "ش-ر-ك",
+              "meaning": "Teilhaber (Sg. شَرِيك)",
+              "ref": "6:94",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=94"
+            },
+            {
+              "vocalized": "حُنَفَاء",
+              "root": "ح-ن-ف",
+              "meaning": "Aufrichtige (Sg. حَنِيف)",
+              "ref": "98:5",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=5"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فِعْلَان",
+          "transliteration": "fiʿlān",
+          "function": "Gebrochener Plural. Typisch für فُعْل- und فُعَال-Singulare.",
+          "examples": [
+            {
+              "vocalized": "غِلْمَان",
+              "root": "غ-ل-م",
+              "meaning": "Knaben (Sg. غُلَام)",
+              "ref": "52:24",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=24"
+            },
+            {
+              "vocalized": "وِلْدَان",
+              "root": "و-ل-د",
+              "meaning": "Kinder (Sg. وَلَد)",
+              "ref": "56:17",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=17"
+            },
+            {
+              "vocalized": "نِسْوَان",
+              "root": "ن-س-و",
+              "meaning": "Frauen (Sg. نِسْوَة, im Sprachsystem)"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فُعَل",
+          "transliteration": "fuʿal",
+          "function": "Gebrochener Plural. Typisch für فُعْلَة-Singulare.",
+          "examples": [
+            {
+              "vocalized": "غُرَف",
+              "root": "غ-ر-ف",
+              "meaning": "Gemächer (Sg. غُرْفَة)",
+              "ref": "25:75",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=75"
+            },
+            {
+              "vocalized": "سُوَر",
+              "root": "س-و-ر",
+              "meaning": "Suren (Sg. سُورَة)",
+              "ref": "24:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+            },
+            {
+              "vocalized": "ظُلَم",
+              "root": "ظ-ل-م",
+              "meaning": "Finsternisse (Sg. ظُلْمَة)",
+              "ref": "6:63",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=63"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        }
+      ]
+    },
+    {
+      "id": "diminutive",
+      "title": "Diminutiv (التصغير)",
+      "description": "Der Diminutiv drückt Verkleinerung, Verniedlichung oder Nähebestimmung aus.",
+      "patterns": [
+        {
+          "pattern": "فُعَيْل",
+          "transliteration": "fuʿayl",
+          "function": "Diminutiv-Grundmuster. Damma unter dem 1. Radikal, Ya-Sukun nach dem 2. Radikal.",
+          "examples": [
+            {
+              "vocalized": "بُنَيّ",
+              "root": "ب-ن-ي",
+              "meaning": "Söhnchen (Sg. اِبْن)",
+              "ref": "11:42",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+            },
+            {
+              "vocalized": "قُرَيْش",
+              "root": "ق-ر-ش",
+              "meaning": "Quraisch (Eigenname, morphologisch Diminutiv)",
+              "ref": "106:1",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=1"
+            },
+            {
+              "vocalized": "كُتَيِّب",
+              "root": "ك-ت-ب",
+              "meaning": "Büchlein (Sg. كِتَاب, im Sprachsystem)"
+            }
+          ],
+          "frequencyNote": "Selten im Quran"
+        }
+      ]
+    },
+    {
+      "id": "sound_plurals_dual",
+      "title": "Gesunde Plurale und Dual",
+      "description": "Neben den gebrochenen Pluralen gibt es reguläre Pluralendungen und den Dual.",
+      "patterns": [
+        {
+          "pattern": "فَاعِلُون / ـون",
+          "transliteration": "-ūna / -īna",
+          "function": "Gesunder maskuliner Plural. Endung ـون (Nominativ) / ـين (Akkusativ/Genitiv). Nur für belebte maskuline Nomen/Adjektive.",
+          "examples": [
+            {
+              "vocalized": "مُؤْمِنُون",
+              "root": "ء-م-ن",
+              "meaning": "Glaubende",
+              "ref": "2:285",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+            },
+            {
+              "vocalized": "مُسْلِمُون",
+              "root": "س-ل-م",
+              "meaning": "Sich-Ergebende",
+              "ref": "2:132",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132"
+            },
+            {
+              "vocalized": "صَالِحُون",
+              "root": "ص-ل-ح",
+              "meaning": "Rechtschaffene",
+              "ref": "7:168",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=168"
+            },
+            {
+              "vocalized": "ظَالِمِين",
+              "root": "ظ-ل-م",
+              "meaning": "Unrechttuende (Akk./Gen.)",
+              "ref": "2:35",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+            }
+          ],
+          "frequencyNote": "Extrem häufig"
+        },
+        {
+          "pattern": "فَاعِلَات / ـات",
+          "transliteration": "-āt",
+          "function": "Gesunder femininer Plural. Endung ـات. Nominativ: ـاتُ, Akkusativ/Genitiv: ـاتِ (Kasra statt Fatha!).",
+          "examples": [
+            {
+              "vocalized": "مُؤْمِنَات",
+              "root": "ء-م-ن",
+              "meaning": "Glaubende (f.)",
+              "ref": "60:10",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=10"
+            },
+            {
+              "vocalized": "سَمَاوَات",
+              "root": "س-م-و",
+              "meaning": "Himmel (Pl.)",
+              "ref": "2:29",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+            },
+            {
+              "vocalized": "آيَات",
+              "root": "ء-ي-ي",
+              "meaning": "Zeichen",
+              "ref": "2:39",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=39"
+            },
+            {
+              "vocalized": "صَالِحَات",
+              "root": "ص-ل-ح",
+              "meaning": "rechtschaffene (Taten)",
+              "ref": "2:25",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+            }
+          ],
+          "frequencyNote": "Extrem häufig",
+          "note": "ACHTUNG: Der Akkusativ des gesunden femininen Plurals wird mit Kasra markiert (ـاتِ), NICHT mit Fatha. Dies ist eine der häufigsten Fehlerquellen."
+        },
+        {
+          "pattern": "فَاعِلَان / ـان / ـَيْن",
+          "transliteration": "-āni / -ayni",
+          "function": "Dual. Endung ـان (Nominativ) / ـَيْن (Akkusativ/Genitiv). Für genau zwei.",
+          "examples": [
+            {
+              "vocalized": "رَجُلَان",
+              "root": "ر-ج-ل",
+              "meaning": "zwei Männer",
+              "ref": "5:23",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=23"
+            },
+            {
+              "vocalized": "يَدَيْهِ",
+              "root": "ي-د-ي",
+              "meaning": "seine beiden Hände (Akk./Gen.)",
+              "ref": "5:64",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=64"
+            },
+            {
+              "vocalized": "بَحْرَيْنِ",
+              "root": "ب-ح-ر",
+              "meaning": "zwei Meere (Akk./Gen.)",
+              "ref": "18:60",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=60"
+            },
+            {
+              "vocalized": "وَالِدَيْنِ",
+              "root": "و-ل-د",
+              "meaning": "zwei Eltern (Akk./Gen.)",
+              "ref": "2:83",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        }
+      ]
+    }
+  ]
+}

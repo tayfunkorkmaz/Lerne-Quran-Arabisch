@@ -1,0 +1,204 @@
+[
+  {
+    "id": "3.42",
+    "title": "Ism al-Fi'l (اسم الفعل)",
+    "description": "Nomina die als Verben fungieren — eine kleine aber im Quran vorkommende Kategorie, die weder vollständig Verb noch vollständig Nomen ist.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist ein Ism al-Fi'l?",
+          "content": "Ein Ism al-Fi'l ist ein Wort, das die Bedeutung eines Verbs trägt, aber morphologisch kein Verb ist. Es wird nicht konjugiert, hat keine Tempus- oder Modusmarkierung, aber es regiert wie ein Verb (kann ein Objekt nehmen oder ein Subjekt fordern).\n\nMan unterscheidet drei Typen:\n\n1. Ism Fi'l Madi (vergangene Bedeutung): هَيْهَاتَ = 'fern ist/war' (Bedeutung von بَعُدَ)\n2. Ism Fi'l Mudari' (gegenwärtige Bedeutung): أُفٍّ = 'pfui/mir widerstrebt' (Bedeutung von أَتَضَجَّرُ)\n3. Ism Fi'l Amr (befehlende Bedeutung): صَهٍ = 'schweig!' (Bedeutung von اسْكُتْ), هَلُمَّ = 'komm her!' (Bedeutung von أَقْبِلْ)"
+        },
+        {
+          "type": "explanation",
+          "title": "Ism al-Fi'l im Quran",
+          "content": "هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ (23:36) — 'Fern, fern ist das, was euch versprochen wird!'\n\nHier fungiert هَيْهَاتَ wie ein Verb mit der Bedeutung 'es ist fern/unmöglich'. Es wird nicht konjugiert, steht in unveränderlicher Form, und sein Subjekt (مَا تُوعَدُونَ) steht im Nominativ.\n\nأُفٍّ — in Sure 17:23: فَلَا تَقُل لَّهُمَا أُفٍّ — 'So sage nicht zu ihnen: Pfui!'\nHier drückt أُفٍّ Ekel oder Ablehnung aus — es fungiert wie ein Verb des Empfindens.\n\nهَلُمَّ — in Sure 6:150: قُلْ هَلُمَّ شُهَدَاءَكُمُ — 'Sprich: Bringt her eure Zeugen!'\nHier fungiert هَلُمَّ als Imperativ-Äquivalent mit der Bedeutung 'komm/bring her'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "type": "explanation",
+          "title": "Grammatische Besonderheiten",
+          "content": "1. Ism al-Fi'l ist unveränderlich (مَبْنِيّ) — es wird nie konjugiert oder dekliniert.\n2. Es kann ein Subjekt haben (implizit oder explizit), das im Nominativ steht.\n3. Es kann Objekte regieren, wenn die Verbbedeutung transitiv ist.\n4. Im Konsonantentext ist es an seiner festen Form erkennbar — es verändert sich nie.\n\nDie Kategorie ist klein (etwa 15-20 Wörter im klassischen Arabisch), aber im Quran erscheinen: هَيْهَاتَ (23:36), أُفٍّ (17:23), هَلُمَّ (6:150, 33:18).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Besonderheit eines Ism al-Fi'l?",
+          "options": [
+            "Es wird konjugiert wie ein normales Verb",
+            "Es hat Verbbedeutung, wird aber nicht konjugiert",
+            "Es ist ein reines Nomen ohne Verbbedeutung",
+            "Es steht immer im Akkusativ"
+          ],
+          "answer": "Es hat Verbbedeutung, wird aber nicht konjugiert",
+          "explanation": "Ein Ism al-Fi'l trägt die Bedeutung eines Verbs, ist aber morphologisch unveränderlich und wird nicht konjugiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Bedeutung hat هَيْهَاتَ in Sure 23:36?",
+          "options": [
+            "Komm her!",
+            "Fern ist / unmöglich ist",
+            "Schweig!",
+            "Höre zu!"
+          ],
+          "answer": "Fern ist / unmöglich ist",
+          "explanation": "هَيْهَاتَ bedeutet 'fern ist' oder 'unmöglich ist'. Es entspricht dem Verb بَعُدَ und wird in 23:36 verdoppelt zur Verstärkung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=36"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Subjekt eines Ism al-Fi'l?",
+          "options": [
+            "Akkusativ",
+            "Genitiv",
+            "Nominativ",
+            "Es hat kein Subjekt"
+          ],
+          "answer": "Nominativ",
+          "explanation": "Das Ism al-Fi'l regiert wie ein Verb — sein Subjekt steht im Nominativ, genau wie beim regulären Verb.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright I §400-405",
+    "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2"
+  },
+  {
+    "id": "3.43",
+    "title": "Tanazu' al-I'rab (التَّنَازُع)",
+    "description": "Wenn zwei Verben um dasselbe Komplement konkurrieren — ein syntaktisches Phänomen des klassischen Arabisch.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist Tanazu'?",
+          "content": "Tanazu' (wörtlich 'Streit') bezeichnet eine Konstruktion, in der zwei Verben aufeinander folgen und sich dasselbe Nomen als Komplement 'teilen'. Das Nomen steht nur einmal, könnte aber grammatisch zu beiden Verben gehören.\n\nBeispiel: جَاءَنِي وَأَكْرَمْتُ زَيْدًا\n(Mir kam und ich ehrte — Zaidan)\n\nZwei Verben: جَاءَ (kommen, braucht Subjekt) und أَكْرَمَ (ehren, braucht Objekt)\nEin geteiltes Nomen: زَيْد\n\nDas Nomen kann entweder als Subjekt des ersten Verbs oder als Objekt des zweiten Verbs gelesen werden."
+        },
+        {
+          "type": "explanation",
+          "title": "Tanazu' im Qurantext",
+          "content": "آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا (18:96) — 'Bringt mir (Metall), ich werde geschmolzenes (Metall) darüber gießen'\n\nDas Objekt ist beim zweiten Verb explizit (قِطْرًا), beim ersten (آتُونِي) impliziert.\n\nتَعَالَوْا أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ (6:151) — 'Kommt, ich werde euch vorlesen, was eur Herr euch verboten hat'\n\nDas Komplement مَا حَرَّمَ gehört primär zu أَتْلُ, während تَعَالَوْا als einleitendes Verb ohne eigenes Objekt fungiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=96"
+        },
+        {
+          "type": "explanation",
+          "title": "Grammatische Regeln",
+          "content": "Beim Tanazu' stellt sich die Frage: Welches Verb 'erhält' das geteilte Nomen?\n\n1. Wenn das Nomen zum ZWEITEN Verb gehört (häufiger im quranischen Gebrauch), steht beim ersten Verb ein Rückverweis-Pronomen.\n2. Wenn das Nomen zum ERSTEN Verb gehört, steht beim zweiten Verb ein Pronomen.\n\nIm Konsonantentext ist diese Zuweisung nicht immer eindeutig — der Leser muss aus dem Kontext und der grammatischen Kongruenz erschließen, welchem Verb das Nomen primär zugeordnet ist."
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet 'Tanazu' al-I'rab'?",
+          "options": [
+            "Zwei Nomen teilen sich ein Verb",
+            "Zwei Verben konkurrieren um dasselbe Komplement",
+            "Ein Verb hat zwei Objekte",
+            "Ein Nomen hat zwei Kasus gleichzeitig"
+          ],
+          "answer": "Zwei Verben konkurrieren um dasselbe Komplement",
+          "explanation": "Tanazu' beschreibt die syntaktische Situation, in der zwei Verben dasselbe Nomen als Komplement beanspruchen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was geschieht mit dem Verb, das das geteilte Nomen NICHT erhält?",
+          "options": [
+            "Es wird gestrichen",
+            "Es erhält ein Rückverweis-Pronomen",
+            "Es steht ohne Komplement",
+            "Es ändert seinen Modus"
+          ],
+          "answer": "Es erhält ein Rückverweis-Pronomen",
+          "explanation": "Das Verb, bei dem das Nomen nicht explizit steht, erhält ein Pronomen als Rückverweis auf das geteilte Nomen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §210-215",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.44",
+    "title": "Ishtighål (الاشتغال)",
+    "description": "Wenn ein vorangestelltes Nomen durch ein Pronomen beim Verb vorweggenommen wird — und welche Konsequenzen das für den Kasus hat.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist Ishtighål?",
+          "content": "Ishtighål (wörtlich 'Beschäftigung') liegt vor, wenn ein Nomen VOR dem Verb steht und das Verb ein Pronomen enthält, das auf dieses Nomen zurückverweist. Das Verb ist 'beschäftigt' mit dem Pronomen und kann das Nomen nicht direkt regieren.\n\nBeispiel: زَيْدًا ضَرَبْتُهُ\n(Zaidan — ich schlug IHN)\n\nHier steht زَيْد VOR dem Verb, und das Verb ضَرَبْتُ hat bereits ein Pronomen-Objekt (هُ). Das vorangestellte Nomen steht im Akkusativ, weil ein implizites Verb es regiert."
+        },
+        {
+          "type": "explanation",
+          "title": "Ishtighål im Quran",
+          "content": "وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ (36:39) — 'Und den Mond — Wir bestimmten ihm Stationen'\n\nالْقَمَرَ steht im Akkusativ (Mansub), obwohl es vor dem Verb steht. Das Verb قَدَّرْنَا hat bereits das Suffix-Pronomen هُ. Das vorangestellte Nomen wird durch ein impliziertes Verb regiert.\n\nوَالظَّالِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًا (76:31) — 'Und den Ungerechten — Er bereitete ihnen schmerzliche Strafe'\n\nالظَّالِمِينَ im Akkusativ, während das Verb bereits لَهُمْ als präpositionales Komplement hat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "type": "explanation",
+          "title": "Grammatische Analyse",
+          "content": "Der Kasus des vorangestellten Nomens im Ishtighål:\n\n1. AKKUSATIV (Pflicht): Wenn ein Akkusativ-Marker wie إِنَّ oder das Nomen nach وَ steht, die einen Verbalsatz einleitet.\n2. AKKUSATIV (bevorzugt): Wenn das Verb einen Befehl oder eine Aufforderung ausdrückt.\n3. NOMINATIV (möglich): Wenn das Nomen als Mubtada' (Thema) eines Nominalsatzes gelesen wird — dann ist der folgende Verbalsatz sein Khabar.\n\nDiese Mehrdeutigkeit im Kasus ist ein Beispiel dafür, wie der Konsonantentext mehrere grammatisch korrekte Lesungen erlaubt."
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was liegt bei الْقَمَرَ قَدَّرْنَاهُ vor?",
+          "options": [
+            "Normaler Verbalsatz",
+            "Ishtighål — das Nomen ist vorangestellt und das Verb hat ein Rückverweis-Pronomen",
+            "Nominalsatz mit Mubtada' und Khabar",
+            "Tanazu' — zwei Verben teilen ein Nomen"
+          ],
+          "answer": "Ishtighål — das Nomen ist vorangestellt und das Verb hat ein Rückverweis-Pronomen",
+          "explanation": "الْقَمَرَ steht vor dem Verb, und قَدَّرْنَاهُ enthält das Pronomen هُ, das auf القمر zurückverweist. Dies ist die klassische Ishtighål-Konstruktion.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht الْقَمَرَ in 36:39 im Akkusativ?",
+          "options": [
+            "Es ist direktes Objekt von قَدَّرْنَا",
+            "Ein implizites Verb regiert es im Akkusativ",
+            "Es steht nach einer Präposition",
+            "Es ist Mubtada' eines Nominalsatzes"
+          ],
+          "answer": "Ein implizites Verb regiert es im Akkusativ",
+          "explanation": "Da das Verb bereits durch das Pronomen 'beschäftigt' ist, wird das vorangestellte Nomen durch ein impliziertes Verb regiert (Taqdir eines Verbs ist hier syntaktisch zwingend, nicht interpretativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche alternative Analyse ist bei Ishtighål manchmal möglich?",
+          "options": [
+            "Das Nomen als Hal (Zustandsakkusativ)",
+            "Das Nomen als Tamyiz (Spezifikation)",
+            "Das Nomen als Mubtada' (Nominativ) mit dem Verbalsatz als Khabar",
+            "Das Nomen als Badal (Apposition)"
+          ],
+          "answer": "Das Nomen als Mubtada' (Nominativ) mit dem Verbalsatz als Khabar",
+          "explanation": "In manchen Kontexten kann das vorangestellte Nomen als Mubtada' eines Nominalsatzes gelesen werden, wobei der folgende Verbalsatz als Khabar fungiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §210-215",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.39",
+      "3.43"
+    ]
+  }
+]

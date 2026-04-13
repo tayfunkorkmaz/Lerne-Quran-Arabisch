@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "3.21",
+    "title": "Verben des Anfangs",
+    "description": "شَرَعَ, أَخَذَ, جَعَلَ und بَدَأَ leiten wie كَادَ eine Handlung ein — das Prädikat steht im Imperfekt.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was sind Verben des Anfangs?",
+          "content": "Die Verben des Anfangs (أَفْعَالُ الشُّرُوعِ) drücken aus, dass eine Handlung beginnt. Sie funktionieren syntaktisch wie كَادَ und ihre Schwestern: Das Subjekt steht im Nominativ, und das Prädikat ist ein Imperfekt-Verb. Die wichtigsten Verben dieser Gruppe sind شَرَعَ (beginnen), أَخَذَ (anfangen — wörtlich: nehmen), جَعَلَ (anfangen — wörtlich: machen) und بَدَأَ (anfangen). Entscheidend: جَعَلَ hat diese Bedeutung NUR wenn ein Imperfekt-Verb folgt. Ohne nachfolgendes Imperfekt bedeutet جَعَلَ einfach 'machen/setzen'.",
+          "arabicExamples": [
+            {
+              "arabic": "شَرَعَ يَكْتُبُ",
+              "transliteration": "sharaʿa yaktubu",
+              "meaning": "er begann zu schreiben"
+            },
+            {
+              "arabic": "أَخَذَ يَبْكِي",
+              "transliteration": "akhadha yabkī",
+              "meaning": "er begann zu weinen"
+            },
+            {
+              "arabic": "جَعَلَ يَنْظُرُ",
+              "transliteration": "jaʿala yanẓuru",
+              "meaning": "er begann zu schauen"
+            },
+            {
+              "arabic": "بَدَأَ يَقْرَأُ",
+              "transliteration": "badaʾa yaqraʾu",
+              "meaning": "er begann zu lesen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Syntaktische Struktur",
+          "content": "Die Konstruktion ist identisch mit كَادَ وَأَخَوَاتُهَا: Das Verb des Anfangs ist das Hauptverb. Sein Subjekt (اِسْم) steht im Nominativ. Das Imperfekt-Verb das folgt ist das Prädikat (خَبَر) und muss im Subjekt mit dem Hauptverb übereinstimmen. Das Imperfekt-Verb steht NICHT im Subjunktiv (منصوب) — es bleibt im Indikativ (مرفوع). Dies unterscheidet die Verben des Anfangs von Verben die أَنْ erfordern.",
+          "arabicExamples": [
+            {
+              "arabic": "وَطَفِقَا يَخْصِفَانِ",
+              "transliteration": "wa-ṭafiqā yakhṣifāni",
+              "meaning": "und sie beide begannen zu bedecken"
+            },
+            {
+              "arabic": "شَرَعُوا يَخْصِفُونَ",
+              "transliteration": "sharaʿū yakhṣifūna",
+              "meaning": "sie begannen zusammenzuheften"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Satz: وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ (7:22) — sie beide begannen ihre Blößen mit Blättern des Gartens zu bedecken",
+            "Schritt 1: جَعَلَ ist das Verb des Anfangs — es leitet die Handlung ein",
+            "Schritt 2: Das Subjekt (اِسْم) ist das verborgene Pronomen هُوَ (er) in جَعَلَ",
+            "Schritt 3: يَنْظُرُ ist das Imperfekt-Verb als Prädikat (خَبَر) — es steht im Indikativ (مرفوع)",
+            "Schritt 4: فِي النُّجُومِ ist eine Präpositionalphrase die يَنْظُرُ ergänzt",
+            "Schritt 5: Die gesamte Konstruktion bedeutet 'er begann zu schauen' — جَعَلَ hat hier NICHT die Bedeutung 'machen'"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "جَعَلَ — Zwei Bedeutungen unterscheiden",
+          "content": "جَعَلَ hat im Quran zwei völlig verschiedene Funktionen. Als Verb des Anfangs (mit folgendem Imperfekt) bedeutet es 'anfangen zu'. Als gewöhnliches Verb (mit Akkusativ-Objekt) bedeutet es 'machen/setzen/bestimmen'. Die Unterscheidung ist rein syntaktisch: Folgt ein Imperfekt? Dann Verb des Anfangs. Folgt ein Nomen im Akkusativ? Dann 'machen/setzen'.",
+          "arabicExamples": [
+            {
+              "arabic": "جَعَلَ يَنْظُرُ",
+              "transliteration": "jaʿala yanẓuru",
+              "meaning": "er begann zu schauen (Verb des Anfangs)"
+            },
+            {
+              "arabic": "جَعَلَ الظُّلُمَاتِ وَالنُّورَ",
+              "transliteration": "jaʿala ẓ-ẓulumāti wa-n-nūra",
+              "meaning": "Er machte die Finsternisse und das Licht (6:1) — gewöhnliches Verb",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "7:22",
+              "word": "وَطَفِقَا يَخْصِفَانِ",
+              "analysis": "طَفِقَ als Verb des Anfangs: \"sie beide begannen zu …\". يَخْصِفَانِ ist Imperfekt im Indikativ — das Prädikat von طَفِقَا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=22"
+            },
+            {
+              "location": "7:22",
+              "word": "وَطَفِقَا يَخْصِفَانِ",
+              "analysis": "طَفِقَ ist ein weiteres Verb des Anfangs (synonyme Konstruktion). يَخْصِفَانِ (Dual) = sie beide begannen zusammenzuheften. Adam und Hawa begannen Blätter über sich zu heften.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=22"
+            },
+            {
+              "location": "6:1",
+              "word": "وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ",
+              "analysis": "Hier ist جَعَلَ KEIN Verb des Anfangs — es folgt kein Imperfekt, sondern ein Akkusativ-Objekt. Bedeutung: Er machte/erschuf die Finsternisse und das Licht.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+            },
+            {
+              "location": "20:121",
+              "word": "وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ",
+              "analysis": "طَفِقَ ist ein Verb des Anfangs wie شَرَعَ und جَعَلَ. فَطَفِقَا (Dual-Perfekt) = sie beide begannen. يَخْصِفَانِ (Dual-Imperfekt, Indikativ) = zusammenzuheften. Parallele zu 7:22 mit identischer Konstruktion.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=121"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Funktion hat جَعَلَ im Satz وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ?",
+          "options": [
+            "machen/erschaffen",
+            "setzen/bestimmen",
+            "anfangen zu (Verb des Anfangs)",
+            "werden"
+          ],
+          "answer": "anfangen zu (Verb des Anfangs)",
+          "explanation": "Wenn auf جَعَلَ ein Imperfekt-Verb folgt (hier يَنْظُرُ), fungiert es als Verb des Anfangs: 'er begann zu schauen'.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere in folgendem Satz das Verb des Anfangs und sein Prädikat: شَرَعُوا يَخْصِفُونَ عَلَيْهِمَا مِنْ وَرَقِ الْجَنَّةِ",
+          "answer": "Verb des Anfangs: شَرَعُوا — Prädikat: يَخْصِفُونَ",
+          "explanation": "شَرَعُوا (sie begannen) ist das Verb des Anfangs. يَخْصِفُونَ (sie heften zusammen) ist das Imperfekt-Verb als Prädikat im Indikativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Modus steht das Imperfekt-Verb nach einem Verb des Anfangs?",
+          "options": [
+            "Subjunktiv (منصوب)",
+            "Apokopat (مجزوم)",
+            "Indikativ (مرفوع)",
+            "Energikus (مؤكَّد)"
+          ],
+          "answer": "Indikativ (مرفوع)",
+          "explanation": "Nach Verben des Anfangs steht das Imperfekt im Indikativ (مرفوع), nicht im Subjunktiv. Es wird NICHT durch أَنْ eingeleitet.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Die Verben des Anfangs funktionieren syntaktisch wie _____ und ihre Schwestern.",
+          "answer": "كَادَ",
+          "explanation": "كَادَ وَأَخَوَاتُهَا ist die übergeordnete Kategorie. Das Subjekt steht im Nominativ, das Prädikat ist ein Imperfekt-Verb.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: بَدَأَ الطَّالِبُ يَقْرَأُ الْقُرْآنَ",
+          "answer": "بَدَأَ = Verb des Anfangs (Perfekt). الطَّالِبُ = Subjekt (اِسْم), Nominativ. يَقْرَأُ = Prädikat (خَبَر), Imperfekt im Indikativ. الْقُرْآنَ = Objekt von يَقْرَأُ, Akkusativ.",
+          "explanation": "Der Satz bedeutet: 'Der Student begann den Quran zu lesen.' بَدَأَ leitet die Handlung ein, الطَّالِبُ ist das Subjekt, يَقْرَأُ das prädikative Imperfekt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §105-108",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.22",
+    "title": "Adverbiale Akkusative (Ẓarf)",
+    "description": "Zeit- und Ortsangaben stehen im Akkusativ — ظَرْفُ الزَّمَانِ und ظَرْفُ الْمَكَانِ bilden die adverbialen Bestimmungen des Arabischen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist ein Ẓarf?",
+          "content": "Ein ظَرْف (Ẓarf, Plural: ظُرُوف) ist ein adverbialer Akkusativ der eine Zeitangabe (ظَرْفُ الزَّمَانِ) oder Ortsangabe (ظَرْفُ الْمَكَانِ) ausdrückt. Diese Wörter stehen im Akkusativ (مَنْصُوب), weil sie implizit die Bedeutung 'in/an/zu' enthalten. Das Wort يَوْمَ bedeutet nicht einfach 'Tag', sondern 'am Tag' oder 'an dem Tag'. Der Akkusativ signalisiert die adverbiale Funktion — der Ẓarf beantwortet die Frage 'wann?' oder 'wo?'.",
+          "arabicExamples": [
+            {
+              "arabic": "يَوْمَ",
+              "transliteration": "yawma",
+              "meaning": "am Tag (Zeitangabe, Akkusativ)"
+            },
+            {
+              "arabic": "لَيْلَةَ",
+              "transliteration": "laylata",
+              "meaning": "in einer Nacht (Zeitangabe, Akkusativ)"
+            },
+            {
+              "arabic": "غَدًا",
+              "transliteration": "ghadan",
+              "meaning": "morgen (Zeitangabe, Akkusativ)"
+            },
+            {
+              "arabic": "أَبَدًا",
+              "transliteration": "abadan",
+              "meaning": "ewig/niemals (Zeitangabe, Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Ortsadverbien (ظَرْفُ الْمَكَانِ)",
+          "content": "Ortsangaben funktionieren genauso: Sie stehen im Akkusativ und beantworten die Frage 'wo?'. Einige Ortsadverbien sind indeklinabel (مَبْنِيّ) — ihre Form ändert sich nicht, aber sie nehmen die grammatische Position des Akkusativs ein. حَيْثُ (wo auch immer) ist ein Beispiel: Es endet immer auf Damma, ist aber grammatisch im Akkusativ als Ẓarf.",
+          "arabicExamples": [
+            {
+              "arabic": "أَيْنَ",
+              "transliteration": "ayna",
+              "meaning": "wo (Ortsadverb, indeklinabel)"
+            },
+            {
+              "arabic": "حَيْثُ",
+              "transliteration": "ḥaythu",
+              "meaning": "wo auch immer (Ortsadverb, indeklinabel)"
+            },
+            {
+              "arabic": "عِنْدَ",
+              "transliteration": "ʿinda",
+              "meaning": "bei (Ortsadverb, Akkusativ)"
+            },
+            {
+              "arabic": "فَوْقَ",
+              "transliteration": "fawqa",
+              "meaning": "über/oberhalb (Ortsadverb, Akkusativ)"
+            },
+            {
+              "arabic": "تَحْتَ",
+              "transliteration": "taḥta",
+              "meaning": "unter/unterhalb (Ortsadverb, Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ (83:6) — am Tag, an dem die Menschen vor dem Herrn der Welten stehen",
+            "Schritt 1: يَوْمَ steht im Akkusativ — erkennbar an der Fatha-Endung",
+            "Schritt 2: Es ist ein ظَرْفُ الزَّمَانِ (Zeitadverb) und beantwortet die Frage 'wann?'",
+            "Schritt 3: يَقُومُ النَّاسُ ist ein Verbalsatz der den Zeitpunkt näher bestimmt",
+            "Schritt 4: Der gesamte Satz يَقُومُ النَّاسُ steht in der Position eines Genitivs (مُضَاف إِلَيْهِ) zu يَوْمَ",
+            "Schritt 5: يَوْمَ fungiert hier als Ẓarf und gleichzeitig als مُضَاف — der folgende Satz ist die Idāfa-Ergänzung"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Häufige Zeitadverbien im Quran",
+          "content": "Der Quran verwendet bestimmte Zeitadverbien sehr häufig. يَوْمَ erscheint über 300 Mal, oft in Bezug auf den Tag des Gerichts. إِذْ (als/damals) leitet Rückblicke ein. إِذَا (wenn/sobald) leitet zukünftige Bedingungen ein. أَبَدًا (ewig) verstärkt Negationen oder Aussagen über die Ewigkeit. Alle diese stehen grammatisch im Akkusativ als Ẓarf.",
+          "arabicExamples": [
+            {
+              "arabic": "إِذْ",
+              "transliteration": "idh",
+              "meaning": "als/damals (Zeitadverb für Vergangenheit)"
+            },
+            {
+              "arabic": "إِذَا",
+              "transliteration": "idhā",
+              "meaning": "wenn/sobald (Zeitadverb für Zukunft)"
+            },
+            {
+              "arabic": "يَوْمَئِذٍ",
+              "transliteration": "yawmaʾidhin",
+              "meaning": "an jenem Tag (zusammengesetzt aus يَوْمَ + إِذْ)"
+            },
+            {
+              "arabic": "قَبْلَ",
+              "transliteration": "qabla",
+              "meaning": "vor (Zeitadverb, Akkusativ)"
+            },
+            {
+              "arabic": "بَعْدَ",
+              "transliteration": "baʿda",
+              "meaning": "nach (Zeitadverb, Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "83:6",
+              "word": "يَوْمَ يَقُومُ ٱلنَّاسُ",
+              "analysis": "يَوْمَ ist ظَرْفُ الزَّمَانِ im Akkusativ. Der folgende Verbalsatz يَقُومُ النَّاسُ bestimmt den Zeitpunkt. Bedeutung: am Tag, an dem die Menschen aufstehen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=6"
+            },
+            {
+              "location": "97:1",
+              "word": "لَيْلَةِ ٱلْقَدْرِ",
+              "analysis": "لَيْلَة hier im Genitiv (nach إِنَّا أَنْزَلْنَاهُ فِي), aber an anderen Stellen als Ẓarf im Akkusativ möglich. Die Nacht der Bestimmung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+            },
+            {
+              "location": "2:228",
+              "word": "ثَلَٰثَةَ قُرُوٓءٍ",
+              "analysis": "ثَلَاثَةَ ist Ẓarf im Akkusativ — drei Reinheitsperioden lang. Zeitdauerangabe.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+            },
+            {
+              "location": "18:60",
+              "word": "حُقُبًا",
+              "analysis": "حُقُبًا (eine lange Zeit) steht im Akkusativ als Zeitadverb. Musa sagte: Ich werde nicht aufhören — eine lange Zeit lang.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=60"
+            },
+            {
+              "location": "76:1",
+              "word": "حِينٌ مِّنَ ٱلدَّهْرِ",
+              "analysis": "حِين (eine Zeitspanne) kann als Ẓarf im Akkusativ stehen. Hier als Subjekt im Nominativ: Es kam über den Menschen eine Zeitspanne.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht يَوْمَ im Akkusativ in يَوْمَ يَقُومُ النَّاسُ?",
+          "options": [
+            "Es ist ein Objekt (مفعول به)",
+            "Es ist ein adverbialer Akkusativ / Ẓarf (ظرف زمان)",
+            "Es ist ein Ḥāl (حال)",
+            "Es ist ein Tamyīz (تمييز)"
+          ],
+          "answer": "Es ist ein adverbialer Akkusativ / Ẓarf (ظرف زمان)",
+          "explanation": "يَوْمَ steht im Akkusativ als ظَرْفُ الزَّمَانِ — eine Zeitangabe. Es beantwortet die Frage 'wann?' und enthält implizit die Bedeutung 'an dem Tag'.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere alle Ẓarf-Wörter in folgendem Ausdruck: خَالِدِينَ فِيهَا أَبَدًا",
+          "answer": "أَبَدًا ist ein ظَرْفُ الزَّمَانِ (Zeitadverb, Akkusativ) — Bedeutung: ewig",
+          "explanation": "أَبَدًا steht im Akkusativ (Tanwīn-Fatḥa) als Zeitadverb und verstärkt die Aussage: ewig darin verbleibend.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die Ẓarf-Wörter ihrer Kategorie zu:",
+          "pairs": [
+            {
+              "word": "يَوْمَ",
+              "match": "ظرف زمان (Zeitadverb)"
+            },
+            {
+              "word": "حَيْثُ",
+              "match": "ظرف مكان (Ortsadverb)"
+            },
+            {
+              "word": "أَبَدًا",
+              "match": "ظرف زمان (Zeitadverb)"
+            },
+            {
+              "word": "فَوْقَ",
+              "match": "ظرف مكان (Ortsadverb)"
+            },
+            {
+              "word": "قَبْلَ",
+              "match": "ظرف زمان (Zeitadverb)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Ein ظَرْف steht grammatisch immer im _____ und beantwortet die Frage 'wann?' oder 'wo?'.",
+          "answer": "Akkusativ (مَنْصُوب)",
+          "explanation": "Der Ẓarf ist ein adverbialer Akkusativ. Auch indeklinable Formen wie حَيْثُ oder أَيْنَ nehmen grammatisch die Akkusativ-Position ein.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Funktion von يَوْمَئِذٍ in: يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا (99:6)",
+          "answer": "يَوْمَئِذٍ ist ظرف زمان im Akkusativ. Es ist eine Zusammensetzung aus يَوْمَ (Tag) + إِذٍ (damals/dann). Bedeutung: An jenem Tag werden die Menschen in Gruppen hervorkommen.",
+          "explanation": "يَوْمَئِذٍ ist ein zusammengesetztes Zeitadverb. يَوْمَ ist مُضَاف und إِذٍ ist مُضَاف إِلَيْهِ im Genitiv. Das gesamte Wort steht als Ẓarf im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=6"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welches der folgenden Wörter ist KEIN Ẓarf?",
+          "options": [
+            "يَوْمَ",
+            "كِتَابًا",
+            "غَدًا",
+            "عِنْدَ"
+          ],
+          "answer": "كِتَابًا",
+          "explanation": "كِتَابًا (ein Buch) ist ein gewöhnliches Nomen im Akkusativ (z.B. als Objekt), aber kein Ẓarf. Die anderen drei sind adverbiale Akkusative für Zeit oder Ort.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §56-65",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.23",
+    "title": "Typen des Prädikats (Khabar)",
+    "description": "Das Prädikat (خَبَر) kann ein Einzelwort, ein Satz oder eine Präpositionalphrase sein — die Erkennung ist entscheidend für die Satzgrenzen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Warum die Prädikatstypen kennen?",
+          "content": "Jeder arabische Nominalsatz besteht aus Subjekt (مُبْتَدَأ) und Prädikat (خَبَر). Das Prädikat kann drei verschiedene Formen annehmen: ein Einzelwort (مُفْرَد), ein vollständiger Satz (جُمْلَة), oder eine Halbphrase wie eine Präpositionalphrase (شِبْهُ جُمْلَة). Die Fähigkeit, den Prädikatstyp zu erkennen, ist zwingend notwendig, um zu wissen, wo ein Satz beginnt und wo er endet. Ohne diese Erkennung sind Satzgrenzen im Quran unmöglich zu bestimmen.",
+          "arabicExamples": [
+            {
+              "arabic": "اللَّهُ عَلِيمٌ",
+              "transliteration": "allāhu ʿalīmun",
+              "meaning": "Gott ist allwissend (Einzelwort-Prädikat)"
+            },
+            {
+              "arabic": "اللَّهُ يَعْلَمُ",
+              "transliteration": "allāhu yaʿlamu",
+              "meaning": "Gott weiß (Verbalsatz-Prädikat)"
+            },
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ",
+              "transliteration": "al-ḥamdu li-llāhi",
+              "meaning": "Das Lob gebührt Gott (Präpositionalphrase-Prädikat)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Typ 1: Einzelwort-Prädikat (خَبَر مُفْرَد)",
+          "content": "Das einfachste Prädikat ist ein einzelnes Wort — meist ein Adjektiv, ein Partizip oder ein Nomen. Es stimmt mit dem Subjekt in Genus, Numerus und Definitheit überein. Steht das Subjekt im Nominativ, steht auch das Einzelwort-Prädikat im Nominativ. Bei إِنَّ und ihren Schwestern steht das Prädikat ebenfalls im Nominativ, während das Subjekt im Akkusativ steht.",
+          "arabicExamples": [
+            {
+              "arabic": "اللَّهُ أَكْبَرُ",
+              "transliteration": "allāhu akbaru",
+              "meaning": "Gott ist größer (Adjektiv als Prädikat)"
+            },
+            {
+              "arabic": "مُحَمَّدٌ رَسُولُ اللَّهِ",
+              "transliteration": "muḥammadun rasūlu llāhi",
+              "meaning": "Muhammad ist der Gesandte Gottes (Nomen als Prädikat)"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ غَفُورٌ",
+              "transliteration": "inna llāha ghafūrun",
+              "meaning": "Wahrlich, Gott ist vergebend (Einzelwort-Prädikat nach إِنَّ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Typ 2: Satz-Prädikat (خَبَر جُمْلَة)",
+          "content": "Das Prädikat kann ein vollständiger Satz sein — entweder ein Verbalsatz (جُمْلَة فِعْلِيَّة) oder ein weiterer Nominalsatz (جُمْلَة اِسْمِيَّة). Bei einem Verbalsatz als Prädikat enthält das Verb ein Pronomen, das auf das Subjekt zurückverweist (رَابِط). Bei einem Nominalsatz als Prädikat enthält dieser ebenfalls ein Rückverweis-Pronomen.",
+          "arabicExamples": [
+            {
+              "arabic": "اللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+              "transliteration": "allāhu yaʿlamu mā taṣnaʿūna",
+              "meaning": "Gott weiß was ihr tut (Verbalsatz als Prädikat)"
+            },
+            {
+              "arabic": "وَاللَّهُ عِنْدَهُ حُسْنُ الثَّوَابِ",
+              "transliteration": "wa-llāhu ʿindahu ḥusnu th-thawābi",
+              "meaning": "Und Gott — bei Ihm ist die schöne Belohnung (Nominalsatz als Prädikat)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Drei Sätze mit demselben Subjekt, aber verschiedenen Prädikatstypen:",
+            "1. اللَّهُ عَلِيمٌ — Subjekt: اللَّهُ, Prädikat: عَلِيمٌ (Einzelwort, Nominativ). Typ: خَبَر مُفْرَد.",
+            "2. اللَّهُ يَعْلَمُ — Subjekt: اللَّهُ, Prädikat: يَعْلَمُ (Verbalsatz mit verborgenem Pronomen هُوَ). Typ: خَبَر جُمْلَة فِعْلِيَّة.",
+            "3. الْحَمْدُ لِلَّهِ — Subjekt: الْحَمْدُ, Prädikat: لِلَّهِ (Präpositionalphrase). Typ: خَبَر شِبْه جُمْلَة.",
+            "Alle drei Sätze sind vollständig — aber ihre Grenzen erkennt man nur, wenn man den Prädikatstyp identifiziert.",
+            "Fehler: Wer الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ liest und لِلَّهِ nicht als Prädikat erkennt, sucht fälschlicherweise nach einem weiteren Prädikat."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "1:2",
+              "word": "ٱلْحَمْدُ لِلَّهِ",
+              "analysis": "Subjekt: الْحَمْدُ (Nominativ). Prädikat: لِلَّهِ (Präpositionalphrase = شِبْه جُمْلَة). Das Lob gehört Gott.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "location": "2:20",
+              "word": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+              "analysis": "Subjekt von إِنَّ: اللَّهَ (Akkusativ). Prädikat: قَدِيرٌ (Einzelwort, Nominativ). عَلَىٰ كُلِّ شَيْءٍ ist eine dazwischentretende Präpositionalphrase.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+            },
+            {
+              "location": "3:134",
+              "word": "وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+              "analysis": "Subjekt: اللَّهُ (Nominativ). Prädikat: يُحِبُّ الْمُحْسِنِينَ (Verbalsatz = جُمْلَة فِعْلِيَّة). Der Verbalsatz enthält ein verborgenes Pronomen هُوَ als Rückverweis.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=134"
+            },
+            {
+              "location": "2:255",
+              "word": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ",
+              "analysis": "Subjekt: اللَّهُ. Prädikat: لَا إِلَٰهَ إِلَّا هُوَ (vollständiger Nominalsatz als Prädikat = خَبَر جُمْلَة اِسْمِيَّة). هُوَ ist das Rückverweis-Pronomen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Prädikatstyp liegt in الْحَمْدُ لِلَّهِ vor?",
+          "options": [
+            "خَبَر مُفْرَد (Einzelwort)",
+            "خَبَر جُمْلَة فِعْلِيَّة (Verbalsatz)",
+            "خَبَر جُمْلَة اِسْمِيَّة (Nominalsatz)",
+            "خَبَر شِبْه جُمْلَة (Halbphrase/Präpositionalphrase)"
+          ],
+          "answer": "خَبَر شِبْه جُمْلَة (Halbphrase/Präpositionalphrase)",
+          "explanation": "لِلَّهِ ist eine Präpositionalphrase (حرف جر + اسم مجرور) und fungiert als شِبْه جُمْلَة-Prädikat zum Subjekt الْحَمْدُ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme Subjekt, Prädikat und Prädikatstyp: إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          "answer": "Subjekt (اسم إنّ): اللَّهَ (Akkusativ). Prädikat (خَبَر إنّ): غَفُورٌ رَحِيمٌ (Einzelwort-Prädikat, Nominativ). Typ: خَبَر مُفْرَد.",
+          "explanation": "Nach إِنَّ steht das Subjekt im Akkusativ (اللَّهَ), das Prädikat im Nominativ (غَفُورٌ). رَحِيمٌ ist ein zweites Prädikat (خَبَر ثَانٍ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jeden Satz seinem Prädikatstyp zu:",
+          "pairs": [
+            {
+              "word": "اللَّهُ أَكْبَرُ",
+              "match": "خَبَر مُفْرَد"
+            },
+            {
+              "word": "اللَّهُ يَعْلَمُ",
+              "match": "خَبَر جُمْلَة فِعْلِيَّة"
+            },
+            {
+              "word": "الْحَمْدُ لِلَّهِ",
+              "match": "خَبَر شِبْه جُمْلَة"
+            },
+            {
+              "word": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ",
+              "match": "خَبَر جُمْلَة اِسْمِيَّة"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum ist die Erkennung des Prädikatstyps so wichtig?",
+          "options": [
+            "Um das Subjekt zu finden",
+            "Um den Kasus des Subjekts zu bestimmen",
+            "Um zu wissen wo ein Satz anfängt und aufhört",
+            "Um das Verb zu konjugieren"
+          ],
+          "answer": "Um zu wissen wo ein Satz anfängt und aufhört",
+          "explanation": "Wer den Prädikatstyp nicht erkennt, kann die Satzgrenzen im Quran nicht bestimmen — besonders wenn das Prädikat ein ganzer Satz oder eine Präpositionalphrase ist.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: وَاللَّهُ عِنْدَهُ حُسْنُ الثَّوَابِ (3:195)",
+          "answer": "Subjekt (مُبْتَدَأ): اللَّهُ. Prädikat (خَبَر): عِنْدَهُ حُسْنُ الثَّوَابِ — ein vollständiger Nominalsatz. عِنْدَهُ ist Ẓarf (خَبَر مُقَدَّم), حُسْنُ الثَّوَابِ ist مُبْتَدَأ مُؤَخَّر. Typ: خَبَر جُمْلَة اِسْمِيَّة.",
+          "explanation": "Das Prädikat des äußeren Satzes ist selbst ein Nominalsatz. Das Pronomen هُ in عِنْدَهُ verweist auf اللَّهُ zurück — dies ist der رَابِط (Rückverweis).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=195"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §86-95",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.24",
+    "title": "Akkusativ der Begleitung (المَفْعُول مَعَهُ)",
+    "description": "Nach وَ (Waw der Begleitung) steht das begleitende Nomen im Akkusativ — eine besondere Funktion des وَ neben der Konjunktion.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist der Akkusativ der Begleitung?",
+          "content": "Der المَفْعُولُ مَعَهُ (Akkusativ der Begleitung) ist ein Nomen im Akkusativ, das nach einem وَ steht, welches nicht als Konjunktion ('und') fungiert, sondern als وَاوُ الْمَعِيَّةِ (Waw der Begleitung = 'zusammen mit'). Das Nomen nach diesem وَ steht im Akkusativ, NICHT im gleichen Kasus wie das vorhergehende Nomen. Dies unterscheidet die Begleitung von der Konjunktion: Bei Konjunktion würde das Nomen denselben Kasus tragen.",
+          "arabicExamples": [
+            {
+              "arabic": "سِرْتُ وَالنِّيلَ",
+              "transliteration": "sirtu wa-n-nīla",
+              "meaning": "ich ging den Nil entlang (Akkusativ der Begleitung)"
+            },
+            {
+              "arabic": "جَاءَ الْأَمِيرُ وَالْجَيْشَ",
+              "transliteration": "jāʾa l-amīru wa-l-jaysha",
+              "meaning": "der Fürst kam zusammen mit dem Heer (Begleitung, Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Konjunktion vs. Begleitung — Der entscheidende Unterschied",
+          "content": "Wenn وَ als Konjunktion (حرف عطف) fungiert, teilt das folgende Nomen den Kasus des vorhergehenden. Wenn وَ als Waw der Begleitung (واو المعيّة) fungiert, steht das folgende Nomen im Akkusativ unabhängig vom Kasus des vorhergehenden Nomens. Der Kontext entscheidet: Wenn beide Elemente gleichberechtigt an der Handlung teilnehmen, ist es Konjunktion. Wenn das zweite Element die Handlung nur begleitet, ist es Begleitung.",
+          "arabicExamples": [
+            {
+              "arabic": "جَاءَ مُحَمَّدٌ وَعَلِيٌّ",
+              "transliteration": "jāʾa muḥammadun wa-ʿaliyyun",
+              "meaning": "Muhammad UND Ali kamen (Konjunktion — beide im Nominativ)"
+            },
+            {
+              "arabic": "جَاءَ مُحَمَّدٌ وَعَلِيًّا",
+              "transliteration": "jāʾa muḥammadun wa-ʿaliyyan",
+              "meaning": "Muhammad kam zusammen mit Ali (Begleitung — Ali im Akkusativ)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Betrachte: اِسْتَوَى الْمَاءُ وَالْخَشَبَةَ — das Wasser stieg zusammen mit dem Holzstück",
+            "Schritt 1: اِسْتَوَى ist das Verb (Perfekt, 3. Person maskulin Singular = es wurde gleich/stieg)",
+            "Schritt 2: الْمَاءُ ist das Subjekt (فَاعِل) im Nominativ",
+            "Schritt 3: وَ hier ist واو المعيّة (Waw der Begleitung), NICHT Konjunktion",
+            "Schritt 4: الْخَشَبَةَ steht im Akkusativ — es ist المَفْعُول مَعَهُ (Akkusativ der Begleitung)",
+            "Schritt 5: Beweis: Das Holz 'steigt' nicht selbst — es wird vom Wasser mitgenommen. Daher keine gleichberechtigte Konjunktion.",
+            "Alternativlesung als Konjunktion: اِسْتَوَى الْمَاءُ وَالْخَشَبَةُ (Nominativ) = das Wasser und das Holz stiegen (beide aktiv) — andere Bedeutung!"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Bedingungen für den Akkusativ der Begleitung",
+          "content": "Damit ein مَفْعُول مَعَهُ vorliegt, müssen bestimmte Bedingungen erfüllt sein: 1) Es muss ein Verb oder verbähnliches Element im Satz vorhanden sein. 2) Das وَ darf nicht als reine Konjunktion lesbar sein (oder die Konjunktions-Lesung ergibt keinen Sinn). 3) Das Nomen nach وَ nimmt nicht gleichberechtigt an der Handlung teil — es begleitet sie nur. In der Praxis ist die Grenze fließend und manchmal sind beide Lesungen möglich.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا تَأْكُلِ السَّمَكَ وَتَشْرَبَ اللَّبَنَ",
+              "transliteration": "lā taʾkuli s-samaka wa-tashraba l-labana",
+              "meaning": "Iss nicht Fisch und trink (dabei) Milch — Begleitung wenn Subjunktiv"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "note": "Der مَفْعُول مَعَهُ ist im Quran selten und syntaktisch nicht immer eindeutig bestimmbar. Die meisten وَ im Quran sind eindeutig Konjunktionen. Die folgenden Beispiele zeigen verwandte Konstruktionen, an denen man den Unterschied zwischen Konjunktion und Begleitung üben kann.",
+          "examples": [
+            {
+              "location": "11:40",
+              "word": "وَمَنْ ءَامَنَ وَمَآ ءَامَنَ مَعَهُٓ إِلَّا قَلِيلٌ",
+              "analysis": "مَعَ hier als explizite Präposition der Begleitung: 'und wer glaubte — und es glaubten mit ihm nur wenige'. Die Präposition مَعَ drückt dasselbe Verhältnis aus, das beim مَفْعُول مَعَهُ durch واو المعيّة ausgedrückt wird.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=40"
+            },
+            {
+              "location": "4:36",
+              "word": "وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنبِ",
+              "analysis": "Hier ist وَ Konjunktion (عطف): Alle Nomina stehen im gleichen Kasus (Genitiv). Kein Akkusativ der Begleitung — ein Negativbeispiel zum Kontrast.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=36"
+            },
+            {
+              "location": "8:66",
+              "word": "وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+              "analysis": "مَعَ als explizite Begleitungspräposition. Der مَفْعُول مَعَهُ ist die implizite Variante: وَ übernimmt die Funktion von مَعَ und regiert den Akkusativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=66"
+            },
+            {
+              "location": "47:12",
+              "word": "وَيَأْكُلُونَ كَمَا تَأْكُلُ ٱلْأَنْعَٰمُ",
+              "analysis": "Vergleichssatz, keine Begleitungskonstruktion. Verdeutlicht den Unterschied: Bei واو المعيّة stünde das Verglichene im Akkusativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=12"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist der Unterschied zwischen جَاءَ مُحَمَّدٌ وَعَلِيٌّ und جَاءَ مُحَمَّدٌ وَعَلِيًّا?",
+          "options": [
+            "Kein Unterschied",
+            "Im ersten Satz kamen beide, im zweiten kam nur Muhammad zusammen mit Ali",
+            "Im ersten Satz ist Ali Subjekt, im zweiten Objekt",
+            "Der erste Satz ist falsch"
+          ],
+          "answer": "Im ersten Satz kamen beide, im zweiten kam nur Muhammad zusammen mit Ali",
+          "explanation": "وَعَلِيٌّ (Nominativ) = Konjunktion: Beide kamen. وَعَلِيًّا (Akkusativ) = Begleitung: Muhammad kam, Ali war nur dabei.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Ist das وَ in سِرْتُ وَالنِّيلَ Konjunktion oder Waw der Begleitung?",
+          "answer": "Waw der Begleitung (واو المعيّة). الْنِّيلَ steht im Akkusativ als مَفْعُول مَعَهُ.",
+          "explanation": "Der Nil geht nicht selbst — er begleitet den Weg des Sprechers. Daher ist es keine gleichberechtigte Konjunktion, sondern Begleitung.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Nomen nach واو المعيّة?",
+          "options": [
+            "Nominativ (مرفوع)",
+            "Genitiv (مجرور)",
+            "Akkusativ (منصوب)",
+            "Im gleichen Kasus wie das vorhergehende Nomen"
+          ],
+          "answer": "Akkusativ (منصوب)",
+          "explanation": "Das Nomen nach Waw der Begleitung steht IMMER im Akkusativ — das ist der المَفْعُول مَعَهُ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Der مَفْعُول مَعَهُ steht nach einem وَ, das nicht als Konjunktion fungiert, sondern als _____ .",
+          "answer": "واو المعيّة (Waw der Begleitung)",
+          "explanation": "واو المعيّة ist das Waw der Begleitung, das die Bedeutung 'zusammen mit' trägt und den Akkusativ des folgenden Nomens verlangt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die zwei möglichen Lesungen: اِسْتَوَى الْمَاءُ وَالْخَشَبَةَ / اِسْتَوَى الْمَاءُ وَالْخَشَبَةُ",
+          "answer": "Lesung 1 (Akkusativ الْخَشَبَةَ): وَ = واو المعيّة, الْخَشَبَةَ = مَفْعُول مَعَهُ. Bedeutung: Das Wasser stieg zusammen mit dem Holzstück. Lesung 2 (Nominativ الْخَشَبَةُ): وَ = حرف عطف (Konjunktion), الْخَشَبَةُ = معطوف. Bedeutung: Das Wasser und das Holzstück stiegen (beide aktiv).",
+          "explanation": "Der Kasusunterschied am Ende des Nomens verändert die Satzstruktur und Bedeutung komplett. Bei Begleitung ist nur das Wasser aktiv; bei Konjunktion sind beide aktiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §66-70",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.25",
+    "title": "Lob und Tadel (نِعْمَ und بِئْسَ)",
+    "description": "نِعْمَ (vortrefflich) und بِئْسَ (elend) bilden eigene syntaktische Konstruktionen für Lob und Tadel im Quran.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Die Verben des Lobes und Tadels",
+          "content": "نِعْمَ und بِئْسَ sind erstarrte Verben (أَفْعَالُ الْمَدْحِ وَالذَّمِّ) — sie werden nicht konjugiert und folgen einer eigenen syntaktischen Konstruktion. نِعْمَ drückt Lob aus (vortrefflich ist...) und بِئْسَ drückt Tadel aus (elend/schlecht ist...). Beide nehmen ein Subjekt (فَاعِل) das die gelobte oder getadelte Kategorie angibt, und optional ein spezifizierendes Nomen (الْمَخْصُوصُ بِالْمَدْحِ أَوِ الذَّمِّ) das die konkrete Person oder Sache benennt.",
+          "arabicExamples": [
+            {
+              "arabic": "نِعْمَ الْعَبْدُ",
+              "transliteration": "niʿma l-ʿabdu",
+              "meaning": "vortrefflich ist der Diener (38:30)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=30"
+            },
+            {
+              "arabic": "بِئْسَ الْمَصِيرُ",
+              "transliteration": "biʾsa l-maṣīru",
+              "meaning": "elend ist das Schicksal/die Endstätte"
+            },
+            {
+              "arabic": "نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيرُ",
+              "transliteration": "niʿma l-mawlā wa-niʿma n-naṣīru",
+              "meaning": "vortrefflich ist der Schutzherr und vortrefflich ist der Helfer (8:40)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=40"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die syntaktische Struktur",
+          "content": "Die Grundstruktur ist: نِعْمَ / بِئْسَ + الْفَاعِل (mit Artikel أل) + المَخْصُوص (das Spezifizierte, optional). Das Subjekt (فَاعِل) nach نِعْمَ/بِئْسَ muss entweder mit dem Artikel أل versehen sein, als Idāfa konstruiert sein, oder ein unbestimmtes Nomen nach مَا sein. Das spezifizierte Nomen (المَخْصُوص) steht im Nominativ als مُبْتَدَأ مُؤَخَّر oder als خَبَر لِمُبْتَدَأ مَحْذُوف.",
+          "arabicExamples": [
+            {
+              "arabic": "نِعْمَ الرَّجُلُ زَيْدٌ",
+              "transliteration": "niʿma r-rajulu zaydun",
+              "meaning": "vortrefflich ist der Mann — (nämlich) Zaid"
+            },
+            {
+              "arabic": "بِئْسَمَا اشْتَرَوْا بِهِ أَنْفُسَهُمْ",
+              "transliteration": "biʾsamā shtaraw bihi anfusahum",
+              "meaning": "schlecht ist das, womit sie sich selbst erkauft haben (2:90)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+            },
+            {
+              "arabic": "نِعِمَّا يَعِظُكُمْ بِهِ",
+              "transliteration": "niʿimmā yaʿiẓukum bihi",
+              "meaning": "vortrefflich ist das, womit Er euch ermahnt (4:58)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=58"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: نِعْمَ الْعَبْدُ إِنَّهُ أَوَّابٌ (38:30) — Vortrefflich ist der Diener! Er ist reumütig.",
+            "Schritt 1: نِعْمَ ist das erstarrte Verb des Lobes — es wird nicht konjugiert",
+            "Schritt 2: الْعَبْدُ ist das Subjekt (فَاعِل) im Nominativ — die gelobte Kategorie: 'der Diener'",
+            "Schritt 3: Das المَخْصُوص (die konkret gelobte Person) ist syntaktisch nicht explizit genannt. Der Kontext legt nahe, auf wen sich das Lob bezieht.",
+            "Schritt 4: إِنَّهُ أَوَّابٌ ist ein eigenständiger Satz der das Lob begründet: 'Wahrlich, er ist reumütig'",
+            "Schritt 5: Die gesamte Konstruktion ist eine Lobformel: نِعْمَ + فَاعِل (+ optionales مَخْصُوص)"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Varianten mit مَا",
+          "content": "Wenn nach نِعْمَ oder بِئْسَ das Wort مَا steht, fungiert مَا als unbestimmter Ausdruck ('was/das was'). بِئْسَمَا bedeutet dann: 'schlecht ist das, was...' Diese Konstruktion ist im Quran besonders häufig bei Tadel. مَا kann hier entweder ein Relativpronomen (اسم موصول) sein oder ein unbestimmtes Tamyīz-ähnliches Element.",
+          "arabicExamples": [
+            {
+              "arabic": "بِئْسَمَا اشْتَرَوْا",
+              "transliteration": "biʾsamā shtaraw",
+              "meaning": "schlecht ist das, was sie erkauft haben (2:90)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+            },
+            {
+              "arabic": "فَبِئْسَ مَا يَشْتَرُونَ",
+              "transliteration": "fa-biʾsa mā yashtarūna",
+              "meaning": "schlecht ist das, was sie erkaufen"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "38:30",
+              "word": "نِعْمَ ٱلْعَبْدُ",
+              "analysis": "Verb des Lobes + Subjekt mit Artikel. Vortrefflich ist der Diener. Gesagt über Sulayman.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=30"
+            },
+            {
+              "location": "2:271",
+              "word": "فَنِعِمَّا هِىَ",
+              "analysis": "نِعِمَّا (= نِعْمَ + مَا) + هِيَ als مَخْصُوص. Vortrefflich ist es (nämlich: das offene Spenden). مَا ist das Subjekt, هِيَ das Spezifizierte.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=271"
+            },
+            {
+              "location": "8:40",
+              "word": "نِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ",
+              "analysis": "Doppeltes Lob: Vortrefflich ist der Schutzherr und vortrefflich ist der Helfer. Gesagt über Allah. Beide Male نِعْمَ + فَاعِل mit Artikel.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=40"
+            },
+            {
+              "location": "2:90",
+              "word": "بِئْسَمَا ٱشْتَرَوْا بِهِٓ أَنفُسَهُمْ",
+              "analysis": "Verb des Tadels + مَا als Subjekt. Schlecht ist das, womit sie sich selbst erkauft haben. Der folgende Satz أَنْ يَكْفُرُوا erklärt das Getadelte.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+            },
+            {
+              "location": "24:57",
+              "word": "وَلَبِئْسَ ٱلْمَصِيرُ",
+              "analysis": "لَ ist لام التأكيد (Bestätigungs-Lam). بِئْسَ الْمَصِيرُ = elend ist die Endstätte. الْمَصِيرُ ist فَاعِل im Nominativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=57"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was drückt نِعْمَ syntaktisch aus?",
+          "options": [
+            "Wunsch",
+            "Bedingung",
+            "Lob (مَدْح)",
+            "Verneinung"
+          ],
+          "answer": "Lob (مَدْح)",
+          "explanation": "نِعْمَ ist ein erstarrtes Verb des Lobes (فِعْل مَدْح). Es bildet zusammen mit بِئْسَ die Kategorie أَفْعَال الْمَدْح وَالذَّمّ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere in نِعْمَ الْعَبْدُ إِنَّهُ أَوَّابٌ das Verb, das Subjekt und das Lob-Spezifizierte:",
+          "answer": "Verb: نِعْمَ (Verb des Lobes). Subjekt (فَاعِل): الْعَبْدُ (der Diener). Spezifiziertes (مَخْصُوص): implizit (Sulayman, aus dem Kontext).",
+          "explanation": "Die Lobformel besteht aus نِعْمَ + الْعَبْدُ als Subjekt. Das konkret Gemeinte wird hier nicht explizit genannt, sondern ergibt sich aus dem Kontext des Verses.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Eigenschaft muss das Subjekt (فَاعِل) nach نِعْمَ / بِئْسَ haben?",
+          "options": [
+            "Es muss unbestimmt sein",
+            "Es muss mit dem Artikel أل versehen oder als Idāfa konstruiert sein",
+            "Es muss im Akkusativ stehen",
+            "Es muss ein Verb sein"
+          ],
+          "answer": "Es muss mit dem Artikel أل versehen oder als Idāfa konstruiert sein",
+          "explanation": "Das Subjekt nach نِعْمَ/بِئْسَ muss bestimmt sein — entweder durch den Artikel أل oder durch Idāfa. Alternativ kann مَا als unbestimmtes Subjekt stehen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze das Gegenstück: نِعْمَ ist das Verb des Lobes, _____ ist das Verb des Tadels.",
+          "answer": "بِئْسَ",
+          "explanation": "بِئْسَ (biʾsa) ist das Verb des Tadels und bildet mit نِعْمَ das Paar أَفْعَال الْمَدْح وَالذَّمّ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: بِئْسَمَا اشْتَرَوْا بِهِ أَنْفُسَهُمْ (2:90)",
+          "answer": "بِئْسَ = Verb des Tadels. مَا = Subjekt (فَاعِل), fungiert als اسم موصول (das, was). اشْتَرَوْا بِهِ أَنْفُسَهُمْ = Relativsatz (صِلَة الْمَوْصُول): 'womit sie sich selbst erkauft haben'. Gesamtbedeutung: Schlecht ist das, womit sie sich selbst erkauft haben.",
+          "explanation": "مَا nach بِئْسَ fungiert als Relativpronomen und bildet das Subjekt. Der folgende Verbalsatz ist der Relativsatz. Die Konstruktion tadelt das Handeln der Angesprochenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In وَلَبِئْسَ الْمَصِيرُ — was ist die Funktion von لَ?",
+          "options": [
+            "Negationspartikel",
+            "Bestätigungs-Lam (لام التأكيد)",
+            "Präposition 'für'",
+            "Konjunktion"
+          ],
+          "answer": "Bestätigungs-Lam (لام التأكيد)",
+          "explanation": "Das لَ vor بِئْسَ ist لام التأكيد — es verstärkt den Tadel: 'Wahrlich, elend ist die Endstätte!'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §71-74",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.26",
+    "title": "Exklamativsätze (أُسْلُوبُ التَّعَجُّبِ)",
+    "description": "مَا أَفْعَلَهُ und أَفْعِلْ بِهِ — zwei feste Konstruktionen für Ausrufe der Verwunderung im Quran.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was sind Exklamativsätze?",
+          "content": "Arabisch hat zwei feste syntaktische Konstruktionen für Ausrufe der Verwunderung (تَعَجُّب). Beide drücken aus: 'Wie [Eigenschaft] ist X!' Die erste Konstruktion ist مَا أَفْعَلَهُ (mā afʿalahu) = 'wie [adj] ist er/es!' Die zweite Konstruktion ist أَفْعِلْ بِهِ (afʿil bihi) = 'wie [adj] ist er/es!' Beide haben dieselbe Bedeutung, aber unterschiedliche Struktur. Im Quran erscheint besonders die erste Konstruktion.",
+          "arabicExamples": [
+            {
+              "arabic": "مَا أَجْمَلَ السَّمَاءَ",
+              "transliteration": "mā ajmala s-samāʾa",
+              "meaning": "wie schön ist der Himmel!"
+            },
+            {
+              "arabic": "مَا أَكْبَرَ اللَّهَ",
+              "transliteration": "mā akbara llāha",
+              "meaning": "wie groß ist Gott!"
+            },
+            {
+              "arabic": "أَسْمِعْ بِهِمْ وَأَبْصِرْ",
+              "transliteration": "asmiʿ bihim wa-abṣir",
+              "meaning": "wie hörend und sehend sind sie! (19:38)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Konstruktion 1: مَا أَفْعَلَهُ",
+          "content": "Struktur: مَا + أَفْعَلَ (Verb auf dem Muster أَفْعَلَ im Perfekt) + Objekt im Akkusativ. مَا hier ist NICHT die Negationspartikel — es ist ein exklamatives مَا mit der Bedeutung 'welch ein Ding!'. Es fungiert als مُبْتَدَأ (Subjekt). أَفْعَلَ ist ein Verb im Perfekt auf dem Elativ-Muster. Das Objekt im Akkusativ ist das Bestaunte. Diese Konstruktion ist für den Quran-Leser kritisch, weil مَا leicht als Negation fehlgelesen werden kann.",
+          "arabicExamples": [
+            {
+              "arabic": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
+              "transliteration": "fa-mā aṣbarahum ʿalā n-nāri",
+              "meaning": "wie geduldig sie mit dem Feuer sind! (2:175)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+            },
+            {
+              "arabic": "مَا أَغْنَى عَنْهُ مَالُهُ",
+              "transliteration": "mā aghnā ʿanhu māluhu",
+              "meaning": "Kann auch Negation sein: Sein Vermögen nützte ihm nichts (111:2) — Kontext entscheidet!",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=2"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Konstruktion 2: أَفْعِلْ بِهِ",
+          "content": "Struktur: أَفْعِلْ (Imperativform) + بِ + Pronomen/Nomen. Trotz der Imperativform ist dies KEIN Befehl — es ist ein Ausruf. بِ leitet das Bestaunte ein. أَسْمِعْ بِهِمْ bedeutet nicht 'lass sie hören!' sondern 'wie hörend sind sie!'. Diese Konstruktion ist seltener im Quran, aber sie erscheint an markanten Stellen.",
+          "arabicExamples": [
+            {
+              "arabic": "أَسْمِعْ بِهِمْ وَأَبْصِرْ",
+              "transliteration": "asmiʿ bihim wa-abṣir",
+              "meaning": "wie hörend und sehend sind sie! (19:38)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+            },
+            {
+              "arabic": "أَكْرِمْ بِزَيْدٍ",
+              "transliteration": "akrim bi-zaydin",
+              "meaning": "wie edel ist Zaid!"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: فَمَا أَصْبَرَهُمْ عَلَى النَّارِ (2:175) — Wie geduldig sie doch mit dem Feuer sind!",
+            "Schritt 1: فَ ist eine einleitende Konjunktion",
+            "Schritt 2: مَا ist hier exklamativ (تَعَجُّبِيَّة), NICHT negativ — es drückt Staunen aus",
+            "Schritt 3: أَصْبَرَ ist das Verb auf dem Muster أَفْعَلَ — abgeleitet von der Wurzel ص-ب-ر (geduldig sein)",
+            "Schritt 4: هُمْ (sie) ist das Objekt im Akkusativ — die Bestaunten",
+            "Schritt 5: عَلَى النَّارِ = 'mit dem Feuer' — Präpositionalphrase als Ergänzung",
+            "Schritt 6: Gesamtbedeutung: 'Wie geduldig sie doch mit dem Feuer sind!' — ironischer Ausruf über diejenigen, die wissentlich das Feuer riskieren"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:175",
+              "word": "فَمَآ أَصْبَرَهُمْ عَلَى ٱلنَّارِ",
+              "analysis": "Konstruktion 1: مَا أَفْعَلَهُ. مَا ist exklamativ. أَصْبَرَ auf dem Muster أَفْعَلَ von ص-ب-ر. Ironischer Ausruf: Wie geduldig sie mit dem Feuer sind!",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+            },
+            {
+              "location": "19:38",
+              "word": "أَسْمِعْ بِهِمْ وَأَبْصِرْ",
+              "analysis": "Konstruktion 2: أَفْعِلْ بِهِ. أَسْمِعْ von س-م-ع, أَبْصِرْ von ب-ص-ر. Kein Befehl, sondern Ausruf: Wie hörend und sehend werden sie sein (am Tag des Gerichts)!",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+            },
+            {
+              "location": "80:17",
+              "word": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُ",
+              "analysis": "Verflucht sei der Mensch — wie undankbar er ist! مَا أَكْفَرَهُ = Exklamativ nach Muster مَا أَفْعَلَهُ. أَكْفَرَ von ك-ف-ر.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+            },
+            {
+              "location": "18:26",
+              "word": "أَبْصِرْ بِهِ وَأَسْمِعْ",
+              "analysis": "Konstruktion 2: أَفْعِلْ بِهِ. Wie sehend und hörend ist Er (Allah)! Trotz Imperativform ist es ein Exklamativsatz.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=26"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet مَا in فَمَا أَصْبَرَهُمْ عَلَى النَّارِ?",
+          "options": [
+            "Negation (nicht)",
+            "Relativpronomen (was)",
+            "Exklamativpartikel (wie sehr!)",
+            "Fragepartikel (was?)"
+          ],
+          "answer": "Exklamativpartikel (wie sehr!)",
+          "explanation": "In der Konstruktion مَا أَفْعَلَهُ ist مَا exklamativ und drückt Staunen/Verwunderung aus: 'Wie geduldig sie doch sind!'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche der beiden Exklamativ-Konstruktionen liegt in أَسْمِعْ بِهِمْ وَأَبْصِرْ (19:38) vor?",
+          "answer": "Konstruktion 2: أَفْعِلْ بِهِ — Imperativform mit بِ als Exklamativ",
+          "explanation": "أَسْمِعْ بِهِمْ folgt dem Muster أَفْعِلْ بِهِ. Trotz der Imperativform ist es kein Befehl, sondern ein Ausruf: 'Wie hörend sind sie!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=38"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Ist أَسْمِعْ بِهِمْ ein Befehl oder ein Ausruf?",
+          "options": [
+            "Befehl: Lass sie hören!",
+            "Ausruf: Wie hörend sind sie!",
+            "Frage: Hörst du sie?",
+            "Wunsch: Mögen sie hören!"
+          ],
+          "answer": "Ausruf: Wie hörend sind sie!",
+          "explanation": "Die Konstruktion أَفْعِلْ بِهِ ist trotz ihrer Imperativform ein Exklamativsatz (تَعَجُّب), kein Befehl.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die zwei Exklamativ-Konstruktionen: 1) مَا _____ 2) أَفْعِلْ _____",
+          "answer": "1) مَا أَفْعَلَهُ 2) أَفْعِلْ بِهِ",
+          "explanation": "Die beiden festen Muster für Exklamativsätze im Arabischen sind مَا أَفْعَلَهُ (was + Perfekt auf أَفْعَلَ + Objekt) und أَفْعِلْ بِهِ (Imperativ + بِ + Bestauntes).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: قُتِلَ الْإِنْسَانُ مَا أَكْفَرَهُ (80:17)",
+          "answer": "قُتِلَ الْإِنْسَانُ = Verflucht sei der Mensch (Passiv als Fluch). مَا = exklamatives مَا. أَكْفَرَ = Verb auf dem Muster أَفْعَلَ von ك-ف-ر (undankbar/ungläubig sein). هُ = Objekt (ihn). Gesamtbedeutung: Verflucht sei der Mensch — wie undankbar er ist!",
+          "explanation": "مَا أَكْفَرَهُ ist ein Exklamativsatz nach dem Muster مَا أَفْعَلَهُ. مَا ist nicht Negation, sondern Ausruf des Staunens über die Undankbarkeit des Menschen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Von welcher Wurzel stammt أَصْبَرَ in مَا أَصْبَرَهُمْ?",
+          "options": [
+            "ص-ب-ح (Morgen)",
+            "ص-ب-ر (geduldig sein)",
+            "ص-ب-غ (färben)",
+            "ص-ب-ب (gießen)"
+          ],
+          "answer": "ص-ب-ر (geduldig sein)",
+          "explanation": "أَصْبَرَ ist auf dem Muster أَفْعَلَ von der Wurzel ص-ب-ر. Im Exklamativsatz: 'Wie geduldig!'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §71-74",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.27",
+    "title": "Zustandswaw (Wāw al-Ḥāliyya)",
+    "description": "Die واو الحاليّة leitet einen Zustandssatz ein — die dritte Funktion des وَ neben Konjunktion und Schwur.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist die Zustandswaw?",
+          "content": "Die واو الحاليّة (Wāw al-Ḥāliyya) ist eine besondere Verwendung des وَ, die einen Zustandssatz (جُمْلَة حَالِيَّة) einleitet. Sie beschreibt den Zustand, in dem sich das Subjekt während der Haupthandlung befindet, und wird im Deutschen mit 'während', 'wobei', 'indem' oder 'als' übersetzt. Dies ist die DRITTE Funktion des وَ neben der Konjunktion (عطف) und dem Schwur (قَسَم).",
+          "arabicExamples": [
+            {
+              "arabic": "خَرَجُوا وَهُمْ يَبْكُونَ",
+              "transliteration": "kharajū wa-hum yabkūna",
+              "meaning": "sie gingen hinaus, während sie weinten"
+            },
+            {
+              "arabic": "جَاءَ وَالشَّمْسُ طَالِعَةٌ",
+              "transliteration": "jāʾa wa-sh-shamsu ṭāliʿatun",
+              "meaning": "er kam, während die Sonne aufging"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Erkennungsmerkmale der Zustandswaw",
+          "content": "Die Zustandswaw ist daran erkennbar, dass nach dem وَ ein vollständiger Nominalsatz oder ein Imperfekt-Verb folgt, das den begleitenden Zustand beschreibt. Wichtige Merkmale: 1) Nach وَ folgt ein Pronomen oder ein bestimmtes Nomen (kein Verb im Perfekt allein). 2) Der Satz beschreibt einen GLEICHZEITIGEN Zustand zur Haupthandlung. 3) Der Zustandssatz kann oft durch 'während' oder 'wobei' ersetzt werden. Unterscheide von واو العطف (Konjunktion): Diese verbindet zwei GLEICHARTIGE Handlungen, nicht einen Zustand.",
+          "arabicExamples": [
+            {
+              "arabic": "وَهُمْ يَبْكُونَ",
+              "transliteration": "wa-hum yabkūna",
+              "meaning": "während sie weinen (Nominalsatz als Zustand)"
+            },
+            {
+              "arabic": "وَقَدْ فَعَلَ",
+              "transliteration": "wa-qad faʿala",
+              "meaning": "wobei er (bereits) getan hatte (قَدْ + Perfekt als Zustand)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Satz: خَرَجُوا وَهُمْ يَبْكُونَ — sie gingen hinaus, während sie weinten",
+            "Schritt 1: خَرَجُوا ist die Haupthandlung (Perfekt, 3. Person Plural maskulin) — 'sie gingen hinaus'",
+            "Schritt 2: وَ ist die واو الحاليّة — sie leitet den Zustandssatz ein",
+            "Schritt 3: هُمْ يَبْكُونَ ist ein vollständiger Nominalsatz (مُبْتَدَأ + خَبَر)",
+            "Schritt 4: هُمْ (sie) = مُبْتَدَأ, يَبْكُونَ (weinen) = خَبَر (Verbalsatz als Prädikat)",
+            "Schritt 5: Der gesamte Satz هُمْ يَبْكُونَ steht in der Position eines حَال (Zustandsbestimmung)",
+            "Schritt 6: Test: Kann وَ durch 'während' ersetzt werden? Ja → واو الحاليّة bestätigt"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Drei Funktionen des وَ im Überblick",
+          "content": "Das وَ hat im Arabischen mindestens drei wichtige Funktionen, die sich syntaktisch unterscheiden: 1) واو العطف (Konjunktion): verbindet gleichartige Elemente — جَاءَ مُحَمَّدٌ وَعَلِيٌّ. 2) واو القسم (Schwur): leitet einen Schwur ein — وَاللَّهِ. 3) واو الحالية (Zustand): leitet einen Zustandssatz ein — خَرَجُوا وَهُمْ يَبْكُونَ. Die richtige Identifikation des وَ-Typs ist entscheidend für das korrekte Verständnis eines Quran-Verses.",
+          "arabicExamples": [
+            {
+              "arabic": "وَاللَّهِ",
+              "transliteration": "wa-llāhi",
+              "meaning": "bei Gott! (Schwur-Waw)"
+            },
+            {
+              "arabic": "مُحَمَّدٌ وَعَلِيٌّ",
+              "transliteration": "muḥammadun wa-ʿaliyyun",
+              "meaning": "Muhammad und Ali (Konjunktion)"
+            },
+            {
+              "arabic": "وَهُمْ يَبْكُونَ",
+              "transliteration": "wa-hum yabkūna",
+              "meaning": "während sie weinen (Zustandswaw)"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:99",
+              "word": "وَمَا يَكْفُرُ بِهَآ إِلَّا ٱلْفَٰسِقُونَ",
+              "analysis": "Hier ist وَ möglicherweise واو الحالية: 'während niemand sie leugnet außer den Frevlern'. Der Zustandssatz beschreibt die begleitende Realität.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=99"
+            },
+            {
+              "location": "8:26",
+              "word": "أَنتُمْ قَلِيلٌ",
+              "analysis": "واو الحالية: 'als ihr wenige wart'. وَأَنْتُمْ قَلِيلٌ ist ein Nominalsatz als Zustandsbestimmung — er beschreibt den Zustand der Muslime zur Zeit der Haupthandlung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=26"
+            },
+            {
+              "location": "18:104",
+              "word": "وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+              "analysis": "Zustandswaw: 'während sie denken, dass sie Gutes tun'. Der Nominalsatz هُمْ يَحْسَبُونَ beschreibt den irrtümlichen Zustand.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=104"
+            },
+            {
+              "location": "18:18",
+              "word": "وَهُمْ رُقُودٌ",
+              "analysis": "واو الحاليّة: 'während sie schliefen'. هُمْ رُقُودٌ ist ein Nominalsatz (Subjekt + Prädikat) als Zustandsbestimmung zum Verb تَحْسَبُهُمْ أَيْقَاظًا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=18"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Funktion hat وَ in خَرَجُوا وَهُمْ يَبْكُونَ?",
+          "options": [
+            "Konjunktion (عطف)",
+            "Schwur (قسم)",
+            "Zustandswaw (واو الحالية)",
+            "Begleitung (واو المعية)"
+          ],
+          "answer": "Zustandswaw (واو الحالية)",
+          "explanation": "Nach وَ folgt ein Nominalsatz (هُمْ يَبْكُونَ) der den GLEICHZEITIGEN Zustand beschreibt: 'während sie weinten'. Das ist die واو الحالية.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere die drei Funktionen des وَ in diesen Sätzen: 1) مُحَمَّدٌ وَعَلِيٌّ 2) وَاللَّهِ 3) جَاءَ وَهُوَ يَضْحَكُ",
+          "answer": "1) واو العطف (Konjunktion), 2) واو القسم (Schwur), 3) واو الحالية (Zustand)",
+          "explanation": "1) Verbindet zwei gleichartige Nomina. 2) Leitet einen Schwur ein (gefolgt von Genitiv). 3) Leitet einen Zustandssatz ein (gefolgt von Nominalsatz هُوَ يَضْحَكُ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die واو-Typen den Beispielen zu:",
+          "pairs": [
+            {
+              "word": "جَاءَ مُحَمَّدٌ وَعَلِيٌّ",
+              "match": "واو العطف (Konjunktion)"
+            },
+            {
+              "word": "وَالتِّينِ وَالزَّيْتُونِ",
+              "match": "واو القسم (Schwur)"
+            },
+            {
+              "word": "خَرَجُوا وَهُمْ يَبْكُونَ",
+              "match": "واو الحالية (Zustand)"
+            },
+            {
+              "word": "سِرْتُ وَالنَّهْرَ",
+              "match": "واو المعية (Begleitung)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Die واو الحالية leitet einen _____ ein, der den gleichzeitigen Zustand zur Haupthandlung beschreibt.",
+          "answer": "Zustandssatz (جُمْلَة حَالِيَّة)",
+          "explanation": "Nach der Zustandswaw folgt ein vollständiger Satz (meist Nominalsatz), der als حَال (Zustandsbestimmung) fungiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n310"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: وَهُمْ رُقُودٌ aus وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ (18:18)",
+          "answer": "وَ = واو الحالية. هُمْ = مُبْتَدَأ (Subjekt). رُقُودٌ = خَبَر (Prädikat, Plural von رَاقِد = schlafend). Der gesamte Satz ist جُمْلَة حَالِيَّة: 'während sie schliefen'. Kontrast zu تَحْسَبُهُمْ أَيْقَاظًا: 'du hältst sie für wach'.",
+          "explanation": "Der Zustandssatz وَهُمْ رُقُودٌ kontrastiert mit dem Hauptsatz: Man hält sie für wach (أَيْقَاظ), aber der wahre Zustand ist: sie schlafen (رُقُود). Die واو الحالية markiert diesen Kontrast.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=18"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §121-130",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.9",
+      "3.35"
+    ]
+  },
+  {
+    "id": "3.28",
+    "title": "Law-lā als Vorwurf/Aufforderung (لَوْلَا التَّحْضِيضِيَّة)",
+    "description": "لَوْلَا vor einem Imperfekt-Verb drückt Vorwurf oder Aufforderung aus — verschieden von der konditionalen Bedeutung.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Zwei Bedeutungen von لَوْلَا",
+          "content": "لَوْلَا hat im Arabischen zwei völlig verschiedene Funktionen: 1) KONDITIONAL (لَوْلَا الاِمْتِنَاعِيَّة): Vor einem Nominalsatz bedeutet es 'wenn nicht... wäre' — eine irreale Bedingung. لَوْلَا اللَّهُ لَهَلَكْنَا = wenn Gott nicht wäre, wären wir zugrunde gegangen. 2) VORWURF/AUFFORDERUNG (لَوْلَا التَّحْضِيضِيَّة): Vor einem Imperfekt-Verb bedeutet es 'warum... nicht?' oder 'ihr solltet doch!'. Dies drückt Tadel, Aufforderung oder Vorwurf aus. Die Unterscheidung ist rein syntaktisch: Was folgt auf لَوْلَا?",
+          "arabicExamples": [
+            {
+              "arabic": "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+              "transliteration": "lawlā tastaghfirūna llāha",
+              "meaning": "warum sucht ihr nicht Vergebung bei Gott? (27:46) — Vorwurf",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=46"
+            },
+            {
+              "arabic": "لَوْلَا اللَّهُ لَهَلَكْنَا",
+              "transliteration": "lawlā llāhu la-halaknā",
+              "meaning": "wenn Gott nicht wäre, wären wir zugrunde gegangen — Kondition"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "لَوْلَا التَّحْضِيضِيَّة im Detail",
+          "content": "Wenn لَوْلَا vor einem Imperfekt-Verb (مُضَارِع) oder einem Perfekt-Verb steht, drückt es تَحْضِيض (Antreiben/Vorwurf) aus. Vor dem Imperfekt: 'warum tut ihr nicht?' / 'ihr solltet doch!' (Vorwurf für Gegenwart/Zukunft). Vor dem Perfekt: 'warum habt ihr nicht?' (Vorwurf für Vergangenheit). Synonyme Partikeln mit derselben Funktion sind هَلَّا (hallā), أَلَّا (allā) und لَوْمَا (lawmā).",
+          "arabicExamples": [
+            {
+              "arabic": "لَوْلَا تَسْتَغْفِرُونَ",
+              "transliteration": "lawlā tastaghfirūna",
+              "meaning": "warum sucht ihr nicht Vergebung? (27:46)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=46"
+            },
+            {
+              "arabic": "لَوْلَا جَاءُوا عَلَيْهِ بِأَرْبَعَةِ شُهَدَاءَ",
+              "transliteration": "lawlā jāʾū ʿalayhi bi-arbaʿati shuhadāʾa",
+              "meaning": "warum brachten sie nicht vier Zeugen dafür? (24:13)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=13"
+            },
+            {
+              "arabic": "هَلَّا فَعَلْتَ",
+              "transliteration": "hallā faʿalta",
+              "meaning": "warum hast du nicht getan? (Synonym zu لَوْلَا)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: لَوْلَا تَسْتَغْفِرُونَ اللَّهَ لَعَلَّكُمْ تُرْحَمُونَ (27:46)",
+            "Schritt 1: لَوْلَا steht vor einem Imperfekt-Verb (تَسْتَغْفِرُونَ) → es ist حَضّ/تَحْضِيض (Vorwurf/Aufforderung)",
+            "Schritt 2: تَسْتَغْفِرُونَ = ihr sucht Vergebung (Form X von غ-ف-ر, Imperfekt, 2. Person Plural)",
+            "Schritt 3: اللَّهَ = Akkusativ-Objekt von تَسْتَغْفِرُونَ",
+            "Schritt 4: Bedeutung: 'Warum sucht ihr nicht Vergebung bei Gott?'",
+            "Schritt 5: لَعَلَّكُمْ تُرْحَمُونَ = 'auf dass euch Barmherzigkeit erwiesen wird' — Begründung",
+            "Schritt 6: Kontext: Salih sagt dies zu seinem Volk nach dem Tadel — es ist gleichzeitig Vorwurf UND Aufforderung"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Unterscheidungsregel",
+          "content": "Die Regel ist einfach: Folgt auf لَوْلَا ein NOMEN (Nominalsatz), ist es konditional ('wenn nicht'). Folgt auf لَوْلَا ein VERB (Imperfekt oder Perfekt), ist es Vorwurf/Aufforderung ('warum nicht?'). Diese Regel funktioniert in 100% der Fälle im Quran. Wichtig: Bei der konditionalen Verwendung steht das Nomen im Nominativ als مُبْتَدَأ. Bei der Vorwurf-Verwendung hat لَوْلَا keinen grammatischen Einfluss auf den Kasus.",
+          "arabicExamples": [
+            {
+              "arabic": "لَوْلَا أَنْتُمْ لَكُنَّا مُؤْمِنِينَ",
+              "transliteration": "lawlā antum la-kunnā muʾminīna",
+              "meaning": "wenn ihr nicht gewesen wärt, wären wir Vertrauende geworden (34:31) — KONDITIONAL",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=31"
+            },
+            {
+              "arabic": "لَوْلَا أُنْزِلَ عَلَيْهِ مَلَكٌ",
+              "transliteration": "lawlā unzila ʿalayhi malakun",
+              "meaning": "warum wurde kein Engel zu ihm herabgesandt? (6:8) — VORWURF",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=8"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "27:46",
+              "word": "لَوْلَا تَسْتَغْفِرُونَ ٱللَّهَ",
+              "analysis": "لَوْلَا + Imperfekt = Vorwurf/Aufforderung. Warum sucht ihr nicht Vergebung bei Gott? Salih spricht zu seinem Volk.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=46"
+            },
+            {
+              "location": "24:13",
+              "word": "لَّوْلَا جَآءُو عَلَيْهِ بِأَرْبَعَةِ شُهَدَآءَ",
+              "analysis": "لَوْلَا + Perfekt = Vorwurf über Vergangenes. Warum brachten sie nicht vier Zeugen? Bezug auf die Verleumdungsanklage.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=13"
+            },
+            {
+              "location": "6:8",
+              "word": "لَوْلَآ أُنزِلَ عَلَيْهِ مَلَكٌ",
+              "analysis": "لَوْلَا + Perfekt Passiv = Vorwurf/Forderung der Leugnenden. Warum wurde nicht ein Engel zu ihm herabgesandt?",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=8"
+            },
+            {
+              "location": "34:31",
+              "word": "لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ",
+              "analysis": "لَوْلَا + Nomen (أَنْتُمْ) = KONDITIONAL. Wenn ihr nicht gewesen wärt, wären wir Vertrauende. Zum Vergleich: Hier ist es NICHT Vorwurf, sondern irreale Bedingung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=31"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet لَوْلَا in لَوْلَا تَسْتَغْفِرُونَ اللَّهَ?",
+          "options": [
+            "wenn nicht (Kondition)",
+            "warum nicht? (Vorwurf)",
+            "vielleicht",
+            "obwohl"
+          ],
+          "answer": "warum nicht? (Vorwurf)",
+          "explanation": "لَوْلَا steht vor einem Imperfekt-Verb (تَسْتَغْفِرُونَ), daher ist es لَوْلَا التَّحْضِيضِيَّة: 'Warum sucht ihr nicht Vergebung?'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme ob لَوْلَا konditional oder als Vorwurf verwendet wird: لَوْلَا أَنْتُمْ لَكُنَّا مُؤْمِنِينَ (34:31)",
+          "answer": "Konditional (لَوْلَا الاِمْتِنَاعِيَّة). Nach لَوْلَا folgt ein Nomen (أَنْتُمْ), nicht ein Verb.",
+          "explanation": "Regel: Nomen nach لَوْلَا → konditional. Verb nach لَوْلَا → Vorwurf. Hier: أَنْتُمْ (Pronomen = Nomen) → 'wenn ihr nicht gewesen wärt'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=31"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die لَوْلَا-Sätze der richtigen Funktion zu:",
+          "pairs": [
+            {
+              "word": "لَوْلَا تَسْتَغْفِرُونَ",
+              "match": "Vorwurf (تحضيض)"
+            },
+            {
+              "word": "لَوْلَا أَنْتُمْ لَكُنَّا مُؤْمِنِينَ",
+              "match": "Kondition (امتناع)"
+            },
+            {
+              "word": "لَوْلَا جَاءُوا بِأَرْبَعَةِ شُهَدَاءَ",
+              "match": "Vorwurf (تحضيض)"
+            },
+            {
+              "word": "لَوْلَا اللَّهُ لَهَلَكْنَا",
+              "match": "Kondition (امتناع)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die Regel: Folgt auf لَوْلَا ein Nomen → _____. Folgt auf لَوْلَا ein Verb → _____.",
+          "answer": "Nomen → konditional ('wenn nicht'). Verb → Vorwurf/Aufforderung ('warum nicht?').",
+          "explanation": "Diese Regel unterscheidet die beiden Funktionen von لَوْلَا zuverlässig in allen Quran-Stellen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: لَوْلَا أُنْزِلَ عَلَيْهِ مَلَكٌ (6:8)",
+          "answer": "لَوْلَا = Vorwurfs-/Forderungspartikel (تحضيض), da ein Verb folgt. أُنْزِلَ = Perfekt Passiv (herabgesandt wurde). عَلَيْهِ = Präpositionalphrase (auf ihn). مَلَكٌ = Subjekt des Passivs (Stellvertreter-Subjekt, نائب فاعل) im Nominativ. Bedeutung: Warum wurde nicht ein Engel auf ihn herabgesandt?",
+          "explanation": "Die Leugnenden fordern mit لَوْلَا ein Zeichen. لَوْلَا + Verb = Vorwurf/Forderung. Das Verb ist Passiv, مَلَكٌ ist der نائب فاعل.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=8"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Partikel hat dieselbe Funktion wie لَوْلَا التَّحْضِيضِيَّة?",
+          "options": [
+            "إِنَّمَا",
+            "هَلَّا",
+            "لَكِنَّ",
+            "حَتَّى"
+          ],
+          "answer": "هَلَّا",
+          "explanation": "هَلَّا (hallā) hat exakt dieselbe Vorwurfs-/Aufforderungsfunktion wie لَوْلَا التَّحْضِيضِيَّة: 'warum nicht?'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §185-195",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.29",
+    "title": "Implizierte Elemente (Taqdīr)",
+    "description": "Manche Analysen ergänzen manchmal Elemente, die nicht im Text stehen. Genuiner Taqdir liegt nur vor, wenn eine syntaktische Position ein fehlendes Regens verlangt.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist Taqdīr?",
+          "content": "تَقْدِير (Taqdīr) bedeutet wörtlich 'Einschätzung/Annahme' und bezeichnet das Konzept der postulierten Elemente. Manche Analysen ergänzen in bestimmten Konstruktionen getilgte Elemente (Taqdir). Der Text selbst ist jedoch grammatisch vollständig. Ein Wort wird in der traditionellen Analyse als 'mitgedacht' (مُقَدَّر) markiert — dies ist eine Beschreibungskategorie, kein Defizit des Textes.",
+          "arabicExamples": [
+            {
+              "arabic": "وَاسْأَلِ الْقَرْيَةَ",
+              "transliteration": "wa-sʾali l-qaryata",
+              "meaning": "وَاسْأَلِ الْقَرْيَةَ — frag die Ortschaft (12:82). Der Text formuliert die Aufforderung so; manche Analysen ergänzen أَهْلَ, doch syntaktisch ist der Satz vollständig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+            },
+            {
+              "arabic": "حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ",
+              "transliteration": "ḥurrimat ʿalaykumu l-maytatu",
+              "meaning": "verboten wurde euch das Verendete (5:3). Der Text formuliert das Verbot so; manche Analysen ergänzen أَكْلَ, doch syntaktisch ist der Satz vollständig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Syntaktische Kriterien für Taqdir",
+          "content": "Genuiner Taqdir liegt nur vor, wenn eine syntaktische Lücke besteht — d.h. eine grammatische Position ein regierendes Element verlangt, das im Text fehlt: 1) Akkusativ ohne Regens: Ein Masdar oder Nomen im Akkusativ ohne sichtbares regierendes Verb — z.B. فَضَرْبَ الرِّقَابِ (47:4). 2) Unbesetzte obligatorische Satzposition: Ein Nominalsatz ohne explizites Subjekt oder Prädikat. 3) Kasus ohne Erklärung: Eine Kasusendung, die ohne ein fehlendes Element nicht parsbar ist. Manche Analysen ergänzen häufiger Taqdir als syntaktisch nötig — viele als مُقَدَّر markierte Fälle betreffen Sätze, die syntaktisch vollständig sind.",
+          "arabicExamples": [
+            {
+              "arabic": "فَضَرْبَ الرِّقَابِ",
+              "transliteration": "fa-ḍarba r-riqābi",
+              "meaning": "dann (schlagt) die Nacken (47:4) — ضَرْبَ steht im Akkusativ ohne regierendes Verb; hier ist ein impliziertes اِضْرِبُوا syntaktisch gefordert",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            },
+            {
+              "arabic": "وَاسْأَلِ الْقَرْيَةَ",
+              "transliteration": "wa-sʾali l-qaryata",
+              "meaning": "frag die Ortschaft (12:82) — Verb + Objekt im Akkusativ. Syntaktisch vollständig; die traditionelle Ergänzung أَهْلَ ist Interpretation, kein syntaktischer Taqdir",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَاسْأَلِ الْقَرْيَةَ الَّتِي كُنَّا فِيهَا (12:82) — und frag das Dorf, in dem wir waren",
+            "Schritt 1: اِسْأَلْ (frag) ist ein Imperativ (فِعْلُ أَمْرٍ)",
+            "Schritt 2: الْقَرْيَةَ steht im Akkusativ als direktes Objekt (مَفْعُولٌ بِهِ) des Verbs",
+            "Schritt 3: Der Satz ist syntaktisch vollständig: Verb + Objekt. Der Text sagt: frag die Ortschaft.",
+            "Schritt 4: Manche Analysen ergänzen ein مُضَاف (أَهْلَ), doch dies ist eine Interpretation, keine syntaktische Notwendigkeit",
+            "Schritt 5: Genuiner Taqdir liegt nur vor wenn eine syntaktische Position unbesetzt ist — hier hat das Verb sein Objekt"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Wann ist Taqdir syntaktisch begründet?",
+          "content": "Taqdir ist ausschließlich dann gerechtfertigt, wenn eine syntaktische Position ein regierendes Element verlangt, das im Text nicht vorhanden ist. Kriterien: 1) Ein Akkusativ (مَنْصُوب) steht ohne sichtbares regierendes Verb — z.B. فَضَرْبَ الرِّقَابِ (47:4): der Masdar im Akkusativ verlangt ein impliziertes Verb (اِضْرِبُوا). 2) Eine Kasusendung ist ohne Regens nicht erklärbar. 3) Eine obligatorische Satzposition (Subjekt, Prädikat) ist unbesetzt. Wenn der Satz syntaktisch vollständig ist (Verb + Subjekt, oder Verb + Objekt, etc.), liegt kein Taqdir vor — auch wenn die Tradition eines postuliert.",
+          "arabicExamples": [
+            {
+              "arabic": "فَضَرْبَ الرِّقَابِ",
+              "transliteration": "fa-ḍarba r-riqābi",
+              "meaning": "dann (schlagt) die Nacken! (47:4) — Der Masdar ضَرْبَ steht im Akkusativ, doch es fehlt ein regierendes Verb. Hier liegt genuiner Taqdir vor: die Syntax verlangt ein impliziertes اِضْرِبُوا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            },
+            {
+              "arabic": "وَجَاءَ رَبُّكَ",
+              "transliteration": "wa-jāʾa rabbuka",
+              "meaning": "und dein Herr kam (89:22) — Verb (جَاءَ) + Subjekt (رَبُّكَ). Der Satz ist syntaktisch vollständig; kein Taqdir nötig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "12:82",
+              "word": "وَسْـَٔلِ ٱلْقَرْيَةَ",
+              "analysis": "Imperativ (اِسْأَلْ) + Objekt im Akkusativ (الْقَرْيَةَ). Der Satz ist syntaktisch vollständig: Verb + Objekt. Manche Analysen ergänzen أَهْلَ als مُضَاف, doch das Verb hat sein Objekt — kein syntaktischer Taqdir.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+            },
+            {
+              "location": "5:3",
+              "word": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ",
+              "analysis": "Passiv-Verb (حُرِّمَتْ) + Präpositionalphrase (عَلَيْكُمُ) + Subjekt-Stellvertreter (الْمَيْتَةُ, Nominativ). Der Satz ist syntaktisch vollständig: das Verendete ist verboten. Manche Analysen ergänzen أَكْلُ, doch das ist Interpretation, keine syntaktische Notwendigkeit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+            },
+            {
+              "location": "2:189",
+              "word": "وَأْتُوا ٱلْبُيُوتَ مِنْ أَبْوَٰبِهَا",
+              "analysis": "Verb (اُؤْتُوا, Imperativ) + Objekt (الْبُيُوتَ) + Präpositionalphrase (مِنْ أَبْوَابِهَا). Der Satz ist syntaktisch vollständig — kein Taqdir nötig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            },
+            {
+              "location": "89:22",
+              "word": "وَجَآءَ رَبُّكَ",
+              "analysis": "Vollständiger Verbalsatz: Verb (جَاءَ) + Subjekt (رَبُّكَ). Syntaktisch ist kein Taqdir nötig — der Satz ist grammatisch komplett.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Ist der Satz وَاسْأَلِ الْقَرْيَةَ (12:82) syntaktisch vollständig?",
+          "options": [
+            "Nein — das Verb hat kein Objekt",
+            "Ja — Imperativ (اِسْأَلْ) + Objekt im Akkusativ (الْقَرْيَةَ)",
+            "Nein — es fehlt ein Subjekt",
+            "Nein — es fehlt eine Präposition"
+          ],
+          "answer": "Ja — Imperativ (اِسْأَلْ) + Objekt im Akkusativ (الْقَرْيَةَ)",
+          "explanation": "Der Satz ist syntaktisch vollständig: Verb + Objekt. Manche Analysen ergänzen أَهْلَ als مُضَاف, doch das ist Interpretation — keine syntaktische Notwendigkeit. Der Text sagt: frag die Ortschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Satz حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ (5:3). Ist er syntaktisch vollständig?",
+          "answer": "Ja. حُرِّمَتْ (Passiv-Verb) + عَلَيْكُمُ (Präpositionalphrase) + الْمَيْتَةُ (Subjekt-Stellvertreter, Nominativ). Der Satz ist syntaktisch vollständig: das Verendete ist verboten.",
+          "explanation": "Der Text sagt was er sagt. Manche Analysen ergänzen أَكْلُ als مُضَاف, doch syntaktisch ist der Satz vollständig — Passivverb + Subjekt-Stellvertreter.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher arabische Fachbegriff bezeichnet das Konzept der implizierten Elemente?",
+          "options": [
+            "تَصْرِيف (Morphologie)",
+            "تَقْدِير (Einschätzung/Implikation)",
+            "تَنْوِين (Nunation)",
+            "تَعْرِيف (Bestimmung)"
+          ],
+          "answer": "تَقْدِير (Einschätzung/Implikation)",
+          "explanation": "تَقْدِير bezeichnet das grammatische Konzept der implizierten Elemente — Wörter die nicht im Text stehen, aber mitgedacht werden.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Ein impliziertes Element wird in der arabischen Grammatik als _____ (مُقَدَّر) bezeichnet.",
+          "answer": "مُقَدَّر",
+          "explanation": "مُقَدَّر (muqaddar) = 'angenommen/geschätzt' — bezeichnet Elemente, die im Text fehlen aber syntaktisch mitgedacht werden.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Satz: وَجَاءَ رَبُّكَ (89:22) — und dein Herr kam. Ist dieser Satz grammatisch vollständig?",
+          "answer": "Ja. وَجَاءَ (Verb, Perfekt) + رَبُّكَ (Subjekt, Nominativ + Possessivsuffix). Der Satz ist ein vollständiger Verbalsatz: Verb + Faʿil. Es gibt keinen syntaktischen Grund ein Wort zu ergänzen.",
+          "explanation": "Der Text sagt was er sagt. وَجَاءَ رَبُّكَ ist grammatisch: Verb + Subjekt. Die Ergänzung implizierter Wörter (Taqdir) ist nur dann grammatisch begründet wenn der Satz ohne sie syntaktisch unvollständig wäre — das ist hier nicht der Fall.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Wann ist Taqdir syntaktisch begründet?",
+          "options": [
+            "Immer wenn der Sinn es nahelegt",
+            "Wenn eine syntaktische Position ein Regens verlangt, das im Text fehlt",
+            "Bei jedem verdeckten Subjekt",
+            "Bei jedem transitiven Verb ohne explizites Objekt"
+          ],
+          "answer": "Wenn eine syntaktische Position ein Regens verlangt, das im Text fehlt",
+          "explanation": "Genuiner Taqdir liegt nur vor, wenn eine grammatische Position (z.B. Akkusativ ohne regierendes Verb wie in فَضَرْبَ الرِّقَابِ 47:4) ein Element verlangt, das im Text nicht vorhanden ist. Syntaktisch vollständige Sätze erfordern keinen Taqdir.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-10",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.30",
+    "title": "Imperfekt als historisches Präsens (الْمُضَارِعُ الْحِكَائِيُّ)",
+    "description": "Der Quran verwendet das Imperfekt für vergangene Ereignisse — ein struktureller Tempuswechsel der die Handlung vergegenwärtigt.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist das historische Präsens?",
+          "content": "Im Standardarabisch drückt das Perfekt (الْمَاضِي) abgeschlossene Vergangenheit aus und das Imperfekt (الْمُضَارِع) Gegenwart oder Zukunft. Der Quran bricht diese Regel bewusst: Er verwendet das Imperfekt, um VERGANGENE Ereignisse so darzustellen, als geschähen sie gerade JETZT. Dies heißt الْمُضَارِعُ الْحِكَائِيُّ (das erzählende Imperfekt) oder auch الْحِكَايَةُ (Vergegenwärtigung). Der Tempuswechsel ist nicht zufällig — er ist ein präzises sprachliches Mittel das den Leser in die Szene hineinzieht.",
+          "arabicExamples": [
+            {
+              "arabic": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ",
+              "transliteration": "wa-idh yarfaʿu ibrāhīmu l-qawāʿida",
+              "meaning": "und als Ibrahim die Grundmauern ERHOB (2:127) — Imperfekt, obwohl Vergangenheit!",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+            },
+            {
+              "arabic": "إِذْ يَقُولُ لِصَاحِبِهِ",
+              "transliteration": "idh yaqūlu li-ṣāḥibihi",
+              "meaning": "als er zu seinem Gefährten SAGTE (9:40) — Imperfekt für Vergangenheit",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=40"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Woran erkennt man das historische Präsens?",
+          "content": "Das Erkennungszeichen ist die Kombination aus إِذْ (als/damals — Zeitadverb der Vergangenheit) mit einem Imperfekt-Verb. إِذْ markiert eindeutig die Vergangenheit, aber das Verb steht im Imperfekt. Dieser Widerspruch signalisiert das historische Präsens. Weitere Kontextmarker: Die Erzählung handelt offensichtlich von vergangenen Verkündern oder Ereignissen. Auch وَ + Imperfekt nach einer Perfekt-Kette kann historisches Präsens sein.",
+          "arabicExamples": [
+            {
+              "arabic": "إِذْ + يَفْعَلُ",
+              "transliteration": "idh + yafʿalu",
+              "meaning": "als + Imperfekt = historisches Präsens (Vergegenwärtigung)"
+            },
+            {
+              "arabic": "إِذْ + فَعَلَ",
+              "transliteration": "idh + faʿala",
+              "meaning": "als + Perfekt = gewöhnliche Vergangenheitserzählung"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ (2:127)",
+            "Schritt 1: إِذْ = 'als/damals' — dieses Zeitadverb markiert die Vergangenheit",
+            "Schritt 2: يَرْفَعُ = 'er ERHEBT' — Imperfekt (مُضَارِع), normalerweise Gegenwart/Zukunft",
+            "Schritt 3: Widerspruch: إِذْ (Vergangenheit) + يَرْفَعُ (Gegenwart) → dies ist das historische Präsens",
+            "Schritt 4: إِبْرَاهِيمُ = Ibrahim (Subjekt, فَاعِل im Nominativ) — lebte vor Jahrtausenden, also eindeutig Vergangenheit",
+            "Schritt 5: الْقَوَاعِدَ مِنَ الْبَيْتِ = die Grundmauern des Hauses (der Kaaba) — Akkusativ-Objekt",
+            "Schritt 6: Sprachliche Wirkung: Der Leser wird in die Szene hineingezogen — er 'sieht' Ibrahim JETZT die Kaaba bauen",
+            "Schritt 7: Eine gewöhnliche Erzählung hätte إِذْ رَفَعَ (Perfekt) verwendet — der Quran wählt bewusst das Imperfekt"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Sprachliche Wirkung (historisches Präsens)",
+          "content": "Diese Technik heißt اِسْتِحْضَار — linguistisch handelt es sich um den Einsatz des Imperfekts mit Vergangenheitsbedeutung (historisches Präsens). Ihr Zweck ist es, vergangene Ereignisse so lebendig darzustellen, dass der Leser/Hörer sie als gegenwärtig empfindet. Im Quran wird dies an besonders bedeutsamen Stellen eingesetzt: beim Bau der Kaaba, bei Schlüsselmomenten der Verkündergeschichten, bei dramatischen Szenen am Tag des Gerichts. Der Tempuswechsel ist NIEMALS zufällig — jede Stelle hat eine emphatische Begründung.",
+          "arabicExamples": [
+            {
+              "arabic": "وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا",
+              "transliteration": "wa-idh yamkuru bika lladhīna kafarū",
+              "meaning": "und als diejenigen die ungläubig waren gegen dich PLANEN (8:30) — Imperfekt vergegenwärtigt die Bedrohung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=30"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:127",
+              "word": "وَإِذْ يَرْفَعُ إِبْرَٰهِـمُ ٱلْقَوَاعِدَ",
+              "analysis": "إِذْ (Vergangenheit) + يَرْفَعُ (Imperfekt) = historisches Präsens. Ibrahim ERHEBT die Grundmauern — obwohl dies vor Jahrtausenden geschah. Der Quran lässt den Leser die Szene live erleben.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+            },
+            {
+              "location": "9:40",
+              "word": "إِذْ يَقُولُ لِصَٰحِبِهِ لَا تَحْزَنْ",
+              "analysis": "إِذْ + يَقُولُ (Imperfekt) = historisches Präsens. Er SAGT zu seinem Begleiter (لِصَاحِبِهِ): 'Sei nicht traurig.' Die Höhlen-Szene wird vergegenwärtigt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=40"
+            },
+            {
+              "location": "8:30",
+              "word": "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا",
+              "analysis": "إِذْ + يَمْكُرُ (Imperfekt) = historisches Präsens. Sie PLANEN gegen dich — die Bedrohung wird als gegenwärtig dargestellt, obwohl sie vergangen ist.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=30"
+            },
+            {
+              "location": "3:39",
+              "word": "وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ",
+              "analysis": "Zakariya STEHT sich zuwendend im Zuwendungsraum — die Szene wird durch Nominalsatz + Imperfekt vergegenwärtigt. يُصَلِّي vergegenwärtigt die vergangene Zuwendung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+            },
+            {
+              "location": "37:102",
+              "word": "يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ",
+              "analysis": "Ibrahim SAGT zu seinem Sohn: Ich SEHE im Traum — obwohl das Gespräch längst vergangen ist. Die direkte Rede im Imperfekt macht die Szene lebendig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=102"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was signalisiert die Kombination إِذْ + Imperfekt?",
+          "options": [
+            "Zukunft",
+            "Gewöhnliche Vergangenheit",
+            "Historisches Präsens (Imperfekt mit Vergangenheitsbedeutung)",
+            "Bedingung"
+          ],
+          "answer": "Historisches Präsens (Imperfekt mit Vergangenheitsbedeutung)",
+          "explanation": "إِذْ markiert die Vergangenheit, aber das Imperfekt-Verb stellt die Handlung als gegenwärtig dar. Diese Kombination ist das Hauptmerkmal des historischen Präsens im Quran.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere das historische Präsens in: وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ (2:127)",
+          "answer": "يَرْفَعُ ist das historische Präsens. Es steht im Imperfekt, obwohl die Handlung (Ibrahim baut die Kaaba) in der fernen Vergangenheit liegt. إِذْ markiert die Vergangenheit.",
+          "explanation": "Gewöhnlich wäre hier das Perfekt رَفَعَ zu erwarten. Der Quran verwendet das Imperfekt يَرْفَعُ, um den Leser als Augenzeugen in die Szene zu versetzen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum verwendet der Quran das Imperfekt für vergangene Ereignisse?",
+          "options": [
+            "Es ist ein grammatischer Fehler",
+            "Es ist ein sprachliches Mittel zur Vergegenwärtigung (اِسْتِحْضَار)",
+            "Das Arabisch hatte damals keine Vergangenheitsform",
+            "Es bedeutet dasselbe wie das Perfekt"
+          ],
+          "answer": "Es ist ein sprachliches Mittel zur Vergegenwärtigung (اِسْتِحْضَار)",
+          "explanation": "Der Tempuswechsel ist bewusst und emphatisch: Er zieht den Leser in die Szene hinein und lässt vergangene Ereignisse als gegenwärtig erscheinen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Das arabische Fachwort für das historische Präsens im Quran ist الْمُضَارِعُ _____ .",
+          "answer": "الْحِكَائِيُّ (al-ḥikāʾiyyu)",
+          "explanation": "الْمُضَارِعُ الْحِكَائِيُّ = das erzählende/vergegenwärtigende Imperfekt — der Fachbegriff für das historische Präsens.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Tempuswechsel in: إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا (9:40)",
+          "answer": "إِذْ = Zeitadverb der Vergangenheit ('als'). يَقُولُ = Imperfekt ('er sagt') — historisches Präsens statt des erwarteten قَالَ (er sagte). لِصَاحِبِهِ = zu seinem Gefährten. لَا تَحْزَنْ = sei nicht traurig (Imperativ). إِنَّ اللَّهَ مَعَنَا = wahrlich, Gott ist mit uns. Sprachliche Wirkung: Der Leser hört die Worte als gegenwärtig — die Szene wird vergegenwärtigt.",
+          "explanation": "Der Quran hätte إِذْ قَالَ (als er sagte) verwenden können, wählt aber إِذْ يَقُولُ. Dies versetzt den Leser in die Szene und lässt ihn die Worte als gegenwärtig erleben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=40"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die Tempusverwendung dem richtigen Typ zu:",
+          "pairs": [
+            {
+              "word": "إِذْ يَرْفَعُ إِبْرَاهِيمُ",
+              "match": "Historisches Präsens (Imperfekt für Vergangenheit)"
+            },
+            {
+              "word": "رَفَعَ إِبْرَاهِيمُ",
+              "match": "Gewöhnliches Perfekt (Vergangenheit)"
+            },
+            {
+              "word": "يَرْفَعُ الطَّالِبُ يَدَهُ",
+              "match": "Gewöhnliches Imperfekt (Gegenwart)"
+            },
+            {
+              "word": "سَيَرْفَعُ",
+              "match": "Futur (سَ + Imperfekt)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-10",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  }
+]

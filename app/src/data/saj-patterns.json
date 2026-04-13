@@ -1,0 +1,719 @@
+{
+  "meta": {
+    "title": "Saj' und Reim im Quran",
+    "description": "Deskriptive Analyse der Reim-Schemata (Fāṣila-Muster) quranischer Suren. Text-intern, ohne normative Annahmen.",
+    "approach": "Endreim-Konsonant + Pausal-Vokal pro Vers. Wechsel werden als Reim-Gruppen markiert. Die Pausalform ist die lautliche Realisierung am Vers-Ende (waqf) — typischerweise Schwund des ʾiʿrāb-Vokals, Sukūn auf dem letzten Konsonanten oder Dehnung eines Endvokals zu ā/ī/ū. Reim im Qurantext arbeitet überwiegend mit dieser Pausalform, nicht mit dem vollvokalisierten Satz-internen Zustand.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Tanzil Quran Text",
+        "url": "https://tanzil.net/"
+      },
+      {
+        "name": "Neuwirth — Studien zur Komposition der mekkanischen Suren",
+        "note": "Sprachwissenschaftliche Struktur-Analyse ohne Traditions-Autorität"
+      },
+      {
+        "name": "Stewart — Saj' in the Qur'an: Prosody and Structure (JAL 21, 1990)",
+        "note": "Linguistisch-philologische Reim-Analyse"
+      }
+    ],
+    "terminology": {
+      "fasila": "Vers-Ende im Quran (wörtlich: Trennung). Funktionsanalog zum Reimwort in gebundener Rede.",
+      "saj": "Gereimte, rhythmisierte Prosa ohne strenge Metrik. Reimeinheiten variieren in Länge; Reim-Konsonanten bleiben über Vers-Gruppen konstant.",
+      "pausalVocal": "Der vokalische Rest am Vers-Ende nach Schwund des ʾiʿrāb: -Ø (Sukūn), -ā, -ī, -ū.",
+      "rhymeLetter": "Der letzte Konsonant vor dem Pausal-Vokal — trägt den Reim (z.B. ن in -ūn, م in -īm)."
+    }
+  },
+  "suras": [
+    {
+      "number": 51,
+      "name": "Adh-Dhāriyāt",
+      "verseCount": 60,
+      "dominantRhyme": "-ūn / -īn (N-Reim mit langem Vokal)",
+      "rhymeGroups": [
+        {"verses": "1-6", "pattern": "-ūʿ (Schwur- und Antwort-Gruppe mit wechselndem Konsonanten: ḏāriyāt, ḥāmilāt, jāriyāt, muqassimāt, ṣādiq, wāqiʿ)", "notes": "Reim auf femininem Plural-Partizip (-āti→-āt in Pausa) mit Schlussvers auf -iʿ."},
+        {"verses": "7-23", "pattern": "-ūn", "notes": "Lange N-Reim-Sequenz: mukhtalif, muʾfak, kharrāṣūn, sāhūn, yasʾalūn, yuftanūn, tastaʿjilūn, muḥsinīn, yahjaʿūn, yastaghfirūn, maḥrūm, lil-muuqinīn, tubṣirūn, tūʿadūn, taṇṭiqūn."},
+        {"verses": "24-37", "pattern": "-īm / -ūn (Abraham- und Lot-Episode)", "notes": "Erzählteil mit gemischtem Reim: mukramīn, munkarūn, samīn, taʾkulūn, ʿalīm, mujrimīn, musawwama, mushrifīn, al-muʾminīn."},
+        {"verses": "38-51", "pattern": "-īn / -ūn (Straf- und Zeichen-Aufzählung)", "notes": "Pharao-, ʿĀd-, Thamūd-, Noah-Zyklus: mubīn, malūm, musrifīn, al-ʿaqīm, ka-r-ramīm, fāsiqīn, al-mūsiʿūn, māhidūn, tadhakkarūn, firār, mubīn."},
+        {"verses": "52-60", "pattern": "-ūn / -īn", "notes": "Abschluss: sāḥir aw majnūn, ṭāghūn, malūm, al-muʾminīn, al-matīn, yūʿadūn."}
+      ],
+      "pausalForm": "Endvokal -a schwindet fast durchgehend; -ūna → -ūn, -īna → -īn, -īmin → -īm. Femininer Plural -ātin → -āt. Die Fāṣila trägt den langen Vokal + Nasal als stabilen akustischen Anker.",
+      "breaks": [
+        {"at": "7", "from": "-āt/-iʿ (Schwurgruppe)", "to": "-ūn/-īn (Diskursabschnitt)"},
+        {"at": "24", "from": "-ūn", "to": "narrativer -īm/-ūn-Wechsel"},
+        {"at": "52", "from": "Erzählung", "to": "Schlussabmahnung -ūn"}
+      ],
+      "rhythmicNotes": "Anfangsverse sehr kurz (2-4 Wörter, Schwur), steigende Länge im narrativen Mittelteil (8-12 Wörter), kurze Schlussverse. Silbenzahl typisch 6-10 pro Fāṣila-Kolon.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=51"
+    },
+    {
+      "number": 52,
+      "name": "Aṭ-Ṭūr",
+      "verseCount": 49,
+      "dominantRhyme": "-ūr / -īr (R-Reim) und -ūn",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-ūr", "notes": "Reiner R-Reim in der Eingangs-Schwurgruppe: aṭ-ṭūr, masṭūr, manshūr, al-maʿmūr, al-marfūʿ, al-masjūr, la-wāqiʿ, min dāfiʿ — mit akzentuierter Assonanz auf ū+Konsonant."},
+        {"verses": "9-28", "pattern": "-īm / -īn (Eschatologie-Abschnitt)", "notes": "Beschreibung des Gerichts und der Paradies-Szenen: mawran, sayran, yukadhdhibūn, yuʿmahūn, tubṣirūn, tuǧzawn, muttakiʾīn, bi-ḥūrin ʿīn, dhurriyyatahum, kasabū, faʾkulū hanīʾan, al-ʿīn, mushfiqīn, as-samūm, ar-raḥīm."},
+        {"verses": "29-49", "pattern": "-ūn", "notes": "Polemischer Dialog-Abschnitt gegen Einwände: majnūn, al-manūn, yataʾammarūn, taqawwalahu, al-ʿālamīn, al-musayṭirūn, sullam, yuftanūn, yubṣirūn, yaḥzanūn, mughrimūn, yaktubūn, yakīdūn, yushrikūn, yattakhidhūn, tadhkuru, lā yubṣirūn, lil-mughtarrīn, tanzīlan."}
+      ],
+      "pausalForm": "-urun → -ūr, -ūna → -ūn, -īnin → -īn. Das R trägt den Reim in 1-8, das N in 29-49. Der Übergang erfolgt über eine hybride Mittelgruppe mit -īm/-īn.",
+      "breaks": [
+        {"at": "9", "from": "R-Reim Schwurgruppe", "to": "eschatologischer Mischreim"},
+        {"at": "29", "from": "-īm/-īn Paradiesbilder", "to": "-ūn Polemik"}
+      ],
+      "rhythmicNotes": "Schwurgruppe 1-8 rhythmisch dicht (je 2-3 Wörter), dann Streckung. Schluss-Sequenz 35-43 wieder sehr knapp mit je 3-5 Wörtern — staccato-artige rhetorische Fragen.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=52"
+    },
+    {
+      "number": 53,
+      "name": "An-Najm",
+      "verseCount": 62,
+      "dominantRhyme": "-ā (langer a-Auslaut)",
+      "rhymeGroups": [
+        {"verses": "1-18", "pattern": "-ā", "notes": "Durchgehender Reim auf langes ā (teilweise orthographisch als ى geschrieben, Pausal identisch): hawā, ghawā, yanṭiqu ʿan al-hawā, yūḥā, dhū mirra, istawā, al-aʿlā, tadallā, aw adnā, awḥā, mā raʾā, tumārūnahu, ukhrā, al-muntahā, al-maʾwā, yaghshā, mā ṭaghā, al-kubrā."},
+        {"verses": "19-32", "pattern": "-ā (Polemik-Abschnitt)", "notes": "Kritik der Götzen-Namen und Vermutungen: wa-l-ʿuzzā, al-ukhrā, aḍ-ḍīzā, aḥlāmuhum, al-anfusu, al-hudā, tamannā, al-ūlā, yarḍā, at-tasmiyata, min ʿilmin, al-aẓlamu, al-muhtadī, al-mumtarī."},
+        {"verses": "33-55", "pattern": "-ā", "notes": "Alte-Schriften-Abschnitt: tawallā, akdā, yarā, wafā, al-ukhrā, aghnā, ʿabdahu, ʿabda, al-ūlā, abqā, aghwā, ahwā, al-muʾtafika, ghashshā, tatamārā."},
+        {"verses": "56-62", "pattern": "-ā (Schluss)", "notes": "Schlussappelle: al-ūlā, azifat al-āzifa, kāshifa, taʿjabūn, taḍḥakūn, wa-lā tabkūn, sāmidūn, wa-sjudū wa-ʿbudū (letztere zwei brechen das Reimschema durch Imperativ-Paar)."}
+      ],
+      "pausalForm": "Langes ā ist in jeder Pausalform stabil — sei es über ا, ى maqṣūra oder -ahu→-ā. An-Najm ist die klassische ā-Reim-Sure par excellence.",
+      "breaks": [
+        {"at": "62", "from": "-ā (durchgehend)", "to": "Imperativ-Paar bricht Reim bewusst am Schluss"}
+      ],
+      "rhythmicNotes": "Extrem kurze Verse im Eingang (2-4 Wörter, z.B. 1-10). Steigende Länge in der Mitte, wieder Verkürzung ab V. 54. Gesamt-Sure rhythmisch sehr homogen durch den ā-Anker.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=53"
+    },
+    {
+      "number": 55,
+      "name": "Ar-Raḥmān",
+      "verseCount": 78,
+      "dominantRhyme": "-ān / -ām (N/M-Reim mit langem ā)",
+      "rhymeGroups": [
+        {"verses": "1-30", "pattern": "-ān", "notes": "Schöpfungs- und Gaben-Teil: ar-raḥmān, al-qurʾān, al-insān, al-bayān, bi-ḥusbān, yasjudān, al-mīzān, fī al-mīzān, lil-anām, wa-r-rayḥān, tukadhdhibān (Refrain), fakhkhār, min mārij, al-mashriqayn, al-maghribayn, yabghiyān, barzakh, yaltaqiyān, wa-l-marjān, al-aʿlām, kull man ʿalayhā fān, dhū-l-jalāl wa-l-ikrām."},
+        {"verses": "31-45", "pattern": "-ān (Gerichtsteil)", "notes": "Tag des Gerichts: ayyuhā ath-thaqalān, al-jinn wa-l-ins, bi-sulṭān, shuwāẓ min nār wa-nuḥās, wardatan ka-d-dihān, majrimūn, al-aqdām, yaṭūfūna baynahā wa-bayna ḥamīm ān."},
+        {"verses": "46-78", "pattern": "-ān", "notes": "Paradiesbeschreibung: janniatān, afnān, tajriyān, zawjān, dān, al-jānn, wa-marjān, al-iḥsān, dūnihimā jannatān, mudhāmmatān, naḍḍākhatān, wa-rummān, ḥisān, al-khiyām, aḥad qablahum wa-lā jānn, ʿabqariyyin ḥisān, dhū-l-jalāl wa-l-ikrām. Refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān erscheint 31x und prägt die gesamte Reim-Architektur."}
+      ],
+      "pausalForm": "Der Pausal-Zustand -ānV → -ān ist der akustische Kern. Das Refrain-tukadhdhibān stabilisiert den Reim wie ein Ostinato — fast jeder zweite Vers kehrt zum identischen Reimwort zurück.",
+      "breaks": [],
+      "rhythmicNotes": "Diese Sure realisiert Saj' in reinster Form: regelmäßiger Kurzvers, litaneiartiger Refrain, Paarstruktur (Dualformen janniatān, ʿaynān, zawjān). Silbenzahl pro Fāṣila typisch 5-7.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+    },
+    {
+      "number": 56,
+      "name": "Al-Wāqiʿa",
+      "verseCount": 96,
+      "dominantRhyme": "-ūn / -īn (N-Reim)",
+      "rhymeGroups": [
+        {"verses": "1-9", "pattern": "-a (thematische Gruppen-Nennung)", "notes": "Eröffnung: al-wāqiʿa, kādhiba, rāfiʿa, rajjan, bassan, munbaththan, thalāthah, al-maymanah, al-mashʾamah."},
+        {"verses": "10-26", "pattern": "-ūn / -īn (Vorausgeeilte und Rechte)", "notes": "as-sābiqūn as-sābiqūn, al-muqarrabūn, an-naʿīm, al-awwalīn, al-ākhirīn, mawḍūnah, muttakiʾīn, mukhalladūn, wa-kaʾsin min maʿīn, lā yuṣaddaʿūn, yatakhayyarūn, yashtahūn, al-maknūn, yaʿmalūn, lā laghwan wa-lā taʾthīmā, illā qīlan salāman salāmā."},
+        {"verses": "27-40", "pattern": "-ūd / -ūʿ (Gefährten der Rechten)", "notes": "wa-mā aṣḥābu al-yamīn — Paradiesbilder: sidrin makhḍūd, ṭalḥin manḍūd, mamdūd, maskūb, maqṭūʿa, marfūʿa, inshāʾan, abkāran, atrāban, li-aṣḥābi al-yamīn, al-awwalīn, al-ākhirīn."},
+        {"verses": "41-56", "pattern": "-īm (Gefährten der Linken)", "notes": "samūm, ḥamīm, yaḥmūm, karīm, muqīmīn, al-ʿaẓīm, mabʿūthūn, al-awwalūn, maʿlūm, aḍ-ḍāllūn, min zaqqūm, al-buṭūn, al-ḥamīm, al-hīm, ad-dīn."},
+        {"verses": "57-74", "pattern": "-ūn", "notes": "Zeichen-Argumentation: tuṣaddiqūn, takhluqūn, al-khāliqūn, al-mawt, musbūqūn, tanshaʾūn, tadhakkarūn, taḥruthūn, tazraʿūn, ṭḥāmā, tafakkahūn, muḥramūn, tashrabūn, anzaltumūhu, al-munzilūn, ujājan, tashkurūn, tūrūn, al-munshiʾūn, tadhkiratan wa-matāʿan, al-ʿaẓīm."},
+        {"verses": "75-96", "pattern": "-ūn / -īn (Schluss-Argument)", "notes": "tamūt, ḥīnaʾidhin tanẓurūn, lā tubṣirūn, madīnīn, tarjiʿūnahā, ṣādiqīn, wa-rayḥānun wa-jannatu naʿīm, al-yamīn, fa-salāmun laka min aṣḥābi al-yamīn, aḍ-ḍāllīn, min ḥamīm, al-jaḥīm, al-yaqīn, al-ʿaẓīm."}
+      ],
+      "pausalForm": "Dreiteilige Struktur mit Gruppen-spezifischem Reim: Vorausgeeilte (-ūn/-īn), Rechte (-ūd/-ūʿ/-īn), Linke (-īm). Schluss kehrt zu -ūn/-īn zurück.",
+      "breaks": [
+        {"at": "27", "from": "-ūn/-īn (Vorausgeeilte)", "to": "-ūd/-ūʿ (Rechte)"},
+        {"at": "41", "from": "-ūd/-ūʿ (Rechte)", "to": "-īm (Linke)"},
+        {"at": "57", "from": "-īm (Linke)", "to": "-ūn (Argumentation)"}
+      ],
+      "rhythmicNotes": "Parallelstrukturen zwischen den drei Gruppen (1-26, 27-40, 41-56) lassen die Reim-Verschiebung auch akustisch den Gruppenwechsel markieren. Der Reim wird zum Gliederungssignal.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=56"
+    },
+    {
+      "number": 69,
+      "name": "Al-Ḥāqqa",
+      "verseCount": 52,
+      "dominantRhyme": "-a (tāʾ marbūṭa) / -iya / -ūn",
+      "rhymeGroups": [
+        {"verses": "1-12", "pattern": "-a (Hämmerungs-Reim)", "notes": "al-ḥāqqa, mā al-ḥāqqa, mā adrāka mā al-ḥāqqa, al-qāriʿa, aṭ-ṭāghiya, ṣarṣarin ʿātiya, ḥusūman, khāwiya, bāqiya, al-mūtafikāt, bi-l-khāṭiʾa, ʿāṣiya, wāʿiya."},
+        {"verses": "13-37", "pattern": "-a (Gerichtsbilder)", "notes": "wāḥida, wāḥida, al-wāqiʿa, wāhiya, thamāniya, khāfiya, kitābiyah, ḥisābiyah (Reim auf suffigiertes -iya-Possessiv — seltene Reim-Architektur), maliyah, ḥāsabtuhu, sulṭāniyah, al-qāḍiya, māliyah, sulṭāniyah, fa-ghullūhu, fa-ṣallūhu, fa-slukūhu, al-ʿaẓīm, al-miskīn, ḥamīm, ghislīn, al-khāṭiʾūn."},
+        {"verses": "38-52", "pattern": "-ūn", "notes": "Schlussbekräftigung: mā tubṣirūn wa-mā lā tubṣirūn, karīm, bi-qawli shāʿir, mā tuʾminūn, kāhin, tadhakkarūn, al-ʿālamīn, muttaqīn, al-aqāwīl, al-yamīn, al-watīn, ḥājizīn, lil-muttaqīn, kādhibīn, ḥasratan ʿalā al-kāfirīn, al-yaqīn, al-ʿaẓīm."}
+      ],
+      "pausalForm": "Der -iyah-Reim in der Gerichtsbuch-Szene (19-29: kitābiyah, ḥisābiyah, māliyah, sulṭāniyah) ist ein Sonderfall: der Pausalvokal wird hier durch das Possessiv-ī + hāʾ as-sakt markiert, so dass der Reim nicht auf dem Nomen, sondern auf dem Suffix liegt.",
+      "breaks": [
+        {"at": "19", "from": "-a freier Nominal-Reim", "to": "-iyah (ī+hāʾ as-sakt Possessiv-Reim)"},
+        {"at": "38", "from": "-iyah/-a", "to": "-ūn/-īn klassischer N-Reim"}
+      ],
+      "rhythmicNotes": "Anfangs-Trias (al-ḥāqqa / mā al-ḥāqqa / mā adrāka mā al-ḥāqqa) als hämmernde Wiederholung des Reimworts selbst. Der -iyah-Abschnitt hat einen fast hymnischen Ton durch die identische Endung über 5 Verse.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=69"
+    },
+    {
+      "number": 75,
+      "name": "Al-Qiyāma",
+      "verseCount": 40,
+      "dominantRhyme": "-a / -ah / -ī (gemischt)",
+      "rhymeGroups": [
+        {"verses": "1-15", "pattern": "-ah / -a (auferstehungsbezogen)", "notes": "al-qiyāma, al-lawwāma, ʿiẓāmahu, banānahu, amāmahu, al-qiyāma, al-baṣar, al-qamar, jumiʿa ash-shamsu wa-l-qamar, al-mafarr, lā wazar, al-mustaqarr, wa-akhkhar, baṣīra, maʿādhīrahu."},
+        {"verses": "16-25", "pattern": "-ah / -uh (Offenbarungs-Verhalten)", "notes": "li-taʿjala bihi, jamʿahu wa-qurʾānahu, qaraʾnāhu fa-ttabiʿ qurʾānahu, bayānahu, al-ʿājila, al-ākhira, nāḍira, nāẓira, bāsira, fāqira."},
+        {"verses": "26-40", "pattern": "-ā / -ī / -an (Sterbe- und Schöpfungs-Bild)", "notes": "at-tarāqī, man rāqin, al-firāq, bi-s-sāq, al-masāq, wa-lā ṣallā, wa-tawallā, yatamaṭṭā, fa-awlā, fa-awlā, thumma awlā, sudan, yumnā, fa-sawwā, adh-dhakara wa-l-unthā, al-mawtā."}
+      ],
+      "pausalForm": "Drei-Gruppen-Architektur mit Übergang von -ah über -ira zu -ā. Der Reim folgt dem thematischen Bogen: Auferstehungs-Szenerie → Empfängnis der Offenbarung → Sterbe-Szene → Schöpfungs-Argument.",
+      "breaks": [
+        {"at": "16", "from": "-ah/-a", "to": "-āhu/-ira (Offenbarungs-Einschub)"},
+        {"at": "26", "from": "-ira/-a", "to": "-ā (Sterbeszene und Schluss)"}
+      ],
+      "rhythmicNotes": "Verse meist 3-5 Wörter lang, rhythmisch kompakt. Die Sterbe-Szene 26-30 ist besonders dicht (je 2-3 Wörter): bi-s-sāq / al-firāq / al-masāq.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=75"
+    },
+    {
+      "number": 77,
+      "name": "Al-Mursalāt",
+      "verseCount": 50,
+      "dominantRhyme": "-ā / -īn / Refrain lil-mukadhdhibīn",
+      "rhymeGroups": [
+        {"verses": "1-7", "pattern": "-ā (Schwurgruppe)", "notes": "al-mursalāti ʿurfā, fa-l-ʿāṣifāti ʿaṣfā, wa-n-nāshirāti nashrā, fa-l-fāriqāti farqā, fa-l-mulqiyāti dhikrā, ʿudhran aw nudhrā, la-wāqiʿ."},
+        {"verses": "8-50", "pattern": "-īn (Refrain-Reim) + thematische Zwischenreime", "notes": "Zehnfacher Refrain waylun yawmaʾidhin lil-mukadhdhibīn (V. 15, 19, 24, 28, 34, 37, 40, 45, 47, 49) strukturiert den Rest. Zwischenverse: ṭumisat, furijat, nusifat, uqqitat, ujjilat, yawmu al-faṣl, al-awwalīn, al-ākhirīn, fa-kīdūn, ẓilālin thalāthi shuʿab, lā ẓalīl wa-lā yughnī, ka-l-qaṣr, jimālatun ṣufr, lā yanṭiqūn, lā yuʾdhanu lahum fa-yaʿtadhirūn, yawmu al-faṣl, jamaʿnākum wa-l-awwalīn, fa-kīdūn, muttaqīn, fī ẓilāl wa-ʿuyūn, wa-fawākih mimmā yashtahūn, kulū wa-shrabū hanīʾan bi-mā kuntum taʿmalūn, al-muḥsinīn, qalīlan, mujrimūn, lā yarkaʿūn, yuʾminūn."}
+      ],
+      "pausalForm": "Der Refrain-Reim lil-mukadhdhibīn ist ein Paradebeispiel für Refrain-Saj': derselbe Reim (-īn) wird identisch wiederholt, während die Zwischenverse frei variieren — aber stets auf -ūn/-īn zurückkehren.",
+      "breaks": [
+        {"at": "8", "from": "-ā Schwurgruppe", "to": "-īn Refrain-System"}
+      ],
+      "rhythmicNotes": "Kurze Verse durchgehend (3-6 Wörter). Refrain dient als rhythmischer Taktgeber — fast wie Strophen und Kehrvers.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=77"
+    },
+    {
+      "number": 78,
+      "name": "An-Nabaʾ",
+      "verseCount": 40,
+      "dominantRhyme": "-ā / -ābā (langer a-Auslaut mit -b- und -j-Varianten)",
+      "rhymeGroups": [
+        {"verses": "1-16", "pattern": "-ā", "notes": "an-nabaʾi al-ʿaẓīm, mukhtalifūn (abweichend, einziger -ūn vor ā-Block), sa-yaʿlamūn, mihādā, awtādā, azwājā, subātā, libāsā, maʿāshā, shidādā, wahhājā, thajjājā, ḥabban wa-nabātā, alfāfā."},
+        {"verses": "17-30", "pattern": "-ā (Gerichtsbilder)", "notes": "mīqātā, afwājā, abwābā, sarābā, mirṣādā, aḥqābā, wa-lā sharābā, ghassāqā, wifāqā, ḥisābā, kidhdhābā, kitābā, kidhdhābā."},
+        {"verses": "31-40", "pattern": "-ā (Paradies- und Abschluss-Bilder)", "notes": "mafāzā, wa-aʿnābā, atrābā, dihāqā, lā laghwan wa-lā kidhdhābā, ḥisābā, khiṭābā, ṣawābā, maʾābā, qarībā, turābā."}
+      ],
+      "pausalForm": "An-Nabaʾ ist der Prototyp der -ā-Reim-Sure: tanwīn al-fatḥ (-an) wird in Pausa durchgehend zu -ā gedehnt (awtādan → awtādā). Der unbestimmte Akkusativ wird damit zum Reim-Generator.",
+      "breaks": [],
+      "rhythmicNotes": "V. 2 (mukhtalifūn) bricht den Reim scheinbar, ist aber Teil der Eröffnungsfrage-Sequenz. Ab V. 6 konsequent -ā. Verse 3-5 Wörter lang, sehr gleichmäßig.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=78"
+    },
+    {
+      "number": 79,
+      "name": "An-Nāziʿāt",
+      "verseCount": 46,
+      "dominantRhyme": "-ā (mit eingestreuten -āt-Plural und -iya)",
+      "rhymeGroups": [
+        {"verses": "1-14", "pattern": "-ā / -āt", "notes": "an-nāziʿāti gharqā, wa-n-nāshiṭāti nashṭā, wa-s-sābiḥāti sabḥā, fa-s-sābiqāti sabqā, fa-l-mudabbirāti amrā, ar-rājifa, ar-rādifa, wājifa, khāshiʿa, al-ḥāfira, nakhira, khāsira, zajratun wāḥida, bi-s-sāhira."},
+        {"verses": "15-26", "pattern": "-ā (Moses-Erzählung)", "notes": "mūsā, ṭuwā, ṭaghā, tazakkā, fa-takhshā, al-kubrā, fa-ʿaṣā, yasʿā, fa-nādā, al-aʿlā, wa-l-ūlā, yakhshā."},
+        {"verses": "27-46", "pattern": "-āhā (Schöpfungs- und Gerichts-Bilder)", "notes": "banāhā, samkahā fa-sawwāhā, laylahā wa-akhraja ḍuḥāhā, daḥāhā, māʾahā wa-marʿāhā, arsāhā, matāʿan lakum wa-li-anʿāmikum, aṭ-ṭāmmatu al-kubrā, saʿā, li-man yarā, aṭ-ṭāghiya, al-maʾwā, al-hawā, al-maʾwā, mursāhā, muntahāhā, yakhshāhā, ḍuḥāhā."}
+      ],
+      "pausalForm": "Der Reim alterniert zwischen nacktem -ā (aus -ā/-ahā/-ā) und -āhā mit suffigiertem Possessiv. Die Pausa macht beide lautlich identisch bis auf die Länge.",
+      "breaks": [
+        {"at": "27", "from": "-ā frei", "to": "-āhā (mit -hā-Suffix-Serien)"}
+      ],
+      "rhythmicNotes": "Die Schöpfungs-Strophe 27-33 entfaltet ein rhythmisches Muster: jede Handlung Gottes endet auf -āhā — ein Schöpfungs-Ostinato.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=79"
+    },
+    {
+      "number": 80,
+      "name": "ʿAbasa",
+      "verseCount": 42,
+      "dominantRhyme": "-ā / -ah",
+      "rhymeGroups": [
+        {"verses": "1-16", "pattern": "-ā / -ah", "notes": "ʿabasa wa-tawallā, al-aʿmā, yazzakkā, fa-tanfaʿahu adh-dhikrā, istaghnā, taṣaddā, yazzakkā, yasʿā, yakhshā, talahhā, tadhkira, dhakarah, mukarrama, marfūʿatin muṭahhara, safara, bararah."},
+        {"verses": "17-32", "pattern": "-ahū / -uh", "notes": "mā akfarah, khalaqah, qaddarah, yassarah, aqbarah, ansharah, amarah, ṭaʿāmih, ṣabbā, shaqqā, ḥabbā, wa-ʿinabā wa-qaḍbā, wa-zaytūnan wa-nakhlā, ghulbā, wa-abbā, li-anʿāmikum."},
+        {"verses": "33-42", "pattern": "-īh / -arah (Gerichtsszene)", "notes": "aṣ-ṣākhkha, akhīh, ummihi wa-abīh, ṣāḥibatihi wa-banīh, yughnīh, musfira, mustabshira, ghabara, qatara, al-fajara."}
+      ],
+      "pausalForm": "Die -ah/-arah-Reime in der zweiten Hälfte verwenden tāʾ marbūṭa und -ra-Endungen im Wechsel. In der dritten Gruppe sind Possessiv-Suffixe (-īh) reim-tragend.",
+      "breaks": [
+        {"at": "17", "from": "-ā/-ah", "to": "-arah Schöpfungs-Strophe"},
+        {"at": "33", "from": "-arah", "to": "-īh Gerichtsszene"}
+      ],
+      "rhythmicNotes": "Schöpfungs-Strophe 24-32 listet Nahrung in kurzen Kola (1-2 Wörter): ḥabbā / wa-ʿinaban wa-qaḍbā / wa-zaytūnan wa-nakhlā — reine Aufzählungs-Rhythmik.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=80"
+    },
+    {
+      "number": 81,
+      "name": "At-Takwīr",
+      "verseCount": 29,
+      "dominantRhyme": "-at (feminin Verb-Perfekt) → -īn/-ūn",
+      "rhymeGroups": [
+        {"verses": "1-14", "pattern": "-at (12x identisches Verb-Reim-Schema)", "notes": "kuwwirat, inkadarat, suyyirat, ʿuṭṭilat, ḥushirat, sujjirat, zuwwijat, suʾilat, qutilat, nushirat, kushiṭat, suʿʿirat, uzlifat, aḥḍarat — 14 Pausalformen auf identischem Morphem-Reim (feminin Perfekt 3.Sg. mediopassiv)."},
+        {"verses": "15-29", "pattern": "-īn / -ūn", "notes": "al-khunnas, al-jawār al-kunnas, ʿasʿas, tanaffas, karīm, makīn, muṭāʿ, amīn, bi-majnūn, bi-l-ufuq al-mubīn, bi-ḍanīn, bi-rajīm, tadhhabūn, dhikr lil-ʿālamīn, yastaqīm, rabb al-ʿālamīn."}
+      ],
+      "pausalForm": "Die 12 Verb-Reim-Zeilen (1-13) sind ein morphologischer Extremfall: dasselbe Passiv-Perfekt-Paradigma wiederholt sich, nur der Wurzel-Konsonant wechselt. In der Pausa wird -at durchgehend zu Sukūn auf dem tāʾ realisiert.",
+      "breaks": [
+        {"at": "15", "from": "-at Verb-Reim", "to": "-īn/-ūn Nominal-Reim"}
+      ],
+      "rhythmicNotes": "Der Anfang ist der klassische Fall extremer rhythmischer Verdichtung: jeder Vers nur 2 Wörter (idhā... + Verb). 14 identisch gebaute Verse hintereinander.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=81"
+    },
+    {
+      "number": 82,
+      "name": "Al-Infiṭār",
+      "verseCount": 19,
+      "dominantRhyme": "-at → -īm/-īn",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-at (Verb-Reim)", "notes": "infaṭarat, intatharat, fujjirat, buʿthirat, wa-akhkharat — wie Sure 81, aber nur 5 Glieder."},
+        {"verses": "6-19", "pattern": "-īm / -īn / -ūn", "notes": "al-karīm, fa-ʿadalaka, rakkabak, ad-dīn, lā-ḥāfiẓīn, kātibīn, taf-ʿalūn, la-fī naʿīm, la-fī jaḥīm, yawma ad-dīn, bi-ghāʾibīn, yawm ad-dīn, yawm ad-dīn, lillāh."}
+      ],
+      "pausalForm": "Strukturell Zwilling zu Sure 81: kurze Eröffnungs-Verb-Liste → Nominal-Reim. V. 17-19 wiederholen yawma ad-dīn als innerer Refrain.",
+      "breaks": [
+        {"at": "6", "from": "-at Verb-Reim", "to": "-īm/-īn Nominal"}
+      ],
+      "rhythmicNotes": "Eröffnungsliste nur 5 Verse, kürzer als in 81 — die Apokalypse-Bilder sind damit komprimierter.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=82"
+    },
+    {
+      "number": 83,
+      "name": "Al-Muṭaffifīn",
+      "verseCount": 36,
+      "dominantRhyme": "-īn / -ūn",
+      "rhymeGroups": [
+        {"verses": "1-17", "pattern": "-īn / -ūn", "notes": "lil-muṭaffifīn, yastawfūn, yukhsirūn, mabʿūthūn, ʿaẓīm, al-ʿālamīn, sijjīn, sijjīn, marqūm, lil-mukadhdhibīn, yawm ad-dīn, muʿtadin athīm, al-awwalīn, yaksibūn, la-maḥjūbūn, al-jaḥīm, tukadhdhibūn."},
+        {"verses": "18-28", "pattern": "-īn (Paradies-Gruppe)", "notes": "ʿilliyyīn, ʿilliyyīn, marqūm, al-muqarrabūn, an-naʿīm, yanẓurūn, an-naʿīm, makhtūm, misk, al-mutanāfisūn, tasnīm, al-muqarrabūn."},
+        {"verses": "29-36", "pattern": "-ūn", "notes": "yaḍḥakūn, yataghāmazūn, fakihīn, la-ḍāllūn, ḥāfiẓīn, yaḍḥakūn, yanẓurūn, yafʿalūn."}
+      ],
+      "pausalForm": "Sehr stabiles N-Reim-System durchgehend. Pausal -ūna → -ūn, -īna → -īn.",
+      "breaks": [],
+      "rhythmicNotes": "Eröffnungs-Trias lil-muṭaffifīn / alladhīna idhā... yastawfūn / wa-idhā kālūhum... yukhsirūn hat anaphorische Kopf-Struktur mit Parallelismus.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=83"
+    },
+    {
+      "number": 84,
+      "name": "Al-Inshiqāq",
+      "verseCount": 25,
+      "dominantRhyme": "-at → -ā / -ūra / -ūn",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-at (Verb-Reim)", "notes": "inshaqqat, ḥuqqat, muddat, wa-takhallat wa-ḥuqqat."},
+        {"verses": "6-15", "pattern": "-ī / -ah / -ūra", "notes": "mulāqīh, bi-yamīnihi, yasīrā, masrūrā, warāʾa ẓahrih, thubūrā, saʿīrā, surūrā, ḥūrā."},
+        {"verses": "16-25", "pattern": "-aq / -ūn", "notes": "bi-sh-shafaq, wa-mā wasaq, ittasaq, ṭabaq, lā yuʾminūn, lā yasjudūn, yukadhdhibūn, yūʿūn, mamnūn."}
+      ],
+      "pausalForm": "Drei-Reim-Architektur: Eröffnungs-Verb-Serie → Gerichts-Szene → Schwur- und Argumentation.",
+      "breaks": [
+        {"at": "6", "from": "-at", "to": "-ā/-ūra"},
+        {"at": "16", "from": "-ūra/-ah", "to": "-aq/-ūn Schwurgruppe"}
+      ],
+      "rhythmicNotes": "V. 16-20 haben wieder sehr kurze Schwur-Verse (2-3 Wörter), was rhythmisch an Sure 77 oder 81 erinnert.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=84"
+    },
+    {
+      "number": 85,
+      "name": "Al-Burūj",
+      "verseCount": 22,
+      "dominantRhyme": "-ūd / -īd (D-Reim) mit Ausbrüchen",
+      "rhymeGroups": [
+        {"verses": "1-11", "pattern": "-ūd", "notes": "dhāti al-burūj, al-yawm al-mawʿūd, shāhid wa-mashhūd, aṣḥāb al-ukhdūd, an-nār dhāti al-waqūd, qūʿūd, shuhūd, al-ḥamīd, shahīd, al-ḥarīq."},
+        {"verses": "12-22", "pattern": "-īd", "notes": "la-shadīd, wa-yuʿīd, al-wadūd, al-majīd, li-mā yurīd, al-junūd, firʿawn wa-thamūd, takdhīb, muḥīṭ, majīd, maḥfūẓ."}
+      ],
+      "pausalForm": "D-Reim in beiden Gruppen, aber mit Vokal-Wechsel ū → ī. Die Fāṣila hat denselben Konsonanten-Anker, wechselt aber den Vokal — ein feiner Reim-Wechsel ohne thematischen Bruch.",
+      "breaks": [
+        {"at": "12", "from": "-ūd", "to": "-īd (Vokal-Umschlag bei konstantem Reim-Konsonant)"}
+      ],
+      "rhythmicNotes": "Vokal-Umschlag ū→ī markiert den Wechsel vom Leidens-Bild (Ukhdūd) zum Vergeltungs-Ausblick (shadīd).",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=85"
+    },
+    {
+      "number": 86,
+      "name": "Aṭ-Ṭāriq",
+      "verseCount": 17,
+      "dominantRhyme": "-iq / -ib → -aʿ",
+      "rhymeGroups": [
+        {"verses": "1-10", "pattern": "-iq / -ib", "notes": "aṭ-ṭāriq, aṭ-ṭāriq, ath-thāqib, ḥāfiẓ, khuliq, min māʾin dāfiq, aṣ-ṣulb wa-t-tarāʾib, la-qādir, as-sarāʾir, nāṣir."},
+        {"verses": "11-17", "pattern": "-aʿ / -ā", "notes": "ar-rajʿ, aṣ-ṣadʿ, faṣl, bi-l-hazl, kaydā, kaydā, ruwaydā."}
+      ],
+      "pausalForm": "Reim-Wechsel auf dem -l-/-d-/-ʿ-Konsonanten im Schlussteil. Der Reim wird feiner, flüchtiger — passend zum Thema des Sanften-Aufschubs (ruwaydā).",
+      "breaks": [
+        {"at": "11", "from": "-iq/-ib", "to": "-aʿ/-dā"}
+      ],
+      "rhythmicNotes": "Sehr kurze Verse 1-4, dann längerer Binnenblock, wieder extrem kurz am Schluss.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=86"
+    },
+    {
+      "number": 87,
+      "name": "Al-Aʿlā",
+      "verseCount": 19,
+      "dominantRhyme": "-ā (durchgehend)",
+      "rhymeGroups": [
+        {"verses": "1-19", "pattern": "-ā", "notes": "al-aʿlā, fa-sawwā, fa-hadā, al-marʿā, aḥwā, fa-lā tansā, al-jahrā wa-mā yakhfā, lil-yusrā, dhakkar in nafaʿat adh-dhikrā, man yakhshā, al-ashqā, al-kubrā, lā yamūtu fīhā wa-lā yaḥyā, tazakkā, fa-ṣallā, al-ḥayāh ad-dunyā, khayr wa-abqā, al-ūlā, ibrāhīm wa-mūsā."}
+      ],
+      "pausalForm": "Reinster -ā-Reim. Alle Verse enden auf langem ā (sei es aus ى, ا, oder -ahu→-ā in Pausa).",
+      "breaks": [],
+      "rhythmicNotes": "Extrem gleichmäßige Vers-Länge, oft nur 2-4 Wörter. Die Sure wirkt hymnisch durch den durchgehenden A-Auslaut.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=87"
+    },
+    {
+      "number": 88,
+      "name": "Al-Ghāshiya",
+      "verseCount": 26,
+      "dominantRhyme": "-ah / -iyah → -ūn / -ā",
+      "rhymeGroups": [
+        {"verses": "1-16", "pattern": "-ah / -iyah", "notes": "al-ghāshiya, khāshiʿa, ʿāmilatun nāṣiba, ḥāmiya, āniya, ḍarīʿ, lā yusmin wa-lā yughnī min jūʿ, nāʿima, lā tasmaʿu fīhā lāghiya, jāriya, marfūʿa, mawḍūʿa, maṣfūfa, mabthūtha."},
+        {"verses": "17-26", "pattern": "-at / -ūn / -ā (Schöpfungs-Argument und Schluss)", "notes": "kayfa khuliqat, kayfa rufiʿat, kayfa nuṣibat, kayfa suṭiḥat, mudhakkir, musayṭir, fa-yuʿadhdhibuhu al-ʿadhāb al-akbar, iyābahum, ḥisābahum."}
+      ],
+      "pausalForm": "V. 1-16 dominiert weiblicher tāʾ-marbūṭa-Reim. Der Hölle-Paradies-Kontrast wird durch identischen Reim zusammengeführt (beide Szenerien enden auf -iya/-ʿa).",
+      "breaks": [
+        {"at": "17", "from": "-iya/-ʿa", "to": "-at/-ūn Schöpfungs-Argument"}
+      ],
+      "rhythmicNotes": "V. 17-20 bilden eine anaphorische Vierer-Kette: a-fa-lā yanẓurūn ilā... kayfa... (Kamel, Himmel, Berge, Erde) — klassischer Parallelismus.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=88"
+    },
+    {
+      "number": 89,
+      "name": "Al-Fajr",
+      "verseCount": 30,
+      "dominantRhyme": "-r (Schwur) → -ād/-īd → -ā",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-r", "notes": "al-fajr, ʿashr, ash-shafʿ wa-l-watr, idhā yasr, ḥijr."},
+        {"verses": "6-14", "pattern": "-ād / -īd", "notes": "bi-ʿād, iram dhāt al-ʿimād, fī al-bilād, al-wād, al-awtād, fī al-bilād, al-fasād, sawṭ ʿadhāb, la-bi-l-mirṣād."},
+        {"verses": "15-30", "pattern": "-an / -ā / -ah", "notes": "akramahu wa-naʿʿamahu, ahānani, ahānan, al-yatīm, ṭaʿām al-miskīn, akl lammā, ḥubban jammā, dakkan dakkā, ṣaffan ṣaffā, bi-jahannam, adh-dhikrā, li-ḥayātī, aḥad, wathāqah, al-muṭmaʾinna, marḍiyya, fī ʿibādī, jannatī."}
+      ],
+      "pausalForm": "Auffälliger Wechsel: Schwurgruppe kurz -r, mittlerer Teil -ād/-īd, letztes Drittel -ā/-ah/-iyya. Der Reim folgt der thematischen Dreiteilung.",
+      "breaks": [
+        {"at": "6", "from": "-r Schwur", "to": "-ād/-īd Straf-Historien"},
+        {"at": "15", "from": "-ād/-īd", "to": "-ā/-iyya Mahnung und Paradiesruf"}
+      ],
+      "rhythmicNotes": "V. 1-5 sind extrem kurz (1-3 Wörter). V. 17-20 bilden eine parallele Anklage-Kette mit wa-lā-Serie: wa-lā... wa-lā... wa-lā.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=89"
+    },
+    {
+      "number": 90,
+      "name": "Al-Balad",
+      "verseCount": 20,
+      "dominantRhyme": "-ad / -abah / -ah",
+      "rhymeGroups": [
+        {"verses": "1-10", "pattern": "-ad / -ah", "notes": "al-balad, al-balad, wa-walad, kabad, aḥad, lubadā, aḥad, wa-lisānan wa-shafatayn, an-najdayn."},
+        {"verses": "11-20", "pattern": "-abah / -ah", "notes": "al-ʿaqabah, mā al-ʿaqabah, raqabah, dhī masghabah, dhā maqrabah, dhā matrabah, bi-ṣ-ṣabr wa-bi-l-marḥamah, al-maymanah, aṣḥāb al-mashʾamah, muʾṣadah."}
+      ],
+      "pausalForm": "Zweiteilige Struktur: -ad/-ah → -abah/-ah. Der Reim-Vokal bleibt -a, nur der Konsonant wechselt von d → b.",
+      "breaks": [
+        {"at": "11", "from": "-ad", "to": "-abah (mit durchgehendem b+tāʾ marbūṭa)"}
+      ],
+      "rhythmicNotes": "Zweite Sure-Hälfte ist rhythmisch dicht: ʿaqabah wird dreifach repetiert (11-13) als hämmernde Definitions-Trias.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=90"
+    },
+    {
+      "number": 91,
+      "name": "Ash-Shams",
+      "verseCount": 15,
+      "dominantRhyme": "-āhā (Schwur- und Folge-Reim)",
+      "rhymeGroups": [
+        {"verses": "1-15", "pattern": "-āhā", "notes": "wa-ḍuḥāhā, idhā talāhā, idhā jallāhā, idhā yaghshāhā, wa-mā banāhā, wa-mā ṭaḥāhā, wa-mā sawwāhā, fa-alhamahā fujūrahā wa-taqwāhā, man zakkāhā, man dassāhā, bi-ṭaghwāhā, ashqāhā, nāqata llāhi wa-suqyāhā, fa-daǧdaǧahā rabbuhum bi-dhanbihim fa-sawwāhā, ʿuqbāhā."}
+      ],
+      "pausalForm": "Reinster -hā-Suffix-Reim (15 Verse durchgehend). Der Pausal-Auslaut ist langes ā, davor stets hāʾ + Possessiv-Bezug auf die Sonne/Seele/Erde usw.",
+      "breaks": [],
+      "rhythmicNotes": "Die 11 Schwur-Verse (1-10) bilden eine Parallelstruktur: wa- + Objekt + wa-mā/idhā + Handlung. Extrem regelhaft.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=91"
+    },
+    {
+      "number": 92,
+      "name": "Al-Layl",
+      "verseCount": 21,
+      "dominantRhyme": "-ā (Schwur- und Konsequenz-Reim)",
+      "rhymeGroups": [
+        {"verses": "1-21", "pattern": "-ā", "notes": "idhā yaghshā, idhā tajallā, wa-l-unthā, la-shattā, wa-ttaqā, bi-l-ḥusnā, lil-yusrā, wa-staghnā, bi-l-ḥusnā, lil-ʿusrā, idhā taraddā, lal-hudā, wa-l-ūlā, talaẓẓā, al-ashqā, wa-tawallā, al-atqā, yatazakkā, tujzā, al-aʿlā, yarḍā."}
+      ],
+      "pausalForm": "Durchgehender -ā-Reim, kein einziger Vers-Bruch. Sure 92 bildet mit 87, 88, 91 das Quartett der reinen -ā-Suren.",
+      "breaks": [],
+      "rhythmicNotes": "Binäre Kontraste strukturieren den Inhalt (aʿṭā/bakhila, ittaqā/istaghnā, ṣaddaqa/kadhdhaba). Reim bleibt konstant.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=92"
+    },
+    {
+      "number": 93,
+      "name": "Aḍ-Ḍuḥā",
+      "verseCount": 11,
+      "dominantRhyme": "-ā",
+      "rhymeGroups": [
+        {"verses": "1-11", "pattern": "-ā", "notes": "wa-ḍ-ḍuḥā, idhā sajā, wa-mā qalā, min al-ūlā, fa-tarḍā, fa-āwā, fa-hadā, fa-aghnā, fa-lā taqhar, fa-lā tanhar, fa-ḥaddith."},
+        {"verses": "9-11", "pattern": "Bruch", "notes": "Die letzten drei Verse brechen den -ā-Reim mit -ar/-ar/-ḥaddith — ein Auslaufen in konsonantische Pausa, das thematisch auf den Imperativ-Block fällt."}
+      ],
+      "pausalForm": "V. 1-8 sauberer -ā-Reim, V. 9-11 mit Sukūn-Pausa auf -r/-th. Bewusster Reim-Bruch am Ende.",
+      "breaks": [
+        {"at": "9", "from": "-ā", "to": "Sukūn-Pausa (Imperativ-Folge)"}
+      ],
+      "rhythmicNotes": "Der Reim-Bruch am Schluss fällt mit dem Übergang von Zusage zu Imperativ zusammen.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=93"
+    },
+    {
+      "number": 94,
+      "name": "Ash-Sharḥ",
+      "verseCount": 8,
+      "dominantRhyme": "-ak / -r",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-ak / -ra", "notes": "ṣadrak, wizrak, ẓahrak, dhikrak, yusrā, yusrā, fa-nṣab, fa-rghab."}
+      ],
+      "pausalForm": "Possessiv-Suffix -k dominiert V. 1-4, dann Umschlag zu -ā/-ab.",
+      "breaks": [
+        {"at": "5", "from": "-ak (Possessiv)", "to": "-ā/-ab Spruchformeln"}
+      ],
+      "rhythmicNotes": "Sehr kurze Sure, je 2-3 Wörter. Refrain-artige Wiederholung inna maʿa al-ʿusri yusrā (V. 5-6).",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=94"
+    },
+    {
+      "number": 95,
+      "name": "At-Tīn",
+      "verseCount": 8,
+      "dominantRhyme": "-īn",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-īn", "notes": "wa-t-tīn wa-z-zaytūn, ṭūri sīnīn, al-balad al-amīn, aḥsani taqwīm, asfala sāfilīn, ghayru mamnūn, bi-d-dīn, al-ḥākimīn."}
+      ],
+      "pausalForm": "Reiner -īn/-īm-Reim, extrem geschlossen.",
+      "breaks": [],
+      "rhythmicNotes": "Die Schwurgruppe 1-3 listet drei Orte (Feige/Olive, Sinai, sicherer Ort), Parallelismus der Triade.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=95"
+    },
+    {
+      "number": 96,
+      "name": "Al-ʿAlaq",
+      "verseCount": 19,
+      "dominantRhyme": "-aq / -am → -ah",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-aq / -am", "notes": "khalaq, min ʿalaq, al-akram, bi-l-qalam, mā lam yaʿlam, la-yaṭghā, istaghnā, ar-rujʿā."},
+        {"verses": "9-19", "pattern": "-ā / -ah", "notes": "yanhā, idhā ṣallā, ʿalā al-hudā, bi-t-taqwā, wa-tawallā, yarā, la-nasfaʿan bi-n-nāṣiya, nāṣiyatin kādhibatin khāṭiʾa, fa-l-yadʿu nādiyah, az-zabāniya, wa-sjud wa-qtarib."}
+      ],
+      "pausalForm": "Zwei-Reim-Sure mit markantem Wechsel zwischen dem ersten (Schreib-/Schöpfungs-)Teil und dem zweiten (Widerstands-/Gerichts-)Teil.",
+      "breaks": [
+        {"at": "9", "from": "-aq/-am/-ā", "to": "-iya/-ah/-ib"}
+      ],
+      "rhythmicNotes": "Der Reim-Wechsel fällt thematisch mit dem Wechsel vom Schöpfer zum Widersacher zusammen — Reim markiert Diskurs-Wechsel.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=96"
+    },
+    {
+      "number": 97,
+      "name": "Al-Qadr",
+      "verseCount": 5,
+      "dominantRhyme": "-r",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-r", "notes": "laylat al-qadr, laylat al-qadr, mā laylat al-qadr, min alfi shahr, min kulli amr, ḥattā maṭlaʿi al-fajr."}
+      ],
+      "pausalForm": "Geschlossenes -r-Reim-System, 5 Verse identisch.",
+      "breaks": [],
+      "rhythmicNotes": "Definitions-Trias am Anfang (al-qadr / al-qadr / mā al-qadr) mit selbst-referenzieller Struktur.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=97"
+    },
+    {
+      "number": 98,
+      "name": "Al-Bayyina",
+      "verseCount": 8,
+      "dominantRhyme": "-ah / -ayyima → -iyyah",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-ah / -iyyah", "notes": "al-bayyinah, muṭahhara, qayyimah, al-bayyinah, al-qayyimah, sharr al-bariyyah, khayr al-bariyyah, khashiya rabbah."}
+      ],
+      "pausalForm": "Konstanter -ah/-iyyah-Reim mit tāʾ marbūṭa. Die längeren Verse dieser Sure zeigen Saj' auch in längeren Syntagmen funktioniert.",
+      "breaks": [],
+      "rhythmicNotes": "Verse deutlich länger als in den Nachbarn (8-15 Wörter) — Beispiel dafür wie Reim längere Medina-artige Diktion trägt.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=98"
+    },
+    {
+      "number": 99,
+      "name": "Az-Zalzala",
+      "verseCount": 8,
+      "dominantRhyme": "-ā (mit -uh Schluss)",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-ā / -uh", "notes": "zilzālahā, athqālahā, mā lahā, akhbārahā, awḥā lahā, aʿmālahum, khayran yarah, sharran yarah."}
+      ],
+      "pausalForm": "Dominiert von -hā-Possessiv, Schluss-Wechsel auf -h des maskulinen Suffixes.",
+      "breaks": [
+        {"at": "7", "from": "-hā", "to": "-h (Suffix-Wechsel fem.→mask.)"}
+      ],
+      "rhythmicNotes": "Parallele Schlusszeilen 7-8: man yaʿmal mithqāla dharratin khayran yarah / sharran yarah — minimal-paariger Kontrast.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=99"
+    },
+    {
+      "number": 100,
+      "name": "Al-ʿĀdiyāt",
+      "verseCount": 11,
+      "dominantRhyme": "-ā / -an (Schwur) → -ūr / -īr",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-an / -ā (Schwurgruppe)", "notes": "al-ʿādiyāti ḍabḥā, fa-l-mūriyāti qadḥā, fa-l-mughīrāti ṣubḥā, naqʿā, jamʿā."},
+        {"verses": "6-11", "pattern": "-ūd / -ūr", "notes": "la-kanūd, la-shahīd, la-shadīd, fī al-qubūr, fī aṣ-ṣudūr, la-khabīr."}
+      ],
+      "pausalForm": "Eröffnungs-Tanwīn-al-fatḥ → -ā in Pausa (5 Verse) / Schluss auf -ūd/-ūr D- und R-Reim.",
+      "breaks": [
+        {"at": "6", "from": "-ā Schwurgruppe", "to": "-ūd/-ūr Enthüllung"}
+      ],
+      "rhythmicNotes": "Die Schwur-Verse 1-5 sind extrem kurz (2 Wörter). Berühmtes Beispiel für rhythmische Verdichtung durch Tanwīn-Reim.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=100"
+    },
+    {
+      "number": 101,
+      "name": "Al-Qāriʿa",
+      "verseCount": 11,
+      "dominantRhyme": "-ah / -iyah",
+      "rhymeGroups": [
+        {"verses": "1-11", "pattern": "-iyah / -ah", "notes": "al-qāriʿah, mā al-qāriʿah, mā al-qāriʿah, al-mabthūth, al-manfūsh, mawāzīnuhu, rāḍiyah, mawāzīnuhu, hāwiyah, mā hiyah, ḥāmiyah."}
+      ],
+      "pausalForm": "-iyah-Reim als Standardlösung, mit Wechsel in -mabthūth/-manfūsh (V. 4-5) auf -th/-sh — ein Zwei-Vers-Bruch.",
+      "breaks": [
+        {"at": "4", "from": "-iyah", "to": "-th/-sh (zweifacher Einschub)"},
+        {"at": "6", "from": "-sh", "to": "-iyah (Rückkehr)"}
+      ],
+      "rhythmicNotes": "Definitions-Trias am Anfang wie in Sure 97 und 69: Nennen → Nachfrage → Nachfrage.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=101"
+    },
+    {
+      "number": 102,
+      "name": "At-Takāthur",
+      "verseCount": 8,
+      "dominantRhyme": "-r (Konsonant-Reim Pausa-Sukūn)",
+      "rhymeGroups": [
+        {"verses": "1-8", "pattern": "-r / -īm", "notes": "at-takāthur, al-maqābir, ta-ʿlamūn, ta-ʿlamūn, ʿilm al-yaqīn, al-jaḥīm, ʿayn al-yaqīn, an an-naʿīm."}
+      ],
+      "pausalForm": "Sukūn-Pausa auf -r im Anfang, dann -ūn/-īm/-īn-Umschlag. Hybride Struktur.",
+      "breaks": [
+        {"at": "3", "from": "-r", "to": "-ūn/-īm"}
+      ],
+      "rhythmicNotes": "Refrain kallā sawfa taʿlamūn (V. 3-4) als rhythmischer Doppelschlag.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=102"
+    },
+    {
+      "number": 103,
+      "name": "Al-ʿAṣr",
+      "verseCount": 3,
+      "dominantRhyme": "-r",
+      "rhymeGroups": [
+        {"verses": "1-3", "pattern": "-r", "notes": "wa-l-ʿaṣr, la-fī khusr, wa-tawāṣaw bi-ṣ-ṣabr."}
+      ],
+      "pausalForm": "Sukūn auf r, drei Verse identisch gereimt. Klassisches Kürzestes Saj'.",
+      "breaks": [],
+      "rhythmicNotes": "Drei Verse bilden ein logisches Ganzes (Schwur + Zustand + Ausnahme) — der Reim hält die Einheit akustisch.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=103"
+    },
+    {
+      "number": 104,
+      "name": "Al-Humaza",
+      "verseCount": 9,
+      "dominantRhyme": "-ah / -adah",
+      "rhymeGroups": [
+        {"verses": "1-9", "pattern": "-ah / -adah", "notes": "humazatin lumazah, ʿaddadah, akhladah, al-ḥuṭamah, mā al-ḥuṭamah, al-mūqadah, al-afʾidah, muʾṣadah, mumaddadah."}
+      ],
+      "pausalForm": "Reiner tāʾ-marbūṭa-Reim, alle Verse auf -ah/-adah/-idah.",
+      "breaks": [],
+      "rhythmicNotes": "Definitions-Frage mā al-ḥuṭamah (V. 5) gefolgt von der Antwort-Kette bildet das rhetorische Zentrum.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=104"
+    },
+    {
+      "number": 105,
+      "name": "Al-Fīl",
+      "verseCount": 5,
+      "dominantRhyme": "-īl (mit -ūl Variante)",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-īl / -ūl", "notes": "aṣḥāb al-fīl, fī taḍlīl, abābīl, min sijjīl, ka-ʿaṣfin maʾkūl."}
+      ],
+      "pausalForm": "L-Reim, Vokal-Variation ī/ū. Die L-Konsonanten-Konstanz hält den Reim akustisch zusammen, auch wenn der Vokal wechselt.",
+      "breaks": [],
+      "rhythmicNotes": "Extrem kurze Sure, erzählerisch komprimiert.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=105"
+    },
+    {
+      "number": 106,
+      "name": "Quraysh",
+      "verseCount": 4,
+      "dominantRhyme": "-aysh / -ayf",
+      "rhymeGroups": [
+        {"verses": "1-4", "pattern": "-aysh / -awf", "notes": "quraysh, ash-shitāʾ wa-ṣ-ṣayf, al-bayt, min khawf."}
+      ],
+      "pausalForm": "Binnenreim auf Diphthong -ay-. Spiel mit -sh/-f/-t.",
+      "breaks": [],
+      "rhythmicNotes": "Extrem kurze Sure, 4 Verse als Einheit konzipiert (īlāf / īlāfihim / fa-l-yaʿbudū / alladhī).",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=106"
+    },
+    {
+      "number": 107,
+      "name": "Al-Māʿūn",
+      "verseCount": 7,
+      "dominantRhyme": "-īn → -ūn",
+      "rhymeGroups": [
+        {"verses": "1-7", "pattern": "-īn / -ūn", "notes": "bi-d-dīn, al-yatīm, ṭaʿām al-miskīn, lil-muṣallīn, sāhūn, yurāʾūn, al-māʿūn."}
+      ],
+      "pausalForm": "N-Reim mit Vokal-Wechsel ī/ū. Die Pausa vereint beide zu einem konsonantischen Anker.",
+      "breaks": [],
+      "rhythmicNotes": "Wechsel zwischen kurz (1-3) und längerer Syntax (4-7). Letzte 4 Verse bilden einen relativ-satz-artigen Block.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=107"
+    },
+    {
+      "number": 108,
+      "name": "Al-Kawthar",
+      "verseCount": 3,
+      "dominantRhyme": "-ar",
+      "rhymeGroups": [
+        {"verses": "1-3", "pattern": "-ar", "notes": "al-kawthar, wa-nḥar, al-abtar."}
+      ],
+      "pausalForm": "Reinster R-Reim Sukūn-Pausa über 3 Verse.",
+      "breaks": [],
+      "rhythmicNotes": "Kürzeste Sure des Quran, klassische Drei-Vers-Architektur Gabe/Handlung/Feindaussage mit identischem Reim.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=108"
+    },
+    {
+      "number": 109,
+      "name": "Al-Kāfirūn",
+      "verseCount": 6,
+      "dominantRhyme": "-ūn",
+      "rhymeGroups": [
+        {"verses": "1-6", "pattern": "-ūn", "notes": "al-kāfirūn, taʿbudūn, aʿbud, ʿabadtum, aʿbud, taʿbudūn, dīn."}
+      ],
+      "pausalForm": "-ūn/-īn-Reim durchgehend, mit Verb-Formen im Perfekt (ʿabadtum) und Imperfekt (taʿbudūn / aʿbud).",
+      "breaks": [],
+      "rhythmicNotes": "Starke Chiasmus-Struktur: lā aʿbudu mā taʿbudūn / wa-lā antum ʿābidūna mā aʿbud — parallel-invertierende Reim-Struktur.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=109"
+    },
+    {
+      "number": 110,
+      "name": "An-Naṣr",
+      "verseCount": 3,
+      "dominantRhyme": "-an Variationen",
+      "rhymeGroups": [
+        {"verses": "1-3", "pattern": "-an / -ā", "notes": "an-naṣr, wa-l-fatḥ, afwājā, tawwābā."}
+      ],
+      "pausalForm": "Mischung aus Sukūn und langem -ā. Der Reim ist nicht konsonantisch gebunden, sondern rhythmisch.",
+      "breaks": [],
+      "rhythmicNotes": "3 Verse, 2 Reim-Wechsel innen — ungewöhnlich für eine so kurze Sure.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=110"
+    },
+    {
+      "number": 111,
+      "name": "Al-Masad",
+      "verseCount": 5,
+      "dominantRhyme": "-ab / -ad / -ab",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-ab / -ad", "notes": "abī lahabin wa-tabb, mā kasab, dhāta lahab, al-ḥaṭab, min masad."}
+      ],
+      "pausalForm": "Sukūn-Pausa auf -b und -d. Das Ende auf masad bricht den -ab-Reim mit -ad — oder als Assonanz zu lahab lesbar.",
+      "breaks": [],
+      "rhythmicNotes": "Sehr kurze Verse, dichter Fluch-Rhythmus.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=111"
+    },
+    {
+      "number": 112,
+      "name": "Al-Ikhlāṣ",
+      "verseCount": 4,
+      "dominantRhyme": "-ad",
+      "rhymeGroups": [
+        {"verses": "1-4", "pattern": "-ad", "notes": "allāhu aḥad, allāhu ṣ-ṣamad, wa-lam yūlad, aḥad."}
+      ],
+      "pausalForm": "Vier identische D-Reim-Pausen über nur 4 Verse — absolute Reim-Reinheit.",
+      "breaks": [],
+      "rhythmicNotes": "Berühmtestes Beispiel kürzester Saj'-Architektur. Jeder Vers 3-4 Wörter, identische Schlussstelle.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=112"
+    },
+    {
+      "number": 113,
+      "name": "Al-Falaq",
+      "verseCount": 5,
+      "dominantRhyme": "-aq",
+      "rhymeGroups": [
+        {"verses": "1-5", "pattern": "-aq / -ad", "notes": "al-falaq, mā khalaq, idhā waqab, fī al-ʿuqad, idhā ḥasad."}
+      ],
+      "pausalForm": "Reim zwischen -aq und -ad oszilliert — als Assonanz auf -a-+velarem/dentalen Verschlusslaut lesbar.",
+      "breaks": [],
+      "rhythmicNotes": "Anaphorische Struktur wa-min sharr... 4x wiederholt — parallele Schutzformel.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=113"
+    },
+    {
+      "number": 114,
+      "name": "An-Nās",
+      "verseCount": 6,
+      "dominantRhyme": "-ās",
+      "rhymeGroups": [
+        {"verses": "1-6", "pattern": "-ās / -āsi", "notes": "rabbi an-nās, maliki an-nās, ilāhi an-nās, al-khannās, fī ṣudūri an-nās, wa-n-nās."}
+      ],
+      "pausalForm": "Durchgehender Endreim auf ـَاسِ. In Pausa wird die Kasra elidiert: -āsi → -ās.",
+      "breaks": [],
+      "rhythmicNotes": "Kurze Verse (3-4 Wörter), parallele Struktur mit tasalsul (Kette) von ilāhi an-nās → maliki an-nās → rabbi an-nās. Das Reim-Wort an-nās selbst wiederholt sich 5x.",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=114"
+    }
+  ]
+}

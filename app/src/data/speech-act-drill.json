@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "title": "Sprechakt-Drill (Pragmatik)",
+    "description": "Identifikation von Sprechakttypen in Quranversen: Befehl, Bitte, Frage, Schwur, Wunsch, Warnung, etc. — rein sprachwissenschaftlich.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "speechActTypes": [
+    {
+      "id": "amr",
+      "name": "Befehl (Amr)",
+      "markers": [
+        "Imperativ",
+        "لِيَفْعَلْ (Jussiv mit Lam al-Amr)"
+      ],
+      "description": "Aufforderung zur Handlung. Syntaktisch: Imperativform oder Jussiv mit لِ.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "nahy",
+      "name": "Verbot (Nahy)",
+      "markers": [
+        "لَا + Jussiv (لَا تَفْعَلْ)"
+      ],
+      "description": "Aufforderung zur Unterlassung. Syntaktisch: لَا الناهية + Jussiv.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "dua",
+      "name": "Bitte/Anrufung (Duʿa')",
+      "markers": [
+        "Imperativ an Gott",
+        "رَبَّنَا + Imperativ"
+      ],
+      "description": "Formal identisch mit Befehl, aber der Sprechakt ist eine Bitte — weil der Angesprochene höhergestellt ist.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "istifham_haqiqi",
+      "name": "Echte Frage (Istifham Haqiqi)",
+      "markers": [
+        "أَ/هَلْ + Verb/Nomen",
+        "مَا/مَنْ/أَيّ/كَيْفَ/أَيْنَ"
+      ],
+      "description": "Genuine Informationsfrage. Der Sprecher weiß die Antwort nicht.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "istifham_inkari",
+      "name": "Sprachliche Frage (Istifham Inkari)",
+      "markers": [
+        "أَ + offensichtliche Antwort"
+      ],
+      "description": "Scheinbare Frage deren Antwort offensichtlich ist. Funktion: Bekräftigung, Tadel oder Verwunderung.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "qasam",
+      "name": "Schwur (Qasam)",
+      "markers": [
+        "وَ + Nomen im Genitiv (Schwur-Waw)",
+        "لَ + Verb"
+      ],
+      "description": "Bekräftigung durch Schwur. Syntaktisch: Schwurpartikel + Geschworenes + Antwort des Schwurs.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "shart",
+      "name": "Bedingung (Shart)",
+      "markers": [
+        "إِنْ/إِذَا/لَوْ/لَوْلَا + Protasis + Apodosis"
+      ],
+      "description": "Wenn-Dann-Konstruktion. Protasis (Bedingung) und Apodosis (Folge).",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "tamanni",
+      "name": "Wunsch (Tamanni)",
+      "markers": [
+        "لَيْتَ",
+        "لَوْ (wünschend)"
+      ],
+      "description": "Ausdruck eines (oft unerfüllbaren) Wunsches.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "taʿajjub",
+      "name": "Erstaunen/Ausruf (Taʿajjub)",
+      "markers": [
+        "مَا أَفْعَلَهُ",
+        "سُبْحَانَ"
+      ],
+      "description": "Ausruf des Erstaunens oder der Verherrlichung.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "nida",
+      "name": "Anruf/Vokativ (Nida')",
+      "markers": [
+        "يَا + Munada"
+      ],
+      "description": "Direkte Anrede. Syntaktisch: يَا + Akkusativ (oder Mabni auf Damma bei Eigennamen).",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    },
+    {
+      "id": "indhar",
+      "name": "Warnung (Indhar)",
+      "markers": [
+        "Imperativ + Drohung",
+        "وَيْل + Genitiv"
+      ],
+      "description": "Warnung vor negativen Konsequenzen. Oft kombiniert mit Bedingung.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sa01",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "quranRef": "112:1",
+      "correctType": "amr",
+      "explanation": "Imperativ قُلْ (sag!) — syntaktisch ein Befehl. Der Adressat ist die angesprochene Stimme (2. Person).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "id": "sa02",
+      "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا",
+      "quranRef": "2:127",
+      "correctType": "dua",
+      "explanation": "Imperativ تَقَبَّلْ (nimm an!) — syntaktisch Befehlsform, pragmatisch eine Bitte (Duʿa'), weil an Gott gerichtet.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+    },
+    {
+      "id": "sa03",
+      "arabic": "وَلَا تَقْرَبُوا الزِّنَا",
+      "quranRef": "17:32",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تَقْرَبُوا — syntaktisches Verbot.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=32"
+    },
+    {
+      "id": "sa04",
+      "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "quranRef": "105:1",
+      "correctType": "istifham_inkari",
+      "explanation": "أَلَمْ تَرَ — formale Frage, aber die Antwort ist offensichtlich (ja, du hast gesehen/weißt). Sprachliche Frage zur Bekräftigung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+    },
+    {
+      "id": "sa05",
+      "arabic": "وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+      "quranRef": "103:1-2",
+      "correctType": "qasam",
+      "explanation": "وَ (Schwur-Waw) + الْعَصْرِ (Geschworenes, Genitiv). Antwort des Schwurs: إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+    },
+    {
+      "id": "sa06",
+      "arabic": "يَا أَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ",
+      "quranRef": "2:21",
+      "correctType": "nida",
+      "explanation": "يَا + أَيُّهَا النَّاسُ — Vokativ (Anruf), gefolgt von einem Befehl (Imperativ اعْبُدُوا). Zwei Sprechakte: Anruf + Befehl.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "sa07",
+      "arabic": "يَا لَيْتَنِي كُنْتُ مَعَهُمْ",
+      "quranRef": "4:73",
+      "correctType": "tamanni",
+      "explanation": "لَيْتَ (Wunschpartikel) — Ausdruck eines unerfüllten Wunsches. Syntaktisch: Inna-Schwester mit Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=73"
+    },
+    {
+      "id": "sa08",
+      "arabic": "وَإِن تَصْبِرُوا وَتَتَّقُوا لَا يَضُرُّكُمْ كَيْدُهُمْ",
+      "quranRef": "3:120",
+      "correctType": "shart",
+      "explanation": "إِنْ (Bedingungspartikel) + Jussiv تَصْبِرُوا (Protasis) + لَا يَضُرُّكُمْ (Apodosis). Bedingungskonstruktion.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=120"
+    },
+    {
+      "id": "sa09",
+      "arabic": "وَيْلٌ لِلْمُطَفِّفِينَ",
+      "quranRef": "83:1",
+      "correctType": "indhar",
+      "explanation": "وَيْلٌ (Wehe!) + لِ + Genitiv — Warnungsformel. Nominalsatz: لِلْمُطَفِّفِينَ (Jarr wa-Majrur) ist vorangestelltes Khabar, وَيْلٌ ist nachgestelltes Mubtada' (indefinites Mubtada' am Satzanfang wird durch das vorangestellte Khabar gerechtfertigt).",
+      "note": "Die Wortstellung-Analyse (vorangestellt/nachgestellt) setzt eine Grundwortstellung voraus. Alternativ: وَيْلٌ ist Mubtada (indefinit, gerechtfertigt durch den generellen Charakter der Prädikation) und لِلْمُطَفِّفِينَ ist Khabar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=1"
+    },
+    {
+      "id": "sa10",
+      "arabic": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
+      "quranRef": "88:1",
+      "correctType": "istifham_inkari",
+      "explanation": "هَلْ (Fragepartikel) — formal eine Frage, pragmatisch emphatisch ('Ist dir die Nachricht gekommen?' = 'Höre zu!'). Leitet eine Erzählung ein.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+    },
+    {
+      "id": "sa11",
+      "arabic": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ",
+      "quranRef": "17:78",
+      "correctType": "amr",
+      "explanation": "Imperativ أَقِمْ (verrichte!) — syntaktisch ein Befehl. Direkte Aufforderung an den Adressaten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=78"
+    },
+    {
+      "id": "sa12",
+      "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "quranRef": "96:1",
+      "correctType": "amr",
+      "explanation": "Imperativ اقْرَأْ (lies/rezitiere!) — syntaktisch ein Befehl.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "id": "sa13",
+      "arabic": "كُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا",
+      "quranRef": "7:31",
+      "correctType": "amr",
+      "explanation": "Doppelter Imperativ كُلُوا (esst!) وَاشْرَبُوا (trinkt!) — syntaktische Befehle an die Adressaten (2. Pers. Mask. Plural).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=31"
+    },
+    {
+      "id": "sa14",
+      "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+      "quranRef": "106:3",
+      "correctType": "amr",
+      "explanation": "لِيَعْبُدُوا (sie sollen dienen) — Jussiv mit Lam al-Amr (Befehlslam). Syntaktisch ein Befehl in der 3. Person.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=3"
+    },
+    {
+      "id": "sa15",
+      "arabic": "ادْخُلُوهَا بِسَلَامٍ آمِنِينَ",
+      "quranRef": "15:46",
+      "correctType": "amr",
+      "explanation": "Imperativ ادْخُلُوا (tretet ein!) — syntaktisch ein Befehl. Die Adressaten werden zum Eintritt aufgefordert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=46"
+    },
+    {
+      "id": "sa16",
+      "arabic": "وَلَا تَقْتُلُوا أَوْلَادَكُمْ خَشْيَةَ إِمْلَاقٍ",
+      "quranRef": "17:31",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تَقْتُلُوا (tötet nicht!) — syntaktisches Verbot.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=31"
+    },
+    {
+      "id": "sa17",
+      "arabic": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا",
+      "quranRef": "17:37",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تَمْشِ (gehe nicht!) — syntaktisches Verbot. Das letzte Ya des defektiven Verbs fällt im Jussiv weg.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=37"
+    },
+    {
+      "id": "sa18",
+      "arabic": "لَا تَتَّخِذُوا عَدُوِّى وَعَدُوَّكُمْ أَوْلِيَآءَ",
+      "quranRef": "60:1",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تَتَّخِذُوا (nehmt nicht!) — syntaktisches Verbot. Nun fällt weg als Jussiv-Markierung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+    },
+    {
+      "id": "sa19",
+      "arabic": "وَلَا تَجَسَّسُوا وَلَا يَغْتَب بَعْضُكُم بَعْضًا",
+      "quranRef": "49:12",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تَجَسَّسُوا (spioniert nicht!) und لَا الناهية + Jussiv يَغْتَبْ (er soll nicht lästern) — zwei Verbote.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=12"
+    },
+    {
+      "id": "sa20",
+      "arabic": "لَا تُبْطِلُوا صَدَقَٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ",
+      "quranRef": "2:264",
+      "correctType": "nahy",
+      "explanation": "لَا الناهية + Jussiv تُبْطِلُوا (macht nicht zunichte!) — syntaktisches Verbot.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=264"
+    },
+    {
+      "id": "sa21",
+      "arabic": "أَأَنتَ فَعَلْتَ هَٰذَا بِآلِهَتِنَا يَا إِبْرَاهِيمُ",
+      "quranRef": "21:62",
+      "correctType": "istifham_haqiqi",
+      "explanation": "أَ (Hamza al-Istifham) + أَنتَ فَعَلْتَ — genuine Frage. Die Fragenden wissen die Antwort nicht sicher und wollen Bestätigung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=62"
+    },
+    {
+      "id": "sa22",
+      "arabic": "أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ",
+      "quranRef": "39:36",
+      "correctType": "istifham_inkari",
+      "explanation": "أَ + لَيْسَ — Frage ohne Antworterwartung. Die Antwort ist offensichtlich (ja, er genügt). Funktion: Bekräftigung der Aussage.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=36"
+    },
+    {
+      "id": "sa23",
+      "arabic": "مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُٓ إِلَّا بِإِذْنِهِ",
+      "quranRef": "2:255",
+      "correctType": "istifham_inkari",
+      "explanation": "مَنْ (Fragepronomen) — Frage ohne Antworterwartung. Die Antwort ist: niemand. Funktion: Betonung der Exklusivität.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "sa24",
+      "arabic": "أَيْنَ الْمَفَرُّ",
+      "quranRef": "75:10",
+      "correctType": "istifham_inkari",
+      "explanation": "أَيْنَ (wo?) — Frage ohne Antworterwartung. Es gibt keinen Zufluchtsort. Funktion: Verdeutlichung der Ausweglosigkeit.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=10"
+    },
+    {
+      "id": "sa25",
+      "arabic": "مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ",
+      "quranRef": "27:20",
+      "correctType": "istifham_haqiqi",
+      "explanation": "مَا لِي (was ist mit mir?) — genuine Frage. Suleiman fragt sich wirklich, warum er den Wiedehopf nicht sieht.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=20"
+    },
+    {
+      "id": "sa26",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "quranRef": "2:201",
+      "correctType": "dua",
+      "explanation": "Imperativ آتِنَا (gib uns!) und قِنَا (bewahre uns!) — syntaktisch Befehlsformen, pragmatisch Bitten (Duʿa'), weil an Gott gerichtet.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=201"
+    },
+    {
+      "id": "sa27",
+      "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِن ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ",
+      "quranRef": "14:40",
+      "correctType": "dua",
+      "explanation": "Imperative اجْعَلْنِي (mache mich!) und تَقَبَّلْ (nimm an!) — pragmatisch Bitten an Gott (Duʿa').",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=40"
+    },
+    {
+      "id": "sa28",
+      "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَدُنكَ رَحْمَةً",
+      "quranRef": "3:8",
+      "correctType": "dua",
+      "explanation": "لَا تُزِغْ (lass nicht abweichen — Jussiv nach لَا الناهية als Bitte) + Imperativ هَبْ (schenke!) — pragmatisch Duʿa'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=8"
+    },
+    {
+      "id": "sa29",
+      "arabic": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ",
+      "quranRef": "27:19",
+      "correctType": "dua",
+      "explanation": "Imperativ أَوْزِعْنِي (inspiriere mich/gib mir ein!) — pragmatisch Duʿa'. Bittform (Imperativ an Gott).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=19"
+    },
+    {
+      "id": "sa30",
+      "arabic": "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَن دَخَلَ بَيْتِيَ مُؤْمِنًا",
+      "quranRef": "71:28",
+      "correctType": "dua",
+      "explanation": "Imperativ اغْفِرْ (vergib!) — pragmatisch Duʿa'. Bittform (Imperativ an Gott).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=28"
+    },
+    {
+      "id": "sa31",
+      "arabic": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا",
+      "quranRef": "17:1",
+      "correctType": "taʿajjub",
+      "explanation": "سُبْحَانَ — Ausruf der Verherrlichung/des Erstaunens. Masdar als Mafʿul mutlaq mit ausgelassenem Verb. Ausdruck der Erhabenheit über Mängel.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=1"
+    },
+    {
+      "id": "sa32",
+      "arabic": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
+      "quranRef": "2:175",
+      "correctType": "taʿajjub",
+      "explanation": "مَا أَفْعَلَهُ — die klassische Taʿajjub-Formel: 'Wie geduldig sind sie gegenüber dem Feuer!' Ausdruck des Erstaunens.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=175"
+    },
+    {
+      "id": "sa33",
+      "arabic": "كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ",
+      "quranRef": "18:5",
+      "correctType": "taʿajjub",
+      "explanation": "كَبُرَتْ — Verb des Erstaunens (was für ein gewaltiges Wort!). Drückt Erstaunen/Missbilligung aus über die Ungeheuerlichkeit der Aussage.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=5"
+    },
+    {
+      "id": "sa34",
+      "arabic": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنَّىٰ يَكُونُ لَهُ وَلَدٌ",
+      "quranRef": "6:101",
+      "correctType": "istifham_inkari",
+      "explanation": "أَنَّىٰ (wie?) + Imperfekt: syntaktisch eine Frage ohne Antworterwartung (Istifham inkari), die die Unmöglichkeit ausdrückt. 'Wie sollte er einen Sohn haben?!' Die Fragestruktur dient der Zurückweisung — keine klassische Taʿajjub-Formel (مَا أَفْعَلَهُ / أَفْعِلْ بِهِ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=101"
+    },
+    {
+      "id": "sa35",
+      "arabic": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُ",
+      "quranRef": "80:17",
+      "correctType": "taʿajjub",
+      "explanation": "مَا أَكْفَرَهُ — Taʿajjub-Formel: 'Wie undankbar ist der Mensch!' Das vorangehende قُتِلَ ist ein Ausruf der Verwünschung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=17"
+    },
+    {
+      "id": "sa36",
+      "arabic": "وَالتِّينِ وَالزَّيْتُونِ وَطُورِ سِينِينَ",
+      "quranRef": "95:1-2",
+      "correctType": "qasam",
+      "explanation": "وَ (Schwur-Waw) + التِّينِ (Geschworenes, Genitiv). Mehrfacher Schwur: bei den Feigen, bei den Oliven, bei dem Berg Sinai.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+    },
+    {
+      "id": "sa37",
+      "arabic": "وَالشَّمْسِ وَضُحَاهَا وَالْقَمَرِ إِذَا تَلَاهَا",
+      "quranRef": "91:1-2",
+      "correctType": "qasam",
+      "explanation": "وَ (Schwur-Waw) + الشَّمْسِ (Geschworenes, Genitiv). Mehrfache Schwursequenz: bei der Sonne, bei dem Mond.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+    },
+    {
+      "id": "sa38",
+      "arabic": "لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ",
+      "quranRef": "90:1",
+      "correctType": "qasam",
+      "explanation": "أُقْسِمُ (ich schwöre) + بِ + هَٰذَا الْبَلَدِ (Geschworenes, Genitiv). Die Verneinung لَا ist hier eine emphatische Einleitung des Schwurs. Alternative Analyse: لَا أُقْسِمُ kann auch wörtlich gelesen werden als 'Ich schwöre nicht' (Negation des Schwurs).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=1"
+    },
+    {
+      "id": "sa39",
+      "arabic": "وَٱلضُّحَىٰ وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "quranRef": "93:1-2",
+      "correctType": "qasam",
+      "explanation": "وَ (Schwur-Waw) + الضُّحَى und اللَّيْلِ (Geschworenes, Genitiv). Die Antwort des Schwurs folgt: مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+    }
+  ]
+}

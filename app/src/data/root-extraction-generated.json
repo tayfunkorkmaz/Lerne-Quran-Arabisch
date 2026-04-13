@@ -1,0 +1,1814 @@
+{
+  "meta": {
+    "title": "Wurzelextraktion (generiert)",
+    "description": "Automatisch generierte Übungen zur Extraktion der Wurzel aus flektierten und affigierten Wortformen.",
+    "generated": "2026-03-23",
+    "count": 84,
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "re001",
+      "word": "وَزُلْزِلُوا",
+      "consonants": "وزلزلوا",
+      "location": "2:214",
+      "expectedRoot": "ز-ل-ز-ل",
+      "radicals": [
+        "ز",
+        "ل",
+        "ز",
+        "ل"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Perfekt 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|PASS|3MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Perfekts (entfernen). Vierradikalige Wurzel: ز-ل-ز-ل. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+    },
+    {
+      "id": "re002",
+      "word": "بِيَمِينِكَ",
+      "consonants": "بيمينك",
+      "location": "20:17",
+      "expectedRoot": "ي-م-ن",
+      "radicals": [
+        "ي",
+        "م",
+        "ن"
+      ],
+      "prefixes": [
+        "بِ"
+      ],
+      "suffixes": [
+        "كَ (Possessivsuffix 2ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|GEN",
+      "hint": "بِ ist eine Präposition (entfernen). Endung كَ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ي-م-ن bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=17"
+    },
+    {
+      "id": "re003",
+      "word": "فَأَتْبَعَهُمْ",
+      "consonants": "فأتبعهم",
+      "location": "10:90",
+      "expectedRoot": "ت-ب-ع",
+      "radicals": [
+        "ت",
+        "ب",
+        "ع"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "هم (Possessivsuffix 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung هم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ت-ب-ع bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=90"
+    },
+    {
+      "id": "re004",
+      "word": "يَمْحُوا",
+      "consonants": "يمحو",
+      "location": "13:39",
+      "expectedRoot": "م-ح-و",
+      "radicals": [
+        "م",
+        "ح",
+        "و"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPF|3MS",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Die drei Wurzelkonsonanten م-ح-و bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=39"
+    },
+    {
+      "id": "re005",
+      "word": "وَحَرَّمُوا",
+      "consonants": "وحرموا",
+      "location": "6:140",
+      "expectedRoot": "ح-ر-م",
+      "radicals": [
+        "ح",
+        "ر",
+        "م"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Perfekt 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(II)|3MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Perfekts (entfernen). Die drei Wurzelkonsonanten ح-ر-م bleiben. Perfekt Form II.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=140"
+    },
+    {
+      "id": "re006",
+      "word": "فَٱنْهَارَ",
+      "consonants": "فانهار",
+      "location": "9:109",
+      "expectedRoot": "ه-و-ر",
+      "radicals": [
+        "ه",
+        "و",
+        "ر"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "PERF|(VII)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ه-و-ر bleiben. Perfekt Form VII.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=109"
+    },
+    {
+      "id": "re007",
+      "word": "أَدْرَكَهُ",
+      "consonants": "أدركه",
+      "location": "10:90",
+      "expectedRoot": "د-ر-ك",
+      "radicals": [
+        "د",
+        "ر",
+        "ك"
+      ],
+      "prefixes": [
+        "أَ (Form IV)"
+      ],
+      "suffixes": [
+        "ه (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|3MS",
+      "hint": "أَ ist das Präfix der Form IV (entfernen). Endung ه ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten د-ر-ك bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=90"
+    },
+    {
+      "id": "re008",
+      "word": "ٱلْقَوَاعِدَ",
+      "consonants": "القواعد",
+      "location": "2:127",
+      "expectedRoot": "ق-ع-د",
+      "radicals": [
+        "ق",
+        "ع",
+        "د"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MP|ACC",
+      "hint": "ال ist der Definitartikel (entfernen). Die drei Wurzelkonsonanten ق-ع-د bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+    },
+    {
+      "id": "re009",
+      "word": "بِدَيْنٍ",
+      "consonants": "بدين",
+      "location": "2:282",
+      "expectedRoot": "د-ي-ن",
+      "radicals": [
+        "د",
+        "ي",
+        "ن"
+      ],
+      "prefixes": [
+        "بِ"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "M|INDEF|GEN",
+      "hint": "بِ ist eine Präposition (entfernen). Die drei Wurzelkonsonanten د-ي-ن bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "re010",
+      "word": "فَتَحْنَا",
+      "consonants": "فتحنا",
+      "location": "6:44",
+      "expectedRoot": "ف-ت-ح",
+      "radicals": [
+        "ف",
+        "ت",
+        "ح"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "نا (Suffix 1p)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|1P",
+      "hint": "Endung نا ist ein Pronominalsuffix (entfernen). فَ ist KEIN Präfix, sondern der erste Radikal der Wurzel ف-ت-ح. Die drei Wurzelkonsonanten ف-ت-ح bleiben. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=44"
+    },
+    {
+      "id": "re011",
+      "word": "وَعَدَنَا",
+      "consonants": "وعدنا",
+      "location": "7:44",
+      "expectedRoot": "و-ع-د",
+      "radicals": [
+        "و",
+        "ع",
+        "د"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "نا (Suffix 1p)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|3MS",
+      "hint": "Endung نا ist ein Pronominalsuffix (entfernen). وَ ist KEIN Präfix, sondern der erste Radikal der Wurzel و-ع-د. Die drei Wurzelkonsonanten و-ع-د bleiben. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=44"
+    },
+    {
+      "id": "re012",
+      "word": "بِرُسُلٍ",
+      "consonants": "برسل",
+      "location": "6:10",
+      "expectedRoot": "ر-س-ل",
+      "radicals": [
+        "ر",
+        "س",
+        "ل"
+      ],
+      "prefixes": [
+        "بِ"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MP|INDEF|GEN",
+      "hint": "بِ ist eine Präposition (entfernen). Die drei Wurzelkonsonanten ر-س-ل bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=10"
+    },
+    {
+      "id": "re014",
+      "word": "ٱلصَّٰدِقُونَ",
+      "consonants": "الصادقون",
+      "location": "49:15",
+      "expectedRoot": "ص-د-ق",
+      "radicals": [
+        "ص",
+        "د",
+        "ق"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Nomen",
+      "morphology": "ACT|PCPL|MP|NOM",
+      "hint": "ال ist der Definitartikel (entfernen). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ص-د-ق bleiben. Muster: فَاعِل (Aktivpartizip Form I).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=15"
+    },
+    {
+      "id": "re015",
+      "word": "وَسَكَنتُمْ",
+      "consonants": "وسكنتم",
+      "location": "14:45",
+      "expectedRoot": "س-ك-ن",
+      "radicals": [
+        "س",
+        "ك",
+        "ن"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "تم (Perfekt 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|2MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung تم ist die Personalendung des Perfekts (entfernen). Die drei Wurzelkonsonanten س-ك-ن bleiben. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=45"
+    },
+    {
+      "id": "re016",
+      "word": "أَنفُسَكُمْ",
+      "consonants": "أنفسكم",
+      "location": "66:6",
+      "expectedRoot": "ن-ف-س",
+      "radicals": [
+        "ن",
+        "ف",
+        "س"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "كم (Possessivsuffix 2mp)"
+      ],
+      "pos": "Nomen",
+      "morphology": "FP|ACC",
+      "hint": "Endung كم ist ein Pronominalsuffix (entfernen). أَنْفُس ist ein gebrochener Plural (Muster أَفْعُل). Die drei Wurzelkonsonanten ن-ف-س bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=6"
+    },
+    {
+      "id": "re017",
+      "word": "تَهِنُوا",
+      "consonants": "تهنوا",
+      "location": "3:139",
+      "expectedRoot": "و-ه-ن",
+      "radicals": [
+        "و",
+        "ه",
+        "ن"
+      ],
+      "prefixes": [
+        "تَ (Imperfekt 2/3f)"
+      ],
+      "suffixes": [
+        "وا (Imperfekt 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|2MP|MOOD:JUS",
+      "hint": "ت ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung وا ist die Personalendung des Imperfekts 2. Person mask. Plural (entfernen). Die drei Wurzelkonsonanten و-ه-ن bleiben. Imperfekt Form I (Jussiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=139"
+    },
+    {
+      "id": "re018",
+      "word": "وَرَابِطُوا",
+      "consonants": "ورابطوا",
+      "location": "3:200",
+      "expectedRoot": "ر-ب-ط",
+      "radicals": [
+        "ر",
+        "ب",
+        "ط"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Imperativ 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|(III)|2MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Imperativs (entfernen). Die drei Wurzelkonsonanten ر-ب-ط bleiben. Imperativ Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=200"
+    },
+    {
+      "id": "re019",
+      "word": "لَيَأْكُلُونَ",
+      "consonants": "ليأكلون",
+      "location": "9:34",
+      "expectedRoot": "ا-ك-ل",
+      "radicals": [
+        "ا",
+        "ك",
+        "ل"
+      ],
+      "prefixes": [
+        "لَ",
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3MP",
+      "hint": "لَ ist ein Bekräftigungspartikel (entfernen). ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ا-ك-ل bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=34"
+    },
+    {
+      "id": "re020",
+      "word": "أَشْرَكْتُمُونِ",
+      "consonants": "أشركتمون",
+      "location": "14:22",
+      "expectedRoot": "ش-ر-ك",
+      "radicals": [
+        "ش",
+        "ر",
+        "ك"
+      ],
+      "prefixes": [
+        "أَ (Form IV)"
+      ],
+      "suffixes": [
+        "تُمُ (Perfekt 2mp)",
+        "ونِ (Objektsuffix 1s)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|2MP",
+      "hint": "أَ ist das Präfix der Form IV (entfernen). Endung تُمُونِ besteht aus der Personalendung تُمُ (Perfekt 2mp) und dem Objektsuffix ونِ (1. Person Singular). Die drei Wurzelkonsonanten ش-ر-ك bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=22"
+    },
+    {
+      "id": "re021",
+      "word": "يُذَبِّحُ",
+      "consonants": "يذبح",
+      "location": "28:4",
+      "expectedRoot": "ذ-ب-ح",
+      "radicals": [
+        "ذ",
+        "ب",
+        "ح"
+      ],
+      "prefixes": [
+        "يُ (Imperfekt 3m)"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPF|(II)|3MS",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Die drei Wurzelkonsonanten ذ-ب-ح bleiben. Imperfekt Form II.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=4"
+    },
+    {
+      "id": "re022",
+      "word": "أُبْسِلُوا",
+      "consonants": "أبسلوا",
+      "location": "6:70",
+      "expectedRoot": "ب-س-ل",
+      "radicals": [
+        "ب",
+        "س",
+        "ل"
+      ],
+      "prefixes": [
+        "أُ (Form IV Passiv)"
+      ],
+      "suffixes": [
+        "وا (Perfekt 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|PASS|(IV)|3MP",
+      "hint": "أُ ist das Präfix der Form IV im Passiv (entfernen). Endung وا ist die Personalendung des Perfekts (entfernen). Die drei Wurzelkonsonanten ب-س-ل bleiben. Perfekt Form IV (Passiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=70"
+    },
+    {
+      "id": "re023",
+      "word": "تَأْتِهِم",
+      "consonants": "تأتهم",
+      "location": "7:203",
+      "expectedRoot": "ا-ت-ي",
+      "radicals": [
+        "ا",
+        "ت",
+        "ي"
+      ],
+      "prefixes": [
+        "تَ (Imperfekt 2/3f)"
+      ],
+      "suffixes": [
+        "هم (Possessivsuffix 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3FS|MOOD:JUS",
+      "hint": "ت ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung هم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ا-ت-ي bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=203"
+    },
+    {
+      "id": "re024",
+      "word": "يَنَالُ",
+      "consonants": "ينال",
+      "location": "2:124",
+      "expectedRoot": "ن-ي-ل",
+      "radicals": [
+        "ن",
+        "ي",
+        "ل"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPF|3MS",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Die drei Wurzelkonsonanten ن-ي-ل bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": "re025",
+      "word": "يُرَدُّونَ",
+      "consonants": "يردون",
+      "location": "2:85",
+      "expectedRoot": "ر-د-د",
+      "radicals": [
+        "ر",
+        "د",
+        "د"
+      ],
+      "prefixes": [
+        "يُ (Imperfekt 3m, Passiv)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|PASS|3MP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ر-د-د bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "id": "re026",
+      "word": "وَأَدْخِلْنِى",
+      "consonants": "وأدخلني",
+      "location": "27:19",
+      "expectedRoot": "د-خ-ل",
+      "radicals": [
+        "د",
+        "خ",
+        "ل"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "نِي (Suffix 1s)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|(IV)|2MS",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung نِي ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten د-خ-ل bleiben. Imperativ Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=19"
+    },
+    {
+      "id": "re027",
+      "word": "أَفْنَانٍ",
+      "consonants": "أفنان",
+      "location": "55:48",
+      "expectedRoot": "ف-ن-ن",
+      "radicals": [
+        "ف",
+        "ن",
+        "ن"
+      ],
+      "prefixes": [],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MP|INDEF|GEN",
+      "hint": "أَفْنَان ist ein gebrochener Plural (Muster أَفْعَال). Das أ gehört zum Pluralmuster, nicht zur Wurzel. Die drei Wurzelkonsonanten ف-ن-ن bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=48"
+    },
+    {
+      "id": "re028",
+      "word": "يَسِيرًا",
+      "consonants": "يسيرا",
+      "location": "4:30",
+      "expectedRoot": "ي-س-ر",
+      "radicals": [
+        "ي",
+        "س",
+        "ر"
+      ],
+      "prefixes": [],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MS|INDEF|ACC",
+      "hint": "ي ist KEIN Präfix, sondern der erste Radikal der Wurzel ي-س-ر. Die drei Wurzelkonsonanten ي-س-ر bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=30"
+    },
+    {
+      "id": "re029",
+      "word": "عَزَمُوا",
+      "consonants": "عزموا",
+      "location": "2:227",
+      "expectedRoot": "ع-ز-م",
+      "radicals": [
+        "ع",
+        "ز",
+        "م"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "وا (Perfekt 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|3MP",
+      "hint": "Endung وا ist die Personalendung des Perfekts (entfernen). Die drei Wurzelkonsonanten ع-ز-م bleiben. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=227"
+    },
+    {
+      "id": "re030",
+      "word": "وَهُدًى",
+      "consonants": "وهدى",
+      "location": "2:97",
+      "expectedRoot": "ه-د-ي",
+      "radicals": [
+        "ه",
+        "د",
+        "ي"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "M|INDEF|ACC",
+      "hint": "وَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ه-د-ي bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=97"
+    },
+    {
+      "id": "re031",
+      "word": "لَذَّةٍ",
+      "consonants": "لذة",
+      "location": "37:46",
+      "expectedRoot": "ل-ذ-ذ",
+      "radicals": [
+        "ل",
+        "ذ",
+        "ذ"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "ة (Ta Marbuta)"
+      ],
+      "pos": "Adjektiv",
+      "morphology": "FS|INDEF|GEN",
+      "hint": "ة (Ta Marbuta) ist ein Femininzeichen (entfernen). Die drei Wurzelkonsonanten ل-ذ-ذ bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=46"
+    },
+    {
+      "id": "re032",
+      "word": "لِيُثَبِّتَ",
+      "consonants": "ليثبت",
+      "location": "16:102",
+      "expectedRoot": "ث-ب-ت",
+      "radicals": [
+        "ث",
+        "ب",
+        "ت"
+      ],
+      "prefixes": [
+        "لِ",
+        "يُ (Imperfekt 3m)"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPF|(II)|3MS|MOOD:SUBJ",
+      "hint": "لِ ist eine Präposition (entfernen). ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Die drei Wurzelkonsonanten ث-ب-ت bleiben. Imperfekt Form II (Subjunktiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=102"
+    },
+    {
+      "id": "re033",
+      "word": "لِأَخِيهِ",
+      "consonants": "لأخيه",
+      "location": "7:142",
+      "expectedRoot": "ا-خ-و",
+      "radicals": [
+        "ا",
+        "خ",
+        "و"
+      ],
+      "prefixes": [
+        "لِ"
+      ],
+      "suffixes": [
+        "هِ (Possessivsuffix 3ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "MS|GEN",
+      "hint": "لِ ist eine Präposition (entfernen). Endung هِ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ا-خ-و bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=142"
+    },
+    {
+      "id": "re034",
+      "word": "وَتُعَزِّرُوهُ",
+      "consonants": "وتعزروه",
+      "location": "48:9",
+      "expectedRoot": "ع-ز-ر",
+      "radicals": [
+        "ع",
+        "ز",
+        "ر"
+      ],
+      "prefixes": [
+        "وَ",
+        "تُ (Imperfekt 2mp)"
+      ],
+      "suffixes": [
+        "ه (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(II)|2MP|MOOD:SUBJ",
+      "hint": "وَ ist eine Konjunktion (entfernen). ت ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ه ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ع-ز-ر bleiben. Imperfekt Form II.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=9"
+    },
+    {
+      "id": "re035",
+      "word": "فَنَادَتْهُ",
+      "consonants": "فنادته",
+      "location": "3:39",
+      "expectedRoot": "ن-د-و",
+      "radicals": [
+        "ن",
+        "د",
+        "و"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "تْ (Perfekt 3fs)",
+        "هُ (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(III)|3FS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung تْ ist das Femininsuffix des Perfekts (entfernen). Endung هُ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ن-د-و bleiben. Perfekt Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+    },
+    {
+      "id": "re036",
+      "word": "وَيُمِيتُ",
+      "consonants": "ويميت",
+      "location": "2:258",
+      "expectedRoot": "م-و-ت",
+      "radicals": [
+        "م",
+        "و",
+        "ت"
+      ],
+      "prefixes": [
+        "وَ",
+        "يُ (Imperfekt 3m)"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPF|(IV)|3MS",
+      "hint": "وَ ist eine Konjunktion (entfernen). ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Die drei Wurzelkonsonanten م-و-ت bleiben. Imperfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=258"
+    },
+    {
+      "id": "re037",
+      "word": "بِعِلْمِهِ",
+      "consonants": "بعلمه",
+      "location": "4:166",
+      "expectedRoot": "ع-ل-م",
+      "radicals": [
+        "ع",
+        "ل",
+        "م"
+      ],
+      "prefixes": [
+        "بِ"
+      ],
+      "suffixes": [
+        "هِ (Possessivsuffix 3ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|GEN",
+      "hint": "بِ ist eine Präposition (entfernen). Endung هِ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ع-ل-م bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=166"
+    },
+    {
+      "id": "re038",
+      "word": "وَيَسْتَغْفِرُونَهُ",
+      "consonants": "ويستغفرونه",
+      "location": "5:74",
+      "expectedRoot": "غ-ف-ر",
+      "radicals": [
+        "غ",
+        "ف",
+        "ر"
+      ],
+      "prefixes": [
+        "وَ",
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)",
+        "ه (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(X)|3MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (entfernen). Endung ه ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten غ-ف-ر bleiben. Imperfekt Form X.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=74"
+    },
+    {
+      "id": "re039",
+      "word": "ٱلْمِهَادُ",
+      "consonants": "المهاد",
+      "location": "2:206",
+      "expectedRoot": "م-ه-د",
+      "radicals": [
+        "م",
+        "ه",
+        "د"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "M|NOM",
+      "hint": "ال ist der Definitartikel (entfernen). Die drei Wurzelkonsonanten م-ه-د bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=206"
+    },
+    {
+      "id": "re040",
+      "word": "فَٱنتَشِرُوا",
+      "consonants": "فانتشروا",
+      "location": "33:53",
+      "expectedRoot": "ن-ش-ر",
+      "radicals": [
+        "ن",
+        "ش",
+        "ر"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "وا (Imperativ 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|(VIII)|2MP",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Imperativs (entfernen). Die drei Wurzelkonsonanten ن-ش-ر bleiben. Imperativ Form VIII.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=53"
+    },
+    {
+      "id": "re041",
+      "word": "فَجَعَلَهُمْ",
+      "consonants": "فجعلهم",
+      "location": "21:58",
+      "expectedRoot": "ج-ع-ل",
+      "radicals": [
+        "ج",
+        "ع",
+        "ل"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "هم (Possessivsuffix 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung هم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ج-ع-ل bleiben. Perfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=58"
+    },
+    {
+      "id": "re042",
+      "word": "ٱلْكِبْرِيَاءُ",
+      "consonants": "الكبرياء",
+      "location": "10:78",
+      "expectedRoot": "ك-ب-ر",
+      "radicals": [
+        "ك",
+        "ب",
+        "ر"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "F|NOM",
+      "hint": "ال ist der Definitartikel (entfernen). Die drei Wurzelkonsonanten ك-ب-ر bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=78"
+    },
+    {
+      "id": "re043",
+      "word": "أَبْنَاءَنَا",
+      "consonants": "أبناءنا",
+      "location": "3:61",
+      "expectedRoot": "ب-ن-ي",
+      "radicals": [
+        "ب",
+        "ن",
+        "ي"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "نا (Suffix 1p)"
+      ],
+      "pos": "Nomen",
+      "morphology": "MP|ACC",
+      "hint": "أَبْنَاء ist ein gebrochener Plural (Muster أَفْعَال). Das أ gehört zum Pluralmuster, nicht zur Wurzel. Endung نا ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ب-ن-ي bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=61"
+    },
+    {
+      "id": "re044",
+      "word": "وَيُحِبُّونَهُ",
+      "consonants": "ويحبونه",
+      "location": "5:54",
+      "expectedRoot": "ح-ب-ب",
+      "radicals": [
+        "ح",
+        "ب",
+        "ب"
+      ],
+      "prefixes": [
+        "وَ",
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)",
+        "ه (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(IV)|3MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (entfernen). Endung ه ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ح-ب-ب bleiben. Imperfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=54"
+    },
+    {
+      "id": "re045",
+      "word": "ٱلنَّاسِ",
+      "consonants": "الناس",
+      "location": "2:8",
+      "expectedRoot": "ن-و-س",
+      "radicals": [
+        "ن",
+        "و",
+        "س"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MP|GEN",
+      "hint": "ال ist der Definitartikel (entfernen). Die drei Wurzelkonsonanten ن-و-س bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "re046",
+      "word": "وَٱلْخَٰشِعَٰتِ",
+      "consonants": "والخاشعات",
+      "location": "33:35",
+      "expectedRoot": "خ-ش-ع",
+      "radicals": [
+        "خ",
+        "ش",
+        "ع"
+      ],
+      "prefixes": [
+        "وَ",
+        "ال"
+      ],
+      "suffixes": [
+        "ات (fem. Pl.)"
+      ],
+      "pos": "Nomen",
+      "morphology": "ACT|PCPL|FP|ACC",
+      "hint": "وَ ist eine Konjunktion (entfernen). ال ist der Definitartikel (entfernen). Endung ات ist das feminine Pluralsuffix (entfernen). Die drei Wurzelkonsonanten خ-ش-ع bleiben. Muster: فَاعِل (Aktivpartizip Form I).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=35"
+    },
+    {
+      "id": "re047",
+      "word": "بِكَلِمَٰتِهِ",
+      "consonants": "بكلماته",
+      "location": "8:7",
+      "expectedRoot": "ك-ل-م",
+      "radicals": [
+        "ك",
+        "ل",
+        "م"
+      ],
+      "prefixes": [
+        "بِ"
+      ],
+      "suffixes": [
+        "هِ (Possessivsuffix 3ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "FP|GEN",
+      "hint": "بِ ist eine Präposition (entfernen). Endung هِ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ك-ل-م bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=7"
+    },
+    {
+      "id": "re048",
+      "word": "فَصَلَّىٰ",
+      "consonants": "فصلى",
+      "location": "87:15",
+      "expectedRoot": "ص-ل-و",
+      "radicals": [
+        "ص",
+        "ل",
+        "و"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "PERF|(II)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ص-ل-و bleiben. Perfekt Form II.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=15"
+    },
+    {
+      "id": "re049",
+      "word": "يَطْمَعُونَ",
+      "consonants": "يطمعون",
+      "location": "7:46",
+      "expectedRoot": "ط-م-ع",
+      "radicals": [
+        "ط",
+        "م",
+        "ع"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3MP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ط-م-ع bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=46"
+    },
+    {
+      "id": "re050",
+      "word": "تَرْكَبُونَ",
+      "consonants": "تركبون",
+      "location": "43:12",
+      "expectedRoot": "ر-ك-ب",
+      "radicals": [
+        "ر",
+        "ك",
+        "ب"
+      ],
+      "prefixes": [
+        "تَ (Imperfekt 2/3f)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|2MP",
+      "hint": "ت ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ر-ك-ب bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=12"
+    },
+    {
+      "id": "re051",
+      "word": "وَهَيِّئْ",
+      "consonants": "وهيئ",
+      "location": "18:10",
+      "expectedRoot": "ه-ي-ا",
+      "radicals": [
+        "ه",
+        "ي",
+        "ا"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "IMPV|(II)|2MS",
+      "hint": "وَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ه-ي-ا bleiben. Imperativ Form II.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=10"
+    },
+    {
+      "id": "re052",
+      "word": "وَبَنَاتُ",
+      "consonants": "وبنات",
+      "location": "4:23",
+      "expectedRoot": "ب-ن-ي",
+      "radicals": [
+        "ب",
+        "ن",
+        "ي"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "ات (fem. Pl.)"
+      ],
+      "pos": "Nomen",
+      "morphology": "FP|NOM",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung ات ist das feminine Pluralsuffix (entfernen). Die drei Wurzelkonsonanten ب-ن-ي bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=23"
+    },
+    {
+      "id": "re053",
+      "word": "وَأَشْهِدُوا",
+      "consonants": "وأشهدوا",
+      "location": "2:282",
+      "expectedRoot": "ش-ه-د",
+      "radicals": [
+        "ش",
+        "ه",
+        "د"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Imperativ 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|(IV)|2MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Imperativs (entfernen). Die drei Wurzelkonsonanten ش-ه-د bleiben. Imperativ Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "re054",
+      "word": "أَبْغِيكُمْ",
+      "consonants": "أبغيكم",
+      "location": "7:140",
+      "expectedRoot": "ب-غ-ي",
+      "radicals": [
+        "ب",
+        "غ",
+        "ي"
+      ],
+      "prefixes": [
+        "أَ (Imperfekt 1s)"
+      ],
+      "suffixes": [
+        "كم (Possessivsuffix 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|1S",
+      "hint": "أ ist das Imperfekt-Präfix der 1. Person Singular (zeigt Person an, gehört nicht zur Wurzel). Endung كم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ب-غ-ي bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=140"
+    },
+    {
+      "id": "re055",
+      "word": "فَغُلُّوهُ",
+      "consonants": "فغلوه",
+      "location": "69:30",
+      "expectedRoot": "غ-ل-ل",
+      "radicals": [
+        "غ",
+        "ل",
+        "ل"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "وا (Imperativ 2mp)",
+        "ه (Suffix 3ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|2MP",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Imperativs (entfernen). Endung ه ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten غ-ل-ل bleiben. Imperativ Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=30"
+    },
+    {
+      "id": "re056",
+      "word": "يَقِينٍ",
+      "consonants": "يقين",
+      "location": "27:22",
+      "expectedRoot": "ي-ق-ن",
+      "radicals": [
+        "ي",
+        "ق",
+        "ن"
+      ],
+      "prefixes": [],
+      "suffixes": [],
+      "pos": "Adjektiv",
+      "morphology": "MS|INDEF|GEN",
+      "hint": "ي ist KEIN Präfix, sondern der erste Radikal der Wurzel ي-ق-ن. Die drei Wurzelkonsonanten ي-ق-ن bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=22"
+    },
+    {
+      "id": "re057",
+      "word": "ءَاتَيْتُمُوهُنَّ",
+      "consonants": "آتيتموهن",
+      "location": "2:229",
+      "expectedRoot": "ا-ت-ي",
+      "radicals": [
+        "ا",
+        "ت",
+        "ي"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "تُمُو (Perfekt 2mp)",
+        "هُنَّ (Suffix 3fp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|2MP",
+      "hint": "Endung تُمُو ist die Personalendung des Perfekts 2. Person mask. Plural (entfernen). Endung هُنَّ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ا-ت-ي bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=229"
+    },
+    {
+      "id": "re058",
+      "word": "فَنَادَىٰ",
+      "consonants": "فنادى",
+      "location": "21:87",
+      "expectedRoot": "ن-د-و",
+      "radicals": [
+        "ن",
+        "د",
+        "و"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [],
+      "pos": "Verb",
+      "morphology": "PERF|(III)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ن-د-و bleiben. Perfekt Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=87"
+    },
+    {
+      "id": "re059",
+      "word": "طَاغُونَ",
+      "consonants": "طاغون",
+      "location": "51:53",
+      "expectedRoot": "ط-غ-ي",
+      "radicals": [
+        "ط",
+        "غ",
+        "ي"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Nomen",
+      "morphology": "ACT|PCPL|MP|NOM",
+      "hint": "Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ط-غ-ي bleiben. Muster: فَاعِل (Aktivpartizip Form I).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=53"
+    },
+    {
+      "id": "re060",
+      "word": "نُزُلُهُمْ",
+      "consonants": "نزلهم",
+      "location": "56:56",
+      "expectedRoot": "ن-ز-ل",
+      "radicals": [
+        "ن",
+        "ز",
+        "ل"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "هم (Possessivsuffix 3mp)"
+      ],
+      "pos": "Nomen",
+      "morphology": "NOM",
+      "hint": "ن ist KEIN Präfix, sondern der erste Radikal der Wurzel ن-ز-ل. Endung هم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ن-ز-ل bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=56"
+    },
+    {
+      "id": "re061",
+      "word": "فَنَادَوا",
+      "consonants": "فنادوا",
+      "location": "38:3",
+      "expectedRoot": "ن-د-و",
+      "radicals": [
+        "ن",
+        "د",
+        "و"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "وا (Perfekt 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(III)|3MP",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Perfekts (entfernen). Die drei Wurzelkonsonanten ن-د-و bleiben. Perfekt Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=3"
+    },
+    {
+      "id": "re062",
+      "word": "يُبَايِعُونَكَ",
+      "consonants": "يبايعونك",
+      "location": "48:10",
+      "expectedRoot": "ب-ي-ع",
+      "radicals": [
+        "ب",
+        "ي",
+        "ع"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)",
+        "كَ (Suffix 2ms)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(III)|3MP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (entfernen). Endung كَ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ب-ي-ع bleiben. Imperfekt Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=10"
+    },
+    {
+      "id": "re063",
+      "word": "ٱلْعَٰلَمِينَ",
+      "consonants": "العالمين",
+      "location": "7:61",
+      "expectedRoot": "ع-ل-م",
+      "radicals": [
+        "ع",
+        "ل",
+        "م"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [
+        "ين (mask. Pl. ACC/GEN)"
+      ],
+      "pos": "Nomen",
+      "morphology": "MP|GEN",
+      "hint": "ال ist der Definitartikel (entfernen). Endung ين ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ع-ل-م bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=61"
+    },
+    {
+      "id": "re064",
+      "word": "أَلِرَبِّكَ",
+      "consonants": "ألربك",
+      "location": "37:149",
+      "expectedRoot": "ر-ب-ب",
+      "radicals": [
+        "ر",
+        "ب",
+        "ب"
+      ],
+      "prefixes": [
+        "أَ (Fragepartikel)",
+        "لِ"
+      ],
+      "suffixes": [
+        "ك (Possessivsuffix 2ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|GEN",
+      "hint": "أَ ist eine Fragepartikel (entfernen). لِ ist eine Präposition (entfernen). Endung ك ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ر-ب-ب bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=149"
+    },
+    {
+      "id": "re065",
+      "word": "نَصْرُنَا",
+      "consonants": "نصرنا",
+      "location": "6:34",
+      "expectedRoot": "ن-ص-ر",
+      "radicals": [
+        "ن",
+        "ص",
+        "ر"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "نا (Suffix 1p)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|NOM",
+      "hint": "ن ist KEIN Präfix, sondern der erste Radikal der Wurzel ن-ص-ر. Endung نا ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ن-ص-ر bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=34"
+    },
+    {
+      "id": "re066",
+      "word": "مُحْصَنَٰتٍ",
+      "consonants": "محصنات",
+      "location": "4:25",
+      "expectedRoot": "ح-ص-ن",
+      "radicals": [
+        "ح",
+        "ص",
+        "ن"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "ات (fem. Pl.)"
+      ],
+      "pos": "Nomen",
+      "morphology": "PASS|PCPL|(IV)|FP|INDEF|ACC",
+      "hint": "Endung ات ist das feminine Pluralsuffix (entfernen). Die drei Wurzelkonsonanten ح-ص-ن bleiben. Passivpartizip Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=25"
+    },
+    {
+      "id": "re067",
+      "word": "أَمْلَيْتُ",
+      "consonants": "أمليت",
+      "location": "22:48",
+      "expectedRoot": "م-ل-و",
+      "radicals": [
+        "م",
+        "ل",
+        "و"
+      ],
+      "prefixes": [
+        "أَ (Form IV)"
+      ],
+      "suffixes": [
+        "تُ (Perfekt 1s)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|1S",
+      "hint": "أَ ist das Präfix der Form IV (entfernen). Endung تُ ist die Personalendung des Perfekts 1. Person Singular (entfernen). Die drei Wurzelkonsonanten م-ل-و bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=48"
+    },
+    {
+      "id": "re068",
+      "word": "بِٱلصِّدْقِ",
+      "consonants": "بالصدق",
+      "location": "39:32",
+      "expectedRoot": "ص-د-ق",
+      "radicals": [
+        "ص",
+        "د",
+        "ق"
+      ],
+      "prefixes": [
+        "بِ + ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "M|GEN",
+      "hint": "بِ ist eine Präposition und ال der Definitartikel (beide entfernen). Die drei Wurzelkonsonanten ص-د-ق bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=32"
+    },
+    {
+      "id": "re069",
+      "word": "أَقْرَبُ",
+      "consonants": "أقرب",
+      "location": "2:237",
+      "expectedRoot": "ق-ر-ب",
+      "radicals": [
+        "ق",
+        "ر",
+        "ب"
+      ],
+      "prefixes": [],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MS|NOM",
+      "hint": "أَقْرَب ist ein Elativ (Muster أَفْعَل). Das أ gehört zum Elativmuster, nicht zur Wurzel. Die drei Wurzelkonsonanten ق-ر-ب bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=237"
+    },
+    {
+      "id": "re070",
+      "word": "وَجِفَانٍ",
+      "consonants": "وجفان",
+      "location": "34:13",
+      "expectedRoot": "ج-ف-ن",
+      "radicals": [
+        "ج",
+        "ف",
+        "ن"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "MP|INDEF|GEN",
+      "hint": "وَ ist eine Konjunktion (entfernen). Die drei Wurzelkonsonanten ج-ف-ن bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=13"
+    },
+    {
+      "id": "re071",
+      "word": "ذَرْهُمْ",
+      "consonants": "ذرهم",
+      "location": "6:91",
+      "expectedRoot": "و-ذ-ر",
+      "radicals": [
+        "و",
+        "ذ",
+        "ر"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "هم (Possessivsuffix 3mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|2MS",
+      "hint": "Endung هم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten و-ذ-ر bleiben. Imperativ Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=91"
+    },
+    {
+      "id": "re072",
+      "word": "ٱللَّهِ",
+      "consonants": "الله",
+      "location": "5:11",
+      "expectedRoot": "ا-ل-ه",
+      "radicals": [
+        "ا",
+        "ل",
+        "ه"
+      ],
+      "prefixes": [
+        "ال"
+      ],
+      "suffixes": [],
+      "pos": "Nomen",
+      "morphology": "GEN",
+      "hint": "ال ist der Definitartikel (entfernen). Die drei Wurzelkonsonanten ا-ل-ه bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=11"
+    },
+    {
+      "id": "re073",
+      "word": "فَتَقَبَّلَهَا",
+      "consonants": "فتقبلها",
+      "location": "3:37",
+      "expectedRoot": "ق-ب-ل",
+      "radicals": [
+        "ق",
+        "ب",
+        "ل"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "ها (Suffix 3fs)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(V)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung ها ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ق-ب-ل bleiben. Perfekt Form V.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+    },
+    {
+      "id": "re074",
+      "word": "فَصُرْهُنَّ",
+      "consonants": "فصرهن",
+      "location": "2:260",
+      "expectedRoot": "ص-و-ر",
+      "radicals": [
+        "ص",
+        "و",
+        "ر"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "هُنَّ (Suffix 3fp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|2MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung هُنَّ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ص-و-ر bleiben. Imperativ Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=260"
+    },
+    {
+      "id": "re075",
+      "word": "وَلِيُتَبِّرُوا",
+      "consonants": "وليتبروا",
+      "location": "17:7",
+      "expectedRoot": "ت-ب-ر",
+      "radicals": [
+        "ت",
+        "ب",
+        "ر"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Imperfekt 3mp, Subjunktiv)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(II)|3MP|MOOD:SUBJ",
+      "hint": "وَ ist eine Konjunktion (entfernen). لِ zeigt den Subjunktiv an. Endung وا ist die Personalendung des Imperfekts 3. Person mask. Plural (entfernen). Die drei Wurzelkonsonanten ت-ب-ر bleiben. Imperfekt Form II (Subjunktiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=7"
+    },
+    {
+      "id": "re076",
+      "word": "فَأَلْقَىٰهَا",
+      "consonants": "فألقاها",
+      "location": "20:20",
+      "expectedRoot": "ل-ق-ي",
+      "radicals": [
+        "ل",
+        "ق",
+        "ي"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "ها (Suffix 3fs)"
+      ],
+      "pos": "Verb",
+      "morphology": "PERF|(IV)|3MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung ها ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ل-ق-ي bleiben. Perfekt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+    },
+    {
+      "id": "re077",
+      "word": "مَوْلَىٰكُمْ",
+      "consonants": "مولاكم",
+      "location": "3:150",
+      "expectedRoot": "و-ل-ي",
+      "radicals": [
+        "و",
+        "ل",
+        "ي"
+      ],
+      "prefixes": [],
+      "suffixes": [
+        "كم (Possessivsuffix 2mp)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|NOM",
+      "hint": "Endung كم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten و-ل-ي bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=150"
+    },
+    {
+      "id": "re078",
+      "word": "وَلِلْكَٰفِرِينَ",
+      "consonants": "وللكافرين",
+      "location": "2:90",
+      "expectedRoot": "ك-ف-ر",
+      "radicals": [
+        "ك",
+        "ف",
+        "ر"
+      ],
+      "prefixes": [
+        "وَ",
+        "لِ + ال"
+      ],
+      "suffixes": [
+        "ين (mask. Pl. ACC/GEN)"
+      ],
+      "pos": "Nomen",
+      "morphology": "ACT|PCPL|MP|GEN",
+      "hint": "وَ ist eine Konjunktion (entfernen). لِ ist eine Präposition und ال der Definitartikel (beide entfernen). Endung ين ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ك-ف-ر bleiben. Muster: فَاعِل (Aktivpartizip Form I).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+    },
+    {
+      "id": "re079",
+      "word": "وَبِرَسُولِهِ",
+      "consonants": "وبرسوله",
+      "location": "9:54",
+      "expectedRoot": "ر-س-ل",
+      "radicals": [
+        "ر",
+        "س",
+        "ل"
+      ],
+      "prefixes": [
+        "وَ",
+        "بِ"
+      ],
+      "suffixes": [
+        "هِ (Possessivsuffix 3ms)"
+      ],
+      "pos": "Nomen",
+      "morphology": "M|GEN",
+      "hint": "وَ ist eine Konjunktion (entfernen). بِ ist eine Präposition (entfernen). Endung هِ ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ر-س-ل bleiben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=54"
+    },
+    {
+      "id": "re080",
+      "word": "يَكْتُمْنَ",
+      "consonants": "يكتمن",
+      "location": "2:228",
+      "expectedRoot": "ك-ت-م",
+      "radicals": [
+        "ك",
+        "ت",
+        "م"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "نَ (Imperfekt 3fp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3FP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung نَ ist die Personalendung des Imperfekts 3. Person fem. Plural (entfernen). Die drei Wurzelkonsonanten ك-ت-م bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+    },
+    {
+      "id": "re081",
+      "word": "فَٱكْتُبْنَا",
+      "consonants": "فاكتبنا",
+      "location": "3:53",
+      "expectedRoot": "ك-ت-ب",
+      "radicals": [
+        "ك",
+        "ت",
+        "ب"
+      ],
+      "prefixes": [
+        "فَ"
+      ],
+      "suffixes": [
+        "نا (Suffix 1p)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|2MS",
+      "hint": "فَ ist eine Konjunktion (entfernen). Endung نا ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ك-ت-ب bleiben. Imperativ Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=53"
+    },
+    {
+      "id": "re082",
+      "word": "يَضُرُّكُمْ",
+      "consonants": "يضركم",
+      "location": "3:120",
+      "expectedRoot": "ض-ر-ر",
+      "radicals": [
+        "ض",
+        "ر",
+        "ر"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "كم (Possessivsuffix 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3MS",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung كم ist ein Pronominalsuffix (entfernen). Die drei Wurzelkonsonanten ض-ر-ر bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=120"
+    },
+    {
+      "id": "re083",
+      "word": "يَفْرَحُونَ",
+      "consonants": "يفرحون",
+      "location": "3:188",
+      "expectedRoot": "ف-ر-ح",
+      "radicals": [
+        "ف",
+        "ر",
+        "ح"
+      ],
+      "prefixes": [
+        "يَ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|3MP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ف-ر-ح bleiben. Imperfekt Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=188"
+    },
+    {
+      "id": "re084",
+      "word": "وَءَامِنُوا",
+      "consonants": "وآمنوا",
+      "location": "2:41",
+      "expectedRoot": "ا-م-ن",
+      "radicals": [
+        "ا",
+        "م",
+        "ن"
+      ],
+      "prefixes": [
+        "وَ"
+      ],
+      "suffixes": [
+        "وا (Imperativ 2mp)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPV|(IV)|2MP",
+      "hint": "وَ ist eine Konjunktion (entfernen). Endung وا ist die Personalendung des Imperativs (entfernen). Die drei Wurzelkonsonanten ا-م-ن bleiben. Imperativ Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=41"
+    },
+    {
+      "id": "re085",
+      "word": "يُجَٰدِلُونَ",
+      "consonants": "يجادلون",
+      "location": "13:13",
+      "expectedRoot": "ج-د-ل",
+      "radicals": [
+        "ج",
+        "د",
+        "ل"
+      ],
+      "prefixes": [
+        "يُ (Imperfekt 3m)"
+      ],
+      "suffixes": [
+        "ون (mask. Pl. NOM)"
+      ],
+      "pos": "Verb",
+      "morphology": "IMPF|(III)|3MP",
+      "hint": "ي ist das Imperfekt-Präfix (zeigt Person an, gehört nicht zur Wurzel). Endung ون ist das Pluralsuffix (gesunder mask. Plural, entfernen). Die drei Wurzelkonsonanten ج-د-ل bleiben. Imperfekt Form III.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=13"
+    }
+  ]
+}

@@ -1,0 +1,1804 @@
+[
+  {
+    "id": "4.1",
+    "title": "Konjunktionen und Sequenzmarker",
+    "description": "Die wichtigsten verbindenden Partikeln im Quran: وَ, فَ, ثُمَّ, أَوْ, بَلْ, لَكِنَّ und لَكِنْ — wie sie Sätze verknüpfen und welche feinen Bedeutungsunterschiede sie tragen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Konjunktionen im Arabischen",
+          "content": "Konjunktionen (حُرُوف العَطْف, hurūf al-ʿaṭf) verbinden Wörter, Satzglieder oder ganze Sätze miteinander. Im Quranischen Arabisch spielen sie eine zentrale Rolle, denn sie bestimmen, ob Ereignisse gleichzeitig, nacheinander, alternativ oder korrigierend zueinander stehen. Anders als im Deutschen unterscheidet das Arabische sehr genau zwischen verschiedenen Arten der Verknüpfung. Wer وَ und فَ verwechselt, versteht die zeitliche Struktur einer Erzählung falsch. Wer بَلْ übersieht, verpasst eine Zurückweisung des vorigen Gedankens. Diese Lektion behandelt die sieben wichtigsten Konjunktionen, die zusammen in fast jedem Vers des Quran vorkommen.",
+          "arabicExamples": [
+            {
+              "arabic": "وَالسَّمَاءِ وَالطَّارِقِ",
+              "transliteration": "wa-s-samāʾi wa-ṭ-ṭāriqi",
+              "meaning": "Beim Himmel und beim Nachtstern (86:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+            },
+            {
+              "arabic": "فَتَابَ عَلَيْهِ",
+              "transliteration": "fa-tāba ʿalayhi",
+              "meaning": "Da wandte Er sich ihm (vergebend) zu (2:37)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "وَ (wa) — Und: Additiv, ohne zeitliche Reihenfolge",
+          "content": "وَ ist die häufigste Konjunktion im Quran. Sie verbindet zwei Elemente additiv, ohne eine zeitliche Reihenfolge zu implizieren. Wenn der Quran sagt خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ, heißt das nicht, dass die Himmel vor der Erde erschaffen wurden — وَ stellt sie lediglich nebeneinander. وَ kann Nomen, Verben, Sätze und sogar ganze Abschnitte verbinden. Als Schwurpartikel leitet وَ Eide ein (وَاللَّهِ = bei Gott). Grammatisch bewirkt وَ, dass das nachfolgende Wort denselben Kasus erhält wie das vorangehende (عَطْف).",
+          "arabicExamples": [
+            {
+              "arabic": "خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ",
+              "transliteration": "khalaqa s-samāwāti wa-l-arḍa",
+              "meaning": "Er erschuf die Himmel und die Erde (6:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+            },
+            {
+              "arabic": "وَالْعَصْرِ",
+              "transliteration": "wa-l-ʿaṣri",
+              "meaning": "Beim Nachmittag! (103:1) — Schwur-وَ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            },
+            {
+              "arabic": "وَالْفَجْرِ · وَلَيَالٍ عَشْرٍ",
+              "transliteration": "wa-l-fajri wa-layālin ʿashrin",
+              "meaning": "Beim Morgengrauen! Und bei zehn Nächten! (89:1-2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "فَ (fa) — Dann/So: Unmittelbare Folge und Sequenz",
+          "content": "فَ drückt eine unmittelbare zeitliche Folge oder eine kausale Verbindung aus. Wo وَ nur aufzählt, sagt فَ: ‚und daraufhin sofort'. In Erzählungen zeigt فَ, dass eine Handlung direkt auf die vorherige folgt. فَ wird auch als Ergebnis-Partikel verwendet: nach einer Bedingung (إِنْ... فَ) leitet فَ die Konsequenz ein. Ebenfalls steht فَ häufig am Satzanfang als Fortführungspartikel (فَاعْلَمْ = so wisse). Die sogenannte فَاء السَّبَبِيَّة (kausale fāʾ) löst den Subjunktiv aus, wenn sie nach einer Verneinung, einem Befehl oder Wunsch steht.",
+          "arabicExamples": [
+            {
+              "arabic": "فَتَلَقَّىٰ آدَمُ مِن رَّبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ",
+              "transliteration": "fa-talaqqā ādamu min rabbihi kalimātin fa-tāba ʿalayhi",
+              "meaning": "Da empfing Adam von seinem Herrn Worte, und Er wandte sich ihm zu (2:37)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+            },
+            {
+              "arabic": "كُن فَيَكُونُ",
+              "transliteration": "kun fa-yakūnu",
+              "meaning": "Sei! — und es ist (2:117)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=117"
+            },
+            {
+              "arabic": "فَإِذَا جَاءَتِ الطَّامَّةُ الْكُبْرَىٰ",
+              "transliteration": "fa-idhā jāʾati ṭ-ṭāmmatu l-kubrā",
+              "meaning": "Wenn dann das größte Unheil kommt (79:34)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=34"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "ثُمَّ, أَوْ, بَلْ, لَكِنَّ und لَكِنْ",
+          "content": "ثُمَّ (thumma) bedeutet ebenfalls ‚dann', aber mit einem größeren zeitlichen Abstand als فَ. Wo فَ sofortige Folge anzeigt, signalisiert ثُمَّ eine Pause, eine neue Phase oder eine spätere Entwicklung. أَوْ (aw) bedeutet ‚oder' und bietet Alternativen an, ohne eine Wahl zu erzwingen. بَلْ (bal) bedeutet ‚vielmehr/sondern' und korrigiert oder steigert das Vorherige — es sagt: ‚Nein, nicht so, sondern so'. لَكِنَّ (lākinna) ist eine Schwester von إِنَّ: sie bedeutet ‚aber/jedoch' und regiert den Akkusativ auf ihr Subjekt (اسم لكنّ). لَكِنْ (lākin) ist die leichtere Form ohne Kasusrektion — sie steht einfach als ‚aber' zwischen zwei Sätzen.",
+          "arabicExamples": [
+            {
+              "arabic": "ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+              "transliteration": "thumma yuḥyīkum thumma ilayhi turjaʿūna",
+              "meaning": "Dann macht Er euch lebendig, dann werdet ihr zu Ihm zurückgebracht (2:28)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+            },
+            {
+              "arabic": "أَوْ كَصَيِّبٍ مِّنَ السَّمَاءِ",
+              "transliteration": "aw ka-ṣayyibin mina s-samāʾi",
+              "meaning": "Oder wie ein Regenguss vom Himmel (2:19)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+            },
+            {
+              "arabic": "بَلْ لَعَنَهُمُ اللَّهُ بِكُفْرِهِمْ",
+              "transliteration": "bal laʿanahumu llāhu bi-kufrihim",
+              "meaning": "Vielmehr hat Gott sie wegen ihres Unglaubens verflucht (2:88)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=88"
+            },
+            {
+              "arabic": "وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+              "transliteration": "wa-lākinna akthara n-nāsi lā yaʿlamūna",
+              "meaning": "Aber die meisten Menschen wissen nicht (7:187)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=187"
+            },
+            {
+              "arabic": "وَلَٰكِن كَانُوا أَنفُسَهُمْ يَظْلِمُونَ",
+              "transliteration": "wa-lākin kānū anfusahum yaẓlimūna",
+              "meaning": "Aber sie pflegten sich selbst Unrecht zu tun (2:57)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=57"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ (2:34)",
+            "Schritt 1: وَ leitet den Satz ein — additive Verbindung zum vorherigen Kontext: ‚Und als...'",
+            "Schritt 2: قُلْنَا = Wir sprachen. Das Ereignis ist das Sprechen Gottes zu den Engeln.",
+            "Schritt 3: فَسَجَدُوا — Hier steht فَ, nicht وَ! Das bedeutet: Die Niederwerfung folgte unmittelbar auf den Befehl. Es gab kein Zögern.",
+            "Schritt 4: إِلَّا إِبْلِيسَ — Ausnahme: außer Iblis. Die Ausnahme unterbricht die Sequenz.",
+            "Schritt 5: Merke: Hätte hier ثُمَّ gestanden (ثُمَّ سَجَدُوا), würde es heißen, die Engel hätten erst nach einer Zeit gehorcht. فَ zeigt unmittelbare zeitliche Abfolge."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:34",
+              "word": "فَسَجَدُوا",
+              "analysis": "فَ zeigt unmittelbare zeitliche Abfolge: Die Engel warfen sich direkt nach dem Befehl nieder. فَ markiert hier die unmittelbare zeitliche Abfolge zwischen Befehl und Ausführung — ohne erzählerische Pause.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+            },
+            {
+              "location": "2:28",
+              "word": "ثُمَّ يُحْيِيكُمْ",
+              "analysis": "ثُمَّ markiert einen größeren zeitlichen Abstand: Erst der Tod, dann — nach einer Weile (am Tag der Auferstehung) — das Wiedererwecken.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+            },
+            {
+              "location": "2:88",
+              "word": "بَلْ",
+              "analysis": "بَلْ korrigiert die vorherige Aussage: ‚Unsere Herzen sind verhüllt' wird durch بَلْ zurückgewiesen. Der Textsprecher korrigiert: ‚Vielmehr (بَلْ) hat Gott sie verflucht wegen ihres Unglaubens.' بَلْ markiert den Widerspruch zur Selbsteinschätzung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=88"
+            },
+            {
+              "location": "103:1-2",
+              "word": "وَالْعَصْرِ",
+              "analysis": "وَ als Schwurpartikel: ‚Beim Nachmittag!' — وَ leitet hier keinen additiven Satz ein, sondern einen Eid. Der Genitiv الْعَصْرِ folgt direkt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist der Hauptunterschied zwischen فَ (fa) und ثُمَّ (thumma)?",
+          "options": [
+            "فَ verbindet nur Nomen, ثُمَّ nur Verben",
+            "فَ zeigt unmittelbare Folge, ثُمَّ zeigt zeitlich verzögerte Folge",
+            "فَ wird nur in Fragen verwendet, ثُمَّ nur in Aussagen",
+            "Es gibt keinen Unterschied — beide bedeuten ‚dann'"
+          ],
+          "answer": "فَ zeigt unmittelbare Folge, ثُمَّ zeigt zeitlich verzögerte Folge",
+          "explanation": "فَ (fa) drückt eine sofortige, enge zeitliche oder kausale Verbindung aus, während ثُمَّ (thumma) einen größeren Abstand zwischen den Ereignissen markiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere die Konjunktion in folgendem Vers und bestimme ihre Funktion: بَلْ طَبَعَ اللَّهُ عَلَيْهَا بِكُفْرِهِمْ (4:155)",
+          "options": [
+            "بَلْ — additive Verbindung",
+            "بَلْ — Korrektur: ‚Vielmehr hat Gott sie versiegelt'",
+            "عَلَى — kausale Verbindung",
+            "بِ — sequentielle Verbindung"
+          ],
+          "answer": "بَلْ — Korrektur: ‚Vielmehr hat Gott sie versiegelt'",
+          "explanation": "بَلْ (bal) ist die Korrekturpartikel. Sie sagt: ‚Nicht das Vorherige ist der Fall, sondern vielmehr dies.' Hier korrigiert Gott die Behauptung, ihre Herzen seien von Natur aus verhüllt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=155"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die passende Konjunktion: كُن ___ يَكُونُ (2:117) — ‚Sei! ___ es ist.'",
+          "options": [
+            "وَ",
+            "فَ",
+            "ثُمَّ",
+            "بَلْ"
+          ],
+          "answer": "فَ",
+          "explanation": "فَ (fa) ist hier die Ergebnis-Partikel: Gottes Befehl ‚Sei!' hat eine unmittelbare Folge — es existiert sofort. وَ würde nur aufzählen, ثُمَّ würde Verzögerung implizieren.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=117"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Konjunktion ihrer Grundbedeutung zu: 1) وَ  2) فَ  3) ثُمَّ  4) بَلْ  5) لَكِنَّ",
+          "options": [
+            "1→und (additiv), 2→dann (sofort), 3→dann (später), 4→vielmehr, 5→aber (mit Akkusativ)",
+            "1→oder, 2→und, 3→vielmehr, 4→dann (sofort), 5→dann (später)",
+            "1→dann (sofort), 2→und (additiv), 3→aber, 4→oder, 5→vielmehr",
+            "1→aber, 2→vielmehr, 3→oder, 4→und, 5→dann (sofort)"
+          ],
+          "answer": "1→und (additiv), 2→dann (sofort), 3→dann (später), 4→vielmehr, 5→aber (mit Akkusativ)",
+          "explanation": "وَ = und (additiv, keine Reihenfolge), فَ = dann (unmittelbare Folge), ثُمَّ = dann (mit Abstand), بَلْ = vielmehr (Korrektur), لَكِنَّ = aber (Schwester von إِنَّ, regiert Akkusativ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "In وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ (7:187) — warum steht أَكْثَرَ im Akkusativ?",
+          "options": [
+            "Weil es ein Objekt des Verbs ist",
+            "Weil لَكِنَّ als Schwester von إِنَّ den Akkusativ auf ihr Subjekt regiert",
+            "Weil es ein Adverb ist",
+            "Weil أَكْثَرَ immer im Akkusativ steht"
+          ],
+          "answer": "Weil لَكِنَّ als Schwester von إِنَّ den Akkusativ auf ihr Subjekt regiert",
+          "explanation": "لَكِنَّ gehört zu den sechs Schwestern von إِنَّ (الأحرف المشبهة بالفعل). Wie إِنَّ setzt sie ihr Subjekt (اسم لكنّ) in den Akkusativ. Daher أَكْثَرَ (Akkusativ) statt أَكْثَرُ (Nominativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=187"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §136-142",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.2",
+    "title": "Präpositionen",
+    "description": "Die 18 wichtigsten Präpositionen im Quran: فِي, عَلَى, مِنْ, إِلَى, بِ, لِ, عَنْ, عِنْدَ, بَيْنَ, فَوْقَ, تَحْتَ, مَعَ, مُنْذُ, خَلْفَ, قَبْلَ, بَعْدَ, دُونَ, حَوْلَ — räumlich, zeitlich, metaphorisch, kausal. Alle regieren den Genitiv.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Präpositionen und der Genitiv",
+          "content": "Präpositionen (حُرُوف الجَرّ, hurūf al-jarr) sind im Arabischen unveränderliche Wörter, die immer den Genitiv (مَجْرُور) auf das folgende Nomen regieren. Das ist die eiserne Regel: Steht ein Nomen nach einer Präposition, steht es im Genitiv — erkennbar an der Kasra (-i) oder bei Diptoten am Fatḥa. Im Quran kommen Präpositionen extrem häufig vor und tragen oft mehrere Bedeutungsschichten gleichzeitig. Eine einzige Präposition wie مِنْ kann räumlich (‚von ... her'), zeitlich (‚seit'), partitiv (‚von ... einige'), kausal (‚wegen') oder explikativ (‚nämlich') sein. Das Erkennen der richtigen Bedeutung ist für das Quran-Verständnis entscheidend.",
+          "arabicExamples": [
+            {
+              "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+              "transliteration": "bismi llāhi r-raḥmāni r-raḥīmi",
+              "meaning": "Im Namen Gottes, des Allbarmherzigen, des Barmherzigen (1:1) — الرَّحْمَٰنِ folgt dem Muster faʿlān, das Intensität, aktuellen Zustand oder Fülle einer Eigenschaft ausdrücken kann",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+            },
+            {
+              "arabic": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+              "transliteration": "mina l-jinnati wa-n-nāsi",
+              "meaning": "Von den Dschinn und den Menschen (114:6)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=6"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die einbuchstabigen Präpositionen: بِ und لِ",
+          "content": "بِ (bi) ist eine der häufigsten Partikeln im Quran. Grundbedeutung: ‚mit, durch, mittels' (instrumental). Weitere Bedeutungen: ‚in' (lokal, بِمَكَّةَ = in Mekka), Schwur (بِاللَّهِ = bei Gott), Kausalität (بِذُنُوبِهِمْ = wegen ihrer Verfehlungen), Begleitung (بِنَصْرِهِ = mit Seiner Hilfe). لِ (li) bedeutet grundsätzlich ‚für, zu, gehört' (Besitz/Zweck). Weitere Bedeutungen: Nutznießer (لَكُمْ = für euch), Zweck (لِلْعِبَادَةِ = zum Dienst), Kausalität (لِذَٰلِكَ = deswegen). Beide sind klitisch: Sie werden direkt an das folgende Wort angehängt.",
+          "arabicExamples": [
+            {
+              "arabic": "بِسْمِ اللَّهِ",
+              "transliteration": "bismi llāhi",
+              "meaning": "Im/Mit dem Namen Gottes (1:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+            },
+            {
+              "arabic": "لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+              "transliteration": "li-llāhi mā fī s-samāwāti wa-mā fī l-arḍi",
+              "meaning": "Gott gehört, was in den Himmeln und auf der Erde ist (2:284)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=284"
+            },
+            {
+              "arabic": "وَإِيَّاكَ نَسْتَعِينُ",
+              "transliteration": "wa-iyyāka nastaʿīnu",
+              "meaning": "Und Dich bitten wir um Hilfe (1:5) — hier ohne بِ, aber Vergleich: نَسْتَعِينُ بِاللَّهِ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die Kernpräpositionen: فِي, عَلَى, مِنْ, إِلَى, عَنْ",
+          "content": "فِي (fī) = in, innerhalb. Räumlich (فِي الْأَرْضِ = auf/in der Erde), zeitlich (فِي يَوْمَيْنِ = in zwei Tagen), metaphorisch (فِي شَكٍّ = im Zweifel). عَلَى (ʿalā) = auf, über, gegen. Räumlich (عَلَى الْعَرْشِ = auf dem Thron), metaphorisch (عَلَى قُلُوبِهِمْ = auf ihren Herzen), Verpflichtung (عَلَيْكُمُ الصِّيَامُ = euch obliegt das Fasten). مِنْ (min) = von, aus, seit. Räumlich (مِنَ السَّمَاءِ = vom Himmel), partitiv (مِنْهُمْ = von ihnen / einige von ihnen), explikativ (مَا نَنسَخْ مِنْ آيَةٍ = was Wir an Versen aufheben). إِلَى (ilā) = zu, bis, hin zu. Räumlich (إِلَى اللَّهِ = zu Gott hin), zeitlich (إِلَى يَوْمِ الْقِيَامَةِ = bis zum Tag der Auferstehung). عَنْ (ʿan) = von ... weg, über, wegen. Trennung (عَنِ الصَّلَاةِ = von der Zuwendung weg), Thema (يَسْأَلُونَكَ عَنِ = sie fragen dich über).",
+          "arabicExamples": [
+            {
+              "arabic": "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ",
+              "transliteration": "khatama llāhu ʿalā qulūbihim",
+              "meaning": "Gott hat ihre Herzen versiegelt (2:7)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "arabic": "أَنزَلَ مِنَ السَّمَاءِ مَاءً",
+              "transliteration": "anzala mina s-samāʾi māʾan",
+              "meaning": "Er sandte vom Himmel Wasser herab (2:22)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+            },
+            {
+              "arabic": "يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ",
+              "transliteration": "yasʾalūnaka ʿani l-ahillati",
+              "meaning": "Sie fragen dich über die Neumonde (2:189)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Orts- und Zeitpräpositionen: عِنْدَ, بَيْنَ, فَوْقَ, تَحْتَ, مَعَ, مُنْذُ, خَلْفَ, قَبْلَ, بَعْدَ, دُونَ, حَوْلَ",
+          "content": "Diese Präpositionen sind eigentlich Substantive im Status constructus (ظَرْف), die wie Präpositionen funktionieren und Genitiv regieren. Jede hat ein volles Bedeutungsspektrum:\n\nعِنْدَ (ʿinda): Räumlich = bei, in der Nähe von (عِنْدَ الْمَسْجِدِ الْحَرَامِ, 2:191). Metaphorisch = bei Gott, in Gottes Wissen (عِنْدَ اللَّهِ, 3:169). Besitz/Verfügung = in jemandes Besitz (وَعِنْدَهُمُ الْكِتَابُ, 2:144).\n\nبَيْنَ (bayna): Räumlich = zwischen (بَيْنَهُمَا = zwischen ihnen beiden). Zeitlich = inmitten einer Zeitspanne. Metaphorisch = Beziehung (يُفَرِّقُونَ بَيْنَ الْمَرْءِ وَزَوْجِهِ, 2:102 — sie trennen zwischen Mann und Frau).\n\nفَوْقَ (fawqa): Räumlich = über, oberhalb (مِنْ فَوْقِهِمْ, 16:26). Metaphorisch = überlegen, mächtiger (وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ, 6:18 — Er ist der Bezwinger über Seinen Dienern). Steigerung = darüber hinaus (فَمَا فَوْقَهَا, 2:26).\n\nتَحْتَ (taḥta): Räumlich = unter (تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ, 2:25). Metaphorisch = untergeordnet. Temporal = تَحْتَهَا beschreibt Wasserläufe die permanent unter den Gärten fließen.\n\nمَعَ (maʿa): Begleitung = mit, zusammen mit (إِنَّ اللَّهَ مَعَ الصَّابِرِينَ, 2:153). Zeitlich = gleichzeitig mit. Metaphorisch = auf der Seite von (كُونُوا مَعَ الصَّادِقِينَ, 9:119 — seid mit den Wahrhaftigen).\n\nمُنْذُ (mundhu): Zeitlich = seit (einem Zeitpunkt). Selten im Quran, häufiger im klassischen Arabisch. Regiert Genitiv.\n\nخَلْفَ (khalfa): Räumlich = hinter (وَيَذَرُونَ وَرَاءَهُمْ يَوْمًا ثَقِيلًا, 76:27 — verwandt mit وَرَاءَ). Metaphorisch = nach jemandem, als Nachfolger. Temporal = nach (im Sinne von zurücklassen).\n\nقَبْلَ (qabla): Zeitlich = vor (مِنْ قَبْلِكَ, 2:4 — vor dir). Metaphorisch = Rang/Vorrang. Im Quran fast immer temporal.\n\nبَعْدَ (baʿda): Zeitlich = nach (مِنْ بَعْدِ مَا جَاءَهُمُ الْعِلْمُ, 3:19 — nachdem das Wissen zu ihnen kam). Metaphorisch = trotz (مِنْ بَعْدِ ذَلِكَ, 2:52). Ranglich = jenseits von.\n\nدُونَ (dūna): Räumlich = unterhalb von, diesseits von. Metaphorisch = außer, anstelle von (مِنْ دُونِ اللَّهِ, 2:23 — außer Gott). Wertung = geringer als.\n\nحَوْلَ (ḥawla): Räumlich = um herum (وَمِمَّنْ حَوْلَكُمْ مِنَ الْأَعْرَابِ, 9:101 — unter den Beduinen um euch herum). Metaphorisch = bezüglich, hinsichtlich.",
+          "arabicExamples": [
+            {
+              "arabic": "تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ",
+              "transliteration": "tajrī min taḥtihā l-anhāru",
+              "meaning": "Unter denen Flüsse strömen (2:25)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+            },
+            {
+              "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+              "transliteration": "inna llāha maʿa ṣ-ṣābirīna",
+              "meaning": "Wahrlich, Gott ist mit den Geduldigen (2:153)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153"
+            },
+            {
+              "arabic": "مِن دُونِ اللَّهِ",
+              "transliteration": "min dūni llāhi",
+              "meaning": "Außer/anstelle von Gott (2:23)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+            },
+            {
+              "arabic": "مِن قَبْلِكَ",
+              "transliteration": "min qablika",
+              "meaning": "Vor dir (zeitlich) (2:4)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=191"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: أَنزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَّكُمْ (2:22)",
+            "Schritt 1: مِنَ السَّمَاءِ — مِنْ + Genitiv السَّمَاءِ (erkennbar an Kasra). Räumliche Bedeutung: ‚vom Himmel herab'.",
+            "Schritt 2: بِهِ — بِ + Pronominalsuffix هِ (= ihm, bezieht sich auf مَاءً). Instrumentale Bedeutung: ‚mittels dessen / damit'.",
+            "Schritt 3: مِنَ الثَّمَرَاتِ — مِنْ hat hier partitive Bedeutung: ‚an Früchten / von den Früchten'. Nicht ‚vom Ort der Früchte', sondern ‚einige Früchte als...'",
+            "Schritt 4: لَّكُمْ — لِ + Pronominalsuffix كُمْ. Nutznießer-Bedeutung: ‚für euch'.",
+            "Schritt 5: Ein einziger Vers enthält vier Präpositionen mit drei verschiedenen Funktionen: räumlich (مِنَ السَّمَاءِ), instrumental (بِهِ), partitiv (مِنَ الثَّمَرَاتِ) und benefaktiv (لَّكُمْ)."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "1:1",
+              "word": "بِسْمِ",
+              "analysis": "بِ + اسْم im Genitiv (Kasra auf م). Die Basmala beginnt mit einer Präpositionalphrase — بِسْمِ اللَّهِ ist ein präpositionaler Ausdruck ohne explizites Verb. بِ hat hier instrumentale oder begleitende Bedeutung ('Im/Mit Namen Gottes').",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+            },
+            {
+              "location": "2:7",
+              "word": "عَلَىٰ قُلُوبِهِمْ",
+              "analysis": "عَلَى = auf. قُلُوبِ steht im Genitiv (Kasra). Metaphorische Bedeutung: Das Siegel liegt ‚auf' ihren Herzen — nicht physisch, sondern bildlich für geistige Verschlossenheit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+            },
+            {
+              "location": "2:25",
+              "word": "مِن تَحْتِهَا",
+              "analysis": "Doppelte Präposition: مِنْ + تَحْتِ + هَا. تَحْتِ ist ein Orts-Substantiv im Genitiv (wegen مِنْ), und das Pronominalsuffix هَا bezieht sich auf die Gärten. ‚Von unter ihnen = unter denen.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+            },
+            {
+              "location": "2:284",
+              "word": "لِلَّهِ",
+              "analysis": "لِ + اللَّهِ. Die Präposition لِ drückt Besitz aus: ‚Gott gehört (alles)'. لِ verschmilzt mit dem Artikel الـ zu لِلَّـ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=284"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welchen Kasus regieren alle arabischen Präpositionen?",
+          "options": [
+            "Nominativ (مَرْفُوع)",
+            "Akkusativ (مَنْصُوب)",
+            "Genitiv (مَجْرُور)",
+            "Jussiv (مَجْزُوم)"
+          ],
+          "answer": "Genitiv (مَجْرُور)",
+          "explanation": "Alle Präpositionen (حُرُوف الجَرّ) regieren den Genitiv (مَجْرُور). Das Wort ‚jarr' (جَرّ) bedeutet wörtlich ‚Ziehen' — die Präposition ‚zieht' das Nomen in den Genitiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Funktion hat مِنْ in dem Ausdruck مِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ (24:45)?",
+          "options": [
+            "Räumlich: ‚von einem Ort'",
+            "Partitiv: ‚unter ihnen / einige von ihnen'",
+            "Zeitlich: ‚seit'",
+            "Kausal: ‚wegen ihnen'"
+          ],
+          "answer": "Partitiv: ‚unter ihnen / einige von ihnen'",
+          "explanation": "مِنْهُم hat hier partitive Bedeutung: ‚Unter ihnen gibt es welche, die auf ihrem Bauch gehen.' مِنْ teilt eine Gruppe in Untergruppen auf.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=45"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die korrekte Präposition: خَتَمَ اللَّهُ ___ قُلُوبِهِمْ (2:7) — ‚Gott hat ___ ihren Herzen versiegelt.'",
+          "options": [
+            "فِي",
+            "عَلَى",
+            "مِنْ",
+            "إِلَى"
+          ],
+          "answer": "عَلَى",
+          "explanation": "عَلَى (ʿalā) = auf. Das Siegel liegt ‚auf' den Herzen. فِي (in) würde bedeuten, das Siegel sei innerhalb der Herzen — عَلَى zeigt ein Siegel, das von außen verschließt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die Präpositionen ihrer Grundbedeutung zu: 1) فِي  2) عَنْ  3) إِلَى  4) دُونَ",
+          "options": [
+            "1→in, 2→von...weg/über, 3→zu/bis, 4→außer/anstelle von",
+            "1→auf, 2→für, 3→von, 4→mit",
+            "1→zu, 2→in, 3→über, 4→von",
+            "1→mit, 2→auf, 3→zwischen, 4→unter"
+          ],
+          "answer": "1→in, 2→von...weg/über, 3→zu/bis, 4→außer/anstelle von",
+          "explanation": "فِي = in/innerhalb, عَنْ = von...weg oder über (Thema), إِلَى = zu/bis (Richtung/Endpunkt), دُونَ = außer, anstelle von, unterhalb von.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "In بِسْمِ اللَّهِ (1:1) — welche Funktion hat بِ hier?",
+          "options": [
+            "Schwur: ‚Bei dem Namen Gottes'",
+            "Instrumental/Begleitung: ‚Mit/Im Namen Gottes'",
+            "Kausal: ‚Wegen des Namens Gottes'",
+            "Lokal: ‚Am Ort des Namens Gottes'"
+          ],
+          "answer": "Instrumental/Begleitung: ‚Mit/Im Namen Gottes'",
+          "explanation": "بِ hat in der Basmala instrumentale/begleitende Bedeutung: ‚Im Namen Gottes' oder ‚Mit dem Namen Gottes.' Die Wendung steht als eigenständige Präpositionalphrase ohne explizites Verb.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet مِنْ دُونِ اللَّهِ (z.B. 2:23)?",
+          "options": [
+            "Unter Gott (räumlich niedriger)",
+            "Von Gott (Herkunft)",
+            "Außer Gott / anstelle von Gott",
+            "Mit Gott zusammen"
+          ],
+          "answer": "Außer Gott / anstelle von Gott",
+          "explanation": "مِنْ دُونِ اللَّهِ ist eine feste quranische Wendung, die ‚außer Gott' oder ‚anstelle von Gott' bedeutet. دُونَ bedeutet wörtlich ‚unterhalb von', aber im übertragenen Sinne ‚etwas anderes als, anstelle von'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet بَيْنَ in بَيْنَهُمْ?",
+          "options": [
+            "zwischen ihnen",
+            "über ihnen",
+            "unter ihnen",
+            "neben ihnen"
+          ],
+          "answer": "zwischen ihnen",
+          "explanation": "بَيْنَ bedeutet 'zwischen' und regiert wie alle Präpositionen den Genitiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Präposition bedeutet 'vor' (zeitlich)?",
+          "options": [
+            "قَبْلَ",
+            "بَعْدَ",
+            "عِنْدَ",
+            "حَوْلَ"
+          ],
+          "answer": "قَبْلَ",
+          "explanation": "قَبْلَ = vor (zeitlich/räumlich). بَعْدَ = nach. عِنْدَ = bei. حَوْلَ = um...herum.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die Präpositionen ihren Bedeutungen zu:",
+          "pairs": [
+            {
+              "term": "فَوْقَ",
+              "match": "über/oberhalb"
+            },
+            {
+              "term": "تَحْتَ",
+              "match": "unter/unterhalb"
+            },
+            {
+              "term": "خَلْفَ",
+              "match": "hinter"
+            },
+            {
+              "term": "مَعَ",
+              "match": "mit/zusammen mit"
+            },
+            {
+              "term": "حَوْلَ",
+              "match": "um...herum"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §31-40",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.3",
+    "title": "Negationspartikeln",
+    "description": "Die acht wichtigsten Verneinungswörter im Quran: لَا, مَا, لَمْ, لَمَّا, لَنْ, إِلَّا, لَيْسَ und غَيْر — ihre grammatischen Auswirkungen und feinen Bedeutungsunterschiede.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Negation im Arabischen",
+          "content": "Die arabische Sprache hat ein differenziertes System der Verneinung. Während das Deutsche meist mit ‚nicht' und ‚kein' auskommt, unterscheidet das Arabische acht verschiedene Negationspartikeln, die sich in Zeitbezug, grammatischer Auswirkung und Nuance unterscheiden. لَا verneint die Gegenwart/Zukunft, لَمْ die Vergangenheit (mit Jussiv), لَنْ die Zukunft kategorisch (mit Subjunktiv), مَا verneint allgemein, لَمَّا sagt ‚noch nicht' (mit Jussiv), لَيْسَ verneint nominal, und غَيْر drückt ‚anders als / nicht' aus. إِلَّا ist die Ausnahme-Partikel (‚außer'). Das Erkennen der richtigen Negationspartikel ist entscheidend für das Verständnis quranischer Aussagen.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+              "transliteration": "lā ilāha illā llāhu",
+              "meaning": "Es gibt keinen Gott außer Gott"
+            },
+            {
+              "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+              "transliteration": "lam yalid wa-lam yūlad",
+              "meaning": "Er hat nicht gezeugt und ist nicht gezeugt worden (112:3)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "لَا — Die vielseitigste Negation",
+          "content": "لَا ist die häufigste Negationspartikel und hat mehrere Funktionen: 1) Vor Imperfekt-Verb: verneint Gegenwart/Zukunft ohne Modusänderung (لَا يَعْلَمُونَ = sie wissen nicht). 2) Vor Imperfekt-Verb im Jussiv: Verbot (لَا تَقْرَبُوا = nähert euch nicht!). 3) لَا + Nomen im Akkusativ: Gattungsverneinung (لَا إِلَٰهَ = es gibt keinen Gott — verneint die gesamte Gattung). Dies nennt man لَا النَّافِيَة لِلْجِنْس. 4) لَا als Antwort: einfaches ‚Nein'. Die Gattungsverneinung (لَا + Akkusativ) ist besonders wichtig im Quran: لَا رَيْبَ فِيهِ (kein Zweifel ist darin, 2:2).",
+          "arabicExamples": [
+            {
+              "arabic": "لَا رَيْبَ فِيهِ",
+              "transliteration": "lā rayba fīhi",
+              "meaning": "Kein Zweifel ist darin (2:2) — Gattungsverneinung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "arabic": "لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ",
+              "transliteration": "lā taqrabū ṣ-ṣalāta wa-antum sukārā",
+              "meaning": "Nähert euch nicht der Zuwendung, wenn ihr betrunken seid (4:43) — Verbot",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+            },
+            {
+              "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+              "transliteration": "lā yukallifu llāhu nafsan illā wusʿahā",
+              "meaning": "Gott bürdet keinem Selbst mehr auf als sie tragen kann (2:286)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "type": "explanation",
+          "title": "مَا, لَمْ, لَمَّا und لَنْ — Zeitspezifische Negation",
+          "content": "مَا (mā) verneint allgemein: Vor Perfekt-Verb verneint مَا die Vergangenheit (مَا كَذَبَ = er hat nicht gelogen, 53:11). Vor Imperfekt steht مَا seltener und verneint die Gegenwart. مَا kann auch als Ḥijāzī-مَا wie لَيْسَ wirken (مَا هَٰذَا بَشَرًا = dies ist kein Mensch, 12:31). لَمْ (lam) verneint die Vergangenheit und löst den Jussiv aus: لَمْ يَلِدْ = er hat nicht gezeugt (112:3). Das Verb steht im Imperfekt, aber die Bedeutung ist Vergangenheit! لَمَّا (lammā) bedeutet ‚noch nicht' — die Handlung ist bis zum Sprechzeitpunkt nicht eingetreten, könnte aber noch: لَمَّا يَدْخُلِ الْإِيمَانُ فِي قُلُوبِكُمْ = der Glaube ist noch nicht in eure Herzen eingetreten (49:14). Auch لَمَّا löst Jussiv aus. لَنْ (lan) verneint die Zukunft kategorisch und löst den Subjunktiv aus: لَنْ تَرَانِي = du wirst mich keinesfalls sehen (7:143).",
+          "arabicExamples": [
+            {
+              "arabic": "مَا كَذَبَ الْفُؤَادُ مَا رَأَىٰ",
+              "transliteration": "mā kadhaba l-fuʾādu mā raʾā",
+              "meaning": "Das Herz hat nicht gelogen über das, was es sah (53:11)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=11"
+            },
+            {
+              "arabic": "لَمْ يَكُن شَيْئًا مَّذْكُورًا",
+              "transliteration": "lam yakun shayʾan madhkūran",
+              "meaning": "Er war nichts Erwähnenswertes (76:1) — لَمْ + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+            },
+            {
+              "arabic": "لَمَّا يَذُوقُوا عَذَابِ",
+              "transliteration": "lammā yadhūqū ʿadhābi",
+              "meaning": "Sie haben Meine Strafe noch nicht gekostet (38:8)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=8"
+            },
+            {
+              "arabic": "لَن تَنَالُوا الْبِرَّ حَتَّىٰ تُنفِقُوا",
+              "transliteration": "lan tanālū l-birra ḥattā tunfiqū",
+              "meaning": "Ihr werdet die Güte keinesfalls erlangen, bis ihr spendet (3:92)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=92"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=11"
+        },
+        {
+          "type": "explanation",
+          "title": "إِلَّا, لَيْسَ und غَيْر — Ausnahme und nominale Verneinung",
+          "content": "إِلَّا (illā) bedeutet ‚außer' und bildet Ausnahmen: لَا إِلَٰهَ إِلَّا اللَّهُ = kein Gott außer Gott. Nach einer vollständigen Verneinung steht das Ausgenommene im selben Kasus wie das Verneinte. لَيْسَ (laysa) ist ein defektives Verb (‚nicht sein'), das wie كَانَ funktioniert: Das Subjekt steht im Nominativ, das Prädikat im Akkusativ. لَيْسَ الْبِرَّ أَن تُوَلُّوا = Frömmigkeit ist nicht, dass ihr euch wendet (2:177). غَيْر (ghayr) bedeutet ‚anders als, nicht' und steht als Nomen im Genitiv-Konstrukt: غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ = nicht derer, auf die (Gottes) Zorn gefallen ist (1:7). غَيْر nimmt den Kasus seiner syntaktischen Rolle an und das folgende Nomen steht im Genitiv.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا إِلَٰهَ إِلَّا هُوَ",
+              "transliteration": "lā ilāha illā huwa",
+              "meaning": "Es gibt keinen Gott außer Ihm (2:163)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=163"
+            },
+            {
+              "arabic": "لَيْسَ الْبِرَّ أَن تُوَلُّوا وُجُوهَكُمْ",
+              "transliteration": "laysa l-birra an tuwallū wujūhakum",
+              "meaning": "Frömmigkeit ist nicht, dass ihr eure Gesichter wendet (2:177)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+            },
+            {
+              "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+              "transliteration": "ghayri l-maghḍūbi ʿalayhim wa-lā ḍ-ḍāllīna",
+              "meaning": "Nicht derer, auf die Zorn gefallen ist, und nicht der Irregehenden (1:7)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: لَمْ يَلِدْ وَلَمْ يُولَدْ · وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ (112:3-4)",
+            "Schritt 1: لَمْ يَلِدْ — لَمْ verneint die Vergangenheit. يَلِدُ (Imperfekt) wird zu يَلِدْ (Jussiv: das Ḍamma fällt weg). Bedeutung: ‚Er hat nicht gezeugt.'",
+            "Schritt 2: وَلَمْ يُولَدْ — Wieder لَمْ + Jussiv. يُولَدُ (Passiv-Imperfekt) wird zu يُولَدْ. Bedeutung: ‚Und Er ist nicht gezeugt worden.'",
+            "Schritt 3: وَلَمْ يَكُن — يَكُونُ (Imperfekt von كَانَ) wird zu يَكُنْ (Jussiv: das Wāw fällt weg, da es ein hohles Verb ist). Bedeutung: ‚Und es ist nicht...'",
+            "Schritt 4: لَّهُ كُفُوًا أَحَدٌ — لِ + هُ = ihm. أَحَدٌ ist das Subjekt (Nominativ), كُفُوًا ist das Prädikat (Akkusativ, weil كَانَ). ‚Keiner ist Ihm ebenbürtig.'",
+            "Schritt 5: Dreimal لَمْ in zwei Versen — dreimal Jussiv. Die konsequente Verwendung von لَمْ (statt z.B. مَا) betont die historische Faktizität: Es ist niemals geschehen und ist eine abgeschlossene Tatsache."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:2",
+              "word": "لَا رَيْبَ",
+              "analysis": "لَا als Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس): رَيْبَ steht im Akkusativ (Fatḥa). Die gesamte Gattung ‚Zweifel' wird verneint — nicht nur ein bestimmter Zweifel, sondern jeglicher Zweifel.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "location": "112:3",
+              "word": "لَمْ يَلِدْ",
+              "analysis": "لَمْ + Jussiv: Das Imperfekt-Verb يَلِدُ verliert sein End-Ḍamma und wird zu يَلِدْ. لَمْ verneint die Vergangenheit, obwohl die Verbform Imperfekt ist — ein häufiger Stolperstein für Anfänger.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+            },
+            {
+              "location": "49:14",
+              "word": "وَلَمَّا يَدْخُلِ",
+              "analysis": "لَمَّا = noch nicht. Im Unterschied zu لَمْ (‚hat nicht') impliziert لَمَّا, dass das Ereignis noch eintreten könnte. Der Glaube ist noch nicht eingetreten, aber es besteht noch Hoffnung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=14"
+            },
+            {
+              "location": "7:143",
+              "word": "لَن تَرَىٰنِى",
+              "analysis": "لَنْ + Subjunktiv: تَرَى wird zu تَرَانِي (Subjunktiv, wobei bei diesem Verb das Alif erhalten bleibt). لَنْ verneint die Zukunft kategorisch: ‚Du wirst mich keinesfalls sehen.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Negationspartikel löst den Subjunktiv aus und verneint die Zukunft kategorisch?",
+          "options": [
+            "لَا",
+            "لَمْ",
+            "لَنْ",
+            "مَا"
+          ],
+          "answer": "لَنْ",
+          "explanation": "لَنْ (lan) verneint die Zukunft kategorisch (‚keinesfalls werden') und löst den Subjunktiv (مَنْصُوب) auf das folgende Imperfekt-Verb aus. Beispiel: لَنْ تَرَانِي = du wirst mich keinesfalls sehen (7:143).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Art der Verneinung liegt in لَا رَيْبَ فِيهِ (2:2) vor?",
+          "options": [
+            "Einfache Verneinung des Verbs",
+            "Verbot (لَا + Jussiv)",
+            "Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس)",
+            "Ausnahme mit إِلَّا"
+          ],
+          "answer": "Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس)",
+          "explanation": "لَا رَيْبَ ist eine Gattungsverneinung: لَا verneint die gesamte Gattung ‚Zweifel'. رَيْبَ steht im Akkusativ (Fatḥa auf dem Bāʾ), was typisch für diese Konstruktion ist. Es wird jeglicher Zweifel kategorisch ausgeschlossen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die korrekte Negationspartikel: ___ يَلِدْ وَ___ يُولَدْ (112:3)",
+          "options": [
+            "مَا ... مَا",
+            "لَمْ ... لَمْ",
+            "لَا ... لَا",
+            "لَنْ ... لَنْ"
+          ],
+          "answer": "لَمْ ... لَمْ",
+          "explanation": "لَمْ verneint hier die Vergangenheit und versetzt die Verben in den Jussiv: يَلِدُ → يَلِدْ, يُولَدُ → يُولَدْ. Die Vergangenheitsverneinung passt zum Kontext: Gott hat niemals gezeugt und wurde nie gezeugt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Was ist der Unterschied zwischen لَمْ und لَمَّا?",
+          "options": [
+            "لَمْ verneint die Zukunft, لَمَّا die Vergangenheit",
+            "لَمْ verneint abgeschlossen (hat nicht), لَمَّا verneint fortdauernd (noch nicht)",
+            "لَمْ löst den Subjunktiv aus, لَمَّا den Jussiv",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": "لَمْ verneint abgeschlossen (hat nicht), لَمَّا verneint fortdauernd (noch nicht)",
+          "explanation": "Beide lösen den Jussiv aus, aber لَمْ verneint eine abgeschlossene Tatsache (‚hat nicht getan'), während لَمَّا bedeutet ‚hat noch nicht getan' — die Handlung könnte noch eintreten. لَمَّا يَدْخُلِ الْإِيمَانُ = der Glaube ist noch nicht eingetreten (49:14).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=14"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Negationspartikel ihrer Zeitreferenz und Modusauswirkung zu: 1) لَمْ  2) لَنْ  3) لَا (vor Verb)  4) مَا (vor Perfekt)",
+          "options": [
+            "1→Vergangenheit/Jussiv, 2→Zukunft/Subjunktiv, 3→Gegenwart-Zukunft/kein Moduswechsel, 4→Vergangenheit/kein Moduswechsel",
+            "1→Zukunft/Subjunktiv, 2→Vergangenheit/Jussiv, 3→Vergangenheit/kein Moduswechsel, 4→Gegenwart/kein Moduswechsel",
+            "1→Gegenwart/Jussiv, 2→Gegenwart/Subjunktiv, 3→Zukunft/kein Moduswechsel, 4→Zukunft/kein Moduswechsel",
+            "1→Vergangenheit/Subjunktiv, 2→Zukunft/Jussiv, 3→Gegenwart/kein Moduswechsel, 4→Vergangenheit/kein Moduswechsel"
+          ],
+          "answer": "1→Vergangenheit/Jussiv, 2→Zukunft/Subjunktiv, 3→Gegenwart-Zukunft/kein Moduswechsel, 4→Vergangenheit/kein Moduswechsel",
+          "explanation": "لَمْ = Vergangenheit + Jussiv, لَنْ = Zukunft + Subjunktiv, لَا vor Imperfekt = Gegenwart/Zukunft ohne Modusänderung, مَا vor Perfekt = Vergangenheit ohne Modusänderung (Perfekt hat keinen Modus).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ (1:7) — warum steht غَيْرِ im Genitiv?",
+          "options": [
+            "Weil غَيْر immer im Genitiv steht",
+            "Weil غَيْر ein Adjektiv zu صِرَاطَ ist",
+            "Weil غَيْر als Eigenschaft von الَّذِينَ den Genitiv übernimmt (Apposition/Sifa)",
+            "Weil eine Präposition davor steht"
+          ],
+          "answer": "Weil غَيْر als Eigenschaft von الَّذِينَ den Genitiv übernimmt (Apposition/Sifa)",
+          "explanation": "غَيْرِ steht als Eigenschaft (بَدَل oder صِفَة) von الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ, das im Genitiv steht (wegen صِرَاطَ الَّذِينَ). غَيْر übernimmt diesen Genitiv und regiert seinerseits الْمَغْضُوبِ im Genitiv (Iḍāfa).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Negationspartikel verneint einen Nominalsatz und setzt das Prädikat in den Akkusativ?",
+          "options": [
+            "لَيْسَ",
+            "لَا",
+            "مَا",
+            "لَمْ"
+          ],
+          "answer": "لَيْسَ",
+          "explanation": "لَيْسَ funktioniert wie eine Schwester von كَانَ: Das Subjekt bleibt im Nominativ, das Prädikat wird Akkusativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Partikel drückt eine Ausnahme aus ('außer')?",
+          "options": [
+            "إِلَّا",
+            "غَيْر",
+            "Beide können Ausnahme ausdrücken",
+            "لَيْسَ"
+          ],
+          "answer": "Beide können Ausnahme ausdrücken",
+          "explanation": "Sowohl إِلَّا als auch غَيْر drücken Ausnahme aus. إِلَّا ist eine Partikel, غَيْر ein Nomen (steht im Genitiv als Iḍāfa).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-175",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.16"
+    ]
+  },
+  {
+    "id": "4.4",
+    "title": "Modus-auslösende Partikeln",
+    "description": "Partikeln, die den Modus des Imperfekt-Verbs ändern: Subjunktiv-auslösende Partikeln (أَنْ, لَنْ, كَيْ, حَتَّى, لِ, فَ) und Jussiv-auslösende Partikeln (لَمْ, لَمَّا, لِ, لَا, إِنْ). Die Schlüsselfrage: Steht eine Modus-Partikel vor dem Imperfekt?",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Die drei Modi des Imperfekt-Verbs",
+          "content": "Das arabische Imperfekt-Verb (الفِعْل المُضَارِع) kennt drei Modi: 1) Indikativ (مَرْفُوع): Grundform, Endung -u. Steht, wenn keine Modus-Partikel vorausgeht. 2) Subjunktiv (مَنْصُوب): Endung -a. Wird durch bestimmte Partikeln ausgelöst (حُرُوف النَّصْب). 3) Jussiv (مَجْزُوم): Endung wird abgeschnitten (Sukūn oder Wegfall schwacher Buchstaben). Wird durch bestimmte Partikeln ausgelöst (حُرُوف الجَزْم). Die Frage, die du bei jedem Imperfekt-Verb im Quran stellen musst: Steht eine Modus-Partikel davor? Wenn ja — welche, und welchen Modus löst sie aus? Wenn nein — steht das Verb im Indikativ.",
+          "arabicExamples": [
+            {
+              "arabic": "يَعْلَمُ (Indikativ) → لَنْ يَعْلَمَ (Subjunktiv) → لَمْ يَعْلَمْ (Jussiv)",
+              "transliteration": "yaʿlamu → lan yaʿlama → lam yaʿlam",
+              "meaning": "er weiß → er wird keinesfalls wissen → er hat nicht gewusst"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Subjunktiv-Partikeln (حُرُوف النَّصْب)",
+          "content": "Sechs Partikeln lösen den Subjunktiv aus: 1) أَنْ (an) = dass, zu. Die häufigste: أُرِيدُ أَنْ أَذْهَبَ = ich will gehen (wörtl. ‚dass ich gehe'). 2) لَنْ (lan) = keinesfalls werden. Kategorische Zukunftsverneinung: لَنْ نُؤْمِنَ = wir werden keinesfalls glauben. 3) كَيْ (kay) = damit, um zu. Zweck: لِكَيْ لَا تَأْسَوْا = damit ihr nicht trauert (57:23). 4) حَتَّى (ḥattā) = bis, damit. Zeitliche Grenze oder Zweck: حَتَّى يَأْتِيَهُمُ = bis es zu ihnen kommt. 5) لِ (li) = um zu. Zweck-Lām vor Imperfekt: لِيَغْفِرَ لَكَ اللَّهُ = damit Gott dir vergebe (48:2). 6) فَ (fa) = so dass. Die kausale فَاء nach Verneinung, Befehl oder Wunsch: لَا تَكْسَلْ فَتَنْدَمَ = sei nicht faul, sonst wirst du bereuen.",
+          "arabicExamples": [
+            {
+              "arabic": "أَن يَغْفِرَ لِي خَطِيئَتِي",
+              "transliteration": "an yaghfira lī khaṭīʾatī",
+              "meaning": "Dass Er mir meine Verfehlung vergebe (26:82)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=82"
+            },
+            {
+              "arabic": "لِيَغْفِرَ لَكَ اللَّهُ",
+              "transliteration": "li-yaghfira laka llāhu",
+              "meaning": "Damit Gott dir vergebe (48:2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+            },
+            {
+              "arabic": "حَتَّىٰ يَأْتِيَكَ الْيَقِينُ",
+              "transliteration": "ḥattā yaʾtiyaka l-yaqīnu",
+              "meaning": "Bis die Gewissheit zu dir kommt (15:99)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=99"
+            },
+            {
+              "arabic": "لَنْ نُؤْمِنَ لَكَ",
+              "transliteration": "lan nuʾmina laka",
+              "meaning": "Wir werden dir keinesfalls glauben (2:55)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=23"
+        },
+        {
+          "type": "explanation",
+          "title": "Jussiv-Partikeln (حُرُوف الجَزْم)",
+          "content": "Fünf Partikeln lösen den Jussiv aus: 1) لَمْ (lam) = hat nicht. Vergangenheitsverneinung: لَمْ يَكُنْ = er war nicht. 2) لَمَّا (lammā) = noch nicht. Fortdauernde Verneinung: لَمَّا يَقْضِ = er hat noch nicht erfüllt (80:23). 3) لِ (li) = er soll / möge. Befehl an die 3. Person: لِيُنفِقْ = er soll ausgeben (65:7). Dies ist das Lām des Befehls (لَام الأمر). 4) لَا (lā) = tu nicht! Verbot (النَّهي): لَا تَقْتُلُوا = tötet nicht! Das Verb steht im Jussiv. 5) إِنْ (in) = wenn (Bedingungspartikel): إِنْ تُطِعْهُمْ = wenn ihr ihnen gehorcht. Bei Bedingungssätzen stehen sowohl Bedingungs- als auch Antwortsatz im Jussiv.",
+          "arabicExamples": [
+            {
+              "arabic": "لَمْ يَكُن شَيْئًا مَّذْكُورًا",
+              "transliteration": "lam yakun shayʾan madhkūran",
+              "meaning": "Er war nichts Erwähnenswertes (76:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+            },
+            {
+              "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ",
+              "transliteration": "li-yunfiq dhū saʿatin min saʿatihi",
+              "meaning": "Der Wohlhabende soll von seinem Wohlstand ausgeben (65:7)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+            },
+            {
+              "arabic": "لَا تَقْتُلُوا النَّفْسَ",
+              "transliteration": "lā taqtulū n-nafsa",
+              "meaning": "Tötet nicht das Selbst (6:151) — Verbot im Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+            },
+            {
+              "arabic": "إِن يَمْسَسْكُمْ قَرْحٌ",
+              "transliteration": "in yamsaskum qarḥun",
+              "meaning": "Wenn euch eine Wunde trifft (3:140) — Bedingung im Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=140"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=23"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: لِيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ (48:2)",
+            "Schritt 1: Finde das Imperfekt-Verb: يَغْفِرَ (vergeben). Es endet auf -a (Fatḥa) — das ist Subjunktiv!",
+            "Schritt 2: Was steht davor? لِ (li). Dieses لِ ist das Zweck-Lām (لَام التعليل), das den Subjunktiv auslöst.",
+            "Schritt 3: Ohne لِ stünde das Verb im Indikativ: يَغْفِرُ (mit Ḍamma). Mit لِ wird es zu يَغْفِرَ (mit Fatḥa).",
+            "Schritt 4: Übersetzung: ‚Damit Gott dir vergebe, was von deinen Verfehlungen vorausgegangen ist und was nachfolgt.'",
+            "Schritt 5: Vergleiche mit لِيُنفِقْ (65:7), wo لِ den Jussiv auslöst — dort ist لِ ein Befehls-Lām (لَام الأمر), kein Zweck-Lām. Der Unterschied: Zweck-Lām → Subjunktiv, Befehls-Lām → Jussiv."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "48:2",
+              "word": "لِيَغْفِرَ",
+              "analysis": "لِ (Zweck-Lām) + يَغْفِرَ (Subjunktiv, Fatḥa). ‚Damit Er vergebe.' Das Zweck-Lām löst den Subjunktiv aus und gibt den Grund/Zweck der vorherigen Handlung an.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+            },
+            {
+              "location": "65:7",
+              "word": "لِيُنفِقْ",
+              "analysis": "لِ (Befehls-Lām) + يُنفِقْ (Jussiv, Sukūn). ‚Er soll ausgeben.' Das Befehls-Lām löst den Jussiv aus und drückt einen indirekten Befehl an die 3. Person aus — da der Imperativ nur für die 2. Person existiert.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+            },
+            {
+              "location": "6:151",
+              "word": "وَلَا تَقْتُلُوٓا",
+              "analysis": "لَا (Verbots-Partikel) + تَقْتُلُوا (Jussiv). Im Indikativ wäre es تَقْتُلُونَ — das Nūn fällt im Jussiv der fünf Sonderformen weg. ‚Tötet nicht!' — ein Verbotssatz.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+            },
+            {
+              "location": "15:99",
+              "word": "حَتَّىٰ يَأْتِيَكَ",
+              "analysis": "حَتَّى + يَأْتِيَ (Subjunktiv). Im Indikativ wäre es يَأْتِي — das finale Yāʾ bleibt, aber der Vokal ändert sich zu Fatḥa. ‚Bis die Gewissheit zu dir kommt' — حَتَّى gibt die zeitliche Grenze an.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=99"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welchen Modus löst أَنْ auf das folgende Imperfekt-Verb aus?",
+          "options": [
+            "Indikativ (مَرْفُوع)",
+            "Subjunktiv (مَنْصُوب)",
+            "Jussiv (مَجْزُوم)",
+            "Keinen Modus"
+          ],
+          "answer": "Subjunktiv (مَنْصُوب)",
+          "explanation": "أَنْ (an, ‚dass') ist die bekannteste Subjunktiv-Partikel. Sie versetzt das folgende Imperfekt-Verb in den Subjunktiv (مَنْصُوب): أُرِيدُ أَنْ أَذْهَبَ (ich will, dass ich gehe = ich will gehen).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "In لِيُنفِقْ ذُو سَعَةٍ (65:7) — welche Art von لِ steht hier, und welchen Modus löst sie aus?",
+          "options": [
+            "Zweck-Lām → Subjunktiv",
+            "Befehls-Lām → Jussiv",
+            "Präposition لِ → kein Modus (steht vor Nomen)",
+            "Bekräftigungs-Lām → Indikativ"
+          ],
+          "answer": "Befehls-Lām → Jussiv",
+          "explanation": "Das Befehls-Lām (لَام الأمر) steht vor dem Imperfekt und drückt einen Befehl an die 3. Person aus. Es löst den Jussiv aus: يُنفِقُ (Indikativ) → يُنفِقْ (Jussiv mit Sukūn). ‚Er soll ausgeben.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Das Verb يَعْلَمُ steht im Indikativ. Setze es in den korrekten Modus nach لَمْ: لَمْ ___",
+          "options": [
+            "يَعْلَمُ",
+            "يَعْلَمَ",
+            "يَعْلَمْ",
+            "عَلِمَ"
+          ],
+          "answer": "يَعْلَمْ",
+          "explanation": "لَمْ löst den Jussiv aus. يَعْلَمُ (Indikativ, Ḍamma) → يَعْلَمْ (Jussiv, Sukūn). Die Endung -u wird abgeschnitten. Bedeutung: ‚er hat nicht gewusst'.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Warum steht in حَتَّىٰ يَأْتِيَكَ الْيَقِينُ (15:99) das Verb يَأْتِيَ mit Fatḥa am Ende?",
+          "options": [
+            "Weil das Verb ein Objekt hat",
+            "Weil حَتَّى den Subjunktiv auslöst",
+            "Weil es ein Perfekt-Verb ist",
+            "Weil الْيَقِينُ das Subjekt ist"
+          ],
+          "answer": "Weil حَتَّى den Subjunktiv auslöst",
+          "explanation": "حَتَّى (ḥattā, ‚bis/damit') gehört zu den Subjunktiv-Partikeln. Das Imperfekt يَأْتِي wird zu يَأْتِيَ — das finale Yāʾ erhält eine Fatḥa als Subjunktiv-Marker.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=99"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne zu: 1) أَنْ  2) لَنْ  3) لَمْ  4) لَا (Verbot)  5) لِ (Befehl)",
+          "options": [
+            "1→Subjunktiv, 2→Subjunktiv, 3→Jussiv, 4→Jussiv, 5→Jussiv",
+            "1→Jussiv, 2→Jussiv, 3→Subjunktiv, 4→Subjunktiv, 5→Subjunktiv",
+            "1→Subjunktiv, 2→Jussiv, 3→Subjunktiv, 4→Jussiv, 5→Subjunktiv",
+            "1→Jussiv, 2→Subjunktiv, 3→Jussiv, 4→Subjunktiv, 5→Jussiv"
+          ],
+          "answer": "1→Subjunktiv, 2→Subjunktiv, 3→Jussiv, 4→Jussiv, 5→Jussiv",
+          "explanation": "Subjunktiv-Partikeln: أَنْ (dass) und لَنْ (keinesfalls werden). Jussiv-Partikeln: لَمْ (hat nicht), لَا (tu nicht! — Verbot), لِ (er soll — Befehl an 3. Person). Merkhilfe: Nasb (نَصْب) = Subjunktiv, Jazm (جَزْم) = Jussiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Wenn ein Imperfekt-Verb im Quran KEINE Modus-Partikel vor sich hat, in welchem Modus steht es?",
+          "options": [
+            "Subjunktiv (مَنْصُوب)",
+            "Jussiv (مَجْزُوم)",
+            "Indikativ (مَرْفُوع)",
+            "Imperativ (أَمْر)"
+          ],
+          "answer": "Indikativ (مَرْفُوع)",
+          "explanation": "Ohne vorangehende Modus-Partikel steht das Imperfekt-Verb im Indikativ (مَرْفُوع). Die Endung ist -u (Ḍamma): يَعْلَمُ = er weiß. Der Indikativ ist die Standardform — nur Subjunktiv und Jussiv brauchen einen Auslöser.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welchen Modus löst كَيْ aus?",
+          "options": [
+            "Subjunktiv (Naṣb)",
+            "Jussiv (Jazm)",
+            "Indikativ (Rafʿ)",
+            "Keinen"
+          ],
+          "answer": "Subjunktiv (Naṣb)",
+          "explanation": "كَيْ (damit/um zu) löst wie أَنْ den Subjunktiv aus.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist der Unterschied zwischen لَمْ und لَمَّا?",
+          "options": [
+            "لَمَّا = 'noch nicht' (Erwartung dass es noch eintritt)",
+            "لَمْ = 'noch nicht' (Erwartung)",
+            "Kein Unterschied",
+            "لَمَّا löst Subjunktiv aus"
+          ],
+          "answer": "لَمَّا = 'noch nicht' (Erwartung dass es noch eintritt)",
+          "explanation": "لَمْ verneint eine Handlung in der Vergangenheit. لَمَّا verneint ebenfalls, impliziert aber die Erwartung dass die Handlung noch eintreten wird: لَمَّا يَذُوقُوا (38:8) = sie haben noch nicht gekostet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=8"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-31",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.6"
+    ]
+  },
+  {
+    "id": "4.5",
+    "title": "Bekräftigungs- und Einleitungspartikeln",
+    "description": "Partikeln, die Sätze einleiten, bekräftigen oder emotional färben: إِنَّ, أَنَّ, قَدْ, كَلَّا, أَلَا, إِذْ, إِذَا, قُلْ, إِنَّمَا, لَعَلَّ, لَيْتَ, كَأَنَّ — das sprachliche Werkzeug des Quran.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Warum Einleitungspartikeln entscheidend sind",
+          "content": "Der Quran verwendet ein reiches System von Einleitungspartikeln, die den Ton und die Gewichtung einer Aussage bestimmen. إِنَّ bekräftigt, قَدْ bestätigt oder drückt Erwartung aus, كَلَّا weist zurück, أَلَا weckt Aufmerksamkeit. Diese Partikeln sind keine Dekoration — sie bestimmen die grammatische und syntaktische Funktion des Satzes. إِنَّ markiert die folgende Aussage als bekräftigt. قَدْ vor einem Perfekt betont die Gewissheit des Geschehens. Wer diese Partikeln übersieht, verpasst die sprachliche Struktur des Textes.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+              "transliteration": "inna llāha ʿalā kulli shayʾin qadīrun",
+              "meaning": "Wahrlich, Gott ist zu allem fähig (2:20)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+            },
+            {
+              "arabic": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ",
+              "transliteration": "qad aflaḥa l-muʾminūna",
+              "meaning": "Gewiss sind die Vertrauenden erfolgreich (23:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "إِنَّ und أَنَّ — Bekräftigung und ‚dass'-Satz",
+          "content": "إِنَّ (inna) bedeutet ‚wahrlich, gewiss' und leitet einen bekräftigten Satz ein. Grammatisch regiert إِنَّ den Akkusativ auf ihr Subjekt: إِنَّ اللَّهَ (Akkusativ) غَفُورٌ (Nominativ) = Wahrlich, Gott ist vergebend. إِنَّ hat fünf Schwestern: أَنَّ (anna, ‚dass'), لَكِنَّ (aber), كَأَنَّ (als ob), لَيْتَ (wenn doch), لَعَلَّ (vielleicht). Alle sechs setzen ihr Subjekt in den Akkusativ und ihr Prädikat in den Nominativ. أَنَّ (anna) leitet einen ‚dass'-Satz ein: أَعْلَمُ أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ = Ich weiß, dass Gott über alles mächtig ist (2:259).",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+              "transliteration": "inna llāha ghafūrun raḥīmun",
+              "meaning": "Wahrlich, Gott ist vergebend, barmherzig (2:173)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=173"
+            },
+            {
+              "arabic": "وَاعْلَمُوا أَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
+              "transliteration": "wa-ʿlamū anna llāha bi-kulli shayʾin ʿalīmun",
+              "meaning": "Und wisst, dass Gott alles weiß (2:231)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=231"
+            },
+            {
+              "arabic": "كَأَنَّهُمْ حُمُرٌ مُّسْتَنفِرَةٌ",
+              "transliteration": "kaʾannahum ḥumurun mustanfiratun",
+              "meaning": "Als ob sie aufgescheuchte Esel wären (74:50)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=50"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+        },
+        {
+          "type": "explanation",
+          "title": "قَدْ, كَلَّا und أَلَا — Gewissheit, Zurückweisung und Aufmerksamkeit",
+          "content": "قَدْ (qad) hat zwei Funktionen: Vor Perfekt-Verb → Bekräftigung der Gewissheit: قَدْ أَفْلَحَ = er ist gewiss erfolgreich gewesen. Vor Imperfekt-Verb → Möglichkeit oder Erwartung: قَدْ يَعْلَمُ = Er weiß wohl (33:18). كَلَّا (kallā) bedeutet ‚Keineswegs! Mitnichten!' Es ist eine starke Zurückweisung, die nur in der zweiten Hälfte des Quran vorkommt (ab Sure 19). كَلَّا weist eine falsche Vorstellung oder Behauptung scharf zurück. أَلَا (alā) ist eine Aufmerksamkeitspartikel: ‚Gewiss! Hört! Achtung!' Sie leitet eine wichtige Aussage ein: أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ = Hört! Die Freunde Gottes — keine Furcht über ihnen (10:62).",
+          "arabicExamples": [
+            {
+              "arabic": "قَدْ أَفْلَحَ مَن زَكَّاهَا",
+              "transliteration": "qad aflaḥa man zakkāhā",
+              "meaning": "Erfolgreich ist gewiss, wer es (das Selbst) läutert (91:9)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=9"
+            },
+            {
+              "arabic": "كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ",
+              "transliteration": "kallā inna l-insāna la-yaṭghā",
+              "meaning": "Keineswegs! Der Mensch überschreitet wahrlich die Grenzen (96:6)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=6"
+            },
+            {
+              "arabic": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ",
+              "transliteration": "alā inna awliyāʾa llāhi lā khawfun ʿalayhim",
+              "meaning": "Hört! Die Freunde Gottes — keine Furcht über ihnen (10:62)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=62"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=18"
+        },
+        {
+          "type": "explanation",
+          "title": "إِذْ, إِذَا, قُلْ, إِنَّمَا, لَعَلَّ, لَيْتَ und كَأَنَّ",
+          "content": "إِذْ (idh) = als, damals. Verweist auf die Vergangenheit: وَإِذْ قَالَ رَبُّكَ = Und als dein Herr sprach (2:30). إِذَا (idhā) = wenn, sobald. Leitet Bedingungssätze ein, oft für zukünftige oder wiederkehrende Ereignisse: إِذَا جَاءَ نَصْرُ اللَّهِ = Wenn die Hilfe Gottes kommt (110:1). قُلْ (qul) = Sag! Imperativ von قَالَ, mit dem der Textsprecher den Adressaten anweist, eine Botschaft weiterzugeben. Kommt über 300 Mal im Quran vor. إِنَّمَا (innamā) = nur, lediglich. Einschränkungspartikel: إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ = Die Vertrauenden sind Geschwister (49:10). لَعَلَّ (laʿalla) = vielleicht, auf dass. Hoffnung oder Möglichkeit: لَعَلَّكُمْ تَتَّقُونَ = auf dass ihr achtsam werdet (2:21). لَيْتَ (layta) = wenn doch! Wunschpartikel: يَا لَيْتَنِي كُنتُ تُرَابًا = Ach, wäre ich doch Staub gewesen! (78:40). كَأَنَّ (kaʾanna) = als ob. Vergleichspartikel: كَأَنَّهُمْ حُمُرٌ = als ob sie Esel wären (74:50).",
+          "arabicExamples": [
+            {
+              "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ",
+              "transliteration": "wa-idh qāla rabbuka li-l-malāʾikati",
+              "meaning": "Und als dein Herr zu den Engeln sprach (2:30)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+            },
+            {
+              "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+              "transliteration": "idhā jāʾa naṣru llāhi wa-l-fatḥu",
+              "meaning": "Wenn die Hilfe Gottes und der Sieg kommt (110:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+            },
+            {
+              "arabic": "لَعَلَّكُمْ تَتَّقُونَ",
+              "transliteration": "laʿallakum tattaqūna",
+              "meaning": "Auf dass ihr achtsam werdet (2:21)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+            },
+            {
+              "arabic": "يَا لَيْتَنِي كُنتُ تُرَابًا",
+              "transliteration": "yā laytanī kuntu turāban",
+              "meaning": "Ach, wäre ich doch Staub gewesen! (78:40)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=40"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ · أَن رَّآهُ اسْتَغْنَىٰ (96:6-7)",
+            "Schritt 1: كَلَّا — Starke Zurückweisung. Etwas zuvor Gesagtes oder Gedachtes wird verworfen. ‚Keineswegs!'",
+            "Schritt 2: إِنَّ — Bekräftigungspartikel. Was folgt, ist eine bekräftigte Aussage. ‚Wahrlich...'",
+            "Schritt 3: الْإِنسَانَ — Subjekt von إِنَّ, daher im Akkusativ (Fatḥa). ‚Den Menschen.'",
+            "Schritt 4: لَيَطْغَىٰ — لَ ist das Bekräftigungs-Lām (لَام التوكيد), das nach إِنَّ stehen kann. يَطْغَى = er überschreitet die Grenzen. Doppelte Bekräftigung: إِنَّ + لَ.",
+            "Schritt 5: أَن رَّآهُ اسْتَغْنَىٰ — أَنْ = weil/dass. ‚Weil er sich reich sieht.' Drei Partikeln in zwei Versen: كَلَّا (Zurückweisung), إِنَّ (Bekräftigung), أَنْ (Kausalität)."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "23:1",
+              "word": "قَدْ أَفْلَحَ",
+              "analysis": "قَدْ vor Perfekt = Bekräftigung der Gewissheit: ‚Gewiss sind erfolgreich gewesen.' قَدْ verstärkt die Aussage und macht sie zu einer feststehenden Tatsache — der Erfolg der Vertrauenden ist verbürgt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+            },
+            {
+              "location": "96:6",
+              "word": "كَلَّا",
+              "analysis": "كَلَّا weist die Annahme zurück, der Mensch sei selbstgenügsam. Es ist eine scharfe Zurückweisung: ‚Keineswegs!' — typisch für den direkten, konfrontativen Stil dieser Textstelle.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=6"
+            },
+            {
+              "location": "10:62",
+              "word": "أَلَآ إِنَّ",
+              "analysis": "Doppelte Aufmerksamkeit: أَلَا (Achtung!) + إِنَّ (wahrlich). Diese Kombination ist die stärkste Einleitung im Quran — sie signalisiert eine Aussage von höchster Wichtigkeit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=62"
+            },
+            {
+              "location": "78:40",
+              "word": "يَٰلَيْتَنِى",
+              "analysis": "يَا (Anruf) + لَيْتَ (Wunschpartikel) + نِي (mein). ‚Ach, wäre ich doch!' لَيْتَ drückt einen unerfüllbaren Wunsch aus — der Sprecher am Tag des Gerichts wünscht sich, Staub zu sein. Tiefste Verzweiflung in zwei Wörtern.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=40"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche grammatische Auswirkung hat إِنَّ auf das folgende Nomen?",
+          "options": [
+            "Es steht im Nominativ",
+            "Es steht im Genitiv",
+            "Es steht im Akkusativ",
+            "Es steht im Jussiv"
+          ],
+          "answer": "Es steht im Akkusativ",
+          "explanation": "إِنَّ und ihre fünf Schwestern (أَنَّ, لَكِنَّ, كَأَنَّ, لَيْتَ, لَعَلَّ) regieren den Akkusativ auf ihr Subjekt (اسم إِنَّ). Das Prädikat (خَبَر إِنَّ) bleibt im Nominativ. Daher: إِنَّ اللَّهَ (Akkusativ) غَفُورٌ (Nominativ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Was bedeutet قَدْ vor einem Perfekt-Verb im Quran?",
+          "options": [
+            "Verneinung: ‚nicht'",
+            "Bekräftigung der Gewissheit: ‚gewiss, wahrlich'",
+            "Frage: ‚hat er?'",
+            "Zukunft: ‚wird bald'"
+          ],
+          "answer": "Bekräftigung der Gewissheit: ‚gewiss, wahrlich'",
+          "explanation": "قَدْ + Perfekt bekräftigt die Gewissheit des Geschehens: قَدْ أَفْلَحَ = er ist gewiss erfolgreich gewesen (23:1). Vor Imperfekt hat قَدْ eine andere Bedeutung: Möglichkeit oder Erwartung (قَدْ يَعْلَمُ = Er weiß wohl, 33:18).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die passende Partikel: ___ إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ (10:62) — ‚___ Die Freunde Gottes — keine Furcht über ihnen.'",
+          "options": [
+            "كَلَّا",
+            "أَلَا",
+            "قَدْ",
+            "إِذَا"
+          ],
+          "answer": "أَلَا",
+          "explanation": "أَلَا (alā) ist die Aufmerksamkeitspartikel: ‚Hört! Gewiss!' Sie leitet eine wichtige Aussage ein. كَلَّا wäre eine Zurückweisung, قَدْ eine Bekräftigung vor Verben, إِذَا eine Bedingung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=62"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Was drückt لَعَلَّ in لَعَلَّكُمْ تَتَّقُونَ (2:21) aus?",
+          "options": [
+            "Gewissheit: ‚Ihr werdet sicher achtsam'",
+            "Hoffnung/Möglichkeit: ‚Auf dass ihr achtsam werdet'",
+            "Verneinung: ‚Ihr werdet nicht achtsam'",
+            "Frage: ‚Werdet ihr achtsam?'"
+          ],
+          "answer": "Hoffnung/Möglichkeit: ‚Auf dass ihr achtsam werdet'",
+          "explanation": "لَعَلَّ (laʿalla) drückt Hoffnung, Möglichkeit oder Erwartung aus: ‚vielleicht, auf dass'. Als Schwester von إِنَّ regiert sie den Akkusativ auf ihr Suffix (-كُمْ). Die Achtsamkeit (تَقْوَى) ist das erhoffte Ziel der Anordnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne zu: 1) إِذْ  2) إِذَا  3) كَلَّا  4) إِنَّمَا  5) لَيْتَ",
+          "options": [
+            "1→als/damals, 2→wenn/sobald, 3→keineswegs!, 4→nur/lediglich, 5→wenn doch!",
+            "1→wenn, 2→als, 3→vielleicht, 4→wahrlich, 5→als ob",
+            "1→weil, 2→obwohl, 3→gewiss, 4→aber, 5→damit",
+            "1→damit, 2→weil, 3→hört!, 4→als ob, 5→vielleicht"
+          ],
+          "answer": "1→als/damals, 2→wenn/sobald, 3→keineswegs!, 4→nur/lediglich, 5→wenn doch!",
+          "explanation": "إِذْ = als/damals (Vergangenheit), إِذَا = wenn/sobald (Zukunft/wiederkehrend), كَلَّا = keineswegs! (Zurückweisung), إِنَّمَا = nur/lediglich (Einschränkung), لَيْتَ = wenn doch! (unerfüllbarer Wunsch).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "كَأَنَّ gehört zu den Schwestern von إِنَّ. Was bedeutet كَأَنَّهُمْ حُمُرٌ (74:50)?",
+          "options": [
+            "Sie sind Esel",
+            "Als ob sie Esel wären",
+            "Sie waren keine Esel",
+            "Waren sie Esel?"
+          ],
+          "answer": "Als ob sie Esel wären",
+          "explanation": "كَأَنَّ (kaʾanna) bedeutet ‚als ob' und drückt einen Vergleich aus. Wie إِنَّ regiert sie Akkusativ auf ihr Subjekt: كَأَنَّهُمْ (als ob sie) + حُمُرٌ (Esel, Nominativ als Prädikat). Der Vers beschreibt Menschen, die vor der Ermahnung fliehen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=50"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist der Unterschied zwischen إِنَّ und أَنَّ?",
+          "options": [
+            "إِنَّ steht am Satzanfang, أَنَّ in Nebensätzen",
+            "إِنَّ ist stärker als أَنَّ",
+            "أَنَّ steht nur vor Verben",
+            "Kein Unterschied"
+          ],
+          "answer": "إِنَّ steht am Satzanfang, أَنَّ in Nebensätzen",
+          "explanation": "إِنَّ eröffnet einen Hauptsatz und bekräftigt: إِنَّ اللَّهَ عَلِيمٌ. أَنَّ leitet einen Nebensatz ein: عَلِمَ أَنَّ اللَّهَ عَلِيمٌ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §111-120",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.5",
+      "3.17"
+    ]
+  },
+  {
+    "id": "4.6",
+    "title": "Fragepartikeln",
+    "description": "Die drei Fragepartikeln im Quran: أَ (Hamza), هَلْ und أَمْ — wie sie Fragen bilden, wann sie emphatisch sind und wie sie sich voneinander unterscheiden.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Fragen im Arabischen",
+          "content": "Das Arabische bildet Ja/Nein-Fragen nicht durch Wortstellungsänderung (wie im Deutschen), sondern durch vorangestellte Fragepartikeln. Es gibt drei Hauptpartikeln: أَ (Hamza), هَلْ und أَمْ. Während أَ und هَلْ eigenständige Ja/Nein-Fragen einleiten, stellt أَمْ eine Alternative innerhalb einer Frage dar (‚oder'). Im Quran werden Fragepartikeln häufig emphatisch verwendet — die Frage erwartet keine Antwort, sondern dient der Belehrung, Ermahnung oder Zurechtweisung. Das Erkennen, ob eine Frage echt oder emphatisch ist, gehört zu den wichtigsten Aufgaben bei der Quran-Analyse.",
+          "arabicExamples": [
+            {
+              "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ",
+              "transliteration": "a-lam tara kayfa faʿala rabbuka",
+              "meaning": "Hast du nicht gesehen, wie dein Herr verfuhr? (105:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+            },
+            {
+              "arabic": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
+              "transliteration": "hal atāka ḥadīthu l-ghāshiyati",
+              "meaning": "Ist zu dir die Geschichte der Überwältigenden gekommen? (88:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "أَ (Hamza) — Die allgemeine Fragepartikel",
+          "content": "أَ (das Frage-Hamza, همزة الاستفهام) ist die universellste Fragepartikel im Arabischen. Sie steht immer am Satzanfang, direkt vor dem ersten Wort. أَ kann mit Verben, Nomen, Partikeln und sogar anderen Fragepartikeln kombiniert werden. Besonders häufig im Quran ist أَلَمْ (أَ + لَمْ = ‚hast du nicht...?'), was eine Frage ohne Antworterwartung bildet, die Zustimmung erwartet. أَ ist neutraler als هَلْ und kann sowohl echte als auch Frage ohne Antworterwartungen einleiten. Wenn أَ vor einem Nomen steht, fragt es nach der Identität: أَأَنتَ فَعَلْتَ هَٰذَا = Bist du es, der dies getan hat? (21:62). أَ kann auch Erstaunen oder Tadel ausdrücken.",
+          "arabicExamples": [
+            {
+              "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+              "transliteration": "a-lam tara kayfa faʿala rabbuka bi-aṣḥābi l-fīli",
+              "meaning": "Hast du nicht gesehen, wie dein Herr mit den Leuten des Elefanten verfuhr? (105:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+            },
+            {
+              "arabic": "أَأَنتَ فَعَلْتَ هَٰذَا بِآلِهَتِنَا",
+              "transliteration": "a-anta faʿalta hādhā bi-ālihatinā",
+              "meaning": "Bist du es, der dies unseren Göttern angetan hat? (21:62)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=62"
+            },
+            {
+              "arabic": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+              "transliteration": "a-laysa llāhu bi-aḥkami l-ḥākimīna",
+              "meaning": "Ist Gott nicht der Weiseste der Richtenden? (95:8)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=8"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=62"
+        },
+        {
+          "type": "explanation",
+          "title": "هَلْ — Die Ja/Nein-Fragepartikel",
+          "content": "هَلْ (hal) ist eine Fragepartikel die nach einer unbekannten Information fragt. Im Gegensatz zu أَ, das neutral ist und emphatisch sein kann, hat هَلْ eine direktere Fragefunktion. هَلْ أَتَاكَ (88:1) = 'Ist zu dir gekommen?' — leitet eine Frage ein die im folgenden Text beantwortet wird. هَلْ kann auch emphatisch verwendet werden. هَلْ steht immer am Satzanfang und wird nie mit Negationspartikeln kombiniert (man sagt nicht *هَلْ لَمْ, sondern أَلَمْ). هَلْ kann auch 'ob' bedeuten in indirekten Fragen.",
+          "arabicExamples": [
+            {
+              "arabic": "هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ",
+              "transliteration": "hal atāka ḥadīthu mūsā",
+              "meaning": "Ist zu dir die Geschichte Moses gekommen? (20:9)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=9"
+            },
+            {
+              "arabic": "فَهَلْ أَنتُم مُّسْلِمُونَ",
+              "transliteration": "fa-hal antum muslimūna",
+              "meaning": "Seid ihr denn Ergebene? (21:108)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=108"
+            },
+            {
+              "arabic": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
+              "transliteration": "hal jazāʾu l-iḥsāni illā l-iḥsānu",
+              "meaning": "Ist die Belohnung für Gutes anderes als Gutes? (55:60)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=60"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+        },
+        {
+          "type": "explanation",
+          "title": "أَمْ — Oder (in Fragen): Alternativen darstellen",
+          "content": "أَمْ (am) bedeutet ‚oder' innerhalb von Fragen und stellt zwei oder mehr Alternativen einander gegenüber. أَمْ verlangt eine Wahl zwischen den Alternativen — das unterscheidet es von أَوْ (aw), das eine offene Alternative bietet. Im Quran erscheint أَمْ häufig in Frage ohne Antworterwartungen: أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ (2:6) = ‚Ob du sie warnst oder nicht warnst' — die Frage impliziert, dass es keinen Unterschied macht. أَمْ kann auch am Satzanfang stehen und eine neue, unerwartete Alternative einführen (أَمْ المنقطعة, ‚abgetrennte أَمْ'): أَمْ حَسِبْتُمْ = Oder habt ihr etwa geglaubt...? (2:214). Diese Art dient oft der sprachlichen Herausforderung.",
+          "arabicExamples": [
+            {
+              "arabic": "سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ",
+              "transliteration": "sawāʾun ʿalayhim a-andhartahum am lam tundhirhum",
+              "meaning": "Es ist gleich für sie, ob du sie warnst oder nicht warnst (2:6)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+            },
+            {
+              "arabic": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا الْجَنَّةَ",
+              "transliteration": "am ḥasibtum an tadkhulū l-jannata",
+              "meaning": "Oder habt ihr etwa geglaubt, ihr würdet in den Garten eingehen? (2:214)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+            },
+            {
+              "arabic": "أَمْ كُنتُمْ شُهَدَاءَ إِذْ حَضَرَ يَعْقُوبَ الْمَوْتُ",
+              "transliteration": "am kuntum shuhadāʾa idh ḥaḍara yaʿqūba l-mawtu",
+              "meaning": "Oder wart ihr Zeugen, als Jakob der Tod nahte? (2:133)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ (2:6)",
+            "Schritt 1: سَوَاءٌ عَلَيْهِمْ = ‚Es ist gleich für sie' — Einleitung einer gleichwertigen Alternative.",
+            "Schritt 2: أَأَنذَرْتَهُمْ — أَ (Frage-Hamza) + أَنذَرْتَهُمْ (du hast sie gewarnt). Die erste Alternative: ‚ob du sie gewarnt hast.'",
+            "Schritt 3: أَمْ — ‚oder'. أَمْ stellt die zweite Alternative vor. Dies ist أَمْ المتصلة (verbundene أَمْ), weil sie direkt an eine mit أَ eingeleitete Frage anschließt.",
+            "Schritt 4: لَمْ تُنذِرْهُمْ — لَمْ + Jussiv = ‚du sie nicht gewarnt hast'. Die zweite Alternative.",
+            "Schritt 5: لَا يُؤْمِنُونَ — ‚sie glauben nicht'. Das Ergebnis: Unabhängig von der Alternative (warnen oder nicht warnen), glauben sie nicht.",
+            "Schritt 6: Zusammen: أَ...أَمْ bildet eine vollständige Alternativfrage. Die Satzbau: Es gibt zwei Möglichkeiten, aber das Ergebnis ist dasselbe — totale Ablehnung."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "105:1",
+              "word": "أَلَمْ تَرَ",
+              "analysis": "أَ + لَمْ + تَرَ (Jussiv von رَأَى). Sprachliche Frage, die Zustimmung erwartet: ‚Hast du nicht gesehen?' Die erwartete Antwort ist ‚Doch!' — das Frage-Hamza mit لَمْ bildet eine verneinende Frage, die die Bejahung provoziert.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+            },
+            {
+              "location": "88:1",
+              "word": "هَلْ أَتَىٰكَ",
+              "analysis": "هَلْ leitet eine Ja/Nein-Frage ein: 'Ist zu dir die Geschichte der Überwältigenden gekommen?' هَلْ eröffnet hier eine Frage ohne Antworterwartung — die Antwort wird im folgenden Text gegeben.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+            },
+            {
+              "location": "2:6",
+              "word": "ءَأَنذَرْتَهُمْ أَمْ",
+              "analysis": "أَ...أَمْ bildet eine vollständige Alternativfrage: ‚ob...oder'. أَمْ unterscheidet sich von أَوْ dadurch, dass es eine echte Wahl zwischen genau zwei definierten Alternativen erzwingt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+            },
+            {
+              "location": "95:8",
+              "word": "أَلَيْسَ ٱللَّهُ",
+              "analysis": "أَ + لَيْسَ = ‚Ist Gott nicht...?' Doppelte Verneinung als sprachliche Verstärkung: Die Frage erwartet die Antwort ‚Doch, natürlich!' أَ vor لَيْسَ ist eine der stärksten emphatischen Formeln im Quran.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=8"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist der Hauptunterschied zwischen أَ (Hamza) und هَلْ?",
+          "options": [
+            "أَ steht nur vor Verben, هَلْ nur vor Nomen",
+            "أَ ist neutraler und kann emphatisch sein, هَلْ impliziert echtes Nicht-Wissen",
+            "أَ steht nur am Satzanfang, هَلْ nur in der Satzmitte",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": "أَ ist neutraler und kann emphatisch sein, هَلْ impliziert echtes Nicht-Wissen",
+          "explanation": "أَ (Hamza) ist die universellste Fragepartikel — sie kann echte und Frage ohne Antworterwartungen einleiten und mit Negationspartikeln kombiniert werden (أَلَمْ). هَلْ impliziert eher echtes Nicht-Wissen und wird nie mit Negationspartikeln kombiniert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Art von Frage bildet أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ (2:6)?",
+          "options": [
+            "Eine einfache Ja/Nein-Frage",
+            "Eine Alternativfrage mit zwei Optionen (أَ...أَمْ)",
+            "Eine offene W-Frage",
+            "Eine Aufforderung als Frage"
+          ],
+          "answer": "Eine Alternativfrage mit zwei Optionen (أَ...أَمْ)",
+          "explanation": "أَ...أَمْ bildet eine Alternativfrage: ‚ob du sie gewarnt hast oder nicht gewarnt hast'. أَمْ (verbundene Form) stellt die zweite Alternative zur ersten. Die Satzbau zeigt, dass beide Optionen zum gleichen Ergebnis führen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die korrekte Fragepartikel: ___ أَتَاكَ حَدِيثُ الْغَاشِيَةِ (88:1) — ‚___ ist zu dir die Geschichte der Überwältigenden gekommen?'",
+          "options": [
+            "أَ",
+            "هَلْ",
+            "أَمْ",
+            "مَا"
+          ],
+          "answer": "هَلْ",
+          "explanation": "هَلْ (hal) leitet hier eine Ja/Nein-Frage ein, die dem Adressaten eine Geschichte ankündigt. هَلْ passt, weil der Textsprecher etwas Neues mitteilen will. أَ wäre zu neutral, أَمْ braucht eine vorherige Alternative.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Warum kann man NICHT sagen *هَلْ لَمْ تَرَ, sondern muss أَلَمْ تَرَ sagen?",
+          "options": [
+            "Weil هَلْ nur vor Nomen stehen kann",
+            "Weil هَلْ nicht mit Negationspartikeln kombiniert werden kann",
+            "Weil لَمْ nur nach أَ stehen darf",
+            "Weil هَلْ den Jussiv nicht auslösen kann"
+          ],
+          "answer": "Weil هَلْ nicht mit Negationspartikeln kombiniert werden kann",
+          "explanation": "هَلْ wird nie mit Negationspartikeln (لَمْ, لَا, لَيْسَ) kombiniert. Für verneinende Fragen wird immer أَ verwendet: أَلَمْ (hast du nicht?), أَلَيْسَ (ist es nicht?). Dies ist eine feste grammatische Regel des Arabischen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die Fragepartikeln ihren Funktionen zu: 1) أَ  2) هَلْ  3) أَمْ",
+          "options": [
+            "1→allgemeine/Frage ohne Antworterwartung, 2→echte Ja/Nein-Frage, 3→Alternative in Fragen",
+            "1→Alternative in Fragen, 2→allgemeine Frage, 3→Ja/Nein-Frage",
+            "1→Ja/Nein-Frage, 2→Alternative, 3→Frage ohne Antworterwartung",
+            "1→Alternative, 2→Frage ohne Antworterwartung, 3→Ja/Nein-Frage"
+          ],
+          "answer": "1→allgemeine/Frage ohne Antworterwartung, 2→echte Ja/Nein-Frage, 3→Alternative in Fragen",
+          "explanation": "أَ = die universelle Fragepartikel, kann alles — auch emphatisch und mit Verneinung. هَلْ = echte Ja/Nein-Frage, impliziert Nicht-Wissen. أَمْ = ‚oder' in Fragen, stellt Alternativen dar (anders als أَوْ, das keine Wahl erzwingt).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In أَمْ حَسِبْتُمْ أَن تَدْخُلُوا الْجَنَّةَ (2:214) — welche Art von أَمْ liegt vor?",
+          "options": [
+            "أَمْ المتصلة (verbundene أَمْ) — Fortsetzung einer أَ-Frage",
+            "أَمْ المنقطعة (abgetrennte أَمْ) — neue, unerwartete Alternative",
+            "أَمْ als Konjunktion ‚und'",
+            "أَمْ als Verneinung"
+          ],
+          "answer": "أَمْ المنقطعة (abgetrennte أَمْ) — neue, unerwartete Alternative",
+          "explanation": "Hier steht أَمْ am Satzanfang ohne vorherige أَ-Frage. Dies ist أَمْ المنقطعة (abgetrennte أَمْ), die eine neue, überraschende Alternative einführt: ‚Oder habt ihr etwa geglaubt...?' Sie dient der sprachlichen Herausforderung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §220-226",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.7",
+    "title": "Die verschiedenen Lām-Typen",
+    "description": "Der Buchstabe لـ erscheint im Quran mit mindestens sechs verschiedenen Funktionen: als Präposition, als Zweck-Partikel, als Befehls-Partikel, als Bekräftigung, als Schwur-Antwort und als Teil der Verneinung. Diese Lektion unterscheidet alle Lām-Typen systematisch.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Warum لـ so schwierig ist",
+          "content": "Der Buchstabe لـ (Lām) ist vermutlich das mehrdeutigste Schriftzeichen im Quran. Je nach Vokalisation und Kontext hat es völlig verschiedene Funktionen: لِ (li, mit Kasra) kann eine Präposition, eine Zweck-Partikel oder eine Befehls-Partikel sein. لَ (la, mit Fatḥa) kann eine Bekräftigungspartikel oder eine Schwur-Antwort sein. لَا (lā, mit Alif) ist eine Verneinung. Für den Quran-Leser ist es entscheidend, den richtigen Lām-Typ zu identifizieren, denn ein Verwechseln ändert die Bedeutung fundamental: لِيَقُلْ (er soll sagen — Befehl) ist etwas völlig anderes als لِيَقُولَ (damit er sage — Zweck).",
+          "arabicExamples": [
+            {
+              "arabic": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+              "transliteration": "lahu mā fī s-samāwāti wa-mā fī l-arḍi",
+              "meaning": "Ihm gehört, was in den Himmeln und auf der Erde ist (2:255) — Präposition لِ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+            },
+            {
+              "arabic": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
+              "transliteration": "la-qad khalaqnā l-insāna fī aḥsani taqwīmin",
+              "meaning": "Gewiss haben Wir den Menschen in bester Gestalt erschaffen (95:4) — Bekräftigungs-لَ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=4"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "لِ (li) als Präposition: für, zu, gehört",
+          "content": "Die häufigste Funktion von لِ ist die Präposition. Sie bedeutet ‚für, zu, gehört' und regiert den Genitiv. Besitz: لِلَّهِ مُلْكُ السَّمَاوَاتِ = Gott gehört die Herrschaft der Himmel (5:120). Nutznießer: لَكُمْ دِينُكُمْ = Euch eur Glaube (109:6). Zweck (vor Nomen): لِلصَّلَاةِ = zur Zuwendung (62:9). Erkennungsmerkmal: لِ steht direkt vor einem Nomen oder Pronominalsuffix und regiert Genitiv. Wenn لِ mit dem Artikel الـ verschmilzt, wird es zu لِلـ: لِلَّهِ = für Gott/Gott gehört.",
+          "arabicExamples": [
+            {
+              "arabic": "لِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ",
+              "transliteration": "li-llāhi mulku s-samāwāti wa-l-arḍi",
+              "meaning": "Gott gehört die Herrschaft der Himmel und der Erde (5:120)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=120"
+            },
+            {
+              "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+              "transliteration": "lakum dīnukum wa-liya dīni",
+              "meaning": "Euch eur Glaube und mir mein Glaube (109:6)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+            },
+            {
+              "arabic": "إِذَا نُودِيَ لِلصَّلَاةِ",
+              "transliteration": "idhā nūdiya li-ṣ-ṣalāti",
+              "meaning": "Wenn zur Zuwendung gerufen wird (62:9)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=9"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=120"
+        },
+        {
+          "type": "explanation",
+          "title": "لِ (li) vor Imperfekt: Zweck-Lām und Befehls-Lām",
+          "content": "Wenn لِ vor einem Imperfekt-Verb steht, gibt es zwei Möglichkeiten: 1) Zweck-Lām (لَام التعليل): ‚um zu, damit'. Löst den Subjunktiv aus: لِيَغْفِرَ = damit Er vergebe (48:2). Das Verb endet auf -a (Fatḥa). Erkennungsmerkmal: Der Kontext zeigt einen Zweck oder ein Ziel. 2) Befehls-Lām (لَام الأمر): ‚er soll, möge er'. Löst den Jussiv aus: لِيَقُلْ = er soll sagen. Das Verb endet auf Sukūn oder Wegfall. Erkennungsmerkmal: Der Kontext zeigt einen Befehl oder eine Aufforderung an die 3. Person. Der entscheidende Unterschied: Subjunktiv (Zweck) vs. Jussiv (Befehl). Achte auf die Verbendung!",
+          "arabicExamples": [
+            {
+              "arabic": "لِيَغْفِرَ لَكَ اللَّهُ",
+              "transliteration": "li-yaghfira laka llāhu",
+              "meaning": "Damit Gott dir vergebe (48:2) — Zweck-Lām + Subjunktiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+            },
+            {
+              "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ",
+              "transliteration": "li-yunfiq dhū saʿatin min saʿatihi",
+              "meaning": "Der Wohlhabende soll von seinem Wohlstand ausgeben (65:7) — Befehls-Lām + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+            },
+            {
+              "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+              "transliteration": "fa-l-yaʿbudū rabba hādhā l-bayti",
+              "meaning": "So sollen sie dem Herrn dieses Hauses dienen (106:3) — Befehls-Lām + Jussiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=3"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+        },
+        {
+          "type": "explanation",
+          "title": "لَ (la) — Bekräftigung und Schwur-Antwort",
+          "content": "لَ (la, mit Fatḥa) hat zwei wichtige Funktionen: 1) Bekräftigungs-Lām (لَام التوكيد): Steht oft nach إِنَّ und verstärkt die Aussage: إِنَّ الْإِنسَانَ لَفِي خُسْرٍ = Wahrlich, der Mensch ist gewiss im Verlust (103:2). Dieses لَ steht vor dem Prädikat von إِنَّ und bildet eine doppelte Bekräftigung (إِنَّ + لَ). Es kann auch in لَقَدْ erscheinen: لَقَدْ = gewiss bereits (لَ + قَدْ). 2) Schwur-Antwort-Lām (لَام جواب القسم): Nach einem Schwur leitet لَ die Antwort ein: وَالْعَصْرِ · إِنَّ الْإِنسَانَ لَفِي خُسْرٍ (103:1-2). Hier antwortet لَفِي auf den Schwur وَالْعَصْرِ. In der Praxis überlappen sich beide Funktionen oft.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+              "transliteration": "inna l-insāna la-fī khusrin",
+              "meaning": "Wahrlich, der Mensch ist gewiss im Verlust (103:2) — doppelte Bekräftigung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+            },
+            {
+              "arabic": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي كَبَدٍ",
+              "transliteration": "la-qad khalaqnā l-insāna fī kabadin",
+              "meaning": "Gewiss haben Wir den Menschen in Mühsal erschaffen (90:4) — لَقَدْ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=4"
+            },
+            {
+              "arabic": "تَاللَّهِ لَأَكِيدَنَّ أَصْنَامَكُم",
+              "transliteration": "ta-llāhi la-akīdanna aṣnāmakum",
+              "meaning": "Bei Gott, ich werde gewiss gegen eure Götzenbilder vorgehen (21:57) — Schwur-Antwort",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+        },
+        {
+          "type": "explanation",
+          "title": "لَا (lā) — Verneinung: Verb, Verbot und Gattung",
+          "content": "لَا (lā) ist die Verneinungsform des Lām und hat drei Hauptfunktionen: 1) Vor Imperfekt ohne Modusänderung: Einfache Verneinung der Gegenwart/Zukunft: لَا يَعْلَمُونَ = sie wissen nicht. Das Verb bleibt im Indikativ. 2) Vor Imperfekt im Jussiv: Verbot (النَّهي): لَا تَقْرَبُوا = nähert euch nicht! (4:43). Das Nūn der fünf Sonderformen fällt weg. 3) Vor Nomen im Akkusativ: Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس): لَا إِلَٰهَ إِلَّا اللَّهُ = kein Gott (als Gattung) außer Gott. Das Nomen steht im Akkusativ (Fatḥa). Erkennungsmerkmal: Der Kontext und die Kasusendung des folgenden Wortes bestimmen, welches لَا vorliegt.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+              "transliteration": "lā yukallifu llāhu nafsan illā wusʿahā",
+              "meaning": "Gott bürdet keinem Selbst mehr auf als sie vermag (2:286) — einfache Verneinung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+            },
+            {
+              "arabic": "لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ",
+              "transliteration": "lā taqrabū ṣ-ṣalāta wa-antum sukārā",
+              "meaning": "Nähert euch nicht der Zuwendung, wenn ihr betrunken seid (4:43) — Verbot",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+            },
+            {
+              "arabic": "لَا إِكْرَاهَ فِي الدِّينِ",
+              "transliteration": "lā ikrāha fī d-dīni",
+              "meaning": "Kein Zwang im Glauben (2:256) — Gattungsverneinung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+        },
+        {
+          "type": "explanation",
+          "title": "Weitere Lām-Typen",
+          "content": "Neben den häufigen Lām-Typen (Präposition, Zweck, Befehl, Bekräftigung, Schwur-Antwort, Verneinung) gibt es drei weitere wichtige Lām-Typen im Quran:\n\n1. لَامُ الِابْتِدَاء (Lām al-Ibtidāʾ) — Das Anfangs-Lām: Steht am Satzanfang oder nach إِنَّ zur Bekräftigung. Es hat Fatḥa (لَـ) und verstärkt die Aussage emphatisch, ohne die Grammatik des Satzes zu verändern. Es tritt häufig vor dem Prädikat von إِنَّ auf oder am Beginn eines Nominalsatzes.\n   لَأَنْتُمْ أَشَدُّ رَهْبَةً — Ihr seid gewiss furchteinflößender (59:13).\n\n2. لَامُ الْجُحُود (Lām al-Juḥūd) — Das Leugnungs-Lām: Steht nach einer negierten Form von كَانَ (مَا كَانَ oder لَمْ يَكُنْ) + لِ vor einem Imperfekt-Verb im Subjunktiv. Es drückt die Leugnung oder Zurückweisung eines Zwecks aus: ‚Gott wollte nicht...' / ‚Es stand nicht zu, dass...'. Das Verb steht im Subjunktiv.\n   مَا كَانَ اللَّهُ لِيُعَذِّبَهُمْ — Es lag nicht an Gott, sie zu bestrafen / Gott wollte sie nicht bestrafen (8:33).\n\n3. لَامُ كَيْ (Lām Kay) — Das Damit-Lām: Eine Variante des Zweck-Lāms, die explizit mit كَيْ (damit) kombiniert wird. Die Konstruktion لِكَيْ oder لِكَيْلَا (damit nicht) drückt den Zweck besonders deutlich aus. Das Verb steht im Subjunktiv.\n   لِكَيْلَا تَأْسَوْا — Damit ihr nicht trauert (57:23).",
+          "arabicExamples": [
+            {
+              "arabic": "لَأَنْتُمْ أَشَدُّ رَهْبَةً",
+              "transliteration": "la-antum ashaddu rahbatan",
+              "meaning": "Ihr seid gewiss furchteinflößender (59:13) — لَامُ الِابْتِدَاء: Bekräftigung am Satzanfang",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=13"
+            },
+            {
+              "arabic": "مَا كَانَ اللَّهُ لِيُعَذِّبَهُمْ",
+              "transliteration": "mā kāna llāhu li-yuʿadhdhibahum",
+              "meaning": "Gott wollte sie nicht bestrafen (8:33) — لَامُ الْجُحُود: nach مَا كَانَ + لِ + Subjunktiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=33"
+            },
+            {
+              "arabic": "لِكَيْلَا تَأْسَوْا عَلَىٰ مَا فَاتَكُمْ",
+              "transliteration": "li-kaylā taʾsaw ʿalā mā fātakum",
+              "meaning": "Damit ihr nicht trauert über das, was euch entgangen ist (57:23) — لَامُ كَيْ: Zweck-Lām mit كَيْ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=23"
+            },
+            {
+              "arabic": "لَمْ يَكُنِ اللَّهُ لِيَغْفِرَ لَهُمْ",
+              "transliteration": "lam yakuni llāhu li-yaghfira lahum",
+              "meaning": "Gott wollte ihnen nicht vergeben (4:137) — لَامُ الْجُحُود: nach لَمْ يَكُنْ + لِ + Subjunktiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=137"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=13"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَالْعَصْرِ · إِنَّ الْإِنسَانَ لَفِي خُسْرٍ · إِلَّا الَّذِينَ آمَنُوا (103:1-3)",
+            "Schritt 1: وَالْعَصْرِ — وَ ist hier eine Schwur-Partikel (nicht ‚und'). ‚Beim Nachmittag!'",
+            "Schritt 2: إِنَّ — Bekräftigungspartikel, die das Subjekt in den Akkusativ setzt.",
+            "Schritt 3: الْإِنسَانَ — Subjekt von إِنَّ, Akkusativ (Fatḥa).",
+            "Schritt 4: لَفِي خُسْرٍ — Hier steckt لَ (la) als Bekräftigungspartikel. Sie verstärkt die Aussage von إِنَّ: ‚gewiss im Verlust'. Gleichzeitig ist dieses لَ die Schwur-Antwort auf وَالْعَصْرِ.",
+            "Schritt 5: فِي — Präposition ‚in', regiert Genitiv: خُسْرٍ (Kasra).",
+            "Schritt 6: Zusammenfassung der Lām-Analyse: لَ hat hier eine Doppelfunktion — Bekräftigungs-Lām nach إِنَّ und Schwur-Antwort-Lām. In einem einzigen Buchstaben stecken zwei syntaktische Funktionen."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "109:6",
+              "word": "لَكُمْ",
+              "analysis": "لِ als Präposition + كُمْ (Pronominalsuffix 2. Person Plural). ‚Euch (gehört).' Besitz-/Zugehörigkeitsbedeutung. Die Kasra von لِ wird zu Fatḥa, wenn ein Pronominalsuffix folgt, das mit Kasra beginnt aber bei كُمْ bleibt es: لَكُمْ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+            },
+            {
+              "location": "48:2",
+              "word": "لِيَغْفِرَ",
+              "analysis": "لِ als Zweck-Partikel + يَغْفِرَ (Subjunktiv, Fatḥa). ‚Damit Er vergebe.' Das Zweck-Lām löst den Subjunktiv aus. Erkennbar an der Fatḥa-Endung des Verbs.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+            },
+            {
+              "location": "65:7",
+              "word": "لِيُنفِقْ",
+              "analysis": "لِ als Befehls-Partikel + يُنفِقْ (Jussiv, Sukūn). ‚Er soll ausgeben.' Das Befehls-Lām löst den Jussiv aus. Erkennbar am Sukūn. Vergleiche mit لِيَغْفِرَ (Subjunktiv) — selber Buchstabe, andere Funktion!",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+            },
+            {
+              "location": "103:2",
+              "word": "لَفِي",
+              "analysis": "لَ als Bekräftigungs-Lām + فِي (Präposition). ‚Gewiss in...' Das لَ steht nach إِنَّ und verstärkt die Aussage. Es antwortet gleichzeitig auf den Schwur وَالْعَصْرِ. Erkennbar an Fatḥa (nicht Kasra).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Wie unterscheidet man das Zweck-Lām vom Befehls-Lām, wenn beide لِ vor einem Imperfekt-Verb stehen?",
+          "options": [
+            "Man kann sie nicht unterscheiden",
+            "Das Zweck-Lām löst den Subjunktiv aus (Fatḥa), das Befehls-Lām den Jussiv (Sukūn)",
+            "Das Zweck-Lām steht nur vor Nomen",
+            "Das Befehls-Lām hat immer ein Alif danach"
+          ],
+          "answer": "Das Zweck-Lām löst den Subjunktiv aus (Fatḥa), das Befehls-Lām den Jussiv (Sukūn)",
+          "explanation": "Der entscheidende Unterschied ist der Modus des Verbs: Zweck-Lām → Subjunktiv (لِيَغْفِرَ, Fatḥa), Befehls-Lām → Jussiv (لِيُنفِقْ, Sukūn). Beide beginnen mit لِ, aber die Verbendung verrät die Funktion.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welcher Lām-Typ liegt in لَقَدْ خَلَقْنَا الْإِنسَانَ (95:4) vor?",
+          "options": [
+            "Präposition لِ",
+            "Zweck-Lām",
+            "Befehls-Lām",
+            "Bekräftigungs-Lām لَ"
+          ],
+          "answer": "Bekräftigungs-Lām لَ",
+          "explanation": "لَقَدْ = لَ (Bekräftigung) + قَدْ (Gewissheit). Das لَ mit Fatḥa steht hier als Bekräftigungs- und Schwur-Antwort-Lām: ‚Gewiss haben Wir...'. Es steht nicht vor einem Verb im Sinne von Zweck oder Befehl, sondern verstärkt die Aussage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=4"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "In لِيَغْفِرَ لَكَ (48:2) steht das Verb im _____, weil لِ hier ein _____ ist.",
+          "options": [
+            "Subjunktiv ... Zweck-Lām",
+            "Jussiv ... Befehls-Lām",
+            "Indikativ ... Präpositions-Lām",
+            "Subjunktiv ... Befehls-Lām"
+          ],
+          "answer": "Subjunktiv ... Zweck-Lām",
+          "explanation": "يَغْفِرَ endet auf Fatḥa → Subjunktiv. Das لِ ist ein Zweck-Lām (لَام التعليل): ‚damit Er vergebe'. Wäre es ein Befehls-Lām, stünde das Verb im Jussiv: لِيَغْفِرْ (mit Sukūn).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "In لَا إِكْرَاهَ فِي الدِّينِ (2:256) — welche Funktion hat لَا?",
+          "options": [
+            "Einfache Verneinung eines Verbs",
+            "Verbot (لَا + Jussiv)",
+            "Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس) — verneint die gesamte Gattung ‚Zwang'",
+            "Bekräftigung"
+          ],
+          "answer": "Gattungsverneinung (لَا النَّافِيَة لِلْجِنْس) — verneint die gesamte Gattung ‚Zwang'",
+          "explanation": "لَا إِكْرَاهَ ist eine Gattungsverneinung: إِكْرَاهَ steht im Akkusativ (Fatḥa), und die gesamte Gattung ‚Zwang' wird kategorisch verneint. Nicht nur ein bestimmter Zwang, sondern jeglicher Zwang im Glauben wird ausgeschlossen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne die sechs Lām-Typen ihren Funktionen zu: 1) لِ + Nomen  2) لِ + Subjunktiv  3) لِ + Jussiv  4) لَ nach إِنَّ  5) لَ nach Schwur  6) لَا + Nomen (Akk.)",
+          "options": [
+            "1→Präposition, 2→Zweck, 3→Befehl, 4→Bekräftigung, 5→Schwur-Antwort, 6→Gattungsverneinung",
+            "1→Zweck, 2→Präposition, 3→Bekräftigung, 4→Befehl, 5→Verneinung, 6→Schwur-Antwort",
+            "1→Befehl, 2→Bekräftigung, 3→Präposition, 4→Zweck, 5→Gattungsverneinung, 6→Schwur-Antwort",
+            "1→Bekräftigung, 2→Befehl, 3→Zweck, 4→Schwur-Antwort, 5→Präposition, 6→Gattungsverneinung"
+          ],
+          "answer": "1→Präposition, 2→Zweck, 3→Befehl, 4→Bekräftigung, 5→Schwur-Antwort, 6→Gattungsverneinung",
+          "explanation": "Die sechs Lām-Typen: 1) Präposition (لِلَّهِ = für Gott), 2) Zweck vor Verb im Subjunktiv (لِيَغْفِرَ = damit Er vergebe), 3) Befehl vor Verb im Jussiv (لِيُنفِقْ = er soll ausgeben), 4) Bekräftigung nach إِنَّ (لَفِي = gewiss in), 5) Schwur-Antwort (لَأَكِيدَنَّ = ich werde gewiss), 6) Gattungsverneinung (لَا إِكْرَاهَ = kein Zwang).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ (106:3) — warum steht يَعْبُدُوا ohne das Nūn (يَعْبُدُونَ)?",
+          "options": [
+            "Weil es ein Perfekt-Verb ist",
+            "Weil das Befehls-Lām den Jussiv auslöst und bei den fünf Sonderformen das Nūn im Jussiv wegfällt",
+            "Weil فَ das Nūn entfernt",
+            "Weil das Verb intransitiv ist"
+          ],
+          "answer": "Weil das Befehls-Lām den Jussiv auslöst und bei den fünf Sonderformen das Nūn im Jussiv wegfällt",
+          "explanation": "فَلْيَعْبُدُوا = فَ + لِ (Befehls-Lām) + يَعْبُدُوا (Jussiv). Im Indikativ wäre es يَعْبُدُونَ. Im Jussiv fällt bei den fünf Sonderformen (الأفعال الخمسة) das Nūn weg: يَعْبُدُونَ → يَعْبُدُوا. Das Befehls-Lām löst den Jussiv aus: ‚So sollen sie dienen.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=3"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §31-40",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  }
+]

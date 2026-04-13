@@ -1,0 +1,1777 @@
+{
+  "meta": {
+    "title": "Synonym-Kontrast — Bedeutungsnuancen im Quran",
+    "description": "Paare von Wörtern mit ähnlicher Bedeutung, deren Unterschiede für das Textverständnis entscheidend sind. Rein sprachwissenschaftliche Analyse der semantischen Differenzierung.",
+    "totalPairs": 53,
+    "sources": [
+      {
+        "name": "Lane's Arabic-English Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "id": 1,
+      "wordA": {
+        "arabic": "خَوْف",
+        "root": "خ-و-ف",
+        "meaning": "Furcht (vor Schaden/Gefahr)"
+      },
+      "wordB": {
+        "arabic": "خَشْيَة",
+        "root": "خ-ش-ي",
+        "meaning": "Ehrfurcht, Respektfurcht"
+      },
+      "contrast": "خَوْف ist Furcht vor möglichem Schaden — eine emotionale Reaktion auf Gefahr. خَشْيَة ist eine Furcht, die mit Bewusstheit/Erkenntnis verbunden auftritt. In 35:28 (إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ) kollokiert يَخْشَى syntaktisch mit الْعُلَمَاءُ — der Text verbindet خَشْيَة lexikalisch mit الْعُلَمَاءُ (den Wissenden).",
+      "exercises": [
+        {
+          "ref": "2:38",
+          "arabic": "فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+          "question": "Warum hier خَوْف und nicht خَشْيَة?",
+          "answer": "Es geht um Freiheit von Angst/Gefahr — nicht um Ehrfurcht. Keine Gefahr droht ihnen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+        },
+        {
+          "ref": "35:28",
+          "arabic": "إِنَّمَا يَخْشَى ٱللَّهَ مِنْ عِبَادِهِ",
+          "question": "Warum hier خَشْيَة und nicht خَوْف?",
+          "answer": "In 35:28 kollokiert خَشْيَة mit الْعُلَمَاءُ (den Wissenden) — der Text verbindet خَشْيَة lexikalisch mit Bewusstheit/Erkenntnis, während خَوْف eine unmittelbare Furchtreaktion ohne diese Kollokation bezeichnet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=xwf",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=x$y"
+    },
+    {
+      "id": 2,
+      "wordA": {
+        "arabic": "قَلْب",
+        "root": "ق-ل-ب",
+        "meaning": "Herz (Sitz des Verstandes und Willens)"
+      },
+      "wordB": {
+        "arabic": "فُؤَاد",
+        "root": "ف-أ-د",
+        "meaning": "Herz (Sitz der Empfindung und des Begreifens)"
+      },
+      "contrast": "قَلْب ist das Herz als Organ des Denkens, der Absicht und des Willens — es kann versiegelt werden (2:7) oder sich wenden. فُؤَاد ist das Herz als empfindliches, aufnehmendes Organ — es wird leer (28:10) oder bestätigt (11:120). Die Wurzel ق-ل-ب bedeutet 'umdrehen' — das قَلْب kann sich wenden. Die Wurzel ف-ا-د bedeutet 'brennen' — der فُؤَاد ist sensibel und verletzlich.",
+      "exercises": [
+        {
+          "ref": "2:7",
+          "arabic": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ",
+          "question": "Warum hier قُلُوب und nicht أَفْئِدَة?",
+          "answer": "Versiegelung betrifft den Willen und die Entscheidungsfähigkeit — das ist die Domäne des قَلْب.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+        },
+        {
+          "ref": "28:10",
+          "arabic": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ",
+          "question": "Warum hier فُؤَاد und nicht قَلْب?",
+          "answer": "Es geht um den emotionalen Zustand — Leere des Empfindens. Das فُؤَاد als Sitz der Emotion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=10"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=qlb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=f>d"
+    },
+    {
+      "id": 3,
+      "wordA": {
+        "arabic": "خَلَقَ",
+        "root": "خ-ل-ق",
+        "meaning": "erschaffen / formen"
+      },
+      "wordB": {
+        "arabic": "جَعَلَ",
+        "root": "ج-ع-ل",
+        "meaning": "machen zu/einrichten als (Transformation)"
+      },
+      "contrast": "خَلَقَ bezeichnet Erschaffung — etwas ins Dasein bringen. جَعَلَ bezeichnet Transformation oder Bestimmung — etwas zu etwas anderem MACHEN. خَلَقَ hat nur ein Objekt, جَعَلَ hat oft zwei (doppelter Akkusativ): das Objekt + das Resultat.",
+      "exercises": [
+        {
+          "ref": "6:1",
+          "arabic": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ",
+          "question": "Warum خَلَقَ für Himmel/Erde und جَعَلَ für Dunkelheit/Licht?",
+          "answer": "Himmel und Erde werden ins Dasein gebracht (خَلَقَ). Dunkelheit und Licht werden als Zustände EINGERICHTET (جَعَلَ) — sie sind Eigenschaften der Schöpfung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=xlq",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=jEl"
+    },
+    {
+      "id": 4,
+      "wordA": {
+        "arabic": "نَبِيّ",
+        "root": "ن-ب-أ",
+        "meaning": "Nabi/Verkünder (Nachrichtenempfänger)"
+      },
+      "wordB": {
+        "arabic": "رَسُول",
+        "root": "ر-س-ل",
+        "meaning": "Gesandter (Beauftragter mit Botschaft)"
+      },
+      "contrast": "رَسُول von der Wurzel ر-س-ل (senden): einer der gesandt wird, ein Gesandter. نَبِيّ von der Wurzel ن-ب-أ (berichten/verkünden): einer der eine Nachricht bringt. In 22:52 stehen beide nebeneinander, was zeigt, dass der Quran sie als unterschiedliche Begriffe verwendet.",
+      "exercises": [
+        {
+          "ref": "22:52",
+          "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا",
+          "question": "Warum werden hier beide Begriffe separat genannt?",
+          "answer": "نَبِيّ (Wurzel ن-ب-أ: informieren, Nachricht geben) bezeichnet etymologisch einen Informierenden/Verkündenden. رَسُول (Wurzel ر-س-ل: senden, entsenden) bezeichnet einen Gesandten/Entsendeten. Der Bedeutungsunterschied liegt in der Wurzelsemantik, nicht in einer theologischen Hierarchie.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=52"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=52",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=nb>",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=rsl"
+    },
+    {
+      "id": 5,
+      "wordA": {
+        "arabic": "عَذَاب",
+        "root": "ع-ذ-ب",
+        "meaning": "Strafe/Pein (der Prozess des Leidens)"
+      },
+      "wordB": {
+        "arabic": "عِقَاب",
+        "root": "ع-ق-ب",
+        "meaning": "Vergeltung/Konsequenz (die Folge einer Tat)"
+      },
+      "contrast": "عَذَاب betont das Leiden selbst — den Schmerz und die Qual. عِقَاب betont die Gerechtigkeit — es ist die logische Folge/Vergeltung einer Handlung. عَذَاب kann unverdient erscheinen, عِقَاب impliziert Kausalität.",
+      "exercises": [
+        {
+          "ref": "2:7",
+          "arabic": "وَلَهُمْ عَذَابٌ عَظِيمٌ",
+          "question": "Warum عَذَاب hier?",
+          "answer": "Der Fokus liegt auf dem Leiden selbst — die Schwere der Pein (عَظِيم = gewaltig).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+        },
+        {
+          "ref": "13:32",
+          "arabic": "فَكَيْفَ كَانَ عِقَابِ",
+          "question": "Warum عِقَاب hier?",
+          "answer": "Sprachliche Frage nach der Vergeltung — der Fokus liegt auf der gerechten Konsequenz des Handelns.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=32"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=E*b",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Eqb"
+    },
+    {
+      "id": 6,
+      "wordA": {
+        "arabic": "رَأَى",
+        "root": "ر-أ-ي",
+        "meaning": "sehen (allgemein, auch geistig)"
+      },
+      "wordB": {
+        "arabic": "نَظَرَ",
+        "root": "ن-ظ-ر",
+        "meaning": "hinschauen/blicken (bewusster Blick)"
+      },
+      "wordC": {
+        "arabic": "بَصُرَ",
+        "root": "ب-ص-ر",
+        "meaning": "wahrnehmen/erkennen (mit Einsicht)"
+      },
+      "contrast": "رَأَى ist das allgemeinste Sehen — physisch oder geistig. نَظَرَ betont den bewussten Akt des Hinschauens (mit إِلَى). بَصُرَ betont die innere Wahrnehmung und Einsicht. Darum heißt Gott الْبَصِير (der Wahrnehmende), nicht الرَّائِي.",
+      "exercises": [
+        {
+          "ref": "6:76",
+          "arabic": "فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًا",
+          "question": "Warum رَأَى?",
+          "answer": "Einfaches Sehen — Ibrahim bemerkt einen Stern. Kein bewusstes Hinschauen, sondern Wahrnehmung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=76"
+        },
+        {
+          "ref": "7:198",
+          "arabic": "يَنظُرُونَ إِلَيْكَ وَهُمْ لَا يُبْصِرُونَ",
+          "question": "Welche drei Seh-Verben kombiniert dieser Vers, und welche Steigerung liegt vor?",
+          "answer": "Drei Verben in einem Vers: du SIEHST sie (رَأَى), sie SCHAUEN dich an (نَظَرَ), aber sie ERKENNEN nicht (بَصُرَ). Steigerung: Sehen → Blicken → (nicht) Einsehen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=198"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=76",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=r>y",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=nZr",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=bSr"
+    },
+    {
+      "id": 7,
+      "wordA": {
+        "arabic": "عَلِمَ",
+        "root": "ع-ل-م",
+        "meaning": "wissen (sicheres Wissen)"
+      },
+      "wordB": {
+        "arabic": "عَرَفَ",
+        "root": "ع-ر-ف",
+        "meaning": "kennen/erkennen (durch Erfahrung)"
+      },
+      "contrast": "عَلِمَ ist abstraktes, sicheres Wissen — oft propositional ('wissen dass...'). عَرَفَ ist Kenntnis durch Erfahrung oder Wiedererkennung — persönliches Kennen. Gott wird mit عَلِمَ beschrieben (der viel-Wissende (Intensivform von ع-ل-م)), nie mit عَرَفَ.",
+      "exercises": [
+        {
+          "ref": "12:58",
+          "arabic": "فَعَرَفَهُمْ وَهُمْ لَهُ مُنكِرُونَ",
+          "question": "Warum hier عَرَفَ und nicht عَلِمَ?",
+          "answer": "Yusuf ERKENNT seine Brüder wieder — persönliche Wiedererkennung, nicht abstraktes Wissen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=58"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=58",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Elm",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Erf"
+    },
+    {
+      "id": 8,
+      "wordA": {
+        "arabic": "رَحْمَة",
+        "root": "ر-ح-م",
+        "meaning": "Barmherzigkeit (umfassend, allgemein)"
+      },
+      "wordB": {
+        "arabic": "مَغْفِرَة",
+        "root": "غ-ف-ر",
+        "meaning": "Vergebung (Bedecken von Verfehlungen)"
+      },
+      "contrast": "رَحْمَة ist umfassende Barmherzigkeit — semantisch breit und nicht auf einen Kontext beschränkt (7:156: وَسِعَتْ كُلَّ شَيْءٍ). مَغْفِرَة ist spezifisch: das Bedecken/Verbergen von Verfehlungen. Barmherzigkeit kann ohne Verfehlung existieren, Vergebung setzt Verfehlung voraus.",
+      "exercises": [
+        {
+          "ref": "7:156",
+          "arabic": "وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍ",
+          "question": "Warum رَحْمَة und nicht مَغْفِرَة?",
+          "answer": "Barmherzigkeit umfasst ALLES (كُلَّ شَيْءٍ) — auch Situationen ohne Verfehlung. Vergebung wäre zu eng.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=156"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=156",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=rHm",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=gfr"
+    },
+    {
+      "id": 9,
+      "wordA": {
+        "arabic": "إِنْسَان",
+        "root": "ا-ن-س (Wurzel umstritten: ا-ن-س 'vertraut sein' oder ن-س-ي 'vergessen')",
+        "meaning": "Mensch (Gattungsbezeichnung, oft mit Schwäche)"
+      },
+      "wordB": {
+        "arabic": "بَشَر",
+        "root": "ب-ش-ر",
+        "meaning": "Mensch (biologisches Wesen, äußere Erscheinung)"
+      },
+      "contrast": "إِنْسَان betont die menschliche Natur mit ihren Schwächen (Vergesslichkeit, Ungeduld). بَشَر betont die äußere, physische Menschlichkeit. Wenn Verkünder als Menschen wie andere beschrieben werden, steht بَشَر (18:110). Wenn menschliche Schwäche thematisiert wird, steht إِنْسَان.",
+      "exercises": [
+        {
+          "ref": "18:110",
+          "arabic": "قُلْ إِنَّمَآ أَنَا بَشَرٌ مِّثْلُكُمْ",
+          "question": "Warum بَشَر?",
+          "answer": "Betonung der physischen Gleichheit — ich bin ein Mensch WIE IHR in äußerer Erscheinung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=110"
+        },
+        {
+          "ref": "4:28",
+          "arabic": "وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًا",
+          "question": "Warum إِنْسَان?",
+          "answer": "Menschliche Schwäche (ضَعِيفًا) — die innere Natur des Menschen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=110",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Ans",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=b$r"
+    },
+    {
+      "id": 10,
+      "wordA": {
+        "arabic": "قَوْل",
+        "root": "ق-و-ل",
+        "meaning": "Aussage/Rede (allgemein, jede Äußerung)"
+      },
+      "wordB": {
+        "arabic": "كَلَام",
+        "root": "ك-ل-م",
+        "meaning": "Rede/Gespräch (zusammenhängende Rede)"
+      },
+      "contrast": "قَوْل ist jede sprachliche Äußerung — ein Wort, ein Satz, eine Meinung. كَلَام ist zusammenhängende, sinnvolle Rede — ein Gespräch oder eine vollständige Mitteilung. Der Quran verwendet قَالَ (er sagte) für einzelne Aussagen, aber كَلَّمَ (er sprach mit) für dialogische Kommunikation (4:164: Gott sprach mit Musa).",
+      "exercises": [
+        {
+          "ref": "4:164",
+          "arabic": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+          "question": "Warum كَلَّمَ und nicht قَالَ?",
+          "answer": "Direkte, persönliche Kommunikation — Gespräch, nicht bloße Aussage. Der Masdar تَكْلِيمًا verstärkt die Tatsächlichkeit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=qwl",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=klm"
+    },
+    {
+      "id": 11,
+      "wordA": {
+        "arabic": "اِسْتَطَاعَ",
+        "root": "ط-و-ع",
+        "meaning": "können/imstande sein (allgemein)"
+      },
+      "wordB": {
+        "arabic": "قَدَرَ",
+        "root": "ق-د-ر",
+        "meaning": "vermögen/die Macht haben (inhärente Fähigkeit)"
+      },
+      "contrast": "اِسْتَطَاعَ ist situatives Können — ob man in einer konkreten Situation fähig ist. قَدَرَ ist inhärentes Vermögen — die grundsätzliche Macht etwas zu tun. Gott ist قَادِر (grundsätzlich mächtig), Menschen sind مُسْتَطِيع (situativ fähig).",
+      "exercises": [
+        {
+          "ref": "18:97",
+          "arabic": "فَمَا ٱسْطَٰعُوٓا أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا لَهُ نَقْبًا",
+          "question": "Warum اِسْتَطَاعَ (zweimal)?",
+          "answer": "Situative Unfähigkeit — sie konnten in dieser konkreten Situation weder drüberklettern noch durchbrechen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=97"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=97",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=TwE",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=qdr"
+    },
+    {
+      "id": 12,
+      "wordA": {
+        "arabic": "وَحْي",
+        "root": "و-ح-ي",
+        "meaning": "Offenbarung/Eingebung (direkt, oft nicht-sprachlich)"
+      },
+      "wordB": {
+        "arabic": "تَنْزِيل",
+        "root": "ن-ز-ل",
+        "meaning": "Herabsendung (konkreter Text, stückweise)"
+      },
+      "contrast": "وَحْي ist der Akt der Eingebung/Inspiration — schnelle, oft nicht-sprachliche Kommunikation (42:51). Das Wort ist semantisch breit: es beschreibt Kommunikation an Menschen (42:51), an Bienen (16:68) und unter satanischen Verbündeten (6:121). تَنْزِيل betont die konkrete Herabsendung eines Textes in Etappen. وَحْي ist der Prozess, تَنْزِيل das Produkt.",
+      "exercises": [
+        {
+          "ref": "42:51",
+          "arabic": "وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ ٱللَّهُ إِلَّا وَحْيًا أَوْ مِن وَرَآئِ حِجَابٍ",
+          "question": "Warum وَحْي?",
+          "answer": "Die Art der Kommunikation — Inspiration als eine von drei Möglichkeiten (neben Schleier und Boten).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=51"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=51",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=wHy",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=nzl"
+    },
+    {
+      "id": 13,
+      "wordA": {
+        "arabic": "جَنَّة",
+        "root": "ج-ن-ن",
+        "meaning": "Garten (bewachsen, verborgen)"
+      },
+      "wordB": {
+        "arabic": "فِرْدَوْس",
+        "root": "—",
+        "meaning": "Garten (Lehnwort)"
+      },
+      "contrast": "جَنَّة kommt von ج-ن-ن (verbergen) — ein Garten so dicht bewachsen dass er verbirgt. Im Quran sowohl für irdische als auch für jenseitige Gärten. فِرْدَوْس (Lehnwort, vgl. griech. paradeisos) bezeichnet einen Garten. In 18:107 جَنَّاتُ الْفِرْدَوْسِ und 23:11 الَّذِينَ يَرِثُونَ الْفِرْدَوْسَ.",
+      "exercises": [
+        {
+          "ref": "18:107",
+          "arabic": "كَانَتْ لَهُمْ جَنَّٰتُ ٱلْفِرْدَوْسِ نُزُلًا",
+          "question": "Warum beide zusammen?",
+          "answer": "جَنَّات (Plural, Gärten) als Gattung + الْفِرْدَوْس als spezifischer Name/Stufe — Iḍāfa: die Gärten DES Firdaus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=107"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=107",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=jnn"
+    },
+    {
+      "id": 14,
+      "wordA": {
+        "arabic": "صَلَاة",
+        "root": "ص-ل-و",
+        "meaning": "Zuwendung/Hinwendung (konventionell 'Gebet')"
+      },
+      "wordB": {
+        "arabic": "دُعَاء",
+        "root": "د-ع-و",
+        "meaning": "Anrufung/Bitte (persönliche Bitte)"
+      },
+      "contrast": "صَلَاة von der Wurzel ص-ل-و: Zuwendung, Hinwendung, Verbindung. دُعَاء von der Wurzel د-ع-و: Anrufung, Bitte. Der Quran verwendet أَقَامَ الصَّلَاةَ (die Zuwendung einrichten/aufrechterhalten) und unterscheidet damit terminologisch von دُعَاء (der freien Anrufung).",
+      "exercises": [
+        {
+          "ref": "2:186",
+          "arabic": "أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ",
+          "question": "Warum دَعْوَة und nicht صَلَاة?",
+          "answer": "Es geht um persönliche Bitte und Antwort — nicht um die Zuwendung/Hinwendung (ṣalāh).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Slw",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=dEw"
+    },
+    {
+      "id": 15,
+      "wordA": {
+        "arabic": "حَرَام",
+        "root": "ح-ر-م",
+        "meaning": "verboten/eingeschränkt (unzugänglich gemacht)"
+      },
+      "wordB": {
+        "arabic": "مُحَرَّم",
+        "root": "ح-ر-م",
+        "meaning": "verboten (aktiv verboten worden, Form II Passivpartizip)"
+      },
+      "contrast": "Beide von derselben Wurzel, aber: حَرَام ist ein Adjektiv — etwas das von Natur aus unzugänglich/eingeschränkt ist (المسجد الحرام). مُحَرَّم (Form II Passiv) betont die aktive Verbotshandlung — etwas das VERBOTEN WURDE.",
+      "exercises": [
+        {
+          "ref": "5:3",
+          "arabic": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ",
+          "question": "Warum حُرِّمَ (Passiv Form II) und nicht حَرَام?",
+          "answer": "Aktives Verbot — es WURDE verboten. Die Form II betont den Akt des Verbietens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Hrm",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Hrm"
+    },
+    {
+      "id": 16,
+      "wordA": {
+        "arabic": "كُفْر",
+        "root": "ك-ف-ر",
+        "meaning": "Bedecken/Verleugnen (die Wahrheit verdecken)"
+      },
+      "wordB": {
+        "arabic": "شِرْك",
+        "root": "ش-ر-ك",
+        "meaning": "Beigesellung (Gott Partner zuschreiben)"
+      },
+      "contrast": "كُفْر ist das Verdecken/Leugnen der Wahrheit — die Grundbedeutung ist 'bedecken' (der Bauer كَافِر bedeckt den Samen). شِرْك ist spezifisch: Gott etwas beigesellen. شِرْك ist eine Form des كُفْر, aber كُفْر ist weiter gefasst.",
+      "exercises": [
+        {
+          "ref": "4:48",
+          "arabic": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ",
+          "question": "Warum يُشْرَكَ und nicht يُكْفَرَ?",
+          "answer": "Spezifisch die Beigesellung — nicht jede Form der Leugnung, sondern gezielt das Zuschreiben von Partnern.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=48"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=48",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=kfr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=$rk"
+    },
+    {
+      "id": 17,
+      "wordA": {
+        "arabic": "حَيَاة",
+        "root": "ح-ي-ي",
+        "meaning": "Leben (biologisch und existenziell)"
+      },
+      "wordB": {
+        "arabic": "مَعِيشَة",
+        "root": "ع-ي-ش",
+        "meaning": "Lebensunterhalt/Lebensweise"
+      },
+      "contrast": "حَيَاة ist Leben als Gegensatz zum Tod — existenziell. مَعِيشَة ist die Art zu leben — Lebensunterhalt, Lebensstandard. حَيَاة kann nicht eng sein, aber مَعِيشَة kann es (20:124: مَعِيشَةً ضَنكًا).",
+      "exercises": [
+        {
+          "ref": "20:124",
+          "arabic": "فَإِنَّ لَهُ مَعِيشَةً ضَنكًا",
+          "question": "Warum مَعِيشَة und nicht حَيَاة?",
+          "answer": "Ein enges/bedrängtes LEBEN im Sinne von Lebensunterhalt und -qualität. حَيَاة wäre zu allgemein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=124"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=124",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Hyy",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Ey$"
+    },
+    {
+      "id": 18,
+      "wordA": {
+        "arabic": "سَمِعَ",
+        "root": "س-م-ع",
+        "meaning": "hören (wahrnehmen mit dem Ohr)"
+      },
+      "wordB": {
+        "arabic": "أَنْصَتَ",
+        "root": "ن-ص-ت",
+        "meaning": "still zuhören/aufmerksam lauschen"
+      },
+      "wordC": {
+        "arabic": "اِسْتَمَعَ",
+        "root": "س-م-ع",
+        "meaning": "zuhören (aktiv, Form VIII)"
+      },
+      "contrast": "سَمِعَ ist passives Hören — der Laut erreicht das Ohr. اِسْتَمَعَ (Form VIII) ist aktives Zuhören — man entscheidet sich hinzuhören. أَنْصَتَ ist stilles, aufmerksames Lauschen — man schweigt und konzentriert sich.",
+      "exercises": [
+        {
+          "ref": "7:204",
+          "arabic": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا لَهُ وَأَنصِتُوا",
+          "question": "Warum beide Verben?",
+          "answer": "Steigerung: erst aktiv zuhören (اِسْتَمَعَ), dann still werden und lauschen (أَنْصَتَ). Zwei verschiedene Handlungen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=204"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=204",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=smE",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=nSt",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=smE"
+    },
+    {
+      "id": 19,
+      "wordA": {
+        "arabic": "ظُلْم",
+        "root": "ظ-ل-م",
+        "meaning": "Unrecht/etwas an den falschen Platz setzen"
+      },
+      "wordB": {
+        "arabic": "جَوْر",
+        "root": "ج-و-ر",
+        "meaning": "Ungerechtigkeit/Abweichung vom Rechten"
+      },
+      "contrast": "ظُلْم ist im Quran das häufigere Wort und bedeutet grundsätzlich 'etwas an den falschen Platz setzen'. In 31:13 (إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌ) identifiziert der Text selbst شِرْك als ظُلْم — konsistent mit der Grundbedeutung von ẓulm als Platzverschiebung. جَوْر betont die Abweichung von der Mitte/dem Geraden.",
+      "exercises": [
+        {
+          "ref": "31:13",
+          "arabic": "إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+          "question": "Warum ظُلْم für Beigesellung?",
+          "answer": "In 31:13 setzt der Text شِرْك und ظُلْم lexikalisch gleich — konsistent mit der Grundbedeutung von ẓulm (Platzverschiebung): der Text wendet das Muster auf seinen eigenen Verehrungs-Diskurs an.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Zlm",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=jwr"
+    },
+    {
+      "id": 20,
+      "wordA": {
+        "arabic": "عَرْش",
+        "root": "ع-ر-ش",
+        "meaning": "Thron (Herrschaftssitz)"
+      },
+      "wordB": {
+        "arabic": "كُرْسِيّ",
+        "root": "ك-ر-س",
+        "meaning": "Stuhl/Sitz (Herrschaftsbereich)"
+      },
+      "contrast": "عَرْش (Wurzel ع-ر-ش: errichten, aufbauen) bedeutet Thron oder Gerüst — ein erhobener Aufbau. كُرْسِيّ (Wurzel ك-ر-س: sich setzen) bedeutet Sitz oder Stuhl. Beide Wörter gehören zum semantischen Feld der Herrschaftssymbolik, unterscheiden sich aber in der Grundbedeutung: عَرْش betont die Konstruktion/das Gerüst, كُرْسِيّ den Sitzplatz.",
+      "exercises": [
+        {
+          "ref": "2:255",
+          "arabic": "وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ",
+          "question": "Warum كُرْسِيّ und nicht عَرْش?",
+          "answer": "كُرْسِيّ (Sitz) wird hier mit dem Verb وَسِعَ (umfassen) verwendet. عَرْش (Thron/Gerüst) erscheint in anderen Kontexten (z.B. 7:54). Die Wortwahl unterscheidet zwei verschiedene lexikalische Konzepte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Er$",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=krs"
+    },
+    {
+      "id": 21,
+      "wordA": {
+        "arabic": "أَجْر",
+        "root": "ا-ج-ر",
+        "meaning": "Lohn/Belohnung (für Handlung, vertraglich)"
+      },
+      "wordB": {
+        "arabic": "ثَوَاب",
+        "root": "ث-و-ب",
+        "meaning": "Belohnung (Rückkehr des Guten)"
+      },
+      "contrast": "أَجْر ist Lohn als verdienter Gegenwert — eine Gegenleistung für Arbeit/Handlung. ثَوَاب (von ثَابَ = zurückkehren) betont die Rückkehr des Guten zum Handelnden — das Gute kommt zurück. أَجْر ist im Quran häufiger.",
+      "exercises": [
+        {
+          "ref": "3:136",
+          "arabic": "أُولَٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٌ مِّن رَّبِّهِمْ",
+          "question": "Was ist der Unterschied zwischen جَزَاء, أَجْر und ثَوَاب?",
+          "answer": "جَزَاء = Vergeltung (neutral, kann positiv oder negativ sein). أَجْر = verdienter Lohn. ثَوَاب = zurückkehrendes Gutes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=136"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=136",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Ajr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=vwb"
+    },
+    {
+      "id": 22,
+      "wordA": {
+        "arabic": "مَوْت",
+        "root": "م-و-ت",
+        "meaning": "Tod (Ende des Lebens)"
+      },
+      "wordB": {
+        "arabic": "وَفَاة",
+        "root": "و-ف-ي",
+        "meaning": "Hinscheiden/Vollendung (vollständiges Nehmen)"
+      },
+      "contrast": "مَوْت (Wurzel م-و-ت) bezeichnet den Zustand des Totseins — das Aufhören des Lebens. تَوَفَّى (Form V von و-ف-ي: vollständig sein/nehmen) bedeutet 'vollständig nehmen/einziehen'. Im Unterschied zu مَوْت (Zustand) beschreibt وَفَاة den Akt des Einziehens/Nehmens. وَفَاة kann auch Schlaf bedeuten (6:60: يَتَوَفَّاكُم بِاللَّيْلِ).",
+      "exercises": [
+        {
+          "ref": "6:60",
+          "arabic": "وَهُوَ ٱلَّذِى يَتَوَفَّىٰكُم بِٱلَّيْلِ",
+          "question": "Warum تَوَفَّى für Schlaf?",
+          "answer": "Die Wurzel و-ف-ي bedeutet 'vollständig einsammeln' — im Schlaf wird das Bewusstsein 'eingesammelt'. Kein biologischer Tod (مَوْت), sondern temporäre Einholung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=60"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=60",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=mwt",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=wfy"
+    },
+    {
+      "id": 23,
+      "wordA": {
+        "arabic": "صِرَاط",
+        "root": "ص-ر-ط",
+        "meaning": "Weg (gerade, ohne Abzweigung)"
+      },
+      "wordB": {
+        "arabic": "سَبِيل",
+        "root": "س-ب-ل",
+        "meaning": "Weg (gangbare Strecke, oft mit Ziel)"
+      },
+      "wordC": {
+        "arabic": "طَرِيق",
+        "root": "ط-ر-ق",
+        "meaning": "Weg (betretener Pfad, physisch)"
+      },
+      "contrast": "صِرَاط bezeichnet einen geraden Weg ohne Abzweigung — im Quran fast ausschließlich für den EINEN richtigen Weg (الصِّرَاطَ الْمُسْتَقِيمَ). سَبِيل (von سَبَلَ = fließen, sich ergießen) ist ein gangbarer Weg mit Richtung und Ziel — kommt im Plural vor (سُبُل), was Vielfalt impliziert. طَرِيق (von طَرَقَ = klopfen/betreten) ist ein physisch betretener Pfad. Distributionell: صِرَاط steht nie im Plural im Quran, سَبِيل sowohl Singular als auch Plural, طَرِيق selten und konkret.",
+      "exercises": [
+        {
+          "ref": "1:6",
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "question": "Warum صِرَاط und nicht سَبِيل oder طَرِيق?",
+          "answer": "صِرَاط ist der EINE gerade Weg ohne Alternativen. سَبِيل könnte Plural sein (mehrere Wege), طَرِيق wäre zu physisch/konkret.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "ref": "6:153",
+          "arabic": "وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًا فَٱتَّبِعُوهُ وَلَا تَتَّبِعُوا ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِ",
+          "question": "Warum صِرَاط für den einen Weg und سُبُل für die Abwege?",
+          "answer": "صِرَاط im Singular = der eine gerade Weg. سُبُل im Plural = die vielen Abwege, die davon wegführen. Der Kontrast Singular/Plural spiegelt die semantische Differenz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=153"
+        },
+        {
+          "ref": "20:77",
+          "arabic": "فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا",
+          "question": "Warum طَرِيق für den Weg durchs Meer?",
+          "answer": "Ein physisch betretener, trockener Pfad durch das Meer — طَرِيق ist konkret-physisch, nicht metaphorisch wie صِرَاط.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=77"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=SrT",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=sbl",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=Trq"
+    },
+    {
+      "id": 24,
+      "wordA": {
+        "arabic": "عَبْد",
+        "root": "ع-ب-د",
+        "meaning": "Diener/Knecht (Wurzel ع-ب-د: dienen)"
+      },
+      "wordB": {
+        "arabic": "خَادِم",
+        "root": "خ-د-م",
+        "meaning": "Diener (Dienst verrichtend)"
+      },
+      "contrast": "عَبْد (Wurzel ع-ب-د: dienen) bezeichnet einen Dienenden/Diener. Im Qurantext erscheint es sowohl als Nomen (عَبْد) als auch in Konstruktionen wie عِبَادَة (Dienst) und عُبُودِيَّة (Dienerschaft). خَادِم (Wurzel خ-د-م: Dienst leisten) bezeichnet jemanden, der eine Dienstleistung erbringt — funktional. خَادِم kommt als Nomen im Quran nicht vor, während عَبْد das im Qurantext durchgehend verwendete Wort für 'Diener' ist.",
+      "exercises": [
+        {
+          "ref": "17:1",
+          "arabic": "سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِ لَيْلًا",
+          "question": "Warum عَبْد hier und nicht ein anderer Ausdruck?",
+          "answer": "عَبْد (Wurzel ع-ب-د: dienen) bezeichnet einen Dienenden. Im Text steht بِعَبْدِهِ als Iḍāfa-Konstruktion (seinem Diener). Das Wort beschreibt ein Dienstverhältnis.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=1"
+        },
+        {
+          "ref": "19:93",
+          "arabic": "إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًا",
+          "question": "Warum عَبْدًا und nicht خَادِمًا?",
+          "answer": "عَبْدًا steht hier im Akkusativ als Hal (Zustandsakkusativ): 'als Diener kommend'. Das Wort عَبْد (Wurzel ع-ب-د) bezeichnet einen Dienenden, während خَادِم (Wurzel خ-د-م) einen funktionalen Dienstleister bezeichnet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=93"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=1",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Ebd",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=xdm"
+    },
+    {
+      "id": 25,
+      "wordA": {
+        "arabic": "حَمْد",
+        "root": "ح-م-د",
+        "meaning": "Lobpreis (für inhärente Eigenschaft)"
+      },
+      "wordB": {
+        "arabic": "شُكْر",
+        "root": "ش-ك-ر",
+        "meaning": "Dank (für empfangene Wohltat)"
+      },
+      "contrast": "حَمْد ist Lobpreis für eine inhärente Eigenschaft — unabhängig davon, ob man selbst profitiert. شُكْر ist Dank für eine konkrete Tat oder Wohltat — die Reaktion auf etwas Empfangenes. Daher beginnt der Quran mit الْحَمْدُ لِلَّهِ (Preis für eine inhärente Eigenschaft), nicht mit الشُّكْرُ لِلَّهِ (Dank für eine Tat).",
+      "exercises": [
+        {
+          "ref": "1:2",
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+          "question": "Warum الْحَمْدُ und nicht الشُّكْرُ?",
+          "answer": "Preis für eine inhärente Eigenschaft (رَبِّ الْعَالَمِينَ = Herr der Welten). شُكْر würde eine spezifische Wohltat voraussetzen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "ref": "14:7",
+          "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+          "question": "Warum شَكَرَ und nicht حَمِدَ?",
+          "answer": "Es geht um Dank für konkrete Gaben — wenn ihr für das Empfangene dankt, wird vermehrt. Die Reaktion auf eine Tat erfordert شُكْر.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=7"
+        },
+        {
+          "ref": "31:12",
+          "arabic": "أَنِ ٱشْكُرْ لِلَّهِ",
+          "question": "Warum شُكْر in Luqmans Ermahnung?",
+          "answer": "Luqman fordert Dank für die konkret empfangene Weisheit — eine spezifische Gabe, nicht Lobpreis für eine inhärente Eigenschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Hmd",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=$kr"
+    },
+    {
+      "id": 26,
+      "wordA": {
+        "arabic": "رَحْمَة",
+        "root": "ر-ح-م",
+        "meaning": "Barmherzigkeit (umfassend, allgemein)"
+      },
+      "wordB": {
+        "arabic": "رَأْفَة",
+        "root": "ر-ا-ف",
+        "meaning": "Mitleid/Erbarmen (intensiv, vor drohendem Schaden)"
+      },
+      "contrast": "رَحْمَة ist umfassende Barmherzigkeit — sie schließt Geben, Vergeben, Schützen ein. رَأْفَة ist intensives Erbarmen speziell angesichts drohenden Schadens — sie ist enger gefasst und emotionaler. In 57:27 steht رَأْفَةً وَرَحْمَةً — رَأْفَة zuerst (die intensivere, spezifischere Form), dann رَحْمَة (die allgemeinere). Steigerung vom Besonderen zum Allgemeinen.",
+      "exercises": [
+        {
+          "ref": "57:27",
+          "arabic": "وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً",
+          "question": "Warum beide Wörter und warum in dieser Reihenfolge?",
+          "answer": "رَأْفَة (intensives Mitleid bei drohendem Leid) und رَحْمَة (allgemeine Barmherzigkeit) — vom Intensiven/Spezifischen zum Umfassenden/Allgemeinen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=27"
+        },
+        {
+          "ref": "24:2",
+          "arabic": "وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِى دِينِ ٱللَّهِ",
+          "question": "Warum رَأْفَة und nicht رَحْمَة?",
+          "answer": "رَأْفَة ist das spezifische Mitleid angesichts der bevorstehenden Strafe — das Erbarmen, das den Vollzug verhindern würde. رَحْمَة wäre zu allgemein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=2"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=27",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=rHm",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=rAf"
+    },
+    {
+      "id": 27,
+      "wordA": {
+        "arabic": "خَشْيَة",
+        "root": "خ-ش-ي",
+        "meaning": "Ehrfurcht (wissensbezogene Furcht)"
+      },
+      "wordB": {
+        "arabic": "تَقْوَى",
+        "root": "و-ق-ي",
+        "meaning": "Achtsamkeit/Schutz (sich vor etwas hüten)"
+      },
+      "contrast": "خَشْيَة ist Ehrfurcht basierend auf Wissen um die Größe des Gefürchteten (35:28: nur Wissende haben خَشْيَة). تَقْوَى (von و-ق-ي = schützen) ist das Sich-Schützen durch achtsames Handeln — eine Schutzbarriere zwischen sich und dem, was schadet. خَشْيَة ist ein Zustand (Ehrfurcht empfinden), تَقْوَى ist eine Handlungsweise (sich hüten/schützen).",
+      "exercises": [
+        {
+          "ref": "35:28",
+          "arabic": "إِنَّمَا يَخْشَى ٱللَّهَ مِنْ عِبَادِهِ",
+          "question": "Warum خَشْيَة und nicht تَقْوَى?",
+          "answer": "In 35:28 kollokiert خَشْيَة lexikalisch mit الْعُلَمَاءُ (den Wissenden). تَقْوَى wäre achtsames Handeln, aber hier verbindet der Text خَشْيَة mit Bewusstheit/Erkenntnis.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28"
+        },
+        {
+          "ref": "2:197",
+          "arabic": "وَتَزَوَّدُوا فَإِنَّ خَيْرَ ٱلزَّادِ ٱلتَّقْوَىٰ",
+          "question": "Warum تَقْوَى als 'beste Wegzehrung'?",
+          "answer": "تَقْوَى ist aktives Sich-Schützen — eine Handlungsweise, die man als Vorrat mitnehmen kann. خَشْيَة als innerer Zustand passt nicht zur Metapher der Wegzehrung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+        },
+        {
+          "ref": "98:8",
+          "arabic": "ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُ",
+          "question": "Warum خَشِيَ und nicht اتَّقَى?",
+          "answer": "Der Kontext beschreibt das Ergebnis für den, der Ehrfurcht vor seinem Herrn empfindet — ein innerer Zustand der Anerkennung, nicht eine Handlungsweise des Sich-Schützens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=28",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=x$y",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=wqy"
+    },
+    {
+      "id": 28,
+      "wordA": {
+        "arabic": "كِتَاب",
+        "root": "ك-ت-ب",
+        "meaning": "Buch/Schrift (zusammengefasste Niederschrift)"
+      },
+      "wordB": {
+        "arabic": "صُحُف",
+        "root": "ص-ح-ف",
+        "meaning": "Blätter/Seiten (einzelne Blätter)"
+      },
+      "contrast": "كِتَاب (von ك-ت-ب = schreiben) ist ein zusammengefasstes, abgeschlossenes Buch — eine Einheit. صُحُف (Plural von صَحِيفَة, von ص-ح-ف = Fläche) sind einzelne Blätter oder Seiten — lose, nicht zu einem Band vereint. Die früheren Offenbarungen heißen صُحُف (87:19: صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ), während der Quran كِتَاب ist.",
+      "exercises": [
+        {
+          "ref": "87:18-19",
+          "arabic": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ  صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ",
+          "question": "Warum صُحُف und nicht كُتُب?",
+          "answer": "Die Offenbarungen Ibrahims und Musas werden als einzelne Blätter/Rollen beschrieben — nicht als zusammengefasste Bücher.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=18"
+        },
+        {
+          "ref": "2:2",
+          "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ",
+          "question": "Warum كِتَاب für den Quran?",
+          "answer": "كِتَاب bezeichnet ein zusammengefasstes, abgeschlossenes Werk — der Quran als vollständige Einheit, nicht als lose Blätter.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "ref": "80:13",
+          "arabic": "فِى صُحُفٍ مُّكَرَّمَةٍ",
+          "question": "Warum صُحُف und nicht كِتَاب?",
+          "answer": "Die Beschreibung der himmlischen Vorlage als einzelne geehrte Blätter — die physische Form der Aufbewahrung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=13"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=18",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=ktb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=SHf"
+    },
+    {
+      "id": 29,
+      "wordA": {
+        "arabic": "رُوح",
+        "root": "ر-و-ح",
+        "meaning": "Geist (Lebenshauch/Lebenskraft)"
+      },
+      "wordB": {
+        "arabic": "نَفْس",
+        "root": "ن-ف-س",
+        "meaning": "Selbst (individuelle Person)"
+      },
+      "contrast": "رُوح (von ر-و-ح = Wind, Hauch) ist die Lebenskraft — das, was laut Text eingehaucht wird (15:29, 32:9). نَفْس (von ن-ف-س = atmen, selbst) ist das individuelle Selbst als Person — es trägt Verantwortung, stirbt, wird gerichtet. رُوح ist unpersönlich und dem Geschöpf von aussen gegeben, نَفْس ist persönlich und individuell.",
+      "exercises": [
+        {
+          "ref": "15:29",
+          "arabic": "فَإِذَا سَوَّيْتُهُ وَنَفَخْتُ فِيهِ مِن",
+          "question": "Warum رُوح und nicht نَفْس?",
+          "answer": "Es geht um den Lebenshauch — die Kraft die laut Text dem Geschöpf eingeblasen wird. نَفْس wäre das individuelle Selbst, nicht der eingeblasene Hauch.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=29"
+        },
+        {
+          "ref": "3:185",
+          "arabic": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ",
+          "question": "Warum نَفْس und nicht رُوح?",
+          "answer": "Jedes individuelle Selbst/Person schmeckt den Tod. نَفْس ist das persönliche Selbst, das stirbt und zur Rechenschaft gezogen wird.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+        },
+        {
+          "ref": "39:42",
+          "arabic": "ٱللَّهُ يَتَوَفَّى ٱلْأَنفُسَ حِينَ مَوْتِهَا",
+          "question": "Warum أَنْفُس (Plural von نَفْس)?",
+          "answer": "Die individuellen Selbste werden zum Zeitpunkt ihres Todes eingeholt — jedes نَفْس als eigenständige, verantwortliche Einheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=42"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=29",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=rwH",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=nfs"
+    },
+    {
+      "id": 30,
+      "wordA": {
+        "arabic": "بَلَد",
+        "root": "ب-ل-د",
+        "meaning": "Land/Ort (besiedeltes Gebiet)"
+      },
+      "wordB": {
+        "arabic": "أَرْض",
+        "root": "ا-ر-ض",
+        "meaning": "Erde/Boden (physische Erde)"
+      },
+      "wordC": {
+        "arabic": "دَار",
+        "root": "د-و-ر",
+        "meaning": "Aufenthaltsort/Wohnsitz (wo man sich aufhält)"
+      },
+      "contrast": "بَلَد ist ein besiedeltes Gebiet — eine Stadt oder ein Land als politisch-geographische Einheit. أَرْض ist die physische Erde/der Boden — das Materielle. دَار (von د-و-ر = sich drehen/verweilen) ist ein Ort an dem man verweilt — Wohnsitz, Aufenthaltsort, auch metaphorisch (دَارُ الْآخِرَةِ = der Aufenthaltsort des Späteren).",
+      "exercises": [
+        {
+          "ref": "14:35",
+          "arabic": "رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ",
+          "question": "Warum بَلَد für Mekka?",
+          "answer": "Mekka als besiedelter Ort, als Stadt — eine politisch-soziale Einheit, die sicher gemacht werden soll.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=35"
+        },
+        {
+          "ref": "7:128",
+          "arabic": "إِنَّ ٱلْأَرْضَ لِلَّهِ يُورِثُهَا مَن يَشَآءُ",
+          "question": "Warum أَرْض und nicht بَلَد?",
+          "answer": "Die Erde/das Land als physischer Besitz — Gott gehört der Boden, und er vererbt ihn. أَرْض ist die materielle Erde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=128"
+        },
+        {
+          "ref": "12:21",
+          "arabic": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ",
+          "question": "Warum أَرْض und nicht بَلَد oder دَار?",
+          "answer": "Yusuf wird in der Erde/dem Land etabliert — Macht über das physische Territorium, nicht nur einen bestimmten Ort.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=21"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=35",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=bld",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=ArD",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=dwr"
+    },
+    {
+      "id": 31,
+      "wordA": {
+        "arabic": "ذَنْب",
+        "root": "ذ-ن-ب",
+        "meaning": "Verfehlung/Vergehen (Folge hat einen Schweif)"
+      },
+      "wordB": {
+        "arabic": "إِثْم",
+        "root": "ا-ث-م",
+        "meaning": "Verfehlung (absichtliche Übertretung)"
+      },
+      "wordC": {
+        "arabic": "خَطِيئَة",
+        "root": "خ-ط-ا",
+        "meaning": "Fehltritt (Abweichung vom Richtigen)"
+      },
+      "contrast": "ذَنْب (von ذ-ن-ب = Schwanz/Ende) betont die Folgen einer Tat — die 'Schleppe' die sie nach sich zieht. إِثْم ist bewusste, absichtliche Übertretung — eine wissentliche Verfehlung. خَطِيئَة (von خ-ط-ا = verfehlen/danebentreffen) ist ein Fehltritt — das Verfehlen des Ziels, nicht notwendig absichtlich. Intensität: إِثْم > ذَنْب > خَطِيئَة.",
+      "exercises": [
+        {
+          "ref": "3:193",
+          "arabic": "رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا",
+          "question": "Warum ذُنُوب und nicht آثَام oder خَطَايَا?",
+          "answer": "ذُنُوب betont die Folgen/Konsequenzen der Taten. Die Bitte ist: vergib uns die Nachwirkungen unserer Verfehlungen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=193"
+        },
+        {
+          "ref": "4:111",
+          "arabic": "وَمَن يَكْسِبْ إِثْمًا فَإِنَّمَا يَكْسِبُهُ عَلَىٰ نَفْسِهِ",
+          "question": "Warum إِثْم hier?",
+          "answer": "إِثْم als bewusste Verfehlung — man 'erwirbt' sie (يَكْسِبْ), was Absicht voraussetzt. Ein unbewusster Fehltritt wird nicht 'erworben'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=111"
+        },
+        {
+          "ref": "71:25",
+          "arabic": "مِّمَّا خَطِيٓـَٰٔتِهِمْ أُغْرِقُوا",
+          "question": "Warum خَطِيئَات und nicht ذُنُوب oder آثَام?",
+          "answer": "خَطِيئَات als Fehltritte — das wiederholte Verfehlen des Richtigen, Abweichungen die sich angesammelt haben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=25"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=193",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=*nb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Avm",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=xTA"
+    },
+    {
+      "id": 32,
+      "wordA": {
+        "arabic": "كَذِب",
+        "root": "ك-ذ-ب",
+        "meaning": "Lüge (allgemeine Unwahrheit)"
+      },
+      "wordB": {
+        "arabic": "إِفْك",
+        "root": "ا-ف-ك",
+        "meaning": "Verdrehung/Verleumdung (umgekehrte Wahrheit)"
+      },
+      "wordC": {
+        "arabic": "بُهْتَان",
+        "root": "ب-ه-ت",
+        "meaning": "Verleumdung (bestürzt machende Falschaussage)"
+      },
+      "contrast": "كَذِب ist die allgemeine Lüge — jede unwahre Aussage. إِفْك (von ا-ف-ك = umkehren/wenden) ist die Verdrehung der Wahrheit ins Gegenteil — eine systematische Umkehrung. بُهْتَان (von ب-ه-ت = bestürzt/sprachlos machen) ist eine Verleumdung so ungeheurlich, dass sie den Beschuldigten sprachlos/bestürzt zurücklässt. Intensität: بُهْتَان > إِفْك > كَذِب.",
+      "exercises": [
+        {
+          "ref": "24:11",
+          "arabic": "إِنَّ ٱلَّذِينَ جَآءُو بِٱلْإِفْكِ عُصْبَةٌ مِّنكُمْ",
+          "question": "Warum إِفْك und nicht كَذِب?",
+          "answer": "Die Anschuldigung war eine Verdrehung der Wahrheit ins Gegenteil — nicht einfach eine Lüge, sondern eine systematische Umkehrung der Tatsachen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=11"
+        },
+        {
+          "ref": "4:156",
+          "arabic": "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَٰنًا عَظِيمًا",
+          "question": "Warum بُهْتَان und nicht كَذِب oder إِفْك?",
+          "answer": "Die Anschuldigung gegen Maryam ist so ungeheuerlich, dass sie bestürzt macht. بُهْتَان markiert die höchste Stufe der Verleumdung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=156"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=11",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=k*b",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Afk",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=bht"
+    },
+    {
+      "id": 33,
+      "wordA": {
+        "arabic": "هَلَاك",
+        "root": "ه-ل-ك",
+        "meaning": "Untergang/Verderben (vollständige Vernichtung)"
+      },
+      "wordB": {
+        "arabic": "دَمَار",
+        "root": "د-م-ر",
+        "meaning": "Zerstörung (physische Vernichtung)"
+      },
+      "contrast": "هَلَاك (von ه-ل-ك = zugrunde gehen) ist der vollständige Untergang — das Ende der Existenz. Es kann auch metaphorisch sein (geistiges Verderben). دَمَار (von د-م-ر = zerstören) betont die physische Zerstörung — das Zerbrechen und Einreißen. Im Quran steht أَهْلَكَ häufig für die Vernichtung ganzer Völker, während دَمَّرَ für die physische Zerstörung ihrer Bauten und Strukturen verwendet wird.",
+      "exercises": [
+        {
+          "ref": "17:16",
+          "arabic": "فَدَمَّرْنَٰهَا تَدْمِيرًا",
+          "question": "Warum دَمَّرَ und nicht أَهْلَكَ?",
+          "answer": "Totale physische Zerstörung (verstärkt durch den Masdar تَدْمِيرًا). Der Fokus liegt auf dem Akt des Zertrümmerns.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=16"
+        },
+        {
+          "ref": "28:88",
+          "arabic": "كُلُّ شَىْءٍ هَالِكٌ إِلَّا وَجْهَهُ",
+          "question": "Warum هَالِك und nicht مُدَمَّر?",
+          "answer": "هَالِك beschreibt das Vergehen der Existenz — alles geht zugrunde, hört auf zu sein. Nicht physisches Zertrümmern, sondern das Ende des Seins.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=88"
+        },
+        {
+          "ref": "27:51",
+          "arabic": "أَنَّا دَمَّرْنَٰهُمْ وَقَوْمَهُمْ أَجْمَعِينَ",
+          "question": "Warum دَمَّرَ hier?",
+          "answer": "Die Vernichtung von Thamud und ihren Leuten — physische, totale Zerstörung als konkreter Strafakt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=51"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=16",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=hlk",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=dmr"
+    },
+    {
+      "id": 34,
+      "wordA": {
+        "arabic": "تَوْبَة",
+        "root": "ت-و-ب",
+        "meaning": "Umkehr/Reue (Rückkehr zu Gott)"
+      },
+      "wordB": {
+        "arabic": "إِنَابَة",
+        "root": "ن-و-ب",
+        "meaning": "Hinwendung (wiederholte Rückkehr zu Gott)"
+      },
+      "contrast": "تَوْبَة (von ت-و-ب = umkehren/zurückkehren) ist die entschiedene Abkehr von der Verfehlung und Rückkehr zu Gott — ein einmaliger, bestimmter Akt. إِنَابَة (von ن-و-ب = wiederholt zurückkehren, Form IV) impliziert eine habituelle, wiederholte Hinwendung — eine dauerhafte Haltung der Rückkehr zu Gott. إِنَابَة wird im Quran mit Verkündern und vorbildlichen Vertrauenden assoziiert (38:24, 38:34).",
+      "exercises": [
+        {
+          "ref": "42:10",
+          "arabic": "وَمَا ٱخْتَلَفْتُمْ فِيهِ مِن شَىْءٍ فَحُكْمُهُٓ إِلَى ٱللَّهِ ذَٰلِكُمُ ٱللَّهُ رَبِّى عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
+          "question": "Warum أُنِيب (إِنَابَة) und nicht أَتُوبُ (تَوْبَة)?",
+          "answer": "إِنَابَة ist die dauerhafte, wiederholte Hinwendung — eine Lebenshaltung, nicht ein einmaliger Akt der Reue nach einer Verfehlung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=10"
+        },
+        {
+          "ref": "4:17",
+          "arabic": "إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ بِجَهَٰلَةٍ ثُمَّ يَتُوبُونَ مِن قَرِيبٍ",
+          "question": "Warum تَوْبَة hier?",
+          "answer": "Umkehr nach konkreter Verfehlung — die entschiedene Abkehr nach einer bestimmten Verfehlung. Ein punktueller Akt der Rückkehr, nicht eine habituelle Haltung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=10",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=twb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=nwb"
+    },
+    {
+      "id": 35,
+      "wordA": {
+        "arabic": "بَعْث",
+        "root": "ب-ع-ث",
+        "meaning": "Auferweckung/Entsendung (aus einem Zustand herausrufen)"
+      },
+      "wordB": {
+        "arabic": "نُشُور",
+        "root": "ن-ش-ر",
+        "meaning": "Auferstehung/Ausbreitung (Wiederausbreitung des Lebens)"
+      },
+      "contrast": "بَعْث (von ب-ع-ث = erwecken/entsenden) betont den Akt des Erweckens aus einem Zustand — jemanden aus dem Schlaf/Tod/der Ruhe herausrufen. نُشُور (von ن-ش-ر = ausbreiten/verstreun) betont die Ausbreitung und Wiederherstellung — wie ein zusammengefaltetes Tuch wieder entfaltet wird. بَعْث ist punktuell (der Moment der Erweckung), نُشُور ist prozesshaft (die Ausbreitung des Lebens).",
+      "exercises": [
+        {
+          "ref": "22:7",
+          "arabic": "وَأَنَّ ٱلسَّاعَةَ ءَاتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ ٱللَّهَ يَبْعَثُ مَن فِى ٱلْقُبُورِ",
+          "question": "Warum يَبْعَثُ und nicht يَنْشُرُ?",
+          "answer": "Der Moment des Erweckens aus den Gräbern — die Toten werden aus ihrem Zustand herausgerufen. بَعْث als punktueller Akt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=7"
+        },
+        {
+          "ref": "35:9",
+          "arabic": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا كَذَٰلِكَ ٱلنُّشُورُ",
+          "question": "Warum النُّشُور als Vergleich für die Auferstehung?",
+          "answer": "Die Metapher ist die Ausbreitung des Lebens über tote Erde — نُشُور als prozesshafte Wiederherstellung, wie Regen die Erde belebt und das Leben sich ausbreitet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=9"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=7",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=bEv",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=n$r"
+    },
+    {
+      "id": 36,
+      "wordA": {
+        "arabic": "رِزْق",
+        "root": "ر-ز-ق",
+        "meaning": "Versorgung (umfassend, von Gott zugeteilt)"
+      },
+      "wordB": {
+        "arabic": "قُوت",
+        "root": "ق-و-ت",
+        "meaning": "Nahrung/Lebensnotwendiges (das Minimum zum Überleben)"
+      },
+      "contrast": "رِزْق ist umfassende Versorgung — alles was Gott zuteilt: Nahrung, Wissen, Kinder, Wohlstand. قُوت (von ق-و-ت = am Leben erhalten) ist spezifisch die Grundnahrung, das Minimum das zum Überleben nötig ist. رِزْق kann Überfluss sein, قُوت ist Existenzminimum.",
+      "exercises": [
+        {
+          "ref": "2:3",
+          "arabic": "وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+          "question": "Warum رَزَقَ und nicht ein Wort für Nahrung?",
+          "answer": "رِزْق umfasst alles Zugeteilte — sie geben von ALLEM was Gott ihnen verliehen hat, nicht nur von Nahrung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        },
+        {
+          "ref": "41:10",
+          "arabic": "وَقَدَّرَ فِيهَآ أَقْوَٰتَهَا فِىٓ أَرْبَعَةِ أَيَّامٍ",
+          "question": "Warum أَقْوَات (Plural von قُوت) und nicht أَرْزَاق?",
+          "answer": "Es geht um die Grundnahrung/Lebensnotwendigkeiten der Erde — das Existenzminimum das in sie eingebaut wurde. قُوت als das, was die Erde am Leben erhält.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=10"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=rzq",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=qwt"
+    },
+    {
+      "id": 37,
+      "wordA": {
+        "arabic": "صَبْر",
+        "root": "ص-ب-ر",
+        "meaning": "Geduld/Standhaftigkeit (Ausharren bei Widrigkeit)"
+      },
+      "wordB": {
+        "arabic": "حِلْم",
+        "root": "ح-ل-م",
+        "meaning": "Nachsicht/Milde (Besonnenheit trotz Macht)"
+      },
+      "contrast": "صَبْر ist Standhaftigkeit angesichts von Leid, Provokation oder Versuchung — man hält aus. حِلْم ist Milde und Besonnenheit trotz der Fähigkeit zur Vergeltung — man KÖNNTE reagieren, tut es aber nicht. صَبْر ist passiv (ertragen), حِلْم ist aktiv (bewusst zurückhalten). Gott heißt الْحَلِيم (der Nachsichtige), nicht الصَّابِر.",
+      "exercises": [
+        {
+          "ref": "2:153",
+          "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱسْتَعِينُوا بِٱلصَّبْرِ وَٱلصَّلَوٰةِ",
+          "question": "Warum صَبْر und nicht حِلْم?",
+          "answer": "Die Vertrauenden werden zum Ausharren bei Widrigkeiten aufgerufen — Standhaftigkeit gegenüber Schwierigkeiten, nicht Nachsicht gegenüber Fehlverhalten anderer.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153"
+        },
+        {
+          "ref": "11:87",
+          "arabic": "إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ",
+          "question": "Warum حَلِيم in dieser Anrede an Schuʿaib?",
+          "answer": "Ironische Rede seines Volkes — sie beschreiben ihn als nachsichtig/milde (حَلِيم), also als jemanden der Zurückhaltung übt trotz Fähigkeit. Nicht als geduldig leidend (صَابِر).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=87"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Sbr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Hlm"
+    },
+    {
+      "id": 38,
+      "wordA": {
+        "arabic": "فَرِحَ",
+        "root": "ف-ر-ح",
+        "meaning": "sich freuen (Freude empfinden)"
+      },
+      "wordB": {
+        "arabic": "بَطِرَ",
+        "root": "ب-ط-ر",
+        "meaning": "übermütig sein (überhebliche Freude)"
+      },
+      "contrast": "فَرِحَ ist neutrale bis positive Freude — kann berechtigt oder unberechtigt sein, je nach Kontext. بَطِرَ ist Freude die in Übermut, Überheblichkeit und Undankbarkeit umschlägt — eine Freude die den Menschen vergessen lässt, woher das Gute kommt. Im Quran wird فَرِحَ kontextabhängig bewertet, بَطِرَ ist immer negativ.",
+      "exercises": [
+        {
+          "ref": "28:76",
+          "arabic": "إِذْ قَالَ لَهُ قَوْمُهُ لَا تَفْرَحْ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْفَرِحِينَ",
+          "question": "Warum فَرِحَ hier negativ?",
+          "answer": "فَرِحَ ist kontextabhängig — hier übermäßige Freude über Reichtum (Qarun). Nicht die Freude an sich ist falsch, sondern die Art: selbstbezogene Freude die Gott vergisst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=76"
+        },
+        {
+          "ref": "28:58",
+          "arabic": "وَكَمْ أَهْلَكْنَا مِن قَرْيَةٍ بَطِرَتْ مَعِيشَتَهَا",
+          "question": "Warum بَطِرَتْ und nicht فَرِحَتْ?",
+          "answer": "بَطِرَ beschreibt den überheblichen Undank gegenüber dem Lebensunterhalt — nicht bloße Freude, sondern Übermut der zur Vernichtung führt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=58"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=76",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=frH",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=bTr"
+    },
+    {
+      "id": 39,
+      "wordA": {
+        "arabic": "عَجِبَ",
+        "root": "ع-ج-ب",
+        "meaning": "staunen/sich wundern (spontane Verwunderung)"
+      },
+      "wordB": {
+        "arabic": "تَعَجَّبَ",
+        "root": "ع-ج-ب",
+        "meaning": "sich sehr wundern (Form V, intensives/reflektiertes Staunen)"
+      },
+      "contrast": "Beide von derselben Wurzel ع-ج-ب, aber unterschiedliche Formen. عَجِبَ (Form I) ist spontanes, natürliches Staunen — eine unmittelbare Reaktion. تَعَجَّبَ (Form V, reflexiv) ist intensives, reflektiertes Staunen — man nimmt das Staunen an, verweilt darin. Form V fügt die Dimensionen der Intensität und Reflexivität hinzu.",
+      "exercises": [
+        {
+          "ref": "37:12",
+          "arabic": "بَلْ عَجِبْتَ وَيَسْخَرُونَ",
+          "question": "Warum عَجِبَ (Form I)?",
+          "answer": "Spontanes Staunen des Sprechers über die Leugnung — eine unmittelbare Reaktion, während die Leugner spotten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=12"
+        },
+        {
+          "ref": "13:5",
+          "arabic": "وَإِن تَعْجَبْ فَعَجَبٌ قَوْلُهُمْ",
+          "question": "Wie funktioniert die sprachliche Figur mit عَجَب hier?",
+          "answer": "Wenn du dich wunderst — dann IST ihre Aussage verwunderlich (عَجَب als Nomen). Die Verwunderung wird als berechtigt bestätigt: der Gegenstand VERDIENT Staunen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=12",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Ejb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Ejb"
+    },
+    {
+      "id": 40,
+      "wordA": {
+        "arabic": "ضَلَّ",
+        "root": "ض-ل-ل",
+        "meaning": "abirren/sich verirren (vom Weg abkommen)"
+      },
+      "wordB": {
+        "arabic": "غَوَى",
+        "root": "غ-و-ي",
+        "meaning": "in die Irre gehen (durch Begierde/Täuschung)"
+      },
+      "contrast": "ضَلَّ ist das Abkommen vom richtigen Weg — man VERFEHLT die Führung, oft ohne böse Absicht. غَوَى impliziert, dass man durch Begierde, Verblendung oder Verführung in die Irre geht — es hat eine aktive, oft selbstverschuldete Komponente. ضَلَال ist Orientierungslosigkeit, غَيّ ist Verführtsein.",
+      "exercises": [
+        {
+          "ref": "53:2",
+          "arabic": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+          "question": "Warum beide Verneinungen nebeneinander?",
+          "answer": "Doppelte Verneinung deckt beide Bedeutungsfelder ab: Er ist weder vom Weg abgekommen (ضَلَّ) noch wurde er durch Begierde irregeführt (غَوَى). Weder orientierungslos noch verführt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=2"
+        },
+        {
+          "ref": "20:121",
+          "arabic": "وَعَصَىٰٓ ءَادَمُ رَبَّهُ فَغَوَىٰ",
+          "question": "Warum غَوَى und nicht ضَلَّ für Adams Ungehorsam?",
+          "answer": "Adam wurde durch die Verführung des Schaitan irregeführt — غَوَى impliziert die Verführungskomponente. Er hat sich nicht bloß verirrt, sondern wurde aktiv verführt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=121"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=2",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Dll",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=gwy"
+    },
+    {
+      "id": 41,
+      "wordA": {
+        "arabic": "هَدَى",
+        "root": "ه-د-ي",
+        "meaning": "leiten, den Weg zeigen"
+      },
+      "wordB": {
+        "arabic": "رَشَدَ",
+        "root": "ر-ش-د",
+        "meaning": "auf dem rechten Weg sein (Besonnenheit/Reife)"
+      },
+      "contrast": "هَدَى ist das Zeigen/Führen auf den richtigen Weg — eine Handlung eines Führenden gegenüber dem Geführten. رَشَدَ ist das Auf-dem-rechten-Weg-Sein — die innere Reife und Besonnenheit. هِدَايَة kommt von aussen (Gott leitet), رُشْد kommt von innen (die Person ist besonnen/reif). هِدَايَة ist der Akt der Führung, رُشْد der Zustand der Rechtgeleiteten.",
+      "exercises": [
+        {
+          "ref": "18:10",
+          "arabic": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+          "question": "Warum رَشَد und nicht هِدَايَة?",
+          "answer": "Die Jünglinge bitten um innere Besonnenheit/Reife in ihrer Angelegenheit — رَشَد als Zustand des Richtigseins, nicht um externe Führung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=10"
+        },
+        {
+          "ref": "2:16",
+          "arabic": "أُولَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ",
+          "question": "Warum هُدَى als Gegensatz zu ضَلَالَة?",
+          "answer": "هُدَى als die von aussen gegebene Führung — sie haben sie gegen Verirrung eingetauscht. Der Gegensatz ضَلَالَة/هُدَى ist Verirrung vs. Führung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=10",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=hdy",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=r$d"
+    },
+    {
+      "id": 42,
+      "wordA": {
+        "arabic": "وَعْد",
+        "root": "و-ع-د",
+        "meaning": "Versprechen/Verheißung (neutral: gut oder schlecht)"
+      },
+      "wordB": {
+        "arabic": "وَعِيد",
+        "root": "و-ع-د",
+        "meaning": "Drohung/Androhung (spezifisch: angedrohte Strafe)"
+      },
+      "contrast": "Beide von derselben Wurzel و-ع-د, aber: وَعْد ist das allgemeine Versprechen — kann positiv (Belohnung) oder negativ (Strafe) sein, je nach Kontext. وَعِيد ist das spezifische Drohversprechen — die Androhung von Strafe. Das Muster فَعِيل intensiviert die Bedeutung in Richtung Drohung. Im Quran steht وَعْد oft für Gottes Verheißung, وَعِيد für die angedrohte Strafe.",
+      "exercises": [
+        {
+          "ref": "14:22",
+          "arabic": "إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ",
+          "question": "Warum وَعْد für Gottes Verheißung?",
+          "answer": "وَعْد الْحَقِّ — ein wahres Versprechen. Gottes وَعْد ist zuverlässig, das des Schaitan truegerisch. وَعْد als neutrales Versprechen, dessen Qualität durch الْحَقِّ bestimmt wird.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=22"
+        },
+        {
+          "ref": "50:45",
+          "arabic": "وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍ فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ",
+          "question": "Warum وَعِيد und nicht وَعْد?",
+          "answer": "Wer die angedrohte Strafe fürchtet — وَعِيد ist spezifisch die Strafandrohung. Die Erinnerung richtet sich an die, die die Drohung ernst nehmen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=45"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=22",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=wEd",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=wEd"
+    },
+    {
+      "id": 43,
+      "wordA": {
+        "arabic": "جَاءَ",
+        "root": "ج-ي-ا",
+        "meaning": "kommen (mit Schwere/Bedeutsamkeit)"
+      },
+      "wordB": {
+        "arabic": "أَتَى",
+        "root": "ا-ت-ي",
+        "meaning": "kommen (mit Leichtigkeit/Geschwindigkeit)"
+      },
+      "contrast": "Beide bedeuten 'kommen', aber: جَاءَ impliziert Schwere, Mühe oder Bedeutsamkeit des Kommens — das Ankommen hat Gewicht. أَتَى impliziert Leichtigkeit und Geschwindigkeit — das Kommen geschieht mühelos. Daher steht جَاءَ oft für Ereignisse mit Wucht (Wahrheit, Stunde, Hilfe), während أَتَى für leichteres, schnelleres Kommen steht.",
+      "exercises": [
+        {
+          "ref": "17:81",
+          "arabic": "جَآءَ ٱلْحَقُّ وَزَهَقَ",
+          "question": "Warum جَاءَ und nicht أَتَى für die Wahrheit?",
+          "answer": "Die Wahrheit kommt mit Wucht und Gewicht — جَاءَ betont die Bedeutsamkeit und Unaufhaltsamkeit des Kommens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=81"
+        },
+        {
+          "ref": "16:1",
+          "arabic": "أَتَىٰٓ أَمْرُ ٱللَّهِ فَلَا تَسْتَعْجِلُوهُ",
+          "question": "Warum أَتَى und nicht جَاءَ für Gottes Befehl?",
+          "answer": "أَتَى mit Vergangenheitsform drückt die Gewissheit und Schnelligkeit des Kommens aus — so sicher und nah, dass es bereits als gekommen gilt. فَلَا تَسْتَعْجِلُوهُ (drängt nicht) bestätigt: es kommt mühelos und unaufhaltsam.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=81",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=jyA",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Aty"
+    },
+    {
+      "id": 44,
+      "wordA": {
+        "arabic": "أَرْسَلَ",
+        "root": "ر-س-ل",
+        "meaning": "senden/entsenden (mit Botschaft/Mission)"
+      },
+      "wordB": {
+        "arabic": "بَعَثَ",
+        "root": "ب-ع-ث",
+        "meaning": "erwecken/entsenden (aus einem Zustand herausrufen)"
+      },
+      "contrast": "أَرْسَلَ (Form IV von ر-س-ل) betont die Sendung MIT einer Botschaft/Mission — der Gesandte trägt eine Aufgabe. بَعَثَ betont das Herausrufen aus einem Zustand — jemanden aus Untätigkeit/Schlaf/Tod erwecken und losschicken. أَرْسَلَ fokussiert auf die Mission, بَعَثَ auf den Beginn der Aktivität.",
+      "exercises": [
+        {
+          "ref": "62:2",
+          "arabic": "هُوَ ٱلَّذِى بَعَثَ فِى ٱلْأُمِّيِّـنَ رَسُولًا مِّنْهُمْ",
+          "question": "Warum بَعَثَ und nicht أَرْسَلَ?",
+          "answer": "بَعَثَ betont das Erwecken/Hervorrufen aus ihrer Mitte — jemand wird aus den Ummiyyiin herausgerufen und in Bewegung gesetzt. Der Fokus liegt auf dem Akt der Erwählung, nicht auf der Botschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2"
+        },
+        {
+          "ref": "25:20",
+          "arabic": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ",
+          "question": "Warum أَرْسَلَ hier?",
+          "answer": "Der Fokus liegt auf der Sendung mit Botschaft (مُرْسَلِين) — alle Gesandten VOR dir hatten dieselbe Funktion: gesandt mit einer Mission, und dennoch menschlich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=rsl",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=bEv"
+    },
+    {
+      "id": 45,
+      "wordA": {
+        "arabic": "ذَكَرَ",
+        "root": "ذ-ك-ر",
+        "meaning": "gedenken/erwähnen (ins Bewusstsein rufen)"
+      },
+      "wordB": {
+        "arabic": "سَبَّحَ",
+        "root": "س-ب-ح",
+        "meaning": "lobpreisen/preiserheben (Gott von Mängeln freisprechen)"
+      },
+      "wordC": {
+        "arabic": "حَمِدَ",
+        "root": "ح-م-د",
+        "meaning": "loben/preisen (für inhärente Vorzüge)"
+      },
+      "contrast": "ذَكَرَ (von ذ-ك-ر = erinnern) ist das Ins-Bewusstsein-Rufen — Gottes gedenken, seinen Namen erwähnen. سَبَّحَ (von س-ب-ح = schwimmen/sich frei bewegen) ist das Freisprechen Gottes von jedem Mangel — Transzendenz behaupten. حَمِدَ ist das Loben für positive Eigenschaften. ذِكْر ist das Breiteste (jede Erwähnung), تَسْبِيح ist Negation von Mängeln, حَمْد ist Bejahung von Vorzügen.",
+      "exercises": [
+        {
+          "ref": "33:41",
+          "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱذْكُرُوا ٱللَّهَ ذِكْرًا كَثِيرًا",
+          "question": "Warum ذَكَرَ und nicht سَبَّحَ oder حَمِدَ?",
+          "answer": "ذِكْر ist die allgemeinste Form — jede Art der Erwähnung und des Gedenkens. Es schließt تَسْبِيح und حَمْد ein, geht aber darüber hinaus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=41"
+        },
+        {
+          "ref": "57:1",
+          "arabic": "سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+          "question": "Warum سَبَّحَ und nicht ذَكَرَ?",
+          "answer": "Alles in Himmel und Erde spricht Gott von Mängeln frei — سَبَّحَ ist spezifisch die Transzendenzbehauptung, nicht allgemeines Gedenken.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=1"
+        },
+        {
+          "ref": "1:2",
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+          "question": "Warum حَمْد und nicht تَسْبِيح oder ذِكْر?",
+          "answer": "Lobpreis für inhärente Vorzuege — Gott wird für das gelobt was er IST (Herr der Welten). حَمْد ist Bejahung positiver Eigenschaften.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=41",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=*kr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=sbH",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=Hmd"
+    },
+    {
+      "id": 46,
+      "wordA": {
+        "arabic": "فَسَاد",
+        "root": "ف-س-د",
+        "meaning": "Verderbnis (Zerstörung der natürlichen Ordnung)"
+      },
+      "wordB": {
+        "arabic": "ظُلْم",
+        "root": "ظ-ل-م",
+        "meaning": "Unrecht (etwas an den falschen Platz setzen)"
+      },
+      "contrast": "فَسَاد ist die Zerstörung der natürlichen Ordnung — Korruption, ökologisches und gesellschaftliches Verderben. Die Wurzel ف-س-د steht im Gegensatz zu ص-ل-ح (in Ordnung sein). ظُلْم ist das Setzen von etwas an den falschen Platz — eine Verletzung von Zuständigkeit und Position. فَسَاد betrifft die Ordnung der Dinge, ظُلْم betrifft Positionen und Zuständigkeiten.",
+      "exercises": [
+        {
+          "ref": "30:41",
+          "arabic": "ظَهَرَ ٱلْفَسَادُ فِى ٱلْبَرِّ وَٱلْبَحْرِ بِمَا كَسَبَتْ أَيْدِى ٱلنَّاسِ",
+          "question": "Warum فَسَاد und nicht ظُلْم?",
+          "answer": "Die Verderbnis der natürlichen Ordnung — in Land und Meer zeigt sich die Zerstörung des Gleichgewichts durch menschliches Handeln. فَسَاد als ökologisch-kosmische Unordnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=41"
+        },
+        {
+          "ref": "2:11",
+          "arabic": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا فِى ٱلْأَرْضِ",
+          "question": "Warum أَفْسَدَ und nicht ظَلَمَ?",
+          "answer": "Es geht um Verderbnis auf der Erde — die Zerstörung der gesellschaftlichen und natürlichen Ordnung, nicht um ein spezifisches Unrecht gegen jemanden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=41",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=fsd",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Zlm"
+    },
+    {
+      "id": 47,
+      "wordA": {
+        "arabic": "نَار",
+        "root": "ن-و-ر",
+        "meaning": "Feuer (allgemein, auch physisches Feuer)"
+      },
+      "wordB": {
+        "arabic": "جَحِيم",
+        "root": "ج-ح-م",
+        "meaning": "lodernde Glut (intensives, tief brennendes Feuer)"
+      },
+      "wordC": {
+        "arabic": "سَعِير",
+        "root": "س-ع-ر",
+        "meaning": "entflammtes Feuer (angefachte, zunehmende Flamme)"
+      },
+      "contrast": "نَار ist der Oberbegriff — jedes Feuer, physisch oder jenseitig. جَحِيم (von ج-ح-م = tiefe Glut) bezeichnet ein tief loderndes, intensives Feuer — die Tiefe und Intensität stehen im Vordergrund. سَعِير (von س-ع-ر = anfachen/entflammen) ist ein angefachtes, zunehmendes Feuer — das Moment der Steigerung und des Entflammens. نَار ist neutral, جَحِيم betont Tiefe/Intensität, سَعِير betont Anfachung/Zunahme.",
+      "exercises": [
+        {
+          "ref": "3:131",
+          "arabic": "وَٱتَّقُوا ٱلنَّارَ ٱلَّتِىٓ أُعِدَّتْ لِلْكَٰفِرِينَ",
+          "question": "Warum النَّار als Oberbegriff?",
+          "answer": "نَار als allgemeine Bezeichnung für das Feuer der Strafe — der Oberbegriff der alle Arten umfasst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=131"
+        },
+        {
+          "ref": "102:6",
+          "arabic": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+          "question": "Warum الْجَحِيم?",
+          "answer": "Das intensiv lodernde, tiefe Feuer — الْجَحِيم betont die Unausweichlichkeit und die Tiefe der Glut, die man mit eigenen Augen sehen wird.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=6"
+        },
+        {
+          "ref": "67:5",
+          "arabic": "وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+          "question": "Warum السَّعِير?",
+          "answer": "Das angefachte, zunehmende Feuer — سَعِير betont, dass das Feuer entflammt und gesteigert wird, eine aktive Zunahme der Strafe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=131",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=nwr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=jHm",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=sEr"
+    },
+    {
+      "id": 48,
+      "wordA": {
+        "arabic": "مَطَر",
+        "root": "م-ط-ر",
+        "meaning": "Regen (neutral bis negativ, auch Strafregnen)"
+      },
+      "wordB": {
+        "arabic": "غَيْث",
+        "root": "غ-ي-ث",
+        "meaning": "Regen (segenreich, rettend, nach Dürreperiode)"
+      },
+      "contrast": "مَطَر ist Regen als physisches Phänomen — neutral oder negativ. Im Quran steht أَمْطَرَ (Form IV) oft für Strafregen: Steine, Feuer. غَيْث (von غ-ي-ث = retten/helfen) ist der rettende Regen — der nach Dürreperiode kommt und Hilfe bringt. Distributionell: مَطَر im Quran fast immer im Strafkontext, غَيْث immer im Segenskontext.",
+      "exercises": [
+        {
+          "ref": "26:173",
+          "arabic": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ",
+          "question": "Warum مَطَر zweimal im Strafkontext?",
+          "answer": "مَطَر als Regen im negativen Sinne — ein Regen aus Zerstörung. فَسَاءَ مَطَرُ = schlimm ist der Regen der Gewarnten. مَطَر im Quran für Strafe, nicht Segen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=173"
+        },
+        {
+          "ref": "42:28",
+          "arabic": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِن بَعْدِ مَا قَنَطُوا",
+          "question": "Warum غَيْث und nicht مَطَر?",
+          "answer": "Der rettende Regen nach Verzweiflung (قَنَطُوا) — غَيْث impliziert Rettung und Hilfe. مَطَر wäre neutral/negativ und passt nicht zur Rettungssemantik.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=173",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=mTr",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=gyv"
+    },
+    {
+      "id": 49,
+      "wordA": {
+        "arabic": "قَرْيَة",
+        "root": "ق-ر-ي",
+        "meaning": "Siedlung/Ortschaft (wo Menschen zusammenkommen)"
+      },
+      "wordB": {
+        "arabic": "مَدِينَة",
+        "root": "د-ي-ن",
+        "meaning": "Stadt (größere, organisierte Siedlung mit Verwaltung)"
+      },
+      "contrast": "قَرْيَة (von ق-ر-ي = versammeln/beherbergen) ist jede Siedlung wo Menschen zusammenkommen — vom Dorf bis zur Stadt. Im Quran ist قَرْيَة der häufigere Begriff und kann jede Größe haben. مَدِينَة (von د-ي-ن = verwalten/schulden) impliziert eine größere, organisierte Siedlung mit Verwaltungsstrukturen. Im Quran wird مَدِينَة oft für spezifische Städte verwendet (Yathrib/Madina, die Stadt des Pharao).",
+      "exercises": [
+        {
+          "ref": "7:4",
+          "arabic": "وَكَم مِّن قَرْيَةٍ",
+          "question": "Warum قَرْيَة und nicht مَدِينَة?",
+          "answer": "قَرْيَة als allgemeine Siedlung — wie viele Orte vernichtet wurden, unabhängig von Größe oder Verwaltungsstruktur.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=4"
+        },
+        {
+          "ref": "36:20",
+          "arabic": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ",
+          "question": "Warum مَدِينَة und nicht قَرْيَة?",
+          "answer": "مَدِينَة als große, organisierte Stadt — der Mann kommt vom äußersten Ende (أَقْصَى) der Stadt, was Größe impliziert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=4",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=qry",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=dyn"
+    },
+    {
+      "id": 50,
+      "wordA": {
+        "arabic": "بَأْس",
+        "root": "ب-ا-س",
+        "meaning": "Gewalt/Stärke (zerstörendes Eingreifen)"
+      },
+      "wordB": {
+        "arabic": "عَذَاب",
+        "root": "ع-ذ-ب",
+        "meaning": "Strafe/Pein (andauerndes Leiden)"
+      },
+      "contrast": "بَأْس (von ب-ا-س = hart/gewaltig sein) ist gewaltsames, plötzliches Eingreifen — die zerstörendeKraft. عَذَاب ist andauernde Pein und Qual — der Prozess des Leidens. بَأْس ist punktuell und gewaltig (بَأْسُنَا = unser gewaltiges Eingreifen), عَذَاب ist ausgedehnt und schmerzhaft. بَأْس kann auch positiv sein (Kampfkraft, 57:25), عَذَاب ist immer negativ.",
+      "exercises": [
+        {
+          "ref": "7:4",
+          "arabic": "فَجَآءَهَا بَأْسُنَا بَيَٰتًا أَوْ هُمْ قَآئِلُونَ",
+          "question": "Warum بَأْس und nicht عَذَاب?",
+          "answer": "Plötzliches, gewaltiges Eingreifen — بَأْس kommt nachts oder mittags, überraschend. Der Moment des Schlages, nicht das andauernde Leiden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=4"
+        },
+        {
+          "ref": "6:40",
+          "arabic": "إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ أَوْ أَتَتْكُمُ ٱلسَّاعَةُ",
+          "question": "Warum عَذَاب und nicht بَأْس?",
+          "answer": "عَذَاب als andauerndes Strafgeschehen — parallel zur Stunde (السَّاعَة) gestellt, beide als langfristige Realitäten, nicht als punktueller Schlag.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=40"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=4",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=bAs",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=E*b"
+    },
+    {
+      "id": 51,
+      "wordA": {
+        "arabic": "سَوْفَ",
+        "root": "—",
+        "meaning": "Zukunftspartikel (fernere Zukunft)"
+      },
+      "wordB": {
+        "arabic": "سَـ",
+        "root": "—",
+        "meaning": "Zukunftspräfix (nähere Zukunft)"
+      },
+      "contrast": "Beide markieren die Zukunft, aber: سَـ (Präfix, an das Verb angeheftet) bezeichnet die nähere, unmittelbarere Zukunft. سَوْفَ (separates Partikel) bezeichnet die fernere oder emphatischere Zukunft. سَـ ist kürzer in der Form und näher in der Zeit; سَوْفَ ist länger in der Form und ferner/gewichtiger in der Bedeutung. Diese Korrelation zwischen phonetischer Länge und zeitlicher Distanz ist ein typisch arabisches Sprachmuster.",
+      "exercises": [
+        {
+          "ref": "93:5",
+          "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+          "question": "Warum سَوْفَ und nicht سَـ?",
+          "answer": "Feierliches Versprechen für die Zukunft — سَوْفَ verstärkt durch لَـ betont die Gewissheit und das Gewicht der Verheißung. Die fernere Zukunft und die Emphase fordern سَوْفَ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=5"
+        },
+        {
+          "ref": "2:137",
+          "arabic": "فَسَيَكْفِيكَهُمُ ٱللَّهُ",
+          "question": "Warum سَـ und nicht سَوْفَ?",
+          "answer": "سَـ für die baldige, unmittelbare Zukunft — Gott wird dir bald genügen gegen sie. Die Hilfe ist nah und unmittelbar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=137"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=5"
+    },
+    {
+      "id": 52,
+      "wordA": {
+        "arabic": "حَسَدَ",
+        "root": "ح-س-د",
+        "meaning": "beneiden (wünschen dass der andere es verliert)"
+      },
+      "wordB": {
+        "arabic": "غَبَطَ",
+        "root": "غ-ب-ط",
+        "meaning": "bewundern/beneiden (wünschen dasselbe zu haben, ohne Missgunst)"
+      },
+      "contrast": "حَسَدَ ist destruktiver Neid — man wünscht, dass der andere die Gabe VERLIERT. غَبَطَ ist konstruktive Bewunderung — man wünscht sich dasselbe, ohne dem anderen den Verlust zu wünschen. Im Quran kommt حَسَدَ vor (113:5, 2:109), غَبَطَ nicht direkt — aber die Unterscheidung ist sprachwissenschaftlich fundiert. Der Quran warnt vor حَسَد, nicht vor غِبْطَة.",
+      "exercises": [
+        {
+          "ref": "113:5",
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "question": "Warum حَسَدَ und nicht ein milderer Ausdruck?",
+          "answer": "حَسَد ist destruktiver Neid — das Uebel (شَرّ) entsteht durch den Wunsch, dem anderen die Gabe zu nehmen. Ein حَاسِد ist gefährlich, ein غَابِط nicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5"
+        },
+        {
+          "ref": "2:109",
+          "arabic": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّن بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًا مِّنْ عِندِ أَنفُسِهِم",
+          "question": "Warum حَسَد hier?",
+          "answer": "Sie wünschen den Verlust des Glaubens bei den anderen — حَسَد als destruktiver Neid: nicht einfach Bewunderung, sondern der Wunsch dem anderen zu nehmen was er hat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=Hsd",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=gbT"
+    },
+    {
+      "id": 53,
+      "wordA": {
+        "arabic": "لُبّ",
+        "root": "ل-ب-ب",
+        "meaning": "Kern/Verstand (das Innerste/Wesentliche)"
+      },
+      "wordB": {
+        "arabic": "عَقْل",
+        "root": "ع-ق-ل",
+        "meaning": "Verstand (binden/zurückhalten, rationale Kontrolle)"
+      },
+      "wordC": {
+        "arabic": "فِقْه",
+        "root": "ف-ق-ه",
+        "meaning": "Verstehen (tiefes Durchdringen eines Sachverhalts)"
+      },
+      "contrast": "لُبّ (Plural أَلْبَاب) ist der Kern des Verstandes — das Wesentliche, der reine, unverstellte Verstand. Nur فَعَلَ-Form: أُولُو الْأَلْبَابِ sind die 'Kern-Verständigen'. عَقْل (von ع-ق-ل = binden/fesseln) ist der Verstand als zurückhaltende Kraft — er bindet/kontrolliert Impulse, rationale Überlegung. فِقْه (von ف-ق-ه = durchdringen) ist tiefes Verstehen — ein Sachverhalt wird vollständig durchdrungen. لُبّ = Essenz des Denkens, عَقْل = Kontrolle durch Denken, فِقْه = Durchdringung im Denken.",
+      "exercises": [
+        {
+          "ref": "3:190",
+          "arabic": "إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَـَٔايَٰتٍ لِّأُولِى ٱلْأَلْبَٰبِ",
+          "question": "Warum أُولُو الْأَلْبَاب und nicht الْعَاقِلُون?",
+          "answer": "Die Zeichen der Schöpfung sind für die mit dem KERN des Verstandes — diejenigen die mit ihrem reinen, unverstellten Verstand denken. Nicht bloß rationale Kontrolle (عَقْل), sondern die Essenz des Erkennens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=190"
+        },
+        {
+          "ref": "6:25",
+          "arabic": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ ءَاذَانِهِمْ وَقْرًا",
+          "question": "Warum يَفْقَهُوه und nicht يَعْقِلُوه?",
+          "answer": "فِقْه ist tiefes Durchdringen — sie können die Bedeutung nicht durchdringen. عَقْل wäre rationales Kontrollieren, aber hier geht es um das Unvermögen, den Sinn zu erfassen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=25"
+        },
+        {
+          "ref": "2:164",
+          "arabic": "لَـَٔايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+          "question": "Warum يَعْقِلُون und nicht يَفْقَهُون oder أُولُو الْأَلْبَاب?",
+          "answer": "عَقْل als rationale Überlegung — die Zeichen sind für Menschen die ihren Verstand GEBRAUCHEN, die ihre Impulse zurückhalten und nachdenken. Der Fokus liegt auf dem aktiven Denkvorgang.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=164"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=190",
+      "lanesUrl1": "https://ejtaal.net/aa/#ll=lbb",
+      "lanesUrl2": "https://ejtaal.net/aa/#ll=Eql",
+      "lanesUrl3": "https://ejtaal.net/aa/#ll=fqh"
+    }
+  ]
+}

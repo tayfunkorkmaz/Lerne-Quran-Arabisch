@@ -1,0 +1,987 @@
+{
+  "meta": {
+    "title": "Fehlerkorrektur — Grammatische Fehler erkennen und beheben",
+    "description": "Quranverse mit absichtlichen Kasusfehlern: Der Lernende erkennt und korrigiert den Fehler.",
+    "totalExercises": 100,
+    "sources": [
+      {
+        "title": "Wright's Arabic Grammar, Vol. II (Syntax)",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "ref": "1:2",
+      "verse": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "wrong": "ٱلْحَمْدَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "errorWord": "ٱلْحَمْدَ",
+      "correctedWord": "ٱلْحَمْدُ",
+      "explanation": "ٱلْحَمْدُ ist Mubtada (Thema) und steht im Nominativ mit Damma. Fatha würde Akkusativ bedeuten, was hier syntaktisch unmöglich ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "ref": "1:4",
+      "verse": "مَالِكِ يَوْمِ ٱلدِّينِ",
+      "wrong": "مَالِكُ يَوْمِ ٱلدِّينِ",
+      "errorWord": "مَالِكُ",
+      "correctedWord": "مَالِكِ",
+      "explanation": "مَالِكِ ist Sifa/Badal zu ٱللَّهِ und steht im Genitiv (Kasra). Damma würde Nominativ bedeuten und die Kasuskongruenz verletzen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "ref": "1:6",
+      "verse": "ٱهْدِنَا ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ",
+      "wrong": "ٱهْدِنَا ٱلصِّرَاطُ ٱلْمُسْتَقِيمَ",
+      "errorWord": "ٱلصِّرَاطُ",
+      "correctedWord": "ٱلصِّرَاطَ",
+      "explanation": "ٱلصِّرَاطَ ist Mafʿul bihi (Objekt) von ٱهْدِ und steht im Akkusativ (Fatha). Damma würde Nominativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "ref": "2:2",
+      "verse": "ذَٰلِكَ ٱلْكِتَابُ لَا رَيْبَ فِيهِ",
+      "wrong": "ذَٰلِكَ ٱلْكِتَابَ لَا رَيْبَ فِيهِ",
+      "errorWord": "ٱلْكِتَابَ",
+      "correctedWord": "ٱلْكِتَابُ",
+      "explanation": "ٱلْكِتَابُ ist Khabar/Badal zu ذَٰلِكَ (Mubtada) und steht im Nominativ (Damma). Fatha würde Akkusativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "ref": "2:7",
+      "verse": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ",
+      "wrong": "خَتَمَ ٱللَّهَ عَلَىٰ قُلُوبِهِمْ",
+      "errorWord": "ٱللَّهَ",
+      "correctedWord": "ٱللَّهُ",
+      "explanation": "ٱللَّهُ ist Faʿil (Subjekt) des Verbs خَتَمَ und steht im Nominativ (Damma). Fatha würde Akkusativ (Objekt) bedeuten und den Sinn umkehren.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "ref": "2:6",
+      "verse": "إِنَّ ٱلَّذِينَ كَفَرُوا",
+      "wrong": "إِنَّ ٱلَّذِينُ كَفَرُوا",
+      "errorWord": "ٱلَّذِينُ",
+      "correctedWord": "ٱلَّذِينَ",
+      "explanation": "ٱلَّذِينَ ist ein indeklinables Relativpronomen (مَبْنِيّ). Seine Form ändert sich nicht nach Kasus. Die Form mit Damma (ٱلَّذِينُ) existiert nicht — das Relativpronomen lautet in allen syntaktischen Positionen ٱلَّذِينَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "ref": "2:3",
+      "verse": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ",
+      "wrong": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبَ",
+      "errorWord": "ٱلْغَيْبَ",
+      "correctedWord": "ٱلْغَيْبِ",
+      "explanation": "Nach Präposition بِ steht das Nomen im Genitiv (Kasra). Fatha würde Akkusativ bedeuten, was nach einer Präposition falsch ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "ref": "2:255",
+      "verse": "ٱللَّهُ لَا إِلَٰهَ إِلَّا هُوَ",
+      "wrong": "ٱللَّهُ لَا إِلَٰهٌ إِلَّا هُوَ",
+      "errorWord": "إِلَٰهٌ",
+      "correctedWord": "إِلَٰهَ",
+      "explanation": "إِلَٰهَ ist Ism von لَا النافية للجنس und steht im Akkusativ OHNE Tanwin (mabni). Tanwin-Damma würde indefiniten Nominativ bedeuten, was nach لَا النافية falsch ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "ref": "2:21",
+      "verse": "يَا أَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبَّكُمُ",
+      "wrong": "يَا أَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبُّكُمُ",
+      "errorWord": "رَبُّكُمُ",
+      "correctedWord": "رَبَّكُمُ",
+      "explanation": "رَبَّكُمُ ist Mafʿul bihi (Objekt) von ٱعْبُدُوا und steht im Akkusativ (Fatha). Damma würde Nominativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "ref": "3:110",
+      "verse": "كُنْتُمْ خَيْرَ أُمَّةٍ",
+      "wrong": "كُنْتُمْ خَيْرُ أُمَّةٍ",
+      "errorWord": "خَيْرُ",
+      "correctedWord": "خَيْرَ",
+      "explanation": "خَيْرَ ist Khabar von كَانَ und steht im Akkusativ. Damma würde Nominativ bedeuten, was für Khabar kana falsch ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+    },
+    {
+      "ref": "2:183",
+      "verse": "كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ",
+      "wrong": "كُتِبَ عَلَيْكُمُ ٱلصِّيَامَ",
+      "errorWord": "ٱلصِّيَامَ",
+      "correctedWord": "ٱلصِّيَامُ",
+      "explanation": "ٱلصِّيَامُ ist Naʿib al-Faʿil (Stellvertreter-Subjekt im Passiv) und steht im Nominativ (Damma). Im Passiv wird das Objekt zum Subjekt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "ref": "4:164",
+      "verse": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+      "wrong": "وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمٌ",
+      "errorWord": "تَكْلِيمٌ",
+      "correctedWord": "تَكْلِيمًا",
+      "explanation": "تَكْلِيمًا ist Mafʿul mutlaq und steht im Akkusativ mit Tanwin-Fatha. Tanwin-Damma würde Nominativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+    },
+    {
+      "ref": "112:1",
+      "verse": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "wrong": "قُلْ هُوَ ٱللَّهَ أَحَدٌ",
+      "errorWord": "ٱللَّهَ",
+      "correctedWord": "ٱللَّهُ",
+      "explanation": "ٱللَّهُ ist Mubtada im eingebetteten Nominalsatz und steht im Nominativ (Damma).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "ref": "2:127",
+      "verse": "رَبَّنَا تَقَبَّلْ مِنَّا",
+      "wrong": "رَبُّنَا تَقَبَّلْ مِنَّا",
+      "errorWord": "رَبُّنَا",
+      "correctedWord": "رَبَّنَا",
+      "explanation": "رَبَّنَا ist Munada (Angerufener) in einer Iḍāfa. Munada mudaf steht im Akkusativ (Fatha). Damma wäre für Munada mufrad (ohne Iḍāfa).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+    },
+    {
+      "ref": "67:5",
+      "verse": "وَلَقَدْ زَيَّنَّا ٱلسَّمَاءَ ٱلدُّنْيَا بِمَصَابِيحَ",
+      "wrong": "وَلَقَدْ زَيَّنَّا ٱلسَّمَاءَ ٱلدُّنْيَا بِمَصَابِيحِ",
+      "errorWord": "مَصَابِيحِ",
+      "correctedWord": "مَصَابِيحَ",
+      "explanation": "مَصَابِيح ist diptotisch (gebrochener Plural مَفَاعِيل). Im Genitiv nach بِ bekommt es Fatha STATT Kasra. Diptotische Nomen haben im Genitiv Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+    },
+    {
+      "ref": "2:124",
+      "verse": "وَإِذِ ٱبْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ",
+      "wrong": "وَإِذِ ٱبْتَلَىٰ إِبْرَاهِيمِ رَبُّهُ",
+      "errorWord": "إِبْرَاهِيمِ",
+      "correctedWord": "إِبْرَاهِيمَ",
+      "explanation": "إِبْرَاهِيمَ ist Mafʿul bihi (Objekt) und diptotisch. Im Akkusativ: Fatha. Kasra wäre für triptotische Nomen im Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "ref": "112:3",
+      "verse": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "wrong": "لَمْ يَلِدُ وَلَمْ يُولَدْ",
+      "errorWord": "يَلِدُ",
+      "correctedWord": "يَلِدْ",
+      "explanation": "Nach لَمْ steht das Imperfekt im Jussiv. Jussiv = Sukun (Wegfall des Damma). Damma wäre Indikativ, was nach لَمْ falsch ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+    },
+    {
+      "ref": "2:24",
+      "verse": "فَإِن لَمْ تَفْعَلُوا وَلَن تَفْعَلُوا",
+      "wrong": "فَإِن لَمْ تَفْعَلُونَ وَلَن تَفْعَلُوا",
+      "errorWord": "تَفْعَلُونَ",
+      "correctedWord": "تَفْعَلُوا",
+      "explanation": "Nach لَمْ steht Jussiv. Bei den fünf Verben: das Nun fällt weg (تَفْعَلُوا statt تَفْعَلُونَ). -ونَ = Indikativ, -وا = Jussiv/Subjunktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "ref": "2:120",
+      "verse": "وَلَن تَرْضَىٰ عَنكَ",
+      "wrong": "وَلَن تَرْضَى عَنكَ",
+      "errorWord": "تَرْضَى",
+      "correctedWord": "تَرْضَىٰ",
+      "errorType": "orthographic",
+      "uiCategory": "orthographic",
+      "category": "orthographic",
+      "explanation": "Orthographische Konvention, kein Grammatikfehler. Das ىٰ (Alif maqsura mit superscriptem Alif) ist eine Schreibkonvention des uthmanischen Rasm — kein Kasusmerkmal. Nach لَنْ steht der Subjunktiv, aber bei defekten Verben auf Alif maqsura ist der Subjunktiv morphologisch identisch mit dem Indikativ (-ā bleibt). Diese Übung testet die Kenntnis der uthmanischen Orthographie, nicht eine grammatische Regel.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=120"
+    },
+    {
+      "ref": "4:17",
+      "verse": "وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "wrong": "وَكَانَ ٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "errorWord": "عَلِيمٌ",
+      "correctedWord": "عَلِيمًا",
+      "explanation": "عَلِيمًا ist Khabar von كَانَ und steht im Akkusativ (Tanwin-Fatha). Tanwin-Damma würde Nominativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+    },
+    {
+      "ref": "2:183",
+      "verse": "يَا أَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ",
+      "wrong": "يَا أَيُّهَا ٱلَّذِينَ آمَنُوا كَتَبَ عَلَيْكُمُ ٱلصِّيَامُ",
+      "errorWord": "كَتَبَ",
+      "correctedWord": "كُتِبَ",
+      "explanation": "كُتِبَ ist Passiv (Damma-Kasra statt Fatha-Fatha). Im Aktiv كَتَبَ würde ٱلصِّيَامُ zum Objekt, aber es steht im Nominativ — also muss das Verb passiv sein.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "ref": "3:169",
+      "verse": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا",
+      "wrong": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قَتَلُوا",
+      "errorWord": "قَتَلُوا",
+      "correctedWord": "قُتِلُوا",
+      "explanation": "قُتِلُوا (Passiv: Damma-Kasra) bedeutet 'sie wurden getötet'. قَتَلُوا (Aktiv: Fatha-Fatha) würde 'sie töteten' bedeuten — völlig anderer Sinn.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=169"
+    },
+    {
+      "ref": "2:7",
+      "verse": "وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ",
+      "wrong": "وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةً",
+      "errorWord": "غِشَاوَةً",
+      "correctedWord": "غِشَاوَةٌ",
+      "explanation": "غِشَاوَةٌ ist Mubtada (nachgestellt) und steht im Nominativ (Tanwin-Damma). Tanwin-Fatha würde Akkusativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "ref": "2:31",
+      "verse": "وَعَلَّمَ آدَمَ ٱلْأَسْمَاءَ",
+      "wrong": "وَعَلَّمَ آدَمُ ٱلْأَسْمَاءَ",
+      "errorWord": "آدَمُ",
+      "correctedWord": "آدَمَ",
+      "explanation": "آدَمَ ist Mafʿul bihi (erstes Objekt von عَلَّمَ). Diptotisch — Akkusativ mit Fatha. Damma würde Faʿil (Subjekt) bedeuten, aber das Subjekt ist ausgelassen (Gott).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "ref": "2:60",
+      "verse": "ٱثْنَتَا عَشْرَةَ عَيْنًا",
+      "wrong": "ٱثْنَتَا عَشْرَةَ عَيْنٌ",
+      "errorWord": "عَيْنٌ",
+      "correctedWord": "عَيْنًا",
+      "explanation": "عَيْنًا ist Tamyiz (Spezifikation) nach einem Zahlwort und steht im Akkusativ Singular. Nominativ wäre hier grammatisch falsch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "ref": "3:146",
+      "verse": "وَٱللَّهُ يُحِبُّ ٱلصَّابِرِينَ",
+      "wrong": "وَٱللَّهُ يُحِبُّ ٱلصَّابِرُونَ",
+      "errorWord": "ٱلصَّابِرُونَ",
+      "correctedWord": "ٱلصَّابِرِينَ",
+      "explanation": "ٱلصَّابِرِينَ ist Mafʿul bihi im Akkusativ. Gesunder mask. Plural: -ينَ = Akk/Gen. -ونَ = Nominativ, was hier falsch ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "ref": "2:220",
+      "verse": "إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "wrong": "إِنَّ ٱللَّهَ عَزِيزًا حَكِيمًا",
+      "errorWord": "عَزِيزًا",
+      "correctedWord": "عَزِيزٌ",
+      "explanation": "عَزِيزٌ ist Khabar von إِنَّ und steht im Nominativ (nicht Akkusativ!). Nur das Ism von إِنَّ steht im Akkusativ, das Khabar im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=220"
+    },
+    {
+      "ref": "16:3",
+      "verse": "خَلَقَ ٱلسَّمَاوَاتِ وَٱلْأَرْضَ بِٱلْحَقِّ",
+      "wrong": "خَلَقَ ٱلسَّمَاوَاتَ وَٱلْأَرْضَ بِٱلْحَقِّ",
+      "errorWord": "ٱلسَّمَاوَاتَ",
+      "correctedWord": "ٱلسَّمَاوَاتِ",
+      "explanation": "ٱلسَّمَاوَاتِ ist Mafʿul bihi im Akkusativ. ABER: Gesunder fem. Plural hat Kasra (-اتِ) im Akkusativ UND Genitiv. Fatha (-اتَ) ist FALSCH.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=3"
+    },
+    {
+      "ref": "2:138",
+      "verse": "صِبْغَةَ ٱللَّهِ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةً",
+      "wrong": "صِبْغَةَ ٱللَّهِ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةٌ",
+      "errorWord": "صِبْغَةٌ",
+      "correctedWord": "صِبْغَةً",
+      "explanation": "صِبْغَةً ist Tamyiz zum Elativ أَحْسَنُ und steht im Akkusativ (Tanwin-Fatha). Nominativ wäre falsch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=138"
+    },
+    {
+      "ref": "22:5",
+      "verse": "خَلَقْنَاكُم مِن تُرَابٍ",
+      "wrong": "خَلَقْنَاكُم مِن تُرَابًا",
+      "errorWord": "تُرَابًا",
+      "correctedWord": "تُرَابٍ",
+      "explanation": "Nach Präposition مِنْ steht das Nomen im Genitiv (Tanwin-Kasra). Tanwin-Fatha würde Akkusativ bedeuten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=5"
+    },
+    {
+      "ref": "6:151",
+      "verse": "لَا تَقْتُلُوا أَوْلَادَكُمْ",
+      "wrong": "لَا تَقْتُلُونَ أَوْلَادَكُمْ",
+      "errorWord": "تَقْتُلُونَ",
+      "correctedWord": "تَقْتُلُوا",
+      "explanation": "Nach لَا الناهية (prohibitiv) steht das Verb im Jussiv. Bei den fünf Verben fällt das Nun weg: تَقْتُلُوا (nicht تَقْتُلُونَ = Indikativ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+    },
+    {
+      "ref": "17:23",
+      "verse": "فَلَا تَقُل لَهُمَا أُفٍّ",
+      "wrong": "فَلَا تَقُلُ لَهُمَا أُفٍّ",
+      "errorWord": "تَقُلُ",
+      "correctedWord": "تَقُل",
+      "explanation": "Nach لَا الناهية steht Jussiv: تَقُلْ (Sukun). Damma (تَقُلُ) wäre Indikativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=23"
+    },
+    {
+      "ref": "3:106",
+      "verse": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ",
+      "wrong": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدَّ وُجُوهٌ",
+      "errorWord": "تَسْوَدَّ",
+      "correctedWord": "تَسْوَدُّ",
+      "explanation": "Beide Verben stehen parallel im Indikativ (Damma). تَسْوَدَّ (Fatha) wäre Subjunktiv, aber es gibt keinen Subjunktiv-Auslöser.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+    },
+    {
+      "ref": "2:286",
+      "verse": "رَبَّنَا لَا تُؤَاخِذْنَا إِن نَسِينَا أَوْ أَخْطَأْنَا",
+      "wrong": "رَبَّنَا لَا تُؤَاخِذُنَا إِن نَسِينَا أَوْ أَخْطَأْنَا",
+      "errorWord": "تُؤَاخِذُنَا",
+      "correctedWord": "تُؤَاخِذْنَا",
+      "explanation": "Nach لَا الناهية steht Jussiv: تُؤَاخِذْ (Sukun). Damma (تُؤَاخِذُ) wäre Indikativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+    },
+    {
+      "ref": "15:22",
+      "verse": "وَأَرْسَلْنَا ٱلرِّيَاحَ لَوَاقِحَ",
+      "wrong": "وَأَرْسَلْنَا ٱلرِّيَاحَ لَوَاقِحِ",
+      "errorWord": "لَوَاقِحِ",
+      "correctedWord": "لَوَاقِحَ",
+      "explanation": "لَوَاقِحَ ist Hal (Zustandsakkusativ) und diptotisch (gebrochener Plural فَوَاعِل). Fatha im Akkusativ. Kasra wäre nur möglich wenn es definit wäre.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=22"
+    },
+    {
+      "ref": "89:22",
+      "verse": "وَجَاءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+      "wrong": "وَجَاءَ رَبُّكَ وَٱلْمَلَكُ صَفٌّ صَفٌّ",
+      "errorWord": "صَفٌّ",
+      "correctedWord": "صَفًّا",
+      "explanation": "صَفًّا ist Hal (Zustandsakkusativ) und steht im Akkusativ (Tanwin-Fatha). Nominativ wäre syntaktisch nicht begründet.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+    },
+    {
+      "ref": "2:185",
+      "verse": "فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ",
+      "wrong": "فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمُهُ",
+      "errorWord": "فَلْيَصُمُهُ",
+      "correctedWord": "فَلْيَصُمْهُ",
+      "explanation": "Nach لام الامر (Befehlslam) steht Jussiv: يَصُمْ (Sukun). Damma wäre Indikativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    },
+    {
+      "ref": "2:233",
+      "verse": "لَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا",
+      "wrong": "لَا تُضَارُّ وَالِدَةٌ بِوَلَدِهَا",
+      "errorWord": "تُضَارُّ",
+      "correctedWord": "تُضَارَّ",
+      "explanation": "Nach لَا الناهية steht Jussiv. Beim verdoppelten Verb im Jussiv: Fatha auf dem letzten Buchstaben (تُضَارَّ). Damma (تُضَارُّ) wäre Indikativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "ref": "18:29",
+      "verse": "إِنَّا أَعْتَدْنَا لِلظَّالِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا",
+      "wrong": "إِنَّا أَعْتَدْنَا لِلظَّالِمُونَ نَارًا",
+      "errorWord": "لِلظَّالِمُونَ",
+      "correctedWord": "لِلظَّالِمِينَ",
+      "explanation": "Nach Präposition لِـ steht Genitiv. Gesunder Maskulin-Plural im Genitiv: -ِينَ (nicht -ُونَ = Nominativ). Präposition + Nominativ-Plural ist unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=29"
+    },
+    {
+      "ref": "4:1",
+      "verse": "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِن نَفْسٍ وَاحِدَةٍ",
+      "wrong": "يَا أَيُّهَا النَّاسُ اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُم مِن نَفْسٍ وَاحِدٍ",
+      "errorWord": "وَاحِدٍ",
+      "correctedWord": "وَاحِدَةٍ",
+      "explanation": "نَفْس ist feminin → Adjektiv وَاحِدَة muss ebenfalls feminin sein (mit Ta Marbuta). وَاحِد (maskulin) verletzt die Genus-Kongruenz zwischen Nomen und Adjektiv.",
+      "errorType": "gender_agreement",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+    },
+    {
+      "ref": "2:228",
+      "verse": "وَالْمُطَلَّقَاتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَاثَةَ قُرُوءٍ",
+      "wrong": "وَالْمُطَلَّقَاتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَاثَ قُرُوءٍ",
+      "errorWord": "ثَلَاثَ",
+      "correctedWord": "ثَلَاثَةَ",
+      "explanation": "Zahlkongruenz 3-10: Das Zahlwort steht im ENTGEGENGESETZTEN Genus zum Gezählten. قُرُوء ist maskulin → Zahlwort muss feminin sein (ثَلَاثَةَ mit Ta Marbuta). ثَلَاثَ (ohne Ta) wäre für feminine Gezählte.",
+      "errorType": "number_gender",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+    },
+    {
+      "ref": "2:37",
+      "verse": "فَتَلَقَّىٰ آدَمُ مِن رَبِّهِ كَلِمَاتٍ",
+      "wrong": "فَتَلَقَّىٰ آدَمَ مِن رَبِّهِ كَلِمَاتٍ",
+      "errorWord": "آدَمَ",
+      "correctedWord": "آدَمُ",
+      "explanation": "آدَمُ ist Faʿil (Subjekt) des Verbs تَلَقَّى und steht im Nominativ. Als diptotisches Nomen: Damma im Nominativ. Fatha wäre Akkusativ und würde Adam zum Objekt machen.",
+      "errorType": "diptote_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37",
+      "note": "Genuine Kasusambiguität — beide Lesarten (آدَمُ / آدَمَ) morphologisch zulässig."
+    },
+    {
+      "ref": "3:185",
+      "verse": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ",
+      "wrong": "كُلُّ نَفْسٍ ذَائِقَةِ الْمَوْتِ",
+      "errorWord": "ذَائِقَةِ",
+      "correctedWord": "ذَائِقَةُ",
+      "explanation": "ذَائِقَة ist Khabar zu كُلّ (via dem Mubtada) und steht im Nominativ (Damma). Kasra wäre Genitiv — unmöglich für ein Prädikat. Die Iḍāfa ذَائِقَةُ الْمَوْتِ (Kostet-den-Tod) bindet nur الْمَوْتِ in den Genitiv.",
+      "errorType": "idafa_head_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+    },
+    {
+      "ref": "33:35",
+      "verse": "إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ",
+      "wrong": "إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتَ",
+      "errorWord": "وَالْمُسْلِمَاتَ",
+      "correctedWord": "وَالْمُسْلِمَاتِ",
+      "explanation": "Gesunder Feminin-Plural im Akkusativ UND Genitiv: -اتِ (Kasra!). Fatha (-اتَ) existiert nicht als reguläre Endung. Der Fem. Plural hat nur -اتُ (Nom.) und -اتِ (Akk./Gen.).",
+      "errorType": "sound_fem_plural",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=35"
+    },
+    {
+      "ref": "36:40",
+      "verse": "لَا الشَّمْسُ يَنبَغِي لَهَا أَن تُدْرِكَ الْقَمَرَ",
+      "wrong": "لَا الشَّمْسُ يَنبَغِي لَهَا أَن تُدْرِكُ الْقَمَرَ",
+      "errorWord": "تُدْرِكُ",
+      "correctedWord": "تُدْرِكَ",
+      "explanation": "Nach أَنْ المصدرية steht Subjunktiv. Fatha (تُدْرِكَ) ist korrekt. Damma (تُدْرِكُ) wäre Indikativ — nach أَن unmöglich.",
+      "errorType": "subjunctive_after_an",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=40"
+    },
+    {
+      "ref": "2:197",
+      "verse": "الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ",
+      "wrong": "الْحَجُّ أَشْهُرٌ مَعْلُومَةٌ",
+      "errorWord": "مَعْلُومَةٌ",
+      "correctedWord": "مَعْلُومَاتٌ",
+      "explanation": "Der Qurantext verwendet مَعْلُومَاتٌ (gesunder Fem. Plural). Grammatisch wäre auch مَعْلُومَةٌ (Fem. Sg. bei nicht-rationalem gebrochenen Plural) korrekt — diese Übung prüft die Texttreue zum tatsächlichen Wortlaut, nicht eine Grammatikregel.",
+      "errorType": "adjective_plural_agreement",
+      "category": "textual_variant",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+    },
+    {
+      "ref": "49:13",
+      "verse": "إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ",
+      "wrong": "إِنَّ أَكْرَمُكُمْ عِندَ اللَّهِ أَتْقَاكُمْ",
+      "errorWord": "أَكْرَمُكُمْ",
+      "correctedWord": "أَكْرَمَكُمْ",
+      "explanation": "أَكْرَمَكُمْ ist Ism von إِنَّ und steht im Akkusativ (Fatha). Damma wäre Nominativ — aber nach إِنَّ steht das Ism IMMER im Akkusativ.",
+      "errorType": "inna_ism_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+    },
+    {
+      "ref": "7:48",
+      "verse": "وَنَادَىٰ أَصْحَابُ ٱلْأَعْرَافِ رِجَالًا",
+      "wrong": "وَنَادَىٰ أَصْحَابَ ٱلْأَعْرَافِ رِجَالًا",
+      "errorWord": "أَصْحَابَ",
+      "correctedWord": "أَصْحَابُ",
+      "explanation": "أَصْحَابُ ist Faʿil (Subjekt) des Verbs نَادَى und steht im Nominativ (Damma). Fatha würde Akkusativ (Objekt) bedeuten.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=48"
+    },
+    {
+      "ref": "20:70",
+      "verse": "فَأُلْقِيَ ٱلسَّحَرَةُ سُجَّدًا",
+      "wrong": "فَأُلْقِيَ ٱلسَّحَرَةَ سُجَّدًا",
+      "errorWord": "ٱلسَّحَرَةَ",
+      "correctedWord": "ٱلسَّحَرَةُ",
+      "explanation": "ٱلسَّحَرَةُ ist Naʿib al-Faʿil (Stellvertreter-Subjekt im Passiv) von أُلْقِيَ und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=70"
+    },
+    {
+      "ref": "3:169",
+      "verse": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا فِي سَبِيلِ ٱللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ",
+      "wrong": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا فِي سَبِيلِ ٱللَّهِ أَمْوَاتًا بَلْ أَحْيَاءَ عِندَ رَبِّهِمْ يُرْزَقُونَ",
+      "errorWord": "أَحْيَاءَ",
+      "correctedWord": "أَحْيَاءٌ",
+      "explanation": "أَحْيَاءٌ steht im Nominativ als Khabar. Das Mubtada ergibt sich aus dem vorhergehenden Kontext (die Getöteten). Fatha wäre Akkusativ und diptotischer Genitiv, beides hier falsch.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=169"
+    },
+    {
+      "ref": "2:214",
+      "verse": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَثَلُ ٱلَّذِينَ خَلَوْا",
+      "wrong": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَثَلَ ٱلَّذِينَ خَلَوْا",
+      "errorWord": "مَثَلَ",
+      "correctedWord": "مَثَلُ",
+      "explanation": "مَثَلُ ist Faʿil (Subjekt) des Verbs يَأْتِ und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+    },
+    {
+      "ref": "24:35",
+      "verse": "ٱللَّهُ نُورُ ٱلسَّمَاوَاتِ وَٱلْأَرْضِ مَثَلُ نُورِهِ كَمِشْكَاةٍ",
+      "wrong": "ٱللَّهُ نُورُ ٱلسَّمَاوَاتِ وَٱلْأَرْضِ مَثَلَ نُورِهِ كَمِشْكَاةٍ",
+      "errorWord": "مَثَلَ",
+      "correctedWord": "مَثَلُ",
+      "explanation": "مَثَلُ ist Mubtada (Thema) des zweiten Satzes und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "mubtada_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+    },
+    {
+      "ref": "5:3",
+      "verse": "ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ ٱلْإِسْلَامَ دِينًا",
+      "wrong": "ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتَ لَكُمُ ٱلْإِسْلَامَ دِينًا",
+      "errorWord": "رَضِيتَ",
+      "correctedWord": "رَضِيتُ",
+      "explanation": "رَضِيتُ ist 1. Person Singular (Textsprecher). Die Endung -تُ (Damma) zeigt 1. Pers. Sg., -تَ (Fatha) wäre 2. Pers. Sg. mask. (du). Der Textsprecher verwendet 1. Person Singular.",
+      "errorType": "verb_person",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+    },
+    {
+      "ref": "35:10",
+      "verse": "إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّالِحُ يَرْفَعُهُ",
+      "wrong": "إِلَيْهِ يَصْعَدُ ٱلْكَلِمَ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّالِحُ يَرْفَعُهُ",
+      "errorWord": "ٱلْكَلِمَ",
+      "correctedWord": "ٱلْكَلِمُ",
+      "explanation": "ٱلْكَلِمُ ist Faʿil (Subjekt) des Verbs يَصْعَدُ und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=10"
+    },
+    {
+      "ref": "59:9",
+      "verse": "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ",
+      "wrong": "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةَ",
+      "errorWord": "خَصَاصَةَ",
+      "correctedWord": "خَصَاصَةٌ",
+      "explanation": "خَصَاصَةٌ ist Ism كَانَ (existentielle Verwendung: auch wenn bei ihnen Mangel herrscht) und steht im Nominativ (Tanwin-Damma). Fatha wäre Akkusativ.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=9"
+    },
+    {
+      "ref": "30:4",
+      "verse": "فِي بِضْعِ سِنِينَ لِلَّهِ ٱلْأَمْرُ مِن قَبْلُ وَمِن بَعْدُ",
+      "wrong": "فِي بِضْعِ سِنِينَ لِلَّهِ ٱلْأَمْرَ مِن قَبْلُ وَمِن بَعْدُ",
+      "errorWord": "ٱلْأَمْرَ",
+      "correctedWord": "ٱلْأَمْرُ",
+      "explanation": "ٱلْأَمْرُ ist Mubtada (nachgestellt, Khabar ist لِلَّهِ) und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+    },
+    {
+      "ref": "36:52",
+      "verse": "قَالُوا يَا وَيْلَنَا مَن بَعَثَنَا مِن مَّرْقَدِنَا  هَٰذَا مَا وَعَدَ الرَّحْمَٰنُ وَصَدَقَ الْمُرْسَلُونَ",
+      "wrong": "قَالُوا يَا وَيْلَنَا مَن بَعَثَنَا مِن مَّرْقَدِنَا هَٰذَا مَا وَعَدَ ٱلرَّحْمَنَ",
+      "errorWord": "ٱلرَّحْمَنَ",
+      "correctedWord": "ٱلرَّحْمَنُ",
+      "explanation": "ٱلرَّحْمَنُ ist Faʿil (Subjekt) des Verbs وَعَدَ und steht im Nominativ. Fatha würde ihn zum Mafʿul (Objekt) machen. Der volle Vers: هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ — dies ist was der Erbarmer versprach.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=52"
+    },
+    {
+      "ref": "14:35",
+      "verse": "رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ آمِنًا",
+      "wrong": "رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدُ آمِنًا",
+      "errorWord": "ٱلْبَلَدُ",
+      "correctedWord": "ٱلْبَلَدَ",
+      "explanation": "ٱلْبَلَدَ ist Mafʿul bihi (erstes Objekt von ٱجْعَلْ) und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=35"
+    },
+    {
+      "ref": "2:35",
+      "verse": "وَقُلْنَا يَا آدَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ",
+      "wrong": "وَقُلْنَا يَا آدَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةُ",
+      "errorWord": "ٱلْجَنَّةُ",
+      "correctedWord": "ٱلْجَنَّةَ",
+      "explanation": "ٱلْجَنَّةَ ist Mafʿul bihi (Objekt) von ٱسْكُنْ und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "ref": "7:143",
+      "verse": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا",
+      "wrong": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلُ جَعَلَهُ دَكًّا",
+      "errorWord": "لِلْجَبَلُ",
+      "correctedWord": "لِلْجَبَلِ",
+      "explanation": "ٱلْجَبَلِ steht nach Präposition لِ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+    },
+    {
+      "ref": "12:31",
+      "verse": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَأً وَآتَتْ كُلَّ وَاحِدَةٍ مِنْهُنَّ سِكِّينًا",
+      "wrong": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَأً وَآتَتْ كُلَّ وَاحِدَةٍ مِنْهُنَّ سِكِّينٌ",
+      "errorWord": "سِكِّينٌ",
+      "correctedWord": "سِكِّينًا",
+      "explanation": "سِكِّينًا ist Mafʿul bihi (zweites Objekt von آتَتْ) und steht im Akkusativ (Tanwin-Fatha). Tanwin-Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+    },
+    {
+      "ref": "36:82",
+      "verse": "إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئًا أَن يَقُولَ لَهُ كُن فَيَكُونُ",
+      "wrong": "إِنَّمَا أَمْرُهُ إِذَا أَرَادَ شَيْئٌ أَن يَقُولَ لَهُ كُن فَيَكُونُ",
+      "errorWord": "شَيْئٌ",
+      "correctedWord": "شَيْئًا",
+      "explanation": "شَيْئًا ist Mafʿul bihi (Objekt) von أَرَادَ und steht im Akkusativ (Tanwin-Fatha). Tanwin-Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=82"
+    },
+    {
+      "ref": "55:26",
+      "verse": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "wrong": "كُلُّ مَنْ عَلَيْهَا فَانٌ",
+      "errorWord": "فَانٌ",
+      "correctedWord": "فَانٍ",
+      "explanation": "فَانٍ ist Khabar von كُلّ und steht im Nominativ. ABER: Es ist ein manqus-Nomen (auf Kasra-Ya endend): im Nominativ und Genitiv fällt das Ya weg und Tanwin-Kasra steht. Die Form فَانٌ (Tanwin-Damma) ist unmöglich für ein manqus-Nomen.",
+      "errorType": "khabar_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=26"
+    },
+    {
+      "ref": "2:34",
+      "verse": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ ٱسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ",
+      "wrong": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ ٱسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسُ",
+      "errorWord": "إِبْلِيسُ",
+      "correctedWord": "إِبْلِيسَ",
+      "explanation": "إِبْلِيسَ ist Ausnahme (مُسْتَثْنَى بِإلَّا) nach positivem Satz und steht im Akkusativ (Fatha, diptotisch). Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+    },
+    {
+      "ref": "71:26",
+      "verse": "رَبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَافِرِينَ دَيَّارًا",
+      "wrong": "رَبِّ لَا تَذَرْ عَلَى ٱلْأَرْضِ مِنَ ٱلْكَافِرِينَ دَيَّارٌ",
+      "errorWord": "دَيَّارٌ",
+      "correctedWord": "دَيَّارًا",
+      "explanation": "دَيَّارًا ist Mafʿul bihi (Objekt) von تَذَرْ und steht im Akkusativ (Tanwin-Fatha). Tanwin-Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=26"
+    },
+    {
+      "ref": "4:29",
+      "verse": "وَلَا تَقْتُلُوا أَنفُسَكُمْ",
+      "wrong": "وَلَا تَقْتُلُوا أَنفُسُكُمْ",
+      "errorWord": "أَنفُسُكُمْ",
+      "correctedWord": "أَنفُسَكُمْ",
+      "explanation": "أَنفُسَكُمْ ist Mafʿul bihi (Objekt) von تَقْتُلُوا und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=29"
+    },
+    {
+      "ref": "6:82",
+      "verse": "ٱلَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوا إِيمَانَهُم بِظُلْمٍ",
+      "wrong": "ٱلَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوا إِيمَانُهُم بِظُلْمٍ",
+      "errorWord": "إِيمَانُهُم",
+      "correctedWord": "إِيمَانَهُم",
+      "explanation": "إِيمَانَهُم ist Mafʿul bihi (Objekt) von يَلْبِسُوا und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "mafʿul_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=82"
+    },
+    {
+      "ref": "23:20",
+      "verse": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَاءَ تَنبُتُ بِٱلدُّهْنِ",
+      "wrong": "وَشَجَرَةً تَخْرُجُ مِن طُورُ سَيْنَاءَ تَنبُتُ بِٱلدُّهْنِ",
+      "errorWord": "طُورُ",
+      "correctedWord": "طُورِ",
+      "explanation": "طُورِ steht nach Präposition مِنْ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=20"
+    },
+    {
+      "ref": "90:1",
+      "verse": "لَا أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
+      "wrong": "لَا أُقْسِمُ بِهَٰذَا ٱلْبَلَدُ",
+      "errorWord": "ٱلْبَلَدُ",
+      "correctedWord": "ٱلْبَلَدِ",
+      "explanation": "ٱلْبَلَدِ steht nach Präposition بِ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=1"
+    },
+    {
+      "ref": "3:96",
+      "verse": "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ",
+      "wrong": "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسُ لَلَّذِي بِبَكَّةَ",
+      "errorWord": "لِلنَّاسُ",
+      "correctedWord": "لِلنَّاسِ",
+      "explanation": "ٱلنَّاسِ steht nach Präposition لِ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=96"
+    },
+    {
+      "ref": "67:15",
+      "verse": "هُوَ ٱلَّذِي جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا فِي مَنَاكِبِهَا وَكُلُوا مِن رِزْقِهِ",
+      "wrong": "هُوَ ٱلَّذِي جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا فِي مَنَاكِبُهَا وَكُلُوا مِن رِزْقِهِ",
+      "errorWord": "مَنَاكِبُهَا",
+      "correctedWord": "مَنَاكِبِهَا",
+      "explanation": "مَنَاكِبِهَا steht nach Präposition فِي im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=15"
+    },
+    {
+      "ref": "2:144",
+      "verse": "فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ",
+      "wrong": "فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدُ ٱلْحَرَامِ",
+      "errorWord": "ٱلْمَسْجِدُ",
+      "correctedWord": "ٱلْمَسْجِدِ",
+      "explanation": "ٱلْمَسْجِدِ ist Mudaf ilayhi in der Iḍāfa شَطْرَ ٱلْمَسْجِدِ und steht im Genitiv. Damma wäre Nominativ — als Zweitglied einer Iḍāfa unmöglich.",
+      "errorType": "idafa_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=144"
+    },
+    {
+      "ref": "5:97",
+      "verse": "جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَامًا لِلنَّاسِ وَٱلشَّهْرَ ٱلْحَرَامَ وَٱلْهَدْيَ وَٱلْقَلَائِدَ",
+      "wrong": "جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَامًا لِلنَّاسُ",
+      "errorWord": "لِلنَّاسُ",
+      "correctedWord": "لِلنَّاسِ",
+      "explanation": "ٱلنَّاسِ steht nach Präposition لِ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=97"
+    },
+    {
+      "ref": "17:44",
+      "verse": "تُسَبِّحُ لَهُ ٱلسَّمَاوَاتُ ٱلسَّبْعُ وَٱلْأَرْضُ وَمَن فِيهِنَّ",
+      "wrong": "تُسَبِّحُ لَهُ ٱلسَّمَاوَاتُ ٱلسَّبْعُ وَٱلْأَرْضُ وَمَن فِيهُنَّ",
+      "errorWord": "فِيهُنَّ",
+      "correctedWord": "فِيهِنَّ",
+      "explanation": "فِيهِنَّ — nach Präposition فِي (die auf Kasra/Ya endet) wird das Haa des Pronominalsuffixes mit Kasra ausgesprochen: هِنَّ statt هُنَّ. Dies ist ein phonologisches Phänomen (Vokalharmonie nach Kasra/Ya), keine Kasusunterscheidung.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=44"
+    },
+    {
+      "ref": "9:36",
+      "verse": "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِي كِتَابِ ٱللَّهِ",
+      "wrong": "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِي كِتَابُ ٱللَّهِ",
+      "errorWord": "كِتَابُ",
+      "correctedWord": "كِتَابِ",
+      "explanation": "كِتَابِ steht nach Präposition فِي im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=36"
+    },
+    {
+      "ref": "4:65",
+      "verse": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+      "wrong": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُونَكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+      "errorWord": "يُحَكِّمُونَكَ",
+      "correctedWord": "يُحَكِّمُوكَ",
+      "explanation": "Nach حَتَّى steht Subjunktiv. Bei den fünf Verben: das Nun fällt weg (يُحَكِّمُوكَ statt يُحَكِّمُونَكَ). -ونَ = Indikativ, -وا/-وكَ = Subjunktiv.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=65"
+    },
+    {
+      "ref": "28:76",
+      "verse": "إِنَّ قَارُونَ كَانَ مِن قَوْمِ مُوسَىٰ",
+      "wrong": "إِنَّ قَارُونُ كَانَ مِن قَوْمِ مُوسَىٰ",
+      "errorWord": "قَارُونُ",
+      "correctedWord": "قَارُونَ",
+      "explanation": "قَارُونَ ist Ism von إِنَّ und steht im Akkusativ. Als diptotisches Nomen: Fatha im Akkusativ. Damma wäre Nominativ — nach إِنَّ unmöglich.",
+      "errorType": "inna_ism_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=76"
+    },
+    {
+      "ref": "21:87",
+      "verse": "وَذَا ٱلنُّونِ إِذ ذَهَبَ مُغَاضِبًا فَظَنَّ أَن لَن نَقْدِرَ عَلَيْهِ",
+      "wrong": "وَذَا ٱلنُّونِ إِذ ذَهَبَ مُغَاضِبًا فَظَنَّ أَن لَن نَقْدِرُ عَلَيْهِ",
+      "errorWord": "نَقْدِرُ",
+      "correctedWord": "نَقْدِرَ",
+      "explanation": "Nach لَنْ steht Subjunktiv: نَقْدِرَ (Fatha). Damma (نَقْدِرُ) wäre Indikativ — nach لَنْ unmöglich.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=87"
+    },
+    {
+      "ref": "2:156",
+      "verse": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+      "wrong": "إِنَّنَا لِلَّهِ وَإِنَّنَا إِلَيْهِ رَاجِعُونَ",
+      "errorWord": "إِنَّنَا",
+      "correctedWord": "إِنَّا",
+      "explanation": "Texttreue-Test, kein Grammatikfehler. إِنَّا ist die kontrahierte Form von إِنَّ + نَا (Ism = نَا im Akkusativ). Die volle Form إِنَّنَا ist grammatisch ebenso korrekt, aber der Qurantext verwendet die kontrahierte Form. Diese Übung testet die Kenntnis der konkreten Textform, nicht eine grammatische Regel.",
+      "errorType": "textual_fidelity",
+      "category": "textual_variant",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=156"
+    },
+    {
+      "ref": "12:8",
+      "verse": "إِذْ قَالُوا لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا",
+      "wrong": "إِذْ قَالُوا لَيُوسُفَ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا",
+      "errorWord": "لَيُوسُفَ",
+      "correctedWord": "لَيُوسُفُ",
+      "explanation": "يُوسُفُ ist Mubtada (Thema) und steht im Nominativ. Die Präposition لَ hier ist Lam al-Ibtida' (zur Betonung), sie regiert KEINEN Kasus. Fatha wäre Akkusativ und würde ein Objekt anzeigen.",
+      "errorType": "lam_ibtida",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=8"
+    },
+    {
+      "ref": "68:51",
+      "verse": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا لَيُزْلِقُونَكَ بِأَبْصَارِهِمْ",
+      "wrong": "وَإِن يَكَادَ ٱلَّذِينَ كَفَرُوا لَيُزْلِقُونَكَ بِأَبْصَارِهِمْ",
+      "errorWord": "يَكَادَ",
+      "correctedWord": "يَكَادُ",
+      "explanation": "يَكَادُ steht im Indikativ (Damma). إِنْ hier ist die muxaffafa (leichte Form von إِنَّ), NICHT die Bedingungspartikel — sie verlangt keinen Jussiv. Fatha wäre Subjunktiv, was hier keinen Auslöser hat.",
+      "errorType": "in_mukhaffafa",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=51"
+    },
+    {
+      "ref": "2:102",
+      "verse": "وَمَا كَفَرَ سُلَيْمَانُ وَلَٰكِنَّ ٱلشَّيَاطِينَ كَفَرُوا",
+      "wrong": "وَمَا كَفَرَ سُلَيْمَانُ وَلَٰكِنَّ ٱلشَّيَاطِينُ كَفَرُوا",
+      "errorWord": "ٱلشَّيَاطِينُ",
+      "correctedWord": "ٱلشَّيَاطِينَ",
+      "explanation": "ٱلشَّيَاطِينَ ist Ism von لَٰكِنَّ (Inna-Schwester) und steht im Akkusativ. Gesunder mask. Plural im Akkusativ: -ينَ. -ونَ/-ينُ wäre Nominativ.",
+      "errorType": "inna_ism_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "ref": "56:95",
+      "verse": "إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+      "wrong": "إِنَّ هَٰذَا لَهُوَ حَقَّ ٱلْيَقِينِ",
+      "errorWord": "حَقَّ",
+      "correctedWord": "حَقُّ",
+      "explanation": "حَقُّ ist Khabar von إِنَّ (via das Pronomen هُوَ als Fasl) und steht im Nominativ (Damma). Fatha wäre Akkusativ — aber das Khabar von إِنَّ steht IMMER im Nominativ.",
+      "errorType": "inna_khabar_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=95"
+    },
+    {
+      "ref": "23:1",
+      "verse": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+      "wrong": "قَدْ أَفْلَحَ ٱلْمُؤْمِنِينَ",
+      "errorWord": "ٱلْمُؤْمِنِينَ",
+      "correctedWord": "ٱلْمُؤْمِنُونَ",
+      "explanation": "ٱلْمُؤْمِنُونَ ist Faʿil (Subjekt) von أَفْلَحَ im Nominativ. Gesunder mask. Plural im Nominativ: -ونَ. -ينَ wäre Akkusativ/Genitiv.",
+      "errorType": "faʿil_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+    },
+    {
+      "ref": "28:88",
+      "verse": "كُلُّ شَيْءٍ هَالِكٌ إِلَّا وَجْهَهُ",
+      "wrong": "كُلُّ شَيْءٍ هَالِكٌ إِلَّا وَجْهُهُ",
+      "errorWord": "وَجْهُهُ",
+      "correctedWord": "وَجْهَهُ",
+      "explanation": "وَجْهَهُ ist مُسْتَثْنَى بِإِلَّا (Ausnahme) nach positivem Satz und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "mustathna_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=88"
+    },
+    {
+      "ref": "2:143",
+      "verse": "وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَانَكُمْ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَحِيمٌ",
+      "wrong": "وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَانَكُمْ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفُ رَحِيمُ",
+      "errorWord": "لَرَءُوفُ",
+      "correctedWord": "لَرَءُوفٌ",
+      "explanation": "رَءُوفٌ ist Khabar von إِنَّ und steht im Nominativ mit Tanwin (Tanwin-Damma). Ohne Tanwin (رَءُوفُ) wäre es ein Mudaf oder definit — beides trifft hier nicht zu.",
+      "errorType": "khabar_kana_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "ref": "2:177",
+      "verse": "وَلَٰكِنَّ ٱلْبِرَّ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْآخِرِ",
+      "wrong": "وَلَٰكِنَّ ٱلْبِرُّ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْآخِرِ",
+      "errorWord": "ٱلْبِرُّ",
+      "correctedWord": "ٱلْبِرَّ",
+      "explanation": "ٱلْبِرَّ ist Ism von لَٰكِنَّ (Inna-Schwester) und steht im Akkusativ (Fatha). Damma wäre Nominativ — nach لَٰكِنَّ unmöglich.",
+      "errorType": "inna_ism_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+    },
+    {
+      "ref": "18:46",
+      "verse": "وَٱلْبَاقِيَاتُ ٱلصَّالِحَاتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ أَمَلًا",
+      "wrong": "وَٱلْبَاقِيَاتُ ٱلصَّالِحَاتُ خَيْرًا عِندَ رَبِّكَ ثَوَابًا",
+      "errorWord": "خَيْرًا",
+      "correctedWord": "خَيْرٌ",
+      "explanation": "خَيْرٌ ist Khabar des Mubtada ٱلْبَاقِيَاتُ und steht im Nominativ (Tanwin-Damma). Tanwin-Fatha wäre Akkusativ.",
+      "errorType": "khabar_kana_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=46"
+    },
+    {
+      "ref": "3:26",
+      "verse": "قُلِ ٱللَّهُمَّ مَالِكَ ٱلْمُلْكِ تُؤْتِي ٱلْمُلْكَ مَن تَشَاءُ",
+      "wrong": "قُلِ ٱللَّهُمَّ مَالِكَ ٱلْمُلْكِ تُؤْتِي ٱلْمُلْكُ مَن تَشَاءُ",
+      "errorWord": "ٱلْمُلْكُ",
+      "correctedWord": "ٱلْمُلْكَ",
+      "explanation": "ٱلْمُلْكَ ist Mafʿul bihi (erstes Objekt) von تُؤْتِي und steht im Akkusativ (Fatha). Damma wäre Nominativ.",
+      "errorType": "maf_ul_bihi_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+    },
+    {
+      "ref": "2:275",
+      "verse": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَا",
+      "wrong": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا إِنَّمَا ٱلْبَيْعُ مِثْلَ ٱلرِّبَا",
+      "errorWord": "مِثْلَ",
+      "correctedWord": "مِثْلُ",
+      "explanation": "مِثْلُ ist Khabar des Mubtada ٱلْبَيْعُ und steht im Nominativ (Damma). Fatha wäre Akkusativ — für ein Prädikat unmöglich (ohne كَانَ oder Inna-Schwester).",
+      "errorType": "khabar_kana_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+    },
+    {
+      "ref": "21:107",
+      "verse": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ",
+      "wrong": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةٌ لِلْعَالَمِينَ",
+      "errorWord": "رَحْمَةٌ",
+      "correctedWord": "رَحْمَةً",
+      "explanation": "رَحْمَةً ist Hal (Zustandsakkusativ) oder Mafʿul li-ajlih (Finalakkusativ) und steht im Akkusativ (Tanwin-Fatha). Tanwin-Damma wäre Nominativ.",
+      "errorType": "hal_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=107"
+    },
+    {
+      "ref": "2:178",
+      "verse": "كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِي ٱلْقَتْلَى ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ",
+      "wrong": "كُتِبَ عَلَيْكُمُ ٱلْقِصَاصَ فِي ٱلْقَتْلَى",
+      "errorWord": "ٱلْقِصَاصَ",
+      "correctedWord": "ٱلْقِصَاصُ",
+      "explanation": "ٱلْقِصَاصُ ist Naʿib al-Faʿil (Stellvertreter-Subjekt im Passiv) von كُتِبَ und steht im Nominativ (Damma). Fatha wäre Akkusativ.",
+      "errorType": "naib_fa_il_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=178"
+    },
+    {
+      "ref": "36:39",
+      "verse": "وَٱلْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
+      "wrong": "وَٱلْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونُ ٱلْقَدِيمِ",
+      "errorWord": "كَٱلْعُرْجُونُ",
+      "correctedWord": "كَٱلْعُرْجُونِ",
+      "explanation": "ٱلْعُرْجُونِ steht nach Präposition كَ im Genitiv (Kasra). Damma wäre Nominativ — nach Präposition unmöglich.",
+      "errorType": "preposition_case",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=39"
+    },
+    {
+      "ref": "3:8",
+      "verse": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا",
+      "wrong": "رَبَّنَا لَا تُزِغُ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا",
+      "errorWord": "تُزِغُ",
+      "correctedWord": "تُزِغْ",
+      "explanation": "Nach لَا الناهية (hier prohibitiv als Duʿa') steht Jussiv: تُزِغْ (Sukun). Damma (تُزِغُ) wäre Indikativ.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=8"
+    },
+    {
+      "ref": "3:139",
+      "verse": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ ٱلْأَعْلَوْنَ",
+      "wrong": "وَلَا تَهِنُونَ وَلَا تَحْزَنُوا وَأَنتُمُ ٱلْأَعْلَوْنَ",
+      "errorWord": "تَهِنُونَ",
+      "correctedWord": "تَهِنُوا",
+      "explanation": "Nach لَا الناهية steht Jussiv. Bei den fünf Verben: das Nun fällt weg (تَهِنُوا statt تَهِنُونَ). -ونَ = Indikativ, -وا = Jussiv.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=139"
+    },
+    {
+      "ref": "40:26",
+      "verse": "وَقَالَ فِرْعَوْنُ ذَرُونِي أَقْتُلْ مُوسَىٰ",
+      "wrong": "وَقَالَ فِرْعَوْنُ ذَرُونِي أَقْتُلُ مُوسَىٰ",
+      "errorWord": "أَقْتُلُ",
+      "correctedWord": "أَقْتُلْ",
+      "explanation": "أَقْتُلْ steht im Jussiv als Jawab at-Talab (Antwort auf eine Aufforderung: lasst mich → dann töte ich). Sukun ist die Jussiv-Markierung. Damma wäre Indikativ.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=26"
+    },
+    {
+      "ref": "2:35",
+      "verse": "وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ",
+      "wrong": "وَلَا تَقْرَبَانِ هَٰذِهِ ٱلشَّجَرَةَ",
+      "errorWord": "تَقْرَبَانِ",
+      "correctedWord": "تَقْرَبَا",
+      "explanation": "Nach لَا الناهية steht Jussiv. Beim Dual fällt das Nun weg: تَقْرَبَا (nicht تَقْرَبَانِ = Indikativ). Das Alif des Duals bleibt erhalten.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "ref": "18:23",
+      "verse": "وَلَا تَقُولَنَّ لِشَيْءٍ إِنِّي فَاعِلٌ ذَٰلِكَ غَدًا",
+      "wrong": "وَلَا تَقُولُنَّ لِشَيْءٍ إِنِّي فَاعِلٌ ذَٰلِكَ غَدًا",
+      "errorWord": "تَقُولُنَّ",
+      "correctedWord": "تَقُولَنَّ",
+      "explanation": "Nach لَا الناهية steht Jussiv. Mit dem schweren Nun at-Tawkid (نَّ) wird das Verb mabni auf Fatha: تَقُولَنَّ. Damma (تَقُولُنَّ) wäre Indikativ.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=23"
+    },
+    {
+      "ref": "36:60",
+      "verse": "أَلَمْ أَعْهَدْ إِلَيْكُمْ يَا بَنِي آدَمَ أَن لَا تَعْبُدُوا ٱلشَّيْطَانَ",
+      "wrong": "أَلَمْ أَعْهَدُ إِلَيْكُمْ يَا بَنِي آدَمَ أَن لَا تَعْبُدُوا ٱلشَّيْطَانَ",
+      "errorWord": "أَعْهَدُ",
+      "correctedWord": "أَعْهَدْ",
+      "explanation": "Nach لَمْ steht Jussiv: أَعْهَدْ (Sukun). Damma (أَعْهَدُ) wäre Indikativ — nach لَمْ unmöglich.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=60"
+    },
+    {
+      "ref": "7:172",
+      "verse": "أَلَسْتُ بِرَبِّكُمْ قَالُوا بَلَىٰ شَهِدْنَا أَن تَقُولُوا يَوْمَ ٱلْقِيَامَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَافِلِينَ",
+      "wrong": "أَلَسْتُ بِرَبِّكُمْ قَالُوا بَلَىٰ شَهِدْنَا أَن تَقُولُونَ يَوْمَ ٱلْقِيَامَةِ",
+      "errorWord": "تَقُولُونَ",
+      "correctedWord": "تَقُولُوا",
+      "explanation": "Nach أَنْ المصدرية steht Subjunktiv. Bei den fünf Verben: das Nun fällt weg (تَقُولُوا statt تَقُولُونَ). -ونَ = Indikativ, -وا = Subjunktiv.",
+      "errorType": "verb_mood",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=172"
+    }
+  ]
+}

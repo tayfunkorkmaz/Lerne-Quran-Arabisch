@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "title": "Schwache Verben in abgeleiteten Formen (II-X)",
+    "description": "Konjugationstabellen und Partizipien/Masdar schwacher Verben in höheren Formen. Rein sprachwissenschaftlich.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "weakType": "hollow_waw",
+      "form": "IV",
+      "root": "ق و م",
+      "meaning": "aufrichten, errichten, verrichten",
+      "perfect3ms": "أَقَامَ",
+      "imperfect3ms": "يُقِيمُ",
+      "imperative2ms": "أَقِمْ",
+      "activeParticiple": "مُقِيم",
+      "passiveParticiple": "مُقَام",
+      "masdar": "إِقَامَة",
+      "quranicExamples": [
+        {
+          "word": "يُقِيمُونَ",
+          "location": "2:3",
+          "meaning": "sie verrichten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        },
+        {
+          "word": "أَقِيمُوا",
+          "location": "2:43",
+          "meaning": "verrichtet!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+        },
+        {
+          "word": "أَقَامَ",
+          "location": "9:18",
+          "meaning": "er verrichtete",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=18"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "IV",
+      "root": "ر و د",
+      "meaning": "wollen, beabsichtigen",
+      "perfect3ms": "أَرَادَ",
+      "imperfect3ms": "يُرِيدُ",
+      "imperative2ms": "أَرِدْ",
+      "activeParticiple": "مُرِيد",
+      "passiveParticiple": "مُرَاد",
+      "masdar": "إِرَادَة",
+      "quranicExamples": [
+        {
+          "word": "يُرِيدُ",
+          "location": "2:185",
+          "meaning": "er will",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+        },
+        {
+          "word": "أَرَادَ",
+          "location": "36:82",
+          "meaning": "er wollte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=82"
+        },
+        {
+          "word": "أَرَدْنَا",
+          "location": "17:16",
+          "meaning": "wir wollten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=16"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "IV",
+      "root": "ج و ب",
+      "meaning": "antworten",
+      "perfect3ms": "أَجَابَ",
+      "imperfect3ms": "يُجِيبُ",
+      "imperative2ms": "أَجِبْ",
+      "activeParticiple": "مُجِيب",
+      "passiveParticiple": "مُجَاب",
+      "masdar": "إِجَابَة",
+      "quranicExamples": [
+        {
+          "word": "يُجِيبُ",
+          "location": "27:62",
+          "meaning": "er erhört",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=62"
+        },
+        {
+          "word": "أَجِيبُوا",
+          "location": "8:24",
+          "meaning": "antwortet!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=24"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=62"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "X",
+      "root": "ق و م",
+      "meaning": "aufrecht/gerade sein",
+      "perfect3ms": "اِسْتَقَامَ",
+      "imperfect3ms": "يَسْتَقِيمُ",
+      "imperative2ms": "اِسْتَقِمْ",
+      "activeParticiple": "مُسْتَقِيم",
+      "passiveParticiple": "—",
+      "masdar": "اِسْتِقَامَة",
+      "quranicExamples": [
+        {
+          "word": "ٱلْمُسْتَقِيمَ",
+          "location": "1:6",
+          "meaning": "den geraden (Weg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "word": "فَٱسْتَقِمْ",
+          "location": "11:112",
+          "meaning": "so sei aufrecht!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=112"
+        },
+        {
+          "word": "ٱسْتَقَامُوا",
+          "location": "41:30",
+          "meaning": "sie waren aufrecht",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "X",
+      "root": "ج و ب",
+      "meaning": "um Antwort bitten, erhören",
+      "perfect3ms": "اِسْتَجَابَ",
+      "imperfect3ms": "يَسْتَجِيبُ",
+      "imperative2ms": "اِسْتَجِبْ",
+      "activeParticiple": "مُسْتَجِيب",
+      "passiveParticiple": "مُسْتَجَاب",
+      "masdar": "اِسْتِجَابَة",
+      "quranicExamples": [
+        {
+          "word": "ٱسْتَجَابَ",
+          "location": "2:186",
+          "meaning": "er erhörte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+        },
+        {
+          "word": "ٱسْتَجِيبُوا",
+          "location": "8:24",
+          "meaning": "antwortet/gehorcht!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=24"
+        },
+        {
+          "word": "يَسْتَجِيبُونَ",
+          "location": "42:38",
+          "meaning": "sie erhören/antworten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=38"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "X",
+      "root": "ط و ع",
+      "meaning": "können, vermögen",
+      "perfect3ms": "اِسْتَطَاعَ",
+      "imperfect3ms": "يَسْتَطِيعُ",
+      "imperative2ms": "—",
+      "activeParticiple": "مُسْتَطِيع",
+      "passiveParticiple": "مُسْتَطَاع",
+      "masdar": "اِسْتِطَاعَة",
+      "quranicExamples": [
+        {
+          "word": "يَسْتَطِيعُونَ",
+          "location": "2:217",
+          "meaning": "sie können",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+        },
+        {
+          "word": "ٱسْتَطَاعُوا",
+          "location": "18:97",
+          "meaning": "sie konnten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=97"
+        },
+        {
+          "word": "ٱسْتَطَعْتَ",
+          "location": "18:78",
+          "meaning": "du konntest",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=78"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+    },
+    {
+      "weakType": "defective_waw",
+      "form": "II",
+      "root": "ز ك و",
+      "meaning": "läutern, reinigen",
+      "perfect3ms": "زَكَّى",
+      "imperfect3ms": "يُزَكِّي",
+      "imperative2ms": "زَكِّ",
+      "activeParticiple": "مُزَكٍّ",
+      "passiveParticiple": "مُزَكًّى",
+      "masdar": "تَزْكِيَة",
+      "quranicExamples": [
+        {
+          "word": "يُزَكِّيهِمْ",
+          "location": "2:129",
+          "meaning": "er läutert sie",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+        },
+        {
+          "word": "زَكَّاهَا",
+          "location": "91:9",
+          "meaning": "er läuterte sie",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=9"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+    },
+    {
+      "weakType": "defective_waw",
+      "form": "II",
+      "root": "ص ل و",
+      "meaning": "sich zuwenden, die Zuwendung verrichten",
+      "perfect3ms": "صَلَّى",
+      "imperfect3ms": "يُصَلِّي",
+      "imperative2ms": "صَلِّ",
+      "activeParticiple": "مُصَلٍّ",
+      "passiveParticiple": "—",
+      "masdar": "تَصْلِيَة",
+      "quranicExamples": [
+        {
+          "word": "يُصَلُّونَ",
+          "location": "33:56",
+          "meaning": "sie wenden sich zu/segnen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+        },
+        {
+          "word": "صَلِّ",
+          "location": "108:2",
+          "meaning": "wende dich zu!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=2"
+        },
+        {
+          "word": "ٱلْمُصَلِّينَ",
+          "location": "107:4",
+          "meaning": "die sich Zuwendenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=107&verse=4"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+    },
+    {
+      "weakType": "defective_waw",
+      "form": "IV",
+      "root": "ع ط و",
+      "meaning": "geben",
+      "perfect3ms": "أَعْطَى",
+      "imperfect3ms": "يُعْطِي",
+      "imperative2ms": "أَعْطِ",
+      "activeParticiple": "مُعْطٍ",
+      "passiveParticiple": "مُعْطًى",
+      "masdar": "إِعْطَاء",
+      "quranicExamples": [
+        {
+          "word": "أَعْطَىٰ",
+          "location": "92:5",
+          "meaning": "er gab",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=5"
+        },
+        {
+          "word": "أَعْطَيْنَاكَ",
+          "location": "108:1",
+          "meaning": "wir gaben dir",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=5"
+    },
+    {
+      "weakType": "assimilated_defective",
+      "form": "IV",
+      "root": "و ح ي",
+      "meaning": "eingeben, mitteilen",
+      "perfect3ms": "أَوْحَى",
+      "imperfect3ms": "يُوحِي",
+      "imperative2ms": "أَوْحِ",
+      "activeParticiple": "مُوحٍ",
+      "passiveParticiple": "مُوحًى",
+      "masdar": "إِيحَاء",
+      "quranicExamples": [
+        {
+          "word": "أَوْحَيْنَا",
+          "location": "4:163",
+          "meaning": "wir teilten mit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=163"
+        },
+        {
+          "word": "يُوحَىٰ",
+          "location": "53:4",
+          "meaning": "es wird mitgeteilt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=4"
+        },
+        {
+          "word": "أَوْحِ",
+          "location": "—",
+          "meaning": "teile mit!"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=163"
+    },
+    {
+      "weakType": "defective_ya",
+      "form": "IV",
+      "root": "ل ق ي",
+      "meaning": "werfen, hinwerfen",
+      "perfect3ms": "أَلْقَى",
+      "imperfect3ms": "يُلْقِي",
+      "imperative2ms": "أَلْقِ",
+      "activeParticiple": "مُلْقٍ",
+      "passiveParticiple": "مُلْقًى",
+      "masdar": "إِلْقَاء",
+      "quranicExamples": [
+        {
+          "word": "أَلْقَىٰ",
+          "location": "20:20",
+          "meaning": "er warf hin",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+        },
+        {
+          "word": "يُلْقِي",
+          "location": "40:15",
+          "meaning": "er wirft/legt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=15"
+        },
+        {
+          "word": "أَلْقُوا",
+          "location": "7:116",
+          "meaning": "sie warfen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=116"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+    },
+    {
+      "weakType": "defective_ya",
+      "form": "V",
+      "root": "و ف ي",
+      "meaning": "vollständig nehmen/sterben lassen",
+      "perfect3ms": "تَوَفَّى",
+      "imperfect3ms": "يَتَوَفَّى",
+      "imperative2ms": "—",
+      "activeParticiple": "مُتَوَفٍّ",
+      "passiveParticiple": "مُتَوَفًّى",
+      "masdar": "تَوَفٍّ",
+      "quranicExamples": [
+        {
+          "word": "تَوَفَّاهُمُ",
+          "location": "4:97",
+          "meaning": "er nahm sie (im Tod)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=97"
+        },
+        {
+          "word": "يَتَوَفَّاكُم",
+          "location": "6:61",
+          "meaning": "er nimmt euch (im Tod)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=61"
+        },
+        {
+          "word": "مُتَوَفِّيكَ",
+          "location": "3:55",
+          "meaning": "dich vollständig nehmend",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=55"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=97"
+    },
+    {
+      "weakType": "defective_ya",
+      "form": "VIII",
+      "root": "ه د ي",
+      "meaning": "Führung finden",
+      "perfect3ms": "اِهْتَدَى",
+      "imperfect3ms": "يَهْتَدِي",
+      "imperative2ms": "اِهْتَدِ",
+      "activeParticiple": "مُهْتَدٍ",
+      "passiveParticiple": "—",
+      "masdar": "اِهْتِدَاء",
+      "quranicExamples": [
+        {
+          "word": "ٱهْتَدَوْا",
+          "location": "2:16",
+          "meaning": "sie fanden Führung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+        },
+        {
+          "word": "يَهْتَدِي",
+          "location": "10:35",
+          "meaning": "er findet Führung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=35"
+        },
+        {
+          "word": "ٱلْمُهْتَدِينَ",
+          "location": "7:30",
+          "meaning": "die Rechtgeleiteten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+    },
+    {
+      "weakType": "defective_ya",
+      "form": "VIII",
+      "root": "ش ر ي",
+      "meaning": "kaufen, eintauschen",
+      "perfect3ms": "اِشْتَرَى",
+      "imperfect3ms": "يَشْتَرِي",
+      "imperative2ms": "اِشْتَرِ",
+      "activeParticiple": "مُشْتَرٍ",
+      "passiveParticiple": "مُشْتَرًى",
+      "masdar": "اِشْتِرَاء",
+      "quranicExamples": [
+        {
+          "word": "ٱشْتَرَوْا",
+          "location": "2:16",
+          "meaning": "sie kauften/tauschten ein",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+        },
+        {
+          "word": "يَشْتَرِي",
+          "location": "31:6",
+          "meaning": "er kauft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=6"
+        },
+        {
+          "word": "يَشْتَرُونَ",
+          "location": "2:79",
+          "meaning": "sie erkaufen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+    },
+    {
+      "weakType": "defective_ya",
+      "form": "VIII",
+      "root": "ف ر ي",
+      "meaning": "ersinnen, erdichten",
+      "perfect3ms": "اِفْتَرَى",
+      "imperfect3ms": "يَفْتَرِي",
+      "imperative2ms": "—",
+      "activeParticiple": "مُفْتَرٍ",
+      "passiveParticiple": "مُفْتَرًى",
+      "masdar": "اِفْتِرَاء",
+      "quranicExamples": [
+        {
+          "word": "ٱفْتَرَى",
+          "location": "6:21",
+          "meaning": "er erdichtete",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=21"
+        },
+        {
+          "word": "يَفْتَرُونَ",
+          "location": "6:24",
+          "meaning": "sie erdichten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=24"
+        },
+        {
+          "word": "مُفْتَرًى",
+          "location": "12:111",
+          "meaning": "Erdichtetes",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=111"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=21"
+    },
+    {
+      "weakType": "mehrfach_schwach",
+      "form": "VIII",
+      "root": "و ق ي",
+      "meaning": "sich hüten, sich schützen",
+      "perfect3ms": "اِتَّقَى",
+      "imperfect3ms": "يَتَّقِي",
+      "imperative2ms": "اِتَّقِ",
+      "activeParticiple": "مُتَّقٍ",
+      "passiveParticiple": "—",
+      "masdar": "تَقْوَى / اِتِّقَاء",
+      "quranicExamples": [
+        {
+          "word": "ٱتَّقَوْا",
+          "location": "2:103",
+          "meaning": "sie hüteten sich",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=103"
+        },
+        {
+          "word": "ٱتَّقُوا",
+          "location": "2:189",
+          "meaning": "hütet euch!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+        },
+        {
+          "word": "ٱلْمُتَّقِينَ",
+          "location": "2:2",
+          "meaning": "die sich Hütenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        }
+      ],
+      "note": "Waw assimiliert zu Ta (Idgham): iw-taqay → ittaqay. Daher das doppelte Ta.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=103"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "II",
+      "root": "ص و ر",
+      "meaning": "formen, gestalten",
+      "perfect3ms": "صَوَّرَ",
+      "imperfect3ms": "يُصَوِّرُ",
+      "imperative2ms": "صَوِّرْ",
+      "activeParticiple": "مُصَوِّر",
+      "passiveParticiple": "مُصَوَّر",
+      "masdar": "تَصْوِير",
+      "quranicExamples": [
+        {
+          "word": "يُصَوِّرُكُمْ",
+          "location": "3:6",
+          "meaning": "er formt euch",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=6"
+        },
+        {
+          "word": "صَوَّرْنَاكُمْ",
+          "location": "7:11",
+          "meaning": "wir formten euch",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=11"
+        },
+        {
+          "word": "وَصَوَّرَكُمْ",
+          "location": "40:64",
+          "meaning": "und er formte euch",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=64"
+        },
+        {
+          "word": "وَصَوَّرَكُمْ",
+          "location": "64:3",
+          "meaning": "und er formte euch",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=3"
+        },
+        {
+          "word": "ٱلْمُصَوِّرُ",
+          "location": "59:24",
+          "meaning": "der Formende (Aktiv-Partizip)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=24"
+        }
+      ],
+      "note": "Bei Form II hohler Verben bleibt der mittlere Radikal (hier Waw) erhalten und wird verdoppelt: صَوَّرَ. Die Hohlheit manifestiert sich nicht wie bei Form I/IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=6"
+    },
+    {
+      "weakType": "hollow_ya",
+      "form": "II",
+      "root": "ز ي ن",
+      "meaning": "schmücken, ausschmücken",
+      "perfect3ms": "زَيَّنَ",
+      "imperfect3ms": "يُزَيِّنُ",
+      "imperative2ms": "زَيِّنْ",
+      "activeParticiple": "مُزَيِّن",
+      "passiveParticiple": "مُزَيَّن",
+      "masdar": "تَزْيِين",
+      "quranicExamples": [
+        {
+          "word": "زَيَّنَ",
+          "location": "6:137",
+          "meaning": "er schmückte aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=137"
+        },
+        {
+          "word": "زَيَّنَ",
+          "location": "8:48",
+          "meaning": "er schmückte aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=48"
+        },
+        {
+          "word": "وَزَيَّنَّاهَا",
+          "location": "15:16",
+          "meaning": "und wir schmückten sie aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=16"
+        },
+        {
+          "word": "زَيَّنَّا",
+          "location": "37:6",
+          "meaning": "wir schmückten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=6"
+        },
+        {
+          "word": "زُيِّنَ",
+          "location": "2:212",
+          "meaning": "es wurde ausgeschmückt (Passiv)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=212"
+        }
+      ],
+      "note": "Häufiges Form-II-Verb mit Ya als mittlerem Radikal. 26 Belege im Quran, davon viele Passiv-Formen (زُيِّنَ). Der mittlere Radikal Ya bleibt erhalten und wird verdoppelt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=137"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "II",
+      "root": "خ و ف",
+      "meaning": "erschrecken, einschüchtern",
+      "perfect3ms": "خَوَّفَ",
+      "imperfect3ms": "يُخَوِّفُ",
+      "imperative2ms": "خَوِّفْ",
+      "activeParticiple": "مُخَوِّف",
+      "passiveParticiple": "مُخَوَّف",
+      "masdar": "تَخْوِيف",
+      "quranicExamples": [
+        {
+          "word": "يُخَوِّفُ",
+          "location": "3:175",
+          "meaning": "er erschreckt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=175"
+        },
+        {
+          "word": "وَنُخَوِّفُهُمْ",
+          "location": "17:60",
+          "meaning": "und wir erschrecken sie",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=60"
+        },
+        {
+          "word": "يُخَوِّفُونَكَ",
+          "location": "39:36",
+          "meaning": "sie erschrecken dich",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=36"
+        },
+        {
+          "word": "يُخَوِّفُ",
+          "location": "39:16",
+          "meaning": "er droht",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=16"
+        }
+      ],
+      "note": "Kausativ von خَافَ (fürchten): Form II خَوَّفَ bedeutet 'jemanden fürchten machen, erschrecken'. Vier Belege im Quran, alle im Imperfekt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=175"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "III",
+      "root": "ح و ر",
+      "meaning": "sich unterhalten, dialogisieren",
+      "perfect3ms": "حَاوَرَ",
+      "imperfect3ms": "يُحَاوِرُ",
+      "imperative2ms": "حَاوِرْ",
+      "activeParticiple": "مُحَاوِر",
+      "passiveParticiple": "—",
+      "masdar": "مُحَاوَرَة",
+      "quranicExamples": [
+        {
+          "word": "يُحَاوِرُهُ",
+          "location": "18:34",
+          "meaning": "er unterhielt sich mit ihm",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=34"
+        },
+        {
+          "word": "يُحَاوِرُهُ",
+          "location": "18:37",
+          "meaning": "er unterhielt sich mit ihm",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=37"
+        }
+      ],
+      "note": "Seltenes Form-III-Verb mit hohlem Waw. Nur in Sure 18 (Gleichnis der zwei Gartenbesitzer) belegt. Der Verbal-Nomen تَحَاوُر (Form VI) kommt in 58:1 vor.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=34"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "III",
+      "root": "د و ل",
+      "meaning": "wechseln lassen, abwechseln",
+      "perfect3ms": "دَاوَلَ",
+      "imperfect3ms": "يُدَاوِلُ",
+      "imperative2ms": "دَاوِلْ",
+      "activeParticiple": "مُدَاوِل",
+      "passiveParticiple": "مُدَاوَل",
+      "masdar": "مُدَاوَلَة",
+      "quranicExamples": [
+        {
+          "word": "نُدَاوِلُهَا",
+          "location": "3:140",
+          "meaning": "wir lassen sie abwechseln",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=140"
+        }
+      ],
+      "note": "Einziger Form-III-Beleg dieses hohlen Verbs im Quran. Verwandtes Nomen دُولَة (Umlauf, Zirkulation) in 59:7. Form III hohler Verben ist im Quran generell selten: Der Alif-Einschub der Mufāʿala-Form verschmilzt mit dem ohnehin langen Vokal der Hohlheit.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=140"
+    },
+    {
+      "weakType": "hollow_waw",
+      "form": "V",
+      "root": "ط و ف",
+      "meaning": "umhergehen, umrunden",
+      "perfect3ms": "تَطَوَّفَ",
+      "imperfect3ms": "يَتَطَوَّفُ",
+      "imperative2ms": "تَطَوَّفْ",
+      "activeParticiple": "مُتَطَوِّف",
+      "passiveParticiple": "—",
+      "masdar": "تَطَوُّف",
+      "quranicExamples": [
+        {
+          "word": "يَطَّوَّفَ",
+          "location": "2:158",
+          "meaning": "er umrundet",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=158"
+        },
+        {
+          "word": "وَلْيَطَّوَّفُوا",
+          "location": "22:29",
+          "meaning": "und sie sollen umrunden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=29"
+        }
+      ],
+      "note": "Das Ta von Form V assimiliert sich an das Ta des Stammes: تَطَوَّفَ → يَطَّوَّفَ (Idgham). Im Quran nur zweimal belegt. Form V hohler Verben ist selten, da der mittlere Radikal bereits verdoppelt ist und die Reflexiv-Bedeutung von Form V bei vielen hohlen Wurzeln semantisch nicht produktiv wird.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=158"
+    },
+    {
+      "weakType": "hollow_ya",
+      "form": "VIII",
+      "root": "خ ي ر",
+      "meaning": "auswählen, erwählen",
+      "perfect3ms": "اِخْتَارَ",
+      "imperfect3ms": "يَخْتَارُ",
+      "imperative2ms": "اِخْتَرْ",
+      "activeParticiple": "مُخْتَار",
+      "passiveParticiple": "مُخْتَار",
+      "masdar": "اِخْتِيَار",
+      "quranicExamples": [
+        {
+          "word": "وَٱخْتَارَ",
+          "location": "7:155",
+          "meaning": "und er wählte aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=155"
+        },
+        {
+          "word": "ٱخْتَرْتُكَ",
+          "location": "20:13",
+          "meaning": "ich wählte dich aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=13"
+        },
+        {
+          "word": "يَخْتَارُ",
+          "location": "28:68",
+          "meaning": "er wählt aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=68"
+        },
+        {
+          "word": "ٱخْتَرْنَاهُمْ",
+          "location": "44:32",
+          "meaning": "wir wählten sie aus",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=32"
+        }
+      ],
+      "note": "Bei Form VIII hohler Verben mit Ya-Radikal: Das Ya wird zu langem Alif im Perfekt (اِخْتَارَ statt *اِخْتَيَرَ) und im Imperfekt (يَخْتَارُ). Aktiv- und Passivpartizip sind formgleich (مُخْتَار).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=155"
+    },
+    {
+      "weakType": "hollow_ya",
+      "form": "VIII",
+      "root": "ز ي د",
+      "meaning": "zunehmen, sich vermehren",
+      "perfect3ms": "اِزْدَادَ",
+      "imperfect3ms": "يَزْدَادُ",
+      "imperative2ms": "اِزْدَدْ",
+      "activeParticiple": "مُزْدَاد",
+      "passiveParticiple": "—",
+      "masdar": "اِزْدِيَاد",
+      "quranicExamples": [
+        {
+          "word": "ٱزْدَادُوا",
+          "location": "3:90",
+          "meaning": "sie nahmen zu",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=90"
+        },
+        {
+          "word": "وَٱزْدَادُوا",
+          "location": "18:25",
+          "meaning": "und sie nahmen zu",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=25"
+        },
+        {
+          "word": "وَيَزْدَادَ",
+          "location": "74:31",
+          "meaning": "und er nehme zu",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=31"
+        },
+        {
+          "word": "لِيَزْدَادُوا",
+          "location": "48:4",
+          "meaning": "damit sie zunehmen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=4"
+        }
+      ],
+      "note": "Phonetische Besonderheit: Das Ta der Form VIII wird nach dem stimmhaften Zay zu Dal (اِفْتَعَلَ → اِزْدَادَ statt *اِزْتَادَ). Der mittlere Ya-Radikal wird zu langem Alif: *اِزْدَيَدَ → اِزْدَادَ. Acht Belege im Quran.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=90"
+    },
+    {
+      "_comment_hollow_derived_forms_rarity": "Form VI (تَفَاعَلَ) und Form VII (اِنْفَعَلَ) hohler Verben sind im Quran extrem selten oder nicht belegt. Form VI: تَعَالَى (ع-ل-و, defektiv, bereits oben erfasst) und تَحَاوُر (ح-و-ر, nur als Verbal-Nomen in 58:1). Form VII hohler Verben: kein gesicherter Beleg im Quran. اِنْقَاضَ (18:77) gehört zur Wurzel ن-ق-ض, nicht zur hohlen Wurzel ق-و-ض."
+    },
+    {
+      "weakType": "defective_waw",
+      "form": "VI",
+      "root": "ع ل و",
+      "meaning": "erhaben/hoch sein",
+      "perfect3ms": "تَعَالَى",
+      "imperfect3ms": "يَتَعَالَى",
+      "imperative2ms": "تَعَالَ",
+      "activeParticiple": "مُتَعَالٍ",
+      "passiveParticiple": "—",
+      "masdar": "تَعَالٍ",
+      "quranicExamples": [
+        {
+          "word": "تَعَالَى",
+          "location": "6:100",
+          "meaning": "er ist erhaben",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=100"
+        },
+        {
+          "word": "ٱلْمُتَعَالِ",
+          "location": "13:9",
+          "meaning": "der Erhabene",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=9"
+        },
+        {
+          "word": "تَعَالَوْا",
+          "location": "3:61",
+          "meaning": "kommt! (Imperativ)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=61"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=100"
+    },
+    {
+      "weakType": "defective_waw",
+      "form": "III",
+      "root": "ن د و",
+      "meaning": "rufen",
+      "perfect3ms": "نَادَى",
+      "imperfect3ms": "يُنَادِي",
+      "imperative2ms": "نَادِ",
+      "activeParticiple": "مُنَادٍ",
+      "passiveParticiple": "مُنَادًى",
+      "masdar": "مُنَادَاة / نِدَاء",
+      "quranicExamples": [
+        {
+          "word": "نَادَى",
+          "location": "3:39",
+          "meaning": "er rief",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+        },
+        {
+          "word": "يُنَادِي",
+          "location": "7:44",
+          "meaning": "er ruft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=44"
+        },
+        {
+          "word": "مُنَادِيًا",
+          "location": "3:193",
+          "meaning": "einen Rufenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=193"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+}

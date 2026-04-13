@@ -1,0 +1,934 @@
+[
+  {
+    "id": "S12.1",
+    "title": "Sūra Yūsuf: Einleitung und Traum (12:1–6)",
+    "description": "Die Eröffnung von Sūra Yūsuf enthält die isolierten Buchstaben الر, den Hinweis auf die Herabsendung als arabischen Quran und Yūsufs Traum. Syntaktisch zentral: إِنَّ-Sätze, Ḥāl-Konstruktionen und der Verbalsatz mit إِذْ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 12:1 — الر  تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ",
+          "content": "Der Vers beginnt mit den isolierten Buchstaben الر (Alif-Lām-Rāʼ). Diese Buchstaben sind syntaktisch nicht in den Satz eingebunden — sie stehen als eigenständige Einheit.\n\nDer eigentliche Satz ist ein Nominalsatz:\n- تِلْكَ = Demonstrativpronomen (jene), Mubtadaʼ\n- آيَاتُ = Khabar, im Nominativ (Ḍamma), erstes Glied einer Iḍāfa\n- الْكِتَابِ = Muḍāf ilayhi, im Genitiv (Kasra)\n- الْمُبِينِ = Ṣifa (Adjektiv) zu الْكِتَاب, kongruent im Genitiv, Bestimmtheit und Numerus\n\nDie Iḍāfa آيَاتُ الْكِتَابِ bedeutet 'Zeichen/Verse des Buches'. Das Adjektiv الْمُبِينِ bezieht sich auf الْكِتَاب (nicht auf آيَات), da es im Singular Maskulin Genitiv steht.",
+          "arabicExamples": [
+            {
+              "arabic": "تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ",
+              "transliteration": "tilka āyātu l-kitābi l-mubīni",
+              "meaning": "Jene sind die Zeichen des deutlichen Buches"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:2 — إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ",
+          "content": "Dieser Vers demonstriert mehrere zentrale Konstruktionen:\n\n1. إِنَّا = إِنَّ + نَا: Die Partikel إِنَّ mit dem angehängten Pronomen نَا als Ism von إِنَّ (Akkusativ). Das Khabar von إِنَّ ist der gesamte Verbalsatz أَنزَلْنَاهُ.\n\n2. أَنزَلْنَاهُ: Verb im Perfekt (IV. Stamm von ن-ز-ل), 1. Person Plural + Objektsuffix هُ. Das Verb bildet den Khabar-Satz von إِنَّ.\n\n3. قُرْآنًا عَرَبِيًّا: Beide stehen im Akkusativ (Tanwīn auf Fatḥa). Die syntaktische Funktion ist Ḥāl (Zustandsakkusativ) — 'als arabischen Quran'. Alternative Analyse: Tamyīz oder zweites Objekt. Der Ḥāl beschreibt den Zustand des Objekts هُ zum Zeitpunkt der Handlung.\n\n4. لَّعَلَّكُمْ تَعْقِلُونَ: لَعَلَّ ist eine Schwester von إِنَّ. كُمْ = Ism von لَعَلَّ (Akkusativ). تَعْقِلُونَ = Khabar von لَعَلَّ (Verbalsatz). Bedeutung: 'auf dass ihr versteht'.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا",
+              "transliteration": "innā anzalnāhu qurʾānan ʿarabiyyan",
+              "meaning": "Wir haben ihn als arabischen Quran herabgesandt"
+            },
+            {
+              "arabic": "لَّعَلَّكُمْ تَعْقِلُونَ",
+              "transliteration": "laʿallakum taʿqilūna",
+              "meaning": "Auf dass ihr versteht"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Wort-für-Wort-Iʿrāb: Vers 12:2",
+          "steps": [
+            "إِنَّ — Bestätigungspartikel, leitet einen Nominalsatz ein, regiert Akkusativ auf ihr Ism",
+            "ـنَا — Angehängtes Pronomen (1. Pers. Pl.), Ism von إِنَّ, in der Stelle des Akkusativs (maḥall naṣb)",
+            "أَنزَلْنَا — Verb Perfekt, IV. Stamm (أَفْعَلَ) von ن-ز-ل, 1. Pers. Pl. — Khabar von إِنَّ (Verbalsatz)",
+            "ـهُ — Angehängtes Pronomen (3. Pers. Sg. Mask.), Mafʿūl bihi (direktes Objekt), in der Stelle des Akkusativs",
+            "قُرْآنًا — Ḥāl (Zustandsakkusativ), Akkusativ mit Tanwīn (ـًا), beschreibt den Zustand des Objekts",
+            "عَرَبِيًّا — Ṣifa (Adjektiv) zu قُرْآنًا, kongruent im Akkusativ mit Tanwīn",
+            "لَعَلَّ — Schwester von إِنَّ, drückt Hoffnung/Erwartung aus",
+            "ـكُمْ — Ism von لَعَلَّ, in der Stelle des Akkusativs",
+            "تَعْقِلُونَ — Verb Imperfekt (Indikativ), 2. Pers. Mask. Pl. — Khabar von لَعَلَّ"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:3 — نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ",
+          "content": "Ein Nominalsatz mit Verbalsatz als Khabar:\n\n- نَحْنُ = Mubtadaʼ (Personalpronomen, 1. Pers. Pl.), Nominativ\n- نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ = Khabar (gesamter Verbalsatz)\n  - نَقُصُّ = Verb Imperfekt (I. Stamm), 1. Pers. Pl., das Subjekt ist verborgen (نَحْنُ)\n  - عَلَيْكَ = Jarr wa-Majrūr (Präposition + Pronominalsuffix)\n  - أَحْسَنَ = Mafʿūl bihi (Objekt), Akkusativ (Fatḥa), diptotisch (Elativ), Muḍāf\n  - الْقَصَصِ = Muḍāf ilayhi, Genitiv (Kasra)\n\nDie Voranstellung des Pronomens نَحْنُ vor das Verb erzeugt Betonung: 'WIR erzählen dir'. Die Iḍāfa أَحْسَنَ الْقَصَصِ bedeutet 'die beste der Erzählungen'.\n\nDer Nachsatz بِمَا أَوْحَيْنَا enthält ein Relativpronomen مَا mit Jarr بِ: 'durch das, was wir offenbarten'.",
+          "arabicExamples": [
+            {
+              "arabic": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ",
+              "transliteration": "naḥnu naquṣṣu ʿalayka aḥsana l-qaṣaṣi",
+              "meaning": "Wir erzählen dir die beste der Erzählungen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:4 — إِذْ قَالَ يُوسُفُ لِأَبِيهِ",
+          "content": "Hier beginnt die Erzählung mit einem Temporaladverb:\n\n- إِذْ = Temporalpartikel ('als'), leitet den Zeitbezug ein. Syntaktisch Ẓarf zamān (Zeitadverb), im Genitiv nach impliziter Rektion oder als Badal zu einem angenommenen Zeitpunkt.\n- قَالَ = Verb Perfekt, 3. Pers. Sg. Mask.\n- يُوسُفُ = Fāʿil (Subjekt), Nominativ. Diptotisch (ausländischer Eigenname), daher Ḍamma ohne Tanwīn.\n- لِأَبِيهِ = Jarr wa-Majrūr: لِ (Präposition) + أَبِ (Vater) + هِ (Pronominalsuffix). أَبِ gehört zu den fünf Sondernomen (الأَسْمَاء الخَمْسَة) — der Genitiv wird durch langes ī angezeigt: أَبِيهِ.\n\nDie direkte Rede folgt: يَا أَبَتِ — Vokativ mit يَا. أَبَتِ ist eine Vokativform von أَب mit der Endung ـتِ (anstelle von ـي für 'mein').\n\nDer Trauminhalt: إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا — إِنَّ-Satz mit Verbalsatz als Khabar. أَحَدَ عَشَرَ ist ein zusammengesetztes Zahlwort (11), unveränderlich auf Fatḥa. كَوْكَبًا = Tamyīz (Spezifikationsakkusativ im Singular).",
+          "arabicExamples": [
+            {
+              "arabic": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَا أَبَتِ",
+              "transliteration": "idh qāla yūsufu li-abīhi yā abati",
+              "meaning": "Als Yūsuf zu seinem Vater sagte: O mein Vater"
+            },
+            {
+              "arabic": "إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+              "transliteration": "innī raʾaytu aḥada ʿashara kawkaban",
+              "meaning": "Ich sah elf Sterne"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:5 — قَالَ يَا بُنَيَّ لَا تَقْصُصْ رُؤْيَاكَ عَلَىٰ إِخْوَتِكَ",
+          "content": "Der Vater antwortet mit einem Imperativverbot:\n\n- يَا بُنَيَّ = Vokativ. بُنَيَّ ist die Diminutivform (Taṣghīr) von ابْن + ي (mein). Die Diminutivform drückt hier Zärtlichkeit aus.\n- لَا تَقْصُصْ = Negierter Imperativ (Nahy). لَا + Jussiv (Jazm) des Imperfekts. تَقْصُصْ steht im Jussiv (Sukūn auf dem letzten Radikal).\n- رُؤْيَاكَ = Mafʿūl bihi (Objekt), Akkusativ. Endung nicht sichtbar, da das Wort auf Alif maqṣūra endet (unflektierbar). كَ = Pronominalsuffix (dein).\n- عَلَىٰ إِخْوَتِكَ = Jarr wa-Majrūr. إِخْوَة ist ein gebrochener Plural von أَخ (Bruder).\n\nDer Nebensatz فَيَكِيدُوا لَكَ كَيْدًا enthält:\n- فَ = Kausalkonjunktion ('sonst, dann')\n- يَكِيدُوا = Verb Imperfekt im Subjunktiv (Naṣb) nach فَ des Grundes (فاء السببية). Anzeichen: Wegfall des نَ.\n- كَيْدًا = Mafʿūl muṭlaq (absoluter Akkusativ), verstärkt die Verbalhandlung.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا تَقْصُصْ رُؤْيَاكَ عَلَىٰ إِخْوَتِكَ",
+              "transliteration": "lā taqṣuṣ ruʾyāka ʿalā ikhwatika",
+              "meaning": "Erzähle deinen Traum nicht deinen Brüdern"
+            },
+            {
+              "arabic": "فَيَكِيدُوا لَكَ كَيْدًا",
+              "transliteration": "fa-yakīdū laka kaydan",
+              "meaning": "Sonst schmieden sie einen Plan gegen dich"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:6 — وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ الْأَحَادِيثِ",
+          "content": "Komplexer Verbalsatz mit vorangestelltem Adverbial:\n\n- وَكَذَٰلِكَ = Wāw + كَ (Vergleichspartikel 'wie') + ذَٰلِكَ (jenes). Präpositionaladverb, vorangestellt: 'Und so/ebenso'.\n- يَجْتَبِيكَ = Verb Imperfekt, VIII. Stamm von ج-ب-ي (erwählen). كَ = Objektsuffix.\n- رَبُّكَ = Fāʿil (Subjekt), Nominativ (Ḍamma). Iḍāfa mit Pronominalsuffix.\n- وَيُعَلِّمُكَ = Konjunktion + Verb Imperfekt, II. Stamm von ع-ل-م (lehren). كَ = Objektsuffix.\n- مِن تَأْوِيلِ الْأَحَادِيثِ = Jarr wa-Majrūr + Iḍāfa. Partitives مِن: 'von der Deutung der Erzählungen/Ereignisse'.\n\nDer Vers enthält eine Ketten-Iḍāfa: تَأْوِيلِ الْأَحَادِيثِ. Das zweite وَيُتِمُّ نِعْمَتَهُ führt ein weiteres koordiniertes Verb ein mit نِعْمَة als Objekt + Pronominalsuffix.",
+          "arabicExamples": [
+            {
+              "arabic": "يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ الْأَحَادِيثِ",
+              "transliteration": "yajtabīka rabbuka wa-yuʿallimuka min taʾwīli l-aḥādīthi",
+              "meaning": "Dein Herr erwählt dich und lehrt dich von der Deutung der Ereignisse"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Syntaktische Übersicht: Verse 12:1–6",
+          "examples": [
+            {
+              "location": "12:1",
+              "word": "تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ",
+              "analysis": "Nominalsatz: تِلْكَ = Mubtadaʼ (Demonstrativpronomen). آيَاتُ الْكِتَابِ = Khabar (Iḍāfa, Nominativ). الْمُبِينِ = Ṣifa zu الْكِتَاب im Genitiv.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=1"
+            },
+            {
+              "location": "12:2",
+              "word": "إِنَّآ أَنزَلْنَٰهُ قُرْءَٰنًا عَرَبِيًّا",
+              "analysis": "إِنَّ-Satz: نَا = Ism von إِنَّ (Akk.). أَنزَلْنَاهُ = Khabar (Verbalsatz). قُرْآنًا = Ḥāl (Zustandsakkusativ). عَرَبِيًّا = Ṣifa zu قُرْآنًا (Akk.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=2"
+            },
+            {
+              "location": "12:4",
+              "word": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+              "analysis": "Verbalsatz mit إِذْ: قَالَ = Verb (Perfekt). يُوسُفُ = Fāʿil (Nom., diptotisch). لِأَبِيهِ = Jarr wa-Majrūr (أَب: Sondernomen). أَحَدَ عَشَرَ = zusammengesetztes Zahlwort (mabni auf Fatḥa). كَوْكَبًا = Tamyīz (Akk.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+            },
+            {
+              "location": "12:5",
+              "word": "لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ",
+              "analysis": "Negierter Imperativ: لَا + Jussiv (تَقْصُصْ, Sukūn). رُؤْيَاكَ = Mafʿūl bihi (unflektierbar, Alif maqṣūra). عَلَىٰ إِخْوَتِكَ = Jarr wa-Majrūr.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=5"
+            },
+            {
+              "location": "12:6",
+              "word": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ",
+              "analysis": "Verbalsatz mit vorangestelltem Adverbial: كَذَٰلِكَ = adverbiale Bestimmung. يَجْتَبِيكَ = Verb (VIII. Stamm, Imperfekt) + Objektsuffix. رَبُّكَ = Fāʿil (Nom., Iḍāfa).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=6"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche syntaktische Funktion hat قُرْآنًا in إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا (12:2)?",
+          "options": [
+            "Mafʿūl bihi (direktes Objekt)",
+            "Ḥāl (Zustandsakkusativ)",
+            "Mubtadaʼ (Subjekt)",
+            "Tamyīz (Spezifikation)"
+          ],
+          "answer": "Ḥāl (Zustandsakkusativ)",
+          "explanation": "قُرْآنًا steht im Akkusativ als Ḥāl — es beschreibt den Zustand des Objekts هُ zum Zeitpunkt der Herabsendung: 'als arabischen Quran'. Das direkte Objekt ist bereits durch هُ ausgedrückt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=2"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme die Satzteile in تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ (12:1): Was ist Mubtadaʼ, was ist Khabar?",
+          "word": "تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ",
+          "answer": "Mubtadaʼ: تِلْكَ (Demonstrativpronomen). Khabar: آيَاتُ الْكِتَابِ (Iḍāfa im Nominativ). الْمُبِينِ = Ṣifa zu الْكِتَاب (Genitiv).",
+          "hint": "Der Satz beginnt mit einem Demonstrativpronomen. Was folgt als Prädikat?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=1"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht كَوْكَبًا in أَحَدَ عَشَرَ كَوْكَبًا (12:4) im Singular und Akkusativ?",
+          "options": [
+            "Weil es das Subjekt ist",
+            "Weil es Tamyīz (Spezifikation) nach einem Zahlwort ist",
+            "Weil es Ṣifa (Adjektiv) zu عَشَرَ ist",
+            "Weil es Muḍāf ilayhi ist"
+          ],
+          "answer": "Weil es Tamyīz (Spezifikation) nach einem Zahlwort ist",
+          "explanation": "Nach zusammengesetzten Zahlwörtern (11–99) steht das gezählte Nomen als Tamyīz im Akkusativ Singular: أَحَدَ عَشَرَ كَوْكَبًا = 'elf Sterne' (wörtlich: 'elf an Stern').",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Verbalsatz: لَا تَقْصُصْ رُؤْيَاكَ عَلَىٰ إِخْوَتِكَ (12:5). Bestimme Verbmodus, Objekt und die präpositionale Ergänzung.",
+          "word": "لَا تَقْصُصْ رُؤْيَاكَ عَلَىٰ إِخْوَتِكَ",
+          "answer": "لَا تَقْصُصْ = negierter Imperativ (Nahy), Verb im Jussiv (Sukūn). رُؤْيَاكَ = Mafʿūl bihi (Objekt), unflektierbar (Alif maqṣūra) + Possessivsuffix. عَلَىٰ إِخْوَتِكَ = Jarr wa-Majrūr (Präposition + gebrochener Plural von أَخ + Possessivsuffix).",
+          "hint": "Achte auf die Endung von تَقْصُصْ — welcher Modus ist das?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=5"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-30, §81-100",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.1",
+      "3.2",
+      "3.3"
+    ]
+  },
+  {
+    "id": "S12.2",
+    "title": "Die Verschwörung der Brüder (12:7–14)",
+    "description": "Die Brüder beklagen Yūsufs bevorzugte Stellung und schmieden einen Plan. Syntaktisch zentral: لَقَدْ كَانَ mit Ism und Khabar, إِذْ قَالُوا-Konstruktionen, Imperativsätze und Konditionalsätze.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 12:7 — لَّقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِّلسَّائِلِينَ",
+          "content": "Schwursatz mit لَقَدْ + كَانَ-Satz:\n\n- لَـ = Lām des Schwurs (لام القسم), bestätigt die Aussage\n- قَدْ = Partikel der Bekräftigung/Realisierung vor Perfektverb\n- كَانَ = Verb (Schwester von كَانَ), verlangt Ism (Nom.) und Khabar (Akk.)\n- فِي يُوسُفَ وَإِخْوَتِهِ = Khabar von كَانَ (vorangestellt als Jarr wa-Majrūr). يُوسُفَ steht im Genitiv, aber da diptotisch mit Fatḥa statt Kasra.\n- آيَاتٌ = Ism von كَانَ (nachgestellt), Nominativ mit Tanwīn\n- لِّلسَّائِلِينَ = Jarr wa-Majrūr, Ṣifa zu آيَات oder zweites Khabar\n\nDie Voranstellung des Khabar فِي يُوسُفَ vor das Ism آيَاتٌ ist hier obligatorisch, da das Ism unbestimmt ist — im Arabischen darf ein unbestimmtes Mubtadaʼ/Ism nicht am Satzanfang stehen, wenn das Khabar ein Präpositionalausdruck ist.",
+          "arabicExamples": [
+            {
+              "arabic": "لَّقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِّلسَّائِلِينَ",
+              "transliteration": "la-qad kāna fī yūsufa wa-ikhwatihi āyātun li-s-sāʾilīna",
+              "meaning": "Wahrlich, in Yūsuf und seinen Brüdern waren Zeichen für die Fragenden"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:8 — إِذْ قَالُوا لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا",
+          "content": "Temporalsatz mit eingebettetem Nominalsatz:\n\n- إِذْ قَالُوا = Temporaladverb + Verb Perfekt (3. Pers. Mask. Pl.)\n- لَـ = Lām der Betonung (لام الابتداء)\n- يُوسُفُ = Mubtadaʼ (Nominativ, diptotisch mit Ḍamma)\n- وَأَخُوهُ = Maʿṭūf (koordiniert) auf يُوسُف, Nominativ. أَخُو ist ein Sondernomen — der Nominativ wird durch langes ū angezeigt: أَخُوهُ.\n- أَحَبُّ = Khabar (Elativ, 'geliebter'), Nominativ. Diptotisch, daher ohne Tanwīn.\n- إِلَىٰ أَبِينَا = Jarr wa-Majrūr. أَبِينَا: Sondernomen im Genitiv (Yāʼ) + Pronominalsuffix نَا.\n- مِنَّا = Jarr wa-Majrūr (Vergleichspräposition مِن + Pronominalsuffix)\n\nDer gesamte Nominalsatz يُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا ist Maqūl al-Qawl (direkte Rede nach قَالُوا).",
+          "arabicExamples": [
+            {
+              "arabic": "لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا",
+              "transliteration": "la-yūsufu wa-akhūhu aḥabbu ilā abīnā minnā",
+              "meaning": "Yūsuf und sein Bruder sind unserem Vater lieber als wir"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:9 — اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا",
+          "content": "Imperativsätze mit Koordination:\n\n- اقْتُلُوا = Imperativ, 2. Pers. Mask. Pl. vom I. Stamm ق-ت-ل. Der Hamzat al-Waṣl (ا) fällt in der Verbindung weg.\n- يُوسُفَ = Mafʿūl bihi (Objekt), Akkusativ. Diptotisch, daher Fatḥa ohne Tanwīn.\n- أَوِ = Disjunktive Konjunktion ('oder')\n- اطْرَحُوهُ = Imperativ, 2. Pers. Mask. Pl. vom I. Stamm ط-ر-ح + Objektsuffix هُ\n- أَرْضًا = Ẓarf makān (Ortsadverb) im Akkusativ mit Tanwīn, oder Mafʿūl fīhi — 'in ein Land'\n\nDer Nachsatz يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ ist eine Apodosis:\n- يَخْلُ = Verb Imperfekt im Jussiv (Jazm) als Jawāb aṭ-Ṭalab (Antwort auf den Imperativ). Das finale Wāw fällt im Jussiv weg (يَخْلُو → يَخْلُ).\n- وَجْهُ أَبِيكُمْ = Fāʿil (Subjekt), Nominativ, Ketten-Iḍāfa: 'das Angesicht eures Vaters'.",
+          "arabicExamples": [
+            {
+              "arabic": "اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا",
+              "transliteration": "uqtulū yūsufa awi ṭraḥūhu arḍan",
+              "meaning": "Tötet Yūsuf oder werft ihn in ein Land"
+            },
+            {
+              "arabic": "يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ",
+              "transliteration": "yakhlu lakum wajhu abīkum",
+              "meaning": "Dann wird euch das Angesicht eures Vaters frei"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:10 — قَالَ قَائِلٌ مِّنْهُمْ لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ",
+          "content": "Verbalsatz mit unbestimmtem Subjekt und zwei Imperativsätzen:\n\n- قَالَ = Verb Perfekt\n- قَائِلٌ = Fāʿil (Subjekt), Nominativ mit Tanwīn. Partizip Aktiv vom I. Stamm (fāʿil-Muster). Unbestimmt: 'ein Sprecher'.\n- مِّنْهُمْ = Jarr wa-Majrūr, Ṣifa (Adjektivsatz) zu قَائِل: 'einer von ihnen'\n\n- لَا تَقْتُلُوا = Negierter Imperativ (Nahy). لَا + Jussiv. Das Verb verliert sein نَ im Jussiv.\n- وَأَلْقُوهُ = Positiver Imperativ + Objektsuffix: 'und werft ihn'\n- فِي غَيَابَتِ الْجُبِّ = Jarr wa-Majrūr + Iḍāfa: 'in den Grund des Brunnens'\n\nDer Nachsatz يَلْتَقِطْهُ بَعْضُ السَّيَّارَةِ enthält einen Jussiv als Jawāb aṭ-Ṭalab:\n- يَلْتَقِطْهُ = VIII. Stamm von ل-ق-ط, Jussiv (Sukūn) + Objektsuffix\n- بَعْضُ السَّيَّارَةِ = Fāʿil (Nominativ), Iḍāfa: 'einige der Reisenden'",
+          "arabicExamples": [
+            {
+              "arabic": "لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ",
+              "transliteration": "lā taqtulū yūsufa wa-alqūhu fī ghayābati l-jubbi",
+              "meaning": "Tötet Yūsuf nicht, sondern werft ihn in den Grund des Brunnens"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Verse 12:11–12 — Die Bitte an den Vater",
+          "content": "Vers 12:11: قَالُوا يَا أَبَانَا مَا لَكَ لَا تَأْمَنَّا عَلَىٰ يُوسُفَ\n\n- يَا أَبَانَا = Vokativ. أَبَانَا: Sondernomen im Akkusativ (als Munādā manṣūb) — Alif zeigt den Akkusativ: أَبَا + نَا.\n- مَا لَكَ = Interrogativsatz: مَا (was) + لَكَ (dir). Wörtlich: 'Was ist mit dir?'\n- لَا تَأْمَنَّا = لَا تَأْمَنُنَا → Idghām: Die zwei Nūn verschmelzen. Ḥāl-Satz (Zustandssatz) zu كَ: 'dass du uns nicht vertraust'.\n\nVers 12:12: أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ\n\n- أَرْسِلْهُ = Imperativ (IV. Stamm von ر-س-ل) + Objektsuffix\n- مَعَنَا = Ẓarf (Ortsadverb) + Pronominalsuffix\n- غَدًا = Ẓarf zamān (Zeitadverb), Akkusativ mit Tanwīn: 'morgen'\n- يَرْتَعْ وَيَلْعَبْ = Zwei Verben im Jussiv als Jawāb aṭ-Ṭalab (Antwort auf den Imperativ). يَرْتَعْ (VIII. Stamm von ر-ت-ع) und يَلْعَبْ (I. Stamm). Beide mit Sukūn.",
+          "arabicExamples": [
+            {
+              "arabic": "مَا لَكَ لَا تَأْمَنَّا عَلَىٰ يُوسُفَ",
+              "transliteration": "mā laka lā taʾmannā ʿalā yūsufa",
+              "meaning": "Was ist mit dir, dass du uns nicht Yūsuf anvertraust?"
+            },
+            {
+              "arabic": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ",
+              "transliteration": "arsilhu maʿanā ghadan yartaʿ wa-yalʿab",
+              "meaning": "Schicke ihn morgen mit uns, er soll spielen und sich vergnügen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Verse 12:13–14 — Die Bedenken des Vaters",
+          "content": "Vers 12:13: قَالَ إِنِّي لَيَحْزُنُنِي أَن تَذْهَبُوا بِهِ وَأَخَافُ أَن يَأْكُلَهُ الذِّئْبُ\n\n- إِنِّي = إِنَّ + ي: Bestätigungspartikel + Pronominalsuffix als Ism (Akk.)\n- لَـ = Lām al-Ibtidāʼ (Betonungslām), steht im Khabar von إِنَّ\n- يَحْزُنُنِي = Verb Imperfekt + Objektsuffix نِي: 'es betrübt mich'. Khabar von إِنَّ.\n- أَن تَذْهَبُوا = أَنْ + Subjunktiv (Naṣb). أَن + Verb bildet ein Maṣdar muʾawwal (interpretierter Infinitiv), das als Fāʿil (Subjekt) von يَحْزُنُنِي fungiert.\n- أَن يَأْكُلَهُ الذِّئْبُ = Weiterer Maṣdar muʾawwal als Mafʿūl bihi von أَخَافُ.\n\nVers 12:14: قَالُوا لَئِنْ أَكَلَهُ الذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّا إِذًا لَّخَاسِرُونَ\n\n- لَئِنْ = لَ (Schwur-Lām) + إِنْ (Konditionspartikel): 'Wenn wahrlich'\n- أَكَلَهُ الذِّئْبُ = Protasis (Bedingungssatz): Verb Perfekt + Objekt + Fāʿil\n- وَنَحْنُ عُصْبَةٌ = Ḥāl-Satz (Zustandssatz): Nominalsatz als Ḥāl, wāw al-ḥāl: 'während wir eine Gruppe sind'\n- إِنَّا إِذًا لَّخَاسِرُونَ = Apodosis (Jawāb): إِنَّ + Pronomen + إِذًا (dann) + لَـ (Bestätigungslām) + Khabar (خَاسِرُونَ, Nominativ als gesunder Mask. Pl.)",
+          "arabicExamples": [
+            {
+              "arabic": "إِنِّي لَيَحْزُنُنِي أَن تَذْهَبُوا بِهِ",
+              "transliteration": "innī la-yaḥzununī an tadh'habū bihi",
+              "meaning": "Es betrübt mich wahrlich, dass ihr mit ihm weggeht"
+            },
+            {
+              "arabic": "لَئِنْ أَكَلَهُ الذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّا إِذًا لَّخَاسِرُونَ",
+              "transliteration": "la-in akalahu dh-dhiʾbu wa-naḥnu ʿuṣbatun innā idhan la-khāsirūna",
+              "meaning": "Wenn ihn der Wolf frisst, während wir eine Gruppe sind, dann sind wir wahrlich Verlierer"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Syntaktische Übersicht: Verse 12:7–14",
+          "examples": [
+            {
+              "location": "12:7",
+              "word": "لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِٓ ءَايَٰتٌ",
+              "analysis": "كَانَ-Satz: آيَاتٌ = Ism (Nom., nachgestellt weil unbestimmt). فِي يُوسُفَ = Khabar (vorangestellt, Jarr wa-Majrūr). يُوسُفَ diptotisch: Genitiv mit Fatḥa.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=7"
+            },
+            {
+              "location": "12:8",
+              "word": "لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا",
+              "analysis": "Nominalsatz: يُوسُفُ وَأَخُوهُ = Mubtadaʼ (Nom.). أَخُوهُ = Sondernomen, Nom. mit Wāw. أَحَبُّ = Khabar (Elativ, diptotisch). Komparativ-Konstruktion mit إِلَىٰ und مِن.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=8"
+            },
+            {
+              "location": "12:9",
+              "word": "ٱقْتُلُوا يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ",
+              "analysis": "Imperativ + Jawāb aṭ-Ṭalab: اقْتُلُوا = Imperativ. يَخْلُ = Jussiv als Folge des Imperativs (Jawāb). وَجْهُ أَبِيكُمْ = Fāʿil, Ketten-Iḍāfa (Nom.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=9"
+            },
+            {
+              "location": "12:13",
+              "word": "إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا بِهِ",
+              "analysis": "إِنَّ-Satz: ي = Ism (Akk.). لَيَحْزُنُنِي = Khabar mit Lām al-Ibtidāʼ. أَن تَذْهَبُوا = Maṣdar muʾawwal als Fāʿil von يَحْزُنُ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=13"
+            },
+            {
+              "location": "12:14",
+              "word": "لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ",
+              "analysis": "Konditionalsatz mit Schwur: لَـ = Schwur-Lām. إِنْ أَكَلَهُ = Protasis (Bedingung). وَنَحْنُ عُصْبَةٌ = Ḥāl-Satz (Wāw al-Ḥāl + Nominalsatz). إِنَّا إِذًا لَّخَاسِرُونَ = Apodosis.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=14"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht آيَاتٌ in Vers 12:7 NACH dem Khabar فِي يُوسُفَ?",
+          "options": [
+            "Weil es ein Eigenname ist",
+            "Weil das unbestimmte Ism von كَانَ nachgestellt wird, wenn das Khabar ein Präpositionalausdruck ist",
+            "Weil es im Akkusativ steht",
+            "Weil die Wortstellung im Quran frei ist"
+          ],
+          "answer": "Weil das unbestimmte Ism von كَانَ nachgestellt wird, wenn das Khabar ein Präpositionalausdruck ist",
+          "explanation": "Im Arabischen wird ein unbestimmtes Ism/Mubtadaʼ nachgestellt, wenn das Khabar ein Präpositionalausdruck ist. Dies verhindert Verwechslung mit einem Attributsatz. آيَاتٌ (unbestimmt) steht daher nach فِي يُوسُفَ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=7"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welcher Sondernomen-Kasus liegt in أَخُوهُ (12:8) vor und woran erkennt man ihn?",
+          "word": "أَخُوهُ",
+          "answer": "Nominativ (Rafʿ). أَخ gehört zu den الأَسْمَاء الخَمْسَة (fünf Sondernomen). Der Nominativ wird durch langes ū angezeigt: أَخُو. Im Akkusativ wäre es أَخَاهُ, im Genitiv أَخِيهِ.",
+          "hint": "Welcher Endvokal steht vor dem Pronominalsuffix?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=8"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die syntaktische Funktion von أَن تَذْهَبُوا بِهِ in Vers 12:13?",
+          "options": [
+            "Mafʿūl bihi (direktes Objekt) von يَحْزُنُ",
+            "Fāʿil (Subjekt) von يَحْزُنُ — als Maṣdar muʾawwal",
+            "Khabar von إِنَّ",
+            "Ḥāl (Zustandsakkusativ)"
+          ],
+          "answer": "Fāʿil (Subjekt) von يَحْزُنُ — als Maṣdar muʾawwal",
+          "explanation": "أَنْ + Subjunktiv bildet ein Maṣdar muʾawwal (interpretierter Infinitiv): 'eur Weggehen mit ihm'. Dieses fungiert als Fāʿil (Subjekt) des Verbs يَحْزُنُنِي: 'Eur Weggehen betrübt mich'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=13"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Struktur von وَنَحْنُ عُصْبَةٌ in Vers 12:14. Welche syntaktische Funktion hat dieser Teilsatz?",
+          "word": "وَنَحْنُ عُصْبَةٌ",
+          "answer": "Ḥāl-Satz (Zustandssatz). وَ = Wāw al-Ḥāl (Zustandswāw). نَحْنُ = Mubtadaʼ (Pronomen, Nom.). عُصْبَةٌ = Khabar (Nom. mit Tanwīn). Der gesamte Nominalsatz ist Ḥāl und beschreibt den Zustand der Brüder: 'während wir eine Gruppe sind'.",
+          "hint": "Welche Funktion hat وَ vor einem Nominalsatz innerhalb eines Konditionalsatzes?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=14"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §101-130",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "3.5",
+      "S12.1"
+    ]
+  },
+  {
+    "id": "S12.3",
+    "title": "Brunnen, falsches Blut und Verkauf (12:15–20)",
+    "description": "Die Brüder werfen Yūsuf in den Brunnen, bringen dem Vater ein falsches Hemd und Yūsuf wird von einer Karawane gefunden und verkauft. Syntaktisch zentral: فَلَمَّا-Temporalsätze, وَجَاءُوا-Koordination und بَخْسٍ als Ṣifa.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 12:15 — فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوا أَن يَجْعَلُوهُ فِي غَيَابَتِ الْجُبِّ",
+          "content": "Der فَلَمَّا-Temporalsatz ist eine der häufigsten narrativen Strukturen im Quran:\n\n- فَـ = Fa al-ʿāṭifa (Konjunktion, markiert zeitliche Abfolge in der Erzählung)\n- لَمَّا = Temporalpartikel ('als'), verlangt ein Perfektverb und eine Apodosis\n- ذَهَبُوا = Verb Perfekt, 3. Pers. Mask. Pl.\n- بِهِ = Jarr wa-Majrūr (mit ihm)\n- وَأَجْمَعُوا = Koordiniertes Verb Perfekt, IV. Stamm von ج-م-ع ('sie beschlossen einmütig')\n- أَن يَجْعَلُوهُ = Maṣdar muʾawwal: أَن + Subjunktiv als Mafʿūl bihi von أَجْمَعُوا\n- فِي غَيَابَتِ الْجُبِّ = Jarr wa-Majrūr + Iḍāfa: 'in den Grund des Brunnens'\n\nDie Apodosis (Jawāb لَمَّا) folgt: وَأَوْحَيْنَا إِلَيْهِ — 'offenbarten Wir ihm'. Das وَ hier ist die Wāw der Apodosis.\n\nDer Nachsatz لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ enthält:\n- لَـ = Schwur-Lām\n- تُنَبِّئَنَّ = Verb Imperfekt (II. Stamm) + schweres Energetikus-Nūn (نون التوكيد الثقيلة)\n- هُم = Objektsuffix",
+          "arabicExamples": [
+            {
+              "arabic": "فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوا أَن يَجْعَلُوهُ فِي غَيَابَتِ الْجُبِّ",
+              "transliteration": "fa-lammā dhahabū bihi wa-ajmaʿū an yajʿalūhu fī ghayābati l-jubbi",
+              "meaning": "Als sie mit ihm weggingen und beschlossen, ihn in den Grund des Brunnens zu werfen"
+            },
+            {
+              "arabic": "وَأَوْحَيْنَا إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا",
+              "transliteration": "wa-awḥaynā ilayhi la-tunabbiʾannahum bi-amrihim hādhā",
+              "meaning": "Und Wir offenbarten ihm: Du wirst ihnen gewiss von dieser ihrer Sache berichten"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:16–17 — وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
+          "content": "Vers 12:16: Verbalsatz mit doppelter Ḥāl:\n\n- وَجَاءُوا = Verb Perfekt, 3. Pers. Mask. Pl. (Wāw al-Jamāʿa)\n- أَبَاهُمْ = Mafʿūl bihi (Objekt). أَبَا ist das Sondernomen im Akkusativ (Alif) + Pronominalsuffix هُمْ\n- عِشَاءً = Ẓarf zamān (Zeitadverb), Akkusativ mit Tanwīn: 'am Abend'\n- يَبْكُونَ = Ḥāl (Zustandssatz), Verb Imperfekt als Ḥāl: 'weinend' / 'während sie weinten'\n\nVers 12:17: قَالُوا يَا أَبَانَا إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَاعِنَا فَأَكَلَهُ الذِّئْبُ\n\n- نَسْتَبِقُ = Ḥāl (Zustandsverb): 'während wir um die Wette liefen'. X. Stamm von س-ب-ق.\n- وَتَرَكْنَا يُوسُفَ = Verb + Mafʿūl bihi (Objekt, Akk., diptotisch)\n- عِندَ مَتَاعِنَا = Ẓarf makān (Ortsadverb) + Iḍāfa: 'bei unserer Habe'\n- فَأَكَلَهُ الذِّئْبُ = فَ der Abfolge + Verb + Objektsuffix + Fāʿil (Nom.): 'da fraß ihn der Wolf'",
+          "arabicExamples": [
+            {
+              "arabic": "وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
+              "transliteration": "wa-jāʾū abāhum ʿishāʾan yabkūna",
+              "meaning": "Und sie kamen abends zu ihrem Vater, weinend"
+            },
+            {
+              "arabic": "وَتَرَكْنَا يُوسُفَ عِندَ مَتَاعِنَا فَأَكَلَهُ الذِّئْبُ",
+              "transliteration": "wa-taraknā yūsufa ʿinda matāʿinā fa-akalahu dh-dhiʾbu",
+              "meaning": "Und wir ließen Yūsuf bei unserer Habe, da fraß ihn der Wolf"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:18 — وَجَاءُوا عَلَىٰ قَمِيصِهِ بِدَمٍ كَذِبٍ",
+          "content": "Präpositionale Komplexität:\n\n- وَجَاءُوا = Verb Perfekt + Wāw al-Jamāʿa\n- عَلَىٰ قَمِيصِهِ = Jarr wa-Majrūr: 'auf seinem Hemd'. Besondere Konstruktion: جَاءَ عَلَىٰ im Sinne von 'sie brachten (Blut) auf seinem Hemd'.\n- بِدَمٍ = Jarr wa-Majrūr: 'mit Blut'\n- كَذِبٍ = Ṣifa (Adjektiv) zu دَمٍ, kongruent im Genitiv mit Tanwīn: 'falsches Blut' / 'Lügenblut'. Bemerkenswert: كَذِب ist eigentlich ein Maṣdar, hier als Adjektiv verwendet — eine rhetorisch verdichtete Konstruktion.\n\nDie Antwort des Vaters: قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا\n- بَلْ = Korrekturpartikel: 'vielmehr'\n- سَوَّلَتْ = Verb Perfekt, II. Stamm von س-و-ل ('ausschmücken/einflüstern')\n- لَكُمْ = Jarr wa-Majrūr\n- أَنفُسُكُمْ = Fāʿil (Subjekt), Nominativ, Iḍāfa: 'eure Seelen'\n- أَمْرًا = Mafʿūl bihi (Objekt), Akkusativ mit Tanwīn: 'eine Sache'\n\nAbschluss: فَصَبْرٌ جَمِيلٌ — Nominalsatz mit ausgelassenem Mubtadaʼ oder Khabar: '(Mein Weg ist) schöne Geduld' oder 'Schöne Geduld (ist angebracht)'.",
+          "arabicExamples": [
+            {
+              "arabic": "وَجَاءُوا عَلَىٰ قَمِيصِهِ بِدَمٍ كَذِبٍ",
+              "transliteration": "wa-jāʾū ʿalā qamīṣihi bi-damin kadhibin",
+              "meaning": "Und sie brachten auf seinem Hemd falsches Blut"
+            },
+            {
+              "arabic": "بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا فَصَبْرٌ جَمِيلٌ",
+              "transliteration": "bal sawwalat lakum anfusukum amran fa-ṣabrun jamīlun",
+              "meaning": "Vielmehr haben eure Seelen euch etwas ausgeschmückt — schöne Geduld"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:19 — وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُ",
+          "content": "Narrative Kette mit فَ:\n\n- وَجَاءَتْ = Verb Perfekt mit femininem Tāʼ (ت)\n- سَيَّارَةٌ = Fāʿil (Subjekt), Nominativ mit Tanwīn: 'eine Karawane'\n- فَأَرْسَلُوا = فَ der Abfolge + Verb Perfekt: 'da sandten sie'\n- وَارِدَهُمْ = Mafʿūl bihi (Objekt), Akkusativ. Partizip Aktiv von و-ر-د (den Wasserplatz Aufsuchender) + Pronominalsuffix. Iḍāfa.\n- فَأَدْلَىٰ = فَ + Verb Perfekt, IV. Stamm von د-ل-و: 'da ließ er herab'\n- دَلْوَهُ = Mafʿūl bihi (Objekt), Akkusativ + Pronominalsuffix: 'seinen Eimer'\n\nDie Ausrufe: قَالَ يَا بُشْرَىٰ هَٰذَا غُلَامٌ\n- يَا بُشْرَىٰ = Vokativ mit Ausrufcharakter: 'O frohe Botschaft!'\n- هَٰذَا غُلَامٌ = Nominalsatz: Demonstrativpronomen (Mubtadaʼ) + unbestimmtes Nomen (Khabar): 'Dieser (ist) ein Junge'",
+          "arabicExamples": [
+            {
+              "arabic": "وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُ",
+              "transliteration": "wa-jāʾat sayyāratun fa-arsalū wāridahum fa-adlā dalwahu",
+              "meaning": "Und es kam eine Karawane, da sandten sie ihren Wassermann, und er ließ seinen Eimer herab"
+            },
+            {
+              "arabic": "يَا بُشْرَىٰ هَٰذَا غُلَامٌ",
+              "transliteration": "yā bushrā hādhā ghulāmun",
+              "meaning": "O frohe Botschaft! Dieser ist ein Junge!"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:20 — وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ",
+          "content": "Verkaufssatz mit Preisspezifikation:\n\n- وَشَرَوْهُ = Verb Perfekt (شَرَى, I. Stamm, 'verkaufen') + Wāw al-Jamāʿa + Objektsuffix هُ. Bemerkenswert: شَرَى kann sowohl 'kaufen' als auch 'verkaufen' bedeuten — der Kontext entscheidet.\n- بِثَمَنٍ = Jarr wa-Majrūr: 'für einen Preis'. Unbestimmt mit Tanwīn.\n- بَخْسٍ = Ṣifa (Adjektiv) zu ثَمَنٍ, kongruent im Genitiv mit Tanwīn: 'geringen/ungerechten'\n- دَرَاهِمَ = Badal (Apposition) zu ثَمَنٍ oder zweite Spezifikation, Akkusativ. Diptotisch (gebrochener Plural des Fremdworts دِرْهَم), daher Fatḥa ohne Tanwīn.\n- مَعْدُودَةٍ = Ṣifa zu دَرَاهِمَ. Bemerkenswert: Die Ṣifa steht im Genitiv Singular Feminin (مَعْدُودَةٍ), obwohl das Bezugswort ein Plural ist — bei nicht-menschlichen gebrochenen Pluralen steht das Adjektiv im Singular Feminin.\n\nDer Nachsatz: وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ\n- كَانُوا = Verb كَانَ, 3. Pers. Mask. Pl. Wāw al-Jamāʿa = Ism von كَانَ (Nom.)\n- فِيهِ = Jarr wa-Majrūr\n- مِنَ الزَّاهِدِينَ = Khabar von كَانَ (Jarr wa-Majrūr): 'zu den Gleichgültigen gehörend'",
+          "arabicExamples": [
+            {
+              "arabic": "وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ",
+              "transliteration": "wa-sharawhu bi-thamanin bakhsin darāhima maʿdūdatin",
+              "meaning": "Und sie verkauften ihn für einen geringen Preis — abgezählte Dirhams"
+            },
+            {
+              "arabic": "وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ",
+              "transliteration": "wa-kānū fīhi mina z-zāhidīna",
+              "meaning": "Und sie gehörten bezüglich seiner zu den Gleichgültigen"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Syntaktische Übersicht: Verse 12:15–20",
+          "examples": [
+            {
+              "location": "12:15",
+              "word": "فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوٓا أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ",
+              "analysis": "فَلَمَّا-Temporalsatz: لَمَّا + Perfekt als Protasis. أَن يَجْعَلُوهُ = Maṣdar muʾawwal als Objekt von أَجْمَعُوا. Apodosis: وَأَوْحَيْنَا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=15"
+            },
+            {
+              "location": "12:16",
+              "word": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً يَبْكُونَ",
+              "analysis": "Verbalsatz: جَاءُوا = Verb. أَبَاهُمْ = Objekt (Sondernomen, Akk. mit Alif). عِشَاءً = Ẓarf zamān (Akk.). يَبْكُونَ = Ḥāl-Satz (Zustandsverb).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+            },
+            {
+              "location": "12:18",
+              "word": "وَجَآءُو عَلَىٰ قَمِيصِهِ بِدَمٍ كَذِبٍ",
+              "analysis": "عَلَىٰ قَمِيصِهِ = Jarr wa-Majrūr (lokal). بِدَمٍ = Jarr wa-Majrūr (instrumental). كَذِبٍ = Ṣifa (Maṣdar als Adjektiv, Gen.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=18"
+            },
+            {
+              "location": "12:20",
+              "word": "وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَٰهِمَ مَعْدُودَةٍ",
+              "analysis": "شَرَوْهُ = Verb + Objekt. بِثَمَنٍ بَخْسٍ = Jarr wa-Majrūr + Ṣifa. دَرَاهِمَ = Badal (diptotisch, Akk. mit Fatḥa). مَعْدُودَةٍ = Ṣifa, Sg. Fem. für nicht-menschlichen Plural.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=20"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Funktion von لَمَّا in فَلَمَّا ذَهَبُوا بِهِ (12:15)?",
+          "options": [
+            "Negationspartikel",
+            "Temporalpartikel ('als'), verlangt Perfektverb + Apodosis",
+            "Konditionspartikel ('wenn')",
+            "Bekräftigungspartikel"
+          ],
+          "answer": "Temporalpartikel ('als'), verlangt Perfektverb + Apodosis",
+          "explanation": "لَمَّا ist eine Temporalpartikel, die ein Perfektverb als Protasis verlangt und eine Apodosis (Nachsatz) einleitet. Die Struktur ist: لَمَّا + Perfektverb (Protasis) → Apodosis. Hier: 'Als sie mit ihm weggingen → offenbarten Wir ihm'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=15"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche syntaktische Funktion hat يَبْكُونَ in وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ (12:16)?",
+          "word": "يَبْكُونَ",
+          "answer": "Ḥāl (Zustandssatz): Das Verb im Imperfekt beschreibt den Zustand der Handelnden zum Zeitpunkt des Kommens — 'sie kamen weinend'.",
+          "hint": "Was beschreibt das Verb über den Zustand der Subjekte beim Kommen?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht مَعْدُودَةٍ in Vers 12:20 im Singular Feminin, obwohl es sich auf den Plural دَرَاهِمَ bezieht?",
+          "options": [
+            "Es ist ein Grammatikfehler",
+            "Bei nicht-menschlichen gebrochenen Pluralen kongruiert das Adjektiv im Singular Feminin",
+            "Es bezieht sich auf ein anderes Wort",
+            "Der Plural von مَعْدُود ist identisch mit dem Singular Feminin"
+          ],
+          "answer": "Bei nicht-menschlichen gebrochenen Pluralen kongruiert das Adjektiv im Singular Feminin",
+          "explanation": "Gebrochene Plurale nicht-menschlicher Nomen werden im klassischen Arabisch grammatisch als Singular Feminin behandelt. Daher: دَرَاهِمَ مَعْدُودَةٍ (nicht مَعْدُودَاتٍ oder مَعْدُودِينَ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=20"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Iʿrāb-Struktur von بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا (12:18).",
+          "word": "بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا",
+          "answer": "بَلْ = Korrekturpartikel ('vielmehr'). سَوَّلَتْ = Verb Perfekt, II. Stamm, mit femininem Tāʼ (kongruiert mit أَنفُس). لَكُمْ = Jarr wa-Majrūr ('euch'). أَنفُسُكُمْ = Fāʿil (Subjekt), Nominativ (Ḍamma), Iḍāfa mit Pronominalsuffix. أَمْرًا = Mafʿūl bihi (Objekt), Akkusativ mit Tanwīn.",
+          "hint": "Identifiziere zuerst das Verb und sein Subjekt, dann das Objekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=18"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §131-160",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "3.3",
+      "S12.2"
+    ]
+  },
+  {
+    "id": "S12.4",
+    "title": "Ägypten und die Verführung (12:21–25)",
+    "description": "Yūsuf wird in Ägypten aufgenommen, die Frau des Herrn versucht ihn zu verführen, und er flieht. Syntaktisch zentral: Relativsätze als Fāʿil, Mafʿūl-lahu-Konstruktionen, اسْتَبَقَا الْبَابَ und das Hemd als Beweis.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 12:21 — وَقَالَ الَّذِي اشْتَرَاهُ مِن مِّصْرَ لِامْرَأَتِهِ أَكْرِمِي مَثْوَاهُ",
+          "content": "Verbalsatz mit Relativsatz als Subjekt:\n\n- وَقَالَ = Verb Perfekt\n- الَّذِي = Relativpronomen (Maskulin Singular), fungiert als Fāʿil (Subjekt von قَالَ), Nominativ\n- اشْتَرَاهُ = Ṣila (Relativsatz): Verb Perfekt (VIII. Stamm von ش-ر-ي, 'kaufen') + Objektsuffix. Das Rückverweispronomen ist im Verb verborgen (هُوَ).\n- مِن مِّصْرَ = Jarr wa-Majrūr: 'aus Ägypten'. مِصْرَ ist diptotisch (Eigenname, weiblich), Genitiv mit Fatḥa.\n- لِامْرَأَتِهِ = Jarr wa-Majrūr: 'zu seiner Frau'\n- أَكْرِمِي = Imperativ, IV. Stamm von ك-ر-م, 2. Pers. Sg. Fem. Die Feminin-Endung ـِي.\n- مَثْوَاهُ = Mafʿūl bihi (Objekt), Akkusativ (unflektierbar, Alif maqṣūra) + Pronominalsuffix: 'seinen Aufenthaltsort'\n\nDer Nachsatz عَسَىٰ أَن يَنفَعَنَا:\n- عَسَىٰ = Verb der Annäherung (أفعال المقاربة): 'vielleicht'\n- أَن يَنفَعَنَا = Maṣdar muʾawwal als Khabar von عَسَىٰ",
+          "arabicExamples": [
+            {
+              "arabic": "وَقَالَ الَّذِي اشْتَرَاهُ مِن مِّصْرَ لِامْرَأَتِهِ أَكْرِمِي مَثْوَاهُ",
+              "transliteration": "wa-qāla lladhī shtarāhu min miṣra li-mraʾatihi akrimī mathwāhu",
+              "meaning": "Und der, der ihn aus Ägypten kaufte, sagte zu seiner Frau: Ehre seinen Aufenthaltsort"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:22 — وَلَمَّا بَلَغَ أَشُدَّهُ آتَيْنَاهُ حُكْمًا وَعِلْمًا",
+          "content": "Erneut ein فَلَمَّا-Temporalsatz:\n\n- وَلَمَّا = Temporalpartikel\n- بَلَغَ = Verb Perfekt ('erreichen'), Fāʿil verborgen (هُوَ = Yūsuf)\n- أَشُدَّهُ = Mafʿūl bihi (Objekt), Akkusativ + Pronominalsuffix. أَشُدّ bedeutet 'Vollkraft/Reife'.\n\nApodosis: آتَيْنَاهُ حُكْمًا وَعِلْمًا\n- آتَيْنَاهُ = Verb Perfekt, IV. Stamm von أ-ت-ي (geben), 1. Pers. Pl. + doppeltes Objekt. هُ = erstes Mafʿūl bihi (ihm).\n- حُكْمًا = Zweites Mafʿūl bihi, Akkusativ mit Tanwīn: 'Urteilskraft'\n- وَعِلْمًا = Maʿṭūf (koordiniert), ebenfalls Akkusativ: 'und Wissen'\n\nDas Verb آتَى nimmt zwei Objekte: 'Wir gaben ihm (1. Objekt) Urteilskraft und Wissen (2. Objekt)'. Dies ist analog zu أَعْطَى.",
+          "arabicExamples": [
+            {
+              "arabic": "وَلَمَّا بَلَغَ أَشُدَّهُ آتَيْنَاهُ حُكْمًا وَعِلْمًا",
+              "transliteration": "wa-lammā balagha ashuddahu ātaynāhu ḥukman wa-ʿilman",
+              "meaning": "Und als er seine Vollkraft erreichte, gaben Wir ihm Urteilskraft und Wissen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:23 — وَرَاوَدَتْهُ الَّتِي هُوَ فِي بَيْتِهَا عَن نَّفْسِهِ",
+          "content": "Dieser Vers enthält einen der syntaktisch interessantesten Konstruktionen der Sūra:\n\n- وَرَاوَدَتْهُ = Verb Perfekt, III. Stamm von ر-و-د ('verführen/bedrängen'), mit femininem Tāʼ + Objektsuffix هُ\n- الَّتِي = Relativpronomen (Feminin Singular), fungiert als Fāʿil (Subjekt), Nominativ\n- هُوَ فِي بَيْتِهَا = Ṣila (Relativsatz): Nominalsatz. هُوَ = Mubtadaʼ. فِي بَيْتِهَا = Khabar (Jarr wa-Majrūr + Iḍāfa). Wörtlich: 'er in ihrem Haus (war)'. Das Rückverweispronomen ist هُوَ.\n- عَن نَّفْسِهِ = Jarr wa-Majrūr: 'von seiner Person / ihn selbst'. Ergänzung zu رَاوَدَ.\n\nBemerkenswert: Das Subjekt ist kein Nomen, sondern ein gesamter Relativsatz. Die Frau wird NICHT beim Namen genannt — sie wird nur durch ihre Relation zu Yūsuf beschrieben: 'diejenige, in deren Haus er war'. Dies ist eine syntaktische Periphrase.\n\nDer Nachsatz: وَغَلَّقَتِ الْأَبْوَابَ وَقَالَتْ هَيْتَ لَكَ\n- غَلَّقَتِ = II. Stamm von غ-ل-ق ('verriegeln'), intensiv/mehrfach\n- الْأَبْوَابَ = Mafʿūl bihi (Objekt), Akkusativ: 'die Türen'\n- هَيْتَ لَكَ = Aufforderungspartikel (اسم فعل), unveränderlich: 'Komm her!' / 'Auf zu dir!'",
+          "arabicExamples": [
+            {
+              "arabic": "وَرَاوَدَتْهُ الَّتِي هُوَ فِي بَيْتِهَا عَن نَّفْسِهِ",
+              "transliteration": "wa-rāwadathu llatī huwa fī baytihā ʿan nafsihi",
+              "meaning": "Und es verführte ihn diejenige, in deren Haus er war, von sich selbst"
+            },
+            {
+              "arabic": "وَغَلَّقَتِ الْأَبْوَابَ وَقَالَتْ هَيْتَ لَكَ",
+              "transliteration": "wa-ghallaqati l-abwāba wa-qālat hayta laka",
+              "meaning": "Und sie verriegelte die Türen und sagte: Komm her!"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Wort-für-Wort-Iʿrāb: Vers 12:23 (Kernsatz)",
+          "steps": [
+            "وَ — Konjunktion (Wāw al-ʿAṭf), verbindet mit dem vorherigen Erzählstrang",
+            "رَاوَدَتْ — Verb Perfekt, III. Stamm (فَاعَلَ) von ر-و-د, 3. Pers. Sg. Fem. (Tāʼ at-Taʾnīth)",
+            "ـهُ — Angehängtes Pronomen (3. Pers. Sg. Mask.), Mafʿūl bihi, in der Stelle des Akkusativs",
+            "الَّتِي — Ism mawṣūl (Relativpronomen, Fem. Sg.), Fāʿil von رَاوَدَتْ, in der Stelle des Nominativs",
+            "هُوَ — Ḍamīr munfaṣil (selbständiges Pronomen), Mubtadaʼ des Relativsatzes (Ṣila)",
+            "فِي — Präposition (Ḥarf jarr)",
+            "بَيْتِ — Majrūr nach فِي (Kasra), Muḍāf",
+            "ـهَا — Muḍāf ilayhi, Pronominalsuffix (3. Pers. Sg. Fem.), Genitiv",
+            "Gesamte Ṣila (هُوَ فِي بَيْتِهَا) = Khabar des Nominalsatzes als Relativsatz → 'diejenige, in deren Haus er (sich befand)'",
+            "عَن — Präposition (Ḥarf jarr)",
+            "نَّفْسِ — Majrūr nach عَن (Kasra), Muḍāf",
+            "ـهِ — Muḍāf ilayhi, Pronominalsuffix (3. Pers. Sg. Mask.), Genitiv"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:24 — وَلَقَدْ هَمَّتْ بِهِ  وَهَمَّ بِهَا لَوْلَا أَن رَّأَىٰ بُرْهَانَ رَبِّهِ",
+          "content": "Schwursatz mit Konditionalsatz:\n\n- وَلَقَدْ = وَ + لَ (Schwur-Lām) + قَدْ (Bekräftigung)\n- هَمَّتْ بِهِ = Verb Perfekt (Fem.) + Jarr wa-Majrūr: 'sie beabsichtigte bezüglich seiner'\n- وَهَمَّ بِهَا = Koordiniert: 'und er beabsichtigte bezüglich ihrer'\n- لَوْلَا = Konditionspartikel (Irrealis): 'wäre nicht / hätte nicht'\n- أَن رَّأَىٰ = Maṣdar muʾawwal: 'dass er sah'. Subjekt der لَوْلَا-Konstruktion.\n- بُرْهَانَ رَبِّهِ = Mafʿūl bihi (Objekt von رَأَىٰ), Akkusativ + Ketten-Iḍāfa: 'den Beweis seines Herrn'\n\nDie لَوْلَا-Konstruktion: لَوْلَا أَن رَأَىٰ بُرْهَانَ رَبِّهِ — der Jawāb (Apodosis) ist hier ausgelassen: 'hätte er den Beweis seines Herrn nicht gesehen (hätte er...)'. Die Auslassung der Apodosis ist ein stilistisches Mittel.",
+          "arabicExamples": [
+            {
+              "arabic": "وَلَقَدْ هَمَّتْ بِهِ  وَهَمَّ بِهَا لَوْلَا أَن رَّأَىٰ بُرْهَانَ رَبِّهِ",
+              "transliteration": "wa-la-qad hammat bihi wa-hamma bihā lawlā an raʾā burhāna rabbihi",
+              "meaning": "Und sie beabsichtigte bezüglich seiner, und er hätte bezüglich ihrer beabsichtigt, hätte er nicht den Beweis seines Herrn gesehen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:25 — وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَى الْبَابِ",
+          "content": "Narrative Kette mit Dual-Formen:\n\n- وَاسْتَبَقَا = Verb Perfekt, X. Stamm von س-ب-ق, Dual (Alif des Duals): 'sie beide liefen um die Wette'\n- الْبَابَ = Mafʿūl bihi (Objekt) oder Ẓarf (Ziel der Bewegung), Akkusativ: 'zur Tür'\n- وَقَدَّتْ = Verb Perfekt, I. Stamm von ق-د-د ('zerreißen'), Fem. Sg.\n- قَمِيصَهُ = Mafʿūl bihi (Objekt), Akkusativ + Pronominalsuffix: 'sein Hemd'\n- مِن دُبُرٍ = Jarr wa-Majrūr: 'von hinten'. Adverbiale Bestimmung.\n- وَأَلْفَيَا = Verb Perfekt, I. Stamm von ل-ف-ي ('antreffen'), Dual\n- سَيِّدَهَا = Mafʿūl bihi (erstes Objekt), Akkusativ + Pronominalsuffix: 'ihren Herrn'\n- لَدَى الْبَابِ = Ẓarf makān + Iḍāfa: 'bei der Tür'\n\nDie direkte Rede der Frau: قَالَتْ مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَن يُسْجَنَ\n- مَا...إِلَّا = Beschränkungsstruktur (ḥaṣr): 'nichts außer'\n- جَزَاءُ = Mubtadaʼ (Nom.), Iḍāfa mit مَنْ\n- مَنْ أَرَادَ = Ism mawṣūl + Ṣila: 'wer beabsichtigte'\n- أَن يُسْجَنَ = Maṣdar muʾawwal als Khabar: 'dass er eingekerkert wird'. Passiv (Mabni lil-Majhūl).",
+          "arabicExamples": [
+            {
+              "arabic": "وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ",
+              "transliteration": "wa-stabaqā l-bāba wa-qaddat qamīṣahu min duburin",
+              "meaning": "Und sie beide liefen zur Tür, und sie zerriss sein Hemd von hinten"
+            },
+            {
+              "arabic": "مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَن يُسْجَنَ",
+              "transliteration": "mā jazāʾu man arāda bi-ahlika sūʾan illā an yusjana",
+              "meaning": "Was ist der Lohn dessen, der deiner Familie Böses wollte, außer dass er eingekerkert wird?"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Syntaktische Übersicht: Verse 12:21–25",
+          "examples": [
+            {
+              "location": "12:21",
+              "word": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِٓ أَكْرِمِى مَثْوَىٰهُ",
+              "analysis": "الَّذِي اشْتَرَاهُ = Relativsatz als Fāʿil (Nom.). مِن مِّصْرَ = Jarr wa-Majrūr (مِصْرَ diptotisch, Gen. mit Fatḥa). أَكْرِمِي = Imperativ Fem. (IV. Stamm).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=21"
+            },
+            {
+              "location": "12:23",
+              "word": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِ",
+              "analysis": "الَّتِي = Relativpronomen als Fāʿil. هُوَ فِي بَيْتِهَا = Ṣila (Nominalsatz als Relativsatz). عَن نَّفْسِهِ = Jarr wa-Majrūr (Ergänzung zu رَاوَدَ).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=23"
+            },
+            {
+              "location": "12:24",
+              "word": "وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ رَبِّهِ",
+              "analysis": "لَوْلَا = Irrealis-Konditionspartikel. أَن رَأَىٰ = Maṣdar muʾawwal als Subjekt. بُرْهَانَ رَبِّهِ = Objekt, Ketten-Iḍāfa (Akk.). Apodosis ausgelassen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+            },
+            {
+              "location": "12:25",
+              "word": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ",
+              "analysis": "اسْتَبَقَا = Dual-Perfekt (X. Stamm). الْبَابَ = Objekt/Richtungsangabe (Akk.). قَدَّتْ = I. Stamm Fem. قَمِيصَهُ = Objekt (Akk.). مِن دُبُرٍ = Jarr wa-Majrūr (adverbial).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=25"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die syntaktische Funktion von الَّتِي in وَرَاوَدَتْهُ الَّتِي هُوَ فِي بَيْتِهَا (12:23)?",
+          "options": [
+            "Mafʿūl bihi (Objekt)",
+            "Ṣifa (Adjektiv) zu einem vorherigen Nomen",
+            "Fāʿil (Subjekt) von رَاوَدَتْ",
+            "Badal (Apposition)"
+          ],
+          "answer": "Fāʿil (Subjekt) von رَاوَدَتْ",
+          "explanation": "Das Relativpronomen الَّتِي fungiert hier als Fāʿil (Subjekt) des Verbs رَاوَدَتْ. Der gesamte Relativsatz 'diejenige, in deren Haus er war' ist das Subjekt. Das هُ am Verb ist das Objekt (ihn).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=23"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere die Dual-Formen in Vers 12:25 und erkläre, worauf sie sich beziehen.",
+          "word": "وَاسْتَبَقَا ... وَأَلْفَيَا",
+          "answer": "اسْتَبَقَا (sie beide liefen um die Wette) und أَلْفَيَا (sie beide trafen an): Beide sind Dual-Perfektformen (Endung ـَا = Alif al-Ithnayni). Sie beziehen sich auf Yūsuf und die Frau.",
+          "hint": "Welche Verbendung zeigt den Dual im Perfekt an?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=25"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bewirkt لَوْلَا in Vers 12:24?",
+          "options": [
+            "Es leitet einen Wunschsatz ein",
+            "Es negiert den vorherigen Satz",
+            "Es leitet einen Irrealis-Konditionalsatz ein ('wäre nicht...')",
+            "Es bekräftigt die Aussage"
+          ],
+          "answer": "Es leitet einen Irrealis-Konditionalsatz ein ('wäre nicht...')",
+          "explanation": "لَوْلَا ist eine Irrealis-Konditionspartikel (Ḥarf Imtināʿ li-Wujūd): 'Wäre nicht, dass er den Beweis seines Herrn sah...'. Die Apodosis ist syntaktisch ausgelassen — aus dem Kontext zu erschließen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=24"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَن يُسْجَنَ (12:25).",
+          "word": "مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَن يُسْجَنَ",
+          "answer": "Beschränkungssatz (Ḥaṣr): مَا = Negation. جَزَاءُ = Mubtadaʼ (Nom.), Muḍāf. مَنْ = Ism mawṣūl, Muḍāf ilayhi. أَرَادَ بِأَهْلِكَ سُوءًا = Ṣila (Relativsatz): Verb + Jarr wa-Majrūr + Objekt (Akk.). إِلَّا = Beschränkungspartikel. أَن يُسْجَنَ = Maṣdar muʾawwal als Khabar. يُسْجَنَ = Passiv (Mabni lil-Majhūl), Subjunktiv.",
+          "hint": "Beachte die مَا...إِلَّا-Struktur und die Passivform des Verbs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=25"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §161-190",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "3.4",
+      "S12.3"
+    ]
+  },
+  {
+    "id": "S12.5",
+    "title": "Das Hemd als Beweis und die Frauen der Stadt (12:26–30)",
+    "description": "Ein Zeuge schlägt den Hemd-Test vor, Yūsuf wird freigesprochen, und die Frauen der Stadt kommentieren das Geschehen. Syntaktisch zentral: إِنْ كَانَ-Konditionalsätze, شَهِدَ شَاهِدٌ und مَا عَلِمْنَا-Konstruktionen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 12:26 — قَالَ هِيَ رَاوَدَتْنِي عَن نَّفْسِي",
+          "content": "Yūsufs Verteidigung — einfacher Nominalsatz mit Verbalsatz als Khabar:\n\n- قَالَ = Verb Perfekt, Fāʿil verborgen (هُوَ = Yūsuf)\n- هِيَ = Mubtadaʼ (Personalpronomen, 3. Pers. Sg. Fem.), Nominativ. Die Voranstellung des Pronomens betont: 'SIE (war es, die)'\n- رَاوَدَتْنِي = Khabar (Verbalsatz): Verb Perfekt, III. Stamm, Fem. + Objektsuffix نِي ('mich')\n- عَن نَّفْسِي = Jarr wa-Majrūr + Iḍāfa: 'von mir selbst'\n\nDie Struktur هِيَ رَاوَدَتْنِي ist ein Nominalsatz (beginnt mit Pronomen), wobei der Verbalsatz رَاوَدَتْنِي das Khabar bildet. Das vorangestellte هِيَ dient der Betonung und dem Kontrast: nicht er, sondern sie war die Handelnde.",
+          "arabicExamples": [
+            {
+              "arabic": "هِيَ رَاوَدَتْنِي عَن نَّفْسِي",
+              "transliteration": "hiya rāwadatnī ʿan nafsī",
+              "meaning": "Sie hat mich von mir selbst verführt (sie war es, die mich verführte)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:26 (Fortsetzung) — وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَا",
+          "content": "Ein Zeuge tritt auf:\n\n- وَشَهِدَ = Verb Perfekt, I. Stamm von ش-ه-د ('bezeugen')\n- شَاهِدٌ = Fāʿil (Subjekt), Nominativ mit Tanwīn. Partizip Aktiv (Muster فَاعِل). Unbestimmt: 'ein Zeuge'.\n- مِّنْ أَهْلِهَا = Jarr wa-Majrūr + Iḍāfa: 'aus ihrer Familie'. Ṣifa zu شَاهِد.\n\nDiese Struktur شَهِدَ شَاهِدٌ enthält eine Figura etymologica (Jins): Verb und Subjekt teilen dieselbe Wurzel ش-ه-د. Dies ist im Arabischen ein Stilmittel zur Betonung.",
+          "arabicExamples": [
+            {
+              "arabic": "وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَا",
+              "transliteration": "wa-shahida shāhidun min ahlihā",
+              "meaning": "Und ein Zeuge aus ihrer Familie bezeugte"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Verse 12:27–28 — إِنْ كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ / وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ",
+          "content": "Parallele Konditionalsätze mit إِنْ كَانَ:\n\nVers 12:27:\n- إِن = Konditionspartikel (reale Bedingung)\n- كَانَ = Verb (Perfekt), hier als Sharṭ-Verb (Bedingungsverb) — syntaktisch im Jussiv, formal aber als Perfekt invariabel\n- قَمِيصُهُ = Ism von كَانَ, Nominativ (Ḍamma) + Pronominalsuffix: 'sein Hemd'\n- قُدَّ = Khabar von كَانَ. Passiv (Mabni lil-Majhūl) vom I. Stamm ق-د-د: 'zerrissen wurde'. Mabni (unveränderlich).\n- مِن قُبُلٍ = Jarr wa-Majrūr: 'von vorne'\n- فَصَدَقَتْ = فَ der Apodosis + Verb Perfekt: 'dann hat sie die Wahrheit gesagt'. Fāʿil verborgen (هِيَ).\n\nVers 12:28:\n- وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ = Parallele Struktur mit مِن دُبُرٍ ('von hinten')\n- فَكَذَبَتْ = Apodosis: 'dann hat sie gelogen'\n\nDie Parallelstruktur (إِنْ...فَـ / وَإِنْ...فَـ) ist ein häufiges Mittel im Quran für alternative Bedingungen.\n\nVers 12:28 (Schluss): فَلَمَّا رَأَىٰ قَمِيصَهُ قُدَّ مِن دُبُرٍ\n- رَأَىٰ = Verb der sinnlichen Wahrnehmung, kann zwei Objekte nehmen\n- قَمِيصَهُ = Erstes Mafʿūl bihi (Akkusativ)\n- قُدَّ مِن دُبُرٍ = Zweites Mafʿūl bihi (Verbalsatz) oder Ḥāl: 'zerrissen von hinten'",
+          "arabicExamples": [
+            {
+              "arabic": "إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ الْكَاذِبِينَ",
+              "transliteration": "in kāna qamīṣuhu qudda min qubulin fa-ṣadaqat wa-huwa mina l-kādhibīna",
+              "meaning": "Wenn sein Hemd von vorne zerrissen wurde, dann hat sie die Wahrheit gesagt, und er gehört zu den Lügnern"
+            },
+            {
+              "arabic": "وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ",
+              "transliteration": "wa-in kāna qamīṣuhu qudda min duburin fa-kadhabat wa-huwa mina ṣ-ṣādiqīna",
+              "meaning": "Und wenn sein Hemd von hinten zerrissen wurde, dann hat sie gelogen, und er gehört zu den Wahrhaftigen"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Wort-für-Wort-Iʿrāb: Vers 12:27",
+          "steps": [
+            "إِنْ — Konditionspartikel (Ḥarf Sharṭ), verlangt Sharṭ (Protasis) und Jawāb (Apodosis)",
+            "كَانَ — Verb Perfekt (nāqiṣ / defektiv), Sharṭ-Verb, verlangt Ism (Nom.) und Khabar (Akk.)",
+            "قَمِيصُ — Ism von كَانَ, Nominativ (Ḍamma), Muḍāf",
+            "ـهُ — Muḍāf ilayhi, Pronominalsuffix (3. Pers. Sg. Mask.), in der Stelle des Genitivs",
+            "قُدَّ — Khabar von كَانَ, Verb im Passiv (Mabni lil-Majhūl), mabni auf Fatḥa. Nāʾib al-Fāʿil (Stellvertreter des Subjekts) ist verborgen (هُوَ = das Hemd)",
+            "مِن — Präposition (Ḥarf jarr)",
+            "قُبُلٍ — Majrūr nach مِن (Kasra mit Tanwīn): 'vorne'",
+            "فَـ — Fāʾ ar-Rabṭ (Konjunktion der Apodosis), verbindet Jawāb mit Sharṭ",
+            "صَدَقَتْ — Verb Perfekt (Jawāb ash-Sharṭ), I. Stamm, 3. Pers. Sg. Fem.",
+            "وَ — Wāw al-Ḥāl oder al-ʿAṭf",
+            "هُوَ — Mubtadaʼ (Pronomen, Nom.)",
+            "مِنَ الْكَاذِبِينَ — Khabar (Jarr wa-Majrūr): 'zu den Lügnern gehörend'. Gesunder Mask. Pl. im Genitiv (ـِينَ)."
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:29 — يُوسُفُ أَعْرِضْ عَنْ هَٰذَا وَاسْتَغْفِرِي لِذَنبِكِ",
+          "content": "Zwei Aufforderungen an verschiedene Adressaten:\n\n- يُوسُفُ = Munādā (Angerufener im Vokativ), hier ohne يَا. Nominativ — da er ein bestimmter Eigenname ist (ʿalam mufrad), steht er im Nominativ als Munādā mabni auf Ḍamm.\n- أَعْرِضْ = Imperativ, IV. Stamm von ع-ر-ض ('sich abwenden'), 2. Pers. Sg. Mask.\n- عَنْ هَٰذَا = Jarr wa-Majrūr: 'von diesem (Vorfall)'\n\n- وَاسْتَغْفِرِي = Imperativ, X. Stamm von غ-ف-ر ('um Vergebung bitten'), 2. Pers. Sg. Fem. (ـِي). Gerichtet an die Frau.\n- لِذَنبِكِ = Jarr wa-Majrūr + Iḍāfa: 'für deine Sünde'. كِ = Fem. Pronominalsuffix.\n- إِنَّكِ كُنتِ مِنَ الْخَاطِئِينَ = إِنَّ-Satz: كِ = Ism (Akk.). كُنتِ = Verb كَانَ, 2. Pers. Sg. Fem. مِنَ الْخَاطِئِينَ = Khabar von كَانَ, gleichzeitig eingebetteter Khabar von إِنَّ.",
+          "arabicExamples": [
+            {
+              "arabic": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا",
+              "transliteration": "yūsufu aʿriḍ ʿan hādhā",
+              "meaning": "Yūsuf, wende dich ab von diesem"
+            },
+            {
+              "arabic": "وَاسْتَغْفِرِي لِذَنبِكِ إِنَّكِ كُنتِ مِنَ الْخَاطِئِينَ",
+              "transliteration": "wa-staghfirī li-dhanbiki innaki kunti mina l-khāṭiʾīna",
+              "meaning": "Und bitte um Vergebung für deine Sünde, du gehörtest zu den Fehlenden"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 12:30 — وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ امْرَأَتُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَن نَّفْسِهِ",
+          "content": "Stadtgespräch — Verbalsatz mit eingebettetem Nominalsatz:\n\n- وَقَالَ = Verb Perfekt (Maskulin trotz femininem Subjekt — erlaubt bei vorangestelltem Verb vor gebrochenem Fem. Plural)\n- نِسْوَةٌ = Fāʿil (Subjekt), Nominativ mit Tanwīn: 'Frauen' (gebrochener Plural von نِسَاء/اِمْرَأَة)\n- فِي الْمَدِينَةِ = Jarr wa-Majrūr, Ṣifa zu نِسْوَة: 'in der Stadt'\n\nDie direkte Rede enthält einen Nominalsatz:\n- امْرَأَتُ الْعَزِيزِ = Mubtadaʼ, Nominativ (Ḍamma), Iḍāfa: 'die Frau des Mächtigen'\n- تُرَاوِدُ = Khabar (Verbalsatz), III. Stamm: 'verführt'\n- فَتَاهَا = Mafʿūl bihi (Objekt), Akkusativ (unflektierbar, Alif maqṣūra) + Pronominalsuffix: 'ihren jungen Diener'\n- عَن نَّفْسِهِ = Jarr wa-Majrūr: 'von sich selbst'\n\nAbschluss: قَدْ شَغَفَهَا حُبًّا\n- قَدْ = Bekräftigungspartikel\n- شَغَفَهَا = Verb Perfekt, I. Stamm von ش-غ-ف ('das Herzbeutel durchdringen') + Objektsuffix: 'er hat ihr Herz durchdrungen'\n- حُبًّا = Tamyīz (Spezifikationsakkusativ): 'an Liebe'. Oder Mafʿūl lahu (Akkusativ des Grundes).\n\nDer Nachsatz إِنَّا لَنَرَاهَا فِي ضَلَالٍ مُّبِينٍ enthält erneut einen إِنَّ-Satz mit Lām al-Ibtidāʼ im Khabar: لَنَرَاهَا.",
+          "arabicExamples": [
+            {
+              "arabic": "امْرَأَتُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَن نَّفْسِهِ",
+              "transliteration": "imraʾatu l-ʿazīzi turāwidu fatāhā ʿan nafsihi",
+              "meaning": "Die Frau des Mächtigen verführt ihren jungen Diener von sich selbst"
+            },
+            {
+              "arabic": "قَدْ شَغَفَهَا حُبًّا",
+              "transliteration": "qad shaghafahā ḥubban",
+              "meaning": "Er hat ihr Herz an Liebe durchdrungen"
+            },
+            {
+              "arabic": "إِنَّا لَنَرَاهَا فِي ضَلَالٍ مُّبِينٍ",
+              "transliteration": "innā la-narāhā fī ḍalālin mubīnin",
+              "meaning": "Wir sehen sie wahrlich in offenkundiger Verirrung"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Syntaktische Übersicht: Verse 12:26–30",
+          "examples": [
+            {
+              "location": "12:26",
+              "word": "هِىَ رَٰوَدَتْنِى عَن نَّفْسِى",
+              "analysis": "Nominalsatz (Betonung): هِيَ = Mubtadaʼ (betont). رَاوَدَتْنِي = Khabar (Verbalsatz). عَن نَّفْسِي = Jarr wa-Majrūr.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=26"
+            },
+            {
+              "location": "12:26",
+              "word": "إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ فَصَدَقَتْ",
+              "analysis": "Konditionalsatz: إِنْ = Sharṭ-Partikel. كَانَ = Sharṭ-Verb. قَمِيصُهُ = Ism (Nom.). قُدَّ = Khabar (Passiv). فَصَدَقَتْ = Jawāb ash-Sharṭ (Apodosis mit Fāʾ).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=26"
+            },
+            {
+              "location": "12:28",
+              "word": "فَلَمَّا رَءَا قَمِيصَهُ قُدَّ مِن دُبُرٍ",
+              "analysis": "فَلَمَّا-Temporalsatz: رَأَىٰ = Verb der Wahrnehmung. قَمِيصَهُ = 1. Objekt (Akk.). قُدَّ مِن دُبُرٍ = 2. Objekt oder Ḥāl (Passiv-Verbalsatz).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=28"
+            },
+            {
+              "location": "12:30",
+              "word": "ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِ قَدْ شَغَفَهَا حُبًّا",
+              "analysis": "Nominalsatz: امْرَأَتُ الْعَزِيزِ = Mubtadaʼ (Iḍāfa, Nom.). تُرَاوِدُ = Khabar (Verbalsatz). حُبًّا = Tamyīz (Akk.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=30"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Struktur liegt in إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ (12:27) vor?",
+          "options": [
+            "Nominalsatz mit كَانَ",
+            "Temporalsatz mit لَمَّا",
+            "Konditionalsatz: إِنْ + كَانَ als Sharṭ-Verb + Jawāb",
+            "Schwursatz mit لَقَدْ"
+          ],
+          "answer": "Konditionalsatz: إِنْ + كَانَ als Sharṭ-Verb + Jawāb",
+          "explanation": "إِنْ ist die Konditionspartikel (Ḥarf Sharṭ). كَانَ fungiert als Sharṭ-Verb (Bedingungsverb). قَمِيصُهُ = Ism von كَانَ (Nom.), قُدَّ = Khabar (Passiv). فَصَدَقَتْ = Jawāb ash-Sharṭ (Apodosis). Die Fāʾ ist obligatorisch, da der Jawāb ein Perfektverb mit فَ ist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=27"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche syntaktische Funktion hat حُبًّا in قَدْ شَغَفَهَا حُبًّا (12:30)?",
+          "word": "حُبًّا",
+          "answer": "Tamyīz (Spezifikationsakkusativ): 'an Liebe'. Es spezifiziert, in welcher Hinsicht das Durchdringen des Herzens (شَغَفَ) stattfand.",
+          "hint": "Welche Akkusativ-Funktion spezifiziert die Art oder den Bereich einer Handlung?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=30"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht das Verb قَالَ in Vers 12:30 im Maskulin, obwohl das Subjekt نِسْوَةٌ (Frauen) ist?",
+          "options": [
+            "Es ist ein Fehler",
+            "نِسْوَةٌ ist grammatisch maskulin",
+            "Bei vorangestelltem Verb vor einem gebrochenen Fem. Plural ist das Maskulin erlaubt",
+            "Das Verb bezieht sich auf ein anderes Subjekt"
+          ],
+          "answer": "Bei vorangestelltem Verb vor einem gebrochenen Fem. Plural ist das Maskulin erlaubt",
+          "explanation": "Wenn das Verb dem Subjekt vorangestellt ist und das Subjekt ein gebrochener Plural ist, kann das Verb im Maskulin Singular stehen. Dies ist eine Regel des klassischen Arabisch: Das Verb kongruiert nur minimal (Singular) mit einem nachgestellten Subjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=30"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Parallelstruktur der Verse 12:27 und 12:28. Welche syntaktischen Elemente werden gespiegelt?",
+          "word": "إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ / وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ",
+          "answer": "Identische Sharṭ-Struktur: إِنْ كَانَ (Sharṭ-Verb) + قَمِيصُهُ (Ism, Nom.) + قُدَّ (Khabar, Passiv) + مِن + Richtungsangabe (قُبُلٍ/دُبُرٍ). Die Apodosen sind antithetisch gespiegelt: فَصَدَقَتْ (sie sagte die Wahrheit) vs. فَكَذَبَتْ (sie log). Ebenso: مِنَ الْكَاذِبِينَ vs. مِنَ الصَّادِقِينَ. Diese syntaktische Parallelkonstruktion dient der logischen Beweisführung.",
+          "hint": "Vergleiche die identischen und die unterschiedlichen Elemente beider Verse.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=27"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §191-220",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.1",
+      "3.2",
+      "S12.4"
+    ]
+  }
+]

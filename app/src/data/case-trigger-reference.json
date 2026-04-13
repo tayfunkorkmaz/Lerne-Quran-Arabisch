@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "title": "Kasusauslöser-Referenztabelle",
+    "description": "Zusammenfassende Übersicht: Welche syntaktischen Funktionen und Partikeln lösen welchen Kasus bzw. Modus aus.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ],
+    "lessons": [
+      "3.1",
+      "2.6",
+      "3.4",
+      "3.5",
+      "4.4"
+    ]
+  },
+  "nominalCases": {
+    "nominativ": {
+      "arabicTerm": "مَرْفُوع",
+      "marker": "-u / -un (Damma / Tanwin Damma)",
+      "specialMarkers": {
+        "diptote": "-u (Damma, kein Tanwin)",
+        "soundMascPlural": "-uuna (Nom.) / -iina (Akk./Gen.)",
+        "soundFemPlural": "-aatun (Nom.) / -aatin (Akk. und Gen. identisch!)",
+        "dual": "-aani (Nom.) / -ayni (Akk./Gen.)",
+        "fiveNouns": "Langer Vokal -uu (z.B. أَبُوهُ)"
+      },
+      "triggers": [
+        {
+          "function": "Faaʿil (Subjekt des Verbalsatzes)",
+          "arabicTerm": "فَاعِل",
+          "example": "جَاءَ الرَّجُلُ",
+          "quranExample": "جَاءَ الْحَقُّ (17:81)",
+          "lesson": "3.2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=81"
+        },
+        {
+          "function": "Naaʿib al-Faaʿil (Passiv-Subjekt)",
+          "arabicTerm": "نَائِبُ الْفَاعِل",
+          "example": "كُتِبَ الْكِتَابُ",
+          "quranExample": "كُتِبَ عَلَيْكُمُ الْقِتَالُ (2:216)",
+          "lesson": "2.7",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+        },
+        {
+          "function": "Mubtada' (Thema des Nominalsatzes)",
+          "arabicTerm": "مُبْتَدَأ",
+          "example": "الْوَلَدُ كَبِيرٌ",
+          "quranExample": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ (2:255)",
+          "lesson": "3.2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "function": "Khabar (Prädikat des Nominalsatzes)",
+          "arabicTerm": "خَبَر",
+          "example": "الْوَلَدُ كَبِيرٌ",
+          "quranExample": "وَاللَّهُ الْعَلِيمُ الْحَكِيمُ (2:32)",
+          "lesson": "3.23",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+        },
+        {
+          "function": "Khabar von inna und Schwestern",
+          "arabicTerm": "خَبَرُ إِنَّ",
+          "example": "إِنَّ اللَّهَ عَلِيمٌ",
+          "quranExample": "إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ (2:32)",
+          "lesson": "3.5",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+        },
+        {
+          "function": "Ism von kaana und Schwestern",
+          "arabicTerm": "اِسْمُ كَانَ",
+          "example": "كَانَ الْجَوُّ جَمِيلًا",
+          "quranExample": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا (4:96)",
+          "lesson": "3.4",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=96"
+        },
+        {
+          "function": "Tawkid (Bekräftigung)",
+          "arabicTerm": "تَوْكِيد",
+          "example": "جَاءَ الْقَوْمُ كُلُّهُمْ",
+          "quranExample": "فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ (15:30)",
+          "lesson": "3.17",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=81"
+    },
+    "akkusativ": {
+      "arabicTerm": "مَنْصُوب",
+      "marker": "-a / -an (Fatha / Tanwin Fatha)",
+      "specialMarkers": {
+        "diptote": "-a (Fatha, kein Tanwin)",
+        "soundMascPlural": "-iina",
+        "soundFemPlural": "-aatin (Kasra, nicht Fatha!)",
+        "dual": "-ayni",
+        "fiveNouns": "Langer Vokal -aa (z.B. أَبَاهُ)"
+      },
+      "triggers": [
+        {
+          "function": "Mafʿul bihi (direktes Objekt)",
+          "arabicTerm": "مَفْعُولٌ بِهِ",
+          "example": "قَرَأْتُ الْكِتَابَ",
+          "quranExample": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (1:6)",
+          "lesson": "3.1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "function": "Ism von inna und Schwestern",
+          "arabicTerm": "اِسْمُ إِنَّ",
+          "example": "إِنَّ اللَّهَ عَلِيمٌ",
+          "quranExample": "إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ (2:32)",
+          "lesson": "3.5",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+        },
+        {
+          "function": "Khabar von kaana und Schwestern",
+          "arabicTerm": "خَبَرُ كَانَ",
+          "example": "كَانَ الْجَوُّ جَمِيلًا",
+          "quranExample": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا (4:96)",
+          "lesson": "3.4",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=96"
+        },
+        {
+          "function": "Hal (Zustandsakkusativ)",
+          "arabicTerm": "حَال",
+          "example": "جَاءَ رَاكِبًا",
+          "quranExample": "وَقُومُوا لِلَّهِ قَانِتِينَ (2:238)",
+          "lesson": "3.9",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=238"
+        },
+        {
+          "function": "Tamyiz (Spezifikation)",
+          "arabicTerm": "تَمْيِيز",
+          "example": "عِشْرُونَ كِتَابًا",
+          "quranExample": "خَمْسِينَ أَلْفَ سَنَةٍ (70:4)",
+          "lesson": "3.10",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=4"
+        },
+        {
+          "function": "Mafʿul Mutlaq (absolutes Objekt)",
+          "arabicTerm": "مَفْعُولٌ مُطْلَق",
+          "example": "ضَرَبَ ضَرْبًا",
+          "quranExample": "وَكَلَّمَ اللَّهُ مُوسَىٰ تَكْلِيمًا (4:164)",
+          "lesson": "3.11",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+        },
+        {
+          "function": "Mafʿul li-Ajlihi (Zweckobjekt)",
+          "arabicTerm": "مَفْعُولٌ لِأَجْلِهِ",
+          "example": "قُمْتُ إِجْلَالًا",
+          "quranExample": "ابْتِغَاءَ مَرْضَاتِ اللَّهِ (2:207)",
+          "lesson": "3.12",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=207"
+        },
+        {
+          "function": "Mafʿul Maʿahu (Begleitobjekt)",
+          "arabicTerm": "مَفْعُولٌ مَعَهُ",
+          "example": "سِرْتُ وَالنِّيلَ",
+          "quranExample": "Selten im Quran; مَعَ + Genitiv bevorzugt",
+          "lesson": "3.24",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+        },
+        {
+          "function": "Ẓarf (Adverbialakkusativ)",
+          "arabicTerm": "ظَرْف",
+          "example": "صُمْتُ يَوْمًا",
+          "quranExample": "يَوْمَ تَبْيَضُّ وُجُوهٌ (3:106)",
+          "lesson": "3.22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+        },
+        {
+          "function": "Mustathna (Ausgenommenes nach illa)",
+          "arabicTerm": "مُسْتَثْنَى",
+          "example": "جَاءُوا إِلَّا زَيْدًا",
+          "quranExample": "فَشَرِبُوا مِنْهُ إِلَّا قَلِيلًا (2:249)",
+          "lesson": "3.14",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+        },
+        {
+          "function": "Munada (Vokativ, bestimmte Typen)",
+          "arabicTerm": "مُنَادَى",
+          "example": "يَا عَبْدَ اللَّهِ",
+          "quranExample": "يَا أَهْلَ الْكِتَابِ (3:64)",
+          "lesson": "3.15",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=64"
+        },
+        {
+          "function": "Ism von La nafiya lil-jins",
+          "arabicTerm": "اِسْمُ لَا النَّافِيَة",
+          "example": "لَا رَيْبَ فِيهِ",
+          "quranExample": "لَا رَيْبَ فِيهِ (2:2)",
+          "lesson": "4.14",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "function": "Badal zu Akkusativ-Nomen",
+          "arabicTerm": "بَدَل",
+          "example": "رَأَيْتُ زَيْدًا أَخَاكَ",
+          "quranExample": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (1:7, Akkusativ-Badal zu الصِّرَاطَ in 1:6)",
+          "lesson": "3.13",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    "genitiv": {
+      "arabicTerm": "مَجْرُور",
+      "marker": "-i / -in (Kasra / Tanwin Kasra)",
+      "specialMarkers": {
+        "diptote": "-a (Fatha statt Kasra, kein Tanwin!)",
+        "soundMascPlural": "-iina (identisch mit Akkusativ)",
+        "soundFemPlural": "-aatin (identisch mit Akkusativ!)",
+        "dual": "-ayni (identisch mit Akkusativ)",
+        "fiveNouns": "Langer Vokal -ii (z.B. أَبِيهِ)"
+      },
+      "triggers": [
+        {
+          "function": "Nach Präpositionen (Jarr wa-Majrur)",
+          "arabicTerm": "مَجْرُور بِحَرْفِ الْجَرّ",
+          "example": "فِي الْبَيْتِ",
+          "quranExample": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (1:1)",
+          "lesson": "3.1",
+          "prepositions": [
+            "مِنْ",
+            "إِلَىٰ",
+            "عَنْ",
+            "عَلَىٰ",
+            "فِي",
+            "بِ",
+            "لِ",
+            "كَ",
+            "حَتَّىٰ",
+            "عِنْدَ",
+            "بَيْنَ"
+          ],
+          "prepositionNote": "عِنْدَ und بَيْنَ sind technisch Zuruuf (Adverbien), die durch Iḍāfa den Genitiv regieren, nicht Präpositionen im engeren Sinne",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "function": "Mudaf ilayhi (Zweites Glied der Iḍāfa)",
+          "arabicTerm": "مُضَافٌ إِلَيْهِ",
+          "example": "كِتَابُ الطَّالِبِ",
+          "quranExample": "رَبِّ الْعَالَمِينَ (1:2)",
+          "lesson": "3.3",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "function": "Sifa/Na't zu Genitiv-Nomen",
+          "arabicTerm": "صِفَة",
+          "example": "فِي الْبَيْتِ الْكَبِيرِ",
+          "quranExample": "الرَّحْمَٰنِ الرَّحِيمِ (1:3, Genitiv-Sifa zu اللَّهِ im Genitiv als Iḍāfa-Zweitglied)",
+          "lesson": "3.18",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+        },
+        {
+          "function": "Badal zu Genitiv-Nomen",
+          "arabicTerm": "بَدَل",
+          "example": "مَرَرْتُ بِزَيْدٍ أَخِيكَ",
+          "quranExample": "رَبِّ الْعَالَمِينَ (1:2, Badal zu اللَّهِ im Genitiv)",
+          "lesson": "3.13",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "function": "Muqsam bihi (Schwurobjekt)",
+          "arabicTerm": "مُقْسَمٌ بِهِ",
+          "example": "وَاللَّيْلِ",
+          "quranExample": "وَالْعَصْرِ (103:1)",
+          "lesson": "3.8",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        },
+        {
+          "function": "Ma'dud nach Zahlen 3-10 (Genitiv Plural via Iḍāfa)",
+          "arabicTerm": "مَعْدُود",
+          "example": "ثَلَاثَةُ أَيَّامٍ",
+          "quranExample": "سَبْعَ سَمَاوَاتٍ (2:29)",
+          "lesson": "3.10",
+          "note": "Bei Zahlen 3-10 steht das Gezählte im Genitiv Plural als Mudaf ilaihi (Iḍāfa-Konstruktion), nicht als Tamyiz im eigentlichen Sinne. Tamyiz im strengen Sinne (Akkusativ Singular) gilt für Zahlen 11-99.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  },
+  "verbalMoods": {
+    "indikativ": {
+      "arabicTerm": "مَرْفُوع",
+      "marker": "-u (Damma) / Nun bei den fünf Verben",
+      "condition": "Kein Nasb- oder Jazm-Partikel vorhanden (Standardmodus)",
+      "lesson": "2.6"
+    },
+    "subjunktiv": {
+      "arabicTerm": "مَنْصُوب",
+      "marker": "-a (Fatha) / Nun fällt bei den fünf Verben",
+      "triggers": [
+        {
+          "particle": "أَنْ",
+          "meaning": "dass/zu",
+          "quranExample": "أَنْ يَكُونَ (2:247)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=247"
+        },
+        {
+          "particle": "لَنْ",
+          "meaning": "wird niemals",
+          "quranExample": "لَنْ تَنَالُوا (3:92)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=92"
+        },
+        {
+          "particle": "كَيْ",
+          "meaning": "damit",
+          "quranExample": "لِكَيْ لَا يَكُونَ (33:50)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=50"
+        },
+        {
+          "particle": "لِ",
+          "meaning": "um zu (Lam at-Ta'lil)",
+          "quranExample": "لِيَعْبُدُوا (98:5)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=5"
+        },
+        {
+          "particle": "حَتَّىٰ",
+          "meaning": "bis/damit",
+          "quranExample": "حَتَّىٰ يَتَبَيَّنَ (2:187)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+        },
+        {
+          "particle": "فَ",
+          "meaning": "so dass (Fa as-Sababiyya)",
+          "quranExample": "فَيَكُونَ (2:117)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=117"
+        }
+      ],
+      "lesson": "2.6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=247"
+    },
+    "jussiv": {
+      "arabicTerm": "مَجْزُوم",
+      "marker": "Sukun / Nun fällt bei den fünf Verben / schwacher Endkonsonant fällt",
+      "triggers": [
+        {
+          "particle": "لَمْ",
+          "meaning": "nicht (Vergangenheit)",
+          "quranExample": "لَمْ يَلِدْ وَلَمْ يُولَدْ (112:3)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "particle": "لَمَّا",
+          "meaning": "noch nicht",
+          "quranExample": "بَلْ لَمَّا يَذُوقُوا عَذَابِ (38:8)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=8"
+        },
+        {
+          "particle": "لَا (Nahiya)",
+          "meaning": "nicht! (Verbot)",
+          "quranExample": "لَا تَقْتُلُوا (6:151)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+        },
+        {
+          "particle": "لِ (Amr)",
+          "meaning": "soll/möge (Befehl)",
+          "quranExample": "لِيُنْفِقْ ذُو سَعَةٍ (65:7)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+        },
+        {
+          "particle": "إِنْ",
+          "meaning": "wenn (Bedingung)",
+          "quranExample": "إِنْ تَنْصُرُوا اللَّهَ يَنْصُرْكُمْ (47:7)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=7"
+        },
+        {
+          "particle": "مَنْ",
+          "meaning": "wer (generalisiert)",
+          "quranExample": "مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ (4:123)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+        },
+        {
+          "particle": "مَا",
+          "meaning": "was (generalisiert)",
+          "quranExample": "مَا نَنْسَخْ مِنْ آيَةٍ (2:106)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=106"
+        }
+      ],
+      "lesson": "2.6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+    }
+  },
+  "specialNotes": [
+    "Der gesunde Feminin-Plural zeigt Kasra im Akkusativ UND Genitiv — NICHT Fatha.",
+    "Diptoten zeigen Fatha statt Kasra im Genitiv und kein Tanwin. Mit Artikel oder in Iḍāfa verhalten sie sich wie Triptoten.",
+    "Die fünf Verben zeigen den Modus durch An-/Abwesenheit des End-Nun, nicht durch Endvokal.",
+    "Die fünf Sondernomen (أب, أخ, حم, فم, ذو) zeigen den Kasus durch Langvokale statt Kurzvokale.",
+    "Sifa (Adjektiv), Badal (Apposition), Atf (Koordination) und Tawkid (Bekräftigung) folgen dem Kasus ihres Bezugsworts — sie sind keine eigenständigen Kasusauslöser."
+  ]
+}

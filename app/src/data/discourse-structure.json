@@ -1,0 +1,938 @@
+{
+  "meta": {
+    "title": "Diskursstruktur und Textkohärenz",
+    "description": "Wie Partikel und syntaktische Strukturen den Textfluss über Verse und Suren hinweg organisieren. Rein sprachwissenschaftliche Analyse der textlinguistischen Mittel im Quran.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Wright's Grammar Vol I — Conjunctions & Particles",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+      },
+      {
+        "name": "Wright's Grammar Vol II — Syntax of Particles",
+        "url": "https://archive.org/details/WrightsArabicGrammar2Of2"
+      }
+    ],
+    "furtherStagesPlanned": true,
+    "expansionNote": "Weitere Diskursstufen sind geplant, die zusätzliche Phänomene wie Thema-Rhema-Strukturen, Anapher-Ketten und makrostrukturelle Kohärenz abdecken."
+  },
+  "stages": [
+    {
+      "id": "discourse_1",
+      "title": "Diskursmarker und Textkohärenz",
+      "description": "Partikel funktionieren nicht nur auf Satzebene, sondern organisieren den Text als Ganzes — sie signalisieren Erzählfortschritt, Kontraste, Rückblenden und Aufmerksamkeitslenkung.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was sind Diskursmarker?",
+            "content": "Diskursmarker sind Partikel und Partikeln ähnliche Ausdrücke, die über den Einzelsatz hinaus wirken. Während eine Konjunktion wie وَ auf Satzebene zwei Elemente verbindet ('X und Y'), kann dasselbe وَ auf Diskursebene eine ganz andere Funktion haben: es markiert den Übergang von einer Erzählszene zur nächsten, ohne dass ein logisches 'und' gemeint ist. Die Unterscheidung zwischen Satzfunktion und Diskursfunktion ist zentral für das Textverständnis."
+          },
+          {
+            "type": "explanation",
+            "title": "وَ (wa) — Narrativer Konnektor vs. Koordinator",
+            "content": "Auf Satzebene verbindet وَ zwei gleichrangige Elemente: 'Himmel und Erde'. Auf Diskursebene hat وَ eine ganz andere Rolle: es leitet neue Szenen, neue Themen oder neue Sprechakte ein. In Erzählungen markiert وَ den Übergang von einem Handlungsschritt zum nächsten — ähnlich wie 'da' oder 'dann' im Deutschen. Dieses narrative وَ ist kein logisches 'und', sondern ein Szenenmarker.",
+            "wrightRef": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+          },
+          {
+            "type": "example",
+            "title": "وَ als narrativer Konnektor — Beispiele",
+            "examples": [
+              {
+                "ref": "12:15",
+                "arabic": "فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوٓا أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ وَأَوْحَيْنَآ إِلَيْهِ",
+                "transliteration": "fa-lammā dhahabū bihi wa-ajmaʿū an yajʿalūhu fī ghayābati l-jubbi wa-awhaynā ilayhi",
+                "note": "Das zweite وَ (wa-awhaynaa) verbindet nicht zwei gleichzeitige Handlungen — es markiert den Übergang zu einer neuen Handlungsebene: von den Brüdern zu Gott. Narrativer Szenenwechsel, kein logisches 'und'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=15"
+              },
+              {
+                "ref": "2:35-36",
+                "arabic": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ ... فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا",
+                "transliteration": "wa-qulnā yā ādamu skun anta wa-zawjuka l-jannata ... fa-azallahumā sh-shaytānu ʿanhā",
+                "note": "وَقُلْنَا leitet eine neue Szene ein — nicht 'und wir sagten' als Aufzählung, sondern 'da sprachen wir' als narrativer Übergang.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+              },
+              {
+                "ref": "18:9-10",
+                "arabic": "أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ آيَاتِنَا عَجَبًا ○ إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ",
+                "transliteration": "am hasibta anna ashāba l-kahfi wa-r-raqīmi kānū min āyātinā ʿajaban ○ idh awā l-fityatu ilā l-kahfi",
+                "note": "Hier ist وَ in وَالرَّقِيمِ ein normaler Koordinator (die Höhle und die Inschrift). Der Kontrast zum narrativen وَ in den anderen Beispielen zeigt die zwei Ebenen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=9"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "فَ (fa) — Konsequenz- und Sequenzmarker",
+            "content": "فَ markiert auf Diskursebene eine unmittelbare Folge oder eine schnelle Abfolge. Im Gegensatz zu وَ, das auch zeitlich unverbundene Szenen einleiten kann, signalisiert فَ immer einen engen Zusammenhang: Ursache→Wirkung, Bedingung→Folge, oder schnelle zeitliche Abfolge ohne Unterbrechung. In Erzählungen erzeugt فَ Tempo und Dringlichkeit.",
+            "wrightRef": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n142"
+          },
+          {
+            "type": "example",
+            "title": "فَ als Diskursmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "12:28",
+                "arabic": "فَلَمَّا رَءَا قَمِيصَهُ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُ مِن كَيْدِكُنَّ",
+                "transliteration": "fa-lammā raʾā qamīsahu qudda min duburin qāla innahu min kaydikkunna",
+                "note": "فَ leitet die unmittelbare Konsequenz ein: Er sah das Hemd → sofortige Schlussfolgerung. Kein zeitlicher Abstand.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=28"
+              },
+              {
+                "ref": "2:37",
+                "arabic": "فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِ كَلِمَٰتٍ فَتَابَ عَلَيْهِ",
+                "transliteration": "fa-talaqqā ādamu min rabbihi kalimātin fa-tāba ʿalayhi",
+                "note": "Doppeltes فَ: Adam empfing Worte → unmittelbare Folge: Gott nahm seine Reue an. Jedes فَ markiert einen direkten Kausalschritt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+              },
+              {
+                "ref": "23:12-14",
+                "arabic": "وَلَقَدْ خَلَقْنَا الْإِنسَانَ مِن سُلَالَةٍ مِّن طِينٍ ○ ثُمَّ جَعَلْنَاهُ نُطْفَةً ... ○ ثُمَّ خَلَقْنَا النُّطْفَةَ عَلَقَةً فَخَلَقْنَا الْعَلَقَةَ مُضْغَةً فَخَلَقْنَا الْمُضْغَةَ عِظَامًا فَكَسَوْنَا الْعِظَامَ لَحْمًا",
+                "transliteration": "... thumma khalaqnā n-nutfata ʿalaqatan fa-khalaqnā l-ʿalaqata mudghatan fa-khalaqnā l-mudghata ʿizāman fa-kasawnā l-ʿizāma lahman",
+                "note": "ثُمَّ markiert den großen Zeitsprung (Lehm → Samentropfen), aber فَ markiert die schnelle Abfolge der Embryonalstadien: Anhaftung → Kaustück → Knochen → Fleisch. فَ signalisiert hier: kein Unterbruch, ein kontinuierlicher Prozess.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=12"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "ثُمَّ (thumma) — Verzögerter Sequenzmarker",
+            "content": "ثُمَّ signalisiert eine Abfolge mit zeitlichem oder logischem Abstand. Während فَ Unmittelbarkeit ausdrückt, markiert ثُمَّ eine Pause, einen Sprung oder eine neue Phase. Auf Diskursebene gliedert ثُمَّ Erzählungen in größere Abschnitte.",
+            "wrightRef": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n144"
+          },
+          {
+            "type": "example",
+            "title": "ثُمَّ vs. فَ — der Unterschied auf Diskursebene",
+            "examples": [
+              {
+                "ref": "23:12-14",
+                "arabic": "خَلَقْنَا الْإِنسَانَ مِن سُلَالَةٍ مِّن طِينٍ ○ ثُمَّ جَعَلْنَاهُ نُطْفَةً فِي قَرَارٍ مَّكِينٍ ○ ثُمَّ خَلَقْنَا النُّطْفَةَ عَلَقَةً فَخَلَقْنَا الْعَلَقَةَ مُضْغَةً",
+                "note": "ثُمَّ trennt die großen Phasen (Lehm → Samentropfen: großer Sprung), فَ verbindet die schnelle Embryonalentwicklung. Das Zusammenspiel beider Partikel erzeugt den Rhythmus: großer Sprung — dann schnelle Abfolge.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=12"
+              },
+              {
+                "ref": "7:10-11",
+                "arabic": "وَلَقَدْ مَكَّنَّاكُمْ فِي الْأَرْضِ ... ○ وَلَقَدْ خَلَقْنَاكُمْ ثُمَّ صَوَّرْنَاكُمْ ثُمَّ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا",
+                "transliteration": "wa-laqad khalaqnākum thumma sawwarnākum thumma qulnā li-l-malāʾikati sjudū",
+                "note": "Drei große Etappen, durch ثُمَّ getrennt: Erschaffung → Formgebung → Befehl an die Engel. Jedes ثُمَّ markiert einen eigenen Akt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=10"
+              },
+              {
+                "ref": "2:28",
+                "arabic": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+                "transliteration": "kayfa takfurūna bi-llāhi wa-kuntum amwātan fa-ahyākum thumma yumītukum thumma yuhyīkum thumma ilayhi turjaʿūna",
+                "note": "فَ für die erste Belebung (unmittelbar aus dem Tod), dann ثُمَّ für jede weitere Phase: Tod → Wiederbelebung → Rückkehr. Jedes ثُمَّ markiert eine eigene Epoche.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "بَلْ (bal) — Korrektur- und Kontrastmarker",
+            "content": "بَلْ bricht den bisherigen Gedankengang ab und korrigiert ihn. Auf Diskursebene signalisiert بَلْ: 'Was bisher gesagt oder angenommen wurde, ist falsch oder unvollständig — hier kommt die eigentliche Aussage.' بَلْ erzeugt eine scharfe Wende im Text.",
+            "wrightRef": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n146"
+          },
+          {
+            "type": "example",
+            "title": "بَلْ als Diskursmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "21:5",
+                "arabic": "بَلْ قَالُوٓا أَضْغَٰثُ أَحْلَٰمٍ بَلِ ٱفْتَرَىٰهُ بَلْ هُوَ شَاعِرٌ",
+                "transliteration": "bal qālū adghāthu ahlām bal-i ftarāhu bal huwa shāʿir",
+                "note": "Dreifaches بَلْ: Jede neue Behauptung korrigiert die vorherige. بَلْ zeigt hier die Sprunghaftigkeit der Argumente: wirre Träume → nein, erfunden → nein, Dichter. Jedes بَلْ annulliert das Vorherige.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=5"
+              },
+              {
+                "ref": "23:53",
+                "arabic": "فَتَقَطَّعُوٓا أَمْرَهُم بَيْنَهُمْ زُبُرًا كُلُّ حِزْبٍ بِمَا لَدَيْهِمْ فَرِحُونَ",
+                "note": "Kein بَلْ hier, aber vgl. 23:71:",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=53"
+              },
+              {
+                "ref": "23:70",
+                "arabic": "أَمْ يَقُولُونَ بِهِ جِنَّةٌ بَلْ جَآءَهُم بِٱلْحَقِّ",
+                "transliteration": "am yaqūlūna bihi jinnatun bal jāʾahum bi-l-haqqi",
+                "note": "بَلْ korrigiert die Annahme 'er ist besessen': Nein — er brachte ihnen die Wahrheit. Scharfer Kontrast, der den gesamten Diskursfluss wendet.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=70"
+              },
+              {
+                "ref": "75:20-21",
+                "arabic": "كَلَّا بَلْ تُحِبُّونَ الْعَاجِلَةَ ○ وَتَذَرُونَ الْآخِرَةَ",
+                "transliteration": "kallā bal tuhibbūna l-ʿājilata wa-tadharūna l-ākhirata",
+                "note": "كَلَّا بَلْ: doppelte Zurückweisung. كَلَّا weist zurück, بَلْ liefert die Korrektur. Auf Diskursebene wird hier der gesamte vorherige Abschnitt negiert und die eigentliche Diagnose gestellt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=20"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "إِذْ (idh) — Rückblendenmarker",
+            "content": "إِذْ markiert auf Diskursebene einen Rückblick in die Vergangenheit. Es leitet eine Szene ein, die zeitlich vor dem aktuellen Erzählstrang liegt. Die Funktion ist ähnlich wie 'damals, als...' oder ein filmischer Flashback. إِذْ verankert die Rückblende zeitlich, ohne sie in die laufende Erzählung einzuordnen."
+          },
+          {
+            "type": "example",
+            "title": "إِذْ als Rückblendenmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "2:30",
+                "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً",
+                "transliteration": "wa-idh qāla rabbuka li-l-malāʾikati innī jāʿilun fī l-ardi khalīfatan",
+                "note": "وَإِذْ leitet die Rückblende zur Erschaffung Adams ein. Der Erzählstrang springt zurück — إِذْ signalisiert: Wir sind jetzt in einer anderen Zeit.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+              },
+              {
+                "ref": "7:11",
+                "arabic": "وَلَقَدْ خَلَقْنَٰكُمْ ثُمَّ صَوَّرْنَٰكُمْ ثُمَّ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا لِـَٔادَمَ",
+                "note": "Dieselbe Geschichte ohne إِذْ — hier ist es keine Rückblende, sondern Teil einer linearen Erzählung (eingeleitet durch وَلَقَدْ). Vergleich zeigt: إِذْ markiert spezifisch den Rückblick.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=11"
+              },
+              {
+                "ref": "3:33-35",
+                "arabic": "إِنَّ اللَّهَ اصْطَفَىٰ آدَمَ وَنُوحًا ... ○ إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي",
+                "transliteration": "... idh qālati mraʾatu ʿimrāna rabbi innī nadhartu laka mā fī batnī",
+                "note": "Nach der allgemeinen Aussage über Gottes Auswahl springt إِذْ zurück zur konkreten Szene: die Frau Imrans spricht ihr Gelübde. إِذْ öffnet die Rückblende.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=33"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "قَدْ (qad) — Bestätigungs- und Gewissheitsmarker",
+            "content": "قَدْ hat auf Diskursebene eine bestärkende Funktion. Vor dem Perfekt (قَدْ فَعَلَ) bestätigt es: 'Es ist tatsächlich geschehen.' Vor dem Imperfekt (قَدْ يَفْعَلُ) drückt es Möglichkeit aus: 'Es mag geschehen.' Auf Textebene signalisiert قَدْ dem Leser: Achte auf diese Aussage — sie ist gesichert oder bedeutsam.",
+            "wrightRef": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n148"
+          },
+          {
+            "type": "example",
+            "title": "قَدْ als Diskursmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "2:144",
+                "arabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ",
+                "transliteration": "qad narā taqalluba wajhika fī s-samāʾi",
+                "note": "قَدْ + Imperfekt: 'Wir sehen wohl/tatsächlich, wie sich dein Gesicht zum Himmel wendet.' قَدْ verstärkt die Aussage: Gott hat es sehr wohl bemerkt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=144"
+              },
+              {
+                "ref": "24:1",
+                "arabic": "سُورَةٌ أَنزَلْنَٰهَا وَفَرَضْنَٰهَا",
+                "note": "Ohne قَدْ — neutrale Aussage. Vergleich mit 5:75:",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+              },
+              {
+                "ref": "5:75",
+                "arabic": "قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ",
+                "transliteration": "qad khalat min qablihi r-rusulu",
+                "note": "قَدْ + Perfekt: 'Vor ihm sind tatsächlich/gewiss die Gesandten dahingegangen.' قَدْ bestätigt die historische Tatsache mit Nachdruck.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=75"
+              },
+              {
+                "ref": "9:40",
+                "arabic": "فَقَدْ نَصَرَهُ ٱللَّهُ",
+                "transliteration": "fa-qad nasarahu llāhu",
+                "note": "فَقَدْ: Die Partikelkombination فَ + قَدْ: فَ markiert die Konsequenz, قَدْ bestätigt sie. 'Dann hat Gott ihm tatsächlich geholfen.' Doppelte Diskursmarkierung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=40"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "أَلَا (alaa) — Aufmerksamkeitsmarker",
+            "content": "أَلَا leitet auf Diskursebene eine besonders wichtige Aussage ein. Es ist kein Fragepartikel, sondern ein Aufmerksamkeitssignal: 'Hört auf! / Achtung! / Wisset!' أَلَا unterbricht den laufenden Textfluss und signalisiert: Was jetzt kommt, ist zentral."
+          },
+          {
+            "type": "example",
+            "title": "أَلَا als Aufmerksamkeitsmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "13:28",
+                "arabic": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+                "transliteration": "alā bi-dhikri llāhi tatmaʾinnu l-qulūbu",
+                "note": "أَلَا leitet eine Grundsatzaussage ein: 'Wisset: Durch Gottes Gedenken finden die Herzen Ruhe.' Die Partikel hebt den Satz aus dem Kontext heraus.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=28"
+              },
+              {
+                "ref": "10:62",
+                "arabic": "أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+                "transliteration": "alā inna awliyāʾa llāhi lā khawfun ʿalayhim wa-lā hum yahzanūna",
+                "note": "أَلَا + إِنَّ: doppelte Betonung. أَلَا fordert Aufmerksamkeit, إِنَّ bestätigt die Aussage. Höchste Stufe der Diskurs-Hervorhebung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=62"
+              },
+              {
+                "ref": "11:8",
+                "arabic": "أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا عَنْهُمْ",
+                "transliteration": "alā yawma yaʾtīhim laysa masrūfan ʿanhum",
+                "note": "أَلَا warnt: 'Wisset: Am Tag, da es zu ihnen kommt, wird es nicht von ihnen abgewendet.' Diskursfunktion: Warnung mit höchster Dringlichkeit.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=8"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "إِنَّمَا (innamaa) — Restriktionsmarker",
+            "content": "إِنَّمَا schränkt auf Diskursebene eine Aussage ein: 'Es ist einzig und allein so, dass...' Es korrigiert implizit falsche Annahmen und stellt klar, was ausschließlich gilt. Auf Textebene signalisiert إِنَّمَا eine Definition oder Klarstellung."
+          },
+          {
+            "type": "example",
+            "title": "إِنَّمَا als Restriktionsmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "2:11",
+                "arabic": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا فِى ٱلْأَرْضِ قَالُوٓا إِنَّمَا نَحْنُ مُصْلِحُونَ",
+                "transliteration": "wa-idhā qīla lahum lā tufsidū fī l-ardi qālū innamā nahnu muslihūna",
+                "note": "إِنَّمَا in der Rede der Heuchler: 'Wir sind ausschließlich Verbesserer.' Die Restriktion zeigt: Sie weisen jeden anderen Vorwurf zurück.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+              },
+              {
+                "ref": "3:135",
+                "arabic": "وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ",
+                "note": "Hier إِلَّا statt إِنَّمَا — ähnliche Restriktion, aber durch Ausnahme-Syntax (Negation + إِلَّا), nicht durch Partikel. Vergleich zeigt zwei Wege der Restriktion im Arabischen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=135"
+              },
+              {
+                "ref": "9:37",
+                "arabic": "إِنَّمَا ٱلنَّسِىٓءُ زِيَادَةٌ فِى ٱلْكُفْرِ",
+                "transliteration": "innamā n-nasīʾu ziyādatun fī l-kufri",
+                "note": "إِنَّمَا definiert: Das Verschieben (der eingeschränkten Monate, الأَشْهُرُ الْحُرُمُ: حَرَام = verboten/eingeschränkt) ist nichts anderes als eine Zunahme im Verdecken. Klare Definition, keine Diskussion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=37"
+              },
+              {
+                "ref": "5:90",
+                "arabic": "إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَٰمُ رِجْسٌ مِّنْ عَمَلِ ٱلشَّيْطَٰنِ",
+                "transliteration": "innamā l-khamru wa-l-maysiru wa-l-ansābu wa-l-azlāmu rijsun min ʿamali sh-shaytāni",
+                "note": "إِنَّمَا stuft die genannten Dinge ein: Sie sind ausschließlich Schmutz aus dem Werk des Satans. Keine andere Deutung wird zugelassen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=90"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "حَتَّى (hattaa) — Kulminationsmarker",
+            "content": "حَتَّى markiert auf Diskursebene eine Grenze, ein Ziel oder einen Kulminationspunkt. Es signalisiert: Die Handlung/der Zustand setzt sich fort BIS zu diesem Punkt. Je nach syntaktischer Einbettung kann حَتَّى als Präposition (+ Genitiv), als Konjunktion (+ Subjunktiv) oder als Einleitungspartikel (+ Indikativ) funktionieren. Auf Textebene erzeugt حَتَّى Spannung: Der Leser wartet auf den Endpunkt."
+          },
+          {
+            "type": "example",
+            "title": "حَتَّى als Kulminationsmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "2:102",
+                "arabic": "وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ",
+                "transliteration": "wa-mā yuʿallimāni min ahadin hattā yaqūlā innamā nahnu fitnatun fa-lā takfur",
+                "note": "حَتَّى + Subjunktiv (يَقُولَا): 'Sie lehrten niemanden, BIS sie sagten: Wir sind nur eine Prüfung.' حَتَّى markiert die Bedingung, die erfüllt sein muss, bevor die Handlung fortschreitet.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+              },
+              {
+                "ref": "2:196",
+                "arabic": "وَلَا تَحْلِقُوا رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُ",
+                "transliteration": "wa-lā tahliqū ruʾūsakum hattā yablugha l-hadyu mahillahu",
+                "note": "حَتَّى + Subjunktiv (يَبْلُغَ): 'Rasiert eure Köpfe nicht, BIS das Opfer seinen Bestimmungsort erreicht.' Temporal-finale Grenze: Die Handlung (Nicht-Rasieren) dauert bis zum Kulminationspunkt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+              },
+              {
+                "ref": "47:35",
+                "arabic": "فَلَا تَهِنُوا وَتَدْعُوٓا إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلْأَعْلَوْنَ",
+                "transliteration": "fa-lā tahinū wa-tadʿū ilā s-salmi wa-antumu l-aʿlawna",
+                "note": "Kontext für حَتَّى in der breiteren Passage (47:31-35): Der Text baut über mehrere Verse Argumente auf, die in der Anweisung kulminieren. حَتَّى strukturiert den Diskurs als Steigerung zu einem Endpunkt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=35"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "لَكِنْ / لَكِنَّ (laakin / laakinna) — Adversativ- und Konzessionsmarker",
+            "content": "لَكِنْ (leicht, nach Negation) und لَكِنَّ (schwer, mit Inna-Syntax) markieren auf Diskursebene einen Gegensatz oder eine Einschränkung: 'aber / jedoch / allerdings.' Sie korrigieren nicht wie بَلْ (das das Vorherige annulliert), sondern fügen eine Gegenposition hinzu, ohne das Vorherige zu negieren. لَكِنَّ nimmt ein Nomen im Akkusativ (Ism von لَكِنَّ), لَكِنْ leitet einen neuen Satz ein."
+          },
+          {
+            "type": "example",
+            "title": "لَكِنْ / لَكِنَّ als Adversativmarker — Beispiele",
+            "examples": [
+              {
+                "ref": "2:12",
+                "arabic": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ",
+                "transliteration": "alā innahum humu l-mufsidūna wa-lākin lā yashʿurūna",
+                "note": "وَلَٰكِنْ führt den Gegensatz ein: Sie SIND die Verderber — aber sie merken es nicht. Der erste Teil stellt die Tatsache fest, لَكِنْ fügt die Einschränkung hinzu (sie sind sich dessen nicht bewusst).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+              },
+              {
+                "ref": "2:154",
+                "arabic": "وَلَا تَقُولُوا لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌ بَلْ أَحْيَآءٌ وَلَٰكِن لَّا تَشْعُرُونَ",
+                "transliteration": "wa-lā taqūlū li-man yuqtalu fī sabīli llāhi amwātun bal ahyāʾun wa-lākin lā tashʿurūna",
+                "note": "Hier stehen بَلْ und لَكِنْ im selben Vers — mit unterschiedlicher Funktion. بَلْ korrigiert: nicht tot, sondern lebendig. لَكِنْ schränkt ein: aber ihr nehmt es nicht wahr. بَلْ annulliert das Vorherige, لَكِنْ fügt eine Zusatzinformation hinzu.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=154"
+              },
+              {
+                "ref": "42:8",
+                "arabic": "وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِ",
+                "transliteration": "wa-law shāʾa llāhu la-jaʿalahum ummatan wāhidatan wa-lākin yudkhilu man yashāʾu fī rahmatih",
+                "note": "Irrealis (لَوْ شَاءَ ... لَ) + Konzession (وَلَٰكِنْ): 'Hätte Gott gewollt, hätte er sie zu einer einzigen Gemeinschaft gemacht — aber er lässt eintreten, wen er will.' لَكِنْ markiert den Übergang vom hypothetischen zum tatsächlichen Zustand.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=8"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "كَيْفَ (kayfa) — Interrogativ als Diskursmittel",
+            "content": "كَيْفَ (wie?) funktioniert auf Diskursebene nicht nur als echte Frage, sondern häufig als sprachliches Mittel. Sprachliches كَيْفَ signalisiert Verwunderung oder Anklage: 'Wie könnt ihr nur...?' Es leitet keinen Informationsaustausch ein, sondern eine argumentative Konfrontation. Die erwartete Antwort ist: 'Es gibt keinen Grund dafür — es ist unbegreiflich.'"
+          },
+          {
+            "type": "example",
+            "title": "كَيْفَ als Diskursmittel — Beispiele",
+            "examples": [
+              {
+                "ref": "2:28",
+                "arabic": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+                "transliteration": "kayfa takfurūna bi-llāhi wa-kuntum amwātan fa-ahyākum thumma yumītukum thumma yuhyīkum thumma ilayhi turjaʿūna",
+                "note": "Sprachliches كَيْفَ: 'WIE könnt ihr Gott verdecken, wo ihr doch tot wart und er euch belebte...?' Keine echte Frage — die Aufzählung der Taten Gottes (belebt, tötet, belebt wieder) macht die Antwort unmöglich. كَيْفَ leitet eine argumentative Konfrontation ein.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+              },
+              {
+                "ref": "3:101",
+                "arabic": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُ",
+                "transliteration": "wa-kayfa takfurūna wa-antum tutlā ʿalaykum āyātu llāhi wa-fīkum rasūluhu",
+                "note": "Wie 2:28, aber mit Hal-Sätzen (وَأَنتُمْ تُتْلَىٰ / وَفِيكُمْ): 'Wie könnt ihr verdecken, WÄHREND euch Gottes Zeichen vorgetragen werden und sein Gesandter unter euch ist?' Die Gleichzeitigkeit (Hal) verstärkt die Absurdität.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=101"
+              },
+              {
+                "ref": "4:46",
+                "arabic": "مِّنَ ٱلَّذِينَ هَادُوا يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِ",
+                "note": "Kontext für كَيْفَ in 4:44: كَيْفَ-Fragen in der Umgebung leiten eine Serie von Vorwürfen ein. كَيْفَ strukturiert hier eine argumentative Passage, in der verschiedene Verhaltensweisen als unbegreiflich markiert werden.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=46"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "discourse_analysis",
+          "prompt": "Lies 12:15-18. Identifiziere alle وَ und فَ. Welche verbinden gleichrangige Elemente (Koordination) und welche markieren Szenenwechsel (Diskursmarker)?",
+          "hint": "In der Josefserzählung wechseln Szenen schnell: die Brüder nehmen ihn mit (فَلَمَّا ذَهَبُوا بِهِ), dann Szenenwechsel zu Gott (وَأَوْحَيْنَا), dann Szenenwechsel zu den Brüdern am Abend (وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ). Jedes وَ an Szenengrenze ist ein narrativer Konnektor.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=15"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "In 23:12-14 wechseln ثُمَّ und فَ einander ab. Erkläre den Unterschied: Warum steht zwischen 'Lehm' und 'Samentropfen' ein ثُمَّ, aber zwischen 'Anhaftung' und 'Kaustück' ein فَ?",
+          "hint": "ثُمَّ markiert große Zeitsprünge (verschiedene Schöpfungsphasen), فَ markiert die rasche Abfolge innerhalb einer Phase (Embryonalentwicklung). Der Wechsel der Partikel bildet den Rhythmus ab: langsam → schnell → langsam → schnell.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=12"
+        }
+      ],
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=15"
+    },
+    {
+      "id": "discourse_2",
+      "title": "Informationsstruktur (Thema-Rhema-Gliederung)",
+      "description": "Wie das Arabische durch Wortstellung, Definitheit und Partikel signalisiert, was bereits bekannt (Thema/topic) und was neu (Rhema/comment) ist.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Thema vs. Rhema — Grundprinzip",
+            "content": "Jeder Satz besteht aus einem Thema (worüber gesprochen wird, bereits bekannt) und einem Rhema (was darüber Neues gesagt wird). Im Deutschen wird das Thema oft an den Satzanfang gestellt: 'Den Mann — den kenne ich.' Im Arabischen gibt es spezifische grammatische Mittel, um Thema und Rhema zu markieren: Wortstellung, Definitheit und bestimmte Partikel."
+          },
+          {
+            "type": "explanation",
+            "title": "Wortstellung als Informationsmarker",
+            "content": "Die Grundwortstellung im Arabischen ist VSO (Verb-Subjekt-Objekt). Wenn ein Element vor das Verb gestellt wird (Fronting/Voranstellung), wird es zum Thema — der Satz sagt etwas über dieses Element aus. Beispiel: يَعْلَمُ اللَّهُ مَا تَصْنَعُونَ (VSO, neutral: 'Gott weiß, was ihr tut'). Dagegen: وَاللَّهُ يَعْلَمُ مَا تَصْنَعُونَ (SVO, topikalisiert: 'Was Gott betrifft — er weiß, was ihr tut'). Die Voranstellung von اللَّهُ macht ihn zum Thema."
+          },
+          {
+            "type": "example",
+            "title": "Wortstellung und Informationsstruktur — Beispiele",
+            "examples": [
+              {
+                "ref": "2:255",
+                "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
+                "transliteration": "allāhu lā ilāha illā huwa l-hayyu l-qayyūmu",
+                "note": "اللَّهُ steht am Satzanfang als Thema. Alles Weitere ist Rhema (Neues über Gott): kein Gott außer ihm, der Lebendige, der Beständige. Nominalsatz: Thema (Gott) → Rhema (seine Eigenschaften).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "ref": "1:5",
+                "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+                "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīnu",
+                "note": "إِيَّاكَ (dich) ist vorangestellt — normalerweise steht das Objekt nach dem Verb. Durch die Voranstellung (Taqdīm) wird das Objekt in die informationsstrukturell markierte Anfangsposition gebracht.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+              },
+              {
+                "ref": "36:12",
+                "arabic": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+                "transliteration": "wa-kulla shayʾin ahsaynāhu fī imāmim mubīn",
+                "note": "كُلَّ شَيْءٍ (jedes Ding) ist vorangestellt, obwohl es Objekt ist. Dadurch wird es zum Thema: 'Jedes Ding — haben wir in einem klaren Verzeichnis erfasst.' Die Voranstellung betont die Vollständigkeit.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=12"
+              },
+              {
+                "ref": "2:5",
+                "arabic": "أُولَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُولَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+                "transliteration": "ulāʾika ʿalā hudan min rabbihim wa-ulāʾika humu l-muflihūna",
+                "note": "أُولَٰئِكَ (jene) als Thema: 'Jene — sie sind auf Führung.' Das Demonstrativpronomen als Topikmarker verweist auf die in den vorherigen Versen beschriebene Gruppe.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Definitheit als Informationsmarker",
+            "content": "Im Arabischen markiert der Artikel الـ ein Element als bekannt (gegeben/given). Ein indefinites Nomen (ohne Artikel, mit Tanwin) markiert neue Information. In Erzählungen wird etwas bei der ersten Erwähnung indefinit eingeführt und bei jeder weiteren Erwähnung definit weitergetragen. Dieses Muster zeigt dem Leser: definit = du kennst das schon; indefinit = das ist neu."
+          },
+          {
+            "type": "example",
+            "title": "Definitheit und Informationsfluss — Beispiele",
+            "examples": [
+              {
+                "ref": "24:35",
+                "arabic": "كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ",
+                "transliteration": "ka-mishkātin fīhā misbāhun al-misbbāhu fī zujājatin az-zujājatu kaʾannahā kawkabun durriyyun",
+                "note": "Klassisches Muster: مِشْكَاةٍ (indefinit, neu eingeführt) → مِصْبَاحٌ (indefinit, neu) → الْمِصْبَاحُ (definit, jetzt bekannt) → زُجَاجَةٍ (indefinit, neu) → الزُّجَاجَةُ (definit, jetzt bekannt). Jedes Element wird erst neu eingeführt, dann als bekannt weitergetragen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+              },
+              {
+                "ref": "2:67",
+                "arabic": "إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا بَقَرَةً",
+                "transliteration": "inna llāha yaʾmurukum an tadhbahū baqaratan",
+                "note": "بَقَرَةً (indefinit): eine Kuh — unbestimmt, neu eingeführt. Im Deutschen 'eine Kuh', nicht 'die Kuh'. Die Indefinitheit signalisiert: Dieses Element ist für den Hörer neu.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=67"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "أَمَّا ... فَ — Topikalisierungspartikel",
+            "content": "Die Konstruktion أَمَّا X فَ Y ist ein expliziter Topikalisierungsmechanismus: 'Was X betrifft — so Y.' أَمَّا hebt ein Element als Thema hervor, فَ leitet das Rhema ein. Diese Konstruktion wird besonders für Kontraste verwendet: أَمَّا A فَ ... وَأَمَّا B فَ ... ('Was A betrifft ... und was B betrifft ...')."
+          },
+          {
+            "type": "example",
+            "title": "أَمَّا ... فَ — Beispiele",
+            "examples": [
+              {
+                "ref": "93:9-11",
+                "arabic": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ ○ وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ ○ وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+                "transliteration": "fa-amma l-yatīma fa-lā taqhar ○ wa-amma s-sāʾila fa-lā tanhar ○ wa-amma bi-niʿmati rabbika fa-haddith",
+                "note": "Dreifaches أَمَّا ... فَ: Drei Themen werden nacheinander gesetzt und jeweils mit einem Rhema versehen. Was die Waise betrifft → unterdrücke nicht. Was den Fragenden betrifft → weise nicht ab. Was die Gabe deines Herrn betrifft → berichte.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=9"
+              },
+              {
+                "ref": "18:79-82",
+                "arabic": "أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ ... وَأَمَّا الْغُلَامُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ ... وَأَمَّا الْجِدَارُ فَكَانَ لِغُلَامَيْنِ يَتِيمَيْنِ",
+                "transliteration": "amma s-safīnatu fa-kānat li-masākīna ... wa-amma l-ghulāmu fa-kāna abawāhu muʾminayni ... wa-amma l-jidāru fa-kāna li-ghulāmayni yatīmayni",
+                "note": "Die Erklärung des Dieners strukturiert durch dreifaches أَمَّا: Jede der drei rätselhaften Handlungen wird als Thema gesetzt und dann erklärt. Die Struktur organisiert die Argumentation.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "information_structure",
+          "prompt": "Analysiere 1:5 (إِيَّاكَ نَعْبُدُ). Die normale Wortstellung wäre نَعْبُدُكَ (wir beten dich an). Was bewirkt die Voranstellung von إِيَّاكَ informationsstrukturell?",
+          "hint": "Durch die Voranstellung wird إِيَّاكَ (dich) zum Fokustopik — Taqdīm auf das Objekt. Die Standardwortstellung نَعْبُدُكَ hätte diese informationsstrukturelle Markierung nicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "information_structure",
+          "prompt": "In 24:35 wird مِصْبَاحٌ zuerst indefinit eingeführt und dann als الْمِصْبَاحُ definit wiederaufgenommen. Finde ein ähnliches Muster in einer anderen Sure.",
+          "hint": "Z.B. 2:67-71: بَقَرَةً (indefinit) → die weitere Beschreibung der Kuh mit definiten Bezügen. Oder 36:13-14: أَصْحَابَ الْقَرْيَةِ إِذْ جَاءَهَا الْمُرْسَلُونَ ○ إِذْ أَرْسَلْنَا إِلَيْهِمُ اثْنَيْنِ — die Gesandten werden zuerst definit (bekannt im Kontext) eingeführt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        }
+      ],
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "discourse_3",
+      "title": "Kohäsion über Versgrenzen",
+      "description": "Wie Verse syntaktisch und semantisch miteinander verbunden sind — durch Pronomen, Wiederholung, Konjunktionsketten und kontrastive Paarbildung.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Pronominale Referenz über Versgrenzen",
+            "content": "Ein Pronomen in Vers N kann sich auf ein Nomen in Vers N-1 (oder früher) beziehen. Dieses Phänomen heißt 'anaphorische Referenz' und erzeugt Kohäsion zwischen Versen. Der Leser muss den Referenten aus dem vorherigen Kontext erschließen. Im Arabischen ist dies besonders relevant, weil Pronomen oft im Verb verborgen sind (Subjektpronomen) oder als Suffixe erscheinen."
+          },
+          {
+            "type": "example",
+            "title": "Pronominale Referenz — Beispiele",
+            "examples": [
+              {
+                "ref": "2:1-3",
+                "arabic": "الم ○ ذَٰلِكَ الْكِتَابُ لَا رَيْبَ  فِيهِ  هُدًى لِّلْمُتَّقِينَ ○ الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ",
+                "transliteration": "alif lām mīm ○ dhālika l-kitābu lā rayba fīhi hudan li-l-muttaqīna ○ alladhīna yuʾminūna bi-l-ghaybi",
+                "note": "فِيهِ (in ihm) in Vers 2 bezieht sich auf الْكِتَابُ im selben Vers. الَّذِينَ (die) in Vers 3 bezieht sich auf الْمُتَّقِينَ am Ende von Vers 2. Pronominale Brücke über die Versgrenze.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+              },
+              {
+                "ref": "56:75-76",
+                "arabic": "فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ ○ وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+                "transliteration": "fa-lā uqsimu bi-mawāqiʿi n-nujūmi ○ wa-innahu la-qasamun law taʿlamūna ʿazīmun",
+                "note": "إِنَّهُ (es/er ist) in Vers 76 — worauf bezieht sich هُ? Auf den Schwur selbst (قَسَم), der in Vers 75 eingeleitet wird. Das Pronomen überbrückt die Versgrenze und kommentiert den vorherigen Vers.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=75"
+              },
+              {
+                "ref": "91:1-7",
+                "arabic": "وَالشَّمْسِ وَضُحَاهَا ○ وَالْقَمَرِ إِذَا تَلَاهَا ○ ... ○ وَنَفْسٍ وَمَا سَوَّاهَا",
+                "transliteration": "wa-sh-shamsi wa-duhāhā ○ wa-l-qamari idhā talāhā ○ ... ○ wa-nafsin wa-mā sawwāhā",
+                "note": "Kette von Pronominalreferenzen: ضُحَاهَا (ihr Glanz) bezieht sich auf الشَّمْس, تَلَاهَا (ihr folgt) bezieht sich ebenfalls auf الشَّمْس. Jeder Vers hängt pronominal am vorherigen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Lexikalische Kohäsion — Wiederholung und Variation",
+            "content": "Verse werden durch die Wiederholung von Schlüsselwörtern verbunden (lexikalische Kohäsion). Dabei gibt es exakte Wiederholung (dasselbe Wort) und Variation (verschiedene Formen derselben Wurzel oder Synonyme). Wiederholung schafft thematische Einheit; Variation treibt den Gedanken voran."
+          },
+          {
+            "type": "example",
+            "title": "Lexikalische Kohäsion — Beispiele",
+            "examples": [
+              {
+                "ref": "2:6-7",
+                "arabic": "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ ○ خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ  وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ",
+                "note": "Lexikalische Kohäsion durch Steigerung: Vers 6 nennt die Tat (كَفَرُوا / sie verdeckten), Vers 7 beschreibt die Konsequenz (خَتَمَ / versiegelt). Die Wurzeln wechseln, aber das semantische Feld (Verschließen, Verdecken) bleibt — Kohäsion durch semantische Verwandtschaft.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+              },
+              {
+                "ref": "55:1-4",
+                "arabic": "الرَّحْمَٰنُ ○ عَلَّمَ الْقُرْآنَ ○ خَلَقَ الْإِنسَانَ ○ عَلَّمَهُ الْبَيَانَ",
+                "transliteration": "ar-rahmānu ○ ʿallama l-qurʾāna ○ khalaqa l-insāna ○ ʿallamahu l-bayāna",
+                "note": "Wiederholung von عَلَّمَ (er lehrte) in Vers 2 und 4 rahmt die Erschaffung des Menschen (Vers 3) ein. Lexikalische Kohäsion durch Wiederholung mit Rahmenbildung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Konjunktionsketten",
+            "content": "Lange Ketten von وَ...وَ...فَ... verbinden Verse zu größeren Einheiten. Diese Ketten können einen Schwur (وَ-Kette), eine Aufzählung oder eine Erzählsequenz bilden. Die Kette endet oft mit einem فَ oder einer anderen Partikel, die den Abschluss signalisiert."
+          },
+          {
+            "type": "example",
+            "title": "Konjunktionsketten — Beispiele",
+            "examples": [
+              {
+                "ref": "91:1-10",
+                "arabic": "وَالشَّمْسِ ... ○ وَالْقَمَرِ ... ○ وَالنَّهَارِ ... ○ وَاللَّيْلِ ... ○ وَالسَّمَاءِ ... ○ وَالْأَرْضِ ... ○ وَنَفْسٍ ... ○ ... ○ قَدْ أَفْلَحَ مَن زَكَّاهَا ○ وَقَدْ خَابَ مَن دَسَّاهَا",
+                "note": "Sieben Schwurverse mit وَ, dann das Ergebnis (قَدْ أَفْلَحَ). Die وَ-Kette baut Spannung auf; das Ergebnis löst sie auf. Die gesamte Kette ist eine syntaktische Einheit über zehn Verse.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+              },
+              {
+                "ref": "79:1-14",
+                "arabic": "وَالنَّازِعَاتِ غَرْقًا ○ وَالنَّاشِطَاتِ نَشْطًا ○ وَالسَّابِحَاتِ سَبْحًا ○ فَالسَّابِقَاتِ سَبْقًا ○ فَالْمُدَبِّرَاتِ أَمْرًا",
+                "transliteration": "wa-n-nāziʿāti gharqan ○ wa-n-nāshitāti nashtan ○ wa-s-sābihāti sabhan ○ fa-s-sābiqāti sabqan ○ fa-l-mudabbirāti amran",
+                "note": "Wechsel von وَ zu فَ in der Mitte der Kette: Die ersten drei Glieder sind koordiniert (وَ), die letzten zwei sind Konsequenzen (فَ). Der Partikelwechsel innerhalb der Kette signalisiert eine logische Stufung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Kontrastive Paarbildung über Verse",
+            "content": "Der quranische Text stellt häufig zwei Gruppen oder Zustände kontrastiv nebeneinander. Diese kontrastiven Paare erstrecken sich über mehrere Verse und bilden eine enge textliche Einheit. Typische Paare: Vertrauende vs. die, die verdecken; Garten vs. Feuer; Licht vs. Finsternis."
+          },
+          {
+            "type": "example",
+            "title": "Kontrastive Paarbildung — Beispiele",
+            "examples": [
+              {
+                "ref": "2:2-5 vs. 2:6-7",
+                "arabic": "هُدًى لِّلْمُتَّقِينَ ... أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ○○ إِنَّ الَّذِينَ كَفَرُوا ... خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ",
+                "note": "Verse 2-5 beschreiben die Muttaqiin (Thema + positives Rhema), Verse 6-7 beschreiben die Kafiruun (Thema + negatives Rhema). Parallele Struktur, kontrastiver Inhalt. Die beiden Blöcke sind als Paar konzipiert.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+              },
+              {
+                "ref": "56:10-26 vs. 56:41-56",
+                "arabic": "وَالسَّابِقُونَ السَّابِقُونَ ... ○○ وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ",
+                "note": "Die Vorauseilenden (56:10ff) vs. die Leute der Linken (56:41ff): Dieselbe syntaktische Frage-Struktur (مَا أَصْحَابُ ...), aber kontrastiver Inhalt. Parallele Form, gegensätzliche Aussage.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=10"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "pronoun_reference",
+          "prompt": "In 56:76 steht وَإِنَّهُ لَقَسَمٌ عَظِيمٌ. Worauf bezieht sich das Pronomen هُ?",
+          "hint": "Es bezieht sich auf den in 56:75 eingeleiteten Schwurakt (فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ). Das هُ verweist auf den gesamten vorherigen Vers.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=76"
+        },
+        {
+          "type": "cohesion_analysis",
+          "prompt": "Lies 91:1-10 als eine zusammenhängende Einheit. Welches syntaktische Mittel hält die Verse zusammen? Wo beginnt der Hauptsatz, auf den die gesamte وَ-Kette hinarbeitet?",
+          "hint": "Die وَ-Kette (Schwüre) läuft von Vers 1 bis 7. Die Antwort auf den Schwur (jawab al-qasam) beginnt in Vers 9: قَدْ أَفْلَحَ. Die sieben Verse vor dem Hauptsatz sind syntaktisch alle von diesem Hauptsatz abhängig.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+        }
+      ],
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "id": "discourse_4",
+      "title": "Sura-Struktur",
+      "description": "Wie Suren als Ganzes organisiert sind — durch Ringkomposition, thematische Wechsel, Eröffnungs- und Schlussformeln und Refrainstrukturen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Ringkomposition (Chiasmus auf Sura-Ebene)",
+            "content": "Ringkomposition ist ein Strukturprinzip, bei dem der Text in konzentrischen Ringen aufgebaut ist: A-B-C-B'-A'. Das Zentrum (C) bildet den thematischen Kern, die äußeren Ringe (A/A', B/B') spiegeln einander. Dieses Prinzip lässt sich in vielen Suren beobachten. Es ist ein rein strukturelles Phänomen, das durch lexikalische und thematische Parallelen nachweisbar ist."
+          },
+          {
+            "type": "example",
+            "title": "Ringkomposition — Beispiele",
+            "examples": [
+              {
+                "ref": "Sure 2 (al-Baqara) — Makrostruktur",
+                "arabic": "",
+                "note": "Sure 2 zeigt eine Ringstruktur auf höchster Ebene: A (2:1-20): Drei Menschengruppen — B (2:21-39): Adam-Erzählung — C (2:40-103): Bani Israil — D (2:104-141): Qibla-Wechsel und Ibrahim — C' (2:142-176): Qibla und Gemeinschaft — B' (2:177-283): Gesetze und Gesellschaft — A' (2:284-286): Abschluss. Die äußeren Ringe (A/A') behandeln Glaube und Grundhaltung, die inneren Ringe führen zum Zentrum: Ibrahim und die Qibla.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+              },
+              {
+                "ref": "Sure 5 (al-Maʿida) — Ringstruktur",
+                "arabic": "",
+                "note": "A (5:1-11): Verträge und Verpflichtungen — B (5:12-26): Bani Israil und ihr Vertrag — C (5:27-34): die zwei Söhne Adams (ابْنَيْ آدَمَ) — Gewalt und Konsequenz — C ist das Zentrum — B' (5:35-50): Gesetze und Urteile — A' (5:51-120): Verträge mit Ahl al-Kitab. Äußere Schicht: Verträge, innere Schicht: Narrativ, Zentrum: Urgeschichte.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Thematische Wechsel — Signalpartikel",
+            "content": "Thematische Wechsel innerhalb einer Sure werden oft durch bestimmte Partikel oder Formeln signalisiert. يَا أَيُّهَا (O ihr...) leitet einen neuen Adressaten und damit ein neues Thema ein. وَإِذْ (und als...) leitet eine Rückblende ein. قُلْ (sprich!) wechselt zum Imperativ. أَلَمْ (ist nicht...?) wechselt zum sprachlichen Argument. Diese Signale segmentieren die Sure in Abschnitte."
+          },
+          {
+            "type": "example",
+            "title": "Thematische Signalpartikel — Beispiele",
+            "examples": [
+              {
+                "ref": "Sure 2",
+                "arabic": "",
+                "note": "يَا أَيُّهَا النَّاسُ (2:21) — Wechsel von der Beschreibung der drei Gruppen zur Anrede an die Menschen. يَا بَنِي إِسْرَائِيلَ (2:40) — Wechsel zur Anrede an die Kinder Israels. وَإِذْ قَالَ رَبُّكَ (2:30) — Rückblende zur Erschaffung Adams. Jedes Signal markiert einen neuen Abschnitt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "ref": "Sure 3",
+                "arabic": "",
+                "note": "قُلْ erscheint in 3:12, 3:15, 3:20, 3:26, 3:29, 3:31, 3:32 als wiederkehrender Imperativ. Jedes قُلْ leitet ein neues Argument oder eine neue Aufforderung ein. Die قُلْ-Serie gliedert den ersten Teil der Sure.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=12"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Eröffnungs- und Schlussformeln",
+            "content": "Viele Suren beginnen und enden mit festen Formeln, die den Text rahmen. Eröffnungsformeln: Einzelbuchstaben (الم, طه, يس), Schwüre (وَالعَصْر), Lobpreis (الحَمْدُ لِلَّهِ, سُبْحَانَ, تَبَارَكَ). Schlussformeln: Bittgebete, Lobpreis, abschließende Zusammenfassungen. Die Eröffnung setzt den Ton, die Schlussformel rundet ab."
+          },
+          {
+            "type": "example",
+            "title": "Eröffnungs- und Schlussformeln — Beispiele",
+            "examples": [
+              {
+                "ref": "Sure 1 (al-Fatiha)",
+                "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ... صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+                "note": "Eröffnung: Lobpreis (الْحَمْدُ لِلَّهِ). Schluss: Bittgebet. Die Sure bildet einen Bogen von der Anerkennung Gottes zur Bitte an ihn."
+              },
+              {
+                "ref": "Sure 2",
+                "arabic": "الم ... رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا (2:286)",
+                "note": "Eröffnung: Einzelbuchstaben + Aussage über das Buch. Schluss: Bittgebet der Vertrauenden. Der Rahmen: Das Buch wird vorgestellt (Anfang) — die Gemeinschaft antwortet (Ende)."
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Refrainstrukturen",
+            "content": "Einige Suren verwenden einen wiederkehrenden Refrain, der die Sure in Abschnitte gliedert und thematisch zusammenhält. Der Refrain ist ein starkes Kohäsionsmittel: Er erinnert nach jedem Abschnitt an das Leitthema und erzeugt einen Rhythmus."
+          },
+          {
+            "type": "example",
+            "title": "Refrainstrukturen — Beispiele",
+            "examples": [
+              {
+                "ref": "Sure 55 (ar-Rahman)",
+                "arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+                "transliteration": "fa-bi-ayyi ālāʾi rabbikumā tukadhdhibāni",
+                "note": "Dieser Refrain erscheint 31 Mal in Sure 55. Er gliedert die Sure in Abschnitte: Schöpfung (1-13), Erschaffung von Mensch und Jinn (14-25), Gottes Macht (26-30), das Spätere (31-77). Nach jedem Abschnitt: der Refrain. Diskursfunktion: Jeder Abschnitt wird als 'Gabe' (آلَاء) gerahmt."
+              },
+              {
+                "ref": "Sure 77 (al-Mursalat)",
+                "arabic": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+                "transliteration": "waylun yawmaʾidhin li-l-mukadhdhibīna",
+                "note": "Dieser Refrain ('Wehe an jenem Tag den Leugnern') erscheint 10 Mal. Er trennt Abschnitte zu Schöpfung, Zerstörung und das Spätere und erzeugt eine eindringliche Wiederholung."
+              },
+              {
+                "ref": "Sure 54 (al-Qamar)",
+                "arabic": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+                "transliteration": "wa-laqad yassarnā l-qurʾāna li-dh-dhikri fa-hal min muddakir",
+                "note": "Dieser Refrain ('Wir haben den Quran leicht gemacht zum Gedenken — gibt es also einen, der gedenkt?') erscheint 4 Mal (54:17, 22, 32, 40). Er trennt die Erzählungen von Nuh, ʿAad, Thamud und Lut und fragt nach jedem Beispiel erneut.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=17"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "structure_analysis",
+          "prompt": "Lies Sure 55 und zähle die Vorkommen des Refrains فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ. Welche thematischen Abschnitte trennt der Refrain?",
+          "hint": "Der Refrain erscheint 31 Mal. Hauptabschnitte: Schöpfung und Lehre (1-13), Erschaffung aus Lehm und Feuer (14-25), Vergänglichkeit und Gottes Bestand (26-30), zwei Gärten für die sich Hütenden (31-61), zwei weitere Gärten (62-77). Der Refrain markiert den Übergang zwischen diesen Abschnitten."
+        },
+        {
+          "type": "structure_analysis",
+          "prompt": "Identifiziere in Sure 2 die Stellen, an denen يَا أَيُّهَا erscheint. Welche thematischen Wechsel signalisiert diese Formel?",
+          "hint": "يَا أَيُّهَا النَّاسُ (2:21): Wechsel von Beschreibung zu Anrede. يَا أَيُّهَا الَّذِينَ آمَنُوا erscheint in 2:104, 2:153, 2:172, 2:178, 2:183, 2:254, 2:264, 2:267, 2:278, 2:282. Jedes Vorkommen leitet einen neuen Regelabschnitt ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+        }
+      ],
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "id": "discourse_5",
+      "title": "Textstruktur und Prämissenketten",
+      "description": "Wie der quranische Text Textsequenzen aufbaut — durch Prämisse-Schluss-Muster, textuelle Stützungsketten, Erzählung als Textstruktur und kontrastive Parallelstrukturen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Prämisse → Schlussfolgerung",
+            "content": "Viele quranische Passagen folgen einer argumentativen Struktur: Erst werden Prämissen aufgestellt (Beobachtungen, Tatsachen), dann wird eine Schlussfolgerung gezogen. Die Schlussfolgerung wird oft durch فَ (also, daher) eingeleitet. Manchmal wird die Schlussfolgerung vorangestellt und die Prämissen folgen als Begründung (eingeleitet durch إِنَّ oder أَنَّ)."
+          },
+          {
+            "type": "example",
+            "title": "Prämisse → Schlussfolgerung — Beispiele",
+            "examples": [
+              {
+                "ref": "56:57-62",
+                "arabic": "نَحْنُ خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ ○ أَفَرَأَيْتُم مَّا تُمْنُونَ ○ أَأَنتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ ○ نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ ... ○ وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+                "transliteration": "nahnu khalaqnākum fa-law-lā tusaddiqūna ○ a-fa-raʾaytum mā tumnūna ○ a-antum takhluqūnahu am nahnu l-khāliqūna ...",
+                "note": "Prämisse 1: 'Wir haben euch erschaffen' (56:57). Prämisse 2: 'Habt ihr gesehen, was ihr (als Samen) ergießt? Erschafft ihr es oder wir?' (56:58-59). Prämisse 3: 'Ihr kennt die erste Erschaffung' (56:62). Schlussfolgerung (durch فَلَوْلَا): 'Warum bestätigt/bedenkt ihr dann nicht?' Die Textstruktur ist: Beobachtung → Frage ohne Antworterwartung → Schluss.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=57"
+              },
+              {
+                "ref": "22:5-7",
+                "arabic": "يَا أَيُّهَا النَّاسُ إِن كُنتُمْ فِي رَيْبٍ مِّنَ الْبَعْثِ فَإِنَّا خَلَقْنَاكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ... ○ ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ وَأَنَّهُ يُحْيِي الْمَوْتَىٰ",
+                "note": "Prämisse (eingeleitet durch إِن: 'Wenn ihr zweifelt'): Die Erschaffungsetappen als textuelle Stützung. Schlussfolgerung (eingeleitet durch ذَٰلِكَ بِأَنَّ): 'Das (ist so), weil Gott die Wahrheit ist und die Toten belebt.' Die Textstruktur: Zweifel → empirische Beobachtung (Embryologie) → Schlussfolgerung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=5"
+              },
+              {
+                "ref": "88:17-20",
+                "arabic": "أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ ○ وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ ○ وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ ○ وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
+                "transliteration": "a-fa-lā yanzurūna ilā l-ibili kayfa khuliqat ○ wa-ilā s-samāʾi kayfa rufiʿat ○ wa-ilā l-jibāli kayfa nusibat ○ wa-ilā l-ardi kayfa sutihat",
+                "note": "Vier Frage ohne Antworterwartungen als Prämissenkette: Kamele, Himmel, Berge, Erde — jeweils mit كَيْفَ (wie). Die Frage ohne Antworterwartungen sind als Prämissenkette strukturiert; die Schlussfolgerung bleibt dem Rezipienten überlassen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=17"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Sprachliche Fragen als Textstrukturmittel",
+            "content": "Sprachliche Fragen sind keine echten Fragen — sie erwarten keine Antwort, sondern führen den Leser zur impliziten Schlussfolgerung. Im quranischen Text dienen sie als Prämissen in Textsequenzen. Typische Formen: أَفَلَا (sehen/bedenken sie denn nicht?), أَلَمْ (haben sie nicht?), أَفَرَأَيْتُم (habt ihr gesehen?)."
+          },
+          {
+            "type": "example",
+            "title": "Sprachliche Fragen in Textsequenzen — Beispiele",
+            "examples": [
+              {
+                "ref": "56:63-72",
+                "arabic": "أَفَرَأَيْتُم مَّا تَحْرُثُونَ ○ أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ ○ ... ○ أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ ○ أَأَنتُمْ أَنزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنزِلُونَ ○ ... ○ أَفَرَأَيْتُمُ النَّارَ الَّتِي تُورُونَ",
+                "note": "Dreifache أَفَرَأَيْتُم-Kette: Saat, Wasser, Feuer. Jede Frage ist eine Prämisse: 'Erschafft ihr das — oder wir?' Die Frage ohne Antworterwartungen sind als Prämissenkette strukturiert; die Schlussfolgerung bleibt dem Rezipienten überlassen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=63"
+              },
+              {
+                "ref": "67:16-19",
+                "arabic": "أَأَمِنتُم مَّن فِي السَّمَاءِ أَن يَخْسِفَ بِكُمُ الْأَرْضَ ... ○ أَمْ أَمِنتُم مَّن فِي السَّمَاءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا ... ○ وَلَقَدْ كَذَّبَ الَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ ○ أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ",
+                "note": "Kette von Frage ohne Antworterwartungen: أَأَمِنتُم ... أَمْ أَمِنتُم ... فَكَيْفَ ... أَوَلَمْ يَرَوْا. Jede Frage verstärkt die Textsequenz. Die Vögel (67:19) sind eine empirische Beobachtung als textuelle Stützung: Wer hält sie oben, wenn nicht Gott?",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=16"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Erzählung als Textstruktur (Qisas-Struktur)",
+            "content": "Der quranische Text verwendet Erzählungen (قِصَص) nicht nur als Geschichten, sondern als textuelle Stützung. Eine Erzählung dient als narrativer Beleg für eine These. Die Struktur ist: These → Erzählung als Beleg → Schlussfolgerung. Oft wird nach der Erzählung explizit die Lehre formuliert."
+          },
+          {
+            "type": "example",
+            "title": "Erzählung als Textstruktur — Beispiele",
+            "examples": [
+              {
+                "ref": "26:10-68",
+                "arabic": "وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰ أَنِ ائْتِ الْقَوْمَ الظَّالِمِينَ ... ○ إِنَّ فِي ذَٰلِكَ لَآيَةً  وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ",
+                "note": "Musa-Erzählung in Sure 26: Nach der Erzählung folgt der Kommentar إِنَّ فِي ذَٰلِكَ لَآيَةً ('Darin ist ein Zeichen'). Die Erzählung ist nicht Selbstzweck, sondern textuelle Stützung. Derselbe Kommentar (إِنَّ فِي ذَٰلِكَ لَآيَةً) erscheint nach jeder Erzählung in Sure 26 (Verse 8, 67, 103, 121, 139, 158, 174, 190).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=10"
+              },
+              {
+                "ref": "12:111",
+                "arabic": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُولِى ٱلْأَلْبَٰبِ",
+                "transliteration": "laqad kāna fī qasasihim ʿibratun li-ulī l-albābi",
+                "note": "Am Ende der Josefserzählung die explizite Formulierung: 'In ihren Erzählungen ist eine Lehre für die Verständigen.' Der Text benennt hier selbst die textstrukturelle Funktion der Erzählung: Narrative dienen als عِبْرَة (Lehre, wörtlich: Übergang — von der Geschichte zur Einsicht).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=111"
+              },
+              {
+                "ref": "59:2",
+                "arabic": "فَٱعْتَبِرُوا يَٰٓأُولِى ٱلْأَبْصَٰرِ",
+                "transliteration": "fa-ʿtabirū yā ulī l-absāri",
+                "note": "Nach der Erzählung über die vertriebenen Schriftbesitzer (59:2-4): 'So zieht eine Lehre daraus, ihr Verständigen.' فَ markiert die Schlussfolgerung, اعْتَبِرُوا (von der Wurzel ع-ب-ر: überqueren, passieren) bedeutet: Geht von der Erzählung zur Erkenntnis über.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=2"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Kontrastpaare als Textstruktur",
+            "content": "Der quranische Text stellt Gruppen, Zustände oder Handlungen parallel und kontrastiv nebeneinander, um eine Textsequenz zu verstärken. Die Parallelstruktur zwingt den Leser zum Vergleich; der Kontrast macht die Schlussfolgerung unausweichlich. Typische Paare: Vertrauende und ihre Belohnung vs. Verdeckende und ihre Konsequenz."
+          },
+          {
+            "type": "example",
+            "title": "Kontrastpaare als Textstruktur — Beispiele",
+            "examples": [
+              {
+                "ref": "47:12",
+                "arabic": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ وَٱلَّذِينَ كَفَرُوا يَتَمَتَّعُونَ وَيَأْكُلُونَ كَمَا تَأْكُلُ ٱلْأَنْعَٰمُ وَٱلنَّارُ مَثْوًى لَّهُمْ",
+                "note": "Parallele Struktur: الَّذِينَ آمَنُوا → Gärten vs. الَّذِينَ كَفَرُوا → Feuer. Dieselbe syntaktische Form (Relativsatz + Konsequenz), kontrastiver Inhalt. Die Textstruktur entsteht durch den Vergleich: Gleiche Form, gegensätzliches Ergebnis.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=12"
+              },
+              {
+                "ref": "3:116-117",
+                "arabic": "إِنَّ الَّذِينَ كَفَرُوا لَن تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُم مِّنَ اللَّهِ شَيْئًا ... ○ مَثَلُ مَا يُنفِقُونَ فِي هَٰذِهِ الْحَيَاةِ الدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوا أَنفُسَهُمْ فَأَهْلَكَتْهُ",
+                "note": "Textstruktur: These (ihr Besitz nützt nicht) → Gleichnis als Beleg (wie ein eisiger Wind, der die Ernte zerstört). Das Gleichnis ist kein Schmuck, sondern ein textueller Baustein: Es macht die These anschaulich.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=116"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "argument_mapping",
+          "prompt": "Lies 56:57-74. Identifiziere die drei أَفَرَأَيْتُم-Fragen und die Prämissen, die sie aufstellen. Welche Schlussfolgerung ergibt sich kumulativ?",
+          "hint": "1. Saat (56:63-65): Ihr pflanzt, aber Gott lässt wachsen. 2. Wasser (56:68-70): Ihr trinkt, aber Gott sendet es herab. 3. Feuer (56:71-72): Ihr zündet an, aber Gott hat den Baum erschaffen. Kumulative Schlussfolgerung: Der Mensch ist in keinem Bereich der eigentliche Schöpfer — فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ (56:74): 'So preise den Namen deines gewaltigen Herrn.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=57"
+        },
+        {
+          "type": "argument_mapping",
+          "prompt": "In Sure 26 erscheint nach jeder Verkündererzählung der Satz إِنَّ فِي ذَٰلِكَ لَآيَةً. Welche Funktion hat dieser Satz in der Textstruktur der Sure?",
+          "hint": "Er markiert explizit die textstrukturelle Funktion der Erzählung: Jede Geschichte ist ein 'Zeichen' (آيَة) — eine textuelle Stützung für die Hauptthese. Die Wiederholung nach jeder Erzählung zeigt: Die Stützungen häufen sich, die Textsequenz wird dichter."
+        },
+        {
+          "type": "discourse_analysis",
+          "prompt": "Analysiere 47:12. Identifiziere die Parallelstruktur zwischen den beiden Gruppen. Welche syntaktischen Mittel erzeugen den Kontrast?",
+          "hint": "Vertrauende: إِنَّ + الَّذِينَ آمَنُوا + Konsequenz (Gärten). Verdeckende: وَ + الَّذِينَ كَفَرُوا + Konsequenz (Feuer). Parallele Relativsätze, parallele Konsequenzen, kontrastiver Inhalt. Das وَ zwischen den Teilen koordiniert und kontrastiert zugleich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=12"
+        },
+        {
+          "type": "topic_comment",
+          "prompt": "In 93:9-11 steht eine أَمَّا...فَ-Struktur. Bestimme für jeden der drei Sätze Thema (was nach أَمَّا steht) und Rhema (was nach فَ steht). Warum ist diese Struktur hier gewählt?",
+          "hint": "Vers 9: Thema = الْيَتِيمَ (die Waise), Rhema = فَلَا تَقْهَرْ (unterdrücke nicht). Vers 10: Thema = السَّائِلَ (der Fragende), Rhema = فَلَا تَنْهَرْ (weise nicht ab). Vers 11: Thema = بِنِعْمَةِ رَبِّكَ (die Gabe deines Herrn), Rhema = فَحَدِّثْ (berichte). Die أَمَّا-Struktur setzt drei Themen nebeneinander und ordnet jedem eine Handlung zu — klare, parallele Gliederung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=9"
+        }
+      ],
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=57"
+    }
+  ]
+}

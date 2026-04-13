@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "title": "Rasm-zu-Vokalisation Drill — Erweiterung",
+    "description": "50 zusätzliche Übungen: Vom reinen Konsonantentext zur grammatisch begründeten Vokalisation in 5 Schritten.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "rv11",
+      "rasm": "الله",
+      "location": "1:2",
+      "steps": {
+        "wordType": "Nomen (Eigenname)",
+        "root": "ا-ل-ه",
+        "form": "Eigenname mit Artikel",
+        "syntacticRole": "Mudaf ilayh (Genitiv nach لِ in لِلَّهِ)",
+        "vocalization": "اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      },
+      "explanation": "الله (Gott) im Genitiv wegen der Präposition لِ. Die Schadda auf dem Lam ist ein festes Merkmal des Wortes. Genitiv → Kasra.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "rv12",
+      "rasm": "الرحمن",
+      "location": "1:1",
+      "steps": {
+        "wordType": "Adjektiv/Nomen",
+        "root": "ر-ح-م",
+        "form": "Muster فَعْلَان (intensiv)",
+        "syntacticRole": "Badal/Sifa zu الله (Genitiv)",
+        "vocalization": "الرَّحْمَٰنِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+      },
+      "explanation": "ال + رَحْمَان (der Barmherzige, Muster فَعْلان von ر-ح-م). Genitiv wegen بِسْمِ → Kasra. Das Alif Khanjariyya (ٰ) über dem Mim zeigt einen langen Vokal, der im Rasm kein volles Alif hat.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "rv13",
+      "rasm": "نستعين",
+      "location": "1:5",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ع-و-ن",
+        "form": "Form X (استفعل), Imperfekt, 1. Person Plural",
+        "syntacticRole": "Fi'l (Verb, Prädikat)",
+        "vocalization": "نَسْتَعِينُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+      },
+      "explanation": "نَـ (Imperfekt-Präfix 1.Pl.) + ستعين (Form X von ع-و-ن). Der mittlere Radikal Waw wird zum langen Vokal ii (hohles Verb in Form X). Indikativ → Damma-Endung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": "rv14",
+      "rasm": "انعمت",
+      "location": "1:7",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ن-ع-م",
+        "form": "Form IV (أفعل), Perfekt, 2. Person maskulin Singular",
+        "syntacticRole": "Fi'l + Faʿil (Verb + Subjekt im Relativsatz)",
+        "vocalization": "أَنْعَمْتَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+      },
+      "explanation": "أَنْعَمَ (Form IV Perfekt: Gunst erweisen) + تَ (2ms-Suffix). Im Relativsatz الذين انعمت عليهم. Sukun auf dem Mim vor dem Suffix-Ta.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": "rv15",
+      "rasm": "يومنون",
+      "location": "2:3",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ا-م-ن",
+        "form": "Form IV (أفعل), Imperfekt, 3. Person maskulin Plural",
+        "syntacticRole": "Sila (Relativsatz, Prädikat zu الذين)",
+        "vocalization": "يُؤْمِنُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+      },
+      "explanation": "يُـ (Präfix 3mp Form IV) + ؤمن (ا-م-ن mit Hamza auf Waw-Sitz). Form IV Imperfekt hat Damma-Präfix. Die Nun am Ende zeigt Indikativ des Plurals.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "id": "rv16",
+      "rasm": "ينفقون",
+      "location": "2:3",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ن-ف-ق",
+        "form": "Form IV (أنفق), Imperfekt, 3. Person maskulin Plural",
+        "syntacticRole": "Fi'l im Relativsatz (Prädikat zu الذين)",
+        "vocalization": "يُنفِقُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+      },
+      "explanation": "يُـ (Präfix 3mp Form IV) + نفق. Form IV mit Damma-Präfix und Kasra auf dem zweiten Radikal. Indikativ → Nun am Ende erhalten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "id": "rv17",
+      "rasm": "انزل",
+      "location": "2:4",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ن-ز-ل",
+        "form": "Form IV (أنزل), Perfekt Passiv, 3. Person maskulin Singular",
+        "syntacticRole": "Fi'l im Relativsatz (was herabgesandt wurde zu dir)",
+        "vocalization": "أُنزِلَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+      },
+      "explanation": "Form IV Perfekt Passiv: Damma auf dem Hamza, Kasra auf dem zweiten Radikal, Fatha auf dem letzten. Passiv erkennbar am Vokal-Muster u-i-a.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "id": "rv18",
+      "rasm": "ختم",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Verb",
+        "root": "خ-ت-م",
+        "form": "Form I, Perfekt, 3. Person maskulin Singular",
+        "syntacticRole": "Fi'l (Verb, Prädikat)",
+        "vocalization": "خَتَمَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "خَتَمَ (er versiegelte). Form I Perfekt, Vokalklasse a-i. Aber im Perfekt 3ms sind alle drei Radikale mit Fatha: خَتَمَ. Faʿil ist الله.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv19",
+      "rasm": "قلوب",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ق-ل-ب",
+        "form": "Gebrochener Plural, Muster فُعُول",
+        "syntacticRole": "Jarr/Majrur (Genitiv nach على)",
+        "vocalization": "قُلُوبِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "قُلُوب (Herzen), gebrochener Plural von قَلْب. Muster فُعُول. Genitiv wegen على → Kasra auf dem Ba. Als Mudaf gefolgt von هِم.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv20",
+      "rasm": "سمع",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "س-م-ع",
+        "form": "Masdar Form I, Muster فَعْل",
+        "syntacticRole": "Jarr/Majrur (Genitiv nach على)",
+        "vocalization": "سَمْعِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "سَمْع (Gehör/Hören), Masdar von س-م-ع. Genitiv wegen وَعَلَى سَمْعِهِم. Kasra auf dem Ayn.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv21",
+      "rasm": "ابصر",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ب-ص-ر",
+        "form": "Plural, Muster أفعال",
+        "syntacticRole": "Jarr/Majrur (Genitiv nach على)",
+        "vocalization": "أَبْصَارِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "أَبْصَار (Augen/Sehvermögen), Plural von بَصَر. Muster أَفْعَال. Genitiv wegen على → Kasra auf dem Ra.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv22",
+      "rasm": "غشوه",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "غ-ش-و",
+        "form": "Masdar/Nomen, Muster فِعَاوَة",
+        "syntacticRole": "Mubtada oder Khabar (Nominativ)",
+        "vocalization": "غِشَاوَةٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "غِشَاوَة (Schleier/Bedeckung), Nomen von غ-ش-و. Nominativ → Damma (mit Tanwin, da indefinit). Die Ta Marbuta zeigt feminin Singular.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv23",
+      "rasm": "عذاب",
+      "location": "2:7",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ع-ذ-ب",
+        "form": "Masdar Form I, Muster فَعَال",
+        "syntacticRole": "Mubtada oder Khabar (Nominativ)",
+        "vocalization": "عَذَابٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+      },
+      "explanation": "عَذَاب (Strafe/Qual), Masdar von ع-ذ-ب, Muster فَعَال. Nominativ → Damma + Tanwin (indefinit). Als Khabar/Mubtada im Nominalsatz ولهم عذاب عظيم.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "rv24",
+      "rasm": "يقول",
+      "location": "2:8",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ق-و-ل",
+        "form": "Form I, Imperfekt, 3. Person maskulin Singular",
+        "syntacticRole": "Fi'l (Verb)",
+        "vocalization": "يَقُولُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+      },
+      "explanation": "يَقُول (er sagt). Form I Imperfekt von ق-و-ل (hohles Verb, mittlerer Radikal Waw wird zum langen Vokal uu). Vokalklasse a-u. Indikativ → Damma.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "rv25",
+      "rasm": "امنا",
+      "location": "2:8",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ا-م-ن",
+        "form": "Form IV (آمن), Perfekt, 1. Person Plural",
+        "syntacticRole": "Fi'l + Faʿil (Verb + implizites Subjekt)",
+        "vocalization": "آمَنَّا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+      },
+      "explanation": "آمَنَ (Form IV: glauben/vertrauen) + نَا (1. Pl. Suffix). Das Alif Madda (آ) am Anfang ist Hamza + Alif. Die Schadda auf dem Nun entsteht durch Assimilation der Perfekt-Endung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "rv26",
+      "rasm": "مومنين",
+      "location": "2:8",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "ا-م-ن",
+        "form": "Aktives Partizip Form IV, maskulin Plural",
+        "syntacticRole": "Khabar (Prädikat von ما + هم, Nominativ oder Akkusativ)",
+        "vocalization": "مُؤْمِنِينَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+      },
+      "explanation": "مُؤْمِن (Glaubender/Vertrauender), Partizip Form IV von ا-م-ن. Plural: مُؤْمِنِين. Das Ya+Nun zeigt den maskulinen gesunden Plural im Akkusativ/Genitiv (obliquus).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "rv27",
+      "rasm": "يخدعون",
+      "location": "2:9",
+      "steps": {
+        "wordType": "Verb",
+        "root": "خ-د-ع",
+        "form": "Form III (خَادَعَ) oder Form I (خَدَعَ), Imperfekt, 3. Person maskulin Plural",
+        "syntacticRole": "Fi'l (Verb)",
+        "vocalization": "يُخَادِعُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+      },
+      "explanation": "يُخَادِعُون (Form III: sie versuchen zu täuschen, Gegenseitigkeit). Form III erkennbar am Alif nach dem ersten Radikal und Damma-Präfix. Alternativ: يَخْدَعُون (Form I: sie täuschen) mit Fatha-Präfix. Ambiguität im Rasm.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "id": "rv28",
+      "rasm": "مرض",
+      "location": "2:10",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "م-ر-ض",
+        "form": "Masdar Form I, Muster فَعَل",
+        "syntacticRole": "Mubtada (Nominativ, nachgestellt nach vorangestelltem Khabar)",
+        "vocalization": "مَرَضٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+      },
+      "explanation": "مَرَض (Krankheit), Masdar von م-ر-ض. Muster فَعَل. Im Satz فى قلوبهم مرض ist مرض das nachgestellte Mubtada → Nominativ + Tanwin (indefinit).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "id": "rv29",
+      "rasm": "يكذبون",
+      "location": "2:10",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ك-ذ-ب",
+        "form": "Form I, Imperfekt, 3. Person maskulin Plural",
+        "syntacticRole": "Khabar von كانوا (Verbalsatz)",
+        "vocalization": "يَكْذِبُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+      },
+      "explanation": "يَكْذِبُون (sie lügen). Form I von ك-ذ-ب, Vokalklasse a-i (Kasra auf dem zweiten Radikal im Imperfekt). Indikativ → Nun erhalten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "id": "rv30",
+      "rasm": "قيل",
+      "location": "2:11",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ق-و-ل",
+        "form": "Form I, Perfekt Passiv, 3. Person maskulin Singular",
+        "syntacticRole": "Fi'l (Verb, Passiv)",
+        "vocalization": "قِيلَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+      },
+      "explanation": "قِيلَ (es wurde gesagt). Passiv von قَالَ. Im Passiv wird der mittlere Radikal Waw zum langen Vokal ii (Kasra + Ya). Typisches Passivmuster hohler Verben: Der Diphthong aw wird zu ii.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "id": "rv31",
+      "rasm": "تفسدوا",
+      "location": "2:11",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ف-س-د",
+        "form": "Form IV (أفسد), Imperfekt, 2. Person maskulin Plural, Jussiv",
+        "syntacticRole": "Nachgestelltes Verb nach لا الناهية",
+        "vocalization": "تُفْسِدُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+      },
+      "explanation": "تُفْسِدُوا (stiftet Unheil). Form IV von ف-س-د. Damma-Präfix (Form IV). Jussiv nach لا الناهية → Wegfall des Nun (تفسدوا statt تفسدون).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "id": "rv32",
+      "rasm": "مصلحون",
+      "location": "2:11",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "ص-ل-ح",
+        "form": "Aktives Partizip Form IV, maskulin Plural",
+        "syntacticRole": "Khabar von نحن (Nominativ)",
+        "vocalization": "مُصْلِحُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+      },
+      "explanation": "مُصْلِح (Verbessernd/Reformierend), Partizip Form IV von ص-ل-ح. Plural: مُصْلِحُون im Nominativ (Waw+Nun = Raf' des gesunden maskulin Plurals). Khabar des Nominalsatzes نحن مصلحون.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "id": "rv33",
+      "rasm": "سفهاء",
+      "location": "2:13",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "س-ف-ه",
+        "form": "Gebrochener Plural, Muster فُعَلَاء",
+        "syntacticRole": "Khabar von نحن (Nominativ) oder Khabar der Ausnahme",
+        "vocalization": "سُفَهَاءُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+      },
+      "explanation": "سُفَهَاء (Toren), Plural von سَفِيه. Muster فُعَلَاء. Nominativ → Damma auf der Hamza. Diptot (kein Tanwin), da es Muster فُعَلَاء ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+    },
+    {
+      "id": "rv34",
+      "rasm": "اشتروا",
+      "location": "2:16",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ش-ر-ي",
+        "form": "Form VIII (اشترى), Perfekt, 3. Person maskulin Plural",
+        "syntacticRole": "Fi'l (Verb, Relativsatz-Prädikat)",
+        "vocalization": "اشْتَرَوُا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+      },
+      "explanation": "اشترى (Form VIII: kaufen/eintauschen) + Plural-Waw + Alif al-Wiqaya. Die Wurzel endet auf Ya (schwaches Verb), das im Plural zur Waw wird. Perfekt 3mp.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+    },
+    {
+      "id": "rv35",
+      "rasm": "ضلله",
+      "location": "2:16",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ض-ل-ل",
+        "form": "Masdar Form I, Muster فَعَالَة",
+        "syntacticRole": "Mafʿul bihi (Akkusativ, direktes Objekt)",
+        "vocalization": "الضَّلَالَةَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+      },
+      "explanation": "الضَّلَالَة (die Verirrung/das Abirren), Masdar von ض-ل-ل. Mit Artikel und Ta Marbuta. Akkusativ als Mafʿul bihi → Fatha auf der Ta Marbuta.",
+      "note": "Der Artikel ال ist im Rasm hier nicht dargestellt; die vollständige Rasm-Form wäre الضلله.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=16"
+    },
+    {
+      "id": "rv36",
+      "rasm": "صم",
+      "location": "2:18",
+      "steps": {
+        "wordType": "Nomen (Adjektiv)",
+        "root": "ص-م-م",
+        "form": "Adjektiv, Muster فُعْل (Plural)",
+        "syntacticRole": "Khabar (Prädikat, Nominativ)",
+        "vocalization": "صُمٌّ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+      },
+      "explanation": "صُمّ (taub, Plural von أَصَمّ). Muster فُعْل mit verdoppeltem letztem Radikal. Nominativ als Khabar → Damma + Tanwin. Die Schadda zeigt den verdoppelten Mim.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "id": "rv37",
+      "rasm": "بكم",
+      "location": "2:18",
+      "steps": {
+        "wordType": "Nomen (Adjektiv)",
+        "root": "ب-ك-م",
+        "form": "Adjektiv, Muster فُعْل (Plural)",
+        "syntacticRole": "Khabar koordiniert (Nominativ)",
+        "vocalization": "بُكْمٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+      },
+      "explanation": "بُكْم (stumm, Plural von أَبْكَم). Nominativ als koordiniertes Khabar → Damma + Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "id": "rv38",
+      "rasm": "عمى",
+      "location": "2:18",
+      "steps": {
+        "wordType": "Nomen (Adjektiv)",
+        "root": "ع-م-ي",
+        "form": "Adjektiv, Muster فُعْل (Plural)",
+        "syntacticRole": "Khabar koordiniert (Nominativ)",
+        "vocalization": "عُمْيٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+      },
+      "explanation": "عُمْي (blind, Plural von أَعْمَى). Muster فُعْل. Defektive Wurzel (Ya). Nominativ → Damma + Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "id": "rv39",
+      "rasm": "اعبدوا",
+      "location": "2:21",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ع-ب-د",
+        "form": "Form I, Imperativ, 2. Person maskulin Plural",
+        "syntacticRole": "Fi'l Amr (Befehlsverb)",
+        "vocalization": "اعْبُدُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+      },
+      "explanation": "اعبدوا (dient/betet an!). Imperativ von عَبَدَ (Form I, Vokalklasse a-u). Imperativ-Muster: Hamza al-Wasla + Sukun + Damma auf dem zweiten Radikal (weil Imperfekt يَعْبُدُ Damma hat).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "rv40",
+      "rasm": "خلق",
+      "location": "2:21",
+      "steps": {
+        "wordType": "Verb",
+        "root": "خ-ل-ق",
+        "form": "Form I, Perfekt, 3. Person maskulin Singular",
+        "syntacticRole": "Sila (Relativsatz nach الذى)",
+        "vocalization": "خَلَقَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+      },
+      "explanation": "خَلَقَ (er erschuf). Form I Perfekt von خ-ل-ق. Vokalklasse a-u (Imperfekt يَخْلُقُ). Perfekt 3ms: dreifaches Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "rv41",
+      "rasm": "جعل",
+      "location": "2:22",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ج-ع-ل",
+        "form": "Form I, Perfekt, 3. Person maskulin Singular",
+        "syntacticRole": "Fi'l (Verb, koordiniert mit خَلَقَ)",
+        "vocalization": "جَعَلَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "explanation": "جَعَلَ (er machte/setzte). Form I von ج-ع-ل, Vokalklasse a-a. Perfekt 3ms. Doppelt transitiv: جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا — er machte euch die Erde zur Lagerstatt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": "rv42",
+      "rasm": "فرشا",
+      "location": "2:22",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ف-ر-ش",
+        "form": "Masdar/Nomen, Muster فِعَال",
+        "syntacticRole": "Mafʿul bihi thani (zweites Objekt, Akkusativ)",
+        "vocalization": "فِرَاشًا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "explanation": "فِرَاش (Lagerstatt/Decke). Akkusativ als zweites Objekt von جَعَلَ → Fatha + Tanwin. Muster فِعَال von ف-ر-ش.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": "rv43",
+      "rasm": "ثمرت",
+      "location": "2:22",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ث-م-ر",
+        "form": "Femininer Plural, Muster فَعَلَات",
+        "syntacticRole": "Genitiv (Mudaf ilayh nach مِنَ)",
+        "vocalization": "الثَّمَرَاتِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "explanation": "الثَّمَرَات (die Früchte), femininer gesunder Plural von ثَمَرَة. Mit Artikel. Genitiv nach مِنَ → Kasra auf der Ta.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": "rv44",
+      "rasm": "تعلمون",
+      "location": "2:22",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ع-ل-م",
+        "form": "Form I, Imperfekt, 2. Person maskulin Plural",
+        "syntacticRole": "Fi'l (Verb)",
+        "vocalization": "تَعْلَمُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "explanation": "تَعْلَمُون (ihr wisst). Form I von ع-ل-م, Vokalklasse a-a. Fatha-Präfix (Form I). Indikativ → Nun erhalten.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": "rv45",
+      "rasm": "اندادا",
+      "location": "2:22",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ن-د-د",
+        "form": "Gebrochener Plural, Muster أفعال",
+        "syntacticRole": "Mafʿul bihi (Akkusativ)",
+        "vocalization": "أَندَادًا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      },
+      "explanation": "أَنْدَاد (Rivalen/Gleiche), Plural von نِدّ. Muster أَفْعَال. Akkusativ als Mafʿul bihi → Fatha + Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": "rv46",
+      "rasm": "ياتوا",
+      "location": "2:23",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ا-ت-ي",
+        "form": "Form I, Imperfekt, 3. Person maskulin Plural, Jussiv",
+        "syntacticRole": "Jawab al-amr oder Jussiv nach لم",
+        "vocalization": "يَأْتُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+      },
+      "explanation": "يَأْتُوا (sie sollen bringen). Form I von ا-ت-ي. Jussiv → Wegfall des Nun (يَأْتُوا statt يَأْتُونَ). Die Hamza steht auf der Zeile nach Sukun.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "id": "rv47",
+      "rasm": "سوره",
+      "location": "2:23",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "س-و-ر",
+        "form": "Nomen, Muster فُعْلَة",
+        "syntacticRole": "Mafʿul bihi (Akkusativ)",
+        "vocalization": "سُورَةٍ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+      },
+      "explanation": "سُورَة (Sure/Kapitel). Indefinit → mit Tanwin. Im Genitiv wegen بِ (فاتوا بسوره) oder Akkusativ als Objekt je nach Analyse. Die Ta Marbuta zeigt feminin Singular.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "id": "rv48",
+      "rasm": "شهداء",
+      "location": "2:23",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ش-ه-د",
+        "form": "Gebrochener Plural, Muster فُعَلَاء",
+        "syntacticRole": "Mafʿul bihi (Akkusativ)",
+        "vocalization": "شُهَدَاءَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+      },
+      "explanation": "شُهَدَاء (Zeugen), Plural von شَهِيد. Muster فُعَلَاء. Diptot → kein Tanwin. Akkusativ → Fatha auf der Hamza.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "id": "rv49",
+      "rasm": "فاتقوا",
+      "location": "2:24",
+      "steps": {
+        "wordType": "Verb",
+        "root": "و-ق-ي",
+        "form": "Form VIII (اتقى), Imperativ, 2. Person maskulin Plural",
+        "syntacticRole": "Fi'l Amr (Befehlsverb nach فَ)",
+        "vocalization": "فَاتَّقُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+      },
+      "explanation": "فَ (Konsequenz) + اتَّقُوا (fürchtet!/hütet euch!). Form VIII von و-ق-ي. Das Ta des Form-VIII-Infixes wurde verdoppelt (Schadda). Imperativ 2mp mit Waw + Alif al-Wiqaya.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "id": "rv50",
+      "rasm": "حجرتها",
+      "location": "2:24",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ح-ج-ر",
+        "form": "Nomen, Muster فِعَالَة",
+        "syntacticRole": "Khabar (Prädikat in Relativsatz oder Sifa)",
+        "vocalization": "حِجَارَتُهَا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+      },
+      "explanation": "حِجَارَة (Steine), Nomen von ح-ج-ر. Muster فِعَالَة. Nominativ als Teil des Relativsatzes الَّتِي وَقُودُهَا النَّاسُ وَالْحِجَارَةُ. Das Suffix ها verweist auf النار.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "id": "rv51",
+      "rasm": "بشر",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ب-ش-ر",
+        "form": "Form II (بَشَّرَ), Imperativ, 2. Person maskulin Singular",
+        "syntacticRole": "Fi'l Amr (Befehlsverb)",
+        "vocalization": "بَشِّرِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "بَشِّرْ (verkünde frohe Botschaft!). Form II von ب-ش-ر. Imperativ Form II hat kein Hamza al-Wasla (beginnt direkt mit dem ersten Radikal). Schadda auf dem Shin zeigt die Verdopplung des zweiten Radikals (Form II).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv52",
+      "rasm": "صلحت",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "ص-ل-ح",
+        "form": "Aktives Partizip Form I, femininer Plural",
+        "syntacticRole": "Sifa/Khabar (Nominativ)",
+        "vocalization": "الصَّالِحَاتِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "الصَّالِحَات (die guten/rechtschaffenen Taten), femininer gesunder Plural von صَالِحَة. Muster فَاعِلَة. Mit Artikel. Kasra auf Ta als Genitiv/Akkusativ des femininen Plurals.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv53",
+      "rasm": "جنت",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ج-ن-ن",
+        "form": "Femininer Plural, Muster فَعَّلات / فَعْلات",
+        "syntacticRole": "Mafʿul bihi (Akkusativ)",
+        "vocalization": "جَنَّاتٍ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "جَنَّات (Gärten), Plural von جَنَّة. Die Schadda auf dem Nun zeigt den verdoppelten zweiten Radikal. Akkusativ/Genitiv → Kasra + Tanwin (femininer gesunder Plural: Kasra für Akkusativ UND Genitiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv54",
+      "rasm": "تجرى",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ج-ر-ي",
+        "form": "Form I, Imperfekt, 3. Person feminin Singular",
+        "syntacticRole": "Sifa-Satz (Relativsatz ohne الذى, da جنات indefinit)",
+        "vocalization": "تَجْرِي",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "تَجْرِي (sie fließt/strömt). Form I von ج-ر-ي (defektives Verb). Imperfekt 3fs. Das Ya am Ende zeigt den dritten schwachen Radikal. Indikativ mit verstecktem Damma (auf dem Ya nicht sichtbar).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv55",
+      "rasm": "انهر",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ن-ه-ر",
+        "form": "Gebrochener Plural, Muster أَفْعُل",
+        "syntacticRole": "Faʿil (Subjekt, Nominativ)",
+        "vocalization": "الْأَنْهَارُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "الأَنْهَار (die Flüsse), Plural von نَهَر/نَهْر. Muster أَفْعَال. Nominativ als Faʿil → Damma auf dem Ra.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv56",
+      "rasm": "رزقوا",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Verb",
+        "root": "ر-ز-ق",
+        "form": "Form I, Perfekt Passiv, 3. Person maskulin Plural",
+        "syntacticRole": "Fi'l + Naib al-Faʿil (Passivverb + Stellvertreter-Subjekt)",
+        "vocalization": "رُزِقُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "رُزِقُوا (ihnen wurde versorgt/gegeben). Form I Perfekt Passiv. Passiv-Vokalmuster: Damma auf dem ersten Radikal, Kasra auf dem zweiten. Das implizite Subjekt (Naib al-Faʿil) sind die Glaubenden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv57",
+      "rasm": "متشبها",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "ش-ب-ه",
+        "form": "Aktives Partizip Form VI, Akkusativ",
+        "syntacticRole": "Hal (Zustandsakkusativ)",
+        "vocalization": "مُتَشَابِهًا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "مُتَشَابِه (einander ähnelnd). Partizip Form VI von ش-ب-ه (gegenseitige Ähnlichkeit). Akkusativ als Hal → Fatha + Tanwin. Form VI erkennbar am Muster مُتَفَاعِل.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv58",
+      "rasm": "ازوج",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen",
+        "root": "ز-و-ج",
+        "form": "Gebrochener Plural, Muster أفعال",
+        "syntacticRole": "Mubtada oder Khabar (Nominativ)",
+        "vocalization": "أَزْوَاجٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "أَزْوَاج (Gefährtinnen/Paare), Plural von زَوْج. Muster أَفْعَال. Nominativ → Damma + Tanwin (indefinit).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv59",
+      "rasm": "مطهره",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "ط-ه-ر",
+        "form": "Passives Partizip Form II, feminin Singular",
+        "syntacticRole": "Sifa zu ازوج (Nominativ)",
+        "vocalization": "مُطَهَّرَةٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "مُطَهَّرَة (gereinigte/reine). Passivpartizip Form II von ط-ه-ر. Feminin (Ta Marbuta). Nominativ als Sifa zu ازوج → Damma + Tanwin. Kongruenz: ازوج ist gebrochener Plural nicht-menschlicher Wesen → wird mit feminin Singular kongruiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "rv60",
+      "rasm": "خلدون",
+      "location": "2:25",
+      "steps": {
+        "wordType": "Nomen (Partizip)",
+        "root": "خ-ل-د",
+        "form": "Aktives Partizip Form I, maskulin Plural",
+        "syntacticRole": "Khabar von هم (Nominativ)",
+        "vocalization": "خَالِدُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "explanation": "خَالِدُون (ewig Bleibende). Partizip Form I von خ-ل-د. Maskuliner gesunder Plural im Nominativ (Waw+Nun). Khabar im Nominalsatz: هم فيها خالدون.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+}

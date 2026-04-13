@@ -1,0 +1,2319 @@
+{
+  "meta": {
+    "title": "Verbform-Semantik — Bedeutungsverschiebung durch Formwechsel",
+    "description": "Wie sich die Bedeutung einer Wurzel systematisch verändert, wenn sie in verschiedenen Verbformen (I-X) realisiert wird. Training zur semantischen Kompetenz.",
+    "totalRoots": 50,
+    "totalEntries": 50,
+    "sources": [
+      {
+        "name": "Lane's Arabic-English Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "roots": [
+    {
+      "id": 1,
+      "root": "ع-ل-م",
+      "baseMeaning": "wissen/Wissen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "wissen/erfahren",
+          "ref": "2:77",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=77",
+          "arabic": "عَلِمَ",
+          "example": "أَوَلَا يَعْلَمُونَ أَنَّ اللَّهَ يَعْلَمُ مَا يُسِرُّونَ"
+        },
+        {
+          "form": "II",
+          "meaning": "lehren/beibringen",
+          "ref": "2:31",
+          "note": "Form II kausativ: jemanden wissen MACHEN = lehren",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31",
+          "arabic": "عَلَّمَ",
+          "example": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا"
+        },
+        {
+          "form": "IV",
+          "meaning": "informieren/mitteilen",
+          "note": "Form IV kausativ (alternativ zu II): in Kenntnis setzen",
+          "arabic": "أَعْلَمَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "V",
+          "meaning": "lernen/sich aneignen",
+          "ref": "2:102",
+          "note": "Form V reflexiv zu II: sich selbst lehren = lernen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102",
+          "arabic": "تَعَلَّمَ",
+          "example": "وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=77"
+    },
+    {
+      "id": 2,
+      "root": "ن-ز-ل",
+      "baseMeaning": "herabkommen/herabsteigen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "herabsteigen/herabkommen",
+          "ref": "26:193",
+          "note": "Form I intransitiv: herabkommen/herabsteigen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=193",
+          "arabic": "نَزَلَ",
+          "example": "نَزَلَ بِهِ الرُّوحُ الْأَمِينُ"
+        },
+        {
+          "form": "II",
+          "meaning": "wiederholt/intensiv herabsenden",
+          "ref": "25:25",
+          "note": "Form II intensiv/iterativ: wiederholtes/intensives Herabsenden (iterative Aktionsart)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=25",
+          "arabic": "نَزَّلَ",
+          "example": "وَنَزَّلْنَاهُ تَنزِيلًا"
+        },
+        {
+          "form": "IV",
+          "meaning": "herabsenden lassen (kausativ)",
+          "ref": "2:4",
+          "note": "Form IV kausativ: herabsenden lassen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4",
+          "arabic": "أَنزَلَ",
+          "example": "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ"
+        },
+        {
+          "form": "V",
+          "meaning": "sich herabsenken/herabsteigen (selbst)",
+          "ref": "41:30",
+          "note": "Form V reflexiv: aus eigenem Antrieb herabkommen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=30",
+          "arabic": "تَنَزَّلَ",
+          "example": "تَتَنَزَّلُ عَلَيْهِمُ الْمَلَائِكَةُ"
+        },
+        {
+          "form": "X",
+          "meaning": "um Herabsendung bitten",
+          "note": "Form X petitiv: jemanden bitten herabzusenden",
+          "arabic": "اِسْتَنْزَلَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=25"
+    },
+    {
+      "id": 3,
+      "root": "ك-ت-ب",
+      "baseMeaning": "schreiben",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "schreiben/vorschreiben",
+          "ref": "2:183",
+          "note": "Im Passiv: vorgeschrieben werden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183",
+          "arabic": "كَتَبَ",
+          "example": "كُتِبَ عَلَيْكُمُ الصِّيَامُ"
+        },
+        {
+          "form": "III",
+          "meaning": "einen Vertrag schließen (mit jemandem)",
+          "ref": "24:33",
+          "note": "Form III reziprok: gegenseitig schriftlich vereinbaren",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=33",
+          "arabic": "كَاتَبَ",
+          "example": "وَالَّذِينَ يَبْتَغُونَ الْكِتَابَ مِمَّا مَلَكَتْ أَيْمَانُكُمْ فَكَاتِبُوهُمْ"
+        },
+        {
+          "form": "VIII",
+          "meaning": "sich aufschreiben lassen/abschreiben",
+          "ref": "25:5",
+          "note": "Form VIII reflexiv: für sich abschreiben lassen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=5",
+          "arabic": "اِكْتَتَبَ",
+          "example": "اكْتَتَبَهَا فَهِيَ تُمْلَىٰ عَلَيْهِ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "id": 4,
+      "root": "خ-ر-ج",
+      "baseMeaning": "hinausgehen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "hinausgehen/herauskommen",
+          "ref": "20:22",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=22",
+          "arabic": "خَرَجَ",
+          "example": "تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ"
+        },
+        {
+          "form": "II",
+          "meaning": "hinausbringen/fördern",
+          "note": "Form II kausativ/intensiv",
+          "arabic": "خَرَّجَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "meaning": "herausbringen/vertreiben",
+          "ref": "2:22",
+          "note": "Form IV kausativ: herausbringen/hervorbringen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22",
+          "arabic": "أَخْرَجَ",
+          "example": "فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَكُمْ"
+        },
+        {
+          "form": "X",
+          "meaning": "herausziehen/extrahieren",
+          "ref": "12:76",
+          "note": "Form X: aktiv herauszuholen suchen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=76",
+          "arabic": "اِسْتَخْرَجَ",
+          "example": "فَاسْتَخْرَجَهَا"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=22"
+    },
+    {
+      "id": 5,
+      "root": "ح-م-د",
+      "baseMeaning": "loben/preisen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "loben/preisen",
+          "ref": "1:2",
+          "note": "Masdar: الْحَمْد = das Lob/der Preis",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2",
+          "arabic": "حَمِدَ",
+          "example": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": 6,
+      "root": "ق-ت-ل",
+      "baseMeaning": "töten",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "töten",
+          "ref": "5:30",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=30",
+          "arabic": "قَتَلَ",
+          "example": "فَقَتَلَهُ"
+        },
+        {
+          "form": "II",
+          "meaning": "massakrieren/vielfach töten",
+          "ref": "2:49",
+          "note": "Form II intensiv/iterativ: wiederholt und systematisch töten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49",
+          "arabic": "قَتَّلَ",
+          "example": "يُقَتِّلُونَ أَبْنَاءَكُمْ"
+        },
+        {
+          "form": "III",
+          "meaning": "kämpfen (gegen jemanden)",
+          "ref": "2:190",
+          "note": "Form III reziprok: Kampf als gegenseitige Handlung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=190",
+          "arabic": "قَاتَلَ",
+          "example": "وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ"
+        },
+        {
+          "form": "VIII",
+          "meaning": "sich gegenseitig bekämpfen",
+          "ref": "49:9",
+          "note": "Form VIII reflexiv-reziprok: beide Seiten kämpfen gleichzeitig",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=9",
+          "arabic": "اِقْتَتَلَ",
+          "example": "وَإِن طَائِفَتَانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=30"
+    },
+    {
+      "id": 7,
+      "root": "غ-ف-ر",
+      "baseMeaning": "bedecken/verbergen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "vergeben/bedecken (Verfehlung)",
+          "ref": "3:135",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=135",
+          "arabic": "غَفَرَ",
+          "example": "وَمَن يَغْفِرُ الذُّنُوبَ إِلَّا اللَّهُ"
+        },
+        {
+          "form": "X",
+          "meaning": "um Vergebung bitten",
+          "ref": "71:10",
+          "note": "Form X estimativ/petitiv: Vergebung erbitten. غَفَّار (Intensivform) = der viel Vergebende",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=10",
+          "arabic": "اِسْتَغْفَرَ",
+          "example": "اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=135"
+    },
+    {
+      "id": 8,
+      "root": "ج-م-ع",
+      "baseMeaning": "sammeln/vereinen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "sammeln/zusammenbringen",
+          "ref": "3:9",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=9",
+          "arabic": "جَمَعَ",
+          "example": "إِنَّ اللَّهَ جَامِعُ النَّاسِ"
+        },
+        {
+          "form": "VIII",
+          "meaning": "sich versammeln",
+          "ref": "17:88",
+          "note": "Form VIII reflexiv: sich selbst versammeln",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=88",
+          "arabic": "اِجْتَمَعَ",
+          "example": "لَئِنِ اجْتَمَعَتِ الْإِنسُ وَالْجِنُّ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=9"
+    },
+    {
+      "id": 9,
+      "root": "ح-س-ب",
+      "baseMeaning": "rechnen/zählen",
+      "forms": [
+        {
+          "form": "I (حَسِبَ a-i)",
+          "meaning": "meinen/vermuten (Vokalklasse a-i)",
+          "ref": "2:214",
+          "note": "حَسِبَ (Kasra auf ʿAin) = meinen/vermuten. Zu unterscheiden von حَسَبَ (Fatha auf ʿAin, Klasse a-u) = rechnen/zählen. Beide Form I, aber verschiedene Vokalklassen mit verschiedener Bedeutung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214",
+          "arabic": "حَسِبَ",
+          "example": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا الْجَنَّةَ"
+        },
+        {
+          "form": "III",
+          "meaning": "zur Rechenschaft ziehen",
+          "ref": "65:8",
+          "note": "Form III reziprok: Abrechnung mit jemandem halten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=8",
+          "arabic": "حَاسَبَ",
+          "example": "فَحَاسَبْنَاهَا حِسَابًا شَدِيدًا"
+        },
+        {
+          "form": "VIII",
+          "meaning": "erwarten/einberechnen",
+          "ref": "65:3",
+          "note": "Form VIII reflexiv: für sich berechnen = erwarten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=3",
+          "arabic": "اِحْتَسَبَ",
+          "example": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+    },
+    {
+      "id": 10,
+      "root": "ص-ل-ح",
+      "baseMeaning": "gut/tauglich sein",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "gut/rechtschaffen sein",
+          "note": "Form I صَلَحَ ist im Quran nicht als finites Verb belegt. 7:189 enthält صَالِحًا (Partizip, nicht Form I Perfekt).",
+          "arabic": "صَلَحَ",
+          "example": "— (kein quranischer Beleg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=189",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "II",
+          "meaning": "in Ordnung bringen/verbessern",
+          "note": "Form II kausativ: gut MACHEN",
+          "arabic": "صَلَّحَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "meaning": "verbessern/wiedergutmachen",
+          "ref": "2:160",
+          "note": "Form IV kausativ: etwas in Ordnung bringen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=160",
+          "arabic": "أَصْلَحَ",
+          "example": "إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَبَيَّنُوا"
+        },
+        {
+          "form": "VI",
+          "meaning": "sich miteinander versöhnen",
+          "note": "Form VI reziprok: sich gegenseitig versöhnen. Im Quran selten. NICHT 4:128 — dort steht أَن يُصْلِحَا (Form IV أَصْلَحَ, nicht Form VI).",
+          "arabic": "تَصَالَحَ",
+          "example": "— (kein quranischer Beleg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=128",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "meaning": "für gut befinden/zu verbessern suchen",
+          "note": "Form X estimativ",
+          "arabic": "اِسْتَصْلَحَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=160"
+    },
+    {
+      "id": 11,
+      "root": "ذ-ك-ر",
+      "baseMeaning": "erinnern/erwähnen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "erwähnen/gedenken",
+          "ref": "2:152",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=152",
+          "arabic": "ذَكَرَ",
+          "example": "فَاذْكُرُونِي أَذْكُرْكُمْ"
+        },
+        {
+          "form": "II",
+          "meaning": "erinnern/ermahnen",
+          "ref": "88:21",
+          "note": "Form II intensiv/kausativ: jemanden aktiv erinnern MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=21",
+          "arabic": "ذَكَّرَ",
+          "example": "فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ"
+        },
+        {
+          "form": "V",
+          "meaning": "sich erinnern/besinnen",
+          "ref": "2:269",
+          "note": "Form V reflexiv zu II: sich selbst erinnern/besinnen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=269",
+          "arabic": "تَذَكَّرَ",
+          "example": "وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ"
+        },
+        {
+          "form": "VIII",
+          "meaning": "sich plötzlich erinnern",
+          "ref": "12:45",
+          "note": "Form VIII reflexiv mit Dal-Assimilation: plötzliche Erinnerung nach langer Zeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=45",
+          "arabic": "اِدَّكَرَ",
+          "example": "وَادَّكَرَ بَعْدَ أُمَّةٍ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=152"
+    },
+    {
+      "id": 12,
+      "root": "ق-ب-ل",
+      "baseMeaning": "entgegenkommen/akzeptieren",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "annehmen/akzeptieren",
+          "note": "Form I im Quran nicht belegt. Häufig: Form V تَقَبَّلَ.",
+          "arabic": "قَبِلَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "meaning": "sich zuwenden/herankommen",
+          "ref": "37:27",
+          "note": "Form IV: aktiv auf jemanden zugehen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=27",
+          "arabic": "أَقْبَلَ",
+          "example": "وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَسَاءَلُونَ"
+        },
+        {
+          "form": "V",
+          "meaning": "wohlwollend annehmen",
+          "ref": "3:37",
+          "note": "Form V intensiv-reflexiv: mit Wohlwollen entgegennehmen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37",
+          "arabic": "تَقَبَّلَ",
+          "example": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ"
+        },
+        {
+          "form": "X",
+          "meaning": "sich zuwenden/gegenüberstehen",
+          "note": "Form X: die Richtung zu etwas einnehmen",
+          "arabic": "اِسْتَقْبَلَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=27"
+    },
+    {
+      "id": 13,
+      "root": "ح-ك-م",
+      "baseMeaning": "urteilen/richten",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "urteilen/richten",
+          "ref": "4:58",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=58",
+          "arabic": "حَكَمَ",
+          "example": "وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ"
+        },
+        {
+          "form": "II",
+          "meaning": "als Richter einsetzen",
+          "ref": "4:65",
+          "note": "Form II kausativ: jemanden zum Richter MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=65",
+          "arabic": "حَكَّمَ",
+          "example": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ"
+        },
+        {
+          "form": "V",
+          "meaning": "willkürlich herrschen/sich anmaßen zu urteilen",
+          "note": "Form V reflexiv: sich selbst zum Richter machen",
+          "arabic": "تَحَكَّمَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "meaning": "als fest/unumstößlich ansehen; sich festigen",
+          "note": "Form X estimativ: etwas als fest/endgültig ansehen. اِسْتَحْكَمَ ist im Quran nicht belegt. Verwandt ist das Quranzitat 11:1: أُحْكِمَتْ آيَاتُهُ (Form IV Passiv von حَكَمَ, nicht Form X) — 'seine Verse wurden fest gefügt'.",
+          "arabic": "اِسْتَحْكَمَ",
+          "example": "— (kein quranischer Beleg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=1",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=58"
+    },
+    {
+      "id": 14,
+      "root": "س-ل-م",
+      "baseMeaning": "unversehrt/heil sein",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "unversehrt sein/heil bleiben",
+          "arabic": "سَلِمَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "II",
+          "meaning": "übergeben/begrüßen (Salam geben)",
+          "ref": "33:56",
+          "note": "Form II kausativ: Frieden GEBEN/Gruß entbieten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56",
+          "arabic": "سَلَّمَ",
+          "example": "صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا"
+        },
+        {
+          "form": "IV",
+          "meaning": "sich ergeben/sich hingeben",
+          "ref": "2:112",
+          "note": "Form IV: sein Gesicht Gott hingeben = sich Gott übergeben",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=112",
+          "arabic": "أَسْلَمَ",
+          "example": "بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُ لِلَّهِ"
+        },
+        {
+          "form": "V",
+          "meaning": "in Empfang nehmen",
+          "note": "Form V reflexiv: etwas für sich entgegennehmen",
+          "arabic": "تَسَلَّمَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "meaning": "sich völlig ergeben/kapitulieren",
+          "note": "Form X (اِسْتَسْلَمَ) im Quran nicht als finite Form belegt; vgl. Form IV أَسْلَمَ (37:103)",
+          "arabic": "اِسْتَسْلَمَ",
+          "example": "— (kein quranischer Beleg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=103",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+    },
+    {
+      "id": 15,
+      "root": "ش-ر-ك",
+      "baseMeaning": "teilhaben/beigesellen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "Teilhaber sein",
+          "arabic": "شَرِكَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "meaning": "beigesellen (Gott etwas zugesellen)",
+          "ref": "4:48",
+          "note": "Form IV kausativ: etwas als Teilhaber MACHEN = Beigesellung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=48",
+          "arabic": "أَشْرَكَ",
+          "example": "إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=48"
+    },
+    {
+      "id": 16,
+      "root": "ص-ب-ر",
+      "baseMeaning": "standhalten/ausharren",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "geduldig sein/ausharren",
+          "ref": "2:153",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153",
+          "arabic": "صَبَرَ",
+          "example": "اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ"
+        },
+        {
+          "form": "II",
+          "meaning": "zur Geduld anhalten",
+          "note": "Form II (صَبَّرَ) im Quran nicht belegt; Form I: وَاصْبِرْ (18:28)",
+          "arabic": "صَبَّرَ",
+          "example": "— (kein quranischer Beleg)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=28",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "III",
+          "meaning": "einander in Geduld übertreffen",
+          "ref": "3:200",
+          "note": "Form III reziprok-kompetitiv: einander an Standhaftigkeit übertreffen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=200",
+          "arabic": "صَابَرَ",
+          "example": "اصْبِرُوا وَصَابِرُوا"
+        },
+        {
+          "form": "VIII",
+          "meaning": "sich selbst zur Geduld zwingen",
+          "ref": "20:132",
+          "note": "Form VIII reflexiv: sich aktiv zur Geduld anhalten (mit Taa-Emphase)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=132",
+          "arabic": "اِصْطَبَرَ",
+          "example": "وَاصْطَبِرْ عَلَيْهَا"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153"
+    },
+    {
+      "id": 17,
+      "root": "ك-ب-ر",
+      "baseMeaning": "groß sein",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "groß sein/schwer wiegen",
+          "ref": "40:35",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=35",
+          "arabic": "كَبُرَ",
+          "example": "كَبُرَ مَقْتًا عِندَ اللَّهِ"
+        },
+        {
+          "form": "II",
+          "meaning": "groß machen/verherrlichen (Allahu akbar)",
+          "ref": "17:111",
+          "note": "Form II kausativ: Gott GROSS erklären",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=111",
+          "arabic": "كَبَّرَ",
+          "example": "وَكَبِّرْهُ تَكْبِيرًا"
+        },
+        {
+          "form": "V",
+          "meaning": "sich überheben/hochmütig sein",
+          "ref": "7:146",
+          "note": "Form V reflexiv: sich selbst groß machen = Hochmut",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=146",
+          "arabic": "تَكَبَّرَ",
+          "example": "سَأَصْرِفُ عَنْ آيَاتِيَ الَّذِينَ يَتَكَبَّرُونَ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ"
+        },
+        {
+          "form": "X",
+          "meaning": "sich für zu groß halten/sich weigern",
+          "ref": "2:34",
+          "note": "Form X: sich als groß betrachten = Weigerung aus Hochmut",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34",
+          "arabic": "اِسْتَكْبَرَ",
+          "example": "إِلَّا إِبْلِيسَ أَبَىٰ وَاسْتَكْبَرَ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=35"
+    },
+    {
+      "id": 18,
+      "root": "ف-ع-ل",
+      "baseMeaning": "tun/machen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "tun/machen/handeln",
+          "ref": "21:73",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=73",
+          "arabic": "فَعَلَ",
+          "example": "وَأَوْحَيْنَا إِلَيْهِمْ فِعْلَ الْخَيْرَاتِ"
+        },
+        {
+          "form": "VII",
+          "meaning": "getan werden/sich ergeben",
+          "note": "Form VII passiv-reflexiv: intrinsisch passiv",
+          "arabic": "اِنْفَعَلَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "VIII",
+          "meaning": "allgemeines Reflexiv-/Reziprok-Muster",
+          "note": "Abstraktes Paradigma; keine eigene Bedeutung für ف-ع-ل",
+          "arabic": "اِفْتَعَلَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=73"
+    },
+    {
+      "id": 19,
+      "root": "ع-ب-د",
+      "baseMeaning": "dienen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "dienen",
+          "ref": "1:5",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5",
+          "arabic": "عَبَدَ",
+          "example": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+        },
+        {
+          "form": "II",
+          "meaning": "zum Knecht machen/unterjochen",
+          "ref": "26:22",
+          "note": "Form II kausativ: jemanden zum Diener MACHEN = versklaven",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=22",
+          "arabic": "عَبَّدَ",
+          "example": "وَتِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَيَّ أَنْ عَبَّدتَّ بَنِي إِسْرَائِيلَ"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": 20,
+      "root": "ق-و-م",
+      "baseMeaning": "aufstehen/stehen",
+      "forms": [
+        {
+          "form": "I",
+          "meaning": "aufstehen/sich erheben",
+          "ref": "72:19",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=19",
+          "arabic": "قَامَ",
+          "example": "وَأَنَّهُ لَمَّا قَامَ عَبْدُ اللَّهِ يَدْعُوهُ"
+        },
+        {
+          "form": "II",
+          "meaning": "gerade machen/bewerten",
+          "note": "Form II: etwas aufrecht/richtig MACHEN",
+          "arabic": "قَوَّمَ",
+          "example": "— (kein quranischer Beleg)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "meaning": "aufrichten/verrichten (Zuwendung)",
+          "ref": "2:3",
+          "note": "Form IV kausativ: die Zuwendung AUFRECHT erhalten = verrichten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3",
+          "arabic": "أَقَامَ",
+          "example": "وَيُقِيمُونَ الصَّلَاةَ"
+        },
+        {
+          "form": "X",
+          "meaning": "aufrecht/standhaft sein",
+          "ref": "41:30",
+          "note": "Form X: sich als aufrecht erweisen = standhaft bleiben",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=30",
+          "arabic": "اِسْتَقَامَ",
+          "example": "إِنَّ الَّذِينَ قَالُوا رَبُّنَا اللَّهُ ثُمَّ اسْتَقَامُوا"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=19"
+    },
+    {
+      "id": 21,
+      "root": "ح-ر-م",
+      "rootArabic": "ح ر م",
+      "baseMeaning": "unantastbar/verboten sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "حَرُمَ",
+          "meaning": "verboten/unantastbar sein",
+          "note": "Form I Stativ im Quran nicht belegt. Häufiger: Form II حَرَّمَ.",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "II",
+          "arabic": "حَرَّمَ",
+          "meaning": "für verboten erklären",
+          "ref": "5:3",
+          "note": "Form II kausativ: etwas verboten MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَحْرَمَ",
+          "meaning": "den Weihezustand eintreten",
+          "ref": "5:1",
+          "note": "Form IV: sich in den Zustand des Verbotenen versetzen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِحْتَرَمَ",
+          "meaning": "achten/respektieren",
+          "note": "Form VIII reflexiv: die Unantastbarkeit bei sich selbst einhalten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "5:3",
+          "arabic": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ",
+          "question": "Welche Form liegt bei حُرِّمَتْ vor und was bewirkt das Passiv?",
+          "answer": "Form II Passiv. Kausativ: etwas für verboten erklären. Passiv: für verboten erklärt worden sein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "ref": "5:96",
+          "arabic": "وَحُرِّمَ عَلَيْكُمْ صَيْدُ ٱلْبَرِّ مَا دُمْتُمْ حُرُمًا",
+          "question": "Was bedeutet حُرُم hier?",
+          "answer": "Plural von حَرَام: im Weihezustand befindlich. Zeigt den Zustandsaspekt der Wurzel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=96"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+    },
+    {
+      "id": 22,
+      "root": "ح-ل-ل",
+      "rootArabic": "ح ل ل",
+      "baseMeaning": "lösen/erlaubt sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "حَلَّ",
+          "meaning": "erlaubt sein / sich niederlassen",
+          "ref": "20:81",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=81"
+        },
+        {
+          "form": "II",
+          "arabic": "حَلَّلَ",
+          "meaning": "erlauben / für erlaubt erklären",
+          "ref": "66:2",
+          "note": "Form II kausativ: erlaubt MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=2"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَحَلَّ",
+          "meaning": "erlauben / herabsteigen lassen",
+          "ref": "5:87",
+          "note": "Form IV kausativ: etwas in den Zustand des Erlaubtseins versetzen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=87"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَحَلَّ",
+          "meaning": "für erlaubt halten / beanspruchen",
+          "note": "Form X estimativ: etwas als erlaubt betrachten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "5:87",
+          "arabic": "لَا تُحَرِّمُوا طَيِّبَٰتِ مَآ أَحَلَّ ٱللَّهُ لَكُمْ",
+          "question": "Welche zwei Formen stehen hier kontrastiv nebeneinander?",
+          "answer": "تُحَرِّمُوا (Form II von ح-ر-م: verboten machen) und أَحَلَّ (Form IV von ح-ل-ل: erlaubt machen). Antonymische Wurzeln in kausativen Formen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=87"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=81"
+    },
+    {
+      "id": 23,
+      "root": "و-ل-ي",
+      "rootArabic": "و ل ي",
+      "baseMeaning": "nahe sein/folgen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "وَلِيَ",
+          "meaning": "nahe sein / angrenzen / zuständig sein",
+          "ref": "8:72",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=72"
+        },
+        {
+          "form": "II",
+          "arabic": "وَلَّى",
+          "meaning": "einsetzen / zum Wali machen",
+          "note": "Form II kausativ: jemanden zum Zuständigen MACHEN",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "III",
+          "arabic": "وَالَى",
+          "meaning": "Bündnis schließen mit / Loyalität zeigen",
+          "ref": "60:1",
+          "note": "Form III reziprok: gegenseitige Nähe/Loyalität",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+        },
+        {
+          "form": "V",
+          "arabic": "تَوَلَّى",
+          "meaning": "sich abwenden / übernehmen",
+          "ref": "24:11",
+          "note": "Form V reflexiv: sich selbst die Zuständigkeit nehmen, oder: sich abwenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=11"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَوَالَى",
+          "meaning": "aufeinander folgen / sich gegenseitig unterstützen",
+          "note": "Form VI gegenseitig-reflexiv",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "3:28",
+          "arabic": "لَّا يَتَّخِذِ ٱلْمُؤْمِنُونَ ٱلْكَٰفِرِينَ أَوْلِيَآءَ",
+          "question": "Welche Wurzel steckt in أَوْلِيَاء und was ist die Grundbedeutung?",
+          "answer": "Wurzel و-ل-ي. أَوْلِيَاء Plural von وَلِيّ: der Nahe/Zuständige/Verbundene.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=28"
+        },
+        {
+          "ref": "10:72",
+          "arabic": "فَإِن تَوَلَّيْ",
+          "question": "Welche Form ist تَوَلَّوْا hier?",
+          "answer": "Form V von و-ل-ي: sich abwenden. Reflexiv: sich selbst aus der Nähe entfernen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=72"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=72"
+    },
+    {
+      "id": 24,
+      "root": "ن-ف-س",
+      "rootArabic": "ن ف س",
+      "baseMeaning": "Atem/Selbst",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "نَفَسَ",
+          "meaning": "atmen / erleichtern",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "II",
+          "arabic": "نَفَّسَ",
+          "meaning": "Erleichterung verschaffen",
+          "note": "Form II intensiv: intensiv Luft verschaffen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "III",
+          "arabic": "نَافَسَ",
+          "meaning": "wetteifern um",
+          "note": "Form III kompetitiv: theoretische Basis für Form VI",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt; 83:26 ist Form VI)"
+        },
+        {
+          "form": "V",
+          "arabic": "تَنَفَّسَ",
+          "meaning": "atmen / sich weiten",
+          "ref": "81:18",
+          "note": "Form V reflexiv: وَالصُّبْحِ إِذَا تَنَفَّسَ — der Morgen wenn er atmet",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=18"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَنَافَسَ",
+          "meaning": "miteinander wetteifern",
+          "ref": "83:26",
+          "note": "Form VI reziprok: gegenseitig um etwas wetteifern",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=26"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "83:26",
+          "arabic": "وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+          "question": "Welche Form liegt bei يَتَنَافَسِ vor und wie erklärt sich die Bedeutung?",
+          "answer": "Form VI (تَفَاعَلَ): gegenseitig wetteifern. Reziproke Form: die Wetteifernden überbieten sich gegenseitig.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=26"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=26"
+    },
+    {
+      "id": 25,
+      "root": "ص-د-ق",
+      "rootArabic": "ص د ق",
+      "baseMeaning": "wahrhaftig/aufrichtig sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "صَدَقَ",
+          "meaning": "wahr sprechen / die Wahrheit sagen",
+          "ref": "3:95",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=95"
+        },
+        {
+          "form": "II",
+          "arabic": "صَدَّقَ",
+          "meaning": "für wahr erklären / bestätigen",
+          "ref": "92:6",
+          "note": "Form II kausativ/intensiv: etwas als wahr MACHEN/bekräftigen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=6"
+        },
+        {
+          "form": "V",
+          "arabic": "تَصَدَّقَ",
+          "meaning": "freiwillig spenden / Almosen geben",
+          "ref": "2:280",
+          "note": "Form V reflexiv: sich selbst durch Wahrhaftigkeit/Großzügigkeit auszeichnen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=280"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَصَادَقَ",
+          "meaning": "sich gegenseitig für wahr halten",
+          "note": "Form VI reziprok",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "33:23",
+          "arabic": "رِجَالٌ صَدَقُوا مَا عَٰهَدُوا ٱللَّهَ عَلَيْهِ",
+          "question": "Was bedeutet صَدَقُوا hier syntaktisch?",
+          "answer": "Form I mit Mafʿul bihi: sie erfüllten wahrhaftig das, wozu sie Gott verpflichtet hatten. Direktes Objekt ist der ما-Satz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=23"
+        },
+        {
+          "ref": "12:26",
+          "arabic": "إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ فَصَدَقَتْ",
+          "question": "Wie wird صَدَقَ hier verwendet?",
+          "answer": "Form I absolut: dann hat sie die Wahrheit gesagt. Kein Objekt nötig.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=26"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=95"
+    },
+    {
+      "id": 26,
+      "root": "ط-ه-ر",
+      "rootArabic": "ط ه ر",
+      "baseMeaning": "rein sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "طَهُرَ",
+          "meaning": "rein sein/werden",
+          "ref": "33:33",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=33"
+        },
+        {
+          "form": "II",
+          "arabic": "طَهَّرَ",
+          "meaning": "reinigen / rein machen",
+          "ref": "2:125",
+          "note": "Form II kausativ: rein MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "form": "V",
+          "arabic": "تَطَهَّرَ",
+          "meaning": "sich reinigen / sich läutern",
+          "ref": "5:6",
+          "note": "Form V reflexiv: sich selbst reinigen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=6"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَطْهَرَ",
+          "meaning": "Reinheit anstreben",
+          "note": "Form X estimativ: für rein halten/Reinheit erstreben",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "2:222",
+          "arabic": "حَتَّىٰ يَطْهُرْنَ فَإِذَا تَطَهَّرْنَ",
+          "question": "Welcher Bedeutungsunterschied besteht zwischen يَطْهُرْنَ und تَطَهَّرْنَ?",
+          "answer": "يَطْهُرْنَ (Form I): rein werden (Zustand). تَطَهَّرْنَ (Form V): sich (aktiv) reinigen (Handlung). Form V betont die eigene Initiative.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=222"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=33"
+    },
+    {
+      "id": 27,
+      "root": "ح-س-ن",
+      "rootArabic": "ح س ن",
+      "baseMeaning": "schön/gut sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "حَسُنَ",
+          "meaning": "schön/gut sein",
+          "ref": "4:69",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=69"
+        },
+        {
+          "form": "II",
+          "arabic": "حَسَّنَ",
+          "meaning": "verschönern / verbessern",
+          "ref": "40:64",
+          "note": "Form II kausativ: schön MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=64"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَحْسَنَ",
+          "meaning": "Gutes tun / gut handeln",
+          "ref": "2:195",
+          "note": "Form IV kausativ: Güte herbeiführen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=195"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَحْسَنَ",
+          "meaning": "für schön/gut befinden",
+          "note": "Form X estimativ: etwas als gut betrachten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "95:4",
+          "arabic": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+          "question": "Welche grammatische Form ist أَحْسَن hier?",
+          "answer": "Elativ (Komparativ/Superlativ) von حَسُنَ: in bester Gestalt. Nicht Verbform IV, sondern أَفْعَل-Muster als Elativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=4"
+        },
+        {
+          "ref": "2:195",
+          "arabic": "وَأَحْسِنُوٓا إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+          "question": "Was zeigt die Form IV أَحْسَنَ im Vergleich zur Grundbedeutung?",
+          "answer": "Form IV kausativ: Güte aktiv herbeiführen. الْمُحْسِنِين Partizip: diejenigen die aktiv Gutes tun.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=195"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=69"
+    },
+    {
+      "id": 28,
+      "root": "ع-د-و",
+      "rootArabic": "ع د و",
+      "baseMeaning": "überschreiten/feindlich sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "عَدَا",
+          "meaning": "überschreiten / angreifen",
+          "ref": "5:87",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=87"
+        },
+        {
+          "form": "III",
+          "arabic": "عَادَى",
+          "meaning": "jemanden zum Feind haben / befeinden",
+          "ref": "2:98",
+          "note": "Form III reziprok: gegenseitige Feindschaft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=98"
+        },
+        {
+          "form": "V",
+          "arabic": "تَعَدَّى",
+          "meaning": "überschreiten / die Grenzen übertreten",
+          "ref": "4:14",
+          "note": "Form V reflexiv-intensiv: sich selbst die Grenze übertreten lassen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=14"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِعْتَدَى",
+          "meaning": "übergriffig handeln / angreifen",
+          "ref": "2:190",
+          "note": "Form VIII reflexiv: für sich den Übergriff ausüben",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=190"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "2:190",
+          "arabic": "وَلَا تَعْتَدُوٓا إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
+          "question": "Welche Form liegt bei تَعْتَدُوا vor?",
+          "answer": "Form VIII (اِفْتَعَلَ): übergriffig handeln. Reflexiver Aspekt: den Übergriff für sich selbst begehen. الْمُعْتَدِينَ Partizip Plural.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=190"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=87"
+    },
+    {
+      "id": 29,
+      "root": "ب-ي-ع",
+      "rootArabic": "ب ي ع",
+      "baseMeaning": "verkaufen/handeln",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "بَاعَ",
+          "meaning": "verkaufen",
+          "ref": "2:275",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+        },
+        {
+          "form": "III",
+          "arabic": "بَايَعَ",
+          "meaning": "einen Treueid leisten / Handschlag geben",
+          "ref": "48:10",
+          "note": "Form III reziprok: gegenseitiger Handel = Treueid",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=10"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِبْتَاعَ",
+          "meaning": "kaufen / für sich erwerben",
+          "ref": "12:21",
+          "note": "Form VIII reflexiv: für sich handeln = kaufen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=21"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "48:10",
+          "arabic": "إِنَّ ٱلَّذِينَ يُبَايِعُونَكَ إِنَّمَا يُبَايِعُونَ ٱللَّهَ",
+          "question": "Warum steht hier Form III (يُبَايِعُونَ) und nicht Form I?",
+          "answer": "Form III (فَاعَلَ) ist reziprok: der Treueid ist eine gegenseitige Transaktion. Beide Seiten gehen eine Verpflichtung ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=10"
+        },
+        {
+          "ref": "9:111",
+          "arabic": "إِنَّ ٱللَّهَ ٱشْتَرَىٰ مِنَ ٱلْمُؤْمِنِينَ أَنفُسَهُمْ",
+          "question": "اشْتَرَى kommt von ش-ر-ي (Form VIII). Was ist der Unterschied zu بَاعَ?",
+          "answer": "Verschiedene Wurzeln: باع (ب-ي-ع) = verkaufen, اشترى (ش-ر-ي Form VIII) = kaufen. Beide drücken Handelstransaktionen aus entgegengesetzter Perspektive aus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=111"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+    },
+    {
+      "id": 30,
+      "root": "ع-ذ-ب",
+      "rootArabic": "ع ذ ب",
+      "baseMeaning": "süß sein / quälen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "عَذُبَ",
+          "meaning": "süß/trinkbar sein (Wasser)",
+          "ref": "25:53",
+          "note": "هَٰذَا عَذْبٌ فُرَاتٌ: dieses ist süß und trinkbar",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=53"
+        },
+        {
+          "form": "II",
+          "arabic": "عَذَّبَ",
+          "meaning": "bestrafen / quälen",
+          "ref": "2:284",
+          "note": "Form II intensiv/kausativ: intensiv leiden machen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=284"
+        },
+        {
+          "form": "V",
+          "arabic": "تَعَذَّبَ",
+          "meaning": "bestraft werden / Leid erfahren",
+          "note": "Form V reflexiv: sich quälen lassen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَعْذَبَ",
+          "meaning": "für süß/angenehm befinden",
+          "note": "Form X estimativ: zurück zur Grundbedeutung 'süß'",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "25:53",
+          "arabic": "هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ",
+          "question": "Welche Grundbedeutung der Wurzel ع-ذ-ب zeigt sich in عَذْبٌ?",
+          "answer": "Die Grundbedeutung ist 'süß/angenehm' (Wasser). Die Bedeutung 'quälen/bestrafen' in Form II ist eine sekundäre Entwicklung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=53"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=53"
+    },
+    {
+      "id": 31,
+      "root": "ب-ر-ك",
+      "rootArabic": "ب ر ك",
+      "baseMeaning": "Segen/Bestand haben",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "بَرَكَ",
+          "meaning": "niederknien (Kamel) / verweilen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "III",
+          "arabic": "بَارَكَ",
+          "meaning": "segnen / mit Segen versehen",
+          "ref": "7:137",
+          "note": "Form III (فَاعَلَ): وَبَارَكْنَا عَلَيْهِمْ — segensreich machen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=137"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَبَارَكَ",
+          "meaning": "segensreich sein / erhaben sein",
+          "ref": "25:1",
+          "note": "Form VI: تَبَارَكَ الَّذِي نَزَّلَ — segensreich ist derjenige der herabsandte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=1"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "25:1",
+          "arabic": "تَبَارَكَ ٱلَّذِى نَزَّلَ ٱلْفُرْقَانَ عَلَىٰ عَبْدِهِ",
+          "question": "Warum wird für 'segensreich sein' die Form VI (تَفَاعَلَ) verwendet?",
+          "answer": "تَبَارَكَ (Form VI) drückt intrinsische Qualität aus: reich an Segen sein von Natur aus. Kein reziproker Aspekt hier, sondern intensiver Zustand.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=137"
+    },
+    {
+      "id": 32,
+      "root": "ع-ر-ض",
+      "rootArabic": "ع ر ض",
+      "baseMeaning": "breit sein/sich zeigen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "عَرَضَ",
+          "meaning": "darbieten / zeigen / sich ereignen",
+          "ref": "2:70",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=70"
+        },
+        {
+          "form": "II",
+          "arabic": "عَرَّضَ",
+          "meaning": "andeuten / indirekt sagen",
+          "ref": "2:235",
+          "note": "Form II: andeutungsweise/indirekt darbieten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=235"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَعْرَضَ",
+          "meaning": "sich abwenden / ignorieren",
+          "ref": "7:199",
+          "note": "Form IV: die Breitseite zeigen = sich abwenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=199"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِعْتَرَضَ",
+          "meaning": "sich widersetzen / einwenden",
+          "note": "Form VIII reflexiv: sich quer stellen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "7:199",
+          "arabic": "وَأَعْرِضْ عَنِ ٱلْجَٰهِلِينَ",
+          "question": "Wie entwickelt sich die Bedeutung von 'breit/quer' zu 'sich abwenden'?",
+          "answer": "أَعْرَضَ (Form IV): die breite Seite zeigen = jemandem den Rücken/die Seite zeigen = sich abwenden. Metaphorische Erweiterung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=199"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=70"
+    },
+    {
+      "id": 33,
+      "root": "ر-ك-ب",
+      "rootArabic": "ر ك ب",
+      "baseMeaning": "reiten/zusammensetzen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "رَكِبَ",
+          "meaning": "reiten / besteigen",
+          "ref": "29:65",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=65"
+        },
+        {
+          "form": "II",
+          "arabic": "رَكَّبَ",
+          "meaning": "zusammensetzen / formen",
+          "ref": "82:8",
+          "note": "Form II intensiv: فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ — in welcher Gestalt er wollte hat er dich zusammengesetzt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=8"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِرْتَكَبَ",
+          "meaning": "begehen (eine Tat)",
+          "note": "Form VIII reflexiv: auf sich laden/begehen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "82:7-8",
+          "arabic": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
+          "question": "Was drückt Form II رَكَّبَ im Vergleich zu Form I رَكِبَ aus?",
+          "answer": "Form I: besteigen/reiten. Form II: zusammensetzen/formen (kausativ-intensiv). Gott hat den Menschen zusammengesetzt in einer bestimmten Gestalt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=65"
+    },
+    {
+      "id": 34,
+      "root": "ق-و-ل",
+      "rootArabic": "ق و ل",
+      "baseMeaning": "sagen/sprechen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "قَالَ",
+          "meaning": "sagen",
+          "ref": "2:30",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "form": "II",
+          "arabic": "قَوَّلَ",
+          "meaning": "jemandem Worte in den Mund legen",
+          "note": "Form II kausativ: jemanden etwas sagen MACHEN",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "III",
+          "arabic": "قَاوَلَ",
+          "meaning": "sich unterreden mit",
+          "note": "Form III reziprok: gegenseitiges Sprechen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "18:109",
+          "arabic": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا",
+          "question": "Welche nominalen Ableitungen der Wurzel ق-و-ل erscheinen in diesem Vers?",
+          "answer": "كَلِمَات (Plural von كَلِمَة): Worte. Auch قُلْ (Imperativ Form I). Die Wurzel ق-و-ل ist die häufigste im Quran.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=109"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": 35,
+      "root": "ب-ع-ث",
+      "rootArabic": "ب ع ث",
+      "baseMeaning": "erwecken/entsenden",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "بَعَثَ",
+          "meaning": "erwecken / entsenden",
+          "ref": "62:2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2"
+        },
+        {
+          "form": "VII",
+          "arabic": "اِنْبَعَثَ",
+          "meaning": "sich aufmachen / losbrechen",
+          "ref": "91:12",
+          "note": "Form VII passiv-reflexiv: إِذِ انْبَعَثَ أَشْقَاهَا — als der Elendste losbrach",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=12"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِبْتَعَثَ",
+          "meaning": "aussenden / beauftragen",
+          "note": "Form VIII: für sich entsenden",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "91:12",
+          "arabic": "إِذِ ٱنبَعَثَ أَشْقَىٰهَا",
+          "question": "Was drückt Form VII اِنْبَعَثَ im Vergleich zu Form I بَعَثَ aus?",
+          "answer": "Form I transitiv: jemanden entsenden/erwecken. Form VII intransitiv-reflexiv: sich selbst aufmachen/losbrechen. Der Elendste brach (aus eigener Kraft) los.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2"
+    },
+    {
+      "id": 36,
+      "root": "د-ر-ك",
+      "rootArabic": "د ر ك",
+      "baseMeaning": "erreichen/einholen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "دَرَكَ",
+          "meaning": "erreichen / einholen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَدْرَكَ",
+          "meaning": "einholen / erfassen",
+          "ref": "6:103",
+          "note": "Form IV: لَا تُدْرِكُهُ الْأَبْصَارُ — die Blicke erfassen ihn nicht",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=103"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَدَارَكَ",
+          "meaning": "einander einholen / zusammenkommen",
+          "ref": "7:38",
+          "note": "Form VI: حَتَّى إِذَا ادَّارَكُوا فِيهَا — bis sie alle darin versammelt sind",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=38"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَدْرَكَ",
+          "meaning": "nachzuholen suchen / korrigieren",
+          "note": "Form X estimativ: das Einholen anstreben",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "6:103",
+          "arabic": "لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ",
+          "question": "Wie wird die Form IV أَدْرَكَ hier zweimal kontrastiv verwendet?",
+          "answer": "Erstes Mal negiert: die Blicke erfassen IHN nicht. Zweites Mal positiv: ER erfasst die Blicke. Selbe Form IV, aber Perspektivwechsel im Subjekt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=103"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=103"
+    },
+    {
+      "id": 37,
+      "root": "ج-ه-ل",
+      "rootArabic": "ج ه ل",
+      "baseMeaning": "nicht wissen/unwissend sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "جَهِلَ",
+          "meaning": "nicht wissen / unwissend sein",
+          "ref": "6:35",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=35"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَجَاهَلَ",
+          "meaning": "sich unwissend stellen",
+          "note": "Form VI simulativ: Unwissenheit vortäuschen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَجْهَلَ",
+          "meaning": "jemanden für unwissend halten / zur Torheit verleiten",
+          "ref": "7:155",
+          "note": "Form X estimativ/kausativ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=155"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "2:273",
+          "arabic": "يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ",
+          "question": "Was zeigt das Partizip الْجَاهِلُ über die Morphologie?",
+          "answer": "فَاعِل-Muster: aktives Partizip von Form I (جَهِلَ). Der Unwissende/Nichtwissende. Kontrast: جاهل ≠ عالِم (von ع-ل-م).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=273"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=35"
+    },
+    {
+      "id": 38,
+      "root": "ف-ت-ح",
+      "rootArabic": "ف ت ح",
+      "baseMeaning": "öffnen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "فَتَحَ",
+          "meaning": "öffnen / eröffnen / Sieg gewähren",
+          "ref": "48:1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+        },
+        {
+          "form": "II",
+          "arabic": "فَتَّحَ",
+          "meaning": "weit öffnen / vielfach öffnen",
+          "ref": "6:44",
+          "note": "Form II intensiv: فَتَحْنَا عَلَيْهِمْ أَبْوَابَ كُلِّ شَيْءٍ — wir öffneten ihnen die Tore",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=44"
+        },
+        {
+          "form": "V",
+          "arabic": "تَفَتَّحَ",
+          "meaning": "sich öffnen / aufgehen",
+          "ref": "7:40",
+          "note": "Form V reflexiv: لَا تُفَتَّحُ لَهُمْ أَبْوَابُ السَّمَاءِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=40"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِفْتَتَحَ",
+          "meaning": "eröffnen / Urteil erbitten",
+          "note": "Form VIII: für sich öffnen / Eröffnung erbitten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَفْتَحَ",
+          "meaning": "um Sieg/Eröffnung bitten",
+          "ref": "8:19",
+          "note": "Form X petitiv: إِنْ تَسْتَفْتِحُوا فَقَدْ جَاءَكُمُ الْفَتْحُ — wenn ihr um Sieg bittet",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=19"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "8:19",
+          "arabic": "إِن تَسْتَفْتِحُوا فَقَدْ جَآءَكُمُ ٱلْفَتْحُ",
+          "question": "Wie verhält sich Form X تَسْتَفْتِحُوا zum Masdar الْفَتْح?",
+          "answer": "Form X (petitiv): um Eröffnung/Sieg bitten. الْفَتْح Masdar von Form I: die Eröffnung/der Sieg. Wenn ihr um Sieg bittet, so ist der Sieg gekommen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=19"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+    },
+    {
+      "id": 39,
+      "root": "ر-ض-ي",
+      "rootArabic": "ر ض ي",
+      "baseMeaning": "zufrieden sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "رَضِيَ",
+          "meaning": "zufrieden sein / Wohlgefallen haben",
+          "ref": "5:3",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَرْضَى",
+          "meaning": "zufriedenstellen / Wohlgefallen erwirken",
+          "ref": "20:84",
+          "note": "Form IV kausativ: jemanden zufrieden MACHEN",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=84"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَرْضَى",
+          "meaning": "um Zufriedenheit bitten / zu gefallen suchen",
+          "note": "Form X petitiv: Zufriedenheit erbitten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "5:3",
+          "arabic": "ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا",
+          "question": "Welche Rektion zeigt رَضِيَ hier?",
+          "answer": "Form I mit لِ + Akkusativ: ich habe für euch den Islam als Religion gebilligt. لِ leitet den Empfänger, دينا ist Tamyiz/Hal.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+    },
+    {
+      "id": 40,
+      "root": "ع-ز-ز",
+      "rootArabic": "ع ز ز",
+      "baseMeaning": "mächtig/stark sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "عَزَّ",
+          "meaning": "mächtig/unerreichbar sein",
+          "ref": "38:2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=2"
+        },
+        {
+          "form": "II",
+          "arabic": "عَزَّزَ",
+          "meaning": "stärken / unterstützen",
+          "ref": "36:14",
+          "note": "Form II kausativ: فَعَزَّزْنَا بِثَالِثٍ — wir stärkten mit einem Dritten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=14"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَعَزَّ",
+          "meaning": "mächtig machen / ehren",
+          "ref": "3:26",
+          "note": "Form IV: تُعِزُّ مَنْ تَشَاءُ — du machst mächtig wen du willst",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِعْتَزَّ",
+          "meaning": "sich für mächtig halten / stolz sein",
+          "note": "Form VIII reflexiv: sich Macht zuschreiben",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَعَزَّ",
+          "meaning": "Macht beanspruchen / sich verstärken",
+          "note": "Form X estimativ",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "3:26",
+          "arabic": "وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ",
+          "question": "Welche Formen liegen bei تُعِزُّ und تُذِلُّ vor und wie verhalten sie sich?",
+          "answer": "Beide Form IV (kausativ). تُعِزُّ von ع-ز-ز: mächtig machen. تُذِلُّ von ذ-ل-ل: erniedrigen. Antonymisches Paar in derselben Verbform.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=2"
+    },
+    {
+      "id": 41,
+      "root": "ل-ب-س",
+      "rootArabic": "ل ب س",
+      "baseMeaning": "bedecken/anziehen/verwirren",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "لَبِسَ",
+          "meaning": "anziehen / bekleiden",
+          "ref": "2:187",
+          "note": "هُنَّ لِبَاسٌ لَكُمْ — sie sind Bekleidung für euch (Masdar als Metapher)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+        },
+        {
+          "form": "II",
+          "arabic": "لَبَّسَ",
+          "meaning": "verwirren / vermischen / verschleiern",
+          "ref": "6:9",
+          "note": "Form II: وَلَلَبَسْنَا عَلَيْهِمْ مَا يَلْبِسُونَ — wir hätten ihnen verwirrt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=9"
+        },
+        {
+          "form": "V",
+          "arabic": "تَلَبَّسَ",
+          "meaning": "sich bekleiden / sich hüllen in",
+          "note": "Form V reflexiv: sich selbst bekleiden",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "6:82",
+          "arabic": "وَلَمْ يَلْبِسُوٓا إِيمَٰنَهُم بِظُلْمٍ",
+          "question": "Was bedeutet يَلْبِسُوا hier — 'anziehen' oder 'vermischen'?",
+          "answer": "Form I لَبِسَ hier metaphorisch: ihren Glauben (nicht) mit Unrecht bedecken/vermischen. Die Grundbedeutung 'bedecken' trägt beide Lesarten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=82"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+    },
+    {
+      "id": 42,
+      "root": "ح-ق-ق",
+      "rootArabic": "ح ق ق",
+      "baseMeaning": "wahr/recht sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "حَقَّ",
+          "meaning": "wahr werden / zu Recht zukommen",
+          "ref": "10:33",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=33"
+        },
+        {
+          "form": "II",
+          "arabic": "حَقَّقَ",
+          "meaning": "verwirklichen / bestätigen",
+          "note": "Form II kausativ: wahr MACHEN",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَحَقَّ",
+          "meaning": "als wahr erweisen / bewahrheiten",
+          "ref": "8:7",
+          "note": "Form IV: وَيُحِقُّ اللَّهُ الْحَقَّ — Gott verwirklicht das Wahre",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=7"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَحَقَّ",
+          "meaning": "verdienen / beanspruchen",
+          "ref": "5:107",
+          "note": "Form X estimativ: sich als berechtigt betrachten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=107"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "8:7",
+          "arabic": "وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ",
+          "question": "Welche Form ist يُحِقَّ und was ist das Objekt?",
+          "answer": "Form IV (أَحَقَّ) im Nasb nach أَنْ. Objekt: الْحَقّ. Etymologische Figur: das Wahre wahr machen / das Recht verwirklichen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=33"
+    },
+    {
+      "id": 43,
+      "root": "م-د-د",
+      "rootArabic": "م د د",
+      "baseMeaning": "ausdehnen/erstrecken",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "مَدَّ",
+          "meaning": "ausdehnen / ausbreiten",
+          "ref": "13:3",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=3"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَمَدَّ",
+          "meaning": "versorgen / verlängern / ausstatten",
+          "ref": "26:132",
+          "note": "Form IV kausativ: أَمَدَّكُمْ بِأَنْعَامٍ — er stattete euch aus mit Vieh",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=132"
+        },
+        {
+          "form": "VIII",
+          "arabic": "اِمْتَدَّ",
+          "meaning": "sich erstrecken / sich ausdehnen",
+          "note": "Form VIII reflexiv: sich selbst ausdehnen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَمَدَّ",
+          "meaning": "Hilfe/Verstärkung erbitten",
+          "note": "Form X petitiv: Ausdehnung/Unterstützung erbitten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "17:20",
+          "arabic": "كُلًّا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ",
+          "question": "Welche Form ist نُمِدُّ und was bedeutet sie?",
+          "answer": "Form IV (أَمَدَّ): versorgen/ausstatten. Kausativ: die Ausdehnung verursachen = jemanden mit Mitteln versorgen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=3"
+    },
+    {
+      "id": 44,
+      "root": "ط-و-ع",
+      "rootArabic": "ط و ع",
+      "baseMeaning": "gehorchen/gefügig sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "طَاعَ",
+          "meaning": "gehorchen / willig sein",
+          "ref": "41:11",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=11"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَطَاعَ",
+          "meaning": "gehorchen (transitiv)",
+          "ref": "4:59",
+          "note": "Form IV: أَطِيعُوا اللَّهَ — gehorcht Gott",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=59"
+        },
+        {
+          "form": "V",
+          "arabic": "تَطَوَّعَ",
+          "meaning": "freiwillig tun / sich freiwillig hingeben",
+          "ref": "2:158",
+          "note": "Form V reflexiv: فَمَنْ تَطَوَّعَ خَيْرًا — wer freiwillig Gutes tut",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=158"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَطَاوَعَ",
+          "meaning": "einander gehorchen / sich fügen",
+          "note": "Form VI gegenseitig-reflexiv",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَطَاعَ",
+          "meaning": "imstande sein / können",
+          "ref": "3:97",
+          "note": "Form X: مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا — wer dazu imstande ist",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "3:97",
+          "arabic": "مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا",
+          "question": "Wie entwickelt sich 'gehorchen' zu 'können' in Form X?",
+          "answer": "Form X estimativ/reflexiv: sich als gefügig/willig betrachten = bereit sein = imstande sein. Die Fähigkeit wird als 'innere Willigkeit' konzeptualisiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=11"
+    },
+    {
+      "id": 45,
+      "root": "ع-ج-ل",
+      "rootArabic": "ع ج ل",
+      "baseMeaning": "sich beeilen/voreilig sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "عَجِلَ",
+          "meaning": "sich beeilen / voreilig sein",
+          "ref": "20:83",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=83"
+        },
+        {
+          "form": "II",
+          "arabic": "عَجَّلَ",
+          "meaning": "beschleunigen / vorziehen",
+          "ref": "2:203",
+          "note": "Form II kausativ: فَمَنْ تَعَجَّلَ فِي يَوْمَيْنِ — wer es eilig hat in zwei Tagen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=203"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَعْجَلَ",
+          "meaning": "jemanden zur Eile antreiben",
+          "ref": "20:83",
+          "note": "Form IV: وَمَا أَعْجَلَكَ عَنْ قَوْمِكَ — was trieb dich zur Eile weg von deinem Volk",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=83"
+        },
+        {
+          "form": "V",
+          "arabic": "تَعَجَّلَ",
+          "meaning": "sich beeilen / vorziehen",
+          "ref": "2:203",
+          "note": "Form V reflexiv: sich selbst beeilen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=203"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَعْجَلَ",
+          "meaning": "Eile verlangen / zur Eile drängen",
+          "ref": "10:11",
+          "note": "Form X: وَلَوْ يُعَجِّلُ اللَّهُ لِلنَّاسِ الشَّرَّ اسْتِعْجَالَهُمْ بِالْخَيْرِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=11"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "22:47",
+          "arabic": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ",
+          "question": "Was drückt Form X اِسْتَعْجَلَ genau aus?",
+          "answer": "Form X (petitiv): Eile verlangen/fordern. Sie fordern von dir die Beschleunigung der Strafe. بِ leitet den Gegenstand der Eile ein.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=47"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=83"
+    },
+    {
+      "id": 46,
+      "root": "ج-م-ل",
+      "rootArabic": "ج م ل",
+      "baseMeaning": "schön/ansehnlich sein",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "جَمُلَ",
+          "meaning": "schön sein",
+          "ref": "16:6",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=6"
+        },
+        {
+          "form": "III",
+          "arabic": "جَامَلَ",
+          "meaning": "mit jemandem schön/höflich umgehen",
+          "note": "Form III reziprok: Schönheit im Umgang zeigen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَجْمَلَ",
+          "meaning": "zusammenfassen / im Ganzen behandeln",
+          "note": "Form IV: das Schöne/Ganze zusammenfügen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "12:18",
+          "arabic": "فَصَبْرٌ جَمِيلٌ",
+          "question": "Welches Muster hat جَمِيل und von welcher Wurzel?",
+          "answer": "فَعِيل-Muster von ج-م-ل: schön. Bedeutung: schöne Geduld = würdevolle Geduld ohne Klage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=18"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=6"
+    },
+    {
+      "id": 47,
+      "root": "و-ص-ي",
+      "rootArabic": "و ص ي",
+      "baseMeaning": "anempfehlen/beauftragen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "وَصَى",
+          "meaning": "anempfehlen / letztwillig verfügen",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "II",
+          "arabic": "وَصَّى",
+          "meaning": "eindringlich anempfehlen / beauftragen",
+          "ref": "2:132",
+          "note": "Form II intensiv: وَوَصَّىٰ بِهَا إِبْرَاهِيمُ بَنِيهِ — Ibrahim empfahl sie seinen Söhnen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَوْصَى",
+          "meaning": "auftragen / verfügen",
+          "ref": "4:11",
+          "note": "Form IV: مِنْ بَعْدِ وَصِيَّةٍ يُوصِي بِهَا — nach einem Vermächtnis das er verfügt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=11"
+        },
+        {
+          "form": "VI",
+          "arabic": "تَوَاصَى",
+          "meaning": "einander anempfehlen / sich gegenseitig ermahnen",
+          "ref": "103:3",
+          "note": "Form VI reziprok: وَتَوَاصَوْا بِالْحَقِّ — sie empfahlen einander die Wahrheit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "103:3",
+          "arabic": "وَتَوَاصَوْا بِٱلْحَقِّ وَتَوَاصَوْا بِٱلصَّبْرِ",
+          "question": "Warum steht hier Form VI (تَوَاصَوْا) und nicht Form II?",
+          "answer": "Form VI (تَفَاعَلَ) ist reziprok: sie empfahlen EINANDER gegenseitig. Form II wäre einseitig. Das gegenseitige Ermahnen ist der Kern der Aussage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132"
+    },
+    {
+      "id": 48,
+      "root": "ف-ر-ح",
+      "rootArabic": "ف ر ح",
+      "baseMeaning": "sich freuen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "فَرِحَ",
+          "meaning": "sich freuen / fröhlich sein",
+          "ref": "3:188",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=188"
+        },
+        {
+          "form": "II",
+          "arabic": "فَرَّحَ",
+          "meaning": "jemanden erfreuen",
+          "note": "Form II kausativ: jemanden froh MACHEN",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَفْرَحَ",
+          "meaning": "erfreuen / froh machen",
+          "note": "Form IV kausativ (Alternativ zu II)",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "30:4-5",
+          "arabic": "وَيَوْمَئِذٍ يَفْرَحُ الْمُؤْمِنُونَ بِنَصْرِ اللَّهِ",
+          "question": "Welche Rektion hat فَرِحَ hier?",
+          "answer": "Form I mit بِ: sich freuen über. بِنَصْرِ Präposition + Masdar-Iḍāfa: über den Sieg Gottes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+        },
+        {
+          "ref": "3:188",
+          "arabic": "لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا",
+          "question": "Was leitet بِ nach يَفْرَحُونَ ein?",
+          "answer": "بِ leitet den Gegenstand der Freude ein: sie freuen sich über das was sie getan haben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=188"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=188"
+    },
+    {
+      "id": 49,
+      "root": "ض-ل-ل",
+      "rootArabic": "ض ل ل",
+      "baseMeaning": "abirren/verloren gehen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "ضَلَّ",
+          "meaning": "abirren / in die Irre gehen",
+          "ref": "1:7",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "form": "II",
+          "arabic": "ضَلَّلَ",
+          "meaning": "für irregegangen erklären / irreführen",
+          "ref": "105:2",
+          "note": "Form II kausativ: أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ — in Vereitelung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=2"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَضَلَّ",
+          "meaning": "in die Irre führen",
+          "ref": "14:36",
+          "note": "Form IV kausativ: رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًا مِنَ النَّاسِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=36"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "1:7",
+          "arabic": "غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "question": "Was ist الضَّالِّين morphologisch?",
+          "answer": "Aktives Partizip Plural (فَاعِل) von ضَلَّ (Form I): die Abirrenden. Gesunder mask. Plural im Genitiv (-ين nach لا).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "ref": "4:88",
+          "arabic": "أَتُرِيدُونَ أَن تَهْدُوا مَنْ أَضَلَّ ٱللَّهُ",
+          "question": "Wie kontrastieren هَدَى (Form I) und أَضَلَّ (Form IV)?",
+          "answer": "هدى Form I: leiten, den Weg zeigen. أضلّ Form IV (kausativ von ض-ل-ل): in die Irre führen lassen. Antonymisches Paar — eines in Form I, das andere kausativ in IV.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=88"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": 50,
+      "root": "ش-ه-د",
+      "rootArabic": "ش ه د",
+      "baseMeaning": "anwesend sein/bezeugen",
+      "forms": [
+        {
+          "form": "I",
+          "arabic": "شَهِدَ",
+          "meaning": "bezeugen / miterleben",
+          "ref": "3:18",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+        },
+        {
+          "form": "III",
+          "arabic": "شَاهَدَ",
+          "meaning": "beobachten / Zeuge sein bei",
+          "note": "Form III: bei etwas anwesend sein und beobachten",
+          "notAttested": true,
+          "attestationNote": "— (im Quran nicht direkt belegt)"
+        },
+        {
+          "form": "IV",
+          "arabic": "أَشْهَدَ",
+          "meaning": "als Zeugen benennen / bezeugen lassen",
+          "ref": "7:172",
+          "note": "Form IV kausativ: أَلَسْتُ بِرَبِّكُمْ — mit vorherigem أَشْهَدَهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=172"
+        },
+        {
+          "form": "X",
+          "arabic": "اِسْتَشْهَدَ",
+          "meaning": "als Zeugen anrufen / das Zeugnis erbitten",
+          "ref": "2:282",
+          "note": "Form X petitiv: وَاسْتَشْهِدُوا شَهِيدَيْنِ — ruft zwei Zeugen an",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+        }
+      ],
+      "exercises": [
+        {
+          "ref": "2:282",
+          "arabic": "وَٱسْتَشْهِدُوا شَهِيدَيْنِ مِن رِّجَالِكُمْ",
+          "question": "Wie verhält sich Form X اِسْتَشْهِدُوا zum Masdar شَهِيد?",
+          "answer": "Form X (petitiv): Zeugenschaft erbitten. شَهِيدَيْنِ Dual von شَهِيد (فَعِيل-Muster): zwei Zeugen. Die Form X drückt die aktive Suche nach Zeugen aus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+    }
+  ],
+  "semanticPatterns": {
+    "title": "Systematische Bedeutungsmuster der Verbformen",
+    "patterns": [
+      {
+        "form": "II (فَعَّلَ)",
+        "pattern": "Kausativ / Intensiv / Iterativ",
+        "example": "عَلِمَ (wissen) → عَلَّمَ (lehren = wissen MACHEN)"
+      },
+      {
+        "form": "III (فَاعَلَ)",
+        "pattern": "Reziprok / Kompetitiv / Versuch",
+        "example": "قَتَلَ (töten) → قَاتَلَ (kämpfen = versuchen zu töten / gegenseitig töten)"
+      },
+      {
+        "form": "IV (أَفْعَلَ)",
+        "pattern": "Kausativ (transitiv machen)",
+        "example": "نَزَلَ (herabsteigen) → أَنزَلَ (herabsenden = jemanden herabsteigen LASSEN)"
+      },
+      {
+        "form": "V (تَفَعَّلَ)",
+        "pattern": "Reflexiv zu II / Gradualität",
+        "example": "عَلَّمَ (lehren) → تَعَلَّمَ (lernen = sich selbst lehren)"
+      },
+      {
+        "form": "VI (تَفَاعَلَ)",
+        "pattern": "Gegenseitig-reflexiv / Simulation",
+        "example": "صَالَحَ (Frieden schließen) → تَصَالَحَ (sich miteinander versöhnen)"
+      },
+      {
+        "form": "VII (اِنْفَعَلَ)",
+        "pattern": "Passiv-reflexiv (intransitiv)",
+        "example": "كَسَرَ (zerbrechen, tr.) → اِنْكَسَرَ (zerbrochen werden)"
+      },
+      {
+        "form": "VIII (اِفْتَعَلَ)",
+        "pattern": "Reflexiv / Eigeninitiative",
+        "example": "جَمَعَ (sammeln) → اِجْتَمَعَ (sich versammeln)"
+      },
+      {
+        "form": "X (اِسْتَفْعَلَ)",
+        "pattern": "Estimativ / Petitiv / Reflexiv",
+        "example": "غَفَرَ (vergeben) → اِسْتَغْفَرَ (um Vergebung bitten)"
+      }
+    ]
+  }
+}

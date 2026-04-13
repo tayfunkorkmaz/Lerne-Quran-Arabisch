@@ -1,0 +1,2927 @@
+{
+  "meta": {
+    "title": "Polysemie-Drill — Bedeutung im Kontext",
+    "description": "Training zur kontextabhängigen Bedeutungsbestimmung polysemer Wörter im Quran. Der Leser wählt die richtige Bedeutung basierend auf dem Vers-Kontext.",
+    "totalEntries": 78,
+    "sources": [
+      {
+        "title": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      },
+      {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": 1,
+      "word": "ضَرَبَ",
+      "root": "ض-ر-ب",
+      "meanings": [
+        "schlagen/treffen",
+        "prägen/aufstellen",
+        "reisen/losziehen",
+        "ein Gleichnis anführen",
+        "auferlegen"
+      ],
+      "exercises": [
+        {
+          "ref": "2:26",
+          "arabic": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِٓ أَن يَضْرِبَ مَثَلًا",
+          "correctMeaning": "ein Gleichnis anführen",
+          "context": "Mafʿul bihi ist مَثَلًا (Gleichnis) — das Verb bedeutet hier 'anführen/präsentieren', nicht 'schlagen'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "ref": "2:273",
+          "arabic": "لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ",
+          "correctMeaning": "reisen/losziehen",
+          "context": "ضَرْب فِي الْأَرْضِ = Reisen im Land. Präposition فِي zeigt räumliche Bewegung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=273"
+        },
+        {
+          "ref": "8:12",
+          "arabic": "فَٱضْرِبُوا فَوْقَ ٱلْأَعْنَاقِ",
+          "correctMeaning": "schlagen/treffen",
+          "context": "Direkter Imperativ mit Körperteil als Ziel — physisches Schlagen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=12"
+        },
+        {
+          "ref": "43:58",
+          "arabic": "مَا ضَرَبُوهُ لَكَ إِلَّا جَدَلًا",
+          "correctMeaning": "anführen/vorbringen",
+          "context": "Tamyiz جَدَلًا (Streit) zeigt: es geht um Argumentation, nicht physische Handlung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=58"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": 2,
+      "word": "هَدَى",
+      "root": "ه-د-ي",
+      "meanings": [
+        "leiten, den Weg zeigen",
+        "Geschenk/Opfertier (هَدْي)"
+      ],
+      "exercises": [
+        {
+          "ref": "1:6",
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "correctMeaning": "leiten, den Weg zeigen",
+          "context": "Doppelter Akkusativ (uns + den Weg) — Bitte um Führung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "ref": "2:198",
+          "arabic": "وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ",
+          "correctMeaning": "den Weg zeigen",
+          "context": "كَمَا (so wie) + Pronominalsuffix — Erinnerung an Wegweisung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=198"
+        },
+        {
+          "ref": "2:196",
+          "arabic": "فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ",
+          "correctMeaning": "Opfertier (هَدْي)",
+          "context": "الْهَدْي = das Opfertier, Nomen von derselben Wurzel ه-د-ي. Hier in der Bedeutung 'Opfergabe', nicht 'Führung'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "id": 3,
+      "word": "أَمْر",
+      "root": "ا-م-ر",
+      "meanings": [
+        "Befehl/Anordnung",
+        "Angelegenheit/Sache",
+        "Entscheidung/Beschluss"
+      ],
+      "exercises": [
+        {
+          "ref": "65:5",
+          "arabic": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُٓ إِلَيْكُمْ",
+          "correctMeaning": "Anordnung/Befehl",
+          "context": "أَنزَلَهُ (er sandte es herab) — bezieht sich auf eine herabgesandte Vorschrift.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=5"
+        },
+        {
+          "ref": "18:21",
+          "arabic": "إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ",
+          "correctMeaning": "Angelegenheit/Sache",
+          "context": "يَتَنَازَعُونَ (sie streiten) + بَيْنَهُمْ (untereinander) — es geht um ihre Sache/Angelegenheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=21"
+        },
+        {
+          "ref": "54:12",
+          "arabic": "وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍ قَدْ قُدِرَ",
+          "correctMeaning": "Entscheidung/Beschluss",
+          "context": "قَدْ قُدِرَ (wurde bestimmt) — vorherbestimmter Beschluss.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=5"
+    },
+    {
+      "id": 4,
+      "word": "فَتَنَ",
+      "root": "ف-ت-ن",
+      "meanings": [
+        "prüfen/testen",
+        "verführen/in Versuchung führen",
+        "verfolgen/bedrängen",
+        "Zwietracht/Prüfung"
+      ],
+      "exercises": [
+        {
+          "ref": "29:2",
+          "arabic": "أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا أَن يَقُولُوٓا ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
+          "correctMeaning": "geprüft werden",
+          "context": "Passiv يُفْتَنُونَ nach Glaubensbekenntnis — Prüfung des Glaubens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=2"
+        },
+        {
+          "ref": "2:191",
+          "arabic": "وَٱلْفِتْنَةُ أَشَدُّ مِنَ ٱلْقَتْلِ",
+          "correctMeaning": "Verfolgung/Bedrängnis",
+          "context": "Vergleich mit القتل (Tötung) — muss schwerer als Tötung sein: Verführung/Verfolgung/Prüfung.",
+          "note": "Der Text sagt الْفِتْنَة أَشَدُّ مِنَ الْقَتْلِ — die genaue Bedeutung von فِتْنَة ergibt sich aus dem Kontext. Mögliche Bedeutungen: Verfolgung, Bedrängnis, Prüfung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=191"
+        },
+        {
+          "ref": "8:28",
+          "arabic": "أَنَّمَآ أَمْوَٰلُكُمْ وَأَوْلَٰدُكُمْ فِتْنَةٌ",
+          "correctMeaning": "Prüfung/Versuchung",
+          "context": "Besitz und Kinder als Prüfung — keine Verfolgung, sondern Versuchung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=2"
+    },
+    {
+      "id": 5,
+      "word": "رُوح",
+      "root": "ر-و-ح",
+      "note": "Zu unterscheiden: رُوح (mit Damma, = Geist/Spirit) vs. رَوْح (mit Fatha, = Erleichterung/Trost, cf. 12:87). Trotz gemeinsamer Wurzel sind dies distinkte Lexeme.",
+      "meanings": [
+        "Geist/Hauch",
+        "Geist/Eingebung",
+        "Barmherzigkeit/Trost",
+        "Geist der Heiligkeit"
+      ],
+      "exercises": [
+        {
+          "ref": "17:85",
+          "arabic": "وَيَسْـَٔلُونَكَ عَنِ ٱلرُّوحِ",
+          "correctMeaning": "Geist/Hauch",
+          "context": "Frage über das Wesen des Ruuh — allgemeine Frage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=85"
+        },
+        {
+          "ref": "16:2",
+          "arabic": "يُنَزِّلُ ٱلْمَلَٰٓئِكَةَ بِٱلرُّوحِ مِنْ أَمْرِهِ",
+          "correctMeaning": "Geist/Eingebung",
+          "context": "بِ + مِنْ أَمْرِهِ — die Engel kommen mit dem Geist aus seinem Befehl.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=2"
+        },
+        {
+          "ref": "2:87",
+          "arabic": "وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ",
+          "correctMeaning": "Geist der Heiligkeit",
+          "context": "Iḍāfa: رُوحِ الْقُدُسِ = Geist der Heiligkeit/Reinheit. Der Text benennt keinen Eigennamen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=85"
+    },
+    {
+      "id": 6,
+      "word": "آيَة",
+      "root": "ا-ي-ي",
+      "meanings": [
+        "Zeichen/Beweis",
+        "Vers (des Quran)",
+        "Wunder"
+      ],
+      "exercises": [
+        {
+          "ref": "2:106",
+          "arabic": "مَا نَنسَخْ مِنْ ءَايَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍ مِّنْهَآ",
+          "correctMeaning": "Zeichen/Vers",
+          "context": "نَنسَخْ مِنْ آيَةٍ (aufheben von einem Zeichen) — das Wort kann sowohl Zeichen als auch Vers bedeuten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=106"
+        },
+        {
+          "ref": "2:164",
+          "arabic": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ... لَآيَاتٍ",
+          "correctMeaning": "Zeichen/Beweise",
+          "context": "Plural آيَات nach Naturphänomenen — beobachtbare Zeichen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=164"
+        },
+        {
+          "ref": "17:101",
+          "arabic": "وَلَقَدْ ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَٰتٍ بَيِّنَٰتٍ",
+          "correctMeaning": "Zeichen",
+          "context": "تِسْعَ (neun) + بَيِّنَاتٍ (klare) — die neun klaren Zeichen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=101"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=106"
+    },
+    {
+      "id": 7,
+      "word": "كَلِمَة",
+      "root": "ك-ل-م",
+      "meanings": [
+        "Wort/Aussage",
+        "Versprechen/Dekret",
+        "Urteil/Beschluss"
+      ],
+      "exercises": [
+        {
+          "ref": "18:109",
+          "arabic": "لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَٰتِ رَبِّى",
+          "correctMeaning": "Wort/Aussage",
+          "context": "مِدَاد (Tinte) — wörtliche Bedeutung: Wörter aufschreiben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=109"
+        },
+        {
+          "ref": "10:33",
+          "arabic": "كَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ",
+          "correctMeaning": "Urteil/Beschluss",
+          "context": "حَقَّتْ (hat sich bewahrheitet) — ein Beschluss der in Kraft tritt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=33"
+        },
+        {
+          "ref": "3:45",
+          "arabic": "إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ",
+          "correctMeaning": "Versprechen/Dekret",
+          "context": "Ankündigung einer Person mit Namen — كَلِمَة als textuelle Ankündigung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=45"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=109"
+    },
+    {
+      "id": 8,
+      "word": "حَقّ",
+      "root": "ح-ق-ق",
+      "meanings": [
+        "Wahrheit",
+        "Recht/Anspruch",
+        "Pflicht",
+        "wahr/berechtigt"
+      ],
+      "exercises": [
+        {
+          "ref": "2:147",
+          "arabic": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
+          "correctMeaning": "Wahrheit",
+          "context": "Gegensatz zu الْمُمْتَرِينَ (Zweifler) — die Wahrheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=147"
+        },
+        {
+          "ref": "6:141",
+          "arabic": "حَقَّهُ يَوْمَ حَصَادِهِ",
+          "correctMeaning": "Recht/Anspruch (Abgabe)",
+          "context": "يَوْمَ حَصَادِهِ (am Tag der Ernte) — pflichtiger Anteil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=141"
+        },
+        {
+          "ref": "36:7",
+          "arabic": "لَقَدْ حَقَّ ٱلْقَوْلُ عَلَىٰٓ أَكْثَرِهِمْ",
+          "correctMeaning": "sich bewahrheiten/in Kraft treten",
+          "context": "Verb حَقَّ + عَلَى — das Urteil hat sich an ihnen erfüllt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=147"
+    },
+    {
+      "id": 9,
+      "word": "دِين",
+      "root": "د-ي-ن",
+      "meanings": [
+        "Religion/Lebensweise",
+        "Gericht/Abrechnung",
+        "Schuld"
+      ],
+      "exercises": [
+        {
+          "ref": "109:6",
+          "arabic": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+          "correctMeaning": "Religion/Lebensweise",
+          "context": "Kontrastierung zweier Lebensweisen — eure und meine.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+        },
+        {
+          "ref": "1:4",
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "correctMeaning": "Gericht/Abrechnung",
+          "context": "يَوْم (Tag) + Iḍāfa — der Tag der Abrechnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "ref": "2:282",
+          "arabic": "إِذَا تَدَايَنتُم بِدَيْنٍ",
+          "correctMeaning": "Schuld",
+          "context": "تَدَايَنتُم (ihr schuldet einander) — finanzieller Kontext.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+    },
+    {
+      "id": 10,
+      "word": "سَبِيل",
+      "root": "س-ب-ل",
+      "meanings": [
+        "Weg/Pfad",
+        "Sache/Zweck (fi sabil Allah)",
+        "Mittel/Möglichkeit"
+      ],
+      "exercises": [
+        {
+          "ref": "2:154",
+          "arabic": "وَلَا تَقُولُوا لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ",
+          "correctMeaning": "Sache/Zweck",
+          "context": "فِي سَبِيلِ اللَّهِ — feste Wendung: für die Sache Gottes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=154"
+        },
+        {
+          "ref": "25:27",
+          "arabic": "يَٰلَيْتَنِى ٱتَّخَذْتُ مَعَ ٱلرَّسُولِ سَبِيلًا",
+          "correctMeaning": "Weg/Pfad",
+          "context": "اتَّخَذْتُ (ich hätte genommen) — einen Weg eingeschlagen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=27"
+        },
+        {
+          "ref": "4:141",
+          "arabic": "يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+          "correctMeaning": "Mittel/Möglichkeit",
+          "context": "عَلَى (gegen) — kein Mittel/Zugang gegen die Vertrauenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=141"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=154"
+    },
+    {
+      "id": 11,
+      "word": "فَتَحَ",
+      "root": "ف-ت-ح",
+      "meanings": [
+        "öffnen",
+        "erobern/zum Sieg führen",
+        "entscheiden/richten"
+      ],
+      "exercises": [
+        {
+          "ref": "54:11",
+          "arabic": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ",
+          "correctMeaning": "öffnen",
+          "context": "أَبْوَاب (Tore) — wörtliches Öffnen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=11"
+        },
+        {
+          "ref": "48:1",
+          "arabic": "إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا",
+          "correctMeaning": "Sieg/Eroberung",
+          "context": "Mafʿul mutlaq فَتْحًا مُبِينًا — ein klarer Sieg.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+        },
+        {
+          "ref": "7:89",
+          "arabic": "رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ",
+          "correctMeaning": "entscheiden/richten",
+          "context": "بَيْنَنَا وَبَيْنَ (zwischen uns und) — Bitte um ein Urteil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=89"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=11"
+    },
+    {
+      "id": 12,
+      "word": "بَلَاء",
+      "root": "ب-ل-و",
+      "meanings": [
+        "Prüfung/Test",
+        "Wohltat/Gunst",
+        "Leid/Unglück"
+      ],
+      "exercises": [
+        {
+          "ref": "2:49",
+          "arabic": "ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+          "correctMeaning": "Prüfung",
+          "context": "Nach Rettung und Bestrafung — beides war eine große Prüfung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+        },
+        {
+          "ref": "8:17",
+          "arabic": "ٱلْمُؤْمِنِينَ مِنْهُ بَلَآءً حَسَنًا",
+          "correctMeaning": "Wohltat/Gunst",
+          "context": "حَسَنًا (gut/schön) — eine gute Gabe, Wohltat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=17"
+        },
+        {
+          "ref": "44:33",
+          "arabic": "وَءَاتَيْنَٰهُم مِّنَ ٱلْـَٔايَٰتِ مَا فِيهِ بَلَٰٓؤٌا مُّبِينٌ",
+          "correctMeaning": "Prüfung",
+          "context": "مُبِينٌ (klar/deutlich) + Zeichen — deutliche Prüfung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=33"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+    },
+    {
+      "id": 13,
+      "word": "وَلِيّ",
+      "root": "و-ل-ي",
+      "meanings": [
+        "Schutzherr/Beschützer",
+        "Freund/Verbündeter",
+        "Naher/Zuständiger"
+      ],
+      "exercises": [
+        {
+          "ref": "2:257",
+          "arabic": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا",
+          "correctMeaning": "Schutzherr/Beschützer",
+          "context": "Iḍāfa mit الَّذِينَ آمَنُوا — Gott als Beschützer der Vertrauenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+        },
+        {
+          "ref": "45:19",
+          "arabic": "إِنَّهُمْ لَن يُغْنُوا عَنكَ مِنَ ٱللَّهِ شَيْـًٔا وَإِنَّ ٱلظَّٰلِمِينَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ",
+          "correctMeaning": "Verbündeter/Freund",
+          "context": "بَعْضُهُمْ ... بَعْضٍ (einander) — gegenseitige Allianz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=19"
+        },
+        {
+          "ref": "19:5",
+          "arabic": "وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى",
+          "correctMeaning": "Naher/Verwandter",
+          "context": "مِن وَرَائِي (nach mir) — Verwandte als Erben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+    },
+    {
+      "id": 14,
+      "word": "سُلْطَان",
+      "root": "س-ل-ط",
+      "meanings": [
+        "Beweis/Beweiskraft",
+        "Macht/Autorität",
+        "Ermächtigung"
+      ],
+      "exercises": [
+        {
+          "ref": "7:71",
+          "arabic": "أَتُجَادِلُونَنِي فِي أَسْمَاءٍ... مَا نَزَّلَ اللَّهُ بِهَا مِن سُلْطَانٍ",
+          "correctMeaning": "Beweis/Beweiskraft",
+          "context": "نَزَّلَ (herabgesandt) + Negation مَا — kein Beweis wurde herabgesandt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=71"
+        },
+        {
+          "ref": "14:22",
+          "arabic": "وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ",
+          "correctMeaning": "Macht/Autorität",
+          "context": "عَلَيْكُمْ (über euch) — keine Gewalt über euch.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=22"
+        },
+        {
+          "ref": "17:33",
+          "arabic": "فَقَدْ جَعَلْنَا لِوَلِيِّهِ",
+          "correctMeaning": "Ermächtigung",
+          "context": "جَعَلْنَا لِـ (wir gaben dem) — rechtliche Ermächtigung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=33"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=71"
+    },
+    {
+      "id": 15,
+      "word": "كِتَاب",
+      "root": "ك-ت-ب",
+      "meanings": [
+        "Buch/Schrift",
+        "Vorschrift/Verordnung",
+        "Schicksal/Bestimmung"
+      ],
+      "exercises": [
+        {
+          "ref": "2:2",
+          "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ",
+          "correctMeaning": "Buch/Schrift",
+          "context": "Verweis auf den Quran als Text.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "ref": "2:235",
+          "arabic": "حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُ",
+          "correctMeaning": "Vorschrift/Verordnung",
+          "context": "أَجَلَهُ (seine Frist) — die vorgeschriebene Wartezeit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=235"
+        },
+        {
+          "ref": "3:145",
+          "arabic": "وَمَا كَانَ لِنَفْسٍ أَن تَمُوتَ إِلَّا بِإِذْنِ ٱللَّهِ كِتَٰبًا مُّؤَجَّلًا",
+          "correctMeaning": "Schicksal/Bestimmung",
+          "context": "كِتَابًا مُّؤَجَّلًا — als festgesetzte Bestimmung. Akkusativ als Hal oder Mafʿul mutlaq.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=145"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": 16,
+      "word": "فَضْل",
+      "root": "ف-ض-ل",
+      "meanings": [
+        "Gunst/Vorzug",
+        "Überschuss/Überfluss",
+        "Vorzug/Überlegenheit"
+      ],
+      "exercises": [
+        {
+          "ref": "2:198",
+          "arabic": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا فَضْلًا مِّن رَّبِّكُمْ",
+          "correctMeaning": "Gunst/Vorzug (Lebensunterhalt)",
+          "context": "تَبْتَغُوا (ihr sucht) + مِنْ رَبِّكُمْ — Erwerb als Gunst Gottes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=198"
+        },
+        {
+          "ref": "2:253",
+          "arabic": "فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ",
+          "correctMeaning": "Vorzug geben",
+          "context": "بَعْضَ ... عَلَىٰ بَعْضٍ — einige über andere bevorzugen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+        },
+        {
+          "ref": "57:21",
+          "arabic": "ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ",
+          "correctMeaning": "Gunst/Vorzug",
+          "context": "يُؤْتِيهِ (er gibt es) — frei gegebene Gunst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=21"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=198"
+    },
+    {
+      "id": 17,
+      "word": "نَفْس",
+      "root": "ن-ف-س",
+      "meanings": [
+        "Selbst (konventionell 'Seele')",
+        "Person/Mensch",
+        "inneres Wesen"
+      ],
+      "exercises": [
+        {
+          "ref": "91:7",
+          "arabic": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
+          "correctMeaning": "Selbst/inneres Wesen",
+          "context": "Schwurformel + سَوَّاهَا (er formte sie) — die innere Natur.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=7"
+        },
+        {
+          "ref": "5:32",
+          "arabic": "مَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ",
+          "correctMeaning": "Person/Mensch",
+          "context": "قَتَلَ (töten) — eine Person töten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=32"
+        },
+        {
+          "ref": "12:53",
+          "arabic": "وَمَآ أُبَرِّئُ نَفْسِىٓ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌ بِٱلسُّوٓءِ",
+          "correctMeaning": "Selbst (konventionell 'Seele')",
+          "context": "أُبَرِّئُ (freisprechen) — das eigene Selbst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=53"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=7"
+    },
+    {
+      "id": 18,
+      "word": "عَيْن",
+      "root": "ع-ي-ن",
+      "meanings": [
+        "Auge",
+        "Quelle/Wasserquelle",
+        "Wesensgleich/selbst"
+      ],
+      "exercises": [
+        {
+          "ref": "54:14",
+          "arabic": "تَجْرِى بِأَعْيُنِنَا",
+          "correctMeaning": "unter Unserer Aufsicht",
+          "context": "تَجْرِي (sie läuft/fährt) — die Arche fährt unter Gottes Augen/Aufsicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=14"
+        },
+        {
+          "ref": "2:60",
+          "arabic": "فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا",
+          "correctMeaning": "Quelle/Wasserquelle",
+          "context": "اِنفَجَرَتْ (brach hervor) — Wasserquellen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+        },
+        {
+          "ref": "20:39",
+          "arabic": "وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ",
+          "correctMeaning": "unter Meiner Aufsicht",
+          "context": "عَلَى + Pronominalsuffix — unter Gottes direkter Obhut.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=39"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=14"
+    },
+    {
+      "id": 19,
+      "word": "جَعَلَ",
+      "root": "ج-ع-ل",
+      "meanings": [
+        "machen/erschaffen",
+        "einsetzen/bestimmen",
+        "beginnen (mit Imperfekt)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:22",
+          "arabic": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا",
+          "correctMeaning": "machen zu/einrichten als",
+          "context": "Doppelter Akkusativ: الْأَرْضَ + فِرَاشًا — die Erde zu einem Lager machen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        },
+        {
+          "ref": "2:143",
+          "arabic": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً وَسَطًا",
+          "correctMeaning": "einsetzen/bestimmen",
+          "context": "Doppelter Akkusativ: كُمْ + أُمَّةً — euch zu einer Gemeinschaft bestimmen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+        },
+        {
+          "ref": "6:1",
+          "arabic": "وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ",
+          "correctMeaning": "machen/bewirken",
+          "context": "جَعَلَ + Akkusativ — erschaffen/hervorbringen von Finsternis und Licht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": 20,
+      "word": "قَدَرَ",
+      "root": "ق-د-ر",
+      "meanings": [
+        "bestimmen/vorherbestimmen",
+        "fähig sein/vermögen",
+        "eng machen/bemessen"
+      ],
+      "exercises": [
+        {
+          "ref": "54:49",
+          "arabic": "إِنَّا كُلَّ شَىْءٍ خَلَقْنَٰهُ بِقَدَرٍ",
+          "correctMeaning": "Bestimmung/Maß",
+          "context": "بِقَدَرٍ (nach einem Maß) — vorherbestimmte Ordnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+        },
+        {
+          "ref": "2:236",
+          "arabic": "عَلَى ٱلْمُوسِعِ قَدَرُهُ وَعَلَى ٱلْمُقْتِرِ قَدَرُهُ",
+          "correctMeaning": "bemessener Anteil",
+          "context": "الْمُوسِع vs. الْمُقْتِر (der Wohlhabende vs. der Beschränkte) — nach Vermögen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=236"
+        },
+        {
+          "ref": "36:81",
+          "arabic": "أَوَلَيْسَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِقَٰدِرٍ",
+          "correctMeaning": "fähig sein",
+          "context": "Partizip قَادِر — Fähigkeit zur Neurschaffung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=81"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=49"
+    },
+    {
+      "id": 21,
+      "word": "ظَنَّ",
+      "root": "ظ-ن-ن",
+      "meanings": [
+        "vermuten/annehmen",
+        "sicher sein/überzeugt sein"
+      ],
+      "exercises": [
+        {
+          "ref": "2:46",
+          "arabic": "ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا رَبِّهِمْ",
+          "correctMeaning": "sicher sein/überzeugt sein",
+          "context": "مُلَاقُو رَبِّهِمْ (Gott begegnen werden) — positiver Kontext, Gewissheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=46"
+        },
+        {
+          "ref": "49:12",
+          "arabic": "ٱجْتَنِبُوا كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ",
+          "correctMeaning": "Vermutung/Annahme",
+          "context": "إِثْمٌ (Verfehlung) — unbelegte Vermutung ist eine Verfehlung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=46"
+    },
+    {
+      "id": 22,
+      "word": "مَثَل",
+      "root": "م-ث-ل",
+      "meanings": [
+        "Gleichnis/Parabel",
+        "Eigenschaft/Beschaffenheit",
+        "Beispiel"
+      ],
+      "exercises": [
+        {
+          "ref": "2:17",
+          "arabic": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا",
+          "correctMeaning": "Gleichnis",
+          "context": "كَـ (wie) — expliziter Vergleich, Parabel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+        },
+        {
+          "ref": "47:15",
+          "arabic": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ",
+          "correctMeaning": "Beschaffenheit/Beschreibung",
+          "context": "Keine Vergleichspartikel — Beschreibung des Gartens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=15"
+        },
+        {
+          "ref": "14:45",
+          "arabic": "وَضَرَبْنَا لَكُمُ ٱلْأَمْثَالَ",
+          "correctMeaning": "Beispiele",
+          "context": "ضَرَبَ (anführen) — Beispiele zur Belehrung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=45"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "id": 23,
+      "word": "عَرَضَ",
+      "root": "ع-ر-ض",
+      "meanings": [
+        "vorzeigen/präsentieren",
+        "vorbeigehen/sich abwenden",
+        "Gebrauchsgut/vergängliches Gut"
+      ],
+      "exercises": [
+        {
+          "ref": "2:31",
+          "arabic": "ثُمَّ عَرَضَهُمْ عَلَى",
+          "correctMeaning": "vorzeigen/präsentieren",
+          "context": "عَلَى (den Engeln) — Präsentation vor den Engeln.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        },
+        {
+          "ref": "3:133",
+          "arabic": "وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ",
+          "correctMeaning": "Breite/Ausdehnung",
+          "context": "عَرْضُ (Masdar/Nomen von ع-ر-ض) = Breite, Ausdehnung. Hier als Maßgabe für die Weite des Gartens.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=133"
+        },
+        {
+          "ref": "8:67",
+          "arabic": "تُرِيدُونَ عَرَضَ ٱلدُّنْيَا",
+          "correctMeaning": "vergängliches Gut",
+          "context": "الدُّنْيَا (das Diesseits) — vergängliche Güter.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=67"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "id": 24,
+      "word": "بَصِيرَة",
+      "root": "ب-ص-ر",
+      "meanings": [
+        "Einsicht/inneres Sehen",
+        "Beweis/Evidenz",
+        "Sehkraft"
+      ],
+      "exercises": [
+        {
+          "ref": "12:108",
+          "arabic": "قُلْ هَٰذِهِ سَبِيلِىٓ أَدْعُوٓا إِلَى ٱللَّهِ عَلَىٰ بَصِيرَةٍ",
+          "correctMeaning": "Einsicht/Klarheit",
+          "context": "عَلَىٰ (auf der Grundlage von) — auf Basis klarer Einsicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=108"
+        },
+        {
+          "ref": "75:14",
+          "arabic": "بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ",
+          "correctMeaning": "Zeuge/Beweis gegen sich selbst",
+          "context": "عَلَى نَفْسِهِ — der Mensch ist Beweis gegen sich selbst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=14"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=108"
+    },
+    {
+      "id": 25,
+      "word": "نُور",
+      "root": "ن-و-ر",
+      "meanings": [
+        "Licht (physisch)",
+        "Führung/Erhellung",
+        "Schrift/Führung"
+      ],
+      "exercises": [
+        {
+          "ref": "24:35",
+          "arabic": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ",
+          "correctMeaning": "Licht/Erhellung",
+          "context": "Iḍāfa — Gott als Licht von Himmel und Erde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "ref": "5:15",
+          "arabic": "قَدْ جَآءَكُم مِّنَ ٱللَّهِ نُورٌ وَكِتَٰبٌ مُّبِينٌ",
+          "correctMeaning": "Schrift/Führung",
+          "context": "Koordiniert mit كِتَاب — Licht als Metapher für die Schrift.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=15"
+        },
+        {
+          "ref": "57:12",
+          "arabic": "يَسْعَىٰ نُورُهُم بَيْنَ أَيْدِيهِمْ",
+          "correctMeaning": "Licht (eschatologisch)",
+          "context": "يَسْعَى (eilt voraus) + بَيْنَ أَيْدِيهِمْ — ein Licht das vor ihnen hergeht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+    },
+    {
+      "id": 26,
+      "word": "مَكْر",
+      "root": "م-ك-ر",
+      "meanings": [
+        "List/Plan (negativ)",
+        "Planung/Strategie (neutral)",
+        "Gegenstrategie"
+      ],
+      "exercises": [
+        {
+          "ref": "3:54",
+          "arabic": "وَمَكَرُوا وَمَكَرَ ٱللَّهُ وَٱللَّهُ خَيْرُ",
+          "correctMeaning": "Plan/Gegenstrategie",
+          "context": "Parallelismus: sie planten — Gott plante dagegen. خَيْرُ zeigt: keine negative Konnotation bei Gott.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=54"
+        },
+        {
+          "ref": "10:21",
+          "arabic": "إِذَا لَهُم مَّكْرٌ فِىٓ ءَايَاتِنَا",
+          "correctMeaning": "List/Täuschung",
+          "context": "Im Kontext menschlicher Bosheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=21"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=54"
+    },
+    {
+      "id": 27,
+      "word": "غَيْب",
+      "root": "غ-ي-ب",
+      "meanings": [
+        "Verborgenes/Unsichtbares",
+        "Abwesenheit",
+        "unzugängliches Wissen"
+      ],
+      "exercises": [
+        {
+          "ref": "2:3",
+          "arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ",
+          "correctMeaning": "das Verborgene/Unsichtbare",
+          "context": "يُؤْمِنُونَ بِـ (glauben an) — Glaube an das Unsichtbare.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        },
+        {
+          "ref": "12:52",
+          "arabic": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ",
+          "correctMeaning": "in seiner Abwesenheit",
+          "context": "لَمْ أَخُنْهُ (ich habe ihn nicht verraten) — während seiner Abwesenheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=52"
+        },
+        {
+          "ref": "6:59",
+          "arabic": "وَعِندَهُ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ",
+          "correctMeaning": "unzugängliches Wissen",
+          "context": "مَفَاتِحُ (Schlüssel) — Zugang zu verborgenem Wissen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=59"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "id": 28,
+      "word": "بَعَثَ",
+      "root": "ب-ع-ث",
+      "meanings": [
+        "auferwecken (von den Toten)",
+        "entsenden/schicken",
+        "erwecken/veranlassen"
+      ],
+      "exercises": [
+        {
+          "ref": "22:7",
+          "arabic": "وَأَنَّ ٱللَّهَ يَبْعَثُ مَن فِى ٱلْقُبُورِ",
+          "correctMeaning": "auferwecken",
+          "context": "مَن فِي الْقُبُورِ (die in den Gräbern) — Auferweckung der Toten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=7"
+        },
+        {
+          "ref": "2:129",
+          "arabic": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًا مِّنْهُمْ",
+          "correctMeaning": "entsenden/schicken",
+          "context": "رَسُولًا (einen Gesandten) — Sendung eines Verkünders.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+        },
+        {
+          "ref": "17:79",
+          "arabic": "عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا",
+          "correctMeaning": "erheben/erwecken zu",
+          "context": "مَقَامًا مَحْمُودًا (eine gelobte Stellung) — Erhebung zu einer Position.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=79"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=7"
+    },
+    {
+      "id": 29,
+      "word": "أُمَّة",
+      "root": "ا-م-م",
+      "meanings": [
+        "Gemeinschaft/Volk",
+        "Zeitspanne",
+        "Vorbild/Anführer",
+        "Religion/Glaubensrichtung"
+      ],
+      "exercises": [
+        {
+          "ref": "2:143",
+          "arabic": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً وَسَطًا",
+          "correctMeaning": "Gemeinschaft/Volk",
+          "context": "وَسَطًا (mittlere/gerechte) beschreibt eine Gruppe — Gemeinschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+        },
+        {
+          "ref": "12:45",
+          "arabic": "وَٱدَّكَرَ بَعْدَ أُمَّةٍ",
+          "correctMeaning": "Zeitspanne",
+          "context": "بَعْدَ (nach) + أُمَّةٍ — er erinnerte sich nach einer langen Zeitspanne.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=45"
+        },
+        {
+          "ref": "16:120",
+          "arabic": "إِنَّ إِبْرَٰهِيمَ كَانَ أُمَّةً قَانِتًا لِّلَّهِ",
+          "correctMeaning": "Vorbild/Anführer",
+          "context": "Ein Einzelner (Ibrahim) wird als أُمَّة bezeichnet — er allein war ein Vorbild/eine ganze Institution.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=120"
+        },
+        {
+          "ref": "43:22",
+          "arabic": "إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ",
+          "correctMeaning": "Religion/Glaubensrichtung",
+          "context": "عَلَىٰ (auf) — sie fanden ihre Väter auf einer bestimmten Glaubensrichtung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=22"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "id": 30,
+      "word": "شَهِيد",
+      "root": "ش-ه-د",
+      "meanings": [
+        "Zeuge",
+        "Beobachter/Wachender",
+        "Zeuge (im Kampfkontext)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:143",
+          "arabic": "وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا",
+          "correctMeaning": "Zeuge",
+          "context": "Der Gesandte bezeugt über die Gemeinschaft — Zeugenfunktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+        },
+        {
+          "ref": "4:166",
+          "arabic": "لَّٰكِنِ ٱللَّهُ يَشْهَدُ بِمَآ أَنزَلَ إِلَيْكَ",
+          "correctMeaning": "Zeuge/Bezeugender",
+          "context": "Gott bezeugt die Herabsendung — Bestätigungsfunktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=166"
+        },
+        {
+          "ref": "3:140",
+          "arabic": "وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ",
+          "correctMeaning": "Zeuge (im Kampfkontext)",
+          "context": "Kontext des Kampfes (قَاتَلُوا/قُتِلُوا) — Gott nimmt sich Zeugen aus den Kämpfenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=140"
+        },
+        {
+          "ref": "5:117",
+          "arabic": "وَكُنتُ عَلَيْهِمْ شَهِيدًا مَّا دُمْتُ فِيهِمْ",
+          "correctMeaning": "Beobachter/Wachender",
+          "context": "مَا دُمْتُ فِيهِمْ (solange ich unter ihnen war) — Aufsicht/Beobachtung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=117"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "id": 31,
+      "word": "فُرْقَان",
+      "root": "ف-ر-ق",
+      "meanings": [
+        "Unterscheidungskriterium",
+        "Rettung/Befreiung",
+        "die Schrift/Unterscheidungsschrift"
+      ],
+      "exercises": [
+        {
+          "ref": "2:53",
+          "arabic": "وَإِذْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَٱلْفُرْقَانَ",
+          "correctMeaning": "Unterscheidungskriterium",
+          "context": "Zusammen mit الْكِتَاب genannt — das Kriterium zur Unterscheidung von Recht und Unrecht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=53"
+        },
+        {
+          "ref": "8:29",
+          "arabic": "إِن تَتَّقُوا ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا",
+          "correctMeaning": "Rettung/Ausweg",
+          "context": "Konditional mit تَتَّقُوا — als Resultat der Achtsamkeit wird ein Ausweg/eine Rettung gewährt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=29"
+        },
+        {
+          "ref": "25:1",
+          "arabic": "تَبَارَكَ ٱلَّذِى نَزَّلَ ٱلْفُرْقَانَ عَلَىٰ عَبْدِهِ",
+          "correctMeaning": "die Unterscheidungsschrift",
+          "context": "نَزَّلَ (herabgesandt) + عَلَىٰ عَبْدِهِ — Bezeichnung für die herabgesandte Schrift.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=53"
+    },
+    {
+      "id": 32,
+      "word": "ذِكْر",
+      "root": "ذ-ك-ر",
+      "meanings": [
+        "Erinnerung/Gedenken",
+        "Ermahnung/Botschaft",
+        "Ruhm/Ansehen",
+        "Erwähnung"
+      ],
+      "exercises": [
+        {
+          "ref": "13:28",
+          "arabic": "أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+          "correctMeaning": "Gedenken/Erinnerung",
+          "context": "تَطْمَئِنُّ الْقُلُوبُ (die Herzen finden Ruhe) — durch das Gedenken an Gott.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=28"
+        },
+        {
+          "ref": "15:9",
+          "arabic": "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُ",
+          "correctMeaning": "Ermahnung/Botschaft (Quran)",
+          "context": "نَزَّلْنَا (wir sandten herab) — bezeichnet die herabgesandte Botschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=9"
+        },
+        {
+          "ref": "21:10",
+          "arabic": "لَقَدْ أَنزَلْنَآ إِلَيْكُمْ كِتَٰبًا فِيهِ ذِكْرُكُمْ",
+          "correctMeaning": "Ruhm/Ansehen",
+          "context": "ذِكْرُكُمْ (eur Ruhm/eure Erwähnung) — das Buch enthält ihren Ruhm.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=10"
+        },
+        {
+          "ref": "38:32",
+          "arabic": "فَقَالَ إِنِّىٓ أَحْبَبْتُ حُبَّ ٱلْخَيْرِ عَن ذِكْرِ",
+          "correctMeaning": "Erinnerung/Gedenken",
+          "context": "عَن ذِكْرِ رَبِّي — er wurde vom Gedenken an seinen Herrn abgelenkt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=32"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=28"
+    },
+    {
+      "id": 33,
+      "word": "حِكْمَة",
+      "root": "ح-ك-م",
+      "meanings": [
+        "Weisheit",
+        "Urteilsvermögen",
+        "Verkündungswissen/Schrift"
+      ],
+      "exercises": [
+        {
+          "ref": "2:269",
+          "arabic": "ٱلْحِكْمَةَ مَن يَشَآءُ",
+          "correctMeaning": "Weisheit",
+          "context": "يُؤْتِي (er gibt) + مَن يَشَاءُ (wem er will) — allgemeine Gabe der Weisheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=269"
+        },
+        {
+          "ref": "3:48",
+          "arabic": "وَيُعَلِّمُهُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ",
+          "correctMeaning": "Verkündungswissen/Schrift",
+          "context": "Aufzählung neben الْكِتَاب und التَّوْرَاة — Wissen der Verkünder.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=48"
+        },
+        {
+          "ref": "31:12",
+          "arabic": "وَلَقَدْ ءَاتَيْنَا لُقْمَٰنَ ٱلْحِكْمَةَ",
+          "correctMeaning": "Urteilsvermögen",
+          "context": "Luqman ist kein Nabi — ihm wird حِكْمَة als gutes Urteilsvermögen gegeben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=269"
+    },
+    {
+      "id": 34,
+      "word": "صَلَاة",
+      "root": "ص-ل-و",
+      "meanings": [
+        "Zuwendung (konventionell 'Gebet')",
+        "Segen/Segenswunsch",
+        "Hinwendung/Zuwendung"
+      ],
+      "exercises": [
+        {
+          "ref": "2:43",
+          "arabic": "وَأَقِيمُوا ٱلصَّلَوٰةَ وَءَاتُوا ٱلزَّكَوٰةَ",
+          "correctMeaning": "Zuwendung (konventionell 'Gebet')",
+          "context": "أَقِيمُوا (richtet auf/erhaltet aufrecht) — Aufforderung zur Zuwendung, parallel zur Zakaat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+        },
+        {
+          "ref": "33:56",
+          "arabic": "إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُ يُصَلُّونَ عَلَى ٱلنَّبِىِّ",
+          "correctMeaning": "Segen/Segenswunsch",
+          "context": "يُصَلُّونَ عَلَى النَّبِيِّ bedeutet 'Segen sprechen' — der Textsprecher und Engel wenden sich dem Nabi zu, nicht im Sinne einer rituellen Handlung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+        },
+        {
+          "ref": "9:103",
+          "arabic": "وَصَلِّ عَلَيْهِمْ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ",
+          "correctMeaning": "Zuwendung/Fürbitten",
+          "context": "سَكَنٌ لَّهُمْ (Beruhigung für sie) — صَلَاتَكَ (deine Zuwendung) beruhigt die Angesprochenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=103"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+    },
+    {
+      "id": 35,
+      "word": "فِطْرَة",
+      "root": "ف-ط-ر",
+      "meanings": [
+        "natürliche Anlage/Urnatur",
+        "Schöpfungsart",
+        "Spaltung/Bruch"
+      ],
+      "exercises": [
+        {
+          "ref": "30:30",
+          "arabic": "فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا",
+          "correctMeaning": "natürliche Anlage/Urnatur",
+          "context": "فَطَرَ النَّاسَ عَلَيْهَا (auf der er die Menschen erschuf) — angeborene Veranlagung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=30"
+        },
+        {
+          "ref": "6:79",
+          "arabic": "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ",
+          "correctMeaning": "erschaffen/ins Dasein bringen",
+          "context": "فَطَرَ السَّمَاوَاتِ (er spaltete/erschuf die Himmel) — Schöpfungsakt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=79"
+        },
+        {
+          "ref": "82:1",
+          "arabic": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+          "correctMeaning": "sich spalten/brechen",
+          "context": "انفَطَرَتْ (VII. Stamm — reflexiv) — der Himmel spaltet sich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=30"
+    },
+    {
+      "id": 36,
+      "word": "خَلِيفَة",
+      "root": "خ-ل-ف",
+      "meanings": [
+        "Nachfolger/Nachfolgend",
+        "Stellvertreter",
+        "Bevollmächtigter auf Erden"
+      ],
+      "exercises": [
+        {
+          "ref": "2:30",
+          "arabic": "إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً",
+          "correctMeaning": "Nachfolger/Nachfolgend",
+          "context": "فِي الْأَرْضِ — einer, der auf der Erde nachfolgt (auf frühere Wesen).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "ref": "38:26",
+          "arabic": "يَٰدَاوُدُ إِنَّا جَعَلْنَٰكَ خَلِيفَةً فِى ٱلْأَرْضِ",
+          "correctMeaning": "Bevollmächtigter/Herrscher auf Erden",
+          "context": "Dawud als König — er soll auf Erden richten (فَاحْكُم بَيْنَ النَّاسِ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=26"
+        },
+        {
+          "ref": "6:165",
+          "arabic": "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ ٱلْأَرْضِ",
+          "correctMeaning": "Nachfolger (aufeinanderfolgend)",
+          "context": "Plural خَلَائِف — aufeinanderfolgende Generationen auf der Erde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=165"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": 37,
+      "word": "رَحْمَة",
+      "root": "ر-ح-م",
+      "meanings": [
+        "Barmherzigkeit/Erbarmen",
+        "Regen/Versorgung",
+        "Barmherzigkeit (erweitert)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:157",
+          "arabic": "أُولَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ",
+          "correctMeaning": "Barmherzigkeit/Erbarmen",
+          "context": "Von dem Herrn kommend für die Geduldigen — رَحْمَة als Zuwendung im Text.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=157"
+        },
+        {
+          "ref": "30:46",
+          "arabic": "وَلِيُذِيقَكُم مِّن رَّحْمَتِهِ وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِ",
+          "correctMeaning": "Regen/günstiger Wind",
+          "context": "لِتَجْرِيَ الْفُلْكُ (damit die Schiffe fahren) — die رَحْمَة hier sind günstige Winde/Regen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=46"
+        },
+        {
+          "ref": "21:107",
+          "arabic": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةً لِّلْعَٰلَمِينَ",
+          "correctMeaning": "Barmherzigkeit (personifiziert)",
+          "context": "Der Gesandte selbst wird als رَحْمَة für die Welten bezeichnet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=107"
+        },
+        {
+          "ref": "43:32",
+          "arabic": "أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ",
+          "correctMeaning": "Gabe/Versorgung",
+          "context": "يَقْسِمُونَ (verteilen sie?) — Gottes Gaben können nicht von Menschen aufgeteilt werden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=32"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=157"
+    },
+    {
+      "id": 38,
+      "word": "عَهْد",
+      "root": "ع-ه-د",
+      "meanings": [
+        "Bund/Vertrag",
+        "Versprechen/Gelübde",
+        "Befehl/Auftrag",
+        "Zeitepoche"
+      ],
+      "exercises": [
+        {
+          "ref": "2:124",
+          "arabic": "قَالَ لَا يَنَالُ عَهْدِى ٱلظَّٰلِمِينَ",
+          "correctMeaning": "Bund/Vertrag",
+          "context": "Gottes عَهْد an Ibrahim — ein Bund, der nicht für Ungerechte gilt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+        },
+        {
+          "ref": "36:60",
+          "arabic": "أَلَمْ أَعْهَدْ إِلَيْكُمْ يَٰبَنِىٓ ءَادَمَ",
+          "correctMeaning": "Befehl/Auftrag",
+          "context": "أَعْهَدْ إِلَيْكُمْ (habe ich euch nicht aufgetragen?) — Befehl.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=60"
+        },
+        {
+          "ref": "2:40",
+          "arabic": "وَأَوْفُوا بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ",
+          "correctMeaning": "Versprechen/Gelübde",
+          "context": "Gegenseitigkeit (أَوْفُوا/أُوفِ) — beiderseitige Verpflichtung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+        },
+        {
+          "ref": "19:87",
+          "arabic": "لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا",
+          "correctMeaning": "Zusage/Versprechen",
+          "context": "اتَّخَذَ عَهْدًا (ein Versprechen erlangen) — eine Zusage beim Barmherzigen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=87"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": 39,
+      "word": "أَجَل",
+      "root": "ا-ج-ل",
+      "meanings": [
+        "Frist/Termin",
+        "Tod/Lebensende",
+        "festgelegter Zeitpunkt"
+      ],
+      "exercises": [
+        {
+          "ref": "6:2",
+          "arabic": "ثُمَّ قَضَىٰٓ أَجَلًا وَأَجَلٌ مُّسَمًّى عِندَهُ",
+          "correctMeaning": "Frist/Termin",
+          "context": "Zwei verschiedene آجال — eine allgemeine Frist und eine benannte (مُّسَمًّى) bei Ihm.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=2"
+        },
+        {
+          "ref": "7:34",
+          "arabic": "وَلِكُلِّ أُمَّةٍ أَجَلٌ فَإِذَا جَآءَ أَجَلُهُمْ",
+          "correctMeaning": "festgelegter Zeitpunkt (des Untergangs)",
+          "context": "لِكُلِّ أُمَّةٍ (für jedes Volk) — der vorbestimmte Zeitpunkt ihres Endes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=34"
+        },
+        {
+          "ref": "63:10",
+          "arabic": "وَأَنفِقُوا مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ",
+          "correctMeaning": "Tod/Lebensende",
+          "context": "مِّن قَبْلِ أَن يَأْتِيَ الْمَوْتُ — bevor der Tod (als Fristende) kommt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=10"
+        },
+        {
+          "ref": "2:282",
+          "arabic": "إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى",
+          "correctMeaning": "Frist/Zahlungstermin",
+          "context": "Im Schuldrecht — إِلَىٰ أَجَلٍ مُّسَمًّى bezeichnet eine festgelegte Zahlungsfrist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=2"
+    },
+    {
+      "id": 40,
+      "word": "بَرَكَة",
+      "root": "ب-ر-ك",
+      "meanings": [
+        "Segen/Segensfülle",
+        "Vermehrung/Wachstum",
+        "Bestand/Dauerhaftigkeit"
+      ],
+      "exercises": [
+        {
+          "ref": "7:96",
+          "arabic": "لَفَتَحْنَا عَلَيْهِم بَرَكَٰتٍ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ",
+          "correctMeaning": "Segensfülle/Vermehrung",
+          "context": "مِّنَ السَّمَاءِ وَالْأَرْضِ — Segnungen von Himmel und Erde, d.h. reichliche Versorgung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=96"
+        },
+        {
+          "ref": "11:48",
+          "arabic": "ٱهْبِطْ بِسَلَٰمٍ مِّنَّا وَبَرَكَٰتٍ عَلَيْكَ",
+          "correctMeaning": "Segen",
+          "context": "بِسَلَامٍ وَبَرَكَاتٍ — Segen im Kontext einer Ansprache; parallel zu سَلَام.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=48"
+        },
+        {
+          "ref": "11:73",
+          "arabic": "رَحْمَتُ ٱللَّهِ وَبَرَكَٰتُهُ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ",
+          "correctMeaning": "Segen/Segenserweis",
+          "context": "Zusammen mit رَحْمَة genannt — Gottes Segen über die Hausleute.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=73"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=96"
+    },
+    {
+      "id": 41,
+      "word": "حِسَاب",
+      "root": "ح-س-ب",
+      "meanings": [
+        "Abrechnung/Rechenschaft",
+        "Genüge/Ausreichendes",
+        "Menge/Zahl"
+      ],
+      "exercises": [
+        {
+          "ref": "2:202",
+          "arabic": "أُولَٰٓئِكَ لَهُمْ نَصِيبٌ مِّمَّا كَسَبُوا وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
+          "correctMeaning": "Abrechnung/Rechenschaft",
+          "context": "سَرِيعُ الْحِسَابِ — Gott ist schnell in der Abrechnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=202"
+        },
+        {
+          "ref": "3:27",
+          "arabic": "وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ",
+          "correctMeaning": "ohne Maß/ohne Begrenzung",
+          "context": "بِغَيْرِ حِسَابٍ — ohne Begrenzung, d.h. unbegrenzt/unermesslich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=27"
+        },
+        {
+          "ref": "38:16",
+          "arabic": "رَبَّنَا عَجِّل لَّنَا قِطَّنَا قَبْلَ يَوْمِ ٱلْحِسَابِ",
+          "correctMeaning": "Abrechnung (Tag der)",
+          "context": "يَوْم الْحِسَابِ — der Tag der Abrechnung, eschatologischer Kontext.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=16"
+        },
+        {
+          "ref": "65:8",
+          "arabic": "فَحَاسَبْنَٰهَا حِسَابًا شَدِيدًا",
+          "correctMeaning": "Abrechnung (strenge)",
+          "context": "حِسَابًا شَدِيدًا (strenge Abrechnung) — Mafʿul mutlaq betont die Härte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=202"
+    },
+    {
+      "id": 42,
+      "word": "مَوْلَى",
+      "root": "و-ل-ي",
+      "meanings": [
+        "Schutzherr/Beschützer",
+        "Herr/Gebieter",
+        "Verbündeter/Helfer"
+      ],
+      "exercises": [
+        {
+          "ref": "2:286",
+          "arabic": "أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+          "correctMeaning": "Schutzherr/Beschützer",
+          "context": "فَانصُرْنَا (hilf uns) — Gott als Schutzherr, an den man sich um Hilfe wendet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+        },
+        {
+          "ref": "47:11",
+          "arabic": "ذَٰلِكَ بِأَنَّ ٱللَّهَ مَوْلَى ٱلَّذِينَ ءَامَنُوا وَأَنَّ ٱلْكَٰفِرِينَ لَا مَوْلَىٰ لَهُمْ",
+          "correctMeaning": "Beschützer/Beistand",
+          "context": "Gegensatz: Vertrauende haben einen مَوْلَى, Nichtgläubige keinen — Schutz und Beistand.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=11"
+        },
+        {
+          "ref": "22:78",
+          "arabic": "وَٱعْتَصِمُوا بِٱللَّهِ هُوَ مَوْلَىٰكُمْ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ",
+          "correctMeaning": "Schutzherr",
+          "context": "Parallel zu نَصِير (Helfer) — مَوْلَى als Schutzherr, der beste seiner Art.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=78"
+        },
+        {
+          "ref": "57:15",
+          "arabic": "فَٱلْيَوْمَ لَا يُؤْخَذُ مِنكُمْ فِدْيَةٌ وَلَا مِنَ ٱلَّذِينَ كَفَرُوا مَأْوَىٰكُمُ ٱلنَّارُ",
+          "correctMeaning": "passendster Ort/Zugehörigkeit",
+          "context": "Das Feuer als ihr مَوْلَى — ironisch: der Ort, dem sie am meisten zugehörig sind.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=15"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+    },
+    {
+      "id": 43,
+      "word": "فَرَضَ",
+      "root": "ف-ر-ض",
+      "meanings": [
+        "auferlegen/vorschreiben",
+        "bestimmen/festlegen",
+        "ermöglichen/erlauben"
+      ],
+      "exercises": [
+        {
+          "ref": "2:236",
+          "arabic": "مَا لَمْ تَمَسُّوهُنَّ أَوْ تَفْرِضُوا لَهُنَّ فَرِيضَةً",
+          "correctMeaning": "festlegen/bestimmen",
+          "context": "فَرِيضَة hier = festgelegter Brautpreis — Bestimmung einer Summe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=236"
+        },
+        {
+          "ref": "24:1",
+          "arabic": "سُورَةٌ أَنزَلْنَٰهَا وَفَرَضْنَٰهَا",
+          "correctMeaning": "auferlegen/vorschreiben",
+          "context": "وَفَرَضْنَاهَا — wir haben sie als Pflicht auferlegt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+        },
+        {
+          "ref": "33:50",
+          "arabic": "قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ",
+          "correctMeaning": "auferlegen/vorschreiben",
+          "context": "فَرَضْنَا عَلَيْهِمْ — was wir ihnen bezüglich ihrer Ehefrauen vorgeschrieben haben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=50"
+        },
+        {
+          "ref": "28:85",
+          "arabic": "إِنَّ ٱلَّذِى فَرَضَ عَلَيْكَ ٱلْقُرْءَانَ",
+          "correctMeaning": "auferlegen/zur Pflicht machen",
+          "context": "فَرَضَ عَلَيْكَ الْقُرْآنَ — der dir den Quran zur Pflicht machte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=85"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=236"
+    },
+    {
+      "id": 44,
+      "word": "شَيْء",
+      "root": "ش-ي-ا",
+      "meanings": [
+        "Ding/Sache",
+        "etwas/irgendetwas",
+        "Angelegenheit"
+      ],
+      "exercises": [
+        {
+          "ref": "36:82",
+          "arabic": "إِنَّمَآ أَمْرُهُٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُ كُن فَيَكُونُ",
+          "correctMeaning": "Ding/Sache",
+          "context": "شَيْئًا als Objekt des Willens — jegliches Ding, das er will.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=82"
+        },
+        {
+          "ref": "2:48",
+          "arabic": "وَلَا يُقْبَلُ مِنْهَا شَفَٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ",
+          "correctMeaning": "etwas/irgendetwas",
+          "context": "Im Kontext von Negation — nichts wird angenommen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+        },
+        {
+          "ref": "4:32",
+          "arabic": "لِّلرِّجَالِ نَصِيبٌ مِّمَّا ٱكْتَسَبُوا وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا ٱكْتَسَبْنَ",
+          "correctMeaning": "Angelegenheit/Anteil",
+          "context": "Im Zusammenhang mit Erworbenem — مَا hier als das, was erworben wurde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=32"
+        },
+        {
+          "ref": "18:23",
+          "arabic": "وَلَا تَقُولَنَّ لِشَاىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ غَدًا",
+          "correctMeaning": "Sache/Angelegenheit",
+          "context": "لِشَيْءٍ — bezüglich irgendeiner Sache/Angelegenheit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=23"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=82"
+    },
+    {
+      "id": 45,
+      "word": "رُشْد",
+      "root": "ر-ش-د",
+      "meanings": [
+        "Reife/Mündigkeit",
+        "Führung",
+        "Vernunft/Besonnenheit"
+      ],
+      "exercises": [
+        {
+          "ref": "4:6",
+          "arabic": "فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا إِلَيْهِمْ",
+          "correctMeaning": "Reife/Mündigkeit",
+          "context": "آنَسْتُم (ihr nehmt wahr) — Prüfung der Reife von Waisen, bevor man ihnen ihr Vermögen gibt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=6"
+        },
+        {
+          "ref": "2:256",
+          "arabic": "قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ",
+          "correctMeaning": "Führung",
+          "context": "Gegensatz zu الْغَيّ (Verirrung) — die Führung hat sich von der Verirrung abgehoben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+        },
+        {
+          "ref": "18:66",
+          "arabic": "هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا",
+          "correctMeaning": "rechte Erkenntnis/Vernunft",
+          "context": "تُعَلِّمَنِ (du lehrst mich) + رُشْدًا — Wissen, das zur Vernunft führt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=66"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=6"
+    },
+    {
+      "id": 46,
+      "word": "صَدَقَة",
+      "root": "ص-د-ق",
+      "meanings": [
+        "freiwilliges Almosen",
+        "Pflichtabgabe",
+        "Brautgabe/Morgengabe"
+      ],
+      "exercises": [
+        {
+          "ref": "9:60",
+          "arabic": "إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ",
+          "correctMeaning": "Pflichtabgabe",
+          "context": "إِنَّمَا (ausschließlich) + Aufzählung der acht Kategorien — dies ist eine gesetzliche Regelung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=60"
+        },
+        {
+          "ref": "9:104",
+          "arabic": "أَلَمْ يَعْلَمُوٓا أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِ وَيَأْخُذُ",
+          "correctMeaning": "Almosen/Spende",
+          "context": "يَأْخُذُ (er nimmt an) — freiwillige Gaben, die Gott annimmt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=104"
+        },
+        {
+          "ref": "4:4",
+          "arabic": "وَءَاتُوا ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةً",
+          "correctMeaning": "Brautgabe/Morgengabe",
+          "context": "صَدُقَات hier mit anderem Muster — Plural von صَدَاق/صَدُقَة (Brautgabe). نِحْلَةً = als Geschenk.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=4"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=60"
+    },
+    {
+      "id": 47,
+      "word": "جَنَّة",
+      "root": "ج-ن-ن",
+      "meanings": [
+        "Garten",
+        "Garten (eschatologisch, konventionell 'Paradies')",
+        "Verbergung/Abschirmung"
+      ],
+      "exercises": [
+        {
+          "ref": "2:265",
+          "arabic": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ",
+          "correctMeaning": "Garten (irdisch)",
+          "context": "كَمَثَلِ (wie das Gleichnis) + بِرَبْوَةٍ (auf einer Anhöhe) — irdischer Garten im Gleichnis.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=265"
+        },
+        {
+          "ref": "2:35",
+          "arabic": "وَقُلْنَا يَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ",
+          "correctMeaning": "Garten (eschatologisch, konventionell 'Paradies')",
+          "context": "Anrede an Adam — der Garten, in dem er wohnen sollte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        },
+        {
+          "ref": "18:32",
+          "arabic": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ",
+          "correctMeaning": "Garten (irdisch)",
+          "context": "جَنَّتَيْنِ مِنْ أَعْنَابٍ (zwei Gärten aus Trauben) — landwirtschaftliche Gärten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=32"
+        },
+        {
+          "ref": "55:46",
+          "arabic": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+          "correctMeaning": "Garten (eschatologisch, konventionell 'Paradies')",
+          "context": "مَقَام رَبِّهِ — zwei Gärten für den, der das Stehen vor Gott fürchtet.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=265"
+    },
+    {
+      "id": 48,
+      "word": "مَعْرُوف",
+      "root": "ع-ر-ف",
+      "meanings": [
+        "Gutes/Rechtes",
+        "Angemessenes/Übliches",
+        "Bekanntes/Anerkanntes"
+      ],
+      "exercises": [
+        {
+          "ref": "2:228",
+          "arabic": "وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ",
+          "correctMeaning": "Angemessenes/Übliches",
+          "context": "بِالْمَعْرُوفِ — in angemessener/üblicher Weise, im Kontext ehelicher Rechte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+        },
+        {
+          "ref": "3:104",
+          "arabic": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ",
+          "correctMeaning": "Gutes/Rechtes",
+          "context": "Gegensatz zu الْمُنكَر — das allgemein Gute/Rechte gebieten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=104"
+        },
+        {
+          "ref": "2:263",
+          "arabic": "قَوْلٌ مَّعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِّن صَدَقَةٍ يَتْبَعُهَآ أَذًى",
+          "correctMeaning": "gütiges/freundliches Wort",
+          "context": "قَوْلٌ مَّعْرُوفٌ — ein freundliches Wort ist besser als ein Almosen mit Kränkung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=263"
+        },
+        {
+          "ref": "4:5",
+          "arabic": "وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا لَهُمْ قَوْلًا مَّعْرُوفًا",
+          "correctMeaning": "angemessen/freundlich",
+          "context": "قَوْلًا مَّعْرُوفًا — angemessene Worte zu den Schutzbefohlenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+    },
+    {
+      "id": 49,
+      "word": "مُنْكَر",
+      "root": "ن-ك-ر",
+      "meanings": [
+        "Verwerfliches/Unrechtes",
+        "Unbekanntes/Fremdes",
+        "Abgelehntes"
+      ],
+      "exercises": [
+        {
+          "ref": "3:110",
+          "arabic": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ",
+          "correctMeaning": "Verwerfliches/Unrechtes",
+          "context": "Gegensatz zu الْمَعْرُوف — das Verwerfliche verbieten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+        },
+        {
+          "ref": "12:70-71",
+          "arabic": "قَالُوا وَأَقْبَلُوا عَلَيْهِمْ مَّاذَا تَفْقِدُونَ",
+          "correctMeaning": "Unbekanntes/Unerkanntes",
+          "context": "Im Kontext der Yusuf-Geschichte — das Unbekannte/Nicht-Erkannte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=70"
+        },
+        {
+          "ref": "58:2",
+          "arabic": "وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ وَزُورًا",
+          "correctMeaning": "Verwerfliches",
+          "context": "مُنكَرًا مِّنَ الْقَوْلِ وَزُورًا (Verwerfliches an Rede und Falsches) — sprachlich verwerflich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=2"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=110"
+    },
+    {
+      "id": 50,
+      "word": "حَسَنَة",
+      "root": "ح-س-ن",
+      "meanings": [
+        "gute Tat",
+        "Wohltat/Wohlergehen",
+        "Sieg/Erfolg"
+      ],
+      "exercises": [
+        {
+          "ref": "2:201",
+          "arabic": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ حَسَنَةً",
+          "correctMeaning": "Wohltat/Wohlergehen",
+          "context": "In Dunya und Akhira — umfassendes Wohlergehen erbeten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=201"
+        },
+        {
+          "ref": "4:78",
+          "arabic": "وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا هَٰذِهِ مِنْ عِندِ ٱللَّهِ وَإِن تُصِبْهُمْ سَيِّئَةٌ",
+          "correctMeaning": "Glück/Erfolg",
+          "context": "Gegensatz zu سَيِّئَة — wenn ihnen Glück widerfahert vs. Unglück.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+        },
+        {
+          "ref": "27:89",
+          "arabic": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُ خَيْرٌ مِّنْهَا",
+          "correctMeaning": "gute Tat",
+          "context": "جَاءَ بِـ (kommen mit) — wer eine gute Tat mitbringt, bekommt Besseres.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=89"
+        },
+        {
+          "ref": "3:120",
+          "arabic": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ",
+          "correctMeaning": "Erfolg/Sieg",
+          "context": "تَسُؤْهُمْ (es missfällt ihnen) — militärischer Kontext, Erfolg der Vertrauenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=120"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=201"
+    },
+    {
+      "id": 51,
+      "word": "ظُلْم",
+      "root": "ظ-ل-م",
+      "meanings": [
+        "Unrecht/Ungerechtigkeit",
+        "Falschplatzierung",
+        "Beigesellung (ظُلْم عَظِيم)"
+      ],
+      "exercises": [
+        {
+          "ref": "31:13",
+          "arabic": "إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+          "correctMeaning": "Beigesellung als Unrecht",
+          "context": "الشِّرْك wird explizit als ظُلْم عَظِيم identifiziert — die größte Falschplatzierung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+        },
+        {
+          "ref": "2:281",
+          "arabic": "وَهُمْ لَا يُظْلَمُونَ",
+          "correctMeaning": "Unrecht erleiden",
+          "context": "لَا يُظْلَمُونَ (ihnen wird nicht Unrecht getan) — jeder bekommt genau, was er verdient.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=281"
+        },
+        {
+          "ref": "18:33",
+          "arabic": "كِلْتَا ٱلْجَنَّتَيْنِ ءَاتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ",
+          "correctMeaning": "schmälern/verkürzen",
+          "context": "Die Gärten trugen vollen Ertrag — لَمْ تَظْلِم = sie schmälerten nichts davon.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=33"
+        },
+        {
+          "ref": "4:40",
+          "arabic": "إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ",
+          "correctMeaning": "Unrecht tun/verkürzen",
+          "context": "مِثْقَالَ ذَرَّةٍ (auch nicht das Gewicht eines Stäubchens) — nicht das Geringste wird verkürzt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=40"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+    },
+    {
+      "id": 52,
+      "word": "كُرْسِيّ",
+      "root": "ك-ر-س",
+      "meanings": [
+        "Thron/Sitz",
+        "Herrschaftsbereich",
+        "Wissen/Macht"
+      ],
+      "exercises": [
+        {
+          "ref": "2:255",
+          "arabic": "وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ",
+          "correctMeaning": "Herrschaftsbereich/Thron",
+          "context": "وَسِعَ (umfasst) + السَّمَاوَاتِ وَالْأَرْضَ — sein Kursiy umfasst Himmel und Erde.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "ref": "38:34",
+          "arabic": "وَلَقَدْ فَتَنَّا سُلَيْمَٰنَ وَأَلْقَيْنَا عَلَىٰ كُرْسِيِّهِ جَسَدًا",
+          "correctMeaning": "Thron/Sitz (wörtlich)",
+          "context": "عَلَىٰ كُرْسِيِّهِ (auf seinen Thron) — ein Körper wurde auf Sulaimans Thron geworfen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=34"
+        },
+        {
+          "ref": "2:255",
+          "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ",
+          "correctMeaning": "Herrschaft/Autorität",
+          "context": "Im Gesamtkontext von 2:255 — die Attribute الْحَيّ الْقَيُّوم deuten auf umfassende Herrschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": 53,
+      "word": "بَيْت",
+      "root": "ب-ي-ت",
+      "meanings": [
+        "Haus/Wohnung",
+        "Tempel/Zuwendungsstätte",
+        "Familie/Haushalt"
+      ],
+      "exercises": [
+        {
+          "ref": "2:125",
+          "arabic": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا",
+          "correctMeaning": "Tempel/Zuwendungsstätte (Kaaba)",
+          "context": "مَثَابَةً لِّلنَّاسِ (Zufluchtsort für die Menschen) — das Haus Gottes in Mekka.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "ref": "33:33",
+          "arabic": "وَقَرْنَ فِى بُيُوتِكُنَّ",
+          "correctMeaning": "Haus/Wohnung",
+          "context": "بُيُوتِكُنَّ (eure Häuser) mit Possessivsuffix — wörtliche Wohnhäuser.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=33"
+        },
+        {
+          "ref": "33:33",
+          "arabic": "إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ",
+          "correctMeaning": "Familie/Haushalt",
+          "context": "أَهْلَ الْبَيْتِ (Leute des Hauses) — Bezeichnung für die Familie.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=33"
+        },
+        {
+          "ref": "2:189",
+          "arabic": "وَلَيْسَ ٱلْبِرُّ بِأَن تَأْتُوا ٱلْبُيُوتَ مِن ظُهُورِهَا",
+          "correctMeaning": "Haus (wörtlich)",
+          "context": "مِن ظُهُورِهَا (von ihren Rückseiten) — physische Häuser mit Eingängen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "id": 54,
+      "word": "قَرْيَة",
+      "root": "ق-ر-ي",
+      "meanings": [
+        "Dorf/Ortschaft",
+        "Stadt",
+        "Bewohner (metonymisch)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:259",
+          "arabic": "أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا",
+          "correctMeaning": "Ortschaft/Stadt",
+          "context": "خَاوِيَةٌ عَلَىٰ عُرُوشِهَا (auf ihren Dächern zusammengefallen) — physische Ortschaft.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+        },
+        {
+          "ref": "4:75",
+          "arabic": "رَبَّنَآ أَخْرِجْنَا مِنْ هَٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا",
+          "correctMeaning": "Stadt (mit Bewohnern)",
+          "context": "الظَّالِمِ أَهْلُهَا — die Stadt, deren Bewohner ungerecht sind. قَرْيَة steht für den Ort.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=75"
+        },
+        {
+          "ref": "21:11",
+          "arabic": "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً",
+          "correctMeaning": "Bewohner (metonymisch)",
+          "context": "كَانَتْ ظَالِمَةً (sie war ungerecht) — die قَرْيَة selbst kann nicht ungerecht sein, gemeint sind die Bewohner.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=11"
+        },
+        {
+          "ref": "12:82",
+          "arabic": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا",
+          "correctMeaning": "Bewohner (metonymisch)",
+          "context": "وَاسْأَلِ (frag!) — man fragt nicht eine Ortschaft, sondern ihre Bewohner. Metonymie.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+    },
+    {
+      "id": 55,
+      "word": "مِلَّة",
+      "root": "م-ل-ل",
+      "meanings": [
+        "Glaubensgemeinschaft/Religion",
+        "Weg/Lebensweise",
+        "Bekenntnis"
+      ],
+      "exercises": [
+        {
+          "ref": "2:130",
+          "arabic": "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِـمَ إِلَّا مَن سَفِهَ نَفْسَهُ",
+          "correctMeaning": "Religion/Glaubensweise",
+          "context": "مِّلَّةِ إِبْرَاهِيمَ — die Religion/Glaubensweise Ibrahims als Gegenstand.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=130"
+        },
+        {
+          "ref": "12:37",
+          "arabic": "تَرَكْتُ مِلَّةَ قَوْمٍ لَّا يُؤْمِنُونَ بِٱللَّهِ",
+          "correctMeaning": "Glaubensrichtung/Lebensweise",
+          "context": "تَرَكْتُ (ich habe verlassen) — Yusuf verliess die Lebensweise eines ungläubigen Volkes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=37"
+        },
+        {
+          "ref": "38:7",
+          "arabic": "مَا سَمِعْنَا بِهَٰذَا فِى ٱلْمِلَّةِ ٱلْـَٔاخِرَةِ",
+          "correctMeaning": "Religion/Bekenntnis",
+          "context": "الْمِلَّةِ الْآخِرَةِ (die letzte/jüngste Religion) — Vergleich mit früherem Bekenntnis.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=130"
+    },
+    {
+      "id": 56,
+      "word": "أَسْمَاء",
+      "root": "س-م-و",
+      "meanings": [
+        "Namen",
+        "Attribute/Bezeichnungen",
+        "bloße Benennungen (ohne Realität)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:31",
+          "arabic": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا",
+          "correctMeaning": "Namen/Bezeichnungen",
+          "context": "عَلَّمَ (er lehrte) + كُلَّهَا (alle) — Gott lehrte Adam sämtliche Namen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        },
+        {
+          "ref": "7:180",
+          "arabic": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا",
+          "correctMeaning": "Attribute/Namen (Gottes)",
+          "context": "الْحُسْنَىٰ (die schönsten) — Gottes schöne Namen/Attribute.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=180"
+        },
+        {
+          "ref": "12:40",
+          "arabic": "مَا تَعْبُدُونَ مِن دُونِهِٓ إِلَّآ أَسْمَآءً سَمَّيْتُمُوهَآ",
+          "correctMeaning": "bloße Benennungen (ohne Realität)",
+          "context": "سَمَّيْتُمُوهَا (die ihr benannt habt) — der Text bestreitet die Realität hinter diesen Benennungen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=40"
+        },
+        {
+          "ref": "53:23",
+          "arabic": "إِنْ هِىَ إِلَّآ أَسْمَآءٌ سَمَّيْتُمُوهَآ أَنتُمْ",
+          "correctMeaning": "bloße Benennungen (ohne Substanz)",
+          "context": "Gleiche Struktur — die Götzen sind nur selbsterfundene Namen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=23"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "id": 57,
+      "word": "ضَلَال",
+      "root": "ض-ل-ل",
+      "meanings": [
+        "Abirren/Verirrung",
+        "Verlust/Verlorenheit",
+        "Vergessenheit/Verschwinden"
+      ],
+      "exercises": [
+        {
+          "ref": "1:7",
+          "arabic": "غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "correctMeaning": "Abirren/Verirrung",
+          "context": "الضَّالِّين als Gegensatz zur Führung (الصِّرَاطَ الْمُسْتَقِيمَ) — die Verirrten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "ref": "12:8",
+          "arabic": "إِنَّ أَبَانَا لَفِى ضَلَٰلٍ مُّبِينٍ",
+          "correctMeaning": "Irrtum/Fehleinschätzung",
+          "context": "Die Brüder Yusufs über ihren Vater — er sei in offensichtlichem Irrtum.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=8"
+        },
+        {
+          "ref": "93:7",
+          "arabic": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ",
+          "correctMeaning": "suchend/ohne Orientierung",
+          "context": "ضَالًّا im Kontrast zu فَهَدَىٰ (und er leitete dich) — Zustand vor der Führung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=7"
+        },
+        {
+          "ref": "26:20",
+          "arabic": "قَالَ فَعَلْتُهَآ إِذًا وَأَنَا مِنَ ٱلضَّآلِّينَ",
+          "correctMeaning": "Unwissenheit/Unbeabsichtigtheit",
+          "context": "Musa über seine Tat — er handelte in Unwissenheit, nicht mit Absicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": 58,
+      "word": "مَقَام",
+      "root": "ق-و-م",
+      "meanings": [
+        "Ort/Standort",
+        "Rang/Stellung",
+        "Aufenthalt/Wohnstätte"
+      ],
+      "exercises": [
+        {
+          "ref": "2:125",
+          "arabic": "وَٱتَّخِذُوا مِن مَّقَامِ إِبْرَٰهِـمَ مُصَلًّى",
+          "correctMeaning": "Standort (Ibrahims)",
+          "context": "مَّقَامِ إِبْرَاهِيمَ — der physische Ort, wo Ibrahim stand.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "ref": "17:79",
+          "arabic": "عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا",
+          "correctMeaning": "Rang/Stellung",
+          "context": "مَحْمُودًا (gelobt) — eine gelobte Stellung/ein hoher Rang.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=79"
+        },
+        {
+          "ref": "55:46",
+          "arabic": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+          "correctMeaning": "Stehen vor (dem Herrn)",
+          "context": "مَقَام رَبِّهِ — das Stehen vor dem Herrn am Tag der Abrechnung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+        },
+        {
+          "ref": "44:26",
+          "arabic": "وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ",
+          "correctMeaning": "Aufenthaltsort/Wohnstätte",
+          "context": "مَقَامٍ كَرِيمٍ (edler Aufenthalt) — die prächtige Wohnstätte, die sie zurückliessen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=26"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "id": 59,
+      "word": "بَاطِل",
+      "root": "ب-ط-ل",
+      "meanings": [
+        "Falschheit/Lüge",
+        "Nichtiges/Wertloses",
+        "Vergängliches"
+      ],
+      "exercises": [
+        {
+          "ref": "2:42",
+          "arabic": "وَلَا تَلْبِسُوا ٱلْحَقَّ",
+          "correctMeaning": "Falschheit/Lüge",
+          "context": "Gegensatz zu الْحَقّ — die Wahrheit nicht mit Falschheit vermischen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=42"
+        },
+        {
+          "ref": "3:191",
+          "arabic": "رَبَّنَا مَا خَلَقْتَ هَٰذَا",
+          "correctMeaning": "zwecklos/nichtig",
+          "context": "مَا خَلَقْتَ بَاطِلًا — du hast dies nicht zwecklos erschaffen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=191"
+        },
+        {
+          "ref": "17:81",
+          "arabic": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًا",
+          "correctMeaning": "das Vergängliche/Nichtige",
+          "context": "زَهَقَ (vergehen/verschwinden) + زَهُوقًا — das Nichtige ist seiner Natur nach vergänglich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=81"
+        },
+        {
+          "ref": "4:29",
+          "arabic": "لَا تَأْكُلُوٓا أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ",
+          "correctMeaning": "auf unrechtmäßige Weise",
+          "context": "بِالْبَاطِلِ — als Adverbial: auf nichtige/unrechtmäßige Weise Vermögen verzehren.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=29"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=42"
+    },
+    {
+      "id": 60,
+      "word": "تَقْوَى",
+      "root": "و-ق-ي",
+      "meanings": [
+        "Achtsamkeit/Vorsicht",
+        "Schutz/Bewahrung",
+        "Pflichtbewusstsein"
+      ],
+      "exercises": [
+        {
+          "ref": "2:197",
+          "arabic": "وَتَزَوَّدُوا فَإِنَّ خَيْرَ ٱلزَّادِ ٱلتَّقْوَىٰ",
+          "correctMeaning": "Achtsamkeit/Vorsicht",
+          "context": "خَيْرَ الزَّادِ (beste Wegzehrung) — Taqwa als beste Vorbereitung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+        },
+        {
+          "ref": "49:13",
+          "arabic": "إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ",
+          "correctMeaning": "Pflichtbewusstsein",
+          "context": "أَكْرَمَكُمْ (der Edelste von euch) — der Maßstab ist die Taqwa.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+        },
+        {
+          "ref": "5:2",
+          "arabic": "وَتَعَاوَنُوا عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ",
+          "correctMeaning": "Pflichtbewusstsein",
+          "context": "Parallel zu الْبِرّ (Güte) — Zusammenarbeit in Güte und pflichtbewusster Achtsamkeit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=2"
+        },
+        {
+          "ref": "91:8",
+          "arabic": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+          "correctMeaning": "Schutz/Bewahrung (vor Verfehlung)",
+          "context": "Gegensatz zu فُجُور (Frevel) — die Fähigkeit, sich vor Verfehlung zu schützen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+    },
+    {
+      "id": 61,
+      "word": "سَيِّئَة",
+      "root": "س-و-ا",
+      "meanings": [
+        "schlechte Tat/Verfehlung",
+        "Unglück/Widerwärtigkeit",
+        "Strafe/Vergeltung"
+      ],
+      "exercises": [
+        {
+          "ref": "42:25",
+          "arabic": "وَيَعْفُوا عَنِ ٱلسَّيِّـَٔاتِ",
+          "correctMeaning": "schlechte Taten/Verfehlungen",
+          "context": "يَعْفُو عَن (er vergibt) — Vergebung von Verfehlungen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=25"
+        },
+        {
+          "ref": "4:78",
+          "arabic": "وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا هَٰذِهِ مِنْ عِندِكَ",
+          "correctMeaning": "Unglück/Widerwärtigkeit",
+          "context": "تُصِبْهُمْ (trifft sie) — Gegensatz zu حَسَنَة, etwas das einen trifft: Unglück.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+        },
+        {
+          "ref": "13:6",
+          "arabic": "وَيَسْتَعْجِلُونَكَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ",
+          "correctMeaning": "Strafe/Vergeltung",
+          "context": "يَسْتَعْجِلُونَ (sie drängen auf Beschleunigung) — sie fordern die Strafe heraus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=6"
+        },
+        {
+          "ref": "17:7",
+          "arabic": "وَإِنْ أَسَأْتُمْ فَلَهَا",
+          "correctMeaning": "Böses/Schlechtes tun",
+          "context": "Verb أَسَاءَ — wenn ihr schlecht handelt, ist es zu eurem Nachteil.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=25"
+    },
+    {
+      "id": 62,
+      "word": "فَاحِشَة",
+      "root": "ف-ح-ش",
+      "meanings": [
+        "Unsittlichkeit/Obszönität",
+        "Ehebruch/Unzucht",
+        "Übermaß/Ungeheuerlichkeit"
+      ],
+      "exercises": [
+        {
+          "ref": "4:15",
+          "arabic": "وَٱلَّٰتِى يَأْتِينَ ٱلْفَٰحِشَةَ مِن نِّسَآئِكُمْ",
+          "correctMeaning": "Unzucht/Unsittlichkeit",
+          "context": "يَأْتِينَ الْفَاحِشَةَ (die Fahisha begehen) — sexuelles Fehlverhalten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+        },
+        {
+          "ref": "7:80",
+          "arabic": "أَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ",
+          "correctMeaning": "Unsittlichkeit/Obszönität",
+          "context": "Luts Volk — مَا سَبَقَكُم (niemand hat euch darin vorangetan): eine beispiellose Obszönität.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=80"
+        },
+        {
+          "ref": "2:169",
+          "arabic": "إِنَّمَا يَأْمُرُكُم بِٱلسُّوٓءِ وَٱلْفَحْشَآءِ",
+          "correctMeaning": "das Abscheuliche/Ungeheure",
+          "context": "Parallel zu السُّوء (das Üble) — Schaitan befiehlt das Abscheuliche.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=169"
+        },
+        {
+          "ref": "65:1",
+          "arabic": "لَا تُخْرِجُوهُنَّ مِن بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ",
+          "correctMeaning": "klare Unsittlichkeit",
+          "context": "بِفَاحِشَةٍ مُّبَيِّنَةٍ (mit offenkundiger Fahisha) — im Kontext der Scheidungswartezeit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+    },
+    {
+      "id": 63,
+      "word": "إِمَام",
+      "root": "ا-م-م",
+      "meanings": [
+        "Anführer/Leiter",
+        "Buch/Verzeichnis",
+        "Weg/Straße",
+        "Vorbild"
+      ],
+      "exercises": [
+        {
+          "ref": "2:124",
+          "arabic": "جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ",
+          "correctMeaning": "Vorbild/Anführer",
+          "context": "جَاعِلُكَ (ich mache dich) + لِلنَّاسِ — Ibrahim als Vorbild für die Menschen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+        },
+        {
+          "ref": "36:12",
+          "arabic": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+          "correctMeaning": "Buch/Verzeichnis",
+          "context": "أَحْصَيْنَاهُ (wir haben es erfasst) + فِي — alles wurde in einem klaren Verzeichnis festgehalten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=12"
+        },
+        {
+          "ref": "15:79",
+          "arabic": "وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ",
+          "correctMeaning": "Weg/Straße",
+          "context": "لَبِإِمَامٍ مُّبِينٍ — beide (Städte) liegen an einem klaren Weg/einer deutlichen Straße.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=79"
+        },
+        {
+          "ref": "25:74",
+          "arabic": "وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+          "correctMeaning": "Vorbild/Anführer",
+          "context": "Bittgebet — mach uns zu Vorbildern für die sich Hütenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=74"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": 64,
+      "word": "حِزْب",
+      "root": "ح-ز-ب",
+      "meanings": [
+        "Partei/Gruppe",
+        "Anhängerschaft",
+        "Gegnerschaft/feindliche Gruppe"
+      ],
+      "exercises": [
+        {
+          "ref": "5:56",
+          "arabic": "وَمَن يَتَوَلَّ ٱللَّهَ وَرَسُولَهُ وَٱلَّذِينَ ءَامَنُوا فَإِنَّ حِزْبَ ٱللَّهِ هُمُ",
+          "correctMeaning": "Partei/Anhängerschaft (Gottes)",
+          "context": "حِزْبَ اللَّهِ — die Partei Gottes, die die Oberhand behält.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=56"
+        },
+        {
+          "ref": "58:19",
+          "arabic": "ٱسْتَحْوَذَ عَلَيْهِمُ ٱلشَّيْطَٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ أُولَٰٓئِكَ حِزْبُ ٱلشَّيْطَٰنِ",
+          "correctMeaning": "Partei (des Satans)",
+          "context": "حِزْبُ الشَّيْطَانِ — die Partei des Teufels als Gegenstück zu حِزْب اللَّهِ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=19"
+        },
+        {
+          "ref": "33:20",
+          "arabic": "يَحْسَبُونَ ٱلْأَحْزَابَ لَمْ يَذْهَبُوا",
+          "correctMeaning": "feindliche Gruppen/Koalitionen",
+          "context": "الْأَحْزَاب (die Koalitionen) — die verbündeten feindlichen Gruppen (vgl. Sure 33: al-Ahzab).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=20"
+        },
+        {
+          "ref": "23:53",
+          "arabic": "فَتَقَطَّعُوٓا أَمْرَهُم بَيْنَهُمْ زُبُرًا كُلُّ حِزْبٍ بِمَا لَدَيْهِمْ فَرِحُونَ",
+          "correctMeaning": "Gruppe/Sekte",
+          "context": "كُلُّ حِزْبٍ (jede Gruppe) — jede Gruppe freut sich über das, was sie hat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=53"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=56"
+    },
+    {
+      "id": 65,
+      "word": "سُنَّة",
+      "root": "س-ن-ن",
+      "meanings": [
+        "Verfahrensweise/Gesetzmäßigkeit",
+        "Brauch/Gewohnheit",
+        "Gottes Vorgehen (mit früheren Völkern)"
+      ],
+      "exercises": [
+        {
+          "ref": "33:62",
+          "arabic": "سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا مِن قَبْلُ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+          "correctMeaning": "Gottes Verfahrensweise",
+          "context": "لَن تَجِدَ تَبْدِيلًا (du wirst keine Änderung finden) — Gottes unveränderliche Vorgehensweise.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=62"
+        },
+        {
+          "ref": "35:43",
+          "arabic": "فَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَبْدِيلًا وَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَحْوِيلًا",
+          "correctMeaning": "Gesetzmäßigkeit Gottes",
+          "context": "تَبْدِيلًا/تَحْوِيلًا — weder Änderung noch Abweichung: feste Gesetzmäßigkeit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=43"
+        },
+        {
+          "ref": "8:38",
+          "arabic": "قُل لِّلَّذِينَ كَفَرُوٓا إِن يَنتَهُوا يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا فَقَدْ مَضَتْ سُنَّتُ ٱلْأَوَّلِينَ",
+          "correctMeaning": "Verfahrensweise (mit den Früheren)",
+          "context": "سُنَّتُ الْأَوَّلِينَ — die Vorgehensweise gegenüber den früheren Völkern ist bereits ergangen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=38"
+        },
+        {
+          "ref": "15:13",
+          "arabic": "وَقَدْ خَلَتْ سُنَّةُ ٱلْأَوَّلِينَ",
+          "correctMeaning": "Brauch/Verfahren der Früheren",
+          "context": "خَلَتْ (vergangen) — das Beispiel/Verfahren der früheren Völker ist bereits geschehen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=13"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=62"
+    },
+    {
+      "id": 66,
+      "word": "شَأْن",
+      "root": "ش-ا-ن",
+      "meanings": [
+        "Angelegenheit/Sache",
+        "Zustand/Lage",
+        "Rang/Bedeutung"
+      ],
+      "exercises": [
+        {
+          "ref": "10:61",
+          "arabic": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا مِنْهُ مِن قُرْءَانٍ",
+          "correctMeaning": "Angelegenheit/Beschäftigung",
+          "context": "فِي شَأْنٍ — in welcher Angelegenheit du auch bist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=61"
+        },
+        {
+          "ref": "55:29",
+          "arabic": "كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ",
+          "correctMeaning": "Angelegenheit/Wirken",
+          "context": "Jeden Tag ist Er in einer (neuen) Angelegenheit — شَأْن als Ausdruck fortwährender Aktivität.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=29"
+        },
+        {
+          "ref": "80:37",
+          "arabic": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+          "correctMeaning": "Zustand/Angelegenheit (die ihn beschäftigt)",
+          "context": "شَأْنٌ يُغْنِيهِ — jeder hat an jenem Tag eine Angelegenheit, die ihn völlig in Anspruch nimmt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=37"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=61"
+    },
+    {
+      "id": 67,
+      "word": "رِزْق",
+      "root": "ر-ز-ق",
+      "meanings": [
+        "Versorgung/Lebensunterhalt",
+        "Nahrung/Speise",
+        "Anteil/Zuteilung"
+      ],
+      "exercises": [
+        {
+          "ref": "2:22",
+          "arabic": "وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ",
+          "correctMeaning": "Nahrung/Speise",
+          "context": "مِنَ الثَّمَرَات (von den Früchten) — konkrete Nahrung als Versorgung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        },
+        {
+          "ref": "17:30",
+          "arabic": "إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ",
+          "correctMeaning": "Versorgung/Lebensunterhalt",
+          "context": "يَبْسُطُ/يَقْدِرُ (er weitet/er bemisst) — allgemeiner Lebensunterhalt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=30"
+        },
+        {
+          "ref": "8:4",
+          "arabic": "أُولَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا لَّهُمْ دَرَجَٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+          "correctMeaning": "Zuteilung/Gabe (im Späteren)",
+          "context": "رِزْقٌ كَرِيمٌ (edle Zuteilung) — Gabe im Späteren.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=4"
+        },
+        {
+          "ref": "40:13",
+          "arabic": "وَيُنَزِّلُ لَكُم مِّنَ ٱلسَّمَآءِ رِزْقًا",
+          "correctMeaning": "Regen (als Versorgung)",
+          "context": "مِّنَ السَّمَاءِ — Regen als Form von رِزْق (Versorgung) im textuellen Kontext.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=13"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "id": 68,
+      "word": "كَسَبَ",
+      "root": "ك-س-ب",
+      "meanings": [
+        "erwerben/verdienen",
+        "begehen (Verfehlung)",
+        "sich zuziehen"
+      ],
+      "exercises": [
+        {
+          "ref": "2:134",
+          "arabic": "لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ",
+          "correctMeaning": "erwerben/verdienen",
+          "context": "Jeder trägt, was er erworben hat — allgemeines Erwerben von Taten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=134"
+        },
+        {
+          "ref": "2:81",
+          "arabic": "بَلَىٰ مَن كَسَبَ سَيِّئَةً وَأَحَٰطَتْ بِهِ",
+          "correctMeaning": "begehen (Verfehlung)",
+          "context": "كَسَبَ سَيِّئَةً — eine schlechte Tat begehen; خَطِيئَة umschließt ihn.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=81"
+        },
+        {
+          "ref": "2:286",
+          "arabic": "لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ",
+          "correctMeaning": "erwerben (Gutes) vs. sich zuziehen (Schlechtes)",
+          "context": "كَسَبَتْ (Stamm I: Gutes erwerben) vs. اكْتَسَبَتْ (Stamm VIII: sich Schlechtes zuziehen) — feiner Unterschied.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+        },
+        {
+          "ref": "45:22",
+          "arabic": "وَلِتُجْزَىٰ كُلُّ نَفْسٍ بِمَا كَسَبَتْ",
+          "correctMeaning": "erwerben/ansammeln",
+          "context": "بِمَا كَسَبَتْ — jedes Selbst wird nach dem vergolten, was sie erworben hat.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=22"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=134"
+    },
+    {
+      "id": 69,
+      "word": "ذُرِّيَّة",
+      "root": "ذ-ر-ر",
+      "meanings": [
+        "Nachkommenschaft",
+        "Kinder",
+        "Vorfahren (umgekehrte Richtung!)"
+      ],
+      "exercises": [
+        {
+          "ref": "2:124",
+          "arabic": "قَالَ وَمِن ذُرِّيَّتِى قَالَ لَا يَنَالُ عَهْدِى ٱلظَّٰلِمِينَ",
+          "correctMeaning": "Nachkommenschaft",
+          "context": "Ibrahim fragt nach seinen Nachkommen — ob der Bund auch für sie gilt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+        },
+        {
+          "ref": "19:58",
+          "arabic": "أُولَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّـنَ مِن ذُرِّيَّةِ",
+          "correctMeaning": "Nachkommenschaft (allgemein)",
+          "context": "مِن ذُرِّيَّةِ آدَمَ — aus der Nachkommenschaft Adams.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=58"
+        },
+        {
+          "ref": "36:41",
+          "arabic": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+          "correctMeaning": "Vorfahren",
+          "context": "حَمَلْنَا ذُرِّيَّتَهُمْ فِي الْفُلْكِ — im Schiff (Nuhs) wurden ihre Vorfahren getragen, nicht ihre Nachkommen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=41"
+        },
+        {
+          "ref": "7:172",
+          "arabic": "وَإِذْ أَخَذَ رَبُّكَ مِن بَنِىٓ ءَادَمَ مِن ظُهُورِهِمْ ذُرِّيَّتَهُمْ",
+          "correctMeaning": "Nachkommen (aus den Rücken)",
+          "context": "مِن ظُهُورِهِمْ (aus ihren Rücken) — die Nachkommen wurden aus den Lenden genommen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=172"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": 70,
+      "word": "تَوْبَة",
+      "root": "ت-و-ب",
+      "meanings": [
+        "Reue/Umkehr (des Menschen)",
+        "Vergebung/Zuwendung (von Gott)",
+        "Rückkehr"
+      ],
+      "exercises": [
+        {
+          "ref": "4:17",
+          "arabic": "إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ",
+          "correctMeaning": "Vergebung/Zuwendung Gottes",
+          "context": "التَّوْبَةُ عَلَى اللَّهِ — hier ist es Gottes Zuwendung/Annahme der Reue, die ihm obliegt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+        },
+        {
+          "ref": "9:118",
+          "arabic": "ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا",
+          "correctMeaning": "Zuwendung Gottes (damit sie umkehren)",
+          "context": "تَابَ عَلَيْهِمْ (er wandte sich ihnen zu) — Gott wendet sich ihnen zu, damit sie umkehren.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=118"
+        },
+        {
+          "ref": "66:8",
+          "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا تُوبُوٓا إِلَى ٱللَّهِ تَوْبَةً نَّصُوحًا",
+          "correctMeaning": "Reue/Umkehr (des Menschen)",
+          "context": "تُوبُوا (kehrt um!) + نَّصُوحًا (aufrichtig) — menschliche Reue und Umkehr.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=8"
+        },
+        {
+          "ref": "4:18",
+          "arabic": "وَلَيْسَتِ ٱلتَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ",
+          "correctMeaning": "Reue/Möglichkeit zur Umkehr",
+          "context": "Negation — die Reue gilt nicht für diejenigen, die bis zum Tod verfehlen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=18"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+    },
+    {
+      "id": 71,
+      "word": "فِئَة",
+      "root": "ف-ي-ا",
+      "meanings": [
+        "Gruppe/Truppe",
+        "Schar/Partei",
+        "Stützgruppe"
+      ],
+      "exercises": [
+        {
+          "ref": "2:249",
+          "arabic": "كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةً بِإِذْنِ ٱللَّهِ",
+          "correctMeaning": "Truppe/Kampfgruppe",
+          "context": "غَلَبَتْ (besiegte) — militärischer Kontext: eine kleine Truppe besiegt eine große.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+        },
+        {
+          "ref": "3:13",
+          "arabic": "قَدْ كَانَ لَكُمْ ءَايَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا",
+          "correctMeaning": "Gruppe/Heeresgruppe",
+          "context": "الْتَقَتَا (die aufeinandertrafen) — zwei Gruppen im Kampf.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=13"
+        },
+        {
+          "ref": "28:81",
+          "arabic": "فَمَا كَانَ لَهُ مِن فِئَةٍ يَنصُرُونَهُ مِن دُونِ ٱللَّهِ",
+          "correctMeaning": "Stützgruppe/Helfer",
+          "context": "يَنصُرُونَهُ (die ihm helfen) — Qarun hatte keine Stützgruppe, die ihm beistand.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=81"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+    },
+    {
+      "id": 72,
+      "word": "شِفَاء",
+      "root": "ش-ف-ي",
+      "meanings": [
+        "Heilung (körperlich)",
+        "Heilung (seelisch/geistig)",
+        "Heilmittel"
+      ],
+      "exercises": [
+        {
+          "ref": "10:57",
+          "arabic": "ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَآءٌ لِّمَا فِى ٱلصُّدُورِ",
+          "correctMeaning": "Heilung (seelisch)",
+          "context": "لِّمَا فِي الصُّدُورِ (für das, was in den Brüsten ist) — Heilung für innere Krankheiten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=57"
+        },
+        {
+          "ref": "16:69",
+          "arabic": "يَخْرُجُ مِن بُطُونِهَا شَرَابٌ مُّخْتَلِفٌ أَلْوَٰنُهُ فِيهِ شِفَآءٌ لِّلنَّاسِ",
+          "correctMeaning": "Heilmittel (körperlich)",
+          "context": "شَرَابٌ (Getränk) aus Bienen — Honig als physisches Heilmittel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=69"
+        },
+        {
+          "ref": "17:82",
+          "arabic": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
+          "correctMeaning": "Heilung",
+          "context": "مِنَ الْقُرْآنِ — der Quran als Schifa, Heilung für die Vertrauenden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=82"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=57"
+    },
+    {
+      "id": 73,
+      "word": "خَيْر",
+      "root": "خ-ي-ر",
+      "meanings": [
+        "Gutes/das Gute",
+        "besser (Komparativ)",
+        "Vermögen/Reichtum"
+      ],
+      "exercises": [
+        {
+          "ref": "2:180",
+          "arabic": "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا",
+          "correctMeaning": "Vermögen/Reichtum",
+          "context": "إِن تَرَكَ خَيْرًا — wenn er Vermögen hinterlässt. Im Erbrechts-Kontext = materieller Besitz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=180"
+        },
+        {
+          "ref": "2:184",
+          "arabic": "وَأَن تَصُومُوا خَيْرٌ لَّكُمْ",
+          "correctMeaning": "besser (Komparativ)",
+          "context": "خَيْرٌ لَّكُمْ — Fasten ist besser für euch. Vergleich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+        },
+        {
+          "ref": "3:26",
+          "arabic": "بِيَدِكَ ٱلْخَيْرُ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+          "correctMeaning": "das Gute (allgemein)",
+          "context": "بِيَدِكَ الْخَيْرُ — in deiner Hand ist das Gute.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+        },
+        {
+          "ref": "100:8",
+          "arabic": "وَإِنَّهُ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+          "correctMeaning": "Reichtum/Besitz",
+          "context": "لِحُبِّ الْخَيْرِ (aus Liebe zum Reichtum) — خَيْر hier = materieller Reichtum.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=180"
+    },
+    {
+      "id": 74,
+      "word": "شَرّ",
+      "root": "ش-ر-ر",
+      "meanings": [
+        "Übel/Böses",
+        "schlimmer (Komparativ)",
+        "Schaden/Unheil"
+      ],
+      "exercises": [
+        {
+          "ref": "113:2",
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "correctMeaning": "Übel/Böses",
+          "context": "مِن شَرِّ (vor dem Übel) — Zufluchtsuche vor dem Übel des Geschaffenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+        },
+        {
+          "ref": "2:216",
+          "arabic": "لَّكُمْ وَعَسَىٰٓ أَن تُحِبُّوا شَيْـًٔا وَهُوَ شَرٌّ",
+          "correctMeaning": "schlecht/schädlich (für euch)",
+          "context": "شَرٌّ لَّكُمْ — etwas ist schlecht/schädlich für euch, obwohl ihr es liebt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+        },
+        {
+          "ref": "8:22",
+          "arabic": "إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ ٱلصُّمُّ ٱلْبُكْمُ",
+          "correctMeaning": "die Schlimmsten (Superlativ)",
+          "context": "شَرَّ الدَّوَابِّ — die schlimmsten der Kreaturen bei Gott.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=22"
+        },
+        {
+          "ref": "98:6",
+          "arabic": "أُولَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+          "correctMeaning": "die Schlimmsten (Superlativ)",
+          "context": "شَرُّ الْبَرِيَّةِ — die Schlimmsten der Geschöpfe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=6"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+    },
+    {
+      "id": 75,
+      "word": "رَبّ",
+      "root": "ر-ب-ب",
+      "meanings": [
+        "Herr/Gebieter",
+        "Erzieher/Aufzieher",
+        "Besitzer/Eigentümer",
+        "Versorger"
+      ],
+      "exercises": [
+        {
+          "ref": "1:2",
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+          "correctMeaning": "Herr/Gebieter",
+          "context": "رَبِّ الْعَالَمِينَ — Herr aller Welten/Geschöpfe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "ref": "12:42",
+          "arabic": "ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِ",
+          "correctMeaning": "Herr/Gebieter (irdisch: König)",
+          "context": "عِندَ رَبِّكَ — erwähne mich bei deinem Herrn (dem König Ägyptens).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=42"
+        },
+        {
+          "ref": "26:18",
+          "arabic": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا",
+          "correctMeaning": "aufziehen/erziehen",
+          "context": "نُرَبِّكَ (II. Stamm: wir haben dich aufgezogen) — die Wurzel ر-ب-ب im Sinne von Erziehung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=18"
+        },
+        {
+          "ref": "17:24",
+          "arabic": "وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+          "correctMeaning": "aufziehen/versorgen",
+          "context": "رَبَّيَانِي صَغِيرًا (sie zogen mich klein auf) — Eltern als رَبّ im Sinne von Erziehern.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=24"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": 76,
+      "word": "عِبَادَة",
+      "root": "ع-ب-د",
+      "meanings": [
+        "Dienst (konventionell 'Anbetung')",
+        "Gehorsamkeit",
+        "Unterwerfung"
+      ],
+      "exercises": [
+        {
+          "ref": "1:5",
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "correctMeaning": "dienen/verehren",
+          "context": "نَعْبُدُ — vorangestelltes Objekt (إِيَّاكَ) + Verb: Dich dienen wir (Taqdīm).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "ref": "19:65",
+          "arabic": "رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ",
+          "correctMeaning": "Dienst",
+          "context": "وَاصْطَبِرْ لِعِبَادَتِهِ (und sei standhaft in seinem Dienst) — ausdauernder Dienst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=65"
+        },
+        {
+          "ref": "36:60",
+          "arabic": "أَلَمْ أَعْهَدْ إِلَيْكُمْ يَٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا ٱلشَّيْطَٰنَ",
+          "correctMeaning": "gehorchen/sich unterwerfen",
+          "context": "لَّا تَعْبُدُوا الشَّيْطَانَ — dem Satan nicht gehorchen/sich nicht unterwerfen. Nicht Dienst im engeren Sinne, sondern Unterwerfung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=60"
+        },
+        {
+          "ref": "51:56",
+          "arabic": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+          "correctMeaning": "dienen",
+          "context": "إِلَّا لِيَعْبُدُونِ — der Zweck der Schöpfung: Dienst.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=56"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": 77,
+      "word": "نَبَأ",
+      "root": "ن-ب-ا",
+      "meanings": [
+        "Nachricht/Kunde",
+        "wichtige Nachricht/Botschaft",
+        "Geschichte/Bericht"
+      ],
+      "exercises": [
+        {
+          "ref": "6:34",
+          "arabic": "وَلَقَدْ جَآءَكَ مِن نَّبَإِى ٱلْمُرْسَلِينَ",
+          "correctMeaning": "Geschichte/Bericht",
+          "context": "نَّبَإِ الْمُرْسَلِينَ — Berichte über die früheren Gesandten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=34"
+        },
+        {
+          "ref": "78:2",
+          "arabic": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+          "correctMeaning": "wichtige Nachricht/Botschaft",
+          "context": "النَّبَإِ الْعَظِيمِ (die gewaltige Nachricht) — bezieht sich auf die Auferstehung oder den Quran.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=2"
+        },
+        {
+          "ref": "49:6",
+          "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا إِن جَآءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوٓا",
+          "correctMeaning": "Nachricht/Kunde",
+          "context": "بِنَبَإٍ (mit einer Nachricht) — eine zu verifizierende Nachricht von einem Frevler.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=6"
+        },
+        {
+          "ref": "26:69",
+          "arabic": "وَٱتْلُ عَلَيْهِمْ نَبَأَ",
+          "correctMeaning": "Geschichte/Bericht",
+          "context": "وَاتْلُ (trag vor) + نَبَأَ إِبْرَاهِيمَ — die Geschichte Ibrahims vortragen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=69"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=34"
+    },
+    {
+      "id": 78,
+      "word": "حَدِيث",
+      "root": "ح-د-ث",
+      "meanings": [
+        "Rede/Gespräch",
+        "Erzählung/Geschichte",
+        "Neuigkeit/neue Sache"
+      ],
+      "exercises": [
+        {
+          "ref": "4:87",
+          "arabic": "وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًا",
+          "correctMeaning": "Rede/Aussage",
+          "context": "أَصْدَقُ حَدِيثًا (wahrhaftiger in der Rede) — Gottes Rede als die wahrhaftigste.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=87"
+        },
+        {
+          "ref": "20:9",
+          "arabic": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+          "correctMeaning": "Geschichte/Erzählung",
+          "context": "حَدِيثُ مُوسَىٰ — die Geschichte Moses, die erzählt wird.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=9"
+        },
+        {
+          "ref": "12:111",
+          "arabic": "مَا كَانَ حَدِيثًا يُفْتَرَىٰ",
+          "correctMeaning": "Erzählung/Bericht",
+          "context": "حَدِيثًا يُفْتَرَىٰ (eine erfundene Erzählung) — der Quran ist keine erfundene Geschichte.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=111"
+        },
+        {
+          "ref": "66:3",
+          "arabic": "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِ حَدِيثًا",
+          "correctMeaning": "Gespräch/vertrauliche Rede",
+          "context": "أَسَرَّ (er vertraute an) — ein vertrauliches Gespräch.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=3"
+        },
+        {
+          "ref": "93:11",
+          "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+          "correctMeaning": "berichten/erzählen (Verb)",
+          "context": "فَحَدِّثْ (so berichte!) — II. Stamm als Imperativ: über Gottes Gabe erzählen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=42"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+}

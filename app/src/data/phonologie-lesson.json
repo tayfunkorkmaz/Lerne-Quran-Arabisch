@@ -1,0 +1,1601 @@
+{
+  "meta": {
+    "module": 1,
+    "title": "Phonologie des klassischen Arabisch",
+    "description": "6 Lektionen zur Lautlehre — Vokalsystem, Konsonanteninventar (IPA), Silbenstruktur, Betonung, Assimilation und verbundene Rede. Rein sprachwissenschaftliche Analyse der phonologischen Strukturen, wie sie im Qurantext beobachtbar sind.",
+    "passingScore": 80,
+    "sources": [
+      {
+        "label": "Ryding, Reference Grammar of Modern Standard Arabic — Phonology",
+        "url": "https://archive.org/details/07AReferenceGrammarOfModernStandardArabic"
+      },
+      {
+        "label": "Wright's Grammar Vol I — Phonology",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "1.6",
+      "title": "Vokalsystem",
+      "description": "Die drei Kurzvokale, drei Langvokale und zwei Diphthonge des klassischen Arabisch — und ihre Funktion als bedeutungsunterscheidende Einheiten.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Die Vokalphoneme des Arabischen",
+            "content": "Das klassische Arabisch hat ein symmetrisches Vokalsystem mit nur drei Vokalqualitäten: /a/, /i/ und /u/. Jede dieser drei Qualitäten existiert in einer kurzen und einer langen Variante. Dazu kommen zwei Diphthonge. Insgesamt also: 3 Kurzvokale + 3 Langvokale + 2 Diphthonge = 8 vokalische Einheiten. Dieses System ist minimal, aber hochfunktional: Die Vokale tragen in Kombination mit den Konsonanten die gesamte grammatische Information."
+          },
+          {
+            "type": "explanation",
+            "title": "Kurzvokale",
+            "content": "Die drei Kurzvokale werden im Schriftsystem als diakritische Zeichen über oder unter dem Konsonanten notiert. Sie sind phonologisch kurz — das heißt, sie besetzen genau eine Mora (Zeiteinheit).",
+            "arabicExamples": [
+              {
+                "arabic": "فَ",
+                "transliteration": "fa",
+                "meaning": "Fatha: /a/ — offener Vokal, Zeichen über dem Konsonanten",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "فِ",
+                "transliteration": "fi",
+                "meaning": "Kasra: /i/ — geschlossener vorderer Vokal, Zeichen unter dem Konsonanten",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "فُ",
+                "transliteration": "fu",
+                "meaning": "Damma: /u/ — geschlossener hinterer gerundeter Vokal, Zeichen über dem Konsonanten",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Langvokale",
+            "content": "Die drei Langvokale sind phonologisch doppelt so lang wie die Kurzvokale — sie besetzen zwei Moren. Im Schriftsystem werden sie durch eine Kombination aus Kurzvokal + Buchstabe dargestellt. Langvokale sind eigene Buchstaben im Wort und keine bloßen Diakritika.",
+            "arabicExamples": [
+              {
+                "arabic": "فَا",
+                "transliteration": "fā",
+                "meaning": "/aː/ — Fatha + Alif: langer offener Vokal",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "فِي",
+                "transliteration": "fī",
+                "meaning": "/iː/ — Kasra + Ya (ohne Punkte): langer geschlossener vorderer Vokal",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "فُو",
+                "transliteration": "fū",
+                "meaning": "/uː/ — Damma + Waw: langer geschlossener hinterer Vokal",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Diphthonge",
+            "content": "Ein Diphthong ist eine Verbindung aus Kurzvokal und Halbvokal innerhalb einer Silbe. Das Arabische hat genau zwei Diphthonge. Beide beginnen mit /a/ (Fatha).",
+            "arabicExamples": [
+              {
+                "arabic": "بَيْت",
+                "transliteration": "bayt",
+                "meaning": "/ay/ — Fatha + Ya mit Sukun: Haus (بَيْت, z.B. 2:125)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+              },
+              {
+                "arabic": "قَوْم",
+                "transliteration": "qawm",
+                "meaning": "/aw/ — Fatha + Waw mit Sukun: Volk (2:54)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Übersicht: Kurzvokale vs. Langvokale",
+            "headers": [
+              "Qualität",
+              "Kurzvokal",
+              "Zeichen",
+              "Langvokal",
+              "Schreibung",
+              "Beispiel (kurz)",
+              "Beispiel (lang)"
+            ],
+            "rows": [
+              [
+                "/a/",
+                "Fatha",
+                "◌َ",
+                "/aː/",
+                "Fatha + Alif (ا)",
+                "كَتَبَ (kataba) — er schrieb",
+                "كَاتِب (kaatib) — Schreibender"
+              ],
+              [
+                "/i/",
+                "Kasra",
+                "◌ِ",
+                "/iː/",
+                "Kasra + Ya (ي)",
+                "مِنْ (min) — von",
+                "كِتَاب (kitaab) — Buch; فِي (fii) — in"
+              ],
+              [
+                "/u/",
+                "Damma",
+                "◌ُ",
+                "/uː/",
+                "Damma + Waw (و)",
+                "كُتُب (kutub) — Bücher",
+                "يَقُولُ (yaquulu) — er sagt"
+              ]
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Vokallänge als bedeutungsunterscheidendes Merkmal",
+            "content": "Im Arabischen ist die Vokallänge phonemisch — das heißt, der Unterschied zwischen kurzem und langem Vokal allein kann die Bedeutung eines Wortes ändern. Das ist ein fundamentaler Unterschied zum Deutschen, wo Vokallänge zwar existiert, aber selten allein bedeutungsunterscheidend ist. In der arabischen Morphologie markieren Langvokale häufig bestimmte grammatische Muster.",
+            "arabicExamples": [
+              {
+                "arabic": "فَعَلَ vs. فَاعِل",
+                "transliteration": "faʿala vs. fāʿil",
+                "meaning": "er tat (Verb, Perfekt) vs. Tuender (aktives Partizip) — der Langvokal /aː/ nach dem ersten Radikal unterscheidet die Kategorie",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "كَتَبَ vs. كَاتِب",
+                "transliteration": "kataba vs. kātib",
+                "meaning": "er schrieb vs. Schreibender — selbe Wurzel k-t-b, verschiedene Muster durch Vokallänge",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              },
+              {
+                "arabic": "نَصَرَ vs. نَاصِر",
+                "transliteration": "naṣara vs. nāṣir",
+                "meaning": "er half vs. Helfender (12:64, 3:150)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=64"
+              },
+              {
+                "arabic": "عَلِمَ vs. عَالِم vs. عَلِيم",
+                "transliteration": "ʿalima vs. ʿālim vs. ʿalīm",
+                "meaning": "er wusste vs. Wissender vs. allwissend — Langvokal in verschiedenen Positionen erzeugt verschiedene Funktionen",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n36"
+              }
+            ]
+          },
+          {
+            "type": "quranExamples",
+            "title": "Vokale im Quran erkennen",
+            "examples": [
+              {
+                "location": "1:2",
+                "word": "الْحَمْدُ",
+                "analysis": "al-ḥamdu — Kurzvokale /a/, /u/. Muster faʿl mit Damma als Kasusendung (Nominativ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+              },
+              {
+                "location": "2:2",
+                "word": "الْكِتَابُ",
+                "analysis": "al-kitaabu — Langvokal /aː/ (Alif) als Teil des Musters fiʿaal. Ohne das lange /aː/ wäre das Muster ein anderes und die Bedeutung eine andere.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+              },
+              {
+                "location": "1:5",
+                "word": "نَعْبُدُ",
+                "analysis": "naʿbudu — Kurzvokal /a/ (Präfix), /u/ (Stammvokal), /u/ (Endung). Alles Kurzvokale, Form I Imperfekt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+              },
+              {
+                "location": "12:4",
+                "word": "كَوْكَبًا",
+                "analysis": "kawkaban — Diphthong /aw/ in der ersten Silbe. Waw mit Sukun nach Fatha = Diphthong, nicht Langvokal.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              },
+              {
+                "location": "105:4",
+                "word": "طَيْرًا",
+                "analysis": "ṭayran — Diphthong /ay/ in der ersten Silbe. Ya mit Sukun nach Fatha = Diphthong.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=4"
+              },
+              {
+                "location": "2:87",
+                "word": "رُوحِ",
+                "analysis": "ruuḥi — Langvokal /uː/ (Waw nach Damma). Gegenüber قَوْم (qawm, 2:54) mit Diphthong /aw/ — selber Buchstabe Waw, verschiedene phonologische Funktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+              },
+              {
+                "location": "3:26",
+                "word": "مَالِكَ",
+                "analysis": "maalika — Langvokal /aː/ im Muster faaʿil (aktives Partizip). Vergleiche mit مَلِكِ (maliki, 114:2 — مَلِكِ النَّاسِ) auf dem Muster faʿil — die Vokallänge unterscheidet die Muster.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "prompt": "Wie viele Vokalqualitäten hat das klassische Arabisch?",
+            "options": [
+              "Zwei: /a/ und /i/",
+              "Drei: /a/, /i/, /u/",
+              "Fünf: /a/, /e/, /i/, /o/, /u/",
+              "Sechs: drei kurze und drei lange"
+            ],
+            "answer": [
+              "Drei: /a/, /i/, /u/"
+            ],
+            "explanation": "Das Arabische hat drei Vokalqualitäten: /a/, /i/ und /u/. Jede existiert kurz und lang, aber die Grundqualitäten sind drei."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Welche Kombination erzeugt den Langvokal /aː/?",
+            "options": [
+              "Kasra + Ya",
+              "Fatha + Alif",
+              "Damma + Waw",
+              "Fatha + Waw"
+            ],
+            "answer": [
+              "Fatha + Alif"
+            ],
+            "explanation": "Der Langvokal /aː/ wird durch Fatha + Alif (ا) dargestellt. Kasra + Ya ergibt /iː/, Damma + Waw ergibt /uː/."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was unterscheidet كَتَبَ (kataba) von كَاتِب (kaatib)?",
+            "options": [
+              "Verschiedene Wurzeln",
+              "Verschiedene Konsonanten",
+              "Die Vokallänge nach dem ersten Radikal — /a/ vs. /aː/",
+              "Die Wortstellung im Satz"
+            ],
+            "answer": [
+              "Die Vokallänge nach dem ersten Radikal — /a/ vs. /aː/"
+            ],
+            "explanation": "Beide Wörter haben die Wurzel k-t-b. Der entscheidende Unterschied ist der Langvokal /aː/ nach dem ersten Radikal in kaatib (Muster faaʿil), der es als aktives Partizip kennzeichnet."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Welcher Laut liegt in dem Wort بَيْت (bayt) vor?",
+            "options": [
+              "Langvokal /iː/",
+              "Langvokal /aː/",
+              "Diphthong /ay/",
+              "Diphthong /aw/"
+            ],
+            "answer": [
+              "Diphthong /ay/"
+            ],
+            "explanation": "Fatha + Ya mit Sukun (يْ) ergibt den Diphthong /ay/. Ein Langvokal /iː/ läge vor bei Kasra + Ya (ohne Sukun)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Woran erkennt man im Schriftbild, ob Waw einen Langvokal /uː/ oder einen Diphthong /aw/ darstellt?",
+            "options": [
+              "Am vorhergehenden Vokal: Damma + Waw = /uː/, Fatha + Waw = /aw/",
+              "An der Position im Wort",
+              "Am folgenden Konsonanten",
+              "Man kann es nicht unterscheiden"
+            ],
+            "answer": [
+              "Am vorhergehenden Vokal: Damma + Waw = /uː/, Fatha + Waw = /aw/"
+            ],
+            "explanation": "Wenn vor dem Waw ein Damma steht, ist es der Langvokal /uː/ (z.B. رُوح = ruuḥ). Wenn vor dem Waw ein Fatha steht und das Waw Sukun trägt, ist es der Diphthong /aw/ (z.B. قَوْم = qawm)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Welches Wort enthält den Langvokal /iː/?",
+            "options": [
+              "بَيْت (bayt)",
+              "فِي (fii)",
+              "قَوْم (qawm)",
+              "كُتُب (kutub)"
+            ],
+            "answer": [
+              "فِي (fii)"
+            ],
+            "explanation": "فِي (fii) enthält Kasra + Ya = Langvokal /iː/. بَيْت hat den Diphthong /ay/ (Fatha + Ya mit Sukun). قَوْم hat den Diphthong /aw/. كُتُب hat nur Kurzvokale."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Warum ist Vokallänge im Arabischen phonemisch?",
+            "options": [
+              "Weil lange Vokale lauter gesprochen werden",
+              "Weil der Unterschied kurz/lang allein die Bedeutung ändern kann",
+              "Weil Langvokale nur in Fremdwörtern vorkommen",
+              "Weil Kurzvokale nicht geschrieben werden"
+            ],
+            "answer": [
+              "Weil der Unterschied kurz/lang allein die Bedeutung ändern kann"
+            ],
+            "explanation": "Phonemisch bedeutet: bedeutungsunterscheidend. Beispiel: faʿala (er tat) vs. faaʿil (Tuender) — allein die Vokallänge nach dem ersten Radikal unterscheidet die grammatische Kategorie."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "id": "1.6b",
+      "title": "Konsonanteninventar (IPA)",
+      "description": "Systematische Übersicht aller 28 arabischen Konsonanten geordnet nach Artikulationsort und Artikulationsart — mit IPA-Notation.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Das Konsonanteninventar",
+            "content": "Das klassische Arabisch hat 28 Konsonantenphoneme. Sie lassen sich systematisch nach zwei Dimensionen ordnen: dem Artikulationsort (wo im Mundraum der Laut gebildet wird) und der Artikulationsart (wie der Luftstrom modifiziert wird). Diese Ordnung ist nicht willkürlich — sie erklärt, warum bestimmte Laute verwechselt werden (Minimalpaare), warum bestimmte Assimilationen stattfinden, und wie die Emphatika sich von ihren nicht-emphatischen Entsprechungen unterscheiden."
+          },
+          {
+            "type": "table",
+            "title": "Konsonanten nach Artikulationsort und -art",
+            "headers": [
+              "Artikulationsart",
+              "Bilabial",
+              "Labiodental",
+              "Interdental",
+              "Dental/Alveolar",
+              "Postalveolar",
+              "Palatal",
+              "Velar",
+              "Uvular",
+              "Pharyngal",
+              "Glottal"
+            ],
+            "rows": [
+              [
+                "Stimmlose Plosive",
+                "",
+                "",
+                "",
+                "ت /t/",
+                "",
+                "",
+                "ك /k/",
+                "ق /q/",
+                "",
+                "ء /ʔ/"
+              ],
+              [
+                "Stimmhafte Plosive",
+                "ب /b/",
+                "",
+                "",
+                "د /d/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Stimmlose Frikative",
+                "",
+                "ف /f/",
+                "ث /θ/",
+                "س /s/",
+                "ش /ʃ/",
+                "",
+                "",
+                "خ /χ/",
+                "ح /ħ/",
+                "ه /h/"
+              ],
+              [
+                "Stimmhafte Frikative",
+                "",
+                "",
+                "ذ /ð/",
+                "ز /z/",
+                "",
+                "",
+                "",
+                "غ /ɣ/",
+                "ع /ʕ/",
+                ""
+              ],
+              [
+                "Affrikate",
+                "",
+                "",
+                "",
+                "",
+                "ج /dʒ/",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Emphatische Plosive",
+                "",
+                "",
+                "",
+                "ط /tˤ/  ض /dˤ/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Emphatische Frikative",
+                "",
+                "",
+                "ظ /ðˤ/",
+                "ص /sˤ/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Nasale",
+                "م /m/",
+                "",
+                "",
+                "ن /n/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Laterale",
+                "",
+                "",
+                "",
+                "ل /l/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Vibranten",
+                "",
+                "",
+                "",
+                "ر /r/",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              [
+                "Approximanten",
+                "و /w/",
+                "",
+                "",
+                "",
+                "",
+                "ي /j/",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Artikulationsorte im Detail",
+            "content": "Die Artikulationsorte des Arabischen spannen sich von den Lippen bis zur Stimmritze:\n\n1. Bilabial (الشَّفَوِيّ): Beide Lippen — ب /b/, م /m/, و /w/\n2. Labiodental (الشَّفَوِيّ السِّنِّيّ): Unterlippe an obere Zähne — ف /f/\n3. Interdental (بَيْنَ الأَسْنَان): Zunge zwischen den Zähnen — ث /θ/, ذ /ð/, ظ /ðˤ/\n4. Dental-Alveolar (الأَسْنَانِيّ): Zunge an Zähne/Zahndamm — ت /t/, د /d/, ط /tˤ/, س /s/, ص /sˤ/, ض /dˤ/, ز /z/, ن /n/, ل /l/, ر /r/\n5. Postalveolar (غَارِيّ أَمَامِيّ): Hinter dem Zahndamm — ش /ʃ/, ج /dʒ/\n6. Palatal (غَارِيّ): Harter Gaumen — ي /j/\n7. Velar (طَبَقِيّ): Weicher Gaumen — ك /k/\n8. Uvular (لَهَوِيّ): Zäpfchen — ق /q/, خ /χ/, غ /ɣ/\n9. Pharyngal (حَلْقِيّ): Rachen — ح /ħ/, ع /ʕ/\n10. Glottal (حَنْجَرِيّ): Stimmritze — ء /ʔ/, ه /h/"
+          },
+          {
+            "type": "explanation",
+            "title": "Emphatika — das Merkmal der Pharyngalisierung",
+            "content": "Das Arabische unterscheidet vier emphatische Konsonanten von ihren nicht-emphatischen Entsprechungen. Emphatika werden mit einer zusätzlichen Verengung des Rachens (Pharyngalisierung) artikuliert, die den umgebenden Vokalen eine dunklere Klangfarbe verleiht:\n\nت /t/ → ط /tˤ/ (dental → emphatisch-dental)\nد /d/ → ض /dˤ/ (dental → emphatisch-dental; historisch wahrscheinlich ein lateraler Emphatikus, in moderner Standardaussprache /dˤ/)\nس /s/ → ص /sˤ/ (alveolar → emphatisch-alveolar)\nذ /ð/ → ظ /ðˤ/ (interdental → emphatisch-interdental)\n\nDiese Unterscheidung ist bedeutungsunterscheidend: طِين (Ton/Lehm) vs. تِين (Feigen). Im Konsonantentext (Rasm) sind emphatische und nicht-emphatische Buchstaben stets durch verschiedene Grundformen unterschieden — sie kollidieren nie im I'jam."
+          },
+          {
+            "type": "explanation",
+            "title": "Allophonische Variation bei Emphatika",
+            "content": "Die Emphatika (ص ض ط ظ) beeinflussen die Vokalqualität ihrer Umgebung systematisch. Der Kurzvokal /a/ (Fatha) wird in der Nähe eines Emphatikums als [ɑ] realisiert — ein tieferer, weiter hinten artikulierter Vokal als das helle [a] in nicht-emphatischer Umgebung. Auch /i/ und /u/ werden leicht verdunkelt: /i/ nähert sich [ɨ] und /u/ wird zu [ʊ]. Dieser Effekt erstreckt sich über die unmittelbare Nachbarschaft hinaus und kann die Vokalfarbe einer ganzen Silbe oder sogar eines ganzen Wortes beeinflussen (Emphase-Spreading). Beispiel: In طَابَ wird das /a/ als [ɑ] realisiert, während in تَابَ dasselbe Graphem für ein helleres [a] steht. Im Konsonantentext sind Buchstaben wie ب/ت/ث/ن bei Wegfall der Punkte identisch (gleiches Grundskelett) — die Emphase-Qualität ist also ein hörbares Unterscheidungsmerkmal. Hinweis: ط und ت haben verschiedene Grundformen im Rasm (ط hat einen senkrechten Strich), sie kollidieren also nicht.",
+            "arabicExamples": [
+              {
+                "arabic": "طَابَ",
+                "transliteration": "[tˤɑːba]",
+                "meaning": "Emphatisches /tˤ/ verdunkelt den folgenden Langvokal zu [ɑː] — 'es war gut/angenehm'",
+                "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Tyb"
+              },
+              {
+                "arabic": "تَابَ",
+                "transliteration": "[taːba]",
+                "meaning": "Nicht-emphatisches /t/ — der Langvokal bleibt als helles [aː] — 'er kehrte um'",
+                "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=twb"
+              },
+              {
+                "arabic": "صَبَرَ",
+                "transliteration": "[sˤɑbara]",
+                "meaning": "Emphatisches /sˤ/ verdunkelt das folgende /a/ zu [ɑ] — 'er war geduldig'",
+                "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Sbr"
+              },
+              {
+                "arabic": "سَبَرَ",
+                "transliteration": "[sabara]",
+                "meaning": "Nicht-emphatisches /s/ — helles [a] bleibt erhalten — 'er sondierte/erforschte'",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n42"
+              },
+              {
+                "arabic": "ظَلَمَ",
+                "transliteration": "[ðˤɑlama]",
+                "meaning": "Emphatisches /ðˤ/ verdunkelt die Vokalumgebung — 'er tat Unrecht'",
+                "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Zlm"
+              },
+              {
+                "arabic": "ذَلِكَ",
+                "transliteration": "[ðalika]",
+                "meaning": "Nicht-emphatisches /ð/ — helles [a] und [i] — 'jenes'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Pharyngale und Glottale — der tiefe Rachen",
+            "content": "Vier Laute werden im Rachen und an der Stimmritze gebildet — ein Bereich, den die meisten europäischen Sprachen nicht nutzen:\n\nح /ħ/ — stimmloses pharyngales Frikativ (starkes Hauchen aus dem Rachen)\nع /ʕ/ — stimmhaftes pharyngales Frikativ (Rachenverengung mit Stimme)\nء /ʔ/ — glottaler Plosiv (Stimmritzenverschluss, wie dt. 'Verein' vs. 'ver-ein')\nه /h/ — stimmloser glottaler Frikativ (wie dt. 'Haus')\n\nDie Verwechslung von ح und ه oder von ع und ء verändert Wurzel und Bedeutung: حَمْد (Lob) vs. هَمْد (Erlöschen), عَلِمَ (er wusste) vs. أَلِمَ (er litt)."
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welcher Konsonant wird pharyngal artikuliert?",
+            "options": [
+              "خ /χ/",
+              "ح /ħ/",
+              "ه /h/",
+              "ك /k/"
+            ],
+            "correct": 1,
+            "explanation": "ح /ħ/ ist ein stimmloser pharyngaler Frikativ. خ ist uvular, ه ist glottal, ك ist velar."
+          },
+          {
+            "question": "Was unterscheidet ط von ت artikulatorisch?",
+            "options": [
+              "Stimmhaftigkeit",
+              "Pharyngalisierung (Emphase)",
+              "Artikulationsort",
+              "Nasalierung"
+            ],
+            "correct": 1,
+            "explanation": "Beide sind stimmlose dentale Plosive. ط ist die emphatische (pharyngalisierte) Variante von ت."
+          },
+          {
+            "question": "Welches Paar sind stimmhafte Frikative?",
+            "options": [
+              "ف und ث",
+              "ذ und ز",
+              "س und ش",
+              "ت und ط"
+            ],
+            "correct": 1,
+            "explanation": "ذ /ð/ ist ein stimmhafter interdentaler Frikativ, ز /z/ ein stimmhafter alveolarer Frikativ. Die anderen Paare enthalten stimmlose Laute."
+          },
+          {
+            "question": "Wo wird ق /q/ artikuliert?",
+            "options": [
+              "Velar (weicher Gaumen)",
+              "Uvular (Zäpfchen)",
+              "Pharyngal (Rachen)",
+              "Glottal (Stimmritze)"
+            ],
+            "correct": 1,
+            "explanation": "ق ist ein stimmloser uvularer Plosiv, artikuliert am Zäpfchen. Er ist weiter hinten als ك (velar)."
+          },
+          {
+            "question": "Wie viele emphatische Konsonanten hat das Arabische?",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "6"
+            ],
+            "correct": 2,
+            "explanation": "Die vier Emphatika sind: ط /tˤ/, ض /dˤ/, ص /sˤ/, ظ /ðˤ/. Sie unterscheiden sich von ت, د, س, ذ durch Pharyngalisierung."
+          },
+          {
+            "type": "matching",
+            "prompt": "Ordne den Artikulationsort zu:",
+            "pairs": [
+              {
+                "item": "ب /b/",
+                "match": "Bilabial"
+              },
+              {
+                "item": "ق /q/",
+                "match": "Uvular"
+              },
+              {
+                "item": "ع /ʕ/",
+                "match": "Pharyngal"
+              },
+              {
+                "item": "ش /ʃ/",
+                "match": "Postalveolar"
+              },
+              {
+                "item": "ف /f/",
+                "match": "Labiodental"
+              }
+            ],
+            "explanation": "ب wird mit beiden Lippen gebildet, ق am Zäpfchen, ع im Rachen, ش hinter dem Zahndamm, ف mit Unterlippe an den oberen Zähnen."
+          }
+        ]
+      },
+      "externalReferences": {
+        "ipaChart": "https://en.wikipedia.org/wiki/Help:IPA/Arabic",
+        "arabicPhonology": "https://en.wikipedia.org/wiki/Arabic_phonology",
+        "ipaInteractive": "https://www.ipachart.com/"
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Tyb"
+    },
+    {
+      "id": "1.7",
+      "title": "Silbenstruktur",
+      "description": "Die fünf Silbentypen des klassischen Arabisch und die Regeln, die den Silbenbau steuern.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Warum Silbenstruktur wichtig ist",
+            "content": "Die Silbenstruktur des Arabischen folgt strengen Regeln. Wer diese Regeln kennt, kann jedes arabische Wort korrekt segmentieren und erkennt, warum bestimmte Lautveränderungen auftreten — etwa warum Hilfsvokale eingefügt oder Hamzat al-Wasl benötigt werden. Die Silbe ist die phonologische Grundeinheit oberhalb des Einzellauts."
+          },
+          {
+            "type": "explanation",
+            "title": "Die fünf Silbentypen",
+            "content": "Das klassische Arabisch kennt fünf Silbentypen. Entscheidend ist das Gewicht einer Silbe: leicht, schwer oder überschwer. Das Silbengewicht bestimmt unter anderem die Betonung.",
+            "arabicExamples": [
+              {
+                "arabic": "كَ",
+                "transliteration": "ka",
+                "meaning": "Typ CV (offen, leicht): Konsonant + Kurzvokal. Eine Mora.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "مِنْ",
+                "transliteration": "min",
+                "meaning": "Typ CVC (geschlossen, schwer): Konsonant + Kurzvokal + Konsonant. Zwei Moren.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "قَا",
+                "transliteration": "qā",
+                "meaning": "Typ CVV (offen, schwer): Konsonant + Langvokal. Zwei Moren.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "قَالْ",
+                "transliteration": "qāl",
+                "meaning": "Typ CVVC (geschlossen, überschwer): Konsonant + Langvokal + Konsonant. Drei Moren. Nur am Wort-/Phrasenende.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Die fünf Silbentypen im Überblick",
+            "headers": [
+              "Typ",
+              "Struktur",
+              "Gewicht",
+              "Moren",
+              "Vorkommen",
+              "Beispiel"
+            ],
+            "rows": [
+              [
+                "CV",
+                "Konsonant + Kurzvokal",
+                "leicht",
+                "1",
+                "überall",
+                "كَـ (ka-) in كَتَبَ"
+              ],
+              [
+                "CVC",
+                "Konsonant + Kurzvokal + Konsonant",
+                "schwer",
+                "2",
+                "überall",
+                "مِنْ (min), كَتَبْ (Pausalform)"
+              ],
+              [
+                "CVV",
+                "Konsonant + Langvokal",
+                "schwer",
+                "2",
+                "überall",
+                "قَا (qaa-) in قَالَ, كِتَا (-taa-) in كِتَاب"
+              ],
+              [
+                "CVVC",
+                "Konsonant + Langvokal + Konsonant",
+                "überschwer",
+                "3",
+                "nur bei Pause",
+                "قَالْ (qaal) — Pausalform von قَالَ"
+              ],
+              [
+                "CVCC",
+                "Konsonant + Kurzvokal + 2 Konsonanten",
+                "überschwer",
+                "3",
+                "nur bei Pause",
+                "كَتَبْتْ (katabt) — Pausalform"
+              ]
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Grundregeln der arabischen Silbenstruktur",
+            "content": "Zwei fundamentale Regeln steuern den Silbenbau des Arabischen:\n\n1. Jede Silbe beginnt mit genau einem Konsonanten. Es gibt keine vokalisch anlautenden Silben. Wenn ein Wort scheinbar mit einem Vokal beginnt (wie in اِسْم = ism, Name), steht phonologisch ein Hamza (Glottisverschlusslaut) davor: /ʔism/. Das Hamza ist der Konsonant.\n\n2. Konsonantencluster am Wortanfang sind verboten. Im Deutschen sind Wörter wie 'Sprache' (drei Konsonanten am Anfang) normal. Im Arabischen ist das ausgeschlossen — jede Silbe beginnt mit genau einem Konsonanten, gefolgt von einem Vokal. Wenn durch Morphologie ein Cluster entstünde, wird ein Hilfsvokal (Hamzat al-Wasl) eingefügt."
+          },
+          {
+            "type": "explanation",
+            "title": "Silbensegmentierung — so wird getrennt",
+            "content": "Um ein arabisches Wort in Silben zu zerlegen, geht man folgendermaßen vor: Jeder Konsonant, dem ein Vokal folgt, beginnt eine neue Silbe. Ein Konsonant nach einem Kurzvokal, dem kein eigener Vokal folgt, schließt die vorherige Silbe (CVC). Ein Langvokal zählt als zwei Moren, aber die Silbe bleibt eine Einheit.",
+            "arabicExamples": [
+              {
+                "arabic": "كَتَبَ",
+                "transliteration": "ka-ta-ba",
+                "meaning": "Drei CV-Silben: ka | ta | ba — drei leichte Silben",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "كِتَابٌ",
+                "transliteration": "ki-tā-bun",
+                "meaning": "CV + CVV + CVC: ki | taa | bun — leicht + schwer + schwer",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "يَكْتُبُ",
+                "transliteration": "yak-tu-bu",
+                "meaning": "CVC + CV + CV: yak | tu | bu — schwer + leicht + leicht",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              },
+              {
+                "arabic": "اِسْتَغْفِرْ",
+                "transliteration": "is-tagh-fir",
+                "meaning": "CVC + CVC + CVC: ʔis | tagh | fir — drei schwere Silben",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n50"
+              }
+            ]
+          },
+          {
+            "type": "quranExamples",
+            "title": "Silbenstruktur im Quran",
+            "examples": [
+              {
+                "location": "1:1",
+                "word": "بِسْمِ",
+                "analysis": "bis-mi — CVC + CV: bis (schwer) + mi (leicht). Das /i/ vor dem /s/ ist ein Kurzvokal; /s/ und /m/ gehören zu verschiedenen Silben.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              },
+              {
+                "location": "112:1",
+                "word": "أَحَدٌ",
+                "analysis": "ʔa-ḥa-dun — CV + CV + CVC: drei Silben. Das Hamza am Anfang ist der Konsonant, der die erste Silbe eröffnet.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+              },
+              {
+                "location": "2:255",
+                "word": "الْقَيُّومُ",
+                "analysis": "al-qay-yuu-mu — CVC + CVC + CVV + CV. Der Diphthong /ay/ bildet eine schwere Silbe; das verdoppelte Ya gehört teils zur vorherigen Silbe (schließt sie), teils eröffnet es die nächste.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "location": "2:286",
+                "word": "اكْتَسَبَتْ",
+                "analysis": "ik-ta-sa-bat — CVC + CV + CV + CVC. Vier Silben, abwechselnd schwer und leicht. Das /t/ am Ende schließt die letzte Silbe.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+              },
+              {
+                "location": "1:5",
+                "word": "نَسْتَعِينُ",
+                "analysis": "nas-ta-ʿii-nu — CVC + CV + CVV + CV. Vier Silben: schwer + leicht + schwer + leicht.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+              },
+              {
+                "location": "3:26",
+                "word": "مَالِكَ",
+                "analysis": "maa-li-ka — CVV + CV + CV: Eine schwere Silbe (Langvokal /aː/), gefolgt von zwei leichten Silben.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "prompt": "Welcher Silbentyp liegt in مِنْ (min) vor?",
+            "options": [
+              "CV — offen, leicht",
+              "CVC — geschlossen, schwer",
+              "CVV — offen, schwer",
+              "CVVC — geschlossen, überschwer"
+            ],
+            "answer": [
+              "CVC — geschlossen, schwer"
+            ],
+            "explanation": "مِنْ besteht aus Konsonant /m/ + Kurzvokal /i/ + Konsonant /n/ = CVC. Die Silbe ist geschlossen (endet auf Konsonant) und schwer (zwei Moren)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wie wird كَتَبَ (kataba) silbisch segmentiert?",
+            "options": [
+              "kat-ab-a",
+              "ka-ta-ba",
+              "k-at-aba",
+              "ka-tab-a"
+            ],
+            "answer": [
+              "ka-ta-ba"
+            ],
+            "explanation": "Jeder Konsonant + folgender Vokal eröffnet eine neue Silbe: ka (CV) + ta (CV) + ba (CV) = drei leichte offene Silben."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Warum gibt es im Arabischen keine vokalisch anlautenden Silben?",
+            "options": [
+              "Weil Vokale im Arabischen nicht existieren",
+              "Weil jede Silbe mit genau einem Konsonanten beginnen muss — scheinbar vokalische Anlaute haben ein Hamza",
+              "Weil alle Wörter mit dem Artikel beginnen",
+              "Weil Langvokale am Wortanfang stehen"
+            ],
+            "answer": [
+              "Weil jede Silbe mit genau einem Konsonanten beginnen muss — scheinbar vokalische Anlaute haben ein Hamza"
+            ],
+            "explanation": "Phonologische Grundregel: Jede arabische Silbe beginnt mit einem Konsonanten. Wörter wie اِسْم (ism) haben ein Hamza /ʔ/ als Anfangskonsonant: /ʔism/."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Welcher Silbentyp ist überschwer und kommt nur bei Pause vor?",
+            "options": [
+              "CV",
+              "CVC",
+              "CVV",
+              "CVVC"
+            ],
+            "answer": [
+              "CVVC"
+            ],
+            "explanation": "Überschwere Silben (CVVC und CVCC) mit drei Moren treten nur am Ende einer Phrase oder bei Pausalstellung auf, z.B. قَالْ (qaal) als Pausalform von قَالَ."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wie wird كِتَابٌ (kitaabun) silbisch segmentiert?",
+            "options": [
+              "ki-ta-a-bun",
+              "kit-aa-bun",
+              "ki-taa-bun",
+              "ki-taab-un"
+            ],
+            "answer": [
+              "ki-taa-bun"
+            ],
+            "explanation": "ki (CV, leicht) + taa (CVV, schwer — Langvokal /aː/) + bun (CVC, schwer) = drei Silben."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Welche Silbenstruktur hat die erste Silbe von يَكْتُبُ (yak-tu-bu)?",
+            "options": [
+              "CV — leicht",
+              "CVC — schwer",
+              "CVV — schwer",
+              "CVVC — überschwer"
+            ],
+            "answer": [
+              "CVC — schwer"
+            ],
+            "explanation": "Die erste Silbe ist yak: /y/ (Konsonant) + /a/ (Kurzvokal) + /k/ (Konsonant) = CVC, geschlossen und schwer."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "1.8",
+      "title": "Betonung",
+      "description": "Die Regeln der Wortbetonung im klassischen Arabisch — welche Silbe den Hauptakzent trägt und warum.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Betonung im Arabischen — regelbasiert, nicht lexikalisch",
+            "content": "Im Deutschen muss man die Betonung eines Wortes oft einzeln lernen (VERkaufen vs. verKAUFen). Im Arabischen ist die Betonung vorhersagbar: Sie ergibt sich automatisch aus der Silbenstruktur. Wer die Silbenstruktur kennt, weiß auch, wo die Betonung liegt. Die Betonung ist nicht bedeutungsunterscheidend (nicht phonemisch), aber sie ist wichtig für die korrekte Erkennung von Wortmustern."
+          },
+          {
+            "type": "explanation",
+            "title": "Die drei Betonungsregeln",
+            "content": "Die Betonung wird von rechts nach links zugewiesen. Man prüft in dieser Reihenfolge:\n\nRegel 1: Enthält das Wort eine überschwere Silbe (CVVC oder CVCC)? Falls ja, fällt die Betonung auf die letzte überschwere Silbe. Dies kommt nur in Pausalformen vor. Diese Regel greift ausschließlich bei Pausalformen am Phrasenende — sie ist keine Regel des durchlaufenden Sprechflusses.\n\nRegel 2: Falls keine überschwere Silbe vorhanden ist — enthält das Wort eine schwere Silbe (CVC oder CVV)? Falls ja, fällt die Betonung auf die letzte schwere Silbe, die nicht die allerletzte Silbe des Wortes ist (also die letzte nicht-finale schwere Silbe). Gibt es keine nicht-finale schwere Silbe, wird die erste Silbe betont (Regel 3).\n\nRegel 3: Falls das Wort nur aus leichten Silben besteht, fällt die Betonung auf die erste Silbe.",
+            "arabicExamples": [
+              {
+                "arabic": "كَتَبَ",
+                "transliteration": "KA-ta-ba",
+                "meaning": "Regel 3: Nur leichte Silben (CV+CV+CV) — Betonung auf der ersten Silbe.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n54"
+              },
+              {
+                "arabic": "كِتَابٌ",
+                "transliteration": "ki-TAA-bun",
+                "meaning": "Regel 2: Die schwere Silbe /taa/ (CVV) trägt die Betonung.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n54"
+              },
+              {
+                "arabic": "يَكْتُبُونَ",
+                "transliteration": "yak-tu-BUU-na",
+                "meaning": "Regel 2: Die letzte nicht-finale schwere Silbe ist /buu/ (CVV) — sie wird betont.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n54"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Betonungsbeispiele",
+            "headers": [
+              "Wort",
+              "Transliteration",
+              "Silben",
+              "Betonungsregel",
+              "Betonte Silbe"
+            ],
+            "rows": [
+              [
+                "كَتَبَ",
+                "KA-ta-ba",
+                "CV.CV.CV",
+                "Regel 3: nur leichte Silben",
+                "erste (KA)"
+              ],
+              [
+                "كِتَابٌ",
+                "ki-TAA-bun",
+                "CV.CVV.CVC",
+                "Regel 2: schwere Silbe",
+                "zweite (TAA)"
+              ],
+              [
+                "مُسْلِمٌ",
+                "MUS-li-mun",
+                "CVC.CV.CVC",
+                "Regel 2: schwere Silbe",
+                "erste (MUS)"
+              ],
+              [
+                "يَكْتُبُونَ",
+                "yak-tu-BUU-na",
+                "CVC.CV.CVV.CV",
+                "Regel 2: schwere Silbe",
+                "dritte (BUU)"
+              ],
+              [
+                "عَمِلَ",
+                "ʿA-mi-la",
+                "CV.CV.CV",
+                "Regel 3: nur leichte Silben",
+                "erste (ʿA)"
+              ],
+              [
+                "اِسْتَغْفَرَ",
+                "is-TAGH-fa-ra",
+                "CVC.CVC.CV.CV",
+                "Regel 2: schwere Silbe",
+                "zweite (TAGH)"
+              ],
+              [
+                "جَعَلَ",
+                "JA-ʿa-la",
+                "CV.CV.CV",
+                "Regel 3: nur leichte Silben",
+                "erste (JA)"
+              ]
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Betonung und Pausalformen",
+            "content": "In Pausalform fällt die letzte kurze Kasusendung weg, und die Silbenstruktur ändert sich. Dadurch kann sich auch die Betonung verschieben. Beispiel: كِتَابٌ (ki-TAA-bun) wird in Pause zu كِتَابْ (ki-TAAB) — die letzte Silbe wird überschwer (CVVC) und zieht die Betonung an. In der Praxis bleibt die Betonung hier auf derselben Silbe, aber der Mechanismus ist ein anderer (Regel 1 statt Regel 2).",
+            "arabicExamples": [
+              {
+                "arabic": "كِتَابْ",
+                "transliteration": "ki-TAAB",
+                "meaning": "Pausalform: CVVC-Silbe am Ende — Regel 1 greift, Betonung auf der überschweren Silbe.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n54"
+              },
+              {
+                "arabic": "يَكْتُبْ",
+                "transliteration": "YAK-tub",
+                "meaning": "Pausalform (Jussiv bei Pause): Letzte Silbe wird CVC, Betonung verschiebt sich.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n54"
+              }
+            ]
+          },
+          {
+            "type": "quranExamples",
+            "title": "Betonung in Quran-Wörtern",
+            "examples": [
+              {
+                "location": "1:2",
+                "word": "الْعَالَمِينَ",
+                "analysis": "al-ʿaa-la-MII-na — Die schwere Silbe /mii/ (CVV) ist die letzte nicht-finale schwere Silbe und trägt die Betonung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+              },
+              {
+                "location": "2:255",
+                "word": "الْحَيُّ",
+                "analysis": "al-ḤAYY — In Pausalform überschwere Silbe (CVCC), Betonung nach Regel 1.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "location": "3:2",
+                "word": "الْقَيُّومُ",
+                "analysis": "al-qay-YUU-mu — Die schwere Silbe /yuu/ (CVV) trägt die Betonung (Regel 2).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=2"
+              },
+              {
+                "location": "2:185",
+                "word": "رَمَضَانَ",
+                "analysis": "ra-ma-ḌAA-na — Die schwere Silbe /ḍaa/ (CVV) trägt die Betonung (Regel 2).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "prompt": "Wo liegt die Betonung in كَتَبَ (ka-ta-ba)?",
+            "options": [
+              "Auf der ersten Silbe: KA-ta-ba",
+              "Auf der zweiten Silbe: ka-TA-ba",
+              "Auf der dritten Silbe: ka-ta-BA",
+              "Gleichmäßig verteilt"
+            ],
+            "answer": [
+              "Auf der ersten Silbe: KA-ta-ba"
+            ],
+            "explanation": "Alle drei Silben sind leicht (CV). Wenn nur leichte Silben vorliegen, fällt die Betonung auf die erste Silbe (Regel 3)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wo liegt die Betonung in كِتَابٌ (ki-taa-bun)?",
+            "options": [
+              "Auf der ersten Silbe: KI-taa-bun",
+              "Auf der zweiten Silbe: ki-TAA-bun",
+              "Auf der dritten Silbe: ki-taa-BUN",
+              "Auf der ersten und dritten Silbe"
+            ],
+            "answer": [
+              "Auf der zweiten Silbe: ki-TAA-bun"
+            ],
+            "explanation": "Die zweite Silbe /taa/ ist schwer (CVV). Nach Regel 2 fällt die Betonung auf die letzte nicht-finale schwere Silbe."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Warum ist die Betonung im Arabischen vorhersagbar?",
+            "options": [
+              "Weil sie immer auf der ersten Silbe liegt",
+              "Weil sie sich automatisch aus der Silbenstruktur ergibt",
+              "Weil sie immer auf der letzten Silbe liegt",
+              "Weil sie bei jedem Wort einzeln gelernt werden muss"
+            ],
+            "answer": [
+              "Weil sie sich automatisch aus der Silbenstruktur ergibt"
+            ],
+            "explanation": "Die Betonung im Arabischen ist regelbasiert: Sie wird durch die Silbenstruktur (leicht, schwer, überschwer) determiniert, nicht lexikalisch festgelegt."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wo liegt die Betonung in يَكْتُبُونَ (yak-tu-buu-na)?",
+            "options": [
+              "Auf yak (erste Silbe)",
+              "Auf tu (zweite Silbe)",
+              "Auf buu (dritte Silbe)",
+              "Auf na (vierte Silbe)"
+            ],
+            "answer": [
+              "Auf buu (dritte Silbe)"
+            ],
+            "explanation": "Die dritte Silbe /buu/ ist schwer (CVV) und die letzte nicht-finale schwere Silbe. Die erste Silbe /yak/ ist zwar auch schwer (CVC), aber /buu/ ist die letztere der beiden."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was passiert mit der Betonung, wenn ein Wort in Pausalform gesprochen wird?",
+            "options": [
+              "Die Betonung fällt immer weg",
+              "Die Betonung bleibt immer gleich",
+              "Die Silbenstruktur ändert sich, und die Betonung kann sich verschieben",
+              "Die Betonung wandert immer auf die letzte Silbe"
+            ],
+            "answer": [
+              "Die Silbenstruktur ändert sich, und die Betonung kann sich verschieben"
+            ],
+            "explanation": "In Pausalform fallen kurze Endvokale weg, wodurch sich die Silbenstruktur ändert. Überschwere Silben (CVVC/CVCC) können entstehen, die nach Regel 1 die Betonung anziehen."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "1.9",
+      "title": "Assimilationsphänomene",
+      "description": "Phonologische Assimilationsprozesse im klassischen Arabisch — wie benachbarte Laute sich gegenseitig beeinflussen. Beobachtbare Lautprozesse, keine Rezitationstradition.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist Assimilation?",
+            "content": "Assimilation ist ein natürlicher phonologischer Prozess, bei dem ein Laut sich an einen benachbarten Laut angleicht. Das passiert in allen Sprachen — im Deutschen etwa wird 'Handbuch' oft als [hambbuːx] gesprochen, weil sich das /n/ an das folgende /b/ angleicht. Im Arabischen ist Assimilation ein systematisches Phänomen, das direkt im Schriftbild und in der Aussprache sichtbar ist. Es handelt sich um natürliche Lautprozesse, die sich aus der Artikulation ergeben."
+          },
+          {
+            "type": "explanation",
+            "title": "Vollständige Assimilation (Idgham)",
+            "content": "Wenn zwei identische oder artikulatorisch sehr ähnliche Konsonanten aufeinandertreffen, verschmelzen sie zu einem einzigen langen (geminierten) Konsonanten. Der erste Konsonant wird vollständig an den zweiten angeglichen und mit ihm verschmolzen. Im Schriftbild zeigt sich das durch Schadda (Verdopplungszeichen) auf dem zweiten Konsonanten.",
+            "arabicExamples": [
+              {
+                "arabic": "مِنْ نَّعِيم",
+                "transliteration": "min naʿīm → min-naʿīm",
+                "meaning": "Nun + Nun: identische Konsonanten verschmelzen zu geminiertem /nn/. (102:8)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=8"
+              },
+              {
+                "arabic": "قَدْ دَّخَلُوا",
+                "transliteration": "qad dakhalū → qad-dakhalū",
+                "meaning": "Dal + Dal: identische Konsonanten verschmelzen. (5:61)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=61"
+              },
+              {
+                "arabic": "مِنْ رَّبِّهِمْ",
+                "transliteration": "min rabbihim → mir-rabbihim",
+                "meaning": "Nun assimiliert sich vollständig an das folgende Ra. (2:5)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Artikelangleichung — Lam des Artikels",
+            "content": "Der Artikel الـ (al-) zeigt einen systematischen Assimilationsprozess. Vor bestimmten Konsonanten assimiliert sich das Lam des Artikels vollständig an den folgenden Konsonanten. Dieses Phänomen betrifft 14 Konsonanten, die alle mit der Zungenspitze oder dem Zahndamm (koronal) artikuliert werden — also am selben oder nahen Artikulationsort wie das Lam. Linguistisch handelt es sich um regressive Assimilation: das Lam passt sich an den folgenden Konsonanten an (der nachfolgende Laut bestimmt die Veränderung).\n\nDie betroffenen Konsonanten sind: ت ث د ذ ر ز س ش ص ض ط ظ ل ن\n\nBei den übrigen 14 Konsonanten findet keine Assimilation statt — das Lam bleibt erhalten: ب ج ح خ ع غ ف ق ك م ه و ي ء",
+            "arabicExamples": [
+              {
+                "arabic": "الشَّمْسُ",
+                "transliteration": "asch-schamsu (nicht: al-schamsu)",
+                "meaning": "Lam assimiliert sich an Schin: /l/ → /ʃ/. Schadda auf dem Schin zeigt die Gemination.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+              },
+              {
+                "arabic": "الْقَمَرُ",
+                "transliteration": "al-qamaru",
+                "meaning": "Keine Assimilation: Qaf ist nicht koronal. Lam bleibt erhalten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=1"
+              },
+              {
+                "arabic": "النَّاسِ",
+                "transliteration": "an-nāsi (nicht: al-nāsi)",
+                "meaning": "Lam assimiliert sich an Nun: /l/ → /n/. (114:1)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Nasalassimilation — Nun vor anderen Konsonanten",
+            "content": "Das Nun (ن) und die Nunation (Tanwin: -un, -an, -in) unterliegen vor folgenden Konsonanten einem Assimilationsgradienten, der vom Artikulationsort und der Artikulationsart des folgenden Konsonanten abhängt:\n\nVollständige Assimilation: Vor ر, ل, م, ن — Nun wird vollständig zum folgenden Konsonanten. Dies tritt bei Lauten auf, die dem Nun artikulatorisch am nächsten stehen (alveolar/nasal).\n\nPartielle Angleichung mit Nasalierung: Vor و, ي — Nun wird teilweise angeglichen, bleibt aber als nasaler Laut hörbar. Die artikulatorische Distanz ist größer als bei ر/ل/م/ن, aber die Approximanten erleichtern eine Angleichung.\n\nPartielle Angleichung am Artikulationsort des folgenden Konsonanten: Vor den meisten übrigen Konsonanten (ت, د, ط, ص, ض, ث, ذ, ظ, ك, ق, ج, ش, س, ز, ف) — Nun wird am Artikulationsort des folgenden Konsonanten realisiert, ohne vollständig mit ihm zu verschmelzen. Der Grad der Angleichung variiert je nach artikulatorischer Nähe.\n\nKeine Assimilation: Vor ء, ه, ح und ع — Nun bleibt unverändert, da diese Laute (glottal/pharyngal) artikulatorisch zu weit vom alveolaren Nun entfernt sind.\n\nInsgesamt bilden diese Prozesse ein Kontinuum: je näher der Artikulationsort des folgenden Konsonanten am alveolaren Nun liegt, desto stärker die Assimilation.",
+            "arabicExamples": [
+              {
+                "arabic": "مِنْ لَّدُنْهُ",
+                "transliteration": "mil-ladunhu",
+                "meaning": "Nun assimiliert sich vollständig an Lam: /n/ → /l/. (18:2)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=2"
+              },
+              {
+                "arabic": "مِنْ مَّاءٍ",
+                "transliteration": "mim-māʔin",
+                "meaning": "Nun assimiliert sich vollständig an Mim: /n/ → /m/. (21:30)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=30"
+              },
+              {
+                "arabic": "مَنْ يَعْمَلْ",
+                "transliteration": "may-yaʿmal",
+                "meaning": "Nun assimiliert sich partiell an Ya (mit Nasalierung). (4:123)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+              },
+              {
+                "arabic": "مِنْ أَحَدٍ",
+                "transliteration": "min ʔaḥadin",
+                "meaning": "Vor Hamza bleibt Nun unverändert — keine Assimilation. (3:153)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=153"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Warum diese Prozesse natürlich sind",
+            "content": "Alle beschriebenen Assimilationsphänomene folgen einem universellen phonologischen Prinzip: Laute, die am selben oder ähnlichen Ort und auf ähnliche Weise artikuliert werden, beeinflussen einander. Das Lam des Artikels assimiliert sich an koronale Konsonanten, weil Lam selbst koronal ist. Nun assimiliert sich leicht, weil es ein Nasal ist und Nasale generell zur Assimilation neigen. Diese Prozesse finden sich in vielen Sprachen der Welt — sie sind keine Besonderheit des Arabischen, sondern phonologische Universalien."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Assimilation im Quran beobachten",
+            "examples": [
+              {
+                "location": "114:1",
+                "word": "النَّاسِ",
+                "analysis": "an-naasi — Lam des Artikels assimiliert sich vollständig an Nun. Schadda auf dem Nun zeigt die Gemination.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+              },
+              {
+                "location": "91:1",
+                "word": "الشَّمْسِ",
+                "analysis": "asch-schamsi — Lam assimiliert sich an Schin. Beide sind koronale Konsonanten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+              },
+              {
+                "location": "2:5",
+                "word": "مِّن رَّبِّهِمْ",
+                "analysis": "mir-rabbihim — Nun von مِنْ assimiliert sich vollständig an das Ra. Der nasale Laut wird zum Vibrant.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+              },
+              {
+                "location": "18:2",
+                "word": "مِّن لَّدُنْهُ",
+                "analysis": "mil-ladunhu — Nun assimiliert sich an Lam. Lam und Nun sind beide koronal und unterscheiden sich nur im Merkmal [nasal].",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=2"
+              },
+              {
+                "location": "112:4",
+                "word": "كُفُوًا أَحَدٌ",
+                "analysis": "kufuwan ʔaḥad — Tanwin (Nunation) vor Hamza bleibt unverändert, keine Assimilation.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "prompt": "Was geschieht phonologisch in الشَّمْس (asch-schams)?",
+            "options": [
+              "Das Lam des Artikels fällt weg",
+              "Das Lam assimiliert sich vollständig an den folgenden Konsonanten Schin",
+              "Das Schin wird zu einem Lam",
+              "Keine Veränderung findet statt"
+            ],
+            "answer": [
+              "Das Lam assimiliert sich vollständig an den folgenden Konsonanten Schin"
+            ],
+            "explanation": "Das Lam des Artikels und das Schin sind beide koronale Konsonanten. Das Lam gleicht sich vollständig an das Schin an, was durch die Schadda auf dem Schin markiert wird."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Warum assimiliert sich das Lam des Artikels an Nun und Ta, aber nicht an Qaf und Ba?",
+            "options": [
+              "Weil Nun und Ta häufiger vorkommen",
+              "Weil Nun und Ta koronal artikuliert werden — wie das Lam selbst",
+              "Weil es eine willkürliche Regel ist",
+              "Weil Qaf und Ba Vokale sind"
+            ],
+            "answer": [
+              "Weil Nun und Ta koronal artikuliert werden — wie das Lam selbst"
+            ],
+            "explanation": "Assimilation tritt zwischen Lauten mit gleichem oder ähnlichem Artikulationsort auf. Lam, Nun und Ta sind alle koronal (Zungenspitze/Zahndamm). Qaf (uvular) und Ba (bilabial) werden an anderen Orten artikuliert."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was passiert mit dem Nun in مِنْ رَّبِّهِمْ (2:5)?",
+            "options": [
+              "Es bleibt unverändert",
+              "Es wird partiell nasaliert",
+              "Es assimiliert sich vollständig an das Ra",
+              "Es wird zu einem Langvokal"
+            ],
+            "answer": [
+              "Es assimiliert sich vollständig an das Ra"
+            ],
+            "explanation": "Vor Ra assimiliert sich Nun vollständig: مِنْ رَبِّهِمْ wird zu mir-rabbihim. Das Ra trägt die Schadda als Zeichen der Gemination.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Vor welchem Laut bleibt Nun (oder Tanwin) unverändert?",
+            "options": [
+              "Vor Lam",
+              "Vor Mim",
+              "Vor Hamza",
+              "Vor Ra"
+            ],
+            "answer": [
+              "Vor Hamza"
+            ],
+            "explanation": "Vor Hamza (ء), Ha (ه), Ha (ح) und Ayn (ع) findet keine Assimilation des Nun statt. Diese Laute (glottal/pharyngal) sind artikulatorisch zu weit vom alveolaren Nun entfernt."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was ist Assimilation als phonologischer Prozess?",
+            "options": [
+              "Die Tilgung eines Lautes",
+              "Die Angleichung eines Lautes an einen benachbarten Laut",
+              "Die Einfügung eines neuen Lautes",
+              "Die Verschiebung der Betonung"
+            ],
+            "answer": [
+              "Die Angleichung eines Lautes an einen benachbarten Laut"
+            ],
+            "explanation": "Assimilation bedeutet, dass ein Laut Eigenschaften eines benachbarten Lautes übernimmt — teilweise (partielle Assimilation) oder vollständig (vollständige Assimilation)."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=8"
+    },
+    {
+      "id": "1.10",
+      "title": "Verbundene Rede",
+      "description": "Phonologische Prozesse an Wortgrenzen — Elision, Liaison und die Unterschiede zwischen Pausal- und Kontextformen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Wortgrenzen in der gesprochenen Sprache",
+            "content": "In geschriebener Sprache sind Wörter durch Leerzeichen getrennt. In gesprochener Sprache existieren diese Grenzen nicht — Wörter fließen ineinander. Das klassische Arabisch hat systematische Regeln dafür, was an Wortgrenzen geschieht: Laute können wegfallen (Elision), Silben können sich über Wortgrenzen hinweg umstrukturieren, und Endungen können sich ändern je nachdem, ob ein Wort am Phrasenende (Pause) oder innerhalb einer Phrase (Kontext) steht."
+          },
+          {
+            "type": "explanation",
+            "title": "Hamzat al-Wasl — Elision des Anfangs-Hamza",
+            "content": "Das Hamzat al-Wasl (Verbindungshamza) ist ein Hamza, das nur am Wortanfang in isolierter oder satzinitialer Position gesprochen wird. Wenn das Wort in verbundener Rede auf ein vorangehendes Wort folgt, fällt das Hamza weg (Elision), und der folgende Konsonant schließt sich direkt an die vorherige Silbe an.\n\nDer Grund ist phonologisch: Das Hamzat al-Wasl existiert nur, weil das Arabische keine konsonantenlosen Silbenanfänge erlaubt. Am Wortanfang braucht man einen Konsonanten — das Hamza wird eingefügt. In verbundener Rede beginnt die Silbe aber nicht am Wortanfang, sondern schließt an die vorherige Silbe an — das Hamza wird überflüssig und fällt weg.",
+            "arabicExamples": [
+              {
+                "arabic": "بِسْمِ اللَّهِ",
+                "transliteration": "bis-mil-lāhi",
+                "meaning": "Das Hamza von اللَّه fällt weg. Die Silben werden über die Wortgrenze hinweg neu strukturiert: bis-mil-laa-hi.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              },
+              {
+                "arabic": "قَالَ اذْهَبْ",
+                "transliteration": "qā-ladh-hab",
+                "meaning": "Das Hamza von اِذْهَبْ fällt weg. Das /a/ von قَالَ verbindet sich mit /dh/: qaa-la-dh-hab.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n48"
+              },
+              {
+                "arabic": "وَاسْتَغْفِرْ",
+                "transliteration": "was-tagh-fir",
+                "meaning": "Nach وَ fällt das Hamzat al-Wasl von اِسْتَغْفِرْ weg. (110:3)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=3"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Ta Marbuta in verbundener Rede",
+            "content": "Die Ta Marbuta (ة) ist am Wortende phonologisch ambig:\n\n1. In Pausalform (am Phrasenende): Sie wird als /h/ oder gar nicht realisiert — رَحْمَةْ (raḥmah oder raḥma).\n2. In Kontextform (vor einem folgenden Wort): Sie wird als /t/ realisiert — رَحْمَتُ اللَّهِ (raḥmatul-laahi).\n\nPhonologisch gesehen: Die Ta Marbuta repräsentiert ein unterliegendes /t/, das in Pausalform zu /h/ leniert (abgeschwächt) wird. In verbundener Rede bleibt das /t/ erhalten, weil es als Silbenanfang der nächsten Silbe fungiert.",
+            "arabicExamples": [
+              {
+                "arabic": "رَحْمَةٌ",
+                "transliteration": "raḥmah (Pause) / raḥmatun (Kontext)",
+                "meaning": "In Pause: /t/ → /h/. In Kontext: /t/ bleibt erhalten.",
+                "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rHm"
+              },
+              {
+                "arabic": "نِعْمَةَ اللَّهِ",
+                "transliteration": "niʿmatal-lāhi",
+                "meaning": "Ta Marbuta wird zu /t/ in verbundener Rede und leitet die nächste Silbe ein. (16:72)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=72"
+              },
+              {
+                "arabic": "سُورَةٌ",
+                "transliteration": "sūrah (Pause) / sūratun (Kontext)",
+                "meaning": "Isoliert: suurah. Im Satz: suuratun oder suuratu...",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Pausalform vs. Kontextform — systematische Unterschiede",
+            "content": "Am Phrasenende (Pause/Waqf) treten systematische Veränderungen auf:\n\n1. Kurze Kasusendungen fallen weg: كِتَابٌ (kitaabun) → كِتَابْ (kitaab). Die Nunation (-un, -an, -in) verschwindet, außer -an, das zu /aa/ wird (z.B. كِتَابًا → kitaabaa, mit Alif).\n2. Tanwin -an wird zu langem /aa/: Das finale Alif in der Akkusativendung -an bleibt als Langvokal erhalten.\n3. Ta Marbuta wird zu /h/: Siehe oben.\n4. Die letzte Silbe wird überschwer: Durch den Wegfall des Endvokals entsteht eine CVVC- oder CVCC-Silbe.\n\nDiese Veränderungen sind rein phonologisch — die zugrundeliegende Grammatik (Kasus, Modus) bleibt dieselbe, nur die Oberfläche ändert sich.",
+            "arabicExamples": [
+              {
+                "arabic": "كِتَابٌ → كِتَابْ",
+                "transliteration": "kitābun → kitāb",
+                "meaning": "Kontextform vs. Pausalform: Nunation fällt weg, letzte Silbe wird überschwer (CVVC).",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n48"
+              },
+              {
+                "arabic": "كِتَابًا → كِتَابَا",
+                "transliteration": "kitāban → kitābā",
+                "meaning": "Tanwin -an wird in Pause zu langem -aa (das Alif bleibt als Langvokal).",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n48"
+              },
+              {
+                "arabic": "يَكْتُبُ → يَكْتُبْ",
+                "transliteration": "yaktubu → yaktub",
+                "meaning": "Endvokal /u/ fällt weg, letzte Silbe wird CVC.",
+                "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n48"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Silbenstruktur über Wortgrenzen hinweg",
+            "content": "Wenn Wörter verbunden gesprochen werden, gelten die Silbenregeln über Wortgrenzen hinweg. Das heißt: Die Silbengrenzen im Sprachfluss stimmen nicht mit den Wortgrenzen überein. Der letzte Konsonant eines Wortes kann zum Silbenanfang des nächsten Wortes werden.\n\nBeispiel: مِنَ الْكِتَابِ — Die Silben sind: mi-nal-ki-taa-bi. Das /n/ von مِنْ bildet zusammen mit dem /a/ (das den Konsonantencluster auflöst) und dem /l/ von الـ eine neue Silbeneinheit. Die phonologischen Regeln operieren auf Silben, nicht auf Wörter.",
+            "arabicExamples": [
+              {
+                "arabic": "مِنَ الْكِتَابِ",
+                "transliteration": "mi-nal-ki-tā-bi",
+                "meaning": "Fünf Silben über drei Wörter hinweg. Wortgrenzen und Silbengrenzen fallen nicht zusammen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+              },
+              {
+                "arabic": "فِي الْأَرْضِ",
+                "transliteration": "fil-ʔarḍi",
+                "meaning": "Das /i/ von فِي und das /l/ von الـ verschmelzen in einer Silbe. Das Hamza bleibt (Hamzat al-Qatʿ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+              },
+              {
+                "arabic": "عَلَى اللَّهِ",
+                "transliteration": "ʿalal-lāhi",
+                "meaning": "Das /aa/ von عَلَى verkürzt sich vor dem Hamzat al-Wasl, das dann fällt. (3:122)",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=122"
+              }
+            ]
+          },
+          {
+            "type": "quranExamples",
+            "title": "Verbundene Rede im Quran",
+            "examples": [
+              {
+                "location": "1:1",
+                "word": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+                "analysis": "bis-mil-laa-hir-raḥ-maa-nir-ra-ḥiim — Neun Silben, die sich über vier Wörter erstrecken. Alle Hamzat al-Wasl fallen weg. Das Lam assimiliert sich an Ra. Wortgrenzen sind phonologisch unsichtbar.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              },
+              {
+                "location": "2:21",
+                "word": "ٱعْبُدُوا رَبَّكُمُ",
+                "analysis": "uʿ-bu-duu-rab-ba-ku-mu — Das Hamza von اعْبُدُوا steht satz-initial und wird gesprochen. Die Wörter verbinden sich nahtlos.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "location": "110:3",
+                "word": "وَاسْتَغْفِرْهُ",
+                "analysis": "was-tagh-fir-hu — Hamzat al-Wasl von اسْتَغْفِرْ fällt weg nach وَ. Vier Silben über die Wortgrenze hinweg.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=3"
+              },
+              {
+                "location": "16:71",
+                "word": "نِعْمَةِ ٱللَّهِ",
+                "analysis": "niʿ-ma-tal-laa-hi — Ta Marbuta wird zu /t/ in verbundener Rede. Es dient als Silbenanfang von /tal/.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=71"
+              },
+              {
+                "location": "3:103",
+                "word": "وَٱعْتَصِمُوا بِحَبْلِ ٱللَّهِ",
+                "analysis": "waʿ-ta-ṣi-muu-bi-ḥab-lil-laa-hi — Hamzat al-Wasl fällt nach وَ weg. Die gesamte Phrase bildet eine durchgehende Silbenkette.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=103"
+              }
+            ]
+          }
+        ]
+      },
+      "testContent": {
+        "exercises": [
+          {
+            "type": "multiple_choice",
+            "prompt": "Was passiert mit dem Hamzat al-Wasl in verbundener Rede?",
+            "options": [
+              "Es wird immer gesprochen",
+              "Es fällt weg, weil die Silbe an die vorherige anschließt",
+              "Es wird zu einem Langvokal",
+              "Es wird zu einem Hamzat al-Qatʿ"
+            ],
+            "answer": [
+              "Es fällt weg, weil die Silbe an die vorherige anschließt"
+            ],
+            "explanation": "Das Hamzat al-Wasl existiert nur, um einen Silbenanfang zu liefern. In verbundener Rede beginnt die Silbe nicht am Wortanfang — das Hamza wird überflüssig und fällt weg (Elision)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wie wird die Ta Marbuta (ة) in Pausalform realisiert?",
+            "options": [
+              "Als /t/",
+              "Als /h/ oder stumm",
+              "Als /s/",
+              "Als Langvokal /aa/"
+            ],
+            "answer": [
+              "Als /h/ oder stumm"
+            ],
+            "explanation": "In Pause wird das unterliegende /t/ zu /h/ leniert oder gar nicht realisiert. In verbundener Rede bleibt es als /t/ erhalten."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was passiert mit der Nunation (Tanwin) كِتَابٌ am Phrasenende?",
+            "options": [
+              "Sie wird stärker betont",
+              "Sie fällt weg: kitaabun → kitaab",
+              "Sie wird zu einem Langvokal",
+              "Sie bleibt unverändert"
+            ],
+            "answer": [
+              "Sie fällt weg: kitaabun → kitaab"
+            ],
+            "explanation": "In Pausalform fallen kurze Kasusendungen weg. Die Nunation -un verschwindet, und die letzte Silbe wird überschwer: kitaab (CVVC)."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Wie wird بِسْمِ اللَّهِ silbisch segmentiert?",
+            "options": [
+              "bi-smi-al-laahi",
+              "bis-mil-laa-hi",
+              "bis-mi-al-laa-hi",
+              "b-is-mi-l-laahi"
+            ],
+            "answer": [
+              "bis-mil-laa-hi"
+            ],
+            "explanation": "Die Silbengrenzen folgen den phonologischen Regeln, nicht den Wortgrenzen: bis (CVC) + mil (CVC) + laa (CVV) + hi (CV). Das Hamzat al-Wasl fällt weg, das Lam assimiliert sich an Lam."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Warum wird die Akkusativ-Nunation -an in Pause zu langem -aa (z.B. كِتَابًا → kitaabaa)?",
+            "options": [
+              "Weil -an stärker ist als andere Nunationen",
+              "Weil das Alif nach Tanwin fatḥa in Pause als Langvokal erhalten bleibt",
+              "Weil der Akkusativ besonders betont wird",
+              "Weil es eine Ausnahme ohne phonologischen Grund ist"
+            ],
+            "answer": [
+              "Weil das Alif nach Tanwin fatḥa in Pause als Langvokal erhalten bleibt"
+            ],
+            "explanation": "Das Tanwin -an wird mit einem Alif geschrieben (ـًا). In Pause fällt die Nunation weg, aber das Alif bleibt als Langvokal /aa/ erhalten. Bei -un und -in gibt es kein solches Stützelement."
+          },
+          {
+            "type": "multiple_choice",
+            "prompt": "Was zeigt das Beispiel نِعْمَةَ اللَّهِ (niʿmatal-laahi) über die Ta Marbuta?",
+            "options": [
+              "Die Ta Marbuta fällt immer weg",
+              "Die Ta Marbuta wird in verbundener Rede zu /t/ und dient als Silbenanfang",
+              "Die Ta Marbuta wird zu /h/ in verbundener Rede",
+              "Die Ta Marbuta hat keine phonologische Funktion"
+            ],
+            "answer": [
+              "Die Ta Marbuta wird in verbundener Rede zu /t/ und dient als Silbenanfang"
+            ],
+            "explanation": "In verbundener Rede bleibt das unterliegende /t/ erhalten. Es fungiert als Anfangskonsonant der nächsten Silbe: niʿ-ma-tal-laa-hi. Die Silbe /tal/ überbrückt die Wortgrenze."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  ]
+}

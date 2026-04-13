@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "title": "Alif-Inventar — Alle Varianten des Alif im quranischen Text",
+    "description": "Systematische Übersicht aller Alif-Varianten mit Unicode, Funktion und koranischen Beispielen.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "variants": [
+    {
+      "id": "alif_regular",
+      "name": "Reguläres Alif (ا)",
+      "nameArabic": "ألِف",
+      "unicode": "U+0627",
+      "function": "Langvokal-Träger für /aa/. Tritt nach Fatha auf und verlängert ihn. Auch: Hamza-Träger am Wortanfang.",
+      "examples": [
+        {
+          "word": "كِتَاب",
+          "ref": "2:2",
+          "note": "Langer Vokal aa in der Mitte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "قَالَ",
+          "ref": "2:30",
+          "note": "Langer Vokal aa im Perfekt (hohles Verb)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        }
+      ]
+    },
+    {
+      "id": "alif_hamza_above",
+      "name": "Alif mit Hamza oben (أ)",
+      "nameArabic": "ألِف مع هَمْزَة فَوْقِيَّة",
+      "unicode": "U+0623",
+      "function": "Hamza-Träger am Wortanfang bei Fatha oder Damma. Auch: Hamza in der Wortmitte nach Fatha.",
+      "examples": [
+        {
+          "word": "أَنزَلَ",
+          "ref": "2:4",
+          "note": "Wortanfang, Fatha",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+        },
+        {
+          "word": "أُولَٰئِكَ",
+          "ref": "2:5",
+          "note": "Wortanfang, Damma",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+        }
+      ]
+    },
+    {
+      "id": "alif_hamza_below",
+      "name": "Alif mit Hamza unten (إ)",
+      "nameArabic": "ألِف مع هَمْزَة تَحْتِيَّة",
+      "unicode": "U+0625",
+      "function": "Hamza-Träger am Wortanfang bei Kasra.",
+      "examples": [
+        {
+          "word": "إِيَّاكَ",
+          "ref": "1:5",
+          "note": "Wortanfang, Kasra",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "word": "إِذَا",
+          "ref": "2:11",
+          "note": "Wortanfang, Kasra",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+        }
+      ]
+    },
+    {
+      "id": "alif_madda",
+      "name": "Alif Madda (آ)",
+      "nameArabic": "ألِف مَدَّة",
+      "unicode": "U+0622",
+      "function": "Ersetzt Hamza + Alif Sequenz. Entsteht wenn auf Hamza ein langer aa-Vokal folgt. Vermeidet zwei aufeinanderfolgende Alifs.",
+      "examples": [
+        {
+          "word": "آمَنُوا",
+          "ref": "2:9",
+          "note": "Hamza + Alif → Madda",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+        },
+        {
+          "word": "الْقُرْآن",
+          "ref": "2:185",
+          "note": "Madda in der Wortmitte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+        }
+      ]
+    },
+    {
+      "id": "alif_wasla",
+      "name": "Alif Wasla (ٱ)",
+      "nameArabic": "هَمْزَة الوَصْل / ألِف الوَصْل",
+      "unicode": "U+0671",
+      "function": "Verbindungs-Alif: Die Hamza wird nur am Satzanfang ausgesprochen. In verbundener Rede fällt sie weg und der vorherige Vokal verbindet sich direkt mit dem nächsten Konsonanten. Tritt auf bei: Artikel الْ, bestimmte Verbformen (VII, VIII, IX, X, Imperativ I), und folgenden spezifischen Nomen: اسم (Name), ابن (Sohn), ابنة (Tochter), امرؤ (Mann), امرأة (Frau), اثنان (zwei, m.), اثنتان (zwei, f.), ايمن (rechte Seite — in ايم الله). Form IX (اِفْعَلَّ, z.B. اِحْمَرَّ — rot werden) gehört zu den Formen mit Alif Wasla.",
+      "examples": [
+        {
+          "word": "ٱلْحَمْدُ",
+          "ref": "1:2",
+          "note": "Artikel — Wasla nach Vokal des vorherigen Wortes",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "word": "ٱهْدِنَا",
+          "ref": "1:6",
+          "note": "Imperativ Form I — Wasla",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "word": "ٱسْتَغْفِرْ",
+          "ref": "47:19",
+          "note": "Imperativ Form X — Wasla",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=19"
+        }
+      ]
+    },
+    {
+      "id": "alif_maqsura",
+      "name": "Alif Maqsura (ى)",
+      "nameArabic": "ألِف مَقْصُورَة",
+      "unicode": "U+0649",
+      "function": "Gekürztes Alif: Sieht aus wie Ya ohne Punkte. Steht am Wortende und repräsentiert den langen Vokal /aa/. Zeigt an, dass die Wurzel auf Ya oder Waw endet (schwaches drittes Radikal).",
+      "examples": [
+        {
+          "word": "هُدًى",
+          "ref": "2:2",
+          "note": "Wurzel h-d-y → schwaches Ya am Ende",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "مُوسَى",
+          "ref": "2:51",
+          "note": "Eigenname mit Alif Maqsura",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51"
+        },
+        {
+          "word": "عِيسَى",
+          "ref": "2:87",
+          "note": "Eigenname mit Alif Maqsura",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        }
+      ]
+    },
+    {
+      "id": "alif_khanjariyya",
+      "name": "Alif Khanjariyya (ٰ)",
+      "nameArabic": "ألِف خَنْجَرِيَّة",
+      "unicode": "U+0670",
+      "function": "Dolch-Alif: Ein kleines hochgestelltes Alif über einem Buchstaben. Zeigt einen langen /aa/-Vokal an, der im Rasm (Konsonantentext) nicht als volles Alif geschrieben wird. Typisch für die ältere Orthographie des Qurantextes.",
+      "examples": [
+        {
+          "word": "الرَّحْمَٰن",
+          "ref": "1:1",
+          "note": "Rasm hat kein volles Alif nach Mim — Khanjariyya zeigt den langen Vokal",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "word": "هَٰذَا",
+          "ref": "2:2",
+          "note": "Rasm: هذا — Khanjariyya über Ha zeigt langes aa",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "word": "ذَٰلِكَ",
+          "ref": "2:2",
+          "note": "Rasm: ذلك — Khanjariyya über Dhal",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        }
+      ]
+    },
+    {
+      "id": "alif_wiqaya",
+      "name": "Alif al-Wiqaya (Schutz-Alif)",
+      "nameArabic": "ألِف الوِقَايَة",
+      "unicode": "U+0627 (kein eigener Codepoint)",
+      "function": "Ein stummes Alif, das nach Waw al-Jamaʿa (Plural-Waw am Verbende) geschrieben wird, um es von anderen Waw-Endungen zu unterscheiden. Hat keinen Lautwert — rein orthographisches Unterscheidungszeichen.",
+      "examples": [
+        {
+          "word": "كَتَبُوا",
+          "ref": "2:79",
+          "note": "Alif nach Waw → zeigt Plural-Verb an (nicht langes uu)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+        },
+        {
+          "word": "آمَنُوا",
+          "ref": "2:9",
+          "note": "Alif nach Waw → Plural-Verb",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+        },
+        {
+          "word": "قَالُوا",
+          "ref": "2:11",
+          "note": "Alif nach Waw → Plural-Verb",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+        }
+      ]
+    },
+    {
+      "id": "alif_tafriqa",
+      "name": "Alif al-Tafriqa (Unterscheidungs-Alif)",
+      "nameArabic": "ألِف التَّفْرِقَة",
+      "unicode": "U+0627",
+      "function": "Anderer Name für das Alif nach Waw al-Jamaʿa (=Alif al-Wiqaya). Die Unterscheidung: Wiqaya schützt vor Verwechslung, Tafriqa unterscheidet von anderen Formen.",
+      "examples": [
+        {
+          "word": "لَن تَنَالُوا",
+          "ref": "3:92",
+          "note": "Alif nach Waw — unterscheidet Plural von Dual/Singular",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=92"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ae1",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat كِتَاب (2:2)?",
+      "options": [
+        "Reguläres Alif (Langvokal aa)",
+        "Alif Madda",
+        "Alif Maqsura",
+        "Alif Wasla"
+      ],
+      "correct": 0,
+      "explanation": "Das Alif in كِتَاب ist ein reguläres Langvokal-Alif: es verlängert das Fatha zu /aa/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "ae2",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat آمَنُوا (2:9)?",
+      "options": [
+        "Reguläres Alif",
+        "Alif Madda (آ)",
+        "Alif Wasla",
+        "Alif Khanjariyya"
+      ],
+      "correct": 1,
+      "explanation": "آمَنُوا beginnt mit Alif Madda (آ) — es ersetzt die Sequenz Hamza + langes aa (أَامَنُوا → آمَنُوا).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "id": "ae3",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat ٱلْحَمْدُ (1:2)?",
+      "options": [
+        "Reguläres Alif",
+        "Alif Hamza oben",
+        "Alif Wasla (ٱ)",
+        "Alif Maqsura"
+      ],
+      "correct": 2,
+      "explanation": "Der Artikel ال beginnt mit Alif Wasla (ٱ). In verbundener Rede fällt die Hamza weg und man verbindet direkt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "ae4",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat هُدًى (2:2)?",
+      "options": [
+        "Reguläres Alif",
+        "Alif Madda",
+        "Alif Maqsura (ى)",
+        "Alif Khanjariyya"
+      ],
+      "correct": 2,
+      "explanation": "هُدًى endet mit Alif Maqsura (ى) — sieht aus wie Ya ohne Punkte. Zeigt dass die Wurzel ه-د-ي auf Ya endet.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "ae5",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat الرَّحْمَٰن (1:1)?",
+      "options": [
+        "Reguläres Alif",
+        "Alif Madda",
+        "Alif Wasla",
+        "Alif Khanjariyya (ٰ)"
+      ],
+      "correct": 3,
+      "explanation": "Das kleine hochgestellte Alif über dem Mim ist eine Alif Khanjariyya (ٰ). Im Rasm steht kein volles Alif — die Khanjariyya zeigt den langen Vokal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "ae6",
+      "type": "multiple_choice",
+      "question": "Welche Funktion hat das Alif am Ende von كَتَبُوا (2:79)?",
+      "options": [
+        "Langvokal aa",
+        "Hamza-Träger",
+        "Alif al-Wiqaya (Schutz-Alif, stumm)",
+        "Alif Maqsura"
+      ],
+      "correct": 2,
+      "explanation": "Das Alif nach Waw al-Jamaʿa (واو الجماعة) ist ein stummes Schutz-Alif (Alif al-Wiqaya). Es hat keinen Lautwert sondern unterscheidet die Plural-Endung von anderen Waw-Endungen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+    },
+    {
+      "id": "ae7",
+      "type": "multiple_choice",
+      "question": "Welche Alif-Variante hat إِيَّاكَ (1:5)?",
+      "options": [
+        "Alif Hamza oben (أ)",
+        "Alif Hamza unten (إ)",
+        "Alif Wasla",
+        "Reguläres Alif"
+      ],
+      "correct": 1,
+      "explanation": "إِيَّاكَ beginnt mit Alif Hamza unten (إ) — die Hamza sitzt unter dem Alif weil der Anfangsvokal Kasra ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "id": "ae8",
+      "type": "multiple_choice",
+      "question": "Warum steht in ذَٰلِكَ (2:2) eine Alif Khanjariyya statt eines vollen Alif?",
+      "options": [
+        "Weil das Wort im Rasm kein Alif hat — die Khanjariyya ergänzt den fehlenden Langvokal",
+        "Weil es ein Kurzvokal ist",
+        "Weil es ein Hamza-Träger ist",
+        "Weil es eine Endung ist"
+      ],
+      "correct": 0,
+      "explanation": "Im Rasm (Konsonantenskelett) wird ذلك ohne Alif geschrieben. Die Khanjariyya wurde später hinzugefügt um den langen /aa/-Vokal anzuzeigen, ohne die Rasm-Orthographie zu ändern.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "ae9",
+      "type": "multiple_choice",
+      "question": "Bei welchen Verbformen tritt Alif Wasla auf?",
+      "options": [
+        "Nur beim Artikel ال",
+        "Beim Artikel, Imperativ Form I, und Formen VII, VIII, IX, X",
+        "Nur bei schwachen Verben",
+        "Bei allen Verbformen"
+      ],
+      "correct": 1,
+      "explanation": "Alif Wasla tritt auf bei: (1) Artikel ال, (2) Imperativ Form I, (3) Perfekt und Imperativ der Formen VII (اِنْفَعَلَ), VIII (اِفْتَعَلَ), IX (اِفْعَلَّ), X (اِسْتَفْعَلَ), und (4) bei spezifischen Nomen: اسم, ابن, ابنة, امرؤ, امرأة, اثنان, اثنتان, ايمن.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n23"
+    },
+    {
+      "id": "ae10",
+      "type": "multiple_choice",
+      "question": "Was unterscheidet Alif Maqsura (ى) von Ya (ي)?",
+      "options": [
+        "Nichts — sie sind identisch",
+        "Alif Maqsura hat keine Punkte und repräsentiert /aa/, Ya hat 2 Punkte unten und repräsentiert /y/ oder /ii/",
+        "Alif Maqsura steht nur am Wortanfang",
+        "Ya ist immer vokalisiert"
+      ],
+      "correct": 1,
+      "explanation": "Alif Maqsura (ى) hat keine Punkte und steht am Wortende für /aa/. Ya (ي) hat 2 Punkte unten und repräsentiert den Konsonanten /y/ oder den Langvokal /ii/. Im Rasm sind sie formal identisch — die Punkte disambiguieren.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n23"
+    }
+  ]
+}

@@ -1,0 +1,3218 @@
+{
+  "meta": {
+    "description": "Kollokationen im Quran — häufig gemeinsam auftretende Wörter und Wurzeln",
+    "totalRootPairs": 200,
+    "totalBigrams": 200,
+    "note": "rootCollocations: Wurzelpaare die in 5+ Versen gemeinsam auftreten. wordBigrams: Aufeinanderfolgende Wortpaare die 3+ Mal vorkommen.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "rootCollocations": [
+    {
+      "rank": 1,
+      "root1": "ا ل ه",
+      "root2": "ق و ل",
+      "coOccurrences": 514,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 2,
+      "root1": "ا ل ه",
+      "root2": "ك و ن",
+      "coOccurrences": 441,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 3,
+      "root1": "ا ل ه",
+      "root2": "ع ل م",
+      "coOccurrences": 408,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 4,
+      "root1": "ا ل ه",
+      "root2": "ا م ن",
+      "coOccurrences": 372,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 5,
+      "root1": "ق و ل",
+      "root2": "ك و ن",
+      "coOccurrences": 369,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 6,
+      "root1": "ر ب ب",
+      "root2": "ق و ل",
+      "coOccurrences": 329,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 7,
+      "root1": "ا ل ه",
+      "root2": "ش ي ا",
+      "coOccurrences": 282,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 8,
+      "root1": "ا ل ه",
+      "root2": "ق و م",
+      "coOccurrences": 242,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 9,
+      "root1": "ع ل م",
+      "root2": "ق و ل",
+      "coOccurrences": 230,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85"
+    },
+    {
+      "rank": 10,
+      "root1": "ا ل ه",
+      "root2": "ك ف ر",
+      "coOccurrences": 225,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 11,
+      "root1": "ا ر ض",
+      "root2": "س م و",
+      "coOccurrences": 224,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 12,
+      "root1": "ا ر ض",
+      "root2": "ا ل ه",
+      "coOccurrences": 215,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 13,
+      "root1": "ا ل ه",
+      "root2": "ر س ل",
+      "coOccurrences": 211,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 14,
+      "root1": "ا ل ه",
+      "root2": "ب ي ن",
+      "coOccurrences": 207,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 15,
+      "root1": "ا ل ه",
+      "root2": "ر ب ب",
+      "coOccurrences": 204,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 16,
+      "root1": "ا ت ي",
+      "root2": "ا ل ه",
+      "coOccurrences": 198,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 17,
+      "root1": "ا م ن",
+      "root2": "ك و ن",
+      "coOccurrences": 197,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 18,
+      "root1": "ق و ل",
+      "root2": "ق و م",
+      "coOccurrences": 186,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 19,
+      "root1": "ا ل ه",
+      "root2": "س م و",
+      "coOccurrences": 185,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 20,
+      "root1": "ا م ن",
+      "root2": "ق و ل",
+      "coOccurrences": 185,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 21,
+      "root1": "ر ب ب",
+      "root2": "ك و ن",
+      "coOccurrences": 159,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 22,
+      "root1": "ع ل م",
+      "root2": "ك و ن",
+      "coOccurrences": 157,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85"
+    },
+    {
+      "rank": 23,
+      "root1": "ا ت ي",
+      "root2": "ق و ل",
+      "coOccurrences": 154,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 24,
+      "root1": "ا ل ه",
+      "root2": "ك ل ل",
+      "coOccurrences": 149,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 25,
+      "root1": "ا ل ه",
+      "root2": "ع م ل",
+      "coOccurrences": 141,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 26,
+      "root1": "ا ل ه",
+      "root2": "ن ف س",
+      "coOccurrences": 139,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%81%D8%B3",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 27,
+      "root1": "ب ي ن",
+      "root2": "ق و ل",
+      "coOccurrences": 137,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 28,
+      "root1": "ش ي ا",
+      "root2": "ك ل ل",
+      "coOccurrences": 135,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7"
+    },
+    {
+      "rank": 29,
+      "root1": "ا ل ه",
+      "root2": "و ق ي",
+      "coOccurrences": 135,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%88%D9%82%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 30,
+      "root1": "ا ل ه",
+      "root2": "ع ب د",
+      "coOccurrences": 134,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%A8%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 31,
+      "root1": "ا ل ه",
+      "root2": "ع ذ ب",
+      "coOccurrences": 133,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 32,
+      "root1": "ق و ل",
+      "root2": "ك ف ر",
+      "coOccurrences": 132,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 33,
+      "root1": "ا ل ه",
+      "root2": "ظ ل م",
+      "coOccurrences": 131,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B8%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 34,
+      "root1": "ق و م",
+      "root2": "ك و ن",
+      "coOccurrences": 131,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85"
+    },
+    {
+      "rank": 35,
+      "root1": "ا ل ه",
+      "root2": "ر ح م",
+      "coOccurrences": 130,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 36,
+      "root1": "ا ل ه",
+      "root2": "ه د ي",
+      "coOccurrences": 130,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%87%D8%AF%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 37,
+      "root1": "ر ب ب",
+      "root2": "ع ل م",
+      "coOccurrences": 129,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 38,
+      "root1": "ا ل ه",
+      "root2": "ن و س",
+      "coOccurrences": 129,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%88%D8%B3",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 39,
+      "root1": "ا ل ه",
+      "root2": "ح ك م",
+      "coOccurrences": 127,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%83%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 40,
+      "root1": "ا م ن",
+      "root2": "ك ف ر",
+      "coOccurrences": 126,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 41,
+      "root1": "ا ل ه",
+      "root2": "ن ز ل",
+      "coOccurrences": 126,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D8%B2%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 42,
+      "root1": "ا ل ه",
+      "root2": "ي و م",
+      "coOccurrences": 125,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%8A%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 43,
+      "root1": "ا ل ه",
+      "root2": "و ل ي",
+      "coOccurrences": 124,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%88%D9%84%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 44,
+      "root1": "ا خ ر",
+      "root2": "ا ل ه",
+      "coOccurrences": 123,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B1",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B1"
+    },
+    {
+      "rank": 45,
+      "root1": "ك ف ر",
+      "root2": "ك و ن",
+      "coOccurrences": 123,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1"
+    },
+    {
+      "rank": 46,
+      "root1": "ا ل ه",
+      "root2": "ك ت ب",
+      "coOccurrences": 123,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 47,
+      "root1": "ا ت ي",
+      "root2": "ك و ن",
+      "coOccurrences": 122,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 48,
+      "root1": "ا ل ه",
+      "root2": "ر ا ي",
+      "coOccurrences": 121,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A7%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 49,
+      "root1": "ا ل ه",
+      "root2": "ا ي ي",
+      "coOccurrences": 121,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 50,
+      "root1": "ا ل ه",
+      "root2": "ح ق ق",
+      "coOccurrences": 120,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 51,
+      "root1": "ا ل ه",
+      "root2": "غ ف ر",
+      "coOccurrences": 120,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%BA%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 52,
+      "root1": "ر س ل",
+      "root2": "ق و ل",
+      "coOccurrences": 120,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84"
+    },
+    {
+      "rank": 53,
+      "root1": "ا ل ه",
+      "root2": "ج ع ل",
+      "coOccurrences": 118,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D8%B9%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 54,
+      "root1": "ج ي ا",
+      "root2": "ق و ل",
+      "coOccurrences": 118,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7"
+    },
+    {
+      "rank": 55,
+      "root1": "ش ي ا",
+      "root2": "ق و ل",
+      "coOccurrences": 113,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7"
+    },
+    {
+      "rank": 56,
+      "root1": "ر ا ي",
+      "root2": "ق و ل",
+      "coOccurrences": 113,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A7%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A7%D9%8A"
+    },
+    {
+      "rank": 57,
+      "root1": "ا خ ذ",
+      "root2": "ا ل ه",
+      "coOccurrences": 113,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0"
+    },
+    {
+      "rank": 58,
+      "root1": "ب ي ن",
+      "root2": "ك و ن",
+      "coOccurrences": 113,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 59,
+      "root1": "ا م ن",
+      "root2": "ر ب ب",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 60,
+      "root1": "ا ل ه",
+      "root2": "ب ع د",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D8%B9%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 61,
+      "root1": "ا ل ه",
+      "root2": "ا م ر",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 62,
+      "root1": "ا ل ه",
+      "root2": "ع ن د",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%86%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 63,
+      "root1": "ا ل ه",
+      "root2": "س ب ل",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D8%A8%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 64,
+      "root1": "ر ب ب",
+      "root2": "ق و م",
+      "coOccurrences": 112,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 65,
+      "root1": "ع م ل",
+      "root2": "ك و ن",
+      "coOccurrences": 110,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84"
+    },
+    {
+      "rank": 66,
+      "root1": "ا ل ه",
+      "root2": "د و ن",
+      "coOccurrences": 109,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 67,
+      "root1": "ا م ن",
+      "root2": "ر س ل",
+      "coOccurrences": 107,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 68,
+      "root1": "ق ب ل",
+      "root2": "ك و ن",
+      "coOccurrences": 105,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84"
+    },
+    {
+      "rank": 69,
+      "root1": "ق و م",
+      "root2": "ي و م",
+      "coOccurrences": 104,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%8A%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85"
+    },
+    {
+      "rank": 70,
+      "root1": "ا م ن",
+      "root2": "ق و م",
+      "coOccurrences": 102,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 71,
+      "root1": "ا ر ض",
+      "root2": "ق و ل",
+      "coOccurrences": 101,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 72,
+      "root1": "ا م ن",
+      "root2": "ع م ل",
+      "coOccurrences": 101,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 73,
+      "root1": "ا ل ه",
+      "root2": "م ل ك",
+      "coOccurrences": 101,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%85%D9%84%D9%83",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 74,
+      "root1": "ر س ل",
+      "root2": "ك و ن",
+      "coOccurrences": 100,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84"
+    },
+    {
+      "rank": 75,
+      "root1": "ا م ن",
+      "root2": "ع ل م",
+      "coOccurrences": 99,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 76,
+      "root1": "ا ل ه",
+      "root2": "خ ي ر",
+      "coOccurrences": 99,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D9%8A%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 77,
+      "root1": "ش ي ا",
+      "root2": "ك و ن",
+      "coOccurrences": 98,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7"
+    },
+    {
+      "rank": 78,
+      "root1": "ا ي ي",
+      "root2": "ك و ن",
+      "coOccurrences": 98,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A"
+    },
+    {
+      "rank": 79,
+      "root1": "ا ل ه",
+      "root2": "ق ب ل",
+      "coOccurrences": 98,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 80,
+      "root1": "ا ل ه",
+      "root2": "ج ي ا",
+      "coOccurrences": 97,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 81,
+      "root1": "ش ي ا",
+      "root2": "ع ل م",
+      "coOccurrences": 95,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7"
+    },
+    {
+      "rank": 82,
+      "root1": "ا ل ه",
+      "root2": "ق ل ب",
+      "coOccurrences": 94,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%84%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 83,
+      "root1": "ق و ل",
+      "root2": "ي و م",
+      "coOccurrences": 94,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%8A%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 84,
+      "root1": "ص ل ح",
+      "root2": "ع م ل",
+      "coOccurrences": 93,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D9%84%D8%AD",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D9%84%D8%AD"
+    },
+    {
+      "rank": 85,
+      "root1": "ك و ن",
+      "root2": "ي و م",
+      "coOccurrences": 92,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%8A%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86"
+    },
+    {
+      "rank": 86,
+      "root1": "ا ر ض",
+      "root2": "ك و ن",
+      "coOccurrences": 91,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 87,
+      "root1": "ر ب ب",
+      "root2": "ر ح م",
+      "coOccurrences": 91,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 88,
+      "root1": "ا ل ه",
+      "root2": "ذ ك ر",
+      "coOccurrences": 91,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B0%D9%83%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 89,
+      "root1": "ر ح م",
+      "root2": "غ ف ر",
+      "coOccurrences": 91,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%BA%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85"
+    },
+    {
+      "rank": 90,
+      "root1": "ا ل ه",
+      "root2": "د ع و",
+      "coOccurrences": 88,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D8%B9%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 91,
+      "root1": "ك و ن",
+      "root2": "ن ف س",
+      "coOccurrences": 87,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%81%D8%B3",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86"
+    },
+    {
+      "rank": 92,
+      "root1": "ق ب ل",
+      "root2": "ق و ل",
+      "coOccurrences": 86,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84"
+    },
+    {
+      "rank": 93,
+      "root1": "ا ل ه",
+      "root2": "غ ي ر",
+      "coOccurrences": 86,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%BA%D9%8A%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 94,
+      "root1": "ا ل ه",
+      "root2": "ح س ن",
+      "coOccurrences": 86,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D8%B3%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 95,
+      "root1": "ا ت ي",
+      "root2": "ع ل م",
+      "coOccurrences": 86,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 96,
+      "root1": "ا ر ض",
+      "root2": "ع ل م",
+      "coOccurrences": 85,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 97,
+      "root1": "ع ب د",
+      "root2": "ق و ل",
+      "coOccurrences": 85,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%A8%D8%AF",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%A8%D8%AF"
+    },
+    {
+      "rank": 98,
+      "root1": "ا ل ه",
+      "root2": "ش ر ك",
+      "coOccurrences": 85,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D8%B1%D9%83",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 99,
+      "root1": "ا ل ه",
+      "root2": "ك ث ر",
+      "coOccurrences": 83,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AB%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 100,
+      "root1": "ح ق ق",
+      "root2": "ق و ل",
+      "coOccurrences": 83,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82"
+    },
+    {
+      "rank": 101,
+      "root1": "ا ت ي",
+      "root2": "ق و م",
+      "coOccurrences": 83,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 102,
+      "root1": "ا م ن",
+      "root2": "ص ل ح",
+      "coOccurrences": 82,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D9%84%D8%AD",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 103,
+      "root1": "ب ي ن",
+      "root2": "ع ل م",
+      "coOccurrences": 82,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 104,
+      "root1": "ا ل ه",
+      "root2": "خ ل ق",
+      "coOccurrences": 82,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D9%84%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 105,
+      "root1": "ا ت ي",
+      "root2": "ا م ن",
+      "coOccurrences": 81,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 106,
+      "root1": "ا ل ه",
+      "root2": "ض ل ل",
+      "coOccurrences": 80,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B6%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 107,
+      "root1": "ق و ل",
+      "root2": "م ل ك",
+      "coOccurrences": 80,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%85%D9%84%D9%83",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 108,
+      "root1": "ظ ل م",
+      "root2": "ك و ن",
+      "coOccurrences": 80,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B8%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B8%D9%84%D9%85"
+    },
+    {
+      "rank": 109,
+      "root1": "ا ل ه",
+      "root2": "ن ص ر",
+      "coOccurrences": 80,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D8%B5%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 110,
+      "root1": "ق و ل",
+      "root2": "ه د ي",
+      "coOccurrences": 79,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%87%D8%AF%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 111,
+      "root1": "ظ ل م",
+      "root2": "ق و ل",
+      "coOccurrences": 79,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B8%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B8%D9%84%D9%85"
+    },
+    {
+      "rank": 112,
+      "root1": "ا ل ه",
+      "root2": "ق ت ل",
+      "coOccurrences": 79,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%AA%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 113,
+      "root1": "ا م ن",
+      "root2": "ب ي ن",
+      "coOccurrences": 79,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 114,
+      "root1": "ا ت ي",
+      "root2": "ك ت ب",
+      "coOccurrences": 78,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 115,
+      "root1": "ا ي ي",
+      "root2": "ق و ل",
+      "coOccurrences": 78,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A"
+    },
+    {
+      "rank": 116,
+      "root1": "ع ذ ب",
+      "root2": "ق و ل",
+      "coOccurrences": 78,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8"
+    },
+    {
+      "rank": 117,
+      "root1": "ا ت ي",
+      "root2": "ر ب ب",
+      "coOccurrences": 78,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 118,
+      "root1": "ع ذ ب",
+      "root2": "ك و ن",
+      "coOccurrences": 77,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8"
+    },
+    {
+      "rank": 119,
+      "root1": "ك ل ل",
+      "root2": "ك و ن",
+      "coOccurrences": 77,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84"
+    },
+    {
+      "rank": 120,
+      "root1": "ا ل ه",
+      "root2": "ن و ر",
+      "coOccurrences": 75,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%88%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 121,
+      "root1": "ع ل م",
+      "root2": "ق و م",
+      "coOccurrences": 75,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85"
+    },
+    {
+      "rank": 122,
+      "root1": "ب ي ن",
+      "root2": "ر ب ب",
+      "coOccurrences": 75,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 123,
+      "root1": "ر ب ب",
+      "root2": "ش ي ا",
+      "coOccurrences": 75,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 124,
+      "root1": "ا ر ض",
+      "root2": "ش ي ا",
+      "coOccurrences": 74,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 125,
+      "root1": "ص د ق",
+      "root2": "ك و ن",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D8%AF%D9%82",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D8%AF%D9%82"
+    },
+    {
+      "rank": 126,
+      "root1": "ا ل ه",
+      "root2": "ح ي ي",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%8A%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 127,
+      "root1": "ع ل م",
+      "root2": "ك ل ل",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85"
+    },
+    {
+      "rank": 128,
+      "root1": "ر ح م",
+      "root2": "ق و ل",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85"
+    },
+    {
+      "rank": 129,
+      "root1": "ا ل ه",
+      "root2": "ن ب ا",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D8%A8%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 130,
+      "root1": "ج ي ا",
+      "root2": "ك و ن",
+      "coOccurrences": 73,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7"
+    },
+    {
+      "rank": 131,
+      "root1": "س م و",
+      "root2": "ع ل م",
+      "coOccurrences": 72,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88"
+    },
+    {
+      "rank": 132,
+      "root1": "ع م ل",
+      "root2": "ق و ل",
+      "coOccurrences": 72,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%85%D9%84"
+    },
+    {
+      "rank": 133,
+      "root1": "ا ل ه",
+      "root2": "ط و ع",
+      "coOccurrences": 72,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B7%D9%88%D8%B9",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 134,
+      "root1": "ا ل ه",
+      "root2": "م ث ل",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%85%D8%AB%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 135,
+      "root1": "ا ل ه",
+      "root2": "ص د ق",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D8%AF%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 136,
+      "root1": "س م و",
+      "root2": "ك و ن",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88"
+    },
+    {
+      "rank": 137,
+      "root1": "ح ك م",
+      "root2": "ع ل م",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%83%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%83%D9%85"
+    },
+    {
+      "rank": 138,
+      "root1": "ع ن د",
+      "root2": "ق و ل",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%86%D8%AF",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%86%D8%AF"
+    },
+    {
+      "rank": 139,
+      "root1": "ق و ل",
+      "root2": "ن ز ل",
+      "coOccurrences": 71,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D8%B2%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 140,
+      "root1": "ا ل ه",
+      "root2": "س م ع",
+      "coOccurrences": 70,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D8%B9",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 141,
+      "root1": "ا ل م",
+      "root2": "ع ذ ب",
+      "coOccurrences": 70,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%85"
+    },
+    {
+      "rank": 142,
+      "root1": "ا ل ه",
+      "root2": "ش ه د",
+      "coOccurrences": 70,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%87%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 143,
+      "root1": "ر ب ب",
+      "root2": "ك ف ر",
+      "coOccurrences": 70,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 144,
+      "root1": "ا ل ه",
+      "root2": "ع ظ م",
+      "coOccurrences": 69,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B8%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 145,
+      "root1": "ا م ر",
+      "root2": "ق و ل",
+      "coOccurrences": 69,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D8%B1",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D8%B1"
+    },
+    {
+      "rank": 146,
+      "root1": "ب ي ن",
+      "root2": "ر س ل",
+      "coOccurrences": 69,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 147,
+      "root1": "ا ل ه",
+      "root2": "ع ز ز",
+      "coOccurrences": 69,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B2%D8%B2",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 148,
+      "root1": "ا ل ه",
+      "root2": "ك ذ ب",
+      "coOccurrences": 68,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%B0%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 149,
+      "root1": "ا ل ه",
+      "root2": "ب ن ي",
+      "coOccurrences": 68,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%86%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 150,
+      "root1": "ح ق ق",
+      "root2": "ك و ن",
+      "coOccurrences": 68,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82"
+    },
+    {
+      "rank": 151,
+      "root1": "ع ذ ب",
+      "root2": "ك ف ر",
+      "coOccurrences": 68,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%B0%D8%A8"
+    },
+    {
+      "rank": 152,
+      "root1": "ا م ن",
+      "root2": "ش ي ا",
+      "coOccurrences": 68,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 153,
+      "root1": "ح ق ق",
+      "root2": "ر ب ب",
+      "coOccurrences": 67,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%82%D9%82"
+    },
+    {
+      "rank": 154,
+      "root1": "ق و ل",
+      "root2": "ن ف س",
+      "coOccurrences": 67,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%81%D8%B3",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 155,
+      "root1": "ب ي ن",
+      "root2": "ق و م",
+      "coOccurrences": 67,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 156,
+      "root1": "ا ي ي",
+      "root2": "ق و م",
+      "coOccurrences": 67,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A"
+    },
+    {
+      "rank": 157,
+      "root1": "ق و م",
+      "root2": "ه د ي",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%87%D8%AF%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%85"
+    },
+    {
+      "rank": 158,
+      "root1": "ا ل ه",
+      "root2": "خ ر ج",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D8%B1%D8%AC",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 159,
+      "root1": "خ ل ق",
+      "root2": "س م و",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D9%84%D9%82",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D9%84%D9%82"
+    },
+    {
+      "rank": 160,
+      "root1": "س م و",
+      "root2": "ق و ل",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88"
+    },
+    {
+      "rank": 161,
+      "root1": "ا ل ه",
+      "root2": "ص ل ح",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B5%D9%84%D8%AD",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 162,
+      "root1": "ح ي ي",
+      "root2": "د ن و",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D9%86%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%8A%D9%8A"
+    },
+    {
+      "rank": 163,
+      "root1": "ا ل ه",
+      "root2": "س و ا",
+      "coOccurrences": 66,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%88%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 164,
+      "root1": "ا ل ه",
+      "root2": "ر و د",
+      "coOccurrences": 65,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D9%88%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 165,
+      "root1": "ح ي ي",
+      "root2": "م و ت",
+      "coOccurrences": 65,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%85%D9%88%D8%AA",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AD%D9%8A%D9%8A"
+    },
+    {
+      "rank": 166,
+      "root1": "ب ي ن",
+      "root2": "ج ي ا",
+      "coOccurrences": 65,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86"
+    },
+    {
+      "rank": 167,
+      "root1": "ك ت ب",
+      "root2": "ك و ن",
+      "coOccurrences": 65,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8"
+    },
+    {
+      "rank": 168,
+      "root1": "ا ل ه",
+      "root2": "ت ب ع",
+      "coOccurrences": 65,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AA%D8%A8%D8%B9",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 169,
+      "root1": "ك ذ ب",
+      "root2": "ك و ن",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%B0%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%B0%D8%A8"
+    },
+    {
+      "rank": 170,
+      "root1": "ا ل ه",
+      "root2": "م و ت",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%85%D9%88%D8%AA",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 171,
+      "root1": "ش ي ا",
+      "root2": "ق د ر",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%AF%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B4%D9%8A%D8%A7"
+    },
+    {
+      "rank": 172,
+      "root1": "ا ل ه",
+      "root2": "ق د ر",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%AF%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 173,
+      "root1": "ا ت ي",
+      "root2": "ق ب ل",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D8%A8%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 174,
+      "root1": "ا ر ض",
+      "root2": "خ ل ق",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AE%D9%84%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 175,
+      "root1": "ا م ن",
+      "root2": "ا ي ي",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 176,
+      "root1": "ر ح م",
+      "root2": "ك و ن",
+      "coOccurrences": 64,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%AD%D9%85"
+    },
+    {
+      "rank": 177,
+      "root1": "ا خ ذ",
+      "root2": "ق و ل",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0"
+    },
+    {
+      "rank": 178,
+      "root1": "د ع و",
+      "root2": "ق و ل",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D8%B9%D9%88",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D8%B9%D9%88"
+    },
+    {
+      "rank": 179,
+      "root1": "ا ل ه",
+      "root2": "د ن و",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AF%D9%86%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 180,
+      "root1": "ق و ل",
+      "root2": "ك ت ب",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 181,
+      "root1": "ا م ن",
+      "root2": "ك ت ب",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%85%D9%86"
+    },
+    {
+      "rank": 182,
+      "root1": "ك ت ب",
+      "root2": "ن ز ل",
+      "coOccurrences": 63,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D8%B2%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8"
+    },
+    {
+      "rank": 183,
+      "root1": "ع ب د",
+      "root2": "ك و ن",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%A8%D8%AF",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D8%A8%D8%AF"
+    },
+    {
+      "rank": 184,
+      "root1": "ا ر ض",
+      "root2": "ك ل ل",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%B1%D8%B6"
+    },
+    {
+      "rank": 185,
+      "root1": "ج ع ل",
+      "root2": "ق و ل",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D8%B9%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D8%B9%D9%84"
+    },
+    {
+      "rank": 186,
+      "root1": "ر ب ب",
+      "root2": "ع ن د",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%86%D8%AF",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 187,
+      "root1": "ا ل ه",
+      "root2": "ف ض ل",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%81%D8%B6%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 188,
+      "root1": "ا ت ي",
+      "root2": "ب ي ن",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AA%D9%8A"
+    },
+    {
+      "rank": 189,
+      "root1": "ج ي ا",
+      "root2": "ر س ل",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B3%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%AC%D9%8A%D8%A7"
+    },
+    {
+      "rank": 190,
+      "root1": "ر ب ب",
+      "root2": "غ ف ر",
+      "coOccurrences": 62,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%BA%D9%81%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 191,
+      "root1": "ر ب ب",
+      "root2": "ه د ي",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%87%D8%AF%D9%8A",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 192,
+      "root1": "ق و ل",
+      "root2": "ك ل ل",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%84%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84"
+    },
+    {
+      "rank": 193,
+      "root1": "ا خ ذ",
+      "root2": "ك و ن",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D9%88%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%AE%D8%B0"
+    },
+    {
+      "rank": 194,
+      "root1": "ع ل م",
+      "root2": "ك ت ب",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%83%D8%AA%D8%A8",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B9%D9%84%D9%85"
+    },
+    {
+      "rank": 195,
+      "root1": "ا ي ي",
+      "root2": "ب ي ن",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D9%8A%D9%86",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%8A%D9%8A"
+    },
+    {
+      "rank": 196,
+      "root1": "ر ب ب",
+      "root2": "س م و",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B3%D9%85%D9%88",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%A8%D8%A8"
+    },
+    {
+      "rank": 197,
+      "root1": "ا ل ه",
+      "root2": "ن ف ق",
+      "coOccurrences": 61,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%86%D9%81%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 198,
+      "root1": "ا ل ه",
+      "root2": "ب ص ر",
+      "coOccurrences": 60,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A8%D8%B5%D8%B1",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    },
+    {
+      "rank": 199,
+      "root1": "ا ب و",
+      "root2": "ق و ل",
+      "coOccurrences": 60,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%A8%D9%88",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D9%82%D9%88%D9%84",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D8%A8%D9%88"
+    },
+    {
+      "rank": 200,
+      "root1": "ا ل ه",
+      "root2": "ر ز ق",
+      "coOccurrences": 59,
+      "corpusUrl1": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87",
+      "corpusUrl2": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%B1%D8%B2%D9%82",
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=%D8%A7%D9%84%D9%87"
+    }
+  ],
+  "wordBigrams": [
+    {
+      "rank": 1,
+      "phrase": "إن الله",
+      "occurrences": 205,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+الله"
+    },
+    {
+      "rank": 2,
+      "phrase": "الذين آمنوا",
+      "occurrences": 184,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+آمنوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+آمنوا"
+    },
+    {
+      "rank": 3,
+      "phrase": "في الأرض",
+      "occurrences": 176,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+الأرض",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+الأرض"
+    },
+    {
+      "rank": 4,
+      "phrase": "يا أيها",
+      "occurrences": 142,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يا+أيها",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يا+أيها"
+    },
+    {
+      "rank": 5,
+      "phrase": "الذين كفروا",
+      "occurrences": 134,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+كفروا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+كفروا"
+    },
+    {
+      "rank": 6,
+      "phrase": "السماوات والأرض",
+      "occurrences": 133,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=السماوات+والأرض",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=السماوات+والأرض"
+    },
+    {
+      "rank": 7,
+      "phrase": "من قبل",
+      "occurrences": 92,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+قبل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+قبل"
+    },
+    {
+      "rank": 8,
+      "phrase": "أيها الذين",
+      "occurrences": 92,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أيها+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أيها+الذين"
+    },
+    {
+      "rank": 9,
+      "phrase": "من الله",
+      "occurrences": 89,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+الله"
+    },
+    {
+      "rank": 10,
+      "phrase": "كل شيء",
+      "occurrences": 87,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كل+شيء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كل+شيء"
+    },
+    {
+      "rank": 11,
+      "phrase": "إن الذين",
+      "occurrences": 84,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+الذين"
+    },
+    {
+      "rank": 12,
+      "phrase": "من بعد",
+      "occurrences": 84,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+بعد",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+بعد"
+    },
+    {
+      "rank": 13,
+      "phrase": "من دون",
+      "occurrences": 83,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+دون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+دون"
+    },
+    {
+      "rank": 14,
+      "phrase": "إن كنتم",
+      "occurrences": 80,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+كنتم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+كنتم"
+    },
+    {
+      "rank": 15,
+      "phrase": "دون الله",
+      "occurrences": 72,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=دون+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=دون+الله"
+    },
+    {
+      "rank": 16,
+      "phrase": "على الله",
+      "occurrences": 72,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=على+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=على+الله"
+    },
+    {
+      "rank": 17,
+      "phrase": "في السماوات",
+      "occurrences": 71,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+السماوات",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+السماوات"
+    },
+    {
+      "rank": 18,
+      "phrase": "الله من",
+      "occurrences": 70,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+من"
+    },
+    {
+      "rank": 19,
+      "phrase": "ما في",
+      "occurrences": 69,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+في",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+في"
+    },
+    {
+      "rank": 20,
+      "phrase": "سبيل الله",
+      "occurrences": 69,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=سبيل+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=سبيل+الله"
+    },
+    {
+      "rank": 21,
+      "phrase": "الله لا",
+      "occurrences": 63,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+لا"
+    },
+    {
+      "rank": 22,
+      "phrase": "من يشاء",
+      "occurrences": 62,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+يشاء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+يشاء"
+    },
+    {
+      "rank": 23,
+      "phrase": "عند الله",
+      "occurrences": 61,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=عند+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=عند+الله"
+    },
+    {
+      "rank": 24,
+      "phrase": "الحياة الدنيا",
+      "occurrences": 61,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الحياة+الدنيا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الحياة+الدنيا"
+    },
+    {
+      "rank": 25,
+      "phrase": "يوم القيامة",
+      "occurrences": 60,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يوم+القيامة",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يوم+القيامة"
+    },
+    {
+      "rank": 26,
+      "phrase": "إن في",
+      "occurrences": 57,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+في",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+في"
+    },
+    {
+      "rank": 27,
+      "phrase": "على كل",
+      "occurrences": 56,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=على+كل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=على+كل"
+    },
+    {
+      "rank": 28,
+      "phrase": "وعملوا الصالحات",
+      "occurrences": 53,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وعملوا+الصالحات",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وعملوا+الصالحات"
+    },
+    {
+      "rank": 29,
+      "phrase": "ما كانوا",
+      "occurrences": 53,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+كانوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+كانوا"
+    },
+    {
+      "rank": 30,
+      "phrase": "الله إن",
+      "occurrences": 52,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+إن",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+إن"
+    },
+    {
+      "rank": 31,
+      "phrase": "أن الله",
+      "occurrences": 52,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أن+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أن+الله"
+    },
+    {
+      "rank": 32,
+      "phrase": "في ذلك",
+      "occurrences": 52,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+ذلك",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+ذلك"
+    },
+    {
+      "rank": 33,
+      "phrase": "من السماء",
+      "occurrences": 51,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+السماء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+السماء"
+    },
+    {
+      "rank": 34,
+      "phrase": "وما كان",
+      "occurrences": 51,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وما+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وما+كان"
+    },
+    {
+      "rank": 35,
+      "phrase": "آمنوا وعملوا",
+      "occurrences": 50,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=آمنوا+وعملوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=آمنوا+وعملوا"
+    },
+    {
+      "rank": 36,
+      "phrase": "لكم من",
+      "occurrences": 49,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لكم+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لكم+من"
+    },
+    {
+      "rank": 37,
+      "phrase": "إلا أن",
+      "occurrences": 48,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+أن",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+أن"
+    },
+    {
+      "rank": 38,
+      "phrase": "فإن الله",
+      "occurrences": 47,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=فإن+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=فإن+الله"
+    },
+    {
+      "rank": 39,
+      "phrase": "الله على",
+      "occurrences": 46,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+على",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+على"
+    },
+    {
+      "rank": 40,
+      "phrase": "الله ما",
+      "occurrences": 46,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+ما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+ما"
+    },
+    {
+      "rank": 41,
+      "phrase": "إلا من",
+      "occurrences": 46,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+من"
+    },
+    {
+      "rank": 42,
+      "phrase": "في سبيل",
+      "occurrences": 45,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+سبيل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+سبيل"
+    },
+    {
+      "rank": 43,
+      "phrase": "الله ورسوله",
+      "occurrences": 44,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+ورسوله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+ورسوله"
+    },
+    {
+      "rank": 44,
+      "phrase": "لا يعلمون",
+      "occurrences": 43,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+يعلمون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+يعلمون"
+    },
+    {
+      "rank": 45,
+      "phrase": "بما كانوا",
+      "occurrences": 42,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بما+كانوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بما+كانوا"
+    },
+    {
+      "rank": 46,
+      "phrase": "حتى إذا",
+      "occurrences": 42,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=حتى+إذا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=حتى+إذا"
+    },
+    {
+      "rank": 47,
+      "phrase": "لا يؤمنون",
+      "occurrences": 41,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+يؤمنون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+يؤمنون"
+    },
+    {
+      "rank": 48,
+      "phrase": "خالدين فيها",
+      "occurrences": 40,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=خالدين+فيها",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=خالدين+فيها"
+    },
+    {
+      "rank": 49,
+      "phrase": "إله إلا",
+      "occurrences": 40,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إله+إلا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إله+إلا"
+    },
+    {
+      "rank": 50,
+      "phrase": "من كل",
+      "occurrences": 40,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+كل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+كل"
+    },
+    {
+      "rank": 51,
+      "phrase": "وكان الله",
+      "occurrences": 40,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وكان+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وكان+الله"
+    },
+    {
+      "rank": 52,
+      "phrase": "تجري من",
+      "occurrences": 39,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=تجري+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=تجري+من"
+    },
+    {
+      "rank": 53,
+      "phrase": "بما تعملون",
+      "occurrences": 39,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بما+تعملون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بما+تعملون"
+    },
+    {
+      "rank": 54,
+      "phrase": "إلا هو",
+      "occurrences": 39,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+هو",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+هو"
+    },
+    {
+      "rank": 55,
+      "phrase": "قال يا",
+      "occurrences": 38,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قال+يا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قال+يا"
+    },
+    {
+      "rank": 56,
+      "phrase": "يا قوم",
+      "occurrences": 38,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يا+قوم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يا+قوم"
+    },
+    {
+      "rank": 57,
+      "phrase": "من شيء",
+      "occurrences": 38,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+شيء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+شيء"
+    },
+    {
+      "rank": 58,
+      "phrase": "من دونه",
+      "occurrences": 38,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+دونه",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+دونه"
+    },
+    {
+      "rank": 59,
+      "phrase": "من قبلهم",
+      "occurrences": 37,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+قبلهم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+قبلهم"
+    },
+    {
+      "rank": 60,
+      "phrase": "لا إله",
+      "occurrences": 37,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+إله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+إله"
+    },
+    {
+      "rank": 61,
+      "phrase": "الذين من",
+      "occurrences": 36,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+من"
+    },
+    {
+      "rank": 62,
+      "phrase": "غفور رحيم",
+      "occurrences": 36,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=غفور+رحيم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=غفور+رحيم"
+    },
+    {
+      "rank": 63,
+      "phrase": "إلى الله",
+      "occurrences": 36,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلى+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلى+الله"
+    },
+    {
+      "rank": 64,
+      "phrase": "إن هذا",
+      "occurrences": 36,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+هذا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+هذا"
+    },
+    {
+      "rank": 65,
+      "phrase": "والذين آمنوا",
+      "occurrences": 35,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=والذين+آمنوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=والذين+آمنوا"
+    },
+    {
+      "rank": 66,
+      "phrase": "من تحتها",
+      "occurrences": 35,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+تحتها",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+تحتها"
+    },
+    {
+      "rank": 67,
+      "phrase": "تحتها الأنهار",
+      "occurrences": 35,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=تحتها+الأنهار",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=تحتها+الأنهار"
+    },
+    {
+      "rank": 68,
+      "phrase": "إلا ما",
+      "occurrences": 35,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+ما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+ما"
+    },
+    {
+      "rank": 69,
+      "phrase": "كانوا يعملون",
+      "occurrences": 35,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كانوا+يعملون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كانوا+يعملون"
+    },
+    {
+      "rank": 70,
+      "phrase": "من ربك",
+      "occurrences": 34,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+ربك",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+ربك"
+    },
+    {
+      "rank": 71,
+      "phrase": "على ما",
+      "occurrences": 34,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=على+ما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=على+ما"
+    },
+    {
+      "rank": 72,
+      "phrase": "بعد ما",
+      "occurrences": 33,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بعد+ما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بعد+ما"
+    },
+    {
+      "rank": 73,
+      "phrase": "قال رب",
+      "occurrences": 33,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قال+رب",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قال+رب"
+    },
+    {
+      "rank": 74,
+      "phrase": "ولا هم",
+      "occurrences": 32,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ولا+هم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ولا+هم"
+    },
+    {
+      "rank": 75,
+      "phrase": "بني إسرائيل",
+      "occurrences": 32,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بني+إسرائيل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بني+إسرائيل"
+    },
+    {
+      "rank": 76,
+      "phrase": "الله الذي",
+      "occurrences": 32,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+الذي",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+الذي"
+    },
+    {
+      "rank": 77,
+      "phrase": "فبأي آلاء",
+      "occurrences": 32,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=فبأي+آلاء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=فبأي+آلاء"
+    },
+    {
+      "rank": 78,
+      "phrase": "شيء قدير",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=شيء+قدير",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=شيء+قدير"
+    },
+    {
+      "rank": 79,
+      "phrase": "من ربكم",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+ربكم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+ربكم"
+    },
+    {
+      "rank": 80,
+      "phrase": "أهل الكتاب",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أهل+الكتاب",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أهل+الكتاب"
+    },
+    {
+      "rank": 81,
+      "phrase": "له من",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=له+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=له+من"
+    },
+    {
+      "rank": 82,
+      "phrase": "ألم تر",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ألم+تر",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ألم+تر"
+    },
+    {
+      "rank": 83,
+      "phrase": "وهم لا",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وهم+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وهم+لا"
+    },
+    {
+      "rank": 84,
+      "phrase": "لهم من",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لهم+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لهم+من"
+    },
+    {
+      "rank": 85,
+      "phrase": "آلاء ربكما",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=آلاء+ربكما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=آلاء+ربكما"
+    },
+    {
+      "rank": 86,
+      "phrase": "ربكما تكذبان",
+      "occurrences": 31,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ربكما+تكذبان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ربكما+تكذبان"
+    },
+    {
+      "rank": 87,
+      "phrase": "رب العالمين",
+      "occurrences": 30,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=رب+العالمين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=رب+العالمين"
+    },
+    {
+      "rank": 88,
+      "phrase": "عذاب أليم",
+      "occurrences": 30,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=عذاب+أليم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=عذاب+أليم"
+    },
+    {
+      "rank": 89,
+      "phrase": "الذين لا",
+      "occurrences": 30,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+لا"
+    },
+    {
+      "rank": 90,
+      "phrase": "واتقوا الله",
+      "occurrences": 30,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=واتقوا+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=واتقوا+الله"
+    },
+    {
+      "rank": 91,
+      "phrase": "ما لا",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+لا"
+    },
+    {
+      "rank": 92,
+      "phrase": "خلق السماوات",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=خلق+السماوات",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=خلق+السماوات"
+    },
+    {
+      "rank": 93,
+      "phrase": "قبل أن",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قبل+أن",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قبل+أن"
+    },
+    {
+      "rank": 94,
+      "phrase": "بما كنتم",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بما+كنتم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بما+كنتم"
+    },
+    {
+      "rank": 95,
+      "phrase": "الله كان",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+كان"
+    },
+    {
+      "rank": 96,
+      "phrase": "إنه كان",
+      "occurrences": 29,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إنه+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إنه+كان"
+    },
+    {
+      "rank": 97,
+      "phrase": "من قبلك",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+قبلك",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+قبلك"
+    },
+    {
+      "rank": 98,
+      "phrase": "شاء الله",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=شاء+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=شاء+الله"
+    },
+    {
+      "rank": 99,
+      "phrase": "هو الذي",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=هو+الذي",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=هو+الذي"
+    },
+    {
+      "rank": 100,
+      "phrase": "في الدنيا",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+الدنيا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+الدنيا"
+    },
+    {
+      "rank": 101,
+      "phrase": "العزيز الحكيم",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=العزيز+الحكيم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=العزيز+الحكيم"
+    },
+    {
+      "rank": 102,
+      "phrase": "السماوات وما",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=السماوات+وما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=السماوات+وما"
+    },
+    {
+      "rank": 103,
+      "phrase": "وما في",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وما+في",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وما+في"
+    },
+    {
+      "rank": 104,
+      "phrase": "وهو الذي",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وهو+الذي",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وهو+الذي"
+    },
+    {
+      "rank": 105,
+      "phrase": "إن ربك",
+      "occurrences": 28,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إن+ربك",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إن+ربك"
+    },
+    {
+      "rank": 106,
+      "phrase": "به من",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=به+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=به+من"
+    },
+    {
+      "rank": 107,
+      "phrase": "كنتم صادقين",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كنتم+صادقين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كنتم+صادقين"
+    },
+    {
+      "rank": 108,
+      "phrase": "جنات تجري",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=جنات+تجري",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=جنات+تجري"
+    },
+    {
+      "rank": 109,
+      "phrase": "يعلم ما",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يعلم+ما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يعلم+ما"
+    },
+    {
+      "rank": 110,
+      "phrase": "من الذين",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+الذين"
+    },
+    {
+      "rank": 111,
+      "phrase": "آمنوا لا",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=آمنوا+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=آمنوا+لا"
+    },
+    {
+      "rank": 112,
+      "phrase": "والأرض وما",
+      "occurrences": 27,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=والأرض+وما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=والأرض+وما"
+    },
+    {
+      "rank": 113,
+      "phrase": "أولئك الذين",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أولئك+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أولئك+الذين"
+    },
+    {
+      "rank": 114,
+      "phrase": "أنزل الله",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أنزل+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أنزل+الله"
+    },
+    {
+      "rank": 115,
+      "phrase": "من فضله",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+فضله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+فضله"
+    },
+    {
+      "rank": 116,
+      "phrase": "الذين أوتوا",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+أوتوا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+أوتوا"
+    },
+    {
+      "rank": 117,
+      "phrase": "الله هو",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+هو",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+هو"
+    },
+    {
+      "rank": 118,
+      "phrase": "إذ قال",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إذ+قال",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إذ+قال"
+    },
+    {
+      "rank": 119,
+      "phrase": "قالوا يا",
+      "occurrences": 26,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قالوا+يا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قالوا+يا"
+    },
+    {
+      "rank": 120,
+      "phrase": "بكل شيء",
+      "occurrences": 25,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بكل+شيء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بكل+شيء"
+    },
+    {
+      "rank": 121,
+      "phrase": "الله ولا",
+      "occurrences": 25,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+ولا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+ولا"
+    },
+    {
+      "rank": 122,
+      "phrase": "قل إن",
+      "occurrences": 25,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قل+إن",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قل+إن"
+    },
+    {
+      "rank": 123,
+      "phrase": "وأن الله",
+      "occurrences": 25,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وأن+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وأن+الله"
+    },
+    {
+      "rank": 124,
+      "phrase": "الله غفور",
+      "occurrences": 25,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+غفور",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+غفور"
+    },
+    {
+      "rank": 125,
+      "phrase": "في قلوبهم",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+قلوبهم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+قلوبهم"
+    },
+    {
+      "rank": 126,
+      "phrase": "الذين ظلموا",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذين+ظلموا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذين+ظلموا"
+    },
+    {
+      "rank": 127,
+      "phrase": "والله عليم",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=والله+عليم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=والله+عليم"
+    },
+    {
+      "rank": 128,
+      "phrase": "في الآخرة",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+الآخرة",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+الآخرة"
+    },
+    {
+      "rank": 129,
+      "phrase": "ما كان",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+كان"
+    },
+    {
+      "rank": 130,
+      "phrase": "كان من",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كان+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كان+من"
+    },
+    {
+      "rank": 131,
+      "phrase": "عن سبيل",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=عن+سبيل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=عن+سبيل"
+    },
+    {
+      "rank": 132,
+      "phrase": "لا يهدي",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+يهدي",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+يهدي"
+    },
+    {
+      "rank": 133,
+      "phrase": "ذلك لآيات",
+      "occurrences": 24,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ذلك+لآيات",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ذلك+لآيات"
+    },
+    {
+      "rank": 134,
+      "phrase": "ولهم عذاب",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ولهم+عذاب",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ولهم+عذاب"
+    },
+    {
+      "rank": 135,
+      "phrase": "بعد ذلك",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بعد+ذلك",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بعد+ذلك"
+    },
+    {
+      "rank": 136,
+      "phrase": "بآيات الله",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بآيات+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بآيات+الله"
+    },
+    {
+      "rank": 137,
+      "phrase": "ما كنتم",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+كنتم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+كنتم"
+    },
+    {
+      "rank": 138,
+      "phrase": "إلا قليلا",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+قليلا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+قليلا"
+    },
+    {
+      "rank": 139,
+      "phrase": "ابن مريم",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ابن+مريم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ابن+مريم"
+    },
+    {
+      "rank": 140,
+      "phrase": "صراط مستقيم",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=صراط+مستقيم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=صراط+مستقيم"
+    },
+    {
+      "rank": 141,
+      "phrase": "الله لكم",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+لكم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+لكم"
+    },
+    {
+      "rank": 142,
+      "phrase": "لا يحب",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+يحب",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+يحب"
+    },
+    {
+      "rank": 143,
+      "phrase": "الله والله",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+والله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+والله"
+    },
+    {
+      "rank": 144,
+      "phrase": "إلى يوم",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلى+يوم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلى+يوم"
+    },
+    {
+      "rank": 145,
+      "phrase": "وعد الله",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وعد+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وعد+الله"
+    },
+    {
+      "rank": 146,
+      "phrase": "كنتم تعملون",
+      "occurrences": 23,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كنتم+تعملون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كنتم+تعملون"
+    },
+    {
+      "rank": 147,
+      "phrase": "واليوم الآخر",
+      "occurrences": 22,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=واليوم+الآخر",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=واليوم+الآخر"
+    },
+    {
+      "rank": 148,
+      "phrase": "من عند",
+      "occurrences": 22,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+عند",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+عند"
+    },
+    {
+      "rank": 149,
+      "phrase": "كل نفس",
+      "occurrences": 22,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كل+نفس",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كل+نفس"
+    },
+    {
+      "rank": 150,
+      "phrase": "كان عاقبة",
+      "occurrences": 22,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كان+عاقبة",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كان+عاقبة"
+    },
+    {
+      "rank": 151,
+      "phrase": "هذا إلا",
+      "occurrences": 22,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=هذا+إلا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=هذا+إلا"
+    },
+    {
+      "rank": 152,
+      "phrase": "الحمد لله",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الحمد+لله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الحمد+لله"
+    },
+    {
+      "rank": 153,
+      "phrase": "أيها الناس",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أيها+الناس",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أيها+الناس"
+    },
+    {
+      "rank": 154,
+      "phrase": "الذي خلق",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الذي+خلق",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الذي+خلق"
+    },
+    {
+      "rank": 155,
+      "phrase": "على الذين",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=على+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=على+الذين"
+    },
+    {
+      "rank": 156,
+      "phrase": "الله عليكم",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+عليكم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+عليكم"
+    },
+    {
+      "rank": 157,
+      "phrase": "الله وما",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+وما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+وما"
+    },
+    {
+      "rank": 158,
+      "phrase": "وقال الذين",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وقال+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وقال+الذين"
+    },
+    {
+      "rank": 159,
+      "phrase": "فأولئك هم",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=فأولئك+هم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=فأولئك+هم"
+    },
+    {
+      "rank": 160,
+      "phrase": "ومنهم من",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ومنهم+من",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ومنهم+من"
+    },
+    {
+      "rank": 161,
+      "phrase": "كيف كان",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=كيف+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=كيف+كان"
+    },
+    {
+      "rank": 162,
+      "phrase": "وما بينهما",
+      "occurrences": 21,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وما+بينهما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وما+بينهما"
+    },
+    {
+      "rank": 163,
+      "phrase": "قيل لهم",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=قيل+لهم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=قيل+لهم"
+    },
+    {
+      "rank": 164,
+      "phrase": "السماء ماء",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=السماء+ماء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=السماء+ماء"
+    },
+    {
+      "rank": 165,
+      "phrase": "أولئك هم",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أولئك+هم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أولئك+هم"
+    },
+    {
+      "rank": 166,
+      "phrase": "لا تعلمون",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لا+تعلمون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لا+تعلمون"
+    },
+    {
+      "rank": 167,
+      "phrase": "والذين كفروا",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=والذين+كفروا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=والذين+كفروا"
+    },
+    {
+      "rank": 168,
+      "phrase": "أصحاب النار",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أصحاب+النار",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أصحاب+النار"
+    },
+    {
+      "rank": 169,
+      "phrase": "يا بني",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يا+بني",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يا+بني"
+    },
+    {
+      "rank": 170,
+      "phrase": "ذلك بأنهم",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ذلك+بأنهم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ذلك+بأنهم"
+    },
+    {
+      "rank": 171,
+      "phrase": "في الحياة",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+الحياة",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+الحياة"
+    },
+    {
+      "rank": 172,
+      "phrase": "أكثرهم لا",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أكثرهم+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أكثرهم+لا"
+    },
+    {
+      "rank": 173,
+      "phrase": "إلا الذين",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+الذين"
+    },
+    {
+      "rank": 174,
+      "phrase": "ما لم",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+لم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+لم"
+    },
+    {
+      "rank": 175,
+      "phrase": "ما أنزل",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+أنزل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+أنزل"
+    },
+    {
+      "rank": 176,
+      "phrase": "الله الذين",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+الذين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+الذين"
+    },
+    {
+      "rank": 177,
+      "phrase": "أكثر الناس",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أكثر+الناس",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أكثر+الناس"
+    },
+    {
+      "rank": 178,
+      "phrase": "ذلك لآية",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ذلك+لآية",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ذلك+لآية"
+    },
+    {
+      "rank": 179,
+      "phrase": "لمن يشاء",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لمن+يشاء",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لمن+يشاء"
+    },
+    {
+      "rank": 180,
+      "phrase": "ثم لا",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ثم+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ثم+لا"
+    },
+    {
+      "rank": 181,
+      "phrase": "لهم عذاب",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=لهم+عذاب",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=لهم+عذاب"
+    },
+    {
+      "rank": 182,
+      "phrase": "الأنهار خالدين",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الأنهار+خالدين",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الأنهار+خالدين"
+    },
+    {
+      "rank": 183,
+      "phrase": "من في",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+في",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+في"
+    },
+    {
+      "rank": 184,
+      "phrase": "في ضلال",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=في+ضلال",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=في+ضلال"
+    },
+    {
+      "rank": 185,
+      "phrase": "ما لكم",
+      "occurrences": 20,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ما+لكم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ما+لكم"
+    },
+    {
+      "rank": 186,
+      "phrase": "وما أنزل",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=وما+أنزل",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=وما+أنزل"
+    },
+    {
+      "rank": 187,
+      "phrase": "فيها خالدون",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=فيها+خالدون",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=فيها+خالدون"
+    },
+    {
+      "rank": 188,
+      "phrase": "إنه هو",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إنه+هو",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إنه+هو"
+    },
+    {
+      "rank": 189,
+      "phrase": "من بعده",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+بعده",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+بعده"
+    },
+    {
+      "rank": 190,
+      "phrase": "خير لكم",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=خير+لكم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=خير+لكم"
+    },
+    {
+      "rank": 191,
+      "phrase": "بالله واليوم",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=بالله+واليوم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=بالله+واليوم"
+    },
+    {
+      "rank": 192,
+      "phrase": "عند ربهم",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=عند+ربهم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=عند+ربهم"
+    },
+    {
+      "rank": 193,
+      "phrase": "إلا الله",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=إلا+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=إلا+الله"
+    },
+    {
+      "rank": 194,
+      "phrase": "من كان",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=من+كان",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=من+كان"
+    },
+    {
+      "rank": 195,
+      "phrase": "ملك السماوات",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=ملك+السماوات",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=ملك+السماوات"
+    },
+    {
+      "rank": 196,
+      "phrase": "الله أن",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=الله+أن",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=الله+أن"
+    },
+    {
+      "rank": 197,
+      "phrase": "والله لا",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=والله+لا",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=والله+لا"
+    },
+    {
+      "rank": 198,
+      "phrase": "آيات الله",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=آيات+الله",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=آيات+الله"
+    },
+    {
+      "rank": 199,
+      "phrase": "يهدي القوم",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=يهدي+القوم",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=يهدي+القوم"
+    },
+    {
+      "rank": 200,
+      "phrase": "أعلم بما",
+      "occurrences": 19,
+      "corpusUrl": "https://corpus.quran.com/search.jsp?q=أعلم+بما",
+      "verifyUrl": "https://corpus.quran.com/search.jsp?q=أعلم+بما"
+    }
+  ]
+}

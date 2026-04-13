@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "title": "Energetikus-Paradigma (نون التوكيد)",
+    "description": "Vollständiges Konjugationsparadigma des Energetikus (Modus der Bekräftigung) mit schwerer und leichter Nun-Form. Der Energetikus wird im Quran nach Schwurpartikeln, in Prohibitivkonstruktionen und in bestimmten Bedingungskontexten verwendet.",
+    "rootExample": "ف-ع-ل (fa-'a-la) als Musterwurzel",
+    "personOrder": [
+      "3ms",
+      "3fs",
+      "3md",
+      "3fd",
+      "3mp",
+      "3fp",
+      "2ms",
+      "2fs",
+      "2md",
+      "2mp",
+      "2fp",
+      "1s",
+      "1p"
+    ],
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "heavyForm": {
+    "label": "Schwere Form (نون التوكيد الثقيلة — نَّ)",
+    "marker": "-anna / -inni / -aanni",
+    "conjugation": {
+      "3ms": {
+        "arabic": "يَفْعَلَنَّ",
+        "transliteration": "yafʿalanna",
+        "notes": "Fatha vor -anna",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fs": {
+        "arabic": "تَفْعَلَنَّ",
+        "transliteration": "tafʿalanna",
+        "notes": "Fatha vor -anna",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3md": {
+        "arabic": "يَفْعَلَانِّ",
+        "transliteration": "yafʿalānni",
+        "notes": "Alif bleibt erhalten, Nun der Dualendung assimiliert sich",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fd": {
+        "arabic": "تَفْعَلَانِّ",
+        "transliteration": "tafʿalānni",
+        "notes": "Alif bleibt erhalten, Nun der Dualendung assimiliert sich",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3mp": {
+        "arabic": "يَفْعَلُنَّ",
+        "transliteration": "yafʿalunna",
+        "notes": "Modus-Nun fällt weg, und das Waw des Plurals fällt wegen des Zusammentreffens zweier ruhender Konsonanten (iltiqāʾ as-sākinayn): يَفْعَلُونَ → يَفْعَلُنَّ. Alternative Analyse (Sībawayhi) mit Waw-Erhalt: يَفْعَلُونَّ.",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fp": {
+        "arabic": "يَفْعَلْنَانِّ",
+        "transliteration": "yafʿalnanni",
+        "notes": "Nun-al-Niswa bleibt, Alif eingefügt vor -nni",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2ms": {
+        "arabic": "تَفْعَلَنَّ",
+        "transliteration": "tafʿalanna",
+        "notes": "Fatha vor -anna",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2fs": {
+        "arabic": "تَفْعَلِنَّ",
+        "transliteration": "tafʿalinna",
+        "notes": "Ya der femininen Endung fällt weg, Kasra bleibt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2md": {
+        "arabic": "تَفْعَلَانِّ",
+        "transliteration": "tafʿalānni",
+        "notes": "Alif bleibt erhalten, Nun der Dualendung assimiliert sich",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2mp": {
+        "arabic": "تَفْعَلُنَّ",
+        "transliteration": "tafʿalunna",
+        "notes": "Modus-Nun fällt weg, und das Waw des Plurals fällt wegen des Zusammentreffens zweier ruhender Konsonanten (iltiqāʾ as-sākinayn): تَفْعَلُونَ → تَفْعَلُنَّ. Alternative Analyse (Sībawayhi) mit Waw-Erhalt: تَفْعَلُونَّ.",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2fp": {
+        "arabic": "تَفْعَلْنَانِّ",
+        "transliteration": "tafʿalnanni",
+        "notes": "Nun-al-Niswa bleibt, Alif eingefügt vor -nni",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "1s": {
+        "arabic": "أَفْعَلَنَّ",
+        "transliteration": "afʿalanna",
+        "notes": "Fatha vor -anna",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "1p": {
+        "arabic": "نَفْعَلَنَّ",
+        "transliteration": "nafʿalanna",
+        "notes": "Fatha vor -anna",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      }
+    }
+  },
+  "lightForm": {
+    "label": "Leichte Form (نون التوكيد الخفيفة — نْ)",
+    "marker": "-an",
+    "conjugation": {
+      "3ms": {
+        "arabic": "يَفْعَلَنْ",
+        "transliteration": "yafʿalan",
+        "notes": "Fatha vor -n (sukun)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fs": {
+        "arabic": "تَفْعَلَنْ",
+        "transliteration": "tafʿalan",
+        "notes": "Fatha vor -n (sukun)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3md": {
+        "arabic": "يَفْعَلَانْ",
+        "transliteration": "yafʿalān",
+        "notes": "Identisch mit Indikativ-Dual in der Schrift; selten belegt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fd": {
+        "arabic": "تَفْعَلَانْ",
+        "transliteration": "tafʿalān",
+        "notes": "Identisch mit Indikativ-Dual in der Schrift; selten belegt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3mp": {
+        "arabic": "يَفْعَلُنْ",
+        "transliteration": "yafʿalun",
+        "notes": "Waw und Nun der Indikativendung fallen weg, leichtes Nun tritt an den Stamm (Schreibung kann mit Pausalform des Indikativs verwechselt werden)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "3fp": {
+        "arabic": "يَفْعَلْنَانْ",
+        "transliteration": "yafʿalnān",
+        "notes": "Nun-al-Niswa bleibt, Alif eingefügt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2ms": {
+        "arabic": "تَفْعَلَنْ",
+        "transliteration": "tafʿalan",
+        "notes": "Fatha vor -n (sukun)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2fs": {
+        "arabic": "تَفْعَلِنْ",
+        "transliteration": "tafʿalin",
+        "notes": "Ya der femininen Endung fällt weg, Kasra bleibt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2md": {
+        "arabic": "تَفْعَلَانْ",
+        "transliteration": "tafʿalān",
+        "notes": "Identisch mit Indikativ-Dual in der Schrift; selten belegt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2mp": {
+        "arabic": "تَفْعَلُنْ",
+        "transliteration": "tafʿalun",
+        "notes": "Waw und Nun der Indikativendung fallen weg, leichtes Nun tritt an den Stamm (Schreibung kann mit Pausalform des Indikativs verwechselt werden)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "2fp": {
+        "arabic": "تَفْعَلْنَانْ",
+        "transliteration": "tafʿalnān",
+        "notes": "Nun-al-Niswa bleibt, Alif eingefügt",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "1s": {
+        "arabic": "أَفْعَلَنْ",
+        "transliteration": "afʿalan",
+        "notes": "Fatha vor -n (sukun)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      },
+      "1p": {
+        "arabic": "نَفْعَلَنْ",
+        "transliteration": "nafʿalan",
+        "notes": "Fatha vor -n (sukun)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+      }
+    }
+  },
+  "quranicExamples": [
+    {
+      "ref": "12:32",
+      "arabic": "وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُ لَيُسْجَنَنَّ",
+      "person": "3ms",
+      "formType": "heavy",
+      "rootVerb": "سجن",
+      "explanation": "Schwurkontext mit لَ + Energetikus: 'er wird ganz gewiss eingekerkert werden'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=32"
+    },
+    {
+      "ref": "21:57",
+      "arabic": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "كيد",
+      "explanation": "Schwur mit تَاللَّهِ + لَ + Energetikus: 'ich werde ganz gewiss euren Götzen zusetzen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+    },
+    {
+      "ref": "14:7",
+      "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "زيد",
+      "explanation": "Bedingung + Schwur-Lam + Energetikus: 'ich werde euch ganz gewiss vermehren'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=7"
+    },
+    {
+      "ref": "7:17",
+      "arabic": "وَلَا تَجِدُ أَكْثَرَهُمْ شَٰكِرِينَ",
+      "person": "—",
+      "formType": "—",
+      "rootVerb": "—",
+      "explanation": "Kontextvers (kein Energetikus) — Vergleich: normaler Indikativ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=17"
+    },
+    {
+      "ref": "7:17",
+      "arabic": "ثُمَّ لَـَٔاتِيَنَّهُم مِّن بَيْنِ أَيْدِيهِمْ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "أتي",
+      "explanation": "Schwurkontext: 'dann werde ich ganz gewiss zu ihnen kommen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=17"
+    },
+    {
+      "ref": "7:18",
+      "arabic": "لَأَمْلَأَنَّ جَهَنَّمَ مِنكُمْ أَجْمَعِينَ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "ملأ",
+      "explanation": "Schwurkontext: 'ich werde ganz gewiss Dschahannam mit euch allen füllen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=18"
+    },
+    {
+      "ref": "27:21",
+      "arabic": "لَأُعَذِّبَنَّهُ عَذَابًا شَدِيدًا",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "عذب",
+      "explanation": "II. Stamm + Energetikus: 'ich werde ihn ganz gewiss hart bestrafen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=21"
+    },
+    {
+      "ref": "38:82",
+      "arabic": "لَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "غوي",
+      "explanation": "IV. Stamm + Energetikus: 'ich werde sie ganz gewiss alle verführen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=82"
+    },
+    {
+      "ref": "15:39",
+      "arabic": "لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "زين",
+      "explanation": "II. Stamm + Energetikus: 'ich werde ihnen auf der Erde ganz gewiss ausschmücken'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=39"
+    },
+    {
+      "ref": "4:119",
+      "arabic": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "ضلل / مني",
+      "explanation": "Zwei Energetikus-Formen mit Schwur-Lam: 'ich werde sie irreführen und Wünsche in ihnen wecken'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=119"
+    },
+    {
+      "ref": "37:68",
+      "arabic": "ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى ٱلْجَحِيمِ",
+      "person": "—",
+      "formType": "—",
+      "rootVerb": "—",
+      "explanation": "Kontextvers (kein Energetikus) — لَ hier als Verstärkungs-Lam bei إِنَّ, nicht Schwur-Lam",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=68"
+    },
+    {
+      "ref": "12:74",
+      "arabic": "إِن كُنتُمْ كَٰذِبِينَ",
+      "person": "—",
+      "formType": "—",
+      "rootVerb": "—",
+      "explanation": "Protasis einer Schwur-Bedingung — Energetikus folgt in der Apodosis",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=74"
+    },
+    {
+      "ref": "3:158",
+      "arabic": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ تُحْشَرُونَ",
+      "person": "2mp",
+      "formType": "—",
+      "rootVerb": "حشر",
+      "explanation": "Schwur-Bedingung: Apodosis ohne Energetikus — zeigt, dass Energetikus nicht obligatorisch ist",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=158"
+    },
+    {
+      "ref": "36:60",
+      "arabic": "أَلَمْ أَعْهَدْ إِلَيْكُمْ يَٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا ٱلشَّيْطَٰنَ",
+      "person": "2mp",
+      "formType": "—",
+      "rootVerb": "عبد",
+      "explanation": "Prohibitiv mit لَا + Apokopat — ohne Energetikus; Kontrast zu Prohibitiv-Energetikus",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=60"
+    },
+    {
+      "ref": "96:15",
+      "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِٱلنَّاصِيَةِ",
+      "person": "1p",
+      "formType": "light",
+      "rootVerb": "سفع",
+      "explanation": "Leichter Energetikus (mit Alif statt Nun in der Schrift, Tanwin-Markierung): 'wir werden ihn ganz gewiss an der Stirnlocke packen'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=15"
+    },
+    {
+      "ref": "2:147",
+      "arabic": "فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
+      "person": "2ms",
+      "formType": "heavy",
+      "rootVerb": "كون",
+      "explanation": "Prohibitiv mit لَا + Energetikus: 'sei ganz gewiss nicht unter den Zweiflern'",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=147"
+    },
+    {
+      "ref": "11:109",
+      "arabic": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ",
+      "person": "2ms",
+      "formType": "—",
+      "rootVerb": "كون",
+      "explanation": "Kurzform von تَكُنْ ohne Energetikus — Vergleich zur Energetikus-Form in 2:147",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=109"
+    },
+    {
+      "ref": "6:135",
+      "arabic": "فَسَوْفَ تَعْلَمُونَ",
+      "person": "2mp",
+      "formType": "—",
+      "rootVerb": "علم",
+      "explanation": "سَوْفَ mit Indikativ ohne Energetikus — zeigt, dass Drohkontext nicht zwingend Energetikus erfordert",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=135"
+    },
+    {
+      "ref": "26:49",
+      "arabic": "لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍ وَلَأُصَلِّبَنَّكُمْ أَجْمَعِينَ",
+      "person": "1s",
+      "formType": "heavy",
+      "rootVerb": "قطع / صلب",
+      "explanation": "Doppelter Energetikus im Drohschwur: II. Stamm-Formen mit -anna",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=49"
+    },
+    {
+      "ref": "105:4",
+      "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "person": "3fs",
+      "formType": "—",
+      "rootVerb": "رمي",
+      "explanation": "Normaler Indikativ — Kontrastbeispiel ohne Energetikus",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=4"
+    }
+  ],
+  "syntacticContexts": [
+    {
+      "context": "Nach Schwurpartikeln + لَ",
+      "description": "وَاللَّهِ / تَاللَّهِ / بِاللَّهِ gefolgt von لَ + Energetikus im Hauptsatz",
+      "example": "وَاللَّهِ لَأَفْعَلَنَّ — 'Bei Gott, ich werde es ganz gewiss tun'",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n124"
+    },
+    {
+      "context": "Nach لَئِنْ (Schwur-Bedingung)",
+      "description": "لَئِنْ in der Protasis, لَ + Energetikus in der Apodosis",
+      "example": "لَئِنْ شَكَرْتُمْ لَأَزِيدَنَّكُمْ (14:7)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=7"
+    },
+    {
+      "context": "Prohibitiv mit لَا + Energetikus",
+      "description": "لَا + Imperfekt-Energetikus als verstärktes Verbot",
+      "example": "فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ (2:147)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=147"
+    },
+    {
+      "context": "Verstärkte Aussage ohne expliziten Schwur",
+      "description": "Energetikus als emphatische Bekräftigung auch ohne formale Schwurpartikel",
+      "example": "لَنَسْفَعًا بِالنَّاصِيَةِ (96:15)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=15"
+    }
+  ],
+  "morphologicalNotes": {
+    "formationPrinciple": "Der Energetikus wird durch Anfügen von نَّ (schwer) oder نْ (leicht) an den Imperfekt-Stamm gebildet. Die Endungen des Imperfekts verändern sich dabei systematisch.",
+    "changes": [
+      "Indikativ-Endung -u wird zu -a vor -nna/-n (3ms, 3fs, 2ms, 1s, 1p)",
+      "Dual-Endung -aani: Nun assimiliert sich bei schwerer Form zu -aanni; bei leichter Form fällt das Endungs-Nun",
+      "Plural-Endung -uuna: Waw und Nun der Indikativendung fallen weg, Damma bleibt als Stammvokal (-unna/-un)",
+      "Feminin-Singular -iina: Ya fällt weg, Kasra bleibt (-inna/-in)",
+      "Feminin-Plural -na (Nun-al-Niswa): bleibt erhalten, Alif wird eingefügt (-naanni/-naan)"
+    ],
+    "lightFormOrthography": "Die leichte Form نْ wird im Quran gelegentlich als Alif (ا / ً) geschrieben, z.B. لَنَسْفَعًا (96:15)"
+  },
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=32"
+}

@@ -1,0 +1,3027 @@
+{
+  "meta": {
+    "description": "Frequenzsortierte Wurzelliste des quranischen Korpus (77429 Wörter)",
+    "totalRoots": 1642,
+    "entriesInFile": 300,
+    "totalWords": 77429,
+    "top50coverage": 22812,
+    "top100coverage": 30227,
+    "top300coverage": 41704,
+    "note": "Top 300 Wurzeln mit Kurzangaben — für präzise Semantik Lanes Lexicon konsultieren.",
+    "rootNotation": "Hamza-finale Wurzeln werden in diesem Datensatz mit Alif (ا) statt Hamza (ء) notiert. Dies ist eine Vereinfachung für Konsistenz mit der Quran-Morphologie-Datenbank. Beispiel: ش-ي-ا steht für ش-ي-ء.",
+    "wordCountNote": "totalWords (77429) basiert auf der Wurzel-Zuordnung des Quranic Arabic Corpus. Die Summe der Wort-Zählungen in sura-index.json (77800) weicht ab, da unterschiedliche Zählmethoden bestehen: ob die Basmala pro Sure mitgezählt wird, wie zusammengesetzte Partikeln (z.B. بسم) gezählt werden, und ob Funktionswörter ohne Wurzelzuordnung einbezogen sind.",
+    "sources": [
+      {
+        "label": "Quranic Arabic Corpus — Corpus Statistics",
+        "url": "https://corpus.quran.com/qurandictionary.jsp"
+      },
+      {
+        "label": "Lane's Lexicon (Root Semantics)",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "roots": [
+    {
+      "rank": 1,
+      "root": "ا ل ه",
+      "rootArabic": "اله",
+      "transliteration": "ā-l-h",
+      "count": 2851,
+      "percentage": "3.68%",
+      "meaning": "Gott/Gottheit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "rank": 2,
+      "root": "ق و ل",
+      "rootArabic": "قول",
+      "transliteration": "q-w-l",
+      "count": 1722,
+      "percentage": "2.22%",
+      "meaning": "sagen/Rede",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "rank": 3,
+      "root": "ك و ن",
+      "rootArabic": "كون",
+      "transliteration": "k-w-n",
+      "count": 1390,
+      "percentage": "1.80%",
+      "meaning": "sein/werden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "rank": 4,
+      "root": "ر ب ب",
+      "rootArabic": "ربب",
+      "transliteration": "r-b-b",
+      "count": 980,
+      "percentage": "1.27%",
+      "meaning": "Herr/erziehen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "rank": 5,
+      "root": "ا م ن",
+      "rootArabic": "امن",
+      "transliteration": "ā-m-n",
+      "count": 879,
+      "percentage": "1.14%",
+      "meaning": "glauben/sicher sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "rank": 6,
+      "root": "ع ل م",
+      "rootArabic": "علم",
+      "transliteration": "ʿ-l-m",
+      "count": 854,
+      "percentage": "1.10%",
+      "meaning": "wissen/Wissen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "rank": 7,
+      "root": "ق و م",
+      "rootArabic": "قوم",
+      "transliteration": "q-w-m",
+      "count": 660,
+      "percentage": "0.85%",
+      "meaning": "Volk/aufstehen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "rank": 8,
+      "root": "ا ت ي",
+      "rootArabic": "اتي",
+      "transliteration": "ā-t-y",
+      "count": 549,
+      "percentage": "0.71%",
+      "meaning": "kommen/bringen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "rank": 9,
+      "root": "ك ف ر",
+      "rootArabic": "كفر",
+      "transliteration": "k-f-r",
+      "count": 525,
+      "percentage": "0.68%",
+      "meaning": "leugnen/bedecken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "rank": 10,
+      "root": "ب ي ن",
+      "rootArabic": "بين",
+      "transliteration": "b-y-n",
+      "count": 523,
+      "percentage": "0.68%",
+      "meaning": "klar sein/erklären",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+    },
+    {
+      "rank": 11,
+      "root": "ش ي ا",
+      "rootArabic": "شيا",
+      "transliteration": "š-y-ā",
+      "count": 519,
+      "percentage": "0.67%",
+      "meaning": "Ding/Sache",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+    },
+    {
+      "rank": 12,
+      "root": "ر س ل",
+      "rootArabic": "رسل",
+      "transliteration": "r-s-l",
+      "count": 513,
+      "percentage": "0.66%",
+      "meaning": "senden/Gesandter",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "rank": 13,
+      "root": "ا ر ض",
+      "rootArabic": "ارض",
+      "transliteration": "ā-r-ḍ",
+      "count": 461,
+      "percentage": "0.60%",
+      "meaning": "Erde/Land",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "rank": 14,
+      "root": "ي و م",
+      "rootArabic": "يوم",
+      "transliteration": "y-w-m",
+      "count": 405,
+      "percentage": "0.52%",
+      "meaning": "Tag",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "rank": 15,
+      "root": "ا ي ي",
+      "rootArabic": "ايي",
+      "transliteration": "ā-y-y",
+      "count": 382,
+      "percentage": "0.49%",
+      "meaning": "Zeichen/Vers",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=39"
+    },
+    {
+      "rank": 16,
+      "root": "س م و",
+      "rootArabic": "سمو",
+      "transliteration": "s-m-w",
+      "count": 381,
+      "percentage": "0.49%",
+      "meaning": "Himmel/hoch",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "rank": 17,
+      "root": "ك ل ل",
+      "rootArabic": "كلل",
+      "transliteration": "k-l-l",
+      "count": 377,
+      "percentage": "0.49%",
+      "meaning": "jeder/alle/ganz",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+    },
+    {
+      "rank": 18,
+      "root": "ع ذ ب",
+      "rootArabic": "عذب",
+      "transliteration": "ʿ-ḏ-b",
+      "count": 373,
+      "percentage": "0.48%",
+      "meaning": "süß (Wasser); bestrafen, Strafe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "rank": 19,
+      "root": "ع م ل",
+      "rootArabic": "عمل",
+      "transliteration": "ʿ-m-l",
+      "count": 360,
+      "percentage": "0.46%",
+      "meaning": "handeln/Tat",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 20,
+      "root": "ج ع ل",
+      "rootArabic": "جعل",
+      "transliteration": "ǧ-ʿ-l",
+      "count": 346,
+      "percentage": "0.45%",
+      "meaning": "machen/einsetzen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "rank": 21,
+      "root": "ر ح م",
+      "rootArabic": "رحم",
+      "transliteration": "r-ḥ-m",
+      "count": 339,
+      "percentage": "0.44%",
+      "meaning": "Gebärmutter; barmherzig sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "rank": 22,
+      "root": "ر ا ي",
+      "rootArabic": "راي",
+      "transliteration": "r-ā-y",
+      "count": 328,
+      "percentage": "0.42%",
+      "meaning": "sehen/betrachten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+    },
+    {
+      "rank": 23,
+      "root": "ك ت ب",
+      "rootArabic": "كتب",
+      "transliteration": "k-t-b",
+      "count": 319,
+      "percentage": "0.41%",
+      "meaning": "schreiben/Buch",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "rank": 24,
+      "root": "ه د ي",
+      "rootArabic": "هدي",
+      "transliteration": "h-d-y",
+      "count": 316,
+      "percentage": "0.41%",
+      "meaning": "leiten, führen, den Weg zeigen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "rank": 25,
+      "root": "ظ ل م",
+      "rootArabic": "ظلم",
+      "transliteration": "ẓ-l-m",
+      "count": 315,
+      "percentage": "0.41%",
+      "meaning": "ungerecht sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "rank": 26,
+      "root": "ن ف س",
+      "rootArabic": "نفس",
+      "transliteration": "n-f-s",
+      "count": 298,
+      "percentage": "0.38%",
+      "meaning": "Selbst/Atem",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "rank": 27,
+      "root": "ق ب ل",
+      "rootArabic": "قبل",
+      "transliteration": "q-b-l",
+      "count": 294,
+      "percentage": "0.38%",
+      "meaning": "vor/empfangen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "rank": 28,
+      "root": "ن ز ل",
+      "rootArabic": "نزل",
+      "transliteration": "n-z-l",
+      "count": 293,
+      "percentage": "0.38%",
+      "meaning": "herabsenden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "rank": 29,
+      "root": "ذ ك ر",
+      "rootArabic": "ذكر",
+      "transliteration": "ḏ-k-r",
+      "count": 292,
+      "percentage": "0.38%",
+      "meaning": "erinnern/erwähnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+    },
+    {
+      "rank": 30,
+      "root": "ح ق ق",
+      "rootArabic": "حقق",
+      "transliteration": "ḥ-q-q",
+      "count": 287,
+      "percentage": "0.37%",
+      "meaning": "Wahrheit/Recht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 31,
+      "root": "ك ذ ب",
+      "rootArabic": "كذب",
+      "transliteration": "k-ḏ-b",
+      "count": 282,
+      "percentage": "0.36%",
+      "meaning": "lügen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "rank": 32,
+      "root": "ج ي ا",
+      "rootArabic": "جيا",
+      "transliteration": "ǧ-y-ā",
+      "count": 278,
+      "percentage": "0.36%",
+      "meaning": "kommen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=71"
+    },
+    {
+      "rank": 33,
+      "root": "ع ب د",
+      "rootArabic": "عبد",
+      "transliteration": "ʿ-b-d",
+      "count": 275,
+      "percentage": "0.36%",
+      "meaning": "dienen/Diener",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "rank": 34,
+      "root": "ا خ ذ",
+      "rootArabic": "اخذ",
+      "transliteration": "ā-ḫ-ḏ",
+      "count": 273,
+      "percentage": "0.35%",
+      "meaning": "nehmen/ergreifen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "rank": 35,
+      "root": "خ ل ق",
+      "rootArabic": "خلق",
+      "transliteration": "ḫ-l-q",
+      "count": 261,
+      "percentage": "0.34%",
+      "meaning": "erschaffen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "rank": 36,
+      "root": "و ق ي",
+      "rootArabic": "وقي",
+      "transliteration": "w-q-y",
+      "count": 258,
+      "percentage": "0.33%",
+      "meaning": "schützen/bewahren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "rank": 37,
+      "root": "ا خ ر",
+      "rootArabic": "اخر",
+      "transliteration": "ā-ḫ-r",
+      "count": 250,
+      "percentage": "0.32%",
+      "meaning": "anderer/das Spätere",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "rank": 38,
+      "root": "ا م ر",
+      "rootArabic": "امر",
+      "transliteration": "ā-m-r",
+      "count": 248,
+      "percentage": "0.32%",
+      "meaning": "befehlen/Sache",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 39,
+      "root": "ن و س",
+      "rootArabic": "نوس",
+      "transliteration": "n-w-s",
+      "count": 241,
+      "percentage": "0.31%",
+      "meaning": "Menschen",
+      "note": "Die Zuordnung zu ن-و-س folgt der Morphologie-Datenbank. In den meisten Lexika (u.a. Lane's) wird الناس unter أ-ن-س geführt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "rank": 40,
+      "root": "ب ع د",
+      "rootArabic": "بعد",
+      "transliteration": "b-ʿ-d",
+      "count": 235,
+      "percentage": "0.30%",
+      "meaning": "nach/fern",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 41,
+      "root": "غ ف ر",
+      "rootArabic": "غفر",
+      "transliteration": "ġ-f-r",
+      "count": 234,
+      "percentage": "0.30%",
+      "meaning": "vergeben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "rank": 42,
+      "root": "و ل ي",
+      "rootArabic": "ولي",
+      "transliteration": "w-l-y",
+      "count": 232,
+      "percentage": "0.30%",
+      "meaning": "Schutzherr",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=64"
+    },
+    {
+      "rank": 43,
+      "root": "د ع و",
+      "rootArabic": "دعو",
+      "transliteration": "d-ʿ-w",
+      "count": 212,
+      "percentage": "0.27%",
+      "meaning": "rufen/einladen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "rank": 44,
+      "root": "ح ك م",
+      "rootArabic": "حكم",
+      "transliteration": "ḥ-k-m",
+      "count": 210,
+      "percentage": "0.27%",
+      "meaning": "urteilen/Weisheit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+    },
+    {
+      "rank": 45,
+      "root": "م ل ك",
+      "rootArabic": "ملك",
+      "transliteration": "m-l-k",
+      "count": 206,
+      "percentage": "0.27%",
+      "meaning": "herrschen/König",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "rank": 46,
+      "root": "ج ن ن",
+      "rootArabic": "جنن",
+      "transliteration": "ǧ-n-n",
+      "count": 201,
+      "percentage": "0.26%",
+      "meaning": "verbergen, bedecken; Garten; Dschinn",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 47,
+      "root": "ع ن د",
+      "rootArabic": "عند",
+      "transliteration": "ʿ-n-d",
+      "count": 201,
+      "percentage": "0.26%",
+      "meaning": "bei/neben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+    },
+    {
+      "rank": 48,
+      "root": "خ ي ر",
+      "rootArabic": "خير",
+      "transliteration": "ḫ-y-r",
+      "count": 196,
+      "percentage": "0.25%",
+      "meaning": "Gutes/besser",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+    },
+    {
+      "rank": 49,
+      "root": "ن و ر",
+      "rootArabic": "نور",
+      "transliteration": "n-w-r",
+      "count": 194,
+      "percentage": "0.25%",
+      "meaning": "Licht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "rank": 50,
+      "root": "ح س ن",
+      "rootArabic": "حسن",
+      "transliteration": "ḥ-s-n",
+      "count": 194,
+      "percentage": "0.25%",
+      "meaning": "gut/schön",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "rank": 51,
+      "root": "ض ل ل",
+      "rootArabic": "ضلل",
+      "transliteration": "ḍ-l-l",
+      "count": 191,
+      "percentage": "0.25%",
+      "meaning": "abirren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "rank": 52,
+      "root": "س م ع",
+      "rootArabic": "سمع",
+      "transliteration": "s-m-ʿ",
+      "count": 185,
+      "percentage": "0.24%",
+      "meaning": "hören",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "rank": 53,
+      "root": "ح ي ي",
+      "rootArabic": "حيي",
+      "transliteration": "ḥ-y-y",
+      "count": 184,
+      "percentage": "0.24%",
+      "meaning": "leben/Leben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 54,
+      "root": "ب ن ي",
+      "rootArabic": "بني",
+      "transliteration": "b-n-y",
+      "count": 183,
+      "percentage": "0.24%",
+      "meaning": "Sohn/bauen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "rank": 55,
+      "root": "خ ر ج",
+      "rootArabic": "خرج",
+      "transliteration": "ḫ-r-ǧ",
+      "count": 182,
+      "percentage": "0.24%",
+      "meaning": "herausgehen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "rank": 56,
+      "root": "ص ل ح",
+      "rootArabic": "صلح",
+      "transliteration": "ṣ-l-ḥ",
+      "count": 180,
+      "percentage": "0.23%",
+      "meaning": "rechtschaffen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "rank": 57,
+      "root": "س ب ل",
+      "rootArabic": "سبل",
+      "transliteration": "s-b-l",
+      "count": 176,
+      "percentage": "0.23%",
+      "meaning": "Weg/Pfad",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+    },
+    {
+      "rank": 58,
+      "root": "ت ب ع",
+      "rootArabic": "تبع",
+      "transliteration": "t-b-ʿ",
+      "count": 172,
+      "percentage": "0.22%",
+      "meaning": "folgen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+    },
+    {
+      "rank": 59,
+      "root": "ا و ل",
+      "rootArabic": "اول",
+      "transliteration": "ā-w-l",
+      "count": 170,
+      "percentage": "0.22%",
+      "meaning": "erster/Inhaber von",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=41"
+    },
+    {
+      "rank": 60,
+      "root": "ق ت ل",
+      "rootArabic": "قتل",
+      "transliteration": "q-t-l",
+      "count": 170,
+      "percentage": "0.22%",
+      "meaning": "töten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+    },
+    {
+      "rank": 61,
+      "root": "م ث ل",
+      "rootArabic": "مثل",
+      "transliteration": "m-ṯ-l",
+      "count": 169,
+      "percentage": "0.22%",
+      "meaning": "Gleichnis/gleich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "rank": 62,
+      "root": "ق ل ب",
+      "rootArabic": "قلب",
+      "transliteration": "q-l-b",
+      "count": 168,
+      "percentage": "0.22%",
+      "meaning": "Herz/umkehren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "rank": 63,
+      "root": "ش ر ك",
+      "rootArabic": "شرك",
+      "transliteration": "š-r-k",
+      "count": 168,
+      "percentage": "0.22%",
+      "meaning": "beigesellen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=96"
+    },
+    {
+      "rank": 64,
+      "root": "ك ث ر",
+      "rootArabic": "كثر",
+      "transliteration": "k-ṯ-r",
+      "count": 167,
+      "percentage": "0.22%",
+      "meaning": "viel/zahlreich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 65,
+      "root": "س و ا",
+      "rootArabic": "سوا",
+      "transliteration": "s-w-ā",
+      "count": 167,
+      "percentage": "0.22%",
+      "meaning": "Übel/schlecht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+    },
+    {
+      "rank": 66,
+      "root": "م و ت",
+      "rootArabic": "موت",
+      "transliteration": "m-w-t",
+      "count": 165,
+      "percentage": "0.21%",
+      "meaning": "sterben/Tod",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "rank": 67,
+      "root": "ك ب ر",
+      "rootArabic": "كبر",
+      "transliteration": "k-b-r",
+      "count": 161,
+      "percentage": "0.21%",
+      "meaning": "groß/erhaben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+    },
+    {
+      "rank": 68,
+      "root": "ش ه د",
+      "rootArabic": "شهد",
+      "transliteration": "š-h-d",
+      "count": 160,
+      "percentage": "0.21%",
+      "meaning": "bezeugen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "rank": 69,
+      "root": "ن ب ا",
+      "rootArabic": "نبا",
+      "transliteration": "n-b-ā",
+      "count": 160,
+      "percentage": "0.21%",
+      "meaning": "Nachricht/Nabi (Verkünder)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "rank": 70,
+      "root": "ب ع ض",
+      "rootArabic": "بعض",
+      "transliteration": "b-ʿ-ḍ",
+      "count": 158,
+      "percentage": "0.20%",
+      "meaning": "einige/mancher",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 71,
+      "root": "ن ص ر",
+      "rootArabic": "نصر",
+      "transliteration": "n-ṣ-r",
+      "count": 158,
+      "percentage": "0.20%",
+      "meaning": "helfen/Sieg",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "rank": 72,
+      "root": "ص د ق",
+      "rootArabic": "صدق",
+      "transliteration": "ṣ-d-q",
+      "count": 155,
+      "percentage": "0.20%",
+      "meaning": "wahrhaftig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "rank": 73,
+      "root": "غ ي ر",
+      "rootArabic": "غير",
+      "transliteration": "ġ-y-r",
+      "count": 154,
+      "percentage": "0.20%",
+      "meaning": "anders/nicht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "rank": 74,
+      "root": "و ع د",
+      "rootArabic": "وعد",
+      "transliteration": "w-ʿ-d",
+      "count": 151,
+      "percentage": "0.20%",
+      "meaning": "versprechen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51"
+    },
+    {
+      "rank": 75,
+      "root": "ب ص ر",
+      "rootArabic": "بصر",
+      "transliteration": "b-ṣ-r",
+      "count": 148,
+      "percentage": "0.19%",
+      "meaning": "sehen/Einsicht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "rank": 76,
+      "root": "ر و د",
+      "rootArabic": "رود",
+      "transliteration": "r-w-d",
+      "count": 148,
+      "percentage": "0.19%",
+      "meaning": "wollen/langsam",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 77,
+      "root": "ل ق ي",
+      "rootArabic": "لقي",
+      "transliteration": "l-q-y",
+      "count": 146,
+      "percentage": "0.19%",
+      "meaning": "treffen/begegnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "rank": 78,
+      "root": "د و ن",
+      "rootArabic": "دون",
+      "transliteration": "d-w-n",
+      "count": 144,
+      "percentage": "0.19%",
+      "meaning": "ohne/unterhalb",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "rank": 79,
+      "root": "ن ع م",
+      "rootArabic": "نعم",
+      "transliteration": "n-ʿ-m",
+      "count": 140,
+      "percentage": "0.18%",
+      "meaning": "Wohltat/Gunst",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "rank": 80,
+      "root": "س ل م",
+      "rootArabic": "سلم",
+      "transliteration": "s-l-m",
+      "count": 140,
+      "percentage": "0.18%",
+      "meaning": "heil sein/sich ergeben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=71"
+    },
+    {
+      "rank": 81,
+      "root": "د ن و",
+      "rootArabic": "دنو",
+      "transliteration": "d-n-w",
+      "count": 133,
+      "percentage": "0.17%",
+      "meaning": "nahe/diesseitig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "rank": 82,
+      "root": "ق د ر",
+      "rootArabic": "قدر",
+      "transliteration": "q-d-r",
+      "count": 132,
+      "percentage": "0.17%",
+      "meaning": "bestimmen/Macht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+    },
+    {
+      "rank": 83,
+      "root": "ن ذ ر",
+      "rootArabic": "نذر",
+      "transliteration": "n-ḏ-r",
+      "count": 130,
+      "percentage": "0.17%",
+      "meaning": "warnen/Warner",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "rank": 84,
+      "root": "ج م ع",
+      "rootArabic": "جمع",
+      "transliteration": "ǧ-m-ʿ",
+      "count": 129,
+      "percentage": "0.17%",
+      "meaning": "versammeln",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+    },
+    {
+      "rank": 85,
+      "root": "ن ظ ر",
+      "rootArabic": "نظر",
+      "transliteration": "n-ẓ-r",
+      "count": 129,
+      "percentage": "0.17%",
+      "meaning": "schauen/betrachten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+    },
+    {
+      "rank": 86,
+      "root": "س ا ل",
+      "rootArabic": "سال",
+      "transliteration": "s-ā-l",
+      "count": 129,
+      "percentage": "0.17%",
+      "meaning": "fragen/bitten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "rank": 87,
+      "root": "ط و ع",
+      "rootArabic": "طوع",
+      "transliteration": "ṭ-w-ʿ",
+      "count": 129,
+      "percentage": "0.17%",
+      "meaning": "gehorchen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=158"
+    },
+    {
+      "rank": 88,
+      "root": "ع ظ م",
+      "rootArabic": "عظم",
+      "transliteration": "ʿ-ẓ-m",
+      "count": 128,
+      "percentage": "0.17%",
+      "meaning": "gewaltig/groß",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "rank": 89,
+      "root": "خ ل ف",
+      "rootArabic": "خلف",
+      "transliteration": "ḫ-l-f",
+      "count": 127,
+      "percentage": "0.16%",
+      "meaning": "nachfolgen/vertreten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "rank": 90,
+      "root": "ا ه ل",
+      "rootArabic": "اهل",
+      "transliteration": "ā-h-l",
+      "count": 127,
+      "percentage": "0.16%",
+      "meaning": "Familie/Leute",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=105"
+    },
+    {
+      "rank": 91,
+      "root": "د خ ل",
+      "rootArabic": "دخل",
+      "transliteration": "d-ḫ-l",
+      "count": 126,
+      "percentage": "0.16%",
+      "meaning": "eintreten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "rank": 92,
+      "root": "خ و ف",
+      "rootArabic": "خوف",
+      "transliteration": "ḫ-w-f",
+      "count": 124,
+      "percentage": "0.16%",
+      "meaning": "fürchten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+    },
+    {
+      "rank": 93,
+      "root": "ر ز ق",
+      "rootArabic": "رزق",
+      "transliteration": "r-z-q",
+      "count": 123,
+      "percentage": "0.16%",
+      "meaning": "versorgen/Versorgung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "rank": 94,
+      "root": "ب ش ر",
+      "rootArabic": "بشر",
+      "transliteration": "b-š-r",
+      "count": 123,
+      "percentage": "0.16%",
+      "meaning": "frohe Botschaft",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 95,
+      "root": "ي د ي",
+      "rootArabic": "يدي",
+      "transliteration": "y-d-y",
+      "count": 120,
+      "percentage": "0.15%",
+      "meaning": "Hand",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+    },
+    {
+      "rank": 96,
+      "root": "ا م م",
+      "rootArabic": "امم",
+      "transliteration": "ā-m-m",
+      "count": 119,
+      "percentage": "0.15%",
+      "meaning": "Gemeinschaft/Mutter",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=78"
+    },
+    {
+      "rank": 97,
+      "root": "ع ز ز",
+      "rootArabic": "عزز",
+      "transliteration": "ʿ-z-z",
+      "count": 119,
+      "percentage": "0.15%",
+      "meaning": "mächtig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+    },
+    {
+      "rank": 98,
+      "root": "ج ز ي",
+      "rootArabic": "جزي",
+      "transliteration": "ǧ-z-y",
+      "count": 118,
+      "percentage": "0.15%",
+      "meaning": "vergelten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "rank": 99,
+      "root": "ا ب و",
+      "rootArabic": "ابو",
+      "transliteration": "ā-b-w",
+      "count": 117,
+      "percentage": "0.15%",
+      "meaning": "Vater",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133"
+    },
+    {
+      "rank": 100,
+      "root": "ن ه ر",
+      "rootArabic": "نهر",
+      "transliteration": "n-h-r",
+      "count": 113,
+      "percentage": "0.15%",
+      "meaning": "Fluss/Tag",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 101,
+      "root": "ن ف ق",
+      "rootArabic": "نفق",
+      "transliteration": "n-f-q",
+      "count": 111,
+      "percentage": "0.14%",
+      "meaning": "ausgeben/Heuchler",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "rank": 102,
+      "root": "ا ك ل",
+      "rootArabic": "اكل",
+      "transliteration": "ā-k-l",
+      "count": 109,
+      "percentage": "0.14%",
+      "meaning": "essen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "rank": 103,
+      "root": "ح س ب",
+      "rootArabic": "حسب",
+      "transliteration": "ḥ-s-b",
+      "count": 109,
+      "percentage": "0.14%",
+      "meaning": "rechnen/meinen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=202"
+    },
+    {
+      "rank": 104,
+      "root": "ف ع ل",
+      "rootArabic": "فعل",
+      "transliteration": "f-ʿ-l",
+      "count": 108,
+      "percentage": "0.14%",
+      "meaning": "tun/handeln",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "rank": 105,
+      "root": "ا ج ر",
+      "rootArabic": "اجر",
+      "transliteration": "ā-ǧ-r",
+      "count": 108,
+      "percentage": "0.14%",
+      "meaning": "Lohn/Belohnung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=62"
+    },
+    {
+      "rank": 106,
+      "root": "و ج د",
+      "rootArabic": "وجد",
+      "transliteration": "w-ǧ-d",
+      "count": 107,
+      "percentage": "0.14%",
+      "meaning": "finden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=96"
+    },
+    {
+      "rank": 107,
+      "root": "ع د و",
+      "rootArabic": "عدو",
+      "transliteration": "ʿ-d-w",
+      "count": 106,
+      "percentage": "0.14%",
+      "meaning": "Feind/übertreten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+    },
+    {
+      "rank": 108,
+      "root": "ر ج ع",
+      "rootArabic": "رجع",
+      "transliteration": "r-ǧ-ʿ",
+      "count": 104,
+      "percentage": "0.13%",
+      "meaning": "zurückkehren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "rank": 109,
+      "root": "ف ض ل",
+      "rootArabic": "فضل",
+      "transliteration": "f-ḍ-l",
+      "count": 104,
+      "percentage": "0.13%",
+      "meaning": "Vorzug/Gunst",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=47"
+    },
+    {
+      "rank": 110,
+      "root": "ص ب ر",
+      "rootArabic": "صبر",
+      "transliteration": "ṣ-b-r",
+      "count": 103,
+      "percentage": "0.13%",
+      "meaning": "Geduld",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=45"
+    },
+    {
+      "rank": 111,
+      "root": "ا ذ ن",
+      "rootArabic": "اذن",
+      "transliteration": "ā-ḏ-n",
+      "count": 102,
+      "percentage": "0.13%",
+      "meaning": "erlauben/Ohr",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "rank": 112,
+      "root": "ش د د",
+      "rootArabic": "شدد",
+      "transliteration": "š-d-d",
+      "count": 102,
+      "percentage": "0.13%",
+      "meaning": "stark/heftig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "rank": 113,
+      "root": "و ل د",
+      "rootArabic": "ولد",
+      "transliteration": "w-l-d",
+      "count": 102,
+      "percentage": "0.13%",
+      "meaning": "Kind/zeugen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+    },
+    {
+      "rank": 114,
+      "root": "د ي ن",
+      "rootArabic": "دين",
+      "transliteration": "d-y-n",
+      "count": 101,
+      "percentage": "0.13%",
+      "meaning": "Religion/Schuld",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "rank": 115,
+      "root": "ص ل و",
+      "rootArabic": "صلو",
+      "transliteration": "ṣ-l-w",
+      "count": 99,
+      "percentage": "0.13%",
+      "meaning": "Zuwendung/sich zuwenden (konventionell 'Gebet')",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "rank": 116,
+      "root": "ص ح ب",
+      "rootArabic": "صحب",
+      "transliteration": "ṣ-ḥ-b",
+      "count": 97,
+      "percentage": "0.13%",
+      "meaning": "Gefährte/begleiten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=39"
+    },
+    {
+      "rank": 117,
+      "root": "ا ن س",
+      "rootArabic": "انس",
+      "transliteration": "ā-n-s",
+      "count": 97,
+      "percentage": "0.13%",
+      "meaning": "Mensch",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "rank": 118,
+      "root": "ق ر ب",
+      "rootArabic": "قرب",
+      "transliteration": "q-r-b",
+      "count": 96,
+      "percentage": "0.12%",
+      "meaning": "nähern/Opfergabe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "rank": 119,
+      "root": "ب غ ي",
+      "rootArabic": "بغي",
+      "transliteration": "b-ġ-y",
+      "count": 96,
+      "percentage": "0.12%",
+      "meaning": "begehren/Unrecht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+    },
+    {
+      "rank": 120,
+      "root": "ا خ و",
+      "rootArabic": "اخو",
+      "transliteration": "ā-ḫ-w",
+      "count": 96,
+      "percentage": "0.12%",
+      "meaning": "Bruder",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=178"
+    },
+    {
+      "rank": 121,
+      "root": "ح ب ب",
+      "rootArabic": "حبب",
+      "transliteration": "ḥ-b-b",
+      "count": 95,
+      "percentage": "0.12%",
+      "meaning": "lieben/Liebe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=165"
+    },
+    {
+      "rank": 122,
+      "root": "س ب ح",
+      "rootArabic": "سبح",
+      "transliteration": "s-b-ḥ",
+      "count": 92,
+      "percentage": "0.12%",
+      "meaning": "preisen/lobpreisen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "rank": 123,
+      "root": "س ج د",
+      "rootArabic": "سجد",
+      "transliteration": "s-ǧ-d",
+      "count": 92,
+      "percentage": "0.12%",
+      "meaning": "niederwerfen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+    },
+    {
+      "rank": 124,
+      "root": "ل ي ل",
+      "rootArabic": "ليل",
+      "transliteration": "l-y-l",
+      "count": 92,
+      "percentage": "0.12%",
+      "meaning": "Nacht",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51"
+    },
+    {
+      "rank": 125,
+      "root": "ل ي س",
+      "rootArabic": "ليس",
+      "transliteration": "l-y-s",
+      "count": 89,
+      "percentage": "0.11%",
+      "meaning": "nicht sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=113"
+    },
+    {
+      "rank": 126,
+      "root": "ش ط ن",
+      "rootArabic": "شطن",
+      "transliteration": "š-ṭ-n",
+      "count": 88,
+      "percentage": "0.11%",
+      "meaning": "Satan/Teufel",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "rank": 127,
+      "root": "ق ر ا",
+      "rootArabic": "قرا",
+      "transliteration": "q-r-ā",
+      "count": 88,
+      "percentage": "0.11%",
+      "meaning": "lesen/rezitieren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    },
+    {
+      "rank": 128,
+      "root": "خ ل د",
+      "rootArabic": "خلد",
+      "transliteration": "ḫ-l-d",
+      "count": 87,
+      "percentage": "0.11%",
+      "meaning": "ewig bleiben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 129,
+      "root": "ت و ب",
+      "rootArabic": "توب",
+      "transliteration": "t-w-b",
+      "count": 87,
+      "percentage": "0.11%",
+      "meaning": "umkehren/Reue",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+    },
+    {
+      "rank": 130,
+      "root": "م و ل",
+      "rootArabic": "مول",
+      "transliteration": "m-w-l",
+      "count": 86,
+      "percentage": "0.11%",
+      "meaning": "Besitz/Vermögen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=155"
+    },
+    {
+      "rank": 131,
+      "root": "ا ح د",
+      "rootArabic": "احد",
+      "transliteration": "ā-ḥ-d",
+      "count": 85,
+      "percentage": "0.11%",
+      "meaning": "einer/einzig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=96"
+    },
+    {
+      "rank": 132,
+      "root": "ن ج و",
+      "rootArabic": "نجو",
+      "transliteration": "n-ǧ-w",
+      "count": 84,
+      "percentage": "0.11%",
+      "meaning": "retten/entrinnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+    },
+    {
+      "rank": 133,
+      "root": "س و ي",
+      "rootArabic": "سوي",
+      "transliteration": "s-w-y",
+      "count": 83,
+      "percentage": "0.11%",
+      "meaning": "gleich/ebnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "rank": 134,
+      "root": "ك ي ف",
+      "rootArabic": "كيف",
+      "transliteration": "k-y-f",
+      "count": 83,
+      "percentage": "0.11%",
+      "meaning": "wie/auf welche Art",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "rank": 135,
+      "root": "ح ر م",
+      "rootArabic": "حرم",
+      "transliteration": "ḥ-r-m",
+      "count": 83,
+      "percentage": "0.11%",
+      "meaning": "verboten/eingeschränkt",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "rank": 136,
+      "root": "ز و ج",
+      "rootArabic": "زوج",
+      "transliteration": "z-w-ǧ",
+      "count": 81,
+      "percentage": "0.10%",
+      "meaning": "Paar/Gattin",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 137,
+      "root": "ع ق ب",
+      "rootArabic": "عقب",
+      "transliteration": "ʿ-q-b",
+      "count": 80,
+      "percentage": "0.10%",
+      "meaning": "Folge/Strafe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "rank": 138,
+      "root": "ع ر ض",
+      "rootArabic": "عرض",
+      "transliteration": "ʿ-r-ḍ",
+      "count": 79,
+      "percentage": "0.10%",
+      "meaning": "zeigen/breit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "rank": 139,
+      "root": "و ج ه",
+      "rootArabic": "وجه",
+      "transliteration": "w-ǧ-h",
+      "count": 78,
+      "percentage": "0.10%",
+      "meaning": "Gesicht/Richtung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=112"
+    },
+    {
+      "rank": 140,
+      "root": "و ح ي",
+      "rootArabic": "وحي",
+      "transliteration": "w-ḥ-y",
+      "count": 78,
+      "percentage": "0.10%",
+      "meaning": "eingeben, einflüstern",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=44"
+    },
+    {
+      "rank": 141,
+      "root": "ص و ب",
+      "rootArabic": "صوب",
+      "transliteration": "ṣ-w-b",
+      "count": 77,
+      "percentage": "0.10%",
+      "meaning": "treffen/Strafe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "rank": 142,
+      "root": "ب ل غ",
+      "rootArabic": "بلغ",
+      "transliteration": "b-l-ġ",
+      "count": 77,
+      "percentage": "0.10%",
+      "meaning": "erreichen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+    },
+    {
+      "rank": 143,
+      "root": "ق ل ل",
+      "rootArabic": "قلل",
+      "transliteration": "q-l-l",
+      "count": 76,
+      "percentage": "0.10%",
+      "meaning": "wenig/gering",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=41"
+    },
+    {
+      "rank": 144,
+      "root": "ا ل م",
+      "rootArabic": "الم",
+      "transliteration": "ā-l-m",
+      "count": 75,
+      "percentage": "0.10%",
+      "meaning": "Schmerz/schmerzhaft",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "rank": 145,
+      "root": "ك ل م",
+      "rootArabic": "كلم",
+      "transliteration": "k-l-m",
+      "count": 75,
+      "percentage": "0.10%",
+      "meaning": "Wort/sprechen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+    },
+    {
+      "rank": 146,
+      "root": "ش ك ر",
+      "rootArabic": "شكر",
+      "transliteration": "š-k-r",
+      "count": 75,
+      "percentage": "0.10%",
+      "meaning": "danken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=52"
+    },
+    {
+      "rank": 147,
+      "root": "ض ر ر",
+      "rootArabic": "ضرر",
+      "transliteration": "ḍ-r-r",
+      "count": 74,
+      "percentage": "0.10%",
+      "meaning": "Schaden/schaden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "rank": 148,
+      "root": "ب ا س",
+      "rootArabic": "باس",
+      "transliteration": "b-ā-s",
+      "count": 73,
+      "percentage": "0.09%",
+      "meaning": "Macht/Leid",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+    },
+    {
+      "rank": 149,
+      "root": "ر ض و",
+      "rootArabic": "رضو",
+      "transliteration": "r-ḍ-w",
+      "count": 73,
+      "percentage": "0.09%",
+      "meaning": "zufrieden sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=120"
+    },
+    {
+      "rank": 150,
+      "root": "ب ي ت",
+      "rootArabic": "بيت",
+      "transliteration": "b-y-t",
+      "count": 73,
+      "percentage": "0.09%",
+      "meaning": "Haus",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "rank": 151,
+      "root": "ر ج ل",
+      "rootArabic": "رجل",
+      "transliteration": "r-ǧ-l",
+      "count": 73,
+      "percentage": "0.09%",
+      "meaning": "Mann/Fuß",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+    },
+    {
+      "rank": 152,
+      "root": "غ ن ي",
+      "rootArabic": "غني",
+      "transliteration": "ġ-n-y",
+      "count": 73,
+      "percentage": "0.09%",
+      "meaning": "reich/genügen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=263"
+    },
+    {
+      "rank": 153,
+      "root": "ف ر ق",
+      "rootArabic": "فرق",
+      "transliteration": "f-r-q",
+      "count": 72,
+      "percentage": "0.09%",
+      "meaning": "trennen/Gruppe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+    },
+    {
+      "rank": 154,
+      "root": "ي م ن",
+      "rootArabic": "يمن",
+      "transliteration": "y-m-n",
+      "count": 71,
+      "percentage": "0.09%",
+      "meaning": "rechts/Eid",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=224"
+    },
+    {
+      "rank": 155,
+      "root": "م ت ع",
+      "rootArabic": "متع",
+      "transliteration": "m-t-ʿ",
+      "count": 70,
+      "percentage": "0.09%",
+      "meaning": "Genuss/Nutzen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+    },
+    {
+      "rank": 156,
+      "root": "ع ر ف",
+      "rootArabic": "عرف",
+      "transliteration": "ʿ-r-f",
+      "count": 70,
+      "percentage": "0.09%",
+      "meaning": "erkennen/Brauch",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=89"
+    },
+    {
+      "rank": 157,
+      "root": "ع ل و",
+      "rootArabic": "علو",
+      "transliteration": "ʿ-l-w",
+      "count": 70,
+      "percentage": "0.09%",
+      "meaning": "hoch/erhaben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "rank": 158,
+      "root": "و ك ل",
+      "rootArabic": "وكل",
+      "transliteration": "w-k-l",
+      "count": 70,
+      "percentage": "0.09%",
+      "meaning": "anvertrauen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=122"
+    },
+    {
+      "rank": 159,
+      "root": "س ك ن",
+      "rootArabic": "سكن",
+      "transliteration": "s-k-n",
+      "count": 69,
+      "percentage": "0.09%",
+      "meaning": "wohnen/Ruhe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "rank": 160,
+      "root": "ظ ن ن",
+      "rootArabic": "ظنن",
+      "transliteration": "ẓ-n-n",
+      "count": 69,
+      "percentage": "0.09%",
+      "meaning": "meinen/vermuten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=46"
+    },
+    {
+      "rank": 161,
+      "root": "و ح د",
+      "rootArabic": "وحد",
+      "transliteration": "w-ḥ-d",
+      "count": 68,
+      "percentage": "0.09%",
+      "meaning": "einzig/allein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "rank": 162,
+      "root": "ه ل ك",
+      "rootArabic": "هلك",
+      "transliteration": "h-l-k",
+      "count": 68,
+      "percentage": "0.09%",
+      "meaning": "vernichten/zugrundegehen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=195"
+    },
+    {
+      "rank": 163,
+      "root": "ب ع ث",
+      "rootArabic": "بعث",
+      "transliteration": "b-ʿ-ṯ",
+      "count": 67,
+      "percentage": "0.09%",
+      "meaning": "erwecken/senden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=56"
+    },
+    {
+      "rank": 164,
+      "root": "ك س ب",
+      "rootArabic": "كسب",
+      "transliteration": "k-s-b",
+      "count": 67,
+      "percentage": "0.09%",
+      "meaning": "erwerben/verdienen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+    },
+    {
+      "rank": 165,
+      "root": "و ف ي",
+      "rootArabic": "وفي",
+      "transliteration": "w-f-y",
+      "count": 66,
+      "percentage": "0.09%",
+      "meaning": "erfüllen/voll",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+    },
+    {
+      "rank": 166,
+      "root": "ج ر م",
+      "rootArabic": "جرم",
+      "transliteration": "ǧ-r-m",
+      "count": 66,
+      "percentage": "0.09%",
+      "meaning": "Verfehlung/Verbrechen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=2"
+    },
+    {
+      "rank": 167,
+      "root": "خ س ر",
+      "rootArabic": "خسر",
+      "transliteration": "ḫ-s-r",
+      "count": 65,
+      "percentage": "0.08%",
+      "meaning": "verlieren/Verlust",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 168,
+      "root": "ع ي ن",
+      "rootArabic": "عين",
+      "transliteration": "ʿ-y-n",
+      "count": 65,
+      "percentage": "0.08%",
+      "meaning": "Auge/Quelle",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "rank": 169,
+      "root": "ج ر ي",
+      "rootArabic": "جري",
+      "transliteration": "ǧ-r-y",
+      "count": 64,
+      "percentage": "0.08%",
+      "meaning": "fließen/laufen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 170,
+      "root": "ح م ل",
+      "rootArabic": "حمل",
+      "transliteration": "ḥ-m-l",
+      "count": 64,
+      "percentage": "0.08%",
+      "meaning": "tragen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=248"
+    },
+    {
+      "rank": 171,
+      "root": "ح م د",
+      "rootArabic": "حمد",
+      "transliteration": "ḥ-m-d",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "loben/Lob",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "rank": 172,
+      "root": "م و ه",
+      "rootArabic": "موه",
+      "transliteration": "m-w-h",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "Wasser",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+    },
+    {
+      "rank": 173,
+      "root": "ت ل و",
+      "rootArabic": "تلو",
+      "transliteration": "t-l-w",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "verlesen/folgen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=44"
+    },
+    {
+      "rank": 174,
+      "root": "س ح ر",
+      "rootArabic": "سحر",
+      "transliteration": "s-ḥ-r",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "Zauberei/Magie",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "rank": 175,
+      "root": "ق ض ي",
+      "rootArabic": "قضي",
+      "transliteration": "q-ḍ-y",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "entscheiden/richten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=117"
+    },
+    {
+      "rank": 176,
+      "root": "ع و د",
+      "rootArabic": "عود",
+      "transliteration": "ʿ-w-d",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "zurückkehren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+    },
+    {
+      "rank": 177,
+      "root": "ذ و ق",
+      "rootArabic": "ذوق",
+      "transliteration": "ḏ-w-q",
+      "count": 63,
+      "percentage": "0.08%",
+      "meaning": "kosten/schmecken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+    },
+    {
+      "rank": 178,
+      "root": "ز ي د",
+      "rootArabic": "زيد",
+      "transliteration": "z-y-d",
+      "count": 61,
+      "percentage": "0.08%",
+      "meaning": "vermehren/mehr",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "rank": 179,
+      "root": "م س س",
+      "rootArabic": "مسس",
+      "transliteration": "m-s-s",
+      "count": 61,
+      "percentage": "0.08%",
+      "meaning": "berühren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=80"
+    },
+    {
+      "rank": 180,
+      "root": "غ ي ب",
+      "rootArabic": "غيب",
+      "transliteration": "ġ-y-b",
+      "count": 60,
+      "percentage": "0.08%",
+      "meaning": "Verborgenes/unsichtbar",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "rank": 181,
+      "root": "ف ت ن",
+      "rootArabic": "فتن",
+      "transliteration": "f-t-n",
+      "count": 60,
+      "percentage": "0.08%",
+      "meaning": "Versuchung/prüfen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "rank": 182,
+      "root": "ف ر ي",
+      "rootArabic": "فري",
+      "transliteration": "f-r-y",
+      "count": 60,
+      "percentage": "0.08%",
+      "meaning": "Gruppe/erdichten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=24"
+    },
+    {
+      "rank": 183,
+      "root": "ز ك و",
+      "rootArabic": "زكو",
+      "transliteration": "z-k-w",
+      "count": 59,
+      "percentage": "0.08%",
+      "meaning": "Reinheit/Zakat",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+    },
+    {
+      "rank": 184,
+      "root": "ن س و",
+      "rootArabic": "نسو",
+      "transliteration": "n-s-w",
+      "count": 59,
+      "percentage": "0.08%",
+      "meaning": "Frauen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+    },
+    {
+      "rank": 185,
+      "root": "ظ ه ر",
+      "rootArabic": "ظهر",
+      "transliteration": "ẓ-h-r",
+      "count": 59,
+      "percentage": "0.08%",
+      "meaning": "erscheinen/Rücken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "rank": 186,
+      "root": "ر د د",
+      "rootArabic": "ردد",
+      "transliteration": "r-d-d",
+      "count": 59,
+      "percentage": "0.08%",
+      "meaning": "zurückweisen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "rank": 187,
+      "root": "ض ر ب",
+      "rootArabic": "ضرب",
+      "transliteration": "ḍ-r-b",
+      "count": 58,
+      "percentage": "0.07%",
+      "meaning": "schlagen/präsentieren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 188,
+      "root": "ع د د",
+      "rootArabic": "عدد",
+      "transliteration": "ʿ-d-d",
+      "count": 57,
+      "percentage": "0.07%",
+      "meaning": "Zahl/zählen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "rank": 189,
+      "root": "ق ر ي",
+      "rootArabic": "قري",
+      "transliteration": "q-r-y",
+      "count": 57,
+      "percentage": "0.07%",
+      "meaning": "Dorf/Stadt",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "rank": 190,
+      "root": "ر و ح",
+      "rootArabic": "روح",
+      "transliteration": "r-w-ḥ",
+      "count": 57,
+      "percentage": "0.07%",
+      "meaning": "Geist/Hauch",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "rank": 191,
+      "root": "ذ ه ب",
+      "rootArabic": "ذهب",
+      "transliteration": "ḏ-h-b",
+      "count": 56,
+      "percentage": "0.07%",
+      "meaning": "gehen/Gold",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "rank": 192,
+      "root": "ن ه ي",
+      "rootArabic": "نهي",
+      "transliteration": "n-h-y",
+      "count": 56,
+      "percentage": "0.07%",
+      "meaning": "verbieten/Ende",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=192"
+    },
+    {
+      "rank": 193,
+      "root": "ا ج ل",
+      "rootArabic": "اجل",
+      "transliteration": "ā-ǧ-l",
+      "count": 56,
+      "percentage": "0.07%",
+      "meaning": "Frist/Termin",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=231"
+    },
+    {
+      "rank": 194,
+      "root": "د و ر",
+      "rootArabic": "دور",
+      "transliteration": "d-w-r",
+      "count": 55,
+      "percentage": "0.07%",
+      "meaning": "Wohnung/Kreis",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=84"
+    },
+    {
+      "rank": 195,
+      "root": "ف س ق",
+      "rootArabic": "فسق",
+      "transliteration": "f-s-q",
+      "count": 54,
+      "percentage": "0.07%",
+      "meaning": "freveln",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 196,
+      "root": "ن د و",
+      "rootArabic": "ندو",
+      "transliteration": "n-d-w",
+      "count": 53,
+      "percentage": "0.07%",
+      "meaning": "rufen/Versammlung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=171"
+    },
+    {
+      "rank": 197,
+      "root": "خ ب ر",
+      "rootArabic": "خبر",
+      "transliteration": "ḫ-b-r",
+      "count": 52,
+      "percentage": "0.07%",
+      "meaning": "Kunde/erfahren",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=234"
+    },
+    {
+      "rank": 198,
+      "root": "ض ع ف",
+      "rootArabic": "ضعف",
+      "transliteration": "ḍ-ʿ-f",
+      "count": 52,
+      "percentage": "0.07%",
+      "meaning": "schwach/doppelt",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=245"
+    },
+    {
+      "rank": 199,
+      "root": "ت ح ت",
+      "rootArabic": "تحت",
+      "transliteration": "t-ḥ-t",
+      "count": 51,
+      "percentage": "0.07%",
+      "meaning": "unter/unterhalb",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 200,
+      "root": "ح ل ل",
+      "rootArabic": "حلل",
+      "transliteration": "ḥ-l-l",
+      "count": 51,
+      "percentage": "0.07%",
+      "meaning": "erlaubt/lösen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=168"
+    },
+    {
+      "rank": 201,
+      "root": "ف س د",
+      "rootArabic": "فسد",
+      "transliteration": "f-s-d",
+      "count": 50,
+      "percentage": "0.06%",
+      "meaning": "Verderben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "rank": 202,
+      "root": "ط ي ب",
+      "rootArabic": "طيب",
+      "transliteration": "ṭ-y-b",
+      "count": 50,
+      "percentage": "0.06%",
+      "meaning": "gut/rein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=57"
+    },
+    {
+      "rank": 203,
+      "root": "ن ف ع",
+      "rootArabic": "نفع",
+      "transliteration": "n-f-ʿ",
+      "count": 50,
+      "percentage": "0.06%",
+      "meaning": "nützen/Nutzen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "rank": 204,
+      "root": "ع ق ل",
+      "rootArabic": "عقل",
+      "transliteration": "ʿ-q-l",
+      "count": 49,
+      "percentage": "0.06%",
+      "meaning": "Verstand/begreifen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=44"
+    },
+    {
+      "rank": 205,
+      "root": "س و ع",
+      "rootArabic": "سوع",
+      "transliteration": "s-w-ʿ",
+      "count": 49,
+      "percentage": "0.06%",
+      "meaning": "Stunde",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=31"
+    },
+    {
+      "rank": 206,
+      "root": "ط ع م",
+      "rootArabic": "طعم",
+      "transliteration": "ṭ-ʿ-m",
+      "count": 48,
+      "percentage": "0.06%",
+      "meaning": "Speise/essen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "rank": 207,
+      "root": "خ ش ي",
+      "rootArabic": "خشي",
+      "transliteration": "ḫ-š-y",
+      "count": 48,
+      "percentage": "0.06%",
+      "meaning": "ehrfürchten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "rank": 208,
+      "root": "ا ث م",
+      "rootArabic": "اثم",
+      "transliteration": "ā-ṯ-m",
+      "count": 48,
+      "percentage": "0.06%",
+      "meaning": "Verfehlung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "rank": 209,
+      "root": "ق د م",
+      "rootArabic": "قدم",
+      "transliteration": "q-d-m",
+      "count": 48,
+      "percentage": "0.06%",
+      "meaning": "vorangehen/Fuß",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=95"
+    },
+    {
+      "rank": 210,
+      "root": "ع ج ل",
+      "rootArabic": "عجل",
+      "transliteration": "ʿ-ǧ-l",
+      "count": 47,
+      "percentage": "0.06%",
+      "meaning": "eilen/Kalb",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51"
+    },
+    {
+      "rank": 211,
+      "root": "ك ر م",
+      "rootArabic": "كرم",
+      "transliteration": "k-r-m",
+      "count": 47,
+      "percentage": "0.06%",
+      "meaning": "edel/großzügig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=31"
+    },
+    {
+      "rank": 212,
+      "root": "ع ه د",
+      "rootArabic": "عهد",
+      "transliteration": "ʿ-h-d",
+      "count": 46,
+      "percentage": "0.06%",
+      "meaning": "Bund/Versprechen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 213,
+      "root": "ز ي ن",
+      "rootArabic": "زين",
+      "transliteration": "z-y-n",
+      "count": 46,
+      "percentage": "0.06%",
+      "meaning": "Schmuck/schmücken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=212"
+    },
+    {
+      "rank": 214,
+      "root": "ص د ر",
+      "rootArabic": "صدر",
+      "transliteration": "ṣ-d-r",
+      "count": 46,
+      "percentage": "0.06%",
+      "meaning": "Brust",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=29"
+    },
+    {
+      "rank": 215,
+      "root": "ص ر ط",
+      "rootArabic": "صرط",
+      "transliteration": "ṣ-r-ṭ",
+      "count": 45,
+      "percentage": "0.06%",
+      "meaning": "Weg/Pfad",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "rank": 216,
+      "root": "ن س ي",
+      "rootArabic": "نسي",
+      "transliteration": "n-s-y",
+      "count": 45,
+      "percentage": "0.06%",
+      "meaning": "vergessen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=44"
+    },
+    {
+      "rank": 217,
+      "root": "و ذ ر",
+      "rootArabic": "وذر",
+      "transliteration": "w-ḏ-r",
+      "count": 45,
+      "percentage": "0.06%",
+      "meaning": "lassen/warnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=234"
+    },
+    {
+      "rank": 218,
+      "root": "ص ب ح",
+      "rootArabic": "صبح",
+      "transliteration": "ṣ-b-ḥ",
+      "count": 45,
+      "percentage": "0.06%",
+      "meaning": "Morgen/werden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=103"
+    },
+    {
+      "rank": 219,
+      "root": "ب د ل",
+      "rootArabic": "بدل",
+      "transliteration": "b-d-l",
+      "count": 44,
+      "percentage": "0.06%",
+      "meaning": "ändern/tauschen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=59"
+    },
+    {
+      "rank": 220,
+      "root": "س ر ر",
+      "rootArabic": "سرر",
+      "transliteration": "s-r-r",
+      "count": 44,
+      "percentage": "0.06%",
+      "meaning": "Geheimnis/Freude",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=69"
+    },
+    {
+      "rank": 221,
+      "root": "ي س ر",
+      "rootArabic": "يسر",
+      "transliteration": "y-s-r",
+      "count": 44,
+      "percentage": "0.06%",
+      "meaning": "leicht/Leichtigkeit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    },
+    {
+      "rank": 222,
+      "root": "ح ف ظ",
+      "rootArabic": "حفظ",
+      "transliteration": "ḥ-f-ẓ",
+      "count": 44,
+      "percentage": "0.06%",
+      "meaning": "bewahren/hüten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=238"
+    },
+    {
+      "rank": 223,
+      "root": "د ب ر",
+      "rootArabic": "دبر",
+      "transliteration": "d-b-r",
+      "count": 44,
+      "percentage": "0.06%",
+      "meaning": "hinter/nachdenken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=111"
+    },
+    {
+      "rank": 224,
+      "root": "ت ر ك",
+      "rootArabic": "ترك",
+      "transliteration": "t-r-k",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "verlassen/lassen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "rank": 225,
+      "root": "ف و ق",
+      "rootArabic": "فوق",
+      "transliteration": "f-w-q",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "über/oberhalb",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "rank": 226,
+      "root": "ج و ب",
+      "rootArabic": "جوب",
+      "transliteration": "ǧ-w-b",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "antworten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+    },
+    {
+      "rank": 227,
+      "root": "ح ش ر",
+      "rootArabic": "حشر",
+      "transliteration": "ḥ-š-r",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "versammeln",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=203"
+    },
+    {
+      "rank": 228,
+      "root": "ف ص ل",
+      "rootArabic": "فصل",
+      "transliteration": "f-ṣ-l",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "trennen/entscheiden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "rank": 229,
+      "root": "م ك ر",
+      "rootArabic": "مكر",
+      "transliteration": "m-k-r",
+      "count": 43,
+      "percentage": "0.06%",
+      "meaning": "List/planen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=54"
+    },
+    {
+      "rank": 230,
+      "root": "ح ز ن",
+      "rootArabic": "حزن",
+      "transliteration": "ḥ-z-n",
+      "count": 42,
+      "percentage": "0.05%",
+      "meaning": "Trauer/traurig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+    },
+    {
+      "rank": 231,
+      "root": "ب ح ر",
+      "rootArabic": "بحر",
+      "transliteration": "b-ḥ-r",
+      "count": 42,
+      "percentage": "0.05%",
+      "meaning": "Meer",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+    },
+    {
+      "rank": 232,
+      "root": "ق و ي",
+      "rootArabic": "قوي",
+      "transliteration": "q-w-y",
+      "count": 42,
+      "percentage": "0.05%",
+      "meaning": "Kraft/stark",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=63"
+    },
+    {
+      "rank": 233,
+      "root": "س خ ر",
+      "rootArabic": "سخر",
+      "transliteration": "s-ḫ-r",
+      "count": 42,
+      "percentage": "0.05%",
+      "meaning": "verspotten/dienstbar",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=164"
+    },
+    {
+      "rank": 234,
+      "root": "ص د د",
+      "rootArabic": "صدد",
+      "transliteration": "ṣ-d-d",
+      "count": 42,
+      "percentage": "0.05%",
+      "meaning": "abhalten/abwenden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+    },
+    {
+      "rank": 235,
+      "root": "ل ع ن",
+      "rootArabic": "لعن",
+      "transliteration": "l-ʿ-n",
+      "count": 41,
+      "percentage": "0.05%",
+      "meaning": "verfluchen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=88"
+    },
+    {
+      "rank": 236,
+      "root": "ط و ف",
+      "rootArabic": "طوف",
+      "transliteration": "ṭ-w-f",
+      "count": 41,
+      "percentage": "0.05%",
+      "meaning": "umkreisen/Flut",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "rank": 237,
+      "root": "ك ر ه",
+      "rootArabic": "كره",
+      "transliteration": "k-r-h",
+      "count": 41,
+      "percentage": "0.05%",
+      "meaning": "hassen/verabscheun",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+    },
+    {
+      "rank": 238,
+      "root": "ج ه د",
+      "rootArabic": "جهد",
+      "transliteration": "ǧ-h-d",
+      "count": 41,
+      "percentage": "0.05%",
+      "meaning": "sich bemühen/Kampf",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=218"
+    },
+    {
+      "rank": 239,
+      "root": "ج ب ل",
+      "rootArabic": "جبل",
+      "transliteration": "ǧ-b-l",
+      "count": 41,
+      "percentage": "0.05%",
+      "meaning": "Berg",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=260"
+    },
+    {
+      "rank": 240,
+      "root": "ف ل ح",
+      "rootArabic": "فلح",
+      "transliteration": "f-l-ḥ",
+      "count": 40,
+      "percentage": "0.05%",
+      "meaning": "Erfolg haben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+    },
+    {
+      "rank": 241,
+      "root": "ش ع ر",
+      "rootArabic": "شعر",
+      "transliteration": "š-ʿ-r",
+      "count": 40,
+      "percentage": "0.05%",
+      "meaning": "fühlen/wahrnehmen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "rank": 242,
+      "root": "م ل ا",
+      "rootArabic": "ملا",
+      "transliteration": "m-l-ā",
+      "count": 40,
+      "percentage": "0.05%",
+      "meaning": "füllen/Schar",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=246"
+    },
+    {
+      "rank": 243,
+      "root": "ط غ ي",
+      "rootArabic": "طغي",
+      "transliteration": "ṭ-ġ-y",
+      "count": 39,
+      "percentage": "0.05%",
+      "meaning": "übertreten/Tyrannei",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=15"
+    },
+    {
+      "rank": 244,
+      "root": "ش ر ب",
+      "rootArabic": "شرب",
+      "transliteration": "š-r-b",
+      "count": 39,
+      "percentage": "0.05%",
+      "meaning": "trinken",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "rank": 245,
+      "root": "ذ ن ب",
+      "rootArabic": "ذنب",
+      "transliteration": "ḏ-n-b",
+      "count": 39,
+      "percentage": "0.05%",
+      "meaning": "Verfehlung/Schuld",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=11"
+    },
+    {
+      "rank": 246,
+      "root": "س ل ط",
+      "rootArabic": "سلط",
+      "transliteration": "s-l-ṭ",
+      "count": 39,
+      "percentage": "0.05%",
+      "meaning": "Macht/Beweis",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=151"
+    },
+    {
+      "rank": 247,
+      "root": "ق ر ر",
+      "rootArabic": "قرر",
+      "transliteration": "q-r-r",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "festsetzen/ruhen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+    },
+    {
+      "rank": 248,
+      "root": "ب ل و",
+      "rootArabic": "بلو",
+      "transliteration": "b-l-w",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "prüfen/erproben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+    },
+    {
+      "rank": 249,
+      "root": "ف ت ح",
+      "rootArabic": "فتح",
+      "transliteration": "f-t-ḥ",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "öffnen/Sieg",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=76"
+    },
+    {
+      "rank": 250,
+      "root": "ه و ي",
+      "rootArabic": "هوي",
+      "transliteration": "h-w-y",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "fallen/Neigung",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "rank": 251,
+      "root": "م ر ا",
+      "rootArabic": "مرا",
+      "transliteration": "m-r-ā",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "Frau/streiten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "rank": 252,
+      "root": "ذ ر ر",
+      "rootArabic": "ذرر",
+      "transliteration": "ḏ-r-r",
+      "count": 38,
+      "percentage": "0.05%",
+      "meaning": "Nachkommenschaft",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "rank": 253,
+      "root": "س ب ق",
+      "rootArabic": "سبق",
+      "transliteration": "s-b-q",
+      "count": 37,
+      "percentage": "0.05%",
+      "meaning": "vorausgehen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=148"
+    },
+    {
+      "rank": 254,
+      "root": "ا ل و",
+      "rootArabic": "الو",
+      "transliteration": "ā-l-w",
+      "count": 37,
+      "percentage": "0.05%",
+      "meaning": "schwur/schwer",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=226"
+    },
+    {
+      "rank": 255,
+      "root": "ن ك ر",
+      "rootArabic": "نكر",
+      "transliteration": "n-k-r",
+      "count": 37,
+      "percentage": "0.05%",
+      "meaning": "leugnen/verweigern",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=104"
+    },
+    {
+      "rank": 256,
+      "root": "ر ي ب",
+      "rootArabic": "ريب",
+      "transliteration": "r-y-b",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "Zweifel",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "rank": 257,
+      "root": "ق ط ع",
+      "rootArabic": "قطع",
+      "transliteration": "q-ṭ-ʿ",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "abschneiden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 258,
+      "root": "ب ط ل",
+      "rootArabic": "بطل",
+      "transliteration": "b-ṭ-l",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "nichtig/Falschheit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=42"
+    },
+    {
+      "rank": 259,
+      "root": "ح د ث",
+      "rootArabic": "حدث",
+      "transliteration": "ḥ-d-ṯ",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "Rede/erzählen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=76"
+    },
+    {
+      "rank": 260,
+      "root": "ا ن ي",
+      "rootArabic": "اني",
+      "transliteration": "ā-n-y",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "Gefäß/Zeit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=223"
+    },
+    {
+      "rank": 261,
+      "root": "ا و ي",
+      "rootArabic": "اوي",
+      "transliteration": "ā-w-y",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "Zuflucht nehmen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=151"
+    },
+    {
+      "rank": 262,
+      "root": "ق ر ن",
+      "rootArabic": "قرن",
+      "transliteration": "q-r-n",
+      "count": 36,
+      "percentage": "0.05%",
+      "meaning": "Generation/verbinden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=38"
+    },
+    {
+      "rank": 263,
+      "root": "ح ي ن",
+      "rootArabic": "حين",
+      "transliteration": "ḥ-y-n",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "Zeit/Zeitpunkt",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+    },
+    {
+      "rank": 264,
+      "root": "ع ف و",
+      "rootArabic": "عفو",
+      "transliteration": "ʿ-f-w",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "vergeben/verzeihen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=52"
+    },
+    {
+      "rank": 265,
+      "root": "غ ف ل",
+      "rootArabic": "غفل",
+      "transliteration": "ġ-f-l",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "achtlos/unachtsam",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "rank": 266,
+      "root": "م ر ر",
+      "rootArabic": "مرر",
+      "transliteration": "m-r-r",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "vorbeigehen/Mal",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=229"
+    },
+    {
+      "rank": 267,
+      "root": "و ر ث",
+      "rootArabic": "ورث",
+      "transliteration": "w-r-ṯ",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "erben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "rank": 268,
+      "root": "ك ي د",
+      "rootArabic": "كيد",
+      "transliteration": "k-y-d",
+      "count": 35,
+      "percentage": "0.05%",
+      "meaning": "List/Ränke",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=120"
+    },
+    {
+      "rank": 269,
+      "root": "ه ز ا",
+      "rootArabic": "هزا",
+      "transliteration": "h-z-ā",
+      "count": 34,
+      "percentage": "0.04%",
+      "meaning": "spotten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "rank": 270,
+      "root": "و ث ق",
+      "rootArabic": "وثق",
+      "transliteration": "w-ṯ-q",
+      "count": 34,
+      "percentage": "0.04%",
+      "meaning": "Bund/vertrauen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "rank": 271,
+      "root": "ج ن ح",
+      "rootArabic": "جنح",
+      "transliteration": "ǧ-n-ḥ",
+      "count": 34,
+      "percentage": "0.04%",
+      "meaning": "Flügel/Seite",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=158"
+    },
+    {
+      "rank": 272,
+      "root": "خ ف ي",
+      "rootArabic": "خفي",
+      "transliteration": "ḫ-f-y",
+      "count": 34,
+      "percentage": "0.04%",
+      "meaning": "verbergen/verborgen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=271"
+    },
+    {
+      "rank": 273,
+      "root": "ع م ي",
+      "rootArabic": "عمي",
+      "transliteration": "ʿ-m-y",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "blind/Blindheit",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "rank": 274,
+      "root": "ظ ل ل",
+      "rootArabic": "ظلل",
+      "transliteration": "ẓ-l-l",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "Schatten",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=57"
+    },
+    {
+      "rank": 275,
+      "root": "ح ج ج",
+      "rootArabic": "حجج",
+      "transliteration": "ḥ-ǧ-ǧ",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "Pilgerfahrt/Beweis",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=76"
+    },
+    {
+      "rank": 276,
+      "root": "ك ف ي",
+      "rootArabic": "كفي",
+      "transliteration": "k-f-y",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "genügen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=137"
+    },
+    {
+      "rank": 277,
+      "root": "ش م س",
+      "rootArabic": "شمس",
+      "transliteration": "š-m-s",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "Sonne",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=258"
+    },
+    {
+      "rank": 278,
+      "root": "ع ر ش",
+      "rootArabic": "عرش",
+      "transliteration": "ʿ-r-š",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "Thron",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+    },
+    {
+      "rank": 279,
+      "root": "ج ن ب",
+      "rootArabic": "جنب",
+      "transliteration": "ǧ-n-b",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "Seite/meiden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=191"
+    },
+    {
+      "rank": 280,
+      "root": "ق س م",
+      "rootArabic": "قسم",
+      "transliteration": "q-s-m",
+      "count": 33,
+      "percentage": "0.04%",
+      "meaning": "teilen/schwören",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=8"
+    },
+    {
+      "rank": 281,
+      "root": "م د د",
+      "rootArabic": "مدد",
+      "transliteration": "m-d-d",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "ausdehnen/Frist",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=15"
+    },
+    {
+      "rank": 282,
+      "root": "ب ر ر",
+      "rootArabic": "برر",
+      "transliteration": "b-r-r",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "fromm/Güte",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=44"
+    },
+    {
+      "rank": 283,
+      "root": "ع ص ي",
+      "rootArabic": "عصي",
+      "transliteration": "ʿ-ṣ-y",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "ungehorsam sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+    },
+    {
+      "rank": 284,
+      "root": "و ر ي",
+      "rootArabic": "وري",
+      "transliteration": "w-r-y",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "hinter/Feuer",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=91"
+    },
+    {
+      "rank": 285,
+      "root": "و س ع",
+      "rootArabic": "وسع",
+      "transliteration": "w-s-ʿ",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "weit/umfassen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=115"
+    },
+    {
+      "rank": 286,
+      "root": "و ص ي",
+      "rootArabic": "وصي",
+      "transliteration": "w-ṣ-y",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "empfehlen/Testament",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132"
+    },
+    {
+      "rank": 287,
+      "root": "ث ل ث",
+      "rootArabic": "ثلث",
+      "transliteration": "ṯ-l-ṯ",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "drei/Drittel",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+    },
+    {
+      "rank": 288,
+      "root": "ن ص ب",
+      "rootArabic": "نصب",
+      "transliteration": "n-ṣ-b",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "errichten/Mühe",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=202"
+    },
+    {
+      "rank": 289,
+      "root": "ب ر ك",
+      "rootArabic": "برك",
+      "transliteration": "b-r-k",
+      "count": 32,
+      "percentage": "0.04%",
+      "meaning": "sich niederlassen (Kamel); segnen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=96"
+    },
+    {
+      "rank": 290,
+      "root": "ط ه ر",
+      "rootArabic": "طهر",
+      "transliteration": "ṭ-h-r",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "rein/reinigen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "rank": 291,
+      "root": "ب د و",
+      "rootArabic": "بدو",
+      "transliteration": "b-d-w",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "erscheinen/sichtbar",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=33"
+    },
+    {
+      "rank": 292,
+      "root": "ح ي ث",
+      "rootArabic": "حيث",
+      "transliteration": "ḥ-y-ṯ",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "wo/wohin",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "rank": 293,
+      "root": "ش ف ع",
+      "rootArabic": "شفع",
+      "transliteration": "š-f-ʿ",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "Fürbitte",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "rank": 294,
+      "root": "ب ر ا",
+      "rootArabic": "برا",
+      "transliteration": "b-r-ā",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "erschaffen/frei sein",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+    },
+    {
+      "rank": 295,
+      "root": "خ ل ص",
+      "rootArabic": "خلص",
+      "transliteration": "ḫ-l-ṣ",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "rein/aufrichtig",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=94"
+    },
+    {
+      "rank": 296,
+      "root": "ق ع د",
+      "rootArabic": "قعد",
+      "transliteration": "q-ʿ-d",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "sitzen/bleiben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+    },
+    {
+      "rank": 297,
+      "root": "ش ر ر",
+      "rootArabic": "شرر",
+      "transliteration": "š-r-r",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "Übel/Böse",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+    },
+    {
+      "rank": 298,
+      "root": "ه ج ر",
+      "rootArabic": "هجر",
+      "transliteration": "h-ǧ-r",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "auswandern/verlassen",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=218"
+    },
+    {
+      "rank": 299,
+      "root": "غ ل ب",
+      "rootArabic": "غلب",
+      "transliteration": "ġ-l-b",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "besiegen/überwinden",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+    },
+    {
+      "rank": 300,
+      "root": "ل ب ث",
+      "rootArabic": "لبث",
+      "transliteration": "l-b-ṯ",
+      "count": 31,
+      "percentage": "0.04%",
+      "meaning": "verweilen/bleiben",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+    }
+  ]
+}

@@ -1,0 +1,1636 @@
+[
+  {
+    "id": "3.31",
+    "title": "Quantifizierer",
+    "description": "Die Wörter كُلّ (jeder/alle) und بَعْض (einige/manche) — zentrale Quantifizierer im Quran, die als erstes Glied einer Iḍāfa oder mit Suffixpronomen stehen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "كُلّ und بَعْض — Funktion und Stellung",
+          "content": "Arabisch besitzt zwei zentrale Quantifizierer: كُلّ (kull, jeder/alle) und بَعْض (baʿḍ, einige/manche). Beide Wörter können nicht allein stehen — sie brauchen immer ein Bezugswort. Dieses Bezugswort erscheint entweder als zweites Glied einer Iḍāfa-Konstruktion (كُلُّ نَفْسٍ = jedes Selbst) oder als angehängtes Suffixpronomen (كُلُّهُمْ = sie alle). Der Quantifizierer steht immer an erster Stelle und übernimmt den Kasus, den die syntaktische Position erfordert. Das Bezugswort steht im Genitiv, weil es das zweite Glied der Iḍāfa ist.",
+          "arabicExamples": [
+            {
+              "arabic": "كُلّ",
+              "transliteration": "kull",
+              "meaning": "jeder / alle"
+            },
+            {
+              "arabic": "بَعْض",
+              "transliteration": "baʿḍ",
+              "meaning": "einige / manche"
+            },
+            {
+              "arabic": "كُلُّ نَفْسٍ",
+              "transliteration": "kullu nafsin",
+              "meaning": "jedes Selbst"
+            },
+            {
+              "arabic": "كُلُّهُمْ",
+              "transliteration": "kulluhum",
+              "meaning": "sie alle"
+            },
+            {
+              "arabic": "بَعْضُهُمْ",
+              "transliteration": "baʿḍuhum",
+              "meaning": "einige von ihnen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "كُلّ mit Singular vs. Plural",
+          "content": "Ein entscheidender Bedeutungsunterschied ergibt sich aus dem Numerus des Bezugsworts: كُلّ mit einem Singular-Nomen bedeutet 'jeder einzelne' (distributiv): كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ = jedes (einzelne) Selbst wird den Tod kosten (3:185). كُلّ mit einem Plural-Nomen oder mit Suffixpronomen bedeutet 'alle zusammen' (kollektiv): كُلُّهُمْ أَجْمَعُونَ = sie alle zusammen (15:30). Dieser Unterschied ist im Quran durchgehend konsistent und für die korrekte grammatische Analyse wesentlich.",
+          "arabicExamples": [
+            {
+              "arabic": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ",
+              "transliteration": "kullu nafsin dhāʾiqatu l-mawt",
+              "meaning": "Jedes Selbst wird den Tod kosten (3:185)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+            },
+            {
+              "arabic": "كُلُّهُمْ أَجْمَعُونَ",
+              "transliteration": "kulluhum ajmaʿūn",
+              "meaning": "sie alle zusammen (15:30)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=30"
+            },
+            {
+              "arabic": "بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ",
+              "transliteration": "baʿḍuhum awliyāʾu baʿḍ",
+              "meaning": "einige von ihnen sind Schutzherren anderer (5:51)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=51"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ (3:185)",
+            "كُلُّ — Quantifizierer, Nominativ (Mubtadaʾ), Ḍamma auf dem Lām",
+            "نَفْسٍ — Singular-Nomen, Genitiv (zweites Glied der Iḍāfa), Kasra + Tanwīn",
+            "Da نَفْسٍ Singular ist → distributive Bedeutung: jedes einzelne Selbst",
+            "ذَائِقَةُ — aktives Partizip, Nominativ (Khabar zu كُلُّ نَفْسٍ)",
+            "الْمَوْتِ — Genitiv (zweites Glied der Iḍāfa mit ذَائِقَةُ)",
+            "Gesamtanalyse: كُلُّ نَفْسٍ ist Mubtadaʾ, ذَائِقَةُ الْمَوْتِ ist Khabar → Jedes Selbst wird den Tod kosten"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Kasus-Verhalten von كُلّ und بَعْض",
+          "content": "كُلّ und بَعْض verhalten sich kasustechnisch wie jedes andere Nomen: Sie übernehmen den Kasus, den ihre syntaktische Position verlangt. Als Subjekt: كُلُّ (Nominativ). Als Objekt: كُلَّ (Akkusativ). Nach einer Präposition: كُلِّ (Genitiv). Das Bezugswort bleibt immer im Genitiv, weil es zweites Iḍāfa-Glied ist. Beispiel: وَكُلَّ شَيْءٍ فَصَّلْنَاهُ تَفْصِيلًا (17:12) — كُلَّ steht im Akkusativ als vorausgestelltes Objekt, شَيْءٍ im Genitiv als Iḍāfa-Glied.",
+          "arabicExamples": [
+            {
+              "arabic": "كُلُّ نَفْسٍ",
+              "transliteration": "kullu nafsin",
+              "meaning": "jedes Selbst (Nominativ)"
+            },
+            {
+              "arabic": "كُلَّ شَيْءٍ",
+              "transliteration": "kulla shayʾin",
+              "meaning": "jede Sache / alles (Akkusativ)"
+            },
+            {
+              "arabic": "مِنْ كُلِّ بَابٍ",
+              "transliteration": "min kulli bābin",
+              "meaning": "durch jede Tür (Genitiv, 13:23)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=23"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=12"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "3:185",
+              "word": "كُلُّ نَفْسٍ",
+              "analysis": "Mubtadaʾ (Subjekt). كُلّ im Nominativ + نَفْسٍ im Genitiv (Iḍāfa). Singular → jedes einzelne Selbst.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+            },
+            {
+              "location": "15:30",
+              "word": "كُلُّهُمْ أَجْمَعُونَ",
+              "analysis": "كُلّ + Suffixpronomen هُمْ = sie alle. أَجْمَعُونَ ist Bekräftigung (Tawkīd): wirklich alle zusammen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=30"
+            },
+            {
+              "location": "5:51",
+              "word": "بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ",
+              "analysis": "بَعْضُهُمْ = einige von ihnen (Mubtadaʾ). بَعْضٍ am Ende = anderer (Genitiv nach أَوْلِيَاءُ).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=51"
+            },
+            {
+              "location": "17:12",
+              "word": "وَكُلَّ شَىْءٍ فَصَّلْنَٰهُ",
+              "analysis": "كُلَّ im Akkusativ (vorausgestelltes Objekt von فَصَّلْنَا). شَيْءٍ im Genitiv. Singular → jede einzelne Sache.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=12"
+            },
+            {
+              "location": "21:35",
+              "word": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ",
+              "analysis": "Identische Struktur wie 3:185. كُلّ + Singular = distributiv: jedes einzelne Selbst kostet den Tod.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=35"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet كُلُّ نَفْسٍ (kullu nafsin)?",
+          "options": [
+            "Alle Selbste zusammen",
+            "Jedes einzelne Selbst",
+            "Einige Selbste",
+            "Das Selbst von allen"
+          ],
+          "answer": "Jedes einzelne Selbst",
+          "explanation": "كُلّ mit einem Singular-Nomen hat distributive Bedeutung: jede einzelne. Bei einem Plural-Nomen oder Suffixpronomen wäre es kollektiv (alle zusammen).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme den Kasus von كُلَّ in: وَكُلَّ شَيْءٍ فَصَّلْنَاهُ (17:12)",
+          "options": [
+            "Nominativ (Rafʿ)",
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)"
+          ],
+          "answer": "Akkusativ (Naṣb)",
+          "explanation": "كُلَّ steht im Akkusativ, weil es das vorausgestellte Objekt (Mafʿūl bih muqaddam) des Verbs فَصَّلْنَا ist. Die Fatḥa auf dem Lām zeigt den Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=12"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: كُلّ mit einem Singular-Nomen bedeutet '______', كُلّ mit Suffixpronomen bedeutet '______'.",
+          "answer": [
+            "jeder einzelne",
+            "alle zusammen"
+          ],
+          "explanation": "كُلُّ نَفْسٍ = jedes einzelne Selbst (distributiv). كُلُّهُمْ = sie alle zusammen (kollektiv).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Konstruktion: بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ (5:51)",
+          "answer": "بَعْضُهُمْ = Mubtadaʾ (einige von ihnen), Nominativ. أَوْلِيَاءُ بَعْضٍ = Khabar (Schutzherren anderer). بَعْضٍ am Ende steht im Genitiv als zweites Iḍāfa-Glied.",
+          "explanation": "Die Struktur ist ein Nominalsatz: بَعْضُهُمْ (Mubtadaʾ) + أَوْلِيَاءُ بَعْضٍ (Khabar mit Iḍāfa). بَعْض erscheint zweimal mit unterschiedlichen Kasus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=51"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht نَفْسٍ in كُلُّ نَفْسٍ im Genitiv?",
+          "options": [
+            "Weil es nach einer Präposition steht",
+            "Weil es das zweite Glied einer Iḍāfa ist",
+            "Weil es ein Adjektiv ist",
+            "Weil es ein Objekt ist"
+          ],
+          "answer": "Weil es das zweite Glied einer Iḍāfa ist",
+          "explanation": "كُلُّ نَفْسٍ ist eine Iḍāfa-Konstruktion. كُلّ ist das erste Glied (Muḍāf) und نَفْسٍ das zweite (Muḍāf ilayh). Das zweite Glied steht immer im Genitiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Konstruktion ihrer Bedeutung zu:",
+          "pairs": [
+            {
+              "item": "كُلُّ نَفْسٍ",
+              "match": "jedes einzelne Selbst"
+            },
+            {
+              "item": "كُلُّهُمْ",
+              "match": "sie alle"
+            },
+            {
+              "item": "بَعْضُهُمْ",
+              "match": "einige von ihnen"
+            },
+            {
+              "item": "مِنْ كُلِّ بَابٍ",
+              "match": "durch jede Tür"
+            },
+            {
+              "item": "كُلَّ شَيْءٍ",
+              "match": "jede Sache (Akkusativ)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §131-135",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.32",
+    "title": "Verb-Subjekt-Numerus-Regel",
+    "description": "Wenn das Verb vor dem Subjekt steht, bleibt es im Singular — eine der wichtigsten und häufigsten Regeln der arabischen Syntax.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Die Grundregel: Verb vor Subjekt → Singular",
+          "content": "Im Arabischen gibt es eine fundamentale Regel zur Verb-Subjekt-Kongruenz: Wenn das Verb VOR dem Subjekt steht (Verbalsatz / Jumla fiʿliyya), bleibt das Verb im Singular — unabhängig davon, ob das Subjekt Dual, Plural oder sogar ein Kollektiv ist. Das Verb kongruiert nur im Genus (maskulin/feminin), nicht im Numerus. Diese Regel wirkt auf deutsche Lerner zunächst befremdlich, ist aber im klassischen Arabisch und im Quran absolut konsequent durchgehalten.",
+          "arabicExamples": [
+            {
+              "arabic": "جَاءَ الرِّجَالُ",
+              "transliteration": "jāʾa r-rijālu",
+              "meaning": "er-kam die-Männer = Die Männer kamen"
+            },
+            {
+              "arabic": "قَالَ الَّذِينَ",
+              "transliteration": "qāla lladhīna",
+              "meaning": "er-sagte diejenigen-welche = Diejenigen sagten"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Subjekt vor Verb → Volle Kongruenz",
+          "content": "Wenn dagegen das Subjekt VOR dem Verb steht (Nominalsatz-Struktur mit verbalem Khabar), stimmt das Verb in Numerus und Genus überein. Das liegt daran, dass das vorangestellte Subjekt als Mubtadaʾ fungiert und das Verb als Teil des Khabar, der in vollem Umfang kongruiert. Vergleich: جَاءَ الرِّجَالُ (Verb im Singular) vs. الرِّجَالُ جَاءُوا (Verb im Plural). Beide Sätze bedeuten 'die Männer kamen', aber die Satzstruktur unterscheidet sich grundlegend.",
+          "arabicExamples": [
+            {
+              "arabic": "الرِّجَالُ جَاءُوا",
+              "transliteration": "ar-rijālu jāʾū",
+              "meaning": "die-Männer sie-kamen (volle Kongruenz)"
+            },
+            {
+              "arabic": "النِّسَاءُ قُلْنَ",
+              "transliteration": "an-nisāʾu qulna",
+              "meaning": "die-Frauen sie-sagten (feminin Plural)"
+            },
+            {
+              "arabic": "الْمُؤْمِنُونَ يَعْلَمُونَ",
+              "transliteration": "al-muʾminūna yaʿlamūn",
+              "meaning": "die-Vertrauenden sie-wissen (volle Kongruenz)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: قَالَ الَّذِينَ كَفَرُوا (aus vielen Stellen, z.B. 34:31)",
+            "قَالَ — Verb, Perfekt, 3. Person maskulin SINGULAR",
+            "الَّذِينَ — Relativpronomen, Plural (diejenigen welche)",
+            "Obwohl الَّذِينَ Plural ist, steht قَالَ im Singular → Verb vor Subjekt!",
+            "كَفَرُوا — Hier steht das Verb NACH dem Pronomen (das in الَّذِينَ impliziert ist) → Plural-Kongruenz mit واو",
+            "Vergleich: لَوْ hätte der Satz gelautet الَّذِينَ كَفَرُوا قَالُوا, stünde قَالُوا im Plural",
+            "Merke: Die Position des Verbs relativ zum Subjekt bestimmt den Numerus des Verbs"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Warum diese Regel existiert",
+          "content": "Dies lässt sich so erklären: Wenn das Verb zuerst erscheint, ist das Subjekt noch nicht eingeführt — das Verb bleibt in der neutralsten, unmarkierten Form (Singular). Wenn das Subjekt zuerst steht, ist es bereits bekannt, und das Verb kongruiert vollständig. In der Praxis bedeutet das: Jedes Mal, wenn du im Quran ein Singular-Verb mit einem Plural-Subjekt siehst, weißt du sofort, dass es ein Verbalsatz ist (V-S-Ordnung).",
+          "arabicExamples": [
+            {
+              "arabic": "وَقَالَ الْمَلَأُ",
+              "transliteration": "wa-qāla l-malaʾu",
+              "meaning": "und er-sagte die Vornehmen (7:60)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=60"
+            },
+            {
+              "arabic": "آمَنَ الرَّسُولُ",
+              "transliteration": "āmana r-rasūlu",
+              "meaning": "er-glaubte der Gesandte (2:285)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "34:31",
+              "word": "وَقَالَ ٱلَّذِينَ كَفَرُوا",
+              "analysis": "قَالَ (Singular) + الَّذِينَ (Plural). Verb vor Subjekt → Singular. Im Quran hundertfach belegt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=31"
+            },
+            {
+              "location": "7:60",
+              "word": "قَالَ ٱلْمَلَأُ",
+              "analysis": "قَالَ (Singular-Verb) + الْمَلَأُ (die Vornehmen, Kollektiv). Verb vor Subjekt → bleibt Singular.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=60"
+            },
+            {
+              "location": "2:285",
+              "word": "ءَامَنَ ٱلرَّسُولُ",
+              "analysis": "آمَنَ (Singular) + الرَّسُولُ (Singular). Hier stimmt Verb und Subjekt ohnehin überein, da beides Singular ist.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+            },
+            {
+              "location": "2:14",
+              "word": "وَإِذَا خَلَوْا إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا",
+              "analysis": "Subjekt (implizites Pronomen) steht vor قَالُوا → Plural-Kongruenz mit واو-Endung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+            },
+            {
+              "location": "3:52",
+              "word": "قَالَ ٱلْحَوَارِيُّونَ",
+              "analysis": "قَالَ (Singular) + الْحَوَارِيُّونَ (die Jünger, Plural). Verb vor Subjekt → Singular.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=52"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht in قَالَ الَّذِينَ كَفَرُوا das Verb قَالَ im Singular?",
+          "options": [
+            "Weil الَّذِينَ Singular ist",
+            "Weil das Verb vor dem Subjekt steht",
+            "Weil es ein Fehler ist",
+            "Weil كَفَرُوا im Plural steht"
+          ],
+          "answer": "Weil das Verb vor dem Subjekt steht",
+          "explanation": "Im Arabischen bleibt das Verb im Singular, wenn es vor dem Subjekt steht, unabhängig vom Numerus des Subjekts.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welcher Satz ist ein Verbalsatz (V-S) und welcher ein Nominalsatz (S-V)? (1) قَالَ الرِّجَالُ (2) الرِّجَالُ قَالُوا",
+          "options": [
+            "(1) Verbalsatz, (2) Nominalsatz",
+            "(1) Nominalsatz, (2) Verbalsatz",
+            "Beide Verbalsätze",
+            "Beide Nominalsätze"
+          ],
+          "answer": "(1) Verbalsatz, (2) Nominalsatz",
+          "explanation": "In (1) steht das Verb قَالَ vor dem Subjekt الرِّجَالُ → Verbalsatz. In (2) steht das Subjekt الرِّجَالُ vor dem Verb قَالُوا → Nominalsatz-Struktur.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze das korrekte Verb: ______ الْمُسْلِمُونَ (Die Muslime gingen hinaus) — Verb VOR dem Subjekt.",
+          "answer": "خَرَجَ",
+          "explanation": "Da das Verb vor dem Subjekt الْمُسْلِمُونَ (Plural) steht, bleibt es im Singular: خَرَجَ (er-ging-hinaus), nicht خَرَجُوا.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Erkläre den Unterschied: جَاءَ الطُّلَّابُ vs. الطُّلَّابُ جَاءُوا",
+          "answer": "Beide bedeuten 'die Studenten kamen'. In جَاءَ الطُّلَّابُ steht das Verb vor dem Subjekt → Singular-Verb. In الطُّلَّابُ جَاءُوا steht das Subjekt vor dem Verb → Plural-Kongruenz (جَاءُوا mit واو).",
+          "explanation": "Die Numerus-Kongruenz des Verbs hängt von der Wortstellung ab: V-S = Singular, S-V = volle Kongruenz.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Wie würde der Satz 'Die Vertrauenden sagten' als Verbalsatz (V-S) lauten?",
+          "options": [
+            "الْمُؤْمِنُونَ قَالُوا",
+            "قَالُوا الْمُؤْمِنُونَ",
+            "قَالَ الْمُؤْمِنُونَ",
+            "يَقُولُونَ الْمُؤْمِنُونَ"
+          ],
+          "answer": "قَالَ الْمُؤْمِنُونَ",
+          "explanation": "Im Verbalsatz steht das Verb zuerst und bleibt im Singular: قَالَ (nicht قَالُوا) + الْمُؤْمِنُونَ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Konstruktion der korrekten Verb-Form zu:",
+          "pairs": [
+            {
+              "item": "_____ الرِّجَالُ (V-S: die Männer kamen)",
+              "match": "جَاءَ (Singular)"
+            },
+            {
+              "item": "الرِّجَالُ _____ (S-V: die Männer kamen)",
+              "match": "جَاءُوا (Plural)"
+            },
+            {
+              "item": "_____ النِّسَاءُ (V-S: die Frauen kamen)",
+              "match": "جَاءَتِ (Singular feminin)"
+            },
+            {
+              "item": "النِّسَاءُ _____ (S-V: die Frauen kamen)",
+              "match": "جِئْنَ (Plural feminin)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §147-154",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "2.15",
+      "3.33"
+    ]
+  },
+  {
+    "id": "3.33",
+    "title": "Feminin-Markierung am Verb",
+    "description": "Wann das feminine تْ am Verb obligatorisch ist, wann optional — und wie gebrochene Plurale von Nicht-Personen behandelt werden.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Obligatorische Feminin-Markierung",
+          "content": "Wenn ein feminines Subjekt DIREKT nach dem Verb steht (ohne Trennung), ist die Feminin-Markierung تْ (tāʾ at-taʾnīth as-sākina) am Verb obligatorisch. Das Verb erhält am Ende das Suffix ـَتْ (Perfekt) bzw. das Präfix تَـ (Imperfekt). Dies gilt für alle Fälle, in denen das feminine Subjekt unmittelbar auf das Verb folgt. Beispiel: قَالَتِ امْرَأَةُ عِمْرَانَ (3:35) — قَالَتِ mit obligatorischem تْ, weil das feminine Subjekt امْرَأَةُ direkt folgt.",
+          "arabicExamples": [
+            {
+              "arabic": "قَالَتِ امْرَأَةُ عِمْرَانَ",
+              "transliteration": "qālatimraʾatu ʿImrān",
+              "meaning": "es-sagte die-Frau Imrans (3:35)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=35"
+            },
+            {
+              "arabic": "جَاءَتْهُمْ رُسُلُهُمْ",
+              "transliteration": "jāʾathum rusuluhum",
+              "meaning": "es-kamen-zu-ihnen ihre-Gesandten (14:9)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=9"
+            },
+            {
+              "arabic": "نَادَتْهُ الْمَلَائِكَةُ",
+              "transliteration": "nādathu l-malāʾikatu",
+              "meaning": "es-riefen-ihn die-Engel (3:39)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=35"
+        },
+        {
+          "type": "explanation",
+          "title": "Optionale Feminin-Markierung bei Trennung",
+          "content": "Wenn zwischen Verb und femininem Subjekt andere Wörter stehen (z.B. ein Adverb, ein Präpositionalobjekt oder eine Partikel), wird die Feminin-Markierung OPTIONAL. Der Sprecher kann sie setzen oder weglassen, beides ist grammatisch korrekt. Der Grund: Die Distanz zwischen Verb und Subjekt schwächt die Kongruenz-Forderung. Im Quran finden sich beide Varianten. Dies ist kein Fehler, sondern eine anerkannte Flexibilität der arabischen Syntax.",
+          "arabicExamples": [
+            {
+              "arabic": "قَدْ جَاءَتْكُمْ مَوْعِظَةٌ",
+              "transliteration": "qad jāʾatkum mawʿiẓatun",
+              "meaning": "wahrlich ist-zu-euch-gekommen eine-Ermahnung (10:57) — mit تْ trotz Trennung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=57"
+            },
+            {
+              "arabic": "وَلَمَّا جَاءَ أَمْرُنَا",
+              "transliteration": "wa-lammā jāʾa amrunā",
+              "meaning": "und als kam Unser-Befehl (11:66) — أَمْر ist maskulin, daher ohne تْ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=66"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Gebrochene Plurale von Nicht-Personen → Feminin Singular",
+          "content": "Eine der markantesten Regeln des Arabischen: Gebrochene Plurale (Plural-Formen, die durch interne Vokaländerung gebildet werden) von nicht-menschlichen Nomen werden grammatisch als FEMININ SINGULAR behandelt. Das Verb steht daher im Feminin Singular: جَاءَتِ الْكُتُبُ = es-kam (fem.sg.) die-Bücher. Diese Regel gilt für Tiere, Gegenstände, abstrakte Konzepte — alles außer Menschen. Sie ist im Quran durchgehend angewendet und erklärt viele scheinbar unerwartete Feminin-Formen.",
+          "arabicExamples": [
+            {
+              "arabic": "جَاءَتِ الْكُتُبُ",
+              "transliteration": "jāʾati l-kutubu",
+              "meaning": "es-kamen (fem.sg.) die-Bücher"
+            },
+            {
+              "arabic": "قَالَتِ الْأَعْرَابُ آمَنَّا",
+              "transliteration": "qālati l-aʿrābu āmannā",
+              "meaning": "الْأَعْرَابُ (gebrochener Plural) → hier mit feminin-Singular-Kongruenz (قَالَتْ statt قَالُوا). Bei gebrochenen Pluralen von Personen ist sowohl maskulin-Plural- als auch feminin-Singular-Kongruenz möglich. Der Qurantext verwendet hier die feminin-Singular-Variante."
+            },
+            {
+              "arabic": "وَتِلْكَ الْأَيَّامُ نُدَاوِلُهَا",
+              "transliteration": "wa-tilka l-ayyāmu nudāwiluhā",
+              "meaning": "und jene Tage — Wir wechseln sie (3:140) — Pronomen -hā (fem.sg.)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=140"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: قَالَتِ امْرَأَةُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ (3:35)",
+            "قَالَتِ — Verb, Perfekt, 3. Person feminin Singular. تِ = Feminin-Marker (obligatorisch)",
+            "امْرَأَةُ — feminines Subjekt, steht DIREKT nach dem Verb → تْ ist Pflicht",
+            "عِمْرَانَ — Genitiv (zweites Iḍāfa-Glied), diptotisch (keine Tanwīn)",
+            "Warum obligatorisch? Weil zwischen قَالَتِ und امْرَأَةُ kein trennendes Wort steht",
+            "Gegenbeispiel: Wenn der Satz lautete قَالَ لَهَا امْرَأَةُ, wäre تْ optional, weil لَهَا trennt"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "3:35",
+              "word": "قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ",
+              "analysis": "Feminines Subjekt (امْرَأَةُ) direkt nach dem Verb → تْ obligatorisch.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=35"
+            },
+            {
+              "location": "3:39",
+              "word": "نَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ",
+              "analysis": "الْمَلَائِكَةُ (gebrochener Plural, nicht-menschlich) → feminin Singular behandelt. تْ am Verb.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+            },
+            {
+              "location": "49:14",
+              "word": "قَالَتِ ٱلْأَعْرَابُ",
+              "analysis": "الْأَعْرَابُ (gebrochener Plural) → hier mit feminin-Singular-Kongruenz (قَالَتْ statt قَالُوا). Bei gebrochenen Pluralen von Personen ist sowohl maskulin-Plural- als auch feminin-Singular-Kongruenz möglich. Der Qurantext verwendet hier die feminin-Singular-Variante.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=14"
+            },
+            {
+              "location": "12:30",
+              "word": "وَقَالَ نِسْوَةٌ",
+              "analysis": "قَالَ OHNE تْ + نِسْوَةٌ (feminin). Trennung durch die Konjunktion وَ? Nein — der Fall ist syntaktisch nicht eindeutig. Eine mögliche Erklärung: نِسْوَةٌ wird als Kollektiv behandelt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=30"
+            },
+            {
+              "location": "10:57",
+              "word": "قَدْ جَآءَتْكُم مَّوْعِظَةٌ",
+              "analysis": "جَاءَتْ mit تْ. مَوْعِظَةٌ (fem.) steht nach dem Pronomen كُمْ, aber die Feminin-Markierung bleibt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=57"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Wann ist die Feminin-Markierung تْ am Verb obligatorisch?",
+          "options": [
+            "Immer bei femininem Subjekt",
+            "Nur wenn das feminine Subjekt direkt nach dem Verb steht",
+            "Nur bei Pluralen",
+            "Nur im Imperfekt"
+          ],
+          "answer": "Nur wenn das feminine Subjekt direkt nach dem Verb steht",
+          "explanation": "Wenn das feminine Subjekt direkt (ohne Trennung) auf das Verb folgt, ist die Feminin-Markierung Pflicht. Bei Trennung ist sie optional.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "identification",
+          "prompt": "Warum steht in جَاءَتِ الْكُتُبُ das Verb im Feminin Singular, obwohl الْكُتُبُ ein Plural ist?",
+          "options": [
+            "Weil كُتُب zufällig feminin ist",
+            "Weil gebrochene Plurale von Nicht-Personen als feminin Singular behandelt werden",
+            "Weil es ein Fehler ist",
+            "Weil jeder Plural feminin ist"
+          ],
+          "answer": "Weil gebrochene Plurale von Nicht-Personen als feminin Singular behandelt werden",
+          "explanation": "Im Arabischen werden gebrochene Plurale nicht-menschlicher Nomen grammatisch als Feminin Singular behandelt — eine der wichtigsten Kongruenz-Regeln.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Satz ist grammatisch korrekt?",
+          "options": [
+            "قَالَ امْرَأَةُ (ohne تْ, Subjekt direkt)",
+            "قَالَتِ امْرَأَةُ (mit تْ, Subjekt direkt)",
+            "قَالُوا امْرَأَةُ (Plural, Subjekt direkt)",
+            "قَالَتَا امْرَأَةُ (Dual, Subjekt direkt)"
+          ],
+          "answer": "قَالَتِ امْرَأَةُ (mit تْ, Subjekt direkt)",
+          "explanation": "Da das feminine Subjekt امْرَأَةُ direkt nach dem Verb steht, ist die Feminin-Markierung تْ obligatorisch.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Gebrochene Plurale von Nicht-Personen werden grammatisch als ______ ______ behandelt.",
+          "answer": [
+            "feminin",
+            "Singular"
+          ],
+          "explanation": "Das ist eine Kernregel: الْكُتُبُ (Bücher), الْأَيَّامُ (Tage), الْجِبَالُ (Berge) — alle werden als feminin Singular behandelt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Erkläre die Feminin-Kongruenz in: نَادَتْهُ الْمَلَائِكَةُ (3:39)",
+          "answer": "نَادَتْهُ enthält die Feminin-Markierung تْ. الْمَلَائِكَةُ (die Engel) ist ein gebrochener Plural und wird als feminin Singular behandelt. Das Suffix هُ bezieht sich auf Zakariyyā.",
+          "explanation": "الْمَلَائِكَةُ ist ein gebrochener Plural → Feminin-Singular-Kongruenz. Die تْ am Verb ist obligatorisch, da das Subjekt (nach dem Pronomen) direkt folgt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §147-154",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.34",
+    "title": "Topikalisierung mit Ammā",
+    "description": "أَمَّا (was...betrifft) — eine der häufigsten Topikalisierungsstrukturen im Quran, die obligatorisch فَ im Nachsatz verlangt.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist أَمَّا?",
+          "content": "أَمَّا (ammā) ist eine Partikel der Topikalisierung. Sie hebt ein bestimmtes Thema (Topik) hervor und stellt es an den Anfang des Satzes, bevor der Kommentar dazu folgt. Die Übersetzung lautet 'was ... betrifft' oder 'was ... angeht'. أَمَّا ist im Quran extrem häufig und gehört zu den wichtigsten Strukturelementen. Die entscheidende grammatische Regel: Nach dem Topik und vor dem Hauptsatz (Kommentar) steht OBLIGATORISCH die Partikel فَ (fa). Diese فَ ist nicht optional — sie muss erscheinen und wird فَاء الْجَزَاء (fāʾ al-jazāʾ, das فَ der Antwort) genannt.",
+          "arabicExamples": [
+            {
+              "arabic": "أَمَّا",
+              "transliteration": "ammā",
+              "meaning": "was ... betrifft / angeht"
+            },
+            {
+              "arabic": "فَ",
+              "transliteration": "fa",
+              "meaning": "dann / so (obligatorisch nach dem Topik)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Die Struktur: أَمَّا + Topik + فَ + Kommentar",
+          "content": "Die Satzstruktur mit أَمَّا folgt immer demselben Muster: أَمَّا + Topik (das hervorgehobene Thema) + فَ + Kommentar (die Aussage über das Topik). Beispiel: فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ (2:26) = Was diejenigen betrifft, die glaubten — so wissen sie, dass es die Wahrheit ist. Hier ist الَّذِينَ آمَنُوا das Topik und يَعْلَمُونَ أَنَّهُ الْحَقُّ der Kommentar. Die فَ vor يَعْلَمُونَ ist obligatorisch.",
+          "arabicExamples": [
+            {
+              "arabic": "فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ",
+              "transliteration": "fa-amma lladhīna āmanū fa-yaʿlamūna annahu l-ḥaqq",
+              "meaning": "Was die Vertrauenden betrifft — so wissen sie, dass es die Wahrheit ist (2:26)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+            },
+            {
+              "arabic": "أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ",
+              "transliteration": "amma s-safīnatu fa-kānat li-masākīn",
+              "meaning": "Was das Schiff betrifft — so gehörte es Armen (18:79)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "type": "explanation",
+          "title": "Paarweise Verwendung: أَمَّا ... وَأَمَّا",
+          "content": "Besonders häufig im Quran ist die paarweise Verwendung: أَمَّا ... فَ ... وَأَمَّا ... فَ ... Diese Struktur kontrastiert zwei Gruppen oder Situationen. Typisch in Versen, die Vertrauende und Leugnende, oder verschiedene Schicksale im Späteren gegenüberstellen. Beispiel aus Sure 11:105-106: فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ · فَأَمَّا الَّذِينَ شَقُوا فَفِي النَّارِ · وَأَمَّا الَّذِينَ سُعِدُوا فَفِي الْجَنَّةِ — Was die Unglücklichen betrifft, so sind sie im Feuer. Und was die Glücklichen betrifft, so sind sie im Garten.",
+          "arabicExamples": [
+            {
+              "arabic": "فَأَمَّا الَّذِينَ شَقُوا فَفِي النَّارِ",
+              "transliteration": "fa-amma lladhīna shaqū fa-fī n-nār",
+              "meaning": "Was die Unglücklichen betrifft — so im Feuer (11:106)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=106"
+            },
+            {
+              "arabic": "وَأَمَّا الَّذِينَ سُعِدُوا فَفِي الْجَنَّةِ",
+              "transliteration": "wa-amma lladhīna suʿidū fa-fī l-janna",
+              "meaning": "Und was die Glücklichen betrifft — so im Garten (11:108)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=108"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=105"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ يَعْمَلُونَ فِي الْبَحْرِ (18:79)",
+            "أَمَّا — Topikalisierungspartikel: 'was ... betrifft'",
+            "السَّفِينَةُ — das Topik (das Schiff), Nominativ als Mubtadaʾ",
+            "فَ — obligatorisches فَاء الْجَزَاء, leitet den Kommentar ein",
+            "كَانَتْ لِمَسَاكِينَ — der Kommentar: 'es gehörte Armen'",
+            "يَعْمَلُونَ فِي الْبَحْرِ — Relativsatz zu مَسَاكِينَ: 'die auf dem Meer arbeiteten'",
+            "Gesamtübersetzung: Was das Schiff betrifft — so gehörte es Armen, die auf dem Meer arbeiteten",
+            "Beachte: Ohne فَ wäre der Satz ungrammatisch — أَمَّا verlangt فَ vor dem Kommentar"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:26",
+              "word": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا فَيَعْلَمُونَ",
+              "analysis": "Topik: الَّذِينَ آمَنُوا (die Vertrauenden). Kommentar: يَعْلَمُونَ (sie wissen). فَ vor dem Kommentar obligatorisch.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+            },
+            {
+              "location": "18:79",
+              "word": "أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ",
+              "analysis": "Topik: السَّفِينَةُ (das Schiff). Kommentar: كَانَتْ لِمَسَاكِينَ (gehörte Armen). Teil der Erklärungen des Dieners (18:79).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+            },
+            {
+              "location": "18:80",
+              "word": "وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ",
+              "analysis": "Paarweise mit vorherigem Vers. Topik: الْغُلَامُ (der Junge). Kommentar: كَانَ أَبَوَاهُ مُؤْمِنَيْنِ (seine Eltern waren gläubig).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=80"
+            },
+            {
+              "location": "11:106",
+              "word": "فَأَمَّا ٱلَّذِينَ شَقُوا فَفِى ٱلنَّارِ",
+              "analysis": "Topik: الَّذِينَ شَقُوا (die Unglücklichen). Kommentar: فِي النَّارِ (im Feuer). فَ + Präpositionalphrase als Khabar.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=106"
+            },
+            {
+              "location": "93:9",
+              "word": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+              "analysis": "Topik: الْيَتِيمَ (die Waise, Akkusativ als vorausgestelltes Objekt). Kommentar: لَا تَقْهَرْ (unterdrücke nicht). فَ obligatorisch.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=9"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was verlangt أَمَّا obligatorisch vor dem Kommentar?",
+          "options": [
+            "إِنَّ",
+            "فَ",
+            "وَ",
+            "ثُمَّ"
+          ],
+          "answer": "فَ",
+          "explanation": "أَمَّا verlangt immer فَ (fāʾ al-jazāʾ) vor dem Kommentar (Hauptsatz). Diese فَ ist nicht optional.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere Topik und Kommentar in: أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ (18:79)",
+          "options": [
+            "Topik: السَّفِينَةُ / Kommentar: كَانَتْ لِمَسَاكِينَ",
+            "Topik: كَانَتْ / Kommentar: لِمَسَاكِينَ",
+            "Topik: أَمَّا / Kommentar: السَّفِينَةُ",
+            "Topik: لِمَسَاكِينَ / Kommentar: السَّفِينَةُ"
+          ],
+          "answer": "Topik: السَّفِينَةُ / Kommentar: كَانَتْ لِمَسَاكِينَ",
+          "explanation": "Das Topik ist das hervorgehobene Thema (das Schiff), der Kommentar ist die Aussage darüber (gehörte Armen).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die Struktur: أَمَّا + ______ + فَ + ______",
+          "answer": [
+            "Topik",
+            "Kommentar"
+          ],
+          "explanation": "Die feste Struktur ist: أَمَّا (was betrifft) + Topik (hervorgehobenes Thema) + فَ (obligatorisch) + Kommentar (Aussage über das Topik).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ (2:26)",
+          "answer": "فَ am Anfang verbindet mit dem vorherigen Vers. أَمَّا = Topikalisierungspartikel. الَّذِينَ آمَنُوا = Topik (die Vertrauenden). فَ = obligatorisches Antwort-فَ. يَعْلَمُونَ أَنَّهُ الْحَقُّ = Kommentar (sie wissen, dass es die Wahrheit ist).",
+          "explanation": "Die erste فَ ist die verbindende Konjunktion (ʿāṭifa), die zweite فَ ist das obligatorische Antwort-فَ der أَمَّا-Konstruktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Übersetzung von أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ ist korrekt?",
+          "options": [
+            "Das Schiff gehörte Armen",
+            "Was das Schiff betrifft — so gehörte es Armen",
+            "Wenn das Schiff kommt, gehört es den Armen",
+            "Das Schiff und die Armen"
+          ],
+          "answer": "Was das Schiff betrifft — so gehörte es Armen",
+          "explanation": "أَمَّا markiert Topikalisierung = 'was ... betrifft'. Die فَ leitet den Kommentar ein = 'so ...'.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum verwendet der Quran أَمَّا oft paarweise (أَمَّا ... وَأَمَّا)?",
+          "options": [
+            "Weil es grammatisch vorgeschrieben ist",
+            "Um zwei Gruppen oder Situationen zu kontrastieren",
+            "Weil أَمَّا immer zweimal stehen muss",
+            "Um Wiederholung zu erzeugen"
+          ],
+          "answer": "Um zwei Gruppen oder Situationen zu kontrastieren",
+          "explanation": "Die paarweise Verwendung kontrastiert typischerweise Vertrauende vs. Leugnende, Garten vs. Feuer, oder verschiedene Szenarien.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-160",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.35",
+    "title": "Koordination (ʿAṭf)",
+    "description": "Wie وَ, فَ, ثُمَّ und أَوْ koordinierte Satzglieder verbinden — und warum das zweite Element den Kasus des ersten übernimmt.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist ʿAṭf (Koordination)?",
+          "content": "ʿAṭf (عَطْف) bedeutet 'Anreihung' oder 'Koordination'. Wenn zwei Nomen (oder Satzglieder) durch eine koordinierende Konjunktion verbunden werden, muss das zweite Element den gleichen Kasus wie das erste tragen. Die Konjunktion selbst beeinflusst den Kasus nicht — sie überträgt lediglich die Kasusbeziehung des ersten Elements auf das zweite. Die wichtigsten koordinierenden Konjunktionen sind: وَ (wa, und), فَ (fa, und dann / so), ثُمَّ (thumma, dann / daraufhin), أَوْ (aw, oder). Das zweite koordinierte Element heißt الْمَعْطُوف (al-maʿṭūf), das erste الْمَعْطُوف عَلَيْهِ (al-maʿṭūf ʿalayh).",
+          "arabicExamples": [
+            {
+              "arabic": "وَ",
+              "transliteration": "wa",
+              "meaning": "und"
+            },
+            {
+              "arabic": "فَ",
+              "transliteration": "fa",
+              "meaning": "und dann / so"
+            },
+            {
+              "arabic": "ثُمَّ",
+              "transliteration": "thumma",
+              "meaning": "dann / daraufhin"
+            },
+            {
+              "arabic": "أَوْ",
+              "transliteration": "aw",
+              "meaning": "oder"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Kasusübereinstimmung in der Praxis",
+          "content": "Das koordinierte Element übernimmt den Kasus des Elements, an das es angereiht wird. Steht das erste Element im Nominativ, steht auch das zweite im Nominativ. Steht es im Akkusativ, folgt Akkusativ. Steht es im Genitiv, folgt Genitiv. Beispiel aus der Basmala: بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ — hier ist الرَّحِيمِ kein ʿAṭf, sondern ein Attribut (Ṣifa), aber das Prinzip ist identisch. Ein echtes ʿAṭf-Beispiel: رَبِّ مُوسَىٰ وَهَارُونَ (7:122) — هَارُونَ steht im Genitiv (diptotisch, daher Fatḥa statt Kasra), koordiniert mit مُوسَىٰ.",
+          "arabicExamples": [
+            {
+              "arabic": "رَبِّ مُوسَىٰ وَهَارُونَ",
+              "transliteration": "rabbi Mūsā wa-Hārūn",
+              "meaning": "der Herr von Mose und Aaron (7:122)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=122"
+            },
+            {
+              "arabic": "وَالسَّمَاءِ وَالطَّارِقِ",
+              "transliteration": "wa-s-samāʾi wa-ṭ-ṭāriq",
+              "meaning": "Beim Himmel und dem Nachtstern (86:1) — beide Genitiv nach وَ des Schwurs",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+            },
+            {
+              "arabic": "خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ",
+              "transliteration": "khalaqa s-samāwāti wa-l-arḍ",
+              "meaning": "Er schuf die Himmel und die Erde (6:1) — beide Akkusativ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=122"
+        },
+        {
+          "type": "explanation",
+          "title": "Bedeutungsunterschiede der Konjunktionen",
+          "content": "Obwohl alle vier Konjunktionen koordinieren, tragen sie unterschiedliche Bedeutungsnuancen: وَ (wa) ist neutral — reine Addition ohne zeitliche Ordnung. فَ (fa) impliziert unmittelbare Folge oder Reihenfolge (und dann sofort / und so). ثُمَّ (thumma) impliziert zeitlichen Abstand (und dann nach einer Weile). أَوْ (aw) bietet eine Alternative (oder). Im Quran sind diese Unterschiede bedeutsam: خَلَقَكُمْ مِنْ تُرَابٍ ثُمَّ مِنْ نُطْفَةٍ (35:11) — ثُمَّ zeigt einen zeitlichen Abstand zwischen den Schöpfungsphasen.",
+          "arabicExamples": [
+            {
+              "arabic": "خَلَقَكُمْ مِنْ تُرَابٍ ثُمَّ مِنْ نُطْفَةٍ",
+              "transliteration": "khalaqakum min turābin thumma min nuṭfatin",
+              "meaning": "Er schuf euch aus Staub, dann aus einem Tropfen (35:11)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=11"
+            },
+            {
+              "arabic": "فَأَزَلَّهُمَا الشَّيْطَانُ",
+              "transliteration": "fa-azallahumā sh-shayṭān",
+              "meaning": "Da ließ sie der Satan straucheln (2:36) — فَ = unmittelbare Folge",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+            },
+            {
+              "arabic": "يَوْمَيْنِ أَوْ ثَلَاثَةَ أَيَّامٍ",
+              "transliteration": "yawmayni aw thalāthata ayyāmin",
+              "meaning": "zwei Tage oder drei Tage — أَوْ = Alternative"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=11"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ (6:1)",
+            "خَلَقَ — Verb, Perfekt, 3. Person maskulin Singular: Er schuf",
+            "السَّمَاوَاتِ — Objekt (Mafʿūl bih), Akkusativ. Femininer gesunder Plural → Kasra statt Fatḥa als Akkusativzeichen",
+            "وَ — koordinierende Konjunktion (ʿAṭf)",
+            "الْأَرْضَ — koordiniert mit السَّمَاوَاتِ → muss auch im Akkusativ stehen. Fatḥa auf dem Ḍāl = Akkusativ",
+            "Das وَ überträgt den Akkusativ von السَّمَاوَاتِ auf الْأَرْضَ",
+            "Beide Nomen sind Objekte des Verbs خَلَقَ: Er schuf die Himmel und die Erde"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "6:1",
+              "word": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ",
+              "analysis": "وَ koordiniert الْأَرْضَ (Akkusativ) mit السَّمَاوَاتِ (Akkusativ). Beide sind Objekte von خَلَقَ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+            },
+            {
+              "location": "7:122",
+              "word": "رَبِّ مُوسَىٰ وَهَٰرُونَ",
+              "analysis": "وَ koordiniert هَارُونَ (Genitiv, diptotisch) mit مُوسَىٰ (Genitiv). Beide sind zweites Iḍāfa-Glied zu رَبِّ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=122"
+            },
+            {
+              "location": "86:1",
+              "word": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+              "analysis": "Schwurpartikel وَ + السَّمَاءِ (Genitiv). Zweites وَ koordiniert الطَّارِقِ (Genitiv) → gleicher Kasus.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+            },
+            {
+              "location": "35:11",
+              "word": "مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ",
+              "analysis": "ثُمَّ zeigt zeitliche Folge. نُطْفَةٍ steht im Genitiv (nach مِنْ), koordiniert mit تُرَابٍ (Genitiv nach مِنْ).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=11"
+            },
+            {
+              "location": "2:36",
+              "word": "فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا",
+              "analysis": "فَ zeigt unmittelbare Folge auf die vorhergehende Handlung. Nicht Nomen-Koordination, sondern Satz-Koordination.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was passiert mit dem Kasus eines Nomens nach وَ, فَ, ثُمَّ oder أَوْ?",
+          "options": [
+            "Es steht immer im Nominativ",
+            "Es übernimmt den Kasus des vorangehenden koordinierten Nomens",
+            "Es steht immer im Akkusativ",
+            "Es steht immer im Genitiv"
+          ],
+          "answer": "Es übernimmt den Kasus des vorangehenden koordinierten Nomens",
+          "explanation": "ʿAṭf-Regel: Das koordinierte Element (Maʿṭūf) übernimmt den Kasus des Elements, an das es angereiht wird (Maʿṭūf ʿalayh).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "In welchem Kasus steht الْأَرْضَ in خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ (6:1) und warum?",
+          "options": [
+            "Nominativ, weil es Subjekt ist",
+            "Akkusativ, weil es mit السَّمَاوَاتِ koordiniert ist und dieses Objekt von خَلَقَ ist",
+            "Genitiv, weil es nach وَ steht",
+            "Akkusativ, weil وَ immer Akkusativ verlangt"
+          ],
+          "answer": "Akkusativ, weil es mit السَّمَاوَاتِ koordiniert ist und dieses Objekt von خَلَقَ ist",
+          "explanation": "الْأَرْضَ ist durch وَ an السَّمَاوَاتِ koordiniert. Da السَّمَاوَاتِ als Objekt im Akkusativ steht, übernimmt الْأَرْضَ denselben Kasus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Konjunktion ihrer Bedeutungsnuance zu:",
+          "pairs": [
+            {
+              "item": "وَ",
+              "match": "und (neutral, ohne zeitliche Ordnung)"
+            },
+            {
+              "item": "فَ",
+              "match": "und dann sofort / so (unmittelbare Folge)"
+            },
+            {
+              "item": "ثُمَّ",
+              "match": "dann / daraufhin (mit zeitlichem Abstand)"
+            },
+            {
+              "item": "أَوْ",
+              "match": "oder (Alternative)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Das koordinierte Element heißt ______, das Element, an das koordiniert wird, heißt ______.",
+          "answer": [
+            "الْمَعْطُوف",
+            "الْمَعْطُوف عَلَيْهِ"
+          ],
+          "explanation": "الْمَعْطُوف (al-maʿṭūf) = das angehängte/koordinierte Element. الْمَعْطُوف عَلَيْهِ (al-maʿṭūf ʿalayh) = das Element, auf das koordiniert wird.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Koordination in: رَبِّ مُوسَىٰ وَهَارُونَ (7:122)",
+          "answer": "رَبِّ = Genitiv (Iḍāfa). مُوسَىٰ = zweites Iḍāfa-Glied, Genitiv (indeklinabel). وَ = koordinierende Konjunktion. هَارُونَ = koordiniert mit مُوسَىٰ, Genitiv (diptotisch → Fatḥa statt Kasra).",
+          "explanation": "هَارُونَ steht im Genitiv, weil es durch وَ an مُوسَىٰ koordiniert ist. Als diptotisches Nomen zeigt es den Genitiv mit Fatḥa (nicht Kasra).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=122"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Bedeutungsunterschied besteht zwischen وَ und ثُمَّ in der Koordination?",
+          "options": [
+            "Kein Unterschied",
+            "وَ impliziert Gleichzeitigkeit, ثُمَّ impliziert zeitlichen Abstand",
+            "ثُمَّ wird nur für Personen benutzt",
+            "وَ verbindet Nomen, ثُمَّ verbindet Verben"
+          ],
+          "answer": "وَ impliziert Gleichzeitigkeit, ثُمَّ impliziert zeitlichen Abstand",
+          "explanation": "وَ ist neutral (und), während ثُمَّ einen zeitlichen Abstand impliziert (dann, nach einer Weile). Im Quran ist dieser Unterschied bedeutsam.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §136-142",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.36",
+    "title": "Maṣdar als Imperativ",
+    "description": "Wie ein Verbal-Nomen (Maṣdar) im Akkusativ an Stelle eines Imperativs stehen kann — eine syntaktisch kraftvolle Konstruktion im Quran.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist ein Maṣdar als Imperativ?",
+          "content": "Im Arabischen kann ein Maṣdar (Verbal-Nomen / Infinitiv) im Akkusativ die Funktion eines Imperativs übernehmen. Das eigentliche Imperativ-Verb wird dabei weggelassen (es ist impliziert), und nur das Maṣdar bleibt stehen. Diese Konstruktion ist emphatisch stärker als ein normaler Imperativ, weil sie die Handlung als absoluten Befehl ohne Adressatenmarkierung darstellt — nicht als Aufforderung an eine bestimmte Person, sondern als universelle Forderung. Das Maṣdar steht im Akkusativ (Naṣb), weil es als Mafʿūl muṭlaq (absolutes Objekt) des ausgelassenen Verbs fungiert.",
+          "arabicExamples": [
+            {
+              "arabic": "صَبْرًا جَمِيلًا",
+              "transliteration": "ṣabran jamīlan",
+              "meaning": "Schöne Geduld! = Sei schön geduldig! (12:18, 70:5)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=18"
+            },
+            {
+              "arabic": "فَضَرْبَ الرِّقَابِ",
+              "transliteration": "fa-ḍarba r-riqāb",
+              "meaning": "So schlagt die Nacken! (47:4)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Das implizierte Verb",
+          "content": "Wenn der Maṣdar als Imperativ steht, ist das tatsächliche Verb gedanklich vorhanden, aber nicht ausgesprochen. Bei صَبْرًا جَمِيلًا ist das implizierte Verb اِصْبِرْ (iṣbir, sei geduldig!). Die vollständige Konstruktion wäre: اِصْبِرْ صَبْرًا جَمِيلًا (sei geduldig mit schöner Geduld!). Durch das Weglassen des Verbs entsteht eine knappere, kraftvollere Aussage. Der Kontext macht klar, dass es sich um eine Aufforderung handelt. Diese Konstruktion findet sich nicht nur im Quran, sondern auch in arabischer Dichtung und Sprichwörtern.",
+          "arabicExamples": [
+            {
+              "arabic": "اِصْبِرْ صَبْرًا جَمِيلًا",
+              "transliteration": "iṣbir ṣabran jamīlan",
+              "meaning": "Sei geduldig mit schöner Geduld (vollständig)"
+            },
+            {
+              "arabic": "صَبْرًا جَمِيلًا",
+              "transliteration": "ṣabran jamīlan",
+              "meaning": "Schöne Geduld! (verkürzt, Maṣdar als Imperativ)"
+            },
+            {
+              "arabic": "سَمْعًا وَطَاعَةً",
+              "transliteration": "samʿan wa-ṭāʿatan",
+              "meaning": "Hören und Gehorchen! (= Wir hören und gehorchen!)"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: فَصَبْرٌ جَمِيلٌ (12:18) und صَبْرًا جَمِيلًا (70:5)",
+            "In 12:18 liest man فَصَبْرٌ جَمِيلٌ — mit Nominativ (Ḍamma + Tanwīn): Hier ist es ein Nominalsatz: 'Schöne Geduld (ist angebracht)' — als Mubtadaʾ mit ausgelassenem Khabar",
+            "In 70:5 liest man فَاصْبِرْ صَبْرًا جَمِيلًا — mit explizitem Verb: 'Sei geduldig mit schöner Geduld'",
+            "Der Maṣdar صَبْرًا steht im Akkusativ als Mafʿūl muṭlaq",
+            "جَمِيلًا ist Adjektiv (Ṣifa) und stimmt in Kasus, Numerus, Genus und Definitheit überein → auch Akkusativ mit Tanwīn",
+            "Sprachlicher Effekt: Die kurze Form صَبْرًا جَمِيلًا klingt wie ein Ausruf — direkter und eindringlicher als der volle Imperativ"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Weitere Maṣdar-als-Imperativ-Konstruktionen",
+          "content": "Ein besonders markantes Beispiel ist فَضَرْبَ الرِّقَابِ (47:4): 'So (schlagt) die Nacken!' Hier ist ضَرْبَ der Maṣdar von ضَرَبَ (schlagen), und er steht im Akkusativ. Das implizierte Verb ist اِضْرِبُوا (schlagt!). الرِّقَابِ steht im Genitiv als Iḍāfa-Glied. Die Konstruktion komprimiert den Befehl zu einem einzigen, schlagkräftigen Ausdruck. Auch im Alltag begegnet man dieser Form: صَبْرًا! (Geduld!), شُكْرًا! (Dank! = Danke!), عَفْوًا! (Verzeihung!).",
+          "arabicExamples": [
+            {
+              "arabic": "فَضَرْبَ الرِّقَابِ",
+              "transliteration": "fa-ḍarba r-riqāb",
+              "meaning": "So schlagt die Nacken! (47:4)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            },
+            {
+              "arabic": "شُكْرًا",
+              "transliteration": "shukran",
+              "meaning": "Dank! (= Danke!)"
+            },
+            {
+              "arabic": "عَفْوًا",
+              "transliteration": "ʿafwan",
+              "meaning": "Verzeihung! (= Entschuldigung!)"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "12:18",
+              "word": "فَصَبْرٌ جَمِيلٌ",
+              "analysis": "Nominativ (Mubtadaʾ mit ausgelassenem Khabar): 'Schöne Geduld (ist geboten)'. Yakub sagte dies, als seine Söhne ihm berichteten.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=18"
+            },
+            {
+              "location": "70:5",
+              "word": "فَٱصْبِرْ صَبْرًا جَمِيلًا",
+              "analysis": "Hier erscheint das Verb explizit: اِصْبِرْ (Imperativ) + صَبْرًا جَمِيلًا (Mafʿūl muṭlaq im Akkusativ).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=5"
+            },
+            {
+              "location": "47:4",
+              "word": "فَضَرْبَ ٱلرِّقَابِ",
+              "analysis": "Maṣdar ضَرْبَ im Akkusativ als Imperativ-Ersatz. الرِّقَابِ im Genitiv (Iḍāfa). Impliziertes Verb: اِضْرِبُوا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            },
+            {
+              "location": "47:4",
+              "word": "فَشُدُّوا ٱلْوَثَاقَ",
+              "analysis": "Direkt nach فَضَرْبَ الرِّقَابِ folgt ein normaler Imperativ شُدُّوا — zeigt den Wechsel zwischen Maṣdar-Imperativ und regulärem Imperativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht ein Maṣdar, wenn es als Imperativ-Ersatz verwendet wird?",
+          "options": [
+            "Nominativ (Rafʿ)",
+            "Akkusativ (Naṣb)",
+            "Genitiv (Jarr)",
+            "Jussiv (Jazm)"
+          ],
+          "answer": "Akkusativ (Naṣb)",
+          "explanation": "Der Maṣdar steht im Akkusativ, weil er als Mafʿūl muṭlaq (absolutes Objekt) des ausgelassenen Verbs fungiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welches Verb ist in صَبْرًا جَمِيلًا impliziert?",
+          "options": [
+            "صَبَرَ (er war geduldig)",
+            "اِصْبِرْ (sei geduldig!)",
+            "يَصْبِرُ (er ist geduldig)",
+            "صَابِر (geduldig seiend)"
+          ],
+          "answer": "اِصْبِرْ (sei geduldig!)",
+          "explanation": "Der Maṣdar صَبْرًا ersetzt den Imperativ اِصْبِرْ. Das implizierte Verb steht in der Imperativ-Form, weil die Funktion eine Aufforderung ist.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Der Maṣdar als Imperativ fungiert grammatisch als ______ ______ (absolutes Objekt) des ausgelassenen Verbs.",
+          "answer": [
+            "مَفْعُول",
+            "مُطْلَق"
+          ],
+          "explanation": "مَفْعُول مُطْلَق (Mafʿūl muṭlaq) ist die grammatische Bezeichnung für das absolute Objekt — ein Maṣdar im Akkusativ, der das Verb verstärkt oder ersetzt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere: فَضَرْبَ الرِّقَابِ (47:4)",
+          "answer": "فَ = Konjunktion (Folge). ضَرْبَ = Maṣdar von ضَرَبَ, Akkusativ, fungiert als Imperativ-Ersatz. الرِّقَابِ = Genitiv (zweites Iḍāfa-Glied). Impliziertes Verb: اِضْرِبُوا (schlagt!). Bedeutung: So schlagt die Nacken!",
+          "explanation": "ضَرْبَ ist der Maṣdar im Akkusativ. Er ersetzt den Imperativ اِضْرِبُوا und steht in einer Iḍāfa mit الرِّقَابِ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum ist صَبْرًا جَمِيلًا emphatisch stärker als اِصْبِرْ صَبْرًا جَمِيلًا?",
+          "options": [
+            "Es ist kürzer",
+            "Es stellt die Handlung als absoluten Befehl ohne Adressatenmarkierung dar — nicht an eine bestimmte Person gerichtet",
+            "Es ist grammatisch korrekter",
+            "Es gibt keinen Unterschied"
+          ],
+          "answer": "Es stellt die Handlung als absoluten Befehl ohne Adressatenmarkierung dar — nicht an eine bestimmte Person gerichtet",
+          "explanation": "Der Maṣdar allein als Imperativ wirkt wie ein universeller Ausruf. Das fehlende Verb macht die Aufforderung allgemein und absolut — ohne Personen- oder Zeitmarkierung.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jeden Maṣdar-Imperativ seinem implizierten Verb zu:",
+          "pairs": [
+            {
+              "item": "صَبْرًا (Geduld!)",
+              "match": "اِصْبِرْ (sei geduldig!)"
+            },
+            {
+              "item": "شُكْرًا (Dank!)",
+              "match": "اُشْكُرْ (sei dankbar!)"
+            },
+            {
+              "item": "عَفْوًا (Verzeihung!)",
+              "match": "اِعْفُ (verzeih!)"
+            },
+            {
+              "item": "ضَرْبَ الرِّقَابِ (Schlagen der Nacken!)",
+              "match": "اِضْرِبُوا (schlagt!)"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §46-50",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.37",
+    "title": "Ausgelassenes Verb in Antworten",
+    "description": "Wie der Quran in Antworten auf Fragen das Verb weglässt, weil es aus dem Kontext der Frage impliziert ist — eine zentrale Ellipsen-Technik.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Ellipse des Verbs in Antworten",
+          "content": "Im Quran kommt es häufig vor, dass eine Frage gestellt wird und die Antwort nur aus einem Nomen (im Akkusativ) besteht — ohne Verb. Das fehlende Verb wird syntaktisch aus der Frage erschlossen: Das Verb der Frage füllt die Regens-Stelle des Antwortnomens. Diese Art der Ellipse (حَذْف / ḥadhf) ist ein rein syntaktisches Phänomen. Das Nomen in der Antwort steht im Akkusativ, weil es das Objekt des ausgelassenen (aber aus der Frage rekonstruierbaren) Verbs ist.",
+          "arabicExamples": [
+            {
+              "arabic": "حَذْف",
+              "transliteration": "ḥadhf",
+              "meaning": "Auslassung / Ellipse (syntaktische Tilgung)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Das Schlüsselbeispiel: يَسْأَلُونَكَ ... قُلِ",
+          "content": "Das häufigste Muster im Quran ist die Konstruktion يَسْأَلُونَكَ عَنْ / مَاذَا ... قُلْ / قُلِ (sie fragen dich über / was ... sag ...). Die Antwort nach قُلْ enthält oft nur ein Nomen im Akkusativ, wobei das Verb aus der Frage impliziert wird. Beispiel: يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ · قُلِ الْعَفْوَ (2:219) = Sie fragen dich, was sie ausgeben sollen. Sag: Das Überschüssige. Das implizierte Verb ist أَنْفِقُوا (gebt aus!), das aus يُنْفِقُونَ in der Frage erschlossen wird. الْعَفْوَ steht im Akkusativ als Objekt dieses ausgelassenen Verbs.",
+          "arabicExamples": [
+            {
+              "arabic": "يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ · قُلِ الْعَفْوَ",
+              "transliteration": "yasʾalūnaka mādhā yunfiqūn · quli l-ʿafwa",
+              "meaning": "Sie fragen dich, was sie ausgeben sollen. Sag: Das Überschüssige (2:219)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+            },
+            {
+              "arabic": "أَنْفِقُوا الْعَفْوَ",
+              "transliteration": "anfiqū l-ʿafwa",
+              "meaning": "Gebt das Überschüssige aus (implizierte vollständige Antwort)"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ · قُلِ الْعَفْوَ (2:219)",
+            "يَسْأَلُونَكَ — sie fragen dich (Imperfekt, 3. Person maskulin Plural + Pronomen كَ)",
+            "مَاذَا — was? (Fragepronomen)",
+            "يُنْفِقُونَ — sie ausgeben sollen (Imperfekt, aus Wurzel ن-ف-ق = ausgeben)",
+            "قُلِ — Sag! (Imperativ von قَالَ, mit Kasra wegen folgendem Hamza-Wechsel)",
+            "الْعَفْوَ — das Überschüssige / das Leichte, Akkusativ (Fatḥa)",
+            "Frage: Warum steht الْعَفْوَ im Akkusativ? → Weil das Verb أَنْفِقُوا (gebt aus) impliziert ist: أَنْفِقُوا الْعَفْوَ",
+            "Das Verb muss nicht wiederholt werden, weil es aus يُنْفِقُونَ in der Frage klar erschlossen wird"
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Weitere Formen der Verb-Ellipse im Quran",
+          "content": "Die Verb-Ellipse in Antworten ist nicht auf das يَسْأَلُونَكَ-Muster beschränkt. Generell kann im Arabischen jedes Element ausgelassen werden, das aus dem Kontext eindeutig erschließbar ist. Im Quran findet sich dies auch in Dialogen: Eine Person stellt eine Frage, die Antwort der anderen Person enthält nur das neue Informationselement. Weitere Beispiele: مَنْ بَعَثَنَا مِنْ مَرْقَدِنَا · هٰذَا مَا وَعَدَ الرَّحْمٰنُ (36:52) — Die Antwort 'Dies ist, was der Barmherzige versprach' enthält kein Verb des Erweckens, weil بَعَثَ aus der Frage impliziert ist.",
+          "arabicExamples": [
+            {
+              "arabic": "يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ · قُلْ هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ",
+              "transliteration": "yasʾalūnaka ʿani l-ahillati · qul hiya mawāqītu li-n-nāsi wa-l-ḥajj",
+              "meaning": "Sie fragen dich über die Neumonde. Sag: Sie sind Zeitmarken für die Menschen und die Pilgerfahrt (2:189)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            },
+            {
+              "arabic": "مَاذَا أَنْزَلَ رَبُّكُمْ · قَالُوا خَيْرًا",
+              "transliteration": "mādhā anzala rabbukum · qālū khayran",
+              "meaning": "Was hat eur Herr herabgesandt? Sie sagten: Gutes (16:30)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=30"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=52"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:219",
+              "word": "وَيَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ قُلِ ٱلْعَفْوَ",
+              "analysis": "الْعَفْوَ im Akkusativ. Impliziertes Verb: أَنْفِقُوا (aus يُنْفِقُونَ). Vollständig: أَنْفِقُوا الْعَفْوَ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+            },
+            {
+              "location": "16:30",
+              "word": "مَاذَآ أَنزَلَ رَبُّكُمْ قَالُوا خَيْرًا",
+              "analysis": "خَيْرًا im Akkusativ. Impliziertes Verb: أَنْزَلَ (aus der Frage). Vollständig: أَنْزَلَ خَيْرًا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=30"
+            },
+            {
+              "location": "2:189",
+              "word": "يَسْـَٔلُونَكَ عَنِ ٱلْأَهِلَّةِ قُلْ هِىَ مَوَٰقِيتُ",
+              "analysis": "Hier ist die Antwort ein Nominalsatz (هِيَ مَوَاقِيتُ), kein Akkusativ-Nomen. Die Frage war عَنِ (über), nicht مَاذَا (was).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+            },
+            {
+              "location": "2:215",
+              "word": "يَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍ فَلِلْوَٰلِدَيْنِ",
+              "analysis": "Hier wird die Antwort als Bedingungssatz formuliert: 'Was ihr an Gutem ausgebt — das ist für die Eltern'. Das Verb أَنْفَقْتُمْ wird explizit wiederholt.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=215"
+            },
+            {
+              "location": "36:52",
+              "word": "مَن بَعَثَنَا مِن مَّرْقَدِنَا هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ",
+              "analysis": "Die Frage enthält بَعَثَنَا (hat uns auferweckt). Die Antwort nennt nur den Inhalt, nicht das Verb des Erweckens.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=52"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht الْعَفْوَ in قُلِ الْعَفْوَ (2:219) im Akkusativ?",
+          "options": [
+            "Weil قُلْ den Akkusativ verlangt",
+            "Weil es Objekt des aus der Frage implizierten Verbs أَنْفِقُوا ist",
+            "Weil es ein Maṣdar ist",
+            "Weil es nach einer Präposition steht"
+          ],
+          "answer": "Weil es Objekt des aus der Frage implizierten Verbs أَنْفِقُوا ist",
+          "explanation": "Das Verb يُنْفِقُونَ aus der Frage impliziert in der Antwort أَنْفِقُوا. الْعَفْوَ ist das Objekt dieses ausgelassenen Verbs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welches Verb ist in der Antwort قَالُوا خَيْرًا (16:30) impliziert, wenn die Frage مَاذَا أَنْزَلَ رَبُّكُمْ lautet?",
+          "options": [
+            "قَالَ (er sagte)",
+            "أَنْزَلَ (er sandte herab)",
+            "عَمِلَ (er tat)",
+            "خَرَجَ (er ging hinaus)"
+          ],
+          "answer": "أَنْزَلَ (er sandte herab)",
+          "explanation": "Das Verb أَنْزَلَ aus der Frage wird in der Antwort impliziert: (أَنْزَلَ) خَيْرًا = (Er sandte) Gutes (herab).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=30"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Die Auslassung eines aus dem Kontext erschließbaren Elements heißt auf Arabisch ______ (ḥadhf).",
+          "answer": [
+            "حَذْف"
+          ],
+          "explanation": "حَذْف (ḥadhf) = Auslassung / Ellipse. Es bezeichnet die syntaktische Tilgung eines aus dem Kontext rekonstruierbaren Elements (hier: des Verbs).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Rekonstruiere den vollständigen Satz hinter der Antwort in: يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ · قُلِ الْعَفْوَ (2:219)",
+          "answer": "Die vollständige Antwort lautet: قُلْ أَنْفِقُوا الْعَفْوَ (Sag: Gebt das Überschüssige aus). Das Verb أَنْفِقُوا ist aus يُنْفِقُونَ in der Frage impliziert. الْعَفْوَ ist das Objekt im Akkusativ.",
+          "explanation": "Das Frage-Verb يُنْفِقُونَ (sie geben aus) liefert das implizierte Antwort-Verb أَنْفِقُوا (gebt aus!). Nur das neue Informationselement الْعَفْوَ wird explizit genannt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum kann in Antworten auf Fragen das Verb syntaktisch wegfallen?",
+          "options": [
+            "Weil das Arabisch fehlerhaft ist",
+            "Um Platz zu sparen",
+            "Weil das Verb aus der Frage rekonstruierbar ist und das Antwort-Nomen sein Objekt bleibt",
+            "Weil Verben in Antworten optional sind"
+          ],
+          "answer": "Weil das Verb aus der Frage rekonstruierbar ist und das Antwort-Nomen sein Objekt bleibt",
+          "explanation": "Die Verb-Ellipse (حَذْف) ist ein syntaktisches Phänomen: Das Verb der Frage füllt die Regens-Stelle des Antwortnomens, das im Akkusativ als Objekt dieses getilgten Verbs steht.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Antwort-Nomen bei einer Verb-Ellipse typischerweise?",
+          "options": [
+            "Nominativ, weil es Subjekt ist",
+            "Akkusativ, weil es Objekt des ausgelassenen Verbs ist",
+            "Genitiv, weil es nach einer Präposition steht",
+            "Der Kasus variiert beliebig"
+          ],
+          "answer": "Akkusativ, weil es Objekt des ausgelassenen Verbs ist",
+          "explanation": "Das Antwort-Nomen steht im Akkusativ, weil es das Objekt (Mafʿūl bih) des aus der Frage implizierten Verbs ist.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n260"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §1-10",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.38",
+    "title": "Badal-Typen (Appositionsarten)",
+    "description": "Die drei Arten des Badal (Apposition/Ersetzung): vollständig, teilweise und inkludierend — ein zentrales Werkzeug der syntaktischen Analyse.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist Badal?",
+          "content": "Badal (بَدَل) bedeutet wörtlich 'Ersatz' oder 'Austausch'. In der arabischen Syntax bezeichnet es eine Apposition: Ein Nomen (Badal) folgt einem anderen Nomen (Mubdal minhu) und erklärt, präzisiert oder ersetzt es. Der Badal übernimmt den Kasus des Mubdal minhu, weil er grammatisch an dessen Stelle steht. Der Badal ist eines der wichtigsten syntaktischen Werkzeuge im Quran, besonders in der Fātiḥa, wo er die Struktur der letzten Verse bestimmt. Es gibt drei Haupttypen: vollständig (kull min kull), teilweise (baʿḍ min kull) und inkludierend (ishtimāl).",
+          "arabicExamples": [
+            {
+              "arabic": "بَدَل",
+              "transliteration": "badal",
+              "meaning": "Ersatz / Apposition"
+            },
+            {
+              "arabic": "مُبْدَل مِنْهُ",
+              "transliteration": "mubdal minhu",
+              "meaning": "das Element, für das der Badal steht"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Typ 1: Vollständiger Badal (بَدَل كُلّ مِنْ كُلّ)",
+          "content": "Beim vollständigen Badal (badal kull min kull) ersetzt das zweite Nomen das erste vollständig — es bezeichnet dieselbe Sache, nur mit einem anderen Ausdruck. Das berühmteste Beispiel im Quran: اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ · صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (1:6–7). Hier ist صِرَاطَ الَّذِينَ (den Weg derer) ein vollständiger Badal zu الصِّرَاطَ الْمُسْتَقِيمَ (den geraden Weg). Beide Ausdrücke bezeichnen dieselbe Sache — der zweite erklärt den ersten näher. صِرَاطَ steht im Akkusativ, weil الصِّرَاطَ im Akkusativ steht (Objekt von اِهْدِنَا).",
+          "arabicExamples": [
+            {
+              "arabic": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ · صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+              "transliteration": "ihdinā ṣ-ṣirāṭa l-mustaqīm · ṣirāṭa lladhīna anʿamta ʿalayhim",
+              "meaning": "Führe uns den geraden Weg — den Weg derer, denen Du Gunst erwiesen hast (1:6–7)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+            },
+            {
+              "arabic": "لِلَّهِ رَبِّ الْعَالَمِينَ",
+              "transliteration": "li-llāhi rabbi l-ʿālamīn",
+              "meaning": "für Allah, den Herrn der Welten — رَبِّ ist Badal zu اللَّهِ"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "type": "explanation",
+          "title": "Typ 2: Teilweiser Badal (بَدَل بَعْض مِنْ كُلّ)",
+          "content": "Beim teilweisen Badal bezeichnet das zweite Nomen einen TEIL des ersten. Es muss ein Pronomen enthalten, das auf das erste Nomen zurückverweist (oder der Zusammenhang muss dies klar machen). Beispiel: وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا (3:97) — مَنِ اسْتَطَاعَ (wer es vermag) ist ein teilweiser Badal zu النَّاسِ (die Menschen). Nicht alle Menschen, sondern nur der Teil, der es sich leisten kann. Der Badal مَنِ übernimmt den Genitiv-Kasus von النَّاسِ.",
+          "arabicExamples": [
+            {
+              "arabic": "وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا",
+              "transliteration": "wa-li-llāhi ʿalā n-nāsi ḥijju l-bayti mani staṭāʿa ilayhi sabīlan",
+              "meaning": "Und Allah gegenüber obliegt den Menschen die Pilgerfahrt zum Haus — wer einen Weg dorthin vermag (3:97)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+        },
+        {
+          "type": "explanation",
+          "title": "Typ 3: Inkludierender Badal (بَدَل اشْتِمَال)",
+          "content": "Beim inkludierenden Badal (badal ishtimāl) ist das zweite Nomen kein physischer Teil des ersten, sondern ein ASPEKT, eine Eigenschaft oder ein enthaltenes Merkmal. Es ist weder identisch (wie beim vollständigen Badal) noch ein konkreter Teil (wie beim teilweisen Badal), sondern etwas, das im ersten Nomen 'enthalten' ist. Beispiel: يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ (2:217) — قِتَالٍ فِيهِ (Kampf darin) ist ein inkludierender Badal zu الشَّهْرِ الْحَرَامِ (der eingeschränkte Monat, حَرَام = verboten/eingeschränkt). Der Kampf ist kein Teil des Monats, sondern ein Aspekt, der im Zusammenhang mit dem Monat steht.",
+          "arabicExamples": [
+            {
+              "arabic": "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ",
+              "transliteration": "yasʾalūnaka ʿani sh-shahri l-ḥarāmi qitālin fīh",
+              "meaning": "Sie fragen dich über den eingeschränkten Monat (حَرَام: verboten/eingeschränkt) — Kampf darin (2:217)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+            },
+            {
+              "arabic": "قُتِلَ أَصْحَابُ الْأُخْدُودِ · النَّارِ ذَاتِ الْوَقُودِ",
+              "transliteration": "qutila aṣḥābu l-ukhdūdi · n-nāri dhāti l-waqūd",
+              "meaning": "Verflucht seien die Leute des Grabens — des Feuers mit Brennstoff (85:4–5)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=4"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ · صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ (1:6–7)",
+            "اِهْدِنَا — Imperativ 'führe uns' + Pronomen نَا (uns)",
+            "الصِّرَاطَ الْمُسْتَقِيمَ — Akkusativ (Objekt von اِهْدِنَا): den geraden Weg",
+            "صِرَاطَ الَّذِينَ — Akkusativ (Badal zu الصِّرَاطَ): den Weg derer",
+            "Typ: Vollständiger Badal (كُلّ مِنْ كُلّ) — der zweite Ausdruck meint dasselbe wie der erste",
+            "Der 'gerade Weg' IST 'der Weg derer, denen Du Gunst erwiesen hast'",
+            "Kasus-Check: الصِّرَاطَ = Akkusativ (Fatḥa), صِرَاطَ = Akkusativ (Fatḥa) → stimmt überein ✓",
+            "أَنْعَمْتَ عَلَيْهِمْ = Relativsatz: denen Du Gunst erwiesen hast"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "1:6–7",
+              "word": "الصِّرَاطَ... صِرَاطَ الَّذِينَ",
+              "analysis": "Vollständiger Badal: صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ ist Badal kull min kull zu الصِّرَاطَ الْمُسْتَقِيمَ. Beide Akkusativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+            },
+            {
+              "location": "3:97",
+              "word": "النَّاسِ... مَنِ اسْتَطَاعَ",
+              "analysis": "Teilweiser Badal: مَنِ اسْتَطَاعَ (wer es vermag) ist ein Teil von النَّاسِ (die Menschen). Badal baʿḍ min kull.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+            },
+            {
+              "location": "2:217",
+              "word": "ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ",
+              "analysis": "Inkludierender Badal: قِتَالٍ فِيهِ (Kampf darin) ist ein Aspekt des الشَّهْرِ الْحَرَامِ (eingeschränkter Monat, حَرَام = verboten/eingeschränkt). Badal ishtimāl.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+            },
+            {
+              "location": "85:4–5",
+              "word": "الْأُخْدُودِ · النَّارِ",
+              "analysis": "النَّارِ (das Feuer) ist Badal zu الْأُخْدُودِ (der Graben). Das Feuer ist ein Aspekt/Inhalt des Grabens → inkludierender oder vollständiger Badal.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=4"
+            },
+            {
+              "location": "14:1",
+              "word": "صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ · ٱللَّهِ",
+              "analysis": "اللَّهِ (2. Vers) ist Badal kull min kull zu الْعَزِيزِ الْحَمِيدِ, der wiederum auf صِرَاط bezogen ist. Genitiv-Kette.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Badal-Typ liegt in الصِّرَاطَ الْمُسْتَقِيمَ · صِرَاطَ الَّذِينَ (1:6–7) vor?",
+          "options": [
+            "Teilweiser Badal (baʿḍ min kull)",
+            "Inkludierender Badal (ishtimāl)",
+            "Vollständiger Badal (kull min kull)",
+            "Kein Badal"
+          ],
+          "answer": "Vollständiger Badal (kull min kull)",
+          "explanation": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ bezeichnet dasselbe wie الصِّرَاطَ الْمُسْتَقِيمَ — der gerade Weg IST der Weg der Begünstigten. Vollständige Ersetzung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "type": "identification",
+          "prompt": "In welchem Kasus steht der Badal und warum?",
+          "options": [
+            "Im Nominativ, weil er Subjekt ist",
+            "Im selben Kasus wie das Mubdal minhu, weil er grammatisch an dessen Stelle steht",
+            "Immer im Akkusativ",
+            "Im Genitiv, weil er ein Attribut ist"
+          ],
+          "answer": "Im selben Kasus wie das Mubdal minhu, weil er grammatisch an dessen Stelle steht",
+          "explanation": "Der Badal übernimmt den Kasus des Mubdal minhu (des Elements, für das er steht), weil er syntaktisch dieselbe Position einnimmt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jeden Badal-Typ seiner Beschreibung zu:",
+          "pairs": [
+            {
+              "item": "كُلّ مِنْ كُلّ (vollständig)",
+              "match": "Das Zweite bezeichnet dasselbe wie das Erste"
+            },
+            {
+              "item": "بَعْض مِنْ كُلّ (teilweise)",
+              "match": "Das Zweite ist ein Teil des Ersten"
+            },
+            {
+              "item": "اشْتِمَال (inkludierend)",
+              "match": "Das Zweite ist ein Aspekt oder Merkmal des Ersten"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Bestimme den Badal-Typ und analysiere: وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا (3:97)",
+          "answer": "مَنِ اسْتَطَاعَ (wer es vermag) ist teilweiser Badal (بَعْض مِنْ كُلّ) zu النَّاسِ (die Menschen). Nicht alle Menschen sind gemeint, sondern nur der Teil, der die Möglichkeit hat. مَنِ übernimmt den Genitiv von النَّاسِ (das nach عَلَى im Genitiv steht).",
+          "explanation": "Teilweiser Badal: Die Pilgerpflicht gilt nicht für alle Menschen, sondern nur für diejenigen, die es sich leisten können — مَنِ اسْتَطَاعَ ist ein Teil von النَّاسِ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was unterscheidet den teilweisen Badal (بَعْض مِنْ كُلّ) vom inkludierenden Badal (اشْتِمَال)?",
+          "options": [
+            "Kein Unterschied",
+            "Beim teilweisen ist das Zweite ein physischer/konkreter Teil, beim inkludierenden ein Aspekt oder Merkmal",
+            "Beim teilweisen steht ein Pronomen, beim inkludierenden nicht",
+            "Der teilweise Badal ist häufiger"
+          ],
+          "answer": "Beim teilweisen ist das Zweite ein physischer/konkreter Teil, beim inkludierenden ein Aspekt oder Merkmal",
+          "explanation": "بَعْض مِنْ كُلّ: Das Zweite ist ein konkreter Teil des Ersten (z.B. einige Menschen von allen Menschen). اشْتِمَال: Das Zweite ist ein Aspekt oder enthaltenes Merkmal (z.B. Kampf als Aspekt des eingeschränkten Monats, حَرَام = verboten/eingeschränkt).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Das Element, für das der Badal steht, heißt ______ ______ (mubdal minhu).",
+          "answer": [
+            "مُبْدَل",
+            "مِنْهُ"
+          ],
+          "explanation": "مُبْدَل مِنْهُ (mubdal minhu) = 'das, wovon ersetzt wird' — das Bezugsnomen, dem der Badal folgt und dessen Kasus er übernimmt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Konsolidierungsaufgabe: Analysiere alle Badal-Strukturen in Sure 2:255: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ  لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ  لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ  مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ  يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ  وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ  وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ  وَلَا يَئُودُهُ حِفْظُهُمَا  وَهُوَ الْعَلِيُّ الْعَظِيمُ. Bestimme: Welche Elemente sind Badal? Welchen Typ haben sie? Wie verhält sich der Kasus?",
+          "answer": "Die zentrale Badal-Struktur: الْحَيُّ الْقَيُّومُ ist vollständiger Badal (كُلّ مِنْ كُلّ) zu هُوَ — beide stehen im Nominativ und bezeichnen dieselbe Entität (Gott). هُوَ selbst ist Badal zu اللَّهُ in der Ausnahme-Konstruktion لَا إِلَٰهَ إِلَّا هُوَ. Die Attribute الْعَلِيُّ الْعَظِيمُ am Versende sind ebenfalls vollständiger Badal zum Subjekt هُوَ des Nominalsatzes وَهُوَ الْعَلِيُّ الْعَظِيمُ (oder attributiver Khabar). Die Phrase مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ zeigt Koordination: das zweite مَا steht im selben Kasus (Nominativ als Mubtada' nach لَهُ).",
+          "explanation": "Diese Aufgabe konsolidiert alle drei Badal-Typen und verlangt die Anwendung auf einen komplexen Vers. Der Vers enthält zusätzlich Ausnahme-Konstruktionen (إِلَّا), Verneinung (لَا), Relativsätze (الَّذِي), und Koordination — ein idealer Prüfstein für das syntaktische Gesamtverständnis.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §143-148",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.13"
+    ]
+  }
+]

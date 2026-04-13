@@ -1,0 +1,1021 @@
+{
+  "meta": {
+    "title": "Shadda — Konsonantengemination",
+    "description": "Was ist Shadda, wie erkennt man sie, wie liest man sie im Rasm? Systematische Behandlung der Konsonantenverdopplung im Quranischen Arabisch — von der phonologischen Grundlage über morphologische Muster bis zur Erkennung im Konsonantentext.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "SH1",
+      "title": "Was ist Gemination?",
+      "description": "Grundlagen der Konsonantenverdopplung: phonologische Realität, Schriftzeichen und Erkennung im Rasm.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Definition",
+            "content": "Shadda (شَدَّة, wörtlich: 'Verstärkung') ist das diakritische Zeichen (ـّ) über einem Konsonanten, das seine Verdopplung (Gemination) markiert. Ein Konsonant mit Shadda repräsentiert phonologisch ZWEI identische Konsonanten. Das Wort شَدَّة selbst enthält eine Shadda auf dem د — es wird als /ʃad.da/ gesprochen, nicht als /ʃa.da/."
+          },
+          {
+            "type": "explanation",
+            "title": "Phonologische Realität",
+            "content": "Ein geminierter Konsonant wird als ZWEI Konsonanten realisiert: Der erste schließt die vorhergehende Silbe (als Koda), der zweite eröffnet die nächste Silbe (als Onset). Beispiel: رَبّ = /rab.b/ — das erste /b/ schließt die Silbe /rab/, das zweite /b/ beginnt mit dem folgenden Vokal eine neue Silbe. Dies hat direkte Auswirkungen auf Silbenstruktur, Betonung und Metrik. Gemination ist BEDEUTUNGSUNTERSCHEIDEND: كَتَبَ (er schrieb) vs. كَتَّبَ (er ließ schreiben) — der einzige Unterschied ist die Gemination des mittleren Radikals."
+          },
+          {
+            "type": "explanation",
+            "title": "Shadda im Rasm",
+            "content": "Im reinen Konsonantentext (Rasm) ist Shadda UNSICHTBAR. Der Konsonant wird nur einmal geschrieben, obwohl er doppelt gesprochen wird. Der Leser muss aus der Morphologie (Wortmuster), dem Kontext und seiner Sprachkenntnis wissen, wo Gemination vorliegt. Shadda gehört zum System der diakritischen Zeichen, die erst nach der Fixierung des Rasm hinzugefügt wurden — zusammen mit Fatha, Kasra, Damma, Sukun und Tanwin. Im voll vokalisierten Mushaf-Text ist Shadda immer markiert."
+          },
+          {
+            "type": "explanation",
+            "title": "Silbenstruktur mit Shadda",
+            "content": "Arabische Silben folgen bestimmten Mustern. Shadda erzeugt immer eine geschlossene Silbe VOR sich und eine neue Silbe NACH sich. Analyse: رَبِّهِمْ = /rab.bi.him/ — drei Silben. Ohne Shadda wäre es */ra.bi.him/ — die Silbenstruktur ändert sich fundamental. Die Gemination trägt daher direkt zur prosodischen Struktur bei."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quran-Beispiele — Grundlegende Shadda-Wörter",
+            "examples": [
+              {
+                "arabic": "رَبِّ ٱلْعَٰلَمِينَ",
+                "transliteration": "rabb-i l-ʿālamīna",
+                "meaning": "Herr der Welten",
+                "ref": "1:2",
+                "analysis": "رَبّ: Gemination des ب. Silbenstruktur: /rab.b/. Das erste /b/ schließt die Silbe, das zweite trägt das Kasra.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+              },
+              {
+                "arabic": "اللَّهِ",
+                "transliteration": "al-lāhi",
+                "meaning": "Gott (Genitiv)",
+                "ref": "1:1",
+                "analysis": "Doppeltes Lam: Das erste Lam gehört zum Artikel, das zweite zum Wortanfang. Shadda markiert diese Verschmelzung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              },
+              {
+                "arabic": "إِنَّ",
+                "transliteration": "inna",
+                "meaning": "wahrlich, gewiss (Betonungspartikel)",
+                "ref": "2:6",
+                "analysis": "Gemination des ن. إِنَّ regiert den Akkusativ des folgenden Nomens. Ohne Shadda wäre es إِنْ (Konditionalpartikel 'wenn').",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+              },
+              {
+                "arabic": "أَنَّ",
+                "transliteration": "anna",
+                "meaning": "dass (Konjunktion)",
+                "ref": "2:26",
+                "analysis": "Gemination des ن. أَنَّ (dass) vs. أَنْ (zu/dass ohne Shadda) — Shadda ist bedeutungsunterscheidend.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+              },
+              {
+                "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+                "transliteration": "ar-raḥmāni r-raḥīmi",
+                "meaning": "des intensiv-Barmherzigen, des Barmherzigen",
+                "ref": "1:3",
+                "analysis": "Sonnenbuchstabe ر: Das Lam des Artikels assimiliert zum ر, daher الرَّ statt اَلْرَ. Shadda zeigt die Assimilation an.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+              },
+              {
+                "arabic": "كُلَّ",
+                "transliteration": "kulla",
+                "meaning": "jeder, alle (Akkusativ)",
+                "ref": "2:29",
+                "analysis": "Gemination des ل. كُلّ erscheint extrem häufig im Quran. Silbenstruktur: /kul.la/.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+              },
+              {
+                "arabic": "ثُمَّ",
+                "transliteration": "ṯumma",
+                "meaning": "dann, hierauf",
+                "ref": "2:28",
+                "analysis": "Gemination des م. ثُمَّ (dann) ist die temporale Konjunktion — nicht zu verwechseln mit ثَمَّ (dort, thamma) oder ثُمَّ vs. ثَمَّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+              },
+              {
+                "arabic": "لَعَلَّ",
+                "transliteration": "laʿalla",
+                "meaning": "vielleicht, auf dass",
+                "ref": "2:21",
+                "analysis": "Gemination des ل am Wortende. لَعَلَّ regiert wie إِنَّ den Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "arabic": "مَسَّ",
+                "transliteration": "massa",
+                "meaning": "berühren",
+                "ref": "2:275",
+                "analysis": "Geminierter letzter Radikal. مَسَّ = /mas.sa/. Die Gemination zeigt, dass der Stamm م-س-س ist (doppelter letzter Radikal).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+              },
+              {
+                "arabic": "حَقَّ",
+                "transliteration": "ḥaqqa",
+                "meaning": "wahr sein, sich bewahrheiten; Recht/Wahrheit",
+                "ref": "10:35",
+                "analysis": "Wurzel ح-ق-ق mit identischem zweitem und drittem Radikal. Shadda verschmilzt beide zu einem geminierten Konsonanten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=35"
+              },
+              {
+                "arabic": "يَمُدُّ",
+                "transliteration": "yamuddu",
+                "meaning": "er streckt aus, verlängert",
+                "ref": "2:15",
+                "analysis": "Form I Imperfekt von م-د-د. Der geminierte letzte Radikal trägt den Stammvokal Damma.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=15"
+              },
+              {
+                "arabic": "الصِّرَاطَ",
+                "transliteration": "aṣ-ṣirāṭa",
+                "meaning": "den Weg (Akkusativ)",
+                "ref": "1:6",
+                "analysis": "Sonnenbuchstabe ص: Das Lam des Artikels assimiliert komplett. Shadda auf ص zeigt die Assimilation.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "SH1-E1",
+          "type": "silbenAnalyse",
+          "instruction": "Zerlege das Wort in Silben und markiere, wo die Shadda die Silbengrenze erzeugt.",
+          "word": "إِنَّهُمْ",
+          "ref": "2:12",
+          "correctAnswer": "in.na.hum",
+          "explanation": "إِنَّ wird zu /in.na/ — das erste /n/ schließt die Silbe /in/, das zweite eröffnet /na/. Mit Suffix -hum: /in.na.hum/ = drei Silben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+        },
+        {
+          "id": "SH1-E2",
+          "type": "bedeutungskontrast",
+          "instruction": "Welcher Bedeutungsunterschied entsteht durch die Shadda?",
+          "pair": [
+            "إِنْ",
+            "إِنَّ"
+          ],
+          "correctAnswer": "إِنْ (ohne Shadda) = Konditionalpartikel 'wenn/falls'. إِنَّ (mit Shadda) = Betonungspartikel 'wahrlich/gewiss'. Beide sehen im Rasm identisch aus: ان.",
+          "refs": [
+            "3:139",
+            "2:6"
+          ]
+        },
+        {
+          "id": "SH1-E3",
+          "type": "erkennung",
+          "instruction": "Das folgende Wort erscheint im Rasm als ردّ. Wieviele Konsonanten werden gesprochen?",
+          "word": "رَدَّ",
+          "ref": "2:109",
+          "correctAnswer": "Drei Konsonanten: /r/, /d/, /d/. Das Rasm zeigt nur ر und د, aber die Shadda auf د bedeutet, dass zwei /d/ gesprochen werden: /rad.da/.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+        },
+        {
+          "id": "SH1-E4",
+          "type": "silbenAnalyse",
+          "instruction": "Wie viele Silben hat das Wort رَبَّنَا und wo liegt die Silbengrenze?",
+          "word": "رَبَّنَا",
+          "ref": "2:127",
+          "correctAnswer": "rab.ba.naa — drei Silben. Das geminierte ب erzeugt die Grenze zwischen erster und zweiter Silbe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+        },
+        {
+          "id": "SH1-E5",
+          "type": "erkennung",
+          "instruction": "Im Rasm steht حتى. Enthält dieses Wort eine Shadda?",
+          "word": "حَتَّى",
+          "ref": "2:55",
+          "correctAnswer": "Ja. حَتَّى hat Shadda auf dem ت. Im Rasm ist nur حتى sichtbar — die Gemination muss gewusst werden. Aussprache: /ḥat.taa/.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "id": "SH1-T1",
+            "type": "multipleChoice",
+            "question": "Was passiert phonologisch bei einem Konsonanten mit Shadda?",
+            "options": [
+              "Der Konsonant wird länger und stärker betont",
+              "Der Konsonant wird als zwei identische Konsonanten gesprochen — der erste schließt die vorherige Silbe, der zweite eröffnet die nächste",
+              "Der Konsonant wird stimmhaft statt stimmlos",
+              "Der Konsonant wird mit Emphase gesprochen"
+            ],
+            "correct": 1,
+            "explanation": "Gemination bedeutet phonologisch ZWEI identische Konsonanten. Sie bilden eine Silbengrenze: Koda + Onset."
+          },
+          {
+            "id": "SH1-T2",
+            "type": "multipleChoice",
+            "question": "Wie erscheint Shadda im reinen Rasm (Konsonantentext)?",
+            "options": [
+              "Als doppelt geschriebener Buchstabe",
+              "Als kleines Zeichen über dem Buchstaben",
+              "Gar nicht — Shadda ist im Rasm unsichtbar",
+              "Als Punkt unter dem Buchstaben"
+            ],
+            "correct": 2,
+            "explanation": "Im Rasm wird der Konsonant nur einmal geschrieben. Shadda gehört zu den diakritischen Zeichen, die später hinzugefügt wurden."
+          },
+          {
+            "id": "SH1-T3",
+            "type": "multipleChoice",
+            "question": "Wie viele Silben hat das Wort أَنَّهُمْ (2:8)?",
+            "options": [
+              "Zwei: an-nahum",
+              "Drei: an.na.hum",
+              "Vier: a.na.na.hum",
+              "Zwei: anna.hum"
+            ],
+            "correct": 1,
+            "explanation": "أَنَّهُمْ = /an.na.hum/ — drei Silben. Das geminierte ن erzeugt die Grenze zwischen Silbe 1 (/an/) und Silbe 2 (/na/).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+          },
+          {
+            "id": "SH1-T4",
+            "type": "multipleChoice",
+            "question": "Was unterscheidet أَنْ von أَنَّ?",
+            "options": [
+              "Nur die Schreibung, die Bedeutung ist gleich",
+              "أَنْ hat Sukun auf ن und bedeutet 'zu/dass' (mit Subjunktiv). أَنَّ hat Shadda und bedeutet 'dass' (mit Akkusativ-Subjekt)",
+              "أَنْ ist Vergangenheit, أَنَّ ist Gegenwart",
+              "أَنْ steht vor Nomen, أَنَّ vor Verben"
+            ],
+            "correct": 1,
+            "explanation": "أَنْ (Subjunktivpartikel) vs. أَنَّ (Konjunktion mit Akkusativrektion) — im Rasm identisch, phonologisch und syntaktisch völlig verschieden."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "SH2",
+      "title": "Shadda in der Morphologie — Verbformen",
+      "description": "Wo Gemination morphologisch bedingt ist: Form II (فَعَّلَ), Form V (تَفَعَّلَ) und Verben mit identischem zweitem und drittem Radikal.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Form II: فَعَّلَ — Gemination des mittleren Radikals",
+            "content": "Form II wird durch Gemination (Verdopplung) des mittleren Radikals gebildet. Das Muster ist فَعَّلَ (fa''ala). Diese Gemination ist das EINZIGE Merkmal, das Form II von Form I unterscheidet. Semantisch hat Form II oft eine kausative (bewirken), intensive (verstärken) oder deklarative (für X erklären) Funktion. Die Shadda des mittleren Radikals ist das zentrale Erkennungsmerkmal."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Form-II-Beispiele aus dem Quran",
+            "examples": [
+              {
+                "arabic": "نَزَّلَ",
+                "transliteration": "nazzala",
+                "meaning": "herabsenden (kausativ/intensiv von نَزَلَ 'herabkommen')",
+                "ref": "2:4",
+                "analysis": "Form I: نَزَلَ (herabkommen, intransitiv). Form II: نَزَّلَ (herabsenden, transitiv-kausativ). Die Shadda auf ز macht den Unterschied.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+              },
+              {
+                "arabic": "عَلَّمَ",
+                "transliteration": "ʿallama",
+                "meaning": "lehren (kausativ von عَلِمَ 'wissen')",
+                "ref": "2:31",
+                "analysis": "Form I: عَلِمَ (wissen). Form II: عَلَّمَ (wissen machen → lehren). Shadda auf ل. Kausative Funktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+              },
+              {
+                "arabic": "كَذَّبَ",
+                "transliteration": "kaḏḏaba",
+                "meaning": "für lügnerisch erklären (deklarativ von كَذَبَ 'lügen')",
+                "ref": "2:87",
+                "analysis": "Form I: كَذَبَ (lügen). Form II: كَذَّبَ (der Lüge bezichtigen). Deklarative Funktion der Gemination.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+              },
+              {
+                "arabic": "صَلَّى",
+                "transliteration": "ṣallā",
+                "meaning": "sich zuwenden, die Zuwendung verrichten",
+                "ref": "87:15",
+                "analysis": "Form II von ص-ل-و. Shadda auf ل. Defektive Wurzel — der dritte Radikal (و) wird zu Alif maqsura.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=15"
+              },
+              {
+                "arabic": "كَبَّرَ",
+                "transliteration": "kabbara",
+                "meaning": "für groß erklären, vergrößern",
+                "ref": "17:111 (كَبِّرْهُ — Imperativ)",
+                "analysis": "Form II von ك-ب-ر. Shadda auf ب. Deklarativ: für groß erklären → Gottes Größe proklamieren.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=111"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Form V: تَفَعَّلَ — Präfix تَ + Gemination",
+            "content": "Form V kombiniert das Präfix تَ mit der Gemination des mittleren Radikals (wie Form II). Das Muster ist تَفَعَّلَ (tafa''ala). Semantisch hat Form V oft eine reflexive Bedeutung bezogen auf Form II: Was Form II aktiv bewirkt, geschieht in Form V am Subjekt selbst. Die Shadda bleibt auf dem mittleren Radikal."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Form-V-Beispiele aus dem Quran",
+            "examples": [
+              {
+                "arabic": "تَوَكَّلَ",
+                "transliteration": "tawakkala",
+                "meaning": "vertrauen, sich verlassen auf",
+                "ref": "3:122",
+                "analysis": "Wurzel و-ك-ل. Form II: وَكَّلَ (beauftragen). Form V: تَوَكَّلَ (sich anvertrauen). Shadda auf ك.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=122"
+              },
+              {
+                "arabic": "تَعَلَّمَ",
+                "transliteration": "taʿallama",
+                "meaning": "lernen (reflexiv von عَلَّمَ 'lehren')",
+                "ref": "2:102",
+                "analysis": "Form II: عَلَّمَ (lehren). Form V: تَعَلَّمَ (sich beibringen → lernen). Reflexive Funktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+              },
+              {
+                "arabic": "تَبَيَّنَ",
+                "transliteration": "tabayyana",
+                "meaning": "klar werden, sich herausstellen",
+                "ref": "2:256",
+                "analysis": "Form II: بَيَّنَ (klar machen). Form V: تَبَيَّنَ (sich als klar erweisen). Shadda auf ي.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Verben mit identischem zweitem und drittem Radikal (Verba mediae geminatae)",
+            "content": "Wurzeln wie م-د-د, ر-د-د, ح-ق-ق haben identischen zweiten und dritten Radikal. In bestimmten Formen verschmelzen diese zu einem geminierten Konsonanten mit Shadda: مَدَدَ → مَدَّ (er streckte aus), رَدَدَ → رَدَّ (er gab zurück). Diese Verschmelzung findet statt, wenn kein Vokal zwischen dem zweiten und dritten Radikal steht. Im Imperfekt mit Vokal: يَمُدُّ (kein Vokal zwischen den beiden د im zugrundeliegenden /yamdud/, daher Gemination). Aber: مَدَدْتُ (ich streckte aus — hier steht ein Konsonantencluster vor Suffix, keine Gemination)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Verba mediae geminatae im Quran",
+            "examples": [
+              {
+                "arabic": "رَدَّ",
+                "transliteration": "radda",
+                "meaning": "zurückgeben, zurückweisen",
+                "ref": "2:109",
+                "analysis": "Wurzel ر-د-د. Perfekt 3.m.sg.: رَدَّ (aus *رَدَدَ). Die beiden identischen Radikale verschmelzen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+              },
+              {
+                "arabic": "مَسَّ",
+                "transliteration": "massa",
+                "meaning": "berühren",
+                "ref": "2:275",
+                "analysis": "Wurzel م-س-س. Perfekt 3.m.sg.: مَسَّ (aus *مَسَسَ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+              },
+              {
+                "arabic": "ضَلَّ",
+                "transliteration": "ḍalla",
+                "meaning": "sich verirren, abirren",
+                "ref": "1:7",
+                "analysis": "Wurzel ض-ل-ل. Die Fatiha endet mit diesem Wort. Perfekt 3.m.sg.: ضَلَّ (aus *ضَلَلَ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+              },
+              {
+                "arabic": "حَقَّ",
+                "transliteration": "ḥaqqa",
+                "meaning": "wahr sein, sich als wahr erweisen",
+                "ref": "10:33",
+                "analysis": "Wurzel ح-ق-ق. حَقَّ (wahr sein) — حَقّ (Wahrheit/Recht) als Nomen hochfrequent.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=33"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "SH2-E1",
+          "type": "formbestimmung",
+          "instruction": "Bestimme die Verbform und erkläre die Funktion der Shadda.",
+          "word": "قَدَّرَ",
+          "ref": "87:3",
+          "correctAnswer": "Form II von ق-د-ر. Grundform قَدَرَ (fähig sein/Maß haben). Form II قَدَّرَ (bestimmen, Maß festlegen — kausative Funktion). Die Shadda auf د ist das Formkennzeichen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=3"
+        },
+        {
+          "id": "SH2-E2",
+          "type": "formbestimmung",
+          "instruction": "Welche Verbform liegt vor und wie verhält sie sich zu Form II?",
+          "word": "تَفَكَّرَ",
+          "ref": "allgemeinarabisch (يَتَفَكَّرُونَ: 2:219)",
+          "correctAnswer": "Form V von ف-ك-ر. Form II wäre فَكَّرَ (nachdenken machen). Form V تَفَكَّرَ (bei sich nachdenken — reflexiv). Präfix تَ + Shadda auf ك.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        },
+        {
+          "id": "SH2-E3",
+          "type": "wurzelbestimmung",
+          "instruction": "Wie lautet die dreiradikalige Wurzel, und warum erscheint Shadda?",
+          "word": "يَمُدُّ",
+          "ref": "2:15",
+          "correctAnswer": "Wurzel م-د-د. Der zweite und dritte Radikal sind identisch. Im Imperfekt verschmelzen sie zu einem geminierten د mit Shadda: يَمْدُدُ → يَمُدُّ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=15"
+        },
+        {
+          "id": "SH2-E4",
+          "type": "kontrast",
+          "instruction": "Erkläre den Unterschied zwischen den beiden Formen.",
+          "pair": [
+            "نَزَلَ",
+            "نَزَّلَ"
+          ],
+          "refs": [
+            "3:3",
+            "2:4"
+          ],
+          "correctAnswer": "نَزَلَ (Form I): herabkommen (intransitiv — das Subjekt kommt herab). نَزَّلَ (Form II): herabsenden (transitiv-kausativ — jemand sendet etwas herab). Die Shadda auf ز markiert den Formwechsel I → II."
+        },
+        {
+          "id": "SH2-E5",
+          "type": "kontrast",
+          "instruction": "كَتَبَ und كَتَّبَ — was ist der morphologische Unterschied?",
+          "pair": [
+            "كَتَبَ",
+            "كَتَّبَ"
+          ],
+          "refs": [
+            "2:282",
+            "allgemeinarabisch"
+          ],
+          "correctAnswer": "كَتَبَ (Form I): er schrieb. كَتَّبَ (Form II): er ließ schreiben / er diktierte (kausativ). Die Shadda auf ت ist das Formkennzeichen von Form II (Muster فَعَّلَ) — Verdopplung des mittleren Radikals."
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "id": "SH2-T1",
+            "type": "multipleChoice",
+            "question": "Was ist das morphologische Kennzeichen von Form II (فَعَّلَ)?",
+            "options": [
+              "Ein Präfix تَ vor der Wurzel",
+              "Gemination (Verdopplung) des mittleren Radikals",
+              "Ein langes /aa/ nach dem ersten Radikal",
+              "Ein Präfix اِسْتَ vor der Wurzel"
+            ],
+            "correct": 1,
+            "explanation": "Form II wird ausschließlich durch die Gemination des mittleren Radikals gebildet. Das Muster ist فَعَّلَ — Shadda auf dem zweiten Radikal."
+          },
+          {
+            "id": "SH2-T2",
+            "type": "multipleChoice",
+            "question": "Warum hat das Verb ضَلَّ (1:7) eine Shadda?",
+            "options": [
+              "Es ist Form II mit kausativer Bedeutung",
+              "Die Wurzel ض-ل-ل hat identischen zweiten und dritten Radikal — sie verschmelzen zu einem geminierten ل",
+              "Das Lam des Artikels hat assimiliert",
+              "Es ist ein Fehler in der Vokalisierung"
+            ],
+            "correct": 1,
+            "explanation": "ضَلَّ hat Wurzel ض-ل-ل (Verbum mediae geminatae). Der zweite und dritte Radikal (beide ل) verschmelzen, wenn kein Vokal dazwischen steht: *ضَلَلَ → ضَلَّ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+          },
+          {
+            "id": "SH2-T3",
+            "type": "multipleChoice",
+            "question": "Was ist der Bedeutungsunterschied zwischen عَلِمَ und عَلَّمَ?",
+            "options": [
+              "Kein Unterschied, nur verschiedene Dialektformen",
+              "عَلِمَ = wissen (Form I, intransitiv), عَلَّمَ = lehren (Form II, kausativ)",
+              "عَلِمَ = Vergangenheit, عَلَّمَ = Gegenwart",
+              "عَلِمَ = Singular, عَلَّمَ = Plural"
+            ],
+            "correct": 1,
+            "explanation": "عَلِمَ (wissen) → عَلَّمَ (wissen machen = lehren). Die Gemination des ل in Form II erzeugt die kausative Bedeutung."
+          },
+          {
+            "id": "SH2-T4",
+            "type": "multipleChoice",
+            "question": "Welche Verbform ist تَوَكَّلَ (3:122)?",
+            "options": [
+              "Form I mit Präfix",
+              "Form II (فَعَّلَ)",
+              "Form V (تَفَعَّلَ)",
+              "Form VIII (اِفْتَعَلَ)"
+            ],
+            "correct": 2,
+            "explanation": "تَوَكَّلَ hat das Präfix تَ UND die Gemination des mittleren Radikals ك. Das ist das Muster تَفَعَّلَ = Form V.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=122"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "id": "SH3",
+      "title": "Shadda durch Assimilation — Sonnenbuchstaben und Idgham",
+      "description": "Wenn Shadda nicht aus der Morphologie stammt, sondern durch lautliche Verschmelzung (Assimilation) entsteht.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Sonnenbuchstaben — Assimilation des Artikel-Lam",
+            "content": "Der Definitartikel اَلْ hat ein Lam, das vor bestimmten Konsonanten (den sogenannten Sonnenbuchstaben) assimiliert — es wird nicht als /l/ gesprochen, sondern nimmt den Lautwert des folgenden Konsonanten an. Die Folge ist ein geminierter Konsonant, markiert durch Shadda. Die 14 Sonnenbuchstaben sind: ت ث د ذ ر ز س ش ص ض ط ظ ل ن. Sie sind alle koronal (an oder nahe den Zähnen/Alveolen/Gaumen artikuliert). Das Lam assimiliert, weil es denselben oder nahen Artikulationsort teilt. Die übrigen 14 Buchstaben sind Mondbuchstaben — hier bleibt das Lam: اَلْقَمَر (der Mond)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Sonnenbuchstaben im Quran",
+            "examples": [
+              {
+                "arabic": "الرَّحْمَنِ",
+                "transliteration": "ar-raḥmāni",
+                "meaning": "des intensiv-Barmherzigen",
+                "ref": "1:3",
+                "analysis": "اَلْ + رَحْمَن → الرَّحْمَن. Das Lam assimiliert zum ر. Geschrieben wird الر mit Shadda auf ر.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+              },
+              {
+                "arabic": "الشَّمْسِ",
+                "transliteration": "aš-šamsi",
+                "meaning": "der Sonne",
+                "ref": "91:1",
+                "analysis": "اَلْ + شَمْس → الشَّمْس. Lam assimiliert zum ش. Der Name 'Sonnenbuchstaben' kommt von diesem Wort: الشَّمْس zeigt die Assimilation.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+              },
+              {
+                "arabic": "النَّاسِ",
+                "transliteration": "an-nāsi",
+                "meaning": "der Menschen",
+                "ref": "114:1",
+                "analysis": "اَلْ + نَاس → النَّاس. Lam assimiliert zum ن.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+              },
+              {
+                "arabic": "السَّمَاءِ",
+                "transliteration": "as-samāʾi",
+                "meaning": "des Himmels",
+                "ref": "2:19",
+                "analysis": "اَلْ + سَمَاء → السَّمَاء. Lam assimiliert zum س.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+              },
+              {
+                "arabic": "التَّوْبَةِ",
+                "transliteration": "at-tawbati",
+                "meaning": "der Umkehr/Reue",
+                "ref": "9:104",
+                "analysis": "اَلْ + تَوْبَة → التَّوْبَة. Lam assimiliert zum ت.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=104"
+              },
+              {
+                "arabic": "الظُّلُمَاتِ",
+                "transliteration": "aẓ-ẓulumāti",
+                "meaning": "der Finsternisse",
+                "ref": "2:257",
+                "analysis": "اَلْ + ظُلُمَات → الظُّلُمَات. Lam assimiliert zum emphatischen ظ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Idgham — Assimilation gleichartiger oder ähnlicher Konsonanten",
+            "content": "Idgham (إِدْغَام, wörtlich: 'Einfügen') bezeichnet die Assimilation eines Konsonanten an den folgenden, sodass beide als ein geminierter Konsonant gesprochen werden. Dies ist ein phonologischer Prozess, der auftritt, wenn zwei identische oder artikulatorisch ähnliche Konsonanten aufeinandertreffen — typischerweise an Wortgrenzen oder Morphemgrenzen. Beispiel: مِنْ + نَار → مِنَّار (gesprochen /min.nār/). Das Nun der Präposition مِنْ assimiliert an das folgende Nun. Idgham bezeichnet hier den rein phonologischen Assimilationsprozess — den Kollaps zweier Konsonanten in eine Gemination."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Idgham-Beispiele im Quran",
+            "examples": [
+              {
+                "arabic": "مِّن نِّعْمَةٍ",
+                "transliteration": "min niʿmatin → minniʿmatin",
+                "meaning": "an Gunst/Wohltat",
+                "ref": "16:53",
+                "analysis": "نْ + نِ → نِّ. Zwei identische Konsonanten (ن) verschmelzen zu einem geminierten ن. Im geschriebenen Text bleiben beide sichtbar, in der Aussprache ist es ein Laut.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=53"
+              },
+              {
+                "arabic": "قَد تَّبَيَّنَ",
+                "transliteration": "qad tabayyana → qattabayyana",
+                "meaning": "es hat sich gezeigt",
+                "ref": "2:256",
+                "analysis": "دْ + تَ → تَّ. Das د von قَدْ assimiliert an das folgende ت, weil beide alveolare Plosive sind (gleicher Artikulationsort). Ergebnis: geminiertes ت.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+              },
+              {
+                "arabic": "وَإِذْ زَيَّنَ",
+                "transliteration": "wa-iḏ zayyana → wa-izzayyana",
+                "meaning": "und als (er) ausschmückte",
+                "ref": "8:48",
+                "analysis": "ذْ + زَ → زَّ. Das ذ (interdentaler Frikativ) assimiliert an das ز (alveolarer Frikativ). Ähnliche Artikulation führt zur Verschmelzung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=48"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Idgham-Regeltabelle — Welche Konsonanten assimilieren?",
+            "content": "Systematische Übersicht der häufigsten Idgham-Assimilationen im Quranischen Arabisch:\n\n1. IDENTISCHE KONSONANTEN: Jeder Konsonant assimiliert an einen identischen folgenden Konsonanten.\n   نْ + نَ → نَّ (مِنْ نِعْمَة)\n   لْ + لَ → لَّ (قُلْ لَهُمْ → قُلَّهُمْ)\n   مْ + مَ → مَّ (هُمْ مِنْ → هُمِّنْ)\n\n2. ARTIKULATIONSORT-ASSIMILATION (homoorganisch):\n   دْ + تَ → تَّ (قَدْ تَبَيَّنَ) — beide alveolar, stimmlos gewinnt\n   ذْ + زَ → زَّ (إِذْ زَيَّنَ) — beide frikativ, alveolar gewinnt\n   تْ + دَ → دَّ (قَالَتْ دَعَوْتُ) — beide alveolar, stimmhaft gewinnt\n   تْ + طَ → طَّ (وَدَّتْ طَائِفَة) — alveolar assimiliert an emphatisch\n   بْ + مَ → مَّ (اِرْكَبْ مَعَنَا) — beide bilabial\n\n3. SONNENBUCHSTABEN-ASSIMILATION (لْ → Sonnenbuchstabe):\n   Alle 14 Sonnenbuchstaben (ت ث د ذ ر ز س ش ص ض ط ظ ل ن) assimilieren das Artikel-Lam.\n\n4. NUN-ASSIMILATION (نْ vor bestimmten Konsonanten):\n   نْ vor ر → رَّ (مِنْ رَبِّهِمْ)\n   نْ vor ل → لَّ (مِنْ لَدُنْهُ)\n   نْ vor م → مَّ (مِنْ مَاءٍ)\n   نْ vor و/ي → Partielle Assimilation (Nasalierung)\n\nAnmerkung: Die Schreibung bleibt UNVERÄNDERT — die Assimilation betrifft nur die Aussprache. Im Konsonantentext sind beide Buchstaben sichtbar."
+          },
+          {
+            "type": "explanation",
+            "title": "Gemination bei اللَّه",
+            "content": "Das Wort اللَّه (Allaah) enthält eine Shadda auf dem Lam. Diese entsteht durch die Verschmelzung des Artikel-Lam mit dem wortanlautenden Lam: اَلْ + لَاه → اللَّاه. Das erste Lam (Artikel) assimiliert an das zweite Lam (Wortanfang von لَاه). Dieses Wort ist das häufigste Wort im Quran mit Shadda und illustriert gleichzeitig die Sonnenbuchstaben-Assimilation (ل ist ein Sonnenbuchstabe — das Lam assimiliert an sich selbst)."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "SH3-E1",
+          "type": "assimilation",
+          "instruction": "Erkläre, warum in الصِّرَاطَ eine Shadda auf dem ص erscheint.",
+          "word": "الصِّرَاطَ",
+          "ref": "1:6",
+          "correctAnswer": "ص ist ein Sonnenbuchstabe. Das Lam des Artikels اَلْ assimiliert vollständig zum ص. Ergebnis: اَلْصِرَاط → الصِّرَاط. Das Lam wird nicht gesprochen — stattdessen wird ص geminiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "id": "SH3-E2",
+          "type": "erkennung",
+          "instruction": "Hat das Wort الْقُرْآنَ eine Shadda auf dem ersten Konsonanten nach dem Artikel?",
+          "word": "الْقُرْآنَ",
+          "ref": "2:185",
+          "correctAnswer": "Nein. ق ist ein Mondbuchstabe — das Lam des Artikels bleibt erhalten und wird als /l/ gesprochen: /al-qurʔān/. Keine Assimilation, keine Shadda.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+        },
+        {
+          "id": "SH3-E3",
+          "type": "assimilation",
+          "instruction": "Was passiert phonologisch in der Verbindung مِنْ رَبِّهِمْ?",
+          "word": "مِّن رَّبِّهِمْ",
+          "ref": "2:5",
+          "correctAnswer": "Das ن von مِنْ assimiliert an das ر von رَبّ: /min rabbihim/ → /mir rabbihim/ oder vollständig /mirrabbihim/. Das ن wird am Artikulationsort des ر realisiert. In der Schrift bleiben beide Buchstaben sichtbar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+        },
+        {
+          "id": "SH3-E4",
+          "type": "klassifikation",
+          "instruction": "Klassifiziere die Shadda: morphologisch bedingt oder durch Assimilation?",
+          "word": "الرَّبِّ",
+          "ref": "1:2",
+          "correctAnswer": "BEIDE. Die Shadda auf ر ist Assimilation (Sonnenbuchstabe: Artikel-Lam → ر). Die Shadda auf ب ist morphologisch (Wurzel ر-ب-ب, identischer zweiter und dritter Radikal).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "id": "SH3-E5",
+          "type": "erkennung",
+          "instruction": "Welche Wörter in بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ enthalten Shadda und warum?",
+          "word": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ref": "1:1",
+          "correctAnswer": "Drei Shadda-Positionen: (1) اللَّهِ — Artikel-Lam assimiliert an Wort-Lam. (2) الرَّحْمَنِ — Artikel-Lam assimiliert an Sonnenbuchstabe ر. (3) الرَّحِيمِ — ebenso Artikel-Lam assimiliert an ر. Alle drei sind assimilationsbedingt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "id": "SH3-E6",
+          "type": "analyse",
+          "instruction": "Im Rasm steht: الناس. Wo genau wird ein geminierter Konsonant gesprochen?",
+          "word": "النَّاسِ",
+          "ref": "114:1",
+          "correctAnswer": "Das Lam des Artikels assimiliert an den Sonnenbuchstaben ن. Im Rasm sieht man ا-ل-ن-ا-س, aber gesprochen wird /an.nās/ — geminiertes ن. Das Lam ist phonologisch verschwunden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "id": "SH3-T1",
+            "type": "multipleChoice",
+            "question": "Warum assimiliert das Lam des Artikels in الشَّمْس?",
+            "options": [
+              "Weil ش ein Mondbuchstabe ist",
+              "Weil ش ein Sonnenbuchstabe ist — sein Artikulationsort liegt nahe am Lam, und das Lam assimiliert vollständig",
+              "Weil das Wort eine morphologische Gemination enthält",
+              "Weil Shadda hier rein ornamental ist"
+            ],
+            "correct": 1,
+            "explanation": "ش ist ein Sonnenbuchstabe (koronal, postpalatal). Das Lam assimiliert an den folgenden Konsonanten: اَلْشَمْس → الشَّمْس."
+          },
+          {
+            "id": "SH3-T2",
+            "type": "multipleChoice",
+            "question": "Was ist Idgham?",
+            "options": [
+              "Die Verdopplung eines Konsonanten aus morphologischen Gründen",
+              "Die Assimilation eines Konsonanten an den folgenden, sodass beide als geminierter Laut gesprochen werden",
+              "Die Aussprache eines Konsonanten mit Emphase",
+              "Die Einfügung eines zusätzlichen Vokals"
+            ],
+            "correct": 1,
+            "explanation": "Idgham (إِدْغَام) ist die Assimilation eines Konsonanten an den unmittelbar folgenden. Zwei Konsonanten verschmelzen zu einem geminierten Laut."
+          },
+          {
+            "id": "SH3-T3",
+            "type": "multipleChoice",
+            "question": "Warum hat اللَّه eine Shadda auf dem Lam?",
+            "options": [
+              "Das Wort hat von Natur aus ein doppeltes Lam",
+              "Das Lam des Artikels assimiliert an das anlautende Lam des Wortes — ل ist ein Sonnenbuchstabe",
+              "Es ist eine Emphase-Markierung",
+              "Die Shadda markiert eine besondere Betonung aus Respekt"
+            ],
+            "correct": 1,
+            "explanation": "اللَّه = اَلْ (Artikel) + لَاه. Das Lam des Artikels assimiliert an das Lam des Wortstamms. ل ist selbst ein Sonnenbuchstabe."
+          },
+          {
+            "id": "SH3-T4",
+            "type": "multipleChoice",
+            "question": "In welchem der folgenden Wörter ist die Shadda NICHT durch Artikel-Assimilation bedingt?",
+            "options": [
+              "الشَّمْسِ (die Sonne, 91:1)",
+              "النَّاسِ (die Menschen, 114:1)",
+              "إِنَّ (wahrlich, 2:6)",
+              "السَّمَاءِ (der Himmel, 2:19)"
+            ],
+            "correct": 2,
+            "explanation": "إِنَّ hat keinen Artikel. Die Shadda auf ن ist lexikalisch/morphologisch bedingt — إِنَّ ist eine Partikel, deren Grundform einen geminierten Konsonanten enthält. Die anderen drei haben Artikel-Assimilation."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+    },
+    {
+      "id": "SH4",
+      "title": "Shadda in häufigen Quranwörtern — Erkennung und Praxis",
+      "description": "Systematisches Training an den frequentesten Wörtern des Qurans, die Shadda enthalten.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Warum Shadda-Erkennung wichtig ist",
+            "content": "Shadda ist bedeutungsunterscheidend. Im Rasm ist sie unsichtbar. Der Leser muss aus Wortmuster, Wurzel und Kontext entscheiden, ob ein Konsonant geminiert wird oder nicht. Falsche Shadda-Zuordnung führt zu falscher Silbenstruktur, falscher Betonung und oft zu falschem Wortverständnis. Die folgenden Wörter sind die häufigsten Shadda-Träger im Quran."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Die 20 häufigsten Wörter mit Shadda",
+            "examples": [
+              {
+                "arabic": "اللَّهِ",
+                "transliteration": "allāhi",
+                "meaning": "Gottes (Genitiv)",
+                "ref": "passim",
+                "analysis": "Häufigster Shadda-Träger. Artikel-Lam + Wort-Lam = geminiertes ل.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+              },
+              {
+                "arabic": "إِنَّ",
+                "transliteration": "inna",
+                "meaning": "wahrlich, gewiss",
+                "ref": "passim",
+                "analysis": "Betonungspartikel mit Akkusativrektion. Geminiertes ن.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+              },
+              {
+                "arabic": "أَنَّ",
+                "transliteration": "anna",
+                "meaning": "dass",
+                "ref": "passim",
+                "analysis": "Konjunktion mit Akkusativrektion. Geminiertes ن. Rasm identisch mit أَنْ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+              },
+              {
+                "arabic": "رَبَّ",
+                "transliteration": "rabba",
+                "meaning": "Herr (Akkusativ)",
+                "ref": "passim",
+                "analysis": "Wurzel ر-ب-ب. Identischer 2. und 3. Radikal → Gemination.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+              },
+              {
+                "arabic": "كُلَّ",
+                "transliteration": "kulla",
+                "meaning": "jeder/alle (Akkusativ)",
+                "ref": "passim",
+                "analysis": "Wurzel ك-ل-ل. Geminiertes ل.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+              },
+              {
+                "arabic": "ثُمَّ",
+                "transliteration": "ṯumma",
+                "meaning": "dann, hierauf",
+                "ref": "passim",
+                "analysis": "Temporale Konjunktion. Geminiertes م.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+              },
+              {
+                "arabic": "لَعَلَّ",
+                "transliteration": "laʿalla",
+                "meaning": "vielleicht, auf dass",
+                "ref": "passim",
+                "analysis": "Partikel mit Akkusativrektion (wie إِنَّ). Geminiertes ل.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "arabic": "لَكِنَّ",
+                "transliteration": "lākinna",
+                "meaning": "aber, jedoch",
+                "ref": "passim",
+                "analysis": "Adversativpartikel mit Akkusativrektion. Geminiertes ن. Vs. لَكِنْ (ohne Rektion).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+              },
+              {
+                "arabic": "كَأَنَّ",
+                "transliteration": "ka-anna",
+                "meaning": "als ob",
+                "ref": "passim",
+                "analysis": "Vergleichspartikel mit Akkusativrektion. Zusammengesetzt aus كَ + أَنَّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=171"
+              },
+              {
+                "arabic": "يَدُلُّ",
+                "transliteration": "yadullu",
+                "meaning": "er zeigt, weist hin",
+                "ref": "20:120 (Stamm)",
+                "analysis": "Wurzel د-ل-ل. Imperfekt mit Gemination des 2./3. Radikals.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=120"
+              },
+              {
+                "arabic": "حَقًّا",
+                "transliteration": "ḥaqqan",
+                "meaning": "wahrhaftig, in Wahrheit",
+                "ref": "4:122",
+                "analysis": "Wurzel ح-ق-ق. Geminiertes ق. Substantiv im Akkusativ als Bekräftigung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=122"
+              },
+              {
+                "arabic": "نَزَّلَ",
+                "transliteration": "nazzala",
+                "meaning": "herabsenden",
+                "ref": "2:4",
+                "analysis": "Form II von ن-ز-ل. Gemination des mittleren Radikals ز.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+              },
+              {
+                "arabic": "صَلَّى",
+                "transliteration": "ṣallā",
+                "meaning": "sich zuwenden",
+                "ref": "87:15",
+                "analysis": "Form II von ص-ل-و. Gemination des ل. Defektive Wurzel.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=15"
+              },
+              {
+                "arabic": "عَلَّمَ",
+                "transliteration": "ʿallama",
+                "meaning": "lehren",
+                "ref": "2:31",
+                "analysis": "Form II von ع-ل-م. Kausativ: wissen machen → lehren.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+              },
+              {
+                "arabic": "يُصَلِّي",
+                "transliteration": "yuṣallī",
+                "meaning": "er wendet sich zu / er sendet Segen",
+                "ref": "33:56",
+                "analysis": "Form II Imperfekt. Shadda auf ل bleibt in allen Konjugationsformen erhalten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+              },
+              {
+                "arabic": "حَتَّى",
+                "transliteration": "ḥattā",
+                "meaning": "bis, damit",
+                "ref": "passim",
+                "analysis": "Präposition/Konjunktion. Geminiertes ت. Im Rasm nicht erkennbar.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+              },
+              {
+                "arabic": "أَيُّهَا",
+                "transliteration": "ayyuhā",
+                "meaning": "oh (Anrede)",
+                "ref": "passim",
+                "analysis": "Vokativpartikel. Geminiertes ي. In يَا أَيُّهَا النَّاسُ (O ihr Menschen).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "arabic": "سَيِّئَة",
+                "transliteration": "sayyiʾa",
+                "meaning": "schlechte Tat, Verfehlung",
+                "ref": "2:81",
+                "analysis": "Muster فَيْعِلَة. Geminiertes ي. Von Wurzel س-و-أ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=81"
+              },
+              {
+                "arabic": "جَنَّة",
+                "transliteration": "janna",
+                "meaning": "Garten",
+                "ref": "2:35",
+                "analysis": "Wurzel ج-ن-ن. Identischer 2./3. Radikal → Gemination des ن.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+              },
+              {
+                "arabic": "ذُرِّيَّة",
+                "transliteration": "ḏurriyya",
+                "meaning": "Nachkommenschaft",
+                "ref": "2:124",
+                "analysis": "Zwei Shadda-Positionen: ر (geminiert) und ي (geminiert). Wurzel ذ-ر-ر oder ذ-ر-و (umstritten).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "SH4-E1",
+          "type": "rasmLesung",
+          "instruction": "Im Rasm steht: ان الذين. Welche beiden völlig verschiedenen Lesungen sind möglich, und wie entscheidet man?",
+          "rasm": "ان الذين",
+          "correctAnswer": "إِنَّ الَّذِينَ (wahrlich, diejenigen die...) oder أَنَّ الَّذِينَ (dass diejenigen die...) oder إِنِ الَّذِينَ (wenn diejenigen die...). Shadda vs. Sukun auf ن ändert die Bedeutung fundamental. Der syntaktische Kontext entscheidet: Nach قَالَ oder Satzanfang typischerweise إِنَّ. Nach Verben des Wissens/Meinens typischerweise أَنَّ. Konditional إِنْ vor Bedingungssätzen."
+        },
+        {
+          "id": "SH4-E2",
+          "type": "zählung",
+          "instruction": "Wie viele geminierte Konsonanten enthält der Vers بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ?",
+          "word": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "ref": "1:1",
+          "correctAnswer": "Drei: (1) اللَّه — geminiertes ل, (2) الرَّحْمَن — geminiertes ر, (3) الرَّحِيم — geminiertes ر. Alle drei durch Sonnenbuchstaben-Assimilation.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "id": "SH4-E3",
+          "type": "analyse",
+          "instruction": "Erkläre alle Shadda-Positionen in: إِنَّ رَبَّكَ هُوَ أَعْلَمُ",
+          "word": "إِنَّ رَبَّكَ هُوَ أَعْلَمُ",
+          "ref": "16:125",
+          "correctAnswer": "Zwei Shadda-Positionen: (1) إِنَّ — Partikel mit geminiertem ن (lexikalisch). (2) رَبَّ — Wurzel ر-ب-ب, identischer 2./3. Radikal (morphologisch). هُوَ und أَعْلَمُ enthalten keine Gemination.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=125"
+        },
+        {
+          "id": "SH4-E4",
+          "type": "erkennung",
+          "instruction": "Bestimme für jedes Wort, ob die Shadda morphologisch, durch Assimilation oder lexikalisch bedingt ist: النَّبِيِّ, كَذَّبَ, الضَّالِّينَ",
+          "words": [
+            "النَّبِيِّ",
+            "كَذَّبَ",
+            "الضَّالِّينَ"
+          ],
+          "ref": "zusammengestellt",
+          "correctAnswer": "النَّبِيّ: Zwei Shadda — (a) ن: Assimilation (Sonnenbuchstabe), (b) ي: morphologisch (Muster فَعِيل, Nisba oder intensiv). كَذَّبَ: morphologisch (Form II, Gemination des mittleren Radikals). الضَّالِّينَ: Zwei Shadda — (a) ض: Assimilation (Sonnenbuchstabe), (b) ل: morphologisch (Wurzel ض-ل-ل, identischer 2./3. Radikal)."
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "id": "SH4-T1",
+            "type": "multipleChoice",
+            "question": "Im Rasm steht حتى. Enthält dieses Wort eine Gemination?",
+            "options": [
+              "Nein, das ت wird einfach gesprochen",
+              "Ja, حَتَّى hat Shadda auf dem ت — die Gemination muss aus der Sprachkenntnis bekannt sein",
+              "Nur wenn ein Vokalzeichen darüber steht",
+              "Nur am Satzanfang"
+            ],
+            "correct": 1,
+            "explanation": "حَتَّى hat immer ein geminiertes ت. Im Rasm ist das unsichtbar — der Leser muss es wissen."
+          },
+          {
+            "id": "SH4-T2",
+            "type": "multipleChoice",
+            "question": "Welches der folgenden Wörter hat KEINE Shadda?",
+            "options": [
+              "إِنَّ",
+              "عَنْ",
+              "رَبّ",
+              "ثُمَّ"
+            ],
+            "correct": 1,
+            "explanation": "عَنْ (über/von) hat Sukun auf dem ن, keine Gemination. إِنَّ, رَبّ und ثُمَّ haben alle geminierte Konsonanten."
+          },
+          {
+            "id": "SH4-T3",
+            "type": "multipleChoice",
+            "question": "Was unterscheidet لَكِنَّ von لَكِنْ?",
+            "options": [
+              "Nur die Schreibung",
+              "لَكِنَّ regiert den Akkusativ (wie إِنَّ), لَكِنْ hat keine Kasusrektion",
+              "لَكِنَّ steht am Satzanfang, لَكِنْ in der Mitte",
+              "لَكِنَّ ist Vergangenheit, لَكِنْ Gegenwart"
+            ],
+            "correct": 1,
+            "explanation": "لَكِنَّ (mit Shadda) gehört zu den Schwestern von إِنَّ und regiert den Akkusativ des Subjekts. لَكِنْ (ohne Shadda) ist eine einfache Konjunktion ohne Kasusrektion."
+          },
+          {
+            "id": "SH4-T4",
+            "type": "multipleChoice",
+            "question": "Wie viele Shadda-Positionen enthält الضَّالِّينَ (1:7)?",
+            "options": [
+              "Eine (auf ض)",
+              "Zwei (auf ض und ل)",
+              "Drei (auf ض, ل und ي)",
+              "Keine"
+            ],
+            "correct": 1,
+            "explanation": "Zwei: (1) ض — Sonnenbuchstaben-Assimilation des Artikel-Lam. (2) ل — Wurzel ض-ل-ل mit identischem 2. und 3. Radikal, die zu einem geminierten ل verschmelzen.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  ]
+}

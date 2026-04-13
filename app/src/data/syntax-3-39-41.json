@@ -1,0 +1,307 @@
+[
+  {
+    "id": "3.39",
+    "title": "Systematische Wortstellung (Taqdim wa Ta'khir)",
+    "description": "Voranstellung und Nachstellung als grammatisches Phänomen — welche syntaktischen Konsequenzen hat die Wortstellung im quranischen Arabisch?",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Grundregel und Abweichung",
+          "content": "Im Arabischen gibt es bevorzugte Grundstellungen:\n\n- Verbalsatz: Verb — Subjekt (Fāʿil) — Objekt (Mafʿūl bihi)\n- Nominalsatz: Subjekt (Mubtadaʾ) — Prädikat (Khabar)\n\nAbweichungen von dieser Grundstellung sind GRAMMATISCH relevant — sie verändern die Informationsstruktur und können den Kasus beeinflussen."
+        },
+        {
+          "type": "explanation",
+          "title": "1. Voranstellung des Objekts (Mafʿūl bihi)",
+          "content": "Wenn das Objekt VOR das Verb tritt, bleibt sein Kasus Akkusativ, aber die informationsstrukturelle Funktion ändert sich:\n\nNormal: عَبَدَ اللَّهَ (er betete Gott an) → Objekt nachgestellt\nVorangestellt: إِيَّاكَ نَعْبُدُ (DICH beten wir an, 1:5) → Objekt betont vorangestellt\n\nDie Voranstellung signalisiert: Dieses Element ist das Thema, der Fokus liegt auf ihm.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "explanation",
+          "title": "2. Voranstellung des Jarr wa-Majrur",
+          "content": "Präpositionalphrasen können vor das Verb treten:\n\nWenn ein Jarr wa-Majrur den Satz eröffnet, kann er als Khabar eines folgenden Mubtadaʾ dienen:\nفِي قُلُوبِهِم مَرَضٌ (2:10) — In ihren Herzen ist Krankheit. Hier: فِي قُلُوبِهِم = Khabar (vorangestellt), مَرَضٌ = Mubtadaʾ (nachgestellt).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+        },
+        {
+          "type": "explanation",
+          "title": "3. Voranstellung des Khabar",
+          "content": "Im Nominalsatz kann das Prädikat vor das Subjekt treten:\n\nVorangestellt: لِلَّهِ مَا فِي السَّمَاوَاتِ (2:284) — Gott gehört was in den Himmeln ist. لِلَّهِ = Khabar, مَا = Mubtadaʾ.\n\nKasuell bleibt alles gleich: Mubtadaʾ im Nominativ, Khabar als Jarr-wa-Majrur oder Nominativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=284"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Wortstellung im Quran",
+          "examples": [
+            {
+              "location": "1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "explanation": "Objekt (إِيَّاكَ) VOR Verb. Doppelte Voranstellung (Taqdīm): Dich dienen wir, und bei dir suchen wir Unterstützung. Die Voranstellung setzt das Objekt als Diskurstopik; welche pragmatische Schlussfolgerung sich daraus ergibt, bestimmt der Kontext.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+            },
+            {
+              "location": "2:10",
+              "arabic": "فِى قُلُوبِهِم مَّرَضٌ",
+              "explanation": "Khabar (فِي قُلُوبِهِم) VOR Mubtadaʾ (مَّرَضٌ). In ihren Herzen — Krankheit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+            },
+            {
+              "location": "2:284",
+              "arabic": "لِّلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ",
+              "explanation": "Khabar (لِلَّهِ) VOR Mubtadaʾ (مَا). Gott gehört, was in den Himmeln und auf der Erde ist.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=284"
+            },
+            {
+              "location": "36:12",
+              "arabic": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+              "explanation": "Objekt (كُلَّ شَيْءٍ) VOR Verb (أَحْصَيْنَاهُ). Alles haben wir in einem deutlichen Register erfasst.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=12"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was signalisiert die Voranstellung des Objekts in إِيَّاكَ نَعْبُدُ?",
+          "options": [
+            "Nichts — es ist Zufall",
+            "Fokus auf dem Objekt durch Taqdīm (Voranstellung)",
+            "Dass das Verb im Passiv steht",
+            "Dass der Satz eine Frage ist"
+          ],
+          "answer": "Fokus auf dem Objekt durch Taqdīm (Voranstellung)",
+          "explanation": "Die Voranstellung des Pronomens إِيَّاكَ vor das Verb ist Taqdīm — das Objekt steht in der markierten Anfangsposition, was pragmatischen Fokus auf das Objekt erzeugt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In فِي قُلُوبِهِم مَّرَضٌ — was ist Mubtadaʾ und was ist Khabar?",
+          "options": [
+            "فِي قُلُوبِهِم = Mubtadaʾ, مَّرَضٌ = Khabar",
+            "مَّرَضٌ = Mubtadaʾ (nachgestellt), فِي قُلُوبِهِم = Khabar (vorangestellt)",
+            "Beides ist Khabar",
+            "Es ist ein Verbalsatz"
+          ],
+          "answer": "مَّرَضٌ = Mubtadaʾ (nachgestellt), فِي قُلُوبِهِم = Khabar (vorangestellt)",
+          "explanation": "مَّرَضٌ ist das Mubtadaʾ (Nominativ, indefinit), فِي قُلُوبِهِم ist das vorangestellte Khabar (Jarr wa-Majrur).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Ändert die Voranstellung des Mafʿūl bihi dessen Kasus?",
+          "options": [
+            "Ja, es wird Nominativ",
+            "Nein, es bleibt Akkusativ",
+            "Ja, es wird Genitiv",
+            "Es hängt vom Verb ab"
+          ],
+          "answer": "Nein, es bleibt Akkusativ",
+          "explanation": "Die Voranstellung ändert die Informationsstruktur, nicht den Kasus. Das Mafʿūl bihi bleibt im Akkusativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Wenn ein Satz mit einer Präpositionalphrase beginnt und ein Nomen im Nominativ folgt — welche Satzstruktur liegt vor?",
+          "options": [
+            "Verbalsatz",
+            "Nominalsatz mit vorangestelltem Khabar und nachgestelltem Mubtadaʾ",
+            "Bedingungssatz",
+            "Vokativsatz"
+          ],
+          "answer": "Nominalsatz mit vorangestelltem Khabar und nachgestelltem Mubtadaʾ",
+          "explanation": "Ein Jarr-wa-Majrur am Satzanfang fungiert als Khabar. Das darauf folgende Nomen im Nominativ ist das Mubtadaʾ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §81-90",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "3.44"
+    ]
+  },
+  {
+    "id": "3.40",
+    "title": "Pronominale Referenz (Anaphern)",
+    "description": "Worauf bezieht sich ein Pronomen? Systematische Auflösung pronominaler Ketten im quranischen Text.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Das Problem der pronominalen Referenz",
+          "content": "Arabisch verwendet Pronomen intensiv — sowohl als selbständige Wörter (هُوَ, هُمْ) als auch als Suffixe (ـهُ, ـهُمْ, ـكَ, ـنَا). Im Quran können in einem einzigen Vers mehrere verschiedene Pronomen vorkommen, die sich auf unterschiedliche Referenten beziehen.\n\nDie zentrale Frage: Worauf bezieht sich jedes Pronomen? Die Antwort ergibt sich aus:\n1. Grammatischer Kongruenz (Person, Genus, Numerus)\n2. Nähe zum Bezugswort (Antezedent)\n3. Semantischer Plausibilität im Kontext"
+        },
+        {
+          "type": "explanation",
+          "title": "Regel 1: Genus- und Numerus-Kongruenz",
+          "content": "Ein Pronomen muss mit seinem Bezugswort in Person, Genus und Numerus übereinstimmen:\n\n- هُوَ (er/es) bezieht sich auf ein maskulines Singular-Nomen\n- هِيَ (sie/es) auf ein feminines Singular-Nomen oder einen Bruchplural nicht-menschlicher Wesen\n- هُمْ (sie, m.pl.) auf männliche Plurale menschlicher Wesen\n\nWichtig: Bruchplurale nicht-menschlicher Wesen werden grammatisch als Femininum Singular behandelt!"
+        },
+        {
+          "type": "explanation",
+          "title": "Regel 2: Verschachtelte Pronomen",
+          "content": "In komplexen Sätzen können Pronomen ineinander verschachtelt sein:\n\nBeispiel: أَنزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَّكُمْ (2:22)\n\nAnalyse der Pronomen:\n- Subjekt von أَنزَلَ: implizit = Gott (aus vorherigem Kontext)\n- بِهِ: das هِ bezieht sich auf مَاءً (Wasser, mask. sg.) — durch es (das Wasser)\n- لَّكُمْ: das كُمْ bezieht sich auf die Angesprochenen (2. Person Plural)\n\nJedes Pronomen muss einzeln aufgelöst werden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Pronominale Ketten im Quran",
+          "examples": [
+            {
+              "location": "2:17",
+              "arabic": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُ ذَهَبَ ٱللَّهُ بِنُورِهِمْ",
+              "explanation": "هُمْ (ihr Gleichnis) = die Heuchler. هُ (um ihn herum) = الَّذِي (der Mann im Gleichnis). هِمْ (ihr Licht) = wieder die Heuchler. Wechsel zwischen Gleichnis-Singular und Bezugsgruppe-Plural.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+            },
+            {
+              "location": "2:74",
+              "arabic": "وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ",
+              "explanation": "ها in مِنْهَا: bezieht sich auf قُلُوبُكُمْ (eure Herzen) — Bruchplural nicht-menschlicher Wesen → fem. sg. Pronomen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Worauf bezieht sich بِهِ in أَنزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ (2:22)?",
+          "options": [
+            "Auf السَّمَاء (den Himmel)",
+            "Auf مَاءً (das Wasser)",
+            "Auf Gott",
+            "Auf die Früchte"
+          ],
+          "answer": "Auf مَاءً (das Wasser)",
+          "explanation": "هِ ist maskulin Singular und bezieht sich auf das nächste kongruente Nomen: مَاءً (Wasser, mask. sg.).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum wird für قُلُوبٌ (Herzen, Bruchplural) das Pronomen ها (fem. sg.) verwendet?",
+          "options": [
+            "Weil Herzen feminin sind",
+            "Weil Bruchplurale nicht-menschlicher Wesen grammatisch als Femininum Singular behandelt werden",
+            "Weil es ein Fehler ist",
+            "Weil ها sich auf etwas anderes bezieht"
+          ],
+          "answer": "Weil Bruchplurale nicht-menschlicher Wesen grammatisch als Femininum Singular behandelt werden",
+          "explanation": "Bruchplurale nicht-menschlicher Wesen werden im Arabischen grammatisch als Femininum Singular behandelt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche drei Kriterien helfen bei der Auflösung pronominaler Referenz?",
+          "options": [
+            "Reim, Rhythmus, Klang",
+            "Genus/Numerus-Kongruenz, Nähe zum Bezugswort, semantische Plausibilität",
+            "Tradition, Kommentar, Autorität",
+            "Wortlänge, Position, Frequenz"
+          ],
+          "answer": "Genus/Numerus-Kongruenz, Nähe zum Bezugswort, semantische Plausibilität",
+          "explanation": "Pronominale Referenz wird aufgelöst durch: grammatische Kongruenz, Nähe zum Antezedenten und semantische Plausibilität im Kontext.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §55-60",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "3.41",
+    "title": "Nebensatz-Grenzen erkennen",
+    "description": "Wo beginnt und endet ein Nebensatz? Systematische Erkennung von Satzgrenzen in komplexen quranischen Versen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Warum Satzgrenzen entscheidend sind",
+          "content": "Viele quranische Verse bestehen aus mehreren verschachtelten Sätzen. Wer die Grenze eines Nebensatzes falsch setzt, verändert die gesamte syntaktische Analyse."
+        },
+        {
+          "type": "explanation",
+          "title": "Nebensatz-Marker (Einleitungen)",
+          "content": "Nebensätze werden im Arabischen durch bestimmte Wörter eingeleitet:\n\n1. الَّذِي / الَّتِي / الَّذِينَ — Relativsatz\n2. أَنَّ / أَنْ — Inhaltssatz (dass-Satz)\n3. إِنْ / إِذَا / لَوْ — Bedingungssatz\n4. لِ / كَيْ / حَتَّى — Finalsatz (damit/um zu)\n5. وَ + Nominalsatz — Hal-Satz (Zustandssatz)\n6. مَا / مَنْ — Verallgemeinerter Relativsatz\n7. لَمَّا / حِينَ — Temporalsatz (als)\n\nJeder dieser Marker öffnet einen neuen Nebensatz. Die Frage ist: Wo endet er?"
+        },
+        {
+          "type": "explanation",
+          "title": "Ende eines Nebensatzes erkennen",
+          "content": "Ein Nebensatz endet typischerweise:\n\n1. Bei einem neuen Nebensatz-Marker auf derselben Ebene\n2. Bei einem koordinierenden وَ oder فَ das einen neuen Hauptsatz einleitet\n3. Wenn ein neues Verb mit eigenem Subjekt erscheint, das nicht zum Nebensatz gehört\n\nKritisch: Die Konjunktion وَ kann sowohl innerhalb eines Nebensatzes koordinieren als auch einen neuen Hauptsatz einleiten. Nur der Kontext entscheidet."
+        },
+        {
+          "type": "quranExamples",
+          "title": "Satzgrenzen im Quran",
+          "examples": [
+            {
+              "location": "2:2",
+              "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+              "explanation": "Drei Aussagen in einem Vers: (1) ذَٰلِكَ الْكِتَابُ — Nominalsatz. (2) لَا رَيْبَ فِيهِ — eigener Nominalsatz (Genus-Negation). (3) هُدًى لِّلْمُتَّقِينَ — Hal oder zweites Khabar.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "location": "2:3",
+              "arabic": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+              "explanation": "Ein Relativsatz mit drei koordinierten Prädikaten. Das وَ vor مِمَّا koordiniert innerhalb desselben Relativsatzes — es eröffnet KEINEN neuen Hauptsatz.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+            },
+            {
+              "location": "4:1",
+              "arabic": "وَٱتَّقُوا ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِ وَٱلْأَرْحَامَ",
+              "explanation": "Wo endet der Relativsatz الَّذِي تَسَاءَلُونَ بِهِ? Vor وَالْأَرْحَامَ. Das وَ eröffnet ein neues Objekt des Hauptverbs اتَّقُوا (ʿAtf).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Wörter leiten typischerweise einen Nebensatz ein?",
+          "options": [
+            "إِنَّ, كَانَ, قَالَ",
+            "الَّذِي, أَنَّ, إِنْ, إِذَا, لَمَّا, حَتَّى",
+            "وَ, فَ, ثُمَّ",
+            "بِسْمِ, الْحَمْدُ"
+          ],
+          "answer": "الَّذِي, أَنَّ, إِنْ, إِذَا, لَمَّا, حَتَّى",
+          "explanation": "Nebensätze werden eingeleitet durch: Relativpronomen, Konjunktionen (أَنَّ), Bedingungspartikeln, Temporalpartikeln, Finalpartikeln.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In 2:3 — gehört وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ noch zum Relativsatz الَّذِينَ?",
+          "options": [
+            "Nein, es ist ein neuer Hauptsatz",
+            "Ja, es ist das dritte koordinierte Prädikat des Relativsatzes",
+            "Es ist ein Bedingungssatz",
+            "Es ist ein Nominalsatz"
+          ],
+          "answer": "Ja, es ist das dritte koordinierte Prädikat des Relativsatzes",
+          "explanation": "Das وَ koordiniert mit يُؤْمِنُونَ und يُقِيمُونَ — alle drei sind Prädikate desselben Relativsatzes الَّذِينَ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die größte Herausforderung bei Satzgrenzen im Quran?",
+          "options": [
+            "Die Verse sind zu kurz",
+            "Die Konjunktion وَ kann sowohl innerhalb eines Satzes koordinieren als auch einen neuen Satz einleiten",
+            "Es gibt keine Nebensätze",
+            "Alle Sätze enden am Versende"
+          ],
+          "answer": "Die Konjunktion وَ kann sowohl innerhalb eines Satzes koordinieren als auch einen neuen Satz einleiten",
+          "explanation": "Die Konjunktion وَ hat multiple Funktionen — nur der Kontext entscheidet, welche Funktion vorliegt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n280"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-170",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  }
+]

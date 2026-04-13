@@ -1,0 +1,1098 @@
+{
+  "meta": {
+    "description": "Vollständige Pronomentabellen für Quranisches Arabisch",
+    "sources": [
+      {
+        "label": "Wright's Grammar Vol I — Pronouns",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "label": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ],
+    "personLabels": {
+      "1": "Erste Person",
+      "2": "Zweite Person",
+      "3": "Dritte Person"
+    },
+    "genderLabels": {
+      "m": "maskulin",
+      "f": "feminin",
+      "c": "gemeinsam (m/f)"
+    },
+    "numberLabels": {
+      "s": "Singular",
+      "d": "Dual",
+      "p": "Plural"
+    }
+  },
+  "independent": {
+    "description": "Unabhängige Personalpronomen (Ḍamāʾir munfaṣila) – stehen selbstständig im Satz, meist als Subjekt",
+    "pronouns": [
+      {
+        "id": "1s",
+        "arabic": "أَنَا",
+        "transliteration": "anā",
+        "german": "ich",
+        "person": 1,
+        "gender": "c",
+        "number": "s",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2ms",
+        "arabic": "أَنْتَ",
+        "transliteration": "anta",
+        "german": "du (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "s",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2fs",
+        "arabic": "أَنْتِ",
+        "transliteration": "anti",
+        "german": "du (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "s",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3ms",
+        "arabic": "هُوَ",
+        "transliteration": "huwa",
+        "german": "er",
+        "person": 3,
+        "gender": "m",
+        "number": "s",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3fs",
+        "arabic": "هِيَ",
+        "transliteration": "hiya",
+        "german": "sie (f)",
+        "person": 3,
+        "gender": "f",
+        "number": "s",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2md",
+        "arabic": "أَنْتُمَا",
+        "transliteration": "antumā",
+        "german": "ihr beide (m/f)",
+        "person": 2,
+        "gender": "c",
+        "number": "d",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3md",
+        "arabic": "هُمَا",
+        "transliteration": "humā",
+        "german": "sie beide (m/f)",
+        "person": 3,
+        "gender": "c",
+        "number": "d",
+        "grammaticalCase": "nominative",
+        "notes": "Gleiche Form für maskulin und feminin im unabhängigen Pronomen",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "1p",
+        "arabic": "نَحْنُ",
+        "transliteration": "naḥnu",
+        "german": "wir",
+        "person": 1,
+        "gender": "c",
+        "number": "p",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2mp",
+        "arabic": "أَنْتُمْ",
+        "transliteration": "antum",
+        "german": "ihr (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "p",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2fp",
+        "arabic": "أَنْتُنَّ",
+        "transliteration": "antunna",
+        "german": "ihr (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "p",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3mp",
+        "arabic": "هُمْ",
+        "transliteration": "hum",
+        "german": "sie (m, Plural)",
+        "person": 3,
+        "gender": "m",
+        "number": "p",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3fp",
+        "arabic": "هُنَّ",
+        "transliteration": "hunna",
+        "german": "sie (f, Plural)",
+        "person": 3,
+        "gender": "f",
+        "number": "p",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      }
+    ]
+  },
+  "independent_accusative": {
+    "description": "Unabhängige Akkusativpronomen (إِيَّا + Suffix) – stehen selbstständig als vorangestelltes Objekt. Zentral für إِيَّاكَ نَعْبُدُ (1:5).",
+    "pronouns": [
+      {
+        "id": "1s",
+        "arabic": "إِيَّايَ",
+        "transliteration": "iyyāya",
+        "german": "mich",
+        "person": 1,
+        "gender": "c",
+        "number": "s",
+        "grammaticalCase": "accusative",
+        "quranicExample": "أَلَّا تَعْبُدُوا إِلَّا إِيَّايَ (36:60)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=60"
+      },
+      {
+        "id": "2ms",
+        "arabic": "إِيَّاكَ",
+        "transliteration": "iyyāka",
+        "german": "dich (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "s",
+        "grammaticalCase": "accusative",
+        "quranicExample": "إِيَّاكَ نَعْبُدُ (1:5)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+      },
+      {
+        "id": "2fs",
+        "arabic": "إِيَّاكِ",
+        "transliteration": "iyyāki",
+        "german": "dich (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "s",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3ms",
+        "arabic": "إِيَّاهُ",
+        "transliteration": "iyyāhu",
+        "german": "ihn",
+        "person": 3,
+        "gender": "m",
+        "number": "s",
+        "grammaticalCase": "accusative",
+        "quranicExample": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ (17:23)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=23"
+      },
+      {
+        "id": "3fs",
+        "arabic": "إِيَّاهَا",
+        "transliteration": "iyyāhā",
+        "german": "sie (f)",
+        "person": 3,
+        "gender": "f",
+        "number": "s",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2d",
+        "arabic": "إِيَّاكُمَا",
+        "transliteration": "iyyākumā",
+        "german": "euch beide",
+        "person": 2,
+        "gender": "c",
+        "number": "d",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3md",
+        "arabic": "إِيَّاهُمَا",
+        "transliteration": "iyyāhumā",
+        "german": "sie beide (m)",
+        "person": 3,
+        "gender": "m",
+        "number": "d",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3fd",
+        "arabic": "إِيَّاهُمَا",
+        "transliteration": "iyyāhumā",
+        "german": "sie beide (f)",
+        "person": 3,
+        "gender": "f",
+        "number": "d",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "1p",
+        "arabic": "إِيَّانَا",
+        "transliteration": "iyyānā",
+        "german": "uns",
+        "person": 1,
+        "gender": "c",
+        "number": "p",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2mp",
+        "arabic": "إِيَّاكُمْ",
+        "transliteration": "iyyākum",
+        "german": "euch (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "p",
+        "grammaticalCase": "accusative",
+        "quranicExample": "وَإِيَّاكُمْ (29:8)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=8"
+      },
+      {
+        "id": "2fp",
+        "arabic": "إِيَّاكُنَّ",
+        "transliteration": "iyyākunna",
+        "german": "euch (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "p",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3mp",
+        "arabic": "إِيَّاهُمْ",
+        "transliteration": "iyyāhum",
+        "german": "sie (m.pl.)",
+        "person": 3,
+        "gender": "m",
+        "number": "p",
+        "grammaticalCase": "accusative",
+        "quranicExample": "وَإِيَّاهُمْ (29:8)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=8"
+      },
+      {
+        "id": "3fp",
+        "arabic": "إِيَّاهُنَّ",
+        "transliteration": "iyyāhunna",
+        "german": "sie (f.pl.)",
+        "person": 3,
+        "gender": "f",
+        "number": "p",
+        "grammaticalCase": "accusative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      }
+    ],
+    "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+  },
+  "suffix": {
+    "description": "Suffixpronomen (Ḍamāʾir muttaṣila) – werden an Verben, Nomen und Partikeln angehängt. Dienen als Objekt (am Verb), Possessiv (am Nomen) oder Genitivobjekt (an Partikeln).",
+    "pronouns": [
+      {
+        "id": "1s",
+        "arabic": "ـي / ـنِي",
+        "suffix_on_noun": "ـِي",
+        "suffix_on_verb": "ـنِي",
+        "suffix_on_particle": "ـِي",
+        "transliteration": "-ī / -nī",
+        "german": "mein / mich",
+        "person": 1,
+        "gender": "c",
+        "number": "s",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابِي",
+            "transliteration": "kitābī",
+            "german": "mein Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَانِي",
+            "transliteration": "aʿṭānī",
+            "german": "er gab mir"
+          },
+          "on_particle": {
+            "arabic": "مِنِّي",
+            "transliteration": "minnī",
+            "german": "von mir"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2ms",
+        "arabic": "ـكَ",
+        "suffix_on_noun": "ـكَ",
+        "suffix_on_verb": "ـكَ",
+        "suffix_on_particle": "ـكَ",
+        "transliteration": "-ka",
+        "german": "dein / dich (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "s",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُكَ",
+            "transliteration": "kitābuka",
+            "german": "dein Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاكَ",
+            "transliteration": "aʿṭāka",
+            "german": "er gab dir"
+          },
+          "on_particle": {
+            "arabic": "مِنْكَ",
+            "transliteration": "minka",
+            "german": "von dir"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2fs",
+        "arabic": "ـكِ",
+        "suffix_on_noun": "ـكِ",
+        "suffix_on_verb": "ـكِ",
+        "suffix_on_particle": "ـكِ",
+        "transliteration": "-ki",
+        "german": "dein / dich (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "s",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُكِ",
+            "transliteration": "kitābuki",
+            "german": "dein Buch (f)"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاكِ",
+            "transliteration": "aʿṭāki",
+            "german": "er gab dir (f)"
+          },
+          "on_particle": {
+            "arabic": "مِنْكِ",
+            "transliteration": "minki",
+            "german": "von dir (f)"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3ms",
+        "arabic": "ـهُ",
+        "suffix_on_noun": "ـهُ",
+        "suffix_on_verb": "ـهُ",
+        "suffix_on_particle": "ـهِ",
+        "transliteration": "-hu / -hi",
+        "german": "sein / ihn",
+        "person": 3,
+        "gender": "m",
+        "number": "s",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُهُ",
+            "transliteration": "kitābuhu",
+            "german": "sein Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاهُ",
+            "transliteration": "aʿṭāhu",
+            "german": "er gab ihm"
+          },
+          "on_particle": {
+            "arabic": "مِنْهُ",
+            "transliteration": "minhu",
+            "german": "von ihm"
+          }
+        },
+        "notes": "Nach Kasra oder Yā' wird هُ zu هِ (hi): z.B. بِهِ (bihi), فِيهِ (fīhi)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3fs",
+        "arabic": "ـهَا",
+        "suffix_on_noun": "ـهَا",
+        "suffix_on_verb": "ـهَا",
+        "suffix_on_particle": "ـهَا",
+        "transliteration": "-hā",
+        "german": "ihr / sie (f, Akk.)",
+        "person": 3,
+        "gender": "f",
+        "number": "s",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُهَا",
+            "transliteration": "kitābuhā",
+            "german": "ihr Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاهَا",
+            "transliteration": "aʿṭāhā",
+            "german": "er gab ihr"
+          },
+          "on_particle": {
+            "arabic": "مِنْهَا",
+            "transliteration": "minhā",
+            "german": "von ihr"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2d",
+        "arabic": "ـكُمَا",
+        "suffix_on_noun": "ـكُمَا",
+        "suffix_on_verb": "ـكُمَا",
+        "suffix_on_particle": "ـكُمَا",
+        "transliteration": "-kumā",
+        "german": "eur beider / euch beide",
+        "person": 2,
+        "gender": "c",
+        "number": "d",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُكُمَا",
+            "transliteration": "kitābukumā",
+            "german": "eur beider Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاكُمَا",
+            "transliteration": "aʿṭākumā",
+            "german": "er gab euch beiden"
+          },
+          "on_particle": {
+            "arabic": "مِنْكُمَا",
+            "transliteration": "minkumā",
+            "german": "von euch beiden"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3md",
+        "arabic": "ـهُمَا",
+        "suffix_on_noun": "ـهُمَا",
+        "suffix_on_verb": "ـهُمَا",
+        "suffix_on_particle": "ـهِمَا",
+        "transliteration": "-humā / -himā",
+        "german": "ihrer beider / sie beide",
+        "person": 3,
+        "gender": "c",
+        "number": "d",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُهُمَا",
+            "transliteration": "kitābuhumā",
+            "german": "ihr beider Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاهُمَا",
+            "transliteration": "aʿṭāhumā",
+            "german": "er gab ihnen beiden"
+          },
+          "on_particle": {
+            "arabic": "مِنْهُمَا",
+            "transliteration": "minhumā",
+            "german": "von ihnen beiden"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "1p",
+        "arabic": "ـنَا",
+        "suffix_on_noun": "ـنَا",
+        "suffix_on_verb": "ـنَا",
+        "suffix_on_particle": "ـنَا",
+        "transliteration": "-nā",
+        "german": "unser / uns",
+        "person": 1,
+        "gender": "c",
+        "number": "p",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُنَا",
+            "transliteration": "kitābunā",
+            "german": "unser Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَانَا",
+            "transliteration": "aʿṭānā",
+            "german": "er gab uns"
+          },
+          "on_particle": {
+            "arabic": "مِنَّا",
+            "transliteration": "minnā",
+            "german": "von uns"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2mp",
+        "arabic": "ـكُمْ",
+        "suffix_on_noun": "ـكُمْ",
+        "suffix_on_verb": "ـكُمْ",
+        "suffix_on_particle": "ـكُمْ",
+        "transliteration": "-kum",
+        "german": "eur / euch (m)",
+        "person": 2,
+        "gender": "m",
+        "number": "p",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُكُمْ",
+            "transliteration": "kitābukum",
+            "german": "eur Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاكُمْ",
+            "transliteration": "aʿṭākum",
+            "german": "er gab euch"
+          },
+          "on_particle": {
+            "arabic": "مِنْكُمْ",
+            "transliteration": "minkum",
+            "german": "von euch"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "2fp",
+        "arabic": "ـكُنَّ",
+        "suffix_on_noun": "ـكُنَّ",
+        "suffix_on_verb": "ـكُنَّ",
+        "suffix_on_particle": "ـكُنَّ",
+        "transliteration": "-kunna",
+        "german": "eur / euch (f)",
+        "person": 2,
+        "gender": "f",
+        "number": "p",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُكُنَّ",
+            "transliteration": "kitābukunna",
+            "german": "eur Buch (f)"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاكُنَّ",
+            "transliteration": "aʿṭākunna",
+            "german": "er gab euch (f)"
+          },
+          "on_particle": {
+            "arabic": "مِنْكُنَّ",
+            "transliteration": "minkunna",
+            "german": "von euch (f)"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3mp",
+        "arabic": "ـهُمْ",
+        "suffix_on_noun": "ـهُمْ",
+        "suffix_on_verb": "ـهُمْ",
+        "suffix_on_particle": "ـهِمْ",
+        "transliteration": "-hum / -him",
+        "german": "ihr / sie (m, Pl.)",
+        "person": 3,
+        "gender": "m",
+        "number": "p",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُهُمْ",
+            "transliteration": "kitābuhum",
+            "german": "ihr Buch"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاهُمْ",
+            "transliteration": "aʿṭāhum",
+            "german": "er gab ihnen"
+          },
+          "on_particle": {
+            "arabic": "مِنْهُمْ",
+            "transliteration": "minhum",
+            "german": "von ihnen"
+          }
+        },
+        "notes": "Nach Kasra oder Yā' wird هُمْ zu هِمْ (him): z.B. بِهِمْ (bihim), عَلَيْهِمْ ('alayhim)",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "3fp",
+        "arabic": "ـهُنَّ",
+        "suffix_on_noun": "ـهُنَّ",
+        "suffix_on_verb": "ـهُنَّ",
+        "suffix_on_particle": "ـهِنَّ",
+        "transliteration": "-hunna / -hinna",
+        "german": "ihr / sie (f, Pl.)",
+        "person": 3,
+        "gender": "f",
+        "number": "p",
+        "examples": {
+          "on_noun": {
+            "arabic": "كِتَابُهُنَّ",
+            "transliteration": "kitābuhunna",
+            "german": "ihr Buch (f)"
+          },
+          "on_verb": {
+            "arabic": "أَعْطَاهُنَّ",
+            "transliteration": "aʿṭāhunna",
+            "german": "er gab ihnen (f)"
+          },
+          "on_particle": {
+            "arabic": "مِنْهُنَّ",
+            "transliteration": "minhunna",
+            "german": "von ihnen (f)"
+          }
+        },
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      }
+    ]
+  },
+  "demonstrative": {
+    "description": "Demonstrativpronomen (Asmā' al-ishāra) – hinweisende Fürwörter für Nähe und Ferne",
+    "near": {
+      "label": "Nahe Demonstrativa (dies/diese)",
+      "pronouns": [
+        {
+          "id": "near_ms",
+          "arabic": "هَذَا",
+          "transliteration": "hādhā",
+          "german": "dieser",
+          "gender": "m",
+          "number": "s",
+          "quranExample": {
+            "surah": 3,
+            "ayah": 51,
+            "snippet": "هَذَا صِرَاطٌ مُّسْتَقِيمٌ",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=51"
+          }
+        },
+        {
+          "id": "near_fs",
+          "arabic": "هَذِهِ",
+          "transliteration": "hādhihi",
+          "german": "diese",
+          "gender": "f",
+          "number": "s",
+          "quranExample": {
+            "surah": 2,
+            "ayah": 35,
+            "snippet": "هَذِهِ الشَّجَرَةَ",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+          }
+        },
+        {
+          "id": "near_md",
+          "arabic": "هَذَانِ",
+          "transliteration": "hādhāni",
+          "german": "diese beiden (m, Nom.)",
+          "gender": "m",
+          "number": "d",
+          "grammaticalCase": "nominative",
+          "notes": "Im Akkusativ/Genitiv: هَذَيْنِ (hādhayni)",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "near_md_acc",
+          "arabic": "هَذَيْنِ",
+          "transliteration": "hādhayni",
+          "german": "diese beiden (m, Akk./Gen.)",
+          "gender": "m",
+          "number": "d",
+          "grammaticalCase": "accusative_genitive",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "near_fd",
+          "arabic": "هَاتَانِ",
+          "transliteration": "hātāni",
+          "german": "diese beiden (f, Nom.)",
+          "gender": "f",
+          "number": "d",
+          "grammaticalCase": "nominative",
+          "notes": "Im Akkusativ/Genitiv: هَاتَيْنِ (hātayni)",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "near_fd_acc",
+          "arabic": "هَاتَيْنِ",
+          "transliteration": "hātayni",
+          "german": "diese beiden (f, Akk./Gen.)",
+          "gender": "f",
+          "number": "d",
+          "grammaticalCase": "accusative_genitive",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "near_p",
+          "arabic": "هَؤُلَاءِ",
+          "transliteration": "hāʾulāʾi",
+          "german": "diese (Plural, m/f)",
+          "gender": "c",
+          "number": "p",
+          "quranExample": {
+            "surah": 2,
+            "ayah": 31,
+            "snippet": "أَنْبِئُونِي بِأَسْمَاءِ هَؤُلَاءِ",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        }
+      ]
+    },
+    "far": {
+      "label": "Ferne Demonstrativa (jener/jene)",
+      "pronouns": [
+        {
+          "id": "far_ms",
+          "arabic": "ذَلِكَ",
+          "transliteration": "dhālika",
+          "german": "jener",
+          "gender": "m",
+          "number": "s",
+          "quranExample": {
+            "surah": 2,
+            "ayah": 2,
+            "snippet": "ذَلِكَ الْكِتَابُ",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+          }
+        },
+        {
+          "id": "far_fs",
+          "arabic": "تِلْكَ",
+          "transliteration": "tilka",
+          "german": "jene",
+          "gender": "f",
+          "number": "s",
+          "quranExample": {
+            "surah": 2,
+            "ayah": 111,
+            "snippet": "تِلْكَ أَمَانِيُّهُمْ",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=111"
+          }
+        },
+        {
+          "id": "far_md",
+          "arabic": "ذَانِكَ",
+          "transliteration": "dhānika",
+          "german": "jene beiden (m, Nom.)",
+          "gender": "m",
+          "number": "d",
+          "grammaticalCase": "nominative",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "far_fd",
+          "arabic": "تَانِكَ",
+          "transliteration": "tānika",
+          "german": "jene beiden (f, Nom.)",
+          "gender": "f",
+          "number": "d",
+          "grammaticalCase": "nominative",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+        },
+        {
+          "id": "far_p",
+          "arabic": "أُولَئِكَ",
+          "transliteration": "ulāʾika",
+          "german": "jene (Plural, m/f)",
+          "gender": "c",
+          "number": "p",
+          "quranExample": {
+            "surah": 2,
+            "ayah": 5,
+            "snippet": "أُولَئِكَ عَلَى هُدًى",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+          }
+        }
+      ]
+    },
+    "notes": [
+      "هُنَا (hunā) = hier, هُنَاكَ (hunāka) = dort – werden wie adverbiale Demonstrativa verwendet.",
+      "Das ha- (هَا) am Anfang ist ein Aufmerksamkeitselement (حرف تنبيه).",
+      "Im Quran wird ذَلِكَ manchmal auch für nahe Referenz verwendet (stilistisches Mittel)."
+    ]
+  },
+  "relative": {
+    "description": "Relativpronomen (Asmā' al-mawṣūla) – leiten Relativsätze ein",
+    "pronouns": [
+      {
+        "id": "rel_ms",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhī",
+        "german": "der (welcher)",
+        "gender": "m",
+        "number": "s",
+        "quranExample": {
+          "surah": 2,
+          "ayah": 2,
+          "snippet": "الَّذِي لَا رَيْبَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        }
+      },
+      {
+        "id": "rel_fs",
+        "arabic": "الَّتِي",
+        "transliteration": "allatī",
+        "german": "die (welche)",
+        "gender": "f",
+        "number": "s",
+        "quranExample": {
+          "surah": 2,
+          "ayah": 24,
+          "snippet": "النَّارَ الَّتِي وَقُودُهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+        }
+      },
+      {
+        "id": "rel_md_nom",
+        "arabic": "اللَّذَانِ",
+        "transliteration": "alladhāni",
+        "german": "die beiden (m, Nom.)",
+        "gender": "m",
+        "number": "d",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "rel_md_acc",
+        "arabic": "اللَّذَيْنِ",
+        "transliteration": "alladhayni",
+        "german": "die beiden (m, Akk./Gen.)",
+        "gender": "m",
+        "number": "d",
+        "grammaticalCase": "accusative_genitive",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "rel_fd_nom",
+        "arabic": "اللَّتَانِ",
+        "transliteration": "allatāni",
+        "german": "die beiden (f, Nom.)",
+        "gender": "f",
+        "number": "d",
+        "grammaticalCase": "nominative",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "rel_fd_acc",
+        "arabic": "اللَّتَيْنِ",
+        "transliteration": "allatayni",
+        "german": "die beiden (f, Akk./Gen.)",
+        "gender": "f",
+        "number": "d",
+        "grammaticalCase": "accusative_genitive",
+        "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n62"
+      },
+      {
+        "id": "rel_mp",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhīna",
+        "german": "diejenigen, die (m, Pl.)",
+        "gender": "m",
+        "number": "p",
+        "quranExample": {
+          "surah": 2,
+          "ayah": 3,
+          "snippet": "الَّذِينَ يُؤْمِنُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        }
+      },
+      {
+        "id": "rel_fp",
+        "arabic": "اللَّاتِي",
+        "transliteration": "allātī",
+        "german": "diejenigen, die (f, Pl.)",
+        "gender": "f",
+        "number": "p",
+        "variants": [
+          "اللَّائِي (allāʿī)",
+          "اللَّوَاتِي (allawātī)"
+        ],
+        "quranExample": {
+          "surah": 4,
+          "ayah": 15,
+          "snippet": "وَاللَّاتِي يَأْتِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=15"
+        }
+      },
+      {
+        "id": "rel_general_ma",
+        "arabic": "مَا",
+        "transliteration": "mā",
+        "german": "was; das was (für Nicht-Personen)",
+        "gender": "c",
+        "number": "c",
+        "notes": "Wird für nicht-menschliche Bezugswörter und abstrakte Konzepte verwendet",
+        "quranExample": {
+          "surah": 2,
+          "ayah": 4,
+          "snippet": "بِمَا أُنْزِلَ إِلَيْكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+        }
+      },
+      {
+        "id": "rel_general_man",
+        "arabic": "مَنْ",
+        "transliteration": "man",
+        "german": "wer; derjenige der (für Personen)",
+        "gender": "c",
+        "number": "c",
+        "notes": "Wird für menschliche Bezugswörter verwendet; kann Singular oder Plural sein",
+        "quranExample": {
+          "surah": 2,
+          "ayah": 8,
+          "snippet": "وَمِنَ النَّاسِ مَنْ يَقُولُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+        }
+      }
+    ],
+    "notes": [
+      "Bei unbestimmten Bezugswörtern wird KEIN Relativpronomen verwendet (Sifa-Konstruktion).",
+      "مَنْ und مَا sind unveränderlich (indeklinabel) und gelten für alle Numeri und Genera.",
+      "Der Relativsatz (Ṣila) muss ein Rückbezugspronomen ('Ā'id) enthalten, das auf das Bezugswort verweist."
+    ]
+  },
+  "interrogative": {
+    "description": "Fragepronomen und Fragewörter — werden verwendet um Fragen zu bilden.",
+    "pronouns": [
+      {
+        "arabic": "مَنْ",
+        "transliteration": "man",
+        "german": "wer?",
+        "grammaticalRole": "Fragt nach Personen. Steht als Mubtada oder Mafʿul bihi.",
+        "example": {
+          "ref": "2:245",
+          "text": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=245"
+        }
+      },
+      {
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "german": "was?",
+        "grammaticalRole": "Fragt nach Sachen/Sachverhalten. Steht als Mubtada oder Mafʿul bihi.",
+        "example": {
+          "ref": "20:17",
+          "text": "وَمَا تِلْكَ بِيَمِينِكَ يَٰمُوسَىٰ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=17"
+        }
+      },
+      {
+        "arabic": "مَاذَا",
+        "transliteration": "madha",
+        "german": "was? (erweitert)",
+        "grammaticalRole": "Kombination aus ما + ذا. Fragt nach Sachen.",
+        "example": {
+          "ref": "2:219",
+          "text": "وَيَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        }
+      },
+      {
+        "arabic": "أَيُّ",
+        "transliteration": "ayyu",
+        "german": "welcher?/welche?/welches?",
+        "grammaticalRole": "Fragt nach Auswahl aus einer Gruppe. Flektiert nach Kasus. Immer in Iḍāfa.",
+        "example": {
+          "ref": "19:69",
+          "text": "أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=69"
+        }
+      },
+      {
+        "arabic": "كَمْ",
+        "transliteration": "kam",
+        "german": "wie viel?/wie viele?",
+        "grammaticalRole": "Fragt nach Anzahl. Tamyiz steht im Akkusativ Singular.",
+        "example": {
+          "ref": "2:211",
+          "text": "كَمْ ءَاتَيْنَٰهُم مِّنْ ءَايَةٍ بَيِّنَةٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=211"
+        }
+      },
+      {
+        "arabic": "كَيْفَ",
+        "transliteration": "kayfa",
+        "german": "wie?",
+        "grammaticalRole": "Fragt nach Art und Weise. Unveränderlich.",
+        "example": {
+          "ref": "2:28",
+          "text": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        }
+      },
+      {
+        "arabic": "أَيْنَ",
+        "transliteration": "ayna",
+        "german": "wo?",
+        "grammaticalRole": "Fragt nach Ort. Unveränderlich.",
+        "example": {
+          "ref": "16:27",
+          "text": "أَيْنَ شُرَكَآءِىَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=27"
+        }
+      },
+      {
+        "arabic": "مَتَى",
+        "transliteration": "mata",
+        "german": "wann?",
+        "grammaticalRole": "Fragt nach Zeit. Unveränderlich.",
+        "example": {
+          "ref": "2:214",
+          "text": "مَتَىٰ نَصْرُ ٱللَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+        }
+      },
+      {
+        "arabic": "أَنَّى",
+        "transliteration": "anna",
+        "german": "woher?/wie?",
+        "grammaticalRole": "Fragt nach Ursprung oder Art. Unveränderlich.",
+        "example": {
+          "ref": "3:37",
+          "text": "أَنَّىٰ لَكِ هَٰذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+        }
+      }
+    ]
+  }
+}

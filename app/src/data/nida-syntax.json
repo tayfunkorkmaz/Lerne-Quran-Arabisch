@@ -1,0 +1,950 @@
+{
+  "meta": {
+    "title": "Nida' — Vokativsyntax",
+    "description": "Systematische Behandlung der Vokativkonstruktionen im Quranischen Arabisch. Analyse der Vokativpartikel يَا, der fünf Munada-Typen mit ihren Kasusregeln und der quranspezifischen يَا أَيُّهَا-Konstruktion. Rein sprachwissenschaftlich.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar (3rd ed.)",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "NID1",
+      "title": "يَا als primäre Vokativpartikel",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Die Vokativpartikel يَا",
+            "content": "يَا ist die häufigste und syntaktisch vielseitigste Vokativpartikel im Arabischen. Weitere existieren (أَيَا، هَيَا، أَيْ، الهمزة), aber im Quran dominiert يَا fast ausschließlich.\n\nGrundfunktion: يَا markiert das folgende Nomen als Angerufenen (مُنَادَى). Der Munada steht syntaktisch im Akkusativ (مَنصوب). Die Kasuszuweisung erfolgt durch die Vokativpartikel يَا selbst — ein getilgtes Verb muss nicht angenommen werden.\n\nWichtig: Obwohl der Grundkasus Akkusativ ist, wird der Munada in bestimmten Fällen auf Damma aufgebaut (مبنيّ على الضمّ). Die Kasusregel hängt vom Typ des Munada ab — davon handeln die folgenden Lektionen."
+          },
+          {
+            "type": "explanation",
+            "title": "Warum يَا und nicht andere Partikeln?",
+            "content": "يَا hat im Arabischen die weiteste Distribution:\n\n1. Kann sowohl nahe als auch ferne Adressaten ansprechen (im Gegensatz zu أَيْ und الهمزة, die nur für Nähe stehen)\n2. Ist die einzige Partikel, die vor أَيُّهَا stehen kann\n3. Ist die einzige Partikel, die bei Klage-Nida' (نداء الندبة) verwendet wird: يَا + وَا\n4. Kann weggelassen werden, wenn der Kontext den Nida' eindeutig macht (selten im Quran)\n\nIm Quran steht يَا in über 300 Vokativkonstruktionen. Andere Vokativpartikeln kommen nicht vor."
+          },
+          {
+            "type": "quranExamples",
+            "title": "يَا als Vokativpartikel im Quran",
+            "examples": [
+              {
+                "ref": "11:41",
+                "arabic": "بِسْمِ ٱللَّهِ مَجْرىٰهَا وَمُرْسَىٰهَآ",
+                "explanation": "Kein يَا — keine Vokativkonstruktion. Zum Vergleich: Wo يَا steht, beginnt ein syntaktisch markierter Anruf.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=41"
+              },
+              {
+                "ref": "11:42",
+                "arabic": "يَٰبُنَىَّ ٱرْكَب مَّعَنَا",
+                "explanation": "يَا بُنَيَّ — Vokativpartikel يَا + Munada. Der Angerufene ist das eigene Kind. Nach dem Munada folgt ein Imperativ (ارْكَبْ) als eigentliche Aussage.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+              },
+              {
+                "ref": "36:20",
+                "arabic": "يَٰقَوْمِ ٱتَّبِعُوا ٱلْمُرْسَلِينَ",
+                "explanation": "يَا قَوْمِ — Munada + Imperativ. Typisches Muster: يَا + Munada + Aufforderung/Aussage. Der Nida' lenkt die Aufmerksamkeit, der Imperativ trägt den Inhalt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+              },
+              {
+                "ref": "20:11-12",
+                "arabic": "يَا مُوسَىٰ · إِنِّي أَنَا رَبُّكَ فَاخْلَعْ نَعْلَيْكَ",
+                "explanation": "يَا مُوسَى — Munada als Eigenname. Nach dem Nida' folgt ein Nominalsatz (إِنِّي أَنَا رَبُّكَ) und dann ein Imperativ. Der Nida' steht als eigenständiger Vers.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=11"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies 7:59. Identifiziere die Vokativpartikel und den Munada. Was folgt nach dem Nida'?",
+          "hint": "يَا قَوْمِ اعْبُدُوا اللَّهَ — يَا ist die Vokativpartikel, قَوْمِ der Munada (Iḍāfa, daher mansub — hier mit Kasra wegen des getilgten يَاء المتكلم). Nach dem Nida' folgt der Imperativ اعْبُدُوا.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=59"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Im Quran steht fast immer يَا als Vokativpartikel. Nenne zwei syntaktische Eigenschaften, die يَا von anderen Vokativpartikeln unterscheiden.",
+          "hint": "1. يَا kann vor أَيُّهَا stehen (andere Partikeln nicht). 2. يَا kann sowohl ferne als auch nahe Adressaten ansprechen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche Vokativpartikel kommt im Quran vor?",
+            "options": [
+              "Nur أَيْ",
+              "Nur يَا",
+              "يَا und أَيْ gleichberechtigt",
+              "هَيَا"
+            ],
+            "correct": 1,
+            "explanation": "Im Quran wird ausschließlich يَا als Vokativpartikel verwendet. Andere Partikeln wie أَيْ, أَيَا, هَيَا kommen nicht vor.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+          },
+          {
+            "question": "Was ist der Munada syntaktisch?",
+            "options": [
+              "Mubtada' (Subjekt eines Nominalsatzes)",
+              "Faʿil (Subjekt eines Verbalsatzes)",
+              "Mafʿul bihi — die Vokativpartikel يَا weist den Akkusativ zu",
+              "Tamyiz (Spezifikation)"
+            ],
+            "correct": 2,
+            "explanation": "Der Munada steht syntaktisch im Akkusativ (مَنصوب). Die Kasuszuweisung erfolgt durch die Vokativpartikel يَا selbst.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=41"
+    },
+    {
+      "id": "NID2",
+      "title": "Munada-Typ 1: Mufrad Alam (Eigenname) — مبنيّ على الضمّ",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Eigenname als Munada: Aufbau auf Damma",
+            "content": "Wenn der Munada ein einzelner Eigenname ist (مُفْرَد عَلَم — nicht annektiert, nicht beschrieben), wird er auf Damma aufgebaut (مبنيّ على الضمّ). Er steht weder im echten Nominativ noch im echten Akkusativ — er ist in der Position eines Akkusativs (محلّ نصب), trägt aber äußerlich Damma.\n\nRegel: يَا + Eigenname → Damma auf dem letzten Buchstaben\n\nBeispiel: يَا نُوحُ — نُوحُ trägt Damma (nicht Tanwin, nicht Fatha).\n\nBei triptotischen Namen (mit vollem Deklinationsparadigma) erscheint Damma. Bei diptotischen Namen (ممنوع من الصرف) erscheint ebenfalls Damma — hier fällt der Unterschied zusammen, da Diptota im Genitiv Fatha statt Kasra haben, aber im Nida' alle auf Damma gebaut werden."
+          },
+          {
+            "type": "explanation",
+            "title": "Warum Damma und nicht Fatha?",
+            "content": "Die Frage, warum bestimmte Munada-Typen auf Damma stehen, hat eine morphosyntaktische Erklärung:\n\nDer einzelne Eigenname ist definit und referiert auf genau eine Person — er braucht keine weitere syntaktische Ergänzung. Diese Abgeschlossenheit führt dazu, dass er nicht den vollen Akkusativ (Fatha/Tanwin) erhält, sondern auf Damma aufgebaut wird (analog zum Indeklinablen).\n\nKontrastierende Regel:\n- Munada braucht Ergänzung (Iḍāfa, Beschreibung) → Akkusativ (mansub)\n- Munada ist in sich abgeschlossen (Eigenname, bestimmte Nakira) → Damma (mabni 'ala al-damm)"
+          },
+          {
+            "type": "quranExamples",
+            "title": "Eigennamen als Munada im Quran",
+            "examples": [
+              {
+                "ref": "11:46",
+                "arabic": "يَٰنُوحُ إِنَّهُ لَيْسَ مِنْ أَهْلِكَ",
+                "explanation": "يَا نُوحُ — Eigenname, einzeln (nicht annektiert). نُوحُ trägt Damma: مبنيّ على الضمّ في محلّ نصب.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+              },
+              {
+                "ref": "11:69",
+                "arabic": "قَالُوا سَلَٰمًا قَالَ سَلَٰمٌ",
+                "explanation": "Kein Nida' — zum Vergleich. Hier wird niemand mit يَا angerufen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=69"
+              },
+              {
+                "ref": "20:94",
+                "arabic": "يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ",
+                "explanation": "يَا ابْنَ أُمَّ — KEIN Eigenname, sondern Iḍāfa (ابن + أمّ). Daher Akkusativ (ابْنَ mit Fatha). Kontrast zu يَا نُوحُ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=94"
+              },
+              {
+                "ref": "7:59",
+                "arabic": "يَٰقَوْمِ ٱعْبُدُوا ٱللَّهَ",
+                "explanation": "يَا قَوْمِ — KEIN Eigenname, sondern Iḍāfa mit gelöschtem Possessivsuffix (قَوْمِي → قَوْمِ). Daher Akkusativ (Iḍāfa-Munada). Kontrast zum Damma-Aufbau.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=59"
+              },
+              {
+                "ref": "19:7",
+                "arabic": "يَٰزَكَرِيَّآ إِنَّا نُبَشِّرُكَ بِغُلَٰمٍ ٱسْمُهُ يَحْيَىٰ",
+                "explanation": "يَا زَكَرِيَّا — Eigenname, einzeln. زَكَرِيَّا ist diptotisch (ممنوع من الصرف), aber als Munada trotzdem auf Damma aufgebaut. Die Endung -a bleibt unverändert (Alif maqsura).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=7"
+              },
+              {
+                "ref": "12:29",
+                "arabic": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا",
+                "explanation": "يُوسُفُ ohne يَا — seltener Fall: Die Vokativpartikel ist getilgt (محذوف), aber der Nida' ist aus dem Kontext klar. يُوسُفُ trägt Damma als Munada.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=29"
+              },
+              {
+                "ref": "11:62",
+                "arabic": "يَٰصَٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّا قَبْلَ هَٰذَآ",
+                "explanation": "يَا صَالِحُ — Eigenname, mabni 'ala al-damm. صَالِحُ trägt Damma (nicht Tanwin, obwohl صالح als Adjektiv triptotisch wäre — hier ist es Eigenname als Munada).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=62"
+              },
+              {
+                "ref": "7:85",
+                "arabic": "ٱعْبُدُوا ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ",
+                "explanation": "Sprecher ist شُعَيْب — er wird in 11:84 selbst mit يَا شُعَيْبُ angerufen (Eigenname, Damma). Hier ruft er seinerseits mit يَا قَوْمِ (Iḍāfa, Akkusativ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=85"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies 11:84. Wie lautet der Munada? Welchen Typ hat er? Welche Endung trägt er?",
+          "hint": "يَا شُعَيْبُ — Eigenname (مفرد علم), مبنيّ على الضمّ. شُعَيْبُ trägt Damma.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=84"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Vergleiche يَا نُوحُ (11:46) mit يَا قَوْمِ (7:59). Warum trägt نُوحُ Damma, قَوْمِ aber Kasra?",
+          "hint": "نُوحُ ist ein einzelner Eigenname → Damma. قَوْمِ ist ein Iḍāfa-Munada (قَوْمِي mit getilgtem ي) → Akkusativ, hier realisiert als Kasra wegen des folgenden (getilgten) Possessivsuffixes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+        },
+        {
+          "type": "morphology",
+          "prompt": "In 12:29 steht يُوسُفُ ohne يَا. Erkläre, warum يُوسُفُ trotzdem Damma trägt und nicht Fatha.",
+          "hint": "يُوسُفُ ist Munada mit getilgter Vokativpartikel. Als Eigenname (مفرد علم) wird er auf Damma aufgebaut — unabhängig davon, ob يَا explizit steht oder nicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=29"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche Endung trägt ein einzelner Eigenname als Munada?",
+            "options": [
+              "Fatha (Akkusativ)",
+              "Kasra (Genitiv)",
+              "Damma (مبنيّ على الضمّ)",
+              "Tanwin (Nunation)"
+            ],
+            "correct": 2,
+            "explanation": "Ein einzelner Eigenname als Munada wird auf Damma aufgebaut (مبنيّ على الضمّ في محلّ نصب). Er trägt weder Tanwin noch Fatha.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+          },
+          {
+            "question": "Warum steht der Eigenname als Munada auf Damma und nicht auf Fatha?",
+            "options": [
+              "Weil er im Nominativ steht",
+              "Weil er definit und abgeschlossen ist (keine syntaktische Ergänzung nötig)",
+              "Weil Eigennamen immer Damma tragen",
+              "Weil يَا den Nominativ regiert"
+            ],
+            "correct": 1,
+            "explanation": "Der Damma-Aufbau erklärt sich durch die Abgeschlossenheit des Munada: Er braucht keine Ergänzung (keine Iḍāfa, keine Beschreibung), daher wird er nicht voll flektiert, sondern auf Damma aufgebaut.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+    },
+    {
+      "id": "NID3",
+      "title": "Munada-Typ 2: Nakira Maqsuda (bestimmte unbestimmte Anrede) — مبنيّ على الضمّ",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Nakira Maqsuda: Bestimmtes Gemeintes ohne Artikel",
+            "content": "Wenn ein Nomen ohne Artikel und ohne Eigennamen-Status als Munada steht, aber eine bestimmte Person meint, heißt es نكرة مقصودة (bestimmte unbestimmte Anrede). Die Regel ist dieselbe wie beim Eigennamen: Aufbau auf Damma.\n\nBeispiel: يَا رَجُلُ — 'Oh Mann!' (ein bestimmter Mann wird angesprochen). رَجُلُ trägt Damma, kein Tanwin.\n\nEntscheidend: Durch den Nida' wird das unbestimmte Nomen definit — der Angesprochene ist identifiziert. Diese Definitheit durch Anrede erzeugt denselben syntaktischen Effekt wie ein Eigenname: Aufbau auf Damma.\n\nKontrast zur Nakira Ghayr Maqsuda (NID6): Wenn das Nomen keine bestimmte Person meint, bleibt es im Akkusativ."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Nakira Maqsuda im Quran",
+            "examples": [
+              {
+                "ref": "36:20",
+                "arabic": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَٰقَوْمِ ٱتَّبِعُوا ٱلْمُرْسَلِينَ",
+                "explanation": "يَا قَوْمِ — Hier liegt zwar formal Iḍāfa vor (قَوْمِي), aber der Kontrast zeigt: Ohne Iḍāfa stünde ein bestimmtes Volk als Nakira Maqsuda auf Damma. Die Iḍāfa macht es zum Mudaf-Munada (mansub).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+              },
+              {
+                "ref": "67:27",
+                "arabic": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا وَقِيلَ هَٰذَا ٱلَّذِى كُنتُم بِهِ تَدَّعُونَ",
+                "explanation": "Kein Nida' — zum Vergleich. هَٰذَا ist Demonstrativpronomen, kein Munada.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=27"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Abgrenzung: Drei Munada-Typen mit Damma vs. Akkusativ",
+            "content": "Übersicht der Kasusregeln:\n\n| Munada-Typ | Beispiel | Kasus | Grund |\n|------------|---------|-------|-------|\n| Mufrad Alam (Eigenname) | يَا نُوحُ | Damma | Abgeschlossen, definit |\n| Nakira Maqsuda (bestimmt gemeint) | يَا رَجُلُ | Damma | Durch Anrede definit |\n| Mudaf (annektiert) | يَا عِبَادِي | Akkusativ | Braucht Ergänzung |\n| Shabih bil-Mudaf (mudaf-ähnlich) | يَا طَالِعًا جَبَلًا | Akkusativ | Braucht Ergänzung |\n| Nakira Ghayr Maqsuda (unbestimmt) | يَا رَجُلًا | Akkusativ | Nicht definit |\n\nMerke: Damma = abgeschlossen + definit. Akkusativ = braucht Ergänzung ODER bleibt unbestimmt."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "prompt": "Erkläre den Unterschied zwischen يَا رَجُلُ und يَا رَجُلًا. Welcher Typ liegt jeweils vor?",
+          "hint": "يَا رَجُلُ — Nakira Maqsuda: Ein bestimmter Mann wird angesprochen (Damma). يَا رَجُلًا — Nakira Ghayr Maqsuda: Ein unbestimmter, nicht identifizierter Mann (Akkusativ mit Tanwin).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n82"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche zwei Munada-Typen werden auf Damma aufgebaut?",
+          "options": [
+            "Mudaf und Shabih bil-Mudaf",
+            "Mufrad Alam und Nakira Maqsuda",
+            "Nakira Maqsuda und Nakira Ghayr Maqsuda",
+            "Mufrad Alam und Mudaf"
+          ],
+          "correct": 1,
+          "explanation": "Mufrad Alam (Eigenname) und Nakira Maqsuda (bestimmt gemeinte Nakira) werden beide auf Damma aufgebaut. Beide sind abgeschlossen und durch den Nida' definit.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Warum wird die Nakira Maqsuda auf Damma aufgebaut?",
+            "options": [
+              "Weil sie im Nominativ steht",
+              "Weil sie durch den Nida' definit wird und keine Ergänzung braucht",
+              "Weil alle Munada-Typen Damma tragen",
+              "Weil sie einen Artikel trägt"
+            ],
+            "correct": 1,
+            "explanation": "Die Nakira Maqsuda wird durch die Anrede definit — der Angesprochene ist identifiziert. Da sie keine syntaktische Ergänzung braucht, wird sie wie der Eigenname auf Damma aufgebaut.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=20"
+    },
+    {
+      "id": "NID4",
+      "title": "Munada-Typ 3: Mudaf (annektierter Munada) — منصوب",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Der Mudaf-Munada: Akkusativ durch Ergänzungsabhängigkeit",
+            "content": "Wenn der Munada in einer Iḍāfa-Konstruktion steht (das erste Glied einer Annexion ist), steht er im Akkusativ (منصوب). Er ist NICHT auf Damma aufgebaut.\n\nGrund: Der Mudaf ist nicht abgeschlossen — er braucht sein Mudaf ilayhi zur Vervollständigung. Diese syntaktische Abhängigkeit verhindert den Damma-Aufbau.\n\nStruktur: يَا + Mudaf (Akkusativ) + Mudaf ilayhi (Genitiv)\n\nBeispiel: يَا عِبَادِ — عِبَادِ ist Mudaf zu einem Possessivsuffix (ي), daher Akkusativ. Die Fatha-Endung ist hier nicht sichtbar, weil das Nomen durch die Iḍāfa zum Pronomen modifiziert wird.\n\nDies ist der häufigste Munada-Typ im Quran, besonders in Verbindung mit Possessivsuffixen: يَا قَوْمِ, يَا عِبَادِي, يَا بَنِي إِسْرَائِيلَ."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Mudaf-Munada im Quran",
+            "examples": [
+              {
+                "ref": "2:40",
+                "arabic": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ",
+                "explanation": "يَا بَنِي إِسْرَائِيلَ — بَنِي ist Mudaf zu إِسْرَائِيلَ. Als Maskulin-Plural (بنون) erscheint der Akkusativ durch die Ya'-Form: بَنِينَ → بَنِي (ohne Nun wegen Iḍāfa). إِسْرَائِيلَ steht im Genitiv (diptotisch: Fatha statt Kasra).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+              },
+              {
+                "ref": "39:53",
+                "arabic": "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ ٱللَّهِ",
+                "explanation": "يَا عِبَادِيَ — عِبَادِ ist Mudaf zu يَ (Possessivsuffix 1. Person). Akkusativ als Mudaf-Munada. Die Fatha auf dem Ya' ist die Endung des Possessivsuffixes.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=53"
+              },
+              {
+                "ref": "20:94",
+                "arabic": "يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ",
+                "explanation": "يَا ابْنَ أُمَّ — ابْنَ ist Mudaf zu أُمَّ, daher Akkusativ (Fatha auf ابْنَ sichtbar). أُمَّ steht im Genitiv als Mudaf ilayhi (hier mit getilgtem Possessivsuffix يَاء المتكلم: أُمِّي → أُمَّ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=94"
+              },
+              {
+                "ref": "5:72",
+                "arabic": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱعْبُدُوا ٱللَّهَ رَبِّى وَرَبَّكُمْ",
+                "explanation": "يَا بَنِي إِسْرَائِيلَ — Identische Konstruktion wie 2:40. Mudaf-Munada im Akkusativ. Im Quran kommt dieser Ausdruck über 15 Mal vor.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=72"
+              },
+              {
+                "ref": "12:4",
+                "arabic": "يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+                "explanation": "يَا أَبَتِ — أَبَ ist Mudaf (Akkusativ), die Ta' (ت) ist ein Ersatz für das Possessivsuffix يَاء المتكلم (أَبِي → أَبَتِ). Akkusativ, weil Mudaf-Munada.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              },
+              {
+                "ref": "14:35",
+                "arabic": "رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ",
+                "explanation": "رَبِّ — Munada mit getilgtem يَا und getilgtem Possessivsuffix (يَا رَبِّي). Mudaf zu يَاء المتكلم, daher Akkusativ. Die Kasra auf dem Ba' gehört zur Iḍāfa mit dem Pronomen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=35"
+              },
+              {
+                "ref": "26:61",
+                "arabic": "قَالَ أَصْحَٰبُ مُوسَىٰٓ إِنَّا لَمُدْرَكُونَ",
+                "explanation": "Kein Nida' — zum Vergleich mit dem nächsten Vers.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=61"
+              },
+              {
+                "ref": "2:21",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبَّكُمُ",
+                "explanation": "يَا أَيُّهَا النَّاسُ — Hier liegt KEIN Mudaf vor, sondern die spezielle أَيُّهَا-Konstruktion (eigene Lektion NID5). النَّاسُ ist Attribut (بدل/عطف بيان), nicht Mudaf ilayhi.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Analysiere يَا أَبَتِ in 12:4. Was ist أَبَ morphologisch? Warum steht es im Akkusativ?",
+          "hint": "أَبَ ist eins der sechs Nomen (الأسماء الستة), die im Akkusativ Alif zeigen: أَبَا → hier mit ta' marbuta als Ersatz für ياء المتكلم. Akkusativ, weil Mudaf-Munada.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Vergleiche يَا نُوحُ (11:46) mit يَا ابْنَ أُمَّ (20:94). Warum Damma beim ersten, Fatha beim zweiten?",
+          "hint": "نُوحُ ist ein einzelner Eigenname (مفرد علم) → Damma. ابْنَ أُمَّ ist ein Mudaf + Mudaf ilayhi → Akkusativ (Fatha).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+        },
+        {
+          "type": "identification",
+          "prompt": "Lies 14:35. Wo ist die Vokativpartikel? Wo ist das Possessivsuffix? Bestimme den Munada-Typ.",
+          "hint": "رَبِّ steht für يَا رَبِّي — يَا ist getilgt, ي (Possessivsuffix) ist getilgt. Mudaf-Munada im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=35"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "In welchem Kasus steht ein Mudaf-Munada?",
+            "options": [
+              "Damma (مبنيّ)",
+              "Akkusativ (منصوب)",
+              "Genitiv (مجرور)",
+              "Nominativ (مرفوع)"
+            ],
+            "correct": 1,
+            "explanation": "Der Mudaf-Munada steht im Akkusativ (منصوب), weil er nicht abgeschlossen ist — er braucht sein Mudaf ilayhi zur Vervollständigung.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+          },
+          {
+            "question": "Was ist die grammatische Analyse von يَا بَنِي إِسْرَائِيلَ?",
+            "options": [
+              "يَا = Vokativpartikel, بَنِي = Munada mabni 'ala al-damm, إِسْرَائِيلَ = Badal",
+              "يَا = Vokativpartikel, بَنِي = Munada mansub (Mudaf), إِسْرَائِيلَ = Mudaf ilayhi (Genitiv)",
+              "يَا = Vokativpartikel, بَنِي = Faʿil, إِسْرَائِيلَ = Mafʿul bihi",
+              "يَا = Konjunktion, بَنِي = Mubtada', إِسْرَائِيلَ = Khabar"
+            ],
+            "correct": 1,
+            "explanation": "بَنِي ist Munada mansub als Mudaf, إِسْرَائِيلَ ist Mudaf ilayhi im Genitiv (diptotisch, daher Fatha statt Kasra).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+    },
+    {
+      "id": "NID5",
+      "title": "يَا أَيُّهَا / يَا أَيَّتُهَا — Die quranische Hauptkonstruktion",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Warum يَا أَيُّهَا nötig ist",
+            "content": "Im Arabischen kann ein Nomen mit Artikel (ال) nicht direkt nach يَا stehen. Man sagt NICHT: *يَا الرَّجُلُ oder *يَا النَّاسُ.\n\nUm ein Nomen mit Artikel anzurufen, wird die Brückenkonstruktion يَا أَيُّهَا / يَا أَيَّتُهَا verwendet:\n\nيَا + أَيُّ (Munada, mabni 'ala al-damm) + هَا (Aufmerksamkeitspartikel) + Nomen mit ال (Attribut)\n\nStruktur:\n- يَا = Vokativpartikel\n- أَيُّ = eigentlicher Munada, auf Damma aufgebaut (مبنيّ على الضمّ)\n- هَا = zaaʿida (überzählige Partikel) zur Verstärkung — keine syntaktische Funktion\n- Das Nomen mit ال = Attribut zu أَيُّ, entweder als Badal (Ersatz) oder als 'Atf Bayan (erklärende Apposition)\n\nFür Feminina: يَا أَيَّتُهَا + feminines Nomen mit ال."
+          },
+          {
+            "type": "explanation",
+            "title": "Kasus des Nomens nach أَيُّهَا",
+            "content": "Das Nomen nach أَيُّهَا steht im Nominativ mit Damma — NICHT im Akkusativ.\n\nGrund: Es ist Attribut (تابع) zu أَيُّ, und أَيُّ ist auf Damma aufgebaut. Das Attribut folgt seinem Bezugswort im Kasus. Da أَيُّ Damma trägt, steht auch das Attribut auf Damma.\n\n| Konstruktion | Analyse |\n|-------------|--------|\n| يَا أَيُّهَا النَّاسُ | النَّاسُ = Nominativ (Damma) als Attribut zu أَيُّ |\n| يَا أَيُّهَا الَّذِينَ آمَنُوا | الَّذِينَ = Relativpronomen als Attribut zu أَيُّ |\n| يَا أَيَّتُهَا النَّفْسُ | النَّفْسُ = Nominativ (Damma) als Attribut zu أَيَّتُ |\n\nDiese Konstruktion ist die mit Abstand häufigste Vokativform im Quran."
+          },
+          {
+            "type": "quranExamples",
+            "title": "يَا أَيُّهَا im Quran",
+            "examples": [
+              {
+                "ref": "2:21",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ",
+                "explanation": "يَا أَيُّهَا النَّاسُ — Standardkonstruktion. أَيُّ ist Munada (mabni 'ala al-damm), هَا ist Aufmerksamkeitspartikel, النَّاسُ steht im Nominativ als Attribut (Badal oder 'Atf Bayan).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "ref": "2:104",
+                "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا لَا تَقُولُوا رَٰعِنَا",
+                "explanation": "يَا أَيُّهَا الَّذِينَ آمَنُوا — Das Attribut ist hier ein Relativsatz (الَّذِينَ آمَنُوا). الَّذِينَ ist das Relativpronomen im Nominativ. Diese Wendung kommt im Quran über 80 Mal vor.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=104"
+              },
+              {
+                "ref": "89:27-28",
+                "arabic": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ · ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+                "explanation": "يَا أَيَّتُهَا النَّفْسُ — Femininum: أَيَّتُ statt أَيُّ. النَّفْسُ steht im Nominativ als Attribut. الْمُطْمَئِنَّةُ ist weiteres Adjektiv im Nominativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=27"
+              },
+              {
+                "ref": "4:1",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ",
+                "explanation": "يَا أَيُّهَا النَّاسُ — Identische Struktur wie 2:21. Sureneröffnung mit Nida' an die Menschen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+              },
+              {
+                "ref": "5:1",
+                "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا أَوْفُوا بِٱلْعُقُودِ",
+                "explanation": "يَا أَيُّهَا الَّذِينَ آمَنُوا — Sureneröffnung mit Nida'. Typische Struktur: Nida' + Imperativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+              },
+              {
+                "ref": "49:13",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍ وَأُنثَىٰ",
+                "explanation": "يَا أَيُّهَا النَّاسُ — Nida' an die Menschen, gefolgt von إِنَّ-Satz (nicht Imperativ). Der Nida' leitet hier eine Mitteilung ein.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=13"
+              },
+              {
+                "ref": "33:45",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَرْسَلْنَٰكَ شَٰهِدًا وَمُبَشِّرًا وَنَذِيرًا",
+                "explanation": "يَا أَيُّهَا النَّبِيُّ — النَّبِيُّ im Nominativ (Damma) als Attribut zu أَيُّ. Obwohl der Munada syntaktisch in der Position eines Akkusativs ist, trägt das Attribut Damma.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=45"
+              },
+              {
+                "ref": "66:1",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ",
+                "explanation": "يَا أَيُّهَا النَّبِيُّ — Nida' gefolgt von einer Frage (لِمَ). Der Nida' kann jede Satzart einleiten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=1"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "prompt": "Warum sagt man يَا أَيُّهَا النَّاسُ und nicht *يَا النَّاسُ? Was ist der syntaktische Grund?",
+          "hint": "Ein Nomen mit Artikel (ال) kann im Arabischen nicht direkt nach يَا stehen. أَيُّهَا dient als Brücke: أَيُّ ist der eigentliche Munada, das Nomen mit ال steht als Attribut.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme in 89:27 (يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ) die syntaktische Funktion jedes Elements.",
+          "hint": "يَا = Vokativpartikel, أَيَّتُ = Munada (mabni 'ala al-damm, feminin), هَا = überzählige Partikel, النَّفْسُ = Badal/Attribut (Nominativ), الْمُطْمَئِنَّةُ = Adjektiv zu النَّفْسُ (Nominativ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=27"
+        },
+        {
+          "type": "identification",
+          "prompt": "Wie oft kommt يَا أَيُّهَا الَّذِينَ آمَنُوا im Quran ungefähr vor? Was folgt typischerweise darauf?",
+          "hint": "Über 80 Mal. Typischerweise folgt ein Imperativ (Befehl) oder لَا + Jussiv (Verbot) oder ein إِنَّ-Satz.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=104"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht النَّبِيُّ in يَا أَيُّهَا النَّبِيُّ?",
+          "options": [
+            "Akkusativ (منصوب)",
+            "Genitiv (مجرور)",
+            "Nominativ (مرفوع) als Attribut zu أَيُّ",
+            "Unflektierbar (مبنيّ)"
+          ],
+          "correct": 2,
+          "explanation": "النَّبِيُّ steht im Nominativ (Damma) als Attribut (Badal oder 'Atf Bayan) zu أَيُّ. Da أَيُّ auf Damma aufgebaut ist, folgt das Attribut im Nominativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=45"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist die syntaktische Funktion von هَا in يَا أَيُّهَا?",
+            "options": [
+              "Demonstrativpronomen",
+              "Possessivsuffix",
+              "Überzählige Aufmerksamkeitspartikel (حرف تنبيه زائد)",
+              "Relativpronomen"
+            ],
+            "correct": 2,
+            "explanation": "هَا ist eine überzählige Partikel (زائدة) zur Verstärkung der Aufmerksamkeit. Sie hat keine eigenständige syntaktische Funktion.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+          },
+          {
+            "question": "Warum kann man nicht *يَا النَّاسُ sagen?",
+            "options": [
+              "Weil النَّاسُ ein Plural ist",
+              "Weil nach يَا kein Nomen mit ال stehen darf",
+              "Weil النَّاسُ feminin ist",
+              "Weil يَا nur vor Eigennamen steht"
+            ],
+            "correct": 1,
+            "explanation": "Im Arabischen ist die Kombination يَا + ال direkt auf dem Munada nicht zulässig. Die Brückenkonstruktion يَا أَيُّهَا + Nomen mit ال löst dieses Problem.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+          },
+          {
+            "question": "Was ist أَيُّ in der Konstruktion يَا أَيُّهَا النَّاسُ?",
+            "options": [
+              "Fragepronomen",
+              "Relativpronomen",
+              "Eigentlicher Munada (مبنيّ على الضمّ)",
+              "Mudaf ilayhi"
+            ],
+            "correct": 2,
+            "explanation": "أَيُّ ist der eigentliche Munada, auf Damma aufgebaut. Das Nomen mit ال (النَّاسُ) ist sein Attribut.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "NID6",
+      "title": "Munada-Typ 4 und 5: Shabih bil-Mudaf und Nakira Ghayr Maqsuda — منصوب",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Shabih bil-Mudaf (dem Mudaf Ähnliches)",
+            "content": "Der Shabih bil-Mudaf ist ein Munada, der zwar kein echtes Mudaf ist, aber durch eine syntaktische Ergänzung (Objekt, Präpositionalphrase, Adjektiv mit Rektion) vervollständigt wird. Er steht im Akkusativ (منصوب).\n\nTypische Muster:\n1. Partizip + Objekt: يَا طَالِعًا جَبَلًا ('Oh einer, der einen Berg besteigt')\n2. Partizip + Präpositionalphrase: يَا رَاغِبًا فِي الخَيْرِ\n3. Adjektiv + Rektion: يَا حَسَنًا وَجْهُهُ\n\nEntscheidend: Der Munada wird durch das Folgende syntaktisch ergänzt, ist also nicht abgeschlossen. Daher Akkusativ — genau wie beim Mudaf.\n\nIm Quran ist dieser Typ selten in reiner Form, kommt aber in Kombination mit anderen Konstruktionen vor."
+          },
+          {
+            "type": "explanation",
+            "title": "Nakira Ghayr Maqsuda (unbestimmt, nicht gemeint)",
+            "content": "Wenn der Munada eine unbestimmte Person ist, die nicht spezifisch identifiziert wird, steht er im Akkusativ mit Tanwin (منصوب منوّن).\n\nBeispiel: يَا رَجُلًا خُذْ بِيَدِي — 'Oh irgendein Mann, nimm meine Hand!'\n\nUnterschied zur Nakira Maqsuda:\n- يَا رَجُلُ (Damma, kein Tanwin) = ein bestimmter Mann wird angesprochen\n- يَا رَجُلًا (Fatha + Tanwin) = irgendein Mann, nicht identifiziert\n\nDieser Typ ist im Quran äußerst selten, da der quranische Nida' fast immer bestimmte Adressaten anspricht."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Beispiele für erweiterte Munada-Typen",
+            "examples": [
+              {
+                "ref": "18:49",
+                "arabic": "يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا",
+                "explanation": "يَا وَيْلَتَنَا — Munada mansub. وَيْلَتَ ist Mudaf zu نَا (Possessivsuffix), daher Akkusativ. Dies ist ein Klage-Nida' (نداء الندبة / التفجّع). وَيْلَة ist hier kein Eigenname, sondern ein Ausruf des Entsetzens.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=49"
+              },
+              {
+                "ref": "25:28",
+                "arabic": "يَٰوَيْلَتَىٰ لَيْتَنِى لَمْ أَتَّخِذْ فُلَانًا خَلِيلًا",
+                "explanation": "يَا وَيْلَتَى — Variante mit Alif (يَا وَيْلَتِي → يَا وَيْلَتَى). Mudaf-Munada im Akkusativ. Klage-Nida'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=28"
+              },
+              {
+                "ref": "25:30",
+                "arabic": "يَٰرَبِّ إِنَّ قَوْمِى ٱتَّخَذُوا هَٰذَا ٱلْقُرْءَانَ مَهْجُورًا",
+                "explanation": "يَا رَبِّ — Mudaf-Munada (zu getilgtem ي). Akkusativ. Zum Kontrast: Ein Shabih bil-Mudaf würde eine andere syntaktische Ergänzung als Iḍāfa haben.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=30"
+              },
+              {
+                "ref": "23:106",
+                "arabic": "رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَآلِّينَ",
+                "explanation": "رَبَّنَا — Mudaf-Munada (ربّ + نا), getilgtes يَا. Akkusativ: رَبَّ trägt Fatha. Deutlich sichtbarer Akkusativ im Vergleich zu رَبِّ (mit Possessivsuffix 1.Sg.).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=106"
+              },
+              {
+                "ref": "7:47",
+                "arabic": "رَبَّنَا لَا تَجْعَلْنَا مَعَ ٱلْقَوْمِ",
+                "explanation": "رَبَّنَا — Erneut Mudaf-Munada im Akkusativ (Fatha auf رَبَّ sichtbar). Die Fatha zeigt den Akkusativ deutlich.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=47"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "prompt": "Was unterscheidet den Shabih bil-Mudaf syntaktisch vom echten Mudaf? Gib je ein Beispiel.",
+          "hint": "Mudaf: Nomen + Nomen im Genitiv (Iḍāfa), z.B. يَا عَبْدَ اللَّهِ. Shabih bil-Mudaf: Nomen + andere Ergänzung (Objekt, Präpositionalphrase), z.B. يَا طَالِعًا جَبَلًا. Beide stehen im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=49"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Erkläre den Unterschied zwischen يَا وَيْلَتَنَا (18:49) und يَا وَيْلَتَى (25:28). Was ist morphologisch anders?",
+          "hint": "Beide sind Mudaf-Munada im Akkusativ. 18:49: وَيْلَتَنَا mit Suffix 1.Pl. (نَا). 25:28: وَيْلَتَى mit Suffix 1.Sg. (يَاء المتكلم als Alif maqsura geschrieben).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=49"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist ein Shabih bil-Mudaf?",
+            "options": [
+              "Ein Eigenname, der wie ein Mudaf aussieht",
+              "Ein Munada, der durch eine syntaktische Ergänzung (aber keine Iḍāfa) vervollständigt wird",
+              "Ein Nomen mit Artikel nach يَا",
+              "Ein femininer Munada"
+            ],
+            "correct": 1,
+            "explanation": "Der Shabih bil-Mudaf ist ein Munada, der nicht durch Iḍāfa, sondern durch eine andere syntaktische Ergänzung (Objekt, Präpositionalphrase etc.) vervollständigt wird. Daher Akkusativ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=49"
+          },
+          {
+            "question": "Welcher Munada-Typ trägt Tanwin?",
+            "options": [
+              "Mufrad Alam",
+              "Nakira Maqsuda",
+              "Nakira Ghayr Maqsuda",
+              "Mudaf"
+            ],
+            "correct": 2,
+            "explanation": "Nur die Nakira Ghayr Maqsuda (unbestimmt, nicht identifiziert) trägt Tanwin im Akkusativ (z.B. يَا رَجُلًا). Alle anderen Typen haben entweder Damma ohne Tanwin oder Fatha ohne Tanwin.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n82"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=49"
+    },
+    {
+      "id": "NID7",
+      "title": "يَا بُنَيَّ — Kontraktion mit Possessivsuffix",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Das Diminutiv بُنَيّ mit Possessivsuffix",
+            "content": "يَا بُنَيَّ ist eine im Quran häufige Konstruktion, bei der mehrere morphologische Prozesse zusammenwirken:\n\n1. Grundwort: اِبْن ('Sohn')\n2. Diminutiv: بُنَيّ (Muster فُعَيْل)\n3. Possessivsuffix 1.Sg.: بُنَيِّي ('mein Sönnchen')\n4. Kontraktion: Die zwei Ya' (ي des Diminutivs + ي des Possessivsuffixes) verschmelzen zu einem Shadda: بُنَيَّ\n\nKasusanalyse: بُنَيَّ ist Mudaf-Munada (annektiert an das Possessivsuffix 1.Sg.), daher steht er im Akkusativ (منصوب). Die Fatha auf dem Ya' mit Shadda markiert die Öffnung vor dem (verschmolzenen) Possessivsuffix.\n\nVariante: Im Quran erscheint auch يَا بُنَيِّ (mit Kasra auf dem Ya'), wo das Possessivsuffix ي getilgt ist und die Kasra darauf verweist."
+          },
+          {
+            "type": "explanation",
+            "title": "Parallele Konstruktionen: يَا أَبَتِ und يَا قَوْمِ",
+            "content": "Dieselbe Logik gilt für andere Nomen mit getilgtem oder ersetztem Possessivsuffix im Nida':\n\n| Quran-Form | Vollform | Analyse |\n|-----------|---------|--------|\n| يَا بُنَيَّ | يَا بُنَيِّي | Diminutiv + ياء المتكلم, verschmolzen |\n| يَا أَبَتِ | يَا أَبِي | ت als Ersatz für ي (nur im Nida') |\n| يَا قَوْمِ | يَا قَوْمِي | ي getilgt, Kasra bleibt als Spur |\n| رَبِّ | يَا رَبِّي | يَا getilgt, ي getilgt |\n\nAlle sind Mudaf-Munada im Akkusativ. Die morphologischen Veränderungen (Tilgung, Ersetzung, Verschmelzung) betreffen nur die Oberfläche, nicht die syntaktische Funktion."
+          },
+          {
+            "type": "quranExamples",
+            "title": "يَا بُنَيَّ und verwandte Formen im Quran",
+            "examples": [
+              {
+                "ref": "31:13",
+                "arabic": "وَإِذْ قَالَ لُقْمَٰنُ لِٱبْنِهِ وَهُوَ يَعِظُهُ يَٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ",
+                "explanation": "يَا بُنَيَّ — Diminutiv von اِبْن mit Possessivsuffix 1.Sg. Mudaf-Munada im Akkusativ. Die Anrede eines Vaters an seinen Sohn — im Quran immer mit Diminutiv (Ausdruck der Nähe).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+              },
+              {
+                "ref": "31:16",
+                "arabic": "إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ",
+                "explanation": "يَا بُنَيَّ — Dieselbe Konstruktion. Luqman spricht weiter zu seinem Sohn.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=16"
+              },
+              {
+                "ref": "31:17",
+                "arabic": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ",
+                "explanation": "يَا بُنَيَّ — Dritte Wiederholung in derselben Sure. Die Wiederholung der Anredeform strukturiert die Rede.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=17"
+              },
+              {
+                "ref": "11:42",
+                "arabic": "وَنَادَىٰ نُوحٌ ٱبْنَهُ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ ٱرْكَب مَّعَنَا",
+                "explanation": "يَا بُنَيَّ — Nuh ruft seinen Sohn. Das Verb نَادَى ('er rief') macht den Nida'-Kontext explizit. بُنَيَّ ist Mudaf-Munada (Akkusativ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+              },
+              {
+                "ref": "37:102",
+                "arabic": "يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ",
+                "explanation": "يَا بُنَيَّ — Ibrahim spricht zu seinem Sohn. Akkusativ als Mudaf-Munada.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=102"
+              },
+              {
+                "ref": "12:5",
+                "arabic": "يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ",
+                "explanation": "يَا بُنَيَّ — Ya'qub spricht zu Yusuf. Identische Konstruktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=5"
+              },
+              {
+                "ref": "12:4",
+                "arabic": "يَٰٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+                "explanation": "يَا أَبَتِ — Parallele Konstruktion: Yusuf spricht zu seinem Vater. أَبَتِ statt أَبِي — die ت ersetzt das Possessivsuffix ي. Mudaf-Munada im Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              },
+              {
+                "ref": "28:26",
+                "arabic": "يَٰٓأَبَتِ ٱسْتَـْٔجِرْهُ",
+                "explanation": "يَا أَبَتِ — Eine Tochter spricht zu ihrem Vater. Identische Konstruktion: ت als Ersatz für ي.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=26"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "morphology",
+          "prompt": "Zerlege يَا بُنَيَّ in seine morphologischen Bestandteile. Welches Muster liegt dem Diminutiv zugrunde?",
+          "hint": "يَا = Vokativpartikel. بُنَيّ = Diminutiv von اِبْن auf dem Muster فُعَيْل. Das doppelte Ya' (Shadda) entsteht durch Verschmelzung: ي des Diminutivs + ي des Possessivsuffixes 1.Sg.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Vergleiche يَا بُنَيَّ (11:42) mit يَا أَبَتِ (12:4). Was haben sie syntaktisch gemeinsam? Was ist morphologisch verschieden?",
+          "hint": "Gemeinsam: Beide sind Mudaf-Munada im Akkusativ, beide mit Possessivsuffix 1.Sg. Unterschied: Bei بُنَيَّ verschmilzt das Suffix mit dem Diminutiv-Ya'. Bei أَبَتِ wird das Suffix durch ت ersetzt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=42"
+        },
+        {
+          "type": "identification",
+          "prompt": "In Sure 31 kommt يَا بُنَيَّ dreimal vor (31:13, 31:16, 31:17). Identifiziere, welcher Satztyp jeweils auf den Nida' folgt.",
+          "hint": "31:13: Verbot (لَا تُشْرِكْ). 31:16: إِنَّ-Satz. 31:17: Imperativ (أَقِمِ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wie entsteht das Shadda in بُنَيَّ?",
+            "options": [
+              "Durch Assimilation zweier verschiedener Konsonanten",
+              "Durch Verschmelzung des Diminutiv-Ya' mit dem Possessivsuffix Ya'",
+              "Durch das Muster فُعَيْل allein",
+              "Durch Idgham des Lam in Ya'"
+            ],
+            "correct": 1,
+            "explanation": "بُنَيِّي hat zwei aufeinanderfolgende Ya': das Ya' des Diminutivmusters (فُعَيْل) und das Ya' des Possessivsuffixes 1.Sg. Diese verschmelzen zu einem Ya' mit Shadda.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+          },
+          {
+            "question": "Was ersetzt die ت in يَا أَبَتِ?",
+            "options": [
+              "Das Ta' marbuta des Femininums",
+              "Das Possessivsuffix ي (Ya' al-mutakallim)",
+              "Den Artikel ال",
+              "Das Tanwin"
+            ],
+            "correct": 1,
+            "explanation": "In يَا أَبَتِ ersetzt die ت das Possessivsuffix ي der 1. Person Singular. Diese Ersetzung kommt nur im Nida' vor. Vollform: يَا أَبِي.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+    },
+    {
+      "id": "NID8",
+      "title": "Gesamtübersicht und Anwendung",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Die fünf Munada-Typen: Zusammenfassung",
+            "content": "Vollständige Übersicht aller Munada-Typen:\n\n1. مُفْرَد عَلَم (Eigenname): مبنيّ على الضمّ\n   → يَا نُوحُ، يَا مُوسَى، يَا صَالِحُ\n\n2. نكرة مقصودة (bestimmt gemeint): مبنيّ على الضمّ\n   → يَا رَجُلُ (ein bestimmter Mann)\n\n3. مُضَاف (annektiert): منصوب\n   → يَا عِبَادِي، يَا بَنِي إِسْرَائِيلَ، يَا أَبَتِ، يَا بُنَيَّ\n\n4. شبيه بالمضاف (mudaf-ähnlich): منصوب\n   → يَا طَالِعًا جَبَلًا، يَا رَاغِبًا فِي الخَيْرِ\n\n5. نكرة غير مقصودة (unbestimmt): منصوب\n   → يَا رَجُلًا\n\nSonderkonstruktion: يَا أَيُّهَا / يَا أَيَّتُهَا + Nomen mit ال\n   → يَا أَيُّهَا النَّاسُ، يَا أَيُّهَا الَّذِينَ آمَنُوا، يَا أَيَّتُهَا النَّفْسُ\n\nFaustregel: Abgeschlossen + definit = Damma. Ergänzungsabhängig oder unbestimmt = Akkusativ."
+          },
+          {
+            "type": "explanation",
+            "title": "Häufigkeitsverteilung im Quran",
+            "content": "Die Munada-Typen im Quran nach Häufigkeit:\n\n1. يَا أَيُّهَا + Nomen/Relativsatz — bei Weitem am häufigsten (über 100 Mal)\n2. Mudaf-Munada — sehr häufig (يَا قَوْمِ, يَا عِبَادِ, رَبَّنَا, يَا بُنَيَّ)\n3. Mufrad Alam — häufig (يَا نُوحُ, يَا مُوسَى, يَا إِبْرَاهِيمُ etc.)\n4. Nakira Maqsuda — selten in reiner Form\n5. Shabih bil-Mudaf — selten in reiner Form\n6. Nakira Ghayr Maqsuda — äußerst selten\n\nDer Quran verwendet den Nida' überwiegend mit bestimmten Adressaten: entweder Eigennamen, Anreden mit Possessivsuffix oder die يَا أَيُّهَا-Konstruktion."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Kontrastive Beispiele: Alle Typen nebeneinander",
+            "examples": [
+              {
+                "ref": "11:46",
+                "arabic": "يَٰنُوحُ",
+                "explanation": "Mufrad Alam — Eigenname, مبنيّ على الضمّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+              },
+              {
+                "ref": "2:21",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ",
+                "explanation": "Sonderkonstruktion — أَيُّ als Munada (Damma), النَّاسُ als Attribut (Nominativ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+              },
+              {
+                "ref": "39:53",
+                "arabic": "يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا",
+                "explanation": "Mudaf-Munada — عِبَادِ + يَ (Possessivsuffix), Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=53"
+              },
+              {
+                "ref": "31:13",
+                "arabic": "يَٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ",
+                "explanation": "Mudaf-Munada (mit Diminutiv + Possessivsuffix-Kontraktion), Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=13"
+              },
+              {
+                "ref": "23:106",
+                "arabic": "رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا",
+                "explanation": "Mudaf-Munada (getilgtes يَا), ربّ + نا, Akkusativ (Fatha auf رَبَّ sichtbar).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=106"
+              },
+              {
+                "ref": "12:4",
+                "arabic": "يَٰٓأَبَتِ إِنِّى رَأَيْتُ",
+                "explanation": "Mudaf-Munada mit ت-Ersatz für Possessivsuffix, Akkusativ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Bestimme den Munada-Typ und den Kasus für jede der folgenden Stellen: (1) يَا آدَمُ (2:35), (2) يَا أَيُّهَا الَّذِينَ آمَنُوا (5:1), (3) يَا أَهْلَ الْكِتَابِ (3:64), (4) رَبَّنَا (3:53).",
+          "hint": "(1) يَا آدَمُ = Mufrad Alam, Damma. (2) يَا أَيُّهَا الَّذِينَ آمَنُوا = Sonderkonstruktion, أَيُّ auf Damma, الَّذِينَ als Attribut. (3) يَا أَهْلَ الْكِتَابِ = Mudaf (أَهْلَ + الْكِتَابِ), Akkusativ (Fatha auf أَهْلَ). (4) رَبَّنَا = Mudaf (ربّ + نا), Akkusativ (Fatha auf رَبَّ), يَا getilgt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Lies 3:64. Warum steht أَهْلَ mit Fatha und nicht mit Damma?",
+          "hint": "يَا أَهْلَ الْكِتَابِ — أَهْلَ ist Mudaf zu الْكِتَابِ (Iḍāfa). Als Mudaf-Munada steht er im Akkusativ (Fatha). Er ist nicht abgeschlossen, weil er die Ergänzung الْكِتَابِ braucht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=64"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Erkläre, warum in يَا أَيُّهَا النَّبِيُّ (33:45) das Wort النَّبِيُّ Damma trägt, aber in يَا أَهْلَ الْكِتَابِ (3:64) das Wort أَهْلَ Fatha.",
+          "hint": "النَّبِيُّ ist Attribut (Badal) zu أَيُّ und folgt dessen Damma. أَهْلَ ist selbst der Munada als Mudaf (annektiert an الْكِتَابِ) und steht daher im Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=45"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher Munada-Typ ist يَا مَرْيَمُ (3:42)?",
+          "options": [
+            "Mudaf",
+            "Shabih bil-Mudaf",
+            "Mufrad Alam (Eigenname)",
+            "Nakira Maqsuda"
+          ],
+          "correct": 2,
+          "explanation": "مَرْيَمُ ist ein Eigenname (مفرد علم), nicht annektiert, nicht beschrieben. Daher مبنيّ على الضمّ (Damma).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=42"
+        },
+        {
+          "type": "identification",
+          "prompt": "Lies 5:18 (يَا أَهْلَ الْكِتَابِ) und 19:28 (يَا أُخْتَ هَارُونَ). Bestimme beide Munada-Typen und erkläre die Kasusendungen.",
+          "hint": "Beide sind Mudaf-Munada: أَهْلَ + الْكِتَابِ bzw. أُخْتَ + هَارُونَ. Beide stehen im Akkusativ (Fatha auf dem Mudaf). هَارُونَ im Genitiv (diptotisch, daher Fatha statt Kasra).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=18"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Warum ist رَبَّنَا (z.B. 3:53) im Akkusativ, obwohl kein يَا davor steht?",
+          "hint": "يَا ist getilgt (حذف حرف النداء). Das ändert nichts am Kasus: رَبَّ ist Mudaf-Munada und steht im Akkusativ. Die Fatha auf dem Ba' zeigt den Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=53"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welcher Munada-Typ ist يَا أَهْلَ الْكِتَابِ?",
+            "options": [
+              "Mufrad Alam",
+              "Mudaf (annektiert)",
+              "Nakira Maqsuda",
+              "Sonderkonstruktion mit أَيُّهَا"
+            ],
+            "correct": 1,
+            "explanation": "أَهْلَ ist Mudaf zu الْكِتَابِ (Iḍāfa). Daher Akkusativ (Fatha auf أَهْلَ).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=64"
+          },
+          {
+            "question": "Welche Faustregel bestimmt Damma vs. Akkusativ beim Munada?",
+            "options": [
+              "Definite Nomen bekommen Damma, indefinite Akkusativ",
+              "Abgeschlossen + definit = Damma; ergänzungsabhängig oder unbestimmt = Akkusativ",
+              "Maskulin = Damma, Feminin = Akkusativ",
+              "Singular = Damma, Plural = Akkusativ"
+            ],
+            "correct": 1,
+            "explanation": "Abgeschlossen + definit (Eigenname, Nakira Maqsuda) = Damma. Nicht abgeschlossen (Mudaf, Shabih bil-Mudaf) oder unbestimmt (Nakira Ghayr Maqsuda) = Akkusativ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+          },
+          {
+            "question": "In يَا أَيُّهَا الَّذِينَ آمَنُوا: Was ist الَّذِينَ syntaktisch?",
+            "options": [
+              "Munada",
+              "Mafʿul bihi",
+              "Attribut (Badal / 'Atf Bayan) zu أَيُّ",
+              "Mudaf ilayhi"
+            ],
+            "correct": 2,
+            "explanation": "الَّذِينَ ist Attribut zu أَيُّ (entweder Badal oder 'Atf Bayan). أَيُّ ist der eigentliche Munada.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=104"
+          },
+          {
+            "question": "Wie viele Munada-Typen gibt es, und wie viele davon stehen auf Damma?",
+            "options": [
+              "3 Typen, davon 1 auf Damma",
+              "5 Typen, davon 2 auf Damma",
+              "5 Typen, davon 3 auf Damma",
+              "4 Typen, davon 2 auf Damma"
+            ],
+            "correct": 1,
+            "explanation": "Es gibt 5 Munada-Typen: Mufrad Alam und Nakira Maqsuda stehen auf Damma (2). Mudaf, Shabih bil-Mudaf und Nakira Ghayr Maqsuda stehen im Akkusativ (3).",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n82"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+    }
+  ]
+}

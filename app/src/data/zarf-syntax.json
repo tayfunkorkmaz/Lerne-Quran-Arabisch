@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "title": "Ẓarf — Adverbialer Akkusativ (الظرف)",
+    "description": "Der Ẓarf (Gefäß) ist ein akkusativisches Nomen, das Zeit (Ẓarf Zaman) oder Ort (Ẓarf Makan) angibt, ohne eine Präposition zu benutzen. Im Quran ist der Ẓarf Zaman besonders frequent — vor allem يَوْمَ als Einleitung zu Nebensätzen.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar (3rd ed.)",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "ZAR1",
+      "title": "Ẓarf Zaman — Zeitadverbiale ohne Präposition",
+      "description": "Nomen die Zeitangaben ausdrücken und direkt im Akkusativ stehen, ohne Präposition.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist ein Ẓarf Zaman?",
+            "content": "Ein Ẓarf Zaman (ظرف زمان — Zeitgefäß) ist ein Nomen im Akkusativ, das eine Zeitangabe ausdrückt. Es beantwortet die Frage 'wann?'. Keine Präposition nötig — der Akkusativ selbst trägt die adverbiale Funktion.\n\nHäufige Zarfs im Quran:\n- يَوْمَ ('am Tag von') — sehr häufig als Einleitung\n- حِينَ ('zu der Zeit als')\n- آنَاءَ اللَّيْلِ ('in den Stunden der Nacht')\n- بُكْرَةً ('morgens')\n- عَشِيًّا ('abends')\n- غُدُوًّا ('frühmorgens')\n- أَبَدًا ('niemals / für immer')\n\nWICHTIG: يَوْمَ als Ẓarf kann einen ganzen Satz als Genitiv-Ergänzung nehmen: يَوْمَ يَاْتِي الْعَذَابُ — 'am Tag, da die Strafe kommt'. Hier ist يَوْمَ Ẓarf + der folgende Satz sein Genitiv (Iḍāfa oder Relative Construction)."
+          },
+          {
+            "type": "explanation",
+            "title": "يَوْمَ als Satzzarf",
+            "content": "Im Quran ist يَوْمَ in Verbindung mit einem Folgesatz besonders häufig. Es gibt zwei Strukturen:\n\n1. يَوْمَ + Verb (Imperfekt): يَوْمَ تَبْيَضُّ وُجُوهٌ — 'am Tag, da Gesichter weiß werden'\nHier ist der Folgesatz im Genitiv (Iḍāfa-Konstruktion: يَوْمَ als Mudaf, der Satz als Mudaf ilayh in mahall jarr)\n\n2. يَوْمَ + الَّذِي / الـ + Verb: definite Relativkonstruktion\n\nDieses يَوْمَ-Muster signalisiert immer eschatologische Zeitangaben im Quran. Es ist keine normale Zeitangabe, sondern eine feierliche Benennung eines spezifischen Tages."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "3:106",
+                "arabic": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ",
+                "explanation": "يَوْمَ = Ẓarf Zaman (Akkusativ). تَبْيَضُّ وُجُوهٌ = Folgesatz im Genitiv (Iḍāfa). يَوْمَ bezieht sich auf den eschatologischen Tag. 'Am Tag, da Gesichter weiß werden und Gesichter schwarz werden.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+              },
+              {
+                "ref": "39:9",
+                "arabic": "أَمَّنْ هُوَ قَٰنِتٌ ءَانَآءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا",
+                "explanation": "آنَاءَ اللَّيْلِ = Ẓarf Zaman. آنَاءَ ist Akkusativ-Plural von إِنْي / أَنَى (Zeitabschnitt, Periode). Ẓarf-Akkusativ für 'während der Nachtstunden'. اللَّيْلِ = Genitiv (Iḍāfa). Beachte: آنَاءَ steht im Akkusativ und ist ein echter Ẓarf (keine Präposition). سَاجِدًا وَقَائِمًا = Hals.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=9"
+              },
+              {
+                "ref": "19:11",
+                "arabic": "فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا بُكْرَةً وَعَشِيًّا",
+                "explanation": "بُكْرَةً وَعَشِيًّا = zwei Zarfs Zaman (Akkusativ). بُكْرَةً = 'morgens', عَشِيًّا = 'abends'. Verbunden durch وَ (waw al-'atf — echte Konjunktion zwischen zwei gleichartigen Zarfs). 'Preiset [Gott] morgens und abends.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=11"
+              },
+              {
+                "ref": "17:78",
+                "arabic": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ",
+                "explanation": "لِدُلُوكِ = Präposition + Genitiv (kein Ẓarf). قُرْآنَ الْفَجْرِ = Objekt (Akkusativ als Mafʿul bihi), kein echter Ẓarf. Vergleichsbeispiel: Zeitangaben mit Präposition sind Jarr wa-Majrur, nicht Ẓarf.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=78"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "question": "In أَبَدًا (niemals / ewig) — was ist das grammatisch, und welchen Kasus hat es?",
+          "answer": "Ẓarf Zaman im Akkusativ (Tanwin-Fatha). Es ist ein lexikalisierter Ẓarf, der stets im Akkusativ steht und Zeitdauer oder totale Verneinung ausdrückt. Im Quran häufig nach Verneinungen: لَا يَفْعَلُهُ أَبَدًا ('er wird es niemals tun').",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist die Struktur يَوْمَ تَبْيَضُّ وُجُوهٌ grammatisch?",
+            "options": [
+              "يَوْمَ ist Subjekt, تَبْيَضُّ ist Prädikat",
+              "يَوْمَ ist Ẓarf Zaman (Akkusativ), der Folgesatz تَبْيَضُّ وُجُوهٌ steht als Iḍāfa-Genitiv",
+              "يَوْمَ ist Präposition, تَبْيَضُّ ist Subjunktiv",
+              "يَوْمَ ist Relativpronomen"
+            ],
+            "correct": 1,
+            "explanation": "يَوْمَ ist Ẓarf Zaman im Akkusativ. Es nimmt den Folgesatz als Genitiv-Ergänzung (Iḍāfa-Konstruktion): يَوْمَ = Mudaf, تَبْيَضُّ وُجُوهٌ = Mudaf ilayh (Satz in mahall jarr).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+    },
+    {
+      "id": "ZAR2",
+      "title": "Ẓarf Makan und lexikalisierte Zarfs",
+      "description": "Ortsadverbiale ohne Präposition und die wichtigsten lexikalisierten Zarfs, die stets im Akkusativ stehen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Ẓarf Makan im Quran",
+            "content": "Ein echter Ẓarf Makan (ظرف مكان) ohne Präposition ist im Quran seltener als der Ẓarf Zaman. Die meisten Ortsangaben stehen nach Präpositionen (فِي, عَلَى, تَحْتَ, فَوْقَ usw.).\n\nAber einige Nomen sind LEXIKALISIERT als Zarfs — sie stehen stets im Akkusativ ohne Präposition:\n- أَمَامَ ('vor' — räumlich/zeitlich)\n- وَرَاءَ ('hinter')\n- يَمِينًا وَشِمَالًا ('rechts und links')\n- فَوْقَ ('über') — kann auch Präposition sein\n- تَحْتَ ('unter') — kann auch Präposition sein\n- بَيْنَ ('zwischen') — wird mit Genitiv verbunden\n\nDiese Zarfs können weitere Nomen im Genitiv als Ergänzung nehmen (Iḍāfa): وَرَاءَهُمْ = 'hinter ihnen'."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:19",
+                "arabic": "يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ",
+                "explanation": "حَذَرَ الْمَوْتِ — hier ist حَذَرَ kein Ẓarf, sondern Mafʿul li-Ajlihi (Zweckakkusativ: 'aus Angst vor dem Tod'). Zeigt: Akkusative haben verschiedene Funktionen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+              },
+              {
+                "ref": "18:17",
+                "arabic": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ",
+                "explanation": "ذَاتَ الْيَمِينِ = Ẓarf Makan (Akkusativ). ذَاتَ ist ein lexikalisierter Ẓarf (Akkusativ-Form von ذُو). 'Nach rechts hin' (wortl.: 'die Seite der Rechten'). Iḍāfa: ذَاتَ (Mudaf) + الْيَمِينِ (Mudaf ilayh, Genitiv).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=17"
+              },
+              {
+                "ref": "2:255",
+                "arabic": "لَّهُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ",
+                "explanation": "فِي السَّمَاوَاتِ und فِي الْأَرْضِ = Jarr wa-Majrur (Präposition + Genitiv), KEINE Zarfs. Vergleichsbeispiel: Ortsangaben mit فِي sind Präpositionalphrasen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "distinction",
+          "question": "Was ist der Unterschied zwischen يَوْمَ الْقِيَامَةِ als Iḍāfa und يَوْمًا als Ẓarf?",
+          "answer": "يَوْمَ الْقِيَامَةِ: يَوْمَ ist Mudaf (Akkusativ als Ẓarf), الْقِيَامَةِ ist Mudaf ilayh (Genitiv). Die Iḍāfa-Konstruktion macht den Ẓarf definit ('der Tag der Auferstehung'). يَوْمًا: Tanwin-Fatha, indefinit ('einen Tag'). Beide stehen im Akkusativ als Zarfs Zaman.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welchen Kasus hat يَوْمَ in يَوْمَ تَرَوْنَهَا?",
+            "options": [
+              "Nominativ — Subjekt",
+              "Genitiv — nach Präposition",
+              "Akkusativ — Ẓarf Zaman",
+              "Akkusativ — Mafʿul bihi"
+            ],
+            "correct": 2,
+            "explanation": "يَوْمَ ist Ẓarf Zaman im Akkusativ. Es nimmt den Folgesatz تَرَوْنَهَا als Iḍāfa-Genitiv. 'Am Tag, da ihr ihn/sie sehen werdet.'",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "id": "ZAR3",
+      "title": "Häufige lexikalisierte Zarfs: عِنْدَ, لَدَى, حَيْثُ",
+      "description": "Drei im Quran besonders häufige Ẓarf-Wörter für Ort und Nähe, die stets als Zarfs fungieren und ein Genitiv-Komplement nehmen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "عِنْدَ — bei, in der Nähe von",
+            "content": "عِنْدَ ist ein Ẓarf Makan (Ortsadverbial), das Nähe oder Besitz ausdrückt. Es steht im Akkusativ als Ẓarf und nimmt ein Genitiv-Komplement (Iḍāfa).\n\nBedeutungen:\n- Räumlich: 'bei, in der Nähe von'\n- Übertragen: 'im Besitz von, nach Ansicht von'\n\nعِنْدَ اللَّهِ = 'bei Gott' (اللَّهِ im Genitiv als Mudaf ilayh).\n\nعِنْدَ kann auch Pronomen-Suffixe tragen: عِنْدَهُ (bei ihm), عِنْدَكُمْ (bei euch), عِنْدَنَا (bei uns)."
+          },
+          {
+            "type": "explanation",
+            "title": "لَدَى — bei (synonym zu عِنْدَ)",
+            "content": "لَدَى ist ein Ẓarf Makan mit derselben Grundbedeutung wie عِنْدَ: 'bei, in der Nähe von'. Es nimmt ebenfalls ein Genitiv-Komplement.\n\nMit Pronomen-Suffixen wird لَدَى zu لَدَيْ-: لَدَيْهِ (bei ihm), لَدَيْنَا (bei uns), لَدَيْكُمْ (bei euch).\n\nIm Quran erscheint لَدَى seltener als عِنْدَ, aber in vergleichbaren Kontexten."
+          },
+          {
+            "type": "explanation",
+            "title": "حَيْثُ — wo",
+            "content": "حَيْثُ ist ein Ẓarf Makan für den Ort: 'wo, wohin, dort wo'. Es ist mabni (unveränderlich auf Damma) und nimmt einen Folgesatz als Ergänzung — keinen einfachen Genitiv.\n\nStruktur: حَيْثُ + Verbalsatz oder Nominalsatz.\nDie Phrase حَيْثُ + Satz steht als Ganzes في محل نصب (Akkusativ-Position als Ẓarf).\n\nIm Quran häufig in Anweisungen: 'wohin auch immer ihr euch wendet' oder 'wo immer ihr seid'."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "3:14-15",
+                "arabic": "قُلْ أَؤُنَبِّئُكُم بِخَيْرٍ مِّن ذَٰلِكُمْ لِلَّذِينَ ٱتَّقَوْا عِندَ رَبِّهِمْ",
+                "explanation": "عِنْدَ رَبِّهِمْ = Ẓarf Makan. عِنْدَ = 'bei', رَبِّهِمْ = Genitiv (Iḍāfa). 'Bei ihrem Herrn sind Gärten.' Das Ẓarf fungiert hier als vorangestelltes Khabar.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=14"
+              },
+              {
+                "ref": "50:18",
+                "arabic": "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+                "explanation": "لَدَيْهِ = Ẓarf Makan ('bei ihm'), bestehend aus لَدَى + Pronominalsuffix ـهِ. رَقِيبٌ عَتِيدٌ = Mubtada + Sifa. Das Ẓarf steht als vorangestelltes Khabar: 'Kein Wort spricht er aus, ohne dass bei ihm ein bereiter Wächter wäre.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=18"
+              },
+              {
+                "ref": "2:150",
+                "arabic": "وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+                "explanation": "حَيْثُ مَا كُنتُمْ = Ẓarf Makan mit konditionaler Nuance. حَيْثُ = 'wo', مَا = verstärkend, كُنتُمْ = Verbalsatz. 'Und wo immer ihr seid, wendet eure Gesichter in seine Richtung.' حَيْثُ + Satz steht als Ganzes im Akkusativ (Ẓarf-Position).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "distinction",
+          "question": "Was ist der Unterschied zwischen عِنْدَ und لَدَى?",
+          "answer": "Beide sind Zarfs Makan mit der Bedeutung 'bei, in der Nähe von'. عِنْدَ ist häufiger im Quran. Beide nehmen ein Genitiv-Komplement (Iḍāfa) oder Pronomen-Suffixe. Es gibt keinen wesentlichen Bedeutungsunterschied.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was ist عِنْدَ اللَّهِ grammatisch?",
+            "options": [
+              "Jarr wa-Majrur (Präposition + Genitiv)",
+              "Ẓarf Makan (Akkusativ) + Genitiv-Komplement (Iḍāfa)",
+              "Mubtada + Khabar",
+              "Mafʿul bihi"
+            ],
+            "correct": 1,
+            "explanation": "عِنْدَ ist ein lexikalisierter Ẓarf Makan im Akkusativ. اللَّهِ steht im Genitiv als Mudaf ilayh (Iḍāfa-Konstruktion).",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n56"
+          },
+          {
+            "question": "Welchen Satztyp nimmt حَيْثُ als Ergänzung?",
+            "options": [
+              "Einen einfachen Genitiv",
+              "Einen Folgesatz (Verbal- oder Nominalsatz)",
+              "Einen Akkusativ",
+              "Eine Präposition"
+            ],
+            "correct": 1,
+            "explanation": "حَيْثُ nimmt einen Folgesatz als Ergänzung, keinen einfachen Genitiv. Der gesamte Ausdruck حَيْثُ + Satz steht in Akkusativ-Position als Ẓarf.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=14"
+    },
+    {
+      "id": "ZAR4",
+      "title": "بَيْنَ als Ẓarf",
+      "description": "بَيْنَ als räumlich-zeitlicher Ẓarf im Akkusativ, stets als Mudaf mit Genitiv-Komplement.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "بَيْنَ — zwischen (Ẓarf Makan/Zaman)",
+            "content": "بَيْنَ ist ein lexikalisierter Ẓarf, der sowohl räumlich ('zwischen') als auch zeitlich ('in der Zwischenzeit') verwendet wird. Grammatische Eigenschaften:\n\n1. Kasus: Stets im Akkusativ (Nasb) als Ẓarf\n2. Iḍāfa: بَيْنَ ist IMMER Mudaf — es braucht ein Genitiv-Komplement (Mudaf ilayh). Es kann nicht allein stehen.\n3. Komplement-Typen:\n   - Nomen im Genitiv: بَيْنَ أَيْدِيهِمْ ('vor ihnen', wörtl.: 'zwischen ihren Händen')\n   - Pronomen-Suffix: بَيْنَنَا ('zwischen uns'), بَيْنَهُمْ ('zwischen ihnen')\n   - Zwei koordinierte Genitive: بَيْنَنَا وَبَيْنَهُمْ ('zwischen uns und ihnen')\n\nWenn بَيْنَ nach einer Präposition steht (مِنْ بَيْنِ), wechselt es in den Genitiv — es ist dann kein Ẓarf mehr, sondern Jarr wa-Majrur."
+          },
+          {
+            "type": "explanation",
+            "title": "بَيْنَ أَيْدِيهِمْ — eine feste Wendung",
+            "content": "Die Wendung بَيْنَ أَيْدِيهِمْ (wörtl.: 'zwischen ihren Händen') bedeutet im Quran 'vor ihnen' (räumlich oder zeitlich: was ihnen vorausgeht, was vor ihnen liegt). Sie wird häufig mit وَمَا خَلْفَهُمْ ('und was hinter ihnen liegt') gepaart.\n\nStruktur: بَيْنَ (Ẓarf, Akkusativ, Mudaf) + أَيْدِي (Genitiv, Mudaf) + هِمْ (Pronomen-Suffix, Mudaf ilayh).\n\nDiese doppelte Iḍāfa (بَيْنَ → أَيْدِي → هِمْ) ist ein typisches quranisches Muster."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:255",
+                "arabic": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ",
+                "explanation": "بَيْنَ = Ẓarf Makan (Akkusativ), Mudaf. أَيْدِيهِمْ = Mudaf ilayh (Genitiv). خَلْفَهُمْ = paralleler Ẓarf ('hinter ihnen'). مَا = Relativpronomen ('das, was'). 'Er kennt, was vor ihnen liegt und was hinter ihnen liegt.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "ref": "18:94",
+                "arabic": "بَيْنَنَا وَبَيْنَهُمْ سَدًّا",
+                "explanation": "بَيْنَنَا وَبَيْنَهُمْ = doppeltes بَيْنَ mit zwei Pronomen-Suffixen. Erste بَيْنَ: Mudaf + نَا (Mudaf ilayh). Zweite بَيْنَ: Mudaf + هُمْ (Mudaf ilayh). Beide stehen im Akkusativ als Zarfs. سَدًّا = Mafʿul bihi (Akkusativ). 'So mache zwischen uns und ihnen eine Barriere.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=94"
+              },
+              {
+                "ref": "36:9",
+                "arabic": "وَجَعَلْنَا مِن بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا",
+                "explanation": "مِنْ بَيْنِ — hier steht بَيْنِ im Genitiv nach der Präposition مِنْ. Es ist KEIN Ẓarf mehr, sondern Teil einer Jarr-wa-Majrur-Phrase. Vergleiche mit 2:255, wo بَيْنَ direkt als Ẓarf im Akkusativ steht. 'Wir setzten von vor ihnen eine Barriere und von hinter ihnen eine Barriere.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=9"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "distinction",
+          "question": "Vergleiche بَيْنَ أَيْدِيهِمْ (2:255) mit مِن بَيْنِ أَيْدِيهِمْ (36:9). Was ist der grammatische Unterschied?",
+          "answer": "In 2:255 steht بَيْنَ im Akkusativ als Ẓarf Makan (adverbiale Funktion ohne Präposition). In 36:9 steht بَيْنِ im Genitiv nach der Präposition مِنْ — es ist keine Ẓarf-Konstruktion, sondern Jarr wa-Majrur. Die Fatha (بَيْنَ) zeigt den Ẓarf-Akkusativ, die Kasra (بَيْنِ) den Genitiv nach Präposition.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "type": "identification",
+          "question": "In 18:94 (فَاجْعَلْ بَيْنَنَا وَبَيْنَهُمْ سَدًّا) — warum wird بَيْنَ wiederholt?",
+          "answer": "Jedes بَيْنَ ist Mudaf und braucht sein eigenes Genitiv-Komplement. بَيْنَنَا hat das Suffix نَا, بَيْنَهُمْ hat das Suffix هُمْ. Die Wiederholung ist syntaktisch notwendig, weil بَيْنَ als Mudaf nicht zwei separate Genitive gleichzeitig nehmen kann — die Koordination erfordert die Wiederholung des Mudaf.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=94"
+        },
+        {
+          "type": "analysis",
+          "question": "In بَيْنَ أَيْدِيهِمْ liegt eine doppelte Iḍāfa vor. Identifiziere alle drei Stufen der Kette.",
+          "answer": "Stufe 1: بَيْنَ = Mudaf (Akkusativ als Ẓarf). Stufe 2: أَيْدِي = Mudaf ilayh zu بَيْنَ (Genitiv) und gleichzeitig Mudaf zu هِمْ. Stufe 3: هِمْ = Pronomen-Suffix als Mudaf ilayh zu أَيْدِي. Die gesamte Kette: بَيْنَ ← أَيْدِي ← هِمْ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "In welchem Kasus steht بَيْنَ in يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ (2:255)?",
+            "options": [
+              "Nominativ — Subjekt",
+              "Genitiv — nach Präposition",
+              "Akkusativ — Ẓarf Makan",
+              "Akkusativ — Mafʿul bihi"
+            ],
+            "correct": 2,
+            "explanation": "بَيْنَ steht im Akkusativ als Ẓarf Makan. Es ist Mudaf, أَيْدِيهِمْ ist Mudaf ilayh im Genitiv. Keine Präposition nötig — der Akkusativ selbst trägt die adverbiale Funktion.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+          },
+          {
+            "question": "Was passiert mit بَيْنَ, wenn eine Präposition davorsteht (z.B. مِنْ بَيْنِ)?",
+            "options": [
+              "Es bleibt im Akkusativ als Ẓarf",
+              "Es wechselt in den Genitiv und ist kein Ẓarf mehr, sondern Teil einer Jarr-wa-Majrur-Phrase",
+              "Es wird mabni (unveränderlich)",
+              "Es verliert seine Iḍāfa-Funktion"
+            ],
+            "correct": 1,
+            "explanation": "Nach einer Präposition wechselt بَيْنِ in den Genitiv. Es fungiert dann nicht mehr als Ẓarf (adverbialer Akkusativ), sondern als majrur (Genitivobjekt der Präposition). Die Iḍāfa-Funktion bleibt erhalten: مِنْ بَيْنِ أَيْدِيهِمْ.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=9"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "ZAR5",
+      "title": "قَبْلُ / بَعْدُ als temporale Zarfs",
+      "description": "Die temporalen Zarfs قَبْلُ und بَعْدُ: Verhalten in Iḍāfa und bei abgetrennter Iḍāfa (mabni 'ala d-damm).",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "قَبْلَ und بَعْدَ als Zarfs Zaman",
+            "content": "قَبْلَ ('vor, vorher') und بَعْدَ ('nach, nachher') sind lexikalisierte Zarfs Zaman. Sie stehen im Akkusativ und nehmen ein Genitiv-Komplement (Iḍāfa):\n\n- مِن قَبْلِ الْفَتْحِ ('vor der Eroberung'): قَبْلِ im Genitiv nach مِنْ\n- بَعْدَ ذَٰلِكَ ('danach'): بَعْدَ im Akkusativ als Ẓarf\n\nWie بَيْنَ sind قَبْلَ und بَعْدَ stets Mudaf — sie brauchen ein Genitiv-Komplement, um vollständig zu sein."
+          },
+          {
+            "type": "explanation",
+            "title": "Abgetrennte Iḍāfa: مِنْ قَبْلُ / مِنْ بَعْدُ (mabni 'ala d-damm)",
+            "content": "Wenn قَبْلَ oder بَعْدَ OHNE explizites Mudaf ilayh stehen — also das Genitiv-Komplement aus dem Kontext erschlossen wird —, werden sie mabni 'ala d-damm (unveränderlich auf Damma gebaut):\n\n- مِنْ قَبْلُ = 'von vorher' (das Bezugswort fehlt, wird aus dem Kontext ergänzt)\n- مِنْ بَعْدُ = 'von nachher'\n\nDieses Damma ist KEIN Nominativ — es ist ein Zeichen für mabni (unveränderlich). Dies ist das Resultat der abgetrennten Iḍāfa (الظرف المقطوع عن الإضافة): Wenn das Mudaf ilayh wegfällt, wird das Wort mabni.\n\nMit explizitem Mudaf ilayh folgen sie den normalen Kasusregeln: مِنْ قَبْلِ الْفَتْحِ (Genitiv nach مِنْ)."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "30:4",
+                "arabic": "لِلَّهِ ٱلْأَمْرُ مِن قَبْلُ وَمِن بَعْدُ",
+                "explanation": "مِنْ قَبْلُ وَمِنْ بَعْدُ — beide mit Damma: mabni 'ala d-damm, weil das Mudaf ilayh fehlt. Das Bezugswort (der Sieg/die Niederlage der Römer) wird aus dem Kontext erschlossen. 'Gott gehört die Verfügung vorher und nachher.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+              },
+              {
+                "ref": "57:10",
+                "arabic": "لَا يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ",
+                "explanation": "مِنْ قَبْلِ الْفَتْحِ — قَبْلِ im Genitiv nach مِنْ, mit explizitem Mudaf ilayh (الْفَتْحِ). Vergleiche mit 30:4 (مِنْ قَبْلُ ohne Mudaf ilayh → Damma). Der Kasus-Unterschied zeigt den Iḍāfa-Status: Kasra bei vorhandener Iḍāfa, Damma bei fehlender.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=10"
+              },
+              {
+                "ref": "2:118",
+                "arabic": "كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِ",
+                "explanation": "مِنْ قَبْلُ — wieder mabni 'ala d-damm. Das Mudaf ilayh fehlt, der Kontext liefert den Bezug ('vor ihnen / vor eurer Zeit'). 'So sprachen diejenigen von vorher.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=118"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "distinction",
+          "question": "Warum steht in 30:4 (مِنْ قَبْلُ) ein Damma auf قَبْلُ, aber in 57:10 (مِنْ قَبْلِ الْفَتْحِ) eine Kasra auf قَبْلِ?",
+          "answer": "In 57:10 ist قَبْلِ regulär im Genitiv nach der Präposition مِنْ — die Kasra zeigt den Genitiv. Das Mudaf ilayh (الْفَتْحِ) ist explizit vorhanden. In 30:4 fehlt das Mudaf ilayh: قَبْلُ wird mabni 'ala d-damm (unveränderlich auf Damma). Das Damma ist kein Kasus, sondern ein Zeichen für die abgetrennte Iḍāfa.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+        },
+        {
+          "type": "identification",
+          "question": "In 48:15 (قَالَ الَّذِينَ مِن قَبْلُ) — was ist das implizite Mudaf ilayh von قَبْلُ?",
+          "answer": "Das Mudaf ilayh ist aus dem Kontext zu erschließen: 'vor ihnen / vor eurer Zeit'. Der Vers spricht von früheren Menschen, die dasselbe sagten. Weil das Bezugswort nicht explizit genannt wird, steht قَبْلُ mit Damma (mabni 'ala d-damm).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=15"
+        },
+        {
+          "type": "morphology",
+          "question": "Ist das Damma in مِنْ قَبْلُ ein Nominativ (Raf')? Begründe.",
+          "answer": "Nein. قَبْلُ steht nach der Präposition مِنْ — diese regiert den Genitiv. Das Damma ist KEIN Kasus-Zeichen, sondern ein Zeichen für mabni (unveränderlich gebaut). Es tritt auf, weil die Iḍāfa abgetrennt wurde (das Mudaf ilayh fehlt). Grammatischer Terminus: مبني على الضم في محل جر (mabni auf Damma, in der Position des Genitivs).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wann werden قَبْلُ und بَعْدُ mabni 'ala d-damm?",
+            "options": [
+              "Immer",
+              "Wenn sie im Nominativ stehen",
+              "Wenn das Mudaf ilayh (Genitiv-Komplement) fehlt und aus dem Kontext ergänzt wird",
+              "Wenn sie nach einer Präposition stehen"
+            ],
+            "correct": 2,
+            "explanation": "قَبْلُ und بَعْدُ werden mabni 'ala d-damm, wenn ihr Mudaf ilayh nicht explizit genannt wird. Mit explizitem Mudaf ilayh folgen sie normalen Kasusregeln: قَبْلِ الْفَتْحِ (Genitiv nach Präposition).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+          },
+          {
+            "question": "Welcher Kasus liegt in مِنْ قَبْلِ الْفَتْحِ (57:10) vor — und warum?",
+            "options": [
+              "Akkusativ — قَبْلَ ist Ẓarf",
+              "Genitiv — قَبْلِ steht nach der Präposition مِنْ, mit Kasra",
+              "Damma — mabni wegen fehlender Iḍāfa",
+              "Nominativ — قَبْلُ ist Subjekt"
+            ],
+            "correct": 1,
+            "explanation": "قَبْلِ steht im Genitiv (Kasra) nach der Präposition مِنْ. Das Mudaf ilayh الْفَتْحِ ist explizit vorhanden, daher folgt قَبْلِ den normalen Kasusregeln — kein mabni.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=10"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=4"
+    }
+  ]
+}

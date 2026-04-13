@@ -1,0 +1,729 @@
+{
+  "meta": {
+    "title": "Prosodie und Reim im Qurantext",
+    "description": "Sprachwissenschaftliche Analyse der reim- und rhythmusbildenden Phänomene des Qurantextes (Saj', Fāṣila, Pausalvokalisierung, Parallelismus). Empirisch beobachtend, ohne normative Tradition.",
+    "approach": "Jede prosodische Eigenschaft wird textintern dokumentiert, mit Vers-Belegen ausgestattet und in ihrer strukturierenden Funktion analysiert. Reim wird auf der Basis der Pausalform beschrieben, nicht der vollvokalisierten Lesung.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Tanzil Quran Text",
+        "url": "https://tanzil.net/"
+      },
+      {
+        "name": "Wright's Arabic Grammar Vol II — Pausal forms and prosody",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Stewart — Saj' in the Qur'an: Prosody and Structure (JAL 21, 1990)",
+        "note": "Linguistisch-philologische Reim-Analyse"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "P1",
+      "title": "Was ist Saj'? — Gereimte rhythmische Prosa",
+      "description": "Definition des Saj' als gereimte, rhythmisierte Prosa ohne strenge Metrik. Abgrenzung zu shiʿr (gebundener Vers) und nathr (freie Prosa).",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Saj' linguistisch definiert",
+            "content": "Saj' ist eine prosodische Form, die folgende Merkmale aufweist:\n\n1. Endreim (fāṣila): Vers-Enden teilen denselben Reim-Konsonanten und/oder Reim-Vokal.\n2. Rhythmische Verwandtschaft: benachbarte Verse haben ähnliche, aber nicht identische Silbenzahl.\n3. Keine feste Metrik: Im Gegensatz zum klassischen arabischen Vers (ʿarūḍ) gibt es kein verbindliches Versmaß (baḥr).\n4. Parallelismus: Syntaktische und semantische Parallelstrukturen verstärken den prosodischen Eindruck.\n\nDer Qurantext realisiert Saj' in unterschiedlichen Dichtegraden: extrem dicht in den kurzen Suren des Juz 30, lockerer in den langen Suren der ersten Juz."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Reines Saj' in Kurzsuren",
+            "examples": [
+              {
+                "ref": "55:1-4",
+                "arabic": "ٱلرَّحْمَٰنُ. عَلَّمَ ٱلْقُرْءَانَ. خَلَقَ ٱلْإِنسَٰنَ. عَلَّمَهُ ٱلْبَيَانَ.",
+                "explanation": "Vier Verse, vier Pausalformen auf -ān. Der Reim ist konsonantisch (n) plus langer Vokal (ā) — ein typisches Saj'-Muster. Die Verse haben 1, 2, 2, 2 Wörter — annähernd gleiche rhythmische Einheiten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+              },
+              {
+                "ref": "77:1-5",
+                "arabic": "وَٱلْمُرْسَلَٰتِ عُرْفًا. فَٱلْعَٰصِفَٰتِ عَصْفًا. وَٱلنَّٰشِرَٰتِ نَشْرًا. فَٱلْفَٰرِقَٰتِ فَرْقًا. فَٱلْمُلْقِيَٰتِ ذِكْرًا.",
+                "explanation": "Fünf Schwur-Verse mit Tanwīn al-fatḥ am Ende, der in Pausa zu langem -ā gedehnt wird. Identisches morphologisches Muster: feminin Plural Partizip + Verbalnomen im Akkusativ. Reim, Rhythmus und Morphologie greifen ineinander.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=1"
+              },
+              {
+                "ref": "114:1-6",
+                "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ. مَلِكِ ٱلنَّاسِ. إِلَٰهِ ٱلنَّاسِ. مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ. ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ. مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ.",
+                "explanation": "Sure 114 zeigt Saj' in seiner schlichtesten Form: Reimwort an-nās wiederholt sich 5x als Reim selbst, dazwischen al-waswās und al-khannās als reim-verwandte Echos.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Abgrenzung zu shiʿr",
+            "content": "Klassischer arabischer Vers (shiʿr) ist an feste Metren gebunden (baḥr ṭawīl, kāmil, wāfir usw.). Jedes Metrum schreibt eine Folge von kurzen und langen Silben vor. Saj' hat keine solche Vorgabe — die Verslängen variieren, manchmal innerhalb derselben Sure beträchtlich. Beispiel Sure 55: V. 1 hat 1 Wort (ar-Raḥmān), V. 4 hat 2 Wörter, V. 27 hat 5 Wörter — alle aber auf -ān. Der prosodische Anker ist der Reim, nicht das Metrum."
+          },
+          {
+            "type": "explanation",
+            "title": "Saj' als Strukturmittel",
+            "content": "Reim-Wechsel im Quran sind oft gliedernd: Wo ein Reim-System abgelöst wird, beginnt häufig auch ein neuer thematischer Abschnitt. Beispiel Sure 56 (al-Wāqiʿa): Die drei Gruppen (Vorausgeeilte, Rechte, Linke) tragen je eigene Reim-Endungen (-ūn, -ūd/-ūʿ, -īm). Der Reim wird zum akustischen Gliederungssignal."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies Sure 55 V. 1-13. Notiere den Pausal-Auslaut jedes Verses (z.B. -ān, -ān, -ān, ...). Wie viele verschiedene Reim-Endungen findest du?",
+          "hint": "Alle Verse enden in Pausa auf -ān. Der Reim ist über die ganze Sure konstant.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Vergleiche die Verslängen in Sure 77 V. 1-5 (Wörter pro Vers zählen). Was beobachtest du? Ist die Länge identisch oder nur ähnlich?",
+          "hint": "Jeder Vers hat 2 Wörter (Partizip + Verbalnomen). Hier ist die rhythmische Identität besonders dicht.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=77"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche Sure 114 (kurz, dichter Reim) mit Sure 2 V. 1-5 (lange Verse). Welche Funktion hat der Reim in beiden Fällen? Welche Rolle spielt die Verslänge?",
+          "hint": "In 114 ist der Reim akustischer Hauptträger. In 2:1-5 ist er punktuell, die syntaktische Architektur trägt mehr Gewicht.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was unterscheidet Saj' vom klassischen arabischen Vers (shiʿr)?",
+            "options": [
+              "Saj' hat keinen Reim, shiʿr schon",
+              "Saj' hat keine feste Metrik, shiʿr unterliegt einem festen baḥr",
+              "Saj' verwendet keinen Pausalvokal",
+              "Saj' kommt nur in der Prosa vor, nie im Quran"
+            ],
+            "correct": 1,
+            "explanation": "Beide haben Reim. Der Unterschied ist das Versmaß: shiʿr folgt einem festen baḥr mit definierter Silbenfolge, Saj' kennt nur ungefähre rhythmische Verwandtschaft.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+          },
+          {
+            "question": "Welcher Reim dominiert Sure 55 (Ar-Raḥmān)?",
+            "options": [
+              "-īn",
+              "-ān",
+              "-ūr",
+              "-ah"
+            ],
+            "correct": 1,
+            "explanation": "Sure 55 ist die klassische -ān-Reim-Sure mit dem Refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān, der den Reim 31x bekräftigt.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+          },
+          {
+            "question": "In Sure 77:1-5 enden alle Verse auf...",
+            "options": [
+              "-ūn",
+              "-ās",
+              "-ā (aus Tanwīn al-fatḥ in Pausa)",
+              "-ah (tāʾ marbūṭa)"
+            ],
+            "correct": 2,
+            "explanation": "Tanwīn al-fatḥ -an wird in Pausa zu langem -ā gedehnt: ʿurfan → ʿurfā, ʿaṣfan → ʿaṣfā usw. Das ist der häufigste Reim-Mechanismus in Schwurgruppen.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=77"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+    },
+    {
+      "id": "P2",
+      "title": "Fāṣila — Das Pausalvokal-System der Vers-Enden",
+      "description": "Wie der Wegfall des ʾiʿrāb-Vokals am Vers-Ende Reim ermöglicht. Pausalformen und ihre lautliche Realisierung.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist Pausa?",
+            "content": "Im klassischen Arabisch trägt ein Wort am Satz-Ende keinen ʾiʿrāb-Vokal mehr — es steht 'in Pausa' (al-waqf). Die Pausalform vereinfacht den Auslaut nach festen Regeln:\n\n1. -un, -in, -an (Tanwīn) → -Ø, -Ø, -ā: kitābun → kitāb, kitābin → kitāb, kitāban → kitābā\n2. -u, -i, -a (Kasus-Vokal) → -Ø: yaktubu → yaktub, fī al-bayti → fī al-bayt, raʾaytu r-rajula → raʾaytu r-rajul\n3. -atun, -atin, -atan (tāʾ marbūṭa + Tanwīn) → -ah: madīnatun → madīnah\n4. Lange Endvokale -ā, -ī, -ū bleiben unverändert\n\nDiese Pausalform ist die Grundlage des Reims im Quran: Reim wird im Vers-Ende auf der Pausalform berechnet."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Pausalvokalisierung am Vers-Ende",
+            "examples": [
+              {
+                "ref": "103:1-3",
+                "arabic": "وَٱلْعَصْرِ. إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ. إِلَّا ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا بِٱلْحَقِّ وَتَوَاصَوْا بِٱلصَّبْرِ.",
+                "explanation": "Vollvokalisiert: al-ʿaṣri (Genitiv mit -i) / khusrin (Genitiv mit -in) / aṣ-ṣabri (Genitiv mit -i). In Pausa: al-ʿaṣr / khusr / aṣ-ṣabr. Alle drei verlieren den Endvokal und enden auf -r — daraus entsteht der Reim.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+              },
+              {
+                "ref": "108:1-3",
+                "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ. فَصَلِّ لِرَبِّكَ وَٱنْحَرْ. إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ.",
+                "explanation": "al-kawthara (Akkusativ -a) → al-kawthar / wa-nḥar (Imperativ ohne Endvokal) / al-abtaru (Nominativ -u) → al-abtar. Drei verschiedene Wortformen — Akkusativ-Nomen, Imperativ-Verb, Nominativ-Nomen — bilden in Pausa identische R-Reime.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+              },
+              {
+                "ref": "109:1-6",
+                "arabic": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ. لَآ أَعْبُدُ مَا تَعْبُدُونَ. وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ. وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ. وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ. لَكُمْ دِينُكُمْ وَلِىَ دِينِ.",
+                "explanation": "Pausalformen: al-kāfirūn / taʿbudūn / aʿbud / ʿabadtum / aʿbud / dīn. Reim-Konsonant ist durchgehend n / d. Die -ūna-Endung (Plural maskulin im Nominativ) verliert in Pausa den Endvokal -a → -ūn, das wird zum Reim-Generator. V. 6 dīn verkürzt -ī (Possessiv) — die Reim-Logik bleibt erhalten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Tanwīn al-fatḥ als Reim-Generator",
+            "content": "Die Endung -an (akkusativischer Tanwīn) wird in Pausa zu langem -ā gedehnt. Das macht jeden unbestimmten Akkusativ zu einem potenziellen -ā-Reim. Suren wie 78 (an-Nabaʾ) nutzen das systematisch: awtādan → awtādā, azwājan → azwājā, libāsan → libāsā usw. Die Reim-Architektur entsteht hier morphologisch durch die Wahl des Akkusativs."
+          },
+          {
+            "type": "explanation",
+            "title": "Hāʾ as-sakt am Vers-Ende",
+            "content": "An manchen Vers-Enden wird ein zusätzliches stummes hāʾ (hāʾ as-sakt, ـه) angehängt, um einen langen Vokal in Pausa zu stabilisieren. Beispiel Sure 69 (al-Ḥāqqa) V. 19-29: kitābiyah, ḥisābiyah, māliyah, sulṭāniyah — das hāʾ ist orthographisch sichtbar (kitābiya-h) und macht den -iya-Auslaut zu einer markanten Reim-Endung."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "transformation",
+          "prompt": "Setze die folgenden Wörter in ihre Pausalform: kitābun, madīnatin, yaktubu, jamīlan, qālū. Welche Form trägt der Reim?",
+          "hint": "kitāb / madīnah / yaktub / jamīlā / qālū. Die Pausalform ist immer die Reim-relevante.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        },
+        {
+          "type": "identification",
+          "prompt": "Untersuche Sure 109 V. 1-3. Welcher Reim-Konsonant verbindet alle Vers-Enden? Welche grammatischen Wortformen tragen den Reim?",
+          "hint": "Reim-Konsonant ist n. Wortformen: maskulin Plural Partizip (al-kāfirūn), Imperfekt 2.Pl. (taʿbudūn), Imperfekt 1.Sg. (aʿbud).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Lies Sure 78 V. 6-16. Welche grammatische Form haben die meisten Reim-Wörter? Wie wird daraus der -ā-Reim?",
+          "hint": "Unbestimmter Akkusativ Singular mit Tanwīn al-fatḥ. In Pausa wird -an zu -ā: mihādan → mihādā, libāsan → libāsā usw.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=78"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wie wird die Endung -an (Tanwīn al-fatḥ) in Pausa realisiert?",
+            "options": [
+              "-Ø (entfällt)",
+              "-an (bleibt)",
+              "-ā (gedehntes a)",
+              "-ah (mit hāʾ)"
+            ],
+            "correct": 2,
+            "explanation": "Tanwīn al-fatḥ wird in Pausa konsequent zu langem -ā: kitāban → kitābā. Dieser Mechanismus ist in den Schwurgruppen und in Sure 78 reim-tragend.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=78"
+          },
+          {
+            "question": "Welche Pausalform hat madīnatun?",
+            "options": [
+              "madīnatun (unverändert)",
+              "madīnah",
+              "madīnatu",
+              "madīnatā"
+            ],
+            "correct": 1,
+            "explanation": "Tāʾ marbūṭa + Tanwīn -atun wird in Pausa zu -ah: das tāʾ wird als hāʾ realisiert, der Tanwīn-Vokal entfällt.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=8"
+          },
+          {
+            "question": "Warum endet Sure 103 alle drei Verse auf -r?",
+            "options": [
+              "Zufall — keine systematische Reim-Wahl",
+              "Weil alle drei Wörter im selben Kasus stehen",
+              "Weil in Pausa der Endvokal entfällt und nur noch der Konsonant -r übrig bleibt",
+              "Weil alle drei Wörter dieselbe Wurzel haben"
+            ],
+            "correct": 2,
+            "explanation": "al-ʿaṣri (Genitiv) → al-ʿaṣr / khusrin (Genitiv) → khusr / aṣ-ṣabri (Genitiv) → aṣ-ṣabr. Erst durch den Pausal-Wegfall entsteht der konsonantische Endreim auf -r.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=103"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=103"
+    },
+    {
+      "id": "P3",
+      "title": "Reim-Gruppen-Wechsel — Wo der Reim das Thema gliedert",
+      "description": "Stellen, an denen eine Sure ihr Reim-System wechselt, fallen oft mit thematischen Übergängen zusammen.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Reim als Diskurs-Marker",
+            "content": "In vielen längeren Suren wechselt der Endreim genau an der Stelle, an der ein neuer Diskurs-Abschnitt beginnt. Das ist textintern beobachtbar: dort, wo Sprecher, Adressat, Thema oder Modus wechseln, ändert sich auch der Pausal-Reim. Der Reim wird damit zum akustischen Gliederungssignal — er macht eine textuelle Zäsur hörbar."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Reim-Wechsel an thematischen Bruchstellen",
+            "examples": [
+              {
+                "ref": "74:1-30",
+                "arabic": "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ. قُمْ فَأَنذِرْ. وَرَبَّكَ فَكَبِّرْ. ... عَلَيْهَا تِسْعَةَ عَشَرَ.",
+                "explanation": "Sure 74 wechselt mehrfach den Reim. V. 1-7 enden auf -ir/-ar mit Sukūn-Pausa (al-muddaththir, fa-andhir, fa-kabbir, fa-ṭahhir, fa-hjur, tastakthir, fa-ṣbir). V. 8-10 wechseln auf -īr/-ūr (an-nāqūr, ʿasīr, yasīr). V. 11-30 dann auf -dā/-arah (al-mudaththir-Erzählung). Jeder Reim-Wechsel markiert einen Diskurs-Schritt: Anrede → Schwur → Erzählung über den Widersacher.",
+                "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=74"
+              },
+              {
+                "ref": "96:1-19",
+                "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ. خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ. ... وَٱسْجُدْ وَٱقْتَرِب.",
+                "explanation": "Sure 96 hat zwei deutlich unterschiedene Reim-Gruppen: V. 1-8 auf -aq/-am/-ā (khalaq, ʿalaq, al-akram, al-qalam, yaʿlam, yaṭghā, istaghnā, ar-rujʿā) und V. 9-19 auf -iya/-ah (an-nāṣiya, khāṭiʾa, nādiyah, az-zabāniya, wa-qtarib). Der Wechsel fällt thematisch mit dem Übergang vom Schöpfer-Bekenntnis zur Konfrontation mit dem Widersacher zusammen.",
+                "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=96"
+              },
+              {
+                "ref": "85:1-22",
+                "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ. ... فِى لَوْحٍ مَّحْفُوظٍۭ.",
+                "explanation": "Sure 85 wechselt feiner: V. 1-11 auf -ūj/-ūd/-īd, V. 12-22 auf -īd/-ūd/-īẓ. Reim-Konsonant bleibt überwiegend D, aber der Vokal wechselt von ū zu ī — markiert den Übergang von Leidens-Schilderung (Aṣḥāb al-ukhdūd) zu Vergeltungs-Ausblick.",
+                "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=85"
+              },
+              {
+                "ref": "56:1-56",
+                "arabic": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ. ... ثُلَّةٌ مِّنَ ٱلْأَوَّلِينَ. وَقَلِيلٌ مِّنَ ٱلْءَاخِرِينَ.",
+                "explanation": "Sure 56 wechselt drei Reim-Systeme parallel zu den drei Menschen-Gruppen: as-sābiqūn (-ūn/-īn) / aṣḥāb al-yamīn (-ūd/-ūʿ) / aṣḥāb ash-shimāl (-īm). Reim wird zum tertiären Gliederungs-Code neben Lexik und Syntax.",
+                "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=56"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Typen von Reim-Wechseln",
+            "content": "Es lassen sich mindestens drei Typen unterscheiden:\n\n1. Vokal-Wechsel bei konstantem Konsonanten: -ūd → -īd (Sure 85). Akustisch fein, semantisch oft Übergang innerhalb desselben Themas.\n2. Konsonant-Wechsel bei konstantem Vokal: -ad → -abah (Sure 90). Markanter Bruch.\n3. Voller Wechsel beider: -ān → -īn (zwischen Suren-Gruppen). Stärkster Bruch, oft an Diskurs-Grenzen.\n\nDie Beobachtung: Je markanter der Wechsel, desto markanter der thematische Übergang."
+          },
+          {
+            "type": "explanation",
+            "title": "Reim-Bruch am Sure-Ende",
+            "content": "Manche Suren beenden ihren Reim am Schluss mit einem bewussten Bruch — meist beim Übergang zu einem Imperativ. Beispiel Sure 53 (an-Najm): durchgängig -ā-Reim, aber V. 62 endet auf wa-sjudū wa-ʿbudū — der Imperativ-Doppel bricht den Reim. Beispiel Sure 93 (aḍ-Ḍuḥā): V. 1-8 -ā, dann V. 9-11 -ar/-ar/-ḥaddith mit Sukūn-Pausa — ebenfalls Imperative am Schluss."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies Sure 74 V. 1-10. Bei welchem Vers wechselt der Reim? Welche Pausal-Endung haben V. 1-7, welche V. 8-10?",
+          "hint": "V. 1-7 enden auf -ir/-ar Sukūn (al-muddaththir, fa-andhir, ...). V. 8-10 wechseln zu -ūr/-īr (an-nāqūr, ʿasīr, yasīr). Wechsel zwischen V. 7 und V. 8.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=74"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Untersuche Sure 96. Identifiziere die Reim-Gruppen und ihre thematische Funktion. Wo wechselt das Reim-System und warum?",
+          "hint": "V. 1-8 Schöpfung/Schreibrohr → -aq/-am/-ā. V. 9-19 Widersacher/Strafe → -iyah/-ah. Reim-Wechsel = Themen-Wechsel.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=96"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche den Reim-Wechsel in Sure 85 (-ūd/-īd) mit dem in Sure 56 (drei verschiedene Reim-Systeme). Was ist der Unterschied im Bruch-Typ?",
+          "hint": "Sure 85: nur Vokal-Wechsel bei konstantem D. Sure 56: voller Reim-Wechsel zwischen den drei Menschen-Gruppen. 85 = subtiler, 56 = struktureller.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=56"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was markiert ein Reim-Wechsel in einer Sure typischerweise?",
+            "options": [
+              "Eine grammatische Korrektur",
+              "Einen thematischen oder Diskurs-Übergang",
+              "Einen Schreibfehler im Manuskript",
+              "Einen Vers-Zähl-Fehler"
+            ],
+            "correct": 1,
+            "explanation": "Reim-Wechsel fallen empirisch oft mit Diskurs-Grenzen zusammen (neuer Sprecher, neues Thema, neuer Adressat). Der Reim gliedert akustisch.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=96"
+          },
+          {
+            "question": "Welcher Reim-Wechsel-Typ ist subtiler: Vokal-Wechsel bei konstantem Konsonanten oder voller Konsonant-Wechsel?",
+            "options": [
+              "Voller Konsonant-Wechsel ist subtiler",
+              "Vokal-Wechsel bei konstantem Konsonanten (z.B. -ūd → -īd)",
+              "Beide gleich auffällig",
+              "Hängt nur von der Vers-Länge ab"
+            ],
+            "correct": 1,
+            "explanation": "Beim Vokal-Wechsel bleibt der akustische Anker (Konsonant) erhalten, nur der Vokal verschiebt sich. Sure 85 ist das klassische Beispiel: D bleibt, ū → ī.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=85"
+          },
+          {
+            "question": "Wo bricht Sure 53 ihren -ā-Reim und warum?",
+            "options": [
+              "In der Mitte (V. 30) wegen Themenwechsel",
+              "Am Schluss (V. 62) durch das Imperativ-Paar wa-sjudū wa-ʿbudū",
+              "Sie bricht den Reim nie",
+              "Am Anfang (V. 5) durch die Beschreibung des Mächtigen"
+            ],
+            "correct": 1,
+            "explanation": "V. 62 endet mit dem Imperativ-Paar wa-sjudū wa-ʿbudū — bewusster Reim-Bruch am Schluss. Solche Schluss-Imperative brechen den Reim häufig, um den Aufruf herauszuheben.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=53"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=96"
+    },
+    {
+      "id": "P4",
+      "title": "Parallelismus und Wiederholung — Reim als Refrain",
+      "description": "Listen-Strukturen, anaphorische Reihen und Refrain-Verse als prosodische Verstärker des Reims.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Parallelismus prosodisch",
+            "content": "Parallelismus ist die Wiederholung syntaktischer Strukturen mit variierender Lexik. Im Quran verstärkt er regelmäßig die Reim-Wirkung: gleiche Satzstellung + identischer Reim ergibt ein hörbares Muster, das den Text in rhythmische Einheiten gliedert.\n\nDrei Haupt-Typen:\n1. Anaphorische Reihen (gleicher Anfang, variierender Inhalt, identischer Reim)\n2. Refrain (identischer Vers wiederholt sich periodisch)\n3. Listen-Struktur (Aufzählung mit identischer syntaktischer Form)"
+          },
+          {
+            "type": "quranExamples",
+            "title": "Refrain als Reim-Stabilisator",
+            "examples": [
+              {
+                "ref": "55:13",
+                "arabic": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+                "explanation": "Refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān erscheint 31x in Sure 55. Er teilt die Sure in fast gleichgroße Einheiten und stabilisiert den -ān-Reim. Der Refrain ist beides: prosodischer Anker und semantischer Bezug auf jeweils vorausgehende Gnaden-Aussagen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=13"
+              },
+              {
+                "ref": "77:15",
+                "arabic": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+                "explanation": "Refrain waylun yawmaʾidhin lil-mukadhdhibīn erscheint 10x in Sure 77 (V. 15, 19, 24, 28, 34, 37, 40, 45, 47, 49). Er hält den -īn-Reim fest und gliedert die Sure in 10 Sub-Einheiten, jede mit eigenem semantischen Inhalt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=15"
+              },
+              {
+                "ref": "56:27-56",
+                "arabic": "وَأَصْحَٰبُ ٱلْيَمِينِ مَآ أَصْحَٰبُ ٱلْيَمِينِ. ... وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ.",
+                "explanation": "Sure 56 organisiert die zweite und dritte Menschen-Gruppe nach demselben Schema: 'X — was sind X?' Diese parallele Eröffnung schafft akustische Symmetrie zwischen den Abschnitten und führt jeweils in eigene Reim-Systeme über (-ūd für die Rechten, -īm für die Linken).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=27"
+              },
+              {
+                "ref": "88:17-20",
+                "arabic": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ. وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ. وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ. وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ.",
+                "explanation": "Vier-Vers-Anaphora: jeder Vers beginnt mit wa-ilā... kayfa... + Verb-Pausalform auf -at. Vier Schöpfungs-Bilder (Kamel, Himmel, Berge, Erde) in identischer syntaktischer Form. Reim und Syntax greifen ineinander.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=17"
+              },
+              {
+                "ref": "113:2-5",
+                "arabic": "مِن شَرِّ مَا خَلَقَ. وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ. وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ. وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ.",
+                "explanation": "Vier wa-min sharr... Verse mit identischem Anfang und durchgehendem Reim auf -aq/-ad. Anaphorische Schutzformel-Liste.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Refrain vs. Anaphora",
+            "content": "Refrain: identischer Vers wiederholt sich periodisch (Sure 55, Sure 77). Anaphora: identischer Vers-Anfang, aber variierender Rest (Sure 88:17-20, Sure 113:2-5). Beide sind prosodische Wiederholungs-Figuren, beide verstärken den Reim. Refrain ist absolute Wiederholung, Anaphora ist Anfangs-Wiederholung."
+          },
+          {
+            "type": "explanation",
+            "title": "Listen-Struktur und Reim",
+            "content": "In Listen-Passagen (Aufzählungen von Gnaden, Zeichen, Gerichtsbildern) trägt der konstante Reim die Aufzählung. Beispiel Sure 80:24-32: Aufzählung von Pflanzennahrung — ḥabban / wa-ʿinaban wa-qaḍbā / wa-zaytūnan wa-nakhlā / wa-ḥadāʾiqa ghulbā / wa-fākihatan wa-abbā. Jeder Vers ist nur wenige Wörter lang, alle enden auf -ā. Die Liste wirkt durch Rhythmus und Reim als eine geschlossene Einheit."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies Sure 55. Wie oft erscheint der Refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān? Welche Vers-Nummern? In welchem Abstand?",
+          "hint": "31x. Erstmals V. 13. Abstände variieren von 1-3 Versen — der Refrain folgt jeweils dem Ende einer thematischen Einheit.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Lies Sure 88 V. 17-20. Beschreibe die syntaktische Parallel-Struktur. Wie verhält sich der Reim dazu?",
+          "hint": "Jeder Vers: wa-ilā + Objekt + kayfa + Verb-Passiv-3.fem.Sg. + -at. Reim ist morphologisch durch das identische Verb-Suffix bestimmt.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=88"
+        },
+        {
+          "type": "identification",
+          "prompt": "In Sure 77 — wie viele Refrain-Verse waylun yawmaʾidhin lil-mukadhdhibīn gibt es? Notiere die Vers-Nummern.",
+          "hint": "10x: V. 15, 19, 24, 28, 34, 37, 40, 45, 47, 49. Der Refrain teilt die Sure in 10 Sub-Sequenzen.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=77"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wie oft erscheint der Refrain in Sure 55?",
+            "options": [
+              "10x",
+              "21x",
+              "31x",
+              "44x"
+            ],
+            "correct": 2,
+            "explanation": "Der Refrain fa-bi-ayyi ālāʾi rabbikumā tukadhdhibān erscheint 31x in Sure 55 und ist damit eines der dichtesten Refrain-Systeme im Quran.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+          },
+          {
+            "question": "Was unterscheidet Anaphora von Refrain?",
+            "options": [
+              "Anaphora ist immer länger",
+              "Anaphora wiederholt nur den Vers-Anfang, Refrain wiederholt einen ganzen Vers identisch",
+              "Refrain hat keinen Reim",
+              "Beide sind identisch — nur unterschiedliche Namen"
+            ],
+            "correct": 1,
+            "explanation": "Anaphora = Anfangs-Wiederholung mit variierendem Rest (z.B. wa-ilā... kayfa... in 88:17-20). Refrain = vollständige Vers-Wiederholung (z.B. fa-bi-ayyi... in Sure 55).",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=88"
+          },
+          {
+            "question": "In Sure 113 V. 2-5 — wie beginnen die vier Verse?",
+            "options": [
+              "wa-bi-llāhi...",
+              "qul...",
+              "wa-min sharr...",
+              "fa-l-yaḥmadi..."
+            ],
+            "correct": 2,
+            "explanation": "wa-min sharr mā khalaq / wa-min sharr ghāsiqin / wa-min sharr an-naffāthāt / wa-min sharr ḥāsidin — vierfache Anaphora als Schutzformel-Liste.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=113"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=55"
+    },
+    {
+      "id": "P5",
+      "title": "Rhythmische Verdichtung — Kurze intensive Verse",
+      "description": "Suren und Passagen mit extrem kurzen Versen (2-4 Wörter) als prosodisches Maximum von Saj'.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Verdichtung als prosodisches Phänomen",
+            "content": "An manchen Stellen reduziert der Qurantext die Vers-Länge auf 2-4 Wörter. Das schafft eine extreme rhythmische Dichte: jeder Vers wird zum hörbaren Schlag. Der Reim folgt in schneller Frequenz, oft auf morphologisch identischen Wortformen. Solche Passagen kommen besonders in Schwurgruppen, Apokalypse-Bildern und Schluss-Sequenzen vor."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Verdichtungs-Passagen",
+            "examples": [
+              {
+                "ref": "81:1-14",
+                "arabic": "إِذَا ٱلشَّمْسُ كُوِّرَتْ. وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ. وَإِذَا ٱلْجِبَالُ سُيِّرَتْ. ...",
+                "explanation": "14 Verse mit identischem morphologischen Bauplan: idhā + Subjekt + Verb-Passiv-3.Sg.fem.-Perfekt (-at). Jeder Vers nur 2 Wörter. Pausalform auf -at konstant: kuwwirat, inkadarat, suyyirat, ʿuṭṭilat, ḥushirat, sujjirat, zuwwijat, suʾilat, qutilat, nushirat, kushiṭat, suʿʿirat, uzlifat, aḥḍarat. Maximum prosodischer Verdichtung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=1"
+              },
+              {
+                "ref": "100:1-5",
+                "arabic": "وَٱلْعَٰدِيَٰتِ ضَبْحًا. فَٱلْمُورِيَٰتِ قَدْحًا. فَٱلْمُغِيرَٰتِ صُبْحًا. فَأَثَرْنَ بِهِۦ نَقْعًا. فَوَسَطْنَ بِهِۦ جَمْعًا.",
+                "explanation": "5 Schwur-Verse, je 2 Wörter. Reim auf Tanwīn al-fatḥ → -ā in Pausa: ḍabḥā, qadḥā, ṣubḥā, naqʿā, jamʿā. Extrem dichter Galopp-Rhythmus.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=1"
+              },
+              {
+                "ref": "75:26-30",
+                "arabic": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ. وَقِيلَ مَنْ رَاقٍ. وَظَنَّ أَنَّهُ ٱلْفِرَاقُ. وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ. إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ.",
+                "explanation": "Sterbe-Szene in extremer Verdichtung: man rāq / al-firāq / bi-s-sāq / al-masāq. Vier -āq-Reime in Folge, je 2-4 Wörter pro Vers. Der Rhythmus selbst evoziert das Stocken des Atems.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=26"
+              },
+              {
+                "ref": "111:1-5",
+                "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ. ...",
+                "explanation": "5 kurze Verse, dichter Fluch-Rhythmus mit Reim auf -ab/-ad: tabb, kasab, lahab, al-ḥaṭab, masad. Verdichtung dient hier der affektiven Intensivierung.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+              },
+              {
+                "ref": "97:1-5",
+                "arabic": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ. وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ. ...",
+                "explanation": "5 Verse, alle auf -r endend (al-qadr / al-qadr / al-qadr / shahr / amr / al-fajr). Die Wiederholung des Reim-Worts laylat al-qadr in den ersten drei Versen ist selbst Rhythmus-bildend.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Verdichtung und Funktion",
+            "content": "Empirisch lassen sich vier Funktionen kurzer dichter Verse beobachten:\n1. Apokalyptische Bilder (Sure 81, 82, 84): rapide Aufzählung kosmischer Zeichen.\n2. Schwurgruppen (Sure 77, 100, 51): rhythmische Auftaktform.\n3. Sterbe- und Gerichts-Szenen (Sure 75, 89): das Stocken des Atems wird rhythmisch.\n4. Kurze ganze Suren (97, 103, 108, 112): die ganze Sure als rhythmische Einheit gedacht."
+          },
+          {
+            "type": "explanation",
+            "title": "Morphologie als Rhythmus-Generator",
+            "content": "In Sure 81:1-14 generiert ein einziges morphologisches Muster (Verb Form II/IV Passiv Perfekt 3.Sg.fem.) den Reim. Die Wiederholung desselben Bauplans über 14 Verse macht den Reim morphologisch zwingend — er ist nicht zufällig gewählt, sondern strukturell gegeben. Ähnlich Sure 77:1-5 mit identischem Partizipien-Aufbau."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "prompt": "Zähle die Wörter pro Vers in Sure 81 V. 1-14. Welches gemeinsame morphologische Muster haben alle Verben?",
+          "hint": "Je 2 Wörter pro Vers (idhā + Verb / wa-idhā + Verb). Alle Verben: Passiv Perfekt 3.Sg.fem. mit -at-Endung.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=81"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Pausalform haben die Reim-Wörter in Sure 100 V. 1-5?",
+          "hint": "Tanwīn al-fatḥ -an wird in Pausa zu langem -ā: ḍabḥā, qadḥā, ṣubḥā, naqʿā, jamʿā.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=100"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche die rhythmische Dichte in Sure 81:1-14 mit Sure 2:282 (Schuld-Vers). Was beobachtest du im Kontrast?",
+          "hint": "81:1-14: 2 Wörter/Vers, identische Morphologie, dichter Reim. 2:282: über 100 Wörter, komplex-syntaktisch, Reim nur als Schluss-Echo. Verdichtung ist prosodisch das Gegenteil der Medina-Diktion.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wie viele Verse in Sure 81 enden auf -at?",
+            "options": [
+              "5 Verse",
+              "10 Verse",
+              "14 Verse",
+              "Alle 29 Verse"
+            ],
+            "correct": 2,
+            "explanation": "V. 1-14 enden alle auf -at (Passiv Perfekt 3.Sg.fem.). Ab V. 15 wechselt der Reim auf -īn/-ūn.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=81"
+          },
+          {
+            "question": "Wodurch entsteht der -ā-Reim in Sure 100 V. 1-5?",
+            "options": [
+              "Durch lange Aleph-Endungen in der Lexik",
+              "Durch Pausal-Dehnung des Tanwīn al-fatḥ -an → -ā",
+              "Durch Possessiv-Suffix -hā",
+              "Durch Hilfsverb"
+            ],
+            "correct": 1,
+            "explanation": "ḍabḥan, qadḥan, ṣubḥan etc. werden in Pausa zu ḍabḥā, qadḥā, ṣubḥā. Tanwīn al-fatḥ ist der Reim-Generator.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=100"
+          },
+          {
+            "question": "Welche Funktion hat die Verdichtung in Sterbe-Szenen wie Sure 75:26-30?",
+            "options": [
+              "Sie soll den Hörer einschläfern",
+              "Sie evoziert rhythmisch das Stocken und die Eile des Sterbens",
+              "Sie ist rein zufällig",
+              "Sie ersetzt fehlende Syntax"
+            ],
+            "correct": 1,
+            "explanation": "Die kurze Atem-Folge der Verse (man rāq / al-firāq / bi-s-sāq / al-masāq) macht den Sterbe-Rhythmus selbst hörbar. Form und Inhalt fallen zusammen.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=75"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=81"
+    },
+    {
+      "id": "P6",
+      "title": "Der lange Vers — Reim in den Großsuren",
+      "description": "Wie funktioniert Saj' in Suren wie 2, 3, 4 mit Vers-Längen von 30-100+ Wörtern? Binnenreim, Schluss-Reim, Reim-Cluster.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Saj' bei langer Syntax",
+            "content": "In den langen Suren (besonders Sure 2-9) ist die Vers-Länge nicht mehr 2-5 Wörter, sondern oft 20-100. Trotzdem bleibt das Reim-Prinzip erhalten — es realisiert sich nur anders:\n\n1. Reim-Cluster: Mehrere benachbarte Verse teilen denselben Reim, dann wechselt das System.\n2. Binnenreim: Innerhalb eines langen Verses erscheinen reim-verwandte Wörter, die den langen Vers selbst rhythmisch gliedern.\n3. Schluss-Reim als Marker: Auch sehr lange Verse enden auf charakteristischen Pausalformen (-īm, -īr, -ūn) — das Vers-Ende bleibt prosodisch markiert.\n4. Pausalform-Cluster: Die häufigsten Reim-Endungen in der Medina-Diktion sind -īm (al-ʿalīm, al-ḥakīm, ar-raḥīm), -īr (al-baṣīr, al-khabīr), -ūn (yaʿlamūn, yufliḥūn) — sogenannte 'Gott-Epitheta-Reime'."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Reim in langen Versen",
+            "examples": [
+              {
+                "ref": "2:255",
+                "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ",
+                "explanation": "Āyat al-Kursī endet auf al-ʿalīy al-ʿaẓīm. Innerhalb des langen Verses gibt es Binnenreim-Echos: as-samāwāti wa-mā fī al-arḍ / man dhā alladhī yashfaʿu ʿindahu illā bi-idhnih / wa-mā khalfahum / wa-lā yaʾūduhu ḥifẓuhumā. Mehrere Kola enden auf -h oder -hum, was den langen Vers in akustische Sub-Einheiten gliedert.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "ref": "2:284-286",
+                "arabic": "... وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ. ... وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ.",
+                "explanation": "Schluss-Trias der Sure 2: V. 284 endet auf qadīr, V. 285 auf al-maṣīr, V. 286 auf al-kāfirīn. Reim-Cluster auf -īr/-īn — der Schluss der längsten Sure ist prosodisch genauso markiert wie eine Kurzsure.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+              },
+              {
+                "ref": "3:18",
+                "arabic": "شَهِدَ ٱللَّهُ أَنَّهُ لَآ إِلَٰهَ إِلَّا هُوَ وَٱلْمَلَٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا",
+                "explanation": "Doppel-Epitheton al-ʿAzīz al-Ḥakīm als Schluss-Reim. Die typische Medina-Strategie: lange syntaktische Aussage wird durch ein Gott-Epitheta-Paar gereimt abgeschlossen. Dieses Paar erscheint Dutzende Male im Quran.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+              },
+              {
+                "ref": "4:1",
+                "arabic": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ",
+                "explanation": "Erster Vers der Sure 4 — über 25 Wörter lang, endet aber konsequent auf -an Tanwīn → -ā in Pausa: raqībā. Die Sure 4 hat dann eine Folge von Versen auf -ā/-ūn, die trotz langer Syntax stabilen Reim halten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+              },
+              {
+                "ref": "98:6-8",
+                "arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ. ... رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ. ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ.",
+                "explanation": "Sure 98 hat Vers-Längen wie eine Medina-Sure, aber konstanten -iyyah-Reim: al-bariyya, al-bariyya, khashiya rabbah. Beweis dass Saj' auch in längeren Versen funktionieren kann.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=6"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Gott-Epitheta-Reime",
+            "content": "Eine Subgruppe der Reim-Architektur in den langen Suren sind die Gott-Epitheta-Paare am Vers-Schluss. Häufig:\n\n- al-ʿAzīz al-Ḥakīm (-īm) — z.B. 2:209, 2:220, 2:228, 2:240, 2:260; 3:6, 3:18, 3:62, 3:126\n- al-ʿAlīm al-Ḥakīm (-īm) — z.B. 4:11, 4:17, 4:24\n- as-Samīʿ al-Baṣīr (-īr) — z.B. 4:58, 4:134\n- al-Ghafūr ar-Raḥīm (-īm) — sehr häufig\n- al-Tawwāb ar-Raḥīm (-īm)\n\nDiese Paare wirken als Schluss-Klauseln und tragen zugleich den Reim. Sie sind morphologisch identisch (Adjektiv + Adjektiv mit -īm/-īr-Endung) und semantisch komplementär (Macht + Weisheit, Hören + Sehen, Vergebung + Barmherzigkeit)."
+          },
+          {
+            "type": "explanation",
+            "title": "Binnenreim und Kolometrie",
+            "content": "Auch lange Verse zerfallen in kleinere Sinneinheiten (Kola). Diese Kola enden oft auf reim-verwandte Pausalformen, die den Vers innerlich strukturieren. Beispiel Sure 2:255 (Āyat al-Kursī): vier oder fünf Sub-Einheiten, jede mit eigenem prosodischen Profil, dann das große Schluss-Epitheton al-ʿaẓīm. Das ist Saj' auf zwei Ebenen: Vers-Reim plus Binnen-Rhythmik."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "prompt": "Lies Sure 2:284-286 und notiere die letzten drei Wörter jedes Verses. Welcher Reim verbindet sie?",
+          "hint": "qadīr / al-maṣīr / al-kāfirīn. Reim auf -īr/-īn — die letzten drei Verse der längsten Sure sind genauso konsequent gereimt wie eine Kurzsure.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=2"
+        },
+        {
+          "type": "analysis",
+          "prompt": "Wie häufig kommt das Epitheton-Paar al-ʿAzīz al-Ḥakīm in Sure 3 vor? Welcher Reim wird damit etabliert?",
+          "hint": "Mindestens 7x in Sure 3 (V. 6, 18, 62, 126 u.a.). Reim auf -īm (al-ḥakīm). Konsequenter Schlussreim langer Verse.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=3"
+        },
+        {
+          "type": "comparison",
+          "prompt": "Vergleiche das Reim-System von Sure 98 (Verse 8-15 Wörter lang) mit dem von Sure 87 (Verse 2-4 Wörter). Welche Strategie unterscheidet sich, welches Prinzip bleibt gleich?",
+          "hint": "Reim-Prinzip identisch: Pausalform am Vers-Ende. Strategie unterschiedlich: Sure 87 nutzt Reim als rhythmischen Hauptträger; Sure 98 nutzt ihn als Schluss-Marker langer Sätze.",
+          "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=98"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche Pausalform hat das Schluss-Epitheton in 3:18?",
+            "options": [
+              "al-Ḥakīm → -īm",
+              "al-Ḥakīmu → -u",
+              "al-Ḥakīmun → -un",
+              "al-Ḥakīmā → -ā"
+            ],
+            "correct": 0,
+            "explanation": "In Pausa entfällt der Endvokal: al-Ḥakīmu → al-Ḥakīm. Reim-Konsonant ist m, davor langes ī.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+          },
+          {
+            "question": "Wie funktioniert Saj' in den langen Versen der Sure 2 und 3?",
+            "options": [
+              "Es funktioniert nicht — lange Verse haben keinen Reim",
+              "Reim und Binnenreim strukturieren die Verse trotz Länge; Gott-Epitheta-Paare bilden konsequente Schluss-Reime",
+              "Nur die Kurzsuren haben Reim",
+              "Es gibt nur Reim am Sure-Ende, nie innerhalb"
+            ],
+            "correct": 1,
+            "explanation": "Lange Verse haben weiterhin Reim am Schluss. Gott-Epitheta-Paare wie al-ʿAzīz al-Ḥakīm bilden das System. Innerhalb der Verse zerfallen Sub-Kola in eigene Rhythmik.",
+            "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=2"
+          },
+          {
+            "question": "Welches Epitheton-Paar reimt auf -īr?",
+            "options": [
+              "al-ʿAzīz al-Ḥakīm",
+              "al-ʿAlīm al-Ḥakīm",
+              "as-Samīʿ al-Baṣīr",
+              "al-Ghafūr ar-Raḥīm"
+            ],
+            "correct": 2,
+            "explanation": "as-Samīʿ al-Baṣīr endet auf -īr (Reim-Konsonant r). Die anderen Paare enden auf -īm. Beide sind häufige Schluss-Klauseln in der Medina-Diktion.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=58"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/sura.jsp?sura=2"
+    }
+  ]
+}

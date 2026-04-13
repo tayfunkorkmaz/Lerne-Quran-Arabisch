@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "title": "Hamza-Sitzregeln (كرسي الهمزة)",
+    "description": "Systematisches Regelsystem für die Platzierung der Hamza im Schriftbild",
+    "module": 1,
+    "answerKey": {
+      "0": "auf der Zeile (ء)",
+      "1": "Alif-Sitz (أ)",
+      "2": "Waw-Sitz (ؤ)",
+      "3": "Ya-Sitz (ئ)"
+    },
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ]
+  },
+  "rules": {
+    "hierarchy": {
+      "title": "Vokal-Hierarchie",
+      "content": "Die Hamza-Platzierung folgt einer Hierarchie der Vokale: Kasra (i) > Damma (u) > Fatha (a) > Sukun (kein Vokal). Der stärkere Vokal bestimmt den Träger.",
+      "ranking": [
+        "Kasra → Ya-Sitz (ئ)",
+        "Damma → Waw-Sitz (ؤ)",
+        "Fatha → Alif-Sitz (أ)",
+        "Sukun → auf der Zeile (ء)"
+      ]
+    },
+    "positions": [
+      {
+        "id": "initial",
+        "title": "Wortanfang",
+        "rule": "Hamza am Wortanfang steht immer auf Alif. Bei Fatha/Damma: أ (oben). Bei Kasra: إ (unten).",
+        "examples": [
+          {
+            "word": "أَنزَلَ",
+            "ref": "2:4",
+            "explanation": "Fatha → Hamza oben auf Alif",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+          },
+          {
+            "word": "إِذَا",
+            "ref": "2:17",
+            "explanation": "Kasra → Hamza unten auf Alif",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+          },
+          {
+            "word": "أُولَٰئِكَ",
+            "ref": "2:5",
+            "explanation": "Damma → Hamza oben auf Alif",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+          }
+        ]
+      },
+      {
+        "id": "medial",
+        "title": "Wortmitte",
+        "rule": "Vergleiche den Vokal VOR der Hamza mit dem Vokal AUF der Hamza. Der stärkere bestimmt den Sitz.",
+        "examples": [
+          {
+            "word": "سُئِلَ",
+            "ref": "2:108",
+            "explanation": "Damma vor Hamza, Kasra auf Hamza → Kasra gewinnt → Ya-Sitz",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+          },
+          {
+            "word": "رُؤُوس",
+            "ref": "2:196",
+            "explanation": "Damma vor und auf Hamza → Waw-Sitz",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+          },
+          {
+            "word": "يَسْأَلُونَ",
+            "ref": "2:189",
+            "explanation": "Sukun vor Hamza, Fatha auf Hamza → Fatha gewinnt → Alif-Sitz",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=189"
+          },
+          {
+            "word": "مَسْـُٔولًا",
+            "ref": "17:36",
+            "explanation": "Sukun vor Hamza, Damma auf Hamza. Nach der Regel 'Damma gewinnt' wäre Waw-Sitz zu erwarten (مَسْؤُول). Der Uthmanische Mushaf schreibt hier jedoch Ya-Sitz (مَسْـُٔول) — eine orthographische Konvention des muṣḥaf, die von der Standardregel abweicht.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=36"
+          }
+        ]
+      },
+      {
+        "id": "final",
+        "title": "Wortende",
+        "rule": "Nur der Vokal VOR der Hamza zählt. Wenn Sukun vorausgeht oder die Hamza nach einem langen Vokal steht → auf der Zeile.",
+        "examples": [
+          {
+            "word": "شَيْء",
+            "ref": "2:20",
+            "explanation": "Ya mit Sukun vor Hamza → auf der Zeile",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+          },
+          {
+            "word": "سَمَاء",
+            "ref": "2:19",
+            "explanation": "Nach langem Alif → auf der Zeile",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+          },
+          {
+            "word": "امْرُؤ",
+            "ref": "4:176",
+            "explanation": "Damma vor Hamza → Waw-Sitz (selten am Wortende)",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=176"
+          },
+          {
+            "word": "شَاطِئ",
+            "ref": "28:30",
+            "explanation": "Kasra vor Hamza am Wortende → Ya-Sitz (ئ). Das Wort شَاطِئ (Ufer/Rand) endet auf Kasra + Hamza.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=30"
+          }
+        ]
+      }
+    ],
+    "specialCases": [
+      {
+        "title": "Hamza nach langem Vokal",
+        "rule": "Nach einem langen Vokal (ا, و, ي) und vor Sukun → Hamza auf der Zeile",
+        "example": {
+          "word": "جَاءَ",
+          "ref": "2:87",
+          "explanation": "Hamza nach langem Alif → Hamza steht auf der Zeile (على السطر), weil zwei aufeinanderfolgende Alifs nicht geschrieben werden können",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        }
+      },
+      {
+        "title": "Doppel-Alif-Vermeidung",
+        "rule": "Zwei aufeinanderfolgende Alifs werden vermieden. Stattdessen Madda-Zeichen (آ).",
+        "example": {
+          "word": "آمَنُوا",
+          "ref": "2:9",
+          "explanation": "Hamza + Alif → آ (Madda)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+        }
+      },
+      {
+        "id": "hamza_tanwin",
+        "title": "Hamza am Wortende mit Tanwin",
+        "rule": "Bei Tanwin al-Fath (ً-) wird ein Alif-Träger angehängt (z.B. شَيْئًا), es sei denn, der Buchstabe vor dem Hamza ist bereits ein Alif (z.B. مَاءً — kein zusätzliches Alif).",
+        "examples": [
+          {
+            "word": "شَيْئًا",
+            "location": "5:32",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=32"
+          },
+          {
+            "word": "مَاءً",
+            "location": "18:29",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=29"
+          },
+          {
+            "word": "جُزْءًا",
+            "location": "15:44",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=44"
+          }
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "word": "بِئْسَ",
+      "ref": "2:90",
+      "type": "seat",
+      "answer": 3,
+      "explanation": "Kasra vor Hamza, Sukun auf Hamza → Kasra gewinnt → Ya-Sitz (ئ)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=90"
+    },
+    {
+      "word": "يُؤْمِنُونَ",
+      "ref": "2:3",
+      "type": "seat",
+      "answer": 2,
+      "explanation": "Damma vor Hamza, Sukun auf Hamza → Damma gewinnt → Waw-Sitz (ؤ)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "word": "مَلَائِكَة",
+      "ref": "2:30",
+      "type": "seat",
+      "answer": 3,
+      "explanation": "Fatha vor Hamza, Kasra auf Hamza → Kasra gewinnt → Ya-Sitz (ئ)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "word": "تَسَاءَلُونَ",
+      "ref": "4:1",
+      "type": "seat",
+      "answer": 1,
+      "explanation": "Fatha vor und auf Hamza → Alif-Sitz",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+    },
+    {
+      "word": "رَءُوف",
+      "ref": "2:143",
+      "type": "seat",
+      "answer": 0,
+      "explanation": "Fatha vor Hamza, Damma auf Hamza → nach Standardregel: Damma > Fatha → Waw-Sitz erwartet (رَؤُوف). Im uthmanischen Rasm steht jedoch رَءُوف (Hamza auf der Zeile) — eine orthographische Besonderheit der Quranschreibung, die von der allgemeinen Regel abweicht.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "word": "هَيْئَة",
+      "ref": "3:49",
+      "type": "seat",
+      "answer": 3,
+      "explanation": "Sukun (Ya) vor Hamza, Fatha auf Hamza → Ya-Sitz. Sonderregel: Nach Ya nimmt Hamza immer einen Ya-Sitz, unabhängig von der Vokal-Hierarchie. Nach der Standardhierarchie würde Fatha (auf Hamza) > Sukun (auf Ya) einen Alif-Sitz ergeben — die Ya-Sonderregel überschreibt dies.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=49"
+    },
+    {
+      "word": "نَبِّئْنَا",
+      "ref": "2:31",
+      "type": "seat",
+      "answer": 3,
+      "explanation": "Kasra vor Hamza → Ya-Sitz",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+    },
+    {
+      "word": "لُؤْلُؤ",
+      "ref": "22:23",
+      "type": "seat",
+      "answer": 2,
+      "explanation": "Damma vor Hamza → Waw-Sitz",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=23"
+    },
+    {
+      "word": "سَوْءَة",
+      "ref": "5:31",
+      "type": "seat",
+      "answer": 0,
+      "explanation": "Nach Waw mit Sukun, Fatha auf Hamza → auf der Zeile. Im uthmanischen Rasm steht Hamza hier auf der Zeile nach Waw+Sukun, obwohl nach den Standardregeln (Fatha > Sukun) ein Alif-Sitz zu erwarten wäre — eine orthographische Besonderheit der Mushaf-Schreibung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=31"
+    },
+    {
+      "word": "قُرْآن",
+      "ref": "2:185",
+      "type": "seat",
+      "answer": 1,
+      "explanation": "Sukun vor Hamza, Fatha auf Hamza → Fatha gewinnt → Alif-Sitz. Hamza + Alif verschmelzen zu Madda (آ), der Sitz ist also Alif (als Madda-Zeichen).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    }
+  ],
+  "decisionTree": {
+    "title": "Hamza-Algorithmus — Entscheidungsbaum",
+    "description": "Schritt-für-Schritt-Anleitung zur Bestimmung des Hamza-Sitzes.",
+    "steps": [
+      {
+        "step": 1,
+        "question": "Wo steht die Hamza im Wort?",
+        "options": [
+          {
+            "answer": "Am Wortanfang",
+            "goto": 2
+          },
+          {
+            "answer": "In der Wortmitte",
+            "goto": 3
+          },
+          {
+            "answer": "Am Wortende",
+            "goto": 4
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "question": "WORTANFANG — Welchen Vokal trägt die Hamza?",
+        "options": [
+          {
+            "answer": "Fatha (a) oder Damma (u)",
+            "result": "Hamza OBEN auf Alif → أ"
+          },
+          {
+            "answer": "Kasra (i)",
+            "result": "Hamza UNTEN auf Alif → إ"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "question": "WORTMITTE — Vergleiche den Vokal VOR der Hamza mit dem Vokal AUF der Hamza. Welcher ist stärker? (Hierarchie: Kasra > Damma > Fatha > Sukun)",
+        "options": [
+          {
+            "answer": "Kasra gewinnt (einer der beiden ist Kasra)",
+            "result": "Ya-Sitz → ئ"
+          },
+          {
+            "answer": "Damma gewinnt (kein Kasra, aber Damma)",
+            "result": "Waw-Sitz → ؤ"
+          },
+          {
+            "answer": "Fatha gewinnt (kein Kasra/Damma, aber Fatha)",
+            "result": "Alif-Sitz → أ"
+          },
+          {
+            "answer": "Beide Sukun / nach langem Vokal",
+            "result": "Auf der Zeile → ء"
+          },
+          {
+            "answer": "SONDERFALL: Zwei Alif hintereinander",
+            "result": "Madda → آ (Hamza + Alif verschmelzen)"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "question": "WORTENDE — Welchen Vokal trägt der Buchstabe VOR der Hamza?",
+        "options": [
+          {
+            "answer": "Kasra (i)",
+            "result": "Ya-Sitz → ئ"
+          },
+          {
+            "answer": "Damma (u)",
+            "result": "Waw-Sitz → ؤ"
+          },
+          {
+            "answer": "Fatha (a)",
+            "result": "Alif-Sitz → أ"
+          },
+          {
+            "answer": "Sukun oder langer Vokal",
+            "result": "Auf der Zeile → ء"
+          }
+        ]
+      }
+    ]
+  },
+  "concordanceGuide": {
+    "title": "Konkordanz — Wie man Wortbelege im Quran findet",
+    "sections": [
+      {
+        "title": "Was ist eine Konkordanz?",
+        "content": "Eine Konkordanz (المعجم المفهرس) listet systematisch alle Vorkommen eines Wortes oder einer Wurzel in einem Text. Für den Quran bedeutet das: zu jeder Wurzel oder Wortform alle Stellen (Sure:Vers) finden, an denen sie erscheint.\n\nDieses Tool bietet eine eingebaute Konkordanz im Werkzeug 'Konkordanz / Querverweis' (Module 8). Dort kann nach Wurzeln, Wortformen oder Phrasen gesucht werden."
+      },
+      {
+        "title": "Suchmodi",
+        "content": "1. WURZELSUCHE: Gib die Wurzelkonsonanten ein (z.B. كتب) → findet ALLE Ableitungen dieser Wurzel im gesamten Quran (كَتَبَ, كِتَاب, كَاتِب, مَكْتُوب, etc.).\n\n2. WORTFORMSUCHE: Gib eine spezifische Wortform ein (z.B. كِتَابٌ) → findet alle Stellen wo genau diese Form vorkommt. Wildcard * erlaubt: كتب* findet كتب, كتاب, كتبوا, etc.\n\n3. PHRASENSUCHE: Gib mehrere Wörter ein → findet Stellen wo diese Wörter in dieser Reihenfolge aufeinander folgen."
+      },
+      {
+        "title": "Tipps zur effektiven Nutzung",
+        "content": "• Beginne mit der WURZELSUCHE um das volle Bedeutungsspektrum zu sehen.\n• Nutze die VERTEILUNGSANZEIGE um zu sehen in welchen Suren die Wurzel konzentriert vorkommt.\n• Klicke auf Ergebnisse um direkt zur Versanalyse zu springen.\n• Kombiniere Konkordanz mit Lane's Lexikon: erst alle Vorkommen finden, dann das Bedeutungsfeld in Lane's studieren.\n• Bei seltenen Wurzeln: die Konkordanz zeigt sofort ob ein Wort ein Hapax Legomenon ist (nur 1x vorkommt)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "title": "Vokallängen-Drill",
+    "description": "Kontrastive Übungen zur Unterscheidung kurzer und langer Vokale im Quranischen Arabisch. Vokallänge ist im Arabischen phonologisch distinktiv — sie unterscheidet Bedeutungen, grammatische Formen und Wortmuster. Die drei Vokalqualitäten /a/, /i/, /u/ existieren jeweils in einer kurzen (1 Mora) und einer langen (2 Moren) Variante.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Ryding, Reference Grammar of Modern Standard Arabic",
+        "url": "https://archive.org/details/AReferenceGrammarOfModernStandardArabic"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "pairs": [
+    {
+      "id": "VL1",
+      "short": "كَتَبَ",
+      "shortTranslit": "kataba",
+      "shortMeaning": "er schrieb",
+      "long": "كَاتَبَ",
+      "longTranslit": "kaataba",
+      "longMeaning": "er korrespondierte (Form III)",
+      "ref": "2:282 (كَتَبَ); Form III allgemeinarabisch",
+      "vowel": "a/aa",
+      "explanation": "Kurzes Fatha /a/ in Form I (كَتَبَ) vs. langes Alif /aa/ in Form III (كَاتَبَ). Die Einfügung eines langen Vokals nach dem ersten Radikal ist das Kennzeichen von Form III. Die Bedeutung wechselt von 'schreiben' zu 'korrespondieren' (reziprok).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "VL2",
+      "short": "قَتَلَ",
+      "shortTranslit": "qatala",
+      "shortMeaning": "er tötete",
+      "long": "قَاتَلَ",
+      "longTranslit": "qaatala",
+      "longMeaning": "er kämpfte (Form III)",
+      "ref": "2:72 (قَتَلَ); 2:190 (قَاتِلُوا — Imperativ Form III)",
+      "vowel": "a/aa",
+      "explanation": "Form I قَتَلَ (töten) vs. Form III قَاتَلَ (kämpfen — reziproke Bedeutung). Beide frequent im Quran. Der einzige formale Unterschied ist die Längung des ersten Vokals zu /aa/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=72"
+    },
+    {
+      "id": "VL3",
+      "short": "نَصَرَ",
+      "shortTranslit": "nasara",
+      "shortMeaning": "er half, unterstützte",
+      "long": "نَاصِر",
+      "longTranslit": "naasir",
+      "longMeaning": "Helfer (aktives Partizip)",
+      "ref": "3:126 (نَصْر); 22:71 (نَاصِر)",
+      "vowel": "a/aa",
+      "explanation": "Verb نَصَرَ (helfen) mit kurzem /a/ vs. Partizip نَاصِر (Helfer) mit langem /aa/. Das aktive Partizip der Form I folgt dem Muster فَاعِل — der lange Vokal ist musterbedingt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=126"
+    },
+    {
+      "id": "VL4",
+      "short": "عَلِمَ",
+      "shortTranslit": "ʿalima",
+      "shortMeaning": "er wusste",
+      "long": "عَالِم",
+      "longTranslit": "ʿaalim",
+      "longMeaning": "Wissender",
+      "ref": "2:77 (عَلِمَ); 2:32 (عَالِم — als Gottesattribut)",
+      "vowel": "a/aa",
+      "explanation": "Verb عَلِمَ mit kurzem /a/ am Anfang vs. Partizip عَالِم mit langem /aa/. Im Quran erscheint عَلِيم (Intensivform) noch häufiger als عَالِم.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=77"
+    },
+    {
+      "id": "VL5",
+      "short": "جَعَلَ",
+      "shortTranslit": "jaʿala",
+      "shortMeaning": "er machte, setzte ein",
+      "long": "جَاعِلٌ",
+      "longTranslit": "jaaʿil",
+      "longMeaning": "Machender, Einsetzender",
+      "ref": "2:30 (جَاعِلٌ); 6:1 (جَعَلَ)",
+      "vowel": "a/aa",
+      "explanation": "In 2:30 sagt Gott إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً — mit langem /aa/ im Partizip. Das Verb جَعَلَ hat kurzes /a/. Beide im selben semantischen Feld, unterschieden durch Vokallänge.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "VL6",
+      "short": "حَكَمَ",
+      "shortTranslit": "ḥakama",
+      "shortMeaning": "er urteilte",
+      "long": "حَاكِمٌ",
+      "longTranslit": "ḥaakim",
+      "longMeaning": "ein Urteilender, Herrscher (aktives Partizip)",
+      "ref": "5:44 (حَكَمَ); 95:8 (أَحْكَمُ الْحَاكِمِينَ)",
+      "vowel": "a/aa",
+      "explanation": "Verb حَكَمَ (urteilen, kurzes /a/) vs. Partizip حَاكِم (Richter/Herrscher, langes /aa/). Das Partizip-Muster فَاعِل erzeugt den Handlungsträger aus der Verbalhandlung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=44"
+    },
+    {
+      "id": "VL7",
+      "short": "صَبَرَ",
+      "shortTranslit": "ṣabara",
+      "shortMeaning": "er war geduldig",
+      "long": "صَابِرٌ",
+      "longTranslit": "ṣaabir",
+      "longMeaning": "Geduldiger (aktives Partizip)",
+      "ref": "2:153 (اصْبِرُوا — Imperativ); 3:146 (الصَّابِرِينَ)",
+      "vowel": "a/aa",
+      "explanation": "Verb صَبَرَ mit kurzem /a/ vs. Partizip صَابِر mit langem /aa/. Im Quran erscheint der Plural الصَّابِرِينَ (die Geduldigen) mit langem /aa/ und langem /ii/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=153"
+    },
+    {
+      "id": "VL8",
+      "short": "كُتِبَ",
+      "shortTranslit": "kutiba",
+      "shortMeaning": "es wurde geschrieben/vorgeschrieben",
+      "long": "كُوتِبَ",
+      "longTranslit": "kuutiba",
+      "longMeaning": "es wurde korrespondiert (Form III Passiv)",
+      "ref": "2:183 (كُتِبَ); Form III Passiv allgemeinarabisch",
+      "vowel": "u/uu",
+      "explanation": "Im Passiv von Form I ist der erste Vokal kurzes /u/ (كُتِبَ). Im Passiv von Form III wird /u/ zu /uu/ gelängt (كُوتِبَ). Die Vokallänge spiegelt die Formzugehörigkeit.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "id": "VL9",
+      "short": "رُسُل",
+      "shortTranslit": "rusul",
+      "shortMeaning": "Gesandte (Plural)",
+      "long": "رَسُولٌ",
+      "longTranslit": "rasuul",
+      "longMeaning": "Gesandter (Singular)",
+      "ref": "2:253 (رُسُل); 2:87 (رَسُول)",
+      "vowel": "u/uu",
+      "explanation": "Gebrochener Plural رُسُل (Muster فُعُل, kurze Vokale) vs. Singular رَسُول (Muster فَعُول, mit langem /uu/). Der lange Vokal ist hier Merkmal des Singular-Musters — der Plural kürzt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=253"
+    },
+    {
+      "id": "VL10",
+      "short": "قُلْ",
+      "shortTranslit": "qul",
+      "shortMeaning": "sag! (Imperativ Singular)",
+      "long": "قُولُوا",
+      "longTranslit": "quuluu",
+      "longMeaning": "sagt! (Imperativ Plural)",
+      "ref": "112:1 (قُلْ); 2:136 (قُولُوا)",
+      "vowel": "u/uu",
+      "explanation": "Im Singular-Imperativ قُلْ ist der Stammvokal kurzes /u/. Im Plural قُولُوا erscheint der zugrundeliegende lange Vokal /uu/ der hohlen Wurzel ق-و-ل. Die Wurzel hat ein و als mittleren Radikal — dieser erzeugt den langen Vokal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "id": "VL11",
+      "short": "كُفْرٌ",
+      "shortTranslit": "kufr",
+      "shortMeaning": "Ableugnung, Undankbarkeit",
+      "long": "كَفُورٌ",
+      "longTranslit": "kafuur",
+      "longMeaning": "äußerst undankbar (Intensivadjektiv)",
+      "ref": "2:108 (كُفْر); 17:27 (كَفُورًا)",
+      "vowel": "u/uu",
+      "explanation": "كُفْر (Verbalsubstantiv, kurze Vokale) vs. كَفُور (Intensivadjektiv, Muster فَعُول mit langem /uu/). Die Längung im Muster فَعُول erzeugt die Intensiv-/Daurbedeutung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+    },
+    {
+      "id": "VL12",
+      "short": "مُسْلِمٌ",
+      "shortTranslit": "muslim",
+      "shortMeaning": "sich Ergebender (Singular)",
+      "long": "مُسْلِمُونَ",
+      "longTranslit": "muslimuuna",
+      "longMeaning": "sich Ergebende (Nominativ Plural)",
+      "ref": "3:102 (مُسْلِمُونَ)",
+      "vowel": "u/uu",
+      "explanation": "Der gesunde maskuline Plural wird im Nominativ durch -ūna (mit langem /uu/) gebildet. Der lange Vokal ist das Pluralzeichen. Im Genitiv/Akkusativ steht -īna (mit langem /ii/).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=102"
+    },
+    {
+      "id": "VL13",
+      "short": "سَمِعَ",
+      "shortTranslit": "samiʿa",
+      "shortMeaning": "er hörte",
+      "long": "سَمِيعٌ",
+      "longTranslit": "samiiʿ",
+      "longMeaning": "allhörend (Intensivform)",
+      "ref": "2:181 (سَمِعَهُ und سَمِيعٌ im selben Vers)",
+      "vowel": "i/ii",
+      "explanation": "Verb سَمِعَ mit kurzem /i/ vs. Intensivadjektiv سَمِيع mit langem /ii/. Das Muster فَعِيل längt den zweiten Vokal und erzeugt eine Intensiv-/Daurbedeutung: 'der stets Hörende'. In 2:181 kontrastieren beide Formen direkt: فَمَن بَدَّلَهُ بَعْدَ مَا سَمِعَهُ ... إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=181"
+    },
+    {
+      "id": "VL14",
+      "short": "عَظِمَ",
+      "shortTranslit": "ʿaẓima",
+      "shortMeaning": "groß/gewaltig sein",
+      "long": "عَظِيمٌ",
+      "longTranslit": "ʿaẓiim",
+      "longMeaning": "gewaltig, großartig",
+      "ref": "allgemeinarabisch (عَظِمَ); 2:7 (عَظِيم)",
+      "vowel": "i/ii",
+      "explanation": "Verb عَظِمَ (groß sein, kurzes /i/) vs. Adjektiv عَظِيم (gewaltig, langes /ii/). Die Längung im Muster فَعِيل erzeugt das stabile Adjektiv aus dem Verb.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "VL15",
+      "short": "شَهِدَ",
+      "shortTranslit": "šahida",
+      "shortMeaning": "er bezeugte",
+      "long": "شَهِيدٌ",
+      "longTranslit": "šahiid",
+      "longMeaning": "Zeuge",
+      "ref": "3:18 (شَهِدَ); 2:23 (شُهَدَاء — Plural von شَهِيد)",
+      "vowel": "i/ii",
+      "explanation": "Verb شَهِدَ mit kurzem /i/ → Adjektiv/Nomen شَهِيد mit langem /ii/. Das Muster فَعِيل erzeugt eine dauerhafte Eigenschaft oder Funktion.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+    },
+    {
+      "id": "VL16",
+      "short": "حَسِبَ",
+      "shortTranslit": "ḥasiba",
+      "shortMeaning": "er meinte/rechnete",
+      "long": "حَسِيبٌ",
+      "longTranslit": "ḥasiib",
+      "longMeaning": "Abrechner, Genügender",
+      "ref": "2:214 (حَسِبْتُمْ); 4:6 (حَسِيبًا)",
+      "vowel": "i/ii",
+      "explanation": "Verb حَسِبَ (meinen, kurzes /i/) vs. Intensivadjektiv حَسِيب (Abrechner, langes /ii/). Gleiche Wurzel ح-س-ب, Vokallänge unterscheidet Wortklasse und Bedeutungsnuance.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+    },
+    {
+      "id": "VL17",
+      "short": "مُسْلِمٌ",
+      "shortTranslit": "muslim",
+      "shortMeaning": "sich Ergebender (Singular)",
+      "long": "مُسْلِمِينَ",
+      "longTranslit": "muslimiina",
+      "longMeaning": "sich Ergebende (Genitiv/Akkusativ Plural)",
+      "ref": "3:64 (مُسْلِمِينَ)",
+      "vowel": "i/ii",
+      "explanation": "Der gesunde maskuline Plural im Genitiv/Akkusativ hat -يِنَ (-iina) mit langem /ii/. Der Singular مُسْلِم hat kurzes /i/. Die Länge markiert Numerus und Kasus.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=64"
+    },
+    {
+      "id": "VL18",
+      "short": "مُلْكٌ",
+      "shortTranslit": "mulk",
+      "shortMeaning": "Königreich, Herrschaft",
+      "long": "مَلِيكٌ",
+      "longTranslit": "maliik",
+      "longMeaning": "König, Herrscher (Intensivform)",
+      "ref": "3:26 (مُلْك); 54:55 (مَلِيك)",
+      "vowel": "i/ii",
+      "explanation": "مُلْك (Herrschaft/Königreich, kurzer Vokal /u/) vs. مَلِيك (König/Herrscher, Muster فَعِيل mit langem /ii/). Die Länge erzeugt die Intensivform und ändert die Wortklasse.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+    },
+    {
+      "id": "VL19",
+      "short": "قَالَ",
+      "shortTranslit": "qaala",
+      "shortMeaning": "er sagte",
+      "long": "قِيلَ",
+      "longTranslit": "qiila",
+      "longMeaning": "es wurde gesagt (Passiv)",
+      "ref": "2:30 (قَالَ); 2:11 (قِيلَ)",
+      "vowel": "aa vs. ii",
+      "explanation": "Im Aktiv قَالَ erscheint der mittlere Radikal و als langer Vokal /aa/. Im Passiv قِيلَ wird derselbe Radikal zu /ii/ — der Vokalwechsel aa→ii markiert den Aktiv-Passiv-Wechsel in hohlen Verben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "VL20",
+      "short": "نَارٌ",
+      "shortTranslit": "naar",
+      "shortMeaning": "Feuer",
+      "long": "نُورٌ",
+      "longTranslit": "nuur",
+      "longMeaning": "Licht",
+      "ref": "2:17 (نَار und نُور im selben Vers)",
+      "vowel": "aa vs. uu",
+      "explanation": "نَار (Feuer, mit /aa/) vs. نُور (Licht, mit /uu/) — Wurzel ن-و-ر für beide. Der Vokalwechsel erzeugt völlig verschiedene Bedeutungen aus derselben Wurzel. In 2:17 erscheinen beide Wörter im selben Vers.",
+      "note": "Beide Wörter werden üblicherweise der Wurzel ن-و-ر zugeordnet (Lane). Die Vokalalternation a/u innerhalb derselben Wurzel ist der pädagogische Fokus.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "id": "VL21",
+      "short": "رَسُولٌ",
+      "shortTranslit": "rasuul",
+      "shortMeaning": "Gesandter",
+      "long": "رِسَالَةٌ",
+      "longTranslit": "risaala",
+      "longMeaning": "Botschaft, Sendung",
+      "ref": "2:87 (رَسُول); 7:62 (رِسَالَة)",
+      "vowel": "uu vs. aa",
+      "explanation": "رَسُول (mit langem /uu/ — Muster فَعُول, intensiv) vs. رِسَالَة (mit langem /aa/ — Muster فِعَالَة, Verbalsubstantiv). Gleiche Wurzel ر-س-ل, verschiedene Nominalmuster, verschiedene lange Vokale.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "id": "VL22",
+      "short": "طِينٌ",
+      "shortTranslit": "ṭiin",
+      "shortMeaning": "Lehm, Ton",
+      "long": "تِينٌ",
+      "longTranslit": "tiin",
+      "longMeaning": "Feige(n)",
+      "ref": "7:12 (طِين); 95:1 (تِين)",
+      "vowel": "ii (identische Vokalstruktur)",
+      "explanation": "طِين (Lehm) und تِين (Feigen) haben IDENTISCHE Vokalstrukturen: /ii/ + Nunation. Der einzige Unterschied ist der Konsonant: ط (emphatisch) vs. ت (nicht-emphatisch). Dies zeigt, dass Vokallänge und Konsonantenqualität unabhängige Dimensionen sind. Hinweis: Hier kontrastieren die Konsonanten (emphatisch vs. nicht-emphatisch), nicht die Vokallänge. Die emphatische Umgebung verändert die Vokalfarbe.",
+      "note": "Dieses Paar kontrastiert primär die Konsonanten (emphatisch vs. nicht-emphatisch), nicht die Vokallänge. Siehe auch minimal-pairs-drill MP5.",
+      "consonantContrast": true,
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+    },
+    {
+      "id": "VL23",
+      "short": "دُنْيَا",
+      "shortTranslit": "dunyaa",
+      "shortMeaning": "das Diesseits, die nahe (Welt)",
+      "long": "دَنَا",
+      "longTranslit": "danaa",
+      "longMeaning": "er näherte sich",
+      "ref": "2:85 (الدُّنْيَا); 53:8 (دَنَا)",
+      "vowel": "aa (finales Alif)",
+      "explanation": "دُنْيَا endet auf Alif maqsura (/aa/) — feminines Elativ/Superlativ-Muster. Das Verb دَنَا hat ebenfalls langes /aa/ am Ende — defektive Wurzel د-ن-و. In beiden Fällen ist das finale /aa/ morphologisch bedingt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "id": "VL24",
+      "short": "هُدًى",
+      "shortTranslit": "hudan",
+      "shortMeaning": "Führung",
+      "long": "هَادِي",
+      "longTranslit": "haadii",
+      "longMeaning": "Rechtleitender",
+      "ref": "2:2 (هُدًى); allgemeinarabisch (هَادِي — Partizip)",
+      "vowel": "aa + ii",
+      "explanation": "هُدًى (Führung, Verbalsubstantiv mit finalem /aa/) vs. هَادِي (Rechtleitender, Partizip mit /aa/ + /ii/). Die langen Vokale tragen verschiedene morphologische Funktionen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "VL25",
+      "short": "حُرُمٌ",
+      "shortTranslit": "ḥurum",
+      "shortMeaning": "verboten, eingeschränkt (Plural)",
+      "long": "حَرَامٌ",
+      "longTranslit": "ḥaraam",
+      "longMeaning": "verboten, eingeschränkt (Singular-Adjektiv)",
+      "ref": "9:5 (الْأَشْهُرُ الْحُرُمُ); 2:194 (الشَّهْرُ الْحَرَامُ)",
+      "vowel": "u vs. aa",
+      "explanation": "حُرُم (Plural, Muster فُعُل, kurze Vokale /u/) vs. حَرَام (Singular, mit langem /aa/). Die Vokallänge ist Teil des Nominalmusters und trägt Numerus-Information.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=5"
+    },
+    {
+      "id": "VL26",
+      "short": "بَرٌّ",
+      "shortTranslit": "barr",
+      "shortMeaning": "fromm, gütig; Festland",
+      "long": "بَارٌّ",
+      "longTranslit": "baarr",
+      "longMeaning": "fromm, rechtschaffen (Partizip)",
+      "ref": "2:177 (بِرّ — Frommigkeit); 19:14 (بَرًّا)",
+      "vowel": "a/aa",
+      "explanation": "Kurzes /a/ im Substantiv بِرّ/بَرّ vs. langes /aa/ im Partizip بَارّ. Wurzel ب-ر-ر. Die Längung markiert den Übergang vom abstrakten Nomen zum Handlungsträger.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+    },
+    {
+      "id": "VL27",
+      "short": "حَسَنَ",
+      "shortTranslit": "ḥasuna",
+      "shortMeaning": "schön/gut sein",
+      "long": "حُسْنَى",
+      "longTranslit": "ḥusnaa",
+      "longMeaning": "das Beste/Schönste (Elativ feminin)",
+      "ref": "allgemeinarabisch (حَسُنَ); 4:95 (الْحُسْنَى)",
+      "vowel": "a/aa (Elativ-Alif)",
+      "explanation": "Das feminine Elativ-Muster فُعْلَى endet auf Alif maqsura — langer Vokal /aa/. Der Kurzvokal des Verbs wird im Elativ-Muster völlig umstrukturiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=95"
+    },
+    {
+      "id": "VL28",
+      "short": "كِتَابٌ",
+      "shortTranslit": "kitaab",
+      "shortMeaning": "Buch, Schrift",
+      "long": "(Selbstkontrast)",
+      "longTranslit": "—",
+      "longMeaning": "kurzes /i/ am Anfang UND langes /aa/ in der Mitte",
+      "ref": "2:2",
+      "vowel": "i + aa (gemischt)",
+      "explanation": "كِتَاب enthält BEIDE Vokallängen in einem Wort: kurzes /i/ (Kasra unter ك) und langes /aa/ (Alif nach ت). Das Muster فِعَال zeigt den systematischen Wechsel von kurz zu lang innerhalb eines Nominalmusters.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "VLE1",
+      "word": "قَالَ",
+      "ref": "2:30",
+      "question": "Welcher Vokal ist lang in diesem Wort?",
+      "options": [
+        "Das Alif nach Qaaf (aa)",
+        "Das Fatha auf Qaaf (a)",
+        "Kein langer Vokal"
+      ],
+      "correct": 0,
+      "explanation": "Das Alif nach ق repräsentiert den langen Vokal /aa/. Das Fatha auf ق ist nur der kurze Vokal /a/, der zum langen Alif hinleitet. Zusammen: قَا = /qaa/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "VLE2",
+      "word": "كِتَابٌ",
+      "ref": "2:2",
+      "question": "Wie viele lange Vokale enthält dieses Wort?",
+      "options": [
+        "Keinen",
+        "Einen (das Alif nach ت = /aa/)",
+        "Zwei (Kasra und Alif)"
+      ],
+      "correct": 1,
+      "explanation": "كِتَابٌ hat einen langen Vokal: das Alif nach ت (/aa/). Das Kasra unter ك ist ein kurzer Vokal /i/. Die Damma mit Tanwin am Ende (-un) ist ebenfalls kurz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "VLE3",
+      "word": "مُؤْمِنِينَ",
+      "ref": "2:8",
+      "question": "Welcher lange Vokal markiert den Plural?",
+      "options": [
+        "Das /uu/ am Anfang",
+        "Das /ii/ in der Endung -iina",
+        "Kein langer Vokal"
+      ],
+      "correct": 1,
+      "explanation": "Die Endung -يِنَ (-iina) mit langem /ii/ markiert den gesunden maskulinen Plural im Genitiv/Akkusativ. Das Damma am Anfang (مُ) ist kurz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "VLE4",
+      "word": "يَقُولُ",
+      "ref": "2:8",
+      "question": "Wo liegt der lange Vokal und warum?",
+      "options": [
+        "Im Fatha auf يَ (kurz)",
+        "Im Waaw nach ق = /uu/, weil der mittlere Radikal و als langer Vokal realisiert wird",
+        "Im Damma auf ل (kurz)"
+      ],
+      "correct": 1,
+      "explanation": "Der Waaw nach ق repräsentiert den langen Vokal /uu/. Er ist der mittlere Radikal der hohlen Wurzel ق-و-ل, der als langer Vokal realisiert wird. Das Fatha auf يَ und das Damma auf لُ sind kurze Vokale.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "VLE5",
+      "word": "الرَّحِيمِ",
+      "ref": "1:3",
+      "question": "Welcher Vokal ist lang?",
+      "options": [
+        "Das Fatha auf ر (kurz)",
+        "Das Kasra unter ح (kurz)",
+        "Das Ya nach ح = /ii/"
+      ],
+      "correct": 2,
+      "explanation": "Das Ya nach ح mit Kasra davor bildet den langen Vokal /ii/. Das Muster فَعِيل (Intensivadjektiv) hat diesen langen Vokal als Kernmerkmal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+    },
+    {
+      "id": "VLE6",
+      "word": "رَسُولٌ",
+      "ref": "2:87",
+      "question": "Welcher lange Vokal liegt vor?",
+      "options": [
+        "Fatha auf ر = /a/ (kurz)",
+        "Waaw nach سُ = /uu/",
+        "Damma-Tanwin am Ende = /un/ (kurz)"
+      ],
+      "correct": 1,
+      "explanation": "Das Waaw nach سُ bildet den langen Vokal /uu/. Das Muster فَعُول hat diesen langen Vokal als Kennzeichen. Fatha und Tanwin sind kurze Vokale.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "id": "VLE7",
+      "word": "نَارٌ",
+      "ref": "2:17",
+      "question": "Wie wird der lange Vokal realisiert?",
+      "options": [
+        "Durch Alif nach ن = /aa/",
+        "Durch Damma-Tanwin am Ende",
+        "Es gibt keinen langen Vokal"
+      ],
+      "correct": 0,
+      "explanation": "Das Alif nach نَ bildet /aa/. Die Wurzel ist ن-و-ر, und der mittlere Radikal و wird im Nomen نَار als langer Vokal /aa/ realisiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "id": "VLE8",
+      "word": "قِيلَ",
+      "ref": "2:11",
+      "question": "Was für ein langer Vokal liegt vor, und was zeigt er an?",
+      "options": [
+        "Langes /ii/ (Ya nach ق) — markiert das Passiv des hohlen Verbs",
+        "Langes /aa/ — markiert das Aktiv",
+        "Kein langer Vokal"
+      ],
+      "correct": 0,
+      "explanation": "قِيلَ hat langes /ii/ — der mittlere Radikal و der Wurzel ق-و-ل wird im Passiv als /ii/ realisiert. Vergleiche Aktiv قَالَ (/aa/) vs. Passiv قِيلَ (/ii/). Der Vokalwechsel aa→ii ist das Passivkennzeichen hohler Verben.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "id": "VLE9",
+      "word": "الصَّابِرِينَ",
+      "ref": "3:146",
+      "question": "Wie viele lange Vokale enthält dieses Wort?",
+      "options": [
+        "Einen (das Alif nach ص)",
+        "Zwei (Alif nach ص = /aa/ und Ya in -iina = /ii/)",
+        "Drei"
+      ],
+      "correct": 1,
+      "explanation": "Zwei lange Vokale: (1) Alif nach صَ = /aa/ (Teil des Partizip-Musters فَاعِل) und (2) Ya in der Plural-Endung -يِنَ = /ii/ (gesunder maskuliner Plural, Genitiv/Akkusativ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "id": "VLE10",
+      "word": "نَصَرَ",
+      "ref": "110:1 (نَصْر)",
+      "question": "Hat dieses Wort einen langen Vokal?",
+      "options": [
+        "Ja — das Fatha ist lang",
+        "Ja — das Alif",
+        "Nein — alle drei Vokale sind kurz (a-a-a)"
+      ],
+      "correct": 2,
+      "explanation": "نَصَرَ hat drei kurze Fatha-Vokale (a-a-a). Kein Alif, Waaw oder Ya als Vokalträger. Alle Silben enthalten nur kurze Vokale.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+    },
+    {
+      "id": "VLE11",
+      "word": "يَوْمَ",
+      "ref": "1:4",
+      "question": "Ist das Waaw in يَوْم ein langer Vokal?",
+      "options": [
+        "Ja — langes /uu/",
+        "Nein — es ist Teil eines Diphthongs /aw/",
+        "Nein — es ist ein reiner Konsonant"
+      ],
+      "correct": 1,
+      "explanation": "In يَوْمَ bildet Fatha + Waaw + Sukun den Diphthong /aw/ (kein langer Vokal, sondern Vokal + Halbvokal). Ein langer Vokal /uu/ würde Damma + Waaw erfordern.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": "VLE12",
+      "word": "بَيْنَ",
+      "ref": "2:66",
+      "question": "Enthält dieses Wort einen langen Vokal oder einen Diphthong?",
+      "options": [
+        "Einen langen Vokal /ii/",
+        "Einen Diphthong /ay/",
+        "Weder noch"
+      ],
+      "correct": 1,
+      "explanation": "بَيْنَ enthält den Diphthong /ay/ (Fatha + Ya mit Sukun). Ein Diphthong ist KEIN langer Vokal — er besteht aus Kurzvokal + Halbvokal. Phonologisch besetzt er aber wie ein Langvokal zwei Moren.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+    },
+    {
+      "id": "VLE13",
+      "word": "نُورٌ",
+      "ref": "24:35",
+      "question": "Wo ist der lange Vokal?",
+      "options": [
+        "Das Damma auf ن = /u/ (kurz)",
+        "Das Waaw nach ن = /uu/ (lang)",
+        "Beide zusammen"
+      ],
+      "correct": 1,
+      "explanation": "Damma auf ن ist kurz (/u/). Das Waaw danach trägt den langen Vokal: zusammen /uu/. Das Damma ist der 'Anleitungsvokal', das Waaw der eigentliche Längenträger.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+    },
+    {
+      "id": "VLE14",
+      "word": "الْعَالَمِينَ",
+      "ref": "1:2",
+      "question": "Wie viele lange Vokale und wo?",
+      "options": [
+        "Einer: das Alif nach ع",
+        "Zwei: Alif nach ع (/aa/) und Ya in -يِنَ (/ii/)",
+        "Drei: Alif, Alif, Ya"
+      ],
+      "correct": 1,
+      "explanation": "Zwei lange Vokale: (1) عَا = /aa/ (Partizip-Muster فَاعِل) und (2) مِينَ mit langem /ii/ (gesunder maskuliner Plural Genitiv). Das Lam-Alif in der Mitte (لَ) hat nur kurzes /a/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "VLE15",
+      "word": "حَمْدٌ",
+      "ref": "1:2",
+      "question": "Hat dieses Wort einen langen Vokal?",
+      "options": [
+        "Ja — das Fatha auf ح",
+        "Ja — das Alif im Artikel الحمد",
+        "Nein — nur kurze Vokale (Fatha + Sukun)"
+      ],
+      "correct": 2,
+      "explanation": "حَمْد hat ein kurzes Fatha auf ح und Sukun auf م. Kein langer Vokal. (Im Artikel الحَمْد ist das Alif Teil des Artikels, kein Vokal des Wortstamms.)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "VLE16",
+      "word": "مَلِكٌ",
+      "ref": "1:4",
+      "question": "Wie ändert sich die Bedeutung wenn der zweite Vokal lang wird (مَلِيك)?",
+      "options": [
+        "Gar nicht",
+        "Von 'König' zu 'Herrschaftsgebiet'",
+        "Von 'König' zu 'König/Herrscher' in der Intensivform فَعِيل"
+      ],
+      "correct": 2,
+      "explanation": "مَلِك (Muster فَعِل) = König. مَلِيك (Muster فَعِيل) = König/Herrscher (Intensivform, betont die dauerhafte Eigenschaft). Die Vokallangung erzeugt das Muster فَعِيل, das im Quran bei Gottesattributen frequent ist (z.B. 54:55).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": "VLE17",
+      "word": "عِلْمٌ",
+      "ref": "2:120",
+      "question": "Vergleiche عِلْم mit عَلِيم — wo liegt der Unterschied?",
+      "options": [
+        "عِلْم hat kurzes Kasra, عَلِيم hat langes Ya",
+        "عِلْم hat kein Shadda",
+        "Kein Unterschied"
+      ],
+      "correct": 0,
+      "explanation": "عِلْم (Masdar, Muster فِعْل) hat nur kurze Vokale. عَلِيم (Intensivadjektiv, Muster فَعِيل) hat ein langes Ya /ii/ — dieses Muster drückt Intensivierung/Dauerhaftigkeit aus: 'der stets Wissende'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=120"
+    },
+    {
+      "id": "VLE18",
+      "word": "طِينٌ",
+      "ref": "7:12",
+      "question": "Welcher Vokal ist lang?",
+      "options": [
+        "Das Kasra unter ط = /i/ (kurz)",
+        "Das Ya nach طِ = /ii/ (lang)",
+        "Das Tanwin = /n/ (kein Vokal)"
+      ],
+      "correct": 1,
+      "explanation": "Das Ya nach طِ bildet den langen Vokal /ii/. Das Kasra unter ط ist der korrespondierende kurze Vokal /i/, der zum langen Ya hinleitet. Zusammen: طِي = /ṭii/. Tanwin ist kein Vokal, sondern nasale Nunation.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=12"
+    },
+    {
+      "id": "VLE19",
+      "word": "دَعَا",
+      "ref": "2:186",
+      "question": "Wo ist der lange Vokal und warum steht dort ein Alif?",
+      "options": [
+        "Das Alif am Ende = /aa/, weil die Wurzel defektiv ist (د-ع-و, der dritte Radikal و wird als Alif geschrieben)",
+        "Kein langer Vokal",
+        "Das Fatha auf د = /a/ (kurz)"
+      ],
+      "correct": 0,
+      "explanation": "دَعَا hat die defektive Wurzel د-ع-و. Der dritte Radikal و wird in bestimmten Formen als langer Vokal /aa/ realisiert und als Alif geschrieben. Die Perfektform 3.m.sg. endet auf /aa/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=186"
+    },
+    {
+      "id": "VLE20",
+      "word": "سُورَةٌ",
+      "ref": "24:1",
+      "question": "Enthält dieses Wort einen langen Vokal?",
+      "options": [
+        "Ja, Waaw nach سُ = /uu/",
+        "Nein, das Waaw ist hier ein Konsonant",
+        "Ja, die Ta marbuta am Ende"
+      ],
+      "correct": 0,
+      "explanation": "Das Waaw nach dem Damma auf سُ bildet den langen Vokal /uu/: سُو = /suu/. Die Ta marbuta (ة) am Ende markiert das Femininum und wird in Pausa als /h/ oder stumm realisiert — sie ist kein Vokalträger.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+    },
+    {
+      "id": "VLE21",
+      "word": "ضَرَبَ",
+      "ref": "2:26",
+      "question": "Vergleichen Sie ضَرَبَ (er schlug/prägte) mit ضَارِب (Schlagender). Wo liegt der Vokallängenunterschied?",
+      "options": [
+        "ضَرَبَ hat langes /aa/, ضَارِب hat kurzes /a/",
+        "ضَرَبَ hat nur kurze Vokale, ضَارِب hat langes /aa/ nach dem ersten Radikal",
+        "Kein Unterschied in der Vokallänge"
+      ],
+      "correct": 1,
+      "explanation": "ضَرَبَ (Verb, Muster فَعَلَ) hat drei kurze Fatha-Vokale (a-a-a). ضَارِب (Partizip, Muster فَاعِل) hat langes /aa/ nach dem ersten Radikal. Die Längung markiert den Übergang von der Verbalhandlung zum Handlungsträger.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "VLE22",
+      "word": "فَعَلَ",
+      "ref": "allgemeinarabisch (Paradigma)",
+      "question": "Vergleichen Sie das Muster فَعَلَ (er tat) mit فَاعِل (Tuender). Welches Muster hat einen langen Vokal?",
+      "options": [
+        "فَعَلَ hat einen langen Vokal",
+        "فَاعِل hat einen langen Vokal (/aa/)",
+        "Beide haben lange Vokale"
+      ],
+      "correct": 1,
+      "explanation": "فَعَلَ hat nur kurze Vokale (a-a-a). فَاعِل hat langes /aa/ nach dem Fa'. Dies ist das Grundprinzip: das aktive Partizip der Form I erzeugt seinen langen Vokal durch die Einfügung eines Alif nach dem ersten Radikal."
+    },
+    {
+      "id": "VLE23",
+      "word": "خَلَقَ",
+      "ref": "96:1",
+      "question": "Vergleichen Sie خَلَقَ (er erschuf), خَالِق (Schöpfer), خَلْق (Schöpfung). Welche Wörter haben lange Vokale?",
+      "options": [
+        "Nur خَالِق (langes /aa/)",
+        "خَلَقَ und خَالِق",
+        "Keines — alle haben nur kurze Vokale"
+      ],
+      "correct": 0,
+      "explanation": "خَلَقَ hat drei kurze Vokale (a-a-a). خَلْق hat Fatha + Sukun — keine langen Vokale. Nur خَالِق hat langes /aa/ (Partizip-Muster فَاعِل). In 59:24 steht هُوَ اللَّهُ الْخَالِقُ mit langem /aa/.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "id": "VLE24",
+      "word": "عَبَدَ",
+      "ref": "109:4",
+      "question": "Vergleichen Sie عَبَدَ (er diente), عَابِد (Dienender), عِبَادَة (Dienst). Wie verteilen sich die langen Vokale?",
+      "options": [
+        "عَبَدَ: keine; عَابِد: /aa/; عِبَادَة: /aa/",
+        "Alle drei haben langes /aa/",
+        "Nur عِبَادَة hat langes /aa/"
+      ],
+      "correct": 0,
+      "explanation": "عَبَدَ hat nur kurze Vokale (a-a-a). عَابِد hat langes /aa/ (Partizip فَاعِل). عِبَادَة hat langes /aa/ (Masdar-Muster فِعَالَة). Gleiche Wurzel ع-ب-د, verschiedene Nominalmuster, gleicher langer Vokal in den Ableitungen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=4"
+    },
+    {
+      "id": "VLE25",
+      "word": "كَتَبَ",
+      "ref": "2:282",
+      "question": "In der Reihe كَتَبَ → كَاتِب → كِتَاب → مَكْتُوب — wie viele verschiedene lange Vokale gibt es?",
+      "options": [
+        "Einen: /aa/ in allen",
+        "Zwei: /aa/ in كَاتِب und كِتَاب, /uu/ in مَكْتُوب",
+        "Drei: /aa/, /ii/, /uu/"
+      ],
+      "correct": 1,
+      "explanation": "كَتَبَ: keine langen Vokale. كَاتِب: /aa/ (Partizip فَاعِل). كِتَاب: /aa/ (Muster فِعَال). مَكْتُوب: /uu/ (Passivpartizip مَفْعُول). Zwei verschiedene lange Vokale: /aa/ und /uu/. 2:282 enthält sowohl كَاتِب als auch يُكْتَبُ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "VLE26",
+      "word": "عَلِمَ",
+      "ref": "2:77",
+      "question": "In عَلِمَ → عَالِم → عَلِيم → عِلْم — welches Wort hat den längsten Vokal?",
+      "options": [
+        "عَالِم mit /aa/",
+        "عَلِيم mit /ii/",
+        "Beide haben gleich lange Vokale (je 2 Moren)"
+      ],
+      "correct": 2,
+      "explanation": "عَالِم hat langes /aa/ (2 Moren), عَلِيم hat langes /ii/ (2 Moren). Phonologisch sind beide gleich lang — je zwei Moren. Der Unterschied liegt in der Vokalqualität (aa vs. ii) und in der Bedeutung: عَالِم (wissend) vs. عَلِيم (allwissend — Intensivform).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=77"
+    },
+    {
+      "id": "VLE27",
+      "word": "سَمِيعٌ بَصِيرٌ",
+      "ref": "22:61",
+      "question": "Beide Wörter folgen dem Muster فَعِيل. Welcher lange Vokal ist das Kennzeichen?",
+      "options": [
+        "Langes /aa/ nach dem ersten Radikal",
+        "Langes /ii/ (Ya) nach dem zweiten Radikal",
+        "Langes /uu/ (Waaw) am Ende"
+      ],
+      "correct": 1,
+      "explanation": "سَمِيع und بَصِير folgen beide dem Intensivmuster فَعِيل mit langem /ii/ nach dem zweiten Radikal. Dieses /ii/ ist das Kennzeichen der Intensivform und erzeugt die Daurbedeutung: 'der stets Hörende', 'der stets Sehende'. In 17:1 erscheinen beide als Gottesattribute.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=61"
+    },
+    {
+      "id": "VLE28",
+      "word": "بَيْتٌ",
+      "ref": "2:125",
+      "question": "Enthält بَيْت einen Diphthong oder einen langen Vokal?",
+      "options": [
+        "Einen langen Vokal /ii/",
+        "Einen Diphthong /ay/ (Fatha + Ya mit Sukun)",
+        "Weder Diphthong noch langen Vokal"
+      ],
+      "correct": 1,
+      "explanation": "بَيْت enthält den Diphthong /ay/: Fatha auf با + Ya mit Sukun. Ein Diphthong ist kein langer Vokal — er besteht aus Kurzvokal + Halbvokal. Phonologisch besetzt er aber wie ein Langvokal zwei Moren. In 2:125 steht الْبَيْتَ mit diesem Diphthong.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+    },
+    {
+      "id": "VLE29",
+      "word": "قَوْلٌ",
+      "ref": "2:235",
+      "question": "Enthält قَوْل einen Diphthong oder einen langen Vokal?",
+      "options": [
+        "Einen langen Vokal /uu/ (Waaw = lang)",
+        "Einen Diphthong /aw/ (Fatha + Waaw mit Sukun)",
+        "Einen kurzen Vokal /u/"
+      ],
+      "correct": 1,
+      "explanation": "قَوْل enthält den Diphthong /aw/: Fatha auf قا + Waaw mit Sukun. Das Waaw trägt hier keinen eigenen Vokal, sondern Sukun — es ist Halbvokal, nicht Vokalträger. Vergleiche قَوْل (Diphthong /aw/) mit قُول (langer Vokal /uu/ in قُولُوا).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=235"
+    },
+    {
+      "id": "VLE30",
+      "word": "خَوْفٌ",
+      "ref": "2:38",
+      "question": "Ist das Waaw in خَوْف ein langer Vokal oder Teil eines Diphthongs?",
+      "options": [
+        "Langer Vokal /uu/",
+        "Diphthong /aw/",
+        "Reiner Konsonant /w/"
+      ],
+      "correct": 1,
+      "explanation": "In خَوْف bildet Fatha + Waaw + Sukun den Diphthong /aw/. Für einen langen Vokal /uu/ müsste Damma + Waaw stehen. In 2:38 steht فَلَا خَوْفٌ عَلَيْهِمْ — der Diphthong /aw/ ist deutlich hörbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+    },
+    {
+      "id": "VLE31",
+      "word": "لَيْلٌ",
+      "ref": "92:1",
+      "question": "Welcher Diphthong liegt in لَيْل vor?",
+      "options": [
+        "/aw/ (Fatha + Waaw)",
+        "/ay/ (Fatha + Ya mit Sukun)",
+        "Kein Diphthong — langes /ii/"
+      ],
+      "correct": 1,
+      "explanation": "لَيْل enthält den Diphthong /ay/: Fatha auf لا + Ya mit Sukun. In 92:1 steht وَاللَّيْلِ إِذَا يَغْشَىٰ. Der Diphthong /ay/ ist die zweite der beiden arabischen Diphthong-Möglichkeiten (neben /aw/).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=1"
+    },
+    {
+      "id": "VLE32",
+      "word": "مَوْتٌ",
+      "ref": "67:2",
+      "question": "Vergleichen Sie مَوْت (Tod, mit Diphthong /aw/) und مُوتُوا (sterbt!, mit langem /uu/). Was unterscheidet sie?",
+      "options": [
+        "مَوْت hat Fatha + Waaw + Sukun (/aw/ Diphthong), مُوتُوا hat Damma + Waaw (/uu/ langer Vokal)",
+        "Beide haben denselben Vokal",
+        "مَوْت hat langen Vokal, مُوتُوا hat Diphthong"
+      ],
+      "correct": 0,
+      "explanation": "مَوْت: Fatha auf م + Waaw mit Sukun = Diphthong /aw/. مُوتُوا (3:119): Damma auf م + Waaw = langer Vokal /uu/. Gleiche Wurzel م-و-ت, aber der Vokal vor dem Waaw entscheidet: Fatha erzeugt Diphthong, Damma erzeugt langen Vokal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=2"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+}

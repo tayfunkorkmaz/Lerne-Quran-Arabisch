@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Mushaf-Notation und Gliederungszeichen",
+    "description": "Referenz für die Textelemente und Versmarkierungen im Qurantext.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ]
+  },
+  "textElements": [
+    {
+      "id": "ayah_end",
+      "name": "Versend-Zeichen",
+      "symbol": "",
+      "description": "Markiert das Ende eines Verses (Aya). Die Versnummer steht innerhalb oder neben dem Zeichen. Das Versend-Zeichen gehört zur redaktionellen Schicht des Mushaf und ist kein Bestandteil des frühen Rasm.",
+      "note": "Die Gesamtzahl der Verse variiert je nach Zählkonvention zwischen 6204 und 6236. Der heutige Standard zählt 6236 Verse. Die Abweichungen entstehen nicht durch fehlende Verse, sondern durch unterschiedliche Auffassungen, wo ein Vers endet und der nächste beginnt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=30"
+    },
+    {
+      "id": "basmala",
+      "name": "Basmala (بسملة)",
+      "symbol": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "description": "Steht vor jeder Sure außer Sure 9. In Sure 1 ist sie nach der gängigsten Zählkonvention (kufisch) der erste Vers. Andere Zählsysteme (basrisch) zählen sie nicht als eigenen Vers. In allen anderen Suren steht sie vor dem ersten Vers und wird nicht als Vers gezählt.",
+      "note": "Sure 27:30 enthält eine Basmala innerhalb des Verstextes — dort ist sie Teil des Verses selbst.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=30"
+    },
+    {
+      "id": "surah_header",
+      "name": "Surenname und Verszahl",
+      "description": "Vor jeder Sure steht ein Header mit dem Surennamen und der Verszahl. Dient der Navigation im Text.",
+      "verifyUrl": "https://corpus.quran.com/qurantext.jsp?chapter=2&verse=1"
+    }
+  ]
+}

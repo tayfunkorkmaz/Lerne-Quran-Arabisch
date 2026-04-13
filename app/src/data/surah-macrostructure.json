@@ -1,0 +1,3174 @@
+{
+  "meta": {
+    "title": "Surenstruktur — Makrostruktur quranischer Suren",
+    "description": "Strukturanalyse für alle 114 Suren basierend auf programmatisch erkennbaren sprachlichen Strukturmerkmalen: Refrains, Diskurs-Marker (وَإِذْ, فَلَمَّا, قُلْ, يَٰٓأَيُّهَا), Eröffnungstypen (Huruf Muqattaat, Schwur, Hamdala, Inna), Längenkennzahlen.",
+    "status": "vollständig",
+    "approach": "Rein auf beobachtbaren sprachlichen Merkmalen basierend. Jede Beobachtung ist mit konkreten Versangaben verankert. Keine theologischen oder exegetischen Hinzufügungen.",
+    "coverage": "114/114",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ],
+    "handCuratedSurahs": [
+      1,
+      12,
+      26,
+      36,
+      55,
+      56
+    ],
+    "handCuratedNote": "Diese Suren haben hand-kuratierte Mehrabschnitt-Analysen mit zusätzlicher Tiefe. Die übrigen Einträge sind programmatisch generiert aus dem Uthmani-Mushaf-Text."
+  },
+  "surahs": [
+    {
+      "surahNumber": 1,
+      "totalVerses": 7,
+      "structuralFeature": "Ringkomposition",
+      "segments": [
+        {
+          "label": "A: Anrufung",
+          "verseRange": "1-4",
+          "function": "Thematische Rahmung",
+          "description": "Vier Satzteile in Nominalstruktur: بسم الله / رب العالمين / الرحمن الرحيم / مالك يوم الدين. Rein prädikativ, kein Verb.",
+          "marker": "Nominalphrasen ohne Verb — reine Zuschreibung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "label": "B: Zentrum (Wendepunkt)",
+          "verseRange": "5",
+          "function": "Sprechaktwechsel: von Beschreibung (3. Person) zu Anrede (2. Person)",
+          "description": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ — Iltifat (Personenwechsel) von 3. zu 2. Person. Vorangestelltes Objekt (Taqdim) als Struktursignal.",
+          "marker": "Iltifat (3. → 2. Person), Taqdim des Objekts إِيَّاكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "label": "A': Bitte",
+          "verseRange": "6-7",
+          "function": "Gegenstück zur Eröffnung",
+          "description": "Imperative (اهْدِنَا) und Relativsätze (الَّذِينَ). Ring schließt sich: Vers 1-3 benennen Attribute, Vers 6-7 formulieren die Konsequenz daraus.",
+          "marker": "Imperativ اهْدِنَا — einziger Imperativ der Sure",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "surahNumber": 2,
+      "totalVerses": 286,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "30, 34, 49, 50, 51, 53, 54, 55, 58, 61, 63, 67, 72, 83, 84, 93, 125, 126, 127, 260",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "38, 94, 97, 139",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 4-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "21, 104, 153, 168, 172, 178, 183, 208, 254, 264, 267, 278, 282",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 13-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "286",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا\".",
+          "marker": "لَا يُكَلِّفُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "surahNumber": 3,
+      "totalVerses": 200,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "42, 81, 121, 187",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=42"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "36, 52",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=36"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "15, 29, 31, 32, 64, 84, 95, 98, 99",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 9-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=15"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "100, 102, 118, 130, 149, 156, 200",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 7-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=100"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "200",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱصْبِرُوا وَصَابِرُوا وَرَابِطُوا\".",
+          "marker": "يَٰٓأَيُّهَا ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=200"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=1"
+    },
+    {
+      "surahNumber": 4,
+      "totalVerses": 176,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 19, 29, 43, 47, 59, 71, 94, 135, 136, 144, 170, 174",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 13-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "176",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يَسْتَفْتُونَكَ قُلِ ٱللَّهُ يُفْتِيكُمْ فِى ٱلْكَلَٰلَةِ\".",
+          "marker": "يَسْتَفْتُونَكَ قُلِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=176"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+    },
+    {
+      "surahNumber": 5,
+      "totalVerses": 120,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "20, 111, 116",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=20"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "59, 60, 68, 76, 77",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 5-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=59"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 2, 6, 8, 11, 35, 41, 51, 54, 57, 67, 87, 90, 94, 95, 101, 105, 106",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 18-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "120",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا فِيهِنَّ\".",
+          "marker": "لِلَّهِ مُلْكُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=120"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+    },
+    {
+      "surahNumber": 6,
+      "totalVerses": 165,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "hamd",
+          "description": "Lob-Eröffnung (Hamdala) als nominaler Aussagesatz.",
+          "marker": "ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "44, 76, 77, 78",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=44"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "11, 14, 15, 19, 40, 46, 47, 56, 57, 63, 65, 71, 135, 149, 150, 151, 161, 162, 164",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 19-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=11"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "165",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ\".",
+          "marker": "وَهُوَ ٱلَّذِى",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=165"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+    },
+    {
+      "surahNumber": 7,
+      "totalVerses": 206,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓصٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "141, 161, 164, 167, 171, 172",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=141"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "135, 165, 166, 190",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=135"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "29, 32, 33, 158",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 4-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=29"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "206",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ ٱلَّذِينَ عِندَ رَبِّكَ لَا يَسْتَكْبِرُونَ\".",
+          "marker": "إِنَّ ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=206"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=1"
+    },
+    {
+      "surahNumber": 8,
+      "totalVerses": 75,
+      "structuralFeature": "وَإِذْ-Episodenkette",
+      "segments": [
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "7, 30, 32, 44, 48",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=7"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "15, 20, 24, 27, 29, 45, 64, 65, 70",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 9-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=15"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "75",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱلَّذِينَ ءَامَنُوا مِن بَعْدُ وَهَاجَرُوا وَجَٰهَدُوا\".",
+          "marker": "وَٱلَّذِينَ ءَامَنُوا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=75"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=1"
+    },
+    {
+      "surahNumber": 9,
+      "totalVerses": 129,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "24, 52, 53",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 3-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=24"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "23, 28, 34, 38, 73, 119, 123",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 7-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=23"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "129",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَإِن تَوَلَّوْا فَقُلْ حَسْبِىَ ٱللَّهُ لَآ\".",
+          "marker": "فَإِن تَوَلَّوْا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=129"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=1"
+    },
+    {
+      "surahNumber": 10,
+      "totalVerses": 109,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "23, 76, 80, 81",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=23"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "31, 34, 35, 50, 58, 59, 69, 104, 108",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 9-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=31"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "109",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ\".",
+          "marker": "وَٱتَّبِعْ مَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=109"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=1"
+    },
+    {
+      "surahNumber": 11,
+      "totalVerses": 123,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "66, 70, 74, 82",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=66"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "123",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ\".",
+          "marker": "وَلِلَّهِ غَيْبُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=123"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=1"
+    },
+    {
+      "surahNumber": 12,
+      "totalVerses": 111,
+      "structuralFeature": "Narrative Klammer mit Rahmenstruktur",
+      "segments": [
+        {
+          "label": "Rahmen: Einleitung",
+          "verseRange": "1-3",
+          "function": "Metasprachliche Rahmung",
+          "description": "Huruf Muqattaat (الر) + Selbstbezug des Textes: تِلْكَ آيَاتُ الْكِتَابِ + نَحْنُ نَقُصُّ عَلَيْكَ. Der Text kündigt sich selbst als Erzählung an.",
+          "marker": "نَقُصُّ (wir erzählen) — metanarrativer Marker",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=1"
+        },
+        {
+          "label": "Erzählung",
+          "verseRange": "4-101",
+          "function": "Fortlaufende Narration",
+          "description": "Längste zusammenhängende Erzählung im Quran. Durchgehende narrative Vergangenheitsform (Perfekt-Kette: قَالَ / فَلَمَّا / إِذْ قَالَ). Kein Refrain, kein Anredewechsel — reine Narration.",
+          "marker": "Ketten von قَالَ (er sagte), فَلَمَّا (als dann), إِذْ (als)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        },
+        {
+          "label": "Rahmen: Schluss",
+          "verseRange": "102-111",
+          "function": "Metasprachliche Schließung",
+          "description": "Rückkehr zur Rahmenebene: ذَٰلِكَ مِنْ أَنبَاءِ الْغَيْبِ (102). Der Text kommentiert sich selbst wieder. Ringschluss mit der Einleitung.",
+          "marker": "ذَٰلِكَ مِنْ أَنبَاءِ — Rückverweis auf نَقُصُّ aus Vers 3",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=102"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=1"
+    },
+    {
+      "surahNumber": 13,
+      "totalVerses": 43,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"الٓمٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "الٓمٓر تِلْكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "43",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَيَقُولُ ٱلَّذِينَ كَفَرُوا لَسْتَ مُرْسَلًا قُلْ\".",
+          "marker": "وَيَقُولُ ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=43"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=1"
+    },
+    {
+      "surahNumber": 14,
+      "totalVerses": 52,
+      "structuralFeature": "وَإِذْ-Episodenkette",
+      "segments": [
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "6, 7, 35",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=6"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "52",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"هَٰذَا بَلَٰغٌ لِّلنَّاسِ وَلِيُنذَرُوا بِهِ وَلِيَعْلَمُوٓا\".",
+          "marker": "هَٰذَا بَلَٰغٌ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=52"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=1"
+    },
+    {
+      "surahNumber": 15,
+      "totalVerses": 99,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "الٓر تِلْكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "99",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ\".",
+          "marker": "وَٱعْبُدْ رَبَّكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=99"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=1"
+    },
+    {
+      "surahNumber": 16,
+      "totalVerses": 128,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"أَتَىٰٓ أَمْرُ ٱللَّهِ فَلَا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "أَتَىٰٓ أَمْرُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "128",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ ٱللَّهَ مَعَ ٱلَّذِينَ ٱتَّقَوا وَّٱلَّذِينَ\".",
+          "marker": "إِنَّ ٱللَّهَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=128"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=1"
+    },
+    {
+      "surahNumber": 17,
+      "totalVerses": 111,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "60, 61",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=60"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "50, 84, 96, 107",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 4-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=50"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "111",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ\".",
+          "marker": "وَقُلِ ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=111"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=1"
+    },
+    {
+      "surahNumber": 18,
+      "totalVerses": 110,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "hamd",
+          "description": "Lob-Eröffnung (Hamdala) als nominaler Aussagesatz.",
+          "marker": "ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "50, 60",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=50"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "61, 62",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=61"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "103, 110",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=103"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "110",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"قُلْ إِنَّمَآ أَنَا بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ\".",
+          "marker": "قُلْ إِنَّمَآ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=110"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=1"
+    },
+    {
+      "surahNumber": 19,
+      "totalVerses": 98,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "كٓهيعٓصٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "98",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ\".",
+          "marker": "وَكَمْ أَهْلَكْنَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=98"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=1"
+    },
+    {
+      "surahNumber": 20,
+      "totalVerses": 135,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "طه",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "68, 135",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=68"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "135",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"قُلْ كُلٌّ مُّتَرَبِّصٌ فَتَرَبَّصُوا فَسَتَعْلَمُونَ مَنْ\".",
+          "marker": "قُلْ كُلٌّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=135"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=1"
+    },
+    {
+      "surahNumber": 21,
+      "totalVerses": 112,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "42, 45, 69, 108",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 4-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=42"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "112",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ وَرَبُّنَا ٱلرَّحْمَٰنُ\".",
+          "marker": "قَٰلَ رَبِّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=112"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=1"
+    },
+    {
+      "surahNumber": 22,
+      "totalVerses": 78,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 5, 73, 77",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 4-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "78",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَجَٰهِدُوا فِى ٱللَّهِ حَقَّ جِهَادِهِ هُوَ\".",
+          "marker": "وَجَٰهِدُوا فِى",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=78"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=1"
+    },
+    {
+      "surahNumber": 23,
+      "totalVerses": 118,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "86, 88",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=86"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "118",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ\".",
+          "marker": "وَقُل رَّبِّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=118"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+    },
+    {
+      "surahNumber": 24,
+      "totalVerses": 64,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "21, 27, 58",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 3-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=21"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "64",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"أَلَآ إِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ\".",
+          "marker": "أَلَآ إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=64"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+    },
+    {
+      "surahNumber": 25,
+      "totalVerses": 77,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "6, 15, 57, 77",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 4-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=6"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "77",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"قُلْ مَا يَعْبَؤُا بِكُمْ رَبِّى لَوْلَا\".",
+          "marker": "قُلْ مَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=77"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=1"
+    },
+    {
+      "surahNumber": 26,
+      "totalVerses": 227,
+      "structuralFeature": "Wiederholte Erzählformel mit Refrain",
+      "segments": [
+        {
+          "label": "Einleitung",
+          "verseRange": "1-9",
+          "function": "Rahmung",
+          "description": "Huruf Muqattaat + Textthema.",
+          "marker": "طسم",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=1"
+        },
+        {
+          "label": "Verkündererzählungen (7x)",
+          "verseRange": "10-191",
+          "function": "Sieben parallele Erzählblöcke mit identischer Struktur",
+          "description": "Jeder Block folgt demselben Schema: Sendung → Ablehnung → Strafe. Der Doppelrefrain إِنَّ فِي ذَٰلِكَ لَآيَةً وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ / وَإِنَّ رَبَّكَ لَهُوَ الْعَزِيزُ الرَّحِيمُ erscheint nach jedem Block. Das erste Vorkommen (V.8-9) steht nach der Einleitung (V.1-7), noch vor dem ersten Erzählblock.",
+          "marker": "Doppelrefrain (V.8-9 nach Einleitung, dann 67-68, 103-104, 121-122, 139-140, 158-159, 174-175, 190-191 nach den Erzählblöcken)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=10"
+        },
+        {
+          "label": "Schluss: Dichter",
+          "verseRange": "192-227",
+          "function": "Thematischer Kontrast",
+          "description": "Wechsel von Narration zu Argumentation. Kontraststruktur: Dichter (الشعراء) vs. Glaubende (إِلَّا الَّذِينَ آمَنُوا). Ausnahme-Konstruktion (إِلَّا) als Schlussmarker.",
+          "marker": "وَالشُّعَرَاءُ — Nominalsatz als Themenwechsel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=192"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=1"
+    },
+    {
+      "surahNumber": 27,
+      "totalVerses": 93,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "8, 13, 36, 42",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=8"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "69, 72",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=69"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "93",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَقُلِ ٱلْحَمْدُ لِلَّهِ سَيُرِيكُمْ ءَايَٰتِهِ فَتَعْرِفُونَهَا\".",
+          "marker": "وَقُلِ ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=93"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=1"
+    },
+    {
+      "surahNumber": 28,
+      "totalVerses": 88,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "طسٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=1"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "19, 29, 30, 36, 48",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=19"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "49, 71, 72",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 3-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=49"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "88",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَا تَدْعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ\".",
+          "marker": "وَلَا تَدْعُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=88"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=1"
+    },
+    {
+      "surahNumber": 29,
+      "totalVerses": 69,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "20, 52",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=20"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "69",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱلَّذِينَ جَٰهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا وَإِنَّ\".",
+          "marker": "وَٱلَّذِينَ جَٰهَدُوا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=69"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=1"
+    },
+    {
+      "surahNumber": 30,
+      "totalVerses": 60,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "60",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَا\".",
+          "marker": "فَٱصْبِرْ إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=60"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=1"
+    },
+    {
+      "surahNumber": 31,
+      "totalVerses": 34,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "34",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ ٱللَّهَ عِندَهُ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ\".",
+          "marker": "إِنَّ ٱللَّهَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=34"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=1"
+    },
+    {
+      "surahNumber": 32,
+      "totalVerses": 30,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "الٓمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=32&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "11, 29",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=32&verse=11"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "30",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَأَعْرِضْ عَنْهُمْ وَٱنتَظِرْ إِنَّهُم مُّنتَظِرُونَ\".",
+          "marker": "فَأَعْرِضْ عَنْهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=32&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=32&verse=1"
+    },
+    {
+      "surahNumber": 33,
+      "totalVerses": 73,
+      "structuralFeature": "وَإِذْ-Episodenkette",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلنَّبِىُّ ٱتَّقِ",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=1"
+        },
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "7, 12, 13, 37",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=7"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 9, 28, 41, 45, 49, 50, 53, 59, 69, 70",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 11-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "73",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ\".",
+          "marker": "لِّيُعَذِّبَ ٱللَّهُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=73"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=1"
+    },
+    {
+      "surahNumber": 34,
+      "totalVerses": 54,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "hamd",
+          "description": "Lob-Eröffnung (Hamdala) als nominaler Aussagesatz.",
+          "marker": "ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "24, 26, 27, 36, 39, 46, 47, 48, 49, 50",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 10-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=24"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "54",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا\".",
+          "marker": "وَحِيلَ بَيْنَهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=54"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=1"
+    },
+    {
+      "surahNumber": 35,
+      "totalVerses": 45,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "hamd",
+          "description": "Lob-Eröffnung (Hamdala) als nominaler Aussagesatz.",
+          "marker": "ٱلْحَمْدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "3, 5, 15",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 3-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=3"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "45",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِمَا كَسَبُوا\".",
+          "marker": "وَلَوْ يُؤَاخِذُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=45"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+    },
+    {
+      "surahNumber": 36,
+      "totalVerses": 83,
+      "structuralFeature": "Dreigliederung mit Diskursmarkern",
+      "segments": [
+        {
+          "label": "Teil 1: Sendung und Ablehnung",
+          "verseRange": "1-32",
+          "function": "Narration + Argumentation",
+          "description": "Huruf Muqattaat (يس) + Schwur (وَالْقُرْآنِ الْحَكِيمِ). Dann Erzählung (اصحاب القرية). Übergang markiert durch وَاضْرِبْ لَهُم مَّثَلًا (Vers 13).",
+          "marker": "وَاضْرِبْ لَهُم مَّثَلًا — Imperativ als Erzähleinleitung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=1"
+        },
+        {
+          "label": "Teil 2: Schöpfungsargumente",
+          "verseRange": "33-50",
+          "function": "Argumentative Aufzählung",
+          "description": "Kette von وَآيَةٌ لَّهُمُ (und ein Zeichen für sie ist...). Wiederholte Nominalstruktur als Aufzählungssignal.",
+          "marker": "وَآيَةٌ لَّهُمُ — dreimal wiederholte Formel (33, 37, 41)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=33"
+        },
+        {
+          "label": "Teil 3: Eschatologische Rede",
+          "verseRange": "51-83",
+          "function": "Direkte Rede und Kontrast",
+          "description": "Strukturwechsel durch وَنُفِخَ فِي الصُّورِ (51). Dann Kontrastpaare: Garten-Bewohner (55-58) vs. andere (59-65). Abschluss: Frage ohne Antworterwartungen + Lobformel.",
+          "marker": "وَنُفِخَ فِي الصُّورِ — Passiv-Konstruktion als Szenenwechsel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=51"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=1"
+    },
+    {
+      "surahNumber": 37,
+      "totalVerses": 182,
+      "structuralFeature": "Refrain-Struktur",
+      "segments": [
+        {
+          "label": "Refrain",
+          "verseRange": "40, 74, 128, 160",
+          "function": "Strukturierender Refrain",
+          "description": "Verse mit refrainartiger Wiederholung: \"إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ\". 4-mal in der Sure.",
+          "marker": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=40"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "102, 103",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=102"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "182",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ\".",
+          "marker": "وَٱلْحَمْدُ لِلَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=182"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=1",
+      "refrain": {
+        "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+        "count": 4,
+        "function": "Verse mit refrainartiger Wiederholung in dieser Sure."
+      }
+    },
+    {
+      "surahNumber": 38,
+      "totalVerses": 88,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "65, 67, 86",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 3-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=65"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "88",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَتَعْلَمُنَّ نَبَأَهُ بَعْدَ حِينٍ\".",
+          "marker": "وَلَتَعْلَمُنَّ نَبَأَهُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=88"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=1"
+    },
+    {
+      "surahNumber": 39,
+      "totalVerses": 75,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "10, 11, 13, 39, 53, 64",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 6-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=10"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "75",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ\".",
+          "marker": "وَتَرَى ٱلْمَلَٰٓئِكَةَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=75"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=1"
+    },
+    {
+      "surahNumber": 40,
+      "totalVerses": 85,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=1"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "25, 83, 84",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=25"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "85",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا\".",
+          "marker": "فَلَمْ يَكُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=85"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=1"
+    },
+    {
+      "surahNumber": 41,
+      "totalVerses": 54,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "6, 9, 52",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 3-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=6"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "54",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ\".",
+          "marker": "أَلَآ إِنَّهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=54"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=1"
+    },
+    {
+      "surahNumber": 42,
+      "totalVerses": 53,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "53",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُ مَا فِى\".",
+          "marker": "صِرَٰطِ ٱللَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=53"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=1"
+    },
+    {
+      "surahNumber": 43,
+      "totalVerses": 89,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=1"
+        },
+        {
+          "label": "فَلَمَّا-Sequenzen",
+          "verseRange": "47, 50, 55",
+          "function": "Narrative Anschlusspartikeln",
+          "description": "Wiederholtes فَلَمَّا (\"dann als …\") gliedert die Erzählung in temporale Schritte.",
+          "marker": "فَلَمَّا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=47"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "89",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَٱصْفَحْ عَنْهُمْ وَقُلْ سَلَٰمٌ فَسَوْفَ يَعْلَمُونَ\".",
+          "marker": "فَٱصْفَحْ عَنْهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=89"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=1"
+    },
+    {
+      "surahNumber": 44,
+      "totalVerses": 59,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "59",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَٱرْتَقِبْ إِنَّهُم مُّرْتَقِبُونَ\".",
+          "marker": "فَٱرْتَقِبْ إِنَّهُم",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=59"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=1"
+    },
+    {
+      "surahNumber": 45,
+      "totalVerses": 37,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "37",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَهُ ٱلْكِبْرِيَآءُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَهُوَ\".",
+          "marker": "وَلَهُ ٱلْكِبْرِيَآءُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=37"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=1"
+    },
+    {
+      "surahNumber": 46,
+      "totalVerses": 35,
+      "structuralFeature": "Lettered Sūra (Huruf Muqattaat-Eröffnung)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "huruf-muqattaat",
+          "description": "Huruf Muqattaat — die \"abgetrennten Buchstaben\" am Anfang der Sure. Linguistisch nicht weiter aufschlüsselbar.",
+          "marker": "حمٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "4, 9, 10",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 3-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=4"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "35",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَٱصْبِرْ كَمَا صَبَرَ أُولُوا ٱلْعَزْمِ مِنَ\".",
+          "marker": "فَٱصْبِرْ كَمَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=35"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=1"
+    },
+    {
+      "surahNumber": 47,
+      "totalVerses": 38,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "7, 33",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 2-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=7"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "38",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"هَٰٓأَنتُمْ هَٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا فِى سَبِيلِ\".",
+          "marker": "هَٰٓأَنتُمْ هَٰٓؤُلَآءِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=38"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=1"
+    },
+    {
+      "surahNumber": 48,
+      "totalVerses": 29,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "inna",
+          "description": "Eröffnung mit Bekräftigungspartikel إِنَّ — emphatische Setzung.",
+          "marker": "إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "29",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"مُّحَمَّدٌ رَّسُولُ ٱللَّهِ وَٱلَّذِينَ مَعَهُٓ أَشِدَّآءُ\".",
+          "marker": "مُّحَمَّدٌ رَّسُولُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=29"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+    },
+    {
+      "surahNumber": 49,
+      "totalVerses": 18,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 2, 6, 11, 12, 13",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 6-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "18",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ ٱللَّهَ يَعْلَمُ غَيْبَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ\".",
+          "marker": "إِنَّ ٱللَّهَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=18"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=1"
+    },
+    {
+      "surahNumber": 50,
+      "totalVerses": 45,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"قٓ وَٱلْقُرْءَانِ ٱلْمَجِيدِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "قٓ وَٱلْقُرْءَانِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "45",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ وَمَآ أَنتَ\".",
+          "marker": "نَّحْنُ أَعْلَمُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=45"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=1"
+    },
+    {
+      "surahNumber": 51,
+      "totalVerses": 60,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلذَّٰرِيَٰتِ ذَرْوًا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلذَّٰرِيَٰتِ ذَرْوًا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "60",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَوَيْلٌ لِّلَّذِينَ كَفَرُوا مِن يَوْمِهِمُ ٱلَّذِى\".",
+          "marker": "فَوَيْلٌ لِّلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=60"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=1"
+    },
+    {
+      "surahNumber": 52,
+      "totalVerses": 49,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلطُّورِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلطُّورِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "49",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَٰرَ ٱلنُّجُومِ\".",
+          "marker": "وَمِنَ ٱلَّيْلِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=49"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=1"
+    },
+    {
+      "surahNumber": 53,
+      "totalVerses": 62,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلنَّجْمِ إِذَا هَوَىٰ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلنَّجْمِ إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "62",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَٱسْجُدُوا لِلَّهِ وَٱعْبُدُوا\".",
+          "marker": "فَٱسْجُدُوا لِلَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=62"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=1"
+    },
+    {
+      "surahNumber": 54,
+      "totalVerses": 55,
+      "structuralFeature": "Refrain-Struktur",
+      "segments": [
+        {
+          "label": "Refrain",
+          "verseRange": "17, 22, 32, 40",
+          "function": "Strukturierender Refrain",
+          "description": "Verse mit refrainartiger Wiederholung: \"وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ\". 4-mal in der Sure.",
+          "marker": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=17"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "55",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فِى مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍ\".",
+          "marker": "فِى مَقْعَدِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=55"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=1",
+      "refrain": {
+        "text": "وَلَقَدْ يَسَّرْنَا ٱلْقُرْءَانَ لِلذِّكْرِ فَهَلْ مِن مُّدَّكِرٍ",
+        "count": 4,
+        "function": "Verse mit refrainartiger Wiederholung in dieser Sure."
+      }
+    },
+    {
+      "surahNumber": 55,
+      "totalVerses": 78,
+      "structuralFeature": "Systematischer Refrain",
+      "segments": [
+        {
+          "label": "Abschnitt 1: Schöpfung und Lehre",
+          "verseRange": "1-13",
+          "function": "Nominale Aufzählung",
+          "description": "Reine Nominalstrukturen und Perfektverben: عَلَّمَ / خَلَقَ. Nach jedem Abschnittende: Refrain.",
+          "marker": "Erster Refrain bei Vers 13",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+        },
+        {
+          "label": "Abschnitt 2: Kosmische Strukturen",
+          "verseRange": "14-25",
+          "function": "Parallele Schöpfungspaare",
+          "description": "Kontrastpaare: الثقلان (Menschen und Jinn), المشرقين (die beiden Osten). Duale Formen als Struktursignal.",
+          "marker": "Dualformen: رَبُّ الْمَشْرِقَيْنِ، الْبَحْرَيْنِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=14"
+        },
+        {
+          "label": "Abschnitt 3: Vergänglichkeit",
+          "verseRange": "26-30",
+          "function": "Zentrales Kontrastpaar",
+          "description": "كُلُّ مَنْ عَلَيْهَا فَانٍ / وَيَبْقَىٰ وَجْهُ رَبِّكَ — Antithese als Strukturzentrum.",
+          "marker": "فَانٍ vs. يَبْقَىٰ — antithetischer Kern",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=26"
+        },
+        {
+          "label": "Abschnitt 4: Anrede an die Thaqalain — Rechenschaft und Strafe",
+          "verseRange": "31-45",
+          "function": "Direkte Anrede und Drohungssequenz",
+          "description": "Direkte Anrede an Menschen und Jinn (سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ, Vers 31). Beschreibung der Konsequenzen: Flucht ohne Entkommen (يُرْسَلُ عَلَيْكُمَا شُوَاظٌ, Vers 35), kosmische Zeichen (انشَقَّتِ السَّمَاءُ, Vers 37), Identifikation der Sünder (يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ, Vers 41). Jeder Unterabschnitt wird durch den Refrain فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ gegliedert (Verse 32, 34, 36, 38, 40, 42, 44, 45).",
+          "marker": "أَيُّهَ الثَّقَلَانِ (Vers 31) — explizite Doppelanrede; achtmaliger Refrain",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=31"
+        },
+        {
+          "label": "Abschnitt 5-6: Zwei Gartenpaare",
+          "verseRange": "46-78",
+          "function": "Symmetrische Beschreibungen",
+          "description": "Zwei Gartenpaare (46-61 und 62-78) mit parallelen Beschreibungsketten. Syntaktische Parallelismen: فِيهِمَا / فِيهِنَّ wiederholt.",
+          "marker": "Anapher فِيهِمَا / فِيهِنَّ am Abschnittsbeginn",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+        }
+      ],
+      "refrain": {
+        "text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+        "count": 31,
+        "function": "Strukturierender Refrain — teilt die Sure in thematische Abschnitte. Die Dualform -كُمَا verweist auf die Anrede an zwei Gruppen (الثقلان)."
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+    },
+    {
+      "surahNumber": 56,
+      "totalVerses": 96,
+      "structuralFeature": "Dreigruppenstruktur",
+      "segments": [
+        {
+          "label": "Einleitung: Das Ereignis",
+          "verseRange": "1-7",
+          "function": "Thematische Setzung",
+          "description": "Konditional-Struktur: إِذَا وَقَعَتِ الْوَاقِعَةُ — temporale Rahmung. Dreiteilung angekündigt: أَزْوَاجًا ثَلَاثَةً (Vers 7). Verse 8-9 nennen die erste und dritte Gruppe kurz als Frage ohne Antworterwartungen.",
+          "marker": "أَزْوَاجًا ثَلَاثَةً — expliziter Gliederungshinweis",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=1"
+        },
+        {
+          "label": "Gruppe 1: Vorausgehende (السابقون)",
+          "verseRange": "10-26",
+          "function": "Beschreibung der Vorausgehenden",
+          "description": "وَالسَّابِقُونَ السَّابِقُونَ — Tawkid lafzi als Emphase. Detaillierte Beschreibung ihrer Belohnung.",
+          "marker": "Wiederholung السَّابِقُونَ als sprachliches Mittel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=10"
+        },
+        {
+          "label": "Gruppe 2: Rechte (أصحاب اليمين)",
+          "verseRange": "27-40",
+          "function": "Beschreibung der Rechten",
+          "description": "وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ — Frage ohne Antworterwartung leitet die Beschreibung ein.",
+          "marker": "مَا أَصْحَابُ الْيَمِينِ — Frage ohne Antworterwartung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=27"
+        },
+        {
+          "label": "Gruppe 3: Linke (أصحاب الشمال)",
+          "verseRange": "41-56",
+          "function": "Kontrastgruppe",
+          "description": "وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ — parallele Nominalstruktur zu Gruppe 2.",
+          "marker": "مَا أَصْحَابُ الشِّمَالِ — parallele Frage ohne Antworterwartung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=41"
+        },
+        {
+          "label": "Schluss: Argumentation",
+          "verseRange": "57-96",
+          "function": "Schöpfungsargumente + Schwur",
+          "description": "أَفَرَأَيْتُمْ-Kette (Habt ihr gesehen?) viermal wiederholt (58, 63, 68, 71). Abschluss mit فَلَا أُقْسِمُ (75) — Schwurformel.",
+          "marker": "أَفَرَأَيْتُمْ — vierfache Frage ohne Antworterwartung als Argumentationskette",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=57"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=1"
+    },
+    {
+      "surahNumber": 57,
+      "totalVerses": 29,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"سَبَّحَ لِلَّهِ مَا فِى\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "سَبَّحَ لِلَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "29",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لِّئَلَّا يَعْلَمَ أَهْلُ ٱلْكِتَٰبِ أَلَّا يَقْدِرُونَ\".",
+          "marker": "لِّئَلَّا يَعْلَمَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=29"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=1"
+    },
+    {
+      "surahNumber": 58,
+      "totalVerses": 22,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "9, 11, 12",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 3-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=9"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "22",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لَّا تَجِدُ قَوْمًا يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ\".",
+          "marker": "لَّا تَجِدُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=22"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=1"
+    },
+    {
+      "surahNumber": 59,
+      "totalVerses": 24,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"سَبَّحَ لِلَّهِ مَا فِى\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "سَبَّحَ لِلَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "24",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"هُوَ ٱللَّهُ ٱلْخَٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ لَهُ\".",
+          "marker": "هُوَ ٱللَّهُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=24"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=1"
+    },
+    {
+      "surahNumber": 60,
+      "totalVerses": 13,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 10, 12, 13",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 4-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "13",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا لَا تَتَوَلَّوْا قَوْمًا\".",
+          "marker": "يَٰٓأَيُّهَا ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=13"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+    },
+    {
+      "surahNumber": 61,
+      "totalVerses": 14,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "وَإِذْ-Erzählketten",
+          "verseRange": "5, 6",
+          "function": "Narrative Anknüpfungen",
+          "description": "Mehrfach wiederholtes Diskurs-Eröffnungsmuster وَإِذْ (\"und als …\"). Jede Instanz beginnt eine neue Episodenrahmung.",
+          "marker": "وَإِذْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=5"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "2, 10, 14",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 3-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=2"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "14",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا كُونُوٓا أَنصَارَ ٱللَّهِ\".",
+          "marker": "يَٰٓأَيُّهَا ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=14"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=1"
+    },
+    {
+      "surahNumber": 62,
+      "totalVerses": 11,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "6, 8",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 2-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=6"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "11",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَإِذَا رَأَوْا تِجَٰرَةً أَوْ لَهْوًا ٱنفَضُّوٓا\".",
+          "marker": "وَإِذَا رَأَوْا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=1"
+    },
+    {
+      "surahNumber": 63,
+      "totalVerses": 11,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "11",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَن يُؤَخِّرَ ٱللَّهُ نَفْسًا إِذَا جَآءَ\".",
+          "marker": "وَلَن يُؤَخِّرَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=1"
+    },
+    {
+      "surahNumber": 64,
+      "totalVerses": 18,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"يُسَبِّحُ لِلَّهِ مَا فِى\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "يُسَبِّحُ لِلَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "18",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلْحَكِيمُ\".",
+          "marker": "عَٰلِمُ ٱلْغَيْبِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=18"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=1"
+    },
+    {
+      "surahNumber": 65,
+      "totalVerses": 12,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "12",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ وَمِنَ\".",
+          "marker": "ٱللَّهُ ٱلَّذِى",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=1"
+    },
+    {
+      "surahNumber": 66,
+      "totalVerses": 12,
+      "structuralFeature": "Adressaten-gegliederte Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=1"
+        },
+        {
+          "label": "Direkte Anreden",
+          "verseRange": "1, 6, 7, 8, 9",
+          "function": "Anrede-Wechsel",
+          "description": "يَٰٓأَيُّهَا als Anrede-Eröffnung wiederholt sich 5-mal — gliedert die Sure in adressatenbezogene Blöcke.",
+          "marker": "يَٰٓأَيُّهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "12",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا\".",
+          "marker": "وَمَرْيَمَ ٱبْنَتَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=12"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=1"
+    },
+    {
+      "surahNumber": 67,
+      "totalVerses": 30,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "23, 24, 26, 28, 29, 30",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 6-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=23"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "30",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًا\".",
+          "marker": "قُلْ أَرَءَيْتُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+    },
+    {
+      "surahNumber": 68,
+      "totalVerses": 52,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"نٓ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "نٓ وَٱلْقَلَمِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "52",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمَا هُوَ إِلَّا ذِكْرٌ لِّلْعَٰلَمِينَ\".",
+          "marker": "وَمَا هُوَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=52"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=1"
+    },
+    {
+      "surahNumber": 69,
+      "totalVerses": 52,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"ٱلْحَآقَّةُ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "ٱلْحَآقَّةُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "52",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ\".",
+          "marker": "فَسَبِّحْ بِٱسْمِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=52"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=1"
+    },
+    {
+      "surahNumber": 70,
+      "totalVerses": 44,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"سَأَلَ سَآئِلٌ بِعَذَابٍ وَاقِعٍ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "سَأَلَ سَآئِلٌ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "44",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ذَٰلِكَ ٱلْيَوْمُ\".",
+          "marker": "خَٰشِعَةً أَبْصَٰرُهُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=44"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=1"
+    },
+    {
+      "surahNumber": 71,
+      "totalVerses": 28,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "inna",
+          "description": "Eröffnung mit Bekräftigungspartikel إِنَّ — emphatische Setzung.",
+          "marker": "إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "28",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ\".",
+          "marker": "رَّبِّ ٱغْفِرْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=1"
+    },
+    {
+      "surahNumber": 72,
+      "totalVerses": 28,
+      "structuralFeature": "قُلْ-Imperativketten",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "qul",
+          "description": "Imperativ-Eröffnung: قُلْ (\"sage!\") — Befehlsform 2. Sg. m.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=1"
+        },
+        {
+          "label": "قُلْ-Imperative",
+          "verseRange": "1, 20, 21, 22, 25",
+          "function": "Direkte Befehlsformeln",
+          "description": "قُلْ (\"sage\") wiederholt sich 5-mal als Diskurs-Marker, der jeweils einen neuen Sprechakt einleitet.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "28",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَٰلَٰتِ رَبِّهِمْ\".",
+          "marker": "لِّيَعْلَمَ أَن",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=28"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=1"
+    },
+    {
+      "surahNumber": 73,
+      "totalVerses": 20,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "20",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ\".",
+          "marker": "إِنَّ رَبَّكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=1"
+    },
+    {
+      "surahNumber": 74,
+      "totalVerses": 56,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "address",
+          "description": "Direkte Anrede als Eröffnung: يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
+          "marker": "يَٰٓأَيُّهَا...",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "56",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمَا يَذْكُرُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ\".",
+          "marker": "وَمَا يَذْكُرُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=56"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=1"
+    },
+    {
+      "surahNumber": 75,
+      "totalVerses": 40,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَٰمَةِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "لَآ أُقْسِمُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "40",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"أَلَيْسَ ذَٰلِكَ بِقَٰدِرٍ عَلَىٰٓ أَن يُحْـِىَ\".",
+          "marker": "أَلَيْسَ ذَٰلِكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=40"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=1"
+    },
+    {
+      "surahNumber": 76,
+      "totalVerses": 31,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"هَلْ أَتَىٰ عَلَى ٱلْإِنسَٰنِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "هَلْ أَتَىٰ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "31",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِ وَٱلظَّٰلِمِينَ\".",
+          "marker": "يُدْخِلُ مَن",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=31"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+    },
+    {
+      "surahNumber": 77,
+      "totalVerses": 50,
+      "structuralFeature": "Refrain-Struktur",
+      "segments": [
+        {
+          "label": "Refrain",
+          "verseRange": "15, 19, 24, 28, 34, 37, 40, 45, 47, 49",
+          "function": "Strukturierender Refrain",
+          "description": "Verse mit refrainartiger Wiederholung: \"وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ\". 10-mal in der Sure.",
+          "marker": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=15"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "50",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَبِأَىِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ\".",
+          "marker": "فَبِأَىِّ حَدِيثٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=50"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=1",
+      "refrain": {
+        "text": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+        "count": 10,
+        "function": "Verse mit refrainartiger Wiederholung in dieser Sure."
+      }
+    },
+    {
+      "surahNumber": 78,
+      "totalVerses": 40,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"عَمَّ يَتَسَآءَلُونَ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "عَمَّ يَتَسَآءَلُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "40",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّآ أَنذَرْنَٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ\".",
+          "marker": "إِنَّآ أَنذَرْنَٰكُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=40"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+    },
+    {
+      "surahNumber": 79,
+      "totalVerses": 46,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلنَّٰزِعَٰتِ غَرْقًا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلنَّٰزِعَٰتِ غَرْقًا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "46",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا إِلَّا\".",
+          "marker": "كَأَنَّهُمْ يَوْمَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=46"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=1"
+    },
+    {
+      "surahNumber": 80,
+      "totalVerses": 42,
+      "structuralFeature": "Längere Sure mit thematischer Sequenz",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"عَبَسَ وَتَوَلَّىٰٓ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "عَبَسَ وَتَوَلَّىٰٓ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "42",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"أُولَٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ\".",
+          "marker": "أُولَٰٓئِكَ هُمُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=42"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=1"
+    },
+    {
+      "surahNumber": 81,
+      "totalVerses": 29,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "29",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ\".",
+          "marker": "وَمَا تَشَآءُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=29"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=1"
+    },
+    {
+      "surahNumber": 82,
+      "totalVerses": 19,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "19",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْـًٔا\".",
+          "marker": "يَوْمَ لَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=19"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=1"
+    },
+    {
+      "surahNumber": 83,
+      "totalVerses": 36,
+      "structuralFeature": "Schwur-Eröffnung",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "oath",
+          "description": "Schwur-Eröffnung mit وَ القسم. Erstes Schwurobjekt: وَيْلٌ.",
+          "marker": "وَ + Schwurobjekt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "36",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا يَفْعَلُونَ\".",
+          "marker": "هَلْ ثُوِّبَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=36"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=1"
+    },
+    {
+      "surahNumber": 84,
+      "totalVerses": 25,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=84&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "25",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِلَّا ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ لَهُمْ\".",
+          "marker": "إِلَّا ٱلَّذِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=84&verse=25"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=84&verse=1"
+    },
+    {
+      "surahNumber": 85,
+      "totalVerses": 22,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلسَّمَآءِ ذَاتِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "22",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فِى لَوْحٍ مَّحْفُوظٍ\".",
+          "marker": "فِى لَوْحٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=22"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=1"
+    },
+    {
+      "surahNumber": 86,
+      "totalVerses": 17,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلسَّمَآءِ وَٱلطَّارِقِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "17",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًا\".",
+          "marker": "فَمَهِّلِ ٱلْكَٰفِرِينَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=17"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+    },
+    {
+      "surahNumber": 87,
+      "totalVerses": 19,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "سَبِّحِ ٱسْمَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "19",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ\".",
+          "marker": "صُحُفِ إِبْرَٰهِيمَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=19"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=1"
+    },
+    {
+      "surahNumber": 88,
+      "totalVerses": 26,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "هَلْ أَتَىٰكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "26",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم\".",
+          "marker": "ثُمَّ إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=26"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+    },
+    {
+      "surahNumber": 89,
+      "totalVerses": 30,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلْفَجْرِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلْفَجْرِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "30",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَٱدْخُلِى جَنَّتِى\".",
+          "marker": "وَٱدْخُلِى جَنَّتِى",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=30"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+    },
+    {
+      "surahNumber": 90,
+      "totalVerses": 20,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "لَآ أُقْسِمُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "20",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌ\".",
+          "marker": "عَلَيْهِمْ نَارٌ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=20"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=1"
+    },
+    {
+      "surahNumber": 91,
+      "totalVerses": 15,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلشَّمْسِ وَضُحَىٰهَا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "15",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَا يَخَافُ عُقْبَٰهَا\".",
+          "marker": "وَلَا يَخَافُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=15"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+    },
+    {
+      "surahNumber": 92,
+      "totalVerses": 21,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلَّيْلِ إِذَا يَغْشَىٰ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلَّيْلِ إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "21",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَلَسَوْفَ يَرْضَىٰ\".",
+          "marker": "وَلَسَوْفَ يَرْضَىٰ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=21"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=1"
+    },
+    {
+      "surahNumber": 93,
+      "totalVerses": 11,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلضُّحَىٰ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلضُّحَىٰ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "11",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\".",
+          "marker": "وَأَمَّا بِنِعْمَةِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+    },
+    {
+      "surahNumber": 94,
+      "totalVerses": 8,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "أَلَمْ نَشْرَحْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "8",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَإِلَىٰ رَبِّكَ فَٱرْغَب\".",
+          "marker": "وَإِلَىٰ رَبِّكَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+    },
+    {
+      "surahNumber": 95,
+      "totalVerses": 8,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "بِّسْمِ ٱللَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "8",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ\".",
+          "marker": "أَلَيْسَ ٱللَّهُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+    },
+    {
+      "surahNumber": 96,
+      "totalVerses": 19,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "ٱقْرَأْ بِٱسْمِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "19",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب\".",
+          "marker": "كَلَّا لَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=19"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "surahNumber": 97,
+      "totalVerses": 5,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "بِّسْمِ ٱللَّهِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "5",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ\".",
+          "marker": "سَلَٰمٌ هِىَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+    },
+    {
+      "surahNumber": 98,
+      "totalVerses": 8,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "لَمْ يَكُنِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "8",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍ تَجْرِى\".",
+          "marker": "جَزَآؤُهُمْ عِندَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=1"
+    },
+    {
+      "surahNumber": 99,
+      "totalVerses": 8,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "8",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ\".",
+          "marker": "وَمَن يَعْمَلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=1"
+    },
+    {
+      "surahNumber": 100,
+      "totalVerses": 11,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلْعَٰدِيَٰتِ ضَبْحًا\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلْعَٰدِيَٰتِ ضَبْحًا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "11",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ\".",
+          "marker": "إِنَّ رَبَّهُم",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=1"
+    },
+    {
+      "surahNumber": 101,
+      "totalVerses": 11,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"ٱلْقَارِعَةُ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "ٱلْقَارِعَةُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=101&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "11",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"نَارٌ حَامِيَةٌ\".",
+          "marker": "نَارٌ حَامِيَةٌ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=101&verse=11"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=101&verse=1"
+    },
+    {
+      "surahNumber": 102,
+      "totalVerses": 8,
+      "structuralFeature": "Geschlossene Diskurseinheit",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"أَلْهَىٰكُمُ ٱلتَّكَاثُرُ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "8",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ\".",
+          "marker": "ثُمَّ لَتُسْـَٔلُنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=8"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=1"
+    },
+    {
+      "surahNumber": 103,
+      "totalVerses": 3,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"وَٱلْعَصْرِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "وَٱلْعَصْرِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+    },
+    {
+      "surahNumber": 104,
+      "totalVerses": 9,
+      "structuralFeature": "Schwur-Eröffnung",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "oath",
+          "description": "Schwur-Eröffnung mit وَ القسم. Erstes Schwurobjekt: وَيْلٌ.",
+          "marker": "وَ + Schwurobjekt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "9",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فِى عَمَدٍ مُّمَدَّدَةٍ\".",
+          "marker": "فِى عَمَدٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=9"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+    },
+    {
+      "surahNumber": 105,
+      "totalVerses": 5,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"أَلَمْ تَرَ كَيْفَ فَعَلَ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "أَلَمْ تَرَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "5",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ\".",
+          "marker": "فَجَعَلَهُمْ كَعَصْفٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+    },
+    {
+      "surahNumber": 106,
+      "totalVerses": 4,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"لِإِيلَٰفِ قُرَيْشٍ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "لِإِيلَٰفِ قُرَيْشٍ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=1"
+    },
+    {
+      "surahNumber": 107,
+      "totalVerses": 7,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "أَرَءَيْتَ ٱلَّذِى",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=107&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "7",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَيَمْنَعُونَ ٱلْمَاعُونَ\".",
+          "marker": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=107&verse=7"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=107&verse=1"
+    },
+    {
+      "surahNumber": 108,
+      "totalVerses": 3,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "inna",
+          "description": "Eröffnung mit Bekräftigungspartikel إِنَّ — emphatische Setzung.",
+          "marker": "إِنَّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+    },
+    {
+      "surahNumber": 109,
+      "totalVerses": 6,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "qul",
+          "description": "Imperativ-Eröffnung: قُلْ (\"sage!\") — Befehlsform 2. Sg. m.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "6",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"لَكُمْ دِينُكُمْ وَلِىَ دِينِ\".",
+          "marker": "لَكُمْ دِينُكُمْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+    },
+    {
+      "surahNumber": 110,
+      "totalVerses": 3,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "idha",
+          "description": "Temporal-konditionale Eröffnung mit إِذَا. Beschreibt einen kommenden Zustand/Ereignis.",
+          "marker": "إِذَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+    },
+    {
+      "surahNumber": 111,
+      "totalVerses": 5,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "Beginn der Diskurseinheit",
+          "description": "Sure beginnt mit: \"تَبَّتْ يَدَآ أَبِى لَهَبٍ\". Keine wiederkehrenden Refrains oder Diskurs-Marker mit Häufigkeit ≥ 2 erkennbar.",
+          "marker": "تَبَّتْ يَدَآ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "5",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍ\".",
+          "marker": "فِى جِيدِهَا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+    },
+    {
+      "surahNumber": 112,
+      "totalVerses": 4,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "qul",
+          "description": "Imperativ-Eröffnung: قُلْ (\"sage!\") — Befehlsform 2. Sg. m.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "surahNumber": 113,
+      "totalVerses": 5,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "qul",
+          "description": "Imperativ-Eröffnung: قُلْ (\"sage!\") — Befehlsform 2. Sg. m.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "5",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\".",
+          "marker": "وَمِن شَرِّ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+    },
+    {
+      "surahNumber": 114,
+      "totalVerses": 6,
+      "structuralFeature": "Kurze Sure (geschlossene Diskurseinheit)",
+      "segments": [
+        {
+          "label": "Eröffnung",
+          "verseRange": "1",
+          "function": "qul",
+          "description": "Imperativ-Eröffnung: قُلْ (\"sage!\") — Befehlsform 2. Sg. m.",
+          "marker": "قُلْ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+        },
+        {
+          "label": "Abschluss",
+          "verseRange": "6",
+          "function": "Diskursabschluss",
+          "description": "Letzter Vers: \"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ\".",
+          "marker": "مِنَ ٱلْجِنَّةِ",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=6"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+    }
+  ]
+}

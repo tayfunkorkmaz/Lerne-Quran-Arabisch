@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "title": "Hal — Zustandsakkusativ (الحال)",
+    "description": "Der Hal beschreibt den Zustand des Subjekts oder Objekts zum Zeitpunkt der Handlung. Er steht im Akkusativ und ist im Quran eine der häufigsten syntaktischen Strukturen — als einfaches Nomen, als Partizip oder als vollständiger Satz.",
+    "sources": [
+      {
+        "label": "Wright's Grammar Vol II — Hal (Circumstantial Accusative)",
+        "url": "https://archive.org/details/WrightsArabicGrammar2Of2"
+      },
+      {
+        "label": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HAL1",
+      "title": "Der Hal als einfaches Nomen oder Partizip",
+      "description": "Der einfachste Hal-Typ: ein akkusativisches Nomen oder Partizip, das den Zustand des Subjekts oder Objekts beschreibt.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist der Hal?",
+            "content": "Der Hal (حال) ist ein akkusativisches Nomen, das den Zustand eines Satzgliedes — des Subjekts oder des Objekts — zum Zeitpunkt der Handlung beschreibt. Das Nomen, dessen Zustand der Hal beschreibt, heißt Sahib al-Hal (صَاحِبُ الْحَال).\n\nKernmerkmale des Hal:\n1. Kasus: immer Akkusativ (Nasb) — Fatha oder Tanwin-Fatha\n2. Definitheit: normalerweise indefinit (Tanwin)\n3. Position: typischerweise nach dem Verb und dem Sahib al-Hal. In bestimmten Konstruktionen (besonders mit Waw al-Hal) kann der Hal auch vorangestellt sein\n4. Kongruenz: in Genus und Numerus mit dem Sahib al-Hal\n\nDeutsche Entsprechung: 'er kam LACHEND', 'sie betrat das Zimmer WEINEND', 'steh DEMÜTIG vor Gott'."
+          },
+          {
+            "type": "explanation",
+            "title": "Hal vs. Sifa — der entscheidende Unterschied",
+            "content": "Hal und Sifa (Attribut) sehen oft gleich aus, sind aber syntaktisch verschieden:\n\nSIFA: modifiziert ein INDEFINITES Nomen, das unmittelbar vor ihr steht. Sie folgt dem Bezugsnomen in Kasus, Genus, Numerus UND Definitheit.\nBeispiel: رَجُلٌ صَالِحٌ — 'ein frommer Mann' (Sifa im Nominativ, weil Bezugsnomen رَجُلٌ im Nominativ)\n\nHAL: beschreibt den ZUSTAND des Subjekts oder Objekts WÄHREND der Handlung. Sie steht im Akkusativ, unabhängig vom Kasus des Sahib al-Hal.\nBeispiel: جَاءَ الرَّجُلُ صَالِحًا — 'der Mann kam als/während er fromm war'\n\nTESTFRAGE: Kann man 'in welchem Zustand?' fragen? Dann ist es Hal. Kann man 'was für ein?' fragen? Dann ist es Sifa."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:238",
+                "arabic": "وَقُومُوا لِلَّهِ قَٰنِتِينَ",
+                "explanation": "قَانِتِينَ = Hal. Akkusativ Plural von قَانِت (Aktiv-Partizip: 'demütig/fromm seiend'). Sahib al-Hal: das implizite Subjekt 'ihr' in قُومُوا. 'Steht vor Gott als solche, die demütig sind.' — Frage: in welchem Zustand sollt ihr stehen? Antwort: demütig (قَانِتِينَ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=238"
+              },
+              {
+                "ref": "2:58",
+                "arabic": "وَٱدْخُلُوا ٱلْبَابَ سُجَّدًا",
+                "explanation": "سُجَّدًا = Hal. Akkusativ Plural von سَاجِد (Aktiv-Partizip: 'sich niederwerfend'). Sahib al-Hal: implizites Subjekt 'ihr'. 'Tretet das Tor ein, während ihr euch niederwerft.' — Nicht: tret-et ein und werft-euch dann nieder. Der Hal gleichzeitig.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+              },
+              {
+                "ref": "39:9",
+                "arabic": "أَمَّنْ هُوَ قَٰنِتٌ ءَانَآءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا",
+                "explanation": "سَاجِدًا وَقَائِمًا = zwei koordinierte Hals. Beide im Akkusativ Singular. Sahib al-Hal: هُوَ. 'Der sich in den Stunden der Nacht niederwirft und steht' — nicht: wer ist es? sondern: in welchen Zuständen ist er?",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=9"
+              },
+              {
+                "ref": "3:144",
+                "arabic": "أَفَإِين مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ",
+                "explanation": "Kein Hal hier — Vergleichsbeispiel. انْقَلَبَ + عَلَى أَعْقَاب ist eine feste Wendung (auf die Fersen umkehren = abfallen). Zeigt: nicht jeder Akkusativ nach einem Verb ist ein Hal.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=144"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "question": "وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا (89:22) — Was ist صَفًّا صَفًّا grammatisch?",
+          "answer": "Hal (doppelt wiederholt zur Intensivierung). Akkusativ. Zustand des Sahib al-Hal الْمَلَكُ — 'in Reihen, Reihe für Reihe'. Die Wiederholung des Hals ist ein sprachliches Mittel zur Betonung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=22"
+        },
+        {
+          "type": "identification",
+          "question": "فَأَتَتْ بِهِ قَوْمَهَا تَحْمِلُهُ (19:27) — Was ist تَحْمِلُهُ?",
+          "answer": "Verbaler Hal (Imperfektverb als Hal). Sahib al-Hal: sie (implizites Subjekt von أَتَتْ). 'Sie kam zu ihrem Volk, ihn tragend.' Verbale Hals stehen ohne waw.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=27"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was sind die drei Kernmerkmale des Hal?",
+            "options": [
+              "Nominativ, definit, vor dem Verb",
+              "Akkusativ, normalerweise indefinit, nach Verb und Sahib al-Hal",
+              "Genitiv, in Iḍāfa, am Satzanfang",
+              "Akkusativ, immer definit, unmittelbar nach dem Subjekt"
+            ],
+            "correct": 1,
+            "explanation": "Der Hal steht im Akkusativ (Nasb), ist normalerweise indefinit (tanwin), und steht nach dem Verb und dem Sahib al-Hal.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n60"
+          },
+          {
+            "question": "In وَادْخُلُوا الْبَابَ سُجَّدًا — was ist der Sahib al-Hal?",
+            "options": [
+              "الْبَابَ (das Tor)",
+              "Das implizite Subjekt 'ihr' in ادْخُلُوا",
+              "سُجَّدًا selbst",
+              "Das Verb ادْخُلُوا"
+            ],
+            "correct": 1,
+            "explanation": "Sahib al-Hal ist das implizite Subjekt der Befehlsform ادْخُلُوا ('ihr'). سُجَّدًا beschreibt den Zustand dieses Subjekts: sie sollen eintreten, während sie sich niederwerfen.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=238"
+    },
+    {
+      "id": "HAL2",
+      "title": "Der Hal als Verbalsatz (الجملة الحالية)",
+      "description": "Wenn der Hal nicht ein einzelnes Wort ist, sondern ein vollständiger Satz — nominal oder verbal. Dies ist im Quran extrem häufig.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Die Jumla Haliyya — der Hal-Satz",
+            "content": "Der Hal kann auch ein vollständiger Satz sein. Man nennt ihn dann Jumla Haliyya (الجملة الحالية). Er steht 'in der Kasusposition des Akkusativs' (في محل نصب حال).\n\nZwei Typen:\n\n1. VERBALE JUMLA HALIYYA (جملة فعلية حالية): Ein Imperfektverb steht direkt nach dem Sahib al-Hal, ohne waw. Mögliches Signal: قَدْ vor dem Perfekt.\n   Beispiel: وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ — يَبْكُونَ ist verbale Jumla Haliyya\n\n2. NOMINALE JUMLA HALIYYA (جملة اسمية حالية): Ein Nominalsatz (Mubtada + Khabar) steht nach dem Sahib al-Hal, eingeleitet durch وَ (waw al-hal). Diese waw ist KEINE Koordinationspartikel.\n   Beispiel: فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ — وَهُوَ قَائِمٌ ist nominale Jumla Haliyya\n\nWICHTIG: Das وَ der Jumla Haliyya (waw al-hal) verbindet NICHT zwei Hauptsätze. Es leitet nur den Umstandssatz ein. Ein Test: lässt sich statt 'und' das Wort 'während/wobei' einsetzen? Dann ist es waw al-hal."
+          },
+          {
+            "type": "explanation",
+            "title": "Waw al-Hal vs. Waw al-'Atf",
+            "content": "Der kritischste Analyseschritt: وَ als Konjunktion ('und') vs. وَ als Hal-Einleitung ('wobei/während').\n\nWAW AL-'ATF (Konjunktion): verbindet zwei gleichrangige Elemente derselben Kategorie.\nفَاعِلٌ + وَ + فَاعِلٌ, Verb + وَ + Verb\n\nWAW AL-HAL (Hal-Einleitung): das folgende Element steht in einem anderen Kasus (in mahall nasb), und beschreibt eine Gleichzeitigkeit oder einen Begleitumstand.\nSignale:\n- Waw gefolgt von Pronomen + Nomen/Partizip: وَهُوَ قَائِمٌ\n- Waw gefolgt von Nominalsatz, der nicht parallelisiert werden kann\n- Semantisch: 'während' passt besser als 'und'"
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "3:39",
+                "arabic": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ",
+                "explanation": "وَهُوَ قَائِمٌ = nominale Jumla Haliyya. وَ = waw al-hal. هُوَ = Mubtada. قَائِمٌ = Khabar (Nominativ, weil Khabar des Nominalsatzes). Die gesamte Phrase ist aber 'in mahall nasb' (im Hal-Akkusativ). يُصَلِّي = weitere verbale Hal-Ergänzung. 'Die Engel riefen ihn — während er in der Nische (مِحْرَاب: erhöhter Sitzplatz, Nische, Privatgemach — Lane) stand und يُصَلِّي (sich hinwandte/betete).'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+              },
+              {
+                "ref": "12:16",
+                "arabic": "أَبَاهُمْ عِشَآءً يَبْكُونَ",
+                "explanation": "يَبْكُونَ = verbale Jumla Haliyya (ohne waw). Direkt nach dem Sahib al-Hal (implizites Subjekt 'sie'). 'Und sie kamen zu ihrem Vater am Abend — weinend.' Das Weinen ist gleichzeitig mit dem Kommen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=16"
+              },
+              {
+                "ref": "4:43",
+                "arabic": "لَا تَقْرَبُوا ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ",
+                "explanation": "وَأَنتُمْ سُكَارَىٰ = nominale Jumla Haliyya. وَ = waw al-hal. أَنتُمْ = Mubtada. سُكَارَىٰ = Khabar des Nominalsatzes وَأَنتُمْ سُكَارَىٰ (Plural von سَكْرَان). Zwei Ebenen: (1) Morphologischer Kasus: سُكَارَىٰ trägt Nominativ (Raf'), weil es Khabar des Nominalsatzes ist. (2) Syntaktische Position: Die gesamte Jumla Haliyya وَأَنتُمْ سُكَارَىٰ steht in mahall nasb als Hal — nicht das einzelne Wort سُكَارَىٰ, sondern der ganze Satz nimmt die Akkusativposition ein. 'Nähert euch der صَلَاة nicht, während ihr betrunken seid.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+              },
+              {
+                "ref": "19:11",
+                "arabic": "فَخَرَجَ عَلَىٰ قَوْمِهِ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا بُكْرَةً وَعَشِيًّا",
+                "explanation": "Kein Hal hier — Vergleichsbeispiel. بُكْرَةً وَعَشِيًّا sind Zarfs (adverbiale Akkusative der Zeit): 'morgens und abends'. Das وَ verbindet die zwei Zarfs (waw al-'atf). Zeigt: gleich aussehende Strukturen können verschieden sein.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=11"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "وَدَخَلَ جَنَّتَهُ وَهُوَ ظَالِمٌ لِّنَفْسِهِ (18:35) — Analysiere وَهُوَ ظَالِمٌ لِّنَفْسِهِ.",
+          "answer": "Nominale Jumla Haliyya. وَ = waw al-hal. هُوَ = Mubtada. ظَالِمٌ = Khabar (Nominativ im Nominalsatz, aber die gesamte Phrase in mahall nasb). لِّنَفْسِهِ = Jarr wa-Majrur als Ergänzung zu ظَالِمٌ. Sahib al-Hal: implizites Subjekt 'er' in وَدَخَلَ. 'Er betrat seinen Garten, wobei er sich selbst unrecht tat.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=35"
+        },
+        {
+          "type": "distinction",
+          "question": "Was ist der Unterschied zwischen وَ in وَجَاءُوا وَيَبْكُونَ (hypothetisch) vs. وَجَاءُوا وَهُمْ يَبْكُونَ?",
+          "answer": "In beiden Fällen waw al-hal. Aber: ohne Pronomen (وَيَبْكُونَ) handelt es sich um eine verbale Hal-Phrase (das Verb hat das Subjekt eingebaut). Mit Pronomen (وَهُمْ يَبْكُونَ) handelt es sich um eine nominale Jumla Haliyya (هُمْ = Mubtada, يَبْكُونَ = Khabar).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=35"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was signalisiert waw al-hal (im Gegensatz zu waw al-'atf)?",
+            "options": [
+              "Es verbindet zwei Verben derselben Zeitform",
+              "Es leitet eine Gleichzeitigkeitsangabe ein — 'während/wobei' statt 'und'",
+              "Es steht nur vor Nominalformen",
+              "Es steht immer am Satzbeginn"
+            ],
+            "correct": 1,
+            "explanation": "Waw al-hal signalisiert eine Hal-Phrase (Umstandsangabe der Gleichzeitigkeit). Der semantische Test: 'während/wobei' passt — 'und' würde eine unpassende Reihung ergeben.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n60"
+          },
+          {
+            "question": "In فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ — welchen Kasus hat قَائِمٌ tatsächlich?",
+            "options": [
+              "Akkusativ (Nasb) — weil Hal",
+              "Nominativ (Raf') — weil Khabar des Nominalsatzes وَهُوَ",
+              "Genitiv (Jarr) — nach Präposition",
+              "Indeklinabel"
+            ],
+            "correct": 1,
+            "explanation": "قَائِمٌ hat den Nominativ (Damma), weil es das Khabar des Nominalsatzes هُوَ قَائِمٌ ist. Die GESAMTE Phrase وَهُوَ قَائِمٌ steht aber 'in mahall nasb' — sie nimmt die syntaktische Position des Hal-Akkusativs ein, auch wenn ihre internen Elemente nach den Regeln des Nominalsatzes flektiert werden.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=39"
+    },
+    {
+      "id": "HAL3",
+      "title": "Sahib al-Hal und Erkennungsstrategien",
+      "description": "Den Bezugsausdruck des Hal (Sahib al-Hal) identifizieren und den Hal von verwandten Strukturen unterscheiden.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Wer kann Sahib al-Hal sein?",
+            "content": "Der Sahib al-Hal (صَاحِبُ الْحَال) — das Nomen, dessen Zustand der Hal beschreibt — ist typischerweise:\n\n1. Das Subjekt (Faʿil oder Mubtada): هُوَ قَائِمٌ — 'er steht' (هُوَ ist Sahib al-Hal)\n2. Das Objekt (Mafʿul bihi): رَأَيْتُهُ قَائِمًا — 'ich sah ihn stehend' (Objekt ist Sahib al-Hal)\n3. Ein Majrur (nach Präposition): مَرَرْتُ بِهِ رَاكِبًا — 'ich ging an ihm vorbei, reitend'\n\nDer Sahib al-Hal muss:\n- Bestimmt (ma'rifa) sein — indefinite Nomen als Sahib al-Hal sind selten und bedürfen besonderer Bedingungen\n- In Genus und Numerus mit dem Hal kongruieren\n- Im Satz zugänglich sein — explizit oder als eingebettetes Pronomen im Verb"
+          },
+          {
+            "type": "explanation",
+            "title": "Vier Erkennungsfragen",
+            "content": "Beim Lesen eines Quranic Verses: so identifiziert man Hal-Strukturen:\n\nFRAGE 1: Steht ein Akkusativ im Satz, das kein direktes Objekt und kein Tamyiz ist?\n→ Kandidat für Hal\n\nFRAGE 2: Beantwortet es die Frage 'in welchem Zustand?' oder 'wie/während was?'\n→ Hal bestätigt\n\nFRAGE 3: Kongruiert es in Genus und Numerus mit einem bestimmten Nomen im Satz?\n→ Das ist der Sahib al-Hal\n\nFRAGE 4: Beschreibt es einen gleichzeitigen Zustand (nicht eine aufeinanderfolgende Handlung)?\n→ Hal — kein Mafʿul Mutlaq, kein zweites Verb\n\nDiese vier Fragen klären den meisten Analysebedarf."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Vertiefende Quranbeispiele",
+            "examples": [
+              {
+                "ref": "17:107",
+                "arabic": "إِنَّ ٱلَّذِينَ أُوتُوا ٱلْعِلْمَ مِن قَبْلِهِٓ إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًا",
+                "explanation": "سُجَّدًا = Hal. Sahib al-Hal: implizites Subjekt 'sie' in يَخِرُّونَ. Akkusativ Plural von سَاجِد. 'Sie fallen auf die Kinnbacken nieder — während sie sich niederwerfen.' لِلْأَذْقَانِ = 'auf die Kinnbacken' (Jarr wa-Majrur als Adverbiale).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=107"
+              },
+              {
+                "ref": "2:125",
+                "arabic": "وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِـمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+                "explanation": "الرُّكَّعِ السُّجُودِ: Zwei Analysen möglich — (1) asyndetische Koordination (die sich Verneigenden und die sich Niederwerfenden, beide Genitiv nach لِ), oder (2) Iḍāfa (die sich Verneigenden des Niederwerfens). Asyndetische Koordination ist im Arabischen gut belegt. Kein Hal hier — Vergleichsbeispiel.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+              },
+              {
+                "ref": "20:111",
+                "arabic": "وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
+                "explanation": "وَقَدْ خَابَ = verbale Jumla Haliyya mit قَدْ-Signal. قَدْ vor Perfekt in einer Hal-Phrase ist ein klassisches Muster. Sahib al-Hal: الْوُجُوهُ. 'Die Gesichter werden erniedrigt, während/und dabei ist zuvor schon gescheitert, wer Unrecht trug.'",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=111"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "full_analysis",
+          "question": "Analysiere فَخَرَجَ عَلَىٰ قَوْمِهِ فِي زِينَتِهِ (28:79). Gibt es einen Hal?",
+          "answer": "فِي زِينَتِهِ ist Jarr wa-Majrur (Präposition فِي + Genitiv), das in der syntaktischen Position eines Hal stehen kann. Es beschreibt den Zustand des Subjekts von خَرَجَ: 'er ging heraus — in seinem Schmuck / geschmückt'. Die Analyse als Hal (Präpositionalphrase in Hal-Funktion) und als rein adverbiale Bestimmung sind beide syntaktisch vertretbar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=79"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welche der folgenden Strukturen ist eine Jumla Haliyya mit قَدْ-Signal?",
+            "options": [
+              "وَقَامَ الرَّجُلُ",
+              "جَاءَ وَقَدْ فَعَلَ",
+              "رَأَيْتُ رَجُلًا",
+              "هُوَ الْقَائِمُ"
+            ],
+            "correct": 1,
+            "explanation": "وَقَدْ فَعَلَ ist eine verbale Jumla Haliyya eingeleitet durch وَ + قَدْ + Perfekt. Dieses Muster signalisiert, dass die Handlung des Hal-Satzes abgeschlossen ist (Perfekt) während die Haupthandlung (جَاءَ) stattfindet.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n60"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=107"
+    }
+  ]
+}

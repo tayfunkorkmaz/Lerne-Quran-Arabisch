@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "description": "Verb form frequency analysis from Quranic morphology database",
+    "totalVerbs": 19356,
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ],
+    "note": "Basierend auf der Quran-Morphologie-Datenbank (Quranic Arabic Corpus)",
+    "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+  },
+  "forms": [
+    {
+      "form": "I",
+      "count": 12356,
+      "percentage": "63.84%",
+      "aspect": {
+        "perfect": 5921,
+        "imperfect": 5254,
+        "imperative": 1181
+      },
+      "voice": {
+        "active": 11704,
+        "passive": 652
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "II",
+      "count": 1300,
+      "percentage": "6.72%",
+      "aspect": {
+        "perfect": 656,
+        "imperfect": 539,
+        "imperative": 105
+      },
+      "voice": {
+        "active": 1160,
+        "passive": 140
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "III",
+      "count": 334,
+      "percentage": "1.73%",
+      "aspect": {
+        "perfect": 137,
+        "imperfect": 156,
+        "imperative": 41
+      },
+      "voice": {
+        "active": 310,
+        "passive": 24
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "IV",
+      "count": 3487,
+      "percentage": "18.02%",
+      "aspect": {
+        "perfect": 1733,
+        "imperfect": 1465,
+        "imperative": 289
+      },
+      "voice": {
+        "active": 3202,
+        "passive": 285
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "V",
+      "count": 414,
+      "percentage": "2.14%",
+      "aspect": {
+        "perfect": 124,
+        "imperfect": 239,
+        "imperative": 51
+      },
+      "voice": {
+        "active": 404,
+        "passive": 10
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "VI",
+      "count": 77,
+      "percentage": "0.40%",
+      "aspect": {
+        "perfect": 36,
+        "imperfect": 37,
+        "imperative": 4
+      },
+      "voice": {
+        "active": 77,
+        "passive": 0
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "VII",
+      "count": 51,
+      "percentage": "0.26%",
+      "aspect": {
+        "perfect": 30,
+        "imperfect": 19,
+        "imperative": 2
+      },
+      "voice": {
+        "active": 51,
+        "passive": 0
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "VIII",
+      "count": 963,
+      "percentage": "4.98%",
+      "aspect": {
+        "perfect": 379,
+        "imperfect": 424,
+        "imperative": 160
+      },
+      "voice": {
+        "active": 948,
+        "passive": 15
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "IX",
+      "count": 5,
+      "percentage": "0.03%",
+      "aspect": {
+        "perfect": 3,
+        "imperfect": 2,
+        "imperative": 0
+      },
+      "voice": {
+        "active": 5,
+        "passive": 0
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    },
+    {
+      "form": "X",
+      "count": 369,
+      "percentage": "1.91%",
+      "aspect": {
+        "perfect": 131,
+        "imperfect": 195,
+        "imperative": 43
+      },
+      "voice": {
+        "active": 354,
+        "passive": 15
+      },
+      "verifyUrl": "https://corpus.quran.com/wordmorphology.jsp"
+    }
+  ]
+}

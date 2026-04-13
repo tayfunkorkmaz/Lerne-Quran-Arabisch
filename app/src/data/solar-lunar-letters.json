@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "title": "Sonnen- und Mondbuchstaben",
+    "description": "Die 14 Sonnenbuchstaben (die das Lam des Artikels assimilieren) und die 14 Mondbuchstaben (bei denen das Lam erhalten bleibt).",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ]
+  },
+  "principle": "Wenn der Artikel ال vor einem Sonnenbuchstaben steht, wird das Lam (ل) nicht ausgesprochen sondern assimiliert sich an den folgenden Konsonanten. Im Schriftbild bleibt das Lam erhalten, aber ein Schadda auf dem folgenden Buchstaben zeigt die Assimilation an. Bei Mondbuchstaben wird das Lam normal ausgesprochen, und der folgende Buchstabe trägt kein Schadda.",
+  "linguisticReason": "Die Assimilation tritt bei Konsonanten auf, deren Artikulationsort dem Lam nahesteht (alveolar, dental, interdental, postalveolar). Die Zungenspitze ist bei diesen Lauten in ähnlicher Position wie beim Lam. Mondbuchstaben werden an anderen Stellen artikuliert (labial, velar, uvular, pharyngeal, glottal) — zu weit vom Lam entfernt für Assimilation.",
+  "jimException": "ج (Jim) ist trotz seiner koronalen Artikulation (postalveolar) ein Mondbuchstabe. Als Affrikat unterscheidet sich Jim artikulatorisch hinreichend vom lateralen ل, um keine Assimilation auszulösen.",
+  "solar": [
+    {
+      "letter": "ت",
+      "name": "Ta",
+      "ipa": "t",
+      "articulation": "alveolar",
+      "example": {
+        "with_article": "التَّوْبَة",
+        "transliteration": "at-tawba",
+        "meaning": "die Reue",
+        "ref": "9:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=1"
+      }
+    },
+    {
+      "letter": "ث",
+      "name": "Tha",
+      "ipa": "θ",
+      "articulation": "interdental",
+      "example": {
+        "with_article": "الثَّمَرَات",
+        "transliteration": "ath-thamarat",
+        "meaning": "die Früchte",
+        "ref": "2:22",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      }
+    },
+    {
+      "letter": "د",
+      "name": "Dal",
+      "ipa": "d",
+      "articulation": "alveolar",
+      "example": {
+        "with_article": "الدِّين",
+        "transliteration": "ad-din",
+        "meaning": "die Lebensweise / die Vergeltung",
+        "ref": "1:4",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+      }
+    },
+    {
+      "letter": "ذ",
+      "name": "Dhal",
+      "ipa": "ð",
+      "articulation": "interdental",
+      "example": {
+        "with_article": "الذِّكْر",
+        "transliteration": "adh-dhikr",
+        "meaning": "das Gedenken",
+        "ref": "15:9",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=9"
+      }
+    },
+    {
+      "letter": "ر",
+      "name": "Ra",
+      "ipa": "r",
+      "articulation": "alveolar",
+      "example": {
+        "with_article": "الرَّحْمَٰن",
+        "transliteration": "ar-rahman",
+        "meaning": "der intensiv-Barmherzige",
+        "ref": "1:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+      }
+    },
+    {
+      "letter": "ز",
+      "name": "Zay",
+      "ipa": "z",
+      "articulation": "alveolar",
+      "example": {
+        "with_article": "الزَّكَاة",
+        "transliteration": "az-zakah",
+        "meaning": "die Reinigung",
+        "ref": "2:43",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+      }
+    },
+    {
+      "letter": "س",
+      "name": "Sin",
+      "ipa": "s",
+      "articulation": "alveolar",
+      "example": {
+        "with_article": "السَّمَاء",
+        "transliteration": "as-samaʾ",
+        "meaning": "der Himmel",
+        "ref": "2:19",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+      }
+    },
+    {
+      "letter": "ش",
+      "name": "Shin",
+      "ipa": "ʃ",
+      "articulation": "postalveolar",
+      "example": {
+        "with_article": "الشَّمْس",
+        "transliteration": "ash-shams",
+        "meaning": "die Sonne",
+        "ref": "91:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+      }
+    },
+    {
+      "letter": "ص",
+      "name": "Sad",
+      "ipa": "sˤ",
+      "articulation": "alveolar emphatisch",
+      "example": {
+        "with_article": "الصَّلَاة",
+        "transliteration": "as-salah",
+        "meaning": "die Zuwendung",
+        "ref": "2:3",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+      }
+    },
+    {
+      "letter": "ض",
+      "name": "Dad",
+      "ipa": "dˤ",
+      "articulation": "alveolar emphatisch",
+      "example": {
+        "with_article": "الضَّالِّين",
+        "transliteration": "ad-dallin",
+        "meaning": "die Irrenden",
+        "ref": "1:7",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+      }
+    },
+    {
+      "letter": "ط",
+      "name": "Ta emphatisch",
+      "ipa": "tˤ",
+      "articulation": "alveolar emphatisch",
+      "example": {
+        "with_article": "الطَّيِّبَات",
+        "transliteration": "at-tayyibat",
+        "meaning": "die guten Dinge",
+        "ref": "2:172",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=172"
+      }
+    },
+    {
+      "letter": "ظ",
+      "name": "Za emphatisch",
+      "ipa": "ðˤ",
+      "articulation": "interdental emphatisch",
+      "example": {
+        "with_article": "الظَّالِمِين",
+        "transliteration": "az-zālimin",
+        "meaning": "die Unrecht Tuenden",
+        "ref": "2:35",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+      }
+    },
+    {
+      "letter": "ل",
+      "name": "Lam",
+      "ipa": "l",
+      "articulation": "alveolar lateral",
+      "example": {
+        "with_article": "اللَّيْل",
+        "transliteration": "al-layl",
+        "meaning": "die Nacht",
+        "ref": "92:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=1"
+      }
+    },
+    {
+      "letter": "ن",
+      "name": "Nun",
+      "ipa": "n",
+      "articulation": "alveolar nasal",
+      "example": {
+        "with_article": "النَّاس",
+        "transliteration": "an-nas",
+        "meaning": "die Menschen",
+        "ref": "114:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+      }
+    }
+  ],
+  "lunar": [
+    {
+      "letter": "ا",
+      "name": "Alif",
+      "ipa": "ʔ/aː",
+      "articulation": "glottal",
+      "example": {
+        "with_article": "الْأَرْض",
+        "transliteration": "al-ard",
+        "meaning": "die Erde",
+        "ref": "2:22",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+      }
+    },
+    {
+      "letter": "ب",
+      "name": "Ba",
+      "ipa": "b",
+      "articulation": "bilabial",
+      "example": {
+        "with_article": "الْبَيْت",
+        "transliteration": "al-bayt",
+        "meaning": "das Haus",
+        "ref": "2:125",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+      }
+    },
+    {
+      "letter": "ج",
+      "name": "Jim",
+      "ipa": "dʒ",
+      "articulation": "postalveolar",
+      "example": {
+        "with_article": "الْجَنَّة",
+        "transliteration": "al-janna",
+        "meaning": "der Garten",
+        "ref": "2:35",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+      }
+    },
+    {
+      "letter": "ح",
+      "name": "Ha",
+      "ipa": "ħ",
+      "articulation": "pharyngeal",
+      "example": {
+        "with_article": "الْحَمْد",
+        "transliteration": "al-hamd",
+        "meaning": "das Lob",
+        "ref": "1:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      }
+    },
+    {
+      "letter": "خ",
+      "name": "Kha",
+      "ipa": "χ",
+      "articulation": "uvular",
+      "example": {
+        "with_article": "الْخَيْر",
+        "transliteration": "al-khayr",
+        "meaning": "das Gute",
+        "ref": "2:180",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=180"
+      }
+    },
+    {
+      "letter": "ع",
+      "name": "Ayn",
+      "ipa": "ʕ",
+      "articulation": "pharyngeal",
+      "example": {
+        "with_article": "الْعَالَمِين",
+        "transliteration": "al-ʿalamin",
+        "meaning": "die Welten",
+        "ref": "1:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      }
+    },
+    {
+      "letter": "غ",
+      "name": "Ghayn",
+      "ipa": "ɣ",
+      "articulation": "uvular",
+      "example": {
+        "with_article": "الْغَيْب",
+        "transliteration": "al-ghayb",
+        "meaning": "das Verborgene",
+        "ref": "2:3",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+      }
+    },
+    {
+      "letter": "ف",
+      "name": "Fa",
+      "ipa": "f",
+      "articulation": "labiodental",
+      "example": {
+        "with_article": "الْفَلَق",
+        "transliteration": "al-falaq",
+        "meaning": "das Frühlicht",
+        "ref": "113:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+      }
+    },
+    {
+      "letter": "ق",
+      "name": "Qaf",
+      "ipa": "q",
+      "articulation": "uvular",
+      "example": {
+        "with_article": "الْقُرْآن",
+        "transliteration": "al-qurʾān",
+        "meaning": "die Lesung",
+        "ref": "2:185",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+      }
+    },
+    {
+      "letter": "ك",
+      "name": "Kaf",
+      "ipa": "k",
+      "articulation": "velar",
+      "example": {
+        "with_article": "الْكِتَاب",
+        "transliteration": "al-kitab",
+        "meaning": "das Buch/die Schrift",
+        "ref": "2:2",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+      }
+    },
+    {
+      "letter": "م",
+      "name": "Mim",
+      "ipa": "m",
+      "articulation": "bilabial nasal",
+      "example": {
+        "with_article": "الْمُؤْمِنُون",
+        "transliteration": "al-muʿminun",
+        "meaning": "die Vertrauenden",
+        "ref": "23:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+      }
+    },
+    {
+      "letter": "ه",
+      "name": "Ha",
+      "ipa": "h",
+      "articulation": "glottal",
+      "example": {
+        "with_article": "الْهُدَىٰ",
+        "transliteration": "al-huda",
+        "meaning": "die Führung",
+        "ref": "2:5",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+      }
+    },
+    {
+      "letter": "و",
+      "name": "Waw",
+      "ipa": "w",
+      "articulation": "labio-velarer Approximant",
+      "example": {
+        "with_article": "الْوَاقِعَة",
+        "transliteration": "al-waqiʾa",
+        "meaning": "das Ereignis",
+        "ref": "56:1",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=1"
+      }
+    },
+    {
+      "letter": "ي",
+      "name": "Ya",
+      "ipa": "j",
+      "articulation": "palatal approximant",
+      "example": {
+        "with_article": "الْيَوْم",
+        "transliteration": "al-yawm",
+        "meaning": "der Tag",
+        "ref": "1:4",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "word": "الشَّيْطَان",
+      "ref": "2:36",
+      "type": "solar_or_lunar",
+      "answer": "solar",
+      "explanation": "Shin ist Sonnenbuchstabe → Lam assimiliert → ash-shaytan",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+    },
+    {
+      "word": "الْقِيَامَة",
+      "ref": "75:1",
+      "type": "solar_or_lunar",
+      "answer": "lunar",
+      "explanation": "Qaf ist Mondbuchstabe → Lam bleibt → al-qiyama",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=1"
+    },
+    {
+      "word": "النَّبِيّ",
+      "ref": "33:56",
+      "type": "solar_or_lunar",
+      "answer": "solar",
+      "explanation": "Nun ist Sonnenbuchstabe → Lam assimiliert → an-nabiyy",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=56"
+    },
+    {
+      "word": "الْمَلَائِكَة",
+      "ref": "2:30",
+      "type": "solar_or_lunar",
+      "answer": "lunar",
+      "explanation": "Mim ist Mondbuchstabe → Lam bleibt → al-malaʿika",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "word": "الرَّحِيم",
+      "ref": "1:1",
+      "type": "solar_or_lunar",
+      "answer": "solar",
+      "explanation": "Ra ist Sonnenbuchstabe → Lam assimiliert → ar-rahim",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "word": "الْحَقّ",
+      "ref": "2:26",
+      "type": "solar_or_lunar",
+      "answer": "lunar",
+      "explanation": "Ha (pharyngeal) ist Mondbuchstabe → Lam bleibt → al-haqq",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "word": "الصِّرَاط",
+      "ref": "1:6",
+      "type": "solar_or_lunar",
+      "answer": "solar",
+      "explanation": "Sad ist Sonnenbuchstabe → Lam assimiliert → as-sirat",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "word": "الْعَذَاب",
+      "ref": "2:7",
+      "type": "solar_or_lunar",
+      "answer": "lunar",
+      "explanation": "Ayn ist Mondbuchstabe → Lam bleibt → al-'adhab",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    }
+  ]
+}

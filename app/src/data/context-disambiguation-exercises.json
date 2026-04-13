@@ -1,0 +1,1338 @@
+{
+  "meta": {
+    "title": "Kontextdisambiguierung — Vokalisierung nach Kontext",
+    "description": "Bestimmung der korrekten Vokalisierung mehrdeutiger Konsonantenformen anhand des syntaktischen Kontexts.",
+    "totalExercises": 60,
+    "sources": [
+      {
+        "title": "Wright's Arabic Grammar, Vol. II (Syntax)",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "title": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": 43,
+      "target": "يغفر",
+      "ref": "48:2",
+      "context": "لِيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنبِكَ وَمَا تَأَخَّرَ",
+      "options": [
+        {
+          "vocalized": "يَغْفِرَ",
+          "meaning": "er vergibt (Subjunktiv)",
+          "analysis": "Imperfekt Subjunktiv 3ms Form I nach لِ (Zweck): damit er vergibt"
+        },
+        {
+          "vocalized": "يَغْفِرُ",
+          "meaning": "er vergibt (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3ms Form I: er vergibt (Aussage)"
+        },
+        {
+          "vocalized": "يُغْفَرَ",
+          "meaning": "es wird vergeben (Passiv)",
+          "analysis": "Imperfekt Passiv Subjunktiv 3ms: es wird vergeben"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Nach لِ (Zweck) steht Subjunktiv: Fatha statt Damma. Aktiv, weil Gott (ٱللَّهُ) als Faʿil folgt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=2"
+    },
+    {
+      "id": 44,
+      "target": "يدخل",
+      "ref": "48:5",
+      "context": "لِيُدْخِلَ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ",
+      "options": [
+        {
+          "vocalized": "يُدْخِلَ",
+          "meaning": "er lässt eintreten (Form IV Subjunktiv)",
+          "analysis": "Form IV Subjunktiv 3ms: kausativ, Damma-Präfix, nach لِ Subjunktiv"
+        },
+        {
+          "vocalized": "يَدْخُلَ",
+          "meaning": "er tritt ein (Form I Subjunktiv)",
+          "analysis": "Form I Subjunktiv 3ms: intransitiv, Fatha-Präfix"
+        },
+        {
+          "vocalized": "يُدْخِلُ",
+          "meaning": "er lässt eintreten (Form IV Indikativ)",
+          "analysis": "Form IV Indikativ 3ms: kausativ, aber Damma-Endung"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form IV (kausativ, Damma-Präfix يُ) + Subjunktiv nach لِ. Gott lässt die Vertrauenden eintreten (transitiv mit Akkusativobjekt).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=5"
+    },
+    {
+      "id": 45,
+      "target": "انزلنه",
+      "ref": "97:1",
+      "context": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "options": [
+        {
+          "vocalized": "أَنزَلْنَاهُ",
+          "meaning": "wir sandten ihn herab (Form IV Aktiv 1pl)",
+          "analysis": "Form IV Perfekt 1pl + Suffix هُ: wir sandten ihn herab"
+        },
+        {
+          "vocalized": "نَزَلَ",
+          "meaning": "er stieg herab (Form I)",
+          "analysis": "Form I Perfekt 3ms: intransitiv, er kam herab"
+        },
+        {
+          "vocalized": "نُزِّلَ",
+          "meaning": "er wurde herabgesandt (Form II Passiv)",
+          "analysis": "Form II Perfekt Passiv 3ms: er wurde stückweise herabgesandt"
+        }
+      ],
+      "answer": 0,
+      "explanation": "إِنَّآ (wahrlich wir) zeigt 1. Person Plural. نَا-Suffix = Faʿil, هُ-Suffix = Mafʿul bihi. Form IV Aktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+    },
+    {
+      "id": 46,
+      "target": "يشرك",
+      "ref": "4:48",
+      "context": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ",
+      "options": [
+        {
+          "vocalized": "يُشْرَكَ",
+          "meaning": "ihm beigesellt wird (Passiv Subjunktiv)",
+          "analysis": "Form IV Passiv Subjunktiv 3ms nach أَنْ: dass ihm beigesellt wird"
+        },
+        {
+          "vocalized": "يُشْرِكَ",
+          "meaning": "er gesellt bei (Aktiv Subjunktiv)",
+          "analysis": "Form IV Aktiv Subjunktiv 3ms: dass er beigesellt"
+        },
+        {
+          "vocalized": "يَشْرُكَ",
+          "meaning": "er hat teil (Form I Subjunktiv)",
+          "analysis": "Form I Subjunktiv 3ms: er hat Anteil"
+        }
+      ],
+      "answer": 0,
+      "explanation": "أَن يُشْرَكَ بِهِ — Passiv nach أَنْ (Subjunktiv). بِهِ zeigt, dass das Verb passivisch konstruiert ist: dass ihm (Gott) beigesellt wird.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=48"
+    },
+    {
+      "id": 47,
+      "target": "صدق",
+      "ref": "3:152",
+      "context": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُ",
+      "options": [
+        {
+          "vocalized": "صَدَقَ",
+          "meaning": "er war wahrhaftig / erfüllte",
+          "analysis": "Perfekt Aktiv 3ms Form I: er hielt sein Versprechen"
+        },
+        {
+          "vocalized": "صُدِّقَ",
+          "meaning": "es wurde bestätigt (Passiv Form II)",
+          "analysis": "Form II Perfekt Passiv 3ms: es wurde als wahr anerkannt"
+        },
+        {
+          "vocalized": "صِدْق",
+          "meaning": "Wahrhaftigkeit (Nomen)",
+          "analysis": "Masdar: Wahrhaftigkeit/Aufrichtigkeit"
+        }
+      ],
+      "answer": 0,
+      "explanation": "صَدَقَكُمُ ٱللَّهُ وَعْدَهُ — Aktiv mit doppeltem Objekt: Gott erfüllte euch sein Versprechen. ٱللَّهُ ist Faʿil.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=152"
+    },
+    {
+      "id": 48,
+      "target": "كذبوا",
+      "ref": "3:11",
+      "context": "كَذَّبُوا بِـَٔايَٰتِنَا وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "options": [
+        {
+          "vocalized": "كَذَّبُوا",
+          "meaning": "sie erklärten für Lüge (Form II)",
+          "analysis": "Form II Perfekt 3mp: transitiv mit بِ — etwas für Lüge erklären"
+        },
+        {
+          "vocalized": "كَذَبُوا",
+          "meaning": "sie logen (Form I)",
+          "analysis": "Form I Perfekt 3mp: intransitiv — lügen"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form II كَذَّبَ (mit Shadda) ist transitiv mit بِ: sie erklärten unsere Zeichen für Lüge. Form I كَذَبَ wäre intransitiv: sie logen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=11"
+    },
+    {
+      "id": 49,
+      "target": "نصر",
+      "ref": "30:5",
+      "context": "يَنصُرُ مَن يَشَآءُ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "options": [
+        {
+          "vocalized": "يَنصُرُ",
+          "meaning": "er hilft (Aktiv Indikativ)",
+          "analysis": "Imperfekt Aktiv Indikativ 3ms Form I: er hilft"
+        },
+        {
+          "vocalized": "يُنصَرُ",
+          "meaning": "ihm wird geholfen (Passiv)",
+          "analysis": "Imperfekt Passiv 3ms: ihm wird Hilfe zuteil"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Aktiv: يَنصُرُ مَن يَشَآءُ — er (Gott) hilft wem er will. Fatha-Präfix + Damma auf dem zweiten Radikal = Aktiv Form I.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=5"
+    },
+    {
+      "id": 50,
+      "target": "حرم",
+      "ref": "5:72",
+      "context": "فَقَدْ حَرَّمَ ٱللَّهُ عَلَيْهِ ٱلْجَنَّةَ",
+      "options": [
+        {
+          "vocalized": "حَرَّمَ",
+          "meaning": "er verbot (Form II)",
+          "analysis": "Form II Perfekt 3ms: transitiv mit عَلَى — er verbot"
+        },
+        {
+          "vocalized": "حَرُمَ",
+          "meaning": "es war verboten/eingeschränkt (Form I)",
+          "analysis": "Form I Perfekt 3ms: intransitiv — es war verboten"
+        },
+        {
+          "vocalized": "حَرَم",
+          "meaning": "eingeschränkter Bezirk (Nomen)",
+          "analysis": "Nomen: eingeschränkter/unantastbarer Bezirk"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form II حَرَّمَ (Shadda) ist transitiv: Gott verbot ihm den Garten. ٱللَّهُ ist Faʿil, ٱلْجَنَّةَ ist Mafʿul bihi.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=72"
+    },
+    {
+      "id": 51,
+      "target": "فسد",
+      "ref": "21:22",
+      "context": "لَوْ كَانَ فِيهِمَآ ءَالِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا",
+      "options": [
+        {
+          "vocalized": "لَفَسَدَتَا",
+          "meaning": "sie beide wären verdorben (Form I Dual)",
+          "analysis": "Perfekt 3f-dual Form I: intransitiv, sie (Himmel und Erde) wären verdorben"
+        },
+        {
+          "vocalized": "لَأَفْسَدَتَا",
+          "meaning": "sie beide hätten verdorben (Form IV Dual)",
+          "analysis": "Form IV Perfekt 3f-dual: transitiv-kausativ, sie hätten Verderben gestiftet"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form I فَسَدَ intransitiv: Himmel und Erde (Dual) wären selbst verdorben. لَ = Jawab von لَوْ (irrealis).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=22"
+    },
+    {
+      "id": 52,
+      "target": "كسب",
+      "ref": "2:134",
+      "context": "لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ",
+      "options": [
+        {
+          "vocalized": "كَسَبَتْ",
+          "meaning": "sie erwarb (Aktiv)",
+          "analysis": "Perfekt Aktiv 3fs Form I: sie erwarb/verdiente"
+        },
+        {
+          "vocalized": "كُسِبَتْ",
+          "meaning": "es wurde erworben (Passiv)",
+          "analysis": "Perfekt Passiv 3fs: es wurde erworben/verdient"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَا كَسَبَتْ — Aktiv: das was sie (die Gemeinschaft) erwarb. مَا ist Relativpronomen, das implizite Subjekt bezieht sich auf die vorher genannte Gruppe.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=134"
+    },
+    {
+      "id": 53,
+      "target": "يتوب",
+      "ref": "4:17",
+      "context": "إِنَّمَا ٱلتَّوْبَةُ عَلَى ٱللَّهِ لِلَّذِينَ يَعْمَلُونَ ٱلسُّوٓءَ بِجَهَٰلَةٍ ثُمَّ يَتُوبُونَ مِن قَرِيبٍ",
+      "options": [
+        {
+          "vocalized": "يَتُوبُونَ",
+          "meaning": "sie wenden sich reuig zu (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3mp Form I: sie kehren um/bereuen"
+        },
+        {
+          "vocalized": "يَتُوبُوا",
+          "meaning": "sie wenden sich reuig zu (Subjunktiv)",
+          "analysis": "Imperfekt Subjunktiv 3mp (Nun fällt weg): sie kehren um"
+        }
+      ],
+      "answer": 0,
+      "explanation": "ثُمَّ يَتُوبُونَ — Indikativ (mit Nun), weil kein Subjunktiv- oder Jussiv-Auslöser vorliegt. ثُمَّ ist Konjunktion, kein Jazm-Partikel.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=17"
+    },
+    {
+      "id": 54,
+      "target": "يرجع",
+      "ref": "2:245",
+      "context": "وَإِلَيْهِ تُرْجَعُونَ",
+      "options": [
+        {
+          "vocalized": "تُرْجَعُونَ",
+          "meaning": "ihr werdet zurückgebracht (Passiv)",
+          "analysis": "Imperfekt Passiv 2mp: Damma-Präfix + Fatha auf dem zweiten Radikal"
+        },
+        {
+          "vocalized": "تَرْجِعُونَ",
+          "meaning": "ihr kehrt zurück (Aktiv)",
+          "analysis": "Imperfekt Aktiv 2mp: Fatha-Präfix + Kasra auf dem zweiten Radikal"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Passiv تُرْجَعُونَ: ihr werdet zu ihm zurückgebracht. Das Präfix-Damma (تُ) und Fatha auf dem Ain (جَ) zeigen Passiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=245"
+    },
+    {
+      "id": 55,
+      "target": "سمع",
+      "ref": "58:1",
+      "context": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا",
+      "options": [
+        {
+          "vocalized": "سَمِعَ",
+          "meaning": "er hörte (Aktiv)",
+          "analysis": "Perfekt Aktiv 3ms Form I: er hörte"
+        },
+        {
+          "vocalized": "سُمِعَ",
+          "meaning": "es wurde gehört (Passiv)",
+          "analysis": "Perfekt Passiv 3ms: es wurde gehört"
+        },
+        {
+          "vocalized": "سَمْع",
+          "meaning": "Gehör (Nomen)",
+          "analysis": "Masdar: das Hören/Gehör"
+        }
+      ],
+      "answer": 0,
+      "explanation": "قَدْ سَمِعَ ٱللَّهُ — Aktiv: Gott hörte. ٱللَّهُ ist Faʿil (Nominativ), قَوْلَ ist Mafʿul bihi (Akkusativ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=1"
+    },
+    {
+      "id": 56,
+      "target": "يعذب",
+      "ref": "5:40",
+      "context": "يُعَذِّبُ مَن يَشَآءُ وَيَغْفِرُ لِمَن يَشَآءُ",
+      "options": [
+        {
+          "vocalized": "يُعَذِّبُ",
+          "meaning": "er bestraft (Form II)",
+          "analysis": "Form II Imperfekt 3ms: intensiv-transitive Bestrafung (Shadda)"
+        },
+        {
+          "vocalized": "يَعْذُبُ",
+          "meaning": "es ist süß (Form I)",
+          "analysis": "Form I Imperfekt 3ms: intransitiv — süß sein (Wasser)"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form II يُعَذِّبُ (Damma-Präfix + Shadda auf dem zweiten Radikal): er bestraft intensiv. Form I عَذُبَ bedeutet 'süß sein'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=40"
+    },
+    {
+      "id": 57,
+      "target": "ضل",
+      "ref": "4:116",
+      "context": "وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَٰلًا بَعِيدًا",
+      "options": [
+        {
+          "vocalized": "ضَلَّ",
+          "meaning": "er irrte ab (Form I Aktiv)",
+          "analysis": "Perfekt Aktiv 3ms Form I: intransitiv, er verirrte sich"
+        },
+        {
+          "vocalized": "أَضَلَّ",
+          "meaning": "er führte in die Irre (Form IV)",
+          "analysis": "Form IV Perfekt 3ms: kausativ-transitiv, er führte andere in die Irre"
+        }
+      ],
+      "answer": 0,
+      "explanation": "ضَلَّ ضَلَٰلًا — Form I intransitiv mit Mafʿul mutlaq: er irrte ein weites Abirren. Kein Objekt = intransitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=116"
+    },
+    {
+      "id": 58,
+      "target": "شهد",
+      "ref": "3:18",
+      "context": "شَهِدَ ٱللَّهُ أَنَّهُ لَآ إِلَٰهَ إِلَّا هُوَ",
+      "options": [
+        {
+          "vocalized": "شَهِدَ",
+          "meaning": "er bezeugte (Aktiv)",
+          "analysis": "Perfekt Aktiv 3ms Form I: er bezeugte/gab Zeugnis"
+        },
+        {
+          "vocalized": "شُهِدَ",
+          "meaning": "es wurde bezeugt (Passiv)",
+          "analysis": "Perfekt Passiv 3ms: es wurde Zeugnis abgelegt"
+        },
+        {
+          "vocalized": "شَهْد",
+          "meaning": "Honig (Nomen)",
+          "analysis": "Nomen: Honig(wabe)"
+        }
+      ],
+      "answer": 0,
+      "explanation": "شَهِدَ ٱللَّهُ — Aktiv: Gott bezeugte. ٱللَّهُ ist Faʿil, der أَنَّ-Satz ist Mafʿul bihi (Inhalt der Bezeugung).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=18"
+    },
+    {
+      "id": 59,
+      "target": "يؤت",
+      "ref": "3:73",
+      "context": "قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ",
+      "options": [
+        {
+          "vocalized": "يُؤْتِيهِ",
+          "meaning": "er gibt ihn (Form IV Indikativ)",
+          "analysis": "Form IV Imperfekt 3ms Indikativ + Suffix: er gibt es/ihn"
+        },
+        {
+          "vocalized": "يُؤْتِهِ",
+          "meaning": "er gebe ihn (Form IV Jussiv)",
+          "analysis": "Form IV Jussiv 3ms + Suffix: defektiv, Ya fällt im Jussiv weg"
+        }
+      ],
+      "answer": 0,
+      "explanation": "يُؤْتِيهِ — Indikativ (mit Ya) weil kein Jussiv-Auslöser. Im Jussiv wäre es يُؤْتِهِ (Ya fällt weg, defektives Verb).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=73"
+    },
+    {
+      "id": 60,
+      "target": "قضى",
+      "ref": "17:23",
+      "context": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا إِلَّآ إِيَّاهُ",
+      "options": [
+        {
+          "vocalized": "قَضَىٰ",
+          "meaning": "er bestimmte/entschied (Aktiv)",
+          "analysis": "Perfekt 3ms Form I: er bestimmte/verfügte"
+        },
+        {
+          "vocalized": "قُضِيَ",
+          "meaning": "es wurde entschieden (Passiv)",
+          "analysis": "Perfekt Passiv 3ms: es wurde verfügt"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَقَضَىٰ رَبُّكَ — Aktiv: dein Herr bestimmte. رَبُّكَ ist Faʿil (Nominativ). Der أَنْ-Satz ist Mafʿul bihi.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=23"
+    },
+    {
+      "id": 61,
+      "target": "يهد",
+      "ref": "7:178",
+      "context": "مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى",
+      "options": [
+        {
+          "vocalized": "يَهْدِ",
+          "meaning": "er leitet (Jussiv)",
+          "analysis": "Form I Jussiv 3ms: defektives Verb, End-Ya fällt im Jussiv weg"
+        },
+        {
+          "vocalized": "يَهْدِي",
+          "meaning": "er leitet (Indikativ)",
+          "analysis": "Form I Indikativ 3ms: er leitet recht"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَن يَهْدِ — Jussiv nach Bedingungspartikel مَن. Bei defektiven Verben fällt das End-Ya im Jussiv weg.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=178"
+    },
+    {
+      "id": 62,
+      "target": "خلف",
+      "ref": "9:77",
+      "context": "بِمَآ أَخْلَفُوا ٱللَّهَ مَا وَعَدُوهُ",
+      "options": [
+        {
+          "vocalized": "أَخْلَفُوا",
+          "meaning": "sie brachen (Form IV)",
+          "analysis": "Form IV Perfekt 3mp: ein Versprechen brechen (kausativ)"
+        },
+        {
+          "vocalized": "خَلَفُوا",
+          "meaning": "sie folgten nach (Form I)",
+          "analysis": "Form I Perfekt 3mp: nachfolgen/ersetzen"
+        },
+        {
+          "vocalized": "خُلِّفُوا",
+          "meaning": "sie wurden zurückgelassen (Form II Passiv)",
+          "analysis": "Form II Perfekt Passiv 3mp: man ließ sie zurück"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Form IV أَخْلَفَ mit Akkusativobjekt ٱللَّهَ: sie brachen Gott gegenüber ihr Versprechen. Hamza-Präfix zeigt Form IV.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=77"
+    },
+    {
+      "id": 63,
+      "target": "المؤمنين",
+      "ref": "33:47",
+      "context": "وَبَشِّرِ ٱلْمُؤْمِنِينَ بِأَنَّ لَهُم مِّنَ ٱللَّهِ فَضْلًا كَبِيرًا",
+      "options": [
+        {
+          "vocalized": "ٱلْمُؤْمِنِينَ",
+          "meaning": "die Vertrauenden (Akkusativ)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Akkusativ: -ينَ nach Imperativ als Mafʿul bihi"
+        },
+        {
+          "vocalized": "ٱلْمُؤْمِنُونَ",
+          "meaning": "die Vertrauenden (Nominativ)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Nominativ: -ونَ als Faʿil/Mubtada"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَبَشِّرِ ٱلْمُؤْمِنِينَ — Akkusativ (Mafʿul bihi nach dem Imperativ بَشِّرْ). Gesunder mask. Plural: -ينَ für Akkusativ und Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=47"
+    },
+    {
+      "id": 64,
+      "target": "المسلمين",
+      "ref": "33:35",
+      "context": "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ",
+      "options": [
+        {
+          "vocalized": "ٱلْمُسْلِمِينَ",
+          "meaning": "die Ergebenen (Akkusativ)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Akkusativ: -ينَ als Ism inna"
+        },
+        {
+          "vocalized": "ٱلْمُسْلِمُونَ",
+          "meaning": "die Ergebenen (Nominativ)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Nominativ: -ونَ als Mubtada/Faʿil"
+        }
+      ],
+      "answer": 0,
+      "explanation": "إِنَّ ٱلْمُسْلِمِينَ — nach إِنَّ steht das Ism im Akkusativ. Gesunder mask. Plural: -ينَ (Akkusativ/Genitiv).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=35"
+    },
+    {
+      "id": 65,
+      "target": "المفلحون",
+      "ref": "2:5",
+      "context": "وَأُولَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "options": [
+        {
+          "vocalized": "ٱلْمُفْلِحُونَ",
+          "meaning": "die Erfolgreichen (Nominativ)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Nominativ: -ونَ als Khabar"
+        },
+        {
+          "vocalized": "ٱلْمُفْلِحِينَ",
+          "meaning": "die Erfolgreichen (Akkusativ/Genitiv)",
+          "analysis": "AP Form IV, gesunder mask. Plural, Akkusativ/Genitiv: -ينَ"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Khabar steht im Nominativ: ٱلْمُفْلِحُونَ (-ونَ). أُولَٰٓئِكَ ist Mubtada, هُمُ ist Damir al-Fasl.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+    },
+    {
+      "id": 66,
+      "target": "الظلمين",
+      "ref": "2:35",
+      "context": "فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
+      "options": [
+        {
+          "vocalized": "ٱلظَّالِمِينَ",
+          "meaning": "die Unrecht Tuenden (Genitiv)",
+          "analysis": "AP Form I, gesunder mask. Plural, Genitiv: -ينَ nach Präposition مِنَ"
+        },
+        {
+          "vocalized": "ٱلظَّالِمُونَ",
+          "meaning": "die Unrecht Tuenden (Nominativ)",
+          "analysis": "AP Form I, gesunder mask. Plural, Nominativ: -ونَ als Faʿil/Mubtada"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مِنَ ٱلظَّالِمِينَ — nach مِنَ (Präposition) steht Genitiv. Genitiv = -ينَ beim gesunden maskulinen Plural.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "id": 67,
+      "target": "الصلحت",
+      "ref": "2:25",
+      "context": "وَٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ",
+      "options": [
+        {
+          "vocalized": "ٱلصَّالِحَاتِ",
+          "meaning": "die rechtschaffenen (Taten) (Akkusativ)",
+          "analysis": "AP fem. Plural, Akkusativ: -اتِ (Kasra) als Mafʿul bihi"
+        },
+        {
+          "vocalized": "ٱلصَّالِحَاتُ",
+          "meaning": "die rechtschaffenen (fem., Nominativ)",
+          "analysis": "AP fem. Plural, Nominativ: -اتُ (Damma) als Faʿil/Mubtada"
+        }
+      ],
+      "answer": 0,
+      "explanation": "عَمِلُوا ٱلصَّالِحَاتِ — Akkusativ als Mafʿul bihi. Femininer gesunder Plural: -اتِ (Kasra) für Akkusativ UND Genitiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": 68,
+      "target": "يشاء",
+      "ref": "2:212",
+      "context": "وَٱللَّهُ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "options": [
+        {
+          "vocalized": "يَشَآءُ",
+          "meaning": "er will (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3ms Form I: Damma-Endung, Aussagesatz"
+        },
+        {
+          "vocalized": "يَشَأْ",
+          "meaning": "er will (Jussiv)",
+          "analysis": "Jussiv 3ms: hamziertes Verb, Alif fällt weg, Sukun"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَن يَشَآءُ — hier ist مَن Relativpronomen (nicht Bedingung), daher Indikativ mit Damma. Im Jussiv wäre es يَشَأْ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=212"
+    },
+    {
+      "id": 69,
+      "target": "كتب",
+      "ref": "2:183",
+      "context": "كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ",
+      "options": [
+        {
+          "vocalized": "كُتِبَ",
+          "meaning": "es wurde vorgeschrieben (Passiv)",
+          "analysis": "Perfekt Passiv 3ms Form I: es wurde geschrieben/vorgeschrieben"
+        },
+        {
+          "vocalized": "كَتَبَ",
+          "meaning": "er schrieb (Aktiv)",
+          "analysis": "Perfekt Aktiv 3ms Form I: er schrieb/bestimmte"
+        }
+      ],
+      "answer": 0,
+      "explanation": "كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ — Passiv: das Fasten (Nominativ = Naʿib al-Faʿil) wurde euch vorgeschrieben. Damma-Kasra-Fatha = Passiv-Muster.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=183"
+    },
+    {
+      "id": 70,
+      "target": "زين",
+      "ref": "2:212",
+      "context": "زُيِّنَ لِلَّذِينَ كَفَرُوا ٱلْحَيَوٰةُ ٱلدُّنْيَا",
+      "options": [
+        {
+          "vocalized": "زُيِّنَ",
+          "meaning": "es wurde verschönert (Form II Passiv)",
+          "analysis": "Form II Perfekt Passiv 3ms: Damma-Kasra auf Fa und Ain + Shadda"
+        },
+        {
+          "vocalized": "زَيَّنَ",
+          "meaning": "er verschönerte (Form II Aktiv)",
+          "analysis": "Form II Perfekt Aktiv 3ms: er verschönerte/schmückte"
+        }
+      ],
+      "answer": 0,
+      "explanation": "زُيِّنَ ... ٱلْحَيَوٰةُ — Passiv: das diesseitige Leben (Naʿib al-Faʿil, Nominativ) wurde verschönert. Kein expliziter Faʿil = Passiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=212"
+    },
+    {
+      "id": 71,
+      "target": "بصر",
+      "ref": "6:104",
+      "context": "قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ",
+      "options": [
+        {
+          "vocalized": "بَصَائِرُ",
+          "meaning": "Einsichten (Nomen Plural)",
+          "analysis": "gebrochener Plural von بَصِيرَة, Nominativ als Faʿil von جَآءَ"
+        },
+        {
+          "vocalized": "أَبْصَرَ",
+          "meaning": "er sah (Form IV Verb)",
+          "analysis": "Form IV Perfekt 3ms: er erkannte/sah klar"
+        }
+      ],
+      "answer": 0,
+      "explanation": "بَصَائِرُ ist Faʿil (Nominativ) von جَآءَ: Einsichten kamen zu euch. Gebrochener Plural, kein Verb.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=104"
+    },
+    {
+      "id": 72,
+      "target": "بعث",
+      "ref": "2:56",
+      "context": "ثُمَّ بَعَثْنَٰكُم مِّن بَعْدِ مَوْتِكُمْ",
+      "options": [
+        {
+          "vocalized": "بَعَثْنَاكُمْ",
+          "meaning": "wir erweckten euch (Aktiv 1pl)",
+          "analysis": "Perfekt 1pl Form I + Suffix 2mp: wir erweckten euch"
+        },
+        {
+          "vocalized": "بُعِثْتُمْ",
+          "meaning": "ihr wurdet erweckt (Passiv 2mp)",
+          "analysis": "Perfekt Passiv 2mp: ihr wurdet auferweckt"
+        }
+      ],
+      "answer": 0,
+      "explanation": "بَعَثْنَاكُمْ — نَا = 1. Person Plural (Faʿil), كُمْ = 2. Person Plural (Mafʿul bihi). Aktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=56"
+    },
+    {
+      "id": 73,
+      "target": "وعد",
+      "ref": "4:122",
+      "context": "وَعْدَ ٱللَّهِ حَقًّا وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًا",
+      "options": [
+        {
+          "vocalized": "وَعْدَ",
+          "meaning": "Versprechen (Masdar, Akkusativ)",
+          "analysis": "Masdar im Akkusativ (Mafʿul mutlaq): Gottes Versprechen — wahrhaftig"
+        },
+        {
+          "vocalized": "وَعَدَ",
+          "meaning": "er versprach (Perfekt)",
+          "analysis": "Perfekt Aktiv 3ms Form I: er versprach/machte eine Zusage"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَعْدَ ٱللَّهِ حَقًّا — Masdar-Akkusativ (Mafʿul mutlaq): (Das ist) Gottes Versprechen, wahrhaftig. Sukun auf dem Ain zeigt Nomen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=122"
+    },
+    {
+      "id": 74,
+      "target": "يكفر",
+      "ref": "2:256",
+      "context": "فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِن بِٱللَّهِ",
+      "options": [
+        {
+          "vocalized": "يَكْفُرْ",
+          "meaning": "er leugnet/verdeckt (Jussiv)",
+          "analysis": "Imperfekt Jussiv 3ms Form I: Sukun nach Bedingungspartikel مَن"
+        },
+        {
+          "vocalized": "يَكْفُرُ",
+          "meaning": "er leugnet/verdeckt (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3ms Form I: Damma-Endung, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "فَمَن يَكْفُرْ — Jussiv (Sukun auf Ra) nach der Bedingungspartikel مَن. Auch وَيُؤْمِنْ steht im Jussiv (Atf).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+    },
+    {
+      "id": 75,
+      "target": "يعمل",
+      "ref": "99:7",
+      "context": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+      "options": [
+        {
+          "vocalized": "يَعْمَلْ",
+          "meaning": "er tut (Jussiv)",
+          "analysis": "Imperfekt Jussiv 3ms Form I: Sukun nach Bedingungspartikel مَن"
+        },
+        {
+          "vocalized": "يَعْمَلُ",
+          "meaning": "er tut (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3ms Form I: Damma-Endung"
+        }
+      ],
+      "answer": 0,
+      "explanation": "فَمَن يَعْمَلْ — Jussiv nach مَن (Bedingung). يَرَهُ (Jawab) steht ebenfalls im Jussiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=7"
+    },
+    {
+      "id": 76,
+      "target": "يدع",
+      "ref": "96:17",
+      "context": "فَلْيَدْعُ نَادِيَهُ",
+      "options": [
+        {
+          "vocalized": "يَدْعُ",
+          "meaning": "er rufe (Jussiv)",
+          "analysis": "Jussiv 3ms von دَعَا: defektives Verb, Waw fällt im Jussiv weg"
+        },
+        {
+          "vocalized": "يَدْعُو",
+          "meaning": "er ruft (Indikativ)",
+          "analysis": "Indikativ 3ms: er ruft (mit Waw)"
+        }
+      ],
+      "answer": 0,
+      "explanation": "فَلْيَدْعُ — nach لِلْأَمْر (Befehlslam فَلْ) steht Jussiv. Defektives Verb: End-Waw fällt weg.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=17"
+    },
+    {
+      "id": 77,
+      "target": "ابتلى",
+      "ref": "2:124",
+      "context": "وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِـمَ رَبُّهُ بِكَلِمَٰتٍ",
+      "options": [
+        {
+          "vocalized": "ٱبْتَلَىٰ",
+          "meaning": "er prüfte (Form VIII Aktiv)",
+          "analysis": "Form VIII Perfekt 3ms: er prüfte/stellte auf die Probe"
+        },
+        {
+          "vocalized": "ٱبْتُلِيَ",
+          "meaning": "er wurde geprüft (Form VIII Passiv)",
+          "analysis": "Form VIII Perfekt Passiv 3ms: er wurde auf die Probe gestellt"
+        }
+      ],
+      "answer": 0,
+      "explanation": "ٱبْتَلَىٰ إِبْرَٰهِـمَ رَبُّهُ — Aktiv: sein Herr (رَبُّهُ, Faʿil, Nominativ) prüfte Ibrahim (Akkusativ, Mafʿul bihi).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": 78,
+      "target": "سئل",
+      "ref": "81:8",
+      "context": "وَإِذَا ٱلْمَوْءُودَةُ سُئِلَتْ",
+      "options": [
+        {
+          "vocalized": "سُئِلَتْ",
+          "meaning": "sie wurde gefragt (Passiv)",
+          "analysis": "Perfekt Passiv 3fs: sie wurde gefragt"
+        },
+        {
+          "vocalized": "سَأَلَتْ",
+          "meaning": "sie fragte (Aktiv)",
+          "analysis": "Perfekt Aktiv 3fs: sie fragte/bat"
+        }
+      ],
+      "answer": 0,
+      "explanation": "ٱلْمَوْءُودَةُ سُئِلَتْ — Passiv: das lebendig begrabene Mädchen (Naʿib al-Faʿil, Nominativ) wurde gefragt. Damma-Kasra = Passiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=8"
+    },
+    {
+      "id": 79,
+      "target": "يطهر",
+      "ref": "33:33",
+      "context": "وَيُطَهِّرَكُمْ تَطْهِيرًا",
+      "options": [
+        {
+          "vocalized": "يُطَهِّرَ",
+          "meaning": "er reinigt gründlich (Form II Subjunktiv)",
+          "analysis": "Form II Subjunktiv 3ms: intensiv-kausativ, Shadda auf dem zweiten Radikal"
+        },
+        {
+          "vocalized": "يَطْهُرَ",
+          "meaning": "er wird rein (Form I Subjunktiv)",
+          "analysis": "Form I Subjunktiv 3ms: intransitiv, er wird rein"
+        }
+      ],
+      "answer": 0,
+      "explanation": "يُطَهِّرَكُمْ تَطْهِيرًا — Form II (Shadda + Mafʿul mutlaq تَطْهِيرًا): kausativ-intensiv, er reinigt euch gründlich.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=33"
+    },
+    {
+      "id": 80,
+      "target": "خسر",
+      "ref": "103:2",
+      "context": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+      "options": [
+        {
+          "vocalized": "خُسْرٍ",
+          "meaning": "Verlust (Nomen, Genitiv)",
+          "analysis": "Masdar im Genitiv nach فِى + Tanwin: in Verlust"
+        },
+        {
+          "vocalized": "خَسِرَ",
+          "meaning": "er verlor (Perfekt)",
+          "analysis": "Perfekt 3ms Form I: er verlor/war verlustreich"
+        }
+      ],
+      "answer": 0,
+      "explanation": "فِى خُسْرٍ — nach Präposition فِى steht Genitiv. خُسْرٍ ist Masdar (Nomen) mit Tanwin, nicht Verb.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+    },
+    {
+      "id": 81,
+      "target": "هلك",
+      "ref": "69:5",
+      "context": "فَأُهْلِكُوا بِٱلطَّاغِيَةِ",
+      "options": [
+        {
+          "vocalized": "أُهْلِكُوا",
+          "meaning": "sie wurden vernichtet (Form IV Passiv)",
+          "analysis": "Form IV Perfekt Passiv 3mp: sie wurden zugrunde gerichtet"
+        },
+        {
+          "vocalized": "هَلَكُوا",
+          "meaning": "sie gingen zugrunde (Form I Aktiv)",
+          "analysis": "Form I Perfekt 3mp: intransitiv, sie gingen unter"
+        }
+      ],
+      "answer": 0,
+      "explanation": "فَأُهْلِكُوا بِـ — Passiv Form IV: sie wurden vernichtet (durch etwas). بِ zeigt das Mittel beim Passiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=5"
+    },
+    {
+      "id": 82,
+      "target": "يلد",
+      "ref": "112:3",
+      "context": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "options": [
+        {
+          "vocalized": "يَلِدْ",
+          "meaning": "er zeugte (Jussiv, negiert)",
+          "analysis": "Jussiv 3ms nach لَمْ: Sukun auf dem Dal, Negation der Vergangenheit"
+        },
+        {
+          "vocalized": "يَلِدُ",
+          "meaning": "er zeugt (Indikativ)",
+          "analysis": "Indikativ 3ms: Damma auf dem Dal, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "لَمْ يَلِدْ — Jussiv nach لَمْ: er zeugte nicht. Sukun statt Damma auf dem letzten Radikal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+    },
+    {
+      "id": 83,
+      "target": "يولد",
+      "ref": "112:3",
+      "context": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "options": [
+        {
+          "vocalized": "يُولَدْ",
+          "meaning": "er wurde gezeugt (Passiv Jussiv)",
+          "analysis": "Passiv Jussiv 3ms nach لَمْ: Damma-Präfix + Fatha auf Ain = Passiv"
+        },
+        {
+          "vocalized": "يُولَدُ",
+          "meaning": "er wird gezeugt (Passiv Indikativ)",
+          "analysis": "Passiv Indikativ 3ms: Damma-Endung"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَلَمْ يُولَدْ — Passiv (يُـ Präfix + Fatha auf dem Lam) + Jussiv (Sukun) nach لَمْ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+    },
+    {
+      "id": 84,
+      "target": "وكل",
+      "ref": "65:3",
+      "context": "وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُ",
+      "options": [
+        {
+          "vocalized": "يَتَوَكَّلْ",
+          "meaning": "er verlässt sich (Form V Jussiv)",
+          "analysis": "Form V Jussiv 3ms: Sukun nach Bedingungspartikel مَن"
+        },
+        {
+          "vocalized": "يَتَوَكَّلُ",
+          "meaning": "er verlässt sich (Form V Indikativ)",
+          "analysis": "Form V Indikativ 3ms: Damma-Endung, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَن يَتَوَكَّلْ — Jussiv (Sukun) nach Bedingungspartikel مَن. Form V (تَفَعَّلَ): reflexiv von وَكَّلَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=3"
+    },
+    {
+      "id": 85,
+      "target": "فجر",
+      "ref": "89:1",
+      "context": "وَٱلْفَجْرِ وَلَيَالٍ عَشْرٍ",
+      "options": [
+        {
+          "vocalized": "ٱلْفَجْرِ",
+          "meaning": "die Morgendämmerung (Nomen, Genitiv)",
+          "analysis": "Nomen im Genitiv nach Schwur-Waw: mit Artikel الْ"
+        },
+        {
+          "vocalized": "فَجَرَ",
+          "meaning": "er brach hervor (Perfekt)",
+          "analysis": "Perfekt 3ms Form I: er sprudelte/brach auf"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَٱلْفَجْرِ — Schwur-Waw + definites Nomen mit Artikel im Genitiv. Kann kein Verb sein, weil الْ (Artikel) voransteht.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+    },
+    {
+      "id": 86,
+      "target": "ظلم",
+      "ref": "2:281",
+      "context": "وَهُمْ لَا يُظْلَمُونَ",
+      "options": [
+        {
+          "vocalized": "يُظْلَمُونَ",
+          "meaning": "ihnen wird Unrecht getan (Passiv)",
+          "analysis": "Imperfekt Passiv 3mp: Damma-Präfix + Fatha auf dem zweiten Radikal"
+        },
+        {
+          "vocalized": "يَظْلِمُونَ",
+          "meaning": "sie tun Unrecht (Aktiv)",
+          "analysis": "Imperfekt Aktiv 3mp: Fatha-Präfix + Kasra auf dem zweiten Radikal"
+        }
+      ],
+      "answer": 0,
+      "explanation": "لَا يُظْلَمُونَ — Passiv: ihnen wird kein Unrecht angetan. Präfix يُ (Damma) + Fatha auf dem Lam = Passiv-Muster.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=281"
+    },
+    {
+      "id": 87,
+      "target": "خاف",
+      "ref": "20:68",
+      "context": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنتَ ٱلْأَعْلَىٰ",
+      "options": [
+        {
+          "vocalized": "تَخَفْ",
+          "meaning": "fürchte (nicht)! (Jussiv)",
+          "analysis": "Jussiv 2ms nach لَا الناهية: hohles Verb, Langvokal fällt weg"
+        },
+        {
+          "vocalized": "تَخَافُ",
+          "meaning": "du fürchtest (Indikativ)",
+          "analysis": "Indikativ 2ms: mit Langvokal اَا, Damma-Endung"
+        }
+      ],
+      "answer": 0,
+      "explanation": "لَا تَخَفْ — Jussiv nach لَا الناهية (Verbot). Hohles Verb: der Langvokal اَا wird im Jussiv zu kurzem Fatha.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=68"
+    },
+    {
+      "id": 88,
+      "target": "رأى",
+      "ref": "105:1",
+      "context": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "options": [
+        {
+          "vocalized": "تَرَ",
+          "meaning": "du sahst (Jussiv)",
+          "analysis": "Jussiv 2ms nach لَمْ: defektiv + hamziert, Alif Maqsura und Hamza fallen weg"
+        },
+        {
+          "vocalized": "تَرَى",
+          "meaning": "du siehst (Indikativ)",
+          "analysis": "Indikativ 2ms: mit Alif Maqsura, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "أَلَمْ تَرَ — Jussiv nach لَمْ. Doppelt schwach (hamziert + defektiv): Alif Maqsura fällt weg, Hamza wird eliminiert. Nur تَرَ bleibt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+    },
+    {
+      "id": 89,
+      "target": "ولي",
+      "ref": "2:257",
+      "context": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا",
+      "options": [
+        {
+          "vocalized": "وَلِيُّ",
+          "meaning": "Beschützer/Verbündeter (Nomen)",
+          "analysis": "Nomen (Muster فَعِيل), Nominativ als Khabar: Beschützer"
+        },
+        {
+          "vocalized": "وَلِيَ",
+          "meaning": "er übernahm die Aufsicht (Perfekt)",
+          "analysis": "Perfekt 3ms Form I: er war Verbündeter/übernahm"
+        }
+      ],
+      "answer": 0,
+      "explanation": "ٱللَّهُ وَلِيُّ — Nominalsatz: Gott (Mubtada) ist Beschützer (Khabar, Nominativ). وَلِيُّ als Nomen in Iḍāfa mit ٱلَّذِينَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=257"
+    },
+    {
+      "id": 90,
+      "target": "انشأ",
+      "ref": "56:35",
+      "context": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءً",
+      "options": [
+        {
+          "vocalized": "أَنشَأْنَاهُنَّ",
+          "meaning": "wir schufen sie (Form IV Aktiv 1pl)",
+          "analysis": "Form IV Perfekt 1pl + Suffix 3fp: wir erschufen sie neu"
+        },
+        {
+          "vocalized": "نَشَأْنَ",
+          "meaning": "sie entstanden (Form I 3fp)",
+          "analysis": "Form I Perfekt 3fp: sie wuchsen heran/entstanden"
+        }
+      ],
+      "answer": 0,
+      "explanation": "أَنشَأْنَاهُنَّ إِنشَاءً — Form IV Aktiv 1pl (Hamza-Präfix) + Mafʿul mutlaq. نَا = Faʿil, هُنَّ = Mafʿul bihi.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=35"
+    },
+    {
+      "id": 91,
+      "target": "يتقي",
+      "ref": "3:120",
+      "context": "وَإِن تَصْبِرُوا وَتَتَّقُوا لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا",
+      "options": [
+        {
+          "vocalized": "تَتَّقُوا",
+          "meaning": "ihr hütet euch (Jussiv, Nun fällt weg)",
+          "analysis": "Form VIII Jussiv 2mp nach إِنْ: Nun fällt weg bei den fünf Verben"
+        },
+        {
+          "vocalized": "تَتَّقُونَ",
+          "meaning": "ihr hütet euch (Indikativ)",
+          "analysis": "Form VIII Indikativ 2mp: mit Nun, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَإِن ... وَتَتَّقُوا — Jussiv nach Bedingungspartikel إِنْ. Bei den fünf Verben (Plural etc.) fällt das Nun im Jussiv weg.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=120"
+    },
+    {
+      "id": 92,
+      "target": "طاع",
+      "ref": "3:132",
+      "context": "وَأَطِيعُوا ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "options": [
+        {
+          "vocalized": "أَطِيعُوا",
+          "meaning": "gehorcht! (Form IV Imperativ)",
+          "analysis": "Form IV Imperativ 2mp von أَطَاعَ: Hamza-Präfix im Imperativ"
+        },
+        {
+          "vocalized": "طَاعُوا",
+          "meaning": "sie gehorchten (Form I Perfekt)",
+          "analysis": "Form I Perfekt 3mp: sie folgten/gehorchten"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَأَطِيعُوا — Form IV Imperativ Plural. Imperativ von أَطَاعَ (hohles Verb Form IV). Transitiv mit Akkusativ: gehorcht Gott.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=132"
+    },
+    {
+      "id": 93,
+      "target": "يلق",
+      "ref": "25:68",
+      "context": "وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
+      "options": [
+        {
+          "vocalized": "يَلْقَ",
+          "meaning": "er begegnet (Jussiv)",
+          "analysis": "Jussiv 3ms von لَقِيَ: defektives Verb, Alif Maqsura fällt weg"
+        },
+        {
+          "vocalized": "يَلْقَى",
+          "meaning": "er begegnet (Indikativ)",
+          "analysis": "Indikativ 3ms: mit Alif Maqsura"
+        }
+      ],
+      "answer": 0,
+      "explanation": "يَلْقَ أَثَامًا — Jussiv (Jawab ash-Shart nach مَن يَفْعَلْ). Defektives Verb: Alif Maqsura fällt im Jussiv weg.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=68"
+    },
+    {
+      "id": 94,
+      "target": "يمسس",
+      "ref": "3:174",
+      "context": "فَٱنقَلَبُوا بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ لَّمْ يَمْسَسْهُمْ سُوٓءٌ",
+      "options": [
+        {
+          "vocalized": "يَمْسَسْهُمْ",
+          "meaning": "er berührte sie (Jussiv, aufgelöst)",
+          "analysis": "Jussiv 3ms nach لَمْ + Suffix: verdoppelt, Shadda löst sich im Jussiv auf"
+        },
+        {
+          "vocalized": "يَمَسُّهُمْ",
+          "meaning": "er berührt sie (Indikativ)",
+          "analysis": "Indikativ 3ms + Suffix: mit Shadda, Aussagesatz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "لَمْ يَمْسَسْهُمْ — Jussiv nach لَمْ. Verdoppeltes Verb: die Gemination löst sich auf (مَسَسْ statt مَسَّ), wenn Sukun folgt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=174"
+    },
+    {
+      "id": 95,
+      "target": "طلع",
+      "ref": "97:5",
+      "context": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "options": [
+        {
+          "vocalized": "مَطْلَعِ",
+          "meaning": "Aufgang / Zeitpunkt des Aufgangs (Nomen)",
+          "analysis": "Ism Zaman (Muster مَفْعَل), Genitiv nach حَتَّى: Aufgangszeit"
+        },
+        {
+          "vocalized": "طَلَعَ",
+          "meaning": "er ging auf (Perfekt)",
+          "analysis": "Perfekt 3ms Form I: er ging auf/erschien"
+        }
+      ],
+      "answer": 0,
+      "explanation": "حَتَّى مَطْلَعِ — Nomen (Ism Zaman, Muster مَفْعَل) im Genitiv. حَتَّى als Präposition verlangt Genitiv. Nicht Verb.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=5"
+    },
+    {
+      "id": 96,
+      "target": "ركع",
+      "ref": "2:43",
+      "context": "وَأَقِيمُوا ٱلصَّلَوٰةَ وَءَاتُوا ٱلزَّكَوٰةَ وَٱرْكَعُوا مَعَ ٱلرَّٰكِعِينَ",
+      "options": [
+        {
+          "vocalized": "ٱلرَّاكِعِينَ",
+          "meaning": "die sich Verbeugenden (Genitiv)",
+          "analysis": "AP Form I, gesunder mask. Plural, Genitiv nach مَعَ: -ينَ"
+        },
+        {
+          "vocalized": "رَكَعُوا",
+          "meaning": "sie verbeugten sich (Perfekt)",
+          "analysis": "Perfekt 3mp Form I: sie vollzogen die Verbeugung"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَعَ ٱلرَّاكِعِينَ — Nomen (AP Plural) im Genitiv nach مَعَ. Artikel الْ zeigt Nomen, nicht Verb.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+    },
+    {
+      "id": 97,
+      "target": "يسجد",
+      "ref": "22:18",
+      "context": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ",
+      "options": [
+        {
+          "vocalized": "يَسْجُدُ",
+          "meaning": "er wirft sich nieder (Indikativ)",
+          "analysis": "Imperfekt Indikativ 3ms Form I: Damma-Endung, innerhalb eines أَنَّ-Satzes"
+        },
+        {
+          "vocalized": "يَسْجُدْ",
+          "meaning": "er werfe sich nieder (Jussiv)",
+          "analysis": "Jussiv 3ms: Sukun, nach Jazm-Partikel"
+        }
+      ],
+      "answer": 0,
+      "explanation": "أَنَّ ٱللَّهَ يَسْجُدُ لَهُ — Indikativ (Damma) innerhalb des أَنَّ-Satzes. أَنَّ löst keinen Jussiv aus, sondern regiert den Nominalsatz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=18"
+    },
+    {
+      "id": 98,
+      "target": "حسن",
+      "ref": "2:245",
+      "context": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا",
+      "options": [
+        {
+          "vocalized": "حَسَنًا",
+          "meaning": "gutes/schönes (Adjektiv, Akkusativ)",
+          "analysis": "Sifa im Akkusativ + Tanwin: kongruent mit قَرْضًا"
+        },
+        {
+          "vocalized": "حُسْن",
+          "meaning": "Schönheit (Masdar)",
+          "analysis": "Masdar: abstrakte Schönheit/Güte"
+        },
+        {
+          "vocalized": "حَسُنَ",
+          "meaning": "es war gut/schön (Perfekt)",
+          "analysis": "Perfekt 3ms: es war schön (statives Verb)"
+        }
+      ],
+      "answer": 0,
+      "explanation": "قَرْضًا حَسَنًا — Sifa (Akkusativ + Tanwin), kongruent mit dem Nomen قَرْضًا in Kasus, Genus, Numerus und Definitheit.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=245"
+    },
+    {
+      "id": 99,
+      "target": "يحل",
+      "ref": "3:50",
+      "context": "وَلِأُحِلَّ لَكُم بَعْضَ ٱلَّذِى حُرِّمَ عَلَيْكُمْ",
+      "options": [
+        {
+          "vocalized": "أُحِلَّ",
+          "meaning": "ich erlaube (Form IV Subjunktiv 1s)",
+          "analysis": "Form IV Subjunktiv 1s nach لِ (Zweck): damit ich erlaube"
+        },
+        {
+          "vocalized": "يُحِلُّ",
+          "meaning": "er erlaubt (Form IV Indikativ 3ms)",
+          "analysis": "Form IV Indikativ 3ms: er macht erlaubt"
+        },
+        {
+          "vocalized": "حَلَّ",
+          "meaning": "es wurde erlaubt / er löste (Form I)",
+          "analysis": "Form I Perfekt 3ms: es war erlaubt / er löste"
+        }
+      ],
+      "answer": 0,
+      "explanation": "وَلِأُحِلَّ — لِ + Subjunktiv 1s (أُ-Präfix): damit ich (Jesus spricht) euch erlaube. Form IV kausativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=50"
+    },
+    {
+      "id": 100,
+      "target": "قام",
+      "ref": "72:19",
+      "context": "وَأَنَّهُ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا يَكُونُونَ عَلَيْهِ لِبَدًا",
+      "options": [
+        {
+          "vocalized": "قَامَ",
+          "meaning": "er stand auf (Perfekt)",
+          "analysis": "Perfekt 3ms Form I: hohles Verb (ق-و-م), er stand/erhob sich"
+        },
+        {
+          "vocalized": "يَقُمْ",
+          "meaning": "er stehe auf (Jussiv)",
+          "analysis": "Jussiv 3ms: hohles Verb, Waw fällt weg im Jussiv"
+        }
+      ],
+      "answer": 0,
+      "explanation": "لَمَّا قَامَ — nach لَمَّا (temporal: als) steht Perfekt. قَامَ ist Perfekt des hohlen Verbs (Waw wird zu Alif).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=19"
+    },
+    {
+      "id": 101,
+      "target": "يستطع",
+      "ref": "18:97",
+      "context": "فَمَا ٱسْطَٰعُوٓا أَن يَظْهَرُوهُ وَمَا ٱسْتَطَٰعُوا لَهُ نَقْبًا",
+      "options": [
+        {
+          "vocalized": "ٱسْطَاعُوا",
+          "meaning": "sie konnten (Form X, verkürzt)",
+          "analysis": "Form X Perfekt 3mp: verkürzte Form (ohne ta) — für leichtere Aufgabe"
+        },
+        {
+          "vocalized": "ٱسْتَطَاعُوا",
+          "meaning": "sie konnten (Form X, voll)",
+          "analysis": "Form X Perfekt 3mp: volle Form — für schwerere Aufgabe"
+        }
+      ],
+      "answer": 0,
+      "explanation": "Der Vers verwendet BEIDE Formen: ٱسْطَاعُوا (verkürzt, für das Erklettern) und ٱسْتَطَاعُوا (voll, für das Durchbohren). Beide sind Form X von طَوَعَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=97"
+    },
+    {
+      "id": 102,
+      "target": "يكن",
+      "ref": "33:40",
+      "context": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ",
+      "options": [
+        {
+          "vocalized": "كَانَ",
+          "meaning": "er war (Perfekt, Naqis)",
+          "analysis": "Perfekt 3ms: Verb von unvollständiger Flexion (كَانَ وَأَخَوَاتُهَا)"
+        },
+        {
+          "vocalized": "كَوْن",
+          "meaning": "Sein/Existenz (Masdar)",
+          "analysis": "Masdar: das Sein, die Existenz"
+        }
+      ],
+      "answer": 0,
+      "explanation": "مَّا كَانَ مُحَمَّدٌ أَبَآ — كَانَ als Verb von unvollständiger Flexion: Ism (Nominativ) + Khabar (Akkusativ). مُحَمَّدٌ = Ism, أَبَآ = Khabar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=40"
+    }
+  ]
+}

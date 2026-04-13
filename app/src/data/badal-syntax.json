@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Badal — Apposition (البدل)",
+    "description": "Der Badal ist ein Nomen, das einem anderen Nomen (dem Mubdal minh) im selben Kasus folgt und es konkretisiert, einschränkt oder korrigiert. Im Quran erscheint er häufig als präzisierende Wiederaufnahme — besonders an Übergängen zwischen Versen.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar (3rd ed.)",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "BAD1",
+      "title": "Badal kull min kull — volle Substitution",
+      "description": "Der häufigste Badal-Typ: das zweite Nomen ersetzt das erste vollständig, als präzisierende Benennung desselben Referenten.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist der Badal?",
+            "content": "Der Badal (البدل — Substitut) folgt einem Bezugsnomen (Mubdal minh, مُبْدَلٌ مِنْه) im selben Kasus und benennt denselben Referenten erneut — präziser, detaillierter oder aus anderer Perspektive.\n\nDer Badal kongruiert NICHT mit dem Mubdal minh in allen Merkmalen (das wäre Sifa/Attribut), sondern nimmt einfach seinen Kasus an.\n\nVier Typen des Badal:\n1. Badal kull min kull (بدل كل من كل): volle Entsprechung — A = B\n2. Badal ba'd min kull (بدل بعض من كل): Teil des Ganzen — B ist Teil von A\n3. Badal al-ishtimal (بدل الاشتمال): Aspektbadal — B ist ein Aspekt von A\n4. Badal al-ghalat (بدل الغلط): Korrektur — B ersetzt A als Berichtigung\n\nFür den Quran relevant: Typen 1-3."
+          },
+          {
+            "type": "explanation",
+            "title": "Badal vs. Sifa — der entscheidende Unterschied",
+            "content": "Sifa (Attribut) und Badal sehen oft ähnlich aus, weil beide dem Bezugsnomen im Kasus folgen.\n\nSIFA:\n- Muss in Kasus, Genus, Numerus UND Definitheit kongruieren\n- Beschreibt eine Eigenschaft des Bezugsnomens\n- Kein neues Nomen, sondern eine Präzisierung derselben Entität als Adjektiv\n\nBADAL:\n- Kongruiert NUR im Kasus\n- Benennt denselben Referenten erneut (oft als Eigenname nach einem Appellativ, oder umgekehrt)\n- Kann Definitheit wechseln: مَرَرْتُ بِرَجُلٍ زَيْدٍ ist möglich (indefinit → definit)\n\nTESTFRAGE: Kann man das erste Nomen durch das zweite ersetzen, ohne den Kernsinn zu ändern? → Badal kull. Beschreibt das zweite eine Eigenschaft? → Sifa."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "1:6-7",
+                "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ — صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+                "explanation": "صِرَاطَ in V7 ist Badal kull min kull von الصِّرَاطَ in V6. Gleicher Kasus (Akkusativ nach اهْدِنَا). Das 'gerade Weg' wird präzisiert als 'der Weg derer, denen du Gunst erwiesen hast.' Die Präzisierung erfolgt über eine Versgrenze hinweg.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+              },
+              {
+                "ref": "96:15-16",
+                "arabic": "لَنَسْفَعًا بِالنَّاصِيَةِ — نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
+                "explanation": "نَاصِيَةٍ in V16 ist Badal von النَّاصِيَةِ in V15. Gleicher Kasus (Genitiv nach بِ). Interessant: das Mubdal minh النَّاصِيَةِ ist definit (mit Artikel), der Badal نَاصِيَةٍ ist indefinit (Tanwin). Dies ist beim Badal erlaubt — beim Attribut nicht. Dann folgen كَاذِبَةٍ خَاطِئَةٍ als Sifa-Attribute zum Badal.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=15"
+              },
+              {
+                "ref": "3:97",
+                "arabic": "وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًا",
+                "explanation": "مَنِ اسْتَطَاعَ = Badal ba'd min kull von النَّاسِ. Der Teil-vom-Ganzen-Badal: 'die Menschen' → präzisiert als 'diejenigen unter ihnen, die den Weg finden können.' النَّاسِ steht im Genitiv nach der Präposition عَلَى. مَنِ = Badal im Genitiv, weil es dem Kasus seines Mubdal minh (النَّاسِ) folgt. Der Badal übernimmt stets den Kasus des Mubdal minh.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=97"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "identification",
+          "question": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى (87:1) — Ist الْأَعْلَى Sifa oder Badal?",
+          "answer": "Sifa (Attribut). الْأَعْلَى ist Sifa (Adjektiv/Attribut) zu رَبِّكَ, im Genitiv weil es einem Genitiv-Nomen als Attribut folgt — nicht weil es Iḍāfa-Glied von اسْمَ wäre. Definit durch الـ. 'Preis den Namen deines erhabensten Herrn.' Es beschreibt eine Eigenschaft, kein neues Nomen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=1"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Wie unterscheidet sich der Badal strukturell vom Attribut (Sifa)?",
+            "options": [
+              "Badal steht nach Präposition, Sifa nicht",
+              "Badal kongruiert nur im Kasus, Sifa kongruiert in Kasus, Genus, Numerus und Definitheit",
+              "Badal ist immer indefinit, Sifa immer definit",
+              "Es gibt keinen Unterschied — beide sind Appositionen"
+            ],
+            "correct": 1,
+            "explanation": "Der Badal kongruiert nur im Kasus mit dem Mubdal minh. Die Sifa muss in allen vier Kategorien (Kasus, Genus, Numerus, Definitheit) kongruieren. Daher kann ein Badal definit → indefinit oder indefinit → definit wechseln — eine Sifa nicht.",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n236"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "id": "BAD2",
+      "title": "Badal al-Ishtimal — Aspektbadal",
+      "description": "Der Badal al-Ishtimal präzisiert nicht 'was' etwas ist, sondern welcher Aspekt oder welche Eigenschaft gemeint ist. Er hat ein Pronomen, das auf den Mubdal minh zurückverweist.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Der Aspektbadal",
+            "content": "Beim Badal al-Ishtimal (بدل الاشتمال) benennt das zweite Nomen einen Aspekt, eine Eigenschaft oder einen Teil, der zum ersten Nomen gehört. Ein typisches Merkmal: das zweite Nomen enthält (explizit oder implizit) ein Pronomen, das auf das erste zurückverweist.\n\nBeispiel: أُعْجِبْتُ بِزَيْدٍ عِلْمِهِ — 'ich war von Zayd beeindruckt — von seinem Wissen.' عِلْمِهِ = Badal al-Ishtimal. Das Pronomen هِ in عِلْمِهِ verweist auf زَيْد.\n\nDieses Pronomen ist das entscheidende Erkennungsmerkmal des Ishtimal-Badal: ohne es wäre es unklar, wessen Wissen gemeint ist.\n\nIm Quran kommt dieser Typ vor, aber seltener als der Kull-Badal."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele",
+            "examples": [
+              {
+                "ref": "2:217",
+                "arabic": "عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ",
+                "explanation": "قِتَالٍ فِيهِ = Badal al-Ishtimal von الشَّهْرِ الْحَرَامِ. Kasus: Genitiv (nach عَنِ). Das Pronomen هِ in فِيهِ verweist auf الشَّهْرَ الْحَرَامَ. 'Sie fragen dich über den unantastbaren/unverletzlichen Monat (حَرَام: unantastbar/unverletzlich) — über den Kampf in ihm.' Der Aspekt 'Kampf darin' wird als präzisierender Badal eingeführt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+              },
+              {
+                "ref": "20:94",
+                "arabic": "قَالَ يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ",
+                "explanation": "لِحْيَتِي und رَأْسِي sind Mafʿul bihi nach تَأْخُذْ + بِ (ergreifen). Kein Badal hier — Vergleichsbeispiel. Das بِ ist der sogenannte باء التعدية (durchgreifendes بِ nach bestimmten Verben).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=94"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "analysis",
+          "question": "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ (2:217) — Was zeigt an, dass قِتَالٍ فِيهِ ein Badal al-Ishtimal ist?",
+          "answer": "Erstens: gleicher Kasus (Genitiv nach عَنِ). Zweitens: das Pronomen هِ in فِيهِ verweist auf الشَّهْرَ الْحَرَامَ (das ist das Erkennungsmerkmal des Ishtimal-Badal). Drittens: قِتَالٍ ist kein anderer Name für 'den unantastbaren/unverletzlichen Monat (حَرَام: unantastbar/unverletzlich)', sondern ein Aspekt davon.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Welches ist das grammatische Erkennungsmerkmal des Badal al-Ishtimal?",
+            "options": [
+              "Er steht immer im Akkusativ",
+              "Er enthält ein Pronomen, das auf den Mubdal minh zurückverweist",
+              "Er steht nach der Konjunktion وَ",
+              "Er ist immer indefinit"
+            ],
+            "correct": 1,
+            "explanation": "Der Badal al-Ishtimal enthält ein zurückverweisendes Pronomen (ḍamīr), das auf den Mubdal minh zeigt. Dieses unterscheidet ihn vom Badal kull (keine Pronominalbindung nötig).",
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n236"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+    }
+  ]
+}

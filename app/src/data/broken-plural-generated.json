@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "title": "Gebrochene Plurale — Übungsdaten (generiert)",
+    "description": "Automatisch generierte Übungen zu gebrochenen Pluralmustern des koranischen Arabisch.",
+    "generated": "2026-03-23",
+    "revised": "2026-03-26",
+    "count": 46,
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ],
+    "generationNote": "Generiert aus quran-morphology-db.json — jeder Eintrag ist ein im Quran belegter gebrochener Plural."
+  },
+  "exercises": [
+    {
+      "id": "bp001",
+      "root": "م-ل-ك",
+      "singular": "مَلَك",
+      "plural": "مَلَائِكَة",
+      "pattern": "مَفَاعِلَة",
+      "singularLocation": "2:30",
+      "pluralLocation": "2:30",
+      "context": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً قَالُوٓا أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "bp003",
+      "root": "ش-ر-ق",
+      "singular": "مَشْرِق",
+      "plural": "مَشَٰرِقَ",
+      "pattern": "مَفَاعِل",
+      "singularLocation": "2:115",
+      "pluralLocation": "7:137",
+      "context": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُ وَمَا كَانُوا يَعْرِشُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=137"
+    },
+    {
+      "id": "bp004",
+      "root": "ي-م-ن",
+      "singular": "يَمِين",
+      "plural": "أَيْمَٰن",
+      "pattern": "أَفْعَال",
+      "singularLocation": "56:27",
+      "pluralLocation": "2:224",
+      "context": "وَلَا تَجْعَلُوا ٱللَّهَ عُرْضَةً لِّأَيْمَٰنِكُمْ أَن تَبَرُّوا وَتَتَّقُوا وَتُصْلِحُوا بَيْنَ ٱلنَّاسِ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=224"
+    },
+    {
+      "id": "bp006",
+      "root": "ق-ل-ب",
+      "singular": "قَلْب",
+      "plural": "قُلُوب",
+      "pattern": "فُعُول",
+      "singularLocation": "2:97",
+      "pluralLocation": "2:7",
+      "context": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "bp007",
+      "root": "ب-ي-ض",
+      "singular": "بَيْضَة",
+      "plural": "بَيْض",
+      "pattern": "فَعْلَة → فَعْل",
+      "singularLocation": "—",
+      "pluralLocation": "37:49",
+      "context": "كَأَنَّهُنَّ بَيْضٌ مَّكْنُونٌ",
+      "note": "بَيْض (37:49) bedeutet 'Eier' (Singular بَيْضَة). Nicht zu verwechseln mit بِيض (Plural von أَبْيَض, Farbadjektiv 'weiß', z.B. 3:107).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=49"
+    },
+    {
+      "id": "bp009",
+      "root": "ح-ب-ب",
+      "singular": "حَبِيب",
+      "plural": "أَحِبَّآءُ",
+      "pattern": "أَفْعِلَاء",
+      "singularLocation": "9:24",
+      "pluralLocation": "5:18",
+      "context": "وَقَالَتِ ٱلْيَهُودُ وَٱلنَّصَٰرَىٰ نَحْنُ أَبْنَٰٓؤُا ٱللَّهِ وَأَحِبَّٰٓؤُهُ قُلْ فَلِمَ يُعَذِّبُكُم بِذُنُوبِكُم بَلْ أَنتُم بَشَرٌ مِّمَّنْ خَلَقَ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَإِلَيْهِ ٱلْمَصِيرُ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=18"
+    },
+    {
+      "id": "bp011",
+      "root": "ل-ف-ف",
+      "singular": "لِفّ",
+      "plural": "أَلْفَاف",
+      "pattern": "أَفْعَال",
+      "singularLocation": "—",
+      "note2": "Die Singularform لِفّ kommt im Quran nicht eigenständig vor. 17:104 hat لَفِيف, eine andere Ableitung der Wurzel.",
+      "pluralLocation": "78:16",
+      "context": "وَجَنَّٰتٍ أَلْفَافًا",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=16"
+    },
+    {
+      "id": "bp017",
+      "root": "ش-ه-د",
+      "singular": "شَهِيد",
+      "plural": "شُهَدَاء",
+      "pattern": "فُعَلَاء",
+      "singularLocation": "2:143",
+      "pluralLocation": "2:23",
+      "context": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا بِسُورَةٍ مِّن مِّثْلِهِ وَٱدْعُوا شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "id": "bp018",
+      "root": "غ-ر-ب",
+      "singular": "مَغْرِب",
+      "plural": "مَغَٰرِب",
+      "pattern": "مَفَاعِل",
+      "singularLocation": "2:115",
+      "pluralLocation": "7:137",
+      "context": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُ وَمَا كَانُوا يَعْرِشُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=137"
+    },
+    {
+      "id": "bp019",
+      "root": "ج-د-ر",
+      "singular": "جِدَار",
+      "plural": "جُدُر",
+      "pattern": "فُعُل",
+      "singularLocation": "18:77",
+      "pluralLocation": "59:14",
+      "context": "لَا يُقَٰتِلُونَكُمْ جَمِيعًا إِلَّا فِى قُرًى مُّحَصَّنَةٍ أَوْ مِن وَرَآءِ جُدُرٍ بَأْسُهُم بَيْنَهُمْ شَدِيدٌ تَحْسَبُهُمْ جَمِيعًا وَقُلُوبُهُمْ شَتَّىٰ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=14"
+    },
+    {
+      "id": "bp020",
+      "root": "أ-ب-و",
+      "singular": "أَب",
+      "plural": "آبَاء",
+      "pattern": "أَفْعَال",
+      "singularLocation": "6:74",
+      "pluralLocation": "2:133",
+      "context": "أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِن بَعْدِى قَالُوا نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبْرَٰهِـمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ إِلَٰهًا وَٰحِدًا وَنَحْنُ لَهُ مُسْلِمُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133"
+    },
+    {
+      "id": "bp021",
+      "root": "ج-د-د",
+      "singular": "جُدَّة",
+      "plural": "جُدَد",
+      "note": "جُدَد in 35:27 bedeutet 'Streifen/Bahnen' (Singular جُدَّة), nicht Plural von جَدِيد (neu)",
+      "pattern": "فُعَل",
+      "singularLocation": "—",
+      "note2": "Die Singularform جُدَّة kommt im Quran nicht eigenständig vor.",
+      "pluralLocation": "35:27",
+      "context": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا وَمِنَ ٱلْجِبَالِ جُدَدٌ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=27"
+    },
+    {
+      "id": "bp022",
+      "root": "م-ث-ل",
+      "singular": "مَثَل",
+      "plural": "أَمْثَال",
+      "pattern": "أَفْعَال",
+      "singularLocation": "2:17",
+      "pluralLocation": "6:38",
+      "context": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم مَّا فَرَّطْنَا فِى ٱلْكِتَٰبِ مِن شَىْءٍ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=38"
+    },
+    {
+      "id": "bp024",
+      "root": "س-ك-ن",
+      "singular": "مِسْكِين",
+      "plural": "مَسَاكِين",
+      "pattern": "مَفَاعِيل",
+      "singularLocation": "2:184",
+      "pluralLocation": "2:83",
+      "context": "وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا لِلنَّاسِ حُسْنًا وَأَقِيمُوا ٱلصَّلَوٰةَ وَءَاتُوا ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=83"
+    },
+    {
+      "id": "bp025",
+      "root": "ف-و-ه",
+      "singular": "فَم",
+      "plural": "أَفْوَاه",
+      "pattern": "أَفْعَال",
+      "singularLocation": "13:14",
+      "pluralLocation": "3:118",
+      "context": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا لَا تَتَّخِذُوا بِطَانَةً مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ أَكْبَرُ قَدْ بَيَّنَّا لَكُمُ ٱلْـَٔايَٰتِ إِن كُنتُمْ تَعْقِلُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=118"
+    },
+    {
+      "id": "bp028",
+      "root": "د-و-ر",
+      "singular": "دَار",
+      "plural": "دِيَار",
+      "pattern": "فِعَال",
+      "singularLocation": "2:94",
+      "pluralLocation": "2:84",
+      "context": "وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ لَا تَسْفِكُونَ دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=84"
+    },
+    {
+      "id": "bp029",
+      "root": "م-و-ت",
+      "singular": "مَيِّت",
+      "plural": "أَمْوَات",
+      "pattern": "أَفْعَال",
+      "singularLocation": "2:173",
+      "pluralLocation": "2:28",
+      "context": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "id": "bp030",
+      "root": "خ-ف-ف",
+      "singular": "خَفِيف",
+      "plural": "خِفَاف",
+      "pattern": "فِعَال",
+      "singularLocation": "7:189",
+      "pluralLocation": "9:41",
+      "context": "ٱنفِرُوا خِفَافًا وَثِقَالًا وَجَٰهِدُوا بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=41"
+    },
+    {
+      "id": "bp032",
+      "root": "و-ر-ث",
+      "singular": "وَارِث",
+      "plural": "وَرَثَة",
+      "pattern": "فَعَلَة",
+      "singularLocation": "2:233",
+      "pluralLocation": "26:85",
+      "context": "وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=85"
+    },
+    {
+      "id": "bp033",
+      "root": "ف-ق-ر",
+      "singular": "فَقِير",
+      "plural": "فُقَرَاء",
+      "pattern": "فُعَلَاء",
+      "singularLocation": "3:181",
+      "pluralLocation": "2:271",
+      "context": "إِن تُبْدُوا ٱلصَّدَقَٰتِ فَنِعِمَّا هِىَ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌ لَّكُمْ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=271"
+    },
+    {
+      "id": "bp034",
+      "root": "س-م-ن",
+      "singular": "سَمِين",
+      "plural": "سِمَان",
+      "pattern": "فِعَال",
+      "singularLocation": "51:26",
+      "pluralLocation": "12:43",
+      "context": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=43"
+    },
+    {
+      "id": "bp037",
+      "root": "ر-س-و",
+      "singular": "رَاسِيَة",
+      "plural": "رَوَاسِي",
+      "pattern": "فَوَاعِل",
+      "singularLocation": "34:13",
+      "pluralLocation": "13:3",
+      "context": "وَهُوَ ٱلَّذِى مَدَّ ٱلْأَرْضَ وَجَعَلَ فِيهَا رَوَٰسِىَ وَأَنْهَٰرًا وَمِن كُلِّ ٱلثَّمَرَٰتِ جَعَلَ فِيهَا زَوْجَيْنِ ٱثْنَيْنِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ إِنَّ فِى ذَٰلِكَ لَـَٔايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=3"
+    },
+    {
+      "id": "bp038",
+      "root": "ب-ص-ر",
+      "singular": "بَصَر",
+      "plural": "أَبْصَار",
+      "pattern": "أَفْعَال",
+      "singularLocation": "2:17",
+      "pluralLocation": "2:7",
+      "context": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "id": "bp039",
+      "root": "ي-د-ي",
+      "singular": "يَد",
+      "plural": "أَيْدِي",
+      "pattern": "أَفْعُل",
+      "note": "Unregelmäßige Pluralbildung. يَد ist ein bilateraler Stamm (Grundwurzel ي-د), der Plural أَيْدِي zeigt eine anomale Erweiterung.",
+      "singularLocation": "2:237",
+      "pluralLocation": "2:79",
+      "context": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ ٱلْكِتَٰبَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَٰذَا مِنْ عِندِ ٱللَّهِ لِيَشْتَرُوا بِهِ ثَمَنًا قَلِيلًا فَوَيْلٌ لَّهُم مِّمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌ لَّهُم مِّمَّا يَكْسِبُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+    },
+    {
+      "id": "bp041",
+      "root": "غ-ن-ي",
+      "singular": "غَنِيّ",
+      "plural": "أَغْنِيَاء",
+      "pattern": "أَفْعِلَاء",
+      "singularLocation": "2:263",
+      "pluralLocation": "2:273",
+      "context": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا وَمَا تُنفِقُوا مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِ عَلِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=273"
+    },
+    {
+      "id": "bp042",
+      "root": "أ-م-ر",
+      "singular": "أَمْر",
+      "plural": "أُمُور",
+      "pattern": "فُعُول",
+      "singularLocation": "2:210",
+      "pluralLocation": "2:210",
+      "context": "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍ مِّنَ ٱلْغَمَامِ وَٱلْمَلَٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=210"
+    },
+    {
+      "id": "bp043",
+      "root": "ك-ر-م",
+      "singular": "كَرِيم",
+      "plural": "كِرَام",
+      "pattern": "فِعَال",
+      "singularLocation": "4:31",
+      "pluralLocation": "25:72",
+      "context": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا بِٱللَّغْوِ مَرُّوا كِرَامًا",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=72"
+    },
+    {
+      "id": "bp046",
+      "root": "ل-و-ح",
+      "singular": "لَوْح",
+      "plural": "أَلْوَاح",
+      "pattern": "أَفْعَال",
+      "singularLocation": "54:13",
+      "pluralLocation": "7:145",
+      "context": "وَكَتَبْنَا لَهُ فِى ٱلْأَلْوَاحِ مِن كُلِّ شَىْءٍ مَّوْعِظَةً وَتَفْصِيلًا لِّكُلِّ شَىْءٍ فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا بِأَحْسَنِهَا سَأُورِيكُمْ دَارَ ٱلْفَٰسِقِينَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=145"
+    },
+    {
+      "id": "bp047",
+      "root": "ص-ع-ق",
+      "singular": "صَاعِقَة",
+      "plural": "صَوَاعِق",
+      "pattern": "فَوَاعِل",
+      "singularLocation": "2:55",
+      "pluralLocation": "2:19",
+      "context": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌ بِٱلْكَٰفِرِينَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "id": "bp048",
+      "root": "ر-ح-م",
+      "singular": "رَحِم",
+      "plural": "أَرْحَام",
+      "pattern": "أَفْعَال",
+      "singularLocation": "3:6",
+      "pluralLocation": "2:228",
+      "context": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا إِصْلَٰحًا وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=228"
+    },
+    {
+      "id": "bp051",
+      "root": "ذ-ل-ل",
+      "singular": "ذَلِيل",
+      "plural": "أَذِلَّة",
+      "pattern": "أَفْعِلَّة",
+      "singularLocation": "2:71",
+      "pluralLocation": "3:123",
+      "context": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍ وَأَنتُمْ أَذِلَّةٌ فَٱتَّقُوا ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=123"
+    },
+    {
+      "id": "bp052",
+      "root": "ج-ن-ب",
+      "singular": "جَنْب",
+      "plural": "جُنُوب",
+      "pattern": "فُعُول",
+      "singularLocation": "4:36",
+      "pluralLocation": "3:191",
+      "context": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=191"
+    },
+    {
+      "id": "bp053",
+      "root": "ك-ف-ر",
+      "singular": "كَافِر",
+      "plural": "كُفَّار",
+      "pattern": "فُعَّال",
+      "singularLocation": "2:19",
+      "pluralLocation": "2:109",
+      "context": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّن بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًا مِّنْ عِندِ أَنفُسِهِم مِّن بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ فَٱعْفُوا وَٱصْفَحُوا حَتَّىٰ يَأْتِىَ ٱللَّهَ بِأَمْرِهِٓ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=109"
+    },
+    {
+      "id": "bp056",
+      "root": "ا-ل-ه",
+      "singular": "إِلَٰه",
+      "plural": "آلِهَة",
+      "pattern": "أَفْعِلَة",
+      "singularLocation": "2:133",
+      "pluralLocation": "6:19",
+      "context": "قُلْ أَىُّ شَىْءٍ أَكْبَرُ شَهَٰدَةً قُلِ ٱللَّهُ شَهِيدٌ بَيْنِى وَبَيْنَكُمْ وَأُوحِىَ إِلَىَّ هَٰذَا ٱلْقُرْءَانُ لِأُنذِرَكُم بِهِ وَمَن بَلَغَ أَئِنَّكُمْ لَتَشْهَدُونَ أَنَّ مَعَ ٱللَّهِ ءَالِهَةً أُخْرَىٰ قُل لَّآ أَشْهَدُ قُلْ إِنَّمَا هُوَ إِلَٰهٌ وَٰحِدٌ وَإِنَّنِى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=19"
+    },
+    {
+      "id": "bp057",
+      "root": "ف-ك-ه",
+      "singular": "فَاكِهَة",
+      "plural": "فَوَاكِه",
+      "pattern": "فَوَاعِل",
+      "singularLocation": "38:51",
+      "pluralLocation": "23:19",
+      "context": "فَأَنشَأْنَا لَكُم بِهِ جَنَّٰتٍ مِّن نَّخِيلٍ وَأَعْنَٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=19"
+    },
+    {
+      "id": "bp060",
+      "root": "ش-ر-ر",
+      "singular": "شَرِير",
+      "plural": "أَشْرَار",
+      "pattern": "أَفْعَال",
+      "singularLocation": "38:62",
+      "pluralLocation": "38:62",
+      "context": "وَقَالُوا مَا لَنَا لَا نَرَىٰ رِجَالًا كُنَّا نَعُدُّهُم مِّنَ ٱلْأَشْرَارِ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=62"
+    },
+    {
+      "id": "bp062",
+      "root": "م-د-ن",
+      "singular": "مَدِينَة",
+      "plural": "مَدَائِن",
+      "pattern": "مَفَاعِل",
+      "singularLocation": "7:123",
+      "pluralLocation": "7:111",
+      "context": "قَالُوٓا أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=111"
+    },
+    {
+      "id": "bp063",
+      "root": "ع-ز-ز",
+      "singular": "عَزِيز",
+      "plural": "أَعِزَّة",
+      "pattern": "أَفْعِلَّة",
+      "singularLocation": "2:129",
+      "pluralLocation": "5:54",
+      "context": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا مَن يَرْتَدَّ مِنكُمْ عَن دِينِهِ فَسَوْفَ يَأْتِى ٱللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُٓ أَذِلَّةٍ عَلَى ٱلْمُؤْمِنِينَ أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ يُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ لَوْمَةَ لَآئِمٍ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=54"
+    },
+    {
+      "id": "bp065",
+      "root": "ر-ه-ن",
+      "singular": "رَهْن",
+      "plural": "رِهَان",
+      "pattern": "فِعَال",
+      "singularLocation": "52:21",
+      "pluralLocation": "2:283",
+      "context": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا كَاتِبًا فَرِهَٰنٌ مَّقْبُوضَةٌ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُ وَلْيَتَّقِ ٱللَّهَ رَبَّهُ وَلَا تَكْتُمُوا ٱلشَّهَٰدَةَ وَمَن يَكْتُمْهَا فَإِنَّهُٓ ءَاثِمٌ قَلْبُهُ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=283"
+    },
+    {
+      "id": "bp067",
+      "root": "ا-خ-و",
+      "singular": "أَخ",
+      "plural": "إِخْوَان",
+      "pattern": "فِعْلَان",
+      "singularLocation": "2:178",
+      "pluralLocation": "2:220",
+      "context": "فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَٰمَىٰ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=220"
+    },
+    {
+      "id": "bp068",
+      "root": "غ-ش-و",
+      "singular": "غَاشِيَة",
+      "plural": "غَوَاشٍ",
+      "pattern": "فَوَاعِل",
+      "singularLocation": "12:107",
+      "pluralLocation": "7:41",
+      "context": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ غَوَاشٍ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=41"
+    },
+    {
+      "id": "bp069",
+      "root": "ن-ص-ر",
+      "singular": "نَصِير",
+      "plural": "أَنصَار",
+      "pattern": "أَفْعَال",
+      "singularLocation": "2:107",
+      "pluralLocation": "2:270",
+      "context": "وَمَآ أَنفَقْتُم مِّن نَّفَقَةٍ أَوْ نَذَرْتُم مِّن نَّذْرٍ فَإِنَّ ٱللَّهَ يَعْلَمُهُ وَمَا لِلظَّٰلِمِينَ مِنْ أَنصَارٍ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=270"
+    },
+    {
+      "id": "bp075",
+      "root": "خ-ب-ث",
+      "singular": "خَبِيثَة",
+      "plural": "خَبَائِث",
+      "pattern": "فَعَائِل",
+      "singularLocation": "2:267",
+      "pluralLocation": "7:157",
+      "context": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ فَٱلَّذِينَ ءَامَنُوا بِهِ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُٓ أُولَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=157"
+    },
+    {
+      "id": "bp078",
+      "root": "ح-ك-م",
+      "singular": "حَاكِم",
+      "plural": "حُكَّام",
+      "pattern": "فُعَّال",
+      "singularLocation": "2:188",
+      "pluralLocation": "2:188",
+      "context": "وَلَا تَأْكُلُوٓا أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ وَتُدْلُوا بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا فَرِيقًا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=188"
+    },
+    {
+      "id": "bp084",
+      "root": "ف-ح-ش",
+      "singular": "فَاحِشَة",
+      "plural": "فَوَاحِش",
+      "pattern": "فَوَاعِل",
+      "singularLocation": "2:169",
+      "pluralLocation": "6:151",
+      "context": "قُلْ تَعَالَوْا أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ أَلَّا تُشْرِكُوا بِهِ شَيْـًٔا وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَلَا تَقْتُلُوٓا أَوْلَٰدَكُم مِّنْ إِمْلَٰقٍ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ وَلَا تَقْرَبُوا ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَلَا تَقْتُلُوا ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ذَٰلِكُمْ وَصَّىٰكُم بِهِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=151"
+    },
+    {
+      "id": "bp085",
+      "root": "ب-ر-ا",
+      "singular": "بَرِىء",
+      "plural": "بُرَآء",
+      "pattern": "فُعَلَاء",
+      "singularLocation": "4:112",
+      "pluralLocation": "60:4",
+      "context": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُٓ إِذْ قَالُوا لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا بِٱللَّهِ وَحْدَهُٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=4"
+    }
+  ]
+}

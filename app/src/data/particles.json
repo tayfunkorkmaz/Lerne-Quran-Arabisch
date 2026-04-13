@@ -1,0 +1,1461 @@
+{
+  "meta": {
+    "description": "Arabische Partikeln (Huruf) für den Quranischen Arabisch-Kurs",
+    "note": "Partikeln sind unveränderliche Wörter, die keine Konjugation oder Deklination aufweisen.",
+    "totalCount": 76,
+    "sources": [
+      {
+        "label": "Wright's Grammar Vol II — Particles (Huruf)",
+        "url": "https://archive.org/details/WrightsArabicGrammar2Of2"
+      },
+      {
+        "label": "Lane's Lexicon (Particle Semantics)",
+        "url": "https://ejtaal.net/aa/"
+      },
+      {
+        "label": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com"
+      }
+    ],
+    "categories": [
+      "conjunction",
+      "preposition",
+      "negation",
+      "interrogative",
+      "conditional",
+      "vocative",
+      "exception",
+      "future",
+      "jussive",
+      "subjunctive",
+      "emphatic",
+      "restrictive",
+      "optative",
+      "adverb_of_place_time",
+      "distributive",
+      "generalized_relative",
+      "exhortation"
+    ]
+  },
+  "particles": [
+    {
+      "id": "wa",
+      "arabic": "وَ",
+      "consonantal": "و",
+      "transliteration": "wa",
+      "german": "und",
+      "function": "Verbindet Sätze und Satzglieder; auch als Schwurpartikel verwendet",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "Koordinierende Konjunktion — verbindet gleichrangige Satzglieder im selben Kasus. Als Schwur-Waw (واو القسم): regiert Genitiv.",
+      "quranExample": {
+        "surah": 1,
+        "ayah": 7,
+        "snippet": "وَلَا الضَّالِّينَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": "fa",
+      "arabic": "فَ",
+      "consonantal": "ف",
+      "transliteration": "fa",
+      "german": "dann; so; und (direkte Folge)",
+      "function": "Drückt unmittelbare Folge, Kausalität oder Reihenfolge aus",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "Koordinierende Konjunktion mit Folgebedeutung. Nach Bedingungssatz (Jawab ash-Shart): kann Jussiv einleiten. Als Fa as-Sababiyya vor Imperfekt: löst Subjunktiv (Nasb) aus.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 37,
+        "snippet": "فَتَابَ عَلَيْهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+    },
+    {
+      "id": "thumma",
+      "arabic": "ثُمَّ",
+      "consonantal": "ثم",
+      "transliteration": "thumma",
+      "german": "dann; hierauf; sodann",
+      "function": "Drückt zeitliche Abfolge mit Verzögerung aus",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "Koordinierend — das folgende Element übernimmt den Kasus des vorhergehenden (wie وَ und فَ)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 28,
+        "snippet": "ثُمَّ يُحْيِيكُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "id": "aw",
+      "arabic": "أَوْ",
+      "consonantal": "أو",
+      "transliteration": "aw",
+      "german": "oder",
+      "function": "Alternative, Wahlmöglichkeit",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "keine (Koordination) — verbindet gleichrangige Alternativen im selben Kasus",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 19,
+        "snippet": "أَوْ كَصَيِّبٍ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "id": "bal",
+      "arabic": "بَلْ",
+      "consonantal": "بل",
+      "transliteration": "bal",
+      "german": "vielmehr; nein, sondern",
+      "function": "Korrektur oder Steigerung des Vorherigen",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "keine (Koordination) — korrigierend, das folgende Element behält seinen syntaktischen Kasus",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 88,
+        "snippet": "بَلْ لَعَنَهُمُ اللَّهُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=88"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=88"
+    },
+    {
+      "id": "lakin",
+      "arabic": "لَكِنْ",
+      "consonantal": "لكن",
+      "transliteration": "lakin",
+      "german": "aber; jedoch",
+      "function": "Adversative Konjunktion; leitet Gegensatz ein",
+      "category": "conjunction",
+      "grammaticalEffect": "none",
+      "rektion": "keine (Koordination) — adversativ, das folgende Element behält seinen syntaktischen Kasus",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 12,
+        "snippet": "وَلَكِنْ لَا يَشْعُرُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+    },
+    {
+      "id": "lakinna",
+      "arabic": "لَكِنَّ",
+      "consonantal": "لكنّ",
+      "transliteration": "lākinna",
+      "german": "aber; jedoch (betont)",
+      "function": "Von den Schwestern von inna; setzt Subjekt in den Akkusativ",
+      "category": "conjunction",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar) — Schwester von إنّ",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 13,
+        "snippet": "وَلَكِنَّهُمْ لَا يَعْلَمُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+    },
+    {
+      "id": "min",
+      "arabic": "مِنْ",
+      "consonantal": "من",
+      "transliteration": "min",
+      "german": "von; aus; seit; unter (partitiv)",
+      "function": "Präposition des Ursprungs, der Trennung, des Teils",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 89,
+        "snippet": "مِنْ عِندِ اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=89"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=89"
+    },
+    {
+      "id": "fi",
+      "arabic": "فِي",
+      "consonantal": "في",
+      "transliteration": "fī",
+      "german": "in; innerhalb",
+      "function": "Präposition des Ortes, der Zeit, des Zustandes",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 10,
+        "snippet": "فِي قُلُوبِهِمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "id": "ala",
+      "arabic": "عَلَى",
+      "consonantal": "على",
+      "transliteration": "ʿalā",
+      "german": "auf; über; gegen",
+      "function": "Präposition der Lage (oben), der Pflicht, des Nachteils",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 5,
+        "snippet": "عَلَى هُدًى",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+    },
+    {
+      "id": "ila",
+      "arabic": "إِلَى",
+      "consonantal": "الى",
+      "transliteration": "ilā",
+      "german": "zu; nach; hin zu; bis",
+      "function": "Präposition der Richtung, des Zieles",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 28,
+        "snippet": "ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "id": "an",
+      "arabic": "عَنْ",
+      "consonantal": "عن",
+      "transliteration": "ʿan",
+      "german": "von ... weg; über; bezüglich",
+      "function": "Präposition der Entfernung, des Themas",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 48,
+        "snippet": "عَنْ نَفْسٍ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "id": "ba_prep",
+      "arabic": "بِـ",
+      "consonantal": "بـ",
+      "transliteration": "bi-",
+      "german": "mit; durch; in (instrumental)",
+      "function": "Präposition des Mittels, der Begleitung; klitisch",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 1,
+        "ayah": 1,
+        "snippet": "بِسْمِ اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "la_prep",
+      "arabic": "لِـ",
+      "consonantal": "لـ",
+      "transliteration": "li-",
+      "german": "für; zu; damit; gehörend zu",
+      "function": "Präposition des Zwecks, des Besitzes; klitisch",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 1,
+        "ayah": 2,
+        "snippet": "الْحَمْدُ لِلَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "ka_prep",
+      "arabic": "كَـ",
+      "consonantal": "كـ",
+      "transliteration": "ka-",
+      "german": "wie; gleich wie",
+      "function": "Vergleichspräposition; klitisch",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 74,
+        "snippet": "كَالْحِجَارَةِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "id": "inda",
+      "arabic": "عِنْدَ",
+      "consonantal": "عند",
+      "transliteration": "ʿinda",
+      "german": "bei; in der Nähe von",
+      "function": "Ẓarf Makan — Ortsangabe der Nähe. Nimmt das Folgenomen im Genitiv (Iḍāfa). Technisch ein Ism (Nomen), kein Harf.",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 54,
+        "snippet": "عِنْدَ رَبِّكُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=54"
+    },
+    {
+      "id": "bayna",
+      "arabic": "بَيْنَ",
+      "consonantal": "بين",
+      "transliteration": "bayna",
+      "german": "zwischen",
+      "function": "Ẓarf Makan — Ortsangabe der Lage zwischen zwei Dingen. Nimmt das Folgenomen im Genitiv (Iḍāfa). Technisch ein Ism (Nomen), kein Harf.",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 66,
+        "snippet": "لِمَا بَيْنَ يَدَيْهَا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+    },
+    {
+      "id": "fawqa",
+      "arabic": "فَوْقَ",
+      "consonantal": "فوق",
+      "transliteration": "fawqa",
+      "german": "über; oberhalb",
+      "function": "Adverbiale Präposition der Lage (oben) (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 26,
+        "snippet": "فَوْقَهَا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "tahta",
+      "arabic": "تَحْتَ",
+      "consonantal": "تحت",
+      "transliteration": "taḥta",
+      "german": "unter; unterhalb",
+      "function": "Adverbiale Präposition der Lage (unten) (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 25,
+        "snippet": "تَحْتِهَا الْأَنْهَارُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "ma_a",
+      "arabic": "مَعَ",
+      "consonantal": "مع",
+      "transliteration": "maʿa",
+      "german": "mit; zusammen mit",
+      "function": "Adverbiale Präposition der Begleitung (Ẓarf)",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 43,
+        "snippet": "مَعَ الرَّاكِعِينَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=43"
+    },
+    {
+      "id": "mundhu",
+      "arabic": "مُنْذُ",
+      "consonantal": "منذ",
+      "transliteration": "mundhu",
+      "german": "seit; seitdem",
+      "function": "Präposition der Zeitdauer",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv",
+      "quranic": false,
+      "notes": "Nicht im Quran belegt — ergänzend für das Gesamtbild der arabischen Partikeln aufgeführt. Der Quran verwendet stattdessen مِنْ mit temporaler Bedeutung (z.B. مِنْ قَبْلُ 'von vorher/seit') oder andere Zeitkonstruktionen.",
+      "quranExample": null,
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n281"
+    },
+    {
+      "id": "khalfa",
+      "arabic": "خَلْفَ",
+      "consonantal": "خلف",
+      "transliteration": "khalfa",
+      "german": "hinter",
+      "function": "Adverbiale Präposition der Lage (hinten) (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "notes": "Im Quran erscheint خَلْفَ als Ẓarf (Adverb des Ortes) im Akkusativ, das ein Genitivpronomen regiert (z.B. خَلْفَهُمْ 'hinter ihnen'). Nicht zu verwechseln mit dem Nomen خَلْفٌ (Nachfolger), das in 7:169 und 19:59 vorkommt.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 255,
+        "snippet": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "qabla",
+      "arabic": "قَبْلَ",
+      "consonantal": "قبل",
+      "transliteration": "qabla",
+      "german": "vor (zeitlich)",
+      "function": "Adverbiale Präposition der Vorzeitigkeit (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 25,
+        "snippet": "مِنْ قَبْلُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": "ba_da",
+      "arabic": "بَعْدَ",
+      "consonantal": "بعد",
+      "transliteration": "baʿda",
+      "german": "nach (zeitlich)",
+      "function": "Adverbiale Präposition der Nachzeitigkeit (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 27,
+        "snippet": "مِنْ بَعْدِ مِيثَاقِهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=27"
+    },
+    {
+      "id": "duna",
+      "arabic": "دُونَ",
+      "consonantal": "دون",
+      "transliteration": "dūna",
+      "german": "ohne; unterhalb; anstatt",
+      "function": "Adverbiale Präposition der Unterordnung oder des Ausschlusses (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 23,
+        "snippet": "مِنْ دُونِ اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "id": "hawla",
+      "arabic": "حَوْلَ",
+      "consonantal": "حول",
+      "transliteration": "ḥawla",
+      "german": "um ... herum; rings um",
+      "function": "Adverbiale Präposition der Umgebung (Ẓarf)",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (Iḍāfa)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 17,
+        "snippet": "حَوْلَهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "id": "hatta",
+      "arabic": "حَتَّى",
+      "consonantal": "حتى",
+      "transliteration": "ḥattā",
+      "german": "bis; sogar; damit",
+      "function": "Präposition (bis) oder Subjunktivpartikel (damit)",
+      "category": "preposition",
+      "grammaticalEffect": "genitive_or_subjunctive",
+      "rektion": "Genitiv (vor Nomen) / Subjunktiv-Nasb (vor Imperfektverb)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 55,
+        "snippet": "حَتَّى نَرَى اللَّهَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+    },
+    {
+      "id": "la_neg",
+      "arabic": "لَا",
+      "consonantal": "لا",
+      "transliteration": "lā",
+      "german": "nicht; nein; kein",
+      "function": "Allgemeine Negationspartikel; verneint Verben und Nomen",
+      "category": "negation",
+      "grammaticalEffect": "various",
+      "rektion": "Variabel: als لَا النافية: keine Rektion. Als لَا النافية للجنس: Akkusativ (Ism) ohne Tanwin, Nominativ (Khabar). Als لَا الناهية: Jazm (Jussiv).",
+      "notes": "Als lā an-nāfiya li-l-jins verneint Gattungen (Akkusativ ohne Tanwin).",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 2,
+        "snippet": "لَا رَيْبَ فِيهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "ma_neg",
+      "arabic": "مَا",
+      "consonantal": "ما",
+      "transliteration": "mā",
+      "german": "nicht (verneint Vergangenheit und Gegenwart); was (Frage/Relativ)",
+      "function": "Negationspartikel für Perfekt und Nominalsätze (auch Gegenwart, z.B. مَا هَٰذَا بَشَرًا 12:31); auch Fragepronomen und Relativpronomen",
+      "category": "negation",
+      "rektion": "Als Negation: keine Kasusrektion (im Tamim-Dialekt). Im Hijaz-Dialekt (ما الحجازية): regiert wie ليس — Ism Nominativ, Khabar Akkusativ. Als Relativpronomen (ما الموصولة): keine eigene Rektion.",
+      "grammaticalEffect": "keine (Tamimiyya) / Akkusativ auf Khabar (Hijaziyya — مَا الحِجَازِيَّة wirkt wie لَيْسَ)",
+      "notes": "Im Hijazi-Dialekt (auch quranisch) kann mā wie laysa wirken (Nominativ + Akkusativ). Vgl. مَا هَٰذَا بَشَرًا (12:31).",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 17,
+        "snippet": "مَا كَانُوا يُبْصِرُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "id": "lam",
+      "arabic": "لَمْ",
+      "consonantal": "لم",
+      "transliteration": "lam",
+      "german": "nicht (Vergangenheit, mit Imperfekt)",
+      "function": "Negiert die Vergangenheit; versetzt Imperfekt in den Jussiv (Jazm)",
+      "category": "jussive",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — das Imperfektverb steht im Majzum",
+      "quranExample": {
+        "surah": 112,
+        "ayah": 3,
+        "snippet": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+    },
+    {
+      "id": "lamma",
+      "arabic": "لَمَّا",
+      "consonantal": "لما",
+      "transliteration": "lammā",
+      "german": "noch nicht; als",
+      "function": "Zwei distinkte Funktionen: (1) Negationspartikel mit Jazm (noch nicht) — negiert eine Handlung, die bis zum Sprechzeitpunkt nicht eingetreten ist, regiert Muḍāriʿ im Majzūm; (2) Temporalpartikel (als/nachdem) — leitet einen Temporalsatz ein, gefolgt von Perfekt (Māḍī), KEIN Jazm.",
+      "category": "jussive_and_temporal",
+      "grammaticalEffect": "jussive_or_none",
+      "rektion": "Als Negation (noch nicht): Jazm (Jussiv). Als Temporalpartikel (als): keine Kasusrektion (Perfekt folgt).",
+      "note": "Als Negationspartikel (لَمَّا يَذُوقُوا — noch nicht gekostet) regiert لَمَّا den Jazm. Als Temporalpartikel (فَلَمَّا جَاءَهُمْ — als er zu ihnen kam) hat sie keinen syntaktischen Effekt auf den Modus.",
+      "quranExample": {
+        "surah": 38,
+        "ayah": 8,
+        "snippet": "بَلْ لَمَّا يَذُوقُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=8"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=8"
+    },
+    {
+      "id": "lan",
+      "arabic": "لَنْ",
+      "consonantal": "لن",
+      "transliteration": "lan",
+      "german": "niemals; auf keinen Fall (Zukunft)",
+      "function": "Negiert die Zukunft emphatisch; versetzt Imperfekt in den Subjunktiv (Nasb)",
+      "category": "subjunctive",
+      "grammaticalEffect": "subjunctive",
+      "rektion": "Subjunktiv (Nasb) — das Imperfektverb steht im Mansub",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 55,
+        "snippet": "لَنْ نُؤْمِنَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=55"
+    },
+    {
+      "id": "qad",
+      "arabic": "قَدْ",
+      "consonantal": "قد",
+      "transliteration": "qad",
+      "german": "bereits; gewiss; möglicherweise",
+      "function": "Mit Perfekt: Bestätigung (bereits). Mit Imperfekt: Möglichkeit (vielleicht).",
+      "category": "emphatic",
+      "rektion": "Keine Kasusrektion. Vor Perfekt: Bestätigung/Vergangenheit. Vor Imperfekt: Möglichkeit. Das Verb bleibt im Indikativ.",
+      "grammaticalEffect": "none",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 60,
+        "snippet": "قَدْ عَلِمَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=60"
+    },
+    {
+      "id": "sawfa",
+      "arabic": "سَوْفَ",
+      "consonantal": "سوف",
+      "transliteration": "sawfa",
+      "german": "wird (ferne Zukunft)",
+      "function": "Zukunftspartikel; drückt fernere Zukunft aus als sa-",
+      "category": "future",
+      "grammaticalEffect": "none",
+      "rektion": "keine — das Imperfektverb bleibt im Indikativ (Marfu)",
+      "quranExample": {
+        "surah": 93,
+        "ayah": 5,
+        "snippet": "وَلَسَوْفَ يُعْطِيكَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=5"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=5"
+    },
+    {
+      "id": "sa",
+      "arabic": "سَـ",
+      "consonantal": "سـ",
+      "transliteration": "sa-",
+      "german": "wird (nahe Zukunft)",
+      "function": "Zukunftspartikel; klitisch am Imperfektverb; nähere Zukunft",
+      "category": "future",
+      "grammaticalEffect": "none",
+      "rektion": "keine — das Imperfektverb bleibt im Indikativ (Marfu)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 137,
+        "snippet": "فَسَيَكْفِيكَهُمُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=137"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=137"
+    },
+    {
+      "id": "inna",
+      "arabic": "إِنَّ",
+      "consonantal": "إنّ",
+      "transliteration": "inna",
+      "german": "wahrlich; gewiss; fürwahr",
+      "function": "Bekräftigungspartikel; setzt Subjekt in den Akkusativ (inna und ihre Schwestern)",
+      "category": "emphatic",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 6,
+        "snippet": "إِنَّ الَّذِينَ كَفَرُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "id": "anna",
+      "arabic": "أَنَّ",
+      "consonantal": "أنّ",
+      "transliteration": "anna",
+      "german": "dass (Faktum)",
+      "function": "Dass-Konjunktion; leitet Inhaltssätze ein; Schwester von inna",
+      "category": "emphatic",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar) — Schwester von إنّ",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 26,
+        "snippet": "أَنَّهُ الْحَقُّ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "an_subjunctive",
+      "arabic": "أَنْ",
+      "consonantal": "أن",
+      "transliteration": "an",
+      "german": "dass; zu (Infinitiv)",
+      "function": "Subjunktivpartikel; versetzt Imperfekt in den Nasb; leitet Infinitivsätze ein",
+      "category": "subjunctive",
+      "grammaticalEffect": "subjunctive",
+      "rektion": "Subjunktiv (Nasb) — das Imperfektverb steht im Mansub",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 26,
+        "snippet": "أَنْ يَضْرِبَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "in_conditional",
+      "arabic": "إِنْ",
+      "consonantal": "إن",
+      "transliteration": "in",
+      "german": "wenn; falls",
+      "function": "Bedingungspartikel; leitet reale Bedingungssätze ein; Jussiv",
+      "category": "conditional",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — beide Verben (Bedingung und Antwort) stehen im Majzum",
+      "quranExample": {
+        "surah": 3,
+        "ayah": 139,
+        "snippet": "إِنْ كُنْتُمْ مُؤْمِنِينَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=139"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=139"
+    },
+    {
+      "id": "kay",
+      "arabic": "كَيْ",
+      "consonantal": "كي",
+      "transliteration": "kay",
+      "german": "damit; auf dass",
+      "function": "Finalpartikel; versetzt Imperfekt in den Subjunktiv (Nasb)",
+      "category": "subjunctive",
+      "grammaticalEffect": "subjunctive",
+      "rektion": "Subjunktiv (Nasb) — das Imperfektverb steht im Mansub",
+      "quranExample": {
+        "surah": 3,
+        "ayah": 153,
+        "snippet": "لِكَيْلَا تَحْزَنُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=153"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=153"
+    },
+    {
+      "id": "kalla",
+      "arabic": "كَلَّا",
+      "consonantal": "كلا",
+      "transliteration": "kallā",
+      "german": "keineswegs! Nein!",
+      "function": "Starke Zurückweisung; kommt gehäuft in kürzeren Suren mit direktem, parataktischem Stil vor",
+      "category": "negation",
+      "grammaticalEffect": "none",
+      "rektion": "keine — reine Zurückweisungspartikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 102,
+        "ayah": 3,
+        "snippet": "كَلَّا سَوْفَ تَعْلَمُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=3"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=3"
+    },
+    {
+      "id": "ala_attention",
+      "arabic": "أَلَا",
+      "consonantal": "ألا",
+      "transliteration": "alā",
+      "german": "wahrlich! Hört! Wisset!",
+      "function": "Aufmerksamkeitspartikel; leitet einen wichtigen Satz ein",
+      "category": "emphatic",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Aufmerksamkeitspartikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 12,
+        "snippet": "أَلَا إِنَّهُمْ هُمُ الْمُفْسِدُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=12"
+    },
+    {
+      "id": "idh",
+      "arabic": "إِذْ",
+      "consonantal": "إذ",
+      "transliteration": "idh",
+      "german": "als; da; weil",
+      "function": "Temporaladverb (ظَرْف زَمَان); verweist auf vergangene Zeit. Nimmt einen folgenden Satz (جملة فعلية oder اسمية) als Zeitbestimmung, kein Genitiv-Nomen direkt.",
+      "category": "adverb_of_place_time",
+      "grammaticalEffect": "temporal_clause",
+      "rektion": "keine direkte Kasusrektion — leitet einen Satz (جملة) ein, nicht ein einzelnes Nomen",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 30,
+        "snippet": "وَإِذْ قَالَ رَبُّكَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "idha",
+      "arabic": "إِذَا",
+      "consonantal": "إذا",
+      "transliteration": "idhā",
+      "german": "wenn; sobald (zeitlich/konditional)",
+      "function": "Temporale Bedingungspartikel; bezieht sich auf wahrscheinliche Zukunft",
+      "category": "conditional",
+      "rektion": "Keine direkte Kasusrektion. Das Verb im Bedingungssatz steht typisch im Perfekt. إِذَا ist ein Ẓarf (adverbiale Zeitbestimmung) im Akkusativ und wird durch den folgenden Satz näher bestimmt.",
+      "grammaticalEffect": "none",
+      "quranExample": {
+        "surah": 99,
+        "ayah": 1,
+        "snippet": "إِذَا زُلْزِلَتِ الْأَرْضُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=1"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=1"
+    },
+    {
+      "id": "innama",
+      "arabic": "إِنَّمَا",
+      "consonantal": "إنما",
+      "transliteration": "innamā",
+      "german": "wahrlich nur; lediglich; nichts als",
+      "function": "Einschränkungspartikel (Hasr); beschränkt das Prädikat auf das Subjekt",
+      "category": "restrictive",
+      "grammaticalEffect": "none",
+      "rektion": "keine eigene Kasusrektion (إنَّ + مَا: das مَا hebt die Inna-Rektion auf, der Satz folgt als regulärer Nominalsatz)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 11,
+        "snippet": "إِنَّمَا نَحْنُ مُصْلِحُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "id": "la_alla",
+      "arabic": "لَعَلَّ",
+      "consonantal": "لعل",
+      "transliteration": "laʿalla",
+      "german": "vielleicht; möge; auf dass",
+      "function": "Hoffnungspartikel; Schwester von inna; drückt Erwartung aus",
+      "category": "optative",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar) — Schwester von إنّ",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 21,
+        "snippet": "لَعَلَّكُمْ تَتَّقُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "layta",
+      "arabic": "لَيْتَ",
+      "consonantal": "ليت",
+      "transliteration": "layta",
+      "german": "wenn doch! Wäre doch!",
+      "function": "Wunschpartikel; Schwester von inna; drückt unerfüllbaren Wunsch aus",
+      "category": "optative",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar) — Schwester von إنّ",
+      "quranExample": {
+        "surah": 4,
+        "ayah": 73,
+        "snippet": "يَا لَيْتَنِي كُنْتُ مَعَهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=73"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=73"
+    },
+    {
+      "id": "ka_anna",
+      "arabic": "كَأَنَّ",
+      "consonantal": "كأنّ",
+      "transliteration": "kaʾanna",
+      "german": "als ob; gleich als ob",
+      "function": "Vergleichspartikel; Schwester von inna; drückt Ähnlichkeit aus",
+      "category": "emphatic",
+      "grammaticalEffect": "inna_sister",
+      "rektion": "Akkusativ (Ism), Nominativ (Khabar) — Schwester von إنّ",
+      "quranExample": {
+        "surah": 27,
+        "ayah": 44,
+        "snippet": "كَأَنَّهُ لُجَّةٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=44"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=44"
+    },
+    {
+      "id": "hal",
+      "arabic": "هَلْ",
+      "consonantal": "هل",
+      "transliteration": "hal",
+      "german": "ob? (Frageeinleitung)",
+      "function": "Fragepartikel; leitet Ja/Nein-Fragen ein",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Fragepartikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 210,
+        "snippet": "هَلْ يَنْظُرُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=210"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=210"
+    },
+    {
+      "id": "hamza_interrogative",
+      "arabic": "أَ",
+      "consonantal": "أ",
+      "transliteration": "a-",
+      "german": "ob? (Frageeinleitung, allgemeiner als hal)",
+      "function": "Fragepartikel; universeller als hal; kann auch emphatisch sein",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Fragepartikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 6,
+        "snippet": "أَأَنْذَرْتَهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "id": "ya",
+      "arabic": "يَا",
+      "consonantal": "يا",
+      "transliteration": "yā",
+      "german": "O! (Anruf)",
+      "function": "Vokativpartikel; leitet den Anruf ein (Nida')",
+      "category": "vocative",
+      "grammaticalEffect": "accusative_or_nominative",
+      "rektion": "Akkusativ (Munada) — bei indefinitem/Iḍāfa-Munada. Mabni auf Damma bei Eigennamen (Alam Mufrad).",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 21,
+        "snippet": "يَا أَيُّهَا النَّاسُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "id": "amma",
+      "arabic": "أَمَّا",
+      "consonantal": "أما",
+      "transliteration": "ammā",
+      "german": "was ... betrifft; was ... angeht",
+      "function": "Distributivpartikel; teilt einen Satz in Bedingung und Antwort (mit fa)",
+      "category": "distributive",
+      "grammaticalEffect": "none",
+      "rektion": "keine direkte Kasusrektion — leitet einen Topik-Satz ein, erfordert فَ im Nachsatz",
+      "notes": "Erfordert immer ein fa (فَ) im Nachsatz.",
+      "quranExample": {
+        "surah": 93,
+        "ayah": 9,
+        "snippet": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=9"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=9"
+    },
+    {
+      "id": "rubba",
+      "arabic": "رُبَّ",
+      "consonantal": "رب",
+      "transliteration": "rubba",
+      "german": "manch ein; so mancher",
+      "function": "Harf Jarr (Genitivpartikel) mit besonderer Syntax: steht nur satzinitiell und regiert ein indefinites Nomen im Genitiv. Im Quran erscheint nur رُبَمَا (rubba + mā), wobei مَا den Genitiveffekt aufhebt und ein Verb folgen kann.",
+      "category": "preposition",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (nur indefinites Nomen)",
+      "notes": "رُبَّ allein (ohne مَا) ist im Quran nicht belegt. Der Quran verwendet رُبَمَا (15:2). رُبَّ ist zwar ein Harf Jarr, verhält sich aber anders als reguläre Präpositionen: kein direktes Regens, nur satzinitiell, regiert ausschließlich indefinite Nomen.",
+      "quranExample": {
+        "surah": 15,
+        "ayah": 2,
+        "snippet": "رُبَمَا يَوَدُّ الَّذِينَ كَفَرُوا — (رُبَّ + مَا: Das مَا hebt den Genitiveffekt auf; رُبَّ allein ist im Quran nicht belegt)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=2"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=2"
+    },
+    {
+      "id": "imma",
+      "arabic": "إِمَّا",
+      "consonantal": "إما",
+      "transliteration": "immā",
+      "german": "entweder ... oder",
+      "function": "Distributivpartikel; paarig verwendet (immā ... immā/aw)",
+      "category": "distributive",
+      "grammaticalEffect": "none",
+      "rektion": "keine — distributive Partikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 76,
+        "ayah": 3,
+        "snippet": "إِمَّا شَاكِرًا وَإِمَّا كَفُورًا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=3"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=3"
+    },
+    {
+      "id": "ghayra",
+      "arabic": "غَيْرَ",
+      "consonantal": "غير",
+      "transliteration": "ghayra",
+      "german": "anders als; nicht; außer; ohne",
+      "function": "Ausnahme-/Negationsnomen; fungiert häufig wie eine Partikel",
+      "category": "exception",
+      "grammaticalEffect": "genitive",
+      "rektion": "Genitiv (das folgende Nomen steht im Genitiv durch Iḍāfa). غَيْر selbst trägt den Kasus des Ausgenommenen.",
+      "quranExample": {
+        "surah": 1,
+        "ayah": 7,
+        "snippet": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": "illa",
+      "arabic": "إِلَّا",
+      "consonantal": "إلا",
+      "transliteration": "illā",
+      "german": "außer; es sei denn",
+      "function": "Ausnahmepartikel; nach Negation drückt sie die Einschränkung aus (Istithna')",
+      "category": "exception",
+      "grammaticalEffect": "accusative_or_follow_case",
+      "rektion": "Akkusativ (bei vollständiger bejahter Ausnahme — Istithna Tam Mujab). Bei negierter Ausnahme: Badal — folgt dem Kasus des Bezugsworts.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 34,
+        "snippet": "إِلَّا إِبْلِيسَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+    },
+    {
+      "id": "mahmaa",
+      "arabic": "مَهْمَا",
+      "consonantal": "مهما",
+      "transliteration": "mahmā",
+      "german": "was auch immer",
+      "function": "Verallgemeinerndes Relativpronomen/Konditionalelement",
+      "category": "generalized_relative",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — beide Verben (Bedingung und Antwort) stehen im Majzum",
+      "quranExample": {
+        "surah": 7,
+        "ayah": 132,
+        "snippet": "مَهْمَا تَأْتِنَا بِهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+    },
+    {
+      "id": "aynamaa",
+      "arabic": "أَيْنَمَا",
+      "consonantal": "أينما",
+      "transliteration": "aynamā",
+      "german": "wo auch immer",
+      "function": "Verallgemeinerndes Ortspronomen; bedingt den Jussiv",
+      "category": "generalized_relative",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — beide Verben (Bedingung und Antwort) stehen im Majzum",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 148,
+        "snippet": "أَيْنَمَا تَكُونُوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=148"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=148"
+    },
+    {
+      "id": "haythumaa",
+      "arabic": "حَيْثُمَا",
+      "consonantal": "حيثما",
+      "transliteration": "ḥaythumā",
+      "german": "wo auch immer; wohin auch immer",
+      "function": "Verallgemeinerndes Ortspronomen; bedingt den Jussiv",
+      "category": "generalized_relative",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — beide Verben (Bedingung und Antwort) stehen im Majzum",
+      "notes": "Im Quran erscheint حَيْثُ مَا als zwei getrennte Wörter (حَيْثُ + مَا) mit konditionaler Bedeutung ('wo auch immer'), z.B. in 2:144 und 2:150.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 144,
+        "snippet": "وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=144"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=144"
+    },
+    {
+      "id": "kayfamaa",
+      "arabic": "كَيْفَمَا",
+      "consonantal": "كيفما",
+      "transliteration": "kayfamā",
+      "german": "wie auch immer",
+      "function": "Verallgemeinerndes Modalpronomen; bedingt den Jussiv (umstritten)",
+      "category": "generalized_relative",
+      "grammaticalEffect": "jussive",
+      "rektion": "Jazm (Jussiv) — beide Verben stehen im Majzum (umstritten; nicht im Quran belegt)",
+      "quranic": false,
+      "notes": "Nicht im Quran belegt — ergänzend für das Gesamtbild der arabischen Partikeln aufgeführt. Die Basisform كَيْفَ (kayfa, 'wie') kommt im Quran vor (z.B. 2:28), aber die erweiterte Form كَيْفَمَا mit Jussiv-Rektion ist im Qurantext nicht nachweisbar.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 28,
+        "snippet": "كَيْفَ تَكْفُرُونَ بِاللَّهِ — (Beispiel zeigt كَيْفَ, die Basisform; كَيْفَمَا selbst ist im Quran nicht belegt)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "id": "halla",
+      "arabic": "هَلَّا",
+      "consonantal": "هلا",
+      "transliteration": "hallā",
+      "german": "warum nicht? Hättest du nicht ...?",
+      "function": "Tadel- und Aufforderungspartikel (Tahḍīḍ)",
+      "category": "exhortation",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Tadel-/Aufforderungspartikel ohne Kasusrektion",
+      "quranExample": {
+        "surah": 24,
+        "ayah": 12,
+        "snippet": "لَوْلَا إِذْ سَمِعْتُمُوهُ — (Beispiel zeigt لَوْلَا im Tahḍīḍ-Gebrauch; هَلَّا selbst ist im Quran nicht belegt)",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=12"
+      },
+      "quranic": false,
+      "notes": "Nicht im Quran belegt — ergänzend für das Gesamtbild der arabischen Partikeln aufgeführt. Im Quran übernimmt لَوْلَا (lawlā) die Tahḍīḍ-Funktion (z.B. 24:12).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=12"
+    },
+    {
+      "id": "am",
+      "arabic": "أَمْ",
+      "consonantal": "أم",
+      "transliteration": "am",
+      "german": "oder (in Fragen)",
+      "function": "Disjunktive Fragepartikel; verbindet Fragealternativen",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine (Koordination) — verbindet Fragealternativen im selben Kasus",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 6,
+        "snippet": "أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "id": "ayyu",
+      "arabic": "أَيُّ",
+      "consonantal": "أي",
+      "transliteration": "ayyu",
+      "german": "welcher?",
+      "function": "Fragepronomen; auch verallgemeinerndes Relativpronomen in Bedingungssätzen",
+      "category": "interrogative",
+      "grammaticalEffect": "variable",
+      "rektion": "Variabel: als Fragepronomen deklinierbar (Nominativ/Akkusativ/Genitiv je nach syntaktischer Rolle). Als Bedingungspartikel: Jazm.",
+      "quranExample": {
+        "surah": 19,
+        "ayah": 69,
+        "snippet": "أَيُّهُمْ أَشَدُّ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=69"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=69"
+    },
+    {
+      "id": "kam",
+      "arabic": "كَمْ",
+      "consonantal": "كم",
+      "transliteration": "kam",
+      "german": "wie viel? wie viele!",
+      "function": "Frage- (Istifhām) oder Ausrufspartikel (Khabariyya); regiert Akkusativ Singular oder Genitiv Plural",
+      "category": "interrogative",
+      "grammaticalEffect": "accusative_singular_or_genitive_plural",
+      "rektion": "Als Fragepronomen (كَمْ الاستفهامية): Akkusativ Singular (Tamyiz). Als Ausrufspartikel (كَمْ الخبرية): Genitiv Plural.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 211,
+        "snippet": "كَمْ آتَيْنَاهُمْ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=211"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=211"
+    },
+    {
+      "id": "kayfa",
+      "arabic": "كَيْفَ",
+      "consonantal": "كيف",
+      "transliteration": "kayfa",
+      "german": "wie?",
+      "function": "Interrogativadverb der Art und Weise",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Interrogativadverb, indeklinabel",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 28,
+        "snippet": "كَيْفَ تَكْفُرُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+    },
+    {
+      "id": "ayna",
+      "arabic": "أَيْنَ",
+      "consonantal": "أين",
+      "transliteration": "ayna",
+      "german": "wo?",
+      "function": "Interrogativadverb des Ortes",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Interrogativadverb des Ortes, indeklinabel",
+      "quranExample": {
+        "surah": 81,
+        "ayah": 26,
+        "snippet": "فَأَيْنَ تَذْهَبُونَ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=26"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=26"
+    },
+    {
+      "id": "mataa",
+      "arabic": "مَتَى",
+      "consonantal": "متى",
+      "transliteration": "matā",
+      "german": "wann?",
+      "function": "Interrogativadverb der Zeit",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Interrogativadverb der Zeit, indeklinabel",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 214,
+        "snippet": "مَتَى نَصْرُ اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+    },
+    {
+      "id": "anna_interrogative",
+      "arabic": "أَنَّى",
+      "consonantal": "أنى",
+      "transliteration": "annā",
+      "german": "woher? wie? wo?",
+      "function": "Interrogativadverb; kann Ort, Art oder Herkunft erfragen",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Interrogativadverb, indeklinabel",
+      "quranExample": {
+        "surah": 3,
+        "ayah": 37,
+        "snippet": "أَنَّى لَكِ هَذَا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+    },
+    {
+      "id": "maadha",
+      "arabic": "مَاذَا",
+      "consonantal": "ماذا",
+      "transliteration": "mādhā",
+      "german": "was?",
+      "function": "Zusammengesetztes Fragepronomen (mā + dhā)",
+      "category": "interrogative",
+      "grammaticalEffect": "none",
+      "rektion": "keine — zusammengesetztes Fragepronomen, syntaktische Rolle variiert je nach Analyse (مَا + ذَا)",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 26,
+        "snippet": "مَاذَا أَرَادَ اللَّهُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "qul",
+      "arabic": "قُلْ",
+      "consonantal": "قل",
+      "transliteration": "qul",
+      "german": "sprich! sag!",
+      "function": "Imperativform von qāla (sagen); streng genommen ein Verb, aber funktional wie eine Diskurspartikel im Quran",
+      "category": "discourse_marker",
+      "grammaticalEffect": "none",
+      "rektion": "keine — Imperativform, kein Partikel. Als Diskursmarker: keine Kasusrektion.",
+      "isVerb": true,
+      "notes": "Kein Partikel (حَرْف) im engeren Sinne, sondern Imperativ des Verbs قال. Hier als diskursstrukturierendes Element aufgeführt, da es im Quran funktional wie ein Diskursmarker verwendet wird: leitet berichtete Rede ein. Kommt ca. 332 Mal im Quran vor.",
+      "quranExample": {
+        "surah": 112,
+        "ayah": 1,
+        "snippet": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "id": "lawla",
+      "arabic": "لَوْلَا",
+      "consonantal": "لولا",
+      "transliteration": "lawlā",
+      "german": "wenn nicht; wäre nicht; hättest du nicht",
+      "function": "Kontrafaktische Bedingungspartikel; auch Tadel (Tahḍīḍ)",
+      "category": "conditional",
+      "rektion": "Das Nomen nach لَوْلَا (Bedingung) steht im Nominativ als Mubtada' (dessen Khabar ausgelassen ist). Als Tadel-Partikel (Tahdid): folgt Perfekt ohne Kasusrektion.",
+      "grammaticalEffect": "none",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 64,
+        "snippet": "فَلَوْلَا فَضْلُ اللَّهِ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=64"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=64"
+    },
+    {
+      "id": "law",
+      "arabic": "لَوْ",
+      "consonantal": "لو",
+      "transliteration": "law",
+      "german": "wenn (irreal/kontrafaktisch)",
+      "function": "Irreale Bedingungspartikel; drückt unerfüllte Bedingung aus",
+      "category": "conditional",
+      "rektion": "Keine Kasusrektion. Beide Verben (Bedingung und Antwort) stehen typisch im Perfekt. لَوْ kann auch als Masdariyya fungieren (= أَنْ) und dann den Subjunktiv auslösen.",
+      "grammaticalEffect": "none",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 20,
+        "snippet": "وَلَوْ شَاءَ اللَّهُ",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+    },
+    {
+      "id": "laysa",
+      "arabic": "لَيْسَ",
+      "consonantal": "ليس",
+      "transliteration": "laysa",
+      "german": "ist nicht / es gibt nicht",
+      "function": "Negation der Gegenwart; syntaktisch wie كَانَ und ihre Schwestern (Subjekt im Nominativ, Prädikat im Akkusativ)",
+      "category": "negation",
+      "grammaticalEffect": "nominative_accusative",
+      "rektion": "Subjekt (اسم لَيْسَ) im Nominativ, Prädikat (خبر لَيْسَ) im Akkusativ. Funktioniert syntaktisch wie كَانَ und ihre Schwestern (كَانَ وَأَخَوَاتُهَا), obwohl لَيْسَ morphologisch ein defektives Verb (Perfektform ohne Imperfekt) ist.",
+      "isVerb": true,
+      "notes": "Morphologisch ein Verb (defektiv: nur Perfektformen, kein reguläres Imperfekt), syntaktisch wie كَانَ und ihre Schwestern. Hier funktional unter Negation aufgeführt. Es negiert die Gegenwart oder einen allgemeinen Zustand.",
+      "quranExample": {
+        "surah": 2,
+        "ayah": 177,
+        "snippet": "لَّيْسَ الْبِرَّ أَن تُوَلُّوا",
+        "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+      },
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+    },
+    {
+      "id": "ta_qasam",
+      "arabic": "تَ",
+      "consonantal": "ت",
+      "transliteration": "ta",
+      "german": "bei (Schwurpartikel, nur vor اللَّه)",
+      "category": "Schwurpartikel",
+      "function": "Schwurpartikel — leitet einen Eid ein, funktional identisch mit واو القسم",
+      "rektion": "Regiert Genitiv. Tritt fast ausschließlich mit اللَّه auf: تَاللَّهِ",
+      "quranicExamples": [
+        {
+          "ref": "12:73",
+          "arabic": "تَٱللَّهِ لَقَدْ عَلِمْتُم",
+          "meaning": "Bei Gott, ihr wisst doch",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+        },
+        {
+          "ref": "12:91",
+          "arabic": "تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا",
+          "meaning": "Bei Gott, Gott hat dich uns vorgezogen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=91"
+        },
+        {
+          "ref": "21:57",
+          "arabic": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم",
+          "meaning": "Und bei Gott, ich werde euren Götzenbildern zusetzen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+    },
+    {
+      "id": "la_tawkid",
+      "arabic": "لَ",
+      "consonantal": "ل",
+      "transliteration": "la",
+      "german": "wahrlich; fürwahr (emphatisch)",
+      "category": "Bekräftigungspartikel",
+      "function": "Emphatisches Lam (لَام الابتداء / لَام جواب القسم) — bekräftigt den Schwur-Nachsatz oder leitet betonte Aussagen ein",
+      "rektion": "Keine Kasusrektion. Steht vor dem Schwur-Nachsatz, häufig kombiniert mit قَدْ oder dem Energetischen Nun.",
+      "quranicExamples": [
+        {
+          "ref": "12:73",
+          "arabic": "تَٱللَّهِ لَقَدْ عَلِمْتُم",
+          "meaning": "Bei Gott, ihr habt doch gewusst",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+        },
+        {
+          "ref": "21:57",
+          "arabic": "لَأَكِيدَنَّ أَصْنَٰمَكُم",
+          "meaning": "Ich werde euren Götzenbildern zusetzen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+        },
+        {
+          "ref": "12:32",
+          "arabic": "وَلَئِن لَّمْ يَفْعَلْ مَآ ءَامُرُهُ لَيُسْجَنَنَّ",
+          "meaning": "Und wenn er nicht tut, was ich ihm befehle, wird er eingesperrt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=32"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+    },
+    {
+      "id": "li_amr",
+      "arabic": "لِ",
+      "consonantal": "ل",
+      "transliteration": "li",
+      "german": "dass … soll; möge (Befehlslam, 3. Person)",
+      "category": "Jussiv-Partikel",
+      "function": "Befehlslam (لَام الأمر) — drückt einen Befehl oder eine Aufforderung in der 3. Person aus (und selten 1. Person)",
+      "rektion": "Löst Jussiv (مجزوم) aus. Zu unterscheiden von لِ als Präposition (Genitiv) und لِ als Finalpartikel (Subjunktiv).",
+      "quranicExamples": [
+        {
+          "ref": "65:7",
+          "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ",
+          "meaning": "Der Wohlhabende soll von seinem Wohlstand ausgeben",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+        },
+        {
+          "ref": "22:29",
+          "arabic": "وَلْيَطَّوَّفُوا بِٱلْبَيْتِ ٱلْعَتِيقِ",
+          "meaning": "Und sie sollen das alte Haus umkreisen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=29"
+        },
+        {
+          "ref": "2:185",
+          "arabic": "وَلِتُكْمِلُوا ٱلْعِدَّةَ",
+          "meaning": "Und damit ihr die Zeitspanne vollständig einhaltet",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=7"
+    }
+  ]
+}

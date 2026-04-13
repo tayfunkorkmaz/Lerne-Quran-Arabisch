@@ -1,0 +1,3544 @@
+{
+  "meta": {
+    "description": "Surah index with word counts and root statistics",
+    "totalSurahs": 114,
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "surahs": [
+    {
+      "number": 1,
+      "nameArabic": "الفاتحة",
+      "nameGerman": "Die Eröffnende",
+      "verseCount": 7,
+      "wordCount": 29,
+      "uniqueRoots": 18,
+      "topRoots": [
+        {
+          "root": "ر ح م",
+          "count": 4
+        },
+        {
+          "root": "ا ل ه",
+          "count": 2
+        },
+        {
+          "root": "ص ر ط",
+          "count": 2
+        },
+        {
+          "root": "س م و",
+          "count": 1
+        },
+        {
+          "root": "ح م د",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "number": 2,
+      "nameArabic": "البقرة",
+      "nameGerman": "Die Kuh",
+      "verseCount": 286,
+      "wordCount": 6141,
+      "uniqueRoots": 585,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 289
+        },
+        {
+          "root": "ق و ل",
+          "count": 139
+        },
+        {
+          "root": "ع ل م",
+          "count": 102
+        },
+        {
+          "root": "ا م ن",
+          "count": 84
+        },
+        {
+          "root": "ك و ن",
+          "count": 78
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "number": 3,
+      "nameArabic": "آل عمران",
+      "nameGerman": "Die Sippe Imrans",
+      "verseCount": 200,
+      "wordCount": 3501,
+      "uniqueRoots": 439,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 215
+        },
+        {
+          "root": "ق و ل",
+          "count": 74
+        },
+        {
+          "root": "ا م ن",
+          "count": 60
+        },
+        {
+          "root": "ك و ن",
+          "count": 55
+        },
+        {
+          "root": "ك ف ر",
+          "count": 43
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=1"
+    },
+    {
+      "number": 4,
+      "nameArabic": "النساء",
+      "nameGerman": "Die Frauen",
+      "verseCount": 176,
+      "wordCount": 3763,
+      "uniqueRoots": 462,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 231
+        },
+        {
+          "root": "ك و ن",
+          "count": 114
+        },
+        {
+          "root": "ا م ن",
+          "count": 64
+        },
+        {
+          "root": "ق و ل",
+          "count": 46
+        },
+        {
+          "root": "ك ف ر",
+          "count": 38
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+    },
+    {
+      "number": 5,
+      "nameArabic": "المائدة",
+      "nameGerman": "Der Tisch",
+      "verseCount": 120,
+      "wordCount": 2837,
+      "uniqueRoots": 422,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 151
+        },
+        {
+          "root": "ق و ل",
+          "count": 58
+        },
+        {
+          "root": "ا م ن",
+          "count": 47
+        },
+        {
+          "root": "ق و م",
+          "count": 34
+        },
+        {
+          "root": "ك و ن",
+          "count": 32
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+    },
+    {
+      "number": 6,
+      "nameArabic": "الأنعام",
+      "nameGerman": "Das Vieh",
+      "verseCount": 165,
+      "wordCount": 3056,
+      "uniqueRoots": 421,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 93
+        },
+        {
+          "root": "ق و ل",
+          "count": 87
+        },
+        {
+          "root": "ك و ن",
+          "count": 64
+        },
+        {
+          "root": "ر ب ب",
+          "count": 53
+        },
+        {
+          "root": "ع ل م",
+          "count": 44
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=1"
+    },
+    {
+      "number": 7,
+      "nameArabic": "الأعراف",
+      "nameGerman": "Die Höhen",
+      "verseCount": 206,
+      "wordCount": 3341,
+      "uniqueRoots": 477,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 110
+        },
+        {
+          "root": "ك و ن",
+          "count": 74
+        },
+        {
+          "root": "ا ل ه",
+          "count": 70
+        },
+        {
+          "root": "ر ب ب",
+          "count": 65
+        },
+        {
+          "root": "ق و م",
+          "count": 55
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=1"
+    },
+    {
+      "number": 8,
+      "nameArabic": "الأنفال",
+      "nameGerman": "Die Beute",
+      "verseCount": 75,
+      "wordCount": 1243,
+      "uniqueRoots": 266,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 89
+        },
+        {
+          "root": "ا م ن",
+          "count": 26
+        },
+        {
+          "root": "ك و ن",
+          "count": 25
+        },
+        {
+          "root": "ع ل م",
+          "count": 19
+        },
+        {
+          "root": "ك ف ر",
+          "count": 17
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=1"
+    },
+    {
+      "number": 9,
+      "nameArabic": "التوبة",
+      "nameGerman": "Die Reue",
+      "verseCount": 129,
+      "wordCount": 2505,
+      "uniqueRoots": 366,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 172
+        },
+        {
+          "root": "ا م ن",
+          "count": 45
+        },
+        {
+          "root": "ك و ن",
+          "count": 36
+        },
+        {
+          "root": "ر س ل",
+          "count": 35
+        },
+        {
+          "root": "ع ل م",
+          "count": 32
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=1"
+    },
+    {
+      "number": 10,
+      "nameArabic": "يونس",
+      "nameGerman": "Yunus",
+      "verseCount": 109,
+      "wordCount": 1839,
+      "uniqueRoots": 290,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 63
+        },
+        {
+          "root": "ك و ن",
+          "count": 50
+        },
+        {
+          "root": "ق و ل",
+          "count": 50
+        },
+        {
+          "root": "ا م ن",
+          "count": 30
+        },
+        {
+          "root": "ر ب ب",
+          "count": 24
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=1"
+    },
+    {
+      "number": 11,
+      "nameArabic": "هود",
+      "nameGerman": "Hud",
+      "verseCount": 123,
+      "wordCount": 1946,
+      "uniqueRoots": 348,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 55
+        },
+        {
+          "root": "ا ل ه",
+          "count": 45
+        },
+        {
+          "root": "ر ب ب",
+          "count": 44
+        },
+        {
+          "root": "ق و م",
+          "count": 42
+        },
+        {
+          "root": "ك و ن",
+          "count": 33
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=1"
+    },
+    {
+      "number": 12,
+      "nameArabic": "يوسف",
+      "nameGerman": "Yusuf",
+      "verseCount": 111,
+      "wordCount": 1795,
+      "uniqueRoots": 336,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 79
+        },
+        {
+          "root": "ا ل ه",
+          "count": 44
+        },
+        {
+          "root": "ع ل م",
+          "count": 33
+        },
+        {
+          "root": "ك و ن",
+          "count": 31
+        },
+        {
+          "root": "ا ب و",
+          "count": 28
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=1"
+    },
+    {
+      "number": 13,
+      "nameArabic": "الرعد",
+      "nameGerman": "Der Donner",
+      "verseCount": 43,
+      "wordCount": 854,
+      "uniqueRoots": 244,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 35
+        },
+        {
+          "root": "ق و ل",
+          "count": 16
+        },
+        {
+          "root": "ر ب ب",
+          "count": 13
+        },
+        {
+          "root": "ك ف ر",
+          "count": 11
+        },
+        {
+          "root": "ك ل ل",
+          "count": 10
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=1"
+    },
+    {
+      "number": 14,
+      "nameArabic": "إبراهيم",
+      "nameGerman": "Ibrahim",
+      "verseCount": 52,
+      "wordCount": 830,
+      "uniqueRoots": 225,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 38
+        },
+        {
+          "root": "ر ب ب",
+          "count": 17
+        },
+        {
+          "root": "ق و ل",
+          "count": 15
+        },
+        {
+          "root": "ا ر ض",
+          "count": 11
+        },
+        {
+          "root": "ر س ل",
+          "count": 10
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=1"
+    },
+    {
+      "number": 15,
+      "nameArabic": "الحجر",
+      "nameGerman": "Das Steinland",
+      "verseCount": 99,
+      "wordCount": 657,
+      "uniqueRoots": 201,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 25
+        },
+        {
+          "root": "ك و ن",
+          "count": 16
+        },
+        {
+          "root": "ع ل م",
+          "count": 12
+        },
+        {
+          "root": "ر ب ب",
+          "count": 9
+        },
+        {
+          "root": "ا ت ي",
+          "count": 7
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=1"
+    },
+    {
+      "number": 16,
+      "nameArabic": "النحل",
+      "nameGerman": "Die Biene",
+      "verseCount": 128,
+      "wordCount": 1844,
+      "uniqueRoots": 358,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 89
+        },
+        {
+          "root": "ك و ن",
+          "count": 35
+        },
+        {
+          "root": "ع ل م",
+          "count": 28
+        },
+        {
+          "root": "ر ب ب",
+          "count": 20
+        },
+        {
+          "root": "ش ي ا",
+          "count": 19
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=1"
+    },
+    {
+      "number": 17,
+      "nameArabic": "الإسراء",
+      "nameGerman": "Die Nachtreise",
+      "verseCount": 111,
+      "wordCount": 1558,
+      "uniqueRoots": 342,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 46
+        },
+        {
+          "root": "ك و ن",
+          "count": 44
+        },
+        {
+          "root": "ر ب ب",
+          "count": 32
+        },
+        {
+          "root": "ق ر ا",
+          "count": 16
+        },
+        {
+          "root": "ج ع ل",
+          "count": 15
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=1"
+    },
+    {
+      "number": 18,
+      "nameArabic": "الكهف",
+      "nameGerman": "Die Höhle",
+      "verseCount": 110,
+      "wordCount": 1583,
+      "uniqueRoots": 369,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 58
+        },
+        {
+          "root": "ر ب ب",
+          "count": 38
+        },
+        {
+          "root": "ك و ن",
+          "count": 22
+        },
+        {
+          "root": "ا ل ه",
+          "count": 20
+        },
+        {
+          "root": "ج ع ل",
+          "count": 15
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=1"
+    },
+    {
+      "number": 19,
+      "nameArabic": "مريم",
+      "nameGerman": "Maryam",
+      "verseCount": 98,
+      "wordCount": 971,
+      "uniqueRoots": 239,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 43
+        },
+        {
+          "root": "ق و ل",
+          "count": 28
+        },
+        {
+          "root": "ر ب ب",
+          "count": 23
+        },
+        {
+          "root": "ر ح م",
+          "count": 20
+        },
+        {
+          "root": "ي و م",
+          "count": 13
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=1"
+    },
+    {
+      "number": 20,
+      "nameArabic": "طه",
+      "nameGerman": "Ta-Ha",
+      "verseCount": 135,
+      "wordCount": 1353,
+      "uniqueRoots": 324,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 59
+        },
+        {
+          "root": "ر ب ب",
+          "count": 27
+        },
+        {
+          "root": "ا ت ي",
+          "count": 17
+        },
+        {
+          "root": "ا ل ه",
+          "count": 13
+        },
+        {
+          "root": "ق و م",
+          "count": 12
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=1"
+    },
+    {
+      "number": 21,
+      "nameArabic": "الأنبياء",
+      "nameGerman": "Die Verkünder (al-Anbiya')",
+      "verseCount": 112,
+      "wordCount": 1174,
+      "uniqueRoots": 284,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 32
+        },
+        {
+          "root": "ق و ل",
+          "count": 31
+        },
+        {
+          "root": "ا ل ه",
+          "count": 20
+        },
+        {
+          "root": "ع ل م",
+          "count": 17
+        },
+        {
+          "root": "ر ب ب",
+          "count": 14
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=1"
+    },
+    {
+      "number": 22,
+      "nameArabic": "الحج",
+      "nameGerman": "Die Pilgerfahrt",
+      "verseCount": 78,
+      "wordCount": 1279,
+      "uniqueRoots": 328,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 77
+        },
+        {
+          "root": "ن و س",
+          "count": 15
+        },
+        {
+          "root": "ع ل م",
+          "count": 14
+        },
+        {
+          "root": "س م و",
+          "count": 14
+        },
+        {
+          "root": "ك ل ل",
+          "count": 12
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=1"
+    },
+    {
+      "number": 23,
+      "nameArabic": "المؤمنون",
+      "nameGerman": "Die Vertrauenden (المؤمنون)",
+      "verseCount": 118,
+      "wordCount": 1052,
+      "uniqueRoots": 271,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 35
+        },
+        {
+          "root": "ر ب ب",
+          "count": 23
+        },
+        {
+          "root": "ا ل ه",
+          "count": 19
+        },
+        {
+          "root": "ك و ن",
+          "count": 17
+        },
+        {
+          "root": "ق و م",
+          "count": 13
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=1"
+    },
+    {
+      "number": 24,
+      "nameArabic": "النور",
+      "nameGerman": "Das Licht",
+      "verseCount": 64,
+      "wordCount": 1319,
+      "uniqueRoots": 287,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 80
+        },
+        {
+          "root": "ا م ن",
+          "count": 22
+        },
+        {
+          "root": "ع ل م",
+          "count": 20
+        },
+        {
+          "root": "ب ي ن",
+          "count": 14
+        },
+        {
+          "root": "ب ي ت",
+          "count": 14
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=1"
+    },
+    {
+      "number": 25,
+      "nameArabic": "الفرقان",
+      "nameGerman": "Die Unterscheidung",
+      "verseCount": 77,
+      "wordCount": 896,
+      "uniqueRoots": 250,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 24
+        },
+        {
+          "root": "ق و ل",
+          "count": 22
+        },
+        {
+          "root": "ج ع ل",
+          "count": 17
+        },
+        {
+          "root": "ر ب ب",
+          "count": 14
+        },
+        {
+          "root": "ا ل ه",
+          "count": 12
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=25&verse=1"
+    },
+    {
+      "number": 26,
+      "nameArabic": "الشعراء",
+      "nameGerman": "Die Dichter",
+      "verseCount": 227,
+      "wordCount": 1320,
+      "uniqueRoots": 265,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 52
+        },
+        {
+          "root": "ك و ن",
+          "count": 38
+        },
+        {
+          "root": "ر ب ب",
+          "count": 36
+        },
+        {
+          "root": "ا م ن",
+          "count": 27
+        },
+        {
+          "root": "ع ل م",
+          "count": 25
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=1"
+    },
+    {
+      "number": 27,
+      "nameArabic": "النمل",
+      "nameGerman": "Die Ameise",
+      "verseCount": 93,
+      "wordCount": 1159,
+      "uniqueRoots": 265,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 44
+        },
+        {
+          "root": "ا ل ه",
+          "count": 33
+        },
+        {
+          "root": "ك و ن",
+          "count": 24
+        },
+        {
+          "root": "ا ت ي",
+          "count": 20
+        },
+        {
+          "root": "ق و م",
+          "count": 16
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=1"
+    },
+    {
+      "number": 28,
+      "nameArabic": "القصص",
+      "nameGerman": "Die Erzählung",
+      "verseCount": 88,
+      "wordCount": 1438,
+      "uniqueRoots": 296,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 50
+        },
+        {
+          "root": "ك و ن",
+          "count": 37
+        },
+        {
+          "root": "ا ل ه",
+          "count": 34
+        },
+        {
+          "root": "ا ت ي",
+          "count": 19
+        },
+        {
+          "root": "ر ب ب",
+          "count": 19
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=1"
+    },
+    {
+      "number": 29,
+      "nameArabic": "العنكبوت",
+      "nameGerman": "Die Spinne",
+      "verseCount": 69,
+      "wordCount": 978,
+      "uniqueRoots": 223,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 44
+        },
+        {
+          "root": "ق و ل",
+          "count": 25
+        },
+        {
+          "root": "ع ل م",
+          "count": 23
+        },
+        {
+          "root": "ك و ن",
+          "count": 21
+        },
+        {
+          "root": "ا م ن",
+          "count": 18
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=1"
+    },
+    {
+      "number": 30,
+      "nameArabic": "الروم",
+      "nameGerman": "Die Römer",
+      "verseCount": 60,
+      "wordCount": 817,
+      "uniqueRoots": 195,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 24
+        },
+        {
+          "root": "ك و ن",
+          "count": 17
+        },
+        {
+          "root": "ا ي ي",
+          "count": 17
+        },
+        {
+          "root": "ق و م",
+          "count": 15
+        },
+        {
+          "root": "ا ر ض",
+          "count": 14
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=1"
+    },
+    {
+      "number": 31,
+      "nameArabic": "لقمان",
+      "nameGerman": "Luqman",
+      "verseCount": 34,
+      "wordCount": 550,
+      "uniqueRoots": 184,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 32
+        },
+        {
+          "root": "ع ل م",
+          "count": 8
+        },
+        {
+          "root": "ا ر ض",
+          "count": 8
+        },
+        {
+          "root": "س م و",
+          "count": 7
+        },
+        {
+          "root": "ر ا ي",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=31&verse=1"
+    },
+    {
+      "number": 32,
+      "nameArabic": "السجدة",
+      "nameGerman": "Die Niederwerfung",
+      "verseCount": 30,
+      "wordCount": 372,
+      "uniqueRoots": 131,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 11
+        },
+        {
+          "root": "ر ب ب",
+          "count": 10
+        },
+        {
+          "root": "ق و ل",
+          "count": 7
+        },
+        {
+          "root": "ه د ي",
+          "count": 5
+        },
+        {
+          "root": "ي و م",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=32&verse=1"
+    },
+    {
+      "number": 33,
+      "nameArabic": "الأحزاب",
+      "nameGerman": "Die Gruppierungen",
+      "verseCount": 73,
+      "wordCount": 1303,
+      "uniqueRoots": 282,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 90
+        },
+        {
+          "root": "ك و ن",
+          "count": 42
+        },
+        {
+          "root": "ا م ن",
+          "count": 31
+        },
+        {
+          "root": "ق و ل",
+          "count": 21
+        },
+        {
+          "root": "ن ب ا",
+          "count": 18
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=33&verse=1"
+    },
+    {
+      "number": 34,
+      "nameArabic": "سبأ",
+      "nameGerman": "Saba",
+      "verseCount": 54,
+      "wordCount": 884,
+      "uniqueRoots": 221,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 36
+        },
+        {
+          "root": "ب ي ن",
+          "count": 16
+        },
+        {
+          "root": "ك و ن",
+          "count": 16
+        },
+        {
+          "root": "ر ب ب",
+          "count": 14
+        },
+        {
+          "root": "ا م ن",
+          "count": 11
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=1"
+    },
+    {
+      "number": 35,
+      "nameArabic": "فاطر",
+      "nameGerman": "Der Schöpfer",
+      "verseCount": 45,
+      "wordCount": 778,
+      "uniqueRoots": 230,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 37
+        },
+        {
+          "root": "ك و ن",
+          "count": 12
+        },
+        {
+          "root": "ك ف ر",
+          "count": 11
+        },
+        {
+          "root": "ا ر ض",
+          "count": 10
+        },
+        {
+          "root": "س م و",
+          "count": 9
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+    },
+    {
+      "number": 36,
+      "nameArabic": "يس",
+      "nameGerman": "Ya-Sin",
+      "verseCount": 83,
+      "wordCount": 730,
+      "uniqueRoots": 211,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 20
+        },
+        {
+          "root": "ك و ن",
+          "count": 15
+        },
+        {
+          "root": "ش ي ا",
+          "count": 10
+        },
+        {
+          "root": "خ ل ق",
+          "count": 10
+        },
+        {
+          "root": "ب ي ن",
+          "count": 9
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=1"
+    },
+    {
+      "number": 37,
+      "nameArabic": "الصافات",
+      "nameGerman": "Die sich Reihenden",
+      "verseCount": 182,
+      "wordCount": 865,
+      "uniqueRoots": 240,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 24
+        },
+        {
+          "root": "ا ل ه",
+          "count": 20
+        },
+        {
+          "root": "ك و ن",
+          "count": 20
+        },
+        {
+          "root": "ر ب ب",
+          "count": 14
+        },
+        {
+          "root": "ع ب د",
+          "count": 14
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=1"
+    },
+    {
+      "number": 38,
+      "nameArabic": "ص",
+      "nameGerman": "Sad",
+      "verseCount": 88,
+      "wordCount": 735,
+      "uniqueRoots": 235,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 23
+        },
+        {
+          "root": "ذ ك ر",
+          "count": 13
+        },
+        {
+          "root": "ر ب ب",
+          "count": 10
+        },
+        {
+          "root": "ا و ب",
+          "count": 8
+        },
+        {
+          "root": "ا ل ه",
+          "count": 7
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=1"
+    },
+    {
+      "number": 39,
+      "nameArabic": "الزمر",
+      "nameGerman": "Die Scharen",
+      "verseCount": 75,
+      "wordCount": 1177,
+      "uniqueRoots": 246,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 61
+        },
+        {
+          "root": "ق و ل",
+          "count": 29
+        },
+        {
+          "root": "ر ب ب",
+          "count": 18
+        },
+        {
+          "root": "ك و ن",
+          "count": 18
+        },
+        {
+          "root": "ع ب د",
+          "count": 16
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=1"
+    },
+    {
+      "number": 40,
+      "nameArabic": "غافر",
+      "nameGerman": "Der Vergebende",
+      "verseCount": 85,
+      "wordCount": 1226,
+      "uniqueRoots": 257,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 57
+        },
+        {
+          "root": "ك و ن",
+          "count": 25
+        },
+        {
+          "root": "ق و ل",
+          "count": 25
+        },
+        {
+          "root": "ر ب ب",
+          "count": 19
+        },
+        {
+          "root": "د ع و",
+          "count": 18
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=40&verse=1"
+    },
+    {
+      "number": 41,
+      "nameArabic": "فصلت",
+      "nameGerman": "Ausführlich dargelegt",
+      "verseCount": 54,
+      "wordCount": 794,
+      "uniqueRoots": 203,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 23
+        },
+        {
+          "root": "ك و ن",
+          "count": 14
+        },
+        {
+          "root": "ا ل ه",
+          "count": 13
+        },
+        {
+          "root": "ر ب ب",
+          "count": 12
+        },
+        {
+          "root": "ع م ل",
+          "count": 11
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=1"
+    },
+    {
+      "number": 42,
+      "nameArabic": "الشورى",
+      "nameGerman": "Die Beratung",
+      "verseCount": 53,
+      "wordCount": 860,
+      "uniqueRoots": 206,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 32
+        },
+        {
+          "root": "ش ي ا",
+          "count": 21
+        },
+        {
+          "root": "ا ر ض",
+          "count": 10
+        },
+        {
+          "root": "ر ب ب",
+          "count": 10
+        },
+        {
+          "root": "ا م ن",
+          "count": 9
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=1"
+    },
+    {
+      "number": 43,
+      "nameArabic": "الزخرف",
+      "nameGerman": "Der Goldschmuck",
+      "verseCount": 89,
+      "wordCount": 836,
+      "uniqueRoots": 225,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 21
+        },
+        {
+          "root": "ب ي ن",
+          "count": 14
+        },
+        {
+          "root": "ق و م",
+          "count": 13
+        },
+        {
+          "root": "ر ب ب",
+          "count": 13
+        },
+        {
+          "root": "ج ع ل",
+          "count": 12
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=43&verse=1"
+    },
+    {
+      "number": 44,
+      "nameArabic": "الدخان",
+      "nameGerman": "Der Rauch",
+      "verseCount": 59,
+      "wordCount": 346,
+      "uniqueRoots": 122,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 9
+        },
+        {
+          "root": "ر ب ب",
+          "count": 9
+        },
+        {
+          "root": "ب ي ن",
+          "count": 7
+        },
+        {
+          "root": "ع ذ ب",
+          "count": 6
+        },
+        {
+          "root": "ق و م",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=1"
+    },
+    {
+      "number": 45,
+      "nameArabic": "الجاثية",
+      "nameGerman": "Die Kniende",
+      "verseCount": 37,
+      "wordCount": 488,
+      "uniqueRoots": 132,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 19
+        },
+        {
+          "root": "ا ي ي",
+          "count": 12
+        },
+        {
+          "root": "ك و ن",
+          "count": 10
+        },
+        {
+          "root": "ق و م",
+          "count": 9
+        },
+        {
+          "root": "ع ل م",
+          "count": 8
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=45&verse=1"
+    },
+    {
+      "number": 46,
+      "nameArabic": "الأحقاف",
+      "nameGerman": "Die Sanddünen",
+      "verseCount": 35,
+      "wordCount": 645,
+      "uniqueRoots": 177,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 20
+        },
+        {
+          "root": "ا ل ه",
+          "count": 18
+        },
+        {
+          "root": "ك و ن",
+          "count": 16
+        },
+        {
+          "root": "ق و م",
+          "count": 11
+        },
+        {
+          "root": "ب ي ن",
+          "count": 9
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=1"
+    },
+    {
+      "number": 47,
+      "nameArabic": "محمد",
+      "nameGerman": "Muhammad",
+      "verseCount": 38,
+      "wordCount": 542,
+      "uniqueRoots": 164,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 28
+        },
+        {
+          "root": "ع م ل",
+          "count": 12
+        },
+        {
+          "root": "ك ف ر",
+          "count": 11
+        },
+        {
+          "root": "ا م ن",
+          "count": 11
+        },
+        {
+          "root": "ق و ل",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=1"
+    },
+    {
+      "number": 48,
+      "nameArabic": "الفتح",
+      "nameGerman": "Der Sieg",
+      "verseCount": 29,
+      "wordCount": 560,
+      "uniqueRoots": 176,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 39
+        },
+        {
+          "root": "ا م ن",
+          "count": 15
+        },
+        {
+          "root": "ك و ن",
+          "count": 13
+        },
+        {
+          "root": "ر س ل",
+          "count": 10
+        },
+        {
+          "root": "ك ف ر",
+          "count": 8
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=48&verse=1"
+    },
+    {
+      "number": 49,
+      "nameArabic": "الحجرات",
+      "nameGerman": "Die Gemächer",
+      "verseCount": 18,
+      "wordCount": 353,
+      "uniqueRoots": 112,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 27
+        },
+        {
+          "root": "ا م ن",
+          "count": 15
+        },
+        {
+          "root": "ع ل م",
+          "count": 8
+        },
+        {
+          "root": "ق و ل",
+          "count": 6
+        },
+        {
+          "root": "ب ي ن",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=1"
+    },
+    {
+      "number": 50,
+      "nameArabic": "ق",
+      "nameGerman": "Qaf",
+      "verseCount": 45,
+      "wordCount": 373,
+      "uniqueRoots": 147,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 10
+        },
+        {
+          "root": "ي و م",
+          "count": 9
+        },
+        {
+          "root": "ك و ن",
+          "count": 6
+        },
+        {
+          "root": "ل ق ي",
+          "count": 6
+        },
+        {
+          "root": "ك ل ل",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=50&verse=1"
+    },
+    {
+      "number": 51,
+      "nameArabic": "الذاريات",
+      "nameGerman": "Die Aufwirbelnden",
+      "verseCount": 60,
+      "wordCount": 360,
+      "uniqueRoots": 141,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 13
+        },
+        {
+          "root": "ك و ن",
+          "count": 6
+        },
+        {
+          "root": "ق و م",
+          "count": 6
+        },
+        {
+          "root": "ر س ل",
+          "count": 6
+        },
+        {
+          "root": "ر ب ب",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=51&verse=1"
+    },
+    {
+      "number": 52,
+      "nameArabic": "الطور",
+      "nameGerman": "Der Berg",
+      "verseCount": 49,
+      "wordCount": 312,
+      "uniqueRoots": 133,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 7
+        },
+        {
+          "root": "ك و ن",
+          "count": 6
+        },
+        {
+          "root": "ق و ل",
+          "count": 6
+        },
+        {
+          "root": "ع ذ ب",
+          "count": 4
+        },
+        {
+          "root": "ي و م",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=1"
+    },
+    {
+      "number": 53,
+      "nameArabic": "النجم",
+      "nameGerman": "Der Stern",
+      "verseCount": 62,
+      "wordCount": 360,
+      "uniqueRoots": 120,
+      "topRoots": [
+        {
+          "root": "ع ل م",
+          "count": 8
+        },
+        {
+          "root": "ر ا ي",
+          "count": 8
+        },
+        {
+          "root": "ر ب ب",
+          "count": 7
+        },
+        {
+          "root": "ا خ ر",
+          "count": 6
+        },
+        {
+          "root": "س م و",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=53&verse=1"
+    },
+    {
+      "number": 54,
+      "nameArabic": "القمر",
+      "nameGerman": "Der Mond",
+      "verseCount": 55,
+      "wordCount": 342,
+      "uniqueRoots": 140,
+      "topRoots": [
+        {
+          "root": "ن ذ ر",
+          "count": 12
+        },
+        {
+          "root": "ذ ك ر",
+          "count": 11
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 9
+        },
+        {
+          "root": "ع ذ ب",
+          "count": 7
+        },
+        {
+          "root": "ك ل ل",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=1"
+    },
+    {
+      "number": 55,
+      "nameArabic": "الرحمن",
+      "nameGerman": "Der Barmherzige",
+      "verseCount": 78,
+      "wordCount": 352,
+      "uniqueRoots": 105,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 36
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 32
+        },
+        {
+          "root": "ا ل و",
+          "count": 31
+        },
+        {
+          "root": "ج ن ن",
+          "count": 8
+        },
+        {
+          "root": "ا ن س",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+    },
+    {
+      "number": 56,
+      "nameArabic": "الواقعة",
+      "nameGerman": "Das Ereignis",
+      "verseCount": 96,
+      "wordCount": 379,
+      "uniqueRoots": 141,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 12
+        },
+        {
+          "root": "ص ح ب",
+          "count": 11
+        },
+        {
+          "root": "ي م ن",
+          "count": 7
+        },
+        {
+          "root": "ن ش ا",
+          "count": 6
+        },
+        {
+          "root": "ا و ل",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=1"
+    },
+    {
+      "number": 57,
+      "nameArabic": "الحديد",
+      "nameGerman": "Das Eisen",
+      "verseCount": 29,
+      "wordCount": 575,
+      "uniqueRoots": 175,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 32
+        },
+        {
+          "root": "ا م ن",
+          "count": 14
+        },
+        {
+          "root": "ر س ل",
+          "count": 10
+        },
+        {
+          "root": "ا ر ض",
+          "count": 9
+        },
+        {
+          "root": "س م و",
+          "count": 7
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=57&verse=1"
+    },
+    {
+      "number": 58,
+      "nameArabic": "المجادلة",
+      "nameGerman": "Die Streitende",
+      "verseCount": 22,
+      "wordCount": 475,
+      "uniqueRoots": 143,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 40
+        },
+        {
+          "root": "ن ج و",
+          "count": 10
+        },
+        {
+          "root": "ا م ن",
+          "count": 9
+        },
+        {
+          "root": "ر س ل",
+          "count": 9
+        },
+        {
+          "root": "ق و ل",
+          "count": 8
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=1"
+    },
+    {
+      "number": 59,
+      "nameArabic": "الحشر",
+      "nameGerman": "Die Versammlung",
+      "verseCount": 24,
+      "wordCount": 447,
+      "uniqueRoots": 157,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 31
+        },
+        {
+          "root": "خ ر ج",
+          "count": 7
+        },
+        {
+          "root": "ر س ل",
+          "count": 7
+        },
+        {
+          "root": "ا م ن",
+          "count": 6
+        },
+        {
+          "root": "ن ص ر",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=59&verse=1"
+    },
+    {
+      "number": 60,
+      "nameArabic": "الممتحنة",
+      "nameGerman": "Die Geprüfte",
+      "verseCount": 13,
+      "wordCount": 352,
+      "uniqueRoots": 107,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 21
+        },
+        {
+          "root": "ا م ن",
+          "count": 10
+        },
+        {
+          "root": "ك ف ر",
+          "count": 8
+        },
+        {
+          "root": "ب ي ن",
+          "count": 7
+        },
+        {
+          "root": "ع د و",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=60&verse=1"
+    },
+    {
+      "number": 61,
+      "nameArabic": "الصف",
+      "nameGerman": "Die Reihe",
+      "verseCount": 14,
+      "wordCount": 226,
+      "uniqueRoots": 81,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 17
+        },
+        {
+          "root": "ا م ن",
+          "count": 7
+        },
+        {
+          "root": "ق و ل",
+          "count": 7
+        },
+        {
+          "root": "ر س ل",
+          "count": 6
+        },
+        {
+          "root": "ب ن ي",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=1"
+    },
+    {
+      "number": 62,
+      "nameArabic": "الجمعة",
+      "nameGerman": "Der Freitag",
+      "verseCount": 11,
+      "wordCount": 177,
+      "uniqueRoots": 76,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 12
+        },
+        {
+          "root": "ع ل م",
+          "count": 4
+        },
+        {
+          "root": "ك و ن",
+          "count": 4
+        },
+        {
+          "root": "ح ك م",
+          "count": 3
+        },
+        {
+          "root": "ف ض ل",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=1"
+    },
+    {
+      "number": 63,
+      "nameArabic": "المنافقون",
+      "nameGerman": "Die Heuchler",
+      "verseCount": 11,
+      "wordCount": 181,
+      "uniqueRoots": 73,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 14
+        },
+        {
+          "root": "ق و ل",
+          "count": 7
+        },
+        {
+          "root": "ن ف ق",
+          "count": 6
+        },
+        {
+          "root": "ر س ل",
+          "count": 5
+        },
+        {
+          "root": "غ ف ر",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=63&verse=1"
+    },
+    {
+      "number": 64,
+      "nameArabic": "التغابن",
+      "nameGerman": "Die Übervorteilung",
+      "verseCount": 18,
+      "wordCount": 242,
+      "uniqueRoots": 96,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 21
+        },
+        {
+          "root": "ك ف ر",
+          "count": 6
+        },
+        {
+          "root": "ا م ن",
+          "count": 6
+        },
+        {
+          "root": "ع ل م",
+          "count": 5
+        },
+        {
+          "root": "ع م ل",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=1"
+    },
+    {
+      "number": 65,
+      "nameArabic": "الطلاق",
+      "nameGerman": "Die Scheidung",
+      "verseCount": 12,
+      "wordCount": 289,
+      "uniqueRoots": 97,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 25
+        },
+        {
+          "root": "ا م ر",
+          "count": 9
+        },
+        {
+          "root": "و ق ي",
+          "count": 5
+        },
+        {
+          "root": "ع د د",
+          "count": 4
+        },
+        {
+          "root": "خ ر ج",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=1"
+    },
+    {
+      "number": 66,
+      "nameArabic": "التحريم",
+      "nameGerman": "Das Verbot",
+      "verseCount": 12,
+      "wordCount": 254,
+      "uniqueRoots": 96,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 13
+        },
+        {
+          "root": "ن ب ا",
+          "count": 8
+        },
+        {
+          "root": "ا م ن",
+          "count": 6
+        },
+        {
+          "root": "ق و ل",
+          "count": 5
+        },
+        {
+          "root": "ر ب ب",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=1"
+    },
+    {
+      "number": 67,
+      "nameArabic": "الملك",
+      "nameGerman": "Die Herrschaft",
+      "verseCount": 30,
+      "wordCount": 333,
+      "uniqueRoots": 127,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 12
+        },
+        {
+          "root": "ر ا ي",
+          "count": 6
+        },
+        {
+          "root": "ر ح م",
+          "count": 5
+        },
+        {
+          "root": "ب ص ر",
+          "count": 5
+        },
+        {
+          "root": "ك و ن",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+    },
+    {
+      "number": 68,
+      "nameArabic": "القلم",
+      "nameGerman": "Die Schreibfeder",
+      "verseCount": 52,
+      "wordCount": 301,
+      "uniqueRoots": 123,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 10
+        },
+        {
+          "root": "ك و ن",
+          "count": 8
+        },
+        {
+          "root": "ق و ل",
+          "count": 7
+        },
+        {
+          "root": "ع ل م",
+          "count": 5
+        },
+        {
+          "root": "ج ن ن",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=1"
+    },
+    {
+      "number": 69,
+      "nameArabic": "الحاقة",
+      "nameGerman": "Die Wahrhaftige",
+      "verseCount": 52,
+      "wordCount": 260,
+      "uniqueRoots": 113,
+      "topRoots": [
+        {
+          "root": "ق و ل",
+          "count": 7
+        },
+        {
+          "root": "ح ق ق",
+          "count": 4
+        },
+        {
+          "root": "ر ب ب",
+          "count": 4
+        },
+        {
+          "root": "ا خ ذ",
+          "count": 4
+        },
+        {
+          "root": "ك ت ب",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=69&verse=1"
+    },
+    {
+      "number": 70,
+      "nameArabic": "المعارج",
+      "nameGerman": "Die Aufstiegswege",
+      "verseCount": 44,
+      "wordCount": 217,
+      "uniqueRoots": 105,
+      "topRoots": [
+        {
+          "root": "ي و م",
+          "count": 6
+        },
+        {
+          "root": "س ا ل",
+          "count": 4
+        },
+        {
+          "root": "ع ذ ب",
+          "count": 4
+        },
+        {
+          "root": "ك و ن",
+          "count": 4
+        },
+        {
+          "root": "ص ل و",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=70&verse=1"
+    },
+    {
+      "number": 71,
+      "nameArabic": "نوح",
+      "nameGerman": "Nuh",
+      "verseCount": 28,
+      "wordCount": 227,
+      "uniqueRoots": 87,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 8
+        },
+        {
+          "root": "ق و ل",
+          "count": 6
+        },
+        {
+          "root": "ج ع ل",
+          "count": 6
+        },
+        {
+          "root": "غ ف ر",
+          "count": 5
+        },
+        {
+          "root": "ر ب ب",
+          "count": 5
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=71&verse=1"
+    },
+    {
+      "number": 72,
+      "nameArabic": "الجن",
+      "nameGerman": "Die Dschinn",
+      "verseCount": 28,
+      "wordCount": 286,
+      "uniqueRoots": 100,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 10
+        },
+        {
+          "root": "ق و ل",
+          "count": 8
+        },
+        {
+          "root": "ر ب ب",
+          "count": 8
+        },
+        {
+          "root": "ا ح د",
+          "count": 6
+        },
+        {
+          "root": "ك و ن",
+          "count": 6
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=72&verse=1"
+    },
+    {
+      "number": 73,
+      "nameArabic": "المزمل",
+      "nameGerman": "Der Verhüllte",
+      "verseCount": 20,
+      "wordCount": 200,
+      "uniqueRoots": 91,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 8
+        },
+        {
+          "root": "ر س ل",
+          "count": 5
+        },
+        {
+          "root": "ق و م",
+          "count": 4
+        },
+        {
+          "root": "ل ي ل",
+          "count": 4
+        },
+        {
+          "root": "ق ر ا",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=1"
+    },
+    {
+      "number": 74,
+      "nameArabic": "المدثر",
+      "nameGerman": "Der Bedeckte",
+      "verseCount": 56,
+      "wordCount": 256,
+      "uniqueRoots": 109,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 5
+        },
+        {
+          "root": "ش ي ا",
+          "count": 5
+        },
+        {
+          "root": "ذ ك ر",
+          "count": 5
+        },
+        {
+          "root": "ق و ل",
+          "count": 4
+        },
+        {
+          "root": "ب ش ر",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=1"
+    },
+    {
+      "number": 75,
+      "nameArabic": "القيامة",
+      "nameGerman": "Die Auferstehung",
+      "verseCount": 40,
+      "wordCount": 164,
+      "uniqueRoots": 73,
+      "topRoots": [
+        {
+          "root": "ا ن س",
+          "count": 6
+        },
+        {
+          "root": "و ل ي",
+          "count": 5
+        },
+        {
+          "root": "ج م ع",
+          "count": 3
+        },
+        {
+          "root": "ر ب ب",
+          "count": 3
+        },
+        {
+          "root": "ق ر ا",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=1"
+    },
+    {
+      "number": 76,
+      "nameArabic": "الإنسان",
+      "nameGerman": "Der Mensch",
+      "verseCount": 31,
+      "wordCount": 243,
+      "uniqueRoots": 112,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 8
+        },
+        {
+          "root": "ش ي ا",
+          "count": 6
+        },
+        {
+          "root": "ا ل ه",
+          "count": 5
+        },
+        {
+          "root": "ر ب ب",
+          "count": 5
+        },
+        {
+          "root": "ك ف ر",
+          "count": 4
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=1"
+    },
+    {
+      "number": 77,
+      "nameArabic": "المرسلات",
+      "nameGerman": "Die Gesandten",
+      "verseCount": 50,
+      "wordCount": 181,
+      "uniqueRoots": 79,
+      "topRoots": [
+        {
+          "root": "ك ذ ب",
+          "count": 11
+        },
+        {
+          "root": "ي و م",
+          "count": 5
+        },
+        {
+          "root": "ف ص ل",
+          "count": 3
+        },
+        {
+          "root": "ج ع ل",
+          "count": 3
+        },
+        {
+          "root": "ق د ر",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=77&verse=1"
+    },
+    {
+      "number": 78,
+      "nameArabic": "النبأ",
+      "nameGerman": "Die Kunde",
+      "verseCount": 40,
+      "wordCount": 174,
+      "uniqueRoots": 100,
+      "topRoots": [
+        {
+          "root": "ك و ن",
+          "count": 6
+        },
+        {
+          "root": "ج ع ل",
+          "count": 5
+        },
+        {
+          "root": "ي و م",
+          "count": 5
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 3
+        },
+        {
+          "root": "ر ب ب",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+    },
+    {
+      "number": 79,
+      "nameArabic": "النازعات",
+      "nameGerman": "Die Entreißenden",
+      "verseCount": 46,
+      "wordCount": 179,
+      "uniqueRoots": 93,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 5
+        },
+        {
+          "root": "ق و ل",
+          "count": 4
+        },
+        {
+          "root": "ي و م",
+          "count": 3
+        },
+        {
+          "root": "خ ش ي",
+          "count": 3
+        },
+        {
+          "root": "ر ا ي",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=1"
+    },
+    {
+      "number": 80,
+      "nameArabic": "عبس",
+      "nameGerman": "Er runzelte die Stirn",
+      "verseCount": 42,
+      "wordCount": 133,
+      "uniqueRoots": 70,
+      "topRoots": [
+        {
+          "root": "ذ ك ر",
+          "count": 4
+        },
+        {
+          "root": "ج ي ا",
+          "count": 3
+        },
+        {
+          "root": "ش ي ا",
+          "count": 3
+        },
+        {
+          "root": "ز ك و",
+          "count": 2
+        },
+        {
+          "root": "غ ن ي",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=80&verse=1"
+    },
+    {
+      "number": 81,
+      "nameArabic": "التكوير",
+      "nameGerman": "Das Zusammenfalten",
+      "verseCount": 29,
+      "wordCount": 104,
+      "uniqueRoots": 58,
+      "topRoots": [
+        {
+          "root": "ن ف س",
+          "count": 3
+        },
+        {
+          "root": "ع ل م",
+          "count": 3
+        },
+        {
+          "root": "ش ي ا",
+          "count": 3
+        },
+        {
+          "root": "ج ن ن",
+          "count": 2
+        },
+        {
+          "root": "ق و ل",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=1"
+    },
+    {
+      "number": 82,
+      "nameArabic": "الانفطار",
+      "nameGerman": "Das Auseinanderbrechen",
+      "verseCount": 19,
+      "wordCount": 81,
+      "uniqueRoots": 37,
+      "topRoots": [
+        {
+          "root": "د ي ن",
+          "count": 4
+        },
+        {
+          "root": "ي و م",
+          "count": 4
+        },
+        {
+          "root": "ن ف س",
+          "count": 3
+        },
+        {
+          "root": "ف ج ر",
+          "count": 2
+        },
+        {
+          "root": "ع ل م",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=82&verse=1"
+    },
+    {
+      "number": 83,
+      "nameArabic": "المطففين",
+      "nameGerman": "Die Betrüger",
+      "verseCount": 36,
+      "wordCount": 169,
+      "uniqueRoots": 68,
+      "topRoots": [
+        {
+          "root": "ي و م",
+          "count": 4
+        },
+        {
+          "root": "ك ت ب",
+          "count": 4
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 4
+        },
+        {
+          "root": "ك و ن",
+          "count": 4
+        },
+        {
+          "root": "ق و ل",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=83&verse=1"
+    },
+    {
+      "number": 84,
+      "nameArabic": "الانشقاق",
+      "nameGerman": "Das Zerreißen",
+      "verseCount": 25,
+      "wordCount": 108,
+      "uniqueRoots": 52,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 4
+        },
+        {
+          "root": "ا ذ ن",
+          "count": 2
+        },
+        {
+          "root": "ح ق ق",
+          "count": 2
+        },
+        {
+          "root": "ل ق ي",
+          "count": 2
+        },
+        {
+          "root": "ك د ح",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=84&verse=1"
+    },
+    {
+      "number": 85,
+      "nameArabic": "البروج",
+      "nameGerman": "Die Türme",
+      "verseCount": 22,
+      "wordCount": 109,
+      "uniqueRoots": 53,
+      "topRoots": [
+        {
+          "root": "ا م ن",
+          "count": 5
+        },
+        {
+          "root": "ش ه د",
+          "count": 4
+        },
+        {
+          "root": "ا ل ه",
+          "count": 3
+        },
+        {
+          "root": "س م و",
+          "count": 2
+        },
+        {
+          "root": "ف ع ل",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=1"
+    },
+    {
+      "number": 86,
+      "nameArabic": "الطارق",
+      "nameGerman": "Der Nachtstern",
+      "verseCount": 17,
+      "wordCount": 61,
+      "uniqueRoots": 33,
+      "topRoots": [
+        {
+          "root": "ك ي د",
+          "count": 4
+        },
+        {
+          "root": "س م و",
+          "count": 2
+        },
+        {
+          "root": "ط ر ق",
+          "count": 2
+        },
+        {
+          "root": "خ ل ق",
+          "count": 2
+        },
+        {
+          "root": "ر ج ع",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=86&verse=1"
+    },
+    {
+      "number": 87,
+      "nameArabic": "الأعلى",
+      "nameGerman": "Der Höchste",
+      "verseCount": 19,
+      "wordCount": 72,
+      "uniqueRoots": 41,
+      "topRoots": [
+        {
+          "root": "ذ ك ر",
+          "count": 4
+        },
+        {
+          "root": "س م و",
+          "count": 2
+        },
+        {
+          "root": "ر ب ب",
+          "count": 2
+        },
+        {
+          "root": "ي س ر",
+          "count": 2
+        },
+        {
+          "root": "ح ي ي",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=87&verse=1"
+    },
+    {
+      "number": 88,
+      "nameArabic": "الغاشية",
+      "nameGerman": "Die Bedeckende",
+      "verseCount": 26,
+      "wordCount": 92,
+      "uniqueRoots": 50,
+      "topRoots": [
+        {
+          "root": "ك ي ف",
+          "count": 4
+        },
+        {
+          "root": "و ج ه",
+          "count": 2
+        },
+        {
+          "root": "ن ص ب",
+          "count": 2
+        },
+        {
+          "root": "ع ي ن",
+          "count": 2
+        },
+        {
+          "root": "ل ي س",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=88&verse=1"
+    },
+    {
+      "number": 89,
+      "nameArabic": "الفجر",
+      "nameGerman": "Die Morgendämmerung",
+      "verseCount": 30,
+      "wordCount": 139,
+      "uniqueRoots": 64,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 8
+        },
+        {
+          "root": "ع ذ ب",
+          "count": 3
+        },
+        {
+          "root": "ك ر م",
+          "count": 3
+        },
+        {
+          "root": "ق و ل",
+          "count": 3
+        },
+        {
+          "root": "د ك ك",
+          "count": 3
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+    },
+    {
+      "number": 90,
+      "nameArabic": "البلد",
+      "nameGerman": "Die Stadt",
+      "verseCount": 20,
+      "wordCount": 82,
+      "uniqueRoots": 45,
+      "topRoots": [
+        {
+          "root": "ب ل د",
+          "count": 2
+        },
+        {
+          "root": "و ل د",
+          "count": 2
+        },
+        {
+          "root": "ح س ب",
+          "count": 2
+        },
+        {
+          "root": "ا ح د",
+          "count": 2
+        },
+        {
+          "root": "ع ق ب",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=90&verse=1"
+    },
+    {
+      "number": 91,
+      "nameArabic": "الشمس",
+      "nameGerman": "Die Sonne",
+      "verseCount": 15,
+      "wordCount": 54,
+      "uniqueRoots": 36,
+      "topRoots": [
+        {
+          "root": "س و ي",
+          "count": 2
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 2
+        },
+        {
+          "root": "ا ل ه",
+          "count": 2
+        },
+        {
+          "root": "ش م س",
+          "count": 1
+        },
+        {
+          "root": "ض ح و",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+    },
+    {
+      "number": 92,
+      "nameArabic": "الليل",
+      "nameGerman": "Die Nacht",
+      "verseCount": 21,
+      "wordCount": 71,
+      "uniqueRoots": 41,
+      "topRoots": [
+        {
+          "root": "ي س ر",
+          "count": 3
+        },
+        {
+          "root": "و ق ي",
+          "count": 2
+        },
+        {
+          "root": "ح س ن",
+          "count": 2
+        },
+        {
+          "root": "غ ن ي",
+          "count": 2
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=92&verse=1"
+    },
+    {
+      "number": 93,
+      "nameArabic": "الضحى",
+      "nameGerman": "Der Vormittag",
+      "verseCount": 11,
+      "wordCount": 40,
+      "uniqueRoots": 23,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 3
+        },
+        {
+          "root": "و ج د",
+          "count": 3
+        },
+        {
+          "root": "ي ت م",
+          "count": 2
+        },
+        {
+          "root": "ض ح و",
+          "count": 1
+        },
+        {
+          "root": "ل ي ل",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=93&verse=1"
+    },
+    {
+      "number": 94,
+      "nameArabic": "الشرح",
+      "nameGerman": "Das Weiten",
+      "verseCount": 8,
+      "wordCount": 27,
+      "uniqueRoots": 14,
+      "topRoots": [
+        {
+          "root": "ع س ر",
+          "count": 2
+        },
+        {
+          "root": "ي س ر",
+          "count": 2
+        },
+        {
+          "root": "ش ر ح",
+          "count": 1
+        },
+        {
+          "root": "ص د ر",
+          "count": 1
+        },
+        {
+          "root": "و ض ع",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=94&verse=1"
+    },
+    {
+      "number": 95,
+      "nameArabic": "التين",
+      "nameGerman": "Die Feige",
+      "verseCount": 8,
+      "wordCount": 34,
+      "uniqueRoots": 22,
+      "topRoots": [
+        {
+          "root": "ا م ن",
+          "count": 2
+        },
+        {
+          "root": "س ف ل",
+          "count": 2
+        },
+        {
+          "root": "ح ك م",
+          "count": 2
+        },
+        {
+          "root": "ت ي ن",
+          "count": 1
+        },
+        {
+          "root": "ز ي ت",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+    },
+    {
+      "number": 96,
+      "nameArabic": "العلق",
+      "nameGerman": "Das Anhaftende",
+      "verseCount": 19,
+      "wordCount": 72,
+      "uniqueRoots": 32,
+      "topRoots": [
+        {
+          "root": "ر ا ي",
+          "count": 5
+        },
+        {
+          "root": "ع ل م",
+          "count": 4
+        },
+        {
+          "root": "ر ب ب",
+          "count": 3
+        },
+        {
+          "root": "ا ن س",
+          "count": 3
+        },
+        {
+          "root": "ق ر ا",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "number": 97,
+      "nameArabic": "القدر",
+      "nameGerman": "Die Bestimmung",
+      "verseCount": 5,
+      "wordCount": 30,
+      "uniqueRoots": 16,
+      "topRoots": [
+        {
+          "root": "ل ي ل",
+          "count": 3
+        },
+        {
+          "root": "ق د ر",
+          "count": 3
+        },
+        {
+          "root": "ن ز ل",
+          "count": 2
+        },
+        {
+          "root": "د ر ي",
+          "count": 1
+        },
+        {
+          "root": "خ ي ر",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=1"
+    },
+    {
+      "number": 98,
+      "nameArabic": "البينة",
+      "nameGerman": "Der klare Beweis",
+      "verseCount": 8,
+      "wordCount": 94,
+      "uniqueRoots": 42,
+      "topRoots": [
+        {
+          "root": "ك ت ب",
+          "count": 4
+        },
+        {
+          "root": "ا ت ي",
+          "count": 3
+        },
+        {
+          "root": "ا ل ه",
+          "count": 3
+        },
+        {
+          "root": "ق و م",
+          "count": 3
+        },
+        {
+          "root": "ك ف ر",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=98&verse=1"
+    },
+    {
+      "number": 99,
+      "nameArabic": "الزلزلة",
+      "nameGerman": "Das Beben",
+      "verseCount": 8,
+      "wordCount": 36,
+      "uniqueRoots": 18,
+      "topRoots": [
+        {
+          "root": "ث ق ل",
+          "count": 3
+        },
+        {
+          "root": "ر ا ي",
+          "count": 3
+        },
+        {
+          "root": "ع م ل",
+          "count": 3
+        },
+        {
+          "root": "ز ل ز ل",
+          "count": 2
+        },
+        {
+          "root": "ا ر ض",
+          "count": 2
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=99&verse=1"
+    },
+    {
+      "number": 100,
+      "nameArabic": "العاديات",
+      "nameGerman": "Die Rennenden",
+      "verseCount": 11,
+      "wordCount": 40,
+      "uniqueRoots": 23,
+      "topRoots": [
+        {
+          "root": "ر ب ب",
+          "count": 2
+        },
+        {
+          "root": "ع د و",
+          "count": 1
+        },
+        {
+          "root": "ض ب ح",
+          "count": 1
+        },
+        {
+          "root": "و ر ي",
+          "count": 1
+        },
+        {
+          "root": "ق د ح",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=1"
+    },
+    {
+      "number": 101,
+      "nameArabic": "القارعة",
+      "nameGerman": "Das Verhängnis",
+      "verseCount": 11,
+      "wordCount": 36,
+      "uniqueRoots": 19,
+      "topRoots": [
+        {
+          "root": "ق ر ع",
+          "count": 3
+        },
+        {
+          "root": "د ر ي",
+          "count": 2
+        },
+        {
+          "root": "ك و ن",
+          "count": 2
+        },
+        {
+          "root": "و ز ن",
+          "count": 2
+        },
+        {
+          "root": "ي و م",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=101&verse=1"
+    },
+    {
+      "number": 102,
+      "nameArabic": "التكاثر",
+      "nameGerman": "Das Vermehren",
+      "verseCount": 8,
+      "wordCount": 28,
+      "uniqueRoots": 11,
+      "topRoots": [
+        {
+          "root": "ع ل م",
+          "count": 4
+        },
+        {
+          "root": "ي ق ن",
+          "count": 2
+        },
+        {
+          "root": "ر ا ي",
+          "count": 2
+        },
+        {
+          "root": "ل ه و",
+          "count": 1
+        },
+        {
+          "root": "ك ث ر",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=102&verse=1"
+    },
+    {
+      "number": 103,
+      "nameArabic": "العصر",
+      "nameGerman": "Die Zeit",
+      "verseCount": 3,
+      "wordCount": 14,
+      "uniqueRoots": 9,
+      "topRoots": [
+        {
+          "root": "و ص ي",
+          "count": 2
+        },
+        {
+          "root": "ع ص ر",
+          "count": 1
+        },
+        {
+          "root": "ا ن س",
+          "count": 1
+        },
+        {
+          "root": "خ س ر",
+          "count": 1
+        },
+        {
+          "root": "ا م ن",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+    },
+    {
+      "number": 104,
+      "nameArabic": "الهمزة",
+      "nameGerman": "Der Stichler",
+      "verseCount": 9,
+      "wordCount": 33,
+      "uniqueRoots": 19,
+      "topRoots": [
+        {
+          "root": "م و ل",
+          "count": 2
+        },
+        {
+          "root": "ح ط م",
+          "count": 2
+        },
+        {
+          "root": "ك ل ل",
+          "count": 1
+        },
+        {
+          "root": "ه م ز",
+          "count": 1
+        },
+        {
+          "root": "ل م ز",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=104&verse=1"
+    },
+    {
+      "number": 105,
+      "nameArabic": "الفيل",
+      "nameGerman": "Der Elefant",
+      "verseCount": 5,
+      "wordCount": 23,
+      "uniqueRoots": 17,
+      "topRoots": [
+        {
+          "root": "ج ع ل",
+          "count": 2
+        },
+        {
+          "root": "ر ا ي",
+          "count": 1
+        },
+        {
+          "root": "ك ي ف",
+          "count": 1
+        },
+        {
+          "root": "ف ع ل",
+          "count": 1
+        },
+        {
+          "root": "ر ب ب",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=105&verse=1"
+    },
+    {
+      "number": 106,
+      "nameArabic": "قريش",
+      "nameGerman": "Die Quraisch",
+      "verseCount": 4,
+      "wordCount": 17,
+      "uniqueRoots": 11,
+      "topRoots": [
+        {
+          "root": "ا ل ف",
+          "count": 2
+        },
+        {
+          "root": "ر ح ل",
+          "count": 1
+        },
+        {
+          "root": "ش ت و",
+          "count": 1
+        },
+        {
+          "root": "ص ي ف",
+          "count": 1
+        },
+        {
+          "root": "ع ب د",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=106&verse=1"
+    },
+    {
+      "number": 107,
+      "nameArabic": "الماعون",
+      "nameGerman": "Die Hilfeleistung",
+      "verseCount": 7,
+      "wordCount": 25,
+      "uniqueRoots": 12,
+      "topRoots": [
+        {
+          "root": "ر ا ي",
+          "count": 2
+        },
+        {
+          "root": "ص ل و",
+          "count": 2
+        },
+        {
+          "root": "ك ذ ب",
+          "count": 1
+        },
+        {
+          "root": "د ي ن",
+          "count": 1
+        },
+        {
+          "root": "د ع ع",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=107&verse=1"
+    },
+    {
+      "number": 108,
+      "nameArabic": "الكوثر",
+      "nameGerman": "Die Fülle",
+      "verseCount": 3,
+      "wordCount": 10,
+      "uniqueRoots": 7,
+      "topRoots": [
+        {
+          "root": "ع ط و",
+          "count": 1
+        },
+        {
+          "root": "ك ث ر",
+          "count": 1
+        },
+        {
+          "root": "ص ل و",
+          "count": 1
+        },
+        {
+          "root": "ر ب ب",
+          "count": 1
+        },
+        {
+          "root": "ن ح ر",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+    },
+    {
+      "number": 109,
+      "nameArabic": "الكافرون",
+      "nameGerman": "Die Leugnenden",
+      "verseCount": 6,
+      "wordCount": 27,
+      "uniqueRoots": 4,
+      "topRoots": [
+        {
+          "root": "ع ب د",
+          "count": 8
+        },
+        {
+          "root": "د ي ن",
+          "count": 2
+        },
+        {
+          "root": "ق و ل",
+          "count": 1
+        },
+        {
+          "root": "ك ف ر",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+    },
+    {
+      "number": 110,
+      "nameArabic": "النصر",
+      "nameGerman": "Die Hilfe",
+      "verseCount": 3,
+      "wordCount": 19,
+      "uniqueRoots": 15,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 2
+        },
+        {
+          "root": "ج ي ا",
+          "count": 1
+        },
+        {
+          "root": "ن ص ر",
+          "count": 1
+        },
+        {
+          "root": "ف ت ح",
+          "count": 1
+        },
+        {
+          "root": "ر ا ي",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=110&verse=1"
+    },
+    {
+      "number": 111,
+      "nameArabic": "المسد",
+      "nameGerman": "Die Palmfasern",
+      "verseCount": 5,
+      "wordCount": 23,
+      "uniqueRoots": 15,
+      "topRoots": [
+        {
+          "root": "ت ب ب",
+          "count": 2
+        },
+        {
+          "root": "ل ه ب",
+          "count": 2
+        },
+        {
+          "root": "ي د ي",
+          "count": 1
+        },
+        {
+          "root": "ا ب و",
+          "count": 1
+        },
+        {
+          "root": "غ ن ي",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+    },
+    {
+      "number": 112,
+      "nameArabic": "الإخلاص",
+      "nameGerman": "Die Aufrichtigkeit",
+      "verseCount": 4,
+      "wordCount": 15,
+      "uniqueRoots": 7,
+      "topRoots": [
+        {
+          "root": "ا ل ه",
+          "count": 2
+        },
+        {
+          "root": "ا ح د",
+          "count": 2
+        },
+        {
+          "root": "و ل د",
+          "count": 2
+        },
+        {
+          "root": "ق و ل",
+          "count": 1
+        },
+        {
+          "root": "ص م د",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "number": 113,
+      "nameArabic": "الفلق",
+      "nameGerman": "Das Frühlicht",
+      "verseCount": 5,
+      "wordCount": 23,
+      "uniqueRoots": 11,
+      "topRoots": [
+        {
+          "root": "ش ر ر",
+          "count": 4
+        },
+        {
+          "root": "ح س د",
+          "count": 2
+        },
+        {
+          "root": "ق و ل",
+          "count": 1
+        },
+        {
+          "root": "ع و ذ",
+          "count": 1
+        },
+        {
+          "root": "ر ب ب",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+    },
+    {
+      "number": 114,
+      "nameArabic": "الناس",
+      "nameGerman": "Die Menschen",
+      "verseCount": 6,
+      "wordCount": 20,
+      "uniqueRoots": 11,
+      "topRoots": [
+        {
+          "root": "ن و س",
+          "count": 5
+        },
+        {
+          "root": "و س و س",
+          "count": 2
+        },
+        {
+          "root": "ق و ل",
+          "count": 1
+        },
+        {
+          "root": "ع و ذ",
+          "count": 1
+        },
+        {
+          "root": "ر ب ب",
+          "count": 1
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+    }
+  ]
+}

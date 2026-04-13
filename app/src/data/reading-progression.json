@@ -1,0 +1,2120 @@
+{
+  "meta": {
+    "title": "Leseprogression — Vom Buchstaben zum Vers",
+    "description": "Stufenweiser Aufbau der Lesefähigkeit: Silbe → Wort → Phrase → Vers. Alle Einträge verwenden ausschließlich authentischen qur'anischen Text.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "stages": [
+    {
+      "id": "R0",
+      "title": "Verbundene Schrift lesen — Wort-Parsing",
+      "description": "Wie man ein verbundenes arabisches Wort visuell in Einzelbuchstaben zerlegt.",
+      "exercises": [
+        {
+          "arabic": "بسم",
+          "transliteration": "bsm",
+          "meaning": "Name (Konstruktstatus)",
+          "ref": "1:1",
+          "parts": [
+            "ب",
+            "س",
+            "م"
+          ],
+          "partLabels": [
+            "Ba (verbindet rechts+links)",
+            "Sin (verbindet rechts+links)",
+            "Mim (verbindet beidseitig, hier Endform)"
+          ],
+          "difficulty": 1,
+          "parsingNote": "Alle drei Buchstaben verbinden sich. Ba beginnt → Anfangsform. Sin in der Mitte → Mittelform. Mim am Ende → Endform.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "الله",
+          "transliteration": "allah",
+          "meaning": "Gott",
+          "ref": "1:1",
+          "parts": [
+            "ا",
+            "ل",
+            "ل",
+            "ه"
+          ],
+          "partLabels": [
+            "Alif (verbindet NICHT links)",
+            "Lam (verbindet rechts+links)",
+            "Lam (verbindet rechts+links)",
+            "Ha (endet)"
+          ],
+          "difficulty": 1,
+          "parsingNote": "Alif verbindet sich nicht nach links → der nächste Buchstabe (Lam) beginnt eine neue Verbindungsgruppe. Alif bricht die Kette.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "رب",
+          "transliteration": "rb",
+          "meaning": "Herr",
+          "ref": "1:2",
+          "parts": [
+            "ر",
+            "ب"
+          ],
+          "partLabels": [
+            "Ra (verbindet NICHT links)",
+            "Ba (Endform)"
+          ],
+          "difficulty": 1,
+          "parsingNote": "Ra ist ein Nicht-Verbinder (wie و, ز, د, ذ) → es verbindet sich nicht mit dem folgenden Buchstaben. Ba steht daher in isolierter oder Anfangsform.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "العالمين",
+          "transliteration": "al-ʿālamīn",
+          "meaning": "die Welten",
+          "ref": "1:2",
+          "parts": [
+            "ا",
+            "ل",
+            "ع",
+            "ا",
+            "ل",
+            "م",
+            "ي",
+            "ن"
+          ],
+          "partLabels": [
+            "Alif (Nicht-Verbinder)",
+            "Lam (Verbinder)",
+            "'Ayn (Verbinder)",
+            "Alif (Nicht-Verbinder → bricht Kette)",
+            "Lam (Verbinder, neue Kette)",
+            "Mim (Verbinder)",
+            "Ya (Verbinder)",
+            "Nun (endet)"
+          ],
+          "difficulty": 2,
+          "parsingNote": "Zwei Verbindungsbrüche: nach dem ersten Alif und nach dem zweiten Alif. Das Wort hat drei Verbindungsgruppen: ال + عا + لمين.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "الرحمن",
+          "transliteration": "ar-rahmān",
+          "meaning": "der intensiv-Barmherzige",
+          "ref": "1:3",
+          "parts": [
+            "ا",
+            "ل",
+            "ر",
+            "ح",
+            "م",
+            "ن"
+          ],
+          "partLabels": [
+            "Alif (Nicht-Verbinder)",
+            "Lam (Verbinder)",
+            "Ra (Nicht-Verbinder → bricht)",
+            "Ha (neue Kette, Verbinder)",
+            "Mim (Verbinder)",
+            "Nun (endet)"
+          ],
+          "difficulty": 2,
+          "parsingNote": "Drei Verbindungsgruppen: ال + ر + حمن. Ra bricht die Kette weil es ein Nicht-Verbinder ist.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+        },
+        {
+          "arabic": "الدين",
+          "transliteration": "ad-dīn",
+          "meaning": "die Lebensweise / die Vergeltung",
+          "ref": "1:4",
+          "parts": [
+            "ا",
+            "ل",
+            "د",
+            "ي",
+            "ن"
+          ],
+          "partLabels": [
+            "Alif (Nicht-Verbinder)",
+            "Lam (Verbinder)",
+            "Dal (Nicht-Verbinder → bricht)",
+            "Ya (neue Kette)",
+            "Nun (endet)"
+          ],
+          "difficulty": 2,
+          "parsingNote": "Drei Gruppen: ال + د + ين. Dal bricht die Verbindung wie alle ا د ذ ر ز و Buchstaben.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "نستعين",
+          "transliteration": "nastaʾīn",
+          "meaning": "wir erbitten Hilfe",
+          "ref": "1:5",
+          "parts": [
+            "ن",
+            "س",
+            "ت",
+            "ع",
+            "ي",
+            "ن"
+          ],
+          "partLabels": [
+            "Nun (Verbinder)",
+            "Sin (Verbinder)",
+            "Ta (Verbinder)",
+            "'Ayn (Verbinder)",
+            "Ya (Verbinder)",
+            "Nun (endet)"
+          ],
+          "difficulty": 1,
+          "parsingNote": "Alle sechs Buchstaben verbinden sich — eine einzige ununterbrochene Kette. Kein Nicht-Verbinder vorhanden.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "صراط",
+          "transliteration": "sirāt",
+          "meaning": "Weg",
+          "ref": "1:6",
+          "parts": [
+            "ص",
+            "ر",
+            "ا",
+            "ط"
+          ],
+          "partLabels": [
+            "Sad (Verbinder)",
+            "Ra (Nicht-Verbinder → bricht)",
+            "Alif (Nicht-Verbinder → bricht)",
+            "Ta (isoliert/Endform)"
+          ],
+          "difficulty": 2,
+          "parsingNote": "Drei Brüche: nach Sad-Ra (Ra bricht), nach Ra (Alif bricht), Alif-Ta nicht verbunden. Vier separate Gruppen: صـ + ر + ا + ط.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "R1",
+      "title": "Silben und einfache Wörter",
+      "description": "2-3 Buchstaben-Wörter aus dem Quran lesen",
+      "exercises": [
+        {
+          "arabic": "رَبّ",
+          "transliteration": "rabb",
+          "meaning": "Herr",
+          "ref": "1:2",
+          "syllables": [
+            "رَبّ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "قُلْ",
+          "transliteration": "qul",
+          "meaning": "sag",
+          "ref": "112:1",
+          "syllables": [
+            "قُلْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "arabic": "مِنْ",
+          "transliteration": "min",
+          "meaning": "von/aus",
+          "ref": "2:4",
+          "syllables": [
+            "مِنْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+        },
+        {
+          "arabic": "لَمْ",
+          "transliteration": "lam",
+          "meaning": "nicht (Vergangenheit)",
+          "ref": "112:3",
+          "syllables": [
+            "لَمْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "كُلّ",
+          "transliteration": "kull",
+          "meaning": "jeder/alle",
+          "ref": "21:33",
+          "syllables": [
+            "كُلّ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=33"
+        },
+        {
+          "arabic": "هُوَ",
+          "transliteration": "huwa",
+          "meaning": "er",
+          "ref": "112:1",
+          "syllables": [
+            "هُ",
+            "وَ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "arabic": "مَا",
+          "transliteration": "mā",
+          "meaning": "was/nicht",
+          "ref": "109:4",
+          "syllables": [
+            "مَا"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=4"
+        },
+        {
+          "arabic": "لَا",
+          "transliteration": "lā",
+          "meaning": "nein/nicht",
+          "ref": "109:2",
+          "syllables": [
+            "لَا"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=2"
+        },
+        {
+          "arabic": "بَلْ",
+          "transliteration": "bal",
+          "meaning": "sondern/vielmehr",
+          "ref": "85:21",
+          "syllables": [
+            "بَلْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=21"
+        },
+        {
+          "arabic": "أَمْ",
+          "transliteration": "am",
+          "meaning": "oder",
+          "ref": "52:35",
+          "syllables": [
+            "أَمْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=52&verse=35"
+        },
+        {
+          "arabic": "شَرّ",
+          "transliteration": "sharr",
+          "meaning": "Übel",
+          "ref": "113:2",
+          "syllables": [
+            "شَرّ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+        },
+        {
+          "arabic": "خَلَقَ",
+          "transliteration": "khalaqa",
+          "meaning": "er erschuf",
+          "ref": "113:2",
+          "syllables": [
+            "خَ",
+            "لَ",
+            "قَ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+        },
+        {
+          "arabic": "فَلَقْ",
+          "transliteration": "falaq",
+          "meaning": "Tagesanbruch",
+          "ref": "113:1",
+          "syllables": [
+            "فَ",
+            "لَقْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+        },
+        {
+          "arabic": "نَارْ",
+          "transliteration": "nār",
+          "meaning": "Feuer",
+          "ref": "111:3",
+          "syllables": [
+            "نَارْ"
+          ],
+          "difficulty": 1,
+          "note": "Pausalform; in Verbindung نَارٌ/نَارٍ/نَارًا",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=3"
+        },
+        {
+          "arabic": "أَحَدٌ",
+          "transliteration": "ahad",
+          "meaning": "einer",
+          "ref": "112:1",
+          "syllables": [
+            "أَ",
+            "حَدٌ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "arabic": "صَمَدٌ",
+          "transliteration": "samad",
+          "meaning": "Beständiger",
+          "ref": "112:2",
+          "syllables": [
+            "صَ",
+            "مَدٌ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=2"
+        },
+        {
+          "arabic": "يَلِدْ",
+          "transliteration": "yalid",
+          "meaning": "er zeugt",
+          "ref": "112:3",
+          "syllables": [
+            "يَ",
+            "لِدْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "يُولَدْ",
+          "transliteration": "yūlad",
+          "meaning": "er wird gezeugt",
+          "ref": "112:3",
+          "syllables": [
+            "يُو",
+            "لَدْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "كُفُوًا",
+          "transliteration": "kufuwan",
+          "meaning": "ebenbürtig",
+          "ref": "112:4",
+          "syllables": [
+            "كُ",
+            "فُ",
+            "وًا"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+        },
+        {
+          "arabic": "يَكُنْ",
+          "transliteration": "yakun",
+          "meaning": "er ist/war",
+          "ref": "112:4",
+          "syllables": [
+            "يَ",
+            "كُنْ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+        },
+        {
+          "arabic": "عَصْرِ",
+          "transliteration": "ʿasr",
+          "meaning": "Zeit",
+          "ref": "103:1",
+          "syllables": [
+            "عَصْ",
+            "رِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        },
+        {
+          "arabic": "خُسْرٍ",
+          "transliteration": "khusr",
+          "meaning": "Verlust",
+          "ref": "103:2",
+          "syllables": [
+            "خُسْ",
+            "رٍ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+        },
+        {
+          "arabic": "حَقّ",
+          "transliteration": "haqq",
+          "meaning": "Wahrheit",
+          "ref": "103:3",
+          "syllables": [
+            "حَقّ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        },
+        {
+          "arabic": "صَبْرِ",
+          "transliteration": "sabr",
+          "meaning": "Geduld",
+          "ref": "103:3",
+          "syllables": [
+            "صَبْ",
+            "رِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        },
+        {
+          "arabic": "نَاسِ",
+          "transliteration": "nās",
+          "meaning": "Menschen",
+          "ref": "114:1",
+          "syllables": [
+            "نَا",
+            "سِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+        },
+        {
+          "arabic": "مَلِكِ",
+          "transliteration": "malik",
+          "meaning": "König",
+          "ref": "114:2",
+          "syllables": [
+            "مَ",
+            "لِ",
+            "كِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=2"
+        },
+        {
+          "arabic": "يَوْمِ",
+          "transliteration": "yawm",
+          "meaning": "Tag",
+          "ref": "1:4",
+          "syllables": [
+            "يَوْ",
+            "مِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "دِينِ",
+          "transliteration": "dīn",
+          "meaning": "Urteil/Lebensweise",
+          "ref": "1:4",
+          "syllables": [
+            "دِي",
+            "نِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "حَسَدَ",
+          "transliteration": "hasad",
+          "meaning": "Neid",
+          "ref": "113:5",
+          "syllables": [
+            "حَ",
+            "سَ",
+            "دَ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5"
+        },
+        {
+          "arabic": "عُقَدِ",
+          "transliteration": "ʿuqad",
+          "meaning": "Knoten",
+          "ref": "113:4",
+          "syllables": [
+            "عُ",
+            "قَ",
+            "دِ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=4"
+        },
+        {
+          "arabic": "تَبَّ",
+          "transliteration": "tabba",
+          "meaning": "zugrunde gehen",
+          "ref": "111:1",
+          "syllables": [
+            "تَبَّ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+        },
+        {
+          "arabic": "كَسَبَ",
+          "transliteration": "kasaba",
+          "meaning": "er erwarb",
+          "ref": "111:2",
+          "syllables": [
+            "كَ",
+            "سَ",
+            "بَ"
+          ],
+          "difficulty": 1,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=2"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "id": "R2",
+      "title": "Wörter mit Affixen",
+      "description": "Präfix al-, Pronominalsuffixe, Konjunktionen erkennen",
+      "exercises": [
+        {
+          "arabic": "الْكِتَابُ",
+          "transliteration": "al-kitābu",
+          "meaning": "das Buch",
+          "ref": "2:2",
+          "parts": [
+            "ال",
+            "كِتَاب",
+            "ُ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Nominativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "arabic": "الرَّحْمَنِ",
+          "transliteration": "ar-rahmāni",
+          "meaning": "des Erbarmers",
+          "ref": "1:1",
+          "parts": [
+            "ال",
+            "رَّحْمَن",
+            "ِ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "الرَّحِيمِ",
+          "transliteration": "ar-rahīmi",
+          "meaning": "des Barmherzigen",
+          "ref": "1:1",
+          "parts": [
+            "ال",
+            "رَّحِيم",
+            "ِ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "الْحَمْدُ",
+          "transliteration": "al-hamdu",
+          "meaning": "das Lob",
+          "ref": "1:2",
+          "parts": [
+            "ال",
+            "حَمْد",
+            "ُ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Nominativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "الْعَالَمِينَ",
+          "transliteration": "al-ʿālamīna",
+          "meaning": "der Welten",
+          "ref": "1:2",
+          "parts": [
+            "ال",
+            "عَالَم",
+            "ِينَ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Genitiv-Plural"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "نَعْبُدُ",
+          "transliteration": "naʿbudu",
+          "meaning": "wir dienen",
+          "ref": "1:5",
+          "parts": [
+            "نَ",
+            "عْبُد",
+            "ُ"
+          ],
+          "partLabels": [
+            "1.Pl-Präfix",
+            "Stamm",
+            "Indikativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "نَسْتَعِينُ",
+          "transliteration": "nastaʾīnu",
+          "meaning": "wir bitten um Hilfe",
+          "ref": "1:5",
+          "parts": [
+            "نَ",
+            "سْتَعِين",
+            "ُ"
+          ],
+          "partLabels": [
+            "1.Pl-Präfix",
+            "Stamm (X)",
+            "Indikativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "اهْدِنَا",
+          "transliteration": "ihdinā",
+          "meaning": "leite uns",
+          "ref": "1:6",
+          "parts": [
+            "ا",
+            "هْدِ",
+            "نَا"
+          ],
+          "partLabels": [
+            "Imperativ-Präfix",
+            "Stamm",
+            "1.Pl-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "arabic": "الصِّرَاطَ",
+          "transliteration": "as-sirāta",
+          "meaning": "den Weg",
+          "ref": "1:6",
+          "parts": [
+            "ال",
+            "صِّرَاط",
+            "َ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Akkusativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "arabic": "الْمُسْتَقِيمَ",
+          "transliteration": "al-mustaqīma",
+          "meaning": "den geraden",
+          "ref": "1:6",
+          "parts": [
+            "ال",
+            "مُسْتَقِيم",
+            "َ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm (X-Partizip)",
+            "Akkusativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "arabic": "أَنْعَمْتَ",
+          "transliteration": "anʿamta",
+          "meaning": "du hast Gunst erwiesen",
+          "ref": "1:7",
+          "parts": [
+            "أَنْعَمْ",
+            "تَ"
+          ],
+          "partLabels": [
+            "Stamm (IV-Perfekt)",
+            "2.Sg.m-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "عَلَيْهِمْ",
+          "transliteration": "ʿalayhim",
+          "meaning": "auf ihnen",
+          "ref": "1:7",
+          "parts": [
+            "عَلَى",
+            "هِمْ"
+          ],
+          "partLabels": [
+            "Präposition",
+            "3.Pl.m-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "الْمَغْضُوبِ",
+          "transliteration": "al-maghdūbi",
+          "meaning": "der Bezornten",
+          "ref": "1:7",
+          "parts": [
+            "ال",
+            "مَغْضُوب",
+            "ِ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm (Passiv-Partizip)",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "الضَّالِّينَ",
+          "transliteration": "ad-dāllīna",
+          "meaning": "der Irrenden",
+          "ref": "1:7",
+          "parts": [
+            "ال",
+            "ضَّالّ",
+            "ِينَ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm (Partizip)",
+            "Genitiv-Plural"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "بِسْمِ",
+          "transliteration": "bismi",
+          "meaning": "im Namen",
+          "ref": "1:1",
+          "parts": [
+            "بِ",
+            "سْم",
+            "ِ"
+          ],
+          "partLabels": [
+            "Präposition",
+            "Stamm",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "لِلَّهِ",
+          "transliteration": "lillāhi",
+          "meaning": "für Gott / Gottes",
+          "ref": "1:2",
+          "parts": [
+            "لِ",
+            "لَّه",
+            "ِ"
+          ],
+          "partLabels": [
+            "Präposition",
+            "Stamm",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "إِيَّاكَ",
+          "transliteration": "iyyāka",
+          "meaning": "dir",
+          "ref": "1:5",
+          "parts": [
+            "إِيَّا",
+            "كَ"
+          ],
+          "partLabels": [
+            "Partikel (Hervorhebung)",
+            "2.Sg.m-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "الْوَسْوَاسِ",
+          "transliteration": "al-waswāsi",
+          "meaning": "des Einflüsterers",
+          "ref": "114:4",
+          "parts": [
+            "ال",
+            "وَسْوَاس",
+            "ِ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=4"
+        },
+        {
+          "arabic": "الْخَنَّاسِ",
+          "transliteration": "al-khannāsi",
+          "meaning": "des Zurückweichenden",
+          "ref": "114:4",
+          "parts": [
+            "ال",
+            "خَنَّاس",
+            "ِ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm (Intensivform)",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=4"
+        },
+        {
+          "arabic": "صُدُورِ",
+          "transliteration": "sudūri",
+          "meaning": "Brüste",
+          "ref": "114:5",
+          "parts": [
+            "صُدُور",
+            "ِ"
+          ],
+          "partLabels": [
+            "Stamm (Plural)",
+            "Genitiv"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=5"
+        },
+        {
+          "arabic": "الْكَوْثَرَ",
+          "transliteration": "al-kawthara",
+          "meaning": "die Fülle",
+          "ref": "108:1",
+          "parts": [
+            "ال",
+            "كَوْثَر",
+            "َ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm",
+            "Akkusativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+        },
+        {
+          "arabic": "أَعْطَيْنَاكَ",
+          "transliteration": "aʿtaynāka",
+          "meaning": "wir haben dir gegeben",
+          "ref": "108:1",
+          "parts": [
+            "أَعْطَيْ",
+            "نَا",
+            "كَ"
+          ],
+          "partLabels": [
+            "Stamm (IV-Perfekt)",
+            "1.Pl-Suffix",
+            "2.Sg.m-Objekt"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+        },
+        {
+          "arabic": "فَصَلِّ",
+          "transliteration": "fasalli",
+          "meaning": "so wende dich zu",
+          "ref": "108:2",
+          "parts": [
+            "فَ",
+            "صَلِّ"
+          ],
+          "partLabels": [
+            "Konjunktion",
+            "Imperativ (II)"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=2"
+        },
+        {
+          "arabic": "وَانْحَرْ",
+          "transliteration": "wanhar",
+          "meaning": "und opfere",
+          "ref": "108:2",
+          "parts": [
+            "وَ",
+            "انْحَرْ"
+          ],
+          "partLabels": [
+            "Konjunktion",
+            "Imperativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=2"
+        },
+        {
+          "arabic": "شَانِئَكَ",
+          "transliteration": "shāniʾaka",
+          "meaning": "dein Hasser",
+          "ref": "108:3",
+          "parts": [
+            "شَانِئ",
+            "َ",
+            "كَ"
+          ],
+          "partLabels": [
+            "Stamm (Partizip)",
+            "Akkusativ",
+            "2.Sg.m-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=3"
+        },
+        {
+          "arabic": "الْأَبْتَرُ",
+          "transliteration": "al-abtaru",
+          "meaning": "der Abgeschnittene",
+          "ref": "108:3",
+          "parts": [
+            "ال",
+            "أَبْتَر",
+            "ُ"
+          ],
+          "partLabels": [
+            "Artikel",
+            "Stamm (Elativ)",
+            "Nominativ"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=3"
+        },
+        {
+          "arabic": "وَتَوَاصَوْا",
+          "transliteration": "watawāsau",
+          "meaning": "und sie ermahnten einander",
+          "ref": "103:3",
+          "parts": [
+            "وَ",
+            "تَوَاصَ",
+            "وْا"
+          ],
+          "partLabels": [
+            "Konjunktion",
+            "Stamm (VI-Perfekt)",
+            "3.Pl.m-Suffix"
+          ],
+          "difficulty": 2,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": "R3",
+      "title": "Kurze Phrasen",
+      "description": "2-3 Wort-Verbindungen lesen und verstehen",
+      "exercises": [
+        {
+          "arabic": "بِسْمِ ٱللَّهِ",
+          "transliteration": "bismi llāhi",
+          "meaning": "Im Namen Gottes",
+          "ref": "1:1",
+          "words": [
+            "بِسْمِ",
+            "اللَّهِ"
+          ],
+          "wordMeanings": [
+            "im Namen",
+            "Gottes"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "transliteration": "ar-rahmāni r-rahīmi",
+          "meaning": "des Erbarmers, des Barmherzigen",
+          "ref": "1:1",
+          "words": [
+            "الرَّحْمَنِ",
+            "الرَّحِيمِ"
+          ],
+          "wordMeanings": [
+            "des Erbarmers",
+            "des Barmherzigen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "رَبِّ ٱلْعَٰلَمِينَ",
+          "transliteration": "rabbi l-ʿālamīna",
+          "meaning": "Herr der Welten",
+          "ref": "1:2",
+          "words": [
+            "رَبِّ",
+            "الْعَالَمِينَ"
+          ],
+          "wordMeanings": [
+            "Herr",
+            "der Welten"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "مَٰلِكِ يَوْمِ",
+          "transliteration": "māliki yawmi",
+          "meaning": "Herrscher des Tages",
+          "ref": "1:4",
+          "words": [
+            "مَالِكِ",
+            "يَوْمِ"
+          ],
+          "wordMeanings": [
+            "Herrscher",
+            "des Tages"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "يَوْمِ ٱلدِّينِ",
+          "transliteration": "yawmi d-dīni",
+          "meaning": "Tag des Urteils",
+          "ref": "1:4",
+          "words": [
+            "يَوْمِ",
+            "الدِّينِ"
+          ],
+          "wordMeanings": [
+            "Tag",
+            "des Urteils"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "إِيَّاكَ نَعْبُدُ",
+          "transliteration": "iyyāka naʿbudu",
+          "meaning": "Dir dienen wir",
+          "ref": "1:5",
+          "words": [
+            "إِيَّاكَ",
+            "نَعْبُدُ"
+          ],
+          "wordMeanings": [
+            "dir",
+            "wir dienen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "iyyāka nastaʾīnu",
+          "meaning": "Dich bitten wir um Hilfe",
+          "ref": "1:5",
+          "words": [
+            "إِيَّاكَ",
+            "نَسْتَعِينُ"
+          ],
+          "wordMeanings": [
+            "dich",
+            "wir bitten um Hilfe"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "transliteration": "as-sirāta l-mustaqīma",
+          "meaning": "den geraden Weg",
+          "ref": "1:6",
+          "words": [
+            "الصِّرَاطَ",
+            "الْمُسْتَقِيمَ"
+          ],
+          "wordMeanings": [
+            "den Weg",
+            "den geraden"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "arabic": "غَيْرِ ٱلْمَغْضُوبِ",
+          "transliteration": "ghayri l-maghdūbi",
+          "meaning": "nicht der Bezornten",
+          "ref": "1:7",
+          "words": [
+            "غَيْرِ",
+            "الْمَغْضُوبِ"
+          ],
+          "wordMeanings": [
+            "nicht / anders als",
+            "der Bezornten"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "وَلَا ٱلضَّآلِّينَ",
+          "transliteration": "wa lā d-dāllīna",
+          "meaning": "und nicht der Irrenden",
+          "ref": "1:7",
+          "words": [
+            "وَلَا",
+            "الضَّالِّينَ"
+          ],
+          "wordMeanings": [
+            "und nicht",
+            "der Irrenden"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "ٱللَّهُ أَحَدٌ",
+          "transliteration": "allāhu ahad",
+          "meaning": "Gott, einer",
+          "ref": "112:1",
+          "words": [
+            "اللَّهُ",
+            "أَحَدٌ"
+          ],
+          "wordMeanings": [
+            "Gott",
+            "einer"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "allāhu s-samadu",
+          "meaning": "Gott, der Beständige",
+          "ref": "112:2",
+          "words": [
+            "اللَّهُ",
+            "الصَّمَدُ"
+          ],
+          "wordMeanings": [
+            "Gott",
+            "der Beständige"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=2"
+        },
+        {
+          "arabic": "لَمْ يَلِدْ",
+          "transliteration": "lam yalid",
+          "meaning": "er hat nicht gezeugt",
+          "ref": "112:3",
+          "words": [
+            "لَمْ",
+            "يَلِدْ"
+          ],
+          "wordMeanings": [
+            "nicht (Verg.)",
+            "er zeugt"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "وَلَمْ يُولَدْ",
+          "transliteration": "walam yūlad",
+          "meaning": "und er ist nicht gezeugt worden",
+          "ref": "112:3",
+          "words": [
+            "وَلَمْ",
+            "يُولَدْ"
+          ],
+          "wordMeanings": [
+            "und nicht",
+            "er wird gezeugt"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "رَبِّ ٱلْفَلَقِ",
+          "transliteration": "rabbi l-falaqi",
+          "meaning": "Herr des Tagesanbruchs",
+          "ref": "113:1",
+          "words": [
+            "رَبِّ",
+            "الْفَلَقِ"
+          ],
+          "wordMeanings": [
+            "Herr",
+            "des Tagesanbruchs"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+        },
+        {
+          "arabic": "شَرِّ مَا خَلَقَ",
+          "transliteration": "sharri mā khalaqa",
+          "meaning": "dem Übel dessen, was er erschuf",
+          "ref": "113:2",
+          "words": [
+            "شَرِّ",
+            "مَا",
+            "خَلَقَ"
+          ],
+          "wordMeanings": [
+            "Übel",
+            "dessen was",
+            "er erschuf"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+        },
+        {
+          "arabic": "غَاسِقٍ إِذَا وَقَبَ",
+          "transliteration": "ghāsiqin idhā waqab",
+          "meaning": "eines Dunklen, wenn es eintritt",
+          "ref": "113:3",
+          "words": [
+            "غَاسِقٍ",
+            "إِذَا",
+            "وَقَبَ"
+          ],
+          "wordMeanings": [
+            "eines Dunklen",
+            "wenn",
+            "es eintritt"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=3"
+        },
+        {
+          "arabic": "رَبِّ ٱلنَّاسِ",
+          "transliteration": "rabbi n-nāsi",
+          "meaning": "Herr der Menschen",
+          "ref": "114:1",
+          "words": [
+            "رَبِّ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "Herr",
+            "der Menschen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+        },
+        {
+          "arabic": "مَلِكِ ٱلنَّاسِ",
+          "transliteration": "maliki n-nāsi",
+          "meaning": "König der Menschen",
+          "ref": "114:2",
+          "words": [
+            "مَلِكِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "König",
+            "der Menschen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=2"
+        },
+        {
+          "arabic": "إِلَٰهِ ٱلنَّاسِ",
+          "transliteration": "ilāhi n-nāsi",
+          "meaning": "Gott der Menschen",
+          "ref": "114:3",
+          "words": [
+            "إِلَهِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "Gott",
+            "der Menschen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=3"
+        },
+        {
+          "arabic": "فِى صُدُورِ ٱلنَّاسِ",
+          "transliteration": "fī sudūri n-nāsi",
+          "meaning": "in den Brüsten der Menschen",
+          "ref": "114:5",
+          "words": [
+            "فِي",
+            "صُدُورِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "in",
+            "Brüsten",
+            "der Menschen"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=5"
+        },
+        {
+          "arabic": "ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+          "transliteration": "al-insāna lafī khusr",
+          "meaning": "der Mensch ist wahrlich in Verlust",
+          "ref": "103:2",
+          "words": [
+            "الْإِنْسَانَ",
+            "لَفِي",
+            "خُسْرٍ"
+          ],
+          "wordMeanings": [
+            "der Mensch",
+            "wahrlich in",
+            "Verlust"
+          ],
+          "difficulty": 3,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "R4",
+      "title": "Kurze Verse",
+      "description": "Vollständige kurze Verse aus den letzten Suren lesen",
+      "exercises": [
+        {
+          "arabic": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+          "transliteration": "qul huwa llāhu ahad",
+          "meaning": "Sag: Er ist Gott, einer",
+          "ref": "112:1",
+          "words": [
+            "قُلْ",
+            "هُوَ",
+            "اللَّهُ",
+            "أَحَدٌ"
+          ],
+          "wordMeanings": [
+            "sag",
+            "er",
+            "Gott",
+            "einer"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+          "transliteration": "allāhu s-samadu",
+          "meaning": "Gott, der Beständige",
+          "ref": "112:2",
+          "words": [
+            "اللَّهُ",
+            "الصَّمَدُ"
+          ],
+          "wordMeanings": [
+            "Gott",
+            "der Beständige"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=2"
+        },
+        {
+          "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "transliteration": "lam yalid walam yūlad",
+          "meaning": "Er hat nicht gezeugt und ist nicht gezeugt worden",
+          "ref": "112:3",
+          "words": [
+            "لَمْ",
+            "يَلِدْ",
+            "وَلَمْ",
+            "يُولَدْ"
+          ],
+          "wordMeanings": [
+            "nicht",
+            "er zeugt",
+            "und nicht",
+            "er wird gezeugt"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+          "transliteration": "walam yakun lahu kufuwan ahad",
+          "meaning": "Und nicht ist ihm einer ebenbürtig",
+          "ref": "112:4",
+          "words": [
+            "وَلَمْ",
+            "يَكُنْ",
+            "لَهُ",
+            "كُفُوًا",
+            "أَحَدٌ"
+          ],
+          "wordMeanings": [
+            "und nicht",
+            "ist",
+            "ihm",
+            "ebenbürtig",
+            "einer"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+        },
+        {
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+          "transliteration": "qul aʾūdhu bi-rabbi l-falaqi",
+          "meaning": "Sag: Ich suche Zuflucht beim Herrn des Tagesanbruchs",
+          "ref": "113:1",
+          "words": [
+            "قُلْ",
+            "أَعُوذُ",
+            "بِرَبِّ",
+            "الْفَلَقِ"
+          ],
+          "wordMeanings": [
+            "sag",
+            "ich suche Zuflucht",
+            "beim Herrn",
+            "des Tagesanbruchs"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=1"
+        },
+        {
+          "arabic": "مِن شَرِّ مَا خَلَقَ",
+          "transliteration": "min sharri mā khalaqa",
+          "meaning": "Vor dem Übel dessen, was er erschuf",
+          "ref": "113:2",
+          "words": [
+            "مِنْ",
+            "شَرِّ",
+            "مَا",
+            "خَلَقَ"
+          ],
+          "wordMeanings": [
+            "vor",
+            "dem Übel",
+            "dessen was",
+            "er erschuf"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=2"
+        },
+        {
+          "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+          "transliteration": "wamin sharri ghāsiqin idhā waqab",
+          "meaning": "Und vor dem Übel eines Dunklen, wenn es eintritt",
+          "ref": "113:3",
+          "words": [
+            "وَمِنْ",
+            "شَرِّ",
+            "غَاسِقٍ",
+            "إِذَا",
+            "وَقَبَ"
+          ],
+          "wordMeanings": [
+            "und vor",
+            "dem Übel",
+            "eines Dunklen",
+            "wenn",
+            "es eintritt"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=3"
+        },
+        {
+          "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+          "transliteration": "wamin sharri hāsidin idhā hasad",
+          "meaning": "Und vor dem Übel eines Neiders, wenn er neidet",
+          "ref": "113:5",
+          "words": [
+            "وَمِنْ",
+            "شَرِّ",
+            "حَاسِدٍ",
+            "إِذَا",
+            "حَسَدَ"
+          ],
+          "wordMeanings": [
+            "und vor",
+            "dem Übel",
+            "eines Neiders",
+            "wenn",
+            "er neidet"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=5"
+        },
+        {
+          "arabic": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+          "transliteration": "qul aʾūdhu bi-rabbi n-nāsi",
+          "meaning": "Sag: Ich suche Zuflucht beim Herrn der Menschen",
+          "ref": "114:1",
+          "words": [
+            "قُلْ",
+            "أَعُوذُ",
+            "بِرَبِّ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "sag",
+            "ich suche Zuflucht",
+            "beim Herrn",
+            "der Menschen"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=1"
+        },
+        {
+          "arabic": "مَلِكِ ٱلنَّاسِ",
+          "transliteration": "maliki n-nāsi",
+          "meaning": "König der Menschen",
+          "ref": "114:2",
+          "words": [
+            "مَلِكِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "König",
+            "der Menschen"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=2"
+        },
+        {
+          "arabic": "إِلَٰهِ ٱلنَّاسِ",
+          "transliteration": "ilāhi n-nāsi",
+          "meaning": "Gott der Menschen",
+          "ref": "114:3",
+          "words": [
+            "إِلَهِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "Gott",
+            "der Menschen"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=3"
+        },
+        {
+          "arabic": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+          "transliteration": "innā aʿtaynāka l-kawthara",
+          "meaning": "Wir haben dir die Fülle gegeben",
+          "ref": "108:1",
+          "words": [
+            "إِنَّا",
+            "أَعْطَيْنَاكَ",
+            "الْكَوْثَرَ"
+          ],
+          "wordMeanings": [
+            "wahrlich wir",
+            "wir haben dir gegeben",
+            "die Fülle"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=1"
+        },
+        {
+          "arabic": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+          "transliteration": "fasalli li-rabbika wanhar",
+          "meaning": "So wende dich deinem Herrn zu und opfere",
+          "ref": "108:2",
+          "words": [
+            "فَصَلِّ",
+            "لِرَبِّكَ",
+            "وَانْحَرْ"
+          ],
+          "wordMeanings": [
+            "so wende dich zu",
+            "deinem Herrn",
+            "und opfere"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=2"
+        },
+        {
+          "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+          "transliteration": "inna shāniʾaka huwa l-abtaru",
+          "meaning": "Dein Hasser — er ist der Abgeschnittene",
+          "ref": "108:3",
+          "words": [
+            "إِنَّ",
+            "شَانِئَكَ",
+            "هُوَ",
+            "الْأَبْتَرُ"
+          ],
+          "wordMeanings": [
+            "wahrlich",
+            "dein Hasser",
+            "er",
+            "der Abgeschnittene"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=108&verse=3"
+        },
+        {
+          "arabic": "وَالْعَصْرِ",
+          "transliteration": "wal-ʿasri",
+          "meaning": "Bei der Zeit",
+          "ref": "103:1",
+          "words": [
+            "وَ",
+            "الْعَصْرِ"
+          ],
+          "wordMeanings": [
+            "bei",
+            "der Zeit"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        },
+        {
+          "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+          "transliteration": "inna l-insāna lafī khusr",
+          "meaning": "Der Mensch ist wahrlich in Verlust",
+          "ref": "103:2",
+          "words": [
+            "إِنَّ",
+            "الْإِنْسَانَ",
+            "لَفِي",
+            "خُسْرٍ"
+          ],
+          "wordMeanings": [
+            "wahrlich",
+            "der Mensch",
+            "wahrlich in",
+            "Verlust"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+        },
+        {
+          "arabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+          "transliteration": "tabbat yadā abī lahabin wa-tabb",
+          "meaning": "Zugrunde gehen die Hände des Vaters der Flamme, und er geht zugrunde",
+          "ref": "111:1",
+          "words": [
+            "تَبَّتْ",
+            "يَدَا",
+            "أَبِي",
+            "لَهَبٍ",
+            "وَتَبَّ"
+          ],
+          "wordMeanings": [
+            "zugrunde gehen",
+            "die beiden Hände",
+            "des Vaters",
+            "der Flamme",
+            "und er geht zugrunde"
+          ],
+          "difficulty": 4,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=1"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "id": "R5",
+      "title": "Längere Verse",
+      "description": "Mittellange Verse mit komplexerer Syntax",
+      "exercises": [
+        {
+          "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "transliteration": "bismi llāhi r-rahmāni r-rahīmi",
+          "meaning": "Im Namen Gottes, des Erbarmers, des Barmherzigen",
+          "ref": "1:1",
+          "words": [
+            "بِسْمِ",
+            "اللَّهِ",
+            "الرَّحْمَنِ",
+            "الرَّحِيمِ"
+          ],
+          "wordMeanings": [
+            "im Namen",
+            "Gottes",
+            "des Erbarmers",
+            "des Barmherzigen"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "arabic": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "transliteration": "al-hamdu lillāhi rabbi l-ʿālamīna",
+          "meaning": "Das Lob gehört Gott, dem Herrn der Welten",
+          "ref": "1:2",
+          "words": [
+            "الْحَمْدُ",
+            "لِلَّهِ",
+            "رَبِّ",
+            "الْعَالَمِينَ"
+          ],
+          "wordMeanings": [
+            "das Lob",
+            "Gott",
+            "Herr",
+            "der Welten"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "arabic": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "transliteration": "ar-rahmāni r-rahīmi",
+          "meaning": "Des Erbarmers, des Barmherzigen",
+          "ref": "1:3",
+          "words": [
+            "الرَّحْمَنِ",
+            "الرَّحِيمِ"
+          ],
+          "wordMeanings": [
+            "des Erbarmers",
+            "des Barmherzigen"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+        },
+        {
+          "arabic": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+          "transliteration": "māliki yawmi d-dīni",
+          "meaning": "Herrscher des Tages des Urteils",
+          "ref": "1:4",
+          "words": [
+            "مَالِكِ",
+            "يَوْمِ",
+            "الدِّينِ"
+          ],
+          "wordMeanings": [
+            "Herrscher",
+            "des Tages",
+            "des Urteils"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʾīnu",
+          "meaning": "Dir dienen wir und dich bitten wir um Hilfe",
+          "ref": "1:5",
+          "words": [
+            "إِيَّاكَ",
+            "نَعْبُدُ",
+            "وَإِيَّاكَ",
+            "نَسْتَعِينُ"
+          ],
+          "wordMeanings": [
+            "dir",
+            "wir dienen",
+            "und dich",
+            "wir bitten um Hilfe"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "arabic": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+          "transliteration": "ihdinā s-sirāta l-mustaqīma",
+          "meaning": "Leite uns den geraden Weg",
+          "ref": "1:6",
+          "words": [
+            "اهْدِنَا",
+            "الصِّرَاطَ",
+            "الْمُسْتَقِيمَ"
+          ],
+          "wordMeanings": [
+            "leite uns",
+            "den Weg",
+            "den geraden"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "arabic": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+          "transliteration": "sirāta lladhīna anʿamta ʿalayhim ghayri l-maghdūbi ʿalayhim wa lā d-dāllīna",
+          "meaning": "Den Weg derer, denen du Gunst erwiesen hast, nicht derer, auf die Zorn fiel, und nicht der Irrenden",
+          "ref": "1:7",
+          "words": [
+            "صِرَاطَ",
+            "الَّذِينَ",
+            "أَنْعَمْتَ",
+            "عَلَيْهِمْ",
+            "غَيْرِ",
+            "الْمَغْضُوبِ",
+            "عَلَيْهِمْ",
+            "وَلَا",
+            "الضَّالِّينَ"
+          ],
+          "wordMeanings": [
+            "den Weg",
+            "derer die",
+            "du Gunst erwiesen hast",
+            "auf ihnen",
+            "nicht",
+            "der Bezornten",
+            "auf ihnen",
+            "und nicht",
+            "der Irrenden"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "arabic": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+          "transliteration": "min sharri l-waswāsi l-khannāsi",
+          "meaning": "Vor dem Übel des zurückweichenden Einflüsterers",
+          "ref": "114:4",
+          "words": [
+            "مِنْ",
+            "شَرِّ",
+            "الْوَسْوَاسِ",
+            "الْخَنَّاسِ"
+          ],
+          "wordMeanings": [
+            "vor",
+            "dem Übel",
+            "des Einflüsterers",
+            "des Zurückweichenden"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=4"
+        },
+        {
+          "arabic": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+          "transliteration": "alladhī yuwaswisu fī sudūri n-nāsi",
+          "meaning": "Der einfleustert in die Brüste der Menschen",
+          "ref": "114:5",
+          "words": [
+            "الَّذِي",
+            "يُوَسْوِسُ",
+            "فِي",
+            "صُدُورِ",
+            "النَّاسِ"
+          ],
+          "wordMeanings": [
+            "der",
+            "er fleustert ein",
+            "in",
+            "Brüste",
+            "der Menschen"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=5"
+        },
+        {
+          "arabic": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+          "transliteration": "mina l-jinnati wa n-nāsi",
+          "meaning": "Von den Dschinn und den Menschen",
+          "ref": "114:6",
+          "words": [
+            "مِنَ",
+            "الْجِنَّةِ",
+            "وَالنَّاسِ"
+          ],
+          "wordMeanings": [
+            "von",
+            "den Dschinn",
+            "und den Menschen"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=114&verse=6"
+        },
+        {
+          "arabic": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+          "transliteration": "wamin sharri n-naffāthāti fī l-ʿuqadi",
+          "meaning": "Und vor dem Übel der Bläsenden in die Knoten",
+          "ref": "113:4",
+          "words": [
+            "وَمِنْ",
+            "شَرِّ",
+            "النَّفَّاثَاتِ",
+            "فِي",
+            "الْعُقَدِ"
+          ],
+          "wordMeanings": [
+            "und vor",
+            "dem Übel",
+            "der Bläsenden",
+            "in",
+            "die Knoten"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=113&verse=4"
+        },
+        {
+          "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا بِٱلْحَقِّ وَتَوَاصَوْا بِٱلصَّبْرِ",
+          "transliteration": "illa lladhīna āmanū wa ʿamilu s-sālihāti watawāsau bi-l-haqqi watawāsau bi-s-sabri",
+          "meaning": "Außer denen, die glaubten und Rechtschaffenes taten und einander zur Wahrheit ermahnten und einander zur Geduld ermahnten",
+          "ref": "103:3",
+          "words": [
+            "إِلَّا",
+            "الَّذِينَ",
+            "آمَنُوا",
+            "وَعَمِلُوا",
+            "الصَّالِحَاتِ",
+            "وَتَوَاصَوْا",
+            "بِالْحَقِّ",
+            "وَتَوَاصَوْا",
+            "بِالصَّبْرِ"
+          ],
+          "wordMeanings": [
+            "außer",
+            "denen die",
+            "glaubten",
+            "und taten",
+            "das Rechtschaffene",
+            "und ermahnten einander",
+            "zur Wahrheit",
+            "und ermahnten einander",
+            "zur Geduld"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        },
+        {
+          "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+          "transliteration": "mā aghnā ʿanhu māluhu wamā kasab",
+          "meaning": "Nicht hat ihm genützt sein Besitz und nicht was er erwarb",
+          "ref": "111:2",
+          "words": [
+            "مَا",
+            "أَغْنَى",
+            "عَنْهُ",
+            "مَالُهُ",
+            "وَمَا",
+            "كَسَبَ"
+          ],
+          "wordMeanings": [
+            "nicht",
+            "genützt",
+            "ihm",
+            "sein Besitz",
+            "und nicht",
+            "was er erwarb"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=2"
+        },
+        {
+          "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+          "transliteration": "sayaslā nāran dhāta lahab",
+          "meaning": "Er wird einem Feuer mit Flammen ausgesetzt",
+          "ref": "111:3",
+          "words": [
+            "سَيَصْلَى",
+            "نَارًا",
+            "ذَاتَ",
+            "لَهَبٍ"
+          ],
+          "wordMeanings": [
+            "er wird ausgesetzt werden",
+            "einem Feuer",
+            "mit",
+            "Flammen"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=3"
+        },
+        {
+          "arabic": "وَٱمْرَأَتُهُ حَمَّالَةَ ٱلْحَطَبِ",
+          "transliteration": "wamraʾatuhu hammālata l-hatabi",
+          "meaning": "Und seine Frau, Trägerin des Brennholzes",
+          "ref": "111:4",
+          "words": [
+            "وَامْرَأَتُهُ",
+            "حَمَّالَةَ",
+            "الْحَطَبِ"
+          ],
+          "wordMeanings": [
+            "und seine Frau",
+            "Trägerin",
+            "des Brennholzes"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=4"
+        },
+        {
+          "arabic": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+          "transliteration": "fī jīdihā hablun min masad",
+          "meaning": "An ihrem Hals ein Strick aus Palmfasern",
+          "ref": "111:5",
+          "words": [
+            "فِي",
+            "جِيدِهَا",
+            "حَبْلٌ",
+            "مِنْ",
+            "مَسَدٍ"
+          ],
+          "wordMeanings": [
+            "an",
+            "ihrem Hals",
+            "ein Strick",
+            "aus",
+            "Palmfasern"
+          ],
+          "difficulty": 5,
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=5"
+        }
+      ],
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    }
+  ]
+}

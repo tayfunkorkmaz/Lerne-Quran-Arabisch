@@ -1,0 +1,52 @@
+{
+  "name": "quran-arabisch-sprachkurs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sprachwissenschaftlicher Sprachkurs für quranisches Arabisch — Morphologie, Syntax, Semantik und Rhetorik auf Basis arabischer Lexikographie und klassischer Grammatik.",
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "quran",
+    "arabic",
+    "linguistics",
+    "morphology",
+    "syntax",
+    "lexicography",
+    "education",
+    "offline"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:all": "vitest run && playwright test",
+    "validate:data": "node scripts/validate-vocalizations.cjs && node scripts/cross-validate-quran-refs.cjs && node scripts/validate-passive-ambiguities.cjs && node scripts/validate-json-structure.cjs && node scripts/audit-verify-urls.cjs"
+  },
+  "dependencies": {
+    "localforage": "^1.10.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@playwright/test": "^1.58.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^6.0.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "jsdom": "^29.0.1",
+    "vite": "^8.0.0",
+    "vitest": "^4.1.1"
+  }
+}

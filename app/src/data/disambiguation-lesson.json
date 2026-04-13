@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "title": "Disambiguation-Methodik",
+    "description": "Systematische Methode zur Entscheidung zwischen multiplen grammatisch möglichen Lesungen des Konsonantentextes. Rein sprachwissenschaftlich: Welche Lesungen lässt der Konsonantentext zu, und wie grenzt man sie ein?",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Arabic-English Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "stages": [
+    {
+      "id": "disam",
+      "title": "Disambiguation des Konsonantentextes",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Einführung: Warum Disambiguation?",
+            "content": "Der quranische Konsonantentext (Rasm) ist untervokalisiert. Viele Konsonantenfolgen lassen sich auf mehrere Weisen vokalisieren, und jede Vokalisierung ergibt eine andere grammatische Form mit anderer Bedeutung. Disambiguation ist die systematische Methode, mit der man entscheidet, welche Lesungen möglich sind und welche durch sprachliche Evidenz eingeschränkt werden. Die fünf Strategien — morphologisch, syntaktisch, semantisch, kollokational und durch Parallelstellenvergleich — werden hier vorgestellt. Wichtig: Manchmal bleiben nach Anwendung aller Strategien mehrere Lesungen gleichberechtigt bestehen. Das ist kein Defizit, sondern eine Eigenschaft des Textes."
+          },
+          {
+            "type": "explanation",
+            "title": "Strategie 1: Morphologische Einschränkung",
+            "content": "Erste Frage: Welche Vokalisierungen sind morphologisch überhaupt möglich? Der Konsonantenbestand schränkt die Formen ein. Man prüft: (a) Welche Verbformen (I–X) können diese Konsonanten bilden? (b) Welche Nominalbildungen sind möglich? (c) Sind Partizipien, Masdare oder andere Derivationen denkbar? Nicht jede theoretische Vokalisierung ergibt eine tatsächlich existierende arabische Form. Diese Strategie eliminiert phonotaktisch und morphologisch unmögliche Lesungen."
+          },
+          {
+            "type": "example",
+            "title": "Beispiele: Morphologische Einschränkung",
+            "examples": [
+              {
+                "location": "1:4",
+                "consonantal": "ملك",
+                "analysis": "Die Konsonanten م-ل-ك erlauben: (1) مَلِكِ (malik — König, Muster faʿil als Nomen), (2) مَالِكِ (mālik — Besitzer, aktives Partizip fāʿil), (3) مَلْكِ (malk — Herrschaft, Masdar). Alle drei sind morphologisch existierende Muster der Wurzel م-ل-ك. Eine Form wie *mulk-i wäre hier zwar morphologisch möglich (vgl. 3:26), aber die Genitivposition verlangt ein Nomen/Partizip, das يَوْمِ regiert — mulk in Iḍāfa mit yawm wäre 'Herrschaft des Tages', nicht 'des Tages der Herrschaft'. Alle drei Lesungen bleiben morphologisch zulässig.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+              },
+              {
+                "location": "3:7",
+                "consonantal": "يعلم",
+                "analysis": "Die Konsonanten ي-ع-ل-م ergeben: (1) يَعْلَمُ (ya'lamu — er weiß, Form I Imperfekt), (2) يُعَلِّمُ (yuʿallimu — er lehrt, Form II Imperfekt), (3) يُعْلِمُ (yu'limu — er informiert, Form IV Imperfekt). Form II und IV erfordern allerdings ein direktes Objekt, das im unmittelbaren Kontext vorhanden sein müsste. Im Kontext von 3:7 (وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّهُ) ist يَعْلَمُ (Form I: wissen) morphologisch und syntaktisch die naheliegendste Lesung, da تَأْوِيلَهُ als Objekt von 'wissen' fungiert.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+              },
+              {
+                "location": "2:37",
+                "consonantal": "فتلقى ادم من ربه كلمات",
+                "analysis": "Kernfrage: Wer ist Subjekt, wer Objekt? Die Konsonanten erlauben: (1) فَتَلَقَّى آدَمُ مِنْ رَبِّهِ كَلِمَاتٍ — Adam empfing Worte von seinem Herrn (Adam = Subjekt, Nominativ; kalimāt = Objekt, Akkusativ/Genitiv-Form). (2) فَتَلَقَّى آدَمَ مِنْ رَبِّهِ كَلِمَاتٌ — Worte empfingen Adam von seinem Herrn (kalimāt = Subjekt, Nominativ; Adam = Objekt, Akkusativ als Diptote). Morphologisch sind beide Lesungen zulässig, da Ādamu als Diptote sowohl auf -u (Nominativ) als auch auf -a (Akkusativ/Genitiv) enden kann.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Strategie 2: Syntaktischer Kontext",
+            "content": "Zweite Frage: Welche syntaktische Position nimmt das Wort im Satz ein? Der syntaktische Kontext schränkt die möglichen Lesungen ein: (a) Steht das Wort in Subjektposition? Dann muss es Nominativ sein. (b) Ist es Objekt eines Verbs? Dann Akkusativ. (c) Folgt es einer Präposition? Dann Genitiv. (d) Ist es Teil einer Iḍāfa-Kette? Dann bestimmt die Position den Kasus. (e) Welche Rektion übt ein vorhergehendes Verb oder Partikel aus? Diese Strategie prüft die grammatische Umgebung: Was steht davor, was danach, und welche Kasusrektion ergibt sich?"
+          },
+          {
+            "type": "example",
+            "title": "Beispiele: Syntaktischer Kontext",
+            "examples": [
+              {
+                "location": "2:143",
+                "consonantal": "وسطا",
+                "analysis": "Die Konsonanten و-س-ط-ا könnten theoretisch wasaṭan (Mitte, Akkusativ — prädikatives Objekt) oder wusṭā (mittlere, feminin Superlativ) ergeben. Der syntaktische Kontext: جَعَلْنَاكُمْ أُمَّةً وَسَطًا — 'Wir machten euch zu einer Gemeinschaft...' Das Verb jaʿala mit doppeltem Akkusativ (mafʿūl bihī + ḥāl/ṣifa) verlangt hier ein Akkusativ-Attribut zu umma. Die Form وَسَطًا (wasaṭan, Akkusativ indefinit) ist syntaktisch gefordert.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+              },
+              {
+                "location": "4:164",
+                "consonantal": "وكلم الله موسى تكليما",
+                "analysis": "Kernambiguität: Ist اللَّه Subjekt oder Objekt? (1) وَكَلَّمَ اللَّهُ مُوسَى — Gott sprach zu Mose (Allāhu = Nominativ/Subjekt). (2) وَكَلَّمَ اللَّهَ مُوسَى — Mose sprach zu Gott (Allāha = Akkusativ/Objekt, Mūsā = Subjekt). Syntaktisch: Das Masdar تَكْلِيمًا (taklīman) bestätigt Form II (kallama), die transitiv ist. Beide Konstruktionen sind syntaktisch möglich. Die Wortstellung V-S-O ist normales Arabisch, aber auch V-O-S ist zulässig. Hier bleibt die syntaktische Analyse allein nicht entscheidend.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+              },
+              {
+                "location": "18:17",
+                "consonantal": "تزاور",
+                "analysis": "Die Konsonanten ت-ز-ا-و-ر könnten sein: (1) تَزَاوَرُ (tazāwaru — sie weicht ab, Form VI), (2) تَزْوَرُّ (tazvwarru — sie wendet sich weg, Form IX). Syntaktisch: Das Subjekt ist الشَّمْس (die Sonne, feminin Singular). Das Verb muss daher 3. Person feminin Singular sein. Beide Formen erfüllen das. Der syntaktische Kontext allein entscheidet hier nicht — aber er bestätigt, dass beide Formen grammatisch korrekt eingebunden sind.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=17"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Strategie 3: Semantische Kohärenz",
+            "content": "Dritte Frage: Welche Lesung ergibt im Kontext Sinn? Nach morphologischer und syntaktischer Einschränkung bleiben manchmal mehrere Lesungen übrig. Dann prüft man: (a) Passt die Bedeutung zum Thema des umgebenden Textes? (b) Ist die Lesung mit den anderen Wörtern des Satzes semantisch vereinbar? (c) Entstehen bei einer Lesung Widersprüche zum unmittelbaren Kontext? Wichtig: Semantische Kohärenz ist kein Ausschlussverfahren, sondern ein Plausibilitätsurteil. Verschiedene Lesungen können verschiedene, jeweils kohärente Bedeutungen ergeben."
+          },
+          {
+            "type": "example",
+            "title": "Beispiele: Semantische Kohärenz",
+            "examples": [
+              {
+                "location": "96:1",
+                "consonantal": "اقرا",
+                "analysis": "Die Konsonanten erlauben: (1) اقْرَأْ (iqra' — lies/rezitiere!, Imperativ von qa-ra-'a), (2) theoretisch auch andere Vokalisierungen der Wurzel q-r-'. Semantische Kohärenz: Der folgende Kontext بِاسْمِ رَبِّكَ الَّذِي خَلَقَ (im Namen deines Herrn, der erschuf) etabliert eine Situation der Aufforderung. Ein Imperativ passt semantisch zum Kontext einer Anweisung. Die Bedeutung 'rezitiere/trage vor' ist kohärenter als alternative Lesungen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+              },
+              {
+                "location": "112:4",
+                "consonantal": "كفوا",
+                "analysis": "Die Konsonanten ك-ف-و-ا könnten sein: (1) كُفُوًا (kufuwan — ebenbürtig, Akkusativ), (2) كُفْئًا (kuf'an — gleichwertig). Semantisch: Im Kontext وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ (und es war ihm keiner ebenbürtig) geht es um Unvergleichbarkeit. Beide Lesungen ergeben semantisch dasselbe: 'keiner ist ihm gleichwertig'. Die semantische Kohärenz lässt hier beide Lesungen zu, da sie bedeutungsgleich sind.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+              },
+              {
+                "location": "74:6",
+                "consonantal": "تستكثر",
+                "analysis": "Die Konsonanten ت-س-ت-ك-ث-ر könnten verschiedene Bedeutungsnuancen tragen: (1) تَسْتَكْثِرُ (tastakṯiru — du vermehrst / du hältst für viel, Form X). Im Kontext وَلَا تَمْنُنْ تَسْتَكْثِرُ — 'und gib nicht, um (dabei) Vermehrung zu erzielen' oder 'gib nicht, indem du (es) für viel hältst'. Beide semantischen Nuancen sind kohärent mit dem Kontext der Großzügigkeit. Die Form X kann sowohl 'für viel halten' (schätzend) als auch 'Vermehrung suchen' (fordernd) bedeuten.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=6"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Strategie 4: Kollokationale Evidenz",
+            "content": "Vierte Frage: Welche Wörter treten typischerweise zusammen auf? Wörter bilden Muster: Bestimmte Verben stehen mit bestimmten Präpositionen, bestimmte Nomen in bestimmten Iḍāfa-Konstruktionen. Man prüft: (a) Welche Präposition folgt typischerweise auf dieses Verb? (b) Gibt es feste Wortverbindungen im Quran? (c) Welche Wurzeln treten im gleichen semantischen Kontext auf? Kollokationale Evidenz stützt eine Lesung, wenn die resultierende Wortverbindung ein im Text belegtes Muster zeigt."
+          },
+          {
+            "type": "example",
+            "title": "Beispiele: Kollokationale Evidenz",
+            "examples": [
+              {
+                "location": "2:256",
+                "consonantal": "رشد",
+                "analysis": "Die Konsonanten ر-ش-د könnten als (1) رُشْد (rušd — rechte Leitung, Masdar) oder (2) رَشَد (rašad — rechter Weg, Masdar) vokalisiert werden. Kollokationale Evidenz: Im Quran steht تَبَيَّنَ (deutlich werden) häufig mit abstrakten Masdaren. Die Kollokation تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ zeigt ein Gegensatzpaar: rušd (rechte Leitung) vs. ghayy (Verirrung). Die Kollokation rušd/ghayy als Gegensatzpaar ist ein festes Muster (vgl. 72:2, 72:14).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+              },
+              {
+                "location": "67:22",
+                "consonantal": "يمشي سويا على",
+                "analysis": "Im Kontext: أَفَمَنْ يَمْشِي مُكِبًّا عَلَى وَجْهِهِ أَهْدَى أَمْ مَنْ يَمْشِي سَوِيًّا عَلَى صِرَاطٍ مُسْتَقِيمٍ. Die Kollokation يَمْشِي + عَلَى صِرَاطٍ (auf einem Weg gehen) ist ein festes quranisches Muster. سَوِيًّا (aufrecht, gerade) als Hal-Akkusativ ist kollokational vereinbar mit dem Gehen auf einem geraden Weg. Die Kollokation stützt die Lesung sawiyyan (aufrecht) gegenüber anderen theoretischen Vokalisierungen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=22"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Strategie 5: Parallelstellenvergleich",
+            "content": "Fünfte Frage: Wie wird dasselbe Wort oder dieselbe Wurzel an anderen Stellen im Quran verwendet? Der Quran ist sein eigener Kontext. Man prüft: (a) Wo kommt dieselbe Konsonantenfolge noch vor, und wie ist sie dort eindeutig? (b) Gibt es Parallelverse, die denselben Inhalt mit anderem Wortlaut ausdrücken? (c) Welches Bedeutungsspektrum zeigt die Wurzel im gesamten Quran? Diese Strategie nutzt den Quran als geschlossenes Korpus: Wenn eine Form an einer Stelle eindeutig ist, kann das die Lesung an einer mehrdeutigen Stelle stützen."
+          },
+          {
+            "type": "example",
+            "title": "Beispiele: Parallelstellenvergleich",
+            "examples": [
+              {
+                "location": "3:7",
+                "consonantal": "والراسخون في العلم",
+                "analysis": "Die berühmte Ambiguität: Gehört وَالرَّاسِخُونَ فِي الْعِلْمِ zum vorherigen Satz (= auch sie wissen die Deutung) oder beginnt mit ihnen ein neuer Satz (= sie sagen: wir glauben daran)? Parallelstellenvergleich: In 4:162 steht وَالرَّاسِخُونَ فِي الْعِلْمِ eindeutig als Subjekt in einer Aufzählung von Glaubenden. Das stützt die Lesung als eigenständiges Subjekt. Gleichzeitig zeigt 2:197 وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ, dass Wissen im Quran nicht auf Gott beschränkt sein muss. Beide Lesungen bleiben möglich.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+              },
+              {
+                "location": "2:37",
+                "consonantal": "فتلقى",
+                "analysis": "Wer empfängt? Vergleich mit anderen Stellen der Wurzel ل-ق-ي / تلقّى im Quran: In 27:6 (وَإِنَّكَ لَتُلَقَّى الْقُرْآنَ) ist das Subjekt der Empfänger (du empfängst den Quran). In 28:86 (وَمَا كُنْتَ تَرْجُو أَنْ يُلْقَى إِلَيْكَ الْكِتَابُ) ist das Buch das Geworfene. Die Parallelstellen zeigen: talaqqā wird im Quran typischerweise so verwendet, dass eine Person etwas empfängt (nicht: etwas erreicht eine Person). Das stützt die Lesung 'Adam empfing Worte'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+              },
+              {
+                "location": "17:110",
+                "consonantal": "ولا تجهر بصلاتك ولا تخافت بها وابتغ بين ذلك سبيلا",
+                "analysis": "Die Konsonanten ب-ص-ل-ا-ت-ك: ist بِصَلَاتِكَ hier 'mit deiner Zuwendung' oder 'mit deiner Stimme/Lesung'? Parallelstellenvergleich: ṣalāt wird im Quran an über 60 Stellen verwendet und kann sowohl 'Zuwendung' (konventionell 'Gebet') als auch 'Kommunikation/Verbindung' bedeuten. Die Verben جَهَرَ (laut sein) und خَافَتَ (leise sein) kollidieren jedoch semantisch mit 'Zuwendung' als Ganzes und passen besser zu 'Stimme/Rezitation bei der Zuwendung'. Die Parallelstelle 17:78 (أَقِمِ الصَّلَاةَ) zeigt ṣalāt als Handlung, während hier das 'Laut/Leise-Sein' einer hörbaren Komponente thematisiert wird.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=110"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Zusammenspiel der fünf Strategien",
+            "content": "Die fünf Strategien sind keine isolierten Schritte, sondern ein Filter-System: 1. Morphologische Einschränkung eliminiert Formen, die es im Arabischen nicht gibt. 2. Syntaktischer Kontext eliminiert Formen, die grammatisch nicht in den Satz passen. 3. Semantische Kohärenz bewertet die verbleibenden Lesungen nach Plausibilität im Kontext. 4. Kollokationale Evidenz stützt Lesungen durch belegte Wortverbindungen. 5. Parallelstellenvergleich nutzt den Gesamttext als Evidenzbasis. Manchmal reicht eine einzige Strategie, um alle Lesungen bis auf eine zu eliminieren. Manchmal bleiben nach allen fünf Strategien mehrere Lesungen übrig — das ist dann eine echte, nicht auflösbare Ambiguität des Konsonantentextes."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-01",
+          "prompt": "Analysiere das Wort يُضِلُّ in 2:26. Die Konsonanten ي-ض-ل-ل könnten als يُضِلُّ (yuḍillu — er führt in die Irre, Form IV) oder يَضِلُّ (yaḍillu — er geht in die Irre, Form I) gelesen werden. Wende die Disambiguationsstrategien an.",
+          "location": "2:26",
+          "consonantal": "يضلل",
+          "options": [
+            {
+              "vocalized": "يُضِلُّ",
+              "form": "Form IV (af'ala) Imperfekt",
+              "meaning": "er führt in die Irre (transitiv)"
+            },
+            {
+              "vocalized": "يَضِلُّ",
+              "form": "Form I (faʿila) Imperfekt",
+              "meaning": "er geht in die Irre (intransitiv)"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Beide Formen existieren im Arabischen. Form IV yuḍillu ist transitiv (jemanden in die Irre führen), Form I yaḍillu ist intransitiv (selbst in die Irre gehen). Beide sind morphologisch zulässig.",
+            "syntaktisch": "Der Kontext: يُضِلُّ بِهِ كَثِيرًا وَيَهْدِي بِهِ كَثِيرًا. Das Objekt كَثِيرًا (viele) und die Präposition بِهِ (damit) sprechen für ein transitives Verb mit zwei Ergänzungen. Form I wäre intransitiv und brauchte kein Akkusativ-Objekt — kaṯīran müsste dann adverbial gelesen werden ('er irrt viel'). Form IV mit Akkusativ-Objekt ist syntaktisch naheliegender.",
+            "semantisch": "Der Kontext stellt يُضِلُّ und يَهْدِي (er leitet recht) als Gegensatzpaar dar. يَهْدِي ist Form I, aber transitiv — das Gegensatzpaar funktioniert besser, wenn beide Verben dieselbe Transitivität haben: 'er führt in die Irre' vs. 'er leitet recht'.",
+            "kollokational": "Die Kollokation أَضَلَّ + بِ (in die Irre führen durch/mit) ist im Quran belegt (z.B. 7:16, 14:36). Die Kollokation ضَلَّ + بِ (irren durch) ist unüblich.",
+            "parallelstellen": "In 14:4 steht يُضِلُّ اللَّهُ مَنْ يَشَاءُ (Gott führt in die Irre, wen er will) — eindeutig Form IV mit Akkusativ-Objekt. In 2:26 ist die Struktur parallel."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-02",
+          "prompt": "In 1:4 steht die Konsonantenfolge ملك (m-l-k). Drei Lesungen sind möglich: مَالِكِ (mālik — Besitzer), مَلِكِ (malik — König), مَلْكِ (malk — Herrschaft). Welche Strategien helfen bei der Einschränkung?",
+          "location": "1:4",
+          "consonantal": "ملك",
+          "options": [
+            {
+              "vocalized": "مَالِكِ",
+              "form": "aktives Partizip faʿil",
+              "meaning": "Besitzer (des Tages des Gerichts)"
+            },
+            {
+              "vocalized": "مَلِكِ",
+              "form": "Nomen (faʿil-Muster als Titel)",
+              "meaning": "König (des Tages des Gerichts)"
+            },
+            {
+              "vocalized": "مَلْكِ",
+              "form": "Masdar (fa'l)",
+              "meaning": "Herrschaft (des Tages des Gerichts)"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Alle drei Formen sind morphologisch existierende Ableitungen der Wurzel م-ل-ك. Keine kann morphologisch ausgeschlossen werden.",
+            "syntaktisch": "Alle drei stehen in Genitivposition (nach يَوْمِ in einer Iḍāfa-Kette oder als Attribut zu einem vorhergehenden Wort). Die syntaktische Position schränkt hier nicht ein — alle drei Formen können Genitiv tragen.",
+            "semantisch": "مَالِكِ (Besitzer) betont Eigentumsrecht. مَلِكِ (König) betont Herrscherwürde. مَلْكِ (Herrschaft) betont die abstrakte Souveränität. Alle drei sind semantisch kohärent mit dem Kontext 'Tag des Gerichts'. Es gibt keinen semantischen Grund, eine Lesung auszuschließen.",
+            "kollokational": "Die Kollokation مَلِك + يَوْم ist unüblich (Könige herrschen über Länder, nicht über Tage). Die Kollokation مَالِك + يَوْم (Besitzer eines Tages) ist ebenfalls ungewöhnlich. Keine Kollokation gibt hier einen klaren Vorzug.",
+            "parallelstellen": "In 3:26 steht مَالِكَ الْمُلْكِ (Besitzer der Herrschaft) — dort ist mālik eindeutig. In 54:55 steht عِنْدَ مَلِيكٍ (bei einem Herrscher) — dort ist die Herrscherbedeutung eindeutig. Beide Konzepte sind im Quran belegt. Dies ist ein Fall genuiner, nicht aufzulösender Ambiguität des Konsonantentextes."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-03",
+          "prompt": "Analysiere 2:219: يَسْأَلُونَكَ عَنِ الْخَمْرِ وَالْمَيْسِرِ قُلْ فِيهِمَا إِثْمٌ كَبِيرٌ — die Konsonanten ك-ب-ي-ر könnten als كَبِير (kabīr — groß) oder كَثِير (kaṯīr — viel) gelesen werden, da im frühen Rasm ب und ث nicht unterschieden wurden. Wende die Strategien an.",
+          "location": "2:219",
+          "consonantal": "كبير / كثير (diakritische Ambiguität)",
+          "options": [
+            {
+              "vocalized": "كَبِيرٌ",
+              "form": "Adjektiv (faʿil-Muster)",
+              "meaning": "groß, schwerwiegend"
+            },
+            {
+              "vocalized": "كَثِيرٌ",
+              "form": "Adjektiv (faʿil-Muster)",
+              "meaning": "viel, zahlreich"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Beide Formen sind reguläre Adjektive im Muster faʿīl. Morphologisch sind beide zulässig.",
+            "syntaktisch": "Beide stehen als Attribut (ṣifa) zu إِثْمٌ (Verfehlung/Schaden) im Nominativ. Syntaktisch sind beide gleich eingebunden.",
+            "semantisch": "كَبِيرٌ (groß) qualifiziert die Schwere der Verfehlung — 'eine große Verfehlung'. كَثِيرٌ (viel) qualifiziert die Menge — 'viel Verfehlung'. Beide sind semantisch kohärent. Der Kontext spricht von Schaden UND Nutzen (إِثْمٌ ... وَمَنَافِعُ لِلنَّاسِ), was eher einen quantitativen Vergleich nahelegt ('viel Verfehlung und Nutzen für die Menschen').",
+            "kollokational": "Die Verbindung إِثْمٌ كَبِيرٌ (große Verfehlung) ist im Arabischen eine gängige Kollokation (vgl. 4:2, 42:37). إِثْمٌ كَثِيرٌ (viel Verfehlung) ist weniger konventionell, aber nicht unmöglich.",
+            "parallelstellen": "In 4:2 steht إِنَّهُ كَانَ حُوبًا كَبِيرًا (es ist eine große Verfehlung). Das Muster 'Verfehlung + kabīr' ist im Quran belegt. Dies ist ein Fall von diakritischer Ambiguität (I'jam), nicht nur von Vokalisierungsambiguität."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=219"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-04",
+          "prompt": "In 21:30 steht أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَاهُمَا. Die Konsonanten ف-ت-ق können als فَتَقَ (fataqa — aufbrechen, spalten, trennen) gelesen werden. Ist das Masdar فَتْق (fatq — Spaltung) oder das Verb فَتَقَ in einer bestimmten Form? Analysiere فَفَتَقْنَاهُمَا.",
+          "location": "21:30",
+          "consonantal": "ففتقناهما",
+          "options": [
+            {
+              "vocalized": "فَفَتَقْنَاهُمَا",
+              "form": "Form I Perfekt, 1. Person Plural + Dual-Pronomen",
+              "meaning": "so trennten/spalteten wir sie beide"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Die Konsonantenfolge ف-ف-ت-ق-ن-ا-ه-م-ا lässt sich nur als فَفَتَقْنَاهُمَا analysieren: fa- (Konjunktion) + fataq- (Wurzel f-t-q, Form I) + -nā (1. Pl.) + -humā (Dual-Pronomen). Eine Form-II-Lesung *fa-fattaqnāhumā würde ein doppeltes ت erfordern, das im Konsonantentext nicht vorliegt. Die morphologische Analyse ist hier eindeutig.",
+            "syntaktisch": "Das Subjekt ist implizit 'wir' (= der Sprecher), das Objekt ist -humā (die beiden = Himmel und Erde). Die syntaktische Analyse bestätigt die Morphologie.",
+            "semantisch": "Das Gegensatzpaar رَتْق (zusammengefügt, verschlossen) und فَتْق (getrennt, geöffnet) ist semantisch kohärent: Was zusammen war, wurde getrennt.",
+            "kollokational": "Das Antonym-Paar ratq/fatq (verschließen/öffnen) ist ein etabliertes arabisches Gegensatzpaar.",
+            "parallelstellen": "Die Wurzel f-t-q kommt im Quran nur hier vor. Aber r-t-q (21:30) und f-t-q stehen in klarer Antonymie, die auch lexikalisch belegt ist."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=30"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-05",
+          "prompt": "Analysiere die Ambiguität in 56:29 — die Konsonanten م-خ-ض-و-د könnten als مَخْضُود (maḫḍūd) gelesen werden. Von welcher Wurzel stammt die Form? Ist es ein passives Partizip, und wenn ja, welche Bedeutung ergibt sich?",
+          "location": "56:29",
+          "consonantal": "مخضود",
+          "options": [
+            {
+              "vocalized": "مَخْضُودٌ",
+              "form": "passives Partizip (mafʿūl) von خَضَدَ",
+              "meaning": "abgeschnitten (Dornen), dornenfrei"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Das Muster مَفْعُول (mafʿūl) ist das Standard-Partizip-Passiv von Form I. Die Wurzel muss خ-ض-د (ḫ-ḍ-d) sein: خَضَدَ bedeutet 'abbrechen, abschneiden (Dornen/Zweige)'. Morphologisch ist dies eindeutig ein passives Partizip: 'dessen Dornen abgeschnitten sind'.",
+            "syntaktisch": "مَخْضُودٌ steht als Attribut (ṣifa) zu سِدْرٍ (Lotusbaum) im vorherigen Vers 56:28. Es ist Nominativ als prädikatives Attribut in der Aufzählung.",
+            "semantisch": "Der Kontext beschreibt Bäume im Garten. 'Lotusbaum mit abgeschnittenen Dornen' (= dornenfreier Lotusbaum) ist semantisch kohärent: Ein Gartenbaum ohne Dornen.",
+            "kollokational": "خَضَدَ wird im klassischen Arabisch speziell für das Entfernen von Dornen verwendet. Die Kollokation sidr + maḫḍūd (Lotusbaum + dornenfrei) ist ein präzises Bild.",
+            "parallelstellen": "سِدْر kommt auch in 34:16 und 53:14-16 vor. An keiner anderen Stelle steht maḫḍūd. Dies ist die einzige Quranbelegstelle für diese Wurzel — die Disambiguation stützt sich daher vor allem auf morphologische und semantische Evidenz."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=29"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-06",
+          "prompt": "In 2:9 steht يُخَادِعُونَ اللَّهَ. Die Konsonanten ي-خ-د-ع-و-ن könnten als يُخَادِعُونَ (yuḫādiʿūna — sie versuchen zu täuschen, Form III) oder يَخْدَعُونَ (yaḫdaʿūna — sie täuschen, Form I) gelesen werden. Wende die Strategien an, um die Lesungen zu bewerten.",
+          "location": "2:9",
+          "consonantal": "يخدعون / يخادعون",
+          "options": [
+            {
+              "vocalized": "يُخَادِعُونَ",
+              "form": "Form III (fāʿala) Imperfekt",
+              "meaning": "sie versuchen zu täuschen (konativ), sie täuschungskampfen"
+            },
+            {
+              "vocalized": "يَخْدَعُونَ",
+              "form": "Form I (faʿala) Imperfekt",
+              "meaning": "sie täuschen (einfach transitiv)"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Beide Formen sind morphologisch möglich. Form III يُخَادِعُونَ impliziert wechselseitige Handlung oder Versuch (konative Bedeutung: sie versuchen zu täuschen). Form I يَخْدَعُونَ bedeutet einfach 'sie täuschen'. Die Konsonantenfolge lässt beide zu, da das Alif in der Form III im Konsonantentext als Alif geschrieben wird und möglicherweise nicht in allen frühen Manuskripten einheitlich erscheint.",
+            "syntaktisch": "Beide Formen sind transitiv und nehmen اللَّهَ als Akkusativ-Objekt. Syntaktisch sind beide korrekt eingebunden.",
+            "semantisch": "Form III (yuḫādiʿūna) mit konativer Bedeutung ('sie versuchen zu täuschen') passt besser, weil der nächste Teilsatz وَمَا يَخْدَعُونَ إِلَّا أَنْفُسَهُمْ (sie täuschen nur sich selbst) zeigt, dass die Täuschung nicht gelingt. Der Versuch (Form III) scheitert, und das Resultat trifft sie selbst. Wäre Form I gemeint, entstünde ein Widerspruch: Sie täuschen Gott — aber sie täuschen nur sich selbst.",
+            "kollokational": "Die Verbindung خَادَعَ + Akkusativ-Person (jemanden zu täuschen versuchen) ist eine etablierte Konstruktion. Die Kollokation unterstützt Form III.",
+            "parallelstellen": "In 4:142 steht يُخَادِعُونَ اللَّهَ وَهُوَ خَادِعُهُمْ — dort ist die Form III eindeutig, und die Antwort (er ist ihr Täuscher) bestätigt die reziproke/konative Bedeutung. Die Parallelstelle stützt die Form-III-Lesung auch in 2:9."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-07",
+          "prompt": "In 18:79 steht وَكَانَ وَرَاءَهُمْ مَلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا. Ist warāʿahum (hinter ihnen) räumlich (= hinter ihnen) oder zeitlich (= vor ihnen, d.h. in ihrer Zukunft) zu verstehen? Wende die Strategien an.",
+          "location": "18:79",
+          "consonantal": "وراءهم",
+          "options": [
+            {
+              "vocalized": "وَرَاءَهُمْ",
+              "form": "Adverb + Pronominalsuffix 3.Pl.m.",
+              "meaning_1": "hinter ihnen (räumlich: sie haben den König schon passiert)",
+              "meaning_2": "vor ihnen (zeitlich: der König erwartet sie in der Zukunft)"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Die Vokalisierung وَرَاءَ (warāʿa) ist eindeutig. Die Ambiguität liegt nicht in der Morphologie, sondern in der Semantik: وَرَاء kann sowohl 'hinter' als auch 'vor/jenseits' bedeuten — ein Fall lexikalischer Polysemie, nicht morphologischer Ambiguität.",
+            "syntaktisch": "وَرَاءَهُمْ steht als Adverbial (ẓarf) zum Prädikat كَانَ ... مَلِكٌ. Syntaktisch funktionieren beide Bedeutungen.",
+            "semantisch": "Wenn warā' = 'hinter ihnen': Der König liegt in der Vergangenheit, sie sind ihm schon entkommen. Dann macht das Beschädigen des Bootes keinen Sinn — sie sind ja schon vorbei. Wenn warā' = 'vor ihnen' (zeitlich): Der König liegt in ihrer Zukunft, sie werden ihm begegnen. Dann ergibt das Beschädigen des Bootes Sinn: Es soll sie schützen, BEVOR sie den König erreichen. Die semantische Kohärenz stützt die zeitliche Lesart 'vor ihnen'.",
+            "kollokational": "Die Verwendung von warā' im Sinne von 'vor/jenseits' (zeitlich) ist im klassischen Arabisch gut belegt. Die Kollokation min warā' kann sowohl 'von hinten' als auch 'jenseits von' bedeuten.",
+            "parallelstellen": "In 19:5 steht وَإِنِّي خِفْتُ الْمَوَالِيَ مِنْ وَرَائِي — dort bedeutet warā' 'nach mir' (zeitlich: in meiner Zukunft). In 45:10 steht مِنْ وَرَائِهِمْ جَهَنَّمُ — Dschahannam ist 'vor ihnen' (in ihrer Zukunft), nicht 'hinter ihnen'. Die Parallelstellen stützen die zeitlich-prospektive Bedeutung von warā'."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+        },
+        {
+          "type": "disambiguation",
+          "id": "disam-ex-08",
+          "prompt": "In 39:9 steht أَمَّنْ هُوَ قَانِتٌ آنَاءَ اللَّيْلِ سَاجِدًا وَقَائِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُو رَحْمَةَ رَبِّهِ — die Konsonanten أ-م-ن könnten als أَمَّنْ (amman — oder etwa derjenige, der...) oder أَمْ مَنْ (am man — oder derjenige, der...) gelesen werden. Wende die Strategien an.",
+          "location": "39:9",
+          "consonantal": "امن",
+          "options": [
+            {
+              "vocalized": "أَمَّنْ",
+              "form": "Hamza (Fragepartikel) + man (Relativpronomen), zusammengezogen",
+              "meaning": "Ist etwa der, der... (Frage ohne Antworterwartung)"
+            },
+            {
+              "vocalized": "أَمْ مَنْ",
+              "form": "am (Disjunktionspartikel) + man (Relativpronomen)",
+              "meaning": "Oder (ist) der, der... (zweites Glied einer Alternativfrage)"
+            }
+          ],
+          "walkthrough": {
+            "morphologisch": "Beide Analysen sind möglich. أَمَّنْ als Kontraktion von أَ + مَنْ (Frage-Hamza + Relativpronomen) und أَمْ مَنْ als Disjunktionspartikel + Relativpronomen. Im Konsonantentext sind beide nicht unterscheidbar.",
+            "syntaktisch": "Der vorhergehende Kontext (39:8) beschreibt jemanden, der Gott Gleichgestellte zuschreibt. Vers 39:9 stellt dem gegenüber jemanden, der nachts sich zuwendet. Syntaktisch: Wenn أَمَّنْ gelesen wird, ist es eine neue, eigenständige Frage ('Ist etwa der, der sich zuwendet...'). Wenn أَمْ مَنْ gelesen wird, ist es das zweite Glied einer Alternativfrage, die in 39:8 begonnen hat ('Ist der aus 39:8 gleich — oder der, der sich zuwendet?'). Die syntaktische Verknüpfung mit dem Vorvers stützt أَمْ مَنْ.",
+            "semantisch": "Beide Lesungen ergeben eine kontrastive Gegenüberstellung: der Undankbare vs. der sich Zuwendende. Semantisch sind beide kohärent.",
+            "kollokational": "أَمْ مَنْ als Einleitung des zweiten Glieds einer Alternativfrage ist ein im Quran belegtes Muster (z.B. 67:22). Die Kollokation stützt diese Lesung.",
+            "parallelstellen": "In 67:22 steht أَفَمَنْ يَمْشِي مُكِبًّا عَلَى وَجْهِهِ أَهْدَى أَمْ مَنْ — dort ist die Struktur 'a-fa-man ... am man' (ist der, der ... oder der, der ...) eindeutig eine Alternativfrage. Die Parallelstelle stützt die Lesung als zweites Glied einer Alternativfrage."
+          },
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=9"
+        }
+      ]
+    }
+  ]
+}

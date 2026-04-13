@@ -1,0 +1,296 @@
+[
+  {
+    "id": "1.1",
+    "title": "Syntaktische Analyse der Fātiḥa (1:1–7)",
+    "description": "Eine vollständige Wort-für-Wort-Analyse aller sieben Verse der ersten Sure. Die Fātiḥa enthält auf kleinstem Raum die wichtigsten Satzstrukturen des Arabischen: Nominalsatz, Verbalsatz, Iḍāfa-Ketten, Badal, vorangestelltes Objekt, Relativsatz und Imperativ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 1:1 — بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+          "content": "Die Basmala ist ein Präpositionalausdruck, der aus einer Präposition und einer dreifachen Genitivkette besteht.\n\nWort-für-Wort-Analyse:\n\n1. بِ — Präposition (Ḥarf Jarr). Regiert den Genitiv (Jarr) des folgenden Nomens.\n\n2. اسْمِ — Nomen im Genitiv (Majrūr) nach بِ, erkennbar am Kasra. Gleichzeitig Muḍāf — es erwartet ein Muḍāf ilayhi.\n\n3. اللَّهِ — Muḍāf ilayhi zu اسْم, daher Genitiv (Kasra). Der Eigenname Gottes.\n\n4. الرَّحْمَنِ — Badal (Apposition) oder Ṣifa (Attribut) zu اللَّه, daher ebenfalls Genitiv (Kasra). Morphologisch ein Intensivmuster فَعْلَان, das eine inhärente, umfassende Eigenschaft ausdrückt.\n\n5. الرَّحِيمِ — Weiterer Badal/Ṣifa zu اللَّه, Genitiv (Kasra). Muster فَعِيل, das eine dauerhafte Eigenschaft ausdrückt.\n\nStruktur: Die gesamte Basmala ist ein Präpositionalausdruck (Jarr wa-Majrūr). Alle Nomina stehen im Genitiv — entweder direkt durch die Präposition بِ, durch die Iḍāfa, oder durch Kongruenz als Attribut/Apposition.",
+          "arabicExamples": [
+            {
+              "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+              "transliteration": "bismi llāhi r-raḥmāni r-raḥīmi",
+              "meaning": "Im Namen Gottes, des Barmherzigen, des Erbarmers"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:1 — Verifikation",
+          "examples": [
+            {
+              "location": "1:1",
+              "word": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "analysis": "بِ = Präposition (Ḥarf Jarr). اسْمِ = Majrūr + Muḍāf. اللَّهِ = Muḍāf ilayhi (Gen.). الرَّحْمَنِ = Badal/Ṣifa (Gen.). الرَّحِيمِ = Badal/Ṣifa (Gen.).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:2 — الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "content": "Dieser Vers ist ein vollständiger Nominalsatz (Jumla ismiyya) mit einer angehängten Genitivkette.\n\nWort-für-Wort-Analyse:\n\n1. الْحَمْدُ — Mubtadaʼ (Subjekt des Nominalsatzes), Nominativ (Rafʿ), erkennbar am Ḍamma. Bestimmt durch den Artikel الـ.\n\n2. لِلَّهِ — Khabar (Prädikat), bestehend aus der Präposition لِ + dem Eigennamen اللَّه im Genitiv (Kasra). Das Khabar ist hier ein Präpositionalausdruck (Jarr wa-Majrūr). Semantisch: das Lob gehört Gott / ist für Gott.\n\n3. رَبِّ — Badal (Apposition) zu اللَّه, daher Genitiv. Gleichzeitig Muḍāf — ohne Tanwīn und ohne Artikel, weil es in einer Iḍāfa steht.\n\n4. الْعَالَمِينَ — Muḍāf ilayhi zu رَبّ, Genitiv. Dies ist ein gesunder maskuliner Plural (جَمْع مُذَكَّر سَالِم), erkennbar an der Endung ـِينَ (Yāʼ + Nūn). Bei diesem Pluraltyp zeigt Yāʼ den Genitiv/Akkusativ an (im Nominativ stünde ـُونَ).",
+          "arabicExamples": [
+            {
+              "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+              "transliteration": "al-ḥamdu li-llāhi rabbi l-ʿālamīna",
+              "meaning": "Das Lob gehört Gott, dem Herrn der Welten"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:2 — Verifikation",
+          "examples": [
+            {
+              "location": "1:2",
+              "word": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+              "analysis": "الْحَمْدُ = Mubtadaʼ (Nom., Ḍamma). لِلَّهِ = Khabar als Jarr wa-Majrūr (Gen., Kasra). رَبِّ = Badal zu اللَّه (Gen.), Muḍāf. الْعَالَمِينَ = Muḍāf ilayhi (Gen., Yāʼ-Nūn).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:3 — الرَّحْمَنِ الرَّحِيمِ",
+          "content": "Dieser Vers setzt die Genitivkette von Vers 2 fort und liefert zwei weitere Attribute zu اللَّه.\n\nWort-für-Wort-Analyse:\n\n1. الرَّحْمَنِ — Badal/Ṣifa zu رَبِّ (bzw. zu اللَّه in 1:2), Genitiv (Kasra). Identisch in Funktion und Form wie in 1:1, aber hier syntaktisch an die Genitivkette von Vers 2 angebunden.\n\n2. الرَّحِيمِ — Weiterer Badal/Ṣifa, Genitiv (Kasra). Muster فَعِيل.\n\nDie Wiederholung dieser beiden Attribute aus der Basmala (1:1) innerhalb der eigentlichen Surenstruktur (1:2–7) verdoppelt die Zuschreibung und verankert sie im syntaktischen Gefüge des Hauptsatzes.",
+          "arabicExamples": [
+            {
+              "arabic": "الرَّحْمَنِ الرَّحِيمِ",
+              "transliteration": "ar-raḥmāni r-raḥīmi",
+              "meaning": "des Barmherzigen, des Erbarmers"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:3 — Verifikation",
+          "examples": [
+            {
+              "location": "1:3",
+              "word": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+              "analysis": "الرَّحْمَنِ = Badal/Ṣifa zu اللَّه/رَبّ (Gen., Kasra). الرَّحِيمِ = Badal/Ṣifa (Gen., Kasra).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=3"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:4 — مَالِكِ يَوْمِ الدِّينِ",
+          "content": "Dieser Vers fügt ein weiteres Attribut zu اللَّه hinzu — diesmal ein Aktivpartizip in einer doppelten Iḍāfa.\n\nWort-für-Wort-Analyse:\n\n1. مَالِكِ — Badal/Ṣifa zu اللَّه, Genitiv (Kasra). Morphologisch ein Aktivpartizip (Ism Fāʿil) auf dem Muster فَاعِل vom Verb مَلَكَ (besitzen, herrschen). Gleichzeitig Muḍāf — es verliert sein Tanwīn und erwartet ein Muḍāf ilayhi.\n\n2. يَوْمِ — Muḍāf ilayhi zu مَالِك, Genitiv (Kasra). Selbst wiederum Muḍāf — eine Ketten-Iḍāfa entsteht.\n\n3. الدِّينِ — Muḍāf ilayhi zu يَوْم, Genitiv (Kasra). Letztes Glied der Kette.\n\nStruktur: مَالِكِ يَوْمِ الدِّينِ ist eine dreigliedrige Iḍāfa-Kette: 'Herrscher des Tages der Rechenschaft'. Alle drei Glieder stehen im Genitiv — مَالِك wegen seiner Funktion als Badal/Ṣifa zu dem Genitiv-Nomen اللَّه, يَوْم und الدِّين jeweils als Muḍāf ilayhi.",
+          "arabicExamples": [
+            {
+              "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+              "transliteration": "māliki yawmi d-dīni",
+              "meaning": "des Herrschers des Tages der Rechenschaft"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:4 — Verifikation",
+          "examples": [
+            {
+              "location": "1:4",
+              "word": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+              "analysis": "مَالِكِ = Badal/Ṣifa zu اللَّه (Gen., Kasra), Ism Fāʿil فَاعِل, Muḍāf. يَوْمِ = Muḍāf ilayhi (Gen., Kasra), selbst Muḍāf. الدِّينِ = Muḍāf ilayhi (Gen., Kasra).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:5 — إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "content": "Hier vollzieht sich ein abrupter Wechsel: Von der Beschreibung Gottes in der dritten Person (Er — 1:2–4) wechselt der Text zur direkten Anrede in der zweiten Person (Du). Dieser rhetorische Wechsel heißt Iltifāt (الْتِفَات) und ist ein markantes Stilmittel im Quran.\n\nWort-für-Wort-Analyse:\n\n1. إِيَّاكَ — Mafʿūl bihi (direktes Objekt), vorangestellt vor das Verb. إِيَّا ist ein emphatisches Pronomen, das nur in der Objektposition vorkommt; ـكَ ist das Suffix der 2. Person maskulin Singular. Die Voranstellung des Objekts bewirkt Exklusivität (Ḥaṣr/Qaṣr): 'Dir allein — und niemandem sonst'.\n\n2. نَعْبُدُ — Verb im Imperfekt (Muḍāriʿ), 1. Person Plural, Indikativ (Rafʿ, Ḍamma). Grundstamm (Form I) von عَبَدَ. Das Subjekt ist das in der Verbform enthaltene Pronomen نَحْنُ (wir).\n\n3. وَ — Konjunktion (Ḥarf ʿAṭf), verbindet zwei parallele Sätze.\n\n4. إِيَّاكَ — Erneut vorangestelltes Mafʿūl bihi, identische Struktur.\n\n5. نَسْتَعِينُ — Verb im Imperfekt, 1. Person Plural, Indikativ (Ḍamma). Form X (اِسْتَفْعَلَ) von عَانَ/عَوْنَ. Form X drückt hier das Erbitten/Ersuchen aus: 'wir erbitten Hilfe'.\n\nZwei syntaktische Besonderheiten:\n\na) Vorangestelltes Objekt (Taqdīm al-Mafʿūl): Normalerweise steht im Arabischen das Verb vor dem Objekt. Die Voranstellung von إِيَّاكَ erzeugt Exklusivität — 'nur Dich beten wir an'.\n\nb) Iltifāt (Personenwechsel): Verse 2–4 sprachen über Gott in der 3. Person (Er). Ab Vers 5 wird Gott direkt in der 2. Person angesprochen (Du). Dieser Wechsel ist syntaktisch motiviert und kein Bruch.",
+          "arabicExamples": [
+            {
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīnu",
+              "meaning": "Dir allein dienen wir, und Dich allein bitten wir um Hilfe"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:5 — Verifikation",
+          "examples": [
+            {
+              "location": "1:5",
+              "word": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "analysis": "إِيَّاكَ = Mafʿūl bihi, vorangestellt (Akk., emphat. Pronomen 2ms). نَعْبُدُ = Muḍāriʿ 1.pl., Indikativ (Ḍamma), Form I. وَ = ʿAṭf. إِيَّاكَ = Mafʿūl bihi, vorangestellt. نَسْتَعِينُ = Muḍāriʿ 1.pl., Indikativ (Ḍamma), Form X.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:6 — اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "content": "Ein Verbalsatz im Imperativ mit doppeltem Objekt — das Verb هَدَى kann zwei Akkusativobjekte regieren.\n\nWort-für-Wort-Analyse:\n\n1. اهْدِ — Imperativ (Fiʿl Amr), 2. Person maskulin Singular, von هَدَى (rechtleiten). Der Imperativ ist morphologisch die Jazm-Form ohne Präfix: اهْدِ (Grundform يَهْدِي → Jazm: يَهْدِ → Imperativ: اِهْدِ). Das Subjekt ist das implizite أَنْتَ (Du = Gott).\n\n2. نَا — Suffixpronomen der 1. Person Plural, angehängt an das Verb. Funktion: Mafʿūl bihi (erstes Objekt), Akkusativ. 'Leite uns'.\n\n3. الصِّرَاطَ — Mafʿūl bihi (zweites Objekt), Akkusativ (Fatḥa). Das Verb هَدَى gehört zu den Verben, die zwei Objekte regieren können (doppelt-transitiv). Erstes Objekt: die Person, der geleitet wird (نَا). Zweites Objekt: der Weg, zu dem geleitet wird (الصِّرَاطَ).\n\n4. الْمُسْتَقِيمَ — Ṣifa (Attribut/Adjektiv) zu الصِّرَاطَ, kongruent in Kasus (Akkusativ, Fatḥa), Genus (maskulin), Numerus (Singular) und Bestimmtheit (bestimmt durch الـ). Morphologisch ein Aktivpartizip der Form X (مُسْتَفْعِل) von قَامَ.",
+          "arabicExamples": [
+            {
+              "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+              "transliteration": "ihdinā ṣ-ṣirāṭa l-mustaqīma",
+              "meaning": "Leite uns den geraden Weg"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:6 — Verifikation",
+          "examples": [
+            {
+              "location": "1:6",
+              "word": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+              "analysis": "اهْدِ = Imperativ 2ms von هَدَى. نَا = Mafʿūl bihi 1 (Suffixpronomen 1.pl., Akk.). الصِّرَاطَ = Mafʿūl bihi 2 (Akk., Fatḥa). الْمُسْتَقِيمَ = Ṣifa zu الصِّرَاط (Akk., Fatḥa), Ism Fāʿil Form X.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 1:7 — صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "content": "Der längste Vers der Fātiḥa enthält einen Badal, einen Relativsatz und eine Ausnahmekonstruktion.\n\nWort-für-Wort-Analyse:\n\n1. صِرَاطَ — Badal (Apposition) zu الصِّرَاطَ in 1:6, Akkusativ (Fatḥa). Gleichzeitig Muḍāf.\n\n2. الَّذِينَ — Muḍāf ilayhi, syntaktisch im Genitiv. Morphologisch ist الَّذِينَ ein Relativpronomen (Ism Mawṣūl) für den maskulinen Plural — es ist mabnī (unveränderlich/indeklinabel), seine Form ändert sich nicht, aber es nimmt die syntaktische Position eines Genitivs ein.\n\n3. أَنْعَمْتَ — Ṣila (Relativsatz/Satzfüllung) zu الَّذِينَ. Verb im Perfekt (Māḍī), 2. Person maskulin Singular, Form IV (أَفْعَلَ) von نَعِمَ. Form IV fügt hier transitive/kausative Bedeutung hinzu: 'Gunst erweisen'. Das Subjekt ist das in der Verbform enthaltene أَنْتَ (Du = Gott).\n\n4. عَلَيْهِمْ — Jarr wa-Majrūr: عَلَى = Präposition + هِمْ = Suffixpronomen 3. Person maskulin Plural. Ergänzung zum Verb أَنْعَمَ, das mit عَلَى konstruiert wird.\n\n5. غَيْرِ — Badal zu الَّذِينَ oder Ṣifa, Genitiv (Kasra). Gleichzeitig Muḍāf. غَيْر bedeutet 'anders als, nicht' und schließt die folgenden Gruppen aus.\n\n6. الْمَغْضُوبِ — Muḍāf ilayhi zu غَيْر, Genitiv (Kasra). Morphologisch ein Passivpartizip (Ism Mafʿūl) auf dem Muster مَفْعُول von غَضِبَ. Als Passivpartizip: 'diejenigen, auf die gezürnt wurde'.\n\n7. عَلَيْهِمْ — Jarr wa-Majrūr. Ergänzung, die den Agens-Bezug des Passivpartizips ausfüllt: wörtlich 'auf sie gezürnt'.\n\n8. وَلَا — Konjunktion وَ + Negationspartikel لَا. Die Kombination fügt eine zweite ausgeschlossene Gruppe hinzu und verstärkt die Negation.\n\n9. الضَّالِّينَ — Maʿṭūf (koordiniert) auf الْمَغْضُوبِ durch وَ, daher Genitiv. Morphologisch Ism Fāʿil (Aktivpartizip) von ضَلَّ (abirren), hier als gesunder maskuliner Plural mit der Genitiv-Endung ـِينَ (Yāʼ + Nūn). Die Substantivierung durch den Artikel macht es zu 'die Abirrenden'.",
+          "arabicExamples": [
+            {
+              "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+              "transliteration": "ṣirāṭa lladhīna anʿamta ʿalayhim ghayri l-maghḍūbi ʿalayhim wa-lā ḍ-ḍāllīna",
+              "meaning": "den Weg derer, denen Du Gunst erwiesen hast — nicht derer, auf die gezürnt wurde, und nicht der Abirrenden"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Vers 1:7 — Verifikation",
+          "examples": [
+            {
+              "location": "1:7",
+              "word": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+              "analysis": "صِرَاطَ = Badal zu الصِّرَاطَ (Akk., Fatḥa), Muḍāf. الَّذِينَ = Muḍāf ilayhi (Relativpron., mabnī, syntaktisch Gen.). أَنْعَمْتَ = Ṣila (Perfekt 2ms, Form IV). عَلَيْهِمْ = Jarr wa-Majrūr. غَيْرِ = Badal/Ṣifa zu الَّذِينَ (Gen., Kasra), Muḍāf. الْمَغْضُوبِ = Muḍāf ilayhi (Gen., Passivpartizip). عَلَيْهِمْ = Jarr wa-Majrūr. وَلَا = ʿAṭf + Negation. الضَّالِّينَ = Maʿṭūf auf الْمَغْضُوبِ (Gen., Yāʼ-Nūn).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Gesamtstruktur der Fātiḥa — Syntaktischer Überblick",
+          "steps": [
+            "Vers 1:1 (Basmala): Präpositionalausdruck — بِ + Iḍāfa (اسْمِ اللَّهِ) + zwei Attribute (الرَّحْمَنِ الرَّحِيمِ). Alle Nomina im Genitiv.",
+            "Vers 1:2: Nominalsatz — الْحَمْدُ (Mubtadaʼ, Nom.) + لِلَّهِ (Khabar als Jarr wa-Majrūr) + رَبِّ الْعَالَمِينَ (Badal + Iḍāfa, Gen.).",
+            "Vers 1:3: Fortsetzung der Genitivkette von 1:2 — الرَّحْمَنِ الرَّحِيمِ als Attribute zu اللَّه, Genitiv.",
+            "Vers 1:4: Dreigliedrige Iḍāfa-Kette — مَالِكِ يَوْمِ الدِّينِ als weiteres Attribut zu اللَّه, alle im Genitiv.",
+            "Vers 1:5: Zwei parallele Verbalsätze mit vorangestelltem Objekt — إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ. Iltifāt: Wechsel von 3. Person (1:2–4) zu 2. Person.",
+            "Vers 1:6: Imperativsatz mit doppeltem Objekt — اهْدِنَا (Imperativ + 1. Objekt) + الصِّرَاطَ الْمُسْتَقِيمَ (2. Objekt + Attribut).",
+            "Vers 1:7: Badal + Relativsatz + Ausschluss — صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ spezifiziert den Weg; غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ grenzt ihn negativ ab."
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Syntaktische Schlüsselphänomene der Fātiḥa",
+          "content": "Die Fātiḥa bündelt auf engstem Raum drei zentrale syntaktische Phänomene:\n\n1. Iltifāt (الْتِفَات) — Personenwechsel:\nIn den Versen 2–4 wird Gott in der 3. Person beschrieben: 'Das Lob gehört Gott' (لِلَّهِ), 'dem Herrn' (رَبِّ), 'dem Herrscher' (مَالِكِ). Ab Vers 5 wechselt der Text abrupt zur 2. Person: 'Dir dienen wir' (إِيَّاكَ), 'leite uns' (اهْدِنَا). Dieser Wechsel ist kein Fehler, sondern ein bewusstes Stilmittel: Die Beschreibung führt zur direkten Anrede.\n\n2. Vorangestelltes Objekt (تَقْدِيم الْمَفْعُول):\nIn إِيَّاكَ نَعْبُدُ steht das Objekt إِيَّاكَ vor dem Verb نَعْبُدُ. Die Normalstellung wäre نَعْبُدُكَ (wir beten Dich an). Die Voranstellung erzeugt Ḥaṣr (Beschränkung): 'Dir allein — und keinem anderen — dienen wir.' Dieselbe Struktur wiederholt sich in إِيَّاكَ نَسْتَعِينُ.\n\n3. Doppeltes Objekt bei هَدَى:\nDas Verb هَدَى (rechtleiten) kann zwei Akkusativobjekte regieren — ohne Präposition. In اهْدِنَا الصِّرَاطَ ist نَا das erste Objekt (die Person) und الصِّرَاطَ das zweite Objekt (der Weg). Dies unterscheidet هَدَى von Verben, die ein Objekt mit Präposition anschließen.",
+          "arabicExamples": [
+            {
+              "arabic": "إِيَّاكَ نَعْبُدُ",
+              "transliteration": "iyyāka naʿbudu",
+              "meaning": "Dir allein dienen wir (vorangestelltes Objekt → Exklusivität)"
+            },
+            {
+              "arabic": "اهْدِنَا الصِّرَاطَ",
+              "transliteration": "ihdinā ṣ-ṣirāṭa",
+              "meaning": "Leite uns den Weg (doppeltes Objekt)"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "case_determination",
+          "prompt": "Bestimme den Kasus von الْحَمْدُ in Vers 1:2 und begründe ihn.",
+          "word": "الْحَمْدُ",
+          "answer": "Nominativ (Rafʿ), erkennbar am Ḍamma. الْحَمْدُ ist das Mubtadaʼ (Subjekt) eines Nominalsatzes.",
+          "hint": "Welche Funktion hat das erste Nomen in einem Nominalsatz?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche syntaktische Funktion hat الصِّرَاطَ in اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (1:6)?",
+          "word": "الصِّرَاطَ",
+          "answer": "Mafʿūl bihi (zweites direktes Objekt), Akkusativ (Fatḥa). Das Verb هَدَى regiert zwei Objekte: نَا (uns) und الصِّرَاطَ (den Weg).",
+          "hint": "Das Verb هَدَى kann zwei Akkusativobjekte regieren. Was ist das erste Objekt?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht إِيَّاكَ in Vers 1:5 VOR dem Verb نَعْبُدُ?",
+          "options": [
+            "Weil Arabisch immer Objekt-Verb-Reihenfolge hat",
+            "Weil die Voranstellung Exklusivität (Ḥaṣr) erzeugt: 'Dir allein'",
+            "Weil إِيَّاكَ das Subjekt ist",
+            "Weil es ein Nominalsatz ist"
+          ],
+          "answer": "Weil die Voranstellung Exklusivität (Ḥaṣr) erzeugt: 'Dir allein'",
+          "explanation": "Die Normalstellung wäre نَعْبُدُكَ. Durch die Voranstellung des Objekts إِيَّاكَ entsteht Ḥaṣr (Beschränkung): Die Anbetung gilt ausschließlich dem Angesprochenen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Iḍāfa-Kette in مَالِكِ يَوْمِ الدِّينِ (1:4): Identifiziere Muḍāf und Muḍāf ilayhi und erkläre den Kasus jedes Gliedes.",
+          "word": "مَالِكِ يَوْمِ الدِّينِ",
+          "answer": "Dreigliedrige Iḍāfa-Kette: مَالِكِ = Muḍāf 1 (Gen. als Badal zu اللَّه). يَوْمِ = Muḍāf ilayhi zu مَالِك (Gen., Kasra), gleichzeitig Muḍāf 2. الدِّينِ = Muḍāf ilayhi zu يَوْم (Gen., Kasra).",
+          "hint": "Alle Glieder stehen im Genitiv — aber aus unterschiedlichen Gründen. Warum steht مَالِكِ im Genitiv?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welcher rhetorische Wechsel findet zwischen Vers 1:4 und 1:5 statt?",
+          "options": [
+            "Wechsel von Singular zu Plural",
+            "Wechsel von Perfekt zu Imperfekt",
+            "Iltifāt: Wechsel von der 3. Person zur 2. Person",
+            "Wechsel von Nominalsatz zu Bedingungssatz"
+          ],
+          "answer": "Iltifāt: Wechsel von der 3. Person zur 2. Person",
+          "explanation": "In 1:2–4 wird Gott in der 3. Person beschrieben (لِلَّهِ, رَبِّ, مَالِكِ). Ab 1:5 wird Er direkt angesprochen (إِيَّاكَ = Dich). Dieser Personenwechsel heißt Iltifāt und ist ein bewusstes syntaktisches Stilmittel.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Verbform liegt bei نَسْتَعِينُ (1:5) vor? Bestimme Stamm, Person, Numerus und Modus.",
+          "word": "نَسْتَعِينُ",
+          "answer": "Imperfekt (Muḍāriʿ), 1. Person Plural, Indikativ (Rafʿ, Ḍamma). Form X (اِسْتَفْعَلَ) von der Wurzel ع-و-ن. Form X drückt hier das Erbitten aus: 'wir erbitten Hilfe'.",
+          "hint": "Das Präfix نـ zeigt die 1. Person Plural. Das Präfix اسْتَـ weist auf welche Verbform hin?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "type": "case_determination",
+          "prompt": "Bestimme den Kasus von الضَّالِّينَ in Vers 1:7 und begründe ihn.",
+          "word": "الضَّالِّينَ",
+          "answer": "Genitiv (Jarr). الضَّالِّينَ ist durch وَ an الْمَغْضُوبِ koordiniert (Maʿṭūf), das selbst im Genitiv steht als Muḍāf ilayhi zu غَيْرِ. Der Genitiv zeigt sich bei diesem gesunden maskulinen Plural durch die Endung ـِينَ (Yāʼ + Nūn).",
+          "hint": "الضَّالِّينَ ist ein gesunder maskuliner Plural. Welche Endung zeigt bei diesem Pluraltyp den Genitiv an?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Relativsatz in Vers 1:7: Identifiziere das Relativpronomen, den Relativsatz (Ṣila) und das Rückbezugspronomen.",
+          "word": "الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+          "answer": "الَّذِينَ = Relativpronomen (Ism Mawṣūl, mask. Plural, mabnī). أَنْعَمْتَ عَلَيْهِمْ = Ṣila (Relativsatz): Perfekt 2ms, Form IV von نَعِمَ. هِمْ in عَلَيْهِمْ = Rückbezugspronomen (ʿĀʼid), das auf الَّذِينَ zurückverweist. Gesamtbedeutung: 'diejenigen, denen Du Gunst erwiesen hast'.",
+          "hint": "Jeder Relativsatz braucht ein Pronomen, das auf das Relativpronomen zurückverweist. Wo steckt es hier?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        }
+      ]
+    },
+    "wrightReference": "Wright I §§1-30, II §§81-100",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.5"
+    ]
+  }
+]

@@ -1,0 +1,778 @@
+{
+  "meta": {
+    "title": "Kongruenz-Drill — Übereinstimmung in Genus, Numerus und Kasus",
+    "description": "Übungen zur Kongruenz zwischen Verb und Subjekt, Adjektiv und Nomen, Pronomen und Bezugswort im quranischen Arabisch.",
+    "totalExercises": 73,
+    "sources": [
+      {
+        "title": "Wright's Arabic Grammar, Vol. II (Syntax)",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "title": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "rule": "Verb vor Subjekt → Verb im Singular (unabhängig vom Numerus des Subjekts)",
+      "ref": "2:30 قَالَ رَبُّكَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "R2",
+      "rule": "Subjekt vor Verb → volle Kongruenz in Person, Genus und Numerus",
+      "ref": "2:8 يَقُولُونَ آمَنَّا",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "id": "R3",
+      "rule": "Gebrochener Plural von Nicht-Personen → behandelt wie Feminin Singular",
+      "ref": "2:74 ثُمَّ قَسَتْ قُلُوبُكُم مِّن بَعْدِ ذَٰلِكَ فَهِيَ كَٱلْحِجَارَةِ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "id": "R4",
+      "rule": "Adjektiv kongruiert mit Nomen in Genus, Numerus, Kasus UND Definitheit",
+      "ref": "—",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n267"
+    },
+    {
+      "id": "R5",
+      "rule": "Adjektiv bei gebrochenem Plural von Nicht-Personen → Feminin Singular ODER gebrochener Plural des Adjektivs",
+      "ref": "76:21 ثِيَابُ سُندُسٍ خُضْرٌ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=21"
+    },
+    {
+      "id": "R6",
+      "rule": "Feminines Subjekt direkt vor Verb → obligatorische Ta-Markierung am Verb",
+      "ref": "—",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n267"
+    },
+    {
+      "id": "R7",
+      "rule": "Feminines Subjekt mit Trennung vom Verb → optionale Ta-Markierung",
+      "ref": "—",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n267"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "type": "verb_subject",
+      "ref": "3:52",
+      "arabic": "قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ",
+      "question": "Warum steht قَالَ im Singular, obwohl الْحَوَارِيُّونَ Plural ist?",
+      "answer": "Verb vor Subjekt (VSO) → Verb im Singular (Regel R1). Das Verb kongruiert nur in Genus, nicht in Numerus.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=52"
+    },
+    {
+      "id": 2,
+      "type": "verb_subject",
+      "ref": "2:14",
+      "arabic": "وَإِذَا لَقُوا ٱلَّذِينَ ءَامَنُوا قَالُوٓا ءَامَنَّا",
+      "question": "Warum steht قَالُوا im Plural?",
+      "answer": "Das Subjekt (implizit durch den Kontext) steht VOR dem Verb — volle Kongruenz erforderlich (Regel R2).",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+    },
+    {
+      "id": 3,
+      "type": "broken_plural",
+      "ref": "22:18",
+      "arabic": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ",
+      "question": "الجبال (Berge) ist gebrochener Plural eines Nicht-Personen-Nomens. Welches Genus hat ein Adjektiv dazu?",
+      "answer": "Feminin Singular (Regel R3/R5). Gebrochene Plurale von Nicht-Personen werden wie Feminin Singular behandelt.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=18"
+    },
+    {
+      "id": 4,
+      "type": "adjective_noun",
+      "ref": "2:2",
+      "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+      "question": "الْكِتَابُ ist definit, maskulin, Singular, Nominativ. Welche Form müsste ein Adjektiv haben?",
+      "answer": "Definit + Maskulin + Singular + Nominativ, z.B. الْكَرِيمُ. Vier Kongruenzdimensionen müssen übereinstimmen.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "id": 5,
+      "type": "adjective_noun",
+      "ref": "12:43",
+      "arabic": "أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ",
+      "question": "Warum سِمَان (gebrochener Plural) und nicht سَمِينَة (Feminin Singular)?",
+      "answer": "سِمَان ist ein gebrochener Plural (Muster فِعَال) von سَمِين. بَقَرَات ist gesunder Feminin-Plural (nicht gebrochen), daher volle Pluralkongruenz: das Adjektiv steht ebenfalls im Plural.",
+      "note": "سِمَان ist der gebrochene Plural des Adjektivs سَمِين. Gebrochene Adjektiv-Plurale können mit gesunden Femininpluralen kongruieren.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=43"
+    },
+    {
+      "id": 6,
+      "type": "verb_subject",
+      "ref": "27:29",
+      "arabic": "قَالَتْ يَٰٓأَيُّهَا ٱلْمَلَؤُا إِنِّىٓ أُلْقِىَ إِلَىَّ كِتَٰبٌ كَرِيمٌ",
+      "question": "Warum قَالَتْ mit Ta (Femininmarkierung)?",
+      "answer": "Das implizite Subjekt ist die Königin (feminin). Das Verb trägt die obligatorische Femininmarkierung (Regel R6).",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=29"
+    },
+    {
+      "id": 7,
+      "type": "broken_plural",
+      "ref": "2:74",
+      "arabic": "ثُمَّ قَسَتْ قُلُوبُكُم مِّن بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً",
+      "question": "قُلُوب ist gebrochener Plural. Welches Pronomen wird verwendet?",
+      "answer": "فَهِيَ — Feminin Singular Pronomen, weil gebrochene Plurale von Nicht-Personen als Feminin Singular behandelt werden.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=74"
+    },
+    {
+      "id": 8,
+      "type": "adjective_noun",
+      "ref": "67:5",
+      "arabic": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا",
+      "question": "Analysiere die Kongruenz: السَّمَاءَ الدُّنْيَا",
+      "answer": "السَّمَاء (feminin, definit, Singular, Akkusativ) → الدُّنْيَا (feminin, definit, Singular, Akkusativ). Perfekte vierfache Kongruenz. الدُّنْيَا ist Elativ-Form (femin: Alif Maqsura).",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+    },
+    {
+      "id": 9,
+      "type": "verb_subject",
+      "ref": "3:13",
+      "arabic": "قَدْ كَانَ لَكُمْ ءَايَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا",
+      "question": "Warum كَانَ ohne Ta-Markierung, obwohl آيَةٌ feminin ist?",
+      "answer": "Das Verb (كَانَ) steht VOR dem femininen Subjekt (آيَةٌ) mit Trennung (لَكُمْ). Bei Trennung ist die Femininmarkierung optional (Regel R7).",
+      "rule": "R7",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=13"
+    },
+    {
+      "id": 10,
+      "type": "pronoun_reference",
+      "ref": "2:25",
+      "arabic": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ",
+      "question": "تَجْرِي ist Feminin Singular. Worauf bezieht es sich und warum?",
+      "answer": "Bezieht sich auf الْأَنْهَارُ (Fluesse, gebrochener Plural). Aber hier VSO: Verb vor Subjekt → Singular. Plus: gebrochener Plural von Nicht-Personen → Feminin.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "prompt": "الرجال ___ (kamen, Perfekt von أ-ت-ي, VSO-Stellung)",
+      "answer": "أَتَى",
+      "explanation": "Verb vor Subjekt → Maskulin Singular, auch wenn das Subjekt Plural ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=58"
+    },
+    {
+      "id": 12,
+      "type": "fill_blank",
+      "prompt": "النساء ___ (sagten, Perfekt von ق-و-ل, VSO-Stellung)",
+      "answer": "قَالَتْ",
+      "explanation": "Verb vor Subjekt → Singular, ABER Femininmarkierung (-ت) weil das Subjekt feminin ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=29"
+    },
+    {
+      "id": 13,
+      "type": "fill_blank",
+      "prompt": "الكتب ___ (gute, Adjektiv)",
+      "answer": "جَيِّدَة (Feminin Singular)",
+      "explanation": "كُتُب ist gebrochener Plural eines Nicht-Personen-Nomens → Adjektiv im Feminin Singular.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar2Of2/page/n293"
+    },
+    {
+      "id": 14,
+      "type": "fill_blank",
+      "prompt": "المؤمنون ___ (gute, Adjektiv)",
+      "answer": "صَالِحُونَ (Maskulin Plural)",
+      "explanation": "مُؤْمِنُون ist gesunder Maskulin-Plural von PERSONEN → volle Pluralkongruenz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+    },
+    {
+      "id": 15,
+      "type": "verb_subject",
+      "ref": "21:76",
+      "arabic": "وَنُوحًا إِذْ نَادَىٰ مِن قَبْلُ فَٱسْتَجَبْنَا لَهُ",
+      "question": "فَاسْتَجَبْنَا — analysiere die Kongruenz.",
+      "answer": "Subjekt نَحْنُ (wir = Gott) ist implizit im Verb enthalten (-نَا Suffix). 1. Person Plural — volle Kongruenz im Verb selbst.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=76"
+    },
+    {
+      "id": 16,
+      "type": "adjective_noun",
+      "ref": "14:18",
+      "arabic": "مَّثَلُ ٱلَّذِينَ كَفَرُوا بِرَبِّهِمْ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍ",
+      "question": "عَاصِف beschreibt يَوْم. Warum maskulin?",
+      "answer": "يَوْم ist maskulin → Adjektiv عَاصِف auch maskulin. Standardkongruenz in Genus.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=18"
+    },
+    {
+      "id": 17,
+      "type": "broken_plural",
+      "ref": "4:75",
+      "arabic": "سَبِيلِ ٱللَّهِ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ ٱلَّذِينَ يَقُولُونَ",
+      "question": "الْوِلْدَان ist gebrochener Plural. Warum الَّذِينَ (Maskulin Plural) und nicht الَّتِي (Feminin Singular)?",
+      "answer": "وِلْدَان sind PERSONEN (Kinder). Die Regel 'gebrochener Plural → Feminin Singular' gilt NUR für Nicht-Personen. Bei Personen: voller Plural.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=75"
+    },
+    {
+      "id": 18,
+      "type": "verb_subject",
+      "ref": "5:17",
+      "arabic": "لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا",
+      "question": "كَفَرَ ist Singular, الَّذِينَ ist Plural. Warum?",
+      "answer": "VSO-Stellung: Verb vor Subjekt → Verb im Singular (Regel R1). Nur Genus-Kongruenz (maskulin).",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=17"
+    },
+    {
+      "id": 19,
+      "type": "fill_blank",
+      "prompt": "الأيام ___ (vergingen, Perfekt von م-ض-ي)",
+      "answer": "مَضَتْ (Feminin Singular)",
+      "explanation": "أَيَّام ist gebrochener Plural von يَوْم (Nicht-Person) → Verb im Feminin Singular.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=17"
+    },
+    {
+      "id": 20,
+      "type": "fill_blank",
+      "prompt": "السماوات ___ (hoch, Adjektiv)",
+      "answer": "عَالِيَة (Feminin Singular) oder عَالِيَات (gesunder Feminin Plural)",
+      "explanation": "سَمَاوَات ist gesunder Feminin-Plural. Beide Formen möglich, Feminin Singular ist häufiger im Quran.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "id": 21,
+      "type": "verb_subject",
+      "ref": "3:146",
+      "arabic": "وَكَأَيِّن مِّن نَّبِىٍّ قَٰتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ",
+      "question": "كَثِير ist Singular, obwohl es رِبِّيُّون (Plural) beschreibt. Warum?",
+      "answer": "كَثِير als Adjektiv kann bei kollektiver Bedeutung im Singular stehen — es beschreibt die Menge als Ganzes, nicht die Individuen.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "id": 22,
+      "type": "pronoun_reference",
+      "ref": "12:4",
+      "arabic": "إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ",
+      "question": "كَوَاكِب sind Nicht-Personen. Warum -هُمْ (Maskulin Plural) und سَاجِدِين (Maskulin Plural)?",
+      "answer": "Die Sterne werden hier als handelnde Wesen dargestellt (sie werfen sich nieder) — sie werden daher wie Personen behandelt. Personifikation ändert die Kongruenz.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+    },
+    {
+      "id": 23,
+      "type": "fill_blank",
+      "prompt": "المساجد ___ (alt, Adjektiv)",
+      "answer": "قَدِيمَة (Feminin Singular)",
+      "explanation": "مَسَاجِد ist gebrochener Plural eines Nicht-Personen-Nomens → Feminin Singular.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=10"
+    },
+    {
+      "id": 24,
+      "type": "verb_subject",
+      "ref": "28:10",
+      "arabic": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ",
+      "question": "أَصْبَحَ ohne Ta-Markierung, obwohl der فُؤَاد der Mutter gehört. Warum?",
+      "answer": "فُؤَاد selbst ist maskulin. Dass es einer Frau gehört (Iḍāfa mit أُمّ), ändert nicht das Genus des Wortes فُؤَاد.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=10"
+    },
+    {
+      "id": 25,
+      "type": "fill_blank",
+      "prompt": "المسلمون ___ الصَّلَاةَ (أَقَامَ, Perfekt — konjugiere passend zum Subjekt)",
+      "answer": "أَقَامُوا",
+      "explanation": "SVO-Stellung: Subjekt (المسلمون, maskulin Plural) steht VOR dem Verb → volle Kongruenz in Person, Genus und Numerus erforderlich (Regel R2). أَقَامَ (3. Person maskulin Singular) wäre nur korrekt in VSO-Stellung (أَقَامَ المسلمونَ). Hier muss das Verb im Plural stehen: أَقَامُوا.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=171"
+    },
+    {
+      "id": 26,
+      "type": "broken_plural",
+      "ref": "2:171",
+      "arabic": "صُمٌّ بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
+      "question": "صُمّ, بُكْم, عُمْي sind gebrochene Plurale. Warum -هُمْ (Maskulin Plural)?",
+      "answer": "Diese beschreiben PERSONEN (die Leugner). Bei Personen gilt volle Pluralkongruenz, auch bei gebrochenen Pluralen.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=171"
+    },
+    {
+      "id": 27,
+      "type": "adjective_noun",
+      "ref": "89:14",
+      "arabic": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+      "question": "مِرْصَاد hat kein Adjektiv. Wenn eines hinzugefügt würde, welches Genus?",
+      "answer": "Maskulin — مِرْصَاد ist maskulin (Ism Makan, Muster مِفْعَال).",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=14"
+    },
+    {
+      "id": 28,
+      "type": "verb_subject",
+      "ref": "16:66",
+      "arabic": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً نُّسْقِيكُم مِّمَّا فِى بُطُونِهِ",
+      "question": "بُطُونِهِ — Pronominalsuffix هِ (Maskulin Singular). Warum für الْأَنْعَام (Plural)?",
+      "answer": "أَنْعَام ist ein Kollektivnomen (kein echter Plural) — wird als Singular behandelt. Daher maskulin Singular Suffix.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=66"
+    },
+    {
+      "id": 29,
+      "type": "fill_blank",
+      "prompt": "جَاءَ ___ الصالحات (die rechtschaffenen Frauen, Nominativ)",
+      "answer": "النِّسَاءُ",
+      "explanation": "VSO-Stellung: جَاءَ (ohne Ta) wenn النساء nach dem Verb steht. نِسَاء ist ein gebrochener Feminin-Plural. Bei solchen Formen ist die Ta-Markierung am Verb im Klassischen Arabisch optional.",
+      "note": "Beide Formen sind akzeptabel: جَاءَ النِّسَاءُ (ohne Ta-Markierung) und جَاءَتِ النِّسَاءُ (mit Ta-Markierung). Weder die eine noch die andere Form ist 'richtiger' — bei gebrochenen Pluralen und Kollektiva ist die Genuswahl am Verb frei.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=133"
+    },
+    {
+      "id": 30,
+      "type": "verb_subject",
+      "ref": "7:133",
+      "arabic": "فَأَرْسَلْنَا عَلَيْهِمُ ٱلطُّوفَانَ وَٱلْجَرَادَ وَٱلْقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ",
+      "question": "آيَاتٍ مُفَصَّلَاتٍ — analysiere die Kongruenz.",
+      "answer": "آيَات (gesunder Feminin-Plural, Akkusativ: -اتٍ) + مُفَصَّلَات (gesunder Feminin-Plural, Akkusativ: -اتٍ). Volle Kongruenz in Genus, Numerus, Kasus und Indefinitheit.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=133"
+    },
+    {
+      "id": 31,
+      "type": "verb_subject",
+      "ref": "27:16",
+      "arabic": "وَقَالَ يَٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ",
+      "question": "Warum وَقَالَ (mask. Sg.) und nicht قَالَتْ, obwohl Suleiman spricht?",
+      "answer": "سُلَيْمَان ist maskulin → Verb ohne Ta-Markierung. Das Verb kongruiert im Genus mit dem (impliziten) Subjekt.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=16"
+    },
+    {
+      "id": 32,
+      "type": "verb_subject",
+      "ref": "19:23",
+      "arabic": "فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ",
+      "question": "Warum فَأَجَاءَهَا ohne Ta-Markierung, obwohl Maryam (feminin) das logische Subjekt ist?",
+      "answer": "Das grammatische Subjekt ist الْمَخَاضُ (maskulin: die Wehen). Maryam ist Objekt (-هَا). Das Verb kongruiert mit dem grammatischen Subjekt, nicht dem logischen.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=23"
+    },
+    {
+      "id": 33,
+      "type": "verb_subject",
+      "ref": "91:1",
+      "arabic": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "question": "ضُحَاهَا — das Suffix -هَا referiert auf الشَّمْس. Warum feminin?",
+      "answer": "شَمْس ist feminin (ohne Ta Marbuta, aber semantisch feminin). Daher feminines Suffix -هَا. Kongruenz in Genus zwischen Nomen und Pronominalsuffix.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+    },
+    {
+      "id": 34,
+      "type": "verb_subject",
+      "ref": "2:275",
+      "arabic": "ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ",
+      "question": "أَحَلَّ und حَرَّمَ stehen im Maskulin Singular. Warum?",
+      "answer": "Das Subjekt (الله) ist maskulin Singular. VSO-Stellung: Verb kongruiert in Genus (mask.) und steht im Singular. Standardregel R1.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+    },
+    {
+      "id": 35,
+      "type": "verb_subject",
+      "ref": "7:40",
+      "arabic": "إِنَّ ٱلَّذِينَ كَذَّبُوا بِـَٔايَٰتِنَا وَٱسْتَكْبَرُوا عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ",
+      "question": "تُفَتَّحُ — warum Feminin-Markierung (تُ)?",
+      "answer": "أَبْوَاب (Tore) ist gebrochener Plural eines Nicht-Personen-Nomens → als Feminin Singular behandelt. Daher تُفَتَّحُ mit femininer Präfixmarkierung.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=40"
+    },
+    {
+      "id": 36,
+      "type": "verb_subject",
+      "ref": "11:44",
+      "arabic": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى",
+      "question": "ابْلَعِي und أَقْلِعِي enden auf -ي (femininer Imperativ). Warum?",
+      "answer": "أَرْض und سَمَاء sind feminin → Imperativ an sie: 2. Pers. Fem. Sg. (ابْلَعِي, أَقْلِعِي). Volle Genuskongruenz zwischen Munada und Verb.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=44"
+    },
+    {
+      "id": 37,
+      "type": "verb_subject",
+      "ref": "81:1",
+      "arabic": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+      "question": "كُوِّرَتْ — warum mit Ta (Femininmarkierung)?",
+      "answer": "الشَّمْسُ ist feminin (semantisch, ohne Ta Marbuta). Verb nach Subjekt mit direktem Kontakt → obligatorische Femininmarkierung -تْ.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=1"
+    },
+    {
+      "id": 38,
+      "type": "verb_subject",
+      "ref": "15:22",
+      "arabic": "وَأَرْسَلْنَا ٱلرِّيَٰحَ لَوَٰقِحَ",
+      "question": "Warum أَرْسَلْنَا (keine Femininmarkierung), obwohl الرِّيَاح feminin ist?",
+      "answer": "Das Subjekt ist -نَا (wir, 1. Pers. Plural). الرِّيَاحَ ist das Objekt, nicht das Subjekt. Das Verb kongruiert mit dem Subjekt, nicht dem Objekt.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=22"
+    },
+    {
+      "id": 39,
+      "type": "verb_subject",
+      "ref": "24:36",
+      "arabic": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُ يُسَبِّحُ لَهُ فِيهَا بِٱلْغُدُوِّ",
+      "question": "يُسَبِّحُ (mask. Sg.) obwohl رِجَالٌ (Plural) das Subjekt ist. Warum?",
+      "answer": "VSO-Stellung: Verb (يُسَبِّحُ) steht vor Subjekt (رِجَالٌ) → Verb im Singular. رِجَال ist maskulin → keine Femininmarkierung. Regel R1.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=36"
+    },
+    {
+      "id": 40,
+      "type": "verb_subject",
+      "ref": "26:60",
+      "arabic": "فَأَتْبَعُوهُم مُّشْرِقِينَ",
+      "question": "أَتْبَعُوا — analysiere die Numeruskongruenz.",
+      "answer": "Das Subjekt (Pharaos Leute) steht kontextuell VOR dem Verb → volle Pluralkongruenz: -وا (3. Pers. Mask. Plural). Regel R2.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=60"
+    },
+    {
+      "id": 41,
+      "type": "adjective_noun",
+      "ref": "2:187",
+      "arabic": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ",
+      "question": "لَيْلَة ist feminin. Wie würde ein Adjektiv dazu aussehen?",
+      "answer": "Feminin + Singular + Indefinit + Akkusativ (als Zeitadverb). Z.B. لَيْلَةً مُبَارَكَةً — vierfache Kongruenz.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+    },
+    {
+      "id": 42,
+      "type": "adjective_noun",
+      "ref": "76:21",
+      "arabic": "ثِيَابُ سُندُسٍ خُضْرٌ",
+      "question": "ثِيَابٌ خُضْرٌ — warum خُضْر (Plural) und nicht خَضْرَاء (Fem. Sg.)?",
+      "answer": "ثِيَاب ist gebrochener Plural. Für Nicht-Personen: Feminin Singular ODER gebrochener Plural des Adjektivs. خُضْر ist gebrochener Plural von أَخْضَر — beide Formen sind zulässig.",
+      "rule": "R5",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=21"
+    },
+    {
+      "id": 43,
+      "type": "adjective_noun",
+      "ref": "37:147",
+      "arabic": "إِلَىٰ مِائَةِ أَلْفٍ أَوْ يَزِيدُونَ",
+      "question": "يَزِيدُونَ (Mask. Plural) — warum nicht يَزِيدُ (Singular)?",
+      "answer": "مِائَة أَلْف (hunderttausend) bezieht sich auf Personen → Maskulin Plural. Das Verb يَزِيدُونَ kongruiert im Plural, weil es um Personen geht.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=147"
+    },
+    {
+      "id": 44,
+      "type": "adjective_noun",
+      "ref": "6:99",
+      "arabic": "ٱنظُرُوٓا إِلَىٰ ثَمَرِهِٓ إِذَآ أَثْمَرَ وَيَنْعِهِٓ",
+      "question": "ثَمَر — maskulin. Wie müsste ein Adjektiv kongruieren?",
+      "answer": "Maskulin + Singular + entsprechender Kasus und Definitheit. Z.B. ثَمَرٌ نَاضِجٌ. ثَمَر (Kollektivnomen) wird als Maskulin Singular behandelt.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=99"
+    },
+    {
+      "id": 45,
+      "type": "adjective_noun",
+      "ref": "18:86",
+      "arabic": "وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ",
+      "question": "عَيْنٍ حَمِئَةٍ — analysiere die Kongruenz zwischen Nomen und Adjektiv.",
+      "answer": "عَيْن (Quelle, feminin) + حَمِئَة (schlammig, feminin). Beide: Feminin + Singular + Indefinit + Genitiv (-ٍ). Vierfache Kongruenz.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=86"
+    },
+    {
+      "id": 46,
+      "type": "adjective_noun",
+      "ref": "4:43",
+      "arabic": "فَتَيَمَّمُوا صَعِيدًا طَيِّبًا",
+      "question": "صَعِيدًا طَيِّبًا — analysiere die Kongruenz.",
+      "answer": "صَعِيد (Erde/Boden, maskulin) + طَيِّب (gut/rein, maskulin). Beide: Maskulin + Singular + Indefinit + Akkusativ (-ًا). Vierfache Kongruenz.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+    },
+    {
+      "id": 47,
+      "type": "adjective_noun",
+      "ref": "5:114",
+      "arabic": "قَالَ عِيسَى ٱبْنُ مَرْيَمَ ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًا لِّأَوَّلِنَا",
+      "question": "مَائِدَةً — feminin, indefinit. Wie kongruiert das Verb تَكُونُ?",
+      "answer": "تَكُونُ mit femininer Präfixmarkierung (تَـ) weil مَائِدَة feminin ist. Singular, weil مَائِدَة Singular ist.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=114"
+    },
+    {
+      "id": 48,
+      "type": "adjective_noun",
+      "ref": "44:3",
+      "arabic": "إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةٍ مُّبَٰرَكَةٍ",
+      "question": "لَيْلَةٍ مُبَارَكَةٍ — analysiere die Kongruenz.",
+      "answer": "لَيْلَة (Nacht, feminin) + مُبَارَكَة (gesegnet, feminin). Beide: Feminin + Singular + Indefinit + Genitiv (-ةٍ/-ةٍ). Vierfache Kongruenz.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=44&verse=3"
+    },
+    {
+      "id": 49,
+      "type": "adjective_noun",
+      "ref": "56:22",
+      "arabic": "وَحُورٌ عِينٌ",
+      "question": "حُورٌ عِينٌ — wie kongruieren diese beiden Wörter?",
+      "answer": "حُور (Plural von حَوْرَاء, feminin) + عِين (Plural von عَيْنَاء, feminin). Beide im gebrochenen Plural, Nominativ, indefinit. Kongruenz in Numerus, Kasus, Definitheit.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=22"
+    },
+    {
+      "id": 50,
+      "type": "adjective_noun",
+      "ref": "2:168",
+      "arabic": "كُلُوا مِمَّا فِى ٱلْأَرْضِ حَلَٰلًا طَيِّبًا",
+      "question": "حَلَالًا طَيِّبًا — was beschreiben diese Adjektive?",
+      "answer": "حَلَالًا und طَيِّبًا sind Hal (Zustandsakkusative) oder Adjektive zu einem impliziten مَا (das Gegessene). Beide: Maskulin + Singular + Indefinit + Akkusativ. Kongruenz untereinander und mit dem Bezugswort.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=168"
+    },
+    {
+      "id": "50a",
+      "type": "verb_subject",
+      "ref": "66:12",
+      "arabic": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا",
+      "question": "أَحْصَنَتْ — warum mit Ta (Femininmarkierung)?",
+      "answer": "مَرْيَم ist feminin (Eigenname einer Frau) → obligatorische Femininmarkierung -تْ am Verb. Kongruenz in Genus.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=12"
+    },
+    {
+      "id": "50b",
+      "type": "verb_subject",
+      "ref": "28:25",
+      "arabic": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ",
+      "question": "جَاءَتْهُ — warum Ta-Markierung? Und تَمْشِي — warum feminines Präfix?",
+      "answer": "إِحْدَاهُمَا ist feminin (eine der beiden Frauen) → جَاءَتْ mit -تْ. تَمْشِي hat feminines Präfix تَـ. Durchgehende Genuskongruenz.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=25"
+    },
+    {
+      "id": "50c",
+      "type": "verb_subject",
+      "ref": "2:249",
+      "arabic": "فَلَمَّا جَاوَزَهُ هُوَ وَٱلَّذِينَ ءَامَنُوا مَعَهُ قَالُوا لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِ",
+      "question": "قَالُوا (Plural) — warum nicht قَالَ (Singular)?",
+      "answer": "Das Subjekt (هُوَ وَالَّذِينَ آمَنُوا) ist aus dem vorherigen Satz bekannt und geht dem Verb kontextuell voraus → volle Pluralkongruenz: قَالُوا.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+    },
+    {
+      "id": "50d",
+      "type": "verb_subject",
+      "ref": "2:102",
+      "arabic": "وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا",
+      "question": "كَفَرَ (Singular) vs. كَفَرُوا (Plural) — erkläre den Unterschied.",
+      "answer": "كَفَرَ سُلَيْمَانُ: VSO → Verb im Singular (R1). الشَّيَاطِينَ كَفَرُوا: Ism von لَٰكِنَّ steht VOR dem Verb → volle Pluralkongruenz (R2).",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+    },
+    {
+      "id": "50e",
+      "type": "verb_subject",
+      "ref": "2:87",
+      "arabic": "أَفَكُلَّمَا جَآءَكُمْ رَسُولٌ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "question": "جَاءَكُمْ رَسُولٌ — Singular Verb. Warum?",
+      "answer": "VSO: Verb (جَاءَ) steht vor dem Subjekt (رَسُولٌ) → Verb im Singular. Maskulin, weil رَسُول maskulin ist. Regel R1.",
+      "rule": "R1",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+    },
+    {
+      "id": "50f",
+      "type": "verb_subject",
+      "ref": "7:160",
+      "arabic": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا",
+      "question": "اثْنَتَيْ — warum feminine Zahlform?",
+      "answer": "اثْنَتَيْ (feminin, Dual, Akk./Gen.) weil es sich auf أُمَم (Gemeinschaften, feminin) bezieht. Die Zahl 2 kongruiert im Genus mit dem Gezählten (bei 1 und 2: gleiche Genuskongruenz).",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=160"
+    },
+    {
+      "id": "50g",
+      "type": "verb_subject",
+      "ref": "20:17",
+      "arabic": "وَمَا تِلْكَ بِيَمِينِكَ يَٰمُوسَىٰ",
+      "question": "تِلْكَ — feminines Demonstrativpronomen. Warum, wenn es sich auf عَصَا (Stock) bezieht?",
+      "answer": "عَصَا ist feminin (endet auf Alif Maqsura, semantisch feminin). Daher feminines Demonstrativpronomen تِلْكَ. Genuskongruenz.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=17"
+    },
+    {
+      "id": "50h",
+      "type": "verb_subject",
+      "ref": "39:73",
+      "arabic": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ",
+      "question": "وَفُتِحَتْ أَبْوَابُهَا — warum feminines Verb?",
+      "answer": "أَبْوَاب (Tore) ist gebrochener Plural eines Nicht-Personen-Nomens → als Feminin Singular behandelt. فُتِحَتْ mit femininem -تْ. Regel R3.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=73"
+    },
+    {
+      "id": "50i",
+      "type": "verb_subject",
+      "ref": "41:11",
+      "arabic": "ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ وَهِىَ دُخَانٌ فَقَالَ لَهَا وَلِلْأَرْضِ ٱئْتِيَا طَوْعًا أَوْ كَرْهًا قَالَتَآ أَتَيْنَا طَآئِعِينَ",
+      "question": "ائْتِيَا und قَالَتَا — analysiere die Dualkongruenz mit Genus.",
+      "answer": "Zwei feminine Subjekte (السَّمَاء und الْأَرْض) → Dual Feminin. ائْتِيَا (Imperativ Dual) und قَالَتَا (Perfekt, Dual feminin: -تَا). طَائِعِينَ (mask. Plural) — überraschend: maskuliner Plural für Personifikation.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=11"
+    },
+    {
+      "id": "50j",
+      "type": "verb_subject",
+      "ref": "2:233",
+      "arabic": "وَٱلْوَٰلِدَٰتُ يُرْضِعْنَ أَوْلَٰدَهُنَّ",
+      "question": "يُرْضِعْنَ — analysiere die Kongruenz.",
+      "answer": "الْوَالِدَاتُ (feminin Plural, gesunder Fem. Pl.) steht VOR dem Verb → volle Kongruenz: يُرْضِعْنَ (3. Pers. Fem. Plural mit -نَ Suffix). SVO-Stellung → Pluralkongruenz. Regel R2.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "id": 51,
+      "type": "broken_plural",
+      "ref": "6:6",
+      "arabic": "أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ",
+      "question": "الْأَنْهَار (Flüsse) ist gebrochener Plural. Warum تَجْرِي (Fem. Sg.)?",
+      "answer": "أَنْهَار ist gebrochener Plural eines Nicht-Personen-Nomens → Verb im Feminin Singular: تَجْرِي (nicht يَجْرُونَ).",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=6"
+    },
+    {
+      "id": 52,
+      "type": "broken_plural",
+      "ref": "54:7",
+      "arabic": "خُشَّعًا أَبْصَٰرُهُمْ يَخْرُجُونَ مِنَ ٱلْأَجْدَاثِ كَأَنَّهُمْ جَرَادٌ مُّنتَشِرٌ",
+      "question": "جَرَاد مُنتَشِر — warum maskulin Singular Adjektiv bei einem Kollektiv?",
+      "answer": "جَرَاد ist ein Kollektivnomen (Heuschrecken), kein Plural. Kollektiva werden als Maskulin Singular behandelt → مُنتَشِر (mask. Sg.).",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=54&verse=7"
+    },
+    {
+      "id": 53,
+      "type": "broken_plural",
+      "ref": "18:9",
+      "arabic": "أَمْ حَسِبْتَ أَنَّ أَصْحَٰبَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُوا مِنْ ءَايَٰتِنَا عَجَبًا",
+      "question": "كَانُوا (mask. Plural) — warum nicht كَانَتْ (fem. Sg.)?",
+      "answer": "أَصْحَاب (gebrochener Plural) bezieht sich auf PERSONEN → volle Pluralkongruenz (كَانُوا, mask. Plural). Die Regel 'gebr. Plural → Fem. Sg.' gilt NUR für Nicht-Personen.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=9"
+    },
+    {
+      "id": 54,
+      "type": "broken_plural",
+      "ref": "7:176",
+      "arabic": "فَمَثَلُهُ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث",
+      "question": "الْكَلْب — maskulin Singular. Wie reagiert das Verb?",
+      "answer": "يَلْهَثْ (mask. Sg., Jussiv) — volle Genuskongruenz. Einzelnes maskulines Nomen → maskulines Verb ohne Ta-Markierung.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=176"
+    },
+    {
+      "id": 55,
+      "type": "broken_plural",
+      "ref": "22:46",
+      "arabic": "أَفَلَمْ يَسِيرُوا فِى ٱلْأَرْضِ فَتَكُونَ لَهُمْ قُلُوبٌ يَعْقِلُونَ بِهَآ أَوْ ءَاذَانٌ يَسْمَعُونَ بِهَا",
+      "question": "قُلُوبٌ und آذَانٌ sind gebrochene Plurale. Warum يَعْقِلُونَ und يَسْمَعُونَ (mask. Plural)?",
+      "answer": "Die Verben beziehen sich nicht auf قُلُوب/آذَان direkt, sondern auf die Personen (لَهُمْ), die diese Organe besitzen. Die Kongruenz folgt dem logischen Subjekt (Menschen, mask. Plural).",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=46"
+    },
+    {
+      "id": 56,
+      "type": "broken_plural",
+      "ref": "3:14",
+      "arabic": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ",
+      "question": "الْخَيْلِ الْمُسَوَّمَةِ — warum المُسَوَّمَة (Fem. Sg.)?",
+      "answer": "خَيْل (Pferde) ist ein Kollektivnomen, das als Feminin Singular behandelt wird → Adjektiv الْمُسَوَّمَة (fem. Sg., definit, Genitiv).",
+      "rule": "R5",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=14"
+    },
+    {
+      "id": 57,
+      "type": "broken_plural",
+      "ref": "18:45",
+      "arabic": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ",
+      "question": "تَذْرُوهُ الرِّيَاحُ — warum تَذْرُو (Fem.)?",
+      "answer": "الرِّيَاح (Winde) ist gebrochener Plural eines Nicht-Personen-Nomens → als Feminin behandelt. Verb تَذْرُو hat feminines Präfix تَـ.",
+      "rule": "R3",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=45"
+    },
+    {
+      "id": 58,
+      "type": "broken_plural",
+      "ref": "2:24",
+      "arabic": "فَإِن لَّمْ تَفْعَلُوا وَلَن تَفْعَلُوا فَٱتَّقُوا ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ",
+      "question": "الَّتِي (Fem. Sg. Relativpronomen) bezieht sich auf النَّار. Warum feminin?",
+      "answer": "نَار ist feminin (semantisch, ohne Ta Marbuta) → Relativpronomen الَّتِي (Fem. Sg.). Kongruenz in Genus und Numerus.",
+      "rule": "R6",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=24"
+    },
+    {
+      "id": 59,
+      "type": "dual",
+      "ref": "55:19",
+      "arabic": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "question": "يَلْتَقِيَانِ — analysiere die Dualkongruenz.",
+      "answer": "الْبَحْرَيْنِ (Dual, Akkusativ: -يْنِ) → Verb im Dual: يَلْتَقِيَانِ (3. Pers. Mask. Dual, Indikativ). Das Alif-Nun markiert den Dual.",
+      "rule": "R2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=19"
+    },
+    {
+      "id": 60,
+      "type": "dual",
+      "ref": "18:60",
+      "arabic": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًا",
+      "question": "الْبَحْرَيْنِ — warum -يْنِ?",
+      "answer": "بَحْر (Meer) im Dual: الْبَحْرَانِ (Nom.) / الْبَحْرَيْنِ (Akk./Gen.). Nach مَجْمَعَ (Iḍāfa) steht Genitiv → الْبَحْرَيْنِ. Dual-Deklination: -انِ (Nom.) / -يْنِ (Akk./Gen.).",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=60"
+    },
+    {
+      "id": 61,
+      "type": "dual",
+      "ref": "5:25",
+      "arabic": "قَالَ رَبِّ إِنِّى لَآ أَمْلِكُ إِلَّا نَفْسِى وَأَخِى",
+      "question": "أَخِي — ist das Dual?",
+      "answer": "Nein. أَخِي ist Singular: أَخ + Possessivsuffix ي (mein Bruder). Der Dual von أَخ wäre أَخَوَانِ (Nom.) / أَخَوَيْنِ (Akk./Gen.). Die fünf besonderen Nomen (أَب، أَخ، حَم، فَم، ذُو) haben im Singular eigene Formen.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=25"
+    },
+    {
+      "id": 62,
+      "type": "dual",
+      "ref": "28:27",
+      "arabic": "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ",
+      "question": "ابْنَتَيَّ هَاتَيْنِ — analysiere die Dualkongruenz.",
+      "answer": "ابْنَتَيْنِ (Dual Feminin von ابْنَة, Akk./Gen.: -تَيْنِ) + هَاتَيْنِ (Demonstrativpronomen, Fem. Dual, Akk./Gen.: -تَيْنِ). Kongruenz in Genus (fem.), Numerus (Dual) und Kasus (Akk./Gen.).",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=28&verse=27"
+    },
+    {
+      "id": 63,
+      "type": "dual",
+      "ref": "55:46",
+      "arabic": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+      "question": "جَنَّتَانِ — warum Dual-Markierung -تَانِ?",
+      "answer": "جَنَّة (Garten, feminin) im Dual: جَنَّتَانِ (Nominativ). Die Endung -تَانِ zeigt: feminin (Ta) + Dual (Alif+Nun). Nominativ weil Khabar des eingeleiteten Subjekts.",
+      "rule": "R4",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+}

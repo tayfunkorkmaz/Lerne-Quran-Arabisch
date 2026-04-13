@@ -1,0 +1,1499 @@
+{
+  "meta": {
+    "title": "Reverse-Rasm-Drill",
+    "description": "Der Leser sieht voll vokalisierten Text und identifiziert Wörter, die im reinen Konsonantentext (Rasm) mehrdeutig wären.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "rr01",
+      "surah": 1,
+      "ayah": 4,
+      "vocalizedText": "مَالِكِ يَوْمِ الدِّينِ",
+      "ambiguousWords": [
+        {
+          "word": "مَالِكِ",
+          "consonantal": "ملك",
+          "alternatives": [
+            {
+              "vocalized": "مَالِكِ",
+              "meaning": "Besitzer (Partizip faaʿil)",
+              "form": "Aktives Partizip Form I"
+            },
+            {
+              "vocalized": "مَلِكِ",
+              "meaning": "König (Nomen faʿil)",
+              "form": "Nomen"
+            },
+            {
+              "vocalized": "مُلْكِ",
+              "meaning": "Herrschaft (Masdar)",
+              "form": "Masdar"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Konsonanten م-ل-ك erlauben drei verschiedene Vokalisierungen: maalik (Besitzer), malik (König), mulk (Herrschaft). Der Kontext (Genitiv vor yawm) lässt alle drei syntaktisch zu.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "id": "rr02",
+      "surah": 2,
+      "ayah": 37,
+      "vocalizedText": "فَتَلَقَّى آدَمُ مِن رَّبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ",
+      "ambiguousWords": [
+        {
+          "word": "آدَمُ",
+          "consonantal": "ادم",
+          "alternatives": [
+            {
+              "vocalized": "آدَمُ",
+              "meaning": "Adam (Nominativ — Subjekt)",
+              "form": "Eigenname, Nominativ"
+            },
+            {
+              "vocalized": "آدَمَ",
+              "meaning": "Adam (Akkusativ — Objekt)",
+              "form": "Eigenname, Akkusativ"
+            }
+          ]
+        },
+        {
+          "word": "كَلِمَاتٍ",
+          "consonantal": "كلمات",
+          "alternatives": [
+            {
+              "vocalized": "كَلِمَاتٍ",
+              "meaning": "Worte (Akkusativ, Objekt)",
+              "form": "Femininer Plural, Akkusativ"
+            },
+            {
+              "vocalized": "كَلِمَاتٌ",
+              "meaning": "Worte (Nominativ, Subjekt)",
+              "form": "Femininer Plural, Nominativ"
+            }
+          ]
+        }
+      ],
+      "explanation": "Wenn Adam Nominativ ist, empfängt ER die Worte. Wenn Adam Akkusativ wäre und kalimaatun Nominativ, hätten die Worte IHN empfangen. Die Kasusmarkierung entscheidet, wer Subjekt und wer Objekt ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=37"
+    },
+    {
+      "id": "rr03",
+      "surah": 4,
+      "ayah": 164,
+      "vocalizedText": "وَكَلَّمَ اللَّهُ مُوسَى تَكْلِيمًا",
+      "ambiguousWords": [
+        {
+          "word": "اللَّهُ",
+          "consonantal": "الله",
+          "alternatives": [
+            {
+              "vocalized": "اللَّهُ",
+              "meaning": "Gott (Nominativ — Subjekt)",
+              "form": "Nominativ"
+            },
+            {
+              "vocalized": "اللَّهَ",
+              "meaning": "Gott (Akkusativ — Objekt)",
+              "form": "Akkusativ"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm ist der Unterschied zwischen Allahu (Nominativ: Gott sprach zu Musa) und Allaha (Akkusativ: jemand sprach Gott gegenüber, mit Musa als Subjekt) unsichtbar. Nur die Kasusendung entscheidet die gesamte Satzstruktur.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=164"
+    },
+    {
+      "id": "rr04",
+      "surah": 2,
+      "ayah": 4,
+      "vocalizedText": "وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+      "ambiguousWords": [
+        {
+          "word": "يُوقِنُونَ",
+          "consonantal": "يوقنون",
+          "alternatives": [
+            {
+              "vocalized": "يُوقِنُونَ",
+              "meaning": "sie sind gewiss (Aktiv, Form IV)",
+              "form": "Imperfekt Aktiv Form IV"
+            },
+            {
+              "vocalized": "يُوقَنُونَ",
+              "meaning": "man ist sich ihrer gewiss (Passiv, Form IV)",
+              "form": "Imperfekt Passiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (yuuqinuuna) und Passiv (yuuqanuuna) von Form IV unterscheiden sich nur im Kurzvokal des vorletzten Radikals — im Rasm identisch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "id": "rr05",
+      "surah": 3,
+      "ayah": 7,
+      "vocalizedText": "هُوَ الَّذِي أَنزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُّحْكَمَاتٌ",
+      "ambiguousWords": [
+        {
+          "word": "أَنزَلَ",
+          "consonantal": "انزل",
+          "alternatives": [
+            {
+              "vocalized": "أَنزَلَ",
+              "meaning": "er sandte herab (Aktiv)",
+              "form": "Perfekt Aktiv Form IV"
+            },
+            {
+              "vocalized": "أُنزِلَ",
+              "meaning": "es wurde herabgesandt (Passiv)",
+              "form": "Perfekt Passiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Das Perfekt Aktiv (anzala — er sandte herab) und Passiv (unzila — es wurde herabgesandt) von Form IV haben identische Konsonanten. Nur die Vokale unterscheiden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+    },
+    {
+      "id": "rr06",
+      "surah": 2,
+      "ayah": 282,
+      "vocalizedText": "وَلَا يُضَارَّ كَاتِبٌ وَلَا شَهِيدٌ",
+      "ambiguousWords": [
+        {
+          "word": "يُضَارَّ",
+          "consonantal": "يضار",
+          "alternatives": [
+            {
+              "vocalized": "يُضَارَّ",
+              "meaning": "soll nicht geschädigt werden (Passiv)",
+              "form": "Imperfekt Passiv Form III, Jussiv"
+            },
+            {
+              "vocalized": "يُضَارِرْ",
+              "meaning": "soll nicht schädigen (Aktiv)",
+              "form": "Imperfekt Aktiv Form III, Jussiv"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm kollabiert der Unterschied zwischen Aktiv (der Schreiber schädigt nicht) und Passiv (der Schreiber wird nicht geschädigt). Beide Lesungen sind grammatisch möglich.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282"
+    },
+    {
+      "id": "rr07",
+      "surah": 96,
+      "ayah": 1,
+      "vocalizedText": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+      "ambiguousWords": [
+        {
+          "word": "خَلَقَ",
+          "consonantal": "خلق",
+          "alternatives": [
+            {
+              "vocalized": "خَلَقَ",
+              "meaning": "er erschuf (Perfekt Aktiv)",
+              "form": "Perfekt Form I 3ms"
+            },
+            {
+              "vocalized": "خُلِقَ",
+              "meaning": "er wurde erschaffen (Perfekt Passiv)",
+              "form": "Perfekt Passiv Form I 3ms"
+            },
+            {
+              "vocalized": "خَلْقَ",
+              "meaning": "Schöpfung (Masdar, Akkusativ)",
+              "form": "Masdar Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Konsonanten خ-ل-ق erlauben: khalaqa (er erschuf), khuliqa (wurde erschaffen), khalqa (Schöpfung). Der Kontext — Gott als Subjekt im Relativsatz — disambiguiert zu khalaqa.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+    },
+    {
+      "id": "rr08",
+      "surah": 2,
+      "ayah": 255,
+      "vocalizedText": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+      "ambiguousWords": [
+        {
+          "word": "الْحَيُّ",
+          "consonantal": "الحي",
+          "alternatives": [
+            {
+              "vocalized": "الْحَيُّ",
+              "meaning": "der Lebende (Adjektiv, Nominativ)",
+              "form": "Adjektiv faʿil, Nominativ"
+            },
+            {
+              "vocalized": "الْحَيِّ",
+              "meaning": "des Lebenden (Genitiv)",
+              "form": "Adjektiv faʿil, Genitiv"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm ist der Kasusunterschied (Nominativ vs. Genitiv) unsichtbar. Der Nominalsatz-Kontext zeigt: es ist Khabar (Prädikat) im Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "rr09",
+      "surah": 112,
+      "ayah": 4,
+      "vocalizedText": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "ambiguousWords": [
+        {
+          "word": "كُفُوًا",
+          "consonantal": "كفوا",
+          "alternatives": [
+            {
+              "vocalized": "كُفُوًا",
+              "meaning": "ebenbürtig (Akkusativ, Khabar von yakun)",
+              "form": "Adjektiv, Akkusativ"
+            },
+            {
+              "vocalized": "كُفْؤًا",
+              "meaning": "ebenbürtig (alternative Vokalisierung)",
+              "form": "Adjektiv, Akkusativ"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Konsonanten كفو erlauben verschiedene Vokalverteilungen (kufuwan, kuf'an). Beide bedeuten 'ebenbürtig' — ein Fall wo Disambiguation keine semantische Änderung bewirkt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+    },
+    {
+      "id": "rr10",
+      "surah": 2,
+      "ayah": 143,
+      "vocalizedText": "وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا",
+      "ambiguousWords": [
+        {
+          "word": "وَسَطًا",
+          "consonantal": "وسطا",
+          "alternatives": [
+            {
+              "vocalized": "وَسَطًا",
+              "meaning": "mittlere/gerechte (Adjektiv, Akkusativ)",
+              "form": "Nomen/Adjektiv faʿal, Akkusativ"
+            },
+            {
+              "vocalized": "وُسْطًا",
+              "meaning": "mittlere (Elativ-Form)",
+              "form": "Adjektiv fu'l"
+            }
+          ]
+        }
+      ],
+      "explanation": "wasatan (mittlere/gerechte) und wustan (die mittlere) unterscheiden sich nur in den Vokalen — im Rasm identisch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+    },
+    {
+      "id": "rr11",
+      "surah": 2,
+      "ayah": 9,
+      "vocalizedText": "يُخَادِعُونَ اللَّهَ وَالَّذِينَ آمَنُوا",
+      "ambiguousWords": [
+        {
+          "word": "يُخَادِعُونَ",
+          "consonantal": "يخادعون",
+          "alternatives": [
+            {
+              "vocalized": "يُخَادِعُونَ",
+              "meaning": "sie versuchen zu täuschen (Form III)",
+              "form": "Imperfekt Form III 3mp"
+            },
+            {
+              "vocalized": "يَخْدَعُونَ",
+              "meaning": "sie täuschen (Form I)",
+              "form": "Imperfekt Form I 3mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form III (yukhadiʿuna — sie versuchen gegenseitig zu täuschen) und Form I (yakhdaʿuna — sie täuschen) kollabieren im Konsonantentext nicht vollständig, da Form III ein Alif nach dem ersten Radikal hat. Aber der Unterschied zwischen Damma und Fatha am Präfix ist unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "id": "rr12",
+      "surah": 2,
+      "ayah": 26,
+      "vocalizedText": "إِنَّ اللَّهَ لَا يَسْتَحْيِي أَن يَضْرِبَ مَثَلًا",
+      "ambiguousWords": [
+        {
+          "word": "يَضْرِبَ",
+          "consonantal": "يضرب",
+          "alternatives": [
+            {
+              "vocalized": "يَضْرِبَ",
+              "meaning": "dass er aufstellt (Subjunktiv nach an)",
+              "form": "Imperfekt Subjunktiv Form I"
+            },
+            {
+              "vocalized": "يَضْرِبُ",
+              "meaning": "er stellt auf (Indikativ)",
+              "form": "Imperfekt Indikativ Form I"
+            },
+            {
+              "vocalized": "يُضْرَبَ",
+              "meaning": "dass aufgestellt wird (Passiv Subjunktiv)",
+              "form": "Imperfekt Passiv Subjunktiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Der Modus (Indikativ -u, Subjunktiv -a, Jussiv Sukun) ist im Rasm unsichtbar. Erst die Partikel أَنْ vor dem Verb zeigt den Subjunktiv an.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "id": "rr13",
+      "surah": 55,
+      "ayah": 2,
+      "vocalizedText": "عَلَّمَ الْقُرْآنَ",
+      "ambiguousWords": [
+        {
+          "word": "عَلَّمَ",
+          "consonantal": "علم",
+          "alternatives": [
+            {
+              "vocalized": "عَلَّمَ",
+              "meaning": "er lehrte (Form II)",
+              "form": "Perfekt Aktiv Form II"
+            },
+            {
+              "vocalized": "عَلِمَ",
+              "meaning": "er wusste (Form I)",
+              "form": "Perfekt Aktiv Form I"
+            },
+            {
+              "vocalized": "عُلِّمَ",
+              "meaning": "es wurde gelehrt (Passiv Form II)",
+              "form": "Perfekt Passiv Form II"
+            },
+            {
+              "vocalized": "عُلِمَ",
+              "meaning": "es wurde gewusst (Passiv Form I)",
+              "form": "Perfekt Passiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Konsonanten ع-ل-م kollabieren vier Formen: Form I Aktiv (wusste), Form I Passiv (wurde gewusst), Form II Aktiv (lehrte), Form II Passiv (wurde gelehrt). Nur die Vokale unterscheiden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=2"
+    },
+    {
+      "id": "rr14",
+      "surah": 2,
+      "ayah": 185,
+      "vocalizedText": "شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ",
+      "ambiguousWords": [
+        {
+          "word": "أُنزِلَ",
+          "consonantal": "انزل",
+          "alternatives": [
+            {
+              "vocalized": "أُنزِلَ",
+              "meaning": "wurde herabgesandt (Passiv Form IV)",
+              "form": "Perfekt Passiv Form IV"
+            },
+            {
+              "vocalized": "أَنزَلَ",
+              "meaning": "er sandte herab (Aktiv Form IV)",
+              "form": "Perfekt Aktiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form IV Aktiv und Passiv haben identische Konsonanten. Hier disambiguiert der fehlende explizite Akteur: kein Subjekt nach dem Verb → Passiv (wurde herabgesandt).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185"
+    },
+    {
+      "id": "rr15",
+      "surah": 7,
+      "ayah": 54,
+      "vocalizedText": "يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا",
+      "ambiguousWords": [
+        {
+          "word": "يُغْشِي",
+          "consonantal": "يغشى",
+          "alternatives": [
+            {
+              "vocalized": "يُغْشِي",
+              "meaning": "er bedeckt (Form IV)",
+              "form": "Imperfekt Aktiv Form IV"
+            },
+            {
+              "vocalized": "يَغْشَى",
+              "meaning": "er bedeckt (Form I)",
+              "form": "Imperfekt Aktiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form I und Form IV von غ-ش-ي können im Rasm identisch aussehen — besonders wenn das Ya am Ende beide Male als Alif Maqsura geschrieben wird.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=54"
+    },
+    {
+      "id": "rr16",
+      "surah": 2,
+      "ayah": 106,
+      "vocalizedText": "مَا نَنسَخْ مِنْ آيَةٍ أَوْ نُنسِهَا",
+      "ambiguousWords": [
+        {
+          "word": "نُنسِهَا",
+          "consonantal": "ننسها",
+          "alternatives": [
+            {
+              "vocalized": "نُنسِهَا",
+              "meaning": "wir lassen sie vergessen (Form IV von ن-س-ي)",
+              "form": "Imperfekt Form IV"
+            },
+            {
+              "vocalized": "نَنْسَأْهَا",
+              "meaning": "wir verschieben sie (Form I von ن-س-أ)",
+              "form": "Imperfekt Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Zwei verschiedene Wurzeln (ن-س-ي 'vergessen' und ن-س-أ 'verschieben') können denselben Konsonantentext ergeben. Ein Paradebeispiel für Wurzel-Ambiguität im Rasm.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=106"
+    },
+    {
+      "id": "rr17",
+      "surah": 30,
+      "ayah": 1,
+      "vocalizedText": "الم",
+      "ambiguousWords": [
+        {
+          "word": "الم",
+          "consonantal": "الم",
+          "alternatives": [
+            {
+              "vocalized": "الٓمٓ",
+              "meaning": "Alif-Lam-Mim (Einzelbuchstaben)",
+              "form": "Huruf Muqattaʿat"
+            },
+            {
+              "vocalized": "أَلَم",
+              "meaning": "hat nicht? (Fragepartikel + lam)",
+              "form": "Hamza + Negation lam"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Konsonanten ا-ل-م könnten als Einzelbuchstaben (Huruf Muqattaʿat) oder als Partikelkombination gelesen werden. Die Position am Surenanfang disambiguiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=1"
+    },
+    {
+      "id": "rr18",
+      "surah": 2,
+      "ayah": 10,
+      "vocalizedText": "فِي قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ اللَّهُ مَرَضًا",
+      "ambiguousWords": [
+        {
+          "word": "فَزَادَهُمُ",
+          "consonantal": "فزادهم",
+          "alternatives": [
+            {
+              "vocalized": "فَزَادَهُمُ",
+              "meaning": "so vermehrte ihnen (Aktiv)",
+              "form": "Perfekt Aktiv Form I + Suffix"
+            },
+            {
+              "vocalized": "فَزِيدَهُمُ",
+              "meaning": "so wurde ihnen vermehrt (theoret. Passiv)",
+              "form": "Perfekt Passiv Form I + Suffix"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (zaada — er vermehrte) und Passiv (ziida — es wurde vermehrt) von diesem hohlen Verb kollabieren im Rasm.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "id": "rr19",
+      "surah": 17,
+      "ayah": 36,
+      "vocalizedText": "إِنَّ السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ كُلُّ أُولَٰئِكَ كَانَ عَنْهُ مَسْئُولًا",
+      "ambiguousWords": [
+        {
+          "word": "مَسْئُولًا",
+          "consonantal": "مسولا",
+          "alternatives": [
+            {
+              "vocalized": "مَسْئُولًا",
+              "meaning": "befragt/verantwortlich (Passivpartizip)",
+              "form": "Passivpartizip Form I"
+            },
+            {
+              "vocalized": "مَسْؤُولًا",
+              "meaning": "befragt (alternative Hamza-Position)",
+              "form": "Passivpartizip Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Hamza-Platzierung variiert orthographisch, aber die Bedeutung bleibt identisch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=36"
+    },
+    {
+      "id": "rr20",
+      "surah": 3,
+      "ayah": 146,
+      "vocalizedText": "وَكَأَيِّن مِّن نَّبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ",
+      "ambiguousWords": [
+        {
+          "word": "قَاتَلَ",
+          "consonantal": "قاتل",
+          "alternatives": [
+            {
+              "vocalized": "قَاتَلَ",
+              "meaning": "er kämpfte (Form III Aktiv)",
+              "form": "Perfekt Form III"
+            },
+            {
+              "vocalized": "قُتِلَ",
+              "meaning": "er wurde getötet (Form I Passiv)",
+              "form": "Perfekt Passiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "قاتل (Form III: kämpfen) und قتل (Form I Passiv: getötet werden) — die Lesungen ändern die Aussage fundamental: Kämpfte er mit Tausenden, oder wurden Tausende getötet?",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=146"
+    },
+    {
+      "id": "rr21",
+      "surah": 18,
+      "ayah": 86,
+      "vocalizedText": "وَجَدَهَا تَغْرُبُ فِي عَيْنٍ حَمِئَةٍ",
+      "ambiguousWords": [
+        {
+          "word": "حَمِئَةٍ",
+          "consonantal": "حمئه",
+          "alternatives": [
+            {
+              "vocalized": "حَمِئَةٍ",
+              "meaning": "schlammig (von حمأ — Schlamm)",
+              "form": "Adjektiv faʿila"
+            },
+            {
+              "vocalized": "حَامِيَةٍ",
+              "meaning": "heiß (von حمي — heiß sein)",
+              "form": "Aktives Partizip Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Zwei verschiedene Wurzeln: حمأ (Schlamm) vs. حمي (Hitze). Der Konsonantentext lässt beide zu — schlammige Quelle oder heiße Quelle.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=86"
+    },
+    {
+      "id": "rr22",
+      "surah": 2,
+      "ayah": 259,
+      "vocalizedText": "فَانظُرْ إِلَى طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ",
+      "ambiguousWords": [
+        {
+          "word": "يَتَسَنَّهْ",
+          "consonantal": "يتسنه",
+          "alternatives": [
+            {
+              "vocalized": "يَتَسَنَّهْ",
+              "meaning": "es veränderte sich nicht (Form V von سنه)",
+              "form": "Jussiv Form V"
+            },
+            {
+              "vocalized": "يَتَسَنَّ",
+              "meaning": "es veränderte sich nicht (Form V von سنو/سني)",
+              "form": "Jussiv Form V (defektiv)"
+            }
+          ]
+        }
+      ],
+      "explanation": "Ist das Ha am Ende Teil der Wurzel (سنه) oder nur ein Pausen-Ha? Verschiedene Wurzeln, gleicher Konsonantentext.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+    },
+    {
+      "id": "rr23",
+      "surah": 2,
+      "ayah": 58,
+      "vocalizedText": "وَقُولُوا حِطَّةٌ",
+      "ambiguousWords": [
+        {
+          "word": "حِطَّةٌ",
+          "consonantal": "حطه",
+          "alternatives": [
+            {
+              "vocalized": "حِطَّةٌ",
+              "meaning": "Entlastung/Vergebungsbitte",
+              "form": "Nomen fi'la"
+            },
+            {
+              "vocalized": "حَطَّةٌ",
+              "meaning": "Herabsetzung (alternative Vokalisierung)",
+              "form": "Nomen fa'la"
+            }
+          ]
+        }
+      ],
+      "explanation": "Kasra vs. Fatha am ersten Radikal ändert die Nominalform — im Rasm unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "id": "rr24",
+      "surah": 6,
+      "ayah": 57,
+      "vocalizedText": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ يَقُصُّ الْحَقَّ",
+      "ambiguousWords": [
+        {
+          "word": "يَقُصُّ",
+          "consonantal": "يقص",
+          "alternatives": [
+            {
+              "vocalized": "يَقُصُّ",
+              "meaning": "er erzählt (Form I von قصص)",
+              "form": "Imperfekt Form I (geminiert)"
+            },
+            {
+              "vocalized": "يَقْضِي",
+              "meaning": "er entscheidet (Form I von قضي)",
+              "form": "Imperfekt Form I (defektiv)"
+            }
+          ]
+        }
+      ],
+      "explanation": "يقص könnte von قصص (erzählen) oder — in manchen Lesarten — als Schreibvariante von يقضي (entscheiden, von قضي) gelesen werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=57"
+    },
+    {
+      "id": "rr25",
+      "surah": 11,
+      "ayah": 46,
+      "vocalizedText": "إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ",
+      "ambiguousWords": [
+        {
+          "word": "عَمَلٌ",
+          "consonantal": "عمل",
+          "alternatives": [
+            {
+              "vocalized": "عَمَلٌ",
+              "meaning": "eine Tat (Nomen, Nominativ)",
+              "form": "Masdar Form I"
+            },
+            {
+              "vocalized": "عَمِلَ",
+              "meaning": "er tat (Verb, Perfekt)",
+              "form": "Perfekt Form I 3ms"
+            }
+          ]
+        }
+      ],
+      "explanation": "عمل als Nomen (seine Bitte ist eine Tat, die nicht rechtschaffen ist) oder als Verb (er tat etwas, das nicht rechtschaffen ist). Der Kontext mit إنّه und dem Khabar غير صالح disambiguiert zu Nominalsatz → Nomen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=46"
+    },
+    {
+      "id": "rr26",
+      "surah": 2,
+      "ayah": 283,
+      "vocalizedText": "فَإِنْ أَمِنَ بَعْضُكُمْ بَعْضًا فَلْيُؤَدِّ الَّذِي اؤْتُمِنَ أَمَانَتَهُ",
+      "ambiguousWords": [
+        {
+          "word": "اؤْتُمِنَ",
+          "consonantal": "اوتمن",
+          "alternatives": [
+            {
+              "vocalized": "اؤْتُمِنَ",
+              "meaning": "dem vertraut wurde (Passiv Form VIII)",
+              "form": "Perfekt Passiv Form VIII"
+            },
+            {
+              "vocalized": "ائْتَمَنَ",
+              "meaning": "er vertraute (Aktiv Form VIII)",
+              "form": "Perfekt Aktiv Form VIII"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form VIII Aktiv (i'tamana — er vertraute) und Passiv (u'tumina — ihm wurde vertraut) haben im Rasm identische Konsonanten. Nur die Vokale unterscheiden Subjekt und Objekt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=283"
+    },
+    {
+      "id": "rr27",
+      "surah": 3,
+      "ayah": 26,
+      "vocalizedText": "تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ",
+      "ambiguousWords": [
+        {
+          "word": "تُؤْتِي",
+          "consonantal": "تؤتى",
+          "alternatives": [
+            {
+              "vocalized": "تُؤْتِي",
+              "meaning": "du gibst (Aktiv, Form IV)",
+              "form": "Imperfekt Aktiv Form IV 2ms"
+            },
+            {
+              "vocalized": "تُؤْتَى",
+              "meaning": "dir wird gegeben (Passiv, Form IV)",
+              "form": "Imperfekt Passiv Form IV 2ms"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (tu'tii — du gibst) und Passiv (tu'taa — dir wird gegeben) unterscheiden sich nur im Vokal des letzten Radikals. Im Rasm ist dieser Unterschied unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=26"
+    },
+    {
+      "id": "rr28",
+      "surah": 4,
+      "ayah": 78,
+      "vocalizedText": "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ",
+      "ambiguousWords": [
+        {
+          "word": "يُدْرِكْ",
+          "consonantal": "يدرك",
+          "alternatives": [
+            {
+              "vocalized": "يُدْرِكْ",
+              "meaning": "er erreicht euch (Aktiv Jussiv Form IV)",
+              "form": "Imperfekt Jussiv Aktiv Form IV"
+            },
+            {
+              "vocalized": "يُدْرَكْ",
+              "meaning": "es wird erreicht (Passiv Jussiv Form IV)",
+              "form": "Imperfekt Jussiv Passiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form IV Aktiv und Passiv im Jussiv: yu-drik (er erreicht) vs. yu-drak (es wird erreicht). Der Kasra/Fatha-Unterschied am zweiten Radikal ist im Rasm unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+    },
+    {
+      "id": "rr29",
+      "surah": 6,
+      "ayah": 93,
+      "vocalizedText": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ قَالَ أُوحِيَ إِلَيَّ وَلَمْ يُوحَ إِلَيْهِ شَيْءٌ",
+      "ambiguousWords": [
+        {
+          "word": "أُوحِيَ",
+          "consonantal": "اوحى",
+          "alternatives": [
+            {
+              "vocalized": "أُوحِيَ",
+              "meaning": "mir wurde offenbart (Passiv)",
+              "form": "Perfekt Passiv Form IV"
+            },
+            {
+              "vocalized": "أَوْحَى",
+              "meaning": "er offenbarte (Aktiv)",
+              "form": "Perfekt Aktiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form IV: uuhiya (Passiv — mir wurde offenbart) vs. awhaa (Aktiv — er offenbarte). Im Rasm identisch. Der Kontext (إِلَيَّ) disambiguiert: es ist Passiv (mir wurde offenbart).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=93"
+    },
+    {
+      "id": "rr30",
+      "surah": 8,
+      "ayah": 17,
+      "vocalizedText": "فَلَمْ تَقْتُلُوهُمْ وَلَٰكِنَّ اللَّهَ قَتَلَهُمْ وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَٰكِنَّ اللَّهَ رَمَىٰ",
+      "ambiguousWords": [
+        {
+          "word": "رَمَيْتَ",
+          "consonantal": "رميت",
+          "alternatives": [
+            {
+              "vocalized": "رَمَيْتَ",
+              "meaning": "du warfst (Aktiv 2ms)",
+              "form": "Perfekt Form I 2ms"
+            },
+            {
+              "vocalized": "رُمِيتَ",
+              "meaning": "du wurdest geworfen (Passiv 2ms)",
+              "form": "Perfekt Passiv Form I 2ms"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (ramayta — du warfst) und Passiv (rumiita — du wurdest geworfen) der 2. Person haben identische Konsonanten. Der Vers negiert das aktive Werfen und schreibt es Gott zu.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=17"
+    },
+    {
+      "id": "rr31",
+      "surah": 3,
+      "ayah": 169,
+      "vocalizedText": "وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ",
+      "ambiguousWords": [
+        {
+          "word": "قُتِلُوا",
+          "consonantal": "قتلوا",
+          "alternatives": [
+            {
+              "vocalized": "قُتِلُوا",
+              "meaning": "sie wurden getötet (Passiv)",
+              "form": "Perfekt Passiv Form I 3mp"
+            },
+            {
+              "vocalized": "قَتَلُوا",
+              "meaning": "sie töteten (Aktiv)",
+              "form": "Perfekt Aktiv Form I 3mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (qataluu — sie töteten) und Passiv (qutiluu — sie wurden getötet) haben im Rasm identische Konsonanten. Nur die Vokale auf den ersten zwei Radikalen unterscheiden sich.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=169"
+    },
+    {
+      "id": "rr32",
+      "surah": 7,
+      "ayah": 143,
+      "vocalizedText": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا",
+      "ambiguousWords": [
+        {
+          "word": "تَجَلَّىٰ",
+          "consonantal": "تجلى",
+          "alternatives": [
+            {
+              "vocalized": "تَجَلَّىٰ",
+              "meaning": "er offenbarte sich / erschien (Form V)",
+              "form": "Perfekt Form V"
+            },
+            {
+              "vocalized": "تُجُلِّيَ",
+              "meaning": "es wurde offenbart (Passiv Form V)",
+              "form": "Perfekt Passiv Form V"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form V Aktiv (tajallaa — er offenbarte sich) und Passiv (tujulliya — es wurde offenbart) kollabieren im Rasm. Das Subjekt رَبُّهُ im Nominativ disambiguiert zu Aktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=143"
+    },
+    {
+      "id": "rr33",
+      "surah": 12,
+      "ayah": 20,
+      "vocalizedText": "وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ",
+      "ambiguousWords": [
+        {
+          "word": "شَرَوْهُ",
+          "consonantal": "شروه",
+          "alternatives": [
+            {
+              "vocalized": "شَرَوْهُ",
+              "meaning": "sie verkauften ihn (Form I)",
+              "form": "Perfekt Aktiv Form I 3mp"
+            },
+            {
+              "vocalized": "اشْتَرَوْهُ",
+              "meaning": "sie kauften ihn (Form VIII)",
+              "form": "Perfekt Aktiv Form VIII 3mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "شَرَى kann sowohl 'kaufen' als auch 'verkaufen' bedeuten. Die Wurzel ش-ر-ي ist ein Autoantonym — der Kontext mit بِثَمَنٍ بَخْسٍ (für einen geringen Preis) zeigt, dass Verkaufen gemeint ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=20"
+    },
+    {
+      "id": "rr34",
+      "surah": 5,
+      "ayah": 6,
+      "vocalizedText": "وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ",
+      "ambiguousWords": [
+        {
+          "word": "أَرْجُلَكُمْ",
+          "consonantal": "ارجلكم",
+          "alternatives": [
+            {
+              "vocalized": "وَأَرْجُلَكُمْ",
+              "meaning": "und eure Füße (Akkusativ — wascht sie)",
+              "form": "Akkusativ (Ma'tuf auf وُجُوهَكُمْ)"
+            },
+            {
+              "vocalized": "وَأَرْجُلِكُمْ",
+              "meaning": "und eure Füße (Genitiv — wischt darüber)",
+              "form": "Genitiv (Ma'tuf auf بِرُءُوسِكُمْ)"
+            }
+          ]
+        }
+      ],
+      "explanation": "Akkusativ (arjulakum — wascht eure Füße, koordiniert mit 'eure Gesichter') vs. Genitiv (arjulikum — wischt über eure Füße, koordiniert mit 'eure Köpfe'). Der Kasusunterschied bestimmt die beschriebene Handlung — im Rasm unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=6"
+    },
+    {
+      "id": "rr35",
+      "surah": 9,
+      "ayah": 3,
+      "vocalizedText": "وَأَذَانٌ مِنَ اللَّهِ وَرَسُولِهِ إِلَى النَّاسِ",
+      "ambiguousWords": [
+        {
+          "word": "وَرَسُولِهِ",
+          "consonantal": "ورسوله",
+          "alternatives": [
+            {
+              "vocalized": "وَرَسُولِهِ",
+              "meaning": "und Seines Gesandten (Genitiv — von Gott und Seinem Gesandten)",
+              "form": "Genitiv (Ma'tuf auf اللَّهِ)"
+            },
+            {
+              "vocalized": "وَرَسُولُهُ",
+              "meaning": "und Sein Gesandter (Nominativ — Mubtada)",
+              "form": "Nominativ (neuer Satz)"
+            }
+          ]
+        }
+      ],
+      "explanation": "Genitiv (wa-rasuulihi — und Seines Gesandten, koordiniert mit 'Gott') vs. Nominativ (wa-rasuuluhu — und Sein Gesandter als neues Subjekt). Die Kasusendung bestimmt die syntaktische Zuordnung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=3"
+    },
+    {
+      "id": "rr36",
+      "surah": 14,
+      "ayah": 4,
+      "vocalizedText": "يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+      "ambiguousWords": [
+        {
+          "word": "يُضِلُّ",
+          "consonantal": "يضل",
+          "alternatives": [
+            {
+              "vocalized": "يُضِلُّ",
+              "meaning": "er führt in die Irre (Form IV Aktiv)",
+              "form": "Imperfekt Aktiv Form IV"
+            },
+            {
+              "vocalized": "يَضِلُّ",
+              "meaning": "er geht in die Irre (Form I Aktiv)",
+              "form": "Imperfekt Aktiv Form I"
+            },
+            {
+              "vocalized": "يُضَلُّ",
+              "meaning": "er wird in die Irre geführt (Form IV Passiv)",
+              "form": "Imperfekt Passiv Form IV"
+            }
+          ]
+        }
+      ],
+      "explanation": "Drei Lesungen: yu-dillu (er führt in die Irre — Gott als Subjekt), ya-dillu (er irrt selbst) und yu-dallu (er wird irregeführt). Im Rasm identisch. Das Präfix-Vokal (Damma vs. Fatha) ist entscheidend.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=14&verse=4"
+    },
+    {
+      "id": "rr37",
+      "surah": 16,
+      "ayah": 10,
+      "vocalizedText": "هُوَ الَّذِي أَنْزَلَ مِنَ السَّمَاءِ مَاءً لَكُمْ مِنْهُ شَرَابٌ وَمِنْهُ شَجَرٌ فِيهِ تُسِيمُونَ",
+      "ambiguousWords": [
+        {
+          "word": "تُسِيمُونَ",
+          "consonantal": "تسيمون",
+          "alternatives": [
+            {
+              "vocalized": "تُسِيمُونَ",
+              "meaning": "ihr lasst weiden (Form IV von س-و-م)",
+              "form": "Imperfekt Aktiv Form IV 2mp"
+            },
+            {
+              "vocalized": "تَسُومُونَ",
+              "meaning": "ihr weidet (Form I von س-و-م)",
+              "form": "Imperfekt Aktiv Form I 2mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form IV (tusiimuna — ihr lasst weiden, kausativ) und Form I (tasuumuna — ihr weidet) haben im Rasm ähnliche Konsonanten. Der Unterschied liegt im Präfix-Vokal und im Stammvokal.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=10"
+    },
+    {
+      "id": "rr38",
+      "surah": 18,
+      "ayah": 94,
+      "vocalizedText": "إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِي الْأَرْضِ",
+      "ambiguousWords": [
+        {
+          "word": "مُفْسِدُونَ",
+          "consonantal": "مفسدون",
+          "alternatives": [
+            {
+              "vocalized": "مُفْسِدُونَ",
+              "meaning": "Verderben Stiftende (Aktivpartizip Form IV)",
+              "form": "Aktivpartizip Form IV, Nominativ Plural"
+            },
+            {
+              "vocalized": "مُفْسَدُونَ",
+              "meaning": "Verdorbene (Passivpartizip Form IV)",
+              "form": "Passivpartizip Form IV, Nominativ Plural"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktivpartizip (mufsiduna — sie stiften Verderben) vs. Passivpartizip (mufsaduna — sie sind verdorben worden). Der Kasra/Fatha-Unterschied am zweiten Radikal ist im Rasm unsichtbar.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=94"
+    },
+    {
+      "id": "rr39",
+      "surah": 2,
+      "ayah": 85,
+      "vocalizedText": "ثُمَّ أَنْتُمْ هَٰؤُلَاءِ تَقْتُلُونَ أَنْفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِنْكُمْ مِنْ دِيَارِهِمْ",
+      "ambiguousWords": [
+        {
+          "word": "تُخْرِجُونَ",
+          "consonantal": "تخرجون",
+          "alternatives": [
+            {
+              "vocalized": "تُخْرِجُونَ",
+              "meaning": "ihr vertreibt (Form IV Aktiv)",
+              "form": "Imperfekt Aktiv Form IV 2mp"
+            },
+            {
+              "vocalized": "تَخْرُجُونَ",
+              "meaning": "ihr geht hinaus (Form I Aktiv)",
+              "form": "Imperfekt Aktiv Form I 2mp"
+            },
+            {
+              "vocalized": "تُخْرَجُونَ",
+              "meaning": "ihr werdet vertrieben (Form IV Passiv)",
+              "form": "Imperfekt Passiv Form IV 2mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Drei Möglichkeiten: tu-khrijuuna (ihr vertreibt — Form IV), ta-khrujuuna (ihr geht hinaus — Form I), tu-khrajuuna (ihr werdet vertrieben — Passiv). Der Präfix-Vokal und der Stammvokal sind entscheidend.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=85"
+    },
+    {
+      "id": "rr40",
+      "surah": 4,
+      "ayah": 11,
+      "vocalizedText": "يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ",
+      "ambiguousWords": [
+        {
+          "word": "يُوصِيكُمُ",
+          "consonantal": "يوصيكم",
+          "alternatives": [
+            {
+              "vocalized": "يُوصِيكُمُ",
+              "meaning": "er empfiehlt euch / bestimmt für euch (Form IV)",
+              "form": "Imperfekt Aktiv Form IV"
+            },
+            {
+              "vocalized": "يُوصَّيكُمُ",
+              "meaning": "er beauftragt euch (Form II, theoretisch)",
+              "form": "Imperfekt Aktiv Form II"
+            }
+          ]
+        }
+      ],
+      "explanation": "Form IV (yuusiikum — er befiehlt/empfiehlt euch) und theoretisch Form II (yuwassikum) könnten im Rasm ähnlich aussehen, da die Taschdid im Rasm unsichtbar ist.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=11"
+    },
+    {
+      "id": "rr41",
+      "surah": 37,
+      "ayah": 102,
+      "vocalizedText": "فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ يَا بُنَيَّ إِنِّي أَرَىٰ فِي الْمَنَامِ أَنِّي أَذْبَحُكَ",
+      "ambiguousWords": [
+        {
+          "word": "أَذْبَحُكَ",
+          "consonantal": "اذبحك",
+          "alternatives": [
+            {
+              "vocalized": "أَذْبَحُكَ",
+              "meaning": "ich schlachte dich (Aktiv Indikativ)",
+              "form": "Imperfekt Aktiv Form I 1s"
+            },
+            {
+              "vocalized": "أُذْبَحُكَ",
+              "meaning": "ich werde geschlachtet (Passiv, theoretisch)",
+              "form": "Imperfekt Passiv Form I 1s"
+            }
+          ]
+        }
+      ],
+      "explanation": "Fatha auf dem Hamza-Präfix (a-dhbahu — ich schlachte) vs. Damma (u-dhbahu — Passiv). Im Rasm identisch. Der Kontext (Vater spricht zum Sohn über seinen Traum) disambiguiert klar zu Aktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=102"
+    },
+    {
+      "id": "rr42",
+      "surah": 23,
+      "ayah": 115,
+      "vocalizedText": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+      "ambiguousWords": [
+        {
+          "word": "تُرْجَعُونَ",
+          "consonantal": "ترجعون",
+          "alternatives": [
+            {
+              "vocalized": "تُرْجَعُونَ",
+              "meaning": "ihr werdet zurückgebracht (Passiv)",
+              "form": "Imperfekt Passiv Form I 2mp"
+            },
+            {
+              "vocalized": "تَرْجِعُونَ",
+              "meaning": "ihr kehrt zurück (Aktiv)",
+              "form": "Imperfekt Aktiv Form I 2mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Passiv (turjaʿuna — ihr werdet zurückgebracht) und Aktiv (tarjiʿuna — ihr kehrt zurück) im Rasm identisch. Die semantische Nuance: Passiv betont Gottes Handeln, Aktiv die eigene Rückkehr.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=115"
+    },
+    {
+      "id": "rr43",
+      "surah": 36,
+      "ayah": 71,
+      "vocalizedText": "أَوَلَمْ يَرَوْا أَنَّا خَلَقْنَا لَهُمْ مِمَّا عَمِلَتْ أَيْدِينَا أَنْعَامًا فَهُمْ لَهَا مَالِكُونَ",
+      "ambiguousWords": [
+        {
+          "word": "مَالِكُونَ",
+          "consonantal": "ملكون",
+          "alternatives": [
+            {
+              "vocalized": "مَالِكُونَ",
+              "meaning": "Besitzer (Aktivpartizip Form I)",
+              "form": "Aktivpartizip Form I Plural"
+            },
+            {
+              "vocalized": "مَمْلُوكُونَ",
+              "meaning": "Besessene (Passivpartizip)",
+              "form": "Passivpartizip Form I Plural"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm ist der Unterschied zwischen dem Aktivpartizip maalikuuna (Besitzer) und einem alternativ vokalisierten Nomen möglich. Der Kontext (Menschen besitzen das Vieh) disambiguiert zu Aktivpartizip.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=71"
+    },
+    {
+      "id": "rr44",
+      "surah": 39,
+      "ayah": 6,
+      "vocalizedText": "خَلَقَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ ثُمَّ جَعَلَ مِنْهَا زَوْجَهَا",
+      "ambiguousWords": [
+        {
+          "word": "جَعَلَ",
+          "consonantal": "جعل",
+          "alternatives": [
+            {
+              "vocalized": "جَعَلَ",
+              "meaning": "er machte/bestimmte (Aktiv)",
+              "form": "Perfekt Aktiv Form I"
+            },
+            {
+              "vocalized": "جُعِلَ",
+              "meaning": "es wurde gemacht (Passiv)",
+              "form": "Perfekt Passiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Aktiv (jaʿala — er machte) und Passiv (juʿila — es wurde gemacht) haben identische Konsonanten. Der Kontext mit Gott als implizitem Subjekt disambiguiert zu Aktiv.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=6"
+    },
+    {
+      "id": "rr45",
+      "surah": 2,
+      "ayah": 127,
+      "vocalizedText": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا",
+      "ambiguousWords": [
+        {
+          "word": "الْقَوَاعِدَ",
+          "consonantal": "القواعد",
+          "alternatives": [
+            {
+              "vocalized": "الْقَوَاعِدَ",
+              "meaning": "die Grundmauern (Akkusativ)",
+              "form": "Nomen, Akkusativ Plural (Mafʿul bihi)"
+            },
+            {
+              "vocalized": "الْقَوَاعِدُ",
+              "meaning": "die Grundmauern (Nominativ)",
+              "form": "Nomen, Nominativ Plural"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm ist der Kasusunterschied (Akkusativ: Ibrahim hebt die Grundmauern hoch, als Objekt; vs. Nominativ: die Grundmauern als Subjekt) unsichtbar. Die Satzstruktur mit إِبْرَاهِيمُ als Faʿil macht الْقَوَاعِدَ zum Mafʿul bihi (Akkusativ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+    },
+    {
+      "id": "rr46",
+      "surah": 3,
+      "ayah": 185,
+      "vocalizedText": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ",
+      "ambiguousWords": [
+        {
+          "word": "ذَائِقَةُ",
+          "consonantal": "ذائقه",
+          "alternatives": [
+            {
+              "vocalized": "ذَائِقَةُ",
+              "meaning": "kostend (feminin Aktivpartizip, Nominativ)",
+              "form": "Aktivpartizip Form I feminin, Nominativ"
+            },
+            {
+              "vocalized": "ذَائِقَةِ",
+              "meaning": "kostend (Genitiv)",
+              "form": "Aktivpartizip Form I feminin, Genitiv"
+            }
+          ]
+        }
+      ],
+      "explanation": "Im Rasm ist die Kasusendung (-u vs. -i) unsichtbar. Der syntaktische Kontext zeigt: ذائقة ist Khabar des Mubtada' كُلُّ نَفْسٍ, also Nominativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=185"
+    },
+    {
+      "id": "rr47",
+      "surah": 10,
+      "ayah": 22,
+      "vocalizedText": "هُوَ الَّذِي يُسَيِّرُكُمْ فِي الْبَرِّ وَالْبَحْرِ",
+      "ambiguousWords": [
+        {
+          "word": "يُسَيِّرُكُمْ",
+          "consonantal": "يسيركم",
+          "alternatives": [
+            {
+              "vocalized": "يُسَيِّرُكُمْ",
+              "meaning": "er lässt euch reisen (Form II Aktiv)",
+              "form": "Imperfekt Aktiv Form II 3ms"
+            },
+            {
+              "vocalized": "يَسِيرُكُمْ",
+              "meaning": "er durchzieht eure (Form I, theoretisch)",
+              "form": "Imperfekt Aktiv Form I"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Verdoppelung (Taschdid) des zweiten Radikals, die Form II kennzeichnet, ist im Rasm nicht markiert. So kollabiert Form II (yusayyiru — er lässt reisen) mit einer theoretischen Form I Lesung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=10&verse=22"
+    },
+    {
+      "id": "rr48",
+      "surah": 2,
+      "ayah": 233,
+      "vocalizedText": "لَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا وَلَا مَوْلُودٌ لَهُ بِوَلَدِهِ",
+      "ambiguousWords": [
+        {
+          "word": "تُضَارَّ",
+          "consonantal": "تضار",
+          "alternatives": [
+            {
+              "vocalized": "تُضَارَّ",
+              "meaning": "soll nicht geschädigt werden (Passiv Jussiv Form III)",
+              "form": "Imperfekt Passiv Jussiv Form III"
+            },
+            {
+              "vocalized": "تُضَارِرْ",
+              "meaning": "soll nicht schädigen (Aktiv Jussiv Form III)",
+              "form": "Imperfekt Aktiv Jussiv Form III"
+            }
+          ]
+        }
+      ],
+      "explanation": "Wie in 2:282 kollabiert der Aktiv-Passiv-Unterschied bei Form III Jussiv-Formen durch die Idgham (Assimilation) der beiden Radikale. 'Die Mutter soll nicht schädigen' vs. 'Die Mutter soll nicht geschädigt werden'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "id": "rr49",
+      "surah": 2,
+      "ayah": 217,
+      "vocalizedText": "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ",
+      "ambiguousWords": [
+        {
+          "word": "قِتَالٍ",
+          "consonantal": "قتال",
+          "alternatives": [
+            {
+              "vocalized": "قِتَالٍ",
+              "meaning": "Kampf (Genitiv, Badal von الشَّهْرِ oder Spezifizierung)",
+              "form": "Masdar Form III, Genitiv"
+            },
+            {
+              "vocalized": "قِتَالًا",
+              "meaning": "Kampf (Akkusativ, Hal oder Tamyiz)",
+              "form": "Masdar Form III, Akkusativ"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Kasusendung (-in vs. -an) ist im Rasm unsichtbar. Genitiv als Badal (Ersatz) oder Akkusativ als Tamyiz (Spezifizierung) ändern die syntaktische Einbettung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=217"
+    },
+    {
+      "id": "rr50",
+      "surah": 2,
+      "ayah": 184,
+      "vocalizedText": "أَيَّامًا مَعْدُودَاتٍ فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ",
+      "ambiguousWords": [
+        {
+          "word": "فَعِدَّةٌ",
+          "consonantal": "فعده",
+          "alternatives": [
+            {
+              "vocalized": "فَعِدَّةٌ",
+              "meaning": "dann (soll er) eine Anzahl (fasten) — Nominativ",
+              "form": "Nomen, Nominativ (Mubtada')"
+            },
+            {
+              "vocalized": "فَعِدَّةً",
+              "meaning": "dann eine Anzahl — Akkusativ",
+              "form": "Nomen, Akkusativ (Mafʿul mutlaq)"
+            }
+          ]
+        }
+      ],
+      "explanation": "Nominativ (fa-'iddatun — als Mubtada': eine Anzahl aus anderen Tagen ist Pflicht) vs. Akkusativ (fa-'iddatan — als adverbiale Bestimmung). Die Kasusendung bestimmt die Satzstruktur.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+    },
+    {
+      "id": "rr51",
+      "surah": 49,
+      "ayah": 6,
+      "vocalizedText": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنْ جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
+      "ambiguousWords": [
+        {
+          "word": "فَتَبَيَّنُوا",
+          "consonantal": "فتبينوا",
+          "alternatives": [
+            {
+              "vocalized": "فَتَبَيَّنُوا",
+              "meaning": "dann vergewissert euch (Form V von ب-ي-ن)",
+              "form": "Imperativ Form V 2mp"
+            },
+            {
+              "vocalized": "فَتَثَبَّتُوا",
+              "meaning": "dann seid besonnen (Form V von ث-ب-ت)",
+              "form": "Imperativ Form V 2mp"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die beiden Verben فَتَبَيَّنُوا (vergewissert euch) und فَتَثَبَّتُوا (seid besonnen) haben unterschiedliche Wurzeln, aber im frühem Rasm ohne Punkte könnten ب/ث und ن/ت verwechselt werden. Ein Beispiel für I'jam-Ambiguität.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=6"
+    },
+    {
+      "id": "rr52",
+      "surah": 68,
+      "ayah": 1,
+      "vocalizedText": "ن وَالْقَلَمِ وَمَا يَسْطُرُونَ",
+      "ambiguousWords": [
+        {
+          "word": "ن",
+          "consonantal": "ٮ",
+          "alternatives": [
+            {
+              "vocalized": "نُونٌ",
+              "meaning": "Buchstabe Nun (Einzelbuchstabe)",
+              "form": "Harf Muqatta'"
+            },
+            {
+              "vocalized": "نُون",
+              "meaning": "Fisch / Tintenfass (Nomen)",
+              "form": "Nomen"
+            }
+          ]
+        }
+      ],
+      "explanation": "Der einzelne Buchstabe ن kann als isolierter Buchstabe (Harf Muqatta') oder als Wort mit eigener Bedeutung (nuun — Tintenfass, Wal) gelesen werden. Im Rasm identisch.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=68&verse=1"
+    },
+    {
+      "id": "rr53",
+      "surah": 21,
+      "ayah": 30,
+      "vocalizedText": "أَوَلَمْ يَرَ الَّذِينَ كَفَرُوا أَنَّ السَّمَاوَاتِ وَالْأَرْضَ كَانَتَا رَتْقًا فَفَتَقْنَاهُمَا",
+      "ambiguousWords": [
+        {
+          "word": "رَتْقًا",
+          "consonantal": "رتقا",
+          "alternatives": [
+            {
+              "vocalized": "رَتْقًا",
+              "meaning": "zusammengefügt / verschlossen (Masdar, Akkusativ)",
+              "form": "Masdar Form I, Akkusativ (Khabar von كَانَتَا)"
+            },
+            {
+              "vocalized": "رَتَقًا",
+              "meaning": "Verschluss (alternative Vokalisierung)",
+              "form": "Nomen faʿal"
+            }
+          ]
+        }
+      ],
+      "explanation": "Die Vokalverteilung im Masdar (ratqan vs. rataqan) ist im Rasm unsichtbar. Beide Vokalisierungen ergeben semantisch 'zusammengefügt/verschlossen'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=30"
+    },
+    {
+      "id": "rr54",
+      "surah": 74,
+      "ayah": 24,
+      "vocalizedText": "فَقَالَ إِنْ هَٰذَا إِلَّا سِحْرٌ يُؤْثَرُ",
+      "ambiguousWords": [
+        {
+          "word": "يُؤْثَرُ",
+          "consonantal": "يوثر",
+          "alternatives": [
+            {
+              "vocalized": "يُؤْثَرُ",
+              "meaning": "das weitergegeben/berichtet wird (Passiv)",
+              "form": "Imperfekt Passiv Form I"
+            },
+            {
+              "vocalized": "يُؤَثِّرُ",
+              "meaning": "das wirkt / beeinflusst (Aktiv Form II)",
+              "form": "Imperfekt Aktiv Form II"
+            }
+          ]
+        }
+      ],
+      "explanation": "Passiv yuʾtharu (Zauberei, die berichtet/weitergegeben wird) vs. Aktiv yuʿaththiru (Zauberei, die wirkt). Die semantische Differenz ist erheblich: bloßer Bericht vs. tatsächliche Wirkung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=74&verse=24"
+    },
+    {
+      "id": "rr55",
+      "surah": 47,
+      "ayah": 4,
+      "vocalizedText": "فَإِذَا لَقِيتُمُ الَّذِينَ كَفَرُوا فَضَرْبَ الرِّقَابِ حَتَّىٰ إِذَا أَثْخَنْتُمُوهُمْ فَشُدُّوا الْوَثَاقَ فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً",
+      "ambiguousWords": [
+        {
+          "word": "مَنًّا",
+          "consonantal": "منا",
+          "alternatives": [
+            {
+              "vocalized": "مَنًّا",
+              "meaning": "Gunst/Freilassung (Masdar, Akkusativ)",
+              "form": "Masdar Form I, Akkusativ"
+            },
+            {
+              "vocalized": "مِنَّا",
+              "meaning": "von uns (Präposition + Pronomen)",
+              "form": "Präposition min + Pronomen 1. Pl."
+            }
+          ]
+        }
+      ],
+      "explanation": "Ohne Taschdid und Kasuszeichen kann منا als mannaa (Gunst — Freilassung der Gefangenen) oder minnaa (von uns) gelesen werden. Der syntaktische Kontext (Parallele zu فِدَاءً) disambiguiert zu Masdar im Akkusativ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=4"
+    }
+  ]
+}

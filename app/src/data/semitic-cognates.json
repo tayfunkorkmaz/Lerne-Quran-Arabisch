@@ -1,0 +1,1317 @@
+{
+  "meta": {
+    "title": "Semitische Kognaten quranischer Wurzeln",
+    "description": "Sprachhistorische Parallelen in Schwestersprachen als lexikographische Werkzeuge. Kognaten zeigen gemeinsames semitisches Erbe und semantische Entwicklungen innerhalb der Sprachfamilie.",
+    "approach": "Nur gut belegte Kognaten aus Standard-Referenzwerken. Bei Unsicherheit weggelassen. Transliterationen in wissenschaftlicher Umschrift.",
+    "sources": [
+      { "name": "HALOT — Hebräisches und Aramäisches Lexikon zum Alten Testament (Koehler/Baumgartner)", "abbreviation": "HALOT" },
+      { "name": "Jastrow — Dictionary of the Targumim, Talmud Babli, Yerushalmi and Midrashic Literature", "abbreviation": "Jastrow", "url": "https://archive.org/details/jastrow-dictionary-targumim" },
+      { "name": "Sokoloff — A Syriac Lexicon", "abbreviation": "Sokoloff" },
+      { "name": "Leslau — Comparative Dictionary of Geʿez", "abbreviation": "CDG" },
+      { "name": "CAD — Chicago Assyrian Dictionary", "abbreviation": "CAD", "url": "https://isac.uchicago.edu/research/publications/chicago-assyrian-dictionary" },
+      { "name": "Jeffery — The Foreign Vocabulary of the Qurʾān", "abbreviation": "Jeffery", "url": "https://archive.org/details/jefferyforeignvocabulary" },
+      { "name": "Del Olmo Lete & Sanmartín — A Dictionary of the Ugaritic Language", "abbreviation": "DULAT" },
+      { "name": "Beeston et al. — Sabaic Dictionary", "abbreviation": "SD" }
+    ]
+  },
+  "cognates": [
+    {
+      "root": "ر-ح-م",
+      "arabicRoot": "رحم",
+      "arabicMeaning": "sich erbarmen; Barmherzigkeit; Mutterleib",
+      "cognates": {
+        "hebrew": { "form": "raḥam / reḥem", "meaning": "Erbarmen haben; Mutterleib", "source": "HALOT" },
+        "aramaic": { "form": "raḥmānā", "meaning": "der Barmherzige", "source": "Jastrow" },
+        "syriac": { "form": "raḥmē", "meaning": "Erbarmen, Gnade", "source": "Sokoloff" },
+        "ugaritic": { "form": "rḥm", "meaning": "Mutterleib; junge Frau", "source": "DULAT" },
+        "geez": { "form": "maḥara", "meaning": "sich erbarmen", "source": "CDG" }
+      },
+      "notes": "Gemeinsemitisch. Doppelte Bedeutung 'Mutterleib / Erbarmen' durchzieht die ganze Sprachfamilie. Das quranische raḥmān ist aramäisch-jüdisch vorgeprägt (Jeffery).",
+      "quranRefs": ["1:1", "1:3", "55:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rHm"
+    },
+    {
+      "root": "ع-ب-د",
+      "arabicRoot": "عبد",
+      "arabicMeaning": "dienen, anbeten; Diener, Sklave",
+      "cognates": {
+        "hebrew": { "form": "ʿeved / ʿavad", "meaning": "Diener, Sklave; dienen, arbeiten", "source": "HALOT" },
+        "aramaic": { "form": "ʿavad", "meaning": "tun, machen, dienen", "source": "Jastrow" },
+        "ugaritic": { "form": "ʿbd", "meaning": "Diener, Sklave", "source": "DULAT" },
+        "geez": { "form": "ʿabd", "meaning": "Diener", "source": "CDG" }
+      },
+      "notes": "Im Nordwestsemitischen (Hebräisch, Aramäisch) deckt die Wurzel auch das allgemeine 'tun, machen' ab, im Arabischen spezifisch kultisch-hierarchisch.",
+      "quranRefs": ["1:5", "2:21", "51:56"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Ebd"
+    },
+    {
+      "root": "ص-ل-و",
+      "arabicRoot": "صلو",
+      "arabicMeaning": "beten; Gebet",
+      "cognates": {
+        "aramaic": { "form": "ṣəlôthā / ṣəlî", "meaning": "Gebet; beten", "source": "Jastrow" },
+        "syriac": { "form": "ṣlôthā", "meaning": "Gebet", "source": "Sokoloff" },
+        "geez": { "form": "ṣalōt / ṣallaya", "meaning": "Gebet; beten", "source": "CDG" }
+      },
+      "notes": "Jeffery: ṣalāt ist aramäisches Lehnwort im religiösen Sinn. Die Wurzel existiert im Arabischen, aber der kultische Terminus folgt aramäisch-christlichem Vorbild.",
+      "quranRefs": ["2:3", "2:43", "107:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=SlW"
+    },
+    {
+      "root": "ز-ك-و",
+      "arabicRoot": "زكو",
+      "arabicMeaning": "rein sein; läutern; Almosen",
+      "cognates": {
+        "hebrew": { "form": "zākh / zākhāh", "meaning": "rein, lauter sein", "source": "HALOT" },
+        "aramaic": { "form": "zakkā / zekhûthā", "meaning": "rein, unschuldig; Verdienst", "source": "Jastrow" },
+        "syriac": { "form": "zakkāy", "meaning": "gerecht, rein", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: zakāt im Sinne 'rituelle Abgabe' übernimmt die jüdisch-aramäische Konnotation von zekhûthā (religiöses Verdienst).",
+      "quranRefs": ["2:43", "2:110", "9:103"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=zkw"
+    },
+    {
+      "root": "ح-ن-ف",
+      "arabicRoot": "حنف",
+      "arabicMeaning": "rechtgläubig; jemand der sich vom Falschen abwendet",
+      "cognates": {
+        "syriac": { "form": "ḥanpā", "meaning": "Heide, Nichtjude, Nichtchrist", "source": "Sokoloff" },
+        "aramaic": { "form": "ḥanpā", "meaning": "Gottloser, Heuchler", "source": "Jastrow" },
+        "hebrew": { "form": "ḥānēp", "meaning": "gottlos, entfremdet", "source": "HALOT" }
+      },
+      "notes": "Semantische Umkehrung: Im nordwestsemitischen Raum pejorativ (Heide/Gottloser), im Quran positiv (rechtgläubig, von Irrtum abgewandt). Die Wurzel signalisiert 'abweichen' — die Bewertung unterscheidet sich nach Perspektive.",
+      "quranRefs": ["6:161", "10:105", "16:120"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hnf"
+    },
+    {
+      "root": "س-ل-م",
+      "arabicRoot": "سلم",
+      "arabicMeaning": "heil sein; sich hingeben; Frieden",
+      "cognates": {
+        "hebrew": { "form": "shālôm / shālēm", "meaning": "Frieden, Heil; unversehrt sein", "source": "HALOT" },
+        "aramaic": { "form": "shəlām / shəlîm", "meaning": "Frieden; vollständig sein", "source": "Jastrow" },
+        "syriac": { "form": "shlāmā", "meaning": "Frieden, Heil", "source": "Sokoloff" },
+        "ugaritic": { "form": "šlm", "meaning": "heil, wohlbehalten; Gruß", "source": "DULAT" },
+        "akkadian": { "form": "shalāmu", "meaning": "heil, gesund sein", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch mit breitem Bedeutungsspektrum. Der IV. Stamm 'aslama' (sich hingeben) ist arabische Spezialisierung.",
+      "quranRefs": ["2:112", "3:19", "5:3"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=slm"
+    },
+    {
+      "root": "ن-ب-أ",
+      "arabicRoot": "نبأ",
+      "arabicMeaning": "Nachricht, Kunde; Prophet (nabī)",
+      "cognates": {
+        "hebrew": { "form": "nāvî", "meaning": "Prophet", "source": "HALOT" },
+        "aramaic": { "form": "nəviyyā", "meaning": "Prophet", "source": "Jastrow" },
+        "syriac": { "form": "nəviyā", "meaning": "Prophet", "source": "Sokoloff" },
+        "akkadian": { "form": "nabû", "meaning": "nennen, berufen; Berufener", "source": "CAD" }
+      },
+      "notes": "Jeffery: nabī ist aus dem Hebräisch-Aramäischen übernommen. Die akkadische Wurzel nabû 'berufen' liefert den ältesten semantischen Kern.",
+      "quranRefs": ["2:136", "3:81", "33:40"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nbA"
+    },
+    {
+      "root": "ك-ت-ب",
+      "arabicRoot": "كتب",
+      "arabicMeaning": "schreiben; Buch, Schrift",
+      "cognates": {
+        "hebrew": { "form": "kāṯav / kəṯāv", "meaning": "schreiben; Schrift", "source": "HALOT" },
+        "aramaic": { "form": "kəṯav / kəṯāvā", "meaning": "schreiben; Schrift, Dokument", "source": "Jastrow" },
+        "syriac": { "form": "kṯav / kṯāvā", "meaning": "schreiben; Buch", "source": "Sokoloff" },
+        "geez": { "form": "katba", "meaning": "schreiben (aus dem Arabischen)", "source": "CDG" }
+      },
+      "notes": "Gemeinsemitisch; im Ugaritischen/Akkadischen schwächer belegt. Das Verb 'schreiben' ist in der nordwestsemitischen Welt dominant.",
+      "quranRefs": ["2:2", "2:79", "3:3"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ktb"
+    },
+    {
+      "root": "ر-ب-ب",
+      "arabicRoot": "ربب",
+      "arabicMeaning": "Herr; herrschen, aufziehen",
+      "cognates": {
+        "hebrew": { "form": "rav", "meaning": "groß, viel; Meister", "source": "HALOT" },
+        "aramaic": { "form": "rabbā / rabbî", "meaning": "groß; Meister, Rabbi", "source": "Jastrow" },
+        "ugaritic": { "form": "rb", "meaning": "groß; Oberhaupt, Chef", "source": "DULAT" },
+        "akkadian": { "form": "rabû", "meaning": "groß sein; Großer", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitische Wurzel für 'groß/Herr'. Das arabische rabb (Herr) entspricht jüdisch-aramäischem rabbî (Meister).",
+      "quranRefs": ["1:2", "2:5", "114:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rbb"
+    },
+    {
+      "root": "[قرآن]",
+      "arabicRoot": "قرآن",
+      "arabicMeaning": "Lesung, Rezitation; der Quran",
+      "cognates": {
+        "syriac": { "form": "qeryānā", "meaning": "Lesung (besonders Schriftlesung im Gottesdienst)", "source": "Sokoloff" },
+        "aramaic": { "form": "qəryānā", "meaning": "Lesung, Ruf", "source": "Jastrow" },
+        "hebrew": { "form": "qārā", "meaning": "rufen, lesen, ausrufen", "source": "HALOT" }
+      },
+      "notes": "Jeffery: qurʾān ist direkt von syrisch qeryānā abgeleitet, dem Fachterm für liturgische Schriftlesung. Die Wurzel q-r-ʾ ist gemeinsemitisch, der Terminus jedoch syrisch-christlich geprägt.",
+      "quranRefs": ["2:185", "17:9", "75:17"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qrA"
+    },
+    {
+      "root": "[فرقان]",
+      "arabicRoot": "فرقان",
+      "arabicMeaning": "Unterscheidung; Erlösung; Offenbarung",
+      "cognates": {
+        "aramaic": { "form": "purqānā", "meaning": "Erlösung, Rettung", "source": "Jastrow" },
+        "syriac": { "form": "purqānā", "meaning": "Erlösung, Heil", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: furqān geht auf aramäisches purqānā (Erlösung) zurück. Im Arabischen semantisch an f-r-q 'unterscheiden' angelehnt und umgedeutet.",
+      "quranRefs": ["2:53", "3:4", "25:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=frq"
+    },
+    {
+      "root": "[رحمن]",
+      "arabicRoot": "رحمن",
+      "arabicMeaning": "der Erbarmer",
+      "cognates": {
+        "aramaic": { "form": "raḥmānā", "meaning": "der Barmherzige (Gottesname)", "source": "Jastrow" },
+        "syriac": { "form": "raḥmānā", "meaning": "der Barmherzige", "source": "Sokoloff" },
+        "sabaic": { "form": "rḥmnn", "meaning": "der Barmherzige (Gottesname in südarabischen Inschriften)", "source": "SD" }
+      },
+      "notes": "Jeffery: raḥmān ist prä-islamisch als Gottesname im Jüdisch-Aramäischen und in südarabischen (jüdischen/christlichen) Inschriften belegt. Keine arabische Neuprägung.",
+      "quranRefs": ["1:1", "19:45", "55:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rHm"
+    },
+    {
+      "root": "[ملكوت]",
+      "arabicRoot": "ملكوت",
+      "arabicMeaning": "Königsherrschaft, Reich",
+      "cognates": {
+        "aramaic": { "form": "malkûthā", "meaning": "Königsherrschaft, Reich", "source": "Jastrow" },
+        "syriac": { "form": "malkûthā", "meaning": "Königreich, Herrschaft", "source": "Sokoloff" },
+        "hebrew": { "form": "malkhûṯ", "meaning": "Königsherrschaft", "source": "HALOT" }
+      },
+      "notes": "Jeffery: malakūt übernimmt die aramäische Nominalendung -ût aus malkûthā. Im Arabischen ist -ūt kein produktives Suffix, daher erkennbar entlehnt.",
+      "quranRefs": ["6:75", "7:185", "36:83"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mlk"
+    },
+    {
+      "root": "[سكينة]",
+      "arabicRoot": "سكينة",
+      "arabicMeaning": "Ruhe, göttliche Gegenwart",
+      "cognates": {
+        "hebrew": { "form": "shəkhînāh", "meaning": "Einwohnung Gottes, göttliche Gegenwart", "source": "HALOT" },
+        "aramaic": { "form": "shəkhîntā", "meaning": "göttliche Gegenwart (Targumim)", "source": "Jastrow" }
+      },
+      "notes": "Jeffery: sakīna direkt aus jüdisch-aramäischem shəkhîntā. Derselbe theologische Terminus für Gottes manifeste Präsenz.",
+      "quranRefs": ["2:248", "9:26", "48:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=skn"
+    },
+    {
+      "root": "[جنة]",
+      "arabicRoot": "جنة",
+      "arabicMeaning": "Garten, Paradies",
+      "cognates": {
+        "hebrew": { "form": "gan / gannāh", "meaning": "Garten", "source": "HALOT" },
+        "aramaic": { "form": "gannəthā", "meaning": "Garten", "source": "Jastrow" },
+        "syriac": { "form": "gannthā", "meaning": "Garten, Paradies", "source": "Sokoloff" },
+        "ugaritic": { "form": "gn", "meaning": "Garten", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitisch. Die eschatologische Verwendung 'Paradies' folgt jüdisch-christlichem Gebrauch (gan ʿeden / gannthā d-pardaysā).",
+      "quranRefs": ["2:25", "3:15", "55:46"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=jnn"
+    },
+    {
+      "root": "[طاغوت]",
+      "arabicRoot": "طاغوت",
+      "arabicMeaning": "Götze, falscher Gott, Irrtum",
+      "cognates": {
+        "aramaic": { "form": "ṭāʿûthā", "meaning": "Irrtum, Götzendienst", "source": "Jastrow" },
+        "syriac": { "form": "ṭāʿyûthā", "meaning": "Irrtum, Irreführung, Götzendienst", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: ṭāġūt aus aramäisch ṭāʿûthā mit Nominalendung -ût. Typisches Lehnwort mit erhaltenem aramäischen Morphem.",
+      "quranRefs": ["2:256", "4:60", "16:36"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Tgy"
+    },
+    {
+      "root": "[حبر]",
+      "arabicRoot": "حبر",
+      "arabicMeaning": "Gelehrter (besonders jüdischer Schriftgelehrter)",
+      "cognates": {
+        "hebrew": { "form": "ḥāvēr", "meaning": "Gefährte; gelehrter Kollege", "source": "HALOT" },
+        "aramaic": { "form": "ḥāvēr / ḥavrā", "meaning": "Gefährte; Gelehrter, Mitglied der Gelehrtengemeinschaft", "source": "Jastrow" }
+      },
+      "notes": "Jeffery: ḥabr/ḥibr im Sinn 'Rabbi, Schriftgelehrter' entspricht jüdisch-aramäischem ḥāvēr als Titel.",
+      "quranRefs": ["5:44", "5:63", "9:31"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hbr"
+    },
+    {
+      "root": "[سفر]",
+      "arabicRoot": "سفر",
+      "arabicMeaning": "Schrift, Buch; Schreiber",
+      "cognates": {
+        "hebrew": { "form": "sēpher / sōphēr", "meaning": "Buch, Schrift; Schreiber", "source": "HALOT" },
+        "aramaic": { "form": "siphrā / sāphrā", "meaning": "Buch; Schreiber, Schriftgelehrter", "source": "Jastrow" },
+        "syriac": { "form": "sephrā / sāphrā", "meaning": "Buch; Schriftgelehrter", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: sifr (Buch) und safara (Schreiber) aus hebräisch-aramäischem Kulturbereich.",
+      "quranRefs": ["62:5", "80:15", "80:16"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=sfr"
+    },
+    {
+      "root": "[صراط]",
+      "arabicRoot": "صراط",
+      "arabicMeaning": "Weg, Pfad",
+      "cognates": {
+        "aramaic": { "form": "isṭrāṭā / strāṭā", "meaning": "Straße (aus gr. stráta via lat. strata)", "source": "Jastrow" },
+        "syriac": { "form": "esṭrāṭā", "meaning": "Straße, gepflasterter Weg", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: ṣirāṭ ist letztlich lateinisch 'strata (via)' (gepflasterter Weg), vermittelt über griechisch-aramäisch. Das emphatische ṣ im Arabischen glich das fremde st- aus.",
+      "quranRefs": ["1:6", "1:7", "36:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=SrT"
+    },
+    {
+      "root": "[قسط]",
+      "arabicRoot": "قسط",
+      "arabicMeaning": "Gerechtigkeit; gerechtes Maß",
+      "cognates": {
+        "aramaic": { "form": "qisṭā", "meaning": "Maß, Maßgefäß", "source": "Jastrow" },
+        "syriac": { "form": "qasṭā", "meaning": "Maß, festgelegtes Quantum", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: qisṭ letztlich aus griechisch xéstēs (Maßeinheit) über aramäisches qisṭā. Im Arabischen ethisch erweitert zu 'Gerechtigkeit'.",
+      "quranRefs": ["3:18", "5:8", "55:9"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qsT"
+    },
+    {
+      "root": "[فردوس]",
+      "arabicRoot": "فردوس",
+      "arabicMeaning": "Paradies",
+      "cognates": {
+        "syriac": { "form": "pardaysā", "meaning": "ummauerter Garten, Paradies", "source": "Sokoloff" },
+        "aramaic": { "form": "pardēs", "meaning": "ummauerter Garten", "source": "Jastrow" },
+        "hebrew": { "form": "pardēs", "meaning": "Park, umfriedeter Garten", "source": "HALOT" }
+      },
+      "notes": "Jeffery: firdaws letztlich aus altpersisch pairidaēza (Umfriedung). Über aramäisch-syrisch ins Arabische. Griech. parádeisos hat dieselbe Quelle.",
+      "quranRefs": ["18:107", "23:11"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=frds"
+    },
+    {
+      "root": "[إنجيل]",
+      "arabicRoot": "إنجيل",
+      "arabicMeaning": "Evangelium",
+      "cognates": {
+        "syriac": { "form": "ewangelyôn", "meaning": "Evangelium", "source": "Sokoloff" },
+        "geez": { "form": "wangēl", "meaning": "Evangelium", "source": "CDG" }
+      },
+      "notes": "Jeffery: inǧīl aus griechisch euangélion, vermittelt durch syrisch ewangelyôn oder äthiopisch wangēl. Klar christliches Lehnwort.",
+      "quranRefs": ["3:3", "5:46", "57:27"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=njl"
+    },
+    {
+      "root": "[توراة]",
+      "arabicRoot": "توراة",
+      "arabicMeaning": "Tora",
+      "cognates": {
+        "hebrew": { "form": "tôrāh", "meaning": "Weisung, Lehre, Gesetz", "source": "HALOT" },
+        "aramaic": { "form": "ôraythā", "meaning": "Tora, Lehre", "source": "Jastrow" }
+      },
+      "notes": "Jeffery: tawrāt direkt aus hebräisch tôrāh (mit aramäischem Einfluss in der Vokalisierung).",
+      "quranRefs": ["3:3", "5:44", "62:5"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=twr"
+    },
+    {
+      "root": "[زبور]",
+      "arabicRoot": "زبور",
+      "arabicMeaning": "Psalter, Schrift Davids",
+      "cognates": {
+        "hebrew": { "form": "mizmôr", "meaning": "Psalm, Gesang", "source": "HALOT" }
+      },
+      "notes": "Jeffery: zabūr mit hebräisch mizmôr (Psalm) in Verbindung gebracht; Wurzel z-m-r (singen) gemeinsemitisch. Lautliche Umgestaltung im Arabischen.",
+      "quranRefs": ["4:163", "17:55", "21:105"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=zbr"
+    },
+    {
+      "root": "[قلم]",
+      "arabicRoot": "قلم",
+      "arabicMeaning": "Schreibrohr, Feder",
+      "cognates": {
+        "aramaic": { "form": "qalmā / qulmôs", "meaning": "Schreibrohr", "source": "Jastrow" },
+        "syriac": { "form": "qalmā", "meaning": "Rohrfeder", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: qalam aus griechisch kálamos (Rohr, Schreibrohr), vermittelt über aramäisch.",
+      "quranRefs": ["68:1", "96:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qlm"
+    },
+    {
+      "root": "[مسجد]",
+      "arabicRoot": "مسجد",
+      "arabicMeaning": "Ort der Niederwerfung, Kultstätte",
+      "cognates": {
+        "aramaic": { "form": "masgəḏā", "meaning": "Kultstätte, Ort der Verehrung", "source": "Jastrow" },
+        "nabataean": { "form": "msgdʾ", "meaning": "Kultstele, Ort der Anbetung (nabatäische Inschriften)", "source": "Jeffery" }
+      },
+      "notes": "Jeffery: masǧid ist nabatäisch/aramäisch vorgeprägt (msgdʾ in Inschriften bezeichnet Kultstelen/Kultstätten). Die Wurzel s-g-d 'sich niederwerfen' ist nordwestsemitisch.",
+      "quranRefs": ["2:144", "9:18", "17:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=sjd"
+    },
+    {
+      "root": "ش-م-س",
+      "arabicRoot": "شمس",
+      "arabicMeaning": "Sonne",
+      "cognates": {
+        "hebrew": { "form": "shemesh", "meaning": "Sonne", "source": "HALOT" },
+        "aramaic": { "form": "shimshā", "meaning": "Sonne", "source": "Jastrow" },
+        "syriac": { "form": "shemshā", "meaning": "Sonne", "source": "Sokoloff" },
+        "ugaritic": { "form": "špš", "meaning": "Sonne; Sonnengöttin", "source": "DULAT" },
+        "akkadian": { "form": "shamshu", "meaning": "Sonne; Sonnengott Shamash", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Eines der stabilsten Grundwörter.",
+      "quranRefs": ["6:78", "91:1", "36:38"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=$ms"
+    },
+    {
+      "root": "ق-م-ر",
+      "arabicRoot": "قمر",
+      "arabicMeaning": "Mond",
+      "cognates": {
+        "hebrew": { "form": "qimmēr (selten)", "meaning": "verdunkeln; vgl. qemer (dunkel sein)", "source": "HALOT" },
+        "akkadian": { "form": "qamru / qarnu", "meaning": "verwandt mit Licht-/Mondterminologie — Hauptterm ist jedoch Sîn", "source": "CAD" }
+      },
+      "notes": "Die Wurzel q-m-r ist für 'Mond' vor allem im Arabischen und Süd-/Nordarabisch dominant; im Hebräisch-Akkadischen ist das Hauptwort yārēaḥ bzw. Sîn. Kognatbeleg daher eingeschränkt.",
+      "quranRefs": ["54:1", "55:5", "91:2"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qmr"
+    },
+    {
+      "root": "أ-ر-ض",
+      "arabicRoot": "أرض",
+      "arabicMeaning": "Erde, Land",
+      "cognates": {
+        "hebrew": { "form": "ʾereṣ", "meaning": "Erde, Land", "source": "HALOT" },
+        "aramaic": { "form": "arʿā", "meaning": "Erde, Land", "source": "Jastrow" },
+        "syriac": { "form": "arʿā", "meaning": "Erde", "source": "Sokoloff" },
+        "ugaritic": { "form": "arṣ", "meaning": "Erde, Land, Unterwelt", "source": "DULAT" },
+        "akkadian": { "form": "erṣetu", "meaning": "Erde, Land, Unterwelt", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Bedeutung 'Unterwelt' neben 'Erde' ist im Ugaritisch-Akkadischen stärker ausgeprägt.",
+      "quranRefs": ["2:11", "2:22", "15:19"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ArD"
+    },
+    {
+      "root": "س-م-و",
+      "arabicRoot": "سمو",
+      "arabicMeaning": "Himmel; hoch sein",
+      "cognates": {
+        "hebrew": { "form": "shāmayim", "meaning": "Himmel (Dual)", "source": "HALOT" },
+        "aramaic": { "form": "shəmayyā", "meaning": "Himmel", "source": "Jastrow" },
+        "syriac": { "form": "shmayyā", "meaning": "Himmel", "source": "Sokoloff" },
+        "ugaritic": { "form": "šmm", "meaning": "Himmel", "source": "DULAT" },
+        "akkadian": { "form": "shamû", "meaning": "Himmel", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch, meist als Dual/Plural. Arabisch samāʾ ist Singularisierung.",
+      "quranRefs": ["2:22", "2:29", "78:12"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=smw"
+    },
+    {
+      "root": "م-و-ه",
+      "arabicRoot": "ماء",
+      "arabicMeaning": "Wasser",
+      "cognates": {
+        "hebrew": { "form": "mayim", "meaning": "Wasser (Dual)", "source": "HALOT" },
+        "aramaic": { "form": "mayyā", "meaning": "Wasser", "source": "Jastrow" },
+        "syriac": { "form": "mayyā", "meaning": "Wasser", "source": "Sokoloff" },
+        "ugaritic": { "form": "my / mym", "meaning": "Wasser", "source": "DULAT" },
+        "akkadian": { "form": "mû", "meaning": "Wasser", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["2:22", "21:30", "25:54"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mwh"
+    },
+    {
+      "root": "ن-ج-م",
+      "arabicRoot": "نجم",
+      "arabicMeaning": "Stern; hervorkommen",
+      "cognates": {
+        "akkadian": { "form": "nagû / nagāgu", "meaning": "hell leuchten; vgl. auch nagbu (Quelle, Hervorsprudeln)", "source": "CAD" },
+        "hebrew": { "form": "nōgah", "meaning": "Glanz, Leuchten (Wurzel n-g-h, verwandt)", "source": "HALOT" }
+      },
+      "notes": "Semantik 'Aufgehen / Hervorkommen' verbindet Stern und Aufsprossen. Direkte Entsprechung als 'Stern' vor allem im Arabischen.",
+      "quranRefs": ["16:16", "53:1", "86:3"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=njm"
+    },
+    {
+      "root": "ن-و-ر",
+      "arabicRoot": "نور",
+      "arabicMeaning": "Licht",
+      "cognates": {
+        "hebrew": { "form": "nēr / ʾôr", "meaning": "Lampe; Licht (Wurzel n-w-r neben ʾ-w-r)", "source": "HALOT" },
+        "aramaic": { "form": "nûrā", "meaning": "Feuer, Licht", "source": "Jastrow" },
+        "syriac": { "form": "nûrā", "meaning": "Feuer", "source": "Sokoloff" },
+        "akkadian": { "form": "nūru", "meaning": "Licht", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch mit Verzweigung: Nordwestsemit. 'Feuer' (aram. nûrā) vs. Akk./Arab. 'Licht'.",
+      "quranRefs": ["5:15", "24:35", "57:9"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nwr"
+    },
+    {
+      "root": "أ-ب-و",
+      "arabicRoot": "أب",
+      "arabicMeaning": "Vater",
+      "cognates": {
+        "hebrew": { "form": "ʾāv", "meaning": "Vater", "source": "HALOT" },
+        "aramaic": { "form": "abbā", "meaning": "Vater", "source": "Jastrow" },
+        "syriac": { "form": "abbā", "meaning": "Vater", "source": "Sokoloff" },
+        "ugaritic": { "form": "ab", "meaning": "Vater", "source": "DULAT" },
+        "akkadian": { "form": "abu", "meaning": "Vater", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["2:133", "6:74", "12:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Abw"
+    },
+    {
+      "root": "أ-م-م",
+      "arabicRoot": "أم",
+      "arabicMeaning": "Mutter; Gemeinschaft (umma)",
+      "cognates": {
+        "hebrew": { "form": "ʾēm", "meaning": "Mutter", "source": "HALOT" },
+        "aramaic": { "form": "immā", "meaning": "Mutter", "source": "Jastrow" },
+        "ugaritic": { "form": "um", "meaning": "Mutter", "source": "DULAT" },
+        "akkadian": { "form": "ummu", "meaning": "Mutter", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Die Ableitung umma (Gemeinschaft) ist arabische Spezialisierung.",
+      "quranRefs": ["2:233", "4:23", "19:28"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Amm"
+    },
+    {
+      "root": "أ-خ-و",
+      "arabicRoot": "أخ",
+      "arabicMeaning": "Bruder",
+      "cognates": {
+        "hebrew": { "form": "ʾāḥ", "meaning": "Bruder", "source": "HALOT" },
+        "aramaic": { "form": "aḥā", "meaning": "Bruder", "source": "Jastrow" },
+        "ugaritic": { "form": "aḥ", "meaning": "Bruder", "source": "DULAT" },
+        "akkadian": { "form": "aḫu", "meaning": "Bruder", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch.",
+      "quranRefs": ["4:11", "7:65", "12:5"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Axw"
+    },
+    {
+      "root": "ب-ن-ي",
+      "arabicRoot": "ابن",
+      "arabicMeaning": "Sohn; bauen",
+      "cognates": {
+        "hebrew": { "form": "bēn / bānāh", "meaning": "Sohn; bauen", "source": "HALOT" },
+        "aramaic": { "form": "bar / bənā", "meaning": "Sohn; bauen", "source": "Jastrow" },
+        "ugaritic": { "form": "bn / bny", "meaning": "Sohn; bauen", "source": "DULAT" },
+        "akkadian": { "form": "banû", "meaning": "erzeugen, bauen", "source": "CAD" }
+      },
+      "notes": "Die Verbindung 'zeugen/bauen → Sohn' ist gemeinsemitisch. Aramäisch bar ist lautlicher Sonderweg (n > r).",
+      "quranRefs": ["2:40", "2:127", "19:7"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=bny"
+    },
+    {
+      "root": "ي-د-ي",
+      "arabicRoot": "يد",
+      "arabicMeaning": "Hand",
+      "cognates": {
+        "hebrew": { "form": "yāḏ", "meaning": "Hand", "source": "HALOT" },
+        "aramaic": { "form": "yəḏā / îḏā", "meaning": "Hand", "source": "Jastrow" },
+        "ugaritic": { "form": "yd", "meaning": "Hand", "source": "DULAT" },
+        "akkadian": { "form": "īdu / qātu", "meaning": "Seite, Arm (īdu); Hand (qātu)", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Im Akkadischen hat qātu den Alltagsterm 'Hand' übernommen, īdu deckt 'Seite/Arm'.",
+      "quranRefs": ["2:195", "5:38", "48:10"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ydy"
+    },
+    {
+      "root": "ع-ي-ن",
+      "arabicRoot": "عين",
+      "arabicMeaning": "Auge; Quelle",
+      "cognates": {
+        "hebrew": { "form": "ʿayin", "meaning": "Auge; Quelle", "source": "HALOT" },
+        "aramaic": { "form": "ʿaynā", "meaning": "Auge; Quelle", "source": "Jastrow" },
+        "ugaritic": { "form": "ʿn", "meaning": "Auge; Quelle", "source": "DULAT" },
+        "akkadian": { "form": "īnu", "meaning": "Auge; Quelle", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Doppelbedeutung 'Auge / Quelle' durchgängig.",
+      "quranRefs": ["5:45", "11:37", "55:50"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Eyn"
+    },
+    {
+      "root": "ف-م-ي",
+      "arabicRoot": "فم",
+      "arabicMeaning": "Mund",
+      "cognates": {
+        "hebrew": { "form": "peh", "meaning": "Mund", "source": "HALOT" },
+        "aramaic": { "form": "pummā", "meaning": "Mund", "source": "Jastrow" },
+        "ugaritic": { "form": "p", "meaning": "Mund", "source": "DULAT" },
+        "akkadian": { "form": "pû", "meaning": "Mund", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Einkonsonantige Wurzel mit sekundärer Erweiterung.",
+      "quranRefs": ["3:118", "9:8", "9:32"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=fwh"
+    },
+    {
+      "root": "ر-أ-س",
+      "arabicRoot": "رأس",
+      "arabicMeaning": "Kopf; Haupt",
+      "cognates": {
+        "hebrew": { "form": "rōʾsh", "meaning": "Kopf, Haupt, Anfang", "source": "HALOT" },
+        "aramaic": { "form": "rēshā", "meaning": "Kopf, Haupt, Anfang", "source": "Jastrow" },
+        "ugaritic": { "form": "rîš", "meaning": "Kopf, Haupt, Anfang", "source": "DULAT" },
+        "akkadian": { "form": "rēshu", "meaning": "Kopf, Haupt, Anfang", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Doppelbedeutung 'Kopf / Anfang' durchgängig.",
+      "quranRefs": ["2:196", "5:6", "12:41"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rAs"
+    },
+    {
+      "root": "س-م-ع",
+      "arabicRoot": "سمع",
+      "arabicMeaning": "hören",
+      "cognates": {
+        "hebrew": { "form": "shāmaʿ", "meaning": "hören, gehorchen", "source": "HALOT" },
+        "aramaic": { "form": "shəmaʿ", "meaning": "hören", "source": "Jastrow" },
+        "syriac": { "form": "shmaʿ", "meaning": "hören", "source": "Sokoloff" },
+        "ugaritic": { "form": "šmʿ", "meaning": "hören", "source": "DULAT" },
+        "akkadian": { "form": "shemû", "meaning": "hören", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Konnotation 'hören = gehorchen' ebenfalls durchgängig.",
+      "quranRefs": ["2:93", "2:285", "67:10"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=smE"
+    },
+    {
+      "root": "ر-أ-ي",
+      "arabicRoot": "رأي",
+      "arabicMeaning": "sehen",
+      "cognates": {
+        "hebrew": { "form": "rāʾāh", "meaning": "sehen", "source": "HALOT" },
+        "aramaic": { "form": "rəʾā / ḥəzā", "meaning": "sehen (rəʾā seltener; ḥəzā dominant)", "source": "Jastrow" },
+        "ugaritic": { "form": "rʾy", "meaning": "sehen", "source": "DULAT" }
+      },
+      "notes": "Im Aramäischen wird r-ʾ-y durch ḥ-z-y ersetzt. Hebräisch/Ugaritisch/Arabisch bewahren die Wurzel.",
+      "quranRefs": ["2:55", "6:76", "96:14"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rAy"
+    },
+    {
+      "root": "ع-ل-م",
+      "arabicRoot": "علم",
+      "arabicMeaning": "wissen; lehren",
+      "cognates": {
+        "hebrew": { "form": "ʿōlām", "meaning": "Ewigkeit, Weltzeit (semantisch divergent); vgl. ʿ-l-m 'verborgen sein'", "source": "HALOT" },
+        "ugaritic": { "form": "ʿlm", "meaning": "Ewigkeit; verborgen", "source": "DULAT" },
+        "geez": { "form": "ʿālam", "meaning": "Welt, Ewigkeit", "source": "CDG" },
+        "sabaic": { "form": "ʿlm", "meaning": "Zeichen; wissen", "source": "SD" }
+      },
+      "notes": "Die Semantik ist gespalten: Nordwestsemitisch 'verborgen / Ewigkeit', Arabisch/Südarabisch 'wissen / Zeichen'. Verbindung über 'verborgen → erkennen'.",
+      "quranRefs": ["2:31", "2:32", "96:5"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Elm"
+    },
+    {
+      "root": "أ-ك-ل",
+      "arabicRoot": "أكل",
+      "arabicMeaning": "essen",
+      "cognates": {
+        "hebrew": { "form": "ʾākhal", "meaning": "essen", "source": "HALOT" },
+        "aramaic": { "form": "ăkhal", "meaning": "essen", "source": "Jastrow" },
+        "syriac": { "form": "ekhal", "meaning": "essen", "source": "Sokoloff" },
+        "ugaritic": { "form": "akl", "meaning": "essen; Speise", "source": "DULAT" },
+        "akkadian": { "form": "akālu", "meaning": "essen", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundverb.",
+      "quranRefs": ["2:35", "5:66", "77:43"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Akl"
+    },
+    {
+      "root": "ش-ر-ب",
+      "arabicRoot": "شرب",
+      "arabicMeaning": "trinken",
+      "cognates": {
+        "akkadian": { "form": "sharāpu", "meaning": "schlürfen, saugen (selten); Hauptterm 'trinken' ist shatû", "source": "CAD" },
+        "geez": { "form": "shariba", "meaning": "trinken (selten, aus dem Arabischen)", "source": "CDG" }
+      },
+      "notes": "Die Wurzel sh-r-b ist im Nordwestsemitischen für 'trinken' nicht produktiv (hebr. shātāh, aram. shəthā). Im Arabischen und Südsemitischen ist sh-r-b dominant.",
+      "quranRefs": ["2:60", "2:249", "77:27"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=$rb"
+    },
+    {
+      "root": "ن-ف-س",
+      "arabicRoot": "نفس",
+      "arabicMeaning": "Seele, Selbst; Atem",
+      "cognates": {
+        "hebrew": { "form": "nephesh", "meaning": "Seele, Leben, Kehle, Selbst", "source": "HALOT" },
+        "aramaic": { "form": "naphshā", "meaning": "Seele, Selbst", "source": "Jastrow" },
+        "syriac": { "form": "naphshā", "meaning": "Seele, Selbst", "source": "Sokoloff" },
+        "ugaritic": { "form": "npš", "meaning": "Seele, Kehle, Appetit, Selbst", "source": "DULAT" },
+        "akkadian": { "form": "napishtu", "meaning": "Leben, Kehle, Atem", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Grundbedeutung 'Kehle/Atem' → 'Leben/Seele/Selbst'.",
+      "quranRefs": ["2:48", "6:93", "89:27"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nfs"
+    },
+    {
+      "root": "ر-و-ح",
+      "arabicRoot": "روح",
+      "arabicMeaning": "Geist; Wind; Atem",
+      "cognates": {
+        "hebrew": { "form": "rûaḥ", "meaning": "Wind, Geist, Atem", "source": "HALOT" },
+        "aramaic": { "form": "rûḥā", "meaning": "Wind, Geist", "source": "Jastrow" },
+        "syriac": { "form": "rûḥā", "meaning": "Wind, Geist, Heiliger Geist", "source": "Sokoloff" },
+        "ugaritic": { "form": "rḥ", "meaning": "Wind; Duft", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitisch. Die theologische Konnotation 'Heiliger Geist' ist jüdisch-christlich vorgeprägt.",
+      "quranRefs": ["2:87", "17:85", "97:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=rwH"
+    },
+    {
+      "root": "ق-د-س",
+      "arabicRoot": "قدس",
+      "arabicMeaning": "heilig sein; heiligen",
+      "cognates": {
+        "hebrew": { "form": "qāḏēsh / qāḏash", "meaning": "heilig sein, heiligen", "source": "HALOT" },
+        "aramaic": { "form": "qaddîsh", "meaning": "heilig", "source": "Jastrow" },
+        "syriac": { "form": "qaddîshā", "meaning": "heilig; Heiliger", "source": "Sokoloff" },
+        "ugaritic": { "form": "qdš", "meaning": "heilig; Heiligtum", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitische Kultwurzel. Der Ausdruck rûḥ al-qudus entspricht aramäisch rûḥā d-qûdshā (Heiliger Geist).",
+      "quranRefs": ["2:30", "2:87", "59:23"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qds"
+    },
+    {
+      "root": "ب-ر-ك",
+      "arabicRoot": "برك",
+      "arabicMeaning": "segnen; Segen; knien",
+      "cognates": {
+        "hebrew": { "form": "bārakh / bərākhāh", "meaning": "segnen, knien; Segen", "source": "HALOT" },
+        "aramaic": { "form": "bərēkh / birkəthā", "meaning": "segnen; Segen", "source": "Jastrow" },
+        "syriac": { "form": "bārekh / burkthā", "meaning": "segnen; Segen", "source": "Sokoloff" },
+        "ugaritic": { "form": "brk", "meaning": "segnen; knien", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitisch. Verbindung 'knien → segnen/gesegnet werden' durchgängig.",
+      "quranRefs": ["7:137", "19:31", "25:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=brk"
+    },
+    {
+      "root": "م-ل-ك",
+      "arabicRoot": "ملك",
+      "arabicMeaning": "König; herrschen; besitzen",
+      "cognates": {
+        "hebrew": { "form": "melekh / mālakh", "meaning": "König; König sein", "source": "HALOT" },
+        "aramaic": { "form": "malkā / məlakh", "meaning": "König; beraten, regieren", "source": "Jastrow" },
+        "syriac": { "form": "malkā", "meaning": "König", "source": "Sokoloff" },
+        "ugaritic": { "form": "mlk", "meaning": "König; Herrschaft", "source": "DULAT" },
+        "akkadian": { "form": "malku", "meaning": "König, Fürst", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Im Aramäischen erhält die Wurzel die Nebenbedeutung 'beraten'.",
+      "quranRefs": ["1:4", "2:247", "114:2"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mlk"
+    },
+    {
+      "root": "ك-ه-ن",
+      "arabicRoot": "كهن",
+      "arabicMeaning": "Wahrsager, Priester",
+      "cognates": {
+        "hebrew": { "form": "kōhēn", "meaning": "Priester", "source": "HALOT" },
+        "aramaic": { "form": "kāhănā", "meaning": "Priester", "source": "Jastrow" },
+        "syriac": { "form": "kāhnā", "meaning": "Priester", "source": "Sokoloff" },
+        "ugaritic": { "form": "khn", "meaning": "Priester", "source": "DULAT" }
+      },
+      "notes": "Nordwestsemitisch 'Priester'; im Arabischen semantische Verschiebung zu 'Wahrsager'. Jeffery: kāhin trägt den alten Priesterterm in divinatorischer Umdeutung.",
+      "quranRefs": ["52:29", "69:42"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=khn"
+    },
+    {
+      "root": "ش-ي-ط-ن",
+      "arabicRoot": "شيطان",
+      "arabicMeaning": "Satan, Widersacher",
+      "cognates": {
+        "hebrew": { "form": "shāṭān", "meaning": "Widersacher, Ankläger", "source": "HALOT" },
+        "aramaic": { "form": "sāṭānā", "meaning": "Satan, Widersacher", "source": "Jastrow" },
+        "syriac": { "form": "sāṭānā", "meaning": "Satan", "source": "Sokoloff" },
+        "geez": { "form": "saytān", "meaning": "Satan", "source": "CDG" }
+      },
+      "notes": "Jeffery: shayṭān ist jüdisch-christlich vermittelt; die äthiopische Form saytān zeigt die gleiche Entlehnungsroute wie ins Arabische.",
+      "quranRefs": ["2:36", "2:168", "114:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=$Tn"
+    },
+    {
+      "root": "ج-ه-ن-م",
+      "arabicRoot": "جهنم",
+      "arabicMeaning": "Hölle",
+      "cognates": {
+        "hebrew": { "form": "gê-hinnōm", "meaning": "Tal Hinnoms (südlich Jerusalems); Ort des Gerichts", "source": "HALOT" },
+        "aramaic": { "form": "gêhinnām", "meaning": "Hölle", "source": "Jastrow" },
+        "syriac": { "form": "gîhannā", "meaning": "Hölle", "source": "Sokoloff" },
+        "geez": { "form": "gahannam", "meaning": "Hölle", "source": "CDG" }
+      },
+      "notes": "Jeffery: ǧahannam aus jüdisch-aramäisch gêhinnām/gîhannā, ursprünglich Toponym (Hinnomtal), später eschatologischer Ort.",
+      "quranRefs": ["2:206", "4:93", "67:6"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=jhn"
+    },
+    {
+      "root": "م-ل-ك-(ج)",
+      "arabicRoot": "ملاك/ملك",
+      "arabicMeaning": "Engel, Bote",
+      "cognates": {
+        "hebrew": { "form": "malʾākh", "meaning": "Bote, Engel", "source": "HALOT" },
+        "aramaic": { "form": "malʾăkhā", "meaning": "Bote, Engel", "source": "Jastrow" },
+        "syriac": { "form": "malʾakhā", "meaning": "Engel, Bote", "source": "Sokoloff" },
+        "geez": { "form": "malʾak", "meaning": "Engel, Bote", "source": "CDG" },
+        "ugaritic": { "form": "mlak", "meaning": "Bote", "source": "DULAT" }
+      },
+      "notes": "Wurzel l-ʾ-k 'senden'. Gemeinsemitisch für 'Bote', theologische Verengung auf 'Engel' im jüdisch-christlichen Kontext.",
+      "quranRefs": ["2:31", "2:34", "35:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mlk"
+    },
+    {
+      "root": "خ-ل-ق",
+      "arabicRoot": "خلق",
+      "arabicMeaning": "schaffen; Geschöpf",
+      "cognates": {
+        "hebrew": { "form": "ḥālaq", "meaning": "glatt/zugeteilt; Anteil (semantisch verwandt 'zuteilen')", "source": "HALOT" },
+        "aramaic": { "form": "ḥălaq", "meaning": "teilen, zuteilen", "source": "Jastrow" },
+        "ugaritic": { "form": "ḫlq", "meaning": "untergehen, vergehen (gegensätzliche Semantik)", "source": "DULAT" }
+      },
+      "notes": "Die arabische Bedeutung 'schaffen, bilden' geht aus der Grundbedeutung 'zurechtmessen, formen' hervor. Semantische Nähe, keine vollständige Überlappung.",
+      "quranRefs": ["2:29", "2:117", "96:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=xlq"
+    },
+    {
+      "root": "ذ-ب-ح",
+      "arabicRoot": "ذبح",
+      "arabicMeaning": "schlachten, opfern",
+      "cognates": {
+        "hebrew": { "form": "zāvaḥ / zevaḥ", "meaning": "schlachten, opfern; Opfer", "source": "HALOT" },
+        "aramaic": { "form": "dəvaḥ / divḥā", "meaning": "opfern; Opfer", "source": "Jastrow" },
+        "syriac": { "form": "dvaḥ / devḥā", "meaning": "opfern; Opfer, Altar", "source": "Sokoloff" },
+        "ugaritic": { "form": "dbḥ", "meaning": "opfern; Opfer", "source": "DULAT" },
+        "akkadian": { "form": "zību", "meaning": "Opfer", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitische Kultwurzel. Lautwandel arab. dh/aram. d/hebr. z regelhaft.",
+      "quranRefs": ["2:67", "5:3", "37:102"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=zbH"
+    },
+    {
+      "root": "ب-ي-ت",
+      "arabicRoot": "بيت",
+      "arabicMeaning": "Haus",
+      "cognates": {
+        "hebrew": { "form": "bayiṯ", "meaning": "Haus", "source": "HALOT" },
+        "aramaic": { "form": "baytā / bêṯ", "meaning": "Haus", "source": "Jastrow" },
+        "syriac": { "form": "baytā", "meaning": "Haus", "source": "Sokoloff" },
+        "ugaritic": { "form": "bt", "meaning": "Haus", "source": "DULAT" },
+        "akkadian": { "form": "bītu", "meaning": "Haus", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["2:125", "2:127", "106:3"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=byt"
+    },
+    {
+      "root": "ك-ل-ب",
+      "arabicRoot": "كلب",
+      "arabicMeaning": "Hund",
+      "cognates": {
+        "hebrew": { "form": "kelev", "meaning": "Hund", "source": "HALOT" },
+        "aramaic": { "form": "kalbā", "meaning": "Hund", "source": "Jastrow" },
+        "syriac": { "form": "kalbā", "meaning": "Hund", "source": "Sokoloff" },
+        "ugaritic": { "form": "klb", "meaning": "Hund", "source": "DULAT" },
+        "akkadian": { "form": "kalbu", "meaning": "Hund", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["7:176", "18:18", "18:22"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=klb"
+    },
+    {
+      "root": "ث-و-ر",
+      "arabicRoot": "ثور",
+      "arabicMeaning": "Stier, Rind",
+      "cognates": {
+        "hebrew": { "form": "shôr", "meaning": "Stier, Rind", "source": "HALOT" },
+        "aramaic": { "form": "tôrā", "meaning": "Stier, Rind", "source": "Jastrow" },
+        "syriac": { "form": "tawrā", "meaning": "Stier", "source": "Sokoloff" },
+        "ugaritic": { "form": "ṯr", "meaning": "Stier", "source": "DULAT" },
+        "akkadian": { "form": "shūru", "meaning": "Stier", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort. Lautwandel ṯ/sh/t regelhaft.",
+      "quranRefs": ["2:67", "2:70", "2:71"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=bqr"
+    },
+    {
+      "root": "م-ل-ح",
+      "arabicRoot": "ملح",
+      "arabicMeaning": "Salz; salzig",
+      "cognates": {
+        "hebrew": { "form": "melaḥ", "meaning": "Salz", "source": "HALOT" },
+        "aramaic": { "form": "milḥā", "meaning": "Salz", "source": "Jastrow" },
+        "syriac": { "form": "melḥā", "meaning": "Salz", "source": "Sokoloff" },
+        "ugaritic": { "form": "mlḥ", "meaning": "Salz", "source": "DULAT" },
+        "akkadian": { "form": "milḥu / ṭābtu", "meaning": "Salz (milḥu selten; Hauptwort ṭābtu)", "source": "CAD" }
+      },
+      "notes": "Nordwestsemitisch-arabisch stabil. Im Akkadischen dominiert ṭābtu.",
+      "quranRefs": ["25:53", "35:12"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mlH"
+    },
+    {
+      "root": "ل-ي-ل",
+      "arabicRoot": "ليل",
+      "arabicMeaning": "Nacht",
+      "cognates": {
+        "hebrew": { "form": "laylāh", "meaning": "Nacht", "source": "HALOT" },
+        "aramaic": { "form": "lêlyā", "meaning": "Nacht", "source": "Jastrow" },
+        "syriac": { "form": "lilyā", "meaning": "Nacht", "source": "Sokoloff" },
+        "ugaritic": { "form": "ll", "meaning": "Nacht", "source": "DULAT" },
+        "akkadian": { "form": "līlâtu", "meaning": "Abend, Nacht", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["2:187", "17:1", "97:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=lyl"
+    },
+    {
+      "root": "ي-و-م",
+      "arabicRoot": "يوم",
+      "arabicMeaning": "Tag",
+      "cognates": {
+        "hebrew": { "form": "yôm", "meaning": "Tag", "source": "HALOT" },
+        "aramaic": { "form": "yômā", "meaning": "Tag", "source": "Jastrow" },
+        "syriac": { "form": "yawmā", "meaning": "Tag", "source": "Sokoloff" },
+        "ugaritic": { "form": "ym", "meaning": "Tag", "source": "DULAT" },
+        "akkadian": { "form": "ūmu", "meaning": "Tag", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["1:4", "2:8", "82:17"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=ywm"
+    },
+    {
+      "root": "س-ن-ة",
+      "arabicRoot": "سنة",
+      "arabicMeaning": "Jahr",
+      "cognates": {
+        "hebrew": { "form": "shānāh", "meaning": "Jahr", "source": "HALOT" },
+        "aramaic": { "form": "shattā / shənā", "meaning": "Jahr", "source": "Jastrow" },
+        "syriac": { "form": "shattā", "meaning": "Jahr", "source": "Sokoloff" },
+        "ugaritic": { "form": "šnt", "meaning": "Jahr", "source": "DULAT" },
+        "akkadian": { "form": "shattu", "meaning": "Jahr", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Wurzel shnt/šnt mit typischer Assimilation.",
+      "quranRefs": ["2:96", "18:25", "29:14"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=snw"
+    },
+    {
+      "root": "د-م-م",
+      "arabicRoot": "دم",
+      "arabicMeaning": "Blut",
+      "cognates": {
+        "hebrew": { "form": "dām", "meaning": "Blut", "source": "HALOT" },
+        "aramaic": { "form": "dəmā", "meaning": "Blut", "source": "Jastrow" },
+        "syriac": { "form": "dmā", "meaning": "Blut", "source": "Sokoloff" },
+        "ugaritic": { "form": "dm", "meaning": "Blut", "source": "DULAT" },
+        "akkadian": { "form": "damu", "meaning": "Blut", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort.",
+      "quranRefs": ["2:30", "5:3", "96:2"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=dmw"
+    },
+    {
+      "root": "ق-ب-ر",
+      "arabicRoot": "قبر",
+      "arabicMeaning": "Grab; begraben",
+      "cognates": {
+        "hebrew": { "form": "qever / qāvar", "meaning": "Grab; begraben", "source": "HALOT" },
+        "aramaic": { "form": "qivrā / qəvar", "meaning": "Grab; begraben", "source": "Jastrow" },
+        "syriac": { "form": "qavrā", "meaning": "Grab", "source": "Sokoloff" },
+        "ugaritic": { "form": "qbr", "meaning": "Grab; begraben", "source": "DULAT" },
+        "akkadian": { "form": "qabru / qebēru", "meaning": "Grab; begraben", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch.",
+      "quranRefs": ["9:84", "22:7", "102:2"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qbr"
+    },
+    {
+      "root": "ع-ر-ش",
+      "arabicRoot": "عرش",
+      "arabicMeaning": "Thron",
+      "cognates": {
+        "hebrew": { "form": "ʿeres / ʿāras", "meaning": "Lager, Bett; Hochsitz (schwächere Semantik)", "source": "HALOT" },
+        "aramaic": { "form": "ʿarsā", "meaning": "Bett, Liegestatt", "source": "Jastrow" },
+        "syriac": { "form": "ʿarsā", "meaning": "Bett", "source": "Sokoloff" },
+        "ugaritic": { "form": "ʿrš", "meaning": "Bett, Ruhestatt", "source": "DULAT" }
+      },
+      "notes": "Nordwestsemitisch 'Bett/Ruhestatt', im Arabischen Verengung auf 'Thron' (erhöhter Ruhesitz des Herrschers).",
+      "quranRefs": ["7:54", "20:5", "85:15"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Er$"
+    },
+    {
+      "root": "ك-ر-س-ي",
+      "arabicRoot": "كرسي",
+      "arabicMeaning": "Sitz, Thron",
+      "cognates": {
+        "hebrew": { "form": "kissēʾ", "meaning": "Thron, Sitz", "source": "HALOT" },
+        "aramaic": { "form": "kursyā", "meaning": "Thron, Sitz", "source": "Jastrow" },
+        "syriac": { "form": "kursyā", "meaning": "Thron", "source": "Sokoloff" },
+        "akkadian": { "form": "kussû", "meaning": "Thron, Sitz", "source": "CAD" }
+      },
+      "notes": "Jeffery: kursī ist gemeinsemitisches Wanderwort, im Arabischen über aramäisch kursyā belegt.",
+      "quranRefs": ["2:255", "38:34"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=krsy"
+    },
+    {
+      "root": "ع-ه-د",
+      "arabicRoot": "عهد",
+      "arabicMeaning": "Bund, Vertrag",
+      "cognates": {
+        "hebrew": { "form": "ʿēḏ / ʿēḏûṯ", "meaning": "Zeuge; Zeugnis, Bundesurkunde", "source": "HALOT" },
+        "aramaic": { "form": "ʿaddê / ʿăhaḏ", "meaning": "Vertrag, Eid (aus westaramäischen Verträgen)", "source": "Jastrow" },
+        "akkadian": { "form": "adû", "meaning": "Vertrag, Eid", "source": "CAD" }
+      },
+      "notes": "Altsemit. 'Vertrag, Eid'. Akkadisches adû (Staatsvertrag) und hebr. ʿēḏûṯ (Bundeszeugnis) decken dieselbe Rechtsfeldsemantik.",
+      "quranRefs": ["2:27", "2:40", "17:34"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Ehd"
+    },
+    {
+      "root": "ش-ه-د",
+      "arabicRoot": "شهد",
+      "arabicMeaning": "bezeugen; Zeuge",
+      "cognates": {
+        "hebrew": { "form": "ʿēḏ (Wurzel ʿ-w-d, semantisch äquivalent)", "meaning": "Zeuge", "source": "HALOT" },
+        "sabaic": { "form": "s²hd", "meaning": "bezeugen", "source": "SD" },
+        "geez": { "form": "sahada", "meaning": "bezeugen, Märtyrer sein", "source": "CDG" }
+      },
+      "notes": "Die Wurzel sh-h-d ist südsemitisch-arabisch dominant. Im Nordwestsemitischen deckt ʿ-w-d 'bezeugen'.",
+      "quranRefs": ["2:143", "3:18", "85:3"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=$hd"
+    },
+    {
+      "root": "ق-ر-ب",
+      "arabicRoot": "قرب",
+      "arabicMeaning": "nahe sein; herantreten; Opfer (qurbān)",
+      "cognates": {
+        "hebrew": { "form": "qārav / qorbān", "meaning": "nahetreten, opfern; Opfergabe", "source": "HALOT" },
+        "aramaic": { "form": "qərēv / qurbānā", "meaning": "nahetreten, opfern; Opfer", "source": "Jastrow" },
+        "syriac": { "form": "qurbānā", "meaning": "Opfer, Eucharistie", "source": "Sokoloff" },
+        "ugaritic": { "form": "qrb", "meaning": "nahen; herantreten", "source": "DULAT" },
+        "akkadian": { "form": "qerēbu", "meaning": "sich nähern", "source": "CAD" }
+      },
+      "notes": "Jeffery: qurbān als Kultterm aus aramäisch qurbānā (Opfergabe). Die Wurzel selbst ist gemeinsemitisch.",
+      "quranRefs": ["3:183", "5:27", "46:28"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qrb"
+    },
+    {
+      "root": "ص-و-م",
+      "arabicRoot": "صوم",
+      "arabicMeaning": "fasten; Fasten",
+      "cognates": {
+        "hebrew": { "form": "ṣûm / ṣôm", "meaning": "fasten; Fasten", "source": "HALOT" },
+        "aramaic": { "form": "ṣām / ṣômā", "meaning": "fasten; Fastenzeit", "source": "Jastrow" },
+        "syriac": { "form": "ṣām / ṣawmā", "meaning": "fasten; Fastenzeit", "source": "Sokoloff" },
+        "geez": { "form": "ṣawm", "meaning": "Fasten", "source": "CDG" }
+      },
+      "notes": "Gemeinsemitische Kultwurzel; in allen drei monotheistischen Schwestersprachen terminologisch stabil.",
+      "quranRefs": ["2:183", "2:187", "19:26"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Swm"
+    },
+    {
+      "root": "ح-ج-ج",
+      "arabicRoot": "حج",
+      "arabicMeaning": "Pilgerfahrt; Wallfahrt",
+      "cognates": {
+        "hebrew": { "form": "ḥāḡ / ḥāḡaḡ", "meaning": "Fest; Festwallfahrt halten", "source": "HALOT" },
+        "aramaic": { "form": "ḥaggā", "meaning": "Fest", "source": "Jastrow" },
+        "syriac": { "form": "ḥaggā", "meaning": "Fest", "source": "Sokoloff" },
+        "ugaritic": { "form": "ḥg", "meaning": "Fest; Festumzug", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitisch; ursprünglich 'Festumzug, Rundgang' (vgl. ṭāf). Im Arabischen Wallfahrt nach Mekka spezifiziert.",
+      "quranRefs": ["2:158", "2:196", "22:27"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hjj"
+    },
+    {
+      "root": "ع-ل-و",
+      "arabicRoot": "علو",
+      "arabicMeaning": "hoch sein; erhaben",
+      "cognates": {
+        "hebrew": { "form": "ʿālāh / ʿelyôn", "meaning": "aufsteigen; der Höchste", "source": "HALOT" },
+        "aramaic": { "form": "ʿălā / ʿillāy", "meaning": "hinaufgehen; hoch, oberster", "source": "Jastrow" },
+        "syriac": { "form": "ʿlā / ʿelāyā", "meaning": "aufsteigen; erhaben", "source": "Sokoloff" },
+        "ugaritic": { "form": "ʿly", "meaning": "hinaufsteigen", "source": "DULAT" },
+        "akkadian": { "form": "elû", "meaning": "hinaufsteigen; hoch sein", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch.",
+      "quranRefs": ["2:255", "17:43", "87:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Elw"
+    },
+    {
+      "root": "ن-ز-ل",
+      "arabicRoot": "نزل",
+      "arabicMeaning": "herabkommen; hinabsteigen",
+      "cognates": {
+        "hebrew": { "form": "nāzal", "meaning": "fließen, herabrieseln", "source": "HALOT" },
+        "aramaic": { "form": "nəḥēṯ / nəzal", "meaning": "hinabsteigen (überwiegend n-ḥ-t); nəzal: strömen", "source": "Jastrow" },
+        "ugaritic": { "form": "nzl", "meaning": "herabfließen", "source": "DULAT" }
+      },
+      "notes": "Arabisches n-z-l 'herabsteigen' (vor allem von Offenbarung) ist semantische Spezialisierung aus 'herabfließen/strömen'.",
+      "quranRefs": ["2:23", "17:105", "97:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nzl"
+    },
+    {
+      "root": "س-ج-د",
+      "arabicRoot": "سجد",
+      "arabicMeaning": "sich niederwerfen",
+      "cognates": {
+        "aramaic": { "form": "səgêḏ", "meaning": "sich niederwerfen, verehren", "source": "Jastrow" },
+        "syriac": { "form": "sgeḏ", "meaning": "sich niederwerfen, anbeten", "source": "Sokoloff" },
+        "hebrew": { "form": "sāgaḏ (selten)", "meaning": "sich verneigen (nur Jes 44; 46)", "source": "HALOT" }
+      },
+      "notes": "Im Nordwestsemitischen ist s-g-d vor allem aramäisch dominant. Im Hebräischen dominiert hištaḥăwāh, im Arabischen sagada.",
+      "quranRefs": ["2:34", "7:11", "96:19"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=sjd"
+    },
+    {
+      "root": "ح-ي-ي",
+      "arabicRoot": "حيي",
+      "arabicMeaning": "leben; lebendig",
+      "cognates": {
+        "hebrew": { "form": "ḥāyāh / ḥay", "meaning": "leben; lebendig", "source": "HALOT" },
+        "aramaic": { "form": "ḥəyā / ḥayyā", "meaning": "leben; lebendig", "source": "Jastrow" },
+        "syriac": { "form": "ḥyā / ḥayyā", "meaning": "leben; lebendig", "source": "Sokoloff" },
+        "ugaritic": { "form": "ḥwy / ḥy", "meaning": "leben; lebendig", "source": "DULAT" },
+        "akkadian": { "form": "ḫayyu (selten); Hauptterm balāṭu", "meaning": "leben — im Akk. dominiert balāṭu", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Im Akkadischen ist ḥ-y-y nur schwach, balāṭu dominiert.",
+      "quranRefs": ["2:28", "2:255", "40:65"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hyy"
+    },
+    {
+      "root": "م-و-ت",
+      "arabicRoot": "موت",
+      "arabicMeaning": "sterben; Tod",
+      "cognates": {
+        "hebrew": { "form": "mûṯ / māweṯ", "meaning": "sterben; Tod", "source": "HALOT" },
+        "aramaic": { "form": "mîṯ / môṯā", "meaning": "sterben; Tod", "source": "Jastrow" },
+        "syriac": { "form": "mîṯ / mawtā", "meaning": "sterben; Tod", "source": "Sokoloff" },
+        "ugaritic": { "form": "mt", "meaning": "sterben; Tod; Totengott Môtu", "source": "DULAT" },
+        "akkadian": { "form": "mâtu", "meaning": "sterben", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundverb.",
+      "quranRefs": ["2:19", "3:145", "39:42"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=mwt"
+    },
+    {
+      "root": "ق-و-ل",
+      "arabicRoot": "قول",
+      "arabicMeaning": "sagen; Wort",
+      "cognates": {
+        "hebrew": { "form": "qôl", "meaning": "Stimme, Laut (die verbale Form ist selten; meist Nomen)", "source": "HALOT" },
+        "aramaic": { "form": "qāl / qālā", "meaning": "Stimme; (Verbum 'sagen' meist əmar)", "source": "Jastrow" },
+        "ugaritic": { "form": "ql", "meaning": "Stimme; Ruf", "source": "DULAT" },
+        "akkadian": { "form": "qâlu", "meaning": "lauschen, achtgeben; auch Stimme", "source": "CAD" }
+      },
+      "notes": "Im Nordwestsemitischen nominal 'Stimme', im Arabischen zum Hauptverbum 'sagen' ausgebaut. Verwandte Wurzel, eigene Semantik.",
+      "quranRefs": ["2:8", "2:30", "112:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qwl"
+    },
+    {
+      "root": "ك-و-ن",
+      "arabicRoot": "كون",
+      "arabicMeaning": "sein, werden; existieren",
+      "cognates": {
+        "hebrew": { "form": "kûn", "meaning": "feststehen, gegründet sein", "source": "HALOT" },
+        "aramaic": { "form": "kûn / hăwā", "meaning": "feststehen; (für 'sein' meist hăwā)", "source": "Jastrow" },
+        "ugaritic": { "form": "kn", "meaning": "sein, existieren", "source": "DULAT" },
+        "akkadian": { "form": "kânu", "meaning": "fest, zuverlässig sein", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Arabisch hat kāna zum Haupt-'sein'-Verb ausgebaut; andere Sprachen behalten die Grundbedeutung 'fest sein / gegründet sein'.",
+      "quranRefs": ["2:117", "3:59", "36:82"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=kwn"
+    },
+    {
+      "root": "أ-م-ن",
+      "arabicRoot": "أمن",
+      "arabicMeaning": "sicher sein; glauben, vertrauen",
+      "cognates": {
+        "hebrew": { "form": "ʾāman / ʾĕmûnāh", "meaning": "fest sein, vertrauen; Treue, Glaube", "source": "HALOT" },
+        "aramaic": { "form": "hêmēn / hêmānûṯā", "meaning": "glauben; Glaube", "source": "Jastrow" },
+        "syriac": { "form": "haymen / haymānûṯā", "meaning": "glauben; Glaube", "source": "Sokoloff" },
+        "ugaritic": { "form": "amn", "meaning": "zuverlässig, treu", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitische Wurzel für 'fest/zuverlässig'. Der Ausruf 'Amen' teilt dieselbe Wurzel.",
+      "quranRefs": ["2:3", "2:62", "106:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Amn"
+    },
+    {
+      "root": "ح-ك-م",
+      "arabicRoot": "حكم",
+      "arabicMeaning": "urteilen; weise sein; Weisheit",
+      "cognates": {
+        "hebrew": { "form": "ḥākhām / ḥokhmāh", "meaning": "weise; Weisheit", "source": "HALOT" },
+        "aramaic": { "form": "ḥakkîm / ḥokhmətā", "meaning": "weise; Weisheit", "source": "Jastrow" },
+        "syriac": { "form": "ḥakkîmā / ḥekhmthā", "meaning": "weise; Weisheit", "source": "Sokoloff" },
+        "ugaritic": { "form": "ḥkm", "meaning": "weise, klug", "source": "DULAT" },
+        "geez": { "form": "ḥakim", "meaning": "weise", "source": "CDG" }
+      },
+      "notes": "Gemeinsemitisch. Verbindung 'Weisheit → Richteramt' ist durchgängig.",
+      "quranRefs": ["2:32", "2:129", "43:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Hkm"
+    },
+    {
+      "root": "ع-د-ل",
+      "arabicRoot": "عدل",
+      "arabicMeaning": "gerecht sein; Gerechtigkeit",
+      "cognates": {
+        "hebrew": { "form": "ṣeḏeq (Wurzel ṣ-d-q, semantisch äquivalent)", "meaning": "Gerechtigkeit", "source": "HALOT" },
+        "ugaritic": { "form": "ʿdl", "meaning": "gleich, eben; gerecht (schwach belegt)", "source": "DULAT" },
+        "sabaic": { "form": "ʿdl", "meaning": "gerecht handeln", "source": "SD" }
+      },
+      "notes": "Die Wurzel ʿ-d-l ist vor allem süd-/zentralsemitisch (arabisch, sabäisch) dominant. Im Nordwestsemitischen deckt ṣ-d-q das Feld.",
+      "quranRefs": ["4:58", "5:8", "16:90"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Edl"
+    },
+    {
+      "root": "ص-د-ق",
+      "arabicRoot": "صدق",
+      "arabicMeaning": "wahrhaftig sein; Wahrheit; Almosen (ṣadaqa)",
+      "cognates": {
+        "hebrew": { "form": "ṣāḏaq / ṣəḏāqāh", "meaning": "gerecht sein; Gerechtigkeit; später Almosen", "source": "HALOT" },
+        "aramaic": { "form": "ṣəḏaq / ṣiḏqəthā", "meaning": "gerecht sein; Almosen (rabbinisch)", "source": "Jastrow" },
+        "syriac": { "form": "zədeq / zeḏqthā", "meaning": "gerecht sein; Almosen", "source": "Sokoloff" }
+      },
+      "notes": "Jeffery: ṣadaqa als 'Almosen' folgt der jüdisch-aramäischen Bedeutungsentwicklung von ṣəḏāqāh (Gerechtigkeit → Wohltat/Almosen).",
+      "quranRefs": ["2:177", "9:60", "57:18"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Sdq"
+    },
+    {
+      "root": "ط-ه-ر",
+      "arabicRoot": "طهر",
+      "arabicMeaning": "rein sein; reinigen",
+      "cognates": {
+        "hebrew": { "form": "ṭāhôr / ṭihar", "meaning": "rein; reinigen (kultisch)", "source": "HALOT" },
+        "aramaic": { "form": "ṭəhar", "meaning": "rein sein, reinigen", "source": "Jastrow" },
+        "syriac": { "form": "ṭhar", "meaning": "rein sein", "source": "Sokoloff" },
+        "ugaritic": { "form": "ṭhr", "meaning": "rein, klar (schwach belegt)", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitische Kultwurzel für rituelle Reinheit.",
+      "quranRefs": ["2:222", "5:6", "74:4"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Thr"
+    },
+    {
+      "root": "ن-ذ-ر",
+      "arabicRoot": "نذر",
+      "arabicMeaning": "warnen; Gelübde",
+      "cognates": {
+        "hebrew": { "form": "nāḏar / neḏer", "meaning": "geloben; Gelübde", "source": "HALOT" },
+        "aramaic": { "form": "nəḏar / niḏrā", "meaning": "geloben; Gelübde", "source": "Jastrow" },
+        "syriac": { "form": "nḏar / neḏrā", "meaning": "geloben; Gelübde", "source": "Sokoloff" },
+        "ugaritic": { "form": "nḏr", "meaning": "geloben; Gelübde", "source": "DULAT" }
+      },
+      "notes": "Gemeinsemitische Kultwurzel für 'Gelübde'. Die arabische Nebenbedeutung 'warnen' (nadhīr) ist Spezialisierung aus 'feierlich erklären'.",
+      "quranRefs": ["2:270", "3:35", "76:7"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nzr"
+    },
+    {
+      "root": "ق-ر-ن",
+      "arabicRoot": "قرن",
+      "arabicMeaning": "Horn; Generation",
+      "cognates": {
+        "hebrew": { "form": "qeren", "meaning": "Horn; Macht", "source": "HALOT" },
+        "aramaic": { "form": "qarnā", "meaning": "Horn", "source": "Jastrow" },
+        "syriac": { "form": "qarnā", "meaning": "Horn, Ecke", "source": "Sokoloff" },
+        "ugaritic": { "form": "qrn", "meaning": "Horn", "source": "DULAT" },
+        "akkadian": { "form": "qarnu", "meaning": "Horn", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisches Grundwort. Lateinisch cornu, griechisch kéras sind indogermanische Parallelen — keine Entlehnung.",
+      "quranRefs": ["6:6", "18:83", "19:74"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=qrn"
+    },
+    {
+      "root": "ب-ش-ر",
+      "arabicRoot": "بشر",
+      "arabicMeaning": "frohe Botschaft verkünden; Mensch (Haut, Fleisch)",
+      "cognates": {
+        "hebrew": { "form": "bāśār / biśśar", "meaning": "Fleisch; frohe Botschaft verkünden", "source": "HALOT" },
+        "aramaic": { "form": "bəśar / bəsar", "meaning": "Fleisch; verkünden", "source": "Jastrow" },
+        "syriac": { "form": "bsar / sbar", "meaning": "Fleisch; verkünden (Metathese in sbar)", "source": "Sokoloff" },
+        "ugaritic": { "form": "bšr", "meaning": "frohe Botschaft bringen", "source": "DULAT" },
+        "akkadian": { "form": "bushāru / bussuru", "meaning": "Botschaft; gute Nachricht bringen", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Die Doppelung 'Fleisch/Haut' und 'Botschaft' ist alt und in allen Sprachen belegt. Arabisch bashar 'Mensch' entspricht hebr. bāśār 'Fleisch/Lebewesen'.",
+      "quranRefs": ["2:25", "3:45", "74:25"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=b$r"
+    },
+    {
+      "root": "خ-ط-ي",
+      "arabicRoot": "خطأ",
+      "arabicMeaning": "fehlen, sündigen; Sünde",
+      "cognates": {
+        "hebrew": { "form": "ḥāṭāʾ / ḥaṭṭāʾṯ", "meaning": "verfehlen, sündigen; Sünde", "source": "HALOT" },
+        "aramaic": { "form": "ḥəṭā / ḥaṭṭāyā", "meaning": "sündigen; Sünder", "source": "Jastrow" },
+        "syriac": { "form": "ḥṭā / ḥṭāhā", "meaning": "sündigen; Sünde", "source": "Sokoloff" },
+        "ugaritic": { "form": "ḫṭʾ", "meaning": "verfehlen, sündigen", "source": "DULAT" },
+        "akkadian": { "form": "ḫaṭû", "meaning": "verfehlen, sündigen", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch. Grundbedeutung 'das Ziel verfehlen' → 'moralisch fehlen/sündigen'.",
+      "quranRefs": ["2:58", "4:112", "96:16"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=xTA"
+    },
+    {
+      "root": "ع-ذ-ب",
+      "arabicRoot": "عذب",
+      "arabicMeaning": "quälen; Strafe",
+      "cognates": {
+        "hebrew": { "form": "ʿāṣav / ʿeṣev", "meaning": "Schmerz, Mühsal (Wurzel ʿ-ṣ-b, semantisch nahe)", "source": "HALOT" },
+        "aramaic": { "form": "ʿăḏav", "meaning": "quälen, peinigen (schwach belegt)", "source": "Jastrow" }
+      },
+      "notes": "Die arabische Wurzel ʿ-dh-b mit der Bedeutung 'Strafe' hat schwächere direkte Kognaten; die semantische Nachbarschaft zu hebr. ʿ-ṣ-b 'Mühsal' ist belegt.",
+      "quranRefs": ["2:7", "3:56", "88:24"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=Ezb"
+    },
+    {
+      "root": "ج-ن-ن",
+      "arabicRoot": "جن",
+      "arabicMeaning": "verbergen; Dschinn (verborgene Wesen)",
+      "cognates": {
+        "hebrew": { "form": "gānan / māḡēn", "meaning": "schützen, decken; Schild", "source": "HALOT" },
+        "aramaic": { "form": "gənan / gənānā", "meaning": "bedecken, schützen; Schutzdach", "source": "Jastrow" },
+        "syriac": { "form": "gan / gnônā", "meaning": "schützen; Brautgemach, Schutzdach", "source": "Sokoloff" }
+      },
+      "notes": "Gemeinsemitisch 'bedecken/schützen'. Arabisch ǧinn 'verborgene Wesen' und ǧanna 'Garten' (umhegter Raum) teilen die Grundbedeutung 'umhüllen'.",
+      "quranRefs": ["6:100", "55:15", "72:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=jnn"
+    },
+    {
+      "root": "س-ن-ن",
+      "arabicRoot": "سن",
+      "arabicMeaning": "Zahn; Gewohnheit, Regel",
+      "cognates": {
+        "hebrew": { "form": "shēn", "meaning": "Zahn", "source": "HALOT" },
+        "aramaic": { "form": "shinnā", "meaning": "Zahn", "source": "Jastrow" },
+        "syriac": { "form": "shennā", "meaning": "Zahn", "source": "Sokoloff" },
+        "ugaritic": { "form": "šn", "meaning": "Zahn", "source": "DULAT" },
+        "akkadian": { "form": "shinnu", "meaning": "Zahn", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch für 'Zahn'. Die abstrakte Bedeutung 'Gewohnheit, Regel' (sunna) ist arabische Entwicklung.",
+      "quranRefs": ["5:45", "15:13", "35:43"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=snn"
+    },
+    {
+      "root": "ب-ر-ي-أ",
+      "arabicRoot": "برأ",
+      "arabicMeaning": "schaffen; frei sein von",
+      "cognates": {
+        "hebrew": { "form": "bārāʾ", "meaning": "erschaffen (besonders theologisch, Gen 1:1)", "source": "HALOT" },
+        "aramaic": { "form": "bərā", "meaning": "schaffen, bilden", "source": "Jastrow" },
+        "syriac": { "form": "brā", "meaning": "schaffen; Schöpfer (bārôyā)", "source": "Sokoloff" }
+      },
+      "notes": "Nordwestsemitisch-arabisch. Die theologische Verwendung 'erschaffen' ist biblisch-jüdisch-christlich geprägt und im quranischen al-bāriʾ (Schöpfer) wiederzufinden.",
+      "quranRefs": ["2:54", "57:22", "59:24"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=brA"
+    },
+    {
+      "root": "ن-ص-ر",
+      "arabicRoot": "نصر",
+      "arabicMeaning": "helfen; Sieg verleihen",
+      "cognates": {
+        "hebrew": { "form": "nāṣar", "meaning": "bewahren, schützen", "source": "HALOT" },
+        "aramaic": { "form": "nəṭar", "meaning": "bewahren (Lautwandel ṣ > ṭ)", "source": "Jastrow" },
+        "ugaritic": { "form": "nṣr", "meaning": "beschützen, bewachen", "source": "DULAT" },
+        "akkadian": { "form": "naṣāru", "meaning": "bewachen, beschützen", "source": "CAD" }
+      },
+      "notes": "Gemeinsemitisch 'bewahren/schützen'. Arabische Spezialisierung zu 'helfen/Sieg verleihen'.",
+      "quranRefs": ["2:214", "3:160", "110:1"],
+      "verifyUrl": "https://corpus.quran.com/qurandictionary.jsp?q=nSr"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "title": "Wurzel-Starter-Karten für SRS",
+    "description": "50 zentrale Quranwurzeln als vorpopulierte SRS-Karten. Auswahl basiert auf Frequenz und pädagogischer Relevanz.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Arabic-English Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "cards": [
+    {
+      "root": "ا ل ه",
+      "meaning": "Gott/Gottheit",
+      "count": 2851,
+      "front": "اله",
+      "back": "Wurzel: ا ل ه\nBedeutung: Gott, Gottheit\nHäufigkeit: 2851x\nFormen: الله، إِلٰه",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "root": "ق و ل",
+      "meaning": "sagen",
+      "count": 1722,
+      "front": "قول",
+      "back": "Wurzel: ق و ل\nBedeutung: sagen, sprechen\nHäufigkeit: 1722x\nFormen: قَالَ، يَقُولُ، قُلْ، قَوْل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+    },
+    {
+      "root": "ك و ن",
+      "meaning": "sein/werden",
+      "count": 1390,
+      "front": "كون",
+      "back": "Wurzel: ك و ن\nBedeutung: sein, werden\nHäufigkeit: 1390x\nFormen: كَانَ، يَكُونُ، كُنْ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+    },
+    {
+      "root": "ر ب ب",
+      "meaning": "Herr",
+      "count": 980,
+      "front": "رب",
+      "back": "Wurzel: ر ب ب\nBedeutung: Herr, Erziehen\nHäufigkeit: 980x\nFormen: رَبّ، رَبَّانِيّ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "root": "ع ل م",
+      "meaning": "wissen",
+      "count": 854,
+      "front": "علم",
+      "back": "Wurzel: ع ل م\nBedeutung: wissen, kennen\nHäufigkeit: 854x\nFormen: عَلِمَ، عِلْم، عَلِيم، عَالَم",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "root": "ا م ن",
+      "meaning": "glauben/sicher sein",
+      "count": 879,
+      "front": "امن",
+      "back": "Wurzel: ا م ن\nBedeutung: glauben, sicher sein\nHäufigkeit: 879x\nFormen: آمَنَ، إِيمَان، مُؤْمِن، أَمِين",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "root": "ا ي ي",
+      "meaning": "Zeichen",
+      "count": 382,
+      "front": "ايي",
+      "back": "Wurzel: ا ي ي\nBedeutung: Zeichen, Vers\nHäufigkeit: 382x\nFormen: آيَة، آيَات",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=39"
+    },
+    {
+      "root": "ن و ر",
+      "meaning": "Licht",
+      "count": 194,
+      "front": "نور",
+      "back": "Wurzel: ن و ر\nBedeutung: Licht, erleuchten\nHäufigkeit: 194x\nFormen: نُور، أَنَارَ، مُنِير",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "root": "ع ب د",
+      "meaning": "dienen",
+      "count": 275,
+      "front": "عبد",
+      "back": "Wurzel: ع ب د\nBedeutung: dienen\nHäufigkeit: 275x\nFormen: عَبَدَ، عِبَادَة، عَبْد، عِبَاد",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+    },
+    {
+      "root": "ر ح م",
+      "meaning": "Gebärmutter; barmherzig sein, Erbarmen zeigen",
+      "count": 339,
+      "front": "رحم",
+      "back": "Wurzel: ر ح م\nBedeutung: Gebärmutter (رَحِم); barmherzig sein, Erbarmen zeigen\nHäufigkeit: 339x\nFormen: رَحِم، رَحْمَة، رَحِيم، رَحْمٰن",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "root": "ج ع ل",
+      "meaning": "machen/setzen",
+      "count": 346,
+      "front": "جعل",
+      "back": "Wurzel: ج ع ل\nBedeutung: machen, setzen, bestimmen\nHäufigkeit: 346x\nFormen: جَعَلَ، يَجْعَلُ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "root": "ك ف ر",
+      "meaning": "verbergen/undankbar sein",
+      "count": 525,
+      "front": "كفر",
+      "back": "Wurzel: ك ف ر\nBedeutung: verbergen, undankbar sein\nHäufigkeit: 525x\nFormen: كَفَرَ، كَافِر، كُفْر، كُفَّار",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=6"
+    },
+    {
+      "root": "ا ت ي",
+      "meaning": "kommen/geben",
+      "count": 549,
+      "front": "اتي",
+      "back": "Wurzel: ا ت ي\nBedeutung: kommen, geben\nHäufigkeit: 549x\nFormen: أَتَى، يَأْتِي، آتَى (Form IV: geben)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+    },
+    {
+      "root": "ا ر ض",
+      "meaning": "Erde",
+      "count": 461,
+      "front": "ارض",
+      "back": "Wurzel: ا ر ض\nBedeutung: Erde, Land\nHäufigkeit: 461x\nFormen: أَرْض",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=11"
+    },
+    {
+      "root": "ك ت ب",
+      "meaning": "schreiben",
+      "count": 319,
+      "front": "كتب",
+      "back": "Wurzel: ك ت ب\nBedeutung: schreiben\nHäufigkeit: 319x\nFormen: كَتَبَ، كِتَاب، كَاتِب، مَكْتُوب",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+    },
+    {
+      "root": "ا خ ر",
+      "meaning": "anderer/letzter",
+      "count": 250,
+      "front": "اخر",
+      "back": "Wurzel: ا خ ر\nBedeutung: anderer, letzter\nHäufigkeit: 250x\nFormen: آخَر، آخِرَة، أُخْرَى",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "root": "ق و م",
+      "meaning": "stehen/aufstehen",
+      "count": 660,
+      "front": "قوم",
+      "back": "Wurzel: ق و م\nBedeutung: stehen, aufrichten\nHäufigkeit: 660x\nFormen: قَامَ، قَوْم، مَقَام، مُسْتَقِيم",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "root": "ن ف س",
+      "meaning": "Selbst/Atem",
+      "count": 298,
+      "front": "نفس",
+      "back": "Wurzel: ن ف س\nBedeutung: Selbst, Atem\nHäufigkeit: 298x\nFormen: نَفْس، أَنْفُس",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=9"
+    },
+    {
+      "root": "د خ ل",
+      "meaning": "eintreten",
+      "count": 126,
+      "front": "دخل",
+      "back": "Wurzel: د خ ل\nBedeutung: eintreten\nHäufigkeit: 126x\nFormen: دَخَلَ، دُخُول، مَدْخَل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "root": "ح ق ق",
+      "meaning": "Wahrheit/Recht",
+      "count": 287,
+      "front": "حق",
+      "back": "Wurzel: ح ق ق\nBedeutung: Wahrheit, Recht, wahr sein\nHäufigkeit: 287x\nFormen: حَقّ، حَقِيق، حَقِيقَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "root": "ه د ي",
+      "meaning": "leiten, führen",
+      "count": 316,
+      "front": "هدي",
+      "back": "Wurzel: ه د ي\nBedeutung: leiten, führen\nHäufigkeit: 316x\nFormen: هَدَى، هُدًى، هَادٍ، اهْدِنَا",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+    },
+    {
+      "root": "ي و م",
+      "meaning": "Tag",
+      "count": 405,
+      "front": "يوم",
+      "back": "Wurzel: ي و م\nBedeutung: Tag\nHäufigkeit: 405x\nFormen: يَوْم، أَيَّام",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=4"
+    },
+    {
+      "root": "ح م د",
+      "meaning": "loben",
+      "count": 63,
+      "front": "حمد",
+      "back": "Wurzel: ح م د\nBedeutung: loben, preisen\nHäufigkeit: 63x\nFormen: حَمْد، الْحَمْدُ، مُحَمَّد، أَحْمَد",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+    },
+    {
+      "root": "س ل م",
+      "meaning": "heil sein/sich ergeben",
+      "count": 140,
+      "front": "سلم",
+      "back": "Wurzel: س ل م\nBedeutung: heil sein, sich ergeben\nHäufigkeit: 140x\nFormen: سَلَام، إِسْلَام، مُسْلِم",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=71"
+    },
+    {
+      "root": "خ ل ق",
+      "meaning": "erschaffen",
+      "count": 261,
+      "front": "خلق",
+      "back": "Wurzel: خ ل ق\nBedeutung: erschaffen\nHäufigkeit: 261x\nFormen: خَلَقَ، خَلْق، خَالِق، مَخْلُوق",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=21"
+    },
+    {
+      "root": "ذ ك ر",
+      "meaning": "gedenken/erwähnen",
+      "count": 292,
+      "front": "ذكر",
+      "back": "Wurzel: ذ ك ر\nBedeutung: gedenken, erwähnen\nHäufigkeit: 292x\nFormen: ذَكَرَ، ذِكْر، ذَكَر (männlich)",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+    },
+    {
+      "root": "س م و",
+      "meaning": "hoch/Himmel",
+      "count": 381,
+      "front": "سمو",
+      "back": "Wurzel: س م و\nBedeutung: Höhe, Himmel\nHäufigkeit: 381x\nFormen: سَمَاء، سَمَاوَات، اسْم",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "root": "ع ذ ب",
+      "meaning": "süß (Wasser); bestrafen",
+      "count": 373,
+      "front": "عذب",
+      "back": "Wurzel: ع ذ ب\nBedeutung: süß (Wasser); bestrafen\nHäufigkeit: 373x\nFormen: عَذْب (süßes Wasser)، عَذَّبَ، عَذَاب",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    },
+    {
+      "root": "ن ز ل",
+      "meaning": "herabkommen",
+      "count": 293,
+      "front": "نزل",
+      "back": "Wurzel: ن ز ل\nBedeutung: herabkommen, herabsenden\nHäufigkeit: 293x\nFormen: نَزَلَ، أَنْزَلَ، نُزُول، مُنَزَّل",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+    },
+    {
+      "root": "ش ي ا",
+      "meaning": "Ding/Sache",
+      "count": 519,
+      "front": "شيء",
+      "back": "Wurzel: ش ي ا\nBedeutung: Ding, Sache\nHäufigkeit: 519x\nFormen: شَيْء، أَشْيَاء",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+    },
+    {
+      "root": "ب ي ن",
+      "meaning": "deutlich sein",
+      "count": 523,
+      "front": "بين",
+      "back": "Wurzel: ب ي ن\nBedeutung: deutlich sein, zwischen\nHäufigkeit: 523x\nFormen: بَيَّنَ، بَيِّنَة، مُبِين، بَيْنَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=66"
+    },
+    {
+      "root": "ج ن ن",
+      "meaning": "verbergen, bedecken; Garten",
+      "count": 201,
+      "front": "جن",
+      "back": "Wurzel: ج ن ن\nBedeutung: verbergen, bedecken; Garten (verborgener/bedeckter Ort)\nHäufigkeit: 201x\nFormen: جَنَّة، جِنّ، جُنُون، مَجْنُون",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=25"
+    },
+    {
+      "root": "ن ص ر",
+      "meaning": "helfen/zum Sieg verhelfen",
+      "count": 158,
+      "front": "نصر",
+      "back": "Wurzel: ن ص ر\nBedeutung: helfen, zum Sieg verhelfen\nHäufigkeit: 158x\nFormen: نَصَرَ، نَصْر، أَنْصَار، مَنْصُور",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "root": "ح ك م",
+      "meaning": "urteilen/weise sein",
+      "count": 210,
+      "front": "حكم",
+      "back": "Wurzel: ح ك م\nBedeutung: urteilen, weise sein\nHäufigkeit: 210x\nFormen: حَكَمَ، حُكْم، حَكِيم، حِكْمَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+    },
+    {
+      "root": "غ ف ر",
+      "meaning": "vergeben",
+      "count": 234,
+      "front": "غفر",
+      "back": "Wurzel: غ ف ر\nBedeutung: vergeben, bedecken\nHäufigkeit: 234x\nFormen: غَفَرَ، غُفْرَان، غَفُور، غَفَّار، مَغْفِرَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+    },
+    {
+      "root": "ص ل و",
+      "meaning": "sich zuwenden",
+      "count": 99,
+      "front": "صلو",
+      "back": "Wurzel: ص ل و\nBedeutung: sich zuwenden, Zuwendung (صَلَاة — konventionell 'Gebet')\nHäufigkeit: 99x\nFormen: صَلَّى، صَلَاة، مُصَلِّي",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+    },
+    {
+      "root": "ا ك ل",
+      "meaning": "essen",
+      "count": 109,
+      "front": "اكل",
+      "back": "Wurzel: ا ك ل\nBedeutung: essen\nHäufigkeit: 109x\nFormen: أَكَلَ، أَكْل، أَكْلَة",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+    },
+    {
+      "root": "ف ت ح",
+      "meaning": "öffnen",
+      "count": 38,
+      "front": "فتح",
+      "back": "Wurzel: ف ت ح\nBedeutung: öffnen, Sieg\nHäufigkeit: 38x\nFormen: فَتَحَ، فَتْح، فَاتِح، مِفْتَاح",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=76"
+    },
+    {
+      "root": "ش ك ر",
+      "meaning": "danken",
+      "count": 75,
+      "front": "شكر",
+      "back": "Wurzel: ش ك ر\nBedeutung: danken\nHäufigkeit: 75x\nFormen: شَكَرَ، شُكْر، شَكُور، شَاكِر",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=52"
+    },
+    {
+      "root": "ظ ل م",
+      "meaning": "Unrecht tun",
+      "count": 315,
+      "front": "ظلم",
+      "back": "Wurzel: ظ ل م\nBedeutung: Unrecht tun, verdunkeln\nHäufigkeit: 315x\nFormen: ظَلَمَ، ظُلْم، ظَالِم، ظَلَام",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    },
+    {
+      "root": "س ب ح",
+      "meaning": "schwimmen; preisen",
+      "count": 92,
+      "front": "سبح",
+      "back": "Wurzel: س ب ح\nBedeutung: schwimmen; preisen\nHäufigkeit: 92x\nFormen: سَبَّحَ، سُبْحَان، تَسْبِيح",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "root": "م و ت",
+      "meaning": "sterben",
+      "count": 165,
+      "front": "موت",
+      "back": "Wurzel: م و ت\nBedeutung: sterben\nHäufigkeit: 165x\nFormen: مَاتَ، مَوْت، مَيِّت",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+    },
+    {
+      "root": "ح ي ي",
+      "meaning": "leben",
+      "count": 184,
+      "front": "حيي",
+      "back": "Wurzel: ح ي ي\nBedeutung: leben\nHäufigkeit: 184x\nFormen: حَيِيَ، حَيَاة، حَيّ، أَحْيَا",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+    },
+    {
+      "root": "ب ع ث",
+      "meaning": "erwecken/senden",
+      "count": 67,
+      "front": "بعث",
+      "back": "Wurzel: ب ع ث\nBedeutung: erwecken, senden\nHäufigkeit: 67x\nFormen: بَعَثَ، مَبْعُوث",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=56"
+    },
+    {
+      "root": "ص ب ر",
+      "meaning": "geduldig sein",
+      "count": 103,
+      "front": "صبر",
+      "back": "Wurzel: ص ب ر\nBedeutung: geduldig sein\nHäufigkeit: 103x\nFormen: صَبَرَ، صَبْر، صَابِر، صَبُور",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=45"
+    },
+    {
+      "root": "ر ج ع",
+      "meaning": "zurückkehren",
+      "count": 104,
+      "front": "رجع",
+      "back": "Wurzel: ر ج ع\nBedeutung: zurückkehren\nHäufigkeit: 104x\nFormen: رَجَعَ، مَرْجِع، رُجُوع",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+    },
+    {
+      "root": "ع ق ل",
+      "meaning": "denken/Verstand",
+      "count": 49,
+      "front": "عقل",
+      "back": "Wurzel: ع ق ل\nBedeutung: denken, begreifen\nHäufigkeit: 49x\nFormen: عَقَلَ، عَقْل، يَعْقِلُونَ",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=44"
+    },
+    {
+      "root": "ف ق ه",
+      "meaning": "verstehen",
+      "count": 20,
+      "front": "فقه",
+      "back": "Wurzel: ف ق ه\nBedeutung: verstehen, einsehen\nHäufigkeit: 20x\nFormen: فَقِهَ، يَفْقَهُونَ، فِقْه",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+    },
+    {
+      "root": "ش ر ك",
+      "meaning": "teilhaben/beigesellen",
+      "count": 168,
+      "front": "شرك",
+      "back": "Wurzel: ش ر ك\nBedeutung: teilhaben, beigesellen\nHäufigkeit: 168x\nFormen: أَشْرَكَ، شِرْك، مُشْرِك، شَرِيك",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=96"
+    },
+    {
+      "root": "س م ع",
+      "meaning": "hören",
+      "count": 185,
+      "front": "سمع",
+      "back": "Wurzel: س م ع\nBedeutung: hören\nHäufigkeit: 185x\nFormen: سَمِعَ، سَمْع، سَمِيع",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=7"
+    }
+  ]
+}

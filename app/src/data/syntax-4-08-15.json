@@ -1,0 +1,1812 @@
+[
+  {
+    "id": "4.8",
+    "title": "Weitere Schlüsselpartikeln",
+    "description": "Vier wichtige Partikeln, die im Quran regelmäßig vorkommen: إِمَّا (entweder), إِذَا (plötzlich), مَا (verstärkend) und رُبَّ (vielleicht). Jede hat besondere Verwendungsregeln.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "إِمَّا — Entweder",
+          "content": "Die Partikel إِمَّا drückt eine Alternative aus und wird stets gepaart verwendet — entweder mit أَوْ oder mit einem zweiten إِمَّا. Im Quran erscheint sie häufig, um zwei Möglichkeiten oder Wahloptionen darzustellen. Im Gegensatz zum einfachen أَوْ betont إِمَّا die bewusste Auswahl zwischen gleichwertigen Alternativen. Wenn إِمَّا verdoppelt wird (إِمَّا ... وَإِمَّا), liegt eine echte Entweder-oder-Konstruktion vor.",
+          "arabicExamples": [
+            {
+              "arabic": "إِمَّا شَاكِرًا وَإِمَّا كَفُورًا",
+              "transliteration": "immā shākiran wa-immā kafūrā",
+              "meaning": "entweder dankbar oder undankbar (76:3)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=3"
+            },
+            {
+              "arabic": "إِمَّا أَنْ تُعَذِّبَ وَإِمَّا أَنْ تَتَّخِذَ فِيهِمْ حُسْنًا",
+              "transliteration": "immā an tuʿadhdhiba wa-immā an tattakhidha fīhim ḥusnā",
+              "meaning": "entweder du bestrafst sie oder du behandelst sie gütig (18:86)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=86"
+            },
+            {
+              "arabic": "إِمَّا أَنْ تُلْقِيَ وَإِمَّا أَنْ نَكُونَ أَوَّلَ مَنْ أَلْقَىٰ",
+              "transliteration": "immā an tulqiya wa-immā an nakūna awwala man alqā",
+              "meaning": "entweder du wirfst oder wir sind die Ersten, die werfen (20:65)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=65"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "إِذَا — Plötzliches Eintreten (Überraschungs-إِذَا)",
+          "content": "Es gibt zwei verschiedene إِذَا im Arabischen. Die bekanntere ist die Bedingungspartikel (wenn/falls). Hier geht es um die andere: إِذَا als Partikel des plötzlichen Eintretens (إِذَا الْفُجَائِيَّة). Sie steht meist nach فَ und leitet eine überraschende Feststellung ein. Der entscheidende Unterschied: Die bedingende إِذَا steht vor einem Verb, die Überraschungs-إِذَا steht vor einem Nominalsatz (Subjekt + Prädikat). Sie löst keinen Jussiv aus und hat keinen Bedingungscharakter.",
+          "arabicExamples": [
+            {
+              "arabic": "فَإِذَا هِيَ حَيَّةٌ تَسْعَىٰ",
+              "transliteration": "fa-idhā hiya ḥayyatun tasʿā",
+              "meaning": "und plötzlich war es eine Schlange, die sich bewegte (20:20)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+            },
+            {
+              "arabic": "فَإِذَا هِيَ بَيْضَاءُ لِلنَّاظِرِينَ",
+              "transliteration": "fa-idhā hiya bayḍāʾu li-n-nāẓirīn",
+              "meaning": "und plötzlich war sie weiß für die Betrachter (7:108)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=108"
+            },
+            {
+              "arabic": "ثُمَّ إِذَا دَعَاكُمْ دَعْوَةً مِنَ الْأَرْضِ إِذَا أَنتُمْ تَخْرُجُونَ",
+              "transliteration": "thumma idhā daʿākum daʿwatan mina l-arḍi idhā antum takhrujūn",
+              "meaning": "dann wenn Er euch einmal aus der Erde ruft, da kommt ihr plötzlich hervor (30:25)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=25"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "مَا الزَّائِدَة — Verstärkendes مَا",
+          "content": "Manchmal erscheint مَا im Quran ohne eigene lexikalische Bedeutung. Es ist weder Negation noch Relativpronomen noch Fragepartikel — es dient lediglich der emphatischen Verstärkung. Man nennt es مَا زَائِدَة (überschüssiges مَا). Es verändert die grammatische Struktur nicht wesentlich, verleiht dem Ausdruck aber Nachdruck und Emphase. Grammatisch wichtig: Nach bestimmten Partikeln wie عَنْ und مِنْ kann مَا eingefügt werden, ohne die Rektion zu ändern — das nachfolgende Wort bleibt im selben Kasus.",
+          "arabicExamples": [
+            {
+              "arabic": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنتَ لَهُمْ",
+              "transliteration": "fa-bi-mā raḥmatin mina llāhi linta lahum",
+              "meaning": "durch Barmherzigkeit von Gott warst du gütig zu ihnen (3:159) — مَا ist hier rein verstärkend",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "arabic": "فَبِمَا نَقْضِهِم مِّيثَاقَهُمْ",
+              "transliteration": "fa-bi-mā naqḍihim mīthāqahum",
+              "meaning": "wegen ihres Brechens ihres Bundes (4:155) — مَا verstärkt die Kausalität",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=155"
+            },
+            {
+              "arabic": "عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ نَادِمِينَ",
+              "transliteration": "ʿammā qalīlin la-yuṣbiḥunna nādimīn",
+              "meaning": "in einer kurzen Weile werden sie gewiss reuig sein (23:40) — عَنْ + مَا (verstärkend) + قَلِيل",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=40"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "رُبَّ — Vielleicht / Manch ein",
+          "content": "Die Partikel رُبَّ (rubba) drückt eine unbestimmte Menge oder Wahrscheinlichkeit aus: 'vielleicht', 'manch ein'. Sie ist selten im Quran, kommt aber in der klassischen arabischen Grammatik häufig vor. Wichtig: رُبَّ regiert den Genitiv (Majrūr) — das folgende Nomen steht im Genitiv. In der Bedeutung schwankt sie je nach Kontext zwischen 'vielleicht' und 'manch ein'. Verwandte Form: رُبَمَا (rubbamā), die vor Verben stehen kann.",
+          "arabicExamples": [
+            {
+              "arabic": "رُّبَمَا يَوَدُّ الَّذِينَ كَفَرُوا لَوْ كَانُوا مُسْلِمِينَ",
+              "transliteration": "rubbamā yawaddu lladhīna kafarū law kānū muslimīn",
+              "meaning": "vielleicht werden die Leugnenden sich wünschen, sie wären Muslime gewesen (15:2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=2"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: فَإِذَا هِيَ حَيَّةٌ تَسْعَىٰ (20:20)",
+            "Schritt 1: فَ — Konjunktion (und/da)",
+            "Schritt 2: إِذَا — Steht vor einem Nominalsatz (هِيَ حَيَّةٌ), nicht vor einem Verb → also NICHT die Bedingungspartikel, sondern die Überraschungs-إِذَا",
+            "Schritt 3: هِيَ — Personalpronomen 'sie' (bezieht sich auf den Stock)",
+            "Schritt 4: حَيَّةٌ — Nomen im Nominativ (Prädikativ) = 'eine Schlange'",
+            "Schritt 5: تَسْعَىٰ — Verb im Imperfekt = 'die sich bewegt' (Ḥāl-Satz)",
+            "Gesamtbedeutung: 'und plötzlich war es (der Stock) eine sich bewegende Schlange'",
+            "Erkennungsregel: فَإِذَا + Pronomen/Nomen (nicht Verb) = Überraschungs-إِذَا"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "76:3",
+              "word": "إِمَّا",
+              "analysis": "إِمَّا شَاكِرًا وَإِمَّا كَفُورًا — Doppeltes إِمَّا für die Alternative: 'entweder dankbar oder undankbar'. Beide Optionen stehen im Akkusativ (Ḥāl).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=3"
+            },
+            {
+              "location": "20:20",
+              "word": "فَإِذَا",
+              "analysis": "فَإِذَا هِيَ حَيَّةٌ — Überraschungs-إِذَا, nicht Bedingung. Steht vor Nominalsatz هِيَ حَيَّةٌ. Bedeutung: 'und plötzlich war es eine Schlange'.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+            },
+            {
+              "location": "3:159",
+              "word": "فَبِمَا",
+              "analysis": "فَبِمَا رَحْمَةٍ — Das مَا zwischen بِ und رَحْمَةٍ ist verstärkend (zāʾida). Der Genitiv رَحْمَةٍ wird von بِ regiert, nicht von مَا.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "location": "15:2",
+              "word": "رُبَمَا",
+              "analysis": "رُبَمَا يَوَدُّ — رُبَمَا (rubba + mā) vor einem Verb. Drückt Möglichkeit aus: 'vielleicht werden sie sich wünschen'.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=15&verse=2"
+            },
+            {
+              "location": "7:108",
+              "word": "فَإِذَا",
+              "analysis": "فَإِذَا هِيَ بَيْضَاءُ — Wieder Überraschungs-إِذَا vor Nominalsatz. Moses' Hand wird plötzlich weiß.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=108"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Funktion von إِمَّا in: إِمَّا شَاكِرًا وَإِمَّا كَفُورًا (76:3)?",
+          "options": [
+            "Bedingung (wenn)",
+            "Alternative (entweder...oder)",
+            "Verstärkung",
+            "Negation"
+          ],
+          "answer": "Alternative (entweder...oder)",
+          "explanation": "Doppeltes إِمَّا drückt eine Entweder-oder-Alternative aus: 'entweder dankbar oder undankbar'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=76&verse=3"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "In فَإِذَا هِيَ حَيَّةٌ (20:20) — welche Art von إِذَا liegt vor?",
+          "options": [
+            "Bedingungs-إِذَا (wenn)",
+            "Überraschungs-إِذَا (plötzlich)",
+            "Zeitliche إِذَا (als)"
+          ],
+          "answer": "Überraschungs-إِذَا (plötzlich)",
+          "explanation": "Nach فَإِذَا folgt ein Nominalsatz (هِيَ حَيَّةٌ), kein Verb. Das ist das Erkennungszeichen der Überraschungs-إِذَا: 'und plötzlich war es eine Schlange'.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=20"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Funktion hat مَا in: فَبِمَا رَحْمَةٍ مِنَ اللَّهِ (3:159)?",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend (zāʾida)",
+            "Fragepronomen"
+          ],
+          "answer": "Verstärkend (zāʾida)",
+          "explanation": "Das مَا steht zwischen der Präposition بِ und dem Genitiv-Nomen رَحْمَةٍ. Es hat keine eigene Bedeutung und ist rein verstärkend. Der Genitiv wird von بِ regiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welchen Kasus regiert die Partikel رُبَّ?",
+          "options": [
+            "Nominativ (Marfūʿ)",
+            "Akkusativ (Manṣūb)",
+            "Genitiv (Majrūr)",
+            "Jussiv (Majzūm)"
+          ],
+          "answer": "Genitiv (Majrūr)",
+          "explanation": "رُبَّ gehört zu den Partikeln, die den Genitiv regieren. Das nachfolgende Nomen steht immer im Genitiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Wie erkennt man den Unterschied zwischen der bedingenden إِذَا und der Überraschungs-إِذَا?",
+          "options": [
+            "Die bedingende steht vor einem Verb, die Überraschungs-إِذَا vor einem Nominalsatz",
+            "Die Überraschungs-إِذَا steht immer am Satzanfang",
+            "Es gibt keinen formalen Unterschied, nur der Kontext entscheidet",
+            "Die bedingende إِذَا hat immer eine Antwort mit فَ"
+          ],
+          "answer": "Die bedingende steht vor einem Verb, die Überraschungs-إِذَا vor einem Nominalsatz",
+          "explanation": "Der wichtigste formale Unterschied: Die bedingende إِذَا wird von einem Verb gefolgt (إِذَا جَاءَ = wenn er kommt), die Überraschungs-إِذَا von einem Pronomen oder Nomen (فَإِذَا هِيَ = und plötzlich ist sie).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §31-40",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.9",
+    "title": "Fragepronomen und Fragewörter",
+    "description": "Alle quranischen Fragewörter im Überblick: أَيُّ (welcher), كَمْ (wie viele), كَيْفَ (wie), أَيْنَ (wo), مَتَى (wann), أَنَّى (woher/wie), لِمَ (warum) und مَاذَا (was).",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "أَيُّ — Welcher / Welche",
+          "content": "أَيُّ (ayy) ist das arabische Äquivalent zu 'welcher/welche/welches'. Es bildet eine Iḍāfa-Verbindung mit dem Bezugswort — das heißt, das nachfolgende Nomen steht im Genitiv. أَيُّ kann als Interrogativpronomen ('welcher?') oder als Relativpronomen ('welcher auch immer') fungieren. Es flektiert je nach Funktion im Satz im Kasus: أَيُّ (Nominativ), أَيَّ (Akkusativ), أَيِّ (Genitiv).",
+          "arabicExamples": [
+            {
+              "arabic": "أَيُّ آيَاتِ اللَّهِ",
+              "transliteration": "ayyu āyāti llāh",
+              "meaning": "welche Zeichen Gottes"
+            },
+            {
+              "arabic": "فَأَيُّ الْفَرِيقَيْنِ أَحَقُّ بِالْأَمْنِ",
+              "transliteration": "fa-ayyu l-farīqayni aḥaqqu bi-l-amn",
+              "meaning": "welche der beiden Gruppen hat mehr Recht auf Sicherheit? (6:81)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=81"
+            },
+            {
+              "arabic": "بِأَيِّ ذَنبٍ قُتِلَتْ",
+              "transliteration": "bi-ayyi dhanbin qutilat",
+              "meaning": "wegen welcher Verfehlung sie getötet wurde (81:9)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=9"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "كَمْ — Wie viele (zwei Funktionen)",
+          "content": "Die Partikel كَمْ hat im Arabischen zwei Funktionen, die grammatisch unterschiedlich behandelt werden: 1) Interrogativ (fragend): 'Wie viele?' / 'Wie lange?' — das nachfolgende Nomen steht im Akkusativ Singular (Tamyīz). 2) Exklamativ (ausrufend): 'Wie viele!' / 'So viele!' — das nachfolgende Nomen steht im Genitiv, häufig mit مِنْ eingeleitet. Diese Unterscheidung ist für die grammatische Analyse des Qurantextes wichtig.",
+          "arabicExamples": [
+            {
+              "arabic": "كَمْ لَبِثْتَ",
+              "transliteration": "kam labithta",
+              "meaning": "wie lange hast du verweilt? (2:259) — interrogativ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+            },
+            {
+              "arabic": "كَمْ لَبِثْتُمْ فِي الْأَرْضِ عَدَدَ سِنِينَ",
+              "transliteration": "kam labithtum fī l-arḍi ʿadada sinīn",
+              "meaning": "wie viele Jahre habt ihr auf der Erde verweilt? (23:112) — interrogativ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=112"
+            },
+            {
+              "arabic": "كَمْ مِنْ فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةً",
+              "transliteration": "kam min fiʾatin qalīlatin ghalabat fiʾatan kathīra",
+              "meaning": "wie viele kleine Gruppen haben eine große Gruppe besiegt! (2:249) — exklamativ mit مِنْ + Genitiv",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Weitere Fragewörter im Quran",
+          "content": "Neben أَيُّ und كَمْ gibt es eine Reihe weiterer Fragewörter, die im Quran häufig vorkommen. Sie sind alle unveränderlich (mabni) und stehen am Satzanfang:\n\n• كَيْفَ (kayfa) = wie — fragt nach Art und Weise\n• أَيْنَ (ayna) = wo — fragt nach dem Ort\n• مَتَى (matā) = wann — fragt nach der Zeit\n• أَنَّى (annā) = woher / wie / wann — kontextabhängig, eine der mehrdeutigsten Partikeln im Quran\n• لِمَ (lima) = warum — Zusammensetzung aus لِ + مَا (das Alif von مَا fällt weg)\n• مَاذَا (mādhā) = was — verstärkte Form von مَا",
+          "arabicExamples": [
+            {
+              "arabic": "كَيْفَ تَكْفُرُونَ بِاللَّهِ",
+              "transliteration": "kayfa takfurūna bi-llāh",
+              "meaning": "wie könnt ihr Gott verleugnen? (2:28)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+            },
+            {
+              "arabic": "أَيْنَ مَا كُنتُمْ تَعْبُدُونَ",
+              "transliteration": "ayna mā kuntum taʿbudūn",
+              "meaning": "wo ist das, was ihr anzubeten pflegtet? (26:92)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=92"
+            },
+            {
+              "arabic": "مَتَىٰ نَصْرُ اللَّهِ",
+              "transliteration": "matā naṣru llāh",
+              "meaning": "wann kommt die Hilfe Gottes? (2:214)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=214"
+            },
+            {
+              "arabic": "أَنَّىٰ لَكِ هَـٰذَا",
+              "transliteration": "annā laki hādhā",
+              "meaning": "woher hast du das? (3:37)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+            },
+            {
+              "arabic": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+              "transliteration": "lima taqūlūna mā lā tafʿalūn",
+              "meaning": "warum sagt ihr, was ihr nicht tut? (61:2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=61&verse=2"
+            },
+            {
+              "arabic": "مَاذَا أَنزَلَ رَبُّكُمْ",
+              "transliteration": "mādhā anzala rabbukum",
+              "meaning": "was hat eur Herr herabgesandt? (16:24)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=24"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: كَمْ مِنْ فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةً بِإِذْنِ اللَّهِ (2:249)",
+            "Schritt 1: كَمْ — Fragewort 'wie viele'. Aber ist es interrogativ oder exklamativ?",
+            "Schritt 2: Es folgt مِنْ + Genitiv (فِئَةٍ) → exklamatives كَمْ! Bei interrogativem كَمْ stünde das Nomen im Akkusativ Singular ohne مِنْ.",
+            "Schritt 3: فِئَةٍ قَلِيلَةٍ — 'eine kleine Gruppe' im Genitiv (wegen مِنْ)",
+            "Schritt 4: غَلَبَتْ — 'hat besiegt' (Perfekt, 3. Person feminin Singular)",
+            "Schritt 5: فِئَةً كَثِيرَةً — 'eine große Gruppe' im Akkusativ (Objekt)",
+            "Schritt 6: بِإِذْنِ اللَّهِ — 'mit Gottes Erlaubnis'",
+            "Gesamtbedeutung: 'Wie viele kleine Gruppen haben mit Gottes Erlaubnis eine große Gruppe besiegt!'",
+            "Merke: مِنْ nach كَمْ = exklamativ (Ausruf), kein مِنْ = interrogativ (Frage)"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "6:81",
+              "word": "أَيُّ",
+              "analysis": "فَأَيُّ الْفَرِيقَيْنِ أَحَقُّ — أَيُّ in Iḍāfa mit الْفَرِيقَيْنِ (Dual, Genitiv). Interrogativ: 'welche der beiden Gruppen?'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=81"
+            },
+            {
+              "location": "81:9",
+              "word": "بِأَيِّ",
+              "analysis": "بِأَيِّ ذَنبٍ قُتِلَتْ — أَيُّ im Genitiv (wegen بِ), in Iḍāfa mit ذَنبٍ. 'Wegen welcher Verfehlung wurde sie getötet?'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=81&verse=9"
+            },
+            {
+              "location": "2:259",
+              "word": "كَمْ",
+              "analysis": "كَمْ لَبِثْتَ — Interrogatives كَمْ, direkt vor einem Verb. 'Wie lange hast du verweilt?'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+            },
+            {
+              "location": "2:249",
+              "word": "كَم مِّن",
+              "analysis": "كَمْ مِنْ فِئَةٍ قَلِيلَةٍ — Exklamatives كَمْ mit مِنْ + Genitiv. 'Wie viele kleine Gruppen!'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+            },
+            {
+              "location": "3:37",
+              "word": "أَنَّى",
+              "analysis": "أَنَّىٰ لَكِ هَـٰذَا — أَنَّى bedeutet hier 'woher'. Zacharias fragt Maria: 'Woher hast du das?'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht das Nomen nach أَيُّ?",
+          "options": [
+            "Nominativ",
+            "Akkusativ",
+            "Genitiv (wegen Iḍāfa)",
+            "Es kommt auf den Kontext an"
+          ],
+          "answer": "Genitiv (wegen Iḍāfa)",
+          "explanation": "أَيُّ bildet eine Iḍāfa-Verbindung mit dem folgenden Nomen. Das zweite Glied einer Iḍāfa steht immer im Genitiv: أَيُّ آيَاتِ اللَّهِ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "Ist كَمْ in كَمْ مِنْ فِئَةٍ قَلِيلَةٍ (2:249) interrogativ oder exklamativ?",
+          "options": [
+            "Interrogativ (fragend)",
+            "Exklamativ (ausrufend)"
+          ],
+          "answer": "Exklamativ (ausrufend)",
+          "explanation": "Das Erkennungszeichen ist مِنْ + Genitiv nach كَمْ. Interrogatives كَمْ wird von einem Akkusativ-Nomen ohne مِنْ gefolgt. Exklamatives كَمْ verwendet مِنْ + Genitiv: كَمْ مِنْ فِئَةٍ = 'Wie viele Gruppen!'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=249"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jedes Fragewort seiner Bedeutung zu:",
+          "pairs": [
+            {
+              "word": "كَيْفَ",
+              "match": "wie"
+            },
+            {
+              "word": "أَيْنَ",
+              "match": "wo"
+            },
+            {
+              "word": "مَتَى",
+              "match": "wann"
+            },
+            {
+              "word": "لِمَ",
+              "match": "warum"
+            },
+            {
+              "word": "أَنَّى",
+              "match": "woher / wie (kontextabhängig)"
+            },
+            {
+              "word": "مَاذَا",
+              "match": "was"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Was bedeutet أَنَّى in: أَنَّىٰ لَكِ هَـٰذَا (3:37)?",
+          "options": [
+            "Wann",
+            "Wie",
+            "Woher",
+            "Wo"
+          ],
+          "answer": "Woher",
+          "explanation": "In diesem Vers fragt Zacharias Maria 'Woher hast du das?' (bezogen auf die Versorgung, die sie erhielt). أَنَّى ist kontextabhängig und kann 'woher', 'wie' oder 'wann' bedeuten.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=37"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze die Regel: Interrogatives كَمْ wird von einem Nomen im _____ gefolgt, exklamatives كَمْ von مِنْ + _____.",
+          "answer": "Akkusativ; Genitiv",
+          "explanation": "Interrogatives كَمْ: كَمْ كِتَابًا (wie viele Bücher?) — Akkusativ Singular (Tamyīz). Exklamatives كَمْ: كَمْ مِنْ كِتَابٍ (wie viele Bücher!) — مِنْ + Genitiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Woraus setzt sich لِمَ (warum) zusammen?",
+          "options": [
+            "لِ + مَنْ",
+            "لِ + مَا (mit Wegfall des Alif)",
+            "لَمْ + Vokal",
+            "Es ist ein eigenständiges Wort"
+          ],
+          "answer": "لِ + مَا (mit Wegfall des Alif)",
+          "explanation": "لِمَ ist eine Zusammensetzung aus der Präposition لِ (für/wegen) und dem Fragepronomen مَا (was). Das Alif von مَا fällt nach Präpositionen weg: لِمَ = 'wofür?' / 'warum?'",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §220-226",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.10",
+    "title": "Erweiterte Bedingungspartikeln",
+    "description": "Bedingungspartikeln mit allgemeinem Geltungsbereich: مَهْمَا (was auch immer), أَيْنَمَا (wo auch immer), حَيْثُمَا (wo auch immer), كَيْفَمَا (wie auch immer) sowie مَنْ und مَا als Bedingungspartikeln.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Allgemeinbedingungen — Überblick",
+          "content": "Neben إِنْ und إِذَا gibt es eine Gruppe von Bedingungspartikeln, die eine allgemeinere Geltung haben — sie drücken aus: 'was/wer/wo/wie auch immer'. Man nennt sie أَسْمَاءُ الشَّرْطِ (Bedingungsnomen). Eine zentrale grammatische Eigenschaft: Alle diese Partikeln lösen den Jussiv (Majzūm) sowohl im Bedingungs- als auch im Antwortverb aus — genau wie إِنْ. Sie funktionieren nach dem Schema: Bedingungspartikel + Verb im Jussiv (Bedingung) + Verb im Jussiv (Antwort).",
+          "arabicExamples": [
+            {
+              "arabic": "مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ",
+              "transliteration": "man yaʿmal sūʾan yujza bih",
+              "meaning": "wer auch immer Übles tut, wird dafür vergolten (4:123)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+            },
+            {
+              "arabic": "أَيْنَمَا تَكُونُوا يُدْرِككُّمُ الْمَوْتُ",
+              "transliteration": "aynamā takūnū yudrik-kumu l-mawt",
+              "meaning": "wo auch immer ihr seid, der Tod wird euch einholen (4:78)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "مَهْمَا — Was auch immer",
+          "content": "مَهْمَا (mahmā) bedeutet 'was auch immer' und bezieht sich auf Sachen (nicht Personen). Im Quran erscheint es in Kontexten, in denen die Bedingung universell und umfassend ist. Es löst den Jussiv aus. Eine alternative Analyse sieht es als مَا + مَا (Zusammensetzung aus zwei مَا).",
+          "arabicExamples": [
+            {
+              "arabic": "مَهْمَا تَأْتِنَا بِهِ مِنْ آيَةٍ لِتَسْحَرَنَا بِهَا فَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
+              "transliteration": "mahmā taʾtinā bihī min āyatin li-tasḥaranā bihā fa-mā naḥnu laka bi-muʾminīn",
+              "meaning": "was auch immer du uns an Zeichen bringst, um uns zu verzaubern — wir werden dir nicht glauben (7:132)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "أَيْنَمَا، حَيْثُمَا، كَيْفَمَا — Wo/Wie auch immer",
+          "content": "Diese zusammengesetzten Partikeln entstehen durch Anhängen von مَا an ein Fragewort:\n\n• أَيْنَمَا (aynamā) = wo auch immer — أَيْنَ (wo) + مَا\n• حَيْثُمَا (ḥaythumā) = wo auch immer — حَيْثُ (wo) + مَا\n• كَيْفَمَا (kayfamā) = wie auch immer — كَيْفَ (wie) + مَا\n\nDer Unterschied zwischen أَيْنَمَا und حَيْثُمَا ist minimal — beide bedeuten 'wo auch immer'. أَيْنَمَا ist im Quran häufiger. Alle lösen Jussiv aus.",
+          "arabicExamples": [
+            {
+              "arabic": "أَيْنَمَا تَكُونُوا يُدْرِككُّمُ الْمَوْتُ",
+              "transliteration": "aynamā takūnū yudrik-kumu l-mawt",
+              "meaning": "wo auch immer ihr seid, der Tod wird euch einholen (4:78)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+            },
+            {
+              "arabic": "وَأَيْنَمَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ",
+              "transliteration": "wa-aynamā kuntum fa-wallū wujūhakum shaṭrah",
+              "meaning": "und wo auch immer ihr seid, wendet eure Gesichter in seine Richtung (2:150)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+            },
+            {
+              "arabic": "أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ",
+              "transliteration": "aynamā yuwajjih-hu lā yaʾti bi-khayr",
+              "meaning": "wohin man ihn auch lenkt, er bringt nichts Gutes (16:76)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=76"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "مَنْ und مَا als Bedingungspartikeln",
+          "content": "مَنْ (man) und مَا (mā) können neben ihren anderen Funktionen (Relativ- bzw. Fragepronomen) auch als Bedingungspartikeln fungieren. In dieser Funktion lösen sie den Jussiv aus:\n\n• مَنْ (man) = wer auch immer (für Personen): مَنْ يَعْمَلْ = wer auch immer tut\n• مَا (mā) = was auch immer (für Sachen): مَا تَفْعَلُوا مِنْ خَيْرٍ = was auch immer ihr an Gutem tut\n\nErkennungszeichen: Wenn nach مَنْ/مَا ein Verb im Jussiv folgt und es eine Antwort gibt, liegt die Bedingungsfunktion vor.",
+          "arabicExamples": [
+            {
+              "arabic": "مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ",
+              "transliteration": "man yaʿmal sūʾan yujza bih",
+              "meaning": "wer auch immer Übles tut, wird dafür vergolten (4:123)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+            },
+            {
+              "arabic": "مَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا",
+              "transliteration": "man yattaqi llāha yajʿal lahū makhrajā",
+              "meaning": "wer auch immer Gott fürchtet, dem wird Er einen Ausweg schaffen (65:2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=2"
+            },
+            {
+              "arabic": "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ",
+              "transliteration": "wa-mā tafʿalū min khayrin yaʿlamhu llāh",
+              "meaning": "und was auch immer ihr an Gutem tut, Gott weiß es (2:197)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ (4:123)",
+            "Schritt 1: مَنْ — Ist es Relativpronomen ('wer') oder Bedingungspartikel ('wer auch immer')? Prüfe den Modus des folgenden Verbs.",
+            "Schritt 2: يَعْمَلْ — Imperfekt, aber mit Sukūn auf dem letzten Radikal (يَعْمَلْ statt يَعْمَلُ) → Jussiv! Das zeigt: مَنْ ist hier Bedingungspartikel.",
+            "Schritt 3: سُوءًا — Akkusativ, Objekt von يَعْمَلْ = 'Übles'",
+            "Schritt 4: يُجْزَ — Passiv-Jussiv von جَزَى (vergelten). Die Jussivform von يُجْزَى ist يُجْزَ (Wegfall des Alif) → Antwortverb im Jussiv.",
+            "Schritt 5: بِهِ — 'dafür' (Präposition + Pronomen)",
+            "Schema: مَنْ (Bedingung) + يَعْمَلْ (Jussiv, Bedingungsverb) + يُجْزَ (Jussiv, Antwortverb)",
+            "Gesamtbedeutung: 'Wer auch immer Übles tut, wird dafür vergolten.'"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "4:123",
+              "word": "مَن يَعْمَلْ",
+              "analysis": "مَنْ als Bedingungspartikel. Beide Verben im Jussiv: يَعْمَلْ (Bedingung) und يُجْزَ (Antwort). 'Wer auch immer Übles tut, wird dafür vergolten.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+            },
+            {
+              "location": "4:78",
+              "word": "أَيْنَمَا",
+              "analysis": "أَيْنَمَا تَكُونُوا — 'wo auch immer ihr seid'. تَكُونُوا im Jussiv (Wegfall des Nūn). Antwort: يُدْرِككُّمُ الْمَوْتُ (der Tod erreicht euch).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+            },
+            {
+              "location": "7:132",
+              "word": "مَهْمَا",
+              "analysis": "مَهْمَا تَأْتِنَا — 'was auch immer du uns bringst'. Pharaos Volk zu Mose: universelle Ablehnung aller Zeichen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+            },
+            {
+              "location": "65:2",
+              "word": "وَمَن يَتَّقِ",
+              "analysis": "مَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا — يَتَّقِ ist Jussiv (Wegfall des Yāʾ). مَنْ als Bedingungspartikel: 'wer auch immer Gott fürchtet'.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=65&verse=2"
+            },
+            {
+              "location": "2:197",
+              "word": "وَمَا تَفْعَلُوا",
+              "analysis": "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ — مَا als Bedingungspartikel. تَفْعَلُوا im Jussiv (Wegfall des Nūn). 'Was auch immer ihr an Gutem tut, Gott weiß es.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was lösen die Bedingungspartikeln مَهْمَا, أَيْنَمَا, مَنْ und مَا (als Bedingungswörter) im Verb aus?",
+          "options": [
+            "Subjunktiv (Manṣūb)",
+            "Jussiv (Majzūm)",
+            "Indikativ (Marfūʿ)",
+            "Energikus (Muʾakkad)"
+          ],
+          "answer": "Jussiv (Majzūm)",
+          "explanation": "Alle Bedingungspartikeln (أَدَوَاتُ الشَّرْطِ) lösen den Jussiv sowohl im Bedingungsverb als auch im Antwortverb aus.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Funktion hat مَنْ in: مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ (4:123)?",
+          "options": [
+            "Fragepronomen (wer?)",
+            "Relativpronomen (derjenige, der)",
+            "Bedingungspartikel (wer auch immer)"
+          ],
+          "answer": "Bedingungspartikel (wer auch immer)",
+          "explanation": "Das Verb يَعْمَلْ steht im Jussiv (nicht Indikativ يَعْمَلُ). Der Jussiv zeigt, dass مَنْ hier als Bedingungspartikel fungiert. Zudem gibt es ein Antwortverb im Jussiv (يُجْزَ).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Analysiere أَيْنَمَا in: أَيْنَمَا تَكُونُوا يُدْرِككُّمُ الْمَوْتُ (4:78). Woraus setzt es sich zusammen?",
+          "options": [
+            "أَيْنَ (wo) + مَا (verstärkend)",
+            "أَيْ + نَ + مَا",
+            "أَيْنَ (wo) + مَا (Bedingungspartikel)"
+          ],
+          "answer": "أَيْنَ (wo) + مَا (verstärkend)",
+          "explanation": "أَيْنَمَا ist eine Zusammensetzung aus dem Fragewort أَيْنَ (wo) und مَا, das hier die Bedeutung verallgemeinert: 'wo auch immer'. Das مَا macht aus der spezifischen Frage eine universelle Bedingung.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=78"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bedeutet مَهْمَا تَأْتِنَا بِهِ مِنْ آيَةٍ (7:132)?",
+          "options": [
+            "Was auch immer du uns an Zeichen bringst",
+            "Wenn du uns ein Zeichen bringst",
+            "Warum bringst du uns Zeichen?",
+            "Bring uns keine Zeichen mehr"
+          ],
+          "answer": "Was auch immer du uns an Zeichen bringst",
+          "explanation": "مَهْمَا bedeutet 'was auch immer' — eine universelle Bedingung. Pharaos Volk sagt: 'Was auch immer du uns an Zeichen bringst, wir werden dir nicht glauben.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=132"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: مَنْ wird als Bedingungspartikel für _____ verwendet, مَا als Bedingungspartikel für _____.",
+          "answer": "Personen; Sachen",
+          "explanation": "مَنْ = 'wer auch immer' (Personen, vernunftbegabt). مَا = 'was auch immer' (Sachen, nicht vernunftbegabt). Parallele zu مَنْ/مَا als Relativpronomen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Woran erkennt man, dass يَعْمَلْ in مَنْ يَعْمَلْ (4:123) im Jussiv steht?",
+          "options": [
+            "Es hat ein Sukūn auf dem letzten Radikal (يَعْمَلْ statt يَعْمَلُ)",
+            "Es hat ein Fatḥa am Ende",
+            "Es hat kein Subjekt",
+            "Es steht nach einer Negationspartikel"
+          ],
+          "answer": "Es hat ein Sukūn auf dem letzten Radikal (يَعْمَلْ statt يَعْمَلُ)",
+          "explanation": "Der Jussiv eines starken Verbs wird durch Sukūn auf dem letzten Konsonanten markiert: يَعْمَلُ (Indikativ) → يَعْمَلْ (Jussiv). Das Sukūn statt des Ḍamma ist das Zeichen des Jussivs.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=123"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §185-200",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.6"
+    ]
+  },
+  {
+    "id": "4.11",
+    "title": "Die verschiedenen An / Anna",
+    "description": "Drei verschiedene أَنْ im Quran unterscheiden: die Maṣdariyya (Subjunktiv-auslösend), die Mufassira (erklärend) und die Mukhaffafa (abgeschwächtes أَنَّ).",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "أَنْ المصدرية — Die Maṣdariyya",
+          "content": "Die bekannteste Funktion von أَنْ ist die Maṣdariyya: أَنْ + Verb im Subjunktiv (Manṣūb) macht eine Verbkonstruktion nominal — sie verwandelt den Satz in ein Masdar (Verbalsubstantiv). Dies ist das häufigste أَنْ im Quran. Grammatische Wirkung: Das folgende Verb steht im Subjunktiv (Manṣūb). Erkennungszeichen: أَنْ + Subjunktiv-Verb. Die gesamte أَنْ-Konstruktion kann als Subjekt, Objekt oder Genitiv-Komplement fungieren.",
+          "arabicExamples": [
+            {
+              "arabic": "أُرِيدُ أَنْ أَذْهَبَ",
+              "transliteration": "urīdu an adhhaba",
+              "meaning": "ich will gehen (wörtlich: ich will das Gehen)"
+            },
+            {
+              "arabic": "وَمَا كَانَ اللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ",
+              "transliteration": "wa-mā kāna llāhu li-yuʿadhdhibahum wa-anta fīhim",
+              "meaning": "Gott hätte sie nicht bestraft, solange du unter ihnen warst (8:33)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=8&verse=33"
+            },
+            {
+              "arabic": "يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنكُمْ",
+              "transliteration": "yurīdu llāhu an yukhaffifa ʿankum",
+              "meaning": "Gott will es euch erleichtern (4:28)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "أَنْ المفسرة — Die erklärende (Mufassira)",
+          "content": "Die Mufassira-أَنْ erscheint nach Verben, die eine Bedeutung des Sagens, Befehlens oder Mitteilens tragen, ABER nicht das Verb قَالَ selbst sind. Sie leitet den Inhalt der Aussage/des Befehls ein und wird mit einem Doppelpunkt oder 'dass' übersetzt. Wichtige Erkennungsregel: Vor أَنْ المفسرة steht ein Verb des Sagens/Offenbarens (wie أَوْحَى, نَادَى, كَتَبَ), und danach folgt ein Imperativ oder ein vollständiger Satz — KEIN Subjunktiv. Das unterscheidet sie von der Maṣdariyya.",
+          "arabicExamples": [
+            {
+              "arabic": "وَأَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ الْفُلْكَ",
+              "transliteration": "wa-awḥaynā ilayhi ani ṣnaʿi l-fulk",
+              "meaning": "Wir offenbarten ihm: 'Baue das Schiff' (23:27)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=27"
+            },
+            {
+              "arabic": "فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب بِّعَصَاكَ الْبَحْرَ",
+              "transliteration": "fa-awḥaynā ilā mūsā ani ḍrib bi-ʿaṣāka l-baḥr",
+              "meaning": "Da offenbarten Wir Mose: 'Schlage mit deinem Stock auf das Meer' (26:63)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=63"
+            },
+            {
+              "arabic": "وَنَادَيْنَاهُ أَنْ يَا إِبْرَاهِيمُ",
+              "transliteration": "wa-nādaynāhu an yā ibrāhīm",
+              "meaning": "Und Wir riefen ihm zu: 'O Abraham!' (37:104-105)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=37&verse=104"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "أَنْ المخففة — Die abgeschwächte (Mukhaffafa)",
+          "content": "Die Mukhaffafa ist ein abgeschwächtes أَنَّ (anna, mit Shadda). Im Quran verliert أَنَّ manchmal seine Verdopplung und wird zu أَنْ — aber es behält seine Bedeutung ('dass'). Erkennungszeichen: أَنْ steht vor einem Verb (nicht Subjunktiv!), und es gibt keinen Grund für Maṣdariyya oder Mufassira. Häufig steht nach أَنْ المخففة die Partikel سَ (Zukunft), لَا, أو قَدْ. Das nachfolgende Verb steht NICHT im Subjunktiv — es bleibt im Indikativ. Das unterscheidet sie klar von der Maṣdariyya.",
+          "arabicExamples": [
+            {
+              "arabic": "عَلِمَ أَنْ سَيَكُونُ مِنكُمْ مَّرْضَىٰ",
+              "transliteration": "ʿalima an sa-yakūnu minkum marḍā",
+              "meaning": "Er wusste, dass es unter euch Kranke geben wird (73:20)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=20"
+            },
+            {
+              "arabic": "أَفَلَا يَرَوْنَ أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا",
+              "transliteration": "a-fa-lā yarawna allā yarjiʿu ilayhim qawlā",
+              "meaning": "sehen sie denn nicht, dass es ihnen kein Wort erwidert? (20:89)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=89"
+            },
+            {
+              "arabic": "وَحَسِبُوا أَلَّا تَكُونَ فِتْنَةٌ",
+              "transliteration": "wa-ḥasibū allā takūna fitna",
+              "meaning": "und sie meinten, dass es keine Prüfung geben würde (5:71)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=71"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَأَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ الْفُلْكَ (23:27)",
+            "Schritt 1: أَنْ — Welche Art? Prüfe was davor und danach steht.",
+            "Schritt 2: Davor steht أَوْحَيْنَا (Wir offenbarten) — ein Verb der Mitteilung, aber NICHT قَالَ.",
+            "Schritt 3: Danach steht اصْنَعِ — ein Imperativ! Kein Subjunktiv.",
+            "Schritt 4: Imperativ nach einem Verb der Mitteilung → Dies ist أَنْ المفسرة (erklärend).",
+            "Schritt 5: Wenn es Maṣdariyya wäre, stünde ein Subjunktiv: أَنْ يَصْنَعَ (dass er baue).",
+            "Schritt 6: Wenn es Mukhaffafa wäre, stünde ein Indikativ mit سَ/قَدْ/لَا.",
+            "Übersetzung: 'Wir offenbarten ihm: Baue das Schiff!' — Der Doppelpunkt zeigt die erklärende Funktion."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "4:28",
+              "word": "أَن يُخَفِّفَ",
+              "analysis": "يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنكُمْ — Maṣdariyya. يُخَفِّفَ steht im Subjunktiv (Fatḥa statt Ḍamma). أَنْ + Verb = nominalisiert: 'Gott will die Erleichterung für euch.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+            },
+            {
+              "location": "23:27",
+              "word": "أَنِ ٱصْنَعِ",
+              "analysis": "أَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ — Mufassira. Nach أَوْحَى (offenbaren) + Imperativ اصْنَعِ. Kein Subjunktiv → erklärend: 'Wir offenbarten ihm: Baue!'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=27"
+            },
+            {
+              "location": "73:20",
+              "word": "أَن سَيَكُونُ",
+              "analysis": "عَلِمَ أَنْ سَيَكُونُ — Mukhaffafa. يَكُونُ steht im Indikativ (nicht Subjunktiv), und es folgt سَ (Zukunft). Abgeschwächtes أَنَّ: 'Er wusste, dass es sein wird.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=20"
+            },
+            {
+              "location": "26:63",
+              "word": "أَنِ ٱضْرِب",
+              "analysis": "فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب — Mufassira. Verb der Mitteilung + Imperativ. 'Wir gaben Mose ein: Schlage!'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=26&verse=63"
+            },
+            {
+              "location": "20:89",
+              "word": "أَلَّا يَرْجِعُ",
+              "analysis": "أَلَّا يَرْجِعُ إِلَيْهِمْ — Mukhaffafa (أَنْ + لَا). يَرْجِعُ im Indikativ (Ḍamma). 'Dass es ihnen kein Wort erwidert.' Kein Subjunktiv → nicht Maṣdariyya.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=89"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "disambiguation",
+          "prompt": "Welche Art von أَنْ liegt in يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنكُمْ (4:28) vor?",
+          "options": [
+            "Maṣdariyya (nominalisierend)",
+            "Mufassira (erklärend)",
+            "Mukhaffafa (abgeschwächtes أَنَّ)"
+          ],
+          "answer": "Maṣdariyya (nominalisierend)",
+          "explanation": "يُخَفِّفَ steht im Subjunktiv (Fatḥa auf dem letzten Radikal). أَنْ + Subjunktiv = Maṣdariyya. Die Konstruktion nominalisiert das Verb: 'Gott will die Erleichterung.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=28"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "Welche Art von أَنْ liegt in وَأَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ الْفُلْكَ (23:27) vor?",
+          "options": [
+            "Maṣdariyya (nominalisierend)",
+            "Mufassira (erklärend)",
+            "Mukhaffafa (abgeschwächtes أَنَّ)"
+          ],
+          "answer": "Mufassira (erklärend)",
+          "explanation": "Nach أَوْحَيْنَا (Verb der Mitteilung) folgt ein Imperativ (اصْنَعِ), kein Subjunktiv. Erklärende أَنْ leitet den Inhalt der Offenbarung ein: 'Wir offenbarten ihm: Baue das Schiff.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=23&verse=27"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "Welche Art von أَنْ liegt in عَلِمَ أَنْ سَيَكُونُ مِنكُمْ مَّرْضَىٰ (73:20) vor?",
+          "options": [
+            "Maṣdariyya (nominalisierend)",
+            "Mufassira (erklärend)",
+            "Mukhaffafa (abgeschwächtes أَنَّ)"
+          ],
+          "answer": "Mukhaffafa (abgeschwächtes أَنَّ)",
+          "explanation": "يَكُونُ steht im Indikativ (nicht Subjunktiv), und es folgt سَ (Zukunftspartikel). Beides schließt Maṣdariyya aus. Kein Imperativ → keine Mufassira. Es ist abgeschwächtes أَنَّ: 'Er wusste, dass es sein wird.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=73&verse=20"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welches Verb-Modus folgt auf أَنْ المصدرية?",
+          "options": [
+            "Indikativ (Marfūʿ)",
+            "Subjunktiv (Manṣūb)",
+            "Jussiv (Majzūm)",
+            "Imperativ (Amr)"
+          ],
+          "answer": "Subjunktiv (Manṣūb)",
+          "explanation": "أَنْ المصدرية ist eine der Subjunktiv-auslösenden Partikeln (حُرُوفُ النَّصْبِ). Das folgende Verb steht immer im Subjunktiv: أَنْ يَذْهَبَ (Fatḥa statt Ḍamma).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Woran erkennt man أَنْ المفسرة (die erklärende)?",
+          "options": [
+            "Das folgende Verb steht im Subjunktiv",
+            "Davor steht ein Verb des Sagens/Offenbarens (nicht قَالَ), danach ein Imperativ oder vollständiger Satz",
+            "Danach folgt سَ oder قَدْ",
+            "Es steht am Satzanfang"
+          ],
+          "answer": "Davor steht ein Verb des Sagens/Offenbarens (nicht قَالَ), danach ein Imperativ oder vollständiger Satz",
+          "explanation": "Die Mufassira erklärt den Inhalt eines vorhergehenden Verbs der Mitteilung (أَوْحَى, نَادَى, كَتَبَ usw.) und wird von einem Imperativ oder einem vollständigen Satz gefolgt — nie von einem Subjunktiv.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Vervollständige die Unterscheidungstabelle:\n• أَنْ + Subjunktiv = _____\n• أَنْ + Imperativ (nach Mitteilungsverb) = _____\n• أَنْ + Indikativ (mit سَ/قَدْ/لَا) = _____",
+          "answer": "Maṣdariyya; Mufassira; Mukhaffafa",
+          "explanation": "Die drei Typen werden durch den Modus des folgenden Verbs und den Kontext unterschieden: Maṣdariyya → Subjunktiv, Mufassira → Imperativ/Aussagesatz nach Mitteilungsverb, Mukhaffafa → Indikativ mit Zukunfts-/Bestätigungspartikeln.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §111-120",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.12",
+    "title": "Die verschiedenen Mā",
+    "description": "مَا ist eines der mehrdeutigsten Wörter im Quran mit sechs verschiedenen Funktionen: Negation, Relativpronomen, Verstärkung, Nominalisierung (Maṣdariyya), Bedingung und Frage. Diese Lektion lehrt die systematische Unterscheidung.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Überblick: Sechs Funktionen von مَا",
+          "content": "مَا ist vermutlich das vielseitigste Wort im Quranischen Arabisch. Bei JEDEM Vorkommen muss geprüft werden, welche der sechs Funktionen vorliegt:\n\n1. مَا النَّافِيَة — Negation: 'nicht'\n2. مَا الْمَوْصُولَة — Relativpronomen: 'was / das, was'\n3. مَا الزَّائِدَة — Verstärkend: keine eigene Bedeutung\n4. مَا الْمَصْدَرِيَّة — Nominalisierend: verwandelt Verb in Nomen\n5. مَا الشَّرْطِيَّة — Bedingung: 'was auch immer'\n6. مَا الْاِسْتِفْهَامِيَّة — Frage: 'was?'\n\nDie korrekte Identifikation ist entscheidend für das Verständnis — dieselben zwei Buchstaben können die Bedeutung eines Verses komplett verändern.",
+          "arabicExamples": [
+            {
+              "arabic": "مَا كَانَ",
+              "transliteration": "mā kāna",
+              "meaning": "er war nicht (Negation)"
+            },
+            {
+              "arabic": "مَا عِنْدَكُمْ يَنْفَدُ",
+              "transliteration": "mā ʿindakum yanfad",
+              "meaning": "was bei euch ist, vergeht (Relativpronomen)"
+            },
+            {
+              "arabic": "فَبِمَا رَحْمَةٍ",
+              "transliteration": "fa-bi-mā raḥmatin",
+              "meaning": "durch Barmherzigkeit — مَا verstärkend"
+            },
+            {
+              "arabic": "بِمَا كَانُوا يَكْذِبُونَ",
+              "transliteration": "bi-mā kānū yakdhibūn",
+              "meaning": "wegen ihres Lügens (Maṣdariyya)"
+            },
+            {
+              "arabic": "مَا تَفْعَلُوا مِنْ خَيْرٍ",
+              "transliteration": "mā tafʿalū min khayr",
+              "meaning": "was auch immer ihr an Gutem tut (Bedingung)"
+            },
+            {
+              "arabic": "مَا هَذَا",
+              "transliteration": "mā hādhā",
+              "meaning": "was ist das? (Frage)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "1. مَا النَّافِيَة — Negation",
+          "content": "مَا als Negationspartikel verneint Verben und Nominalsätze. Bei Verben steht مَا direkt vor dem Verb: مَا كَانَ = 'er war nicht', مَا فَعَلَ = 'er tat nicht'. Bei Nominalsätzen (in der Ḥijāz-Grammatik): مَا هَذَا بَشَرًا = 'das ist kein Mensch' (12:31) — hier regiert مَا den Akkusativ des Prädikats (wie لَيْسَ).\n\nErkennungszeichen: مَا steht direkt vor einem Verb (Perfekt oder Imperfekt) oder vor einem Nominalsatz und negiert die Aussage. Es folgt kein Antwort- oder Bedingungssatz.",
+          "arabicExamples": [
+            {
+              "arabic": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا",
+              "transliteration": "mā kāna ibrāhīmu yahūdiyyan wa-lā naṣrāniyyā",
+              "meaning": "Abraham war weder Jude noch Christ (3:67)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=67"
+            },
+            {
+              "arabic": "وَمَا ظَلَمْنَاهُمْ",
+              "transliteration": "wa-mā ẓalamnāhum",
+              "meaning": "und Wir haben ihnen kein Unrecht getan (16:118)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=118"
+            },
+            {
+              "arabic": "مَا هَذَا بَشَرًا",
+              "transliteration": "mā hādhā basharan",
+              "meaning": "das ist kein Mensch (12:31) — Ḥijāz-Dialekt: مَا + Akkusativ wie لَيْسَ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            }
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+        },
+        {
+          "type": "explanation",
+          "title": "2. مَا الْمَوْصُولَة — Relativpronomen",
+          "content": "مَا als Relativpronomen bedeutet 'was' / 'das, was' und bezieht sich auf Sachen (nicht Personen — dafür مَنْ). Es leitet einen Relativsatz ein. Erkennungszeichen: Nach مَا folgt ein vollständiger Satz, der مَا näher bestimmt, und es gibt keinen Bedingungscharakter (kein Jussiv, keine Antwort). Häufig kann man es mit 'das, was' oder 'alles, was' übersetzen.",
+          "arabicExamples": [
+            {
+              "arabic": "مَا عِنْدَكُمْ يَنْفَدُ وَمَا عِندَ اللَّهِ بَاقٍ",
+              "transliteration": "mā ʿindakum yanfadu wa-mā ʿinda llāhi bāqin",
+              "meaning": "was bei euch ist, vergeht, und was bei Gott ist, bleibt (16:96)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=96"
+            },
+            {
+              "arabic": "وَاللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+              "transliteration": "wa-llāhu yaʿlamu mā taṣnaʿūn",
+              "meaning": "und Gott weiß, was ihr tut (29:45)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=45"
+            },
+            {
+              "arabic": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+              "transliteration": "wa-li-llāhi mā fī s-samāwāti wa-mā fī l-arḍ",
+              "meaning": "und Gott gehört, was in den Himmeln und was auf der Erde ist (3:109)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=109"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "3. مَا الزَّائِدَة — Verstärkend",
+          "content": "Das verstärkende مَا (auch 'überschüssiges مَا' genannt) hat keine eigene Bedeutung — es dient lediglich der Emphase und Verstärkung. Es erscheint oft nach Partikeln und Präpositionen, ohne die Rektion zu ändern. Erkennungszeichen: مَا steht zwischen einer Partikel/Präposition und einem Nomen im erwarteten Kasus. Wenn man مَا entfernt, bleibt der Satz grammatisch und semantisch korrekt.\n\nHäufige Positionen: nach إِنَّ → إِنَّمَا (nur/gewiss), nach بَعْدَ → بَعْدَمَا (nachdem), nach بِ → بِمَا (mit verstärkendem مَا), nach عَنْ → عَمَّا.",
+          "arabicExamples": [
+            {
+              "arabic": "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ",
+              "transliteration": "fa-bi-mā raḥmatin mina llāh",
+              "meaning": "durch Barmherzigkeit von Gott (3:159) — رَحْمَةٍ bleibt im Genitiv (wegen بِ), مَا ändert nichts",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "arabic": "فَبِمَا نَقْضِهِم مِّيثَاقَهُمْ",
+              "transliteration": "fa-bi-mā naqḍihim mīthāqahum",
+              "meaning": "wegen ihres Brechens ihres Bundes (4:155)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=155"
+            },
+            {
+              "arabic": "إِنَّمَا اللَّهُ إِلَٰهٌ وَاحِدٌ",
+              "transliteration": "innamā llāhu ilāhun wāḥid",
+              "meaning": "Gott ist lediglich EIN Gott (4:171) — إِنَّ + مَا = Restriktion/Verstärkung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=171"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "4. مَا الْمَصْدَرِيَّة — Nominalisierend",
+          "content": "مَا المصدرية verwandelt einen ganzen Verbsatz in ein Nomen (Masdar/Verbalsubstantiv). Im Deutschen entspricht dies der Nominalisierung: 'dass sie lügen' → 'ihr Lügen'. Erkennungszeichen: مَا steht vor einem Verb, und die gesamte مَا-Konstruktion fungiert als Nomen im Satz (oft nach Präpositionen). Entscheidender Unterschied zum Relativpronomen: Das Relativpronomen bezieht sich auf eine SACHE, die Maṣdariyya auf eine HANDLUNG.",
+          "arabicExamples": [
+            {
+              "arabic": "بِمَا كَانُوا يَكْذِبُونَ",
+              "transliteration": "bi-mā kānū yakdhibūn",
+              "meaning": "wegen ihres Lügens (2:10) — مَا + Verb = nominalisierte Handlung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+            },
+            {
+              "arabic": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ",
+              "transliteration": "dhālika bi-mā qaddamat aydīkum",
+              "meaning": "das ist wegen dessen, was eure Hände vorausgeschickt haben (3:182)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=182"
+            },
+            {
+              "arabic": "وَبِمَا كُنتُمْ تَفْسُقُونَ",
+              "transliteration": "wa-bi-mā kuntum tafsuqūn",
+              "meaning": "und weil ihr zu freveln pflegtet (7:163) — بِ + مَا المصدرية = 'wegen eures Frevelns'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=163"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "5 & 6. مَا الشَّرْطِيَّة und مَا الْاِسْتِفْهَامِيَّة",
+          "content": "مَا الشَّرْطِيَّة (Bedingung): 'Was auch immer'. Löst Jussiv aus. Erkennungszeichen: مَا + Verb im Jussiv + Antwortverb im Jussiv. Selten alleinstehend im Quran — häufiger in Kombination wie مَهْمَا.\n\nمَا الْاِسْتِفْهَامِيَّة (Frage): 'Was?' Steht am Satzanfang. Wichtig: Nach Präpositionen fällt das Alif weg: مَا → مَ. So wird لِمَا zu لِمَ (warum?), فِيمَا zu فِيمَ (worin?), عَمَّا zu عَمَّ (worüber?). Dieses Wegfallen des Alif ist ein sicheres Zeichen für die Frage-Funktion.",
+          "arabicExamples": [
+            {
+              "arabic": "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ",
+              "transliteration": "wa-mā tafʿalū min khayrin yaʿlamhu llāh",
+              "meaning": "was auch immer ihr an Gutem tut, Gott weiß es (2:197) — Bedingung",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+            },
+            {
+              "arabic": "مَا هَذَا بَشَرًا",
+              "transliteration": "mā hādhā basharan",
+              "meaning": "was ist das? Das ist kein Mensch! (12:31) — Hier umstritten: Negation oder Ausruf",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            },
+            {
+              "arabic": "عَمَّ يَتَسَاءَلُونَ",
+              "transliteration": "ʿamma yatasāʾalūn",
+              "meaning": "wonach fragen sie einander? (78:1) — عَنْ + مَا (Frage, Alif weggefallen)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+            },
+            {
+              "arabic": "فِيمَ أَنتَ مِن ذِكْرَاهَا",
+              "transliteration": "fīma anta min dhikrāhā",
+              "meaning": "was geht dich ihre Erwähnung an? (79:43) — فِي + مَا (Frage, Alif weggefallen)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=79&verse=43"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel: Systematische Unterscheidung",
+          "steps": [
+            "Methode: Bei jedem مَا die sechs Funktionen systematisch durchprüfen.",
+            "Beispiel 1: مَا عِنْدَكُمْ يَنْفَدُ (16:96)",
+            "→ Negation? Dann wäre es 'Bei euch vergeht nicht'. Aber es folgt ein weiterer Satz, der das 'was' braucht.",
+            "→ Relativpronomen? مَا + Adverbialsatz (عِنْدَكُمْ) + Verb (يَنْفَدُ) = 'das, was bei euch ist, vergeht'. ✓ Ergibt Sinn!",
+            "→ مَا = Relativpronomen.",
+            "",
+            "Beispiel 2: بِمَا كَانُوا يَكْذِبُونَ (2:10)",
+            "→ بِ + مَا + Verb. Relativpronomen: 'wegen dessen, was sie zu lügen pflegten'. Möglich, aber umständlich.",
+            "→ Maṣdariyya: بِ + مَا المصدرية = 'wegen ihres Lügens'. Eleganter und direkter. مَا nominalisiert das Verb.",
+            "→ مَا = Maṣdariyya. (Hinweis: Beide Analysen sind grammatisch korrekt.)",
+            "",
+            "Beispiel 3: فَبِمَا رَحْمَةٍ (3:159)",
+            "→ بِ + مَا + Nomen im Genitiv (رَحْمَةٍ). Wenn مَا Bedeutung hätte, müsste ein Verb oder Satz folgen.",
+            "→ Hier folgt direkt ein Nomen → مَا kann weder Relativpronomen noch Maṣdariyya sein.",
+            "→ مَا = verstärkend (zāʾida). Ohne مَا: بِرَحْمَةٍ = identische Bedeutung.",
+            "",
+            "Schnelltest: (1) Folgt ein Nomen direkt? → verstärkend. (2) Folgt ein Verb im Jussiv + Antwort? → Bedingung. (3) Steht es am Satzanfang vor Nomen/هَذَا? → Frage. (4) Steht es vor Verb und negiert? → Negation. (5) Steht es vor Verb und bezieht sich auf eine Sache? → Relativpronomen. (6) Steht es vor Verb nach Präposition und nominalisiert? → Maṣdariyya."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "3:67",
+              "word": "مَا كَانَ",
+              "analysis": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا — Negation. مَا steht direkt vor dem Verb كَانَ und verneint: 'Abraham war nicht jüdisch.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=67"
+            },
+            {
+              "location": "16:96",
+              "word": "مَا عِندَكُمْ",
+              "analysis": "مَا عِنْدَكُمْ يَنْفَدُ — Relativpronomen. 'Das, was bei euch ist, vergeht.' مَا leitet einen Relativsatz ein und bezieht sich auf Besitz/Sachen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=96"
+            },
+            {
+              "location": "3:159",
+              "word": "فَبِمَا رَحْمَةٍ",
+              "analysis": "فَبِمَا رَحْمَةٍ — Verstärkend (zāʾida). مَا steht zwischen بِ und dem Genitiv-Nomen رَحْمَةٍ. Entfernt man مَا, bleibt فَبِرَحْمَةٍ — identische Bedeutung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+            },
+            {
+              "location": "2:10",
+              "word": "بِمَا كَانُوا",
+              "analysis": "بِمَا كَانُوا يَكْذِبُونَ — Maṣdariyya. مَا nominalisiert كَانُوا يَكْذِبُونَ: بِ + 'ihrem Lügen' = 'wegen ihres Lügens'.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+            },
+            {
+              "location": "2:197",
+              "word": "وَمَا تَفْعَلُوا",
+              "analysis": "وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ — Bedingung. تَفْعَلُوا im Jussiv (Wegfall des Nūn), يَعْلَمْهُ im Jussiv → Bedingungsstruktur. 'Was auch immer ihr tut, Gott weiß es.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+            },
+            {
+              "location": "78:1",
+              "word": "عَمَّ",
+              "analysis": "عَمَّ يَتَسَاءَلُونَ — Frage. عَنْ + مَا → عَمَّ (Alif fällt weg nach Präposition). 'Wonach fragen sie einander?'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+            },
+            {
+              "location": "3:182",
+              "word": "بِمَا قَدَّمَتْ",
+              "analysis": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ — Maṣdariyya oder Relativpronomen? Beide Analysen möglich: 'wegen dessen, was eure Hände vorausschickten' (Relativ) oder 'wegen des Vorausschickens eurer Hände' (Masdar).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=182"
+            },
+            {
+              "location": "12:31",
+              "word": "مَا هَٰذَا بَشَرًا",
+              "analysis": "مَا هَذَا بَشَرًا — Negation (Ḥijāz-Analyse: مَا wie لَيْسَ mit Akkusativ بَشَرًا). 'Dies ist kein Mensch.' Nicht Frage, obwohl 'was ist das?' oberflächlich möglich wäre.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا (3:67)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend",
+            "Maṣdariyya",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Negation",
+          "explanation": "مَا steht direkt vor dem Verb كَانَ und verneint den gesamten Satz: 'Abraham war nicht jüdisch.' Es gibt keinen Relativsatz, keine Bedingung und keine Frage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=67"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: مَا عِنْدَكُمْ يَنْفَدُ (16:96)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend",
+            "Maṣdariyya",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Relativpronomen",
+          "explanation": "مَا leitet hier einen Relativsatz ein: 'das, was bei euch ist, vergeht'. Es bezieht sich auf eine Sache (den Besitz) und wird durch den folgenden Satz (عِنْدَكُمْ يَنْفَدُ) näher bestimmt.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=96"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: فَبِمَا رَحْمَةٍ مِنَ اللَّهِ (3:159)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend (zāʾida)",
+            "Maṣdariyya",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Verstärkend (zāʾida)",
+          "explanation": "مَا steht zwischen der Präposition بِ und dem Nomen رَحْمَةٍ im Genitiv. Es hat keine eigene Bedeutung — der Satz ohne مَا (فَبِرَحْمَةٍ) hat denselben Sinn. Das مَا ist rein verstärkend.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=159"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: بِمَا كَانُوا يَكْذِبُونَ (2:10)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend",
+            "Maṣdariyya (nominalisierend)",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Maṣdariyya (nominalisierend)",
+          "explanation": "مَا steht nach der Präposition بِ und vor einem Verb (كَانُوا يَكْذِبُونَ). Es nominalisiert die Verbhandlung: بِ + 'ihrem Lügen' = 'wegen ihres Lügens'. Die Maṣdariyya verwandelt den Verbsatz in ein abstraktes Nomen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=10"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: عَمَّ يَتَسَاءَلُونَ (78:1)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend",
+            "Maṣdariyya",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Frage",
+          "explanation": "عَمَّ = عَنْ + مَا. Das Alif von مَا ist weggefallen — ein sicheres Zeichen für مَا الاستفهامية (Frage-مَا). Bedeutung: 'Wonach fragen sie einander?'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=78&verse=1"
+        },
+        {
+          "type": "particle_function",
+          "prompt": "Bestimme die Funktion von مَا in: وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ (2:197)",
+          "options": [
+            "Negation",
+            "Relativpronomen",
+            "Verstärkend",
+            "Maṣdariyya",
+            "Bedingung",
+            "Frage"
+          ],
+          "answer": "Bedingung",
+          "explanation": "تَفْعَلُوا steht im Jussiv (Wegfall des Nūn), und es gibt ein Antwortverb im Jussiv (يَعْلَمْهُ). Das sind die Erkennungszeichen der Bedingungsfunktion: 'Was auch immer ihr an Gutem tut, Gott weiß es.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-175",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.13",
+    "title": "Schwur-Partikeln",
+    "description": "Die drei Schwur-Partikeln im Quran: وَ (am häufigsten), بِ und تَ. Alle regieren den Genitiv und leiten feierliche Schwüre ein.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Schwüre im Quran — Überblick",
+          "content": "Schwüre (أَقْسَام) spielen im Quran eine zentrale Rolle. Der Textsprecher schwört bei verschiedenen Nomina, wobei die Schwurstruktur die folgende Aussage hervorhebt. Drei Partikeln leiten Schwüre ein: وَ (wāw al-qasam), بِ (bāʾ al-qasam) und تَ (tāʾ al-qasam). Alle drei regieren den Genitiv — das Wort, bei dem geschworen wird, steht immer im Genitiv (Majrūr). Der Schwur wird häufig von einer Antwort (جَوَابُ الْقَسَم) gefolgt, die mit إِنَّ oder لَ eingeleitet wird.",
+          "arabicExamples": [
+            {
+              "arabic": "وَاللَّهِ",
+              "transliteration": "wa-llāhi",
+              "meaning": "bei Gott (Schwur mit وَ)"
+            },
+            {
+              "arabic": "بِاللَّهِ",
+              "transliteration": "bi-llāhi",
+              "meaning": "bei Gott (Schwur mit بِ)"
+            },
+            {
+              "arabic": "تَاللَّهِ",
+              "transliteration": "ta-llāhi",
+              "meaning": "bei Gott (Schwur mit تَ)"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "وَ القَسَم — Die häufigste Schwurpartikel",
+          "content": "وَ (wāw) ist die mit Abstand häufigste Schwurpartikel im Quran. Sie darf nicht mit der Konjunktion وَ (und) verwechselt werden. Erkennungszeichen: وَ + Genitiv-Nomen ohne Verb dazwischen. Die Schwur-وَ steht am Anfang eines Satzes und leitet einen feierlichen Schwur ein. Im Quran schwört Gott bei verschiedenen Geschöpfen: Sonne, Mond, Sternen, Zeit, Feigenbaum und Ölbaum usw. Die Antwort auf den Schwur (جَواب القَسَم) wird häufig mit إِنَّ oder لَ eingeleitet.",
+          "arabicExamples": [
+            {
+              "arabic": "وَالشَّمْسِ وَضُحَاهَا",
+              "transliteration": "wa-sh-shamsi wa-ḍuḥāhā",
+              "meaning": "bei der Sonne und ihrem Morgenlicht (91:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "arabic": "وَالْعَصْرِ ❁ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+              "transliteration": "wa-l-ʿaṣr ● inna l-insāna la-fī khusr",
+              "meaning": "bei der Zeit! Der Mensch ist wahrlich im Verlust (103:1-2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            },
+            {
+              "arabic": "وَالتِّينِ وَالزَّيْتُونِ",
+              "transliteration": "wa-t-tīni wa-z-zaytūn",
+              "meaning": "bei der Feige und der Olive (95:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+            },
+            {
+              "arabic": "وَالْفَجْرِ ❁ وَلَيَالٍ عَشْرٍ",
+              "transliteration": "wa-l-fajri ● wa-layālin ʿashr",
+              "meaning": "bei der Morgendämmerung und den zehn Nächten (89:1-2)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+            },
+            {
+              "arabic": "وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
+              "transliteration": "wa-s-samāʾi dhāti l-burūj",
+              "meaning": "beim Himmel mit den Sternbildern (85:1)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=85&verse=1"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "بِ القَسَم — Schwur mit بِ",
+          "content": "بِ (bāʾ) als Schwurpartikel ist weniger häufig als وَ, aber kommt im Quran vor. Sie kann leicht mit der Präposition بِ (mit/durch) verwechselt werden. Erkennungszeichen: بِ + اللَّه oder ein anderes Schwurobjekt, gefolgt von einer Schwurantwort. Im Quran erscheint بِ القَسَم hauptsächlich in direkter Rede.",
+          "arabicExamples": [
+            {
+              "arabic": "بِاللَّهِ لَقَدْ آثَرَكَ اللَّهُ عَلَيْنَا",
+              "transliteration": "bi-llāhi la-qad ātharaka llāhu ʿalaynā",
+              "meaning": "bei Gott, Gott hat dich uns vorgezogen (12:91 — Josephs Brüder)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=91"
+            },
+            {
+              "arabic": "قُلْ بَلَىٰ وَرَبِّي لَتُبْعَثُنَّ",
+              "transliteration": "qul balā wa-rabbī la-tubʿathunna",
+              "meaning": "sprich: Doch, bei meinem Herrn, ihr werdet gewiss auferweckt (64:7)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=64&verse=7"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "تَ القَسَم — Die seltenste Schwurpartikel",
+          "content": "تَ (tāʾ) ist die seltenste der drei Schwurpartikeln. Im Quran kommt sie ausschließlich mit dem Wort اللَّه vor: تَاللَّهِ. Sie erscheint nur in direkter Rede und drückt oft Verwunderung oder Erstaunen aus — ein emotional aufgeladener Schwur. Es gibt im gesamten Quran nur eine Handvoll Vorkommen, alle mit اللَّه als Schwurobjekt. Man findet تَاللَّهِ nie mit einem anderen Nomen als اللَّه.",
+          "arabicExamples": [
+            {
+              "arabic": "تَاللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِي الْأَرْضِ",
+              "transliteration": "ta-llāhi la-qad ʿalimtum mā jiʾnā li-nufsida fī l-arḍ",
+              "meaning": "bei Gott, ihr wisst doch, dass wir nicht gekommen sind, um Unheil zu stiften (12:73)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+            },
+            {
+              "arabic": "تَاللَّهِ لَقَدْ آثَرَكَ اللَّهُ عَلَيْنَا",
+              "transliteration": "ta-llāhi la-qad ātharaka llāhu ʿalaynā",
+              "meaning": "bei Gott, Gott hat dich uns vorgezogen (12:91)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=91"
+            },
+            {
+              "arabic": "تَاللَّهِ لَأَكِيدَنَّ أَصْنَامَكُم",
+              "transliteration": "ta-llāhi la-akīdanna aṣnāmakum",
+              "meaning": "bei Gott, ich werde gewiss euren Götzen zusetzen (21:57)",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: وَالْعَصْرِ ❁ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ (103:1-2)",
+            "Schritt 1: وَ — Am Satzanfang, gefolgt von einem Genitiv-Nomen → Schwur-وَ (nicht Konjunktion).",
+            "Schritt 2: الْعَصْرِ — 'die Zeit' im Genitiv (Kasra). Der Genitiv wird von der Schwurpartikel وَ regiert.",
+            "Schritt 3: Jetzt suchen wir die Schwurantwort (جَوَاب الْقَسَم).",
+            "Schritt 4: إِنَّ — Die Bestätigungspartikel leitet die Schwurantwort ein.",
+            "Schritt 5: الْإِنسَانَ — 'der Mensch' im Akkusativ (Ism von إِنَّ).",
+            "Schritt 6: لَفِي خُسْرٍ — لَ (Bestätigungslām, Teil der Schwurantwort) + فِي خُسْرٍ = 'wahrlich im Verlust'.",
+            "Schema: وَ (Schwur) + الْعَصْرِ (Schwurobjekt, Genitiv) → إِنَّ ... لَ... (Schwurantwort)",
+            "Gesamtbedeutung: 'Bei der Zeit! Wahrlich, der Mensch befindet sich im Verlust.'"
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "103:1-2",
+              "word": "وَالْعَصْرِ",
+              "analysis": "وَ القَسَم + الْعَصْرِ im Genitiv. Schwurantwort mit إِنَّ...لَ: 'Bei der Zeit! Der Mensch ist wahrlich im Verlust.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            },
+            {
+              "location": "91:1",
+              "word": "وَالشَّمْسِ",
+              "analysis": "Beginn einer Reihe von Schwüren: وَالشَّمْسِ وَضُحَاهَا وَالْقَمَرِ... Alle Nomen im Genitiv. Die Schwurantwort kommt erst in Vers 91:7.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "location": "12:73",
+              "word": "تَاللَّهِ",
+              "analysis": "تَ القَسَم + اللَّهِ im Genitiv. Josephs Brüder schwören: 'Bei Gott, ihr wisst, dass wir nicht gekommen sind, um Unheil zu stiften.'",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+            },
+            {
+              "location": "21:57",
+              "word": "تَاللَّهِ",
+              "analysis": "تَاللَّهِ لَأَكِيدَنَّ أَصْنَامَكُم — Abraham schwört: 'Bei Gott, ich werde gewiss euren Götzen zusetzen.' تَ nur mit اللَّه im Quran.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+            },
+            {
+              "location": "95:1",
+              "word": "وَالتِّينِ",
+              "analysis": "وَالتِّينِ وَالزَّيْتُونِ — Doppelter Schwur: 'Bei der Feige und der Olive.' Beide Nomen im Genitiv (Kasra am Ende).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=95&verse=1"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Welchen Kasus regieren die Schwurpartikeln وَ, بِ und تَ?",
+          "options": [
+            "Nominativ (Marfūʿ)",
+            "Akkusativ (Manṣūb)",
+            "Genitiv (Majrūr)",
+            "Jussiv (Majzūm)"
+          ],
+          "answer": "Genitiv (Majrūr)",
+          "explanation": "Alle drei Schwurpartikeln regieren den Genitiv. Das Schwurobjekt steht immer im Majrūr: وَاللَّهِ, بِاللَّهِ, تَاللَّهِ — alle mit Kasra auf dem Hāʾ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welche Schwurpartikel kommt im Quran nur mit dem Wort اللَّه vor?",
+          "options": [
+            "وَ",
+            "بِ",
+            "تَ",
+            "Alle drei"
+          ],
+          "answer": "تَ",
+          "explanation": "تَ القَسَم ist die seltenste Schwurpartikel und kommt im Quran ausschließlich in der Verbindung تَاللَّهِ vor — nie mit einem anderen Nomen.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "Ist das وَ in وَالشَّمْسِ وَضُحَاهَا (91:1) eine Konjunktion oder eine Schwurpartikel?",
+          "options": [
+            "Konjunktion (und)",
+            "Schwurpartikel (bei)",
+            "Das erste وَ ist Schwur, das zweite ist Konjunktion"
+          ],
+          "answer": "Das erste وَ ist Schwur, das zweite ist Konjunktion",
+          "explanation": "Das erste وَ am Satzanfang leitet den Schwur ein: 'bei der Sonne'. Das zweite وَ verbindet die Sonne mit ihrem Morgenlicht (وَضُحَاهَا = 'und ihrem Morgenlicht') und ist eine gewöhnliche Konjunktion innerhalb des Schwurobjekts. Alternativ: Grammatisch ist es auch möglich, das zweite وَ als weiteren Schwur zu lesen.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was leitet die Antwort auf einen Schwur (جَوَاب الْقَسَم) typischerweise ein?",
+          "options": [
+            "فَ und ثُمَّ",
+            "إِنَّ und/oder لَ",
+            "أَنَّ und كَانَ",
+            "مَا und لَا"
+          ],
+          "answer": "إِنَّ und/oder لَ",
+          "explanation": "Die Schwurantwort wird typischerweise mit إِنَّ (wahrlich) und/oder لَ (Bestätigungslām) eingeleitet: وَالْعَصْرِ ❁ إِنَّ الْإِنسَانَ لَفِي خُسْرٍ — sowohl إِنَّ als auch لَ markieren die Antwort.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "matching",
+          "prompt": "Ordne jede Schwur-Stelle der verwendeten Partikel zu:",
+          "pairs": [
+            {
+              "word": "وَالْعَصْرِ (103:1)",
+              "match": "وَ القَسَم",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+            },
+            {
+              "word": "تَاللَّهِ لَأَكِيدَنَّ (21:57)",
+              "match": "تَ القَسَم",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=57"
+            },
+            {
+              "word": "وَالشَّمْسِ وَضُحَاهَا (91:1)",
+              "match": "وَ القَسَم",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "word": "تَاللَّهِ لَقَدْ عَلِمْتُم (12:73)",
+              "match": "تَ القَسَم",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=73"
+            }
+          ],
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Ergänze: Die häufigste Schwurpartikel im Quran ist _____, die seltenste ist _____. Alle drei regieren den _____.",
+          "answer": "وَ; تَ; Genitiv",
+          "explanation": "وَ ist die mit Abstand häufigste Schwurpartikel (kommt in vielen Suren vor: وَالشَّمْسِ, وَالْعَصْرِ, وَالتِّينِ usw.). تَ ist die seltenste und kommt nur mit اللَّه vor. Alle drei regieren den Genitiv (Majrūr).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "verse_analysis",
+          "prompt": "Aufgabe: Analysiere Sure 2:255 auf alle vorkommenden Partikeln. Identifiziere für JEDE Partikel: (1) Welche Partikel liegt vor? (2) Welche Funktion hat sie (Negation, Konjunktion, Bekräftigung, Modus-Partikel, Relativpronomen, etc.)? (3) Welchen Kasus oder Modus löst sie aus? Erstelle eine vollständige Partikelliste für den gesamten Vers.",
+          "answer": "Partikeln in 2:255: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ  لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ  لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ  مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ  يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ  وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ  وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ  وَلَا يَئُودُهُ حِفْظُهُمَا  وَهُوَ الْعَلِيُّ الْعَظِيمُ. — Partikeln: لَا (Gattungsverneinung, 4x), إِلَّا (Ausnahme, 3x), وَ (Konjunktion, 8x), لَ (Präposition, Besitz), مَا (Relativpronomen, 3x), فِي (Präposition, 2x), مَنْ (Fragepronomen), ذَا (Demonstrativ), الَّذِي (Relativpronomen), عِنْدَ (Präposition), بِ (Präposition, 3x), مِنْ (Präposition, partitiv), هُوَ (Pronomen).",
+          "explanation": "Sure 2:255 enthält fast jede Partikelkategorie aus den Lektionen 4.1–4.13: Negationspartikeln (لَا, 4x), Ausnahmepartikeln (إِلَّا, 3x), Konjunktionen (وَ, 8x), Präpositionen (لِ, فِي, بِ, مِنْ, عِنْدَ), Relativpronomen (مَا, الَّذِي), und ein Fragepronomen (مَنْ). Dieser Vers ist eine ideale Konsolidierungsübung für die gesamte Partikel-Stufe.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §201-210",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.8"
+    ]
+  },
+  {
+    "id": "4.14",
+    "title": "La al-nafiya lil-jins — Generische Negation (لا النافية للجنس)",
+    "description": "Die Partikel لا mit einem unbestimmten Nomen im Akkusativ negiert eine gesamte Gattung. Das Nomen nach لا steht im Akkusativ OHNE Tanwin (مبني على الفتح).",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist لا النافية للجنس?",
+          "content": "لا النافية للجنس ist eine spezielle Form der Negation, die sich grundlegend von der normalen Negation mit لا unterscheidet. Normale لا negiert ein einzelnes Exemplar — لا رجلٌ في الدار ('kein Mann ist im Haus', aber es könnten andere Männer anderswo sein). لا النافية للجنس dagegen negiert die GESAMTE Gattung — لا رجلَ في الدار ('überhaupt kein Mann ist im Haus', die Gattung 'Mann' wird komplett ausgeschlossen). Die Bedingungen für لا النافية للجنس sind: (1) Das Nomen muss unbestimmt sein. (2) Es muss unmittelbar nach لا stehen, ohne Trennung. (3) Es steht im Akkusativ ohne Tanwin (مبني على الفتح). Das Khabar (Prädikat) von لا steht im Nominativ.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا رَيْبَ فِيهِ",
+              "transliteration": "lā rayba fīhi",
+              "meaning": "kein Zweifel darin (2:2) — رَيْبَ im Akkusativ ohne Tanwin",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "arabic": "لَا إِكْرَاهَ فِي الدِّينِ",
+              "transliteration": "lā ikrāha fī d-dīn",
+              "meaning": "kein Zwang in der Religion (2:256) — إِكْرَاهَ im Akkusativ ohne Tanwin",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+            },
+            {
+              "arabic": "لَا إِلَٰهَ إِلَّا هُوَ",
+              "transliteration": "lā ilāha illā huwa",
+              "meaning": "kein Gott außer Ihm — إِلَٰهَ im Akkusativ ohne Tanwin"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: لَا رَيْبَ فِيهِ (2:2)",
+            "Schritt 1: لا — Gattungsnegation (لا النافية للجنس). Sie negiert nicht nur einen einzelnen Zweifel, sondern die gesamte Gattung 'Zweifel'.",
+            "Schritt 2: رَيْبَ — Ism von لا (اسم لا). Es steht im Akkusativ ohne Tanwin (مبني على الفتح). Beachte: nicht رَيْبًا (mit Tanwin), sondern رَيْبَ (ohne Tanwin).",
+            "Schritt 3: فيه — Khabar von لا (خبر لا). Es ist eine Präpositionalphrase (جار ومجرور) und fungiert als Prädikat.",
+            "Bedeutung: 'Kein Zweifel ist darin' — kein einziger Zweifel der Gattung 'Zweifel' existiert in diesem Buch."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "2:2",
+              "word": "لَا رَيْبَ فِيهِ",
+              "analysis": "لَا = Gattungsnegation, رَيْبَ = Ism von لا (Akk. ohne Tanwin), فِيهِ = Khabar (Präpositionalphrase). Kein Zweifel darin.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+            },
+            {
+              "location": "2:256",
+              "word": "لَآ إِكْرَاهَ فِى ٱلدِّينِ",
+              "analysis": "لَا = Gattungsnegation, إِكْرَاهَ = Ism von لا (Akk. ohne Tanwin), فِي الدِّينِ = Khabar. Kein Zwang in der Religion.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+            },
+            {
+              "location": "12:87",
+              "word": "لَا يَايْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
+              "analysis": "لَا mit Verb يَيْأَسُ — hier als einfache Negation eines Verbs. Nur die leugnenden Leute verzweifeln an Gottes Barmherzigkeit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=87"
+            },
+            {
+              "location": "55:33",
+              "word": "لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍ",
+              "analysis": "لَا mit Verb تَنفُذُونَ — Negation eines Verbs. Nicht durchdringt ihr (die Bereiche der Himmel und der Erde) außer mit Ermächtigung.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=33"
+            },
+            {
+              "location": "2:48",
+              "word": "لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا",
+              "analysis": "لا mit Verb تجزي — Negation eines Verbs. Kein Selbst leistet für ein anderes Selbst etwas.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was bewirkt لا النافية للجنس?",
+          "options": [
+            "Negiert ein einzelnes Exemplar",
+            "Negiert die gesamte Gattung, nicht nur ein Exemplar",
+            "Negiert nur in der Vergangenheit",
+            "Negiert nur bestimmte Nomen"
+          ],
+          "answer": "Negiert die gesamte Gattung, nicht nur ein Exemplar",
+          "explanation": "لا النافية للجنس negiert die gesamte Gattung. لَا رَيْبَ فِيهِ bedeutet nicht nur 'ein bestimmter Zweifel ist nicht darin', sondern 'kein einziger Zweifel der Gattung Zweifel existiert darin'.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In welchem Kasus steht رَيْبَ in لَا رَيْبَ فِيهِ?",
+          "options": [
+            "Nominativ mit Tanwin",
+            "Akkusativ mit Tanwin",
+            "Akkusativ ohne Tanwin (مبني على الفتح)",
+            "Genitiv"
+          ],
+          "answer": "Akkusativ ohne Tanwin (مبني على الفتح)",
+          "explanation": "Das Ism von لا النافية للجنس steht im Akkusativ ohne Tanwin. Deshalb رَيْبَ (mit Fatha, ohne Tanwin) und nicht رَيْبًا (mit Tanwin) oder رَيْبٌ (Nominativ).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "disambiguation",
+          "prompt": "Was unterscheidet لَا رَيْبَ von لَا رَيْبٌ?",
+          "options": [
+            "Kein Unterschied",
+            "لَا رَيْبَ negiert die Gattung (generisch), لَا رَيْبٌ wäre einfache Negation eines Exemplars",
+            "لَا رَيْبٌ ist stärker als لَا رَيْبَ",
+            "لَا رَيْبَ steht nur mit Verben"
+          ],
+          "answer": "لَا رَيْبَ negiert die Gattung (generisch), لَا رَيْبٌ wäre einfache Negation eines Exemplars",
+          "explanation": "Bei لَا رَيْبَ (Akkusativ ohne Tanwin) liegt لا النافية للجنس vor — die gesamte Gattung 'Zweifel' wird negiert. Bei لَا رَيْبٌ (Nominativ mit Tanwin) wäre es eine einfache Negation (لا العاملة عمل ليس oder لا النافية), die nur ein einzelnes Exemplar negiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "identification",
+          "prompt": "In لَا إِكْرَاهَ فِي الدِّينِ (2:256), was ist das Khabar von لا?",
+          "options": [
+            "إِكْرَاهَ",
+            "فِي",
+            "الدِّينِ",
+            "فِي الدِّينِ (Präpositionalphrase)"
+          ],
+          "answer": "فِي الدِّينِ (Präpositionalphrase)",
+          "explanation": "إِكْرَاهَ ist das Ism von لا (Subjekt, Akkusativ ohne Tanwin). فِي الدِّينِ ist das Khabar (Prädikat) — eine Präpositionalphrase, die als Quasi-Satz fungiert.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=256"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Bedingung muss das Nomen nach لا النافية للجنس erfüllen?",
+          "options": [
+            "Es muss bestimmt sein",
+            "Es muss ein Verb sein",
+            "Es muss unbestimmt sein und unmittelbar nach لا stehen",
+            "Es muss im Genitiv stehen"
+          ],
+          "answer": "Es muss unbestimmt sein und unmittelbar nach لا stehen",
+          "explanation": "Damit لا als Gattungsnegation fungiert, muss das folgende Nomen (1) unbestimmt (ohne Artikel) sein und (2) unmittelbar nach لا stehen, ohne dass etwas dazwischen tritt.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        },
+        {
+          "type": "fill_in",
+          "prompt": "Wie wird das Nomen nach لا النافية للجنس vokalisiert?",
+          "answer": "Mit Fatha ohne Tanwin (Akkusativ, aufgebaut auf der Fatha)",
+          "explanation": "Das Ism von لا النافية للجنس ist مبني على الفتح — es steht im Akkusativ, aber ohne Tanwin. Beispiel: رَيْبَ (nicht رَيْبًا), إِكْرَاهَ (nicht إِكْرَاهًا), إِلَٰهَ (nicht إِلَٰهًا).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n140"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-165",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  },
+  {
+    "id": "4.15",
+    "title": "Ma al-Hijaziyya — ما الحجازية",
+    "description": "In der hijazischen Varietät des Arabischen (die Sprache des Quran) kann ما wie ليس funktionieren: es setzt den Mubtada' in den Nominativ und den Khabar in den Akkusativ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist ما الحجازية?",
+          "content": "Die Partikel ما kann in bestimmten Kontexten wie ليس (nicht sein) funktionieren. In der hijazischen Varietät des Arabischen — der Varietät, in der der Quran verfasst ist — übernimmt ما die Rektion von ليس: Das Ism von ما (Subjekt) steht im Nominativ, das Khabar von ما (Prädikat) steht im Akkusativ. Dies unterscheidet sich von der tamimischen Varietät, in der ما keinen Einfluss auf den Kasus hat. Die Bedingungen für ما الحجازية sind: (1) ما darf nicht von إنْ gefolgt werden (ما إنْ hebt die Rektion auf). (2) Das Khabar darf nicht vor das Ism gestellt werden. (3) إلا darf nicht vor dem Khabar stehen (bei Ausnahmen verliert ما seine Rektion).",
+          "arabicExamples": [
+            {
+              "arabic": "مَا هَٰذَا بَشَرًا",
+              "transliteration": "mā hādhā basharan",
+              "meaning": "dies ist kein Mensch (12:31) — هذا Nom., بشرا Akk.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            },
+            {
+              "arabic": "مَا هُنَّ أُمَّهَاتِهِمْ",
+              "transliteration": "mā hunna ummahātihim",
+              "meaning": "sie sind nicht ihre Mütter (58:2) — هُنَّ Nom., أُمَّهَاتِهِمْ Akk.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=58&verse=2"
+            },
+            {
+              "arabic": "مَا هَٰذَا إِلَّا مَلَكٌ كَرِيمٌ",
+              "transliteration": "mā hādhā illā malakun karīm",
+              "meaning": "dies ist nur ein edler Engel (12:31) — mit إلا fällt die Rektion weg, daher ملكٌ im Nominativ",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            }
+          ]
+        },
+        {
+          "type": "walkthrough",
+          "title": "Durchgearbeitetes Beispiel",
+          "steps": [
+            "Vers: مَا هَٰذَا بَشَرًا (12:31)",
+            "Schritt 1: ما — Negation, die hier wie ليس funktioniert (ما الحجازية).",
+            "Schritt 2: هَٰذَا — Ism von ما (Subjekt). Es steht im Nominativ. Als Demonstrativpronomen ist es unveränderlich (مبني), aber seine syntaktische Position ist die des Subjekts im Nominativ.",
+            "Schritt 3: بَشَرًا — Khabar von ما (Prädikat). Es steht im Akkusativ (Manṣūb), erkennbar an der Endung -an. Dies ist der Beweis, dass ما hier wie ليس regiert.",
+            "Bedeutung: 'Dies ist kein Mensch' — die Frauen sagen dies über Joseph."
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quran-Beispiele",
+          "examples": [
+            {
+              "location": "12:31",
+              "word": "مَا هَٰذَا بَشَرًا",
+              "analysis": "مَا = Negation wie ليس. هَٰذَا = Ism (Nom.). بَشَرًا = Khabar (Akk.). Dies ist kein Mensch.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=31"
+            },
+            {
+              "location": "2:102",
+              "word": "وَمَا هُم بِضَآرِّينَ بِهِ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ",
+              "analysis": "مَا = Negation wie ليس. هُم = Ism (Nom.). بِضَارِّينَ = Khabar — die بـ ist eine verstärkende Partikel (باء زائدة), ضَارِّينَ steht syntaktisch im Akkusativ. Sie schaden niemandem damit außer mit Gottes Erlaubnis.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+            },
+            {
+              "location": "3:176",
+              "word": "لَن يَضُرُّوا ٱللَّهَ شَيْـًٔا",
+              "analysis": "مَا = Negation wie ليس. هُم = Ism (Nom.). يَضُرُّوا = Khabar mit باء زائدة. Sie schaden Gott nicht das Geringste.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=176"
+            },
+            {
+              "location": "6:132",
+              "word": "مَا رَبُّكَ بِغَٰفِلٍ عَمَّا يَعْمَلُونَ",
+              "analysis": "مَا = Negation wie ليس. رَبُّكَ = Ism (Nom.). بِغَافِلٍ = Khabar mit باء زائدة. Dein Herr ist nicht achtlos über das, was sie tun. Hinweis: Die بـ vor dem Khabar ist eine verstärkende Partikel (باء زائدة), keine Präposition.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=132"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Wie funktioniert ما الحجازية?",
+          "options": [
+            "Wie إنّ: Ism im Akkusativ, Khabar im Nominativ",
+            "Wie ليس: Ism im Nominativ, Khabar im Akkusativ",
+            "Wie كان: Ism im Nominativ, Khabar im Akkusativ mit Zeitbezug",
+            "Wie لا النافية للجنس: Nomen im Akkusativ ohne Tanwin"
+          ],
+          "answer": "Wie ليس: Ism im Nominativ, Khabar im Akkusativ",
+          "explanation": "ما الحجازية funktioniert wie ليس: Das Subjekt (Ism) bleibt im Nominativ, das Prädikat (Khabar) wird in den Akkusativ gesetzt. Beispiel: مَا هَٰذَا بَشَرًا — هَٰذَا (Nom.) + بَشَرًا (Akk.).",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Was ist der grammatische Status von بَشَرًا in مَا هَٰذَا بَشَرًا?",
+          "options": [
+            "Ism von ما im Nominativ",
+            "Khabar von ما im Akkusativ",
+            "Mafʿul bih (direktes Objekt)",
+            "Tamyiz (Spezifikation)"
+          ],
+          "answer": "Khabar von ما im Akkusativ",
+          "explanation": "بشرا ist das Khabar (Prädikat) von ما الحجازية. Es steht im Akkusativ (erkennbar an der Endung -an), weil ما hier wie ليس regiert.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Rolle spielt die بـ in مَا رَبُّكَ بِغَافِلٍ?",
+          "options": [
+            "Präposition (mit/durch)",
+            "Schwurpartikel",
+            "Verstärkende Partikel (باء زائدة), keine Präposition",
+            "Kausalpartikel (weil)"
+          ],
+          "answer": "Verstärkende Partikel (باء زائدة), keine Präposition",
+          "explanation": "Die بـ vor dem Khabar von ما الحجازية ist eine باء زائدة (verstärkende, überschüssige بـ). Sie hat keine eigene Bedeutung und regiert keinen Genitiv im syntaktischen Sinne — sie verstärkt lediglich die Negation. Das Wort غَافِلٍ ist syntaktisch das Khabar im Akkusativ.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Wann kann ما NICHT wie ليس funktionieren?",
+          "options": [
+            "Wenn das Ism bestimmt ist",
+            "Wenn إنْ nach ما steht oder das Khabar vor dem Ism steht",
+            "Wenn das Khabar ein Verb ist",
+            "Wenn ما am Satzanfang steht"
+          ],
+          "answer": "Wenn إنْ nach ما steht oder das Khabar vor dem Ism steht",
+          "explanation": "ما verliert seine Rektion wie ليس in mehreren Fällen: (1) wenn إنْ direkt nach ما steht (ما إنْ), (2) wenn das Khabar vor das Ism gestellt wird, (3) wenn إلا vor dem Khabar steht. In diesen Fällen hat ما keinen Einfluss auf den Kasus.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n242"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welcher Vers zeigt ما الحجازية mit بـ زائدة?",
+          "options": [
+            "مَا هَٰذَا بَشَرًا (12:31)",
+            "لَا رَيْبَ فِيهِ (2:2)",
+            "وَمَا هُم بِضَارِّي (3:176)",
+            "لَا إِكْرَاهَ فِي الدِّينِ (2:256)"
+          ],
+          "answer": "وَمَا هُم بِضَارِّي (3:176)",
+          "explanation": "In وَمَا هُم بِضَارِّي اللَّهِ شَيْئًا (3:176) liegt ما الحجازية vor, und die بـ vor ضَارِّي ist eine باء زائدة (verstärkende Partikel). هُم ist das Ism (Nom.), بِضَارِّي ist das Khabar.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=176"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §155-165",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich"
+  }
+]

@@ -1,0 +1,798 @@
+[
+  {
+    "id": "S2.5",
+    "title": "Das Gleichnis der Mücke und die Schöpfungserzählung (2:26–29)",
+    "description": "Syntaktische Analyse der Verse 2:26–29: Gleichniskonstruktion mit إِنَّ اللَّهَ لَا يَسْتَحْيِي, Relativsätze mit الَّذِينَ, konditionaler Aufbau mit أَمَّا, und die Schöpfungsnarration mit هُوَ الَّذِي خَلَقَ.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 2:26 — Die Gleichniskonstruktion",
+          "content": " إِنَّ اللَّهَ لَا يَسْتَحْيِي أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا\n\nDieser Vers enthält mehrere verschachtelte syntaktische Ebenen:\n\n1. إِنَّ اللَّهَ — إِنَّ-Satz: اللَّهَ ist Ism von إِنَّ (Akkusativ, Fatḥa). Der gesamte Verbalsatz لَا يَسْتَحْيِي... ist Khabar von إِنَّ.\n\n2. لَا يَسْتَحْيِي — Negiertes Imperfekt (Muḍāriʿ), Form X von ح-ي-ي. Das Verb regiert أَنْ + Subjunktiv.\n\n3. أَن يَضْرِبَ — أَنْ naṣbiyya löst den Subjunktiv aus: يَضْرِبَ (Fatḥa als Subjunktivzeichen). Das Maṣdar-Äquivalent (أَنْ + Verb) fungiert als Objekt von يَسْتَحْيِي.\n\n4. مَثَلًا مَّا بَعُوضَةً — مَثَلًا ist Mafʿūl bihi (Objekt) von يَضْرِبَ im Akkusativ. مَا ist hier eine unbestimmte Partikel (مَا الإِبْهَامِيَّة), die Vagheit ausdrückt: 'irgendein Gleichnis'. بَعُوضَةً ist Badal (Apposition) zu مَثَلًا, ebenfalls Akkusativ.\n\n5. فَمَا فَوْقَهَا — فَ ist ʿāṭifa (koordinierend), مَا ist Ism mawṣūl ('was darüber ist'). فَوْقَهَا ist Ẓarf (Adverb des Ortes) als Ṣila des Relativpronomens.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنَّ اللَّهَ لَا يَسْتَحْيِي أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا",
+              "transliteration": "inna llāha lā yastaḥyī an yaḍriba mathalan mā baʿūḍatan famā fawqahā",
+              "meaning": "Gott schämt sich nicht, ein Gleichnis aufzustellen — sei es eine Mücke oder was darüber hinausgeht"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:26 — Fortsetzung: Die beiden Gruppen",
+          "content": "فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِن رَّبِّهِمْ  وَأَمَّا الَّذِينَ كَفَرُوا فَيَقُولُونَ مَاذَا أَرَادَ اللَّهُ بِهَٰذَا مَثَلًا\n\n1. فَأَمَّا ... فَـ — Tafṣīl-Konstruktion (Aufgliederung): أَمَّا ist eine Bedingungspartikel, die zwingend ein فَ im Nachsatz erfordert. Die Struktur ist: أَمَّا + Topik + فَ + Kommentar.\n\n2. الَّذِينَ آمَنُوا — Relativsatz: الَّذِينَ ist Ism mawṣūl (Relativpronomen, Plural maskulin). آمَنُوا ist die Ṣila (Relativsatz). Das Ganze fungiert als Mubtadaʼ der أَمَّا-Konstruktion.\n\n3. فَيَعْلَمُونَ أَنَّهُ الْحَقُّ — فَ leitet den Nachsatz ein. أَنَّهُ ist Maṣdar-Äquivalent: die Pronominalsuffix-Form هُ ist Ism von أَنَّ (Akkusativ), الْحَقُّ ist Khabar von أَنَّ (Nominativ).\n\n4. مَاذَا أَرَادَ اللَّهُ بِهَٰذَا مَثَلًا — Interrogativsatz: مَاذَا ist Fragepronomen (Mafʿūl bihi von أَرَادَ, vorangestellt). مَثَلًا ist Tamyīz (Spezifikationsakkusativ) oder Ḥāl.",
+          "arabicExamples": [
+            {
+              "arabic": "فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِن رَّبِّهِمْ",
+              "transliteration": "fa-ammā lladhīna āmanū fa-yaʿlamūna annahu l-ḥaqqu min rabbihim",
+              "meaning": "Was nun diejenigen betrifft, die glauben — sie wissen, dass es die Wahrheit von ihrem Herrn ist"
+            },
+            {
+              "arabic": "مَاذَا أَرَادَ اللَّهُ بِهَٰذَا مَثَلًا",
+              "transliteration": "mādhā arāda llāhu bi-hādhā mathalan",
+              "meaning": "Was beabsichtigte Gott mit diesem als Gleichnis?"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:27 — Bruch des Bundes",
+          "content": "الَّذِينَ يَنقُضُونَ عَهْدَ اللَّهِ مِن بَعْدِ مِيثَاقِهِ وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَن يُوصَلَ وَيُفْسِدُونَ فِي الْأَرْضِ\n\n1. الَّذِينَ — Relativpronomen, bezieht sich zurück auf die Irregehenden am Ende von 2:26. Es fungiert als Mubtadaʼ oder als Badal.\n\n2. يَنقُضُونَ عَهْدَ اللَّهِ — Verbalsatz als Ṣila: يَنقُضُونَ (Imperfekt, 3.Pl.m.) + عَهْدَ (Mafʿūl bihi, Akkusativ) + اللَّهِ (Muḍāf ilayhi, Genitiv). Doppelte Iḍāfa-Kette: عَهْد اللَّه.\n\n3. مِن بَعْدِ مِيثَاقِهِ — Präpositionalausdruck: مِنْ + بَعْدِ (Genitiv nach Präposition) + مِيثَاقِهِ (Muḍāf ilayhi, Genitiv). Iḍāfa-Kette: بَعْد مِيثَاق + Pronominalsuffix.\n\n4. أَن يُوصَلَ — أَنْ + Subjunktiv Passiv: Maṣdar-Äquivalent, Badal zu مَا ('was Gott befahl, dass es verbunden werde').\n\n5. Dreifache Parallelstruktur mit وَ: يَنقُضُونَ ... وَيَقْطَعُونَ ... وَيُفْسِدُونَ — drei koordinierte Verbalsätze als Ṣila des Relativpronomens.",
+          "arabicExamples": [
+            {
+              "arabic": "الَّذِينَ يَنقُضُونَ عَهْدَ اللَّهِ مِن بَعْدِ مِيثَاقِهِ",
+              "transliteration": "alladhīna yanquḍūna ʿahda llāhi min baʿdi mīthāqihī",
+              "meaning": "Diejenigen, die den Bund Gottes brechen nach seiner Bekräftigung"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:28 — Rhetorische Frage und Sequenzmarker",
+          "content": "كَيْفَ تَكْفُرُونَ بِاللَّهِ وَكُنتُمْ أَمْوَاتًا فَأَحْيَاكُمْ  ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ\n\n1. كَيْفَ تَكْفُرُونَ — Rhetorische Frage: كَيْفَ (wie/wieso) ist Ism istifhām (Fragepartikel). تَكْفُرُونَ ist Muḍāriʿ, 2.Pl.m. بِاللَّهِ: Präposition + Genitiv.\n\n2. وَكُنتُمْ أَمْوَاتًا — Ḥālsatz (Zustandssatz): وَ الحَالِيَّة + كَانَ-Satz. كُنتُمْ: Ism von كَانَ ist das Pronomen تُمْ (2.Pl.m., Nominativ). أَمْوَاتًا: Khabar von كَانَ (Akkusativ).\n\n3. Sequenzkette mit فَ und ثُمَّ:\n   — فَأَحْيَاكُمْ: فَ zeigt unmittelbare Folge nach dem Totsein.\n   — ثُمَّ يُمِيتُكُمْ: ثُمَّ zeigt zeitlichen Abstand (das spätere Sterben).\n   — ثُمَّ يُحْيِيكُمْ: ثُمَّ — weiterer zeitlicher Abstand (Wiedererweckung).\n   — ثُمَّ إِلَيْهِ تُرْجَعُونَ: ثُمَّ — finale Phase (Rückkehr).\n\n4. إِلَيْهِ تُرْجَعُونَ — Voranstellung des Präpositionalausdrucks إِلَيْهِ vor das Verb betont das Ziel: 'zu IHM werdet ihr zurückgebracht'. تُرْجَعُونَ ist Passiv (Muḍāriʿ majhūl).",
+          "arabicExamples": [
+            {
+              "arabic": "كَيْفَ تَكْفُرُونَ بِاللَّهِ وَكُنتُمْ أَمْوَاتًا فَأَحْيَاكُمْ",
+              "transliteration": "kayfa takfurūna bi-llāhi wa-kuntum amwātan fa-aḥyākum",
+              "meaning": "Wie könnt ihr Gott gegenüber undankbar sein, wo ihr doch tot wart und Er euch lebendig machte?"
+            },
+            {
+              "arabic": "ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+              "transliteration": "thumma yumītukum thumma yuḥyīkum thumma ilayhi turjaʿūna",
+              "meaning": "Dann lässt Er euch sterben, dann macht Er euch lebendig, dann werdet ihr zu Ihm zurückgebracht"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:29 — Die Schöpfungsnarration",
+          "content": "هُوَ الَّذِي خَلَقَ لَكُم مَّا فِي الْأَرْضِ جَمِيعًا ثُمَّ اسْتَوَىٰ إِلَى السَّمَاءِ فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ  وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ\n\n1. هُوَ الَّذِي — Nominalsatz: هُوَ ist Mubtadaʼ, الَّذِي (+ Relativsatz) ist Khabar. Struktur der Hervorhebung: 'ER ist derjenige, der...'\n\n2. خَلَقَ لَكُم مَّا فِي الْأَرْضِ جَمِيعًا — خَلَقَ: Perfekt, 3.Sg.m. (verborgenes Pronomen هُوَ als Fāʿil). لَكُمْ: Jarr wa-majrūr (Präp. لِ + Pronominalsuffix 2.m.pl.), funktional ein Nutznießer-Ausdruck. مَا فِي الْأَرْضِ: مَا mawṣūla + Präpositionalausdruck als Ṣila → Mafʿūl bihi. جَمِيعًا: Tawkīd (Bekräftigung) im Akkusativ oder Ḥāl.\n\n3. ثُمَّ اسْتَوَىٰ إِلَى السَّمَاءِ — ثُمَّ markiert eine neue Phase. اسْتَوَى: Form VIII von س-و-ي. إِلَى السَّمَاءِ: Richtungsangabe (Genitiv nach Präposition).\n\n4. فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ — فَ zeigt unmittelbare Folge. سَوَّاهُنَّ: Form II + Pronominalsuffix هُنَّ (3.Pl.f., Mafʿūl bihi). سَبْعَ سَمَاوَاتٍ: Ḥāl oder Badal, Akkusativ. سَبْعَ ist Muḍāf, سَمَاوَاتٍ ist Muḍāf ilayhi (Genitiv).\n\n5. وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ — Abschließender Nominalsatz: هُوَ = Mubtadaʼ. عَلِيمٌ = Khabar (Nominativ). بِكُلِّ شَيْءٍ = Jarr wa-majrūr, verbunden mit عَلِيمٌ (bezüglich jeder Sache wissend). كُلِّ شَيْءٍ ist Iḍāfa.",
+          "arabicExamples": [
+            {
+              "arabic": "هُوَ الَّذِي خَلَقَ لَكُم مَّا فِي الْأَرْضِ جَمِيعًا",
+              "transliteration": "huwa lladhī khalaqa lakum mā fī l-arḍi jamīʿan",
+              "meaning": "Er ist es, der für euch erschuf, was auf der Erde ist, allesamt"
+            },
+            {
+              "arabic": "فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ",
+              "transliteration": "fa-sawwāhunna sabʿa samāwātin",
+              "meaning": "Und Er gestaltete sie zu sieben Himmeln"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Iʿrāb-Analyse: Schlüsselverse",
+          "examples": [
+            {
+              "location": "2:26",
+              "word": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا",
+              "analysis": "إِنَّ: Ḥarf nasakh (Partikel, die den Nominalsatz verändert). اللَّهَ: Ism von إِنَّ, Akkusativ (Fatḥa). لَا يَسْتَحْيِي: Khabar von إِنَّ — negierter Verbalsatz. أَن: Ḥarf maṣdarī naṣbī. يَضْرِبَ: Muḍāriʿ manṣūb (Subjunktiv, Fatḥa). مَثَلًا: Mafʿūl bihi, Akkusativ mit Tanwīn. مَا: Partikel der Vagheit (إِبْهَام), nicht flektiert. بَعُوضَةً: Badal von مَثَلًا, Akkusativ mit Tanwīn. فَوْقَهَا: Ẓarf makān (Adverb des Ortes), manṣūb, + Pronominalsuffix.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+            },
+            {
+              "location": "2:28",
+              "word": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ",
+              "analysis": "كَيْفَ: Ism istifhām (Fragepartikel), nicht flektiert, in der Position eines Ḥāl. تَكْفُرُونَ: Muḍāriʿ marfūʿ, 2.Pl.m., Rafʿ-Zeichen: ثبوت النون. بِاللَّهِ: Jarr wa-majrūr. وَ: Wāw al-ḥāl (Zustandswāw). كُنتُمْ: Verb nāqiṣ (defektiv) + Ism von kāna (Pronomen تُمْ). أَمْوَاتًا: Khabar von كَانَ, Akkusativ mit Tanwīn. فَأَحْيَاكُمْ: فَ der unmittelbaren Folge + Perfekt + Pronominalsuffix كُمْ als Mafʿūl bihi.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+            },
+            {
+              "location": "2:29",
+              "word": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا",
+              "analysis": "هُوَ: Ḍamīr munfaṣil (getrenntes Pronomen), Mubtadaʼ, Nominativ. الَّذِي: Ism mawṣūl, Khabar des Mubtadaʼ. خَلَقَ: Perfekt, 3.Sg.m., Ṣila (Relativsatz). لَكُمْ: Jarr wa-majrūr (Präp. لِ + Pronomen). مَا: Ism mawṣūl, Mafʿūl bihi von خَلَقَ. فِي الْأَرْضِ: Jarr wa-majrūr als Ṣila von مَا. جَمِيعًا: Tawkīd maʿnawī (Bekräftigung), Akkusativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=29"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In 2:26 — warum steht يَضْرِبَ im Subjunktiv (manṣūb)?",
+          "options": [
+            "Weil es nach لَا steht",
+            "Weil es nach أَنْ المَصْدَرِيَّة steht, die den Subjunktiv regiert",
+            "Weil es ein Imperativ ist",
+            "Weil es nach إِنَّ steht"
+          ],
+          "answer": "Weil es nach أَنْ المَصْدَرِيَّة steht, die den Subjunktiv regiert",
+          "explanation": "أَنْ المَصْدَرِيَّة (die Maṣdar-أَنْ) gehört zu den نَوَاصِب — Partikeln, die den Muḍāriʿ in den Subjunktiv (Naṣb) setzen. Erkennbar an der Fatḥa-Endung: يَضْرِبَ statt يَضْرِبُ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme die syntaktische Funktion von بَعُوضَةً in 2:26: إِنَّ اللَّهَ لَا يَسْتَحْيِي أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً",
+          "word": "بَعُوضَةً",
+          "answer": "Badal (Apposition/Ersetzung) zu مَثَلًا, daher ebenfalls im Akkusativ",
+          "hint": "بَعُوضَةً spezifiziert مَثَلًا — es ersetzt das Vage durch das Konkrete. Welche syntaktische Beziehung hat ein solches Wort zu seinem Bezugswort?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Sequenzmarker in 2:28: وَكُنتُمْ أَمْوَاتًا فَأَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ — Welche Funktion haben فَ und ثُمَّ hier?",
+          "word": "فَأَحْيَاكُمْ ... ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ",
+          "answer": "فَ zeigt die unmittelbare Folge: Auf das Totsein folgte direkt das Lebendigmachen. ثُمَّ markiert jeweils einen größeren zeitlichen Abstand: Das Sterben kommt später, die Wiedererweckung noch später. Die Sequenz bildet den gesamten Lebenszyklus ab.",
+          "hint": "Vergleiche فَ (sofortige Folge) mit ثُمَّ (verzögerte Folge). Warum steht beim ersten Übergang فَ, bei den folgenden ثُمَّ?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Welche Funktion hat وَ in وَكُنتُمْ أَمْوَاتًا (2:28)?",
+          "options": [
+            "Additive Konjunktion (und)",
+            "Schwur-وَ (bei...!)",
+            "Wāw al-ḥāl (Zustandswāw: 'während/wo doch')",
+            "Wāw al-istiʾnāf (neuer Satzanfang)"
+          ],
+          "answer": "Wāw al-ḥāl (Zustandswāw: 'während/wo doch')",
+          "explanation": "Die وَ leitet hier einen Ḥālsatz (Zustandssatz) ein: 'Wie könnt ihr undankbar sein, WO DOCH ihr tot wart und Er euch lebendig machte?' Der Zustandssatz liefert den Hintergrund für die rhetorische Frage.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=28"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §136-142, §180-185",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "3.5",
+      "4.1"
+    ]
+  },
+  {
+    "id": "S2.6",
+    "title": "Die Adam-Erzählung I: Stellvertreter, Wissen und Befehl (2:30–34)",
+    "description": "Syntaktische Analyse der Verse 2:30–34: إِنِّي جَاعِلٌ als إِنَّ + Partizip-Khabar mit Objekt, doppelter Akkusativ bei عَلَّمَ, die Istithnaʾ-Konstruktion إِلَّا إِبْلِيسَ, und Imperativformen.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 2:30 — إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
+          "content": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً\n\n1. وَإِذْ — وَ ist hier istiʾnāfiyya (Neuanfang) oder ʿāṭifa. إِذْ ist Ẓarf zamān (Zeitadverb): 'als'. Der gesamte folgende Satz ist Muḍāf ilayhi von إِذْ.\n\n2. قَالَ رَبُّكَ لِلْمَلَائِكَةِ — Verbalsatz: قَالَ (Perfekt) + رَبُّكَ (Fāʿil, Nominativ; Iḍāfa mit Pronominalsuffix كَ). لِلْمَلَائِكَةِ: Jarr wa-majrūr (Adressat).\n\n3. إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً — Dies ist die Maqūla (wörtliche Rede). إِنَّ + ي (Ism von إِنَّ = Yāʾ al-mutakallim, 1.Sg.-Pronomen, Akkusativ). جَاعِلٌ ist Khabar von إِنَّ (Nominativ). جَاعِلٌ ist Ism fāʿil (Partizip Aktiv) von جَعَلَ — es behält die Rektion des Verbs und regiert ein Objekt: خَلِيفَةً (Akkusativ, Mafʿūl bihi des Partizips). فِي الْأَرْضِ ist Jarr wa-majrūr, eingeschoben zwischen Partizip und Objekt.\n\nDiese Struktur zeigt: إِنَّ + Ism (Pronomen) + Khabar (Partizip, das wie ein Verb ein Objekt regiert). Das Partizip جَاعِلٌ zeigt hier Zukunftsbezug: 'Ich bin dabei zu machen / werde machen'.",
+          "arabicExamples": [
+            {
+              "arabic": "إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
+              "transliteration": "innī jāʿilun fī l-arḍi khalīfatan",
+              "meaning": "Ich bin dabei, auf der Erde einen Nachfolger/Stellvertreter einzusetzen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:30 — Fortsetzung: Die Frage der Engel",
+          "content": "قَالُوا أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ  قَالَ إِنِّي أَعْلَمُ مَا لَا تَعْلَمُونَ\n\n1. أَتَجْعَلُ — Hamzat al-istifhām (أ) + Muḍāriʿ: Interrogativsatz. مَن ist Ism mawṣūl (wer/derjenige der), Mafʿūl bihi von تَجْعَلُ.\n\n2. يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ — Ṣila (Relativsatz) zu مَن: zwei koordinierte Verbalsätze. الدِّمَاءَ ist Mafʿūl bihi von يَسْفِكُ (Akkusativ).\n\n3. وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ — Ḥālsatz (Zustandssatz) mit Wāw al-ḥāl: 'während wir doch lobpreisen'. نَحْنُ ist Mubtadaʼ (Pronomen, Nominativ), نُسَبِّحُ ist Khabar (Verbalsatz). بِحَمْدِكَ: Jarr wa-majrūr (Iḍāfa: حَمْد + Pronominalsuffix كَ).\n\n4. إِنِّي أَعْلَمُ مَا لَا تَعْلَمُونَ — Gottes Antwort: إِنَّ + ي (Ism) + أَعْلَمُ (Khabar, Verbalsatz). مَا ist Ism mawṣūl, Mafʿūl bihi von أَعْلَمُ. لَا تَعْلَمُونَ: Ṣila (negierter Verbalsatz).",
+          "arabicExamples": [
+            {
+              "arabic": "أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا",
+              "transliteration": "a-tajʿalu fīhā man yufsidu fīhā",
+              "meaning": "Setzt du darauf jemanden, der darauf Unheil stiftet?"
+            },
+            {
+              "arabic": "وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ",
+              "transliteration": "wa-naḥnu nusabbiḥu bi-ḥamdika wa-nuqaddisu laka",
+              "meaning": "Während wir doch mit deinem Lob preisen und dich heiligen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:31 — Doppelter Akkusativ bei عَلَّمَ",
+          "content": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلَائِكَةِ فَقَالَ أَنبِئُونِي بِأَسْمَاءِ هَٰؤُلَاءِ إِن كُنتُمْ صَادِقِينَ\n\n1. عَلَّمَ آدَمَ الْأَسْمَاءَ — Doppelter Akkusativ: عَلَّمَ (Form II, 'lehren') regiert zwei Objekte. آدَمَ ist das erste Mafʿūl bihi (Akkusativ — diptotisch, daher keine Nunation). الْأَسْمَاءَ ist das zweite Mafʿūl bihi (Akkusativ, Fatḥa). Bedeutung: 'Er lehrte Adam die Namen.'\n\n2. كُلَّهَا — Tawkīd (Bekräftigung) zu الْأَسْمَاءَ, folgt im selben Kasus: Akkusativ. هَا ist Pronominalsuffix (Rückbezug auf الْأَسْمَاء).\n\n3. ثُمَّ عَرَضَهُمْ عَلَى الْمَلَائِكَةِ — ثُمَّ zeigt zeitliche Verzögerung. عَرَضَهُمْ: Perfekt + Pronominalsuffix هُمْ (Mafʿūl bihi). عَلَى الْمَلَائِكَةِ: Jarr wa-majrūr.\n\n4. أَنبِئُونِي بِأَسْمَاءِ هَٰؤُلَاءِ — Imperativ: أَنبِئُوا (Form IV, 2.Pl.m.) + نِي (Pronominalsuffix = Mafʿūl bihi 1). بِأَسْمَاءِ هَٰؤُلَاءِ: Jarr wa-majrūr + Iḍāfa (أَسْمَاء ist Muḍāf, هَٰؤُلَاءِ ist Muḍāf ilayhi).\n\n5. إِن كُنتُمْ صَادِقِينَ — Bedingungssatz mit إِنْ (Konditionalis). كُنتُمْ: Verb der Bedingung. صَادِقِينَ: Khabar von كَانَ, Akkusativ (جَمْع مُذَكَّر سَالِم im Naṣb: يِنَ).",
+          "arabicExamples": [
+            {
+              "arabic": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+              "transliteration": "wa-ʿallama ādama l-asmāʾa kullahā",
+              "meaning": "Und Er lehrte Adam die Namen, alle zusammen"
+            },
+            {
+              "arabic": "أَنبِئُونِي بِأَسْمَاءِ هَٰؤُلَاءِ إِن كُنتُمْ صَادِقِينَ",
+              "transliteration": "anbiʾūnī bi-asmāʾi hāʾulāʾi in kuntum ṣādiqīna",
+              "meaning": "Teilt mir die Namen dieser mit, wenn ihr wahrhaftig seid"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:32–33 — Antwort der Engel und Wissen Adams",
+          "content": "قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَا إِلَّا مَا عَلَّمْتَنَا  إِنَّكَ أَنتَ الْعَلِيمُ الْحَكِيمُ\n\n1. سُبْحَانَكَ — Mafʿūl muṭlaq (absoluter Akkusativ): Das Nomen steht anstelle des nicht genannten Verbs (نُسَبِّحُكَ سُبْحَانَكَ). Es ist Akkusativ (nie mit Tanwīn, da immer in Iḍāfa mit Pronominalsuffix).\n\n2. لَا عِلْمَ لَنَا — لَا النَّافِيَة لِلْجِنْس (generische Negation): عِلْمَ ist Ism von لَا, fest im Akkusativ (ohne Tanwīn: مَبْنِيّ عَلَى الْفَتْحِ). لَنَا ist Khabar von لَا.\n\n3. إِلَّا مَا عَلَّمْتَنَا — Istithnaʾ (Ausnahme): إِلَّا + مَا mawṣūla. Nach negiertem Kontext ist dies Istithnaʾ mufarragh (die Ausnahme bestimmt den Iʿrāb nach der Funktion im Satz, hier: Badal von عِلْم).\n\n4. إِنَّكَ أَنتَ الْعَلِيمُ الْحَكِيمُ — إِنَّ + كَ (Ism, Akkusativ). أَنتَ: Ḍamīr faṣl (Trennungspronomen) — es hat keine eigene Iʿrāb-Funktion, sondern trennt Mubtadaʼ und Khabar bzw. bestätigt. الْعَلِيمُ الْحَكِيمُ: Khabar von إِنَّ (Nominativ).\n\nVers 2:33: قَالَ يَا آدَمُ أَنبِئْهُم بِأَسْمَائِهِمْ — يَا آدَمُ: Nidāʾ (Anruf) mit يَا. آدَمُ ist Munādā ʿalam mufrad (Eigenname, Einzelwort), daher مَبْنِيّ عَلَى الضَّمِّ (auf Ḍamma festgesetzt). أَنبِئْهُم: Imperativ, 2.Sg.m. + Pronominalsuffix.",
+          "arabicExamples": [
+            {
+              "arabic": "لَا عِلْمَ لَنَا إِلَّا مَا عَلَّمْتَنَا",
+              "transliteration": "lā ʿilma lanā illā mā ʿallamtanā",
+              "meaning": "Kein Wissen haben wir außer dem, was Du uns gelehrt hast"
+            },
+            {
+              "arabic": "إِنَّكَ أَنتَ الْعَلِيمُ الْحَكِيمُ",
+              "transliteration": "innaka anta l-ʿalīmu l-ḥakīmu",
+              "meaning": "Du bist ja der Allwissende, der Allweise"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:34 — Niederwerfungsbefehl und Istithnaʾ",
+          "content": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَىٰ وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ\n\n1. اسْجُدُوا لِآدَمَ — Imperativ, 2.Pl.m. von سَجَدَ. لِآدَمَ: Jarr wa-majrūr (Präp. لِ + آدَمَ im Genitiv — Fatha statt Kasra wegen Diptosie). آدَمَ ist diptotisch (ممنوع من الصرف — Eigenname fremdsprachigen Ursprungs), daher Fatḥa statt Kasra im Genitiv.\n\n2. فَسَجَدُوا — فَ der unmittelbaren Folge: Die Engel gehorchten sofort.\n\n3. إِلَّا إِبْلِيسَ — Istithnaʾ-Konstruktion: إِلَّا ist Ausnahmepartikel. إِبْلِيسَ steht im Akkusativ (Naṣb) — das ist die Regel bei Istithnaʾ aus einem positiven Satz (مُسْتَثْنَى مِنْهُ مُثْبَت تَامّ). إِبْلِيسَ ist zudem diptotisch (ممنوع من الصرف — Fremdwort), daher Fatḥa statt Kasra im Genitiv, aber hier steht es korrekt im Akkusativ mit Fatḥa.\n\n4. أَبَىٰ وَاسْتَكْبَرَ — Zwei koordinierte Perfektverben: 'er weigerte sich und war hochmütig'. Dies sind istʾnāfiyya (erklärende Fortführung), nicht Teil der Istithnaʾ-Konstruktion.\n\n5. وَكَانَ مِنَ الْكَافِرِينَ — كَانَ-Satz: Ism von كَانَ ist das verborgene Pronomen هُوَ. مِنَ الْكَافِرِينَ ist Khabar von كَانَ (Jarr wa-majrūr). الْكَافِرِينَ: جَمْع مُذَكَّر سَالِم im Genitiv (يِنَ).",
+          "arabicExamples": [
+            {
+              "arabic": "اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ",
+              "transliteration": "usjudū li-ādama fa-sajadū illā iblīsa",
+              "meaning": "Werft euch vor Adam nieder! Da warfen sie sich nieder, außer Iblīs"
+            },
+            {
+              "arabic": "أَبَىٰ وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ",
+              "transliteration": "abā wa-stakbara wa-kāna mina l-kāfirīna",
+              "meaning": "Er weigerte sich und war hochmütig und gehörte zu den Undankbaren"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Iʿrāb-Analyse: Schlüsselverse",
+          "examples": [
+            {
+              "location": "2:30",
+              "word": "إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً",
+              "analysis": "إِنَّ: Ḥarf nasakh. ي: Ism von إِنَّ (Yāʾ al-mutakallim), mabni, in der Position des Akkusativs. جَاعِلٌ: Khabar von إِنَّ, Nominativ (Ḍamma + Tanwīn). Zugleich Ism fāʿil (Partizip Aktiv) von جَعَلَ, regiert ein Objekt. فِي الْأَرْضِ: Jarr wa-majrūr, متعلق بـ جَاعِلٌ. خَلِيفَةً: Mafʿūl bihi des Partizips جَاعِلٌ, Akkusativ (Fatḥa + Tanwīn).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+            },
+            {
+              "location": "2:31",
+              "word": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا",
+              "analysis": "عَلَّمَ: Perfekt, Form II (فَعَّلَ), 3.Sg.m. Fāʿil: verborgenes Pronomen هُوَ. آدَمَ: Mafʿūl bihi 1. (erster Akkusativ), diptotisch (Fatḥa statt Tanwīn). الْأَسْمَاءَ: Mafʿūl bihi 2. (zweiter Akkusativ, Fatḥa). كُلَّهَا: Tawkīd (Bekräftigung) zu الْأَسْمَاء, Akkusativ. هَا: Pronominalsuffix, Rückbezug.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+            },
+            {
+              "location": "2:34",
+              "word": "فَسَجَدُوٓا إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ",
+              "analysis": "فَ: Ḥarf ʿaṭf, unmittelbare Folge. سَجَدُوا: Perfekt, 3.Pl.m. إِلَّا: Ḥarf istithnaʾ (Ausnahmepartikel). إِبْلِيسَ: Mustathna (Ausgenommenes), Akkusativ — positiver vollständiger Satz, daher zwingend Naṣb. Diptotisch (ممنوع من الصرف). أَبَىٰ: Perfekt, 3.Sg.m. — istʾnāfiyya (erklärende Fortführung). وَاسْتَكْبَرَ: Form X, Perfekt, koordiniert durch وَ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum regiert das Partizip جَاعِلٌ in 2:30 den Akkusativ auf خَلِيفَةً?",
+          "options": [
+            "Weil خَلِيفَةً Ism von إِنَّ ist",
+            "Weil جَاعِلٌ als Ism fāʿil (Partizip Aktiv) die Verbrektion beibehält und ein Objekt regieren kann",
+            "Weil خَلِيفَةً ein Adverb ist",
+            "Weil فِي den Akkusativ regiert"
+          ],
+          "answer": "Weil جَاعِلٌ als Ism fāʿil (Partizip Aktiv) die Verbrektion beibehält und ein Objekt regieren kann",
+          "explanation": "Das Partizip Aktiv (Ism fāʿil) kann unter bestimmten Bedingungen wie sein zugrunde liegendes Verb ein Objekt im Akkusativ regieren. جَاعِلٌ kommt von جَعَلَ (setzen/machen) und nimmt خَلِيفَةً als sein Mafʿūl bihi.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "type": "identification",
+          "prompt": "Identifiziere die beiden Akkusativobjekte in 2:31: وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+          "word": "عَلَّمَ آدَمَ الْأَسْمَاءَ",
+          "answer": "Erstes Mafʿūl bihi: آدَمَ (wen lehrte Er?) — Zweites Mafʿūl bihi: الْأَسْمَاءَ (was lehrte Er ihn?). Beide im Akkusativ.",
+          "hint": "Verben des Lehrens, Gebens und Informierens regieren im Arabischen zwei Akkusativobjekte. Welches Wort beantwortet 'wen?' und welches 'was?'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Erkläre den Kasus von إِبْلِيسَ in 2:34: فَسَجَدُوا إِلَّا إِبْلِيسَ — Warum Akkusativ?",
+          "word": "إِلَّا إِبْلِيسَ",
+          "answer": "إِبْلِيسَ steht im Akkusativ (Naṣb) als Mustathna (Ausgenommenes). Bei einem positiven, vollständigen Satz (مُسْتَثْنَى تَامّ مُثْبَت) — d.h. das Mustathna minhu (die Engel) ist genannt und der Satz ist nicht negiert — muss das Mustathna zwingend im Akkusativ stehen. Zudem ist إِبْلِيس diptotisch (ممنوع من الصرف als Fremdname), sodass auch im Genitiv Fatḥa stehen würde — doch hier liegt tatsächlich Akkusativ vor.",
+          "hint": "Was bestimmt den Kasus nach إِلَّا? Ist der Satz positiv oder negativ? Ist das Mustathna minhu (woraus die Ausnahme gemacht wird) genannt?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In 2:32 — welche Funktion hat أَنتَ in إِنَّكَ أَنتَ الْعَلِيمُ الْحَكِيمُ?",
+          "options": [
+            "Mubtadaʼ (Subjekt eines neuen Satzes)",
+            "Ism von إِنَّ (Akkusativ)",
+            "Ḍamīr faṣl (Trennungspronomen ohne eigene Iʿrāb-Funktion)",
+            "Badal zu كَ (Apposition)"
+          ],
+          "answer": "Ḍamīr faṣl (Trennungspronomen ohne eigene Iʿrāb-Funktion)",
+          "explanation": "أَنتَ ist hier ضَمِير الفَصْل — es trennt und bestätigt, hat aber keine eigene syntaktische Position. Das Ism von إِنَّ ist كَ, und das Khabar ist الْعَلِيمُ الْحَكِيمُ. Das Trennungspronomen dient der Betonung und verhindert, dass الْعَلِيمُ als Attribut (Naʿt) statt als Khabar (Prädikat) gelesen wird.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=32"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §116-120, §180",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.1",
+      "3.5",
+      "4.1"
+    ]
+  },
+  {
+    "id": "S2.7",
+    "title": "Die Adam-Erzählung II: Garten, Fall und Abstieg (2:35–39)",
+    "description": "Syntaktische Analyse der Verse 2:35–39: Imperativ + betontes Pronomen + Maʿṭūf (اسْكُنْ أَنتَ وَزَوْجُكَ), Prohibitiv (لَا تَقْرَبَا), Plural-Imperativ (اهْبِطُوا), Bedingungssätze mit إِمَّا und فَإِمَّا.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 2:35 — Imperativ mit betontem Pronomen",
+          "content": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ\n\n1. يَا آدَمُ — Nidāʾ (Anruf): يَا ist Ḥarf nidāʾ. آدَمُ ist Munādā ʿalam mufrad (Eigenname, Einzelwort), daher مَبْنِيّ عَلَى الضَّمِّ (auf Ḍamma festgesetzt, nicht flektiert).\n\n2. اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ — اسْكُنْ ist Imperativ, 2.Sg.m. von سَكَنَ. أَنتَ ist Tawkīd (Bekräftigung) des verborgenen Fāʿil im Imperativ — das betonte Pronomen macht das Subjekt explizit. وَزَوْجُكَ ist Maʿṭūf (durch وَ koordiniert) auf das Fāʿil: زَوْجُ steht im Nominativ (Ḍamma), da es als Mitsubjekt dem Kasus des Fāʿil folgt. كَ ist Muḍāf ilayhi (Pronominalsuffix). الْجَنَّةَ ist Mafʿūl bihi (Akkusativ) — das Verb سَكَنَ kann hier transitiv verwendet werden: 'bewohne den Garten'.\n\n3. وَكُلَا مِنْهَا رَغَدًا — كُلَا: Imperativ Dual (2.Du.) von أَكَلَ. Die Dualform zeigt: Adam und seine Partnerin werden gemeinsam angesprochen. مِنْهَا: Jarr wa-majrūr. رَغَدًا: Ḥāl (Zustandsakkusativ) oder Mafʿūl muṭlaq (naʿt eines ausgelassenen Maṣdars): 'in Fülle'.\n\n4. حَيْثُ شِئْتُمَا — حَيْثُ ist Ẓarf makān (Ortsadverb), مَبْنِيّ (nicht flektiert). شِئْتُمَا: Perfekt, 2.Du. — der Satz ist Muḍāf ilayhi von حَيْثُ.",
+          "arabicExamples": [
+            {
+              "arabic": "اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ",
+              "transliteration": "uskun anta wa-zawjuka l-jannata",
+              "meaning": "Bewohne, du und deine Partnerin, den Garten"
+            },
+            {
+              "arabic": "وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا",
+              "transliteration": "wa-kulā minhā raghadan ḥaythu shiʾtumā",
+              "meaning": "Und esst davon in Fülle, wo immer ihr wollt"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:35 — Prohibitiv und Konsequenz",
+          "content": "وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ\n\n1. لَا تَقْرَبَا — Prohibitiv (Verbot): لَا النَّاهِيَة + Muḍāriʿ majzūm (Jussiv). Das Jussiv-Zeichen beim Dual ist حَذْف النُّون (Wegfall des Nūn): Die Grundform تَقْرَبَانِ verliert ihr Nūn → تَقْرَبَا.\n\n2. هَٰذِهِ الشَّجَرَةَ — هَٰذِهِ ist Demonstrativpronomen (Ism ishāra). الشَّجَرَةَ ist Mafʿūl bihi von تَقْرَبَا, Akkusativ (Fatḥa). Syntaktisch kann الشَّجَرَةَ auch als Badal oder ʿAṭf bayān zu هَٰذِهِ analysiert werden.\n\n3. فَتَكُونَا مِنَ الظَّالِمِينَ — Hier liegt فَاء السَّبَبِيَّة (kausale Fāʾ) vor. Nach einem Verbot (Prohibitiv) löst فَ + Muḍāriʿ den Subjunktiv (Naṣb) aus. تَكُونَا: Subjunktiv Dual — das Naṣb-Zeichen ist ebenfalls حَذْف النُّون. مِنَ الظَّالِمِينَ: Khabar von كَانَ (Jarr wa-majrūr).",
+          "arabicExamples": [
+            {
+              "arabic": "وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ",
+              "transliteration": "wa-lā taqrabā hādhihi sh-shajarata fa-takūnā mina ẓ-ẓālimīna",
+              "meaning": "Und nähert euch nicht diesem Baum, sonst gehört ihr zu den Ungerechten"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:36 — Der Fall",
+          "content": "فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ  وَقُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ  وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ\n\n1. فَأَزَلَّهُمَا الشَّيْطَانُ — فَ der Folge. أَزَلَّ: Form IV von ز-ل-ل (zum Ausgleiten bringen). هُمَا: Pronominalsuffix Dual (Mafʿūl bihi). الشَّيْطَانُ: Fāʿil (Nominativ, nachgestellt).\n\n2. اهْبِطُوا — Imperativ, 2.Pl.m. von هَبَطَ. Der Wechsel vom Dual (Adam + Partnerin) zum Plural ist syntaktisch bedeutsam: Mehr als zwei Personen werden angesprochen.\n\n3. بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ — Nominalsatz: بَعْضُكُمْ ist Mubtadaʼ (Nominativ + Iḍāfa mit Pronominalsuffix). عَدُوٌّ ist Khabar (Nominativ). لِبَعْضٍ: Jarr wa-majrūr, متعلق بـ عَدُوّ. Bedeutung: 'Einige von euch sind Feinde füreinander.'\n\n4. وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ — Nominalsatz mit vorangestelltem Khabar: لَكُمْ (Khabar, vorangestellt) + فِي الْأَرْضِ (Ẓarf/Jarr wa-majrūr) + مُسْتَقَرٌّ (Mubtadaʼ, Nominativ, nachgestellt). وَمَتَاعٌ: Maʿṭūf auf مُسْتَقَرّ. إِلَىٰ حِينٍ: Jarr wa-majrūr (zeitliche Begrenzung).",
+          "arabicExamples": [
+            {
+              "arabic": "اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ",
+              "transliteration": "ihbiṭū baʿḍukum li-baʿḍin ʿaduwwun",
+              "meaning": "Steigt hinab! Einige von euch sind Feinde füreinander"
+            },
+            {
+              "arabic": "وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ",
+              "transliteration": "wa-lakum fī l-arḍi mustaqarrun wa-matāʿun ilā ḥīnin",
+              "meaning": "Und für euch gibt es auf der Erde eine Bleibe und Versorgung bis zu einer Zeit"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:37–38 — Empfang der Worte und bedingter Abstieg",
+          "content": "فَتَلَقَّىٰ آدَمُ مِن رَّبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ  إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ · قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا  فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ\n\n1. فَتَلَقَّىٰ آدَمُ مِن رَّبِّهِ كَلِمَاتٍ — فَ der Folge. تَلَقَّى: Form V von ل-ق-ي (empfangen). آدَمُ: Fāʿil (Nominativ). كَلِمَاتٍ: Mafʿūl bihi — beachte: كَلِمَاتٍ ist جَمْع مُؤَنَّث سَالِم (gesunder femininer Plural), zeigt Kasra sowohl im Akkusativ als auch im Genitiv. Hier: Akkusativ.\n\n2. فَإِمَّا يَأْتِيَنَّكُم — فَ + إِنْ (Bedingungspartikel) + مَا (verstärkende Partikel, زَائِدَة). يَأْتِيَنَّكُم: Muḍāriʿ + Nūn at-tawkīd ath-thaqīla (schweres Bestätigungsnūn, ـَنَّ). Das Verb steht im Jussiv (مَجْزُوم) als Bedingungsverb von إِنْ, aber das Nūn at-tawkīd verdeckt die Jussiv-Form.\n\n3. فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ — Verschachtelter Bedingungssatz: فَ + مَنْ (Bedingungspronomen, 'wer auch immer') + تَبِعَ (Perfekt als Bedingungsverb) + هُدَايَ (Mafʿūl bihi + Pronominalsuffix ي, Iḍāfa). فَ leitet den Nachsatz ein. لَا خَوْفٌ عَلَيْهِمْ: لَا hier ist لَا النَّافِيَة لِلْجِنْس mit مُهْمَلَة-Wirkung (da خَوْفٌ Tanwīn trägt, ist لَا nicht als generische Negation aufgebaut, sondern als einfache Negation mit Mubtadaʼ خَوْفٌ + Khabar عَلَيْهِمْ).\n\n4. وَلَا هُمْ يَحْزَنُونَ — Koordinierter Nominalsatz: هُمْ (Mubtadaʼ) + يَحْزَنُونَ (Khabar, Verbalsatz). لَا negiert den gesamten Satz.",
+          "arabicExamples": [
+            {
+              "arabic": "فَتَلَقَّىٰ آدَمُ مِن رَّبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ",
+              "transliteration": "fa-talaqqā ādamu min rabbihi kalimātin fa-tāba ʿalayhi",
+              "meaning": "Da empfing Adam von seinem Herrn Worte, und Er wandte sich ihm zu"
+            },
+            {
+              "arabic": "فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ",
+              "transliteration": "fa-immā yaʾtiyannakum minnī hudan fa-man tabiʿa hudāya fa-lā khawfun ʿalayhim",
+              "meaning": "Wenn euch von mir Rechtleitung kommt — wer dann meiner Leitung folgt, über die gibt es keine Furcht"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:39 — Drohung an die Ablehnenden",
+          "content": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ النَّارِ  هُمْ فِيهَا خَالِدُونَ\n\n1. وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا — Relativsatz als Mubtadaʼ: الَّذِينَ ist Ism mawṣūl. كَفَرُوا وَكَذَّبُوا: zwei koordinierte Perfektverben als Ṣila. بِآيَاتِنَا: Jarr wa-majrūr + Iḍāfa mit Pronominalsuffix.\n\n2. أُولَٰئِكَ أَصْحَابُ النَّارِ — Nominalsatz als Khabar des äußeren Mubtadaʼ الَّذِينَ. أُولَٰئِكَ: Demonstrativpronomen (fernes Zeigen), Mubtadaʼ des inneren Nominalsatzes. أَصْحَابُ النَّارِ: Khabar (Nominativ) + Iḍāfa.\n\n3. هُمْ فِيهَا خَالِدُونَ — Zweiter Nominalsatz: هُمْ (Mubtadaʼ) + خَالِدُونَ (Khabar, Nominativ, جَمْع مُذَكَّر سَالِم). فِيهَا: Jarr wa-majrūr, متعلق بـ خَالِدُون. Dieser Satz kann als zweites Khabar oder als Ḥāl analysiert werden.",
+          "arabicExamples": [
+            {
+              "arabic": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ النَّارِ",
+              "transliteration": "wa-lladhīna kafarū wa-kadhdhabū bi-āyātinā ulāʾika aṣḥābu n-nāri",
+              "meaning": "Und diejenigen, die undankbar waren und unsere Zeichen für Lüge erklärten — jene sind die Gefährten des Feuers"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Iʿrāb-Analyse: Schlüsselverse",
+          "examples": [
+            {
+              "location": "2:35",
+              "word": "ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ",
+              "analysis": "اسْكُنْ: Fiʿl amr (Imperativ), 2.Sg.m., مَبْنِيّ عَلَى السُّكُون. Fāʿil: verborgenes Pronomen أَنتَ. أَنتَ (explizit): Tawkīd (Bekräftigung) des Fāʿil, Nominativ. وَ: Ḥarf ʿaṭf. زَوْجُكَ: Maʿṭūf auf das Fāʿil, daher Nominativ (Ḍamma). كَ: Muḍāf ilayhi. الْجَنَّةَ: Mafʿūl bihi, Akkusativ (Fatḥa).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+            },
+            {
+              "location": "2:35",
+              "word": "وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
+              "analysis": "لَا: Ḥarf nahy (Verbots-لَا). تَقْرَبَا: Muḍāriʿ majzūm (Jussiv), 2.Du., Jussiv-Zeichen: حَذْف النُّون (Wegfall des ن von تَقْرَبَانِ). هَٰذِهِ: Ism ishāra (Demonstrativpronomen), mabni. الشَّجَرَةَ: Mafʿūl bihi, Akkusativ. فَ: فَاء السَّبَبِيَّة (kausale Fāʾ). تَكُونَا: Muḍāriʿ manṣūb (Subjunktiv), Dual, Naṣb-Zeichen: حَذْف النُّون. مِنَ الظَّالِمِينَ: Khabar von كَانَ, Jarr wa-majrūr.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+            },
+            {
+              "location": "2:38",
+              "word": "فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى",
+              "analysis": "فَ: Istiʾnāfiyya oder ʿĀṭifa. إِنْ: Ḥarf sharṭ (Bedingungspartikel). مَا: Ḥarf zāʾid (verstärkende Partikel). يَأْتِيَنَّ: Muḍāriʿ, Bedingungsverb, مَبْنِيّ عَلَى الْفَتْحِ (wegen Nūn at-tawkīd). كُمْ: Mafʿūl bihi (Pronominalsuffix). مِنِّي: Jarr wa-majrūr. هُدًى: Fāʿil, Nominativ — das Alif maqṣūra verdeckt die Kasusendung. Tanwīn zeigt Unbestimmtheit.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht زَوْجُكَ in 2:35 im Nominativ, obwohl اسْكُنْ ein Imperativ ist?",
+          "options": [
+            "Weil es Mafʿūl bihi (Objekt) ist",
+            "Weil es Muḍāf ilayhi ist",
+            "Weil es durch وَ auf das Fāʿil (Subjekt) des Imperativs koordiniert ist (Maʿṭūf ʿala l-fāʿil)",
+            "Weil es nach einem Demonstrativpronomen steht"
+          ],
+          "answer": "Weil es durch وَ auf das Fāʿil (Subjekt) des Imperativs koordiniert ist (Maʿṭūf ʿala l-fāʿil)",
+          "explanation": "Das Subjekt des Imperativs اسْكُنْ ist das verborgene أَنتَ (du), explizit bestätigt durch das nachgestellte أَنتَ. زَوْجُكَ ist durch وَ koordiniert und folgt dem Kasus des Fāʿil: Nominativ. Dies ist ʿAṭf (Koordination) — das koordinierte Element übernimmt den Kasus des Bezugswortes.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        },
+        {
+          "type": "identification",
+          "prompt": "Welches Jussiv-Zeichen zeigt لَا تَقْرَبَا (2:35)?",
+          "word": "تَقْرَبَا",
+          "answer": "Das Jussiv-Zeichen ist حَذْف النُّون (Wegfall des Nūn): Die Indikativform ist تَقْرَبَانِ, im Jussiv fällt das Nūn weg → تَقْرَبَا.",
+          "hint": "Bei den fünf Sonderformen (الأَفْعَال الخَمْسَة) — Dual und Pluralformen mit Nūn — wird der Jussiv durch Wegfall des Nūn gebildet, nicht durch Sukūn.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere den Wechsel Dual → Plural in 2:35–36: وَكُلَا → اهْبِطُوا. Was bedeutet dieser Numeruswechsel syntaktisch?",
+          "word": "كُلَا ... اهْبِطُوا",
+          "answer": "كُلَا ist Imperativ Dual (2.Du.): Adam und seine Partnerin werden als Paar angesprochen. اهْبِطُوا ist Imperativ Plural (2.Pl.m.): Mehr als zwei Personen werden angesprochen. Der Wechsel vom Dual zum Plural zeigt eine Erweiterung der Adressaten — der Abstiegsbefehl richtet sich an eine Gruppe, nicht nur an das Paar.",
+          "hint": "Vergleiche die Verbendungen: ـَا (Dual) vs. ـُوا (Plural maskulin). An wen richtet sich jeder Befehl?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=36"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Funktion von فَ in فَتَكُونَا مِنَ الظَّالِمِينَ (2:35)?",
+          "options": [
+            "Additive Konjunktion (und)",
+            "Unmittelbare zeitliche Folge",
+            "فَاء السَّبَبِيَّة (kausale Fāʾ), die nach dem Verbot den Subjunktiv auslöst",
+            "Schwur-فَ"
+          ],
+          "answer": "فَاء السَّبَبِيَّة (kausale Fāʾ), die nach dem Verbot den Subjunktiv auslöst",
+          "explanation": "Nach einem Verbot (لَا النَّاهِيَة) löst فَ + Muḍāriʿ den Subjunktiv aus. فَتَكُونَا steht im Naṣb (Subjunktiv), Zeichen: حَذْف النُّون. Die فَاء drückt die Konsequenz aus: 'Nähert euch nicht dem Baum, SONST/DAMIT NICHT ihr zu den Ungerechten gehört.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §15-25, §180-185",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.2",
+      "4.1",
+      "S2.6"
+    ]
+  },
+  {
+    "id": "S2.8",
+    "title": "Anrede an die Kinder Israels I: Mahnung und Bund (2:40–46)",
+    "description": "Syntaktische Analyse der Verse 2:40–46: Nidāʾ mit Muḍāf (يَا بَنِي إِسْرَائِيلَ), Imperativ-Ketten (اذْكُرُوا, أَوْفُوا), Prohibitiv (لَا تَشْتَرُوا, لَا تَلْبِسُوا), Hilfsverb-Konstruktion (اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ).",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 2:40 — Nidāʾ mit Muḍāf",
+          "content": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ وَإِيَّايَ فَارْهَبُونِ\n\n1. يَا بَنِي إِسْرَائِيلَ — Nidāʾ (Anruf): يَا ist Ḥarf nidāʾ. بَنِي ist Munādā muḍāf (Angerufener in Iḍāfa-Konstruktion). Da der Munādā muḍāf ist, steht er im Akkusativ (Naṣb). Das Naṣb-Zeichen bei بَنِينَ (جَمْع مُذَكَّر سَالِم) ist die Yāʾ: بَنِينَ → بَنِي. إِسْرَائِيلَ ist Muḍāf ilayhi, Genitiv — diptotisch (Fremdname), daher Fatḥa statt Kasra.\n\n2. اذْكُرُوا نِعْمَتِيَ — Imperativ, 2.Pl.m. von ذَكَرَ. نِعْمَتِيَ: Mafʿūl bihi (Akkusativ) + Yāʾ al-mutakallim (Pronominalsuffix 1.Sg.). Die Iḍāfa: نِعْمَة + ي.\n\n3. الَّتِي أَنْعَمْتُ عَلَيْكُمْ — Relativsatz: الَّتِي ist Ism mawṣūl (Sg.f.), Naʿt (Attribut) zu نِعْمَة. أَنْعَمْتُ: Form IV, Perfekt, 1.Sg. عَلَيْكُمْ: Jarr wa-majrūr.\n\n4. وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ — أَوْفُوا: Imperativ, 2.Pl.m. von وَفَى (Form IV: أَوْفَى). بِعَهْدِي: Jarr wa-majrūr + Iḍāfa. أُوفِ: Muḍāriʿ majzūm (Jussiv), 1.Sg. — Apodosis (Nachsatz) einer impliziten Bedingung. Das Jussiv-Zeichen ist حَذْف حَرْف الْعِلَّة (Wegfall des schwachen Endkonsonanten): أُوفِي → أُوفِ.\n\n5. وَإِيَّايَ فَارْهَبُونِ — Vorangestelltes Objekt zur Betonung: إِيَّايَ ist Ḍamīr manṣūb munfaṣil (getrenntes Akkusativpronomen, 1.Sg.): 'MICH (allein)'. فَ: Fa al-jazaʿiyya oder resumptive فَ. ارْهَبُونِ: Imperativ + Nūn al-wiqāya + Pronominalsuffix ي (Mafʿūl bihi). Die Voranstellung von إِيَّايَ bewirkt Ḥaṣr (Einschränkung): 'Nur MICH sollt ihr fürchten.'",
+          "arabicExamples": [
+            {
+              "arabic": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ",
+              "transliteration": "yā banī isrāʾīla dhkurū niʿmatiya llatī anʿamtu ʿalaykum",
+              "meaning": "O Kinder Israels, gedenkt meiner Gunst, die ich euch erwiesen habe"
+            },
+            {
+              "arabic": "وَإِيَّايَ فَارْهَبُونِ",
+              "transliteration": "wa-iyyāya fa-rhabūni",
+              "meaning": "Und nur MICH sollt ihr fürchten"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:41–42 — Prohibitive und Warnung",
+          "content": "وَآمِنُوا بِمَا أَنزَلْتُ مُصَدِّقًا لِّمَا مَعَكُمْ وَلَا تَكُونُوا أَوَّلَ كَافِرٍ بِهِ  وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا وَإِيَّايَ فَاتَّقُونِ · وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ وَأَنتُمْ تَعْلَمُونَ\n\n1. مُصَدِّقًا لِّمَا مَعَكُمْ — مُصَدِّقًا ist Ḥāl (Zustandsakkusativ): 'bestätigend'. Ism fāʿil von Form II (صَدَّقَ). لِمَا: Jarr wa-majrūr (لِ + مَا mawṣūla). مَعَكُمْ: Ẓarf makān als Ṣila von مَا.\n\n2. وَلَا تَكُونُوا أَوَّلَ كَافِرٍ بِهِ — لَا النَّاهِيَة + Muḍāriʿ majzūm: تَكُونُوا (Jussiv-Zeichen: حَذْف النُّون). أَوَّلَ: Khabar von كَانَ, Akkusativ. كَافِرٍ: Muḍāf ilayhi, Genitiv.\n\n3. وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا — Prohibitiv: لَا النَّاهِيَة + تَشْتَرُوا (Jussiv, حَذْف النُّون). بِآيَاتِي: Jarr wa-majrūr (Gegenleistung im Tausch). ثَمَنًا: Mafʿūl bihi, Akkusativ. قَلِيلًا: Naʿt (Adjektiv), folgt im Kasus: Akkusativ.\n\n4. وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ — تَلْبِسُوا: Jussiv nach لَا النَّاهِيَة. وَتَكْتُمُوا: Maʿṭūf auf تَلْبِسُوا — ebenfalls Jussiv (gemeinsam unter dem Prohibitiv). Oder: Subjunktiv nach وَاو المَعِيَّة (mit der Bedeutung 'und dabei gleichzeitig').\n\n5. وَأَنتُمْ تَعْلَمُونَ — Ḥālsatz: وَ الحَالِيَّة + Nominalsatz (أَنتُمْ = Mubtadaʼ, تَعْلَمُونَ = Khabar). 'Während ihr wisst.'",
+          "arabicExamples": [
+            {
+              "arabic": "وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا",
+              "transliteration": "wa-lā tashtarū bi-āyātī thamanan qalīlan",
+              "meaning": "Und tauscht nicht meine Zeichen gegen einen geringen Preis ein"
+            },
+            {
+              "arabic": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+              "transliteration": "wa-lā talbisū l-ḥaqqa bi-l-bāṭili wa-taktumū l-ḥaqqa wa-antum taʿlamūna",
+              "meaning": "Und vermischt nicht das Wahre mit dem Nichtigen und verbergt nicht die Wahrheit, während ihr wisst"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:43–44 — Gebet und Widerspruch",
+          "content": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ · أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ وَأَنتُمْ تَتْلُونَ الْكِتَابَ  أَفَلَا تَعْقِلُونَ\n\n1. Imperativ-Kette: أَقِيمُوا + آتُوا + ارْكَعُوا — Drei durch وَ koordinierte Imperative (2.Pl.m.). الصَّلَاةَ und الزَّكَاةَ sind jeweils Mafʿūl bihi (Akkusativ). مَعَ الرَّاكِعِينَ: Ẓarf (مَعَ) + Muḍāf ilayhi (Genitiv, جَمْع مُذَكَّر سَالِم mit يِنَ).\n\n2. أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ — Rhetorische Frage: Hamza al-istifhām + Muḍāriʿ. النَّاسَ: Mafʿūl bihi (Akkusativ). بِالْبِرِّ: Jarr wa-majrūr (Inhalt des Befehlens).\n\n3. وَتَنسَوْنَ أَنفُسَكُمْ — Koordinierter Verbalsatz: تَنسَوْنَ (Muḍāriʿ, 2.Pl.m., von نَسِيَ). أَنفُسَكُمْ: Mafʿūl bihi (Akkusativ) + Iḍāfa.\n\n4. أَفَلَا تَعْقِلُونَ — Doppelte Partikelreihe: Hamza (Frage) + فَ (Folge/Ergebnis) + لَا (Negation). Die rhetorische Frage erwartet die Antwort: 'Doch, ihr solltet es verstehen.'",
+          "arabicExamples": [
+            {
+              "arabic": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ",
+              "transliteration": "a-taʾmurūna n-nāsa bi-l-birri wa-tansawna anfusakum",
+              "meaning": "Befehlt ihr den Menschen die Güte und vergesst euch selbst?"
+            },
+            {
+              "arabic": "أَفَلَا تَعْقِلُونَ",
+              "transliteration": "a-fa-lā taʿqilūna",
+              "meaning": "Begreift ihr denn nicht?"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:45–46 — اسْتَعِينُوا und إِنَّهَا لَكَبِيرَةٌ",
+          "content": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ  وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى الْخَاشِعِينَ · الَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَاقُو رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَاجِعُونَ\n\n1. اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ — Imperativ, 2.Pl.m. von Form X: اِسْتَعَانَ (Hilfe suchen). بِالصَّبْرِ: Jarr wa-majrūr (Mittel). وَالصَّلَاةِ: Maʿṭūf, folgt im Kasus: Genitiv.\n\n2. وَإِنَّهَا لَكَبِيرَةٌ — إِنَّ-Satz: هَا ist Ism von إِنَّ (Pronominalsuffix, Akkusativ). لَكَبِيرَةٌ: Lām al-muzdalaqa (verstärkendes لَ, das vom Ism von إِنَّ zum Khabar 'gerutscht' ist) + كَبِيرَةٌ (Khabar, Nominativ mit Tanwīn).\n\n3. إِلَّا عَلَى الْخَاشِعِينَ — Istithnaʾ (Ausnahme): إِلَّا + عَلَى الْخَاشِعِينَ (Jarr wa-majrūr). Hier ist die Ausnahme nicht vom Ism/Fāʿil, sondern modifiziert die Aussage 'schwer': 'schwer, außer für die Demütigen'. الْخَاشِعِينَ: جَمْع مُذَكَّر سَالِم im Genitiv (يِنَ).\n\n4. الَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَاقُو رَبِّهِمْ — الَّذِينَ: Naʿt (Attribut) oder Badal zu الْخَاشِعِينَ. أَنَّهُم: أَنَّ + Pronominalsuffix هُمْ (Ism von أَنَّ, Akkusativ). مُّلَاقُو: Khabar von أَنَّ, Nominativ — dies ist Ism fāʿil Plural (مُلَاقُونَ), in Iḍāfa mit رَبِّهِمْ, daher fällt das Nūn weg: مُلَاقُونَ + رَبّ → مُلَاقُو رَبِّ. رَبِّهِمْ: Muḍāf ilayhi + Pronominalsuffix.",
+          "arabicExamples": [
+            {
+              "arabic": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+              "transliteration": "wa-staʿīnū bi-ṣ-ṣabri wa-ṣ-ṣalāti",
+              "meaning": "Und sucht Hilfe durch Geduld und Gebet"
+            },
+            {
+              "arabic": "وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى الْخَاشِعِينَ",
+              "transliteration": "wa-innahā la-kabīratun illā ʿalā l-khāshiʿīna",
+              "meaning": "Und es ist wahrlich schwer, außer für die Demütigen"
+            },
+            {
+              "arabic": "الَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَاقُو رَبِّهِمْ",
+              "transliteration": "alladhīna yaẓunnūna annahum mulāqū rabbihim",
+              "meaning": "Diejenigen, die annehmen, dass sie ihrem Herrn begegnen werden"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Iʿrāb-Analyse: Schlüsselverse",
+          "examples": [
+            {
+              "location": "2:40",
+              "word": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ",
+              "analysis": "يَا: Ḥarf nidāʾ. بَنِي: Munādā muḍāf, Akkusativ. Naṣb-Zeichen: Yāʾ (da جَمْع مُذَكَّر سَالِم: بَنِينَ → بَنِي im Naṣb). إِسْرَائِيلَ: Muḍāf ilayhi, Genitiv. Diptotisch (ممنوع من الصرف — Fremdname), daher Fatḥa statt Kasra als Genitiv-Zeichen.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+            },
+            {
+              "location": "2:40",
+              "word": "وَأَوْفُوا بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ",
+              "analysis": "أَوْفُوا: Fiʿl amr (Imperativ), 2.Pl.m. von أَوْفَى (Form IV). بِعَهْدِي: Jarr wa-majrūr + Iḍāfa (عَهْد + ي). أُوفِ: Muḍāriʿ majzūm (Jussiv), 1.Sg. — Jawāb aṭ-ṭalab (Antwort auf den Imperativ: 'Erfüllt meinen Bund, dann erfülle ich euren'). Jussiv-Zeichen: حَذْف حَرْف الْعِلَّة (Wegfall der Yāʾ: أُوفِي → أُوفِ). بِعَهْدِكُمْ: Jarr wa-majrūr + Iḍāfa.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+            },
+            {
+              "location": "2:45",
+              "word": "وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ",
+              "analysis": "إِنَّ: Ḥarf nasakh. هَا: Ism von إِنَّ (Pronominalsuffix), mabni, in der Position des Akkusativs. لَ: Lām al-muzdalaqa (verstärkendes لَ). كَبِيرَةٌ: Khabar von إِنَّ, Nominativ (Ḍamma + Tanwīn). إِلَّا: Ḥarf istithnaʾ. عَلَى الْخَاشِعِينَ: Jarr wa-majrūr, متعلق بـ كَبِيرَة. الْخَاشِعِينَ: Majrūr, Genitiv-Zeichen: Yāʾ (جَمْع مُذَكَّر سَالِم).",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=45"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht بَنِي in يَا بَنِي إِسْرَائِيلَ (2:40) im Akkusativ?",
+          "options": [
+            "Weil es Mafʿūl bihi eines Verbs ist",
+            "Weil es Munādā muḍāf ist — ein Angerufener in Iḍāfa steht im Akkusativ",
+            "Weil es Ism von إِنَّ ist",
+            "Weil es Khabar von كَانَ ist"
+          ],
+          "answer": "Weil es Munādā muḍāf ist — ein Angerufener in Iḍāfa steht im Akkusativ",
+          "explanation": "Der Munādā (Angerufene nach يَا) steht im Akkusativ (Naṣb), wenn er muḍāf (in Iḍāfa), nakirā غير مقصودة (unbestimmt) oder shabīh bi-l-muḍāf ist. Nur der Munādā ʿalam mufrad (Eigenname, Einzelwort) wird auf Ḍamma festgesetzt. بَنِي ist muḍāf zu إِسْرَائِيلَ, daher Akkusativ.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+        },
+        {
+          "type": "identification",
+          "prompt": "Erkläre die Jussiv-Form أُوفِ in 2:40: وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ",
+          "word": "أُوفِ",
+          "answer": "أُوفِ ist Muḍāriʿ majzūm (Jussiv), 1.Sg. von أَوْفَى (Form IV). Es steht im Jussiv als Jawāb aṭ-ṭalab (Nachsatz eines Imperativs): 'Erfüllt meinen Bund, dann erfülle ich euren.' Das Jussiv-Zeichen ist حَذْف حَرْف الْعِلَّة: Die Grundform أُوفِي verliert ihre End-Yāʾ.",
+          "hint": "Wenn auf einen Imperativ ein Muḍāriʿ im Jussiv folgt, drückt dieser eine bedingte Konsequenz aus: 'Tue X, dann geschieht Y.' Wie wird der Jussiv bei defektiven Verben (nāqiṣ) gebildet?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere وَإِيَّايَ فَارْهَبُونِ (2:40). Warum steht إِيَّايَ vor dem Verb?",
+          "word": "وَإِيَّايَ فَارْهَبُونِ",
+          "answer": "إِيَّايَ ist ein getrenntes Akkusativpronomen (ضَمِير مَنْصُوب مُنْفَصِل) der 1. Person Singular. Es ist Mafʿūl bihi (Objekt) von ارْهَبُوا, vorangestellt. Die Voranstellung bewirkt Ḥaṣr (Einschränkung/Exklusivität): 'Nur MICH sollt ihr fürchten' — nicht andere neben Mir. فَ ist hier resumptiv: Sie nimmt den Satz nach dem vorangestellten Objekt wieder auf.",
+          "hint": "Im Arabischen erzeugt die Voranstellung eines Satzglieds (Taqdīm) Betonung. Was wird betont, wenn das Objekt vor das Verb tritt?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Funktion von لَ in وَإِنَّهَا لَكَبِيرَةٌ (2:45)?",
+          "options": [
+            "Verneinung (لَا)",
+            "Präposition لِ (für)",
+            "Lām al-muzdalaqa — verstärkendes لَ, das ins Khabar von إِنَّ eingetreten ist",
+            "Lām des Imperativs"
+          ],
+          "answer": "Lām al-muzdalaqa — verstärkendes لَ, das ins Khabar von إِنَّ eingetreten ist",
+          "explanation": "Die Lām al-muzdalaqa (auch Lām at-tawkīd oder Lām al-ibtidāʾ im Khabar) ist ein verstärkendes لَ, das ursprünglich vor dem Mubtadaʼ stehen würde, aber nach إِنَّ ins Khabar 'hinübergleitet'. Es verstärkt die Aussage: 'Es ist WAHRLICH schwer.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=45"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §30-40, §76-80",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.5",
+      "4.1",
+      "S2.5"
+    ]
+  },
+  {
+    "id": "S2.9",
+    "title": "Anrede an die Kinder Israels II: Gunsterweis und Rettung (2:47–50)",
+    "description": "Syntaktische Analyse der Verse 2:47–50: Wiederaufnahme des Nidāʾ, إِذْ-Temporalsätze (إِذْ نَجَّيْنَاكُم), Relativsätze mit Rückbezugspronomen, Nominalsätze mit vorangestelltem Khabar, und die Erzählstruktur mit فَرَقْنَا.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Vers 2:47 — Bevorzugung und Superlativ",
+          "content": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ\n\n1. يَا بَنِي إِسْرَائِيلَ — Wiederholung des Nidāʾ aus 2:40 (identische Konstruktion: Munādā muḍāf, Akkusativ). Die Wiederholung markiert einen neuen thematischen Abschnitt.\n\n2. اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ — Identisch mit 2:40. Imperativ + Mafʿūl bihi + Relativsatz als Naʿt.\n\n3. وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ — وَ ist ʿāṭifa (koordinierend). أَنِّي: أَنَّ + ي (Ism von أَنَّ, Akkusativ). Die gesamte أَنَّ-Klausel ist Maʿṭūf auf نِعْمَتِيَ — also ebenfalls Mafʿūl bihi von اذْكُرُوا: 'Gedenkt meiner Gunst ... UND (gedenkt) DASS ICH euch bevorzugt habe.'\n\n4. فَضَّلْتُكُمْ — Form II, Perfekt, 1.Sg. + Pronominalsuffix كُمْ (Mafʿūl bihi). Khabar-Satz von أَنَّ.\n\n5. عَلَى الْعَالَمِينَ — Jarr wa-majrūr. الْعَالَمِينَ: جَمْع مُذَكَّر سَالِم im Genitiv (يِنَ nach Präposition).",
+          "arabicExamples": [
+            {
+              "arabic": "وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ",
+              "transliteration": "wa-annī faḍḍaltukum ʿalā l-ʿālamīna",
+              "meaning": "Und dass ich euch vor den Welten bevorzugt habe"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:48 — Negation mit لَا und doppelter Verneinung",
+          "content": "وَاتَّقُوا يَوْمًا لَّا تَجْزِي نَفْسٌ عَن نَّفْسٍ شَيْئًا وَلَا يُقْبَلُ مِنْهَا شَفَاعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ\n\n1. اتَّقُوا يَوْمًا — Imperativ, 2.Pl.m. von Form VIII (اِتَّقَى). يَوْمًا: Mafʿūl bihi, Akkusativ mit Tanwīn (unbestimmt).\n\n2. لَّا تَجْزِي نَفْسٌ عَن نَّفْسٍ شَيْئًا — Dieser Satz ist Naʿt (Attributsatz) zu يَوْمًا, oder Ṣifa. لَا تَجْزِي: negierter Muḍāriʿ. نَفْسٌ: Fāʿil (Nominativ). عَن نَّفْسٍ: Jarr wa-majrūr. شَيْئًا: Mafʿūl bihi (Akkusativ) oder Mafʿūl muṭlaq.\n\n3. Vierfache Verneinung: Der Vers enthält vier negierte Aussagen, jede eingeleitet durch وَلَا:\n   — لَا تَجْزِي: Kein Vergelten.\n   — وَلَا يُقْبَلُ مِنْهَا شَفَاعَةٌ: Passiv (Muḍāriʿ majhūl). شَفَاعَةٌ ist Nāʾib al-fāʿil (Stellvertreter-Subjekt, Nominativ).\n   — وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ: Passiv. عَدْلٌ ist Nāʾib al-fāʿil (Nominativ).\n   — وَلَا هُمْ يُنصَرُونَ: Nominalsatz mit هُمْ (Mubtadaʼ) + يُنصَرُونَ (Khabar, Passiv).\n\n4. Die Struktur bildet eine Klimax: Kein Stellvertreten, keine Fürsprache, kein Lösegeld, keine Hilfe.",
+          "arabicExamples": [
+            {
+              "arabic": "وَاتَّقُوا يَوْمًا لَّا تَجْزِي نَفْسٌ عَن نَّفْسٍ شَيْئًا",
+              "transliteration": "wa-ttaqū yawman lā tajzī nafsun ʿan nafsin shayʾan",
+              "meaning": "Und seid achtsam gegenüber einem Tag, an dem keine Seele für eine andere Seele etwas begleicht"
+            },
+            {
+              "arabic": "وَلَا يُقْبَلُ مِنْهَا شَفَاعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ",
+              "transliteration": "wa-lā yuqbalu minhā shafāʿatun wa-lā yuʾkhadhu minhā ʿadlun",
+              "meaning": "Und es wird von ihr keine Fürsprache angenommen und kein Lösegeld genommen"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:49 — إِذْ-Temporalsatz und Partizipien",
+          "content": "وَإِذْ نَجَّيْنَاكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوءَ الْعَذَابِ يُذَبِّحُونَ أَبْنَاءَكُمْ وَيَسْتَحْيُونَ نِسَاءَكُمْ  وَفِي ذَٰلِكُمْ بَلَاءٌ مِّن رَّبِّكُمْ عَظِيمٌ\n\n1. وَإِذْ نَجَّيْنَاكُم — وَ: ʿĀṭifa oder istiʾnāfiyya. إِذْ: Ẓarf zamān (Zeitadverb), Mafʿūl bihi von اذْكُرُوا (aus 2:47): 'Gedenkt der Zeit, als...'. نَجَّيْنَاكُمْ: Form II, Perfekt, 1.Pl. + Pronominalsuffix كُمْ (Mafʿūl bihi).\n\n2. مِّنْ آلِ فِرْعَوْنَ — Jarr wa-majrūr + Iḍāfa. فِرْعَوْنَ: Muḍāf ilayhi, Genitiv — diptotisch (Fremdname), Fatḥa statt Kasra.\n\n3. يَسُومُونَكُمْ سُوءَ الْعَذَابِ — Ḥālsatz (Zustandssatz) ohne وَ: Der Muḍāriʿ-Satz beschreibt den Zustand zum Zeitpunkt der Rettung. يَسُومُونَ: Muḍāriʿ, 3.Pl.m. كُمْ: Mafʿūl bihi 1. سُوءَ: Mafʿūl bihi 2. (doppelter Akkusativ) oder adverbialer Akkusativ. الْعَذَابِ: Muḍāf ilayhi, Genitiv.\n\n4. يُذَبِّحُونَ أَبْنَاءَكُمْ وَيَسْتَحْيُونَ نِسَاءَكُمْ — Erläuterungssatz (Bayān): erklärt, worin سُوء الْعَذَاب besteht. Zwei koordinierte Verbalsätze. يُذَبِّحُونَ: Form II (Intensivierung: massenhaft schlachten). يَسْتَحْيُونَ: Form X von ح-ي-ي (am Leben lassen).\n\n5. وَفِي ذَٰلِكُمْ بَلَاءٌ مِّن رَّبِّكُمْ عَظِيمٌ — Nominalsatz mit vorangestelltem Khabar: فِي ذَٰلِكُمْ (Khabar, Jarr wa-majrūr) + بَلَاءٌ (Mubtadaʼ, Nominativ, nachgestellt). مِّن رَّبِّكُمْ: Jarr wa-majrūr (Herkunft), Naʿt zu بَلَاء oder متعلق به. عَظِيمٌ: Naʿt (Adjektiv) zu بَلَاء, Nominativ.",
+          "arabicExamples": [
+            {
+              "arabic": "وَإِذْ نَجَّيْنَاكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوءَ الْعَذَابِ",
+              "transliteration": "wa-idh najjaynākum min āli firʿawna yasūmūnakum sūʾa l-ʿadhābi",
+              "meaning": "Und als Wir euch erretteten von den Leuten Pharaos, die euch die schlimmste Pein auferlegten"
+            },
+            {
+              "arabic": "وَفِي ذَٰلِكُمْ بَلَاءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+              "transliteration": "wa-fī dhālikum balāʾun min rabbikum ʿaẓīmun",
+              "meaning": "Und darin liegt eine gewaltige Prüfung von eurem Herrn"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Vers 2:50 — Rettung am Meer",
+          "content": "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ\n\n1. وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ — إِذْ: Ẓarf zamān, wie in 2:49. فَرَقْنَا: Perfekt, 1.Pl. von فَرَقَ (trennen/teilen). بِكُمُ: Jarr wa-majrūr — die Präposition بِ hat hier instrumentale oder komitative Bedeutung: 'mit euch' oder 'durch euch'. الْبَحْرَ: Mafʿūl bihi, Akkusativ.\n\n2. فَأَنجَيْنَاكُمْ — فَ der unmittelbaren Folge + أَنْجَى (Form IV, Perfekt, 1.Pl.): 'So retteten Wir euch.' كُمْ: Mafʿūl bihi (Pronominalsuffix).\n\n3. وَأَغْرَقْنَا آلَ فِرْعَوْنَ — Koordinierter Verbalsatz: أَغْرَقَ (Form IV: ertränken). آلَ: Mafʿūl bihi, Akkusativ. فِرْعَوْنَ: Muḍāf ilayhi, Genitiv — diptotisch (Fatḥa).\n\n4. وَأَنتُمْ تَنظُرُونَ — Ḥālsatz (Zustandssatz) mit Wāw al-ḥāl: 'Während ihr zuschautet.' أَنتُمْ: Mubtadaʼ (Nominativ). تَنظُرُونَ: Khabar (Verbalsatz). Der Ḥālsatz beschreibt die Gleichzeitigkeit: Die Rettung und das Ertränken geschahen vor ihren Augen.\n\nDie Erzählstruktur dieses Verses zeigt präzise Sequenzierung: إِذْ (Temporalrahmen) → فَ (unmittelbare Folge: Rettung) → وَ (gleichzeitig: Ertränkung) → وَ الحَالِيَّة (begleitender Zustand: Zuschaun).",
+          "arabicExamples": [
+            {
+              "arabic": "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ",
+              "transliteration": "wa-idh faraqnā bikumu l-baḥra fa-anjaynākum wa-aghraqnā āla firʿawna",
+              "meaning": "Und als Wir für euch das Meer teilten, euch retteten und die Leute Pharaos ertränkten"
+            },
+            {
+              "arabic": "وَأَنتُمْ تَنظُرُونَ",
+              "transliteration": "wa-antum tanẓurūna",
+              "meaning": "Während ihr zuschautet"
+            }
+          ]
+        },
+        {
+          "type": "quranExamples",
+          "title": "Iʿrāb-Analyse: Schlüsselverse",
+          "examples": [
+            {
+              "location": "2:48",
+              "word": "وَلَا يُقْبَلُ مِنْهَا شَفَٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ",
+              "analysis": "يُقْبَلُ: Muḍāriʿ majhūl (Passiv), 3.Sg.m. مِنْهَا: Jarr wa-majrūr. شَفَاعَةٌ: Nāʾib al-fāʿil (Stellvertreter-Subjekt), Nominativ (Ḍamma + Tanwīn). يُؤْخَذُ: Muḍāriʿ majhūl (Passiv). عَدْلٌ: Nāʾib al-fāʿil, Nominativ. Beide Verben sind Passivformen: Das logische Subjekt (Gott) wird nicht genannt, die ursprünglichen Objekte (شَفَاعَة, عَدْل) werden zu Stellvertreter-Subjekten im Nominativ.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+            },
+            {
+              "location": "2:49",
+              "word": "وَإِذْ نَجَّيْنَٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ",
+              "analysis": "إِذْ: Ẓarf zamān, mabni, Mafʿūl bihi von اذْكُرُوا (2:47). نَجَّيْنَاكُمْ: Form II, Perfekt, 1.Pl. (نَا = Fāʿil-Pronomen) + كُمْ (Mafʿūl bihi). مِنْ آلِ: Jarr wa-majrūr. فِرْعَوْنَ: Muḍāf ilayhi, diptotisch. يَسُومُونَكُمْ: Ḥāl (Zustandssatz ohne وَ), Muḍāriʿ, 3.Pl.m. + Pronominalsuffix كُمْ. سُوءَ: Mafʿūl bihi 2. oder adverbialer Akkusativ. الْعَذَابِ: Muḍāf ilayhi, Genitiv.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+            },
+            {
+              "location": "2:50",
+              "word": "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَٰكُمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ",
+              "analysis": "إِذْ: Ẓarf zamān, parallel zu 2:49. فَرَقْنَا: Perfekt, 1.Pl. بِكُمُ: Jarr wa-majrūr (بِ komitativ oder instrumental). الْبَحْرَ: Mafʿūl bihi, Akkusativ. فَأَنجَيْنَاكُمْ: فَ der unmittelbaren Folge + Form IV, Perfekt + Pronominalsuffix. آلَ فِرْعَوْنَ: Mafʿūl bihi + Muḍāf ilayhi (diptotisch). وَأَنتُمْ تَنظُرُونَ: Wāw al-ḥāl + Nominalsatz (Mubtadaʼ + Khabar) = Ḥāl (Zustandssatz: 'während ihr zuschautet').",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "In 2:48 — welche Funktion hat شَفَاعَةٌ im Satz وَلَا يُقْبَلُ مِنْهَا شَفَاعَةٌ?",
+          "options": [
+            "Mafʿūl bihi (Objekt, Akkusativ)",
+            "Fāʿil (Subjekt des aktiven Verbs, Nominativ)",
+            "Nāʾib al-fāʿil (Stellvertreter-Subjekt des Passivs, Nominativ)",
+            "Mubtadaʼ (Subjekt eines Nominalsatzes)"
+          ],
+          "answer": "Nāʾib al-fāʿil (Stellvertreter-Subjekt des Passivs, Nominativ)",
+          "explanation": "يُقْبَلُ ist Passiv (Muḍāriʿ majhūl). Im Passiv wird das ursprüngliche Objekt zum Nāʾib al-fāʿil (Stellvertreter-Subjekt) und steht im Nominativ. شَفَاعَةٌ (mit Ḍamma + Tanwīn) zeigt klar den Nominativ an.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+        },
+        {
+          "type": "identification",
+          "prompt": "Bestimme die syntaktische Funktion von يَسُومُونَكُمْ سُوءَ الْعَذَابِ in 2:49. Ist es ein eigenständiger Satz oder ein Satzglied?",
+          "word": "يَسُومُونَكُمْ سُوءَ الْعَذَابِ",
+          "answer": "Es ist ein Ḥālsatz (Zustandssatz) ohne وَ. Der Muḍāriʿ-Satz beschreibt den begleitenden Zustand zum Zeitpunkt der Rettung: 'als Wir euch retteten — WOBEI SIE euch die schlimmste Pein auferlegten'. Die Position des Ḥāl wird durch den Bezug auf آل فرعون bestimmt.",
+          "hint": "Ein Verbalsatz im Muḍāriʿ, der nach einem Perfektverb steht und den Hintergrund eines Ereignisses beschreibt, ist typischerweise ein Ḥāl. Braucht ein Ḥālsatz immer وَ?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+        },
+        {
+          "type": "sentence_analysis",
+          "prompt": "Analysiere die Erzählstruktur von 2:50: فَرَقْنَا → فَأَنجَيْنَاكُمْ → وَأَغْرَقْنَا → وَأَنتُمْ تَنظُرُونَ. Welche Funktionen haben فَ und وَ hier jeweils?",
+          "word": "فَرَقْنَا ... فَأَنجَيْنَاكُمْ ... وَأَغْرَقْنَا ... وَأَنتُمْ تَنظُرُونَ",
+          "answer": "فَرَقْنَا: Hauptverb im إِذْ-Satz (Wir teilten). فَأَنجَيْنَاكُمْ: فَ der unmittelbaren Folge — die Rettung folgt direkt auf die Teilung. وَأَغْرَقْنَا: وَ additiv — das Ertränken wird parallel berichtet (nicht als spätere Folge, sondern gleichzeitig/zusätzlich). وَأَنتُمْ تَنظُرُونَ: Wāw al-ḥāl — Zustandssatz, der die Gleichzeitigkeit beschreibt: 'während ihr zuschautet'.",
+          "hint": "Unterscheide: فَ = unmittelbare zeitliche Folge, وَ = Addition/Gleichzeitigkeit, وَ + Nominalsatz = Ḥāl (begleitender Zustand).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Warum steht فِرْعَوْنَ in مِّنْ آلِ فِرْعَوْنَ (2:49) mit Fatḥa statt mit Kasra, obwohl es Muḍāf ilayhi (Genitiv) ist?",
+          "options": [
+            "Weil es ein Fehler ist",
+            "Weil es Mafʿūl bihi (Akkusativ) ist",
+            "Weil فِرْعَوْن diptotisch ist (ممنوع من الصرف — fremdsprachiger Eigenname), und diptotische Nomen Fatḥa statt Kasra im Genitiv zeigen",
+            "Weil es Ism von إِنَّ ist"
+          ],
+          "answer": "Weil فِرْعَوْن diptotisch ist (ممنوع من الصرف — fremdsprachiger Eigenname), und diptotische Nomen Fatḥa statt Kasra im Genitiv zeigen",
+          "explanation": "Diptotische Nomen (ممنوع من الصرف) haben zwei Besonderheiten: Sie tragen kein Tanwīn, und im Genitiv zeigen sie Fatḥa statt Kasra. فِرْعَوْن ist als fremdsprachiger Eigenname diptotisch. Daher: مِنْ آلِ فِرْعَوْنَ (Fatḥa im Genitiv).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+        }
+      ]
+    },
+    "wrightReference": "Wright II §40-50, §116-120",
+    "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+    "crossReferences": [
+      "3.1",
+      "3.5",
+      "S2.8"
+    ]
+  }
+]

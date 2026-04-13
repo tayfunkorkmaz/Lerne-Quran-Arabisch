@@ -1,0 +1,1268 @@
+{
+  "meta": {
+    "title": "Ringkomposition und Chiasmus im Quran",
+    "description": "Übung zum Erkennen symmetrischer Textstrukturen: A-B-C-B'-A' Muster und andere strukturelle Anordnungen.",
+    "sources": [
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "explanation": "Ringkomposition (auch Chiasmus oder Inklusion genannt) ist eine Textstruktur bei der Elemente am Anfang und Ende eines Abschnitts einander spiegeln. Die Struktur lässt sich rein linguistisch nachweisen: gleiche Wörter, Wurzeln, syntaktische Strukturen oder semantische Felder an symmetrischen Positionen.",
+  "exercises": [
+    {
+      "id": "ring01",
+      "title": "Sure 1 (al-Fatiha) — Gesamtstruktur",
+      "surah": 1,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "1:1",
+          "content": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+          "theme": "Gottes Name + Barmherzigkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "1:2-4",
+          "content": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ... مَالِكِ يَوْمِ الدِّينِ",
+          "theme": "Lob Gottes, Seine Attribute",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+        },
+        {
+          "label": "C",
+          "verses": "1:5",
+          "content": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "theme": "ZENTRUM: Direkte Anrede, Dienst + Hilfe",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+        },
+        {
+          "label": "B'",
+          "verses": "1:6",
+          "content": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "theme": "Bitte an Gott (korrespondiert mit Lob in B)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=6"
+        },
+        {
+          "label": "A'",
+          "verses": "1:7",
+          "content": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+          "theme": "Gunst + ihr Gegenteil (korrespondiert mit Barmherzigkeit in A)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+        }
+      ],
+      "analysis": "A und A' teilen das Thema Gunst/Barmherzigkeit. B und B' beziehen sich auf die Relation zwischen dem Sprecher und den Angesprochenen. C ist das Zentrum: die direkte Anrede.",
+      "task": "Identifizieren Sie die Symmetrieachse und benennen Sie die korrespondierenden Elemente.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+    },
+    {
+      "id": "ring02",
+      "title": "Sure 112 (al-Ikhlas) — Chiasmus",
+      "surah": 112,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "112:1",
+          "content": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "theme": "Einheit Gottes (positiv)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "112:2",
+          "content": "اللَّهُ الصَّمَدُ",
+          "theme": "Eigenschaft: الصَّمَد (fest, das kompakte Ziel)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=2"
+        },
+        {
+          "label": "B'",
+          "verses": "112:3",
+          "content": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "theme": "Negation: was Gott NICHT ist",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=3"
+        },
+        {
+          "label": "A'",
+          "verses": "112:4",
+          "content": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+          "theme": "Einzigkeit (negativ formuliert, mit أَحَد wie in A)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=4"
+        }
+      ],
+      "analysis": "A und A' teilen das Wort أَحَد (einer/irgendeiner). A formuliert positiv (Er IST einer), A' negativ (niemand ist Ihm gleich). B und B' kontrastieren positive Eigenschaft (الصَّمَد) mit Negation (لَمْ يَلِدْ).",
+      "task": "Markieren Sie die lexikalische Brücke zwischen A und A' und den Kontrast zwischen B und B'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=112&verse=1"
+    },
+    {
+      "id": "ring03",
+      "title": "Sure 2:255 — Ringstruktur",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "Beginn",
+          "content": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+          "theme": "Gottes Einheit, Leben, Bestand",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "label": "B",
+          "verses": "Mitte 1",
+          "content": "لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ",
+          "theme": "Negation: was Gott nicht betrifft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "label": "C",
+          "verses": "Mitte 2",
+          "content": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+          "theme": "ZENTRUM: Universaler Besitz",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "label": "B'",
+          "verses": "Mitte 3",
+          "content": "مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ",
+          "theme": "Negation: was ohne Seine Erlaubnis nicht geht",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "label": "A'",
+          "verses": "Ende",
+          "content": "وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+          "theme": "Gottes Erhabenheit (korrespondiert mit A)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        }
+      ],
+      "analysis": "A beginnt mit Gottes Attributen, A' schließt mit Attributen. B und B' formulieren Negationen. C ist das Zentrum: der universale Besitz.",
+      "task": "Ordnen Sie die Negations-Elemente (B, B') und die Attributs-Elemente (A, A') einander zu.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+    },
+    {
+      "id": "ring04",
+      "title": "Sure 5:3 — Chiastischer Kernsatz",
+      "surah": 5,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "5:3a",
+          "content": "الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ",
+          "theme": "Vollendung des Din",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "label": "B",
+          "verses": "5:3b",
+          "content": "وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي",
+          "theme": "Vollendung der Wohltat",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "label": "A'",
+          "verses": "5:3c",
+          "content": "وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا",
+          "theme": "Din (Rückbezug auf A, nun benannt)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        }
+      ],
+      "analysis": "A und A' rahmen das Thema Din: zuerst 'vollendet', dann 'benannt als Islam'. B steht im Zentrum als Scharnier: die Wohltat verbindet Vollendung und Zustimmung. Drei verschiedene Verben beschreiben den Vorgang (akmaltu, atmamtu, raditu).",
+      "task": "Identifizieren Sie das gemeinsame Wort in A und A' und die Funktion von B als Zentrum.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+    },
+    {
+      "id": "ring05",
+      "title": "Sure 24:35 — Lichtvers (Ringstruktur)",
+      "surah": 24,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "24:35a",
+          "content": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ",
+          "theme": "Gott = Licht (kosmisch)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "label": "B",
+          "verses": "24:35b",
+          "content": "مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ",
+          "theme": "Gleichnis-Eröffnung: Nische + Lampe",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "label": "C",
+          "verses": "24:35c",
+          "content": "الْمِصْبَاحُ فِي زُجَاجَةٍ الزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ",
+          "theme": "ZENTRUM: Kristall wie ein Stern",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "label": "B'",
+          "verses": "24:35d",
+          "content": "يُوقَدُ مِنْ شَجَرَةٍ مُبَارَكَةٍ زَيْتُونَةٍ",
+          "theme": "Quelle: gesegneter Ölbaum",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        },
+        {
+          "label": "A'",
+          "verses": "24:35e",
+          "content": "نُورٌ عَلَى نُورٍ يَهْدِي اللَّهُ لِنُورِهِ مَنْ يَشَاءُ",
+          "theme": "Licht auf Licht (Rückkehr zum kosmischen Thema)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+        }
+      ],
+      "analysis": "A und A' teilen نُور (Licht) als Leitwort. B und B' beschreiben die materielle Quelle (Nische/Lampe vs. Ölbaum). C ist das Zentrum: der leuchtende Kristall als Bildhöhepunkt.",
+      "task": "Zählen Sie die Vorkommen der Wurzel ن-و-ر in diesem Vers und markieren Sie die Positionen A und A'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=35"
+    },
+    {
+      "id": "ring06",
+      "title": "Sure 67:1-4 — Eröffnung von al-Mulk",
+      "surah": 67,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "67:1",
+          "content": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+          "theme": "Macht Gottes (positiv)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "67:2",
+          "content": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+          "theme": "Schöpfungszweck: Prüfung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=2"
+        },
+        {
+          "label": "C",
+          "verses": "67:3",
+          "content": "الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا مَا تَرَى فِي خَلْقِ الرَّحْمَنِ مِنْ تَفَاوُتٍ",
+          "theme": "ZENTRUM: Vollkommenheit der Schöpfung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=3"
+        },
+        {
+          "label": "B'",
+          "verses": "67:3b",
+          "content": "فَارْجِعِ الْبَصَرَ هَلْ تَرَى مِنْ فُطُورٍ",
+          "theme": "Aufforderung zur Prüfung (korrespondiert mit B)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=3"
+        },
+        {
+          "label": "A'",
+          "verses": "67:4",
+          "content": "ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ",
+          "theme": "Ohnmacht des Blicks (kontrastiert mit Macht in A)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=4"
+        }
+      ],
+      "analysis": "A (Gottes Macht) und A' (Ohnmacht des Betrachters) bilden den Rahmenkontrast. B (Prüfung durch Schöpfung) und B' (Prüfung durch Betrachtung) korrespondieren. C ist das Zentrum: die makellose Schöpfung. Alle vier Verse beginnen mit الَّذِي (Relativpronomen).",
+      "task": "Identifizieren Sie das anaphorische الَّذِي-Muster und den Kontrast Macht (A) vs. Ohnmacht (A').",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+    },
+    {
+      "id": "ring07",
+      "title": "Sure 55:1-13 — Refrain-Struktur",
+      "surah": 55,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "55:1-4",
+          "content": "الرَّحْمَنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنْسَانَ عَلَّمَهُ الْبَيَانَ",
+          "theme": "Gunst: Lehre und Schöpfung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "55:5-9",
+          "content": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ ... وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+          "theme": "Kosmische Ordnung: Sonne, Mond, Waage",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=5"
+        },
+        {
+          "label": "C",
+          "verses": "55:10-12",
+          "content": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
+          "theme": "Irdische Gaben: Früchte und Korn",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=10"
+        },
+        {
+          "label": "R",
+          "verses": "55:13",
+          "content": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+          "theme": "REFRAIN: Welche Gaben leugnet ihr?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=13"
+        }
+      ],
+      "analysis": "Der Refrain فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ wird in Sure 55 insgesamt 31 Mal wiederholt. Er markiert jeweils das Ende eines thematischen Blocks. Die Abfolge A→B→C bewegt sich vom Abstrakten (Lehre) über das Kosmische (Himmel) zum Konkreten (Erde).",
+      "task": "Zählen Sie bei Lektüre der gesamten Sure, wie viele thematische Blöcke durch den Refrain abgegrenzt werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+    },
+    {
+      "id": "ring08",
+      "title": "Sure 2:1-5 — Eröffnung der Baqara",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:1-2",
+          "content": "الم ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+          "theme": "Das Buch als Führung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "2:3",
+          "content": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+          "theme": "Handlungen: Vertrauen, Zuwendung, Spende",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=3"
+        },
+        {
+          "label": "B'",
+          "verses": "2:4",
+          "content": "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+          "theme": "Glaubensinhalte: Offenbarung und das Spätere",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=4"
+        },
+        {
+          "label": "A'",
+          "verses": "2:5",
+          "content": "أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ",
+          "theme": "Führung (هُدًى wie in A) + Erfolg",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=5"
+        }
+      ],
+      "analysis": "A und A' teilen das Wort هُدًى (Führung). B und B' beschreiben beide die Vertrauenden mit الَّذِينَ يُؤْمِنُونَ, aber B fokussiert auf Handlungen, B' auf Glaubensinhalte.",
+      "task": "Markieren Sie das Leitwort هُدًى und die parallelen Relativsätze الَّذِينَ يُؤْمِنُونَ.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=1"
+    },
+    {
+      "id": "ring09",
+      "title": "Sure 103 (al-Asr) — Kontraststruktur",
+      "surah": 103,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "103:1",
+          "content": "وَالْعَصْرِ",
+          "theme": "Schwur: die Zeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "103:2",
+          "content": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+          "theme": "Generelle Aussage: Verlust",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=2"
+        },
+        {
+          "label": "B'",
+          "verses": "103:3",
+          "content": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+          "theme": "Ausnahme: vier Bedingungen gegen Verlust",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=3"
+        }
+      ],
+      "analysis": "B (Verlust) und B' (Ausnahme vom Verlust) bilden ein kontrastierendes Paar. B' hat selbst eine innere Struktur: zwei individuelle Handlungen (Glauben, gute Werke) gefolgt von zwei gemeinschaftlichen (gegenseitiges Ermahnen zu Wahrheit und Geduld). Die wachsende Verslänge spiegelt die Komplexität.",
+      "task": "Analysieren Sie die 4 Elemente in B' und deren Steigerung von individuell zu gemeinschaftlich.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=103&verse=1"
+    },
+    {
+      "id": "ring10",
+      "title": "Sure 2:285-286 — Schluss der Baqara",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:285a",
+          "content": "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ",
+          "theme": "Vertrauen des Gesandten und der Vertrauenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+        },
+        {
+          "label": "B",
+          "verses": "2:285b",
+          "content": "كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ",
+          "theme": "Aufzählung der Glaubensinhalte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+        },
+        {
+          "label": "C",
+          "verses": "2:285c",
+          "content": "سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ",
+          "theme": "ZENTRUM: Gehorsamkeitserklärung + Bitte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+        },
+        {
+          "label": "B'",
+          "verses": "2:286a",
+          "content": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ",
+          "theme": "Gottes Gerechtigkeit: nur im Rahmen der Fähigkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+        },
+        {
+          "label": "A'",
+          "verses": "2:286b",
+          "content": "رَبَّنَا لَا تُؤَاخِذْنَا ... رَبَّنَا وَلَا تُحَمِّلْنَا ... وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلَانَا",
+          "theme": "Bitten an Gott (Echo der Bitte in C)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=286"
+        }
+      ],
+      "analysis": "A (Glaubensbekenntnis) und A' (Bitten) rahmen den Abschnitt als Dialog zwischen Glaube und Bitte. B (Aufzählung) und B' (Gerechtigkeit) behandeln Gottes Ordnung. C ist der Wendepunkt: 'Wir hören und gehorchen'.",
+      "task": "Vergleichen Sie die Anrede رَبَّنَا in C und A' — wie entwickelt sich der Ton von Bekenntnis zu Bitte?",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=285"
+    },
+    {
+      "id": "ring11",
+      "title": "Sure 2:142-152 — Qibla-Perikope",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:142",
+          "content": "سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ مَا وَلَّاهُمْ عَنْ قِبْلَتِهِمُ الَّتِي كَانُوا عَلَيْهَا",
+          "theme": "Einwand der Toren: Qibla-Wechsel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=142"
+        },
+        {
+          "label": "B",
+          "verses": "2:143",
+          "content": "وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا",
+          "theme": "Mittlere Gemeinschaft — Gottes Bestimmung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=143"
+        },
+        {
+          "label": "C",
+          "verses": "2:144",
+          "content": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا",
+          "theme": "ZENTRUM: Neue Qibla-Festlegung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=144"
+        },
+        {
+          "label": "B'",
+          "verses": "2:148",
+          "content": "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا فَاسْتَبِقُوا الْخَيْرَاتِ",
+          "theme": "Gottes Bestimmung der Richtung — Wettlauf im Guten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=148"
+        },
+        {
+          "label": "A'",
+          "verses": "2:150",
+          "content": "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ ... لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ",
+          "theme": "Befehl zur Qibla — gegen Einwände der Menschen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=150"
+        }
+      ],
+      "analysis": "A und A' rahmen den Abschnitt mit dem Thema 'Einwände der Menschen' (النَّاسِ). B und B' betonen Gottes Bestimmung der Gemeinschaft und Richtung. C ist das Zentrum: die Festlegung der neuen Qibla. Die Wurzel و-ل-ي erscheint in allen fünf Positionen.",
+      "task": "Identifizieren Sie die Vorkommen der Wurzel و-ل-ي in jeder Position und deren semantische Verschiebung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=142"
+    },
+    {
+      "id": "ring12",
+      "title": "Sure 5:1-5 — Eröffnung al-Maʿida",
+      "surah": 5,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "5:1",
+          "content": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَوْفُوا بِالْعُقُودِ أُحِلَّتْ لَكُمْ بَهِيمَةُ الْأَنْعَامِ",
+          "theme": "Halal: erlaubte Nahrung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "5:2",
+          "content": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ",
+          "theme": "Kooperation im Guten, nicht im Bösen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=2"
+        },
+        {
+          "label": "C",
+          "verses": "5:3a",
+          "content": "حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ وَلَحْمُ الْخِنْزِيرِ",
+          "theme": "ZENTRUM: Detaillierte Haram-Liste",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=3"
+        },
+        {
+          "label": "B'",
+          "verses": "5:4",
+          "content": "يَسْأَلُونَكَ مَاذَا أُحِلَّ لَهُمْ قُلْ أُحِلَّ لَكُمُ الطَّيِّبَاتُ",
+          "theme": "Gutes erlaubt — Kriterium der Reinheit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=4"
+        },
+        {
+          "label": "A'",
+          "verses": "5:5",
+          "content": "الْيَوْمَ أُحِلَّ لَكُمُ الطَّيِّبَاتُ وَطَعَامُ الَّذِينَ أُوتُوا الْكِتَابَ حِلٌّ لَكُمْ",
+          "theme": "Halal: erlaubte Nahrung erweitert",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=5"
+        }
+      ],
+      "analysis": "A und A' rahmen mit dem Thema Halal (أُحِلَّتْ/أُحِلَّ). B und B' behandeln Handlungsanweisungen. C steht als Haram-Katalog im Zentrum. Die Bewegung geht von allgemeiner Erlaubnis (A) über spezifische Anweisungen (B) zum Verbot (C) zurück zur Erlaubnis (A').",
+      "task": "Markieren Sie die Wurzel ح-ل-ل in den Positionen A, B', A' und kontrastieren Sie sie mit der Wurzel ح-ر-م im Zentrum.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=1"
+    },
+    {
+      "id": "ring13",
+      "title": "Sure 12:4-101 — Yusuf-Gesamtstruktur (Auswahl)",
+      "surah": 12,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "12:4-6",
+          "content": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَا أَبَتِ إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+          "theme": "Yusufs Traum — Anfang der Geschichte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        },
+        {
+          "label": "B",
+          "verses": "12:7-20",
+          "content": "لَقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِلسَّائِلِينَ ... وَجَاءُوا عَلَىٰ قَمِيصِهِ بِدَمٍ كَذِبٍ",
+          "theme": "Brüder trennen Yusuf vom Vater — Hemd mit falschem Blut",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=7"
+        },
+        {
+          "label": "C",
+          "verses": "12:21-57",
+          "content": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِي الْأَرْضِ",
+          "theme": "ZENTRUM: Yusuf in Ägypten — Aufstieg",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=21"
+        },
+        {
+          "label": "B'",
+          "verses": "12:58-93",
+          "content": "وَلَمَّا دَخَلُوا عَلَىٰ يُوسُفَ ... اذْهَبُوا بِقَمِيصِي هَٰذَا فَأَلْقُوهُ عَلَىٰ وَجْهِ أَبِي يَأْتِ بَصِيرًا",
+          "theme": "Brüder kommen zu Yusuf — Hemd bringt Heilung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=58"
+        },
+        {
+          "label": "A'",
+          "verses": "12:99-101",
+          "content": "وَرَفَعَ أَبَوَيْهِ عَلَى الْعَرْشِ وَخَرُّوا لَهُ سُجَّدًا ... هَٰذَا تَأْوِيلُ رُؤْيَايَ مِنْ قَبْلُ",
+          "theme": "Yusufs Traum erfüllt — Ende der Geschichte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=99"
+        }
+      ],
+      "analysis": "A und A' bilden den Traumrahmen: A erwähnt den Traum, A' seine Erfüllung. B und B' spiegeln sich durch das Motiv des Hemdes (قَمِيص): in B ein Hemd mit falschem Blut (Trennung), in B' ein Hemd das Heilung bringt (Wiedervereinigung). C ist der Wendepunkt.",
+      "task": "Identifizieren Sie das Hemd-Motiv (قَمِيص) als Spiegelelement in B und B'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+    },
+    {
+      "id": "ring14",
+      "title": "Sure 18:60-82 — Musa und der Diener",
+      "surah": 18,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "18:71",
+          "content": "فَانْطَلَقَا حَتَّىٰ إِذَا رَكِبَا فِي السَّفِينَةِ خَرَقَهَا",
+          "theme": "Schiff durchbohrt — sichtbarer Schaden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=71"
+        },
+        {
+          "label": "B",
+          "verses": "18:74",
+          "content": "فَانْطَلَقَا حَتَّىٰ إِذَا لَقِيَا غُلَامًا فَقَتَلَهُ",
+          "theme": "Junge getötet — größter Schaden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=74"
+        },
+        {
+          "label": "C",
+          "verses": "18:77",
+          "content": "فَانْطَلَقَا حَتَّىٰ إِذَا أَتَيَا أَهْلَ قَرْيَةٍ ... فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَنْ يَنْقَضَّ فَأَقَامَهُ",
+          "theme": "Mauer repariert — sichtbarer Nutzen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=77"
+        },
+        {
+          "label": "A2",
+          "verses": "18:79",
+          "content": "أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ يَعْمَلُونَ فِي الْبَحْرِ",
+          "theme": "Erklärung Schiff: Schutz vor dem König",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+        },
+        {
+          "label": "B2",
+          "verses": "18:80-81",
+          "content": "وَأَمَّا الْغُلَامُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَا أَنْ يُرْهِقَهُمَا",
+          "theme": "Erklärung Junge: Schutz der Eltern",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=80"
+        },
+        {
+          "label": "C2",
+          "verses": "18:82",
+          "content": "وَأَمَّا الْجِدَارُ فَكَانَ لِغُلَامَيْنِ يَتِيمَيْنِ فِي الْمَدِينَةِ",
+          "theme": "Erklärung Mauer: Schutz des Schatzes für Waisen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=82"
+        }
+      ],
+      "analysis": "Die drei Episoden (A-B-C) werden in den Versen 18:79-82 erklärt. Die Erklärungsreihenfolge ist jedoch nicht chiastisch umgekehrt, sondern beginnt mit der Mauer (C', Vers 82), dann der Junge (B', Vers 80-81), dann das Schiff (A', Vers 79) — tatsächlich aber nennt der Text in 18:79 zuerst das Schiff, in 18:80-81 den Jungen und in 18:82 die Mauer. Die Erklärungen folgen also derselben Reihenfolge wie die Handlungen (Schiff → Junge → Mauer), eingeleitet jeweils durch أَمَّا. Es handelt sich um eine lineare Nacherzählung mit verzögerter Erklärung, nicht um eine chiastische Umkehrung.",
+      "task": "Ordnen Sie jede Handlung ihrer Erklärung zu und beachten Sie die Reihenfolge der Erklärungen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=71"
+    },
+    {
+      "id": "ring15",
+      "title": "Sure 19:1-15 / 19:16-33 — Zakariyya und Maryam parallel",
+      "surah": 19,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "19:2-6",
+          "content": "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُ زَكَرِيَّا ... يَرِثُنِي وَيَرِثُ مِنْ آلِ يَعْقُوبَ",
+          "theme": "Zakariyya: Bitte um ein Kind — Alter und Unfruchtbarkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=2"
+        },
+        {
+          "label": "B",
+          "verses": "19:7-10",
+          "content": "يَا زَكَرِيَّا إِنَّا نُبَشِّرُكَ بِغُلَامٍ اسْمُهُ يَحْيَىٰ ... قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَ لَيَالٍ سَوِيًّا",
+          "theme": "Verkündigung: Zeichen (آيَة) — Schweigen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=7"
+        },
+        {
+          "label": "C",
+          "verses": "19:12-15",
+          "content": "يَا يَحْيَىٰ خُذِ الْكِتَابَ بِقُوَّةٍ ... وَسَلَامٌ عَلَيْهِ يَوْمَ وُلِدَ وَيَوْمَ يَمُوتُ",
+          "theme": "Yahya: Geburt, Leben, Tod — Salam",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=12"
+        },
+        {
+          "label": "A'",
+          "verses": "19:16-21",
+          "content": "وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ ... إِنَّمَا أَنَا رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَامًا زَكِيًّا",
+          "theme": "Maryam: Verkündigung eines Kindes — Jungfräulichkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=16"
+        },
+        {
+          "label": "B'",
+          "verses": "19:22-26",
+          "content": "فَحَمَلَتْهُ فَانْتَبَذَتْ بِهِ مَكَانًا قَصِيًّا ... فَإِمَّا تَرَيِنَّ مِنَ الْبَشَرِ أَحَدًا فَقُولِي إِنِّي نَذَرْتُ لِلرَّحْمَنِ صَوْمًا فَلَنْ أُكَلِّمَ الْيَوْمَ إِنْسِيًّا",
+          "theme": "Zeichen: Schweigen (صَوْم) — Parallele zu Zakariyya",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=22"
+        },
+        {
+          "label": "C'",
+          "verses": "19:30-33",
+          "content": "إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ ... وَالسَّلَامُ عَلَيَّ يَوْمَ وُلِدْتُ وَيَوْمَ أَمُوتُ",
+          "theme": "Isa: Geburt, Leben, Tod — Salam (Parallele zu Yahya)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=30"
+        }
+      ],
+      "analysis": "Zwei parallele Geburtsgeschichten bilden eine Spiegelstruktur. A und A' sind Verkündigungen (Zakariyya/Maryam). B und B' teilen das Motiv des Schweigens (Nicht-Sprechen). C und C' enden beide mit dem fast identischen Salam-Vers über Geburt und Tod.",
+      "task": "Vergleichen Sie die Salam-Formeln in C (19:15) und C' (19:33) — welche Wörter sind identisch?",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=2"
+    },
+    {
+      "id": "ring16",
+      "title": "Sure 109 (al-Kafirun) — Spiegelstruktur der Negationen",
+      "surah": 109,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "109:1-2",
+          "content": "قُلْ يَا أَيُّهَا الْكَافِرُونَ لَا أَعْبُدُ مَا تَعْبُدُونَ",
+          "theme": "Ich bete nicht an, was ihr anbetet (Präsens/Zukunft)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "109:3",
+          "content": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "theme": "Und ihr betet nicht an, was ich anbete",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=3"
+        },
+        {
+          "label": "A'",
+          "verses": "109:4",
+          "content": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ",
+          "theme": "Ich bin kein Anbeter dessen, was ihr angebetet habt (Partizip)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=4"
+        },
+        {
+          "label": "B'",
+          "verses": "109:5",
+          "content": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
+          "theme": "Und ihr betet nicht an, was ich anbete",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=5"
+        },
+        {
+          "label": "C",
+          "verses": "109:6",
+          "content": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+          "theme": "SCHLUSS: Euch eure Religion, mir meine",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=6"
+        }
+      ],
+      "analysis": "A und A' verneinen den Dienst des Sprechers (mit Verbform bzw. Partizip). B und B' verneinen den Dienst der Angesprochenen — B' wiederholt B wörtlich. C ist das Ergebnis der Symmetrie: vollständige Trennung. Der Wechsel zwischen Verbform (أَعْبُدُ) und Partizip (عَابِدٌ) markiert den Unterschied zwischen A und A'.",
+      "task": "Analysieren Sie den grammatischen Unterschied zwischen لَا أَعْبُدُ (A) und لَا أَنَا عَابِدٌ (A').",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=109&verse=1"
+    },
+    {
+      "id": "ring17",
+      "title": "Sure 36:1-12 — Eröffnung Ya Sin",
+      "surah": 36,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "36:1-4",
+          "content": "يس وَالْقُرْآنِ الْحَكِيمِ إِنَّكَ لَمِنَ الْمُرْسَلِينَ عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
+          "theme": "Schwur + Sendung + gerader Weg",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "36:5-6",
+          "content": "تَنْزِيلَ الْعَزِيزِ الرَّحِيمِ لِتُنْذِرَ قَوْمًا مَا أُنْذِرَ آبَاؤُهُمْ فَهُمْ غَافِلُونَ",
+          "theme": "Zweck: Warnung eines Volkes",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=5"
+        },
+        {
+          "label": "C",
+          "verses": "36:7-8",
+          "content": "لَقَدْ حَقَّ الْقَوْلُ عَلَىٰ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ إِنَّا جَعَلْنَا فِي أَعْنَاقِهِمْ أَغْلَالًا",
+          "theme": "ZENTRUM: Versiegelung — Fesseln und Barrieren",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=7"
+        },
+        {
+          "label": "B'",
+          "verses": "36:10-11",
+          "content": "وَسَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ إِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ",
+          "theme": "Warnung wirkungslos bei den meisten, nur bei Folgenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=10"
+        },
+        {
+          "label": "A'",
+          "verses": "36:12",
+          "content": "إِنَّا نَحْنُ نُحْيِي الْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُبِينٍ",
+          "theme": "Alles aufgezeichnet in einem klaren Verzeichnis",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=12"
+        }
+      ],
+      "analysis": "A und A' rahmen den Abschnitt mit Gottes Aufzeichnung (الْقُرْآن الْحَكِيم / إِمَام مُبِين). B und B' teilen die Wurzel ن-ذ-ر (warnen). C ist das Zentrum: die Versiegelung derer, die nicht glauben.",
+      "task": "Zählen Sie die Vorkommen der Wurzel ن-ذ-ر in B und B'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=1"
+    },
+    {
+      "id": "ring18",
+      "title": "Sure 55:1-30 — Gaben-Aufzählung mit Refrain",
+      "surah": 55,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "55:1-4",
+          "content": "الرَّحْمَنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنْسَانَ عَلَّمَهُ الْبَيَانَ",
+          "theme": "Lehre: Quran und Sprache",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "55:5-9",
+          "content": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+          "theme": "Kosmische Ordnung: Sonne, Mond, Waage",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=5"
+        },
+        {
+          "label": "C",
+          "verses": "55:14-16",
+          "content": "خَلَقَ الْإِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ وَخَلَقَ الْجَانَّ مِنْ مَارِجٍ مِنْ نَارٍ",
+          "theme": "ZENTRUM: Schöpfung der beiden Wesen (Mensch und Dschinn)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=14"
+        },
+        {
+          "label": "B'",
+          "verses": "55:17-23",
+          "content": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ ... مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ بَيْنَهُمَا بَرْزَخٌ لَا يَبْغِيَانِ",
+          "theme": "Kosmische Ordnung: Dualitäten (zwei Osten, zwei Meere)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=17"
+        },
+        {
+          "label": "A'",
+          "verses": "55:26-27",
+          "content": "كُلُّ مَنْ عَلَيْهَا فَانٍ وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
+          "theme": "Permanenz vs. Vergänglichkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=26"
+        }
+      ],
+      "analysis": "A und A' kontrastieren Gottes Gaben (Lehre) mit Gottes Bleiben (Vergänglichkeit alles anderen). B und B' beschreiben kosmische Dualitäten (Sonne/Mond vs. Osten/Westen, Himmel/Erde vs. zwei Meere). C ist das Zentrum: die Schöpfung der beiden Adressaten (رَبِّكُمَا). Durchgehend Dual-Motive, passend zum Dual in تُكَذِّبَانِ.",
+      "task": "Identifizieren Sie die Dual-Formen in der gesamten Passage und verbinden Sie sie mit den beiden Adressaten (Mensch und Dschinn).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=1"
+    },
+    {
+      "id": "ring19",
+      "title": "Sure 67:1-5 — Konzentrische Struktur",
+      "surah": 67,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "67:1a",
+          "content": "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ",
+          "theme": "Gottes Macht: Herrschaft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+        },
+        {
+          "label": "B",
+          "verses": "67:1b",
+          "content": "وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+          "theme": "Allumfassende Fähigkeit",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+        },
+        {
+          "label": "C",
+          "verses": "67:2",
+          "content": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+          "theme": "ZENTRUM: Schöpfung als Prüfung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=2"
+        },
+        {
+          "label": "B'",
+          "verses": "67:3",
+          "content": "الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا مَا تَرَىٰ فِي خَلْقِ الرَّحْمَنِ مِنْ تَفَاوُتٍ",
+          "theme": "Makellose Schöpfung — Fähigkeit demonstriert",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=3"
+        },
+        {
+          "label": "A'",
+          "verses": "67:5",
+          "content": "وَلَقَدْ زَيَّنَّا السَّمَاءَ الدُّنْيَا بِمَصَابِيحَ وَجَعَلْنَاهَا رُجُومًا لِلشَّيَاطِينِ",
+          "theme": "Gottes Macht: Himmelsverzierung und Schutz",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+        }
+      ],
+      "analysis": "A und A': Gottes Herrschaft manifestiert sich kosmisch. B und B': Seine Fähigkeit zeigt sich in makelloser Schöpfung. C: Tod und Leben als Prüfungszweck bilden das konzentrische Zentrum. Die drei الَّذِي-Relativsätze (A, C, B') erzeugen eine anaphorische Kette.",
+      "task": "Markieren Sie die drei الَّذِي-Sätze und analysieren Sie die Steigerung vom Abstrakten (Herrschaft) zum Konkreten (Sterne).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=1"
+    },
+    {
+      "id": "ring20",
+      "title": "Sure 24:30-31 — Blicksenkung: Männer und Frauen",
+      "surah": 24,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "24:30",
+          "content": "قُلْ لِلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ",
+          "theme": "Anweisung an die gläubigen Männer: Blick senken",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=30"
+        },
+        {
+          "label": "A'",
+          "verses": "24:31",
+          "content": "وَقُلْ لِلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ",
+          "theme": "Anweisung an die gläubigen Frauen: Blick senken",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=31"
+        }
+      ],
+      "analysis": "Eine einfache A-A' Inklusion: beide Verse beginnen mit قُلْ لِ + Partizip-Plural und verwenden identische Verben (يَغُضُّ / يَحْفَظُ). Der Wechsel betrifft nur Genus (مُؤْمِنِينَ → مُؤْمِنَاتِ) und Pronomen (هِمْ → هِنَّ). Die syntaktische Parallelität ist nahezu vollkommen.",
+      "task": "Listen Sie die identischen Elemente in beiden Versen auf und markieren Sie nur die Genus-Unterschiede.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=24&verse=30"
+    },
+    {
+      "id": "ring21",
+      "title": "Sure 2:40-46 — Anrede an die Kinder Israels (Inklusion)",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:40",
+          "content": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ",
+          "theme": "Gedenkt Meiner Wohltat + Bund einhalten",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+        },
+        {
+          "label": "B",
+          "verses": "2:41-43",
+          "content": "وَآمِنُوا بِمَا أَنْزَلْتُ ... وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ",
+          "theme": "Imperativ-Kette: Glauben, Beten, Zakat",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=41"
+        },
+        {
+          "label": "A'",
+          "verses": "2:47",
+          "content": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ",
+          "theme": "Gedenkt Meiner Wohltat + Bevorzugung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=47"
+        }
+      ],
+      "analysis": "A und A' sind fast identische Eröffnungen (يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ). Sie rahmen die Imperativ-Kette in B. Diese Inklusion wird in Sure 2 mehrfach wiederholt (auch 2:122).",
+      "task": "Vergleichen Sie den Wortlaut von A und A' und identifizieren Sie die minimalen Unterschiede.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=40"
+    },
+    {
+      "id": "ring22",
+      "title": "Sure 2:30-39 — Adam-Perikope (Inklusion)",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:30",
+          "content": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً",
+          "theme": "Ankündigung des Stellvertreters — Erde",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+        },
+        {
+          "label": "B",
+          "verses": "2:31-33",
+          "content": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ... أَنْبِئْهُمْ بِأَسْمَائِهِمْ",
+          "theme": "Adams Wissen übertrifft die Engel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        },
+        {
+          "label": "C",
+          "verses": "2:34",
+          "content": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَىٰ وَاسْتَكْبَرَ",
+          "theme": "ZENTRUM: Niederwerfung — Iblis weigert sich",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+        },
+        {
+          "label": "B'",
+          "verses": "2:35-36",
+          "content": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ ... فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا",
+          "theme": "Adams Fall — Wissen genügt nicht gegen Verführung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=35"
+        },
+        {
+          "label": "A'",
+          "verses": "2:38-39",
+          "content": "قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُمْ مِنِّي هُدًى",
+          "theme": "Herabsendung zur Erde — Führung",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=38"
+        }
+      ],
+      "analysis": "A und A' rahmen mit dem Erde-Motiv: in A wird der Stellvertreter angekündigt, in A' wird er zur Erde herabgesandt. B und B' kontrastieren Adams Wissen mit seinem Fall. C (Iblis' Weigerung) ist der Wendepunkt, der alles Folgende auslöst.",
+      "task": "Identifizieren Sie das Leitwort الْأَرْض in A und den Herabstieg (اهْبِطُوا) in A' als semantische Brücke.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+    },
+    {
+      "id": "ring23",
+      "title": "Sure 2:258-260 — Drei Beweise der Auferstehung",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:258",
+          "content": "أَلَمْ تَرَ إِلَى الَّذِي حَاجَّ إِبْرَاهِيمَ فِي رَبِّهِ ... أَنَا أُحْيِي وَأُمِيتُ قَالَ فَإِنَّ اللَّهَ يَأْتِي بِالشَّمْسِ مِنَ الْمَشْرِقِ",
+          "theme": "Verbaler Beweis: Argumentation (Ibrahim vs. Tyrann)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=258"
+        },
+        {
+          "label": "B",
+          "verses": "2:259",
+          "content": "أَوْ كَالَّذِي مَرَّ عَلَىٰ قَرْيَةٍ وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا ... فَأَمَاتَهُ اللَّهُ مِائَةَ عَامٍ ثُمَّ بَعَثَهُ",
+          "theme": "ZENTRUM: Visueller Beweis: Eigene Erfahrung (Tod und Auferstehung)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=259"
+        },
+        {
+          "label": "A'",
+          "verses": "2:260",
+          "content": "وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَىٰ ... فَخُذْ أَرْبَعَةً مِنَ الطَّيْرِ فَصُرْهُنَّ إِلَيْكَ",
+          "theme": "Empirischer Beweis: Ibrahim und die Vögel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=260"
+        }
+      ],
+      "analysis": "A und A' haben Ibrahim als Protagonisten und behandeln die Frage von Leben und Tod (أُحْيِي وَأُمِيتُ / تُحْيِي الْمَوْتَىٰ). B ist das Zentrum: ein namenloser Mann erlebt Tod und Auferstehung am eigenen Leib. Die Beweisführung steigert sich: verbal (A) → erfahren (B) → empirisch (A').",
+      "task": "Markieren Sie die Wurzel ح-ي-ي in allen drei Positionen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=258"
+    },
+    {
+      "id": "ring24",
+      "title": "Sure 2:124-129 — Ibrahim und die Ka'ba (Konzentrisch)",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:124",
+          "content": "وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا",
+          "theme": "Ibrahim als Imam für die Menschen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+        },
+        {
+          "label": "B",
+          "verses": "2:125",
+          "content": "وَإِذْ جَعَلْنَا الْبَيْتَ مَثَابَةً لِلنَّاسِ وَأَمْنًا",
+          "theme": "Das Haus als Versammlungs- und Sicherheitsort",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "label": "C",
+          "verses": "2:127",
+          "content": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا",
+          "theme": "ZENTRUM: Bau der Ka'ba + Bittgebet um Annahme",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+        },
+        {
+          "label": "B'",
+          "verses": "2:128",
+          "content": "رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِنْ ذُرِّيَّتِنَا أُمَّةً مُسْلِمَةً لَكَ",
+          "theme": "Bittgebet um gottergebene Nachkommenschaft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=128"
+        },
+        {
+          "label": "A'",
+          "verses": "2:129",
+          "content": "رَبَّنَا وَابْعَثْ فِيهِمْ رَسُولًا مِنْهُمْ يَتْلُو عَلَيْهِمْ آيَاتِكَ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
+          "theme": "Bitte um einen Gesandten für die Menschen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=129"
+        }
+      ],
+      "analysis": "A und A': Führung für die Menschen (إِمَامًا / رَسُولًا). B und B': Haus und Gemeinschaft (مَثَابَةً / أُمَّةً). C: der Bau selbst als Zentrum. Die Bewegung geht von der Person (Ibrahim) über den Ort (Haus) zum Akt des Bauens und zurück.",
+      "task": "Identifizieren Sie die Parallelität zwischen إِمَامًا (A) und رَسُولًا (A') als Führungsfiguren.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": "ring25",
+      "title": "Sure 36:33-44 — Zeichen Gottes (Ringstruktur)",
+      "surah": 36,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "36:33-35",
+          "content": "وَآيَةٌ لَهُمُ الْأَرْضُ الْمَيْتَةُ أَحْيَيْنَاهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ",
+          "theme": "Zeichen: Tote Erde → Früchte (Erde)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=33"
+        },
+        {
+          "label": "B",
+          "verses": "36:37-40",
+          "content": "وَآيَةٌ لَهُمُ اللَّيْلُ نَسْلَخُ مِنْهُ النَّهَارَ ... وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ... وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ",
+          "theme": "Zeichen: Nacht, Sonne, Mond (Himmel)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=37"
+        },
+        {
+          "label": "C",
+          "verses": "36:41",
+          "content": "وَآيَةٌ لَهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِي الْفُلْكِ الْمَشْحُونِ",
+          "theme": "ZENTRUM: Zeichen: Schiff auf dem Meer",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=41"
+        },
+        {
+          "label": "B'",
+          "verses": "36:42",
+          "content": "وَخَلَقْنَا لَهُمْ مِنْ مِثْلِهِ مَا يَرْكَبُونَ",
+          "theme": "Ähnliches zum Reiten (Transportmittel)",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=42"
+        },
+        {
+          "label": "A'",
+          "verses": "36:43-44",
+          "content": "وَإِنْ نَشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ ... إِلَّا رَحْمَةً مِنَّا وَمَتَاعًا إِلَىٰ حِينٍ",
+          "theme": "Barmherzigkeit als Rettung — zeitlich begrenzt",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=43"
+        }
+      ],
+      "analysis": "Drei وَآيَةٌ لَهُمُ-Eröffnungen (A, B, C) markieren den Aufbau. A: Erde (horizontal). B: Himmel (vertikal). C: Meer (dazwischen). Die Struktur bewegt sich von der Erde zum Himmel zum Meer und zurück. A' schließt mit dem Motiv der Vergänglichkeit.",
+      "task": "Markieren Sie die drei وَآيَةٌ لَهُمُ-Formeln und ordnen Sie ihnen die kosmischen Bereiche zu.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=33"
+    },
+    {
+      "id": "ring26",
+      "title": "Sure 18:32-44 — Gleichnis der zwei Gartenbesitzer",
+      "surah": 18,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "18:32-34",
+          "content": "وَاضْرِبْ لَهُمْ مَثَلًا رَجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ ... وَكَانَ لَهُ ثَمَرٌ",
+          "theme": "Eröffnung: Zwei Männer, zwei Gärten, Reichtum",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=32"
+        },
+        {
+          "label": "B",
+          "verses": "18:35-36",
+          "content": "وَدَخَلَ جَنَّتَهُ وَهُوَ ظَالِمٌ لِنَفْسِهِ قَالَ مَا أَظُنُّ أَنْ تَبِيدَ هَٰذِهِ أَبَدًا",
+          "theme": "Hochmut des Reichen: 'Dies wird nie vergehen'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=35"
+        },
+        {
+          "label": "C",
+          "verses": "18:37-38",
+          "content": "قَالَ لَهُ صَاحِبُهُ ... أَكَفَرْتَ بِالَّذِي خَلَقَكَ مِنْ تُرَابٍ ... لَٰكِنَّا هُوَ اللَّهُ رَبِّي",
+          "theme": "ZENTRUM: Antwort des Armen — Bekenntnis",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=37"
+        },
+        {
+          "label": "B'",
+          "verses": "18:39-41",
+          "content": "وَلَوْلَا إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَاءَ اللَّهُ ... فَعَسَىٰ رَبِّي أَنْ يُؤْتِيَنِ خَيْرًا مِنْ جَنَّتِكَ",
+          "theme": "Warnung: Gott kann alles nehmen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=39"
+        },
+        {
+          "label": "A'",
+          "verses": "18:42-44",
+          "content": "وَأُحِيطَ بِثَمَرِهِ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَا أَنْفَقَ فِيهَا ... هُنَالِكَ الْوَلَايَةُ لِلَّهِ الْحَقِّ",
+          "theme": "Schluss: Früchte zerstört, Reue, Gottes Herrschaft",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=42"
+        }
+      ],
+      "analysis": "A und A' rahmen mit dem Motiv ثَمَر (Früchte): in A Reichtum, in A' Verlust. B und B' kontrastieren Hochmut (er betritt den Garten) mit der Warnung (hätte er beim Betreten gesagt...). C ist das Zentrum: das Bekenntnis des armen Gefährten.",
+      "task": "Verfolgen Sie das Wort ثَمَر/ثَمَرَة durch die Struktur und seinen Bedeutungswandel von Wohlstand zu Verlust.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=32"
+    },
+    {
+      "id": "ring27",
+      "title": "Sure 2:163-167 — Einheit Gottes und Schöpfungszeichen",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:163",
+          "content": "وَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ لَا إِلَٰهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ",
+          "theme": "Eur Gott ist Ein Gott",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=163"
+        },
+        {
+          "label": "B",
+          "verses": "2:164",
+          "content": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ ... لَآيَاتٍ لِقَوْمٍ يَعْقِلُونَ",
+          "theme": "Schöpfungszeichen für Verständige",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=164"
+        },
+        {
+          "label": "C",
+          "verses": "2:165",
+          "content": "وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا يُحِبُّونَهُمْ كَحُبِّ اللَّهِ وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِلَّهِ",
+          "theme": "ZENTRUM: Götzendiener vs. Vertrauende — Liebe",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=165"
+        },
+        {
+          "label": "B'",
+          "verses": "2:166",
+          "content": "إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ",
+          "theme": "Zeichen am Jüngsten Tag: Bände zerreißen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=166"
+        },
+        {
+          "label": "A'",
+          "verses": "2:167",
+          "content": "وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا مِنَّا",
+          "theme": "Wunsch nach Rückkehr — Reue über die falschen Götter",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=167"
+        }
+      ],
+      "analysis": "A und A': Einheit Gottes (A) kontrastiert mit der Reue über falschen Polytheismus (A'). B und B': Schöpfungszeichen (B) kontrastieren mit Zeichen am Jüngsten Tag (B'). C ist das Zentrum: die fundamentale Wahl zwischen Gott und Götzen.",
+      "task": "Kontrastieren Sie die آيَات (Zeichen) in B (Schöpfung) mit den Zeichen in B' (das Spätere).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=163"
+    },
+    {
+      "id": "ring28",
+      "title": "Sure 55:46-78 — Zwei Gartenpaare (Konzentrisch)",
+      "surah": 55,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "55:46-53",
+          "content": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ ... ذَوَاتَا أَفْنَانٍ ... فِيهِمَا عَيْنَانِ تَجْرِيَانِ ... فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ",
+          "theme": "Erstes Gartenpaar: Zweige, fließende Quellen, Fruchtpaare",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+        },
+        {
+          "label": "B",
+          "verses": "55:54-58",
+          "content": "مُتَّكِئِينَ عَلَىٰ فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ ... لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+          "theme": "Beschreibung: Polster aus Brokat, Gefährtinnen",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=54"
+        },
+        {
+          "label": "C",
+          "verses": "55:60",
+          "content": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
+          "theme": "ZENTRUM: Ist der Lohn für Gutes anderes als Gutes?",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=60"
+        },
+        {
+          "label": "B'",
+          "verses": "55:70-74",
+          "content": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ ... حُورٌ مَقْصُورَاتٌ فِي الْخِيَامِ ... لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+          "theme": "Beschreibung: Schöne Gefährtinnen — wiederholt B",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=70"
+        },
+        {
+          "label": "A'",
+          "verses": "55:62-68",
+          "content": "وَمِنْ دُونِهِمَا جَنَّتَانِ ... مُدْهَامَّتَانِ ... فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ ... فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+          "theme": "Zweites Gartenpaar: dunkelgrün, sprudelnde Quellen, Früchte",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=62"
+        }
+      ],
+      "analysis": "Zwei Gartenpaare (A, A') spiegeln sich mit leichten Variationen: تَجْرِيَانِ (fließend) vs. نَضَّاخَتَانِ (sprudelnd). B und B' teilen die identische Formel لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ. C ist das Kernprinzip: Lohn für Gutes ist Gutes.",
+      "task": "Vergleichen Sie die Beschreibungen der Quellen (عَيْنَانِ) in A und A' — welche Adjektive variieren?",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=55&verse=46"
+    },
+    {
+      "id": "ring29",
+      "title": "Sure 2:275-280 — Riba-Verbot (Konzentrische Struktur)",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:275",
+          "content": "الَّذِينَ يَأْكُلُونَ الرِّبَا لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ",
+          "theme": "Zustand der Wucherer: wie vom Satan Geschlagene",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+        },
+        {
+          "label": "B",
+          "verses": "2:276",
+          "content": "يَمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ",
+          "theme": "Gott vernichtet Wucher, vermehrt Spenden",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=276"
+        },
+        {
+          "label": "C",
+          "verses": "2:278",
+          "content": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا",
+          "theme": "ZENTRUM: Direkter Befehl — Lasst den Wucher!",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=278"
+        },
+        {
+          "label": "B'",
+          "verses": "2:279",
+          "content": "فَإِنْ لَمْ تَفْعَلُوا فَأْذَنُوا بِحَرْبٍ مِنَ اللَّهِ وَرَسُولِهِ وَإِنْ تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ",
+          "theme": "Konsequenzen: Krieg von Gott oder nur das Kapital",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=279"
+        },
+        {
+          "label": "A'",
+          "verses": "2:280",
+          "content": "وَإِنْ كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ وَأَنْ تَصَدَّقُوا خَيْرٌ لَكُمْ",
+          "theme": "Umgang mit Schuldnern: Aufschub und Spende",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=280"
+        }
+      ],
+      "analysis": "A und A' kontrastieren die Wucherer (A) mit den in Not Geratenen (A'). B und B' behandeln Konsequenzen: Gott vernichtet Wucher (B) / Krieg oder Gerechtigkeit (B'). C ist der direkte Imperativ. Die Wurzel ر-ب-و (Wucher/Wachstum) erscheint in A, B und C.",
+      "task": "Verfolgen Sie die Wurzel ر-ب-و durch alle Positionen und kontrastieren Sie sie mit صدقات (Spenden).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=275"
+    },
+    {
+      "id": "ring30",
+      "title": "Sure 2:17-20 — Zwei Gleichnisse (Feuer und Regen)",
+      "surah": 2,
+      "structure": [
+        {
+          "label": "A",
+          "verses": "2:17",
+          "content": "مَثَلُهُمْ كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا فَلَمَّا أَضَاءَتْ مَا حَوْلَهُ ذَهَبَ اللَّهُ بِنُورِهِمْ",
+          "theme": "Erstes Gleichnis: Feuer das erlischt → Finsternis",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+        },
+        {
+          "label": "B",
+          "verses": "2:18",
+          "content": "صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَرْجِعُونَ",
+          "theme": "Zusammenfassung: Taub, stumm, blind",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+        },
+        {
+          "label": "A'",
+          "verses": "2:19-20",
+          "content": "أَوْ كَصَيِّبٍ مِنَ السَّمَاءِ فِيهِ ظُلُمَاتٌ وَرَعْدٌ وَبَرْقٌ ... يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ",
+          "theme": "Zweites Gleichnis: Gewittersturm → Finsternis und Blitz",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=19"
+        }
+      ],
+      "analysis": "A und A' sind parallele Gleichnisse mit dem Motiv Licht/Finsternis: Feuer-Licht (A) / Blitz-Licht (A'). Beide enden in Dunkelheit. B steht als kurze Zusammenfassung (صُمٌّ بُكْمٌ عُمْيٌ) zwischen beiden Gleichnissen. Das Wort ظُلُمَات (Finsternisse) verbindet A und A'.",
+      "task": "Vergleichen Sie die Lichtquelle in A (نَار/نُور) mit der in A' (بَرْق) und das gemeinsame Ende in ظُلُمَات.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=17"
+    }
+  ],
+  "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+}

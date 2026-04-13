@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Lane's Lexicon — Leseanleitung",
+    "description": "Wie man einen Eintrag in Lane's Arabic-English Lexicon liest, versteht und die richtige Bedeutung extrahiert.",
+    "sources": [
+      {
+        "label": "Lane's Lexicon via Arabic Almanac (ejtaal.net)",
+        "url": "https://ejtaal.net/aa/"
+      },
+      {
+        "label": "StudyQuran.org — Lane's Lexicon Volume Scans",
+        "url": "https://studyquran.org/LaneLexicon/"
+      }
+    ],
+    "verifyUrl": "https://ejtaal.net/aa/"
+  },
+  "lessons": [
+    {
+      "id": "LG1",
+      "title": "Aufbau eines Lane's-Eintrags",
+      "verifyUrl": "https://ejtaal.net/aa/#ll=Llh",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Was ist Lane's Lexicon?",
+            "content": "Edward William Lane's 'Arabic-English Lexicon' (1863-1893) ist das umfassendste klassisch-arabische Wörterbuch in einer europäischen Sprache. Es dokumentiert das Arabisch der klassischen Periode einschließlich des quranischen Sprachgebrauchs. Lane übersetzte und kompilierte aus den wichtigsten arabischen Lexika (Taj al-Arus, Lisan al-Arab, Sihah, Qamus, etc.).\n\nDas Werk umfasst ca. 3040 Seiten in 8 Bänden (Buchstaben ا bis ق vollständig; ك bis ي durch Lane's Tod unvollendet — für diese Buchstaben existiert ein Supplement)."
+          },
+          {
+            "type": "explanation",
+            "title": "Struktur eines Eintrags",
+            "content": "Jeder Eintrag beginnt mit der WURZEL in großen arabischen Buchstaben. Darunter folgen:\n\n1. GRUNDBEDEUTUNG: Die wörtliche/physische Kernbedeutung der Wurzel. Lane beginnt fast immer mit der sinnlichsten, konkretesten Bedeutung.\n\n2. ABGELEITETE BEDEUTUNGEN: Von der Grundbedeutung ausgehend werden übertragene, erweiterte und spezialisierte Bedeutungen aufgeführt — oft mit Erklärung WARUM die Bedeutungsverschiebung stattfand.\n\n3. VERBFORMEN: Konjugationsmuster (Form I Vokalklasse, dann Form II-X falls belegt), jeweils mit Bedeutung.\n\n4. NOMINALABLEITUNGEN: Partizipien, Masdar, Adjektive, Substantive — jeweils mit Bedeutung und Belegstellen.\n\n5. QUELLENNACHWEISE: Abkürzungen wie 'S' (Sihah), 'K' (Qamus), 'TA' (Taj al-Arus), 'Msb' (Misbah) verweisen auf die arabischen Originalquellen."
+          },
+          {
+            "type": "explanation",
+            "title": "Wichtige Abkürzungen",
+            "content": "S = as-Sihah (al-Jawhari)\nK = al-Qamus al-Muhit (al-Firuzabadi)\nTA = Taj al-Arus (az-Zabidi)\nMsb = al-Misbah al-Munir (al-Fayyumi)\nMgh = al-Mughrib (al-Mutarrizi)\nM = al-Muhkam (Ibn Sidah)\nL = Lisan al-Arab (Ibn Manzur)\n\nEinige Abkürzungen in Lane's verweisen auf nicht-lexikographische Quellen. Diese können ignoriert werden — für uns zählen nur die lexikographischen Einträge (S, K, TA, Msb, Mgh, M, L).\n\naor. = Aorist (= Imperfekt/Mudari')\ninf. n. = Infinitiv-Nomen (= Masdar)\nact. part. n. = Aktives Partizip\npass. part. n. = Passives Partizip\npl. = Plural\nsing. = Singular\nfem. = Femininum\nmasc. = Maskulinum\ntrans. = transitiv\nintrans. = intransitiv\ncontr. = im Gegenteil"
+          },
+          {
+            "type": "explanation",
+            "title": "Wie man die richtige Bedeutung findet",
+            "content": "1. WURZEL BESTIMMEN: Alle Affixe entfernen (Artikel, Präposition, Pronomen, Verbpräfixe). Den Dreierkonsonantenrahmen identifizieren.\n\n2. EINTRAG ÖFFNEN: Auf ejtaal.net die Wurzel in Buckwalter-Transliteration eingeben (z.B. k-t-b für ك-ت-ب).\n\n3. GRUNDBEDEUTUNG LESEN: Die erste(n) Zeile(n) geben die Kernbedeutung. Diese ist oft überraschend konkret/physisch.\n\n4. FORM SUCHEN: Wenn das Wort in Form IV (أَفْعَلَ) oder einer anderen abgeleiteten Form steht, nach 'The fourth form' oder 'IV' im Eintrag suchen.\n\n5. KONTEXT PRÜFEN: Lane gibt oft Beispielsätze. Den quranischen Kontext mit den Beispielen vergleichen.\n\n6. GESAMTES FELD LESEN: Nicht beim ersten Treffer aufhören. Lane's Stärke ist die BREITE — oft erschließt sich die quranische Bedeutung erst aus dem vollen Spektrum der Wurzel."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "walkthrough",
+          "prompt": "Schlage die Wurzel ك-ف-ر in Lane's nach. Lies den gesamten Eintrag. Was ist die GRUNDBEDEUTUNG (erste Zeile)?",
+          "answer": "Die Grundbedeutung ist 'bedecken, verbergen, verhüllen'. Der Bauer (كافر) heißt so weil er den Samen mit Erde BEDECKT. Alle weiteren Bedeutungen (Undankbarkeit, Leugnung) leiten sich von diesem Kern ab.",
+          "laneUrl": "https://ejtaal.net/aa/#ll=kfr"
+        },
+        {
+          "type": "walkthrough",
+          "prompt": "Schlage die Wurzel س-ل-م nach. Finde: Was bedeutet Form IV (أَسْلَمَ) laut Lane?",
+          "answer": "Form IV اسلم: 'sich übergeben, sich hingeben' — wörtlich: sich in einen Zustand der Unversehrtheit (سلامة) begeben. Die Grundbedeutung der Wurzel ist 'unversehrt/heil sein'.",
+          "laneUrl": "https://ejtaal.net/aa/#ll=slm"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was bedeutet die Abkürzung 'inf. n.' in Lane's Lexicon?",
+            "options": [
+              "Infinitiv Nomen (= Masdar)",
+              "Infinitiv Numerus",
+              "Information Nomen",
+              "Indefinites Nomen"
+            ],
+            "correct": 0,
+            "verifyUrl": "https://ejtaal.net/aa/#ll=Llh"
+          },
+          {
+            "question": "Womit beginnt Lane typischerweise einen Wurzeleintrag?",
+            "options": [
+              "Mit der abstraktesten Bedeutung",
+              "Mit der quranischen Bedeutung",
+              "Mit der sinnlichsten/konkretesten Grundbedeutung",
+              "Mit der grammatischen Form"
+            ],
+            "correct": 2,
+            "verifyUrl": "https://ejtaal.net/aa/#ll=Llh"
+          },
+          {
+            "question": "Was bedeutet 'S' als Quellenabkürzung?",
+            "options": [
+              "Sihah (al-Jawhari)",
+              "Supplement",
+              "Singular",
+              "Sura"
+            ],
+            "correct": 0,
+            "verifyUrl": "https://ejtaal.net/aa/#ll=Llh"
+          }
+        ]
+      }
+    }
+  ]
+}

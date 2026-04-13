@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Alif Wasla Drill",
+    "description": "Systematisches Training aller Positionen in denen Hamzat al-Wasl (ٱ) erscheint und in Verbindung verschwindet.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "article",
+      "title": "Definitartikel ال",
+      "explanation": "Der häufigste Fall von Alif Wasla. Die Hamza des Artikels wird nur am absoluten Satzanfang gesprochen. In Verbindung fällt sie weg.",
+      "exercises": [
+        {
+          "isolated": "اَلْكِتَابُ",
+          "connected": "فِي الْكِتَابِ",
+          "note": "Nach Präposition: Hamza fällt weg, man liest 'fi l-kitābi'",
+          "quranRef": "2:2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+        },
+        {
+          "isolated": "اَلرَّحْمَنِ",
+          "connected": "بِسْمِ اللَّهِ الرَّحْمَنِ",
+          "note": "Sonnenbuchstabe: Lam assimiliert, Hamza fällt in Verbindung",
+          "quranRef": "1:1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "isolated": "اَلْقَمَرِ",
+          "connected": "وَالْقَمَرِ",
+          "note": "Mondbuchstabe: Lam bleibt, Hamza fällt nach wa-",
+          "quranRef": "91:2",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=2"
+        }
+      ]
+    },
+    {
+      "id": "form_vii",
+      "title": "Form VII (اِنْفَعَلَ)",
+      "explanation": "Alle Form-VII-Verben beginnen mit Alif Wasla + Kasra. Im Perfekt und Imperativ sichtbar.",
+      "exercises": [
+        {
+          "word": "اِنْقَلَبَ",
+          "root": "ق-ل-ب",
+          "meaning": "sich umwenden",
+          "connected": "فَانْقَلَبُوا",
+          "note": "Nach فَ: Hamza fällt weg",
+          "quranRef": "3:174",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=174"
+        },
+        {
+          "word": "اِنْطَلَقَ",
+          "root": "ط-ل-ق",
+          "meaning": "losziehen",
+          "connected": "فَانْطَلَقَا",
+          "note": "Nach فَ: Verbindung",
+          "quranRef": "18:71",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=71"
+        }
+      ]
+    },
+    {
+      "id": "form_viii",
+      "title": "Form VIII (اِفْتَعَلَ)",
+      "explanation": "Alle Form-VIII-Verben beginnen mit Alif Wasla + Kasra.",
+      "exercises": [
+        {
+          "word": "اِخْتَلَفَ",
+          "root": "خ-ل-ف",
+          "meaning": "sich unterscheiden",
+          "connected": "وَاخْتَلَفُوا",
+          "note": "Nach وَ: Hamza fällt weg",
+          "quranRef": "2:213",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=213"
+        },
+        {
+          "word": "اِتَّبَعَ",
+          "root": "ت-ب-ع",
+          "meaning": "folgen",
+          "connected": "فَاتَّبِعُونِي",
+          "note": "Form VIII mit Assimilation (ت+ت→تّ)",
+          "quranRef": "3:31",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=31"
+        },
+        {
+          "word": "اِتَّقَى",
+          "root": "و-ق-ي",
+          "meaning": "sich hüten, sich in Acht nehmen",
+          "connected": "وَاتَّقُوا اللَّهَ",
+          "note": "Assimiliert+Defektiv in Form VIII",
+          "quranRef": "2:194",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=194"
+        }
+      ]
+    },
+    {
+      "id": "form_ix",
+      "title": "Form IX (اِفْعَلَّ)",
+      "explanation": "Form IX drückt Farben und körperliche Eigenschaften aus. Das Verb beginnt mit Alif Wasla + Kasra, der letzte Radikal wird verdoppelt.",
+      "exercises": [
+        {
+          "word": "ٱسْوَدَّتْ",
+          "root": "س-و-د",
+          "meaning": "schwarz werden (3.f.Sg. Perf.)",
+          "connected": "ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ",
+          "note": "Nach vorangehendem Vokal wird Hamzat al-Wasl nicht gesprochen. Form IX für Farben: اِفْعَلَّ, letzter Radikal verdoppelt. Im Quran belegt in 3:106 (ٱسْوَدَّتْ وُجُوهُهُمْ — 'ihre Gesichter wurden schwarz') neben تَسْوَدُّ (Form IX Imperfektiv) im selben Vers.",
+          "quranRef": "3:106",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+        }
+      ]
+    },
+    {
+      "id": "form_x",
+      "title": "Form X (اِسْتَفْعَلَ)",
+      "explanation": "Alle Form-X-Verben beginnen mit Alif Wasla + Kasra.",
+      "exercises": [
+        {
+          "word": "اِسْتَغْفَرَ",
+          "root": "غ-ف-ر",
+          "meaning": "um Vergebung bitten",
+          "connected": "فَاسْتَغْفِرُوا",
+          "note": "Nach فَ: Hamza fällt weg",
+          "quranRef": "4:64",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=64"
+        },
+        {
+          "word": "اِسْتَقَامَ",
+          "root": "ق-و-م",
+          "meaning": "aufrecht/gerade sein",
+          "connected": "فَاسْتَقِيمُوا",
+          "note": "Hohle Wurzel in Form X",
+          "quranRef": "41:6",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=6"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "title": "Nomen mit Wasla",
+      "explanation": "Einige häufige Nomen beginnen mit Alif Wasla.",
+      "exercises": [
+        {
+          "word": "اِسْمٌ",
+          "root": "س-م-و",
+          "meaning": "Name",
+          "connected": "بِسْمِ اللَّهِ",
+          "note": "Alif und Hamza fallen komplett weg nach بِ",
+          "quranRef": "1:1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=1"
+        },
+        {
+          "word": "اِبْنٌ",
+          "root": "ب-ن-ي",
+          "meaning": "Sohn",
+          "connected": "عِيسَى ابْنَ مَرْيَمَ",
+          "note": "Wasla-Alif fällt in Verbindung weg",
+          "quranRef": "5:46",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=46"
+        },
+        {
+          "word": "اِمْرَأَةٌ",
+          "root": "م-ر-أ",
+          "meaning": "Frau",
+          "connected": "وَامْرَأَتُهُ",
+          "note": "Nach وَ: Hamza fällt weg",
+          "quranRef": "111:4",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=111&verse=4"
+        },
+        {
+          "word": "اِثْنَانِ",
+          "root": "ث-ن-ي",
+          "meaning": "zwei",
+          "connected": "وَاثْنَتَيْنِ",
+          "note": "Zahlwort mit Wasla",
+          "quranRef": "4:11",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=11"
+        }
+      ]
+    },
+    {
+      "id": "imperative",
+      "title": "Imperative der Form I",
+      "explanation": "Imperative die mit Konsonantencluster beginnen erhalten eine Wasla-Alif. Der Vokal ist Damma wenn der Imperfekt Damma hat, sonst Kasra.",
+      "exercises": [
+        {
+          "word": "اُكْتُبْ",
+          "root": "ك-ت-ب",
+          "meaning": "schreib!",
+          "connected": "فَاكْتُبْنَا",
+          "note": "Damma weil Imperfekt يَكْتُبُ (Damma)",
+          "quranRef": "3:53",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=53"
+        },
+        {
+          "word": "اِقْرَأْ",
+          "root": "ق-ر-أ",
+          "meaning": "lies!/rezitiere!",
+          "connected": "اِقْرَأْ بِاسْمِ رَبِّكَ",
+          "note": "Kasra weil Imperfekt يَقْرَأُ (kein Damma auf 2. Rad.)",
+          "quranRef": "96:1",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=96&verse=1"
+        },
+        {
+          "word": "اُدْخُلُوا",
+          "root": "د-خ-ل",
+          "meaning": "tretet ein!",
+          "connected": "وَادْخُلُوا الْبَابَ",
+          "note": "Damma weil Imperfekt يَدْخُلُ",
+          "quranRef": "2:58",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Nisba-Adjektiv (النسبة) — Zugehörigkeitsadjektiv",
+    "description": "Bildung, Deklination und Vorkommen der Nisba-Adjektive im Quranischen Arabisch.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Lexicon",
+        "url": "https://ejtaal.net/aa/"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "NB1",
+      "title": "Nisba — Zugehörigkeitsadjektiv",
+      "description": "Die Endung ـِيّ / ـِيَّة zeigt Zugehörigkeit an: woher, wozu, welcher Art.",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Bildungsregel",
+            "content": "Die Nisba (النسبة) wird gebildet indem an ein Nomen die Endung ـِيّ (-iyy, maskulin) oder ـِيَّة (-iyyah, feminin) angehängt wird.\n\nGrundregel: Ta Marbuta und Alif Maqsura fallen vor dem Nisba-Suffix weg.\n\nBeispiele:\n• مَكَّة → مَكِّيّ (mekkanisch)\n• مَدِينَة → مَدَنِيّ (medinensisch) — Ta Marbuta fällt weg\n• دُنْيَا → دُنْيَوِيّ (weltlich) — Alif fällt weg, Waw eingefügt\n• سَمَاء → سَمَائِيّ oder سَمَاوِيّ (himmlisch)\n\nDas Nisba-Adjektiv dekliniert als normales Adjektiv (Triptot) und kongruiert in Geschlecht, Numerus und Kasus mit seinem Bezugswort."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Nisba-Adjektive im Quran",
+            "examples": [
+              {
+                "ref": "12:2",
+                "arabic": "إِنَّآ أَنزَلْنَٰهُ قُرْءَٰنًا عَرَبِيًّا",
+                "explanation": "عَرَبِيّ — Nisba von عَرَب (Araber): 'arabisch'. Akkusativ (عَرَبِيًّا) als Attribut zu قُرْآنًا. Reguläre Nisba-Bildung: Stamm + ـِيّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=2"
+              },
+              {
+                "ref": "7:157",
+                "arabic": "ٱلنَّبِىَّ ٱلْأُمِّىَّ",
+                "explanation": "أُمِّيّ — Nisba, Etymologie umstritten: von أُمّ (Mutter, d.h. 'im Mutterzustand, unbelesen') oder von أُمَّة (Volk). Akkusativ (الْأُمِّيَّ) als Attribut zu النَّبِيَّ.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=157"
+              },
+              {
+                "ref": "3:20",
+                "arabic": "وَالْأُمِّيِّينَ",
+                "explanation": "أُمِّيّ — von أُمَّة (Volk/Gemeinschaft) oder أُمّ (Mutter): 'unbelesen / der Schrift unkundig'. Maskuliner Plural auf -ين (Genitiv/Akkusativ nach Präposition).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=20"
+              },
+              {
+                "ref": "3:95",
+                "arabic": "مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا",
+                "explanation": "In 3:95 steht حَنِيفًا — von حَنَفَ (sich hinwenden): 'der sich (dem Einen) Zuwendende'. حَنِيف folgt dem Muster فَعِيل (reguläres Adjektiv). Es ist kein Nisba-Adjektiv, teilt aber die attributive Funktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=95"
+              },
+              {
+                "ref": "2:79",
+                "arabic": "يَكْتُبُونَ ٱلْكِتَٰبَ بِأَيْدِيهِمْ",
+                "explanation": "Kontext für أُمِّيّ (2:78): Die Charakterisierung als 'unbelesen' (أُمِّيُّونَ) bezieht sich auf Personen die das Buch nicht lesen, sondern nur Hörensagen (أَمَانِيّ) kennen.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=79"
+              },
+              {
+                "ref": "62:2",
+                "arabic": "هُوَ ٱلَّذِى بَعَثَ فِى ٱلْأُمِّيِّـنَ رَسُولًا مِّنْهُمْ",
+                "explanation": "الْأُمِّيِّينَ — Plural von أُمِّيّ. Genitiv nach فِي. Das Nisba-Adjektiv wird hier substantivisch verwendet (= die Unbelesenen).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2"
+              },
+              {
+                "ref": "5:82",
+                "arabic": "لَتَجِدَنَّ أَشَدَّ النَّاسِ عَدَاوَةً ... وَلَتَجِدَنَّ أَقْرَبَهُمْ مَوَدَّةً ... الَّذِينَ قَالُوا إِنَّا نَصَارَىٰ",
+                "explanation": "نَصَارَى — Plural von نَصْرَانِيّ. نَصْرَانِيّ ist eine Nisba-Form. Die Ableitung ist umstritten: möglicherweise von ناصِرَة (Nazareth) oder von einem Stamm نَصْرَان. Irregulärer Plural auf -ى.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=82"
+              },
+              {
+                "ref": "2:62",
+                "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا وَٱلَّذِينَ هَادُوا وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ",
+                "explanation": "صَابِئ ist ein Aktivpartizip (Muster فَاعِل) der Wurzel ص-ب-أ, KEINE Nisba-Bildung (kein Suffix ـِيّ). النَّصَارَى — irregulärer Nisba-Plural.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=62"
+              },
+              {
+                "ref": "66:12",
+                "arabic": "وَمَرْيَمَ ابْنَتَ عِمْرَانَ ... وَكَانَتْ مِنَ الْقَانِتِينَ",
+                "explanation": "Kein Nisba-Beispiel, aber zeigt wie Zugehörigkeit OHNE Nisba-Endung durch مِنَ + Plural ausgedrückt wird — alternative Konstruktion.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=66&verse=12"
+              },
+              {
+                "ref": "46:21",
+                "arabic": "وَٱذْكُرْ أَخَا عَادٍ",
+                "explanation": "عَادِيّ (adisch, zu 'Ad gehörig) wäre die Nisba-Form, aber der Quran verwendet stattdessen أَخَا عَادٍ (Bruder von 'Ad) — analytische Konstruktion statt Nisba.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=46&verse=21"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "title": "Nisba vs. analytische Zugehörigkeit",
+            "content": "Der Quran verwendet die Nisba-Endung seltener als das klassische Arabisch. Stattdessen drückt er Zugehörigkeit oft analytisch aus:\n\n• مِنْ + Gruppe: كَانَ مِنَ الْكَافِرِينَ (war von den Leugnern)\n• أَهْل + Genitiv: أَهْلَ الْكِتَابِ (Leute des Buches)\n• أَخ + Genitiv: أَخَا عَادٍ (Bruder von 'Ad)\n• ذُو + Genitiv: ذُو الْقَرْنَيْنِ (der mit den zwei Hörnern)\n\nDiese Konstruktionen sind im Quran produktiver als die morphologische Nisba-Bildung."
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Was ist die Nisba-Endung für maskulin?",
+          "options": [
+            "ـِيّ (-iyy)",
+            "ـَانِ (-aan)",
+            "ـُون (-uun)",
+            "ـَة (-ah)"
+          ],
+          "correct": 0,
+          "explanation": "Die maskuline Nisba-Endung ist ـِيّ mit Kasra und Shadda auf Ya.",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n166"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "In 62:2 steht الأُمِّيِّينَ. Was ist die Singularform?",
+          "options": [
+            "أُمِّيَّة",
+            "أُمِّيّ",
+            "أُمَّة",
+            "أُمّ"
+          ],
+          "correct": 1,
+          "explanation": "أُمِّيّ (Singular maskulin) → أُمِّيُّونَ/أُمِّيِّينَ (Plural maskulin gesund).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=62&verse=2"
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Was passiert mit Ta Marbuta bei der Nisba-Bildung?",
+            "options": [
+              "Sie bleibt erhalten",
+              "Sie fällt weg",
+              "Sie wird zu Ta Maftuha",
+              "Sie wird verdoppelt"
+            ],
+            "correct": 1,
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n172"
+          },
+          {
+            "question": "Wie drückt der Quran Zugehörigkeit am häufigsten aus?",
+            "options": [
+              "Durch Nisba-Endung (-iyy)",
+              "Durch analytische Konstruktionen (min, ahl, akhu, dhu)",
+              "Durch Iḍāfa",
+              "Durch Sifa"
+            ],
+            "correct": 1,
+            "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n172"
+          },
+          {
+            "question": "Was ist der Plural von نَصْرَانِيّ im Quran?",
+            "options": [
+              "نَصْرَانِيُّونَ",
+              "نَصَارَى",
+              "نَصَارِين",
+              "نَصَارِيَّات"
+            ],
+            "correct": 1,
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=82"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/WrightsArabicGrammar1Of2",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=2"
+    }
+  ]
+}

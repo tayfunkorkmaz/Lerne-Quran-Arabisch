@@ -1,0 +1,238 @@
+/* ===== Arabic Keyboard ===== */
+.arabic-keyboard {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.arabic-keyboard__show-btn {
+  padding: 6px 14px;
+  border-radius: var(--radius);
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  transition: all var(--transition);
+}
+
+.arabic-keyboard__show-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+/* Header */
+.arabic-keyboard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.arabic-keyboard__modes {
+  display: flex;
+  gap: 4px;
+}
+
+.arabic-keyboard__mode-btn {
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.arabic-keyboard__mode-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.arabic-keyboard__mode-btn--active {
+  background: var(--accent-teal-bg);
+  color: var(--accent-teal);
+}
+
+.arabic-keyboard__close-btn {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  transition: all var(--transition);
+}
+
+.arabic-keyboard__close-btn:hover {
+  background: var(--incorrect-bg);
+  color: var(--incorrect);
+}
+
+/* Transliteration input */
+.arabic-keyboard__translit {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.arabic-keyboard__translit-input {
+  flex: 1;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+}
+
+.arabic-keyboard__translit-preview {
+  font-size: 1.2rem;
+  color: var(--accent-gold);
+  min-width: 60px;
+  text-align: center;
+}
+
+/* Key grid */
+.arabic-keyboard__keys {
+  padding: 8px;
+}
+
+.arabic-keyboard__row {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.arabic-keyboard__row--actions {
+  margin-top: 4px;
+}
+
+.arabic-keyboard__key {
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--arabic-text);
+  font-family: var(--font-arabic);
+  font-size: 1.1rem;
+  border: 1px solid var(--border);
+  transition: all 0.1s ease;
+  padding: 0 4px;
+}
+
+.arabic-keyboard__key:hover {
+  background: var(--accent-teal-bg);
+  border-color: var(--accent-teal);
+  transform: translateY(-1px);
+}
+
+.arabic-keyboard__key:active {
+  transform: translateY(0);
+  background: var(--accent-teal);
+  color: var(--bg-primary);
+}
+
+.arabic-keyboard__key:focus-visible,
+.arabic-keyboard__mode-btn:focus-visible,
+.arabic-keyboard__show-btn:focus-visible {
+  outline: 2px solid var(--accent-teal);
+  outline-offset: 2px;
+}
+
+.arabic-keyboard__key--wide {
+  min-width: 120px;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  letter-spacing: 2px;
+}
+
+.arabic-keyboard__key--action {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+}
+
+.arabic-keyboard__key--action:hover {
+  background: var(--incorrect-bg);
+  border-color: var(--incorrect);
+  color: var(--incorrect);
+}
+
+/* Vowels panel */
+.arabic-keyboard__vowels {
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+}
+
+.arabic-keyboard__vowels-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.arabic-keyboard__vowels-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.arabic-keyboard__key--vowel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 52px;
+  height: auto;
+  padding: 4px 6px;
+}
+
+.arabic-keyboard__vowel-sample {
+  font-size: 1.3rem;
+}
+
+.arabic-keyboard__vowel-name {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Common combos */
+.arabic-keyboard__combos {
+  display: flex;
+  gap: 4px;
+  padding: 6px 10px;
+  border-top: 1px solid var(--border);
+}
+
+.arabic-keyboard__key--combo {
+  min-width: 48px;
+  background: var(--accent-gold-bg);
+  border-color: transparent;
+  color: var(--accent-gold);
+}
+
+.arabic-keyboard__key--combo:hover {
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+  border-color: var(--accent-gold);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .arabic-keyboard__key {
+    min-width: 30px;
+    height: 32px;
+    font-size: 0.95rem;
+  }
+
+  .arabic-keyboard__key--wide {
+    min-width: 80px;
+  }
+}

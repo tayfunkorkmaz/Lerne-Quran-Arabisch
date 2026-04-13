@@ -1,0 +1,739 @@
+{
+  "meta": {
+    "title": "Diptote und Triptote Deklination",
+    "description": "Unterscheidung zwischen voll deklinierbaren Nomen (triptot, منصرف) und eingeschränkt deklinierbaren Nomen (diptot, ممنوع من الصرف) im quranischen Arabisch.",
+    "sources": [
+      {
+        "name": "Wright's Grammar Vol I",
+        "url": "https://archive.org/details/WrightsArabicGrammar1Of2"
+      },
+      {
+        "name": "Wright's Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "explanation": {
+    "triptote": {
+      "title": "Triptote Nomen (Munṣarif)",
+      "arabic": "منصرف",
+      "description": "Normale Deklination mit allen drei Kasusendungen und Tanwin:\n- Nominativ: -un (ـٌ)\n- Akkusativ: -an (ـً)\n- Genitiv: -in (ـٍ)",
+      "example": {
+        "word": "كِتَاب",
+        "nom": "كِتَابٌ",
+        "acc": "كِتَابًا",
+        "gen": "كِتَابٍ"
+      },
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n234"
+    },
+    "diptote": {
+      "title": "Diptote Nomen (Mamnu' min as-Sarf)",
+      "arabic": "ممنوع من الصرف",
+      "description": "Eingeschränkte Deklination: Kein Tanwin, und im Genitiv steht Fatha statt Kasra:\n- Nominativ: -u (ـُ) ohne Tanwin\n- Akkusativ: -a (ـَ) ohne Tanwin\n- Genitiv: -a (ـَ) statt -i — das ist der entscheidende Unterschied",
+      "example": {
+        "word": "إِبْرَاهِيم",
+        "nom": "إِبْرَاهِيمُ",
+        "acc": "إِبْرَاهِيمَ",
+        "gen": "إِبْرَاهِيمَ"
+      },
+      "note": "Im Genitiv: Fatha statt Kasra. Das ist für die Vokalisierungsanalyse direkt relevant — wenn ein diptotes Nomen nach einer Präposition steht, hat es Fatha (nicht Kasra).",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n234"
+    },
+    "diptote_with_article": {
+      "title": "Diptote mit Artikel",
+      "description": "Wenn ein diptotes Nomen den bestimmten Artikel (ال) erhält, wird es TRIPTOT dekliniert — es bekommt Kasra im Genitiv zurück. Ebenso in der Iḍāfa (Konstruktverbindung).",
+      "example": "المساجد (die Moscheen): im Genitiv المساجدِ mit Kasra, obwohl مساجد allein diptot wäre.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n234"
+    }
+  },
+  "categories": [
+    {
+      "id": "proper_names_foreign",
+      "title": "Fremdsprachige Eigennamen",
+      "description": "Eigennamen die nicht arabischen Ursprungs sind und mehr als 3 Buchstaben haben.",
+      "examples": [
+        {
+          "word": "إِبْرَاهِيم",
+          "transliteration": "Ibrāhīm",
+          "meaning": "Abraham",
+          "locations": [
+            "2:124",
+            "2:125"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+        },
+        {
+          "word": "إِسْمَاعِيل",
+          "transliteration": "Ismāʿīl",
+          "meaning": "Ismael",
+          "locations": [
+            "2:125",
+            "2:127"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=127"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=125"
+        },
+        {
+          "word": "إِسْحَاق",
+          "transliteration": "Isḥāq",
+          "meaning": "Isaak",
+          "locations": [
+            "2:133",
+            "2:136"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=136"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133"
+        },
+        {
+          "word": "يَعْقُوب",
+          "transliteration": "Yaʿqūb",
+          "meaning": "Jakob",
+          "locations": [
+            "2:132",
+            "2:133"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=133"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=132"
+        },
+        {
+          "word": "يُوسُف",
+          "transliteration": "Yūsuf",
+          "meaning": "Josef",
+          "locations": [
+            "12:4"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        },
+        {
+          "word": "مُوسَى",
+          "transliteration": "Mūsā",
+          "meaning": "Moses",
+          "locations": [
+            "2:51",
+            "2:53"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=53"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=51"
+        },
+        {
+          "word": "عِيسَى",
+          "transliteration": "ʿĪsā",
+          "meaning": "Jesus",
+          "locations": [
+            "2:87",
+            "2:136"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=136"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        },
+        {
+          "word": "مريم",
+          "transliteration": "Maryam",
+          "meaning": "Maria",
+          "locations": [
+            "2:87",
+            "3:36"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=36"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        },
+        {
+          "word": "دَاوُد",
+          "transliteration": "Dāwūd",
+          "meaning": "David",
+          "locations": [
+            "2:251"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=251"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=251"
+        },
+        {
+          "word": "سُلَيْمَان",
+          "transliteration": "Sulaymān",
+          "meaning": "Salomo",
+          "locations": [
+            "2:102"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=102"
+        },
+        {
+          "word": "آدَم",
+          "transliteration": "Ādam",
+          "meaning": "Adam",
+          "locations": [
+            "2:31",
+            "2:33",
+            "2:34"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=33",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=34"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=31"
+        },
+        {
+          "word": "إِدْرِيس",
+          "transliteration": "Idrīs",
+          "meaning": "Idris",
+          "locations": [
+            "19:56",
+            "21:85"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=56",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=21&verse=85"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=56"
+        },
+        {
+          "word": "جِبْرِيل",
+          "transliteration": "Ǧibrīl",
+          "meaning": "Gabriel",
+          "locations": [
+            "2:97",
+            "2:98"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=97",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=98"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=97"
+        },
+        {
+          "word": "فِرْعَوْن",
+          "transliteration": "Firʿawn",
+          "meaning": "Pharao",
+          "locations": [
+            "2:49",
+            "2:50"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=50"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=49"
+        },
+        {
+          "word": "هَارُون",
+          "transliteration": "Hārūn",
+          "meaning": "Aaron",
+          "locations": [
+            "2:248",
+            "4:163"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=248",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=163"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=248"
+        }
+      ],
+      "exception": "Einige kurze arabisierte Eigennamen sind triptot: نوح (Nuh), لوط (Lut), هود (Hud), شعيب (Shuʿayb). Anmerkung zu شُعَيْب: Kann als triptot oder diptot analysiert werden. Die Diptot-Analyse folgt aus Diminutivmuster + fremdsprachigem Ursprung."
+    },
+    {
+      "id": "proper_names_feminine",
+      "title": "Feminine Eigennamen",
+      "description": "Weibliche Eigennamen sind generell diptot.",
+      "examples": [
+        {
+          "word": "مريم",
+          "transliteration": "Maryam",
+          "meaning": "Maria",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=87"
+        },
+        {
+          "word": "هاجر",
+          "transliteration": "Hāǧar",
+          "meaning": "Hagar",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+        }
+      ]
+    },
+    {
+      "id": "broken_plurals",
+      "title": "Bestimmte Broken-Plural-Muster",
+      "description": "Gebrochene Plurale der Muster مفاعل (mafāʿil) und مفاعيل (mafāʿīl) und ähnliche sind diptot.",
+      "patterns": [
+        {
+          "pattern": "مَفَاعِل",
+          "example": "مساجد",
+          "singular": "مسجد",
+          "meaning": "Moscheen",
+          "locations": [
+            "2:114",
+            "2:187"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=114",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=187"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=114"
+        },
+        {
+          "pattern": "مَفَاعِيل",
+          "example": "مصابيح",
+          "singular": "مصباح",
+          "meaning": "Lampen",
+          "locations": [
+            "67:5"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=67&verse=5"
+        },
+        {
+          "pattern": "فَعَالِل",
+          "example": "دراهم",
+          "singular": "درهم",
+          "meaning": "Dirham (Währung)",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+        },
+        {
+          "pattern": "أَفَاعِل",
+          "example": "اساور",
+          "singular": "اسوار",
+          "meaning": "Armbänder",
+          "locations": [
+            "18:31",
+            "22:23"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=31",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=23"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=31"
+        }
+      ],
+      "note": "Diese Pluralmuster sind im Quran extrem häufig. Ihre Diptoie hat direkte Konsequenzen für die Vokalisierung: Im Genitiv Fatha statt Kasra (ohne Artikel)."
+    },
+    {
+      "id": "adjective_af3al",
+      "title": "Adjektive auf af'al (Elativ/Komparativ)",
+      "description": "Die Elativform أَفْعَل (af'al) ist diptot.",
+      "examples": [
+        {
+          "word": "أَكْبَر",
+          "transliteration": "akbar",
+          "meaning": "größer/größt",
+          "locations": [
+            "4:153",
+            "9:72",
+            "29:45"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=153",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=9&verse=72",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=29&verse=45"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=153"
+        },
+        {
+          "word": "أَحْسَن",
+          "transliteration": "aḥsan",
+          "meaning": "besser/schöner",
+          "locations": [
+            "2:138",
+            "4:59",
+            "12:3"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=138",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=59",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=3"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=138"
+        },
+        {
+          "word": "أَعْلَم",
+          "transliteration": "aʿlam",
+          "meaning": "wissender",
+          "locations": [
+            "2:140",
+            "3:36",
+            "6:53"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=140",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=36",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=53"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=140"
+        },
+        {
+          "word": "أَكْثَر",
+          "transliteration": "akṯar",
+          "meaning": "mehr/die meisten",
+          "locations": [
+            "2:100",
+            "2:243",
+            "7:17"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=100",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=243",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=17"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=100"
+        },
+        {
+          "word": "أَدْنَى",
+          "transliteration": "adnā",
+          "meaning": "näher/niedrigster",
+          "locations": [
+            "2:61",
+            "2:282",
+            "30:3"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=282",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=30&verse=3"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=61"
+        }
+      ]
+    },
+    {
+      "id": "fa3lan",
+      "title": "Adjektive auf fa'lān mit Feminin fa'lā",
+      "description": "Adjektive des Musters فَعْلَان deren Feminin فَعْلَى ist, sind diptot.",
+      "examples": [
+        {
+          "word": "عَطْشَان",
+          "transliteration": "ʿaṭšān",
+          "meaning": "durstig",
+          "feminine": "عطشى",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+        },
+        {
+          "word": "غَضْبَان",
+          "transliteration": "ġaḍbān",
+          "meaning": "zürnend",
+          "feminine": "غضبى",
+          "locations": [
+            "7:150",
+            "20:86"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=150",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=86"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=150"
+        },
+        {
+          "word": "سَكْرَان",
+          "transliteration": "sakrān",
+          "meaning": "betrunken/berauscht",
+          "feminine": "سكرى",
+          "locations": [
+            "4:43",
+            "22:2"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=2"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=43"
+        }
+      ]
+    },
+    {
+      "id": "color_defect",
+      "title": "Farb- und Körperdefekt-Adjektive (af'al/fa'lā')",
+      "description": "Adjektive die Farben oder körperliche Merkmale beschreiben, Muster أَفْعَل / فَعْلَاء.",
+      "examples": [
+        {
+          "word": "أَبْيَض",
+          "transliteration": "abyaḍ",
+          "meaning": "weiß",
+          "feminine": "بيضاء",
+          "locations": [
+            "3:106",
+            "3:107",
+            "12:84"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=107",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=84"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+        },
+        {
+          "word": "أَسْوَد",
+          "transliteration": "aswad",
+          "meaning": "schwarz",
+          "feminine": "سوداء",
+          "locations": [
+            "3:106",
+            "16:58"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=16&verse=58"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=106"
+        },
+        {
+          "word": "أَحْمَر",
+          "transliteration": "aḥmar",
+          "meaning": "rot",
+          "feminine": "حمراء",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+        },
+        {
+          "word": "أَخْضَر",
+          "transliteration": "aḫḍar",
+          "meaning": "grün",
+          "feminine": "خضراء",
+          "locations": [
+            "6:99",
+            "12:43",
+            "12:46"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=99",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=43",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=46"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=99"
+        },
+        {
+          "word": "أَعْمَى",
+          "transliteration": "aʿmā",
+          "meaning": "blind",
+          "feminine": "عمياء",
+          "locations": [
+            "2:18",
+            "2:171",
+            "6:50",
+            "17:72"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=171",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=50",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=17&verse=72"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=18"
+        }
+      ]
+    },
+    {
+      "id": "numerals_mabniyy",
+      "title": "Zusammengesetzte Zahlwörter 11-19 (mabniyy, NICHT diptot)",
+      "description": "ACHTUNG: Die zusammengesetzten Zahlwörter 11-19 sind mabniyy 'ala l-fath (مَبْنِيّ عَلَى الْفَتْح) — indeklinabel, auf Fatha gebaut. Sie sind KEINE Diptota, da sie überhaupt nicht dekliniert werden. Beide Teile sind unveränderlich auf Fatha fixiert (außer اثنا عشر, das im Nominativ -āni hat).",
+      "examples": [
+        {
+          "word": "احد عشر",
+          "transliteration": "aḥada ʿašara",
+          "meaning": "elf",
+          "note": "mabniyy 'ala l-fath — beide Teile indeklinabel",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+        }
+      ]
+    },
+    {
+      "id": "numerals_diptote",
+      "title": "Verteilungszahlwörter (diptot)",
+      "description": "Die Verteilungszahlwörter (ma'dul) wie مثنى، ثلاث، رباع sind diptot — sie haben das Muster fuʿal von einem bestimmten Zahlwort abgeleitet und tragen zwei Hinderungsgründe (العدل والوصف).",
+      "examples": [
+        {
+          "word": "مثنى",
+          "transliteration": "maṯnā",
+          "meaning": "zu zweit",
+          "locations": [
+            "4:3",
+            "34:46",
+            "35:1"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=34&verse=46",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3"
+        },
+        {
+          "word": "ثُلَاثَ",
+          "transliteration": "ṯulāṯ",
+          "meaning": "zu dritt",
+          "locations": [
+            "4:3",
+            "35:1"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3"
+        },
+        {
+          "word": "رباع",
+          "transliteration": "rubāʿ",
+          "meaning": "zu viert",
+          "locations": [
+            "4:3",
+            "35:1"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=35&verse=1"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3"
+        }
+      ]
+    },
+    {
+      "id": "fu3al",
+      "title": "Bestimmte Nomen auf fuʿal",
+      "description": "Nomen des Musters فُعَل die als Ersatz für definite Ausdrücke stehen.",
+      "examples": [
+        {
+          "word": "أُخَر",
+          "transliteration": "uḫar",
+          "meaning": "andere (Plural)",
+          "locations": [
+            "2:184",
+            "2:185",
+            "3:7"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=185",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+        },
+        {
+          "word": "جمع",
+          "transliteration": "ǧumaʿ",
+          "meaning": "Freitage (Plural von جُمُعَة)",
+          "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+        }
+      ]
+    },
+    {
+      "id": "ashyaa_exception",
+      "title": "Sonderfall أَشْيَاء — diptot trotz unklarem Muster",
+      "description": "أَشْيَاء (Dinge, Plural von شَيْء) ist einer der meistdiskutierten Sonderfälle der arabischen Grammatik. Das Wort ist diptot, obwohl es keinem der Standardmuster eindeutig zuzuordnen ist. Die Diptosie wird durch die finale همزة nach ألف ausgelöst — die Endung ـَاء blockiert Tanwin und Kasra, analog zu فَعْلَاء (wie حَمْرَاء) oder أَفْعِلَاء. Das zugrundeliegende Muster ist mehrdeutig: أَفْعِلَاء (mit Metathese aus أَشْيِئَاء) oder فَعْلَاء (شَيْئَاء → أَشْيَاء) ist. Beide Analysen führen zum selben Ergebnis: Diptosie wegen der Endung auf ألف + همزة.",
+      "examples": [
+        {
+          "word": "أَشْيَاء",
+          "transliteration": "ašyāʾ",
+          "meaning": "Dinge (Plural von شَيْء)",
+          "singular": "شَيْء",
+          "locations": [
+            "2:108",
+            "5:101",
+            "5:102",
+            "6:148",
+            "22:28",
+            "49:12"
+          ],
+          "verifyUrls": [
+            "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=101",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=102",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=148",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=22&verse=28",
+            "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=12"
+          ],
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=108"
+        }
+      ],
+      "note": "أَشْيَاء ist diptot in allen quranischen Vorkommen — erkennbar am fehlenden Tanwin und Fatha im Genitiv (z.B. 5:101: عَنْ أَشْيَاءَ mit Fatha nach der Präposition عَنْ). Dieser Fall wird in der klassischen Grammatik ausführlich diskutiert (Das zugrundeliegende Muster kann als أَفْعِلَاء (Metathese) oder فَعْلَاء analysiert werden). Entscheidend ist: Unabhängig vom Muster blockiert die Endung ـَاء die volle Deklination.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=101"
+    }
+  ],
+  "testQuestions": [
+    {
+      "id": "d1",
+      "question": "Warum hat das Wort ابراهيم im Genitiv (nach من) Fatha statt Kasra?",
+      "options": [
+        "Es ist ein Grammatikfehler",
+        "Es ist ein diptotes Nomen (fremdsprachiger Eigenname) — Genitiv mit Fatha",
+        "Es ist ein Verb, kein Nomen",
+        "Es steht im Akkusativ, nicht im Genitiv"
+      ],
+      "correct": 1,
+      "explanation": "ابراهيم ist ein fremdsprachiger Eigenname mit mehr als 3 Buchstaben — daher diptot. Im Genitiv: Fatha statt Kasra.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "id": "d2",
+      "question": "Wie wird مساجد (Moscheen) im Genitiv ohne Artikel dekliniert?",
+      "options": [
+        "مساجدٍ (mit Kasra und Tanwin)",
+        "مساجدَ (mit Fatha, ohne Tanwin)",
+        "مساجدِ (mit Kasra, ohne Tanwin)",
+        "مساجدُ (mit Damma)"
+      ],
+      "correct": 1,
+      "explanation": "مساجد ist ein gebrochener Plural des Musters مفاعل — diptot. Genitiv: Fatha ohne Tanwin.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=114"
+    },
+    {
+      "id": "d3",
+      "question": "Was passiert wenn ein diptotes Nomen den bestimmten Artikel bekommt?",
+      "options": [
+        "Es bleibt diptot",
+        "Es wird triptot dekliniert (bekommt Kasra im Genitiv zurück)",
+        "Es verliert den Artikel wieder",
+        "Es wird indeklinabel"
+      ],
+      "correct": 1,
+      "explanation": "Mit Artikel wird ein diptotes Nomen triptot: المساجدِ (mit Kasra). Ebenso in der Iḍāfa.",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+    },
+    {
+      "id": "d4",
+      "question": "Welches dieser Wörter ist NICHT diptot?",
+      "options": [
+        "ابراهيم (Abraham)",
+        "مساجد (Moscheen)",
+        "كتاب (Buch)",
+        "اكبر (größer)"
+      ],
+      "correct": 2,
+      "explanation": "كتاب ist ein reguläres triptotes Nomen. Die anderen drei sind diptot (Eigenname, Broken-Plural-Muster, Elativform).",
+      "verifyUrl": "https://archive.org/details/WrightsArabicGrammar1Of2/page/n88"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "title": "Ellipsen-Hinweise",
+    "description": "Daten für optionale Hinweise wenn eine grammatisch erwartete Stelle unbesetzt bleibt.",
+    "sources": [
+      {
+        "name": "Wright's Arabic Grammar Vol II",
+        "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Quranic Arabic Corpus",
+        "url": "https://corpus.quran.com/"
+      }
+    ]
+  },
+  "transitiveVerbs": [
+    "كتب",
+    "ضرب",
+    "جعل",
+    "علم",
+    "خلق",
+    "فتح",
+    "رزق",
+    "ارسل",
+    "انزل",
+    "اتى",
+    "اخذ",
+    "قتل",
+    "سال",
+    "رحم",
+    "هدى",
+    "وجد",
+    "شهد",
+    "امر",
+    "كسب",
+    "عمل",
+    "بلغ",
+    "حمل",
+    "طلب",
+    "بنى",
+    "سمع",
+    "بصر",
+    "نصر",
+    "حفظ",
+    "غفر",
+    "سبح",
+    "ذكر",
+    "ترك",
+    "وعد",
+    "ملك",
+    "نسي",
+    "ظلم",
+    "حرم",
+    "زاد",
+    "شكر",
+    "صدق",
+    "كذب",
+    "دخل",
+    "وهب",
+    "سمى",
+    "بدل",
+    "اراد",
+    "حسب",
+    "ظن",
+    "اكل",
+    "شرب"
+  ],
+  "hints": {
+    "missing_object": "Dieses Verb ist transitiv, aber kein direktes Objekt (Mafʿul bihi) ist sichtbar. Mögliche Erklärungen: (1) Das Objekt ist aus dem Kontext impliziert (Ellipse). (2) Das Verb wird hier intransitiv gebraucht. (3) Das Objekt folgt in einem späteren Vers.",
+    "missing_khabar": "Ein Mubtada' wurde identifiziert, aber kein Khabar ist sichtbar. Das Prädikat könnte: (1) in einem Nebensatz stehen, (2) durch einen Präpositionalsatz ersetzt sein (jarr wa-majrur als Khabar), (3) aus dem vorherigen Kontext impliziert sein.",
+    "missing_fa3il": "Ein Verb wurde identifiziert, aber kein explizites Subjekt (Faʿil) ist sichtbar. Im Arabischen kann das Subjekt im Verb selbst enthalten sein (Personalendung) — aber prüfen ob ein separates Subjekt erwartet wird.",
+    "missing_verb": "Ein Satz oder eine Konstruktion deutet auf ein elidiertes Verb hin. Typisch bei: (1) Schwursätzen — der Schwurinhalt (jawab al-qasam) hat ein implizites Verb. (2) Konditionalsätzen — das Verb der Protasis oder Apodosis fehlt. (3) Existenz-/Präsentivsätzen, wo 'kana' oder ein Bewegungsverb impliziert ist.",
+    "missing_mawsuf": "Ein Adjektiv oder eine Beschreibung steht ohne sichtbares beschriebenes Nomen (Mawsuf). Das Adjektiv wird substantivisch gebraucht, wobei das beschriebene Nomen aus dem Kontext erschließbar ist. Typisch bei Zahlwörtern, Farbbezeichnungen und partizipialen Konstruktionen.",
+    "missing_condition_answer": "Ein Konditionalsatz (in/idha/law + Bedingung) ist sichtbar, aber die Antwort (Jawab al-Shart) fehlt oder ist nur impliziert. Mögliche Erklärungen: (1) Die Antwort ist identisch mit dem vorhergehenden Hauptsatz. (2) Die Antwort wird durch den Kontext als selbstverständlich vorausgesetzt. (3) Die Ellipse dient der sprachlichen Wirkung (Auslassung des Schrecklichen/Gewaltigen)."
+  },
+  "concreteExamples": [
+    {
+      "ref": "2:62",
+      "arabic": "مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَعَمِلَ صَٰلِحًا",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "صَالِحًا fungiert als substantiviertes Adjektiv und IST das direkte Objekt. Kein fehlendes Element.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=62"
+    },
+    {
+      "ref": "12:82",
+      "arabic": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "وَاسْأَلِ الْقَرْيَةَ — frag die Ortschaft. Der Text formuliert die Aufforderung direkt an die Ortschaft. Syntaktisch ist der Satz vollständig — kein fehlendes Wort muss ergänzt werden. Kein fehlendes Wort muss ergänzt werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=82"
+    },
+    {
+      "ref": "38:33",
+      "arabic": "رُدُّوهَا عَلَىَّ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "Das Pronomen -هَا IST das Objekt. Pronominale Anapher ist normale Kohäsion, keine syntaktische Lücke.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=38&verse=33"
+    },
+    {
+      "ref": "2:184",
+      "arabic": "فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ",
+      "ellipsisType": "missing_khabar",
+      "analysis": "فَعِدَّةٌ ist Mubtada'. Das Khabar ist elidiert. Die syntaktische Struktur: فَ (Apodosis-Partikel) + عِدَّةٌ (Mubtada', Nominativ) + مِنْ أَيَّامٍ أُخَرَ (Sifa/Jarr wa-Majrur). Das fehlende Prädikat muss aus dem Kontext erschlossen werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=184"
+    },
+    {
+      "ref": "2:233",
+      "arabic": "وَٱلْوَٰلِدَٰتُ يُرْضِعْنَ أَوْلَٰدَهُنَّ حَوْلَيْنِ كَامِلَيْنِ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "يُرْضِعْنَ steht im Indikativ (مُضَارِع مَرْفُوع). Es gibt kein sichtbares Modalverb — der deontische Charakter des Satzes entsteht durch den Kontext, nicht durch ein elidiertes Element. Der Satz ist syntaktisch vollständig: Mubtada' (الْوَالِدَاتُ) + Khabar (Verbalsatz يُرْضِعْنَ أَوْلَادَهُنَّ).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=233"
+    },
+    {
+      "ref": "39:73",
+      "arabic": "حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ",
+      "ellipsisType": "missing_condition_answer",
+      "analysis": "حَتَّىٰ إِذَا leitet eine Bedingung ein, aber der Jawab al-Shart fehlt formal. Das Waw vor فُتِحَتْ ist umstritten: Ist es Teil der Shart oder Beginn des Jawab? Formal ist der Jawab nicht eindeutig markiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=73"
+    },
+    {
+      "ref": "13:31",
+      "arabic": "وَلَوْ أَنَّ قُرْءَانًا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ",
+      "ellipsisType": "missing_condition_answer",
+      "analysis": "Die Apodosis (Nachsatz) des Konditionalsatzes fehlt. Die Apodosis (Jawab al-Shart) ist nicht realisiert (Hazf al-Jawab). Syntaktisch: offene Konditionalstruktur ohne explizite Antwort.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=13&verse=31"
+    },
+    {
+      "ref": "2:48",
+      "arabic": "وَٱتَّقُوا يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ",
+      "ellipsisType": "asyndetic_relative",
+      "analysis": "Asyndetischer Relativsatz bei indefinitem Bezugswort — Standardgrammatik für indefinite Antezedenten, keine Ellipse.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=48"
+    },
+    {
+      "ref": "2:124",
+      "arabic": "قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِن",
+      "ellipsisType": "missing_verb",
+      "analysis": "وَمِنْ ذُرِّيَّتِي — elliptische Präpositionalphrase. Das Verb/Prädikat ist nicht wiederholt; aus dem Vorkontext (جَاعِلُكَ) ist ein paralleles جَاعِل als Bezug erschließbar. Die konkrete semantische Ergänzung bleibt offen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=124"
+    },
+    {
+      "ref": "56:63",
+      "arabic": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+      "ellipsisType": "missing_object",
+      "analysis": "رَأَيْتُمْ nimmt hier zwei Objekte: das erste ist مَا تَحْرُثُونَ, das zweite (Jawab) folgt in V.64. Das zweite Objekt ist syntaktisch getrennt durch den Fragesatz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=63"
+    },
+    {
+      "ref": "3:7",
+      "arabic": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَٰبَ مِنْهُ ءَايَٰتٌ مُّحْكَمَٰتٌ",
+      "ellipsisType": "apparent_ellipsis",
+      "analysis": "مِنْهُ آيَاتٌ — der Präpositionalausdruck مِنْهُ fungiert als vorgestelltes Khabar für das Mubtada' آيَاتٌ. Dies ist KEINE Ellipse: Das Khabar ist vollständig vorhanden, realisiert als Jarr-wa-Majrur. Dieses Beispiel zeigt den Unterschied zwischen echter Ellipse (fehlendes Element) und einer ungewöhnlichen Khabar-Realisierung.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+    },
+    {
+      "ref": "6:95",
+      "arabic": "فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ",
+      "ellipsisType": "missing_fa3il",
+      "analysis": "يُخْرِجُ — das Subjekt ist im Verb impliziert (3ms) und referiert auf الله aus dem Kontext. Kein separates Faʿil im Satz.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=95"
+    },
+    {
+      "ref": "75:1",
+      "arabic": "لَآ أُقْسِمُ بِيَوْمِ",
+      "ellipsisType": "missing_condition_answer",
+      "analysis": "لَا أُقْسِمُ — zwei Lesungen: (1) لَا als Negation: 'Ich schwöre nicht', (2) لَا als expletive Partikel: 'Ich schwöre (durchaus)'. Der Jawab al-Qasam (der Inhalt des Schwurs) fehlt unmittelbar und wird erst später im Kontext deutlich. Typische Schwur-Ellipse.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=75&verse=1"
+    },
+    {
+      "ref": "36:13",
+      "arabic": "وَٱضْرِبْ لَهُم مَّثَلًا أَصْحَٰبَ ٱلْقَرْيَةِ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "أَصْحَابَ الْقَرْيَةِ steht als Badal (Apposition) zu مَثَلًا im Akkusativ. Der Satz ist syntaktisch vollständig — kein elidiertes Element muss angenommen werden. Die Struktur: اضْرِبْ (Verb) + لَهُمْ (indirektes Objekt) + مَثَلًا (direktes Objekt) + أَصْحَابَ الْقَرْيَةِ (Badal zu مَثَلًا).",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=36&verse=13"
+    },
+    {
+      "ref": "2:196",
+      "arabic": "فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ",
+      "ellipsisType": "missing_khabar",
+      "analysis": "فَصِيَامُ ist Mubtada'. Das Khabar ist elidiert. Die syntaktische Struktur: فَ (Apodosis-Partikel) + صِيَامُ (Mubtada', Nominativ) + ثَلَاثَةِ أَيَّامٍ (Iḍāfa, Genitiv). Das fehlende Prädikat muss aus dem Kontext erschlossen werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+    },
+    {
+      "ref": "4:3",
+      "arabic": "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا فِى ٱلْيَتَٰمَىٰ فَٱنكِحُوا",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "الْيَتَامَى ist ein generischer Plural und benötigt kein beschriebenes Nomen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=3"
+    },
+    {
+      "ref": "11:44",
+      "arabic": "يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "أَقْلَعَ kann absolut (intransitiv) gebraucht werden: 'Hör auf!' Kein Objekt fehlt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=11&verse=44"
+    },
+    {
+      "ref": "20:40",
+      "arabic": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "Das Ziel der Leitung ist im Relativsatz explizit genannt: عَلَى مَنْ يَكْفُلُهُ ('auf jemanden, der ihn aufzieht').",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=40"
+    },
+    {
+      "ref": "18:79",
+      "arabic": "أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "عَمِلَ ist hier intransitiv verwendet ('arbeiten'), mit dem Lokativ فِي الْبَحْرِ. Kein elidiertes Objekt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=18&verse=79"
+    },
+    {
+      "ref": "27:44",
+      "arabic": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً",
+      "ellipsisType": "missing_fa3il",
+      "analysis": "قِيلَ — Passivform ohne erkennbares Agens: 'Es wurde ihr gesagt'. Das Passiv lässt den Akteur bewusst offen.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=27&verse=44"
+    },
+    {
+      "ref": "56:22",
+      "arabic": "وَحُورٌ عِينٌ",
+      "ellipsisType": "missing_khabar",
+      "analysis": "حُورٌ عِينٌ steht als Mubtada'. Das Khabar ist syntaktisch nicht explizit im Text vorhanden. Das fehlende Prädikat muss aus dem Kontext erschlossen werden.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=56&verse=22"
+    },
+    {
+      "ref": "89:1-2",
+      "arabic": "وَالْفَجْرِ وَلَيَالٍ عَشْرٍ",
+      "ellipsisType": "missing_condition_answer",
+      "analysis": "Der Schwur (wa-l-fajr) erstreckt sich über mehrere Verse, aber der Jawab al-Qasam (der Inhalt, auf den geschworen wird) ist nicht eindeutig markiert. Manche sehen ihn in V.14, andere halten ihn für elidiert.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=89&verse=1"
+    },
+    {
+      "ref": "2:200",
+      "arabic": "فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا",
+      "ellipsisType": "missing_object",
+      "analysis": "آتِنَا (gib uns) — das Objekt ist im Text nicht spezifiziert. Was erbeten wird, bleibt unbestimmt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=200"
+    },
+    {
+      "ref": "7:150",
+      "arabic": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِن",
+      "ellipsisType": "missing_mawsuf",
+      "analysis": "بِئْسَمَا — das Mawsuf zum Tadel fehlt: 'Schlimm [ist das], was ihr nach mir als Nachfolge betrieben habt'. Das Nomen, das بِئْسَ qualifiziert, ist durch ما ersetzt.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=7&verse=150"
+    },
+    {
+      "ref": "47:15",
+      "arabic": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ",
+      "ellipsisType": "missing_khabar",
+      "analysis": "مَثَلُ الْجَنَّةِ ist Mubtada'. Das Khabar ist umstritten — manche sehen فِيهَا أَنْهَارٌ als Khabar-Satz, andere halten das eigentliche Khabar für elidiert: 'Die Beschreibung des Gartens [ist wie folgt]:...'.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=47&verse=15"
+    },
+    {
+      "ref": "6:136",
+      "arabic": "وَجَعَلُوا لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "Das Relativpronomen مَا in مِمَّا ذَرَأَ IST das Objekt von ذَرَأَ. Kein elidiertes Element.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=6&verse=136"
+    },
+    {
+      "ref": "42:5",
+      "arabic": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "السَّمَاوَاتُ ist das explizite Subjekt im selben Vers.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=42&verse=5"
+    },
+    {
+      "ref": "100:1",
+      "arabic": "وَٱلْعَٰدِيَٰتِ ضَبْحًا",
+      "ellipsisType": "kein_ellipsis",
+      "analysis": "الْعَادِيَاتِ ist ein substantiviertes Partizip: 'die Rennenden'. Es funktioniert syntaktisch selbstständig und erfordert kein elidiertes Bezugswort.",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=100&verse=1"
+    }
+  ]
+}
