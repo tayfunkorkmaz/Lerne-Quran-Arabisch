@@ -2197,6 +2197,113 @@
       ]
     },
     {
+      "id": "geminated_singulars",
+      "title": "Geminierte Nomina im Singular (مُضَعَّف — Doppelkonsonanz)",
+      "description": "Nomina, deren 2. und 3. Radikal identisch sind und im Singular durch Shadda verschmolzen werden. Diese Muster sind morphologisch eine Untergruppe der mudaʿʿaf-Wurzeln und verhalten sich flexionstechnisch regelmäßig, phonologisch jedoch mit konsonantischer Verdopplung.",
+      "patterns": [
+        {
+          "pattern": "فَعّ (CaCC → CaCː)",
+          "transliteration": "faʿʿ",
+          "function": "Zweiradikale Oberflächenform mit Shadda auf dem einzigen Radikal: morphologisch dreiradikal (R2 = R3), phonologisch geminat. Häufig für abstrakte, konzeptuelle oder punkt-artige Bedeutungen — das verdoppelte R2/R3 zeigt intensive oder abgeschlossene Qualität.",
+          "examples": [
+            {
+              "vocalized": "رَبّ",
+              "root": "ر-ب-ب",
+              "meaning": "Herr, Eigner, Unterhalter",
+              "ref": "1:2",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=2"
+            },
+            {
+              "vocalized": "حَقّ",
+              "root": "ح-ق-ق",
+              "meaning": "Wahrheit, Recht, Berechtigtes",
+              "ref": "2:26",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=26"
+            },
+            {
+              "vocalized": "شَكّ",
+              "root": "ش-ك-ك",
+              "meaning": "Zweifel",
+              "ref": "2:23",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=23"
+            },
+            {
+              "vocalized": "ظَنّ",
+              "root": "ظ-ن-ن",
+              "meaning": "Annahme, Vermutung",
+              "ref": "2:46",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=46"
+            }
+          ],
+          "frequencyNote": "Sehr häufig — Kernvokabular"
+        },
+        {
+          "pattern": "فِعّ",
+          "transliteration": "fiʿʿ",
+          "function": "Kasra-Variante der geminaten Singulare. Oft bei konkreten Gegenständen oder punktuellen Bedeutungen.",
+          "examples": [
+            {
+              "vocalized": "سِنّ",
+              "root": "س-ن-ن",
+              "meaning": "Zahn, Lebensalter",
+              "ref": "5:45",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=5&verse=45"
+            },
+            {
+              "vocalized": "ضِدّ",
+              "root": "ض-د-د",
+              "meaning": "Gegenteil, Gegner",
+              "ref": "19:82",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=82"
+            }
+          ],
+          "frequencyNote": "Gelegentlich"
+        },
+        {
+          "pattern": "فُعّ",
+          "transliteration": "fuʿʿ",
+          "function": "Damma-Variante; oft bei Kollektivnomen, physischen Entitäten oder Grundsubstanzen.",
+          "examples": [
+            {
+              "vocalized": "كُلّ",
+              "root": "ك-ل-ل",
+              "meaning": "Gesamtheit, alles, jedes",
+              "ref": "2:20",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=20"
+            },
+            {
+              "vocalized": "بُرّ",
+              "root": "ب-ر-ر",
+              "meaning": "Frömmigkeit, rechtes Handeln (als Konzeptnomen); Weizen (als Stoffnomen)",
+              "ref": "2:177",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+            }
+          ],
+          "frequencyNote": "Mittel"
+        },
+        {
+          "pattern": "فِعَال (mit gelöster Gemination im Plural)",
+          "transliteration": "fiʿāl",
+          "function": "Häufigster Plural geminater Singulare: Die verdoppelte Konsonanz wird im Plural durch den langen Vokal ā aufgelöst. Beispiel: رَبّ → أَرْبَاب (gebrochener Plural Form أَفْعَال); حَقّ → حُقُوق (anderer Brokenplural); ضِدّ → أَضْدَاد. Kein einheitliches Plural-Muster — die Verbindung zwischen Singular-Gemination und Pluralauflösung ist das diagnostische Merkmal.",
+          "examples": [
+            {
+              "vocalized": "أَرْبَاب",
+              "root": "ر-ب-ب",
+              "meaning": "Herren (Pl. von رَبّ)",
+              "ref": "3:80",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=80"
+            },
+            {
+              "vocalized": "حُقُوق",
+              "root": "ح-ق-ق",
+              "meaning": "Rechte, Pflichten (Pl. von حَقّ)"
+            }
+          ],
+          "frequencyNote": "Häufig"
+        }
+      ]
+    },
+    {
       "id": "sound_plurals_dual",
       "title": "Gesunde Plurale und Dual",
       "description": "Neben den gebrochenen Pluralen gibt es reguläre Pluralendungen und den Dual.",

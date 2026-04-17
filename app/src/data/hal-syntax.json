@@ -11,6 +11,14 @@
         "label": "Quranic Arabic Corpus",
         "url": "https://corpus.quran.com"
       }
+    ],
+    "crossReferences": [
+      {
+        "label": "Hal vs. Tamyiz — systematischer Kontrast",
+        "file": "tamyiz-syntax.json",
+        "lessonId": "TAM4",
+        "note": "Für die Abgrenzung zwischen Hal und Tamyiz (beide akkusativisch, beide präzisierend) siehe die vergleichende Kontrast-Lektion in tamyiz-syntax.json."
+      }
     ]
   },
   "lessons": [

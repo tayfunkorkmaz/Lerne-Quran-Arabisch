@@ -11,8 +11,19 @@
       {
         "name": "Wright's Arabic Grammar Vol II",
         "url": "https://archive.org/details/grammarofthearab02telerich"
+      },
+      {
+        "name": "Lane's Arabic-English Lexicon (via Arabic Almanac)",
+        "url": "https://ejtaal.net/aa/",
+        "note": "Für die Wurzelsemantik der in den Figuren verwendeten Lexeme — pro Wurzel bereits verlinkt in root-meanings.json (Feld lanesUrl)."
+      },
+      {
+        "name": "Arabic Student's Dictionary (Penrice) — idiomatische Wendungen",
+        "url": "https://arabicstudentsdictionary.com/",
+        "note": "Sekundärwörterbuch für Kollokationen und idiomatische Phrasen, die über die reine Wurzelbedeutung hinausgehen. Ergänzt Lane's bei phraseologischer Semantik."
       }
-    ]
+    ],
+    "lexicalReferenceGuide": "Für die lexikalische Verifikation einer in einer Lektion genannten Wurzel: 1) In root-meanings.json nach dem Feld root nachschlagen und lanesUrl öffnen. 2) Für Kollokationen/feste Wendungen die URL aus sources.arabicStudentsDictionary aufrufen und die Wurzel/Phrase suchen. 3) Für Kontextbelege corpusUrl der jeweiligen Quranstelle öffnen."
   },
   "lessons": [
     {

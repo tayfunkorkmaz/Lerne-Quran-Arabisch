@@ -816,6 +816,120 @@
       },
       "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
       "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=7"
+    },
+    {
+      "id": "NEG11",
+      "title": "Kontrast: لَا النَّافِيَة لِلْجِنْس vs. لَا النَّافِيَة العامة",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Zwei لَا — zwei syntaktische Effekte",
+            "content": "Im quranischen Arabisch gibt es zwei syntaktisch grundverschiedene Funktionen der Negationspartikel لَا. Die Unterscheidung ist zentral, weil beide Typen ein unterschiedliches Akkusativ-Verhalten und eine unterschiedliche semantische Reichweite haben.\n\nTYP A — لَا النَّافِيَة لِلْجِنْس (Gattungsnegation, vgl. NEG1):\n- regiert ein Nomen im AKKUSATIV\n- das Nomen ist مَبْنِيّ عَلَى الفَتْح (festgesetzt auf Fatha) wenn einfach ohne Iḍāfa\n- negiert die gesamte Gattung (‚es gibt keinerlei X')\n- analog zur Funktion von إِنَّ\n\nTYP B — لَا النَّافِيَة العامة / لَا النَّافِيَة للفعل (einfache Verneinung, vgl. NEG2):\n- regiert ein IMPERFEKTVERB ohne Modusänderung (Indikativ bleibt Indikativ)\n- negiert ein einzelnes Handlungsgeschehen (‚X geschieht nicht')\n- keine Kongruenz-Effekte auf das Folgende\n\nDer Unterschied zeigt sich an dem, was nach لَا steht: Nomen (Akk., Tanwin-los) → Typ A; Imperfektverb (Indikativ mit Damma/Nun) → Typ B."
+          },
+          {
+            "type": "explanation",
+            "title": "Minimalpaar: لَا رَيْبَ vs. لَا يَعْلَمُونَ",
+            "content": "Das klassische Minimalpaar demonstriert beide Typen im selben Sura 2:\n\nTYP A (Gattung):\nلَا رَيْبَ فِيهِ (2:2) — ‚es gibt keinen Zweifel darin'\n- لَا = Gattungsnegation\n- رَيْبَ = اسم لَا, Akkusativ, festgesetzt auf Fatha (NICHT رَيْبًا mit Tanwin)\n- فِيهِ = Prädikat (Präpositionalphrase)\n- Reichweite: JEDE Art von Zweifel — nicht nur einer\n\nTYP B (Einfaches Handlungs-Nein):\nوَلَٰكِن لَّا يَعْلَمُونَ (2:13) — ‚doch sie wissen nicht'\n- لَا = einfache Verneinung\n- يَعْلَمُونَ = Imperfekt INDIKATIV (Nun erhalten → Fünf-Verben-Muster)\n- Kein Kasus-Effekt\n- Reichweite: das konkrete Handlungsgeschehen ‚wissen'\n\nDer Formunterschied (Nomen Akk. mit مَبْنِيّ-Fatha vs. Verb Indikativ mit Nun) ist der diagnostische Schlüssel."
+          },
+          {
+            "type": "explanation",
+            "title": "Diagnosefragen",
+            "content": "Um den Typ eines لَا zu bestimmen:\n\nFRAGE 1: Was folgt unmittelbar?\n- Ein NOMEN im Akkusativ ohne Tanwin → Typ A (Gattung)\n- Ein IMPERFEKTVERB im Indikativ → Typ B (Handlungs-Nein)\n\nFRAGE 2: Wird die Gattung negiert oder ein Geschehen?\n- ‚Es gibt keinerlei ...' → Typ A\n- ‚... geschieht nicht' → Typ B\n\nFRAGE 3: Wie würde die Tanwin-Form aussehen?\n- لَا رَيْبَ vs. لَا رَيْبٌ: ersteres ist Typ A (festgesetzt), zweites wäre ein informelles Wortspiel mit لَيْسَ-ähnlicher Funktion (hier nicht zutreffend).\n\nWeitere Typen von لَا (لَا النَّاهِيَة = Prohibitiv-Jussiv, siehe NEG5) gehorchen anderen Regeln — hier geht es NUR um die beiden nicht-modusändernden Typen."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranische Belege im direkten Vergleich",
+            "examples": [
+              {
+                "ref": "2:2",
+                "arabic": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ",
+                "explanation": "TYP A: لَا رَيْبَ — Gattungsnegation. رَيْبَ ohne Tanwin (مَبْنِيّ عَلَى الفَتْح). Negiert JEDE Art von Zweifel. Prädikat فِيهِ. Vergleiche direkt mit 2:13.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+              },
+              {
+                "ref": "2:13",
+                "arabic": "وَلَٰكِن لَّا يَعْلَمُونَ",
+                "explanation": "TYP B: لَا يَعْلَمُونَ — einfache Handlungsverneinung. يَعْلَمُونَ im Indikativ (Nun erhalten). Kein Kasus-Effekt. Negiert das Handlungsgeschehen ‚wissen' im Hier und Jetzt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+              },
+              {
+                "ref": "2:255",
+                "arabic": "لَّآ إِلَٰهَ إِلَّا هُوَ",
+                "explanation": "TYP A: لَا إِلَٰهَ — Gattungsnegation. إِلَٰهَ ohne Tanwin (festgesetzt). ‚Es gibt keinerlei Gottheit außer ihm.' إِلَّا leitet die Ausnahme ein; هُوَ ist das Badal (als Nominativ).",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+              },
+              {
+                "ref": "2:216",
+                "arabic": "وَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَهُوَ خَيْرٌ لَّكُمْ وَعَسَىٰٓ أَن تُحِبُّوا۟ شَيْـًٔا وَهُوَ شَرٌّ لَّكُمْ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+                "explanation": "TYP B: لَا تَعْلَمُونَ — einfache Handlungsverneinung. Verb bleibt im Indikativ. ‚Ihr wisst nicht' — ein Handlungs-Nein, keine Gattungs-Aussage.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=216"
+              },
+              {
+                "ref": "2:197",
+                "arabic": "فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِى ٱلْحَجِّ",
+                "explanation": "DREIFACHER TYP A: لَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ — drei parallele Gattungsnegationen. Jedes der drei Nomen ist Akk. auf Fatha festgesetzt (ohne Tanwin). Reichweite: JEDE Form dieser drei Kategorien ist in der Wallfahrt ausgeschlossen — nicht nur ein einzelner Fall.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=197"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "Bestimme für لَا إِلَٰهَ إِلَّا ٱللَّهُ: welcher Typ der لَا-Negation liegt vor?",
+          "hint": "Schau auf das Wort nach لَا: إِلَٰهَ — Nomen im Akkusativ, kein Tanwin (festgesetzt). → Typ A: Gattungsnegation. Bedeutung: ‚Es gibt keinerlei Gottheit außer Allah.'",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=255"
+        },
+        {
+          "type": "classification",
+          "prompt": "Bestimme für لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ (2:264): welcher Typ der لَا-Negation liegt vor?",
+          "hint": "Schau auf das Wort nach لَا: يَهْدِي — Imperfektverb im Indikativ. → Typ B: einfache Handlungsverneinung. Kein Kasus-Effekt."
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Der diagnostische Unterschied zwischen لَا النَّافِيَة لِلْجِنْس und لَا النَّافِيَة العامة ist:",
+            "options": [
+              "Beide sind identisch",
+              "Typ A steht vor Nomen (Akk. festgesetzt, ohne Tanwin); Typ B steht vor Imperfektverb (Indikativ, kein Modus-Effekt)",
+              "Typ A ist prohibitiv (Jussiv), Typ B ist negierend",
+              "Typ A verneint Vergangenheit, Typ B Zukunft"
+            ],
+            "correct": 1,
+            "explanation": "Der Typ wird am Folgewort erkannt: Nomen (Akk. festgesetzt) = Typ A; Imperfektverb (Indikativ) = Typ B.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+          },
+          {
+            "question": "In لَا رَيْبَ فِيهِ — warum steht رَيْبَ ohne Tanwin?",
+            "options": [
+              "Weil das Wort ausnahmsweise diptotisch ist",
+              "Weil لَا als Gattungsnegation das اسم festsetzt (مَبْنِيّ عَلَى الفَتْح) — festgesetzte Fatha statt Akkusativ-Tanwin",
+              "Weil Tanwin vor Präpositionen entfällt",
+              "Weil es ein Fehler ist"
+            ],
+            "correct": 1,
+            "explanation": "Bei Typ A mit einfachem (nicht iḍāfa-tem) اسم لَا wird das Nomen مَبْنِيّ عَلَى الفَتْح ohne Tanwin. Dies ist die sichtbarste Diagnose für Typ A.",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
+          },
+          {
+            "question": "In لَا يَعْلَمُونَ — warum ist das Nun von يَعْلَمُونَ erhalten?",
+            "options": [
+              "Weil لَا hier Typ B (العامة) ist und den Modus nicht ändert — Indikativ bleibt Indikativ, Nun bleibt erhalten",
+              "Weil das Verb stark ist",
+              "Weil لَا hier Jussiv erzeugt",
+              "Weil das Subjekt Plural ist"
+            ],
+            "correct": 0,
+            "explanation": "Typ-B-لَا ändert den Modus nicht. Das Imperfekt bleibt im Indikativ — bei den fünf Verben durch das Nun sichtbar. Vergleich: لَمْ يَعْلَمُوا (Jussiv, Nun weg).",
+            "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=13"
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=2"
     }
   ]
 }

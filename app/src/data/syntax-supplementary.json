@@ -361,5 +361,225 @@
         }
       ]
     }
+  },
+  {
+    "id": "3.47",
+    "title": "Wortstellung und Verb-Subjekt-Kongruenz (الجملة الفعلية vs. الجملة الاسمية)",
+    "description": "Die Stellung des Verbs relativ zum Subjekt steuert die Kongruenz: voranstehendes Verb bleibt singular, nachstehendes Verb kongruiert in Numerus.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Zwei Satztypen im quranischen Arabisch",
+          "content": "Das Arabische unterscheidet zwei Satztypen strikt:\n\n1. الجملة الفعلية (Verbalsatz): beginnt mit dem Verb, das Subjekt folgt. Struktur: VERB + SUBJEKT + ...\n\n2. الجملة الاسمية (Nominalsatz): beginnt mit einem Nomen (mubtada'), das Prädikat folgt. Struktur: SUBJEKT + PRÄDIKAT (Nomen/Adjektiv/Präpositionalausdruck/Verbalsatz)\n\nDiese Unterscheidung ist nicht nur stilistisch — sie hat konkrete syntaktische Konsequenzen, besonders für die Kongruenz zwischen Verb und Subjekt."
+        },
+        {
+          "type": "explanation",
+          "title": "Die Kongruenzregel im Verbalsatz",
+          "content": "Im Verbalsatz (Verb vor Subjekt) bleibt das Verb im SINGULAR, auch wenn das Subjekt Dual oder Plural ist. Das Verb kongruiert nur im GENUS mit dem Subjekt, nicht im Numerus.\n\n- قَالَ الرِّجَالُ — 'die Männer sagten' (Verb Singular, Subjekt Plural)\n- قَالَتِ النِّسَاءُ — 'die Frauen sagten' (Verb feminin Singular, Subjekt Plural feminin)\n\nBei singularem Subjekt entsteht keine Friktion:\n- خَلَقَ اللَّهُ السَّمَاوَاتِ — das Verb ist Singular (Subjekt اللَّه Singular).\n\nWright II §144: 'When the verb precedes its subject, it is put in the singular, although the subject be in the dual or plural.'"
+        },
+        {
+          "type": "explanation",
+          "title": "Die Kongruenzregel im Nominalsatz",
+          "content": "Im Nominalsatz (Subjekt vor Verb) kongruiert das Verb in GENUS UND NUMERUS mit dem Subjekt.\n\n- الرِّجَالُ قَالُوا — 'die Männer sagten' (Verb Plural)\n- النِّسَاءُ قُلْنَ — 'die Frauen sagten' (Verb feminin Plural)\n\nSprachlich: Das vorangestellte Nomen ist mubtada' (Subjekt des Nominalsatzes); der folgende Verbalsatz mit pronominalem fa'il im Verb ist khabar. Der Fa'il des Verbs ist das in der Verbform gebundene Pronomen, das genusgenau auf den mubtada' verweisen muss — daher Plural-Endung -ū-.\n\nBeispiel-Analyse: الرِّجَالُ قَالُوا\n- الرِّجَالُ = mubtada' (Nominativ, Plural)\n- قَالُوا = khabar (Verbalsatz); der fa'il ist das in-Verb gebundene Pronomen 'hum'."
+        },
+        {
+          "type": "explanation",
+          "title": "Genus-Kongruenz: nichtmenschliche Plurale",
+          "content": "Eine zweite wichtige Regel: NICHTMENSCHLICHE Plurale (Dinge, Tiere, abstrakte Kollektiva) nehmen oft eine SINGULAR-FEMININE Kongruenz (mu'annath mufrad), unabhängig vom Genus des Singulars.\n\n- كُتُبٌ كَثِيرَةٌ — 'viele Bücher' (Adjektiv feminin Singular, obwohl كتاب maskulin)\n\nFür Verben:\n- تَتَنَزَّلُ الْمَلَائِكَةُ (97:4) — 'die Engel steigen herab' (Verb feminin Singular)\n- قَالَتِ الْأَعْرَابُ (49:14) — 'die Beduinen sagten' (Verb feminin Singular; Pluralsubjekt im kollektiven Sinn)"
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quranbeispiele",
+          "examples": [
+            {
+              "ref": "2:14",
+              "arabic": "وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا",
+              "explanation": "قَالُوا — impliziter pluralischer fa'il (Pronomen -ū in der Verbform). Kein explizites nachfolgendes Nomen → Plural-Endung korrekt. Die V-vor-S-Singular-Regel greift nur bei explizitem nominalem Subjekt nach dem Verb.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=14"
+            },
+            {
+              "ref": "49:14",
+              "arabic": "قَالَتِ ٱلْأَعْرَابُ ءَامَنَّا",
+              "explanation": "KLASSISCHER VERBALSATZ mit voranstehendem Verb und explizitem Pluralsubjekt. قَالَتِ — feminin SINGULAR, obwohl ٱلْأَعْرَابُ Plural ist. Die ta-Endung zeigt Genus-Kongruenz (kollektive Lesung), die Singular-Form zeigt die V-vor-S-Regel.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=14"
+            },
+            {
+              "ref": "2:76",
+              "arabic": "وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟",
+              "explanation": "خَلَا بَعْضُهُمْ — Verb خَلَا im Singular maskulin vor explizitem Subjekt بَعْضُهُمْ (Regel erfüllt). Das parallele قَالُوا bleibt im Plural, weil der fa'il pronominal (in der Verbform) ist.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=76"
+            },
+            {
+              "ref": "3:7",
+              "arabic": "يَقُولُونَ ءَامَنَّا بِهِ",
+              "explanation": "يَقُولُونَ — pronominales Subjekt in der Verbform (-ūna = 3mp). Plural-Endung, weil kein explizites nachfolgendes Nomen als fa'il.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=3&verse=7"
+            },
+            {
+              "ref": "41:11",
+              "arabic": "قَالَتَآ أَتَيْنَا طَآئِعِينَ",
+              "explanation": "قَالَتَا — DUAL-Form des Verbs. Das Subjekt (Himmel und Erde) ist pronominal im Verb enthalten. Wenn der fa'il NICHT explizit als Nomen nachsteht, muss das Verb in Numerus voll kongruieren — daher Dual-Endung -tā.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=41&verse=11"
+            },
+            {
+              "ref": "2:30",
+              "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ",
+              "explanation": "قَالَ رَبُّكَ — klassischer Verbalsatz: Verb vor explizitem Subjekt. Verb Singular, Subjekt Singular → keine Friktion. Der Ansprechpartner (لِلْمَلَائِكَةِ) beeinflusst die Verbform nicht.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=30"
+            },
+            {
+              "ref": "97:4",
+              "arabic": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا",
+              "explanation": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ — VERBALSATZ. Verb feminin SINGULAR (تَنَزَّلُ) vor pluralem Subjekt الْمَلَائِكَةُ. Doppelte Regel: V-vor-S-Singular UND nichtmenschlicher Plural → feminin Singular-Kongruenz.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=4"
+            }
+          ]
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "prompt": "Im Satz قَالَتِ ٱلْأَعْرَابُ — warum steht قَالَتِ im Singular (nicht قَالُوا)?",
+          "options": [
+            "Weil ٱلْأَعْرَابُ in Wahrheit Singular ist",
+            "Weil das Verb dem Subjekt im Verbalsatz voransteht und dann singular bleibt (V-vor-S-Regel)",
+            "Weil es ein Fehler ist",
+            "Weil Sprecher männlich sind"
+          ],
+          "answer": "Weil das Verb dem Subjekt im Verbalsatz voransteht und dann singular bleibt (V-vor-S-Regel)",
+          "explanation": "Im Verbalsatz (Verb voran) bleibt das Verb im Singular, auch bei dualem oder pluralem Subjekt. Wright II §144.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=49&verse=14"
+        },
+        {
+          "prompt": "Wie würde ‚die Männer sagten' als Nominalsatz lauten — im Gegensatz zum Verbalsatz?",
+          "options": [
+            "Verbalsatz: قَالَ الرِّجَالُ / Nominalsatz: الرِّجَالُ قَالُوا",
+            "Verbalsatz: قَالُوا الرِّجَالُ / Nominalsatz: الرِّجَالُ قَالَ",
+            "Kein Unterschied",
+            "Verbalsatz: قَالَتِ الرِّجَالُ / Nominalsatz: الرِّجَالُ قَالَتِ"
+          ],
+          "answer": "Verbalsatz: قَالَ الرِّجَالُ / Nominalsatz: الرِّجَالُ قَالُوا",
+          "explanation": "Verbalsatz (V voran) → Verb bleibt singular. Nominalsatz (Subjekt voran) → Verb kongruiert voll (Plural)."
+        },
+        {
+          "prompt": "In تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ (97:4) — welche zwei Kongruenzregeln greifen zusammen?",
+          "options": [
+            "Keine",
+            "V-vor-S-Singular + nichtmenschliche Plural-Kongruenz (feminin Singular)",
+            "Nur Genus-Kongruenz",
+            "Nur Numerus-Kongruenz"
+          ],
+          "answer": "V-vor-S-Singular + nichtmenschliche Plural-Kongruenz (feminin Singular)",
+          "explanation": "Engel sind nichtmenschlicher Plural → feminin Singular-Kongruenz. Zusätzlich steht das Verb vor dem Subjekt → Singular-Regel. Ergebnis: تَنَزَّلُ (fem. Sg.).",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=97&verse=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3.48",
+    "title": "Taqdir (تَقْدِير) — implizite grammatische Elemente",
+    "description": "Taqdir bezeichnet die Rekonstruktion eines im Text fehlenden, aber syntaktisch erforderlichen Elements. Methodische Position dieses Kurses: Taqdir NUR wenn syntaktisch zwingend — kein Hineinlesen zusätzlicher Bedeutung.",
+    "learnContent": {
+      "sections": [
+        {
+          "type": "explanation",
+          "title": "Was ist Taqdir?",
+          "content": "Taqdir (تَقْدِير, wörtlich ‚Ansetzung / Bemessung') ist ein grammatisches Analyseverfahren: Man postuliert ein im Oberflächentext FEHLENDES Element, weil ein grammatisches Muster seine Anwesenheit erfordert.\n\nBeispiele wo Taqdir syntaktisch zwingend ist:\n\n1. Bei Ellipsen im Qasam (Schwur): وَٱلشَّمْسِ — التقدير: أُقْسِمُ بِٱلشَّمْسِ.\n2. Bei Alif Maqsura am Wortende steht ein virtueller Kasus: مُوسَى im Nominativ trägt kein sichtbares ḍamma — die Markierung gilt als مُقَدَّر (angenommen, nicht sichtbar).\n3. Bei Vokativ يَا + Suffix-elidiertem Nomen: يَا رَبِّ — التقدير: يا ربي (mit elidiertem 1sg-Pronomen)."
+        },
+        {
+          "type": "explanation",
+          "title": "Methodische Position dieses Kurses",
+          "content": "Dieser Kurs folgt einer strikten Regel: Taqdir NUR wenn die SYNTAX sie zwingend erfordert.\n\nWann Taqdir zulässig ist:\n- Kasus-/Modus-Markierung ist am Oberflächentext nicht sichtbar, aber vom Regens verlangt (virtueller Kasus, z.B. bei مُوسَى, فَتَى).\n- Ein Satzglied (Subjekt, Prädikat, Kopula) fehlt, ist aber durch eine feste Konstruktion verlangt (Qasam, لَوْلَا, يَا).\n- Ein Pronominalsuffix ist durch den Vokativ elidiert (يَا رَبِّ).\n\nWann Taqdir NICHT zulässig ist:\n- Zur Ergänzung von Bedeutung die nicht grammatisch gefordert ist.\n- Zur Vervollständigung eines theologischen Sinns, der über den Text hinausgeht.\n- Zur Auflösung einer absichtlichen Offenheit. Was der Text nicht sagt, sagt er nicht. Offenheit ist Erlaubnis, nicht Lücke.\n\nKurz: Taqdir rekonstruiert GRAMMATIK, nie INHALT."
+        },
+        {
+          "type": "explanation",
+          "title": "Drei Typen syntaktisch zwingender Taqdir",
+          "content": "TYP A: MuqaddAr-Kasus / -Modus (unsichtbare Markierung)\n- Nomen auf alif maqsura: مُوسَى, عِيسَى, هُدَى — Kasus nicht sichtbar, wird als مُقَدَّر angesetzt.\n- Defektive Nomen: القَاضِي — im Nominativ/Genitiv ist -i nicht voll realisiert, Kasus wird als مُقَدَّر angesetzt.\n- Schwache Verben im Imperfekt: يَخْشَى — Modus nicht sichtbar am alif maqsura.\n\nTYP B: Elidierte Satzelemente durch feste Konstruktion\n- Qasam: وَالشَّمْسِ → أُقْسِمُ بِالشَّمْسِ (Verb impliziert)\n- Vokativ: يَا رَبِّ → يَا رَبِّي (-ī elidiert in Vokativrezitation)\n\nTYP C: Unrealisiertes Damma/Fatha durch Pause\n- Pausalformen am Versende: يَقِيمُونَ am Versende trägt phonetisch keine Endung; der Modus ist مُقَدَّر aus der syntaktischen Umgebung erschließbar."
+        },
+        {
+          "type": "quranExamples",
+          "title": "Quranbeispiele — zwingender vs. nicht-zwingender Taqdir",
+          "examples": [
+            {
+              "ref": "91:1",
+              "arabic": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+              "explanation": "وَالشَّمْسِ — das و ist ein Qasam-Waw. Eine Präpositional-Phrase allein bildet keinen Satz → ein Verb ist strukturell gefordert. التقدير: أُقْسِمُ بِالشَّمْسِ. Typ-B-Taqdir, syntaktisch zwingend.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+            },
+            {
+              "ref": "2:22",
+              "arabic": "فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+              "explanation": "وَأَنْتُمْ تَعْلَمُونَ — Hal-Satz. Das Objekt von تَعْلَمُونَ ist im Text ELIDIERT. Hier ist KEIN Taqdir eines spezifischen Objekts zwingend — der Text lässt bewusst offen ‚was' gewusst wird. Kein Taqdir.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=22"
+            },
+            {
+              "ref": "2:8",
+              "arabic": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْـَٔاخِرِ",
+              "explanation": "Hier wird oft ein Taqdir ‚Gruppe/Kategorie' vor مَنْ postuliert. Aber syntaktisch ist die Konstruktion مِنَ النَّاسِ مَنْ vollständig: مِنَ النَّاسِ ist khabar muqaddam (vorangestelltes Prädikat), مَنْ يَقُولُ ist mubtada' mu'akhkhar (nachgestelltes Subjekt). KEIN Taqdir nötig.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=8"
+            },
+            {
+              "ref": "20:9",
+              "arabic": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+              "explanation": "مُوسَى — Eigenname auf alif maqsura. Kasus hier ist Genitiv (als muḍāf ilayhi zu حَدِيثُ). Die Genitiv-Kasra ist am alif nicht realisierbar → Kasus ist مُقَدَّر (angesetzt/virtuell). Typ-A-Taqdir: syntaktisch zwingend.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=9"
+            },
+            {
+              "ref": "1:5",
+              "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+              "explanation": "إِيَّاكَ — vorangestelltes direktes Objekt (إِيَّا + Suffix ك). Kein Taqdir nötig: die Struktur ist vollständig expliziert. Das Taqdim hat hier stilistische/fokussierende Funktion, keine syntaktische Lücke.",
+              "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=1&verse=5"
+            }
+          ]
+        },
+        {
+          "type": "explanation",
+          "title": "Warum diese Position wichtig ist",
+          "content": "Traditionelle Grammatik-Literatur neigt zur großzügigen Anwendung von Taqdir — oft um theologische Auslegungen in den Text einzuschreiben. Dieser Kurs unterscheidet strikt:\n\n- GRAMMATISCHER TAQDIR: rekonstruiert unsichtbare Markierungen oder strukturell geforderte Satzelemente. Zulässig.\n- INHALTLICHER TAQDIR: ergänzt Bedeutung die der Text nicht gibt. Nicht zulässig.\n\nDer Text sagt was er sagt. Wo der Text absichtlich offen lässt, ist die Offenheit der Sinn — nicht eine zu füllende Lücke.\n\nDiese methodische Klarheit ist Voraussetzung für philologisch sauberes Arbeiten."
+        }
+      ]
+    },
+    "testContent": {
+      "exercises": [
+        {
+          "prompt": "Wann ist Taqdir in diesem Kurs zulässig?",
+          "options": [
+            "Immer, wenn der Sinn unklar ist",
+            "Wenn eine theologische Interpretation das verlangt",
+            "Nur wenn die Syntax ein Element zwingend erfordert (unsichtbare Kasus-/Modus-Markierung, Qasam-Ellipse, Vokativ-Elision etc.)",
+            "Nach persönlichem Ermessen"
+          ],
+          "answer": "Nur wenn die Syntax ein Element zwingend erfordert (unsichtbare Kasus-/Modus-Markierung, Qasam-Ellipse, Vokativ-Elision etc.)",
+          "explanation": "Taqdir rekonstruiert GRAMMATIK, nie INHALT. Offenheit des Textes ist Erlaubnis, nicht Lücke."
+        },
+        {
+          "prompt": "In وَٱلشَّمْسِ (91:1): welcher Taqdir-Typ liegt vor?",
+          "options": [
+            "Typ A: unsichtbare Kasus-Markierung",
+            "Typ B: elidiertes Verb des Qasam (أُقْسِمُ)",
+            "Kein Taqdir",
+            "Inhaltlicher Taqdir"
+          ],
+          "answer": "Typ B: elidiertes Verb des Qasam (أُقْسِمُ)",
+          "explanation": "Das Qasam-Waw ist Teil einer festen Konstruktion mit impliziertem Schwur-Verb. Syntaktisch zwingender Typ-B-Taqdir.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=91&verse=1"
+        },
+        {
+          "prompt": "Warum ist bei مُوسَى im Genitiv (20:9) ein Taqdir der Kasra nötig?",
+          "options": [
+            "Er ist nicht nötig",
+            "Weil die Genitiv-Kasra am alif maqsura nicht phonologisch realisierbar ist — der Kasus wird als مُقَدَّر angesetzt",
+            "Weil Eigennamen immer Taqdir brauchen",
+            "Weil die Aussprache undeutlich ist"
+          ],
+          "answer": "Weil die Genitiv-Kasra am alif maqsura nicht phonologisch realisierbar ist — der Kasus wird als مُقَدَّر angesetzt",
+          "explanation": "Typ-A-Taqdir: die grammatische Kasusmarkierung ist syntaktisch gefordert, aber phonologisch nicht realisierbar → virtueller/muqaddar Kasus.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=20&verse=9"
+        }
+      ]
+    }
   }
 ]

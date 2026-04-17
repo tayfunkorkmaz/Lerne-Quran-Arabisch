@@ -8,7 +8,22 @@
       {
         "name": "Quranic Arabic Corpus",
         "url": "https://corpus.quran.com/"
+      },
+      {
+        "name": "Lane's Arabic-English Lexicon (via Arabic Almanac)",
+        "url": "https://ejtaal.net/aa/",
+        "note": "Für die Einzelsemantik jeder Kollokationswurzel — pro Wurzel direkt verlinkt in root-meanings.json (Feld lanesUrl)."
+      },
+      {
+        "name": "Arabic Student's Dictionary (Penrice)",
+        "url": "https://arabicstudentsdictionary.com/",
+        "note": "Nachschlagewerk für Kollokationen und idiomatische Wendungen — ergänzt corpus.quran.com bei phraseologischen Bedeutungen."
       }
+    ],
+    "verificationWorkflow": [
+      "Einzelwurzel-Semantik: In root-meanings.json nach root1 bzw. root2 nachschlagen → lanesUrl öffnen.",
+      "Kollokations-Bedeutung: In arabicstudentsdictionary.com nach der Kombination oder jeder Wurzel einzeln suchen.",
+      "Kontextbeleg: corpusUrl1/corpusUrl2 im Eintrag öffnen und die konkrete Quranstelle prüfen."
     ]
   },
   "rootCollocations": [

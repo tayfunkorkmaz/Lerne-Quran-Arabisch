@@ -281,6 +281,138 @@
       },
       "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
       "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=196"
+    },
+    {
+      "id": "TAM4",
+      "title": "Hal vs. Tamyiz — systematischer Kontrast",
+      "learnContent": {
+        "sections": [
+          {
+            "type": "explanation",
+            "title": "Warum diese Gegenüberstellung nötig ist",
+            "content": "Hal (حال) und Tamyiz (تمييز) sehen auf den ersten Blick identisch aus: beide sind akkusativische Ergänzungen, beide stehen oft indefinit, beide beantworten eine Präzisierungsfrage. In der Quranlektüre werden sie ständig verwechselt — mit der Folge einer verdrehten semantischen Analyse.\n\nDie saubere Unterscheidung erfordert vier Diagnosekriterien. Diese Lektion kontrastiert systematisch — siehe auch HAL1-3 (Hal in voller Tiefe) und TAM1-3 (Tamyiz in voller Tiefe)."
+          },
+          {
+            "type": "explanation",
+            "title": "Kriterium 1 — Was wird präzisiert?",
+            "content": "HAL präzisiert den ZUSTAND des Satzgliedes (Subjekt oder Objekt) ZUR ZEIT der Handlung. Die Frage lautet: ‚in welchem Zustand?' (كَيْفَ؟)\n\nTAMYIZ präzisiert eine semantische VAGHEIT einer Zahl, eines Elativs, eines Massennomens oder einer Verbgruppe. Die Frage lautet: ‚in Bezug worauf?' oder ‚wovon?' (مِنْ أَيِّ شَيْءٍ؟)\n\n- جَاءَ الرَّجُلُ ضَاحِكًا — HAL: wie kam er? lachend. (Zustand)\n- اِشْتَرَيْتُ رِطْلًا زَيْتًا — TAMYIZ: ein Pfund wovon? Öl. (Spezifikation der Maßeinheit)"
+          },
+          {
+            "type": "explanation",
+            "title": "Kriterium 2 — Kongruenz",
+            "content": "HAL kongruiert mit dem Sahib al-Hal in GENUS und NUMERUS.\n- جَاءَتِ الْمَرْأَةُ ضَاحِكَةً — فاعل feminin Sg., Hal feminin Sg.\n- جَاءَ الرِّجَالُ ضَاحِكِينَ — فاعل mask. Pl., Hal mask. Pl.\n\nTAMYIZ kongruiert NICHT mit dem spezifizierten Wort. Er steht in der Form, die seine eigene Semantik fordert — oft Singular:\n- عِشْرُونَ كِتَابًا — twenty [Tamyiz: Sg.]: NICHT عِشْرُونَ كُتُبًا.\n- مِائَةُ رَجُلٍ — hundred [Tamyiz: Sg. Genitiv].\n\nDiagnose: Wenn die Form des Akkusativ-Nomens nicht mit dem erwarteten Bezugswort kongruiert, ist es wahrscheinlich Tamyiz — nicht Hal."
+          },
+          {
+            "type": "explanation",
+            "title": "Kriterium 3 — Trigger / Auslöser",
+            "content": "HAL wird durch die HANDLUNG/das VERB selbst ausgelöst — jedes Prädikat kann einen Hal erlauben. Der Hal ergänzt die Handlung um eine Zustandsinformation.\n\nTAMYIZ wird durch einen VAGHEITS-TRIGGER ausgelöst: Zahlwort (11-99), Elativ (أَفْعَل-Form), Massennomen, Verben der Fülle/Steigerung/Überströmung (اِمْتَلَأَ, طَابَ, اِشْتَدَّ). Ohne solchen Trigger kann kein Tamyiz stehen.\n\n- Trigger-Zahl: خَمْسُونَ كِتَابًا (Tamyiz)\n- Trigger-Elativ: أَكْرَمُ نَسَبًا (Tamyiz — edler worin? Abstammung)\n- Trigger-Verb: طَابَتْ نَفْسًا (Tamyiz — gut geworden worin? Seelisch)\n- Kein Trigger: جَاءَ رَاكِبًا (Hal — keine Vagheit zu präzisieren, sondern Zustand)"
+          },
+          {
+            "type": "explanation",
+            "title": "Kriterium 4 — Paraphrasierbarkeit",
+            "content": "HAL lässt sich paraphrasieren mit ‚während' (وَ هُوَ / حِينَ / وَقْتَ):\n- جَاءَ ضَاحِكًا = جَاءَ وَ هُوَ يَضْحَكُ\n\nTAMYIZ lässt sich paraphrasieren mit ‚min' (مِنْ) — ‚von':\n- عِشْرُونَ كِتَابًا = عِشْرُونَ مِنَ الْكُتُبِ (sinngemäß, nicht grammatisch)\n- طَابَ نَفْسًا = طَابَ مِنْ جِهَةِ النَّفْسِ (von der seelischen Seite her)\n\nPraxis-Test: Ergibt die ‚während'-Paraphrase Sinn → Hal. Ergibt die ‚wovon/in welcher Hinsicht'-Paraphrase Sinn → Tamyiz."
+          },
+          {
+            "type": "explanation",
+            "title": "Vergleichstabelle",
+            "content": "MERKMAL | HAL | TAMYIZ\n---|---|---\nFrage | كَيْفَ؟ (wie?) | مِنْ أَيّ؟ (wovon?)\nKongruenz mit Bezugswort | JA (Genus+Numerus) | NEIN\nForm | oft Partizip/Adjektiv | oft nominales Substantiv\nPosition typisch | nach Verb + Subjekt | nach Zahl/Elativ/Mengen-Ausdruck\nDefinitheit | typischerweise indefinit | immer indefinit\nTrigger | beliebige Verbalhandlung | spezifische Vagheits-Quelle\nParaphrase | ‚während' (وَ هُوَ) | ‚von / in Bezug auf' (مِنْ)\n\nDie Merkmale sind kumulativ — bei Unsicherheit mehrere Kriterien kombinieren."
+          },
+          {
+            "type": "quranExamples",
+            "title": "Quranbeispiele — direkte Gegenüberstellung",
+            "examples": [
+              {
+                "ref": "2:58",
+                "arabic": "وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا",
+                "explanation": "سُجَّدًا = HAL. Plural maskulin, kongruiert mit dem impliziten Subjekt ‚ihr' (in ادْخُلُوا). Frage: wie sollt ihr eintreten? — niederwerfend. Paraphrase: ‚tretet ein WÄHREND IHR EUCH NIEDERWERFT'. Kein Zahl-/Elativ-Trigger.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=58"
+              },
+              {
+                "ref": "12:4",
+                "arabic": "إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا",
+                "explanation": "كَوْكَبًا = TAMYIZ. Singular (trotz ‚elf'), keine Kongruenz mit Zahl. Frage: elf wovon? — Sterne. Trigger: die Zahl أَحَدَ عَشَرَ. Paraphrase mit ‚von': ‚elf VON STERNEN'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=12&verse=4"
+              },
+              {
+                "ref": "39:9",
+                "arabic": "أَمَّنْ هُوَ قَٰنِتٌ ءَانَآءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا",
+                "explanation": "سَاجِدًا وَقَائِمًا = zwei parallele HAL. Beide Sg. mask., kongruieren mit هُوَ. Frage: in welchen Zuständen? — niederwerfend und stehend. Paraphrase mit ‚während'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=39&verse=9"
+              },
+              {
+                "ref": "19:4",
+                "arabic": "وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا",
+                "explanation": "شَيْبًا = TAMYIZ (nisba-Tamyiz). Der Satz ‚das Haupt entzündete sich' ist semantisch vage — wovon? Die Präzisierung شَيْبًا (an weißen Haaren) ist Tamyiz. Trigger: das metaphorische Verb der Fülle اِشْتَعَلَ. Paraphrase: ‚das Haupt entzündete sich VON weißen Haaren her'.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=4"
+              },
+              {
+                "ref": "2:177",
+                "arabic": "وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِ ذَوِى ٱلْقُرْبَىٰ",
+                "explanation": "عَلَىٰ حُبِّهِ = Hal-äquivalent als Präpositionalphrase (ein ähnlicher Zustand wird beschrieben: ‚indem er es liebt'). Unterschied zu Tamyiz: hier keine quantitativ-qualitative Vagheit, sondern ein Zustandsbezug. Vergleich mit Tamyiz ist lehrreich.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=2&verse=177"
+              },
+              {
+                "ref": "4:1",
+                "arabic": "وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً",
+                "explanation": "رِجَالًا = Mafʿul bihi (direktes Objekt von بَثَّ). NICHT Hal, NICHT Tamyiz — weder Zustandsfrage noch Vagheit-Trigger. Dieses Beispiel zeigt: nicht jeder indefinite Akkusativ ist Hal oder Tamyiz; viele sind einfach direktes Objekt.",
+                "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=4&verse=1"
+              }
+            ]
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "type": "classification",
+          "prompt": "In قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا (19:4): ist شَيْبًا Hal oder Tamyiz? Mit welchem Kriterium?",
+          "hint": "Trigger: das Verb اِشْتَعَلَ ist ein Verb der metaphorischen Fülle — es erzeugt semantische Vagheit ('entzündete sich wovon?'). Daher Tamyiz. Paraphrase mit ‚von': ‚das Haupt entzündete sich von weißen Haaren'. Keine Kongruenz-Prüfung möglich.",
+          "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=4"
+        },
+        {
+          "type": "classification",
+          "prompt": "In وَتَذَرُونَ ٱلْءَاخِرَةَ (75:21) — und im Kontrast dazu ein konstruierter Satz وَتَذَرُونَ ٱلْءَاخِرَةَ غَافِلِينَ: welcher Typ wäre غَافِلِينَ?",
+          "hint": "غَافِلِينَ kongruiert in Plural maskulin mit dem impliziten Subjekt ‚ihr'. Beantwortet ‚in welchem Zustand verlasst ihr das Jenseits?' — Hal. Paraphrase: ‚während ihr unachtsam seid'. Kein Zahl-/Elativ-Trigger."
+        }
+      ],
+      "testContent": {
+        "exercises": [
+          {
+            "question": "Das wichtigste Kongruenzkriterium zur Unterscheidung Hal/Tamyiz:",
+            "options": [
+              "Beide kongruieren gleich",
+              "Hal kongruiert mit dem Bezugswort (Genus+Numerus); Tamyiz nicht",
+              "Nur Tamyiz kongruiert",
+              "Keiner kongruiert"
+            ],
+            "correct": 1,
+            "explanation": "Hal ist adjektivähnlich — er kongruiert mit dem Sahib al-Hal. Tamyiz ist präzisierend — er steht unabhängig von Genus/Numerus des Triggers."
+          },
+          {
+            "question": "Trigger für Tamyiz sind typischerweise:",
+            "options": [
+              "Beliebige Verben",
+              "Zahlwörter, Elativ-Adjektive, Massenangaben, Verben der Fülle/Steigerung",
+              "Nominalsätze",
+              "Konditionale Partikel"
+            ],
+            "correct": 1,
+            "explanation": "Tamyiz braucht einen Vagheits-Trigger — Zahlen, Elativ, Massennomen, Steigerungs-/Fülle-Verben. Ohne solchen Trigger liegt kein Tamyiz vor."
+          },
+          {
+            "question": "Paraphrase-Test für Hal:",
+            "options": [
+              "‚von / in Bezug auf'",
+              "‚während' (وَهُوَ / حِينَ / وَقْتَ)",
+              "‚weil'",
+              "‚ob'"
+            ],
+            "correct": 1,
+            "explanation": "Hal ist der Zustands-Akkusativ — paraphrasierbar mit ‚während'. Tamyiz dagegen mit ‚von / in Bezug auf'."
+          }
+        ]
+      },
+      "wrightUrl": "https://archive.org/details/grammarofthearab02telerich",
+      "verifyUrl": "https://corpus.quran.com/wordbyword.jsp?chapter=19&verse=4"
     }
   ]
 }
